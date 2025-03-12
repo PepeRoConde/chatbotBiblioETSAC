@@ -116,15 +116,16 @@ class PDFProcessor:
 
 
 class LocalLLM:
-    def __init__(self, model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0"):
+    #def __init__(self, model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0"):
+    #def __init__(self, model_name="meta-llama/llama-2-7b-chat-hf"):
         """Initialize with a small, fast model for local use"""
         print(f"Loading LLM: {model_name}")
         self.device = 'mps'
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name, 
-            torch_dtype=torch.float16
-            #low_cpu_mem_usage=True
+            torch_dtype=torch.float16,  # Quantized models often use float16 precision
+            low_cpu_mem_usage=True  # This is to help with memory efficiency in local setups
         )
         self.model.to(self.device)
         
@@ -147,7 +148,7 @@ class RAGSystem:
     def __init__(
         self, 
         vectorstore,
-        k: int = 5
+        k: int = 4
     ):
         self.vectorstore = vectorstore
         
@@ -159,7 +160,7 @@ class RAGSystem:
         self.retriever = self.vectorstore.as_retriever(search_kwargs={"k": k})
         
         # Create the prompt template
-        template = """Usa a seguinte informacion para responder á pregunta. Si non sabes, di que non sabes, non intentes inventar a resposta
+        template = """Usa a seguinte informacion para responder á pregunta. Se conciso, extrae informacion importante do texto. Si non sabes, di educadamente que non sabes, non intentes inventar a resposta. A resposta debe ser agradable e clara.
 
         Contexto:
         {context}
