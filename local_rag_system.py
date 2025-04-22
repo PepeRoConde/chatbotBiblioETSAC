@@ -62,8 +62,8 @@ class PDFProcessor:
         self.pdf_folder = pdf_folder
         self.embeddings = LocalEmbeddings()
         self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=2000,  # Smaller chunks for better performance
-            chunk_overlap=100
+            chunk_size=300,  # Smaller chunks for better performance
+            chunk_overlap=15
         )
         self.documents = []
         self.vectorstore = None
@@ -116,7 +116,7 @@ class PDFProcessor:
 
 
 class LocalLLM:
-    #def __init__(self, model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0"):
+    def __init__(self, model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0"):
     #def __init__(self, model_name="meta-llama/llama-2-7b-chat-hf"):
         """Initialize with a small, fast model for local use"""
         print(f"Loading LLM: {model_name}")
@@ -134,7 +134,7 @@ class LocalLLM:
             model=self.model,
             tokenizer=self.tokenizer,
             max_new_tokens=512,
-            temperature=0.8,
+            temperature=0.1,
             top_p=0.95,
             repetition_penalty=1.1,
             device=self.device,
