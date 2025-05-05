@@ -21,7 +21,6 @@ from rich import print as rprint
 from rich.theme import Theme
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
-from LocalEmbeddings import LocalEmbeddings
 from DocumentProcessor import DocumentProcessor
 from RAGSystem import RAGSystem 
 
@@ -108,7 +107,8 @@ def main():
         rag = RAGSystem(
             vectorstore=processor.vectorstore,
             k=args.k,
-            language=args.language
+            language=args.language,
+            model_name=args.model
         )
     
     # Always use fancy welcome message, just vary the detail

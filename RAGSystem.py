@@ -13,7 +13,8 @@ class RAGSystem:
         self, 
         vectorstore: Any,
         k: int = 4,
-        language: str = "english"
+        language: str = "english",
+        model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0"
     ):
         """Initialize the RAG system.
         
@@ -36,7 +37,7 @@ class RAGSystem:
             self.verbose = True
         
         # Initialize the local LLM
-        self.local_llm = LocalLLM()
+        self.local_llm = LocalLLM(model_name)
         self.llm = self.local_llm.llm
         
         # Create the retriever
