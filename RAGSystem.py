@@ -1,4 +1,5 @@
 from typing import List, Dict, Tuple, Optional, Union, Any
+import re
 from langchain.prompts import PromptTemplate
 from langchain.docstore.document import Document
 from langchain.chains import RetrievalQA
@@ -24,6 +25,16 @@ class RAGSystem:
         self.vectorstore = vectorstore
         self.language = language
         
+        # Use the global rich console if available
+        try:
+            self.console = __builtins__.rich_console
+            self.verbose = __builtins__.verbose_mode
+        except (AttributeError, NameError):
+            # Fallback to a new console if not running from main.py
+            from rich.console import Console
+            self.console = Console()
+            self.verbose = True
+        
         # Initialize the local LLM
         self.local_llm = LocalLLM()
         self.llm = self.local_llm.llm
@@ -42,6 +53,18 @@ class RAGSystem:
             return_source_documents=True,
             chain_type_kwargs={"prompt": self.prompt}
         )
+        
+        if self.verbose:
+            self.log(f"RAG system initialized with language: {language}", "success")
+    
+    def log(self, message: str, level: str = "info") -> None:
+        """Log a message with appropriate styling based on level.
+        
+        Args:
+            message: Message to log
+            level: Log level (info, success, warning, error)
+        """
+        self.console.print(message)
     
     def _create_prompt_template(self) -> PromptTemplate:
         """Create prompt template based on selected language.
@@ -77,8 +100,33 @@ Resposta:"""
         }
         
         template = templates.get(self.language.lower(), templates["english"])
+        if self.verbose:
+            self.log(f"Using {self.language} prompt template", "info")
         return PromptTemplate.from_template(template)
         
+    def extract_answer_only(self, full_response: str) -> str:
+        """Extract just the actual answer part from a full LLM response.
+        
+        This removes any system instructions, context, or extraneous text.
+        
+        Args:
+            full_response: The complete response from the RAG system
+            
+        Returns:
+            The cleaned answer text only
+        """
+        # Try to find where the actual answer begins after all the prompting
+        # This pattern might need adjustment based on how the LLM formats answers
+        answer_only = full_response
+        
+        # Remove any "Answer:" prefix if present
+        answer_only = re.sub(r'^.*Answer:\s*', '', answer_only, flags=re.DOTALL)
+        
+        # Clean up any trailing system instructions
+        answer_only = re.sub(r'<.*?>.*', '', answer_only, flags=re.DOTALL)
+        
+        return answer_only.strip()
+    
     def query(self, question: str) -> Tuple[str, List[Document]]:
         """Query the RAG system with a question.
         
@@ -99,4 +147,10 @@ Resposta:"""
             
         source_docs = result.get("source_documents", [])
         
-        return answer, source_docs
+        if self.verbose:
+            self.log(f"Retrieved {len(source_docs)} documents for the query", "info")
+        
+        # Clean the answer before returning
+        clean_answer = self.extract_answer_only(answer)
+        
+        return clean_answer, source_docs
