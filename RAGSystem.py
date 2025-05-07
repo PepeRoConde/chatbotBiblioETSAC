@@ -4,7 +4,8 @@ from langchain.prompts import PromptTemplate
 from langchain.docstore.document import Document
 from langchain.chains import RetrievalQA
 
-from LocalLLM import LocalLLM
+# Import our new MistralLLM instead of LocalLLM
+from MistralLLM import MistralLLM
 
 class RAGSystem:
     """Retrieval Augmented Generation system."""
@@ -12,16 +13,23 @@ class RAGSystem:
     def __init__(
         self, 
         vectorstore: Any,
+        api_key: Optional[str] = None,
         k: int = 4,
         language: str = "english",
-        model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+        model_name: str = "mistral-large-latest",
+        temperature: float = 0.1,
+        max_tokens: int = 512
     ):
         """Initialize the RAG system.
         
         Args:
             vectorstore: Vector store for retrieval
+            api_key: Mistral API key (defaults to MISTRAL_API_KEY env var)
             k: Number of documents to retrieve
             language: Language for prompt template
+            model_name: Mistral model name to use
+            temperature: Sampling temperature
+            max_tokens: Maximum tokens to generate
         """
         self.vectorstore = vectorstore
         self.language = language
@@ -36,9 +44,13 @@ class RAGSystem:
             self.console = Console()
             self.verbose = True
         
-        # Initialize the local LLM
-        self.local_llm = LocalLLM(model_name)
-        self.llm = self.local_llm.llm
+        # Initialize the Mistral LLM
+        self.llm = MistralLLM(
+            api_key=api_key,
+            model_name=model_name,
+            temperature=temperature,
+            max_tokens=max_tokens
+        )
         
         # Create the retriever
         self.retriever = self.vectorstore.as_retriever(search_kwargs={"k": k})
@@ -56,7 +68,7 @@ class RAGSystem:
         )
         
         if self.verbose:
-            self.log(f"RAG system initialized with language: {language}", "success")
+            self.log(f"RAG system initialized with language: {language} and model: {model_name}", "success")
     
     def log(self, message: str, level: str = "info") -> None:
         """Log a message with appropriate styling based on level.
