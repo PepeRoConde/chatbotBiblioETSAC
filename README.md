@@ -8,18 +8,17 @@
 <p align="center">
   <img src="docs/assets/logo.png" alt="ETSACTO Logo" width="300"/>
 </p>
-<p align="center">
-  <img src="docs/assets/captura.jpeg" alt="ETSACTO captura" width="800"/>
-</p>
-<p align="center">
-  <img src="logo.png" alt="ETSACTO Logo" width="300"/>
-</p>
+
 
 ## 📘 Descrición
 
 ETSACTO é un asistente virtual intelixente especializado en normativa e servizos da Universidade da Coruña (UDC). Baseado en tecnoloxía RAG (Retrieval Augmented Generation), este sistema permite acceder de forma rápida e natural á información oficial da universidade a través de consultas en linguaxe natural.
 
 O nome "ETSACTO" fai honra ó organismo mecenas do proxecto, a biblioteca da ETSAC. Especial agradecemento a Mayra. 
+
+<p align="center">
+  <img src="docs/assets/captura.jpeg" alt="ETSACTO captura" width="800"/>
+</p>
 
 ## ✨ Características
 
