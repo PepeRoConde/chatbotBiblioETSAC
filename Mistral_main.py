@@ -133,6 +133,42 @@ def main():
             |  __|    | |  \\___ \\ / /\\ \\| |  |______| | | |  | |
             | |____   | |  ____) / ____ \\ |____     | | | |__| |
             |______|  |_| |_____/_/    \\_\\_____|    |_|  \\____/ 
+
+
+                                      :+***+:                                  
+                         *********************************                     
+                   *********************************************               
+               *****************************************************           
+                   *********************************************               
+         **+           *************************************           =**     
+       ***********         -***************************-         ***********   
+      *******************       *******************       *******************  
+       ************************     ***********     ************************   
+                                -*****  ***  *****-                            
+                              -******   ***   ******-                          
+     *************************+    .***********.    +************************* 
+      ******************       *********************       ******************  
+       **********          *****************************          **********   
+         **            *************************************            **     
+                   *********************************************               
+               *****************************************************           
+                   *********************************************               
+                         *********************************                     
+                                                                               
+                                                                               
+            ¡Bo día/Boa tarde! 👋
+
+        Son o teu asistente virtual especializado na normativa e servizos da Universidade. Estou aquí para axudarche con calquera dúbida que teñas sobre:
+        
+        📚 Biblioteca (normas, préstamos, dereitos, guías...)
+        🎓 Matrícula (grao, máster, doutoramento)
+        💰 Bolsas e axudas (becas, Santander, dificultades económicas, comedor...)
+        🌍 Mobilidade (programas de intercambio, axudas MilleniumBus...)
+        🏛 Normativa xeral (dereitos, regulamentos internos, preguntas frecuentes)
+        
+        Pregúntame o que necesites e intentarei atopar a información máis actualizada nos documentos oficiais da Universidade.
+
+
 '''
 
     console.print(titulo_ascii, style="rgb(196,45,137)")
@@ -162,12 +198,12 @@ def main():
             # Only show sources in verbose mode
             if args.verbose:
                 console.print("\n[bold]Textos dos que extráese a información:[/bold]")
-            for i, doc in enumerate(sources[:args.k]):  # Show top 3 sources
-                    console.print(Panel(
-                        doc.page_content + "...", 
-                        title=f"Texto {i+1}", 
-                        border_style="blue"
-                    ))
+                for i, doc in enumerate(sources[:args.k]):  # Show top 3 sources
+                        console.print(Panel(
+                            doc.page_content + "...", 
+                            title=f"Texto {i+1}", 
+                            border_style="blue"
+                        ))
                 
         except Exception as e:
             console.print(f"[error]Error procesando consulta:[/error] {e}")
