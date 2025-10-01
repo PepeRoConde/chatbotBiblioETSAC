@@ -1,0 +1,3 @@
+- texto precede chunck
+- no rehacer toda la base de vectores
+- contexto -> ragsystem 
