@@ -5,7 +5,7 @@ from langchain.prompts import PromptTemplate
 from langchain.docstore.document import Document
 from langchain.chains import RetrievalQA
 
-from MistralLLM import MistralLLM
+from LLMManager import LLMManager
 
 class MistralRAGSystem:
     """Retrieval Augmented Generation system using the Mistral API."""
@@ -15,7 +15,8 @@ class MistralRAGSystem:
         vectorstore: Any,
         k: int = 4,
         language: str = "english",
-        model_name: str = "mistral-medium",
+        model_name: str = "claude-3-5-sonnet-2024062",
+        provider: str = 'claude',
         api_key: str = None
     ):
         """Initialize the RAG system with Mistral API.
@@ -41,7 +42,7 @@ class MistralRAGSystem:
             self.verbose = True
         
         # Initialize the Mistral LLM
-        self.mistral_llm = MistralLLM(model_name=model_name, api_key=api_key)
+        self.mistral_llm = LLMManager(model_name=model_name, api_key=api_key)
         self.llm = self.mistral_llm.llm
         
         # Create the retriever
