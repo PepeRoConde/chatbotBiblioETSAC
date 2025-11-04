@@ -3,8 +3,9 @@ from pathlib import Path
 import os
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
 from LocalEmbeddings import LocalEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 class DocumentProcessor:
     """Class for processing multiple document types (PDF, HTML)."""

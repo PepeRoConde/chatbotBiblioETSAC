@@ -1,0 +1,9 @@
+rich
+langchain
+langchain-text-splitters
+langchain-anthropic
+langchain-mistralai
+langchain_community
+transformers
+torch
+faiss-cpu
