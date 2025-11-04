@@ -173,8 +173,12 @@ def main():
 
     console.print(titulo_ascii, style="rgb(196,45,137)")
     # Interactive query loop
+
+    question = ''
+    answer = ''
+
     while True:
-        question = console.input("\n[bold cyan]Insire a súa pregunta: [/bold cyan]")
+        question = answer + console.input("\n[bold cyan]Insire a súa pregunta: [/bold cyan]")
         if question.lower() == 'sair':
             break
             
