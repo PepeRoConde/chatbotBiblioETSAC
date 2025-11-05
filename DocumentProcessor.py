@@ -201,7 +201,8 @@ class DocumentProcessor:
         pdf_files = list(self.docs_folder.glob("*.pdf"))
         html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
         all_files = pdf_files + html_files
-        
+        self.log(os.getcwd())
+
         if not force_reload:
             self.log(f"[cyan]Encontrados {len(pdf_files)} PDFs e {len(html_files)} HTMLs[/cyan]")
         
@@ -241,7 +242,7 @@ class DocumentProcessor:
                 if file_path.suffix.lower() == '.pdf':
                     loader = PyPDFLoader(str(file_path))
                 else:
-                    loader = BSHTMLLoader(str(file_path))
+                    loader = BSHTMLLoader(str(file_path), open_encoding="utf-8")
                 
                 docs = loader.load()
                 print(len(docs))
@@ -345,7 +346,7 @@ class DocumentProcessor:
                     self.log("[yellow]⚠ Non se crearon chunks[/yellow]")
             else:
                 self.log("[yellow]⚠ Non hai documentos para procesar[/yellow]")
-            
+                
             # Clear documents from memory
             self.documents = []
                 
@@ -364,6 +365,7 @@ class DocumentProcessor:
                     self.log("[yellow]⚠ Non se crearon chunks[/yellow]")
             else:
                 self.log("[yellow]⚠ Non hai documentos para procesar[/yellow]")
+                self.log("[yellow]" + str(len(self.documents)))
             
             self.documents = []
         

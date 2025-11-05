@@ -5,8 +5,9 @@ from pathlib import Path
 from typing import List, Dict, Tuple, Optional, Union, Any
 from transformers import AutoTokenizer, AutoModel
 import torch
+from langchain_core.embeddings import Embeddings  # ← AÑADIR ESTO
 
-class LocalEmbeddings:
+class LocalEmbeddings(Embeddings):  # ← HEREDAR DE Embeddings
     """Class for generating embeddings using local models with caching."""
     
     def __init__(self, model_name: str = "sentence-transformers/all-MiniLM-L6-v2", 
@@ -17,6 +18,7 @@ class LocalEmbeddings:
             model_name: The HuggingFace model name for embeddings
             cache_dir: Directory to store cached embeddings
         """
+        super().__init__()  # ← AÑADIR ESTO
         print(f"Loading embeddings model: {model_name}")
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModel.from_pretrained(model_name)
