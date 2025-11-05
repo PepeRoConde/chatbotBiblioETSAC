@@ -7,13 +7,20 @@ from rich.markdown import Markdown
 from rich.theme import Theme
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
+# Try to load .env file if python-dotenv is available
+try:
+    from dotenv import load_dotenv
+    load_dotenv()  # This loads variables from .env file
+except ImportError:
+    pass  # python-dotenv not installed, continue without it
+
 from DocumentProcessor import DocumentProcessor
 from MistralRAGSystem import MistralRAGSystem
 
 def main():
     """Main function to run the Mistral RAG system."""
     parser = argparse.ArgumentParser(description='Mistral API RAG System for PDF and HTML documents')
-    parser.add_argument('--docs_folder', type=str, help='Folder containing PDF and HTML files', default='/Users/pepe/OneDrive - Universidade da Coruña/documentacion_y_normativa')
+    parser.add_argument('--docs_folder', type=str, help='Folder containing PDF and HTML files', default='/documentacion')
     parser.add_argument('--vector_store', type=str, default='local_vectorstore', help='Path to save/load vector store')
     parser.add_argument('--rebuild', action='store_true', help='Rebuild vector store even if it exists')
     parser.add_argument('--language', type=str, default='galician', choices=['english', 'spanish', 'galician'], 
@@ -23,22 +30,25 @@ def main():
     parser.add_argument('--k', type=int, default=4, help='Number of documents to retrieve')
     parser.add_argument('--provider', type=str, default="claude", 
                        help='Servidor del LM (mistral, claude)')
-    parser.add_argument('--model', type=str, default="claude-3-5-sonnet-2024062", 
-                       help='Claude or Mistral model name (default claude-3-5-sonnet-20240620)')
+    parser.add_argument('--model', type=str, default="claude-3-5-sonnet-20241022", 
+                       help='Claude or Mistral model name (default claude-3-5-sonnet-20241022)')
     parser.add_argument('--api_key', type=str, default=None,
-                       help='Mistral API key (if not set, will use MISTRAL_API_KEY environment variable)')
+                       help='API key (if not set, will use MISTRAL_API_KEY or ANTHROPIC_API_KEY environment variable)')
     parser.add_argument('--embedding_model', type=str, default="sentence-transformers/all-MiniLM-L6-v2",
                        help='HuggingFace model to use for embeddings')
     parser.add_argument('--verbose', action='store_true', help='Show detailed information including sources')
+    parser.add_argument('--temperature', type=float, default=0.1,
+                       help='Temperature for text generation (0.0-1.0)')
+    parser.add_argument('--max_tokens', type=int, default=512,
+                       help='Maximum tokens to generate')
     args = parser.parse_args()
     
     # Set API key environment variable if provided
     if args.api_key:
-        os.environ["MISTRAL_API_KEY"] = args.api_key
-    
-    # Check if API key is available
-    if not args.api_key and not os.environ.get("MISTRAL_API_KEY"):
-        raise ValueError("Mistral API key must be provided either via --api_key argument or MISTRAL_API_KEY environment variable")
+        if args.provider == 'mistral':
+            os.environ["MISTRAL_API_KEY"] = args.api_key
+        elif args.provider == 'claude':
+            os.environ["ANTHROPIC_API_KEY"] = args.api_key
     
     # Create a custom theme for rich
     custom_theme = Theme({
@@ -94,10 +104,10 @@ def main():
             task = progress.add_task("cargando", total=None)
             processor.load_vectorstore(args.vector_store)
     
-    # Initialize the RAG system with Mistral
+    # Initialize the RAG system
     with Progress(
         SpinnerColumn(),
-        TextColumn("[success]Inicializando sistema con Mistral..."),
+        TextColumn(f"[success]Inicializando sistema con {args.provider.upper()}..."),
         console=console,
         transient=True
     ) as progress:
@@ -108,17 +118,22 @@ def main():
             language=args.language,
             provider=args.provider,
             model_name=args.model,
-            api_key=args.api_key
+            api_key=args.api_key,
+            temperature=args.temperature,
+            max_tokens=args.max_tokens
         )
     
     # Welcome message with system info
     system_info = "[bold blue]Especificación actual do sistema[/bold blue]"
     if args.verbose:
-        system_info += f"\nMistral Modelo da lingua: [yellow]{args.model}[/yellow]"
+        system_info += f"\nProvider: [yellow]{args.provider.upper()}[/yellow]"
+        system_info += f"\nModelo: [yellow]{args.model}[/yellow]"
         system_info += f"\nLingua: [yellow]{args.language}[/yellow]"
         system_info += f"\nBase vectorial: [yellow]{args.vector_store}[/yellow]"
-        system_info += f"\nTamaño dos textos (en palabras): [yellow]{args.chunk_size}[/yellow]"
-        system_info += f"\nTextos recuperados por consulta: [yellow]{args.k}[/yellow]"
+        system_info += f"\nTamaño dos textos: [yellow]{args.chunk_size}[/yellow]"
+        system_info += f"\nTextos recuperados: [yellow]{args.k}[/yellow]"
+        system_info += f"\nTemperatura: [yellow]{args.temperature}[/yellow]"
+        system_info += f"\nMax tokens: [yellow]{args.max_tokens}[/yellow]"
     
     system_info += "\nEscriba [bold red]'sair'[/bold red] para saír."
     
@@ -214,7 +229,9 @@ def main():
                 
         except Exception as e:
             console.print(f"[error]Error procesando consulta:[/error] {e}")
-
+            if args.verbose:
+                import traceback
+                console.print(traceback.format_exc())
 
 if __name__ == "__main__":
     main()

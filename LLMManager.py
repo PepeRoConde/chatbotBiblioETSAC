@@ -2,42 +2,64 @@ from typing import Any, List, Optional
 import os
 from langchain_mistralai import ChatMistralAI
 from langchain_anthropic import ChatAnthropic
-from langchain.schema.output_parser import StrOutputParser
-class LLMManager:
-    """Class for using the API."""
 
-    def __init__(self, provider: str = 'claude', model_name: str = "mistral-medium", api_key: str = None):
-        """Initialize the Mistral API client.
+class LLMManager:
+    """Class for managing LLM providers (Mistral and Claude)."""
+
+    def __init__(
+        self, 
+        provider: str = 'claude', 
+        model_name: str = "claude-3-5-sonnet-20241022", 
+        api_key: str = None,
+        temperature: float = 0.1,
+        max_tokens: int = 512
+    ):
+        """Initialize the LLM client.
 
         Args:
-            model_name: Mistral model name (e.g., "mistral-tiny", "mistral-small", "mistral-medium", "mistral-large")
-            api_key: Mistral API key. If None, will look for MISTRAL_API_KEY environment variable
+            provider: LLM provider ('mistral' or 'claude')
+            model_name: Model name to use
+            api_key: API key (provider-specific)
+            temperature: Temperature for generation
+            max_tokens: Maximum tokens to generate
         """
-        # Use provided API key or get from environment variables
-        self.api_key = api_key or os.environ.get("MISTRAL_API_KEY")
-        if not self.api_key:
-            raise ValueError("Mistral API key not provided and MISTRAL_API_KEY environment variable not set")
+        self.provider = provider.lower()
+        
+        # Get API key based on provider
+        if self.provider == 'mistral':
+            self.api_key = api_key or os.environ.get("MISTRAL_API_KEY")
+            if not self.api_key:
+                raise ValueError(
+                    "Mistral API key not provided and MISTRAL_API_KEY environment variable not set"
+                )
+        elif self.provider == 'claude':
+            self.api_key = api_key or os.environ.get("ANTHROPIC_API_KEY")
+            if not self.api_key:
+                raise ValueError(
+                    "Anthropic API key not provided and ANTHROPIC_API_KEY environment variable not set"
+                )
+        else:
+            raise ValueError(f"Unknown provider: {provider}. Use 'mistral' or 'claude'")
 
-        print(f"Initializing Mistral API with model: {model_name}")
+        print(f"Initializing {self.provider.upper()} API with model: {model_name}")
 
-        # Initialize the Mistral chat model
-        if provider == 'mistral':
+        # Initialize the appropriate chat model
+        if self.provider == 'mistral':
             self.chat_model = ChatMistralAI(
                 model=model_name,
                 mistral_api_key=self.api_key,
-                temperature=0.1,
-                max_tokens=512,
+                temperature=temperature,
+                max_tokens=max_tokens,
                 top_p=0.95
             )
-        elif provider == 'claude':
+        elif self.provider == 'claude':
             self.chat_model = ChatAnthropic(
                 model=model_name,
-                #anthropic_api_key=self.api_key,
-                temperature=0.1,
-                max_tokens=512,
+                anthropic_api_key=self.api_key,
+                temperature=temperature,
+                max_tokens=max_tokens,
                 top_p=0.95
             )
 
-        # Create a simple wrapper to make it compatible with our existing code
-        # that expects an LLM with an invoke method
-        self.llm = self.chat_model #| StrOutputParser()
+        # For LangChain 1.0 compatibility, the chat model itself is the LLM
+        self.llm = self.chat_model
