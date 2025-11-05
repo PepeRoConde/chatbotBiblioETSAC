@@ -1,3 +1,5 @@
 documentacion/
 venv/
 .env
+.venv/
+venv12/
