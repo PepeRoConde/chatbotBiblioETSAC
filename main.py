@@ -29,9 +29,11 @@ def main():
     parser.add_argument('--chunk_overlap', type=int, default=15, help='Overlap between chunks')
     parser.add_argument('--k', type=int, default=4, help='Number of documents to retrieve')
     parser.add_argument('--threshold', type=float, default=0.7, help='How hard filter documents')
+    parser.add_argument('--search_type', type=str, default="mmr", 
+                        help='Way of performing search (default: mmr, possible: similarity)')
     parser.add_argument('--provider', type=str, default="claude", 
                        help='Servidor del LM (mistral, claude)')
-    parser.add_argument('--model', type=str, default="claude-3-5-sonnet-20241022", 
+    parser.add_argument('--model', type=str, default="claude-3-5-haiku-20241022", 
                        help='Claude or Mistral model name (default claude-3-5-sonnet-20241022)')
     parser.add_argument('--api_key', type=str, default=None,
                        help='API key (if not set, will use MISTRAL_API_KEY or ANTHROPIC_API_KEY environment variable)')
@@ -117,6 +119,7 @@ def main():
             vectorstore=processor.vectorstore,
             k=args.k,
             threshold=args.threshold,
+            search_type=args.search_type,
             language=args.language,
             provider=args.provider,
             model_name=args.model,
@@ -134,6 +137,8 @@ def main():
         system_info += f"\nBase vectorial: [yellow]{args.vector_store}[/yellow]"
         system_info += f"\nTamaño dos textos: [yellow]{args.chunk_size}[/yellow]"
         system_info += f"\nTextos recuperados: [yellow]{args.k}[/yellow]"
+        system_info += f"\nUmbral de recuperacion: [yellow]{args.threshold}[/yellow]"
+        system_info += f"\nMétodo de recuperacion: [yellow]{args.search_type}[/yellow]"
         system_info += f"\nTemperatura: [yellow]{args.temperature}[/yellow]"
         system_info += f"\nMax tokens: [yellow]{args.max_tokens}[/yellow]"
     
