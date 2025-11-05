@@ -20,7 +20,7 @@ from MistralRAGSystem import MistralRAGSystem
 def main():
     """Main function to run the Mistral RAG system."""
     parser = argparse.ArgumentParser(description='Mistral API RAG System for PDF and HTML documents')
-    parser.add_argument('--docs_folder', type=str, help='Folder containing PDF and HTML files', default='/documentacion')
+    parser.add_argument('--docs_folder', type=str, help='Folder containing PDF and HTML files', default='documentacion')
     parser.add_argument('--vector_store', type=str, default='local_vectorstore', help='Path to save/load vector store')
     parser.add_argument('--rebuild', action='store_true', help='Rebuild vector store even if it exists')
     parser.add_argument('--clear-cache', action='store_true', help='Clear all caches before starting')
