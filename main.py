@@ -10,9 +10,9 @@ from rich.progress import Progress, SpinnerColumn, TextColumn
 # Try to load .env file if python-dotenv is available
 try:
     from dotenv import load_dotenv
-    load_dotenv()  # This loads variables from .env file
+    load_dotenv()
 except ImportError:
-    pass  # python-dotenv not installed, continue without it
+    pass
 
 from DocumentProcessor import DocumentProcessor
 from MistralRAGSystem import MistralRAGSystem
@@ -23,6 +23,7 @@ def main():
     parser.add_argument('--docs_folder', type=str, help='Folder containing PDF and HTML files', default='/documentacion')
     parser.add_argument('--vector_store', type=str, default='local_vectorstore', help='Path to save/load vector store')
     parser.add_argument('--rebuild', action='store_true', help='Rebuild vector store even if it exists')
+    parser.add_argument('--clear-cache', action='store_true', help='Clear all caches before starting')
     parser.add_argument('--language', type=str, default='galician', choices=['english', 'spanish', 'galician'], 
                        help='Language for the prompt template')
     parser.add_argument('--chunk_size', type=int, default=300, help='Size of text chunks')
@@ -62,15 +63,23 @@ def main():
     })
     
     # Initialize rich console with our theme
-    console = Console(theme=custom_theme,color_system="truecolor")
+    console = Console(theme=custom_theme, color_system="truecolor")
     
     # Share the console and verbose setting globally
-    # This is used by other classes to respect the verbose setting
     import builtins
     setattr(builtins, 'rich_console', console)
     setattr(builtins, 'verbose_mode', args.verbose)
     
-    # Initialize the document processor with fancy progress display
+    # Clear cache if requested
+    if args.clear_cache:
+        console.print("[yellow]Limpiando caché...[/yellow]")
+        import shutil
+        cache_dir = Path(".doc_cache")
+        if cache_dir.exists():
+            shutil.rmtree(cache_dir)
+            console.print("[success]Caché eliminada[/success]")
+    
+    # Initialize the document processor
     with Progress(
         SpinnerColumn(),
         TextColumn("[success]Inicializando analizador de textos..."),
@@ -78,34 +87,61 @@ def main():
         transient=True
     ) as progress:
         progress.add_task("init", total=None)
+        print(args.docs_folder)
         processor = DocumentProcessor(
             docs_folder=args.docs_folder,
             embedding_model_name=args.embedding_model,
             chunk_size=args.chunk_size,
             chunk_overlap=args.chunk_overlap,
-            verbose=args.verbose
+            verbose=args.verbose,
+            cache_dir=".doc_cache"
         )
     
     # Check if vector store exists and if we need to rebuild
     if not os.path.exists(args.vector_store) or args.rebuild:
+        # Full rebuild
         with Progress(
             SpinnerColumn(),
-            TextColumn("[success]Procesando textos e construíndo a base vectorial (esto faise unha única vez)..."),
+            TextColumn("[success]Procesando textos e construíndo a base vectorial..."),
             console=console,
             transient=True
         ) as progress:
             task = progress.add_task("Procesando...", total=None)
-            processor.process()
+            processor.process(force_reload=True, incremental=False)
             processor.save_vectorstore(args.vector_store)
     else:
+        # Load existing vectorstore
         with Progress(
             SpinnerColumn(),
-            TextColumn("[success]Cargando base vectorial existente..."),
+            TextColumn("[success]Cargando vectorstore..."),
             console=console,
             transient=True
         ) as progress:
             task = progress.add_task("cargando", total=None)
             processor.load_vectorstore(args.vector_store)
+        
+        # Check for changes and rebuild if necessary (with cached embeddings)
+        with Progress(
+            SpinnerColumn(),
+            TextColumn("[success]Comprobando actualizacións..."),
+            console=console,
+            transient=True
+        ) as progress:
+            task = progress.add_task("comprobando", total=None)
+            processor.process(force_reload=False, incremental=True)
+            # Save vectorstore (will save only if there were changes)
+            processor.save_vectorstore(args.vector_store)
+    
+    # Show cache stats if verbose
+    if args.verbose:
+        stats = processor.get_cache_stats()
+        cache_info = f"[bold blue]Estadísticas de caché:[/bold blue]"
+        cache_info += f"\nArquivos rastreados: [yellow]{stats['tracked_files']}[/yellow]"
+        cache_info += f"\nPDFs: [yellow]{stats['files_by_type']['pdf']}[/yellow]"
+        cache_info += f"\nHTMLs: [yellow]{stats['files_by_type']['html']}[/yellow]"
+        cache_info += f"\nEmbeddings en caché: [yellow]{stats['embedding_cache']['cached_documents']}[/yellow]"
+        cache_info += f"\nTamaño caché: [yellow]{stats['embedding_cache']['cache_size_mb']:.2f} MB[/yellow]"
+        console.print(Panel.fit(cache_info, title="Información de caché", border_style="cyan"))
     
     # Initialize the RAG system
     with Progress(
@@ -150,7 +186,6 @@ def main():
         border_style="green"
     ))
     
-
     titulo_ascii = '''
              ______ _______ _____         _____   _______ ____  
             |  ____|__   __/ ____|  /\\   / ____| |__   __/ __ \\ 
@@ -192,20 +227,51 @@ def main():
         🏛 Normativa xeral (dereitos, regulamentos internos, preguntas frecuentes)
         
         Pregúntame o que necesites e intentarei atopar a información máis actualizada nos documentos oficiais da Universidade.
-
-
 '''
 
     console.print(titulo_ascii, style="rgb(196,45,137)")
-    # Interactive query loop
-
+    
     question = ''
     answer = ''
 
+
+
+    console.print("\n[dim]Comandos especiales:[/dim]")
+    console.print("[dim]  - 'sair' → Saír do programa[/dim]")
+    console.print("[dim]  - 'limpar' → Limpar historial de conversación[/dim]")
+    console.print("[dim]  - 'historial' → Ver historial de conversación[/dim]\n")
+
     while True:
-        question = answer + console.input("\n[bold cyan]Insire a súa pregunta: [/bold cyan]")
+        question = console.input("\n[bold cyan]Insire a súa pregunta: [/bold cyan]")
+        
+        # Comandos especiales
         if question.lower() == 'sair':
+            console.print("[yellow]Adeus! 👋[/yellow]")
             break
+        
+        if question.lower() == 'limpar':
+            rag.clear_history()
+            console.print("[green]✓ Historial de conversación limpo[/green]")
+            continue
+        
+        if question.lower() == 'historial':
+            history = rag.get_history()
+            if not history:
+                console.print("[yellow]Non hai historial de conversación[/yellow]")
+            else:
+                console.print(Panel.fit(
+                    "\n".join([
+                        f"[cyan]P{i+1}:[/cyan] {h['question']}\n[green]R{i+1}:[/green] {h['answer'][:100]}..."
+                        for i, h in enumerate(history)
+                    ]),
+                    title=f"Historial ({len(history)} interaccións)",
+                    border_style="blue"
+                ))
+            continue
+        
+        if not question.strip():
+            console.print("[yellow]Por favor, insire unha pregunta[/yellow]")
+            continue
             
         try:
             with Progress(
@@ -215,24 +281,26 @@ def main():
                 transient=True
             ) as progress:
                 task = progress.add_task("procesando", total=None)
-                answer, sources = rag.query(question)
+                answer, sources = rag.query(question, use_history=True)  # MODIFICADO: use_history=True
             
-            # Display formatted answer
             console.print(Panel(
                 Markdown(answer), 
                 title="Resposta", 
                 border_style="green"
             ))
             
-            # Only show sources in verbose mode
             if args.verbose:
+                # Mostrar número de interacciones en el historial
+                history_len = len(rag.get_history())
+                console.print(f"[dim]Conversacións no historial: {history_len}[/dim]")
+                
                 console.print("\n[bold]Textos dos que extráese a información:[/bold]")
-                for i, doc in enumerate(sources[:args.k]):  # Show top 3 sources
-                        console.print(Panel(
-                            doc.page_content + "...", 
-                            title=f"Texto {i+1}", 
-                            border_style="blue"
-                        ))
+                for i, doc in enumerate(sources[:args.k]):
+                    console.print(Panel(
+                        doc.page_content[:200] + "...", 
+                        title=f"Texto {i+1}", 
+                        border_style="blue"
+                    ))
                 
         except Exception as e:
             console.print(f"[error]Error procesando consulta:[/error] {e}")
