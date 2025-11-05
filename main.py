@@ -28,6 +28,7 @@ def main():
     parser.add_argument('--chunk_size', type=int, default=300, help='Size of text chunks')
     parser.add_argument('--chunk_overlap', type=int, default=15, help='Overlap between chunks')
     parser.add_argument('--k', type=int, default=4, help='Number of documents to retrieve')
+    parser.add_argument('--threshold', type=float, default=0.7, help='How hard filter documents')
     parser.add_argument('--provider', type=str, default="claude", 
                        help='Servidor del LM (mistral, claude)')
     parser.add_argument('--model', type=str, default="claude-3-5-sonnet-20241022", 
@@ -115,6 +116,7 @@ def main():
         rag = MistralRAGSystem(
             vectorstore=processor.vectorstore,
             k=args.k,
+            threshold=args.threshold,
             language=args.language,
             provider=args.provider,
             model_name=args.model,

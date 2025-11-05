@@ -17,6 +17,8 @@ class MistralRAGSystem:
         self, 
         vectorstore: Any,
         k: int = 4,
+        threshold: float = 0.7,
+        search_type: str  = "mmr",
         language: str = "english",
         model_name: str = "claude-3-5-sonnet-20241022",
         provider: str = 'claude',
@@ -29,6 +31,8 @@ class MistralRAGSystem:
         Args:
             vectorstore: Vector store for retrieval
             k: Number of documents to retrieve
+            threshold: Filter unrelevant documents
+            search_type: Way of performing the retrieval
             language: Language for prompt template
             model_name: Model name to use
             provider: LLM provider ('mistral' or 'claude')
@@ -37,6 +41,8 @@ class MistralRAGSystem:
         self.vectorstore = vectorstore
         self.language = language
         self.k = k
+        self.threshold = threshold
+        self.search_type = search_type
         
         # Use the global rich console if available
         try:
@@ -57,7 +63,9 @@ class MistralRAGSystem:
         self.llm = self.llm_manager.llm
         
         # Create the retriever
-        self.retriever = self.vectorstore.as_retriever(search_kwargs={"k": k})
+        self.retriever = self.vectorstore.as_retriever(search_kwargs={"k": self.k, 
+                                                                      "score_threshold": self.threshold},
+                                                       search_type=self.search_type)
         
         # Create the prompt template based on language
         self.prompt = self._create_prompt_template()
