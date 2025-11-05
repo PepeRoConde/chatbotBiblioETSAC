@@ -133,7 +133,11 @@ class DocumentProcessor:
             path: Path to load the vector store from
         """
         if os.path.exists(path):
-            self.vectorstore = FAISS.load_local(path, self.embeddings, allow_dangerous_deserialization=True)
+            self.vectorstore = FAISS.load_local(
+                path, 
+                self.embeddings, 
+                allow_dangerous_deserialization=True
+            )
             self.log(f"Vector store loaded from {path}", "success")
         else:
             self.log(f"No vector store found at {path}", "warning")
