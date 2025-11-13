@@ -4,3 +4,5 @@ venv/
 .venv/
 venv12/
 __pycache__/*
+*.swp
+crawled_data/*
