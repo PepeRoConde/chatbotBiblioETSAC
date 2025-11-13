@@ -20,7 +20,9 @@ class DocumentProcessor:
         chunk_size: int = 300,
         chunk_overlap: int = 15,
         verbose: bool = False,
-        cache_dir: str = ".doc_cache"
+        cache_dir: str = ".doc_cache",
+        prefix_mode: str = "source",
+        llm: Optional[Any] = None,
     ):
         """Initialize document processor.
         
@@ -59,6 +61,22 @@ class DocumentProcessor:
         except (AttributeError, NameError):
             from rich.console import Console
             self.console = Console()
+
+        self.prefix_mode = prefix_mode
+
+        self.llm = llm
+
+        valid_modes = {"none", "source", "llm"}
+        if self.prefix_mode not in valid_modes:
+            raise ValueError(f"prefix_mode must be one of {valid_modes}")
+
+        if self.verbose:
+            mode_desc = {
+                "none": "sen prefixo",
+                "source": "co nome do documento",
+                "llm": "xerado por LLM"
+            }[prefix_mode]
+            self.log(f"Dividindo documentos en fragmentos ({mode_desc})...")
     
     def _load_file_metadata(self) -> Dict[str, Dict]:
         """Load file metadata (hashes, modification times)."""
@@ -281,15 +299,64 @@ class DocumentProcessor:
             'unchanged': unchanged_docs
         }
     
-    def split_documents(self) -> List:
-        """Split documents into chunks."""
-        if self.verbose:
-            self.log("Dividindo documentos en fragmentos...")
+    def split_documents(self, prefix_mode: str = "none") -> List:
+        """Split documents into chunks, with optional prefixing behavior.
+
+        Args:
+            prefix_mode: 'none', 'source', or 'llm'
+        
+        Returns:
+            List of split Document chunks
+        """
+
+        # Split using the text splitter
         chunks = self.text_splitter.split_documents(self.documents)
+
+        if prefix_mode == "source":
+            for chunk in chunks:
+                source_file = chunk.metadata.get("source_file", "descoñecido")
+                prefix = f"Este fragmento é do documento {Path(source_file).name}: "
+                chunk.page_content = prefix + chunk.page_content
+
+        elif prefix_mode == "llm":
+            if llm is None:
+                raise ValueError("Debe proporcionar un LLM se se usa prefix_mode='llm'")
+
+            for i, chunk in enumerate(chunks):
+                source_file = Path(chunk.metadata.get("source_file", 'descoñecido')).name
+                prompt = (
+                    f"Escribe unha breve frase introdutoria (máx. 1-2 oracións) que resuma o seguinte fragmento "
+                    f"do documento '{source_file}' e sirva como contexto:\n\n"
+                    f"---\n{chunk.page_content[:400]}\n---\n"
+                    f"Responde soamente coa frase introdutoria en galego, sen repetir o texto do fragmento."
+                )
+                try:
+                    if hasattr(self.llm, "invoke"):
+                        prefix_text = self.llm.invoke(prompt)
+                    elif hasattr(self.llm, "generate"):
+                        prefix_text = self.llm.generate(prompt)
+                    else:
+                        raise ValueError("O obxecto LLM non ten un método invoke() nin generate().")
+
+                    # if the LLM returns an object (e.g. from LangChain), extract text
+                    if isinstance(prefix_text, dict) and "content" in prefix_text:
+                        prefix_text = prefix_text["content"]
+                    elif not isinstance(prefix_text, str):
+                        prefix_text = str(prefix_text)
+
+                    prefix = prefix_text.strip() + "\n\n"
+                    chunk.page_content = prefix + chunk.page_content
+                    chunk.metadata["llm_prefix"] = prefix_text.strip()
+
+                except Exception as e:
+                    self.log(f"[red]Erro xerando prefixo LLM para {source_file}: {e}[/red]")
+                    continue
+
         if self.verbose:
             self.log(f"Creados {len(chunks)} fragmentos de documento", "success")
+
         return chunks
-    
+ 
     def create_vectorstore(self, chunks: List) -> None:
         """Create a vector store from document chunks."""
         if self.verbose:
