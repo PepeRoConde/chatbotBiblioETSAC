@@ -14,13 +14,17 @@ try:
 except ImportError:
     pass
 
+
+from LLMManager import LLMManager
 from DocumentProcessor import DocumentProcessor
 from MistralRAGSystem import MistralRAGSystem
+from portada import titulo_ascii
 
 def main():
     """Main function to run the Mistral RAG system."""
     parser = argparse.ArgumentParser(description='Mistral API RAG System for PDF and HTML documents')
-    parser.add_argument('--docs_folder', type=str, help='Folder containing PDF and HTML files', default='documentacion')
+    parser.add_argument('--docs_folder', type=str, help='Store metadata', default='.doc_cache')
+    parser.add_argument('--cache_dir', type=str, help='Folder containing PDF and HTML files', default='documentacion')
     parser.add_argument('--vector_store', type=str, default='local_vectorstore', help='Path to save/load vector store')
     parser.add_argument('--rebuild', action='store_true', help='Rebuild vector store even if it exists')
     parser.add_argument('--clear-cache', action='store_true', help='Clear all caches before starting')
@@ -32,6 +36,8 @@ def main():
     parser.add_argument('--threshold', type=float, default=0.7, help='How hard filter documents')
     parser.add_argument('--search_type', type=str, default="mmr", 
                         help='Way of performing search (default: mmr, possible: similarity)')
+    parser.add_argument('--prefix_mode', type=str, default="source", 
+                       help='Como e o texto que vai preceder o chunk {none, source, llm}')
     parser.add_argument('--provider', type=str, default="claude", 
                        help='Servidor del LM (mistral, claude)')
     parser.add_argument('--model', type=str, default="claude-3-5-haiku-20241022", 
@@ -79,6 +85,14 @@ def main():
             shutil.rmtree(cache_dir)
             console.print("[success]Caché eliminada[/success]")
     
+    
+    # Initialize the LLM
+    llm = LLMManager(
+        provider=args.provider,
+        model_name=args.model, 
+        api_key=args.api_key
+    ).llm
+
     # Initialize the document processor
     with Progress(
         SpinnerColumn(),
@@ -94,7 +108,9 @@ def main():
             chunk_size=args.chunk_size,
             chunk_overlap=args.chunk_overlap,
             verbose=args.verbose,
-            cache_dir=".doc_cache"
+            cache_dir=args.cache_dir,
+            prefix_mode=args.prefix_mode,
+            llm=llm
         )
     
     # Check if vector store exists and if we need to rebuild
@@ -158,7 +174,7 @@ def main():
             search_type=args.search_type,
             language=args.language,
             provider=args.provider,
-            model_name=args.model,
+            llm=llm,
             api_key=args.api_key,
             temperature=args.temperature,
             max_tokens=args.max_tokens
@@ -186,49 +202,6 @@ def main():
         border_style="green"
     ))
     
-    titulo_ascii = '''
-             ______ _______ _____         _____   _______ ____  
-            |  ____|__   __/ ____|  /\\   / ____| |__   __/ __ \\ 
-            | |__     | | | (___   /  \\ | |   ______| | | |  | |
-            |  __|    | |  \\___ \\ / /\\ \\| |  |______| | | |  | |
-            | |____   | |  ____) / ____ \\ |____     | | | |__| |
-            |______|  |_| |_____/_/    \\_\\_____|    |_|  \\____/ 
-
-
-                                      :+***+:                                  
-                         *********************************                     
-                   *********************************************               
-               *****************************************************           
-                   *********************************************               
-         **+           *************************************           =**     
-       ***********         -***************************-         ***********   
-      *******************       *******************       *******************  
-       ************************     ***********     ************************   
-                                -*****  ***  *****-                            
-                              -******   ***   ******-                          
-     *************************+    .***********.    +************************* 
-      ******************       *********************       ******************  
-       **********          *****************************          **********   
-         **            *************************************            **     
-                   *********************************************               
-               *****************************************************           
-                   *********************************************               
-                         *********************************                     
-                                                                               
-                                                                               
-            ¡Bo día/Boa tarde! 👋
-
-        Son o teu asistente virtual especializado na normativa e servizos da Universidade. Estou aquí para axudarche con calquera dúbida que teñas sobre:
-        
-        📚 Biblioteca (normas, préstamos, dereitos, guías...)
-        🎓 Matrícula (grao, máster, doutoramento)
-        💰 Bolsas e axudas (becas, Santander, dificultades económicas, comedor...)
-        🌍 Mobilidade (programas de intercambio, axudas MilleniumBus...)
-        🏛 Normativa xeral (dereitos, regulamentos internos, preguntas frecuentes)
-        
-        Pregúntame o que necesites e intentarei atopar a información máis actualizada nos documentos oficiais da Universidade.
-'''
-
     console.print(titulo_ascii, style="rgb(196,45,137)")
     
     question = ''

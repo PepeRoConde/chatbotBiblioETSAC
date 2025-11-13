@@ -10,8 +10,6 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 from langchain_classic.chains import create_retrieval_chain
 
-from LLMManager import LLMManager
-
 class MistralRAGSystem:
     """Retrieval Augmented Generation system using LangChain 1.0 with conversation history."""
     
@@ -22,7 +20,7 @@ class MistralRAGSystem:
         threshold: float = 0.7,
         search_type: str = "mmr",
         language: str = "english",
-        model_name: str = "claude-3-5-sonnet-20241022",
+        llm: Optional[Any] = None,
         provider: str = 'claude',
         temperature: float = 0.1,
         max_tokens: int = 512,
@@ -62,13 +60,7 @@ class MistralRAGSystem:
             self.console = Console()
             self.verbose = True
         
-        # Initialize the LLM
-        self.llm_manager = LLMManager(
-            provider=provider,
-            model_name=model_name, 
-            api_key=api_key
-        )
-        self.llm = self.llm_manager.llm
+        self.llm = llm
         
         # Create the retriever
         self.retriever = self.vectorstore.as_retriever(
@@ -83,7 +75,7 @@ class MistralRAGSystem:
         self._create_rag_chain()
         
         if self.verbose:
-            self.log(f"RAG system initialized with {provider.upper()} using model: {model_name}", "success")
+            self.log(f"RAG system initialized with {provider.upper()} using model: {self.llm.model}", "success")
             self.log(f"Language: {language}", "info")
     
     def log(self, message: str, level: str = "info") -> None:
