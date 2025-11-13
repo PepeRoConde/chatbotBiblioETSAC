@@ -79,6 +79,17 @@ python main.py --docs_folder "./docs" --language "galician" --verbose
 python Mistral_main.py --docs_folder "./docs" --language "galician" --model "mistral-medium"
 ```
 
+### Crawler
+
+Para ejecutar el crawler correr:
+
+```bash
+python crawlerUDC.py
+```
+
+
+
+
 ### Opcións principais
 
 | Opción | Descrición | Valor predeterminado |
