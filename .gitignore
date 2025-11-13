@@ -1,9 +1,9 @@
 documentacion/
 venv/
-.env
 .venv/
 venv12/
 __pycache__/*
 *.swp
 crawled_data/*
 local_vectorstore/*
+.DS_Store

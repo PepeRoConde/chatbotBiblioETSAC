@@ -6,13 +6,7 @@ from rich.panel import Panel
 from rich.markdown import Markdown
 from rich.theme import Theme
 from rich.progress import Progress, SpinnerColumn, TextColumn
-
-# Try to load .env file if python-dotenv is available
-try:
-    from dotenv import load_dotenv
-    load_dotenv()
-except ImportError:
-    pass
+from dotenv import load_dotenv
 
 
 from LLMManager import LLMManager
@@ -59,6 +53,8 @@ def main():
             os.environ["MISTRAL_API_KEY"] = args.api_key
         elif args.provider == 'claude':
             os.environ["ANTHROPIC_API_KEY"] = args.api_key
+    
+    load_dotenv()
     
     # Create a custom theme for rich
     custom_theme = Theme({
