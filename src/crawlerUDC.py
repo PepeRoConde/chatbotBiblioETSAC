@@ -19,7 +19,7 @@ class CrawlerUDC:
     persists visited state, and refreshes only updated pages.
     """
 
-    def __init__(self, base_url: str, output_dir: str = "crawled_data",
+    def __init__(self, base_url: str, output_dir: str = "crawl/crawled_data",
                  refresh_days: int = 30):
         self.base_url = base_url.rstrip('/')
         self.domain = urlparse(base_url).netloc
@@ -263,11 +263,11 @@ class CrawlerUDC:
 # ================= CLI interface =================
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Smart CrawlerUDC with metadata persistence.")
-    parser.add_argument("--urls_file", "-f", type=str, default="urls.txt",
+    parser.add_argument("--urls_file", "-f", type=str, default="crawl/urls.txt",
                         help="Path to file containing URLs to crawl (default: urls.txt)")
     parser.add_argument("--max_pages", "-p", type=int, default=100)
     parser.add_argument("--max_depth", "-d", type=int, default=3)
-    parser.add_argument("--output_dir", "-o", type=str, default="crawled_data")
+    parser.add_argument("--output_dir", "-o", type=str, default="crawl/crawled_data")
     parser.add_argument("--refresh_days", "-r", type=int, default=30,
                         help="Days before forcing re-check of a URL (default: 30).")
 

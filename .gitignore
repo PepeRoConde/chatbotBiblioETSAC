@@ -4,6 +4,6 @@ venv/
 venv12/
 __pycache__/*
 *.swp
-crawled_data/*
+crawl/crawled_data/*
 local_vectorstore/*
 .DS_Store
