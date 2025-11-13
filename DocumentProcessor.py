@@ -66,8 +66,7 @@ class DocumentProcessor:
 
         self.llm = llm
 
-        valid_modes = {"none", "source", "llm"}
-        if self.prefix_mode not in valid_modes:
+        if self.prefix_mode not in {"none", "source", "llm"}:
             raise ValueError(f"prefix_mode must be one of {valid_modes}")
 
         if self.verbose:
@@ -75,7 +74,7 @@ class DocumentProcessor:
                 "none": "sen prefixo",
                 "source": "co nome do documento",
                 "llm": "xerado por LLM"
-            }[prefix_mode]
+            }[self.prefix_mode]
             self.log(f"Dividindo documentos en fragmentos ({mode_desc})...")
     
     def _load_file_metadata(self) -> Dict[str, Dict]:
@@ -299,11 +298,8 @@ class DocumentProcessor:
             'unchanged': unchanged_docs
         }
     
-    def split_documents(self, prefix_mode: str = "none") -> List:
+    def split_documents(self) -> List:
         """Split documents into chunks, with optional prefixing behavior.
-
-        Args:
-            prefix_mode: 'none', 'source', or 'llm'
         
         Returns:
             List of split Document chunks
@@ -312,13 +308,13 @@ class DocumentProcessor:
         # Split using the text splitter
         chunks = self.text_splitter.split_documents(self.documents)
 
-        if prefix_mode == "source":
+        if self.prefix_mode == "source":
             for chunk in chunks:
                 source_file = chunk.metadata.get("source_file", "descoñecido")
                 prefix = f"Este fragmento é do documento {Path(source_file).name}: "
                 chunk.page_content = prefix + chunk.page_content
 
-        elif prefix_mode == "llm":
+        elif self.prefix_mode == "llm":
             if llm is None:
                 raise ValueError("Debe proporcionar un LLM se se usa prefix_mode='llm'")
 
