@@ -65,7 +65,7 @@ class DocumentProcessor:
         self.prefix_mode = prefix_mode
 
         self.llm = llm
-
+        valid_modes = "none, source, llm"
         if self.prefix_mode not in {"none", "source", "llm"}:
             raise ValueError(f"prefix_mode must be one of {valid_modes}")
 
@@ -315,7 +315,7 @@ class DocumentProcessor:
                 chunk.page_content = prefix + chunk.page_content
 
         elif self.prefix_mode == "llm":
-            if llm is None:
+            if self.llm is None:
                 raise ValueError("Debe proporcionar un LLM se se usa prefix_mode='llm'")
 
             for i, chunk in enumerate(chunks):
