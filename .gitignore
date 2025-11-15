@@ -1,6 +1,7 @@
 documentacion/
 venv/
 .venv/
+.env
 venv12/
 src/__pycache__/*
 *.swp
