@@ -17,14 +17,14 @@ from portada import titulo_ascii
 def main():
     """Main function to run the Mistral RAG system."""
     parser = argparse.ArgumentParser(description='Mistral API RAG System for PDF and HTML documents')
-    parser.add_argument('--docs_folder', type=str, help='Store metadata', default='.doc_cache')
-    parser.add_argument('--cache_dir', type=str, help='Folder containing PDF and HTML files', default='documentacion')
+    parser.add_argument('--cache_dir', type=str, help='Store metadata', default='.doc_cache')
+    parser.add_argument('--docs_folder', type=str, help='Folder containing PDF and HTML files', default='crawl/crawled_data')
     parser.add_argument('--vector_store', type=str, default='local_vectorstore', help='Path to save/load vector store')
     parser.add_argument('--rebuild', action='store_true', help='Rebuild vector store even if it exists')
     parser.add_argument('--clear-cache', action='store_true', help='Clear all caches before starting')
     parser.add_argument('--language', type=str, default='galician', choices=['english', 'spanish', 'galician'], 
                        help='Language for the prompt template')
-    parser.add_argument('--chunk_size', type=int, default=300, help='Size of text chunks')
+    parser.add_argument('--chunk_size', type=int, default=500, help='Size of text chunks')
     parser.add_argument('--chunk_overlap', type=int, default=15, help='Overlap between chunks')
     parser.add_argument('--k', type=int, default=4, help='Number of documents to retrieve')
     parser.add_argument('--threshold', type=float, default=0.7, help='How hard filter documents')

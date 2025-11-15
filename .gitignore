@@ -7,3 +7,4 @@ src/__pycache__/*
 crawl/crawled_data/*
 local_vectorstore/*
 .DS_Store
+.doc_cache/embeddings/
