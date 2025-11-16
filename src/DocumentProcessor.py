@@ -4,12 +4,14 @@ import os
 import pickle
 import json
 import hashlib
+import html
 from datetime import datetime
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from LocalEmbeddings import LocalEmbeddings
+from CleanHTMLLoader import CleanHTMLLoader
 
 class DocumentProcessor:
     """Class for processing multiple document types (PDF, HTML) with incremental updates."""
@@ -208,7 +210,40 @@ class DocumentProcessor:
             'unchanged': unchanged_files,
             'deleted': deleted_files
         }
-    
+    def _preserve_list_linebreaks(self, text: str) -> str:
+        """
+        Conserva saltos de línea solo para líneas de listas,
+        y une todo el resto del texto en párrafos limpios.
+        """
+        import re
+        lines = text.splitlines()
+        processed_lines = []
+        list_pattern = re.compile(r'^\s*([-*•]|\d+\.)\s+')
+        
+        buffer = []
+        
+        for line in lines:
+            if list_pattern.match(line):
+                # Vaciar buffer previo como párrafo unido
+                if buffer:
+                    processed_lines.append(" ".join(buffer).strip())
+                    buffer = []
+                processed_lines.append(line.strip())  # Línea de lista
+            elif line.strip() == "":
+                # Línea vacía indica final de párrafo
+                if buffer:
+                    processed_lines.append(" ".join(buffer).strip())
+                    buffer = []
+            else:
+                buffer.append(line.strip())
+        
+        # Vaciar buffer final
+        if buffer:
+            processed_lines.append(" ".join(buffer).strip())
+        
+        return "\n".join(processed_lines)
+
+   
     def load_documents(self, force_reload: bool = False) -> Dict[str, List]:
         """Load all PDFs and HTML files, only processing changed files.
         
@@ -369,6 +404,7 @@ class DocumentProcessor:
             self.log(f"Creados {len(chunks)} fragmentos de documento", "success")
 
         return chunks
+
  
     def create_vectorstore(self, chunks: List) -> None:
         """Create a vector store from document chunks."""
