@@ -25,6 +25,7 @@ def main():
     parser.add_argument('--chunk_size', type=int, default=500, help='Size of text chunks')
     parser.add_argument('--chunk_overlap', type=int, default=15, help='Overlap between chunks')
     parser.add_argument('--prefix_mode', type=str, default='source', help='Chunk prefix mode: none, source, llm')
+    parser.add_argument('--check', type=bool, default=False, help='Either check changes in documents or not')
     
     # Vector Store
     parser.add_argument('--vector_store', type=str, default='local_vectorstore', help='Path to save/load vector store')
@@ -146,17 +147,18 @@ def main():
             task = progress.add_task("cargando", total=None)
             processor.load_vectorstore(args.vector_store)
         
-        # Check for changes and rebuild if necessary (with cached embeddings)
-        with Progress(
-            SpinnerColumn(),
-            TextColumn("[success]Comprobando actualizacións..."),
-            console=console,
-            transient=True
-        ) as progress:
-            task = progress.add_task("comprobando", total=None)
-            processor.process(force_reload=False, incremental=True)
-            # Save vectorstore (will save only if there were changes)
-            processor.save_vectorstore(args.vector_store)
+        if args.check:
+            # Check for changes and rebuild if necessary (with cached embeddings)
+            with Progress(
+                SpinnerColumn(),
+                TextColumn("[success]Comprobando actualizacións..."),
+                console=console,
+                transient=True
+            ) as progress:
+                task = progress.add_task("comprobando", total=None)
+                processor.process(force_reload=False, incremental=True)
+                # Save vectorstore (will save only if there were changes)
+        processor.save_vectorstore(args.vector_store)
     
     # Show cache stats if verbose
     if args.verbose:
