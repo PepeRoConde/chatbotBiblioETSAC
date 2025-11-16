@@ -1,9 +1,3 @@
-# Código completo con soporte para force_recrawl mejorado
-# -------------------------------------------------
-# NOTA: Este archivo contiene la versión ampliada del crawler
-# con el parámetro force_recrawl que permite volver a analizar
-# URLs aunque aparezcan en visited_urls.
-
 import os
 import time
 import json
@@ -23,9 +17,9 @@ from datetime import datetime, timedelta
 
 class CrawlerUDC:
     """
-    Smart web crawler that downloads PDFs and HTML files,
+    Smart web crawler that downloads PDFs, HTML files and images,
     persists visited state, and refreshes only updated pages.
-    Now includes: force_recrawl (forces complete recrawl ignoring visited state)
+    Now includes: force_recrawl and image downloading
     """
     _metadata_lock = Lock()
     _visited_lock = Lock()
@@ -36,22 +30,28 @@ class CrawlerUDC:
                  state_dir: str = "crawl",
                  keywords_file: str = "crawl/keywords.txt",
                  refresh_days: int = 30,
-                 force_recrawl: bool = False):
+                 force_recrawl: bool = False,
+                 download_images: bool = True):
 
         self.base_url = base_url.rstrip('/')
         self.domain = urlparse(base_url).netloc
 
         self.output_dir = Path(output_dir)
+        self.images_dir = self.output_dir / "images"
         self.state_dir = Path(state_dir)
         self.keywords_file = Path(keywords_file)
         self.visited_urls: Set[str] = set()
         self.downloaded_files: Set[str] = set()
+        self.downloaded_images: Set[str] = set()
         self.refresh_days = refresh_days
         self.force_recrawl = force_recrawl
+        self.download_images = download_images
 
         self.file_map: Dict[str, str] = {}
 
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        if self.download_images:
+            self.images_dir.mkdir(parents=True, exist_ok=True)
         self.state_dir.mkdir(parents=True, exist_ok=True)
 
         self.meta_path = self.state_dir / "metadata.json"
@@ -68,6 +68,7 @@ class CrawlerUDC:
             'pages_crawled': 0,
             'pdfs_downloaded': 0,
             'html_saved': 0,
+            'images_downloaded': 0,
             'errors': 0,
             'skipped_not_modified': 0,
             'force_recrawled': 0
@@ -139,12 +140,16 @@ class CrawlerUDC:
             parsed.netloc == self.domain and
             parsed.scheme in ['http', 'https'] and
             not any(ext in url.lower() for ext in [
-                '.jpg', '.png', '.gif', '.css', '.js', '.ico', '.svg', '.woff'
+                '.css', '.js', '.ico', '.woff', '.woff2', '.ttf', '.eot'
             ])
         )
 
-    def is_bureaucratic_pdf(self, url: str, text: str = "", keywords=None) -> bool:
+    def is_image_url(self, url: str) -> bool:
+        """Detecta si una URL es una imagen"""
+        image_extensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.svg', '.ico']
+        return any(url.lower().endswith(ext) for ext in image_extensions)
 
+    def is_bureaucratic_pdf(self, url: str, text: str = "", keywords=None) -> bool:
         if keywords is None:
             keywords = [
                 'regulation', 'reglamento', 'normativa',
@@ -180,7 +185,6 @@ class CrawlerUDC:
     # =================== Download logic ===================
 
     def should_refresh(self, url: str) -> bool:
-        # Si force_recrawl está activado, siempre refrescar
         if self.force_recrawl:
             return True
             
@@ -205,7 +209,6 @@ class CrawlerUDC:
         return {}
 
     def has_remote_changed(self, url: str) -> bool:
-        # Si force_recrawl está activado, siempre considerar como cambiado
         if self.force_recrawl:
             return True
             
@@ -227,7 +230,6 @@ class CrawlerUDC:
         filename = self.generate_filename(url, 'html')
         filepath = self.output_dir / filename
 
-        # Si force_recrawl está activado, sobrescribir siempre
         if filepath.exists() and self.force_recrawl:
             print(f"↻ Force overwriting HTML: {filename}")
 
@@ -239,11 +241,50 @@ class CrawlerUDC:
         self.stats['html_saved'] += 1
         print(f"✓ Saved HTML: {filename}")
 
+    def download_image(self, url: str, page_url: str = None):
+        """Descarga una imagen desde una URL"""
+        if url in self.downloaded_images and not self.force_recrawl:
+            return
+
+        try:
+            # Obtener extensión de la imagen
+            parsed = urlparse(url)
+            ext = Path(parsed.path).suffix.lower()
+            if not ext or ext not in ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.svg', '.ico']:
+                ext = '.jpg'  # extensión por defecto
+            
+            filename = self.generate_filename(url, ext.lstrip('.'))
+            filepath = self.images_dir / filename
+
+            # Si existe y no estamos en force_recrawl, saltar
+            if filepath.exists() and not self.force_recrawl:
+                self.downloaded_images.add(url)
+                return
+
+            r = requests.get(url, headers=self.headers, timeout=15)
+            r.raise_for_status()
+
+            # Verificar que el contenido es realmente una imagen
+            content_type = r.headers.get('Content-Type', '')
+            if not content_type.startswith('image/'):
+                return
+
+            with open(filepath, 'wb') as f:
+                f.write(r.content)
+
+            self.downloaded_images.add(url)
+            self.file_map[filename] = url
+            
+            self.stats['images_downloaded'] += 1
+            print(f"🖼 Downloaded image: {filename}")
+
+        except Exception as e:
+            print(f"✗ Error downloading image {url}: {e}")
+
     def download_pdf(self, url: str):
         filename = self.generate_filename(url, 'pdf')
         filepath = self.output_dir / filename
 
-        # Si force_recrawl está activado, descargar siempre
         if filepath.exists() and not self.force_recrawl and not self.should_refresh(url):
             print(f"⊘ Skipping existing PDF (fresh): {filename}")
             self.stats['skipped_not_modified'] += 1
@@ -253,7 +294,6 @@ class CrawlerUDC:
             r = requests.get(url, headers=self.headers, timeout=30)
             r.raise_for_status()
             
-            # Verificar si el contenido realmente cambió (para evitar descargas innecesarias)
             if filepath.exists() and self.force_recrawl:
                 with open(filepath, 'rb') as f:
                     existing_content = f.read()
@@ -286,21 +326,15 @@ class CrawlerUDC:
     # =================== Crawling ===================
 
     def crawl_page(self, url: str) -> List[str]:
-        # ------ COMPORTAMIENTO MODIFICADO PARA FORCE_RECRAWL ------
-        # Con force_recrawl: ignorar completamente el estado de visited_urls
-        # Sin force_recrawl: comportamiento normal
         if url in self.visited_urls and not self.force_recrawl:
             return []
 
-        # Solo añadir a visited_urls si no estamos en modo force_recrawl
         if not self.force_recrawl:
             self.visited_urls.add(url)
         else:
             self.stats['force_recrawled'] += 1
             print(f"↻ Force recrawling: {url}")
-        # ------------------------------------------
 
-        # Verificar si la página necesita refresh (si no estamos en force_recrawl)
         if not self.force_recrawl and not self.should_refresh(url) and not self.has_remote_changed(url):
             print(f"⊘ Skipping unchanged page: {url}")
             self.stats['skipped_not_modified'] += 1
@@ -311,11 +345,17 @@ class CrawlerUDC:
             response = requests.get(url, headers=self.headers, timeout=30)
             response.raise_for_status()
             
-            # Guardar HTML (en force_recrawl siempre sobrescribe)
             self.save_html(url, response.content)
             
             soup = BeautifulSoup(response.content, 'lxml')
             self.stats['pages_crawled'] += 1
+
+            # Procesar imágenes si está habilitado
+            if self.download_images:
+                for img in soup.find_all('img', src=True):
+                    img_url = urljoin(url, img['src'])
+                    if self.is_valid_url(img_url) or self.is_image_url(img_url):
+                        self.download_image(img_url, url)
 
             # Procesar enlaces PDF
             for link in soup.find_all('a', href=True):
@@ -348,7 +388,10 @@ class CrawlerUDC:
         print(f"Starting crawl of {self.base_url}")
         print(f"Max pages: {max_pages}, Max depth: {max_depth}")
         print(f"Force recrawl: {self.force_recrawl}")
+        print(f"Download images: {self.download_images}")
         print(f"Files will be saved to: {self.output_dir.absolute()}")
+        if self.download_images:
+            print(f"Images will be saved to: {self.images_dir.absolute()}")
         print(f"State will be saved to: {self.state_dir.absolute()}\n")
 
         queue = deque([(self.base_url, 0)])
@@ -376,12 +419,15 @@ class CrawlerUDC:
         print(f"Pages crawled: {self.stats['pages_crawled']}")
         print(f"HTML files saved: {self.stats['html_saved']}")
         print(f"PDFs downloaded: {self.stats['pdfs_downloaded']}")
+        print(f"Images downloaded: {self.stats['images_downloaded']}")
         print(f"Skipped (unchanged): {self.stats['skipped_not_modified']}")
         print(f"Errors encountered: {self.stats['errors']}")
         if self.force_recrawl:
             print(f"Pages force-recrawled: {self.stats['force_recrawled']}")
         print(f"Total URLs visited: {len(self.visited_urls)}")
         print(f"\nFiles saved to: {self.output_dir.absolute()}")
+        if self.download_images:
+            print(f"Images saved to: {self.images_dir.absolute()}")
         print(f"State saved to: {self.state_dir.absolute()}")
         print("="*50)
 
@@ -395,7 +441,8 @@ def crawl_single_url(url: str, args) -> tuple:
             state_dir=args.state_dir,
             keywords_file=args.keywords_file,
             refresh_days=args.refresh_days,
-            force_recrawl=args.force
+            force_recrawl=args.force,
+            download_images=args.download_images
         )
         crawler.crawl(max_pages=args.max_pages, max_depth=args.max_depth)
         return (url, crawler.stats, None)
@@ -404,7 +451,7 @@ def crawl_single_url(url: str, args) -> tuple:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Smart CrawlerUDC with metadata persistence.")
+    parser = argparse.ArgumentParser(description="Smart CrawlerUDC with images support.")
     parser.add_argument("--urls_file", "-f", type=str, default="crawl/urls.txt")
     parser.add_argument("--keywords_file", "-kf", type=str, default="crawl/keywords.txt")
     parser.add_argument("--max_pages", "-p", type=int, default=1000)
@@ -415,6 +462,10 @@ if __name__ == "__main__":
     parser.add_argument("--workers", "-w", type=int, default=4)
     parser.add_argument("--force", action="store_true",
                         help="Force re-crawl even if URL already visited")
+    parser.add_argument("--download_images", "-i", action="store_true", default=True,
+                        help="Download all images found (default: True)")
+    parser.add_argument("--no_images", action="store_false", dest="download_images",
+                        help="Skip image downloading")
 
     args = parser.parse_args()
 
@@ -426,7 +477,8 @@ if __name__ == "__main__":
         urls = [line.strip() for line in f if line.strip()]
 
     print(f"Found {len(urls)} URLs to crawl from {urls_path}")
-    print(f"Using {args.workers} concurrent workers\n")
+    print(f"Using {args.workers} concurrent workers")
+    print(f"Image downloading: {'enabled' if args.download_images else 'disabled'}\n")
 
     start_time = time.time()
     all_stats = {}
@@ -467,6 +519,7 @@ if __name__ == "__main__":
         total_pages = sum(s['pages_crawled'] for s in all_stats.values())
         total_pdfs = sum(s['pdfs_downloaded'] for s in all_stats.values())
         total_html = sum(s['html_saved'] for s in all_stats.values())
+        total_images = sum(s['images_downloaded'] for s in all_stats.values())
         total_errors = sum(s['errors'] for s in all_stats.values())
         total_force_recrawled = sum(s.get('force_recrawled', 0) for s in all_stats.values())
 
@@ -474,6 +527,7 @@ if __name__ == "__main__":
         print(f"  Total pages crawled: {total_pages}")
         print(f"  Total HTMLs saved: {total_html}")
         print(f"  Total PDFs downloaded: {total_pdfs}")
+        print(f"  Total images downloaded: {total_images}")
         print(f"  Total errors: {total_errors}")
         if args.force:
             print(f"  Total force-recrawled: {total_force_recrawled}")
