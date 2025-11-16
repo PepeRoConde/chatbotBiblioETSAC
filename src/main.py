@@ -12,43 +12,54 @@ from dotenv import load_dotenv
 
 from LLMManager import LLMManager
 from DocumentProcessor import DocumentProcessor
-from MistralRAGSystem import MistralRAGSystem
+from RAGSystem import RAGSystem
 from portada import titulo_ascii
 
 def main():
     """Main function to run the Mistral RAG system."""
     parser = argparse.ArgumentParser(description='Mistral API RAG System for PDF and HTML documents')
-    parser.add_argument('--cache_dir', type=str, help='Store metadata', default='.doc_cache')
-    parser.add_argument('--docs_folder', type=str, help='Folder containing PDF and HTML files', default='crawl/crawled_data')
-    parser.add_argument('--map_json', type=str, help='Folder containing de json that maps filename to url', default='crawl/map.json')
-    parser.add_argument('--vector_store', type=str, default='local_vectorstore', help='Path to save/load vector store')
-    parser.add_argument('--rebuild', action='store_true', help='Rebuild vector store even if it exists')
-    parser.add_argument('--clear-cache', action='store_true', help='Clear all caches before starting')
-    parser.add_argument('--language', type=str, default='galician', choices=['english', 'spanish', 'galician'], 
-                       help='Language for the prompt template')
+
+    # Document Processing
+    parser.add_argument('--docs_folder', type=str, default='crawl/crawled_data', help='Folder containing PDF and HTML files')
+    parser.add_argument('--map_json', type=str, default='crawl/map.json', help='JSON file mapping filename to URL')
     parser.add_argument('--chunk_size', type=int, default=500, help='Size of text chunks')
     parser.add_argument('--chunk_overlap', type=int, default=15, help='Overlap between chunks')
-    parser.add_argument('--k', type=int, default=4, help='Number of documents to retrieve')
-    parser.add_argument('--threshold', type=float, default=0.7, help='How hard filter documents')
-    parser.add_argument('--search_type', type=str, default="mmr", 
-                        help='Way of performing search (default: mmr, possible: similarity)')
-    parser.add_argument('--prefix_mode', type=str, default="source", 
-                       help='Como e o texto que vai preceder o chunk {none, source, llm}')
-    parser.add_argument('--provider', type=str, default="claude", 
-                       help='Servidor del LM (mistral, claude)')
-    parser.add_argument('--model', type=str, default="claude-3-5-haiku-20241022", 
-                       help='Claude or Mistral model name (default claude-3-5-sonnet-20241022)')
-    parser.add_argument('--api_key', type=str, default=None,
-                       help='API key (if not set, will use MISTRAL_API_KEY or ANTHROPIC_API_KEY environment variable)')
-    parser.add_argument('--embedding_model', type=str, default="sentence-transformers/all-MiniLM-L6-v2",
-                       help='HuggingFace model to use for embeddings')
-    parser.add_argument('--verbose', action='store_true', help='Show detailed information including sources')
-    parser.add_argument('--temperature', type=float, default=0.1,
-                       help='Temperature for text generation (0.0-1.0)')
-    parser.add_argument('--max_tokens', type=int, default=512,
-                       help='Maximum tokens to generate')
-    args = parser.parse_args()
+    parser.add_argument('--prefix_mode', type=str, default='source', help='Chunk prefix mode: none, source, llm')
     
+    # Vector Store
+    parser.add_argument('--vector_store', type=str, default='local_vectorstore', help='Path to save/load vector store')
+    parser.add_argument('--embedding_model', type=str, default='sentence-transformers/all-MiniLM-L6-v2', help='HuggingFace embedding model')
+    parser.add_argument('--rebuild', action='store_true', help='Rebuild vector store even if it exists')
+    
+    # Retrieval
+    parser.add_argument('--k', type=int, default=4, help='Number of documents to retrieve')
+    parser.add_argument('--threshold', type=float, default=0.7, help='Similarity threshold for filtering')
+    parser.add_argument('--search_type', type=str, default='mmr', help='Search type: similarity or mmr')
+    
+    # TF-IDF
+    parser.add_argument('--use_tfidf', action='store_true', default=True, help='Use TF-IDF enhancement')
+    parser.add_argument('--tfidf_mode', type=str, default='rerank', help='TF-IDF mode: rerank, hybrid, or filter')
+    parser.add_argument('--tfidf_weight', type=float, default=0.3, help='TF-IDF weight in hybrid mode (0.0-1.0)')
+    parser.add_argument('--tfidf_threshold', type=float, default=0.1, help='Minimum TF-IDF score for filter mode')
+    
+    # LLM Provider
+    parser.add_argument('--provider', type=str, default='claude', help='LLM provider: mistral or claude')
+    parser.add_argument('--model', type=str, default='claude-3-5-haiku-20241022', help='Model name')
+    parser.add_argument('--api_key', type=str, default=None, help='API key (uses env var if not set)')
+    parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for generation (0.0-1.0)')
+    parser.add_argument('--max_tokens', type=int, default=512, help='Maximum tokens to generate')
+    
+    # Conversation
+    parser.add_argument('--language', type=str, default='galician', choices=['english', 'spanish', 'galician'], help='Language for prompts')
+    parser.add_argument('--max_history_length', type=int, default=10, help='Maximum conversation turns to keep')
+    
+    # Cache & System
+    parser.add_argument('--cache_dir', type=str, default='.doc_cache', help='Directory for cache storage')
+    parser.add_argument('--clear-cache', action='store_true', help='Clear all caches before starting')
+    parser.add_argument('--verbose', action='store_true', help='Show detailed information')
+    
+    args = parser.parse_args() 
+
     # Set API key environment variable if provided
     if args.api_key:
         if args.provider == 'mistral':
@@ -166,17 +177,21 @@ def main():
         transient=True
     ) as progress:
         task = progress.add_task("init", total=None)
-        rag = MistralRAGSystem(
+        rag = RAGSystem(
             vectorstore=processor.vectorstore,
             k=args.k,
             threshold=args.threshold,
             search_type=args.search_type,
             language=args.language,
-            provider=args.provider,
             llm=llm,
-            api_key=args.api_key,
+            provider=args.provider,
             temperature=args.temperature,
-            max_tokens=args.max_tokens
+            max_tokens=args.max_tokens,
+            max_history_length=args.max_history_length,
+            use_tfidf=args.use_tfidf,
+            tfidf_mode=args.tfidf_mode,
+            tfidf_weight=args.tfidf_weight,
+            tfidf_threshold=args.tfidf_threshold
         )
     
     # Welcome message with system info

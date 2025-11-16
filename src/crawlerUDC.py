@@ -407,12 +407,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Smart CrawlerUDC with metadata persistence.")
     parser.add_argument("--urls_file", "-f", type=str, default="crawl/urls.txt")
     parser.add_argument("--keywords_file", "-kf", type=str, default="crawl/keywords.txt")
-    parser.add_argument("--max_pages", "-p", type=int, default=100)
-    parser.add_argument("--max_depth", "-d", type=int, default=3)
+    parser.add_argument("--max_pages", "-p", type=int, default=200)
+    parser.add_argument("--max_depth", "-d", type=int, default=4)
     parser.add_argument("--output_dir", "-o", type=str, default="crawl/crawled_data")
     parser.add_argument("--state_dir", "-s", type=str, default="crawl")
     parser.add_argument("--refresh_days", "-r", type=int, default=30)
-    parser.add_argument("--workers", "-w", type=int, default=4)
+    parser.add_argument("--workers", "-w", type=int, default=8)
     parser.add_argument("--force", action="store_true",
                         help="Force re-crawl even if URL already visited")
 
