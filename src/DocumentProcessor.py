@@ -69,7 +69,7 @@ class DocumentProcessor:
         self.verbose = verbose
         
         # File tracking
-        self.metadata_file = self.cache_dir / "file_metadata.pkl"
+        self.metadata_file = self.cache_dir / "crawl/metadata.json"
         self.file_metadata = self._load_file_metadata()
         
         # Parallel processing settings
