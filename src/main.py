@@ -1,4 +1,5 @@
 import os
+import re
 import argparse
 from pathlib import Path
 from rich.console import Console
@@ -261,18 +262,40 @@ def main():
             ))
             
             if args.verbose:
-                # Mostrar número de interacciones en el historial
                 history_len = len(rag.get_history())
                 console.print(f"[dim]Conversacións no historial: {history_len}[/dim]")
-                
+
                 console.print("\n[bold]Textos dos que extráese a información:[/bold]")
+
                 for i, doc in enumerate(sources[:args.k]):
+                    text = doc.page_content
+
+                    # --- Extract first line info (filename + URL) ---
+                    first_line, _, rest = text.partition("\n")
+
+                    # regex: get filename and URL
+                    match = re.search(
+                        r"documento\s+(.+?)\s+con url\s+(https?://\S+)",
+                        first_line
+                    )
+
+                    if match:
+                        filename = match.group(1).strip()
+                        url = match.group(2).strip()
+                        header = f"Texto {i+1} – {filename}\n{url}"
+                    else:
+                        header = f"Texto {i+1}"
+                        rest = text  # keep whole text if parse fails
+
+                    # limit preview
+                    preview = rest.strip()[:200] + "..."
+
                     console.print(Panel(
-                        doc.page_content[:200] + "...", 
-                        title=f"Texto {i+1}", 
+                        preview,
+                        title=header,
                         border_style="blue"
                     ))
-                
+ 
         except Exception as e:
             console.print(f"[error]Error procesando consulta:[/error] {e}")
             if args.verbose:
