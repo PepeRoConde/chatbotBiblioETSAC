@@ -10,3 +10,4 @@ local_vectorstore/*
 .DS_Store
 .doc_cache/embeddings/
 .doc_cache/*
+*.bkp
