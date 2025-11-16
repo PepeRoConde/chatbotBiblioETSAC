@@ -242,99 +242,111 @@ class DocumentProcessor:
             processed_lines.append(" ".join(buffer).strip())
         
         return "\n".join(processed_lines)
-
-   
+    
+    
     def load_documents(self, force_reload: bool = False) -> Dict[str, List]:
-        """Load all PDFs and HTML files, only processing changed files.
+        """Load all PDFs and HTML files, only processing changed files."""
         
-        Args:
-            force_reload: If True, reload all files regardless of changes
-            
-        Returns:
-            Dictionary with 'new', 'updated', 'unchanged' document lists
-        """
         pdf_files = list(self.docs_folder.glob("*.pdf"))
         html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
         all_files = pdf_files + html_files
+
         self.log(os.getcwd())
 
         if not force_reload:
             self.log(f"[cyan]Encontrados {len(pdf_files)} PDFs e {len(html_files)} HTMLs[/cyan]")
-        
-        # Track file statuses
+
         new_docs = []
         updated_docs = []
         unchanged_docs = []
-        
-        # Check for deleted files
+
         deleted_files = self._get_deleted_files(all_files)
         if deleted_files:
             self.log(f"[yellow]Detectados {len(deleted_files)} arquivos eliminados[/yellow]")
             for deleted_file in deleted_files:
                 del self.file_metadata[deleted_file]
-        
-        # Process each file
+
         for file_path in all_files:
             file_key = str(file_path)
-            
-            # Determine if file needs processing
+
             is_changed = force_reload or self._file_has_changed(file_path)
             is_new = file_key not in self.file_metadata
-            
+
             if not is_changed:
                 unchanged_docs.append(file_key)
                 if self.verbose:
                     self.log(f"[dim]Omitindo sen cambios: {file_path.name}[/dim]")
                 continue
-            
-            # Process the file
+
             try:
                 if self.verbose:
                     status = "novo" if is_new else "actualizado"
                     self.log(f"[cyan]Procesando {status}: {file_path.name}[/cyan]")
-                
-                # Load based on file type
+
                 if file_path.suffix.lower() == '.pdf':
                     loader = PyPDFLoader(str(file_path))
                 else:
-                    loader = BSHTMLLoader(str(file_path), open_encoding="utf-8")
-                
+                    loader = CleanHTMLLoader(str(file_path))
+
+
                 docs = loader.load()
-                print(len(docs))
-                # Tag documents with source file
+
+                # ===================== DEBUG PARSEO =====================
+                print("\n==============================")
+                print(f"PARSEANDO: {file_path.name}")
+                print("==============================")
+                print(f"➡ Documentos extraídos por el loader: {len(docs)}\n")
+
+                for i, d in enumerate(docs):
+                    print(f"---- Documento {i+1} ----")
+                    print("METADATA:", d.metadata)
+                    contenido = d.page_content.strip().replace("\n", " ")[:800]
+                    print("CONTENIDO (primeros 800 chars):")
+                    print(contenido if contenido else "⚠️ VACÍO")
+                    print("---------------------------\n")
+                # ======================================================
+
+                
+                for doc in docs:
+                    # Limpiar entidades HTML como &nbsp;, &amp;, etc.
+                    doc.page_content = html.unescape(doc.page_content)
+
+                    # Conservar saltos de línea en listas y párrafos
+                    doc.page_content = self._preserve_list_linebreaks(doc.page_content)
+
+
+                # Añadir metadata
                 for doc in docs:
                     doc.metadata['source_file'] = file_key
                     doc.metadata['file_hash'] = self._get_file_hash(file_path)
-                
+
                 self.documents.extend(docs)
-                
-                # Update metadata
+
                 self.file_metadata[file_key] = self._get_file_info(file_path)
-                
+
                 if is_new:
                     new_docs.append(file_key)
                 else:
                     updated_docs.append(file_key)
-                    
+
             except Exception as e:
                 self.log(f"[red]Erro procesando {file_path}: {e}[/red]", "error")
-        
-        # Save updated metadata
+
         self._save_file_metadata()
-        
-        # Summary
+
         if new_docs or updated_docs:
             self.log(
                 f"[green]Procesados {len(new_docs)} novos, {len(updated_docs)} actualizados, "
                 f"{len(unchanged_docs)} sen cambios[/green]",
                 "success"
             )
-        
+
         return {
             'new': new_docs,
             'updated': updated_docs,
             'unchanged': unchanged_docs
         }
+
     
     def split_documents(self) -> List:
         """Split documents into chunks, with optional prefixing behavior.
@@ -342,6 +354,11 @@ class DocumentProcessor:
         Returns:
             List of split Document chunks
         """
+
+        # Normalizar saltos de línea antes de dividir en chunks
+        for doc in self.documents:
+            doc.page_content = self._preserve_list_linebreaks(doc.page_content)
+
 
         # Split using the text splitter
         chunks = self.text_splitter.split_documents(self.documents)
