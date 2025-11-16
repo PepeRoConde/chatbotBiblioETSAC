@@ -11,3 +11,6 @@ local_vectorstore/*
 .doc_cache/embeddings/
 .doc_cache/*
 *.bkp
+crawl/map.json
+crawl/metadata.json
+crawl/visited_urls.txt
