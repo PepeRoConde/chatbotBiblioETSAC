@@ -10,14 +10,14 @@ from threading import Lock
 import numpy as np
 
 from langchain_community.vectorstores import FAISS
-from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader
+from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from LocalEmbeddings import LocalEmbeddings
 
 
 class DocumentProcessor:
-    """Class for processing multiple document types (PDF, HTML) with parallel processing."""
+    """Class for processing multiple document types (PDF, HTML, TXT) with parallel processing."""
     
     def __init__(
         self, 
@@ -31,7 +31,8 @@ class DocumentProcessor:
         llm: Optional[Any] = None,
         map_json: str = 'crawl/map.json',
         max_workers: int = 7,
-        batch_size: int = 128
+        batch_size: int = 128,
+        ocr_texts_folder: Optional[str] = "crawl/crawled_data/ocr_texts"
     ):
         """Initialize document processor with parallel processing support.
         
@@ -45,10 +46,12 @@ class DocumentProcessor:
             prefix_mode: How to prefix chunks ("none", "source", "llm")
             llm: LLM instance for prefix generation (required if prefix_mode="llm")
             map_json: Path to JSON file mapping filenames to URLs
-            max_workers: Maximum number of parallel workers (default: 4)
-            batch_size: Batch size for embedding generation (default: 32)
+            max_workers: Maximum number of parallel workers (default: 7)
+            batch_size: Batch size for embedding generation (default: 128)
+            ocr_texts_folder: Folder containing OCR text files (optional)
         """
         self.docs_folder = Path(docs_folder)
+        self.ocr_texts_folder = Path(ocr_texts_folder) if ocr_texts_folder else None
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(exist_ok=True)
         
@@ -164,9 +167,7 @@ class DocumentProcessor:
     
     def _check_for_changes(self) -> Dict[str, List]:
         """Check which files have changed without loading them."""
-        pdf_files = list(self.docs_folder.glob("*.pdf"))
-        html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
-        all_files = pdf_files + html_files
+        all_files = self._get_all_files()
         
         new_files = []
         updated_files = []
@@ -191,6 +192,22 @@ class DocumentProcessor:
             'deleted': deleted_files
         }
     
+    def _get_all_files(self) -> List[Path]:
+        """Get all supported files from configured folders."""
+        all_files = []
+        
+        # Files from main docs folder
+        pdf_files = list(self.docs_folder.glob("*.pdf"))
+        html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
+        all_files.extend(pdf_files + html_files)
+        
+        # Files from OCR texts folder
+        if self.ocr_texts_folder and self.ocr_texts_folder.exists():
+            txt_files = list(self.ocr_texts_folder.glob("*.txt"))
+            all_files.extend(txt_files)
+        
+        return all_files
+    
     # ========== PARALLEL LOADING METHODS ==========
     
     def _load_single_file(self, file_path: Path) -> Tuple[Optional[List], str, Optional[Dict], bool, Optional[str]]:
@@ -205,16 +222,23 @@ class DocumentProcessor:
             # Load based on file type
             if file_path.suffix.lower() == '.pdf':
                 loader = PyPDFLoader(str(file_path))
-            else:
+            elif file_path.suffix.lower() == '.txt':
+                loader = TextLoader(str(file_path), encoding='utf-8')
+            else:  # HTML files
                 loader = BSHTMLLoader(str(file_path), open_encoding="utf-8")
             
             docs = loader.load()
             file_hash = self._get_file_hash(file_path)
             
-            # Tag documents with source file
+            # Tag documents with source file and type
             for doc in docs:
                 doc.metadata['source_file'] = file_key
                 doc.metadata['file_hash'] = file_hash
+                doc.metadata['file_type'] = file_path.suffix.lower()[1:]  # Remove the dot
+                
+                # Add OCR flag if from OCR folder
+                if self.ocr_texts_folder and str(self.ocr_texts_folder) in file_key:
+                    doc.metadata['is_ocr'] = True
             
             # Get file info
             file_info = self._get_file_info(file_path)
@@ -225,7 +249,7 @@ class DocumentProcessor:
             return None, file_key, None, is_new, str(e)
     
     def load_documents(self, force_reload: bool = False) -> Dict[str, List]:
-        """Load all PDFs and HTML files in parallel, only processing changed files.
+        """Load all PDFs, HTML, and TXT files in parallel, only processing changed files.
         
         Args:
             force_reload: If True, reload all files regardless of changes
@@ -233,12 +257,15 @@ class DocumentProcessor:
         Returns:
             Dictionary with 'new', 'updated', 'unchanged' document lists
         """
-        pdf_files = list(self.docs_folder.glob("*.pdf"))
-        html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
-        all_files = pdf_files + html_files
+        all_files = self._get_all_files()
+        
+        # Count files by type for logging
+        pdf_count = sum(1 for f in all_files if f.suffix.lower() == '.pdf')
+        html_count = sum(1 for f in all_files if f.suffix.lower() in ['.html', '.htm'])
+        txt_count = sum(1 for f in all_files if f.suffix.lower() == '.txt')
         
         if not force_reload:
-            self.log(f"[cyan]Encontrados {len(pdf_files)} PDFs e {len(html_files)} HTMLs[/cyan]")
+            self.log(f"[cyan]Encontrados {pdf_count} PDFs, {html_count} HTMLs e {txt_count} TXTs[/cyan]")
         
         # Track file statuses
         new_docs = []
@@ -331,20 +358,27 @@ class DocumentProcessor:
         """Add source-based prefix to a chunk."""
         source_file = chunk.metadata.get("source_file", "descoñecido")
         filename = Path(source_file).name
+        file_type = chunk.metadata.get("file_type", "descoñecido")
+        is_ocr = chunk.metadata.get("is_ocr", False)
         
         # Load URL mapping if available
         mapping_path = Path(self.map_json)
+        url = "URL descoñecida"
+        
         if mapping_path.exists():
             try:
                 with open(mapping_path, "r", encoding="utf-8") as f:
                     filename_to_url = json.load(f)
                 url = filename_to_url.get(filename, "URL descoñecida")
             except Exception:
-                url = "URL descoñecida"
-        else:
-            url = "URL descoñecida"
+                pass
         
-        prefix = f"Este fragmento é do documento {filename} con url {url} :\n "
+        # Build prefix based on file type
+        if is_ocr:
+            prefix = f"Este fragmento é de texto extraído por OCR do arquivo {filename} con url {url} :\n "
+        else:
+            prefix = f"Este fragmento é do documento {filename} ({file_type.upper()}) con url {url} :\n "
+        
         chunk.page_content = prefix + chunk.page_content
         return chunk
     
@@ -594,18 +628,21 @@ class DocumentProcessor:
             'embedding_cache': embedding_stats,
             'cache_dir': str(self.cache_dir),
             'max_workers': self.max_workers,
-            'batch_size': self.batch_size
+            'batch_size': self.batch_size,
+            'ocr_texts_folder': str(self.ocr_texts_folder) if self.ocr_texts_folder else None
         }
     
     def _count_files_by_type(self) -> Dict[str, int]:
         """Count tracked files by type."""
-        counts = {'pdf': 0, 'html': 0, 'other': 0}
+        counts = {'pdf': 0, 'html': 0, 'txt': 0, 'other': 0}
         for file_path in self.file_metadata.keys():
             ext = Path(file_path).suffix.lower()
             if ext == '.pdf':
                 counts['pdf'] += 1
             elif ext in ['.html', '.htm']:
                 counts['html'] += 1
+            elif ext == '.txt':
+                counts['txt'] += 1
             else:
                 counts['other'] += 1
         return counts
