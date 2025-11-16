@@ -5,14 +5,19 @@ import pickle
 import json
 import hashlib
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
+import numpy as np
+
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from LocalEmbeddings import LocalEmbeddings
 
+
 class DocumentProcessor:
-    """Class for processing multiple document types (PDF, HTML) with incremental updates."""
+    """Class for processing multiple document types (PDF, HTML) with parallel processing."""
     
     def __init__(
         self, 
@@ -24,9 +29,11 @@ class DocumentProcessor:
         cache_dir: str = ".doc_cache",
         prefix_mode: str = "source",
         llm: Optional[Any] = None,
-        map_json: str = 'crawl/map.json' 
+        map_json: str = 'crawl/map.json',
+        max_workers: int = 7,
+        batch_size: int = 128
     ):
-        """Initialize document processor.
+        """Initialize document processor with parallel processing support.
         
         Args:
             docs_folder: Folder containing documents
@@ -35,6 +42,11 @@ class DocumentProcessor:
             chunk_overlap: Overlap between chunks
             verbose: Whether to show detailed information
             cache_dir: Directory for caching file metadata
+            prefix_mode: How to prefix chunks ("none", "source", "llm")
+            llm: LLM instance for prefix generation (required if prefix_mode="llm")
+            map_json: Path to JSON file mapping filenames to URLs
+            max_workers: Maximum number of parallel workers (default: 4)
+            batch_size: Batch size for embedding generation (default: 32)
         """
         self.docs_folder = Path(docs_folder)
         self.cache_dir = Path(cache_dir)
@@ -57,6 +69,11 @@ class DocumentProcessor:
         self.metadata_file = self.cache_dir / "file_metadata.pkl"
         self.file_metadata = self._load_file_metadata()
         
+        # Parallel processing settings
+        self.max_workers = max_workers
+        self.batch_size = batch_size
+        self.doc_lock = Lock()  # Thread-safe document list access
+        
         # Use the global rich console if available
         try:
             self.console = __builtins__.rich_console
@@ -66,8 +83,8 @@ class DocumentProcessor:
 
         self.prefix_mode = prefix_mode
         self.map_json = map_json
-
         self.llm = llm
+        
         valid_modes = "none, source, llm"
         if self.prefix_mode not in {"none", "source", "llm"}:
             raise ValueError(f"prefix_mode must be one of {valid_modes}")
@@ -78,6 +95,7 @@ class DocumentProcessor:
                 "source": "co nome do documento",
                 "llm": "xerado por LLM"
             }[self.prefix_mode]
+            self.log(f"[cyan]Inicializado con {max_workers} workers paralelos[/cyan]")
             self.log(f"Dividindo documentos en fragmentos ({mode_desc})...")
     
     def _load_file_metadata(self) -> Dict[str, Dict]:
@@ -100,14 +118,7 @@ class DocumentProcessor:
             self.log(f"Could not save metadata: {e}", "error")
     
     def _get_file_hash(self, file_path: Path) -> str:
-        """Calculate hash of a file's content.
-        
-        Args:
-            file_path: Path to the file
-            
-        Returns:
-            SHA256 hash of the file
-        """
+        """Calculate hash of a file's content."""
         sha256_hash = hashlib.sha256()
         with open(file_path, "rb") as f:
             for byte_block in iter(lambda: f.read(4096), b""):
@@ -115,14 +126,7 @@ class DocumentProcessor:
         return sha256_hash.hexdigest()
     
     def _get_file_info(self, file_path: Path) -> Dict:
-        """Get file information (hash, mod time, size).
-        
-        Args:
-            file_path: Path to the file
-            
-        Returns:
-            Dictionary with file information
-        """
+        """Get file information (hash, mod time, size)."""
         stat = file_path.stat()
         return {
             'hash': self._get_file_hash(file_path),
@@ -132,27 +136,16 @@ class DocumentProcessor:
         }
     
     def _file_has_changed(self, file_path: Path) -> bool:
-        """Check if a file has changed since last processing.
-        
-        Args:
-            file_path: Path to the file
-            
-        Returns:
-            True if file is new or has changed
-        """
+        """Check if a file has changed since last processing."""
         file_key = str(file_path)
         
-        # New file
         if file_key not in self.file_metadata:
             return True
         
-        # Check if file was modified
         current_mtime = file_path.stat().st_mtime
         stored_mtime = self.file_metadata[file_key].get('mtime', 0)
         
-        # Quick check with modification time
         if current_mtime > stored_mtime:
-            # Verify with hash to be sure
             current_hash = self._get_file_hash(file_path)
             stored_hash = self.file_metadata[file_key].get('hash', '')
             return current_hash != stored_hash
@@ -160,28 +153,17 @@ class DocumentProcessor:
         return False
     
     def _get_deleted_files(self, current_files: List[Path]) -> List[str]:
-        """Find files that were deleted since last run.
-        
-        Args:
-            current_files: List of currently existing files
-            
-        Returns:
-            List of deleted file paths
-        """
+        """Find files that were deleted since last run."""
         current_file_keys = {str(f) for f in current_files}
         stored_file_keys = set(self.file_metadata.keys())
         return list(stored_file_keys - current_file_keys)
-        
+    
     def log(self, message: str, level: str = "info") -> None:
         """Log a message with appropriate styling based on level."""
         self.console.print(message)
     
     def _check_for_changes(self) -> Dict[str, List]:
-        """Check which files have changed without loading them.
-        
-        Returns:
-            Dictionary with 'new', 'updated', 'unchanged', 'deleted' file lists
-        """
+        """Check which files have changed without loading them."""
         pdf_files = list(self.docs_folder.glob("*.pdf"))
         html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
         all_files = pdf_files + html_files
@@ -209,8 +191,41 @@ class DocumentProcessor:
             'deleted': deleted_files
         }
     
+    # ========== PARALLEL LOADING METHODS ==========
+    
+    def _load_single_file(self, file_path: Path) -> Tuple[Optional[List], str, Optional[Dict], bool, Optional[str]]:
+        """Load a single file and return documents, key, metadata, is_new flag, and error.
+        
+        This method is designed to be called by parallel workers.
+        """
+        file_key = str(file_path)
+        is_new = file_key not in self.file_metadata
+        
+        try:
+            # Load based on file type
+            if file_path.suffix.lower() == '.pdf':
+                loader = PyPDFLoader(str(file_path))
+            else:
+                loader = BSHTMLLoader(str(file_path), open_encoding="utf-8")
+            
+            docs = loader.load()
+            file_hash = self._get_file_hash(file_path)
+            
+            # Tag documents with source file
+            for doc in docs:
+                doc.metadata['source_file'] = file_key
+                doc.metadata['file_hash'] = file_hash
+            
+            # Get file info
+            file_info = self._get_file_info(file_path)
+            
+            return docs, file_key, file_info, is_new, None
+            
+        except Exception as e:
+            return None, file_key, None, is_new, str(e)
+    
     def load_documents(self, force_reload: bool = False) -> Dict[str, List]:
-        """Load all PDFs and HTML files, only processing changed files.
+        """Load all PDFs and HTML files in parallel, only processing changed files.
         
         Args:
             force_reload: If True, reload all files regardless of changes
@@ -221,8 +236,7 @@ class DocumentProcessor:
         pdf_files = list(self.docs_folder.glob("*.pdf"))
         html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
         all_files = pdf_files + html_files
-        self.log(os.getcwd())
-
+        
         if not force_reload:
             self.log(f"[cyan]Encontrados {len(pdf_files)} PDFs e {len(html_files)} HTMLs[/cyan]")
         
@@ -238,13 +252,11 @@ class DocumentProcessor:
             for deleted_file in deleted_files:
                 del self.file_metadata[deleted_file]
         
-        # Process each file
+        # Determine which files need processing
+        files_to_process = []
         for file_path in all_files:
             file_key = str(file_path)
-            
-            # Determine if file needs processing
             is_changed = force_reload or self._file_has_changed(file_path)
-            is_new = file_key not in self.file_metadata
             
             if not is_changed:
                 unchanged_docs.append(file_key)
@@ -252,37 +264,45 @@ class DocumentProcessor:
                     self.log(f"[dim]Omitindo sen cambios: {file_path.name}[/dim]")
                 continue
             
-            # Process the file
-            try:
-                if self.verbose:
-                    status = "novo" if is_new else "actualizado"
-                    self.log(f"[cyan]Procesando {status}: {file_path.name}[/cyan]")
+            files_to_process.append(file_path)
+        
+        if not files_to_process:
+            self.log("[green]✓ Non se detectaron cambios[/green]")
+            self._save_file_metadata()
+            return {'new': new_docs, 'updated': updated_docs, 'unchanged': unchanged_docs}
+        
+        # Process files in parallel using ThreadPoolExecutor
+        self.log(f"[cyan]Procesando {len(files_to_process)} arquivos en paralelo con {self.max_workers} workers...[/cyan]")
+        
+        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+            # Submit all tasks
+            future_to_file = {
+                executor.submit(self._load_single_file, file_path): file_path
+                for file_path in files_to_process
+            }
+            
+            # Process completed tasks as they finish
+            for future in as_completed(future_to_file):
+                file_path = future_to_file[future]
+                docs, file_key, file_info, is_new, error = future.result()
                 
-                # Load based on file type
-                if file_path.suffix.lower() == '.pdf':
-                    loader = PyPDFLoader(str(file_path))
-                else:
-                    loader = BSHTMLLoader(str(file_path), open_encoding="utf-8")
+                if error:
+                    self.log(f"[red]Erro procesando {file_path.name}: {error}[/red]", "error")
+                    continue
                 
-                docs = loader.load()
-                print(len(docs))
-                # Tag documents with source file
-                for doc in docs:
-                    doc.metadata['source_file'] = file_key
-                    doc.metadata['file_hash'] = self._get_file_hash(file_path)
-                
-                self.documents.extend(docs)
-                
-                # Update metadata
-                self.file_metadata[file_key] = self._get_file_info(file_path)
+                # Thread-safe update of shared state
+                with self.doc_lock:
+                    self.documents.extend(docs)
+                    self.file_metadata[file_key] = file_info
                 
                 if is_new:
                     new_docs.append(file_key)
                 else:
                     updated_docs.append(file_key)
-                    
-            except Exception as e:
-                self.log(f"[red]Erro procesando {file_path}: {e}[/red]", "error")
+                
+                if self.verbose:
+                    status = "novo" if is_new else "actualizado"
+                    self.log(f"[cyan]✓ Procesado {status}: {file_path.name}[/cyan]")
         
         # Save updated metadata
         self._save_file_metadata()
@@ -301,85 +321,178 @@ class DocumentProcessor:
             'unchanged': unchanged_docs
         }
     
+    # ========== PARALLEL SPLITTING METHODS ==========
+    
+    def _split_document_batch(self, docs: List) -> List:
+        """Split a batch of documents into chunks."""
+        return self.text_splitter.split_documents(docs)
+    
+    def _add_source_prefix(self, chunk) -> Any:
+        """Add source-based prefix to a chunk."""
+        source_file = chunk.metadata.get("source_file", "descoñecido")
+        filename = Path(source_file).name
+        
+        # Load URL mapping if available
+        mapping_path = Path(self.map_json)
+        if mapping_path.exists():
+            try:
+                with open(mapping_path, "r", encoding="utf-8") as f:
+                    filename_to_url = json.load(f)
+                url = filename_to_url.get(filename, "URL descoñecida")
+            except Exception:
+                url = "URL descoñecida"
+        else:
+            url = "URL descoñecida"
+        
+        prefix = f"Este fragmento é do documento {filename} con url {url} :\n "
+        chunk.page_content = prefix + chunk.page_content
+        return chunk
+    
+    def _generate_llm_prefix(self, chunk) -> Optional[str]:
+        """Generate LLM-based prefix for a chunk."""
+        if self.llm is None:
+            return None
+        
+        source_file = Path(chunk.metadata.get("source_file", 'descoñecido')).name
+        prompt = (
+            f"Escribe unha breve frase introdutoria (máx. 1-2 oracións) que resuma o seguinte fragmento "
+            f"do documento '{source_file}' e sirva como contexto:\n\n"
+            f"---\n{chunk.page_content[:400]}\n---\n"
+            f"Responde soamente coa frase introdutoria en galego, sen repetir o texto do fragmento."
+        )
+        
+        try:
+            if hasattr(self.llm, "invoke"):
+                prefix_text = self.llm.invoke(prompt)
+            elif hasattr(self.llm, "generate"):
+                prefix_text = self.llm.generate(prompt)
+            else:
+                raise ValueError("O obxecto LLM non ten un método invoke() nin generate().")
+            
+            # Extract text from response
+            if isinstance(prefix_text, dict) and "content" in prefix_text:
+                prefix_text = prefix_text["content"]
+            elif not isinstance(prefix_text, str):
+                prefix_text = str(prefix_text)
+            
+            return prefix_text.strip()
+            
+        except Exception as e:
+            self.log(f"[red]Erro xerando prefixo LLM: {e}[/red]")
+            return None
+    
     def split_documents(self) -> List:
-        """Split documents into chunks, with optional prefixing behavior.
+        """Split documents into chunks in parallel, with optional prefixing.
         
         Returns:
             List of split Document chunks
         """
-
-        # Split using the text splitter
-        chunks = self.text_splitter.split_documents(self.documents)
-
+        if not self.documents:
+            self.log("[yellow]Non hai documentos para dividir[/yellow]")
+            return []
+        
+        # Split documents in parallel batches
+        num_docs = len(self.documents)
+        num_batches = min(self.max_workers, num_docs)
+        
+        if self.verbose:
+            self.log(f"[cyan]Dividindo {num_docs} documentos en {num_batches} lotes paralelos...[/cyan]")
+        
+        # Split documents into batches
+        doc_batches = np.array_split(self.documents, num_batches)
+        
+        all_chunks = []
+        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+            futures = [
+                executor.submit(self._split_document_batch, batch.tolist())
+                for batch in doc_batches if len(batch) > 0
+            ]
+            
+            for future in as_completed(futures):
+                all_chunks.extend(future.result())
+        
+        if self.verbose:
+            self.log(f"[green]✓ Creados {len(all_chunks)} fragmentos[/green]")
+        
+        # Apply prefixes if needed
         if self.prefix_mode == "source":
-
-            mapping_path = Path(self.map_json)
-            if mapping_path.exists():
-                try:
-                    with open(mapping_path, "r", encoding="utf-8") as f:
-                        filename_to_url = json.load(f)
-                except Exception as e:
-                    self.log(f"[yellow]Non se puido ler filename_to_url.json: {e}[/yellow]")
-                    filename_to_url = {}
-            else:
-                filename_to_url = {}
-
-            for chunk in chunks:
-                source_file = chunk.metadata.get("source_file", "descoñecido")
-                filename = Path(source_file).name
-                url = filename_to_url.get(filename, "URL descoñecida")
-                prefix = f"Este fragmento é do documento {filename} con url {url} :\n "
-                chunk.page_content = prefix + chunk.page_content
-
+            if self.verbose:
+                self.log(f"[cyan]Aplicando prefixos de orixe en paralelo...[/cyan]")
+            
+            with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+                all_chunks = list(executor.map(self._add_source_prefix, all_chunks))
+            
+            if self.verbose:
+                self.log(f"[green]✓ Prefixos de orixe aplicados[/green]")
+        
         elif self.prefix_mode == "llm":
             if self.llm is None:
                 raise ValueError("Debe proporcionar un LLM se se usa prefix_mode='llm'")
-
-            for i, chunk in enumerate(chunks):
-                source_file = Path(chunk.metadata.get("source_file", 'descoñecido')).name
-                prompt = (
-                    f"Escribe unha breve frase introdutoria (máx. 1-2 oracións) que resuma o seguinte fragmento "
-                    f"do documento '{source_file}' e sirva como contexto:\n\n"
-                    f"---\n{chunk.page_content[:400]}\n---\n"
-                    f"Responde soamente coa frase introdutoria en galego, sen repetir o texto do fragmento."
-                )
-                try:
-                    if hasattr(self.llm, "invoke"):
-                        prefix_text = self.llm.invoke(prompt)
-                    elif hasattr(self.llm, "generate"):
-                        prefix_text = self.llm.generate(prompt)
-                    else:
-                        raise ValueError("O obxecto LLM non ten un método invoke() nin generate().")
-
-                    # if the LLM returns an object (e.g. from LangChain), extract text
-                    if isinstance(prefix_text, dict) and "content" in prefix_text:
-                        prefix_text = prefix_text["content"]
-                    elif not isinstance(prefix_text, str):
-                        prefix_text = str(prefix_text)
-
-                    prefix = prefix_text.strip() + "\n\n"
-                    chunk.page_content = prefix + chunk.page_content
-                    chunk.metadata["llm_prefix"] = prefix_text.strip()
-
-                except Exception as e:
-                    self.log(f"[red]Erro xerando prefixo LLM para {source_file}: {e}[/red]")
-                    continue
-
-        if self.verbose:
-            self.log(f"Creados {len(chunks)} fragmentos de documento", "success")
-
-        return chunks
- 
+            
+            if self.verbose:
+                self.log(f"[cyan]Xerando prefixos LLM en lotes (esto pode tardar)...[/cyan]")
+            
+            # Process in smaller batches to avoid overwhelming the LLM
+            llm_batch_size = 10
+            for i in range(0, len(all_chunks), llm_batch_size):
+                batch = all_chunks[i:i + llm_batch_size]
+                
+                with ThreadPoolExecutor(max_workers=min(len(batch), self.max_workers)) as executor:
+                    futures = {executor.submit(self._generate_llm_prefix, chunk): j 
+                              for j, chunk in enumerate(batch)}
+                    
+                    for future in as_completed(futures):
+                        j = futures[future]
+                        prefix = future.result()
+                        if prefix:
+                            batch[j].page_content = prefix + "\n\n" + batch[j].page_content
+                            batch[j].metadata["llm_prefix"] = prefix
+                
+                if self.verbose and i > 0:
+                    progress = min(i + llm_batch_size, len(all_chunks))
+                    self.log(f"[dim]Progreso LLM: {progress}/{len(all_chunks)}[/dim]")
+            
+            if self.verbose:
+                self.log(f"[green]✓ Prefixos LLM xerados[/green]")
+        
+        return all_chunks
+    
+    # ========== VECTORSTORE METHODS ==========
+    
     def create_vectorstore(self, chunks: List) -> None:
-        """Create a vector store from document chunks."""
+        """Create a vector store from document chunks with batched processing.
+        
+        Args:
+            chunks: List of document chunks to embed
+        """
+        if not chunks:
+            self.log("[yellow]Non hai chunks para crear vectorstore[/yellow]")
+            return
+        
         if self.verbose:
-            self.log("Creando vectorstore...")
-        self.vectorstore = FAISS.from_documents(chunks, self.embeddings)
+            self.log(f"[cyan]Creando vectorstore con {len(chunks)} chunks (batch_size={self.batch_size})...[/cyan]")
+        
+        # Process in batches to manage memory and show progress
+        for i in range(0, len(chunks), self.batch_size):
+            batch = chunks[i:i + self.batch_size]
+            
+            if i == 0:
+                # Create initial vectorstore
+                self.vectorstore = FAISS.from_documents(batch, self.embeddings)
+            else:
+                # Merge additional batches
+                batch_vectorstore = FAISS.from_documents(batch, self.embeddings)
+                self.vectorstore.merge_from(batch_vectorstore)
+            
+            if self.verbose and i > 0:
+                progress = min(i + self.batch_size, len(chunks))
+                self.log(f"[dim]Progreso vectorstore: {progress}/{len(chunks)} chunks[/dim]")
+        
         if self.verbose:
-            self.log("Vectorstore creado!", "success")
+            self.log("[green]✓ Vectorstore creado![/green]", "success")
     
     def process(self, force_reload: bool = False, incremental: bool = True) -> bool:
-        """Process all documents and create/update the vector store.
+        """Process all documents and create/update the vector store with parallel processing.
         
         Args:
             force_reload: Force reprocessing of all files
@@ -397,7 +510,7 @@ class DocumentProcessor:
             
             if not has_changes:
                 self.log("[green]✓ Non se detectaron cambios. Vectorstore actualizado![/green]")
-                return False  # No cambios
+                return False
             
             # Report changes
             change_summary = []
@@ -409,8 +522,7 @@ class DocumentProcessor:
                 change_summary.append(f"{len(changes['deleted'])} eliminados")
             
             self.log(f"[yellow]⚠ Cambios detectados: {', '.join(change_summary)}[/yellow]")
-            print("el diablo en bicicleta")
-            self.log("[cyan]Reconstruíndo vectorstore con caché de embeddings...[/cyan]")
+            self.log("[cyan]Reconstruíndo vectorstore con procesamento paralelo...[/cyan]")
             
             # Rebuild with all documents (but embeddings are cached!)
             self.documents = []
@@ -426,13 +538,12 @@ class DocumentProcessor:
                     self.log("[yellow]⚠ Non se crearon chunks[/yellow]")
             else:
                 self.log("[yellow]⚠ Non hai documentos para procesar[/yellow]")
-                
-            # Clear documents from memory
+            
             self.documents = []
-                
+            
         else:
             # Full rebuild
-            self.log("[yellow]Realizando reconstrucción completa...[/yellow]")
+            self.log("[yellow]Realizando reconstrucción completa con procesamento paralelo...[/yellow]")
             self.documents = []
             self.load_documents(force_reload=True)
             
@@ -445,7 +556,6 @@ class DocumentProcessor:
                     self.log("[yellow]⚠ Non se crearon chunks[/yellow]")
             else:
                 self.log("[yellow]⚠ Non hai documentos para procesar[/yellow]")
-                self.log("[yellow]" + str(len(self.documents)))
             
             self.documents = []
         
@@ -475,18 +585,16 @@ class DocumentProcessor:
                 self.log(f"Non se atopou vectorstore en {path}", "warning")
     
     def get_cache_stats(self) -> Dict[str, Any]:
-        """Get statistics about cached data.
-        
-        Returns:
-            Dictionary with cache statistics
-        """
+        """Get statistics about cached data and parallel processing."""
         embedding_stats = self.embeddings.get_cache_stats()
         
         return {
             'tracked_files': len(self.file_metadata),
             'files_by_type': self._count_files_by_type(),
             'embedding_cache': embedding_stats,
-            'cache_dir': str(self.cache_dir)
+            'cache_dir': str(self.cache_dir),
+            'max_workers': self.max_workers,
+            'batch_size': self.batch_size
         }
     
     def _count_files_by_type(self) -> Dict[str, int]:
