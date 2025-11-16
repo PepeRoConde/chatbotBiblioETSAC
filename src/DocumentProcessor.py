@@ -2,6 +2,7 @@ from typing import List, Dict, Tuple, Optional, Union, Any
 from pathlib import Path
 import os
 import pickle
+import json
 import hashlib
 from datetime import datetime
 from langchain_community.vectorstores import FAISS
@@ -23,6 +24,7 @@ class DocumentProcessor:
         cache_dir: str = ".doc_cache",
         prefix_mode: str = "source",
         llm: Optional[Any] = None,
+        map_json: str = 'crawl/map.json' 
     ):
         """Initialize document processor.
         
@@ -63,6 +65,7 @@ class DocumentProcessor:
             self.console = Console()
 
         self.prefix_mode = prefix_mode
+        self.map_json = map_json
 
         self.llm = llm
         valid_modes = "none, source, llm"
@@ -309,9 +312,23 @@ class DocumentProcessor:
         chunks = self.text_splitter.split_documents(self.documents)
 
         if self.prefix_mode == "source":
+
+            mapping_path = Path(self.map_json)
+            if mapping_path.exists():
+                try:
+                    with open(mapping_path, "r", encoding="utf-8") as f:
+                        filename_to_url = json.load(f)
+                except Exception as e:
+                    self.log(f"[yellow]Non se puido ler filename_to_url.json: {e}[/yellow]")
+                    filename_to_url = {}
+            else:
+                filename_to_url = {}
+
             for chunk in chunks:
                 source_file = chunk.metadata.get("source_file", "descoñecido")
-                prefix = f"Este fragmento é do documento {Path(source_file).name}: "
+                filename = Path(source_file).name
+                url = filename_to_url.get(filename, "URL descoñecida")
+                prefix = f"Este fragmento é do documento {filename} con url {url} :\n "
                 chunk.page_content = prefix + chunk.page_content
 
         elif self.prefix_mode == "llm":

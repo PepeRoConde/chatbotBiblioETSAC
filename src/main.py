@@ -19,6 +19,7 @@ def main():
     parser = argparse.ArgumentParser(description='Mistral API RAG System for PDF and HTML documents')
     parser.add_argument('--cache_dir', type=str, help='Store metadata', default='.doc_cache')
     parser.add_argument('--docs_folder', type=str, help='Folder containing PDF and HTML files', default='crawl/crawled_data')
+    parser.add_argument('--map_json', type=str, help='Folder containing de json that maps filename to url', default='crawl/map.json')
     parser.add_argument('--vector_store', type=str, default='local_vectorstore', help='Path to save/load vector store')
     parser.add_argument('--rebuild', action='store_true', help='Rebuild vector store even if it exists')
     parser.add_argument('--clear-cache', action='store_true', help='Clear all caches before starting')
@@ -106,7 +107,8 @@ def main():
             verbose=args.verbose,
             cache_dir=args.cache_dir,
             prefix_mode=args.prefix_mode,
-            llm=llm
+            llm=llm,
+            map_json=args.map_json,
         )
     
     # Check if vector store exists and if we need to rebuild
