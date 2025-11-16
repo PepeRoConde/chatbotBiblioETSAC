@@ -9,17 +9,113 @@ from typing import Set, List, Dict, Any
 from collections import deque
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
+from multiprocessing import Process, Queue, Event
+from queue import Empty
 
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
+
+# OCR imports
+try:
+    from PIL import Image
+    import pytesseract
+    OCR_AVAILABLE = True
+except ImportError:
+    OCR_AVAILABLE = False
+    print("⚠ Warning: PIL/pytesseract not available. OCR will be disabled.")
+
+
+class OCRProcessor:
+    """
+    Separate process that consumes images from a queue and performs OCR.
+    """
+    def __init__(self, image_queue: Queue, output_dir: Path, stop_event: Event):
+        self.image_queue = image_queue
+        self.output_dir = output_dir
+        self.ocr_dir = output_dir / "ocr_texts"
+        self.ocr_dir.mkdir(parents=True, exist_ok=True)
+        self.stop_event = stop_event
+        self.stats = {
+            'processed': 0,
+            'errors': 0
+        }
+
+    def process_image(self, image_path: Path) -> bool:
+        """Perform OCR on a single image and save as .txt"""
+        try:
+            txt_filename = image_path.stem + ".txt"
+            txt_path = self.ocr_dir / txt_filename
+
+            # Skip if already processed
+            if txt_path.exists():
+                print(f"⊘ OCR already exists: {txt_filename}")
+                return True
+
+            # Open and perform OCR
+            img = Image.open(image_path)
+            text = pytesseract.image_to_string(img, lang='eng+spa')  # English + Spanish
+
+            if len(text) > 1:
+                # Save OCR result
+                with open(txt_path, 'w', encoding='utf-8') as f:
+                    f.write(text)
+
+                self.stats['processed'] += 1
+                print(f"📝 OCR completed: {txt_filename} ({len(text)} chars)")
+                os.remove(image_path)
+                return True
+
+            else:
+                print(f'📝 OCR completado pero {image_path.stem} no se guarda como .txt porque no tiene texto.')
+                os.remove(image_path)
+                return True
+
+
+
+        except Exception as e:
+            print(f"✗ OCR error for {image_path.name}: {e}")
+            self.stats['errors'] += 1
+            os.remove(image_path)
+            return False
+
+    def run(self):
+        """Main loop for OCR processor"""
+        print(f"🔍 OCR Processor started (PID: {os.getpid()})")
+        print(f"   Output directory: {self.ocr_dir.absolute()}")
+
+        while not self.stop_event.is_set() or not self.image_queue.empty():
+            try:
+                # Get image path from queue (timeout to check stop_event periodically)
+                image_path = self.image_queue.get(timeout=1)
+                
+                if image_path is None:  # Poison pill
+                    break
+                    
+                self.process_image(image_path)
+
+            except Empty:
+                continue
+            except Exception as e:
+                print(f"✗ OCR processor error: {e}")
+                self.stats['errors'] += 1
+
+        print(f"\n🔍 OCR Processor finished:")
+        print(f"   Processed: {self.stats['processed']}")
+        print(f"   Errors: {self.stats['errors']}")
+
+
+def start_ocr_worker(image_queue: Queue, output_dir: Path, stop_event: Event):
+    """Function to start OCR processor in a separate process"""
+    processor = OCRProcessor(image_queue, output_dir, stop_event)
+    processor.run()
 
 
 class CrawlerUDC:
     """
     Smart web crawler that downloads PDFs, HTML files and images,
     persists visited state, and refreshes only updated pages.
-    Now includes: force_recrawl and image downloading
+    Now includes: force_recrawl, image downloading, and parallel OCR
     """
     _metadata_lock = Lock()
     _visited_lock = Lock()
@@ -31,7 +127,9 @@ class CrawlerUDC:
                  keywords_file: str = "crawl/keywords.txt",
                  refresh_days: int = 30,
                  force_recrawl: bool = False,
-                 download_images: bool = True):
+                 download_images: bool = True,
+                 enable_ocr: bool = True,
+                 ocr_workers: int = 2):
 
         self.base_url = base_url.rstrip('/')
         self.domain = urlparse(base_url).netloc
@@ -46,6 +144,8 @@ class CrawlerUDC:
         self.refresh_days = refresh_days
         self.force_recrawl = force_recrawl
         self.download_images = download_images
+        self.enable_ocr = enable_ocr and OCR_AVAILABLE
+        self.ocr_workers = ocr_workers
 
         self.file_map: Dict[str, str] = {}
 
@@ -73,6 +173,11 @@ class CrawlerUDC:
             'skipped_not_modified': 0,
             'force_recrawled': 0
         }
+
+        # OCR process management
+        self.ocr_queue = None
+        self.ocr_processes = []
+        self.ocr_stop_event = None
 
     # =================== Persistence ===================
 
@@ -131,6 +236,60 @@ class CrawlerUDC:
             with open(self.visited_path, "w", encoding="utf-8") as f:
                 for url in sorted(all_urls):
                     f.write(f"{url}\n")
+
+    # =================== OCR Management ===================
+
+    def start_ocr_workers(self):
+        """Start OCR worker processes"""
+        if not self.enable_ocr:
+            return
+
+        from multiprocessing import Manager
+        manager = Manager()
+        self.ocr_queue = manager.Queue()
+        self.ocr_stop_event = manager.Event()
+
+        print(f"\n🔍 Starting {self.ocr_workers} OCR worker process(es)...")
+        for i in range(self.ocr_workers):
+            p = Process(
+                target=start_ocr_worker,
+                args=(self.ocr_queue, self.output_dir, self.ocr_stop_event),
+                daemon=False
+            )
+            p.start()
+            self.ocr_processes.append(p)
+            print(f"   Worker {i+1} started (PID: {p.pid})")
+
+    def stop_ocr_workers(self):
+        """Stop OCR worker processes gracefully"""
+        if not self.enable_ocr or not self.ocr_processes:
+            return
+
+        print("\n🔍 Stopping OCR workers...")
+        
+        # Send stop signal
+        self.ocr_stop_event.set()
+        
+        # Send poison pills
+        for _ in self.ocr_processes:
+            self.ocr_queue.put(None)
+
+        # Wait for all processes to finish
+        for i, p in enumerate(self.ocr_processes):
+            p.join(timeout=30)
+            if p.is_alive():
+                print(f"   ⚠ Worker {i+1} did not stop gracefully, terminating...")
+                p.terminate()
+                p.join()
+            else:
+                print(f"   Worker {i+1} stopped")
+
+        self.ocr_processes.clear()
+
+    def queue_image_for_ocr(self, image_path: Path):
+        """Add image to OCR queue"""
+        if self.enable_ocr and self.ocr_queue is not None:
+            self.ocr_queue.put(image_path)
 
     # =================== URL & file handling ===================
 
@@ -242,44 +401,59 @@ class CrawlerUDC:
         print(f"✓ Saved HTML: {filename}")
 
     def download_image(self, url: str, page_url: str = None):
-        """Descarga una imagen desde una URL"""
-        if url in self.downloaded_images and not self.force_recrawl:
+        """Download high-quality images with srcset/lazy-loading support."""
+
+        if not url or url in self.downloaded_images and not self.force_recrawl:
             return
 
         try:
-            # Obtener extensión de la imagen
-            parsed = urlparse(url)
-            ext = Path(parsed.path).suffix.lower()
-            if not ext or ext not in ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp', '.svg', '.ico']:
-                ext = '.jpg'  # extensión por defecto
-            
-            filename = self.generate_filename(url, ext.lstrip('.'))
+            # More realistic browser-like headers
+            headers = {
+                'User-Agent': self.headers.get('User-Agent'),
+                'Accept': 'image/avif,image/webp,image/apng,*/*',
+                'Accept-Language': 'en-US,en;q=0.8',
+                'Referer': page_url or self.base_url
+            }
+
+            r = requests.get(url, headers=headers, timeout=20)
+            r.raise_for_status()
+
+            # Validate it's actually an image
+            content_type = r.headers.get('Content-Type', '')
+            if not content_type.startswith("image/"):
+                print(f"✗ Skipped non-image content: {url}")
+                return
+
+            # Extract extension based on Content-Type
+            ext = content_type.split("/")[-1].split(";")[0].strip().lower()
+            if ext == "":
+                ext = "jpg"   # fallback but rarely needed
+
+            # Build filename based on real extension
+            filename = self.generate_filename(url, ext)
             filepath = self.images_dir / filename
 
-            # Si existe y no estamos en force_recrawl, saltar
+            # Skip if exists and not in force mode
             if filepath.exists() and not self.force_recrawl:
                 self.downloaded_images.add(url)
                 return
 
-            r = requests.get(url, headers=self.headers, timeout=15)
-            r.raise_for_status()
-
-            # Verificar que el contenido es realmente una imagen
-            content_type = r.headers.get('Content-Type', '')
-            if not content_type.startswith('image/'):
-                return
-
+            # Save the image
             with open(filepath, 'wb') as f:
                 f.write(r.content)
 
             self.downloaded_images.add(url)
             self.file_map[filename] = url
-            
             self.stats['images_downloaded'] += 1
-            print(f"🖼 Downloaded image: {filename}")
+
+            print(f"🖼 High-quality image saved: {filename}")
+
+            # Queue for OCR processing
+            self.queue_image_for_ocr(filepath)
 
         except Exception as e:
             print(f"✗ Error downloading image {url}: {e}")
+            self.stats['errors'] += 1
 
     def download_pdf(self, url: str):
         filename = self.generate_filename(url, 'pdf')
@@ -352,10 +526,35 @@ class CrawlerUDC:
 
             # Procesar imágenes si está habilitado
             if self.download_images:
-                for img in soup.find_all('img', src=True):
-                    img_url = urljoin(url, img['src'])
-                    if self.is_valid_url(img_url) or self.is_image_url(img_url):
-                        self.download_image(img_url, url)
+                for img in soup.find_all('img'):
+                    # Pick best possible URL (lazy-loading support)
+                    src = (
+                        img.get("src")
+                        or img.get("data-src")
+                        or img.get("data-original")
+                        or img.get("data-lazy")
+                    )
+
+                    # Handle srcset for high-resolution selection
+                    srcset = img.get("srcset")
+                    if srcset:
+                        try:
+                            # pick last (usually highest-res)
+                            candidates = [s.strip().split()[0] for s in srcset.split(",")]
+                            if candidates:
+                                src = candidates[-1]
+                        except Exception:
+                            pass
+
+                    if not src:
+                        continue
+
+                    img_url = urljoin(url, src)
+
+                    # Only download valid resources
+                    if self.is_image_url(img_url) or self.is_valid_url(img_url):
+                        self.download_image(img_url, page_url=url)
+
 
             # Procesar enlaces PDF
             for link in soup.find_all('a', href=True):
@@ -389,22 +588,33 @@ class CrawlerUDC:
         print(f"Max pages: {max_pages}, Max depth: {max_depth}")
         print(f"Force recrawl: {self.force_recrawl}")
         print(f"Download images: {self.download_images}")
+        print(f"OCR enabled: {self.enable_ocr}")
+        if self.enable_ocr:
+            print(f"OCR workers: {self.ocr_workers}")
         print(f"Files will be saved to: {self.output_dir.absolute()}")
         if self.download_images:
             print(f"Images will be saved to: {self.images_dir.absolute()}")
         print(f"State will be saved to: {self.state_dir.absolute()}\n")
 
-        queue = deque([(self.base_url, 0)])
+        # Start OCR workers
+        self.start_ocr_workers()
 
-        while queue and (len(self.visited_urls) < max_pages or self.force_recrawl):
-            url, depth = queue.popleft()
-            if depth > max_depth:
-                continue
-                
-            new_urls = self.crawl_page(url)
-            for new_url in new_urls:
-                if len(self.visited_urls) < max_pages or self.force_recrawl:
-                    queue.append((new_url, depth + 1))
+        try:
+            queue = deque([(self.base_url, 0)])
+
+            while queue and (len(self.visited_urls) < max_pages or self.force_recrawl):
+                url, depth = queue.popleft()
+                if depth > max_depth:
+                    continue
+                    
+                new_urls = self.crawl_page(url)
+                for new_url in new_urls:
+                    if len(self.visited_urls) < max_pages or self.force_recrawl:
+                        queue.append((new_url, depth + 1))
+
+        finally:
+            # Always stop OCR workers
+            self.stop_ocr_workers()
 
         self.save_metadata()
         self.save_file_map()
@@ -428,6 +638,8 @@ class CrawlerUDC:
         print(f"\nFiles saved to: {self.output_dir.absolute()}")
         if self.download_images:
             print(f"Images saved to: {self.images_dir.absolute()}")
+        if self.enable_ocr:
+            print(f"OCR texts saved to: {self.output_dir / 'ocr_texts'}")
         print(f"State saved to: {self.state_dir.absolute()}")
         print("="*50)
 
@@ -442,7 +654,9 @@ def crawl_single_url(url: str, args) -> tuple:
             keywords_file=args.keywords_file,
             refresh_days=args.refresh_days,
             force_recrawl=args.force,
-            download_images=args.download_images
+            download_images=args.download_images,
+            enable_ocr=args.enable_ocr,
+            ocr_workers=args.ocr_workers
         )
         crawler.crawl(max_pages=args.max_pages, max_depth=args.max_depth)
         return (url, crawler.stats, None)
@@ -451,23 +665,35 @@ def crawl_single_url(url: str, args) -> tuple:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Smart CrawlerUDC with images support.")
+    parser = argparse.ArgumentParser(description="Smart CrawlerUDC with parallel OCR support.")
     parser.add_argument("--urls_file", "-f", type=str, default="crawl/urls.txt")
     parser.add_argument("--keywords_file", "-kf", type=str, default="crawl/keywords.txt")
-    parser.add_argument("--max_pages", "-p", type=int, default=100)
-    parser.add_argument("--max_depth", "-d", type=int, default=3)
+    parser.add_argument("--max_pages", "-p", type=int, default=200)
+    parser.add_argument("--max_depth", "-d", type=int, default=4)
     parser.add_argument("--output_dir", "-o", type=str, default="crawl/crawled_data")
     parser.add_argument("--state_dir", "-s", type=str, default="crawl")
     parser.add_argument("--refresh_days", "-r", type=int, default=30)
-    parser.add_argument("--workers", "-w", type=int, default=4)
+    parser.add_argument("--workers", "-w", type=int, default=8)
     parser.add_argument("--force", action="store_true",
                         help="Force re-crawl even if URL already visited")
     parser.add_argument("--download_images", "-i", action="store_true", default=True,
                         help="Download all images found (default: True)")
     parser.add_argument("--no_images", action="store_false", dest="download_images",
                         help="Skip image downloading")
+    parser.add_argument("--enable_ocr", action="store_true", default=True,
+                        help="Enable OCR processing of images (default: True)")
+    parser.add_argument("--no_ocr", action="store_false", dest="enable_ocr",
+                        help="Disable OCR processing")
+    parser.add_argument("--ocr_workers", type=int, default=2,
+                        help="Number of parallel OCR worker processes (default: 2)")
 
     args = parser.parse_args()
+
+    if args.enable_ocr and not OCR_AVAILABLE:
+        print("⚠ Error: OCR is enabled but required libraries are not installed.")
+        print("   Please install: pip install pillow pytesseract")
+        print("   And ensure tesseract-ocr is installed on your system.")
+        exit(1)
 
     urls_path = Path(args.urls_file)
     if not urls_path.exists():
@@ -477,8 +703,11 @@ if __name__ == "__main__":
         urls = [line.strip() for line in f if line.strip()]
 
     print(f"Found {len(urls)} URLs to crawl from {urls_path}")
-    print(f"Using {args.workers} concurrent workers")
-    print(f"Image downloading: {'enabled' if args.download_images else 'disabled'}\n")
+    print(f"Using {args.workers} concurrent crawler workers")
+    print(f"Image downloading: {'enabled' if args.download_images else 'disabled'}")
+    print(f"OCR processing: {'enabled' if args.enable_ocr else 'disabled'}")
+    if args.enable_ocr:
+        print(f"OCR workers per crawler: {args.ocr_workers}\n")
 
     start_time = time.time()
     all_stats = {}
@@ -513,7 +742,9 @@ if __name__ == "__main__":
     print(f"Successful: {len(all_stats)}")
     print(f"Failed: {len(errors)}")
     print(f"Time elapsed: {elapsed:.2f} seconds")
-    print(f"Workers used: {args.workers}")
+    print(f"Crawler workers used: {args.workers}")
+    if args.enable_ocr:
+        print(f"OCR workers per crawler: {args.ocr_workers}")
 
     if all_stats:
         total_pages = sum(s['pages_crawled'] for s in all_stats.values())
