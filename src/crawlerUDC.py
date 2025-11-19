@@ -171,7 +171,10 @@ class CrawlerUDC:
             'images_downloaded': 0,
             'errors': 0,
             'skipped_not_modified': 0,
-            'force_recrawled': 0
+            'force_recrawled': 0,
+            'new_urls': 0,
+            'changed_urls': 0,
+            'deleted': 0
         }
 
         # OCR process management
@@ -186,7 +189,12 @@ class CrawlerUDC:
             if self.meta_path.exists():
                 try:
                     with open(self.meta_path, "r", encoding="utf-8") as f:
-                        return json.load(f)
+                        metadata = json.load(f)
+                        # Initialize change_status for existing entries if not present
+                        for url, meta in metadata.items():
+                            if 'change_status' not in meta:
+                                meta['change_status'] = 0  # Assume no changes initially
+                        return metadata
                 except Exception:
                     return {}
             return {}
@@ -367,23 +375,74 @@ class CrawlerUDC:
             pass
         return {}
 
-    def has_remote_changed(self, url: str) -> bool:
+    def has_remote_changed(self, url: str) -> int:
+        """
+        Returns change status:
+        0 - no changes
+        1 - changed (content modified)
+        2 - new (not in metadata)
+        3 - deleted (URL no longer accessible)
+        """
         if self.force_recrawl:
-            return True
-            
+            return 1  # Treat as changed
+        
         old_meta = self.metadata.get(url, {})
-        new_meta = self.get_remote_metadata(url)
-
-        if not new_meta:
-            return True
-
+        
+        # New URL (not in metadata)
+        if not old_meta:
+            return 2
+        
+        # Check if URL is still accessible
+        try:
+            response = requests.head(url, headers=self.headers, timeout=15, allow_redirects=True)
+            if response.status_code == 404 or response.status_code == 410:
+                return 3  # Explicitly deleted
+                
+            new_meta = self.get_remote_metadata(url)
+            # If we can't get metadata, treat as potentially deleted
+            if not new_meta:
+                return 3
+        except requests.exceptions.RequestException as e:
+            # If request fails completely, treat as deleted
+            print(f"✗ Request failed for {url}: {e}")
+            return 3
+        
+        # Check for content changes
+        content_changed = False
         if old_meta.get("etag") and new_meta.get("etag"):
-            return old_meta["etag"] != new_meta["etag"]
-
+            if old_meta["etag"] != new_meta["etag"]:
+                content_changed = True
+        
         if old_meta.get("last_modified") and new_meta.get("last_modified"):
-            return old_meta["last_modified"] != new_meta["last_modified"]
+            if old_meta["last_modified"] != new_meta["last_modified"]:
+                content_changed = True
+        
+        return 1 if content_changed else 0
 
-        return True
+    def detect_deleted_urls(self) -> List[str]:
+        """Compare current file_map with previous map.json to find deleted URLs"""
+        deleted_urls = []
+
+        # Load previous file map if it exists
+        previous_map = {}
+        if self.map_path.exists():
+            try:
+                with open(self.map_path, "r", encoding="utf-8") as f:
+                    previous_map = json.load(f)
+            except Exception:
+                pass
+
+        # Find URLs that were in previous map but not in current file_map
+        current_urls = set(self.file_map.values())
+        for filename, url in previous_map.items():
+            if url not in current_urls and url not in self.visited_urls:
+                deleted_urls.append(url)
+                # Mark as deleted in metadata
+                if url in self.metadata:
+                    self.metadata[url]['change_status'] = 3
+                    self.metadata[url]['deleted_detected'] = datetime.now().isoformat()
+
+        return deleted_urls
 
     def save_html(self, url: str, content: bytes):
         filename = self.generate_filename(url, 'html')
@@ -502,18 +561,43 @@ class CrawlerUDC:
     def crawl_page(self, url: str) -> List[str]:
         if url in self.visited_urls and not self.force_recrawl:
             return []
-
+    
+        # Get change status and make programmatic decisions
+        change_status = self.has_remote_changed(url)
+        
+        # Store change status in metadata for persistence
+        if url in self.metadata:
+            self.metadata[url]['change_status'] = change_status
+        else:
+            self.metadata[url] = {'change_status': change_status}
+        
+        # Track statistics based on change status
+        if change_status == 2:  # New URL
+            self.stats['new_urls'] = self.stats.get('new_urls', 0) + 1
+            print(f"🆕 New URL discovered: {url}")
+        elif change_status == 1:  # Changed
+            self.stats['changed_urls'] = self.stats.get('changed_urls', 0) + 1
+            print(f"📝 Changed URL: {url}")
+        elif change_status == 3:  # Deleted
+            self.stats['deleted'] = self.stats.get('deleted', 0) + 1
+            print(f"🗑️ URL appears deleted: {url}")
+            # Remove from metadata if it exists and is deleted
+            if url in self.metadata:
+                del self.metadata[url]
+            return []
+        
+        # Programmatic decision: skip unchanged URLs unless force recrawl
+        if change_status == 0 and not self.force_recrawl:
+            print(f"⊘ Skipping unchanged page: {url}")
+            self.stats['skipped_not_modified'] += 1
+            return []
+    
         if not self.force_recrawl:
             self.visited_urls.add(url)
         else:
             self.stats['force_recrawled'] += 1
             print(f"↻ Force recrawling: {url}")
-
-        if not self.force_recrawl and not self.should_refresh(url) and not self.has_remote_changed(url):
-            print(f"⊘ Skipping unchanged page: {url}")
-            self.stats['skipped_not_modified'] += 1
-            return []
-
+    
         try:
             print(f"→ Crawling: {url}")
             response = requests.get(url, headers=self.headers, timeout=30)
@@ -523,7 +607,7 @@ class CrawlerUDC:
             
             soup = BeautifulSoup(response.content, 'lxml')
             self.stats['pages_crawled'] += 1
-
+    
             # Procesar imágenes si está habilitado
             if self.download_images:
                 for img in soup.find_all('img'):
@@ -534,7 +618,7 @@ class CrawlerUDC:
                         or img.get("data-original")
                         or img.get("data-lazy")
                     )
-
+    
                     # Handle srcset for high-resolution selection
                     srcset = img.get("srcset")
                     if srcset:
@@ -545,42 +629,51 @@ class CrawlerUDC:
                                 src = candidates[-1]
                         except Exception:
                             pass
-
+    
                     if not src:
                         continue
-
+    
                     img_url = urljoin(url, src)
-
+    
                     # Only download valid resources
                     if self.is_image_url(img_url) or self.is_valid_url(img_url):
                         self.download_image(img_url, page_url=url)
-
-
+    
             # Procesar enlaces PDF
             for link in soup.find_all('a', href=True):
                 href = urljoin(url, link['href'])
                 if href.lower().endswith('.pdf') and self.is_bureaucratic_pdf(href, link.text):
                     self.download_pdf(href)
-
+    
             # Extraer nuevos enlaces
             new_urls = [
                 urljoin(url, link['href'])
                 for link in soup.find_all('a', href=True)
                 if self.is_valid_url(urljoin(url, link['href']))
             ]
-
-            # Actualizar metadatos
+    
+            # Actualizar metadatos con información completa
+            remote_meta = self.get_remote_metadata(url)
             self.metadata[url] = {
-                **self.get_remote_metadata(url),
-                "last_download": datetime.now().isoformat()
+                **remote_meta,
+                "last_download": datetime.now().isoformat(),
+                "change_status": change_status,
+                "content_length": len(response.content),
+                "last_crawled": datetime.now().isoformat()
             }
-
+    
             time.sleep(1)
             return new_urls
-
+    
         except Exception as e:
             print(f"✗ Error crawling {url}: {e}")
             self.stats['errors'] += 1
+            
+            # Update metadata even for failed crawls to track the error
+            if url in self.metadata:
+                self.metadata[url]['last_error'] = str(e)
+                self.metadata[url]['last_error_time'] = datetime.now().isoformat()
+            
             return []
 
     def crawl(self, max_pages: int = 100, max_depth: int = 3):
@@ -613,6 +706,15 @@ class CrawlerUDC:
                         queue.append((new_url, depth + 1))
 
         finally:
+            # Detect deletions by comparing with previous file map
+            deleted_urls = self.detect_deleted_urls()
+            if deleted_urls:
+                print(f"\n🗑️ Detected {len(deleted_urls)} deleted URLs from previous crawl")
+                for url in deleted_urls[:5]:  # Show first 5
+                    print(f"   - {url}")
+                if len(deleted_urls) > 5:
+                    print(f"   ... and {len(deleted_urls) - 5} more")
+            
             # Always stop OCR workers
             self.stop_ocr_workers()
 
@@ -632,6 +734,15 @@ class CrawlerUDC:
         print(f"Images downloaded: {self.stats['images_downloaded']}")
         print(f"Skipped (unchanged): {self.stats['skipped_not_modified']}")
         print(f"Errors encountered: {self.stats['errors']}")
+        
+        # New change tracking stats
+        if 'new_urls' in self.stats:
+            print(f"New URLs discovered: {self.stats['new_urls']}")
+        if 'changed_urls' in self.stats:
+            print(f"Changed URLs: {self.stats['changed_urls']}")
+        if 'deleted' in self.stats:
+            print(f"Deleted URLs detected: {self.stats['deleted']}")
+            
         if self.force_recrawl:
             print(f"Pages force-recrawled: {self.stats['force_recrawled']}")
         print(f"Total URLs visited: {len(self.visited_urls)}")
@@ -642,7 +753,6 @@ class CrawlerUDC:
             print(f"OCR texts saved to: {self.output_dir / 'ocr_texts'}")
         print(f"State saved to: {self.state_dir.absolute()}")
         print("="*50)
-
 
 # ================= CLI interface =================
 def crawl_single_url(url: str, args) -> tuple:
@@ -753,6 +863,9 @@ if __name__ == "__main__":
         total_images = sum(s['images_downloaded'] for s in all_stats.values())
         total_errors = sum(s['errors'] for s in all_stats.values())
         total_force_recrawled = sum(s.get('force_recrawled', 0) for s in all_stats.values())
+        total_new_urls = sum(s.get('new_urls', 0) for s in all_stats.values())
+        total_changed_urls = sum(s.get('changed_urls', 0) for s in all_stats.values())
+        total_deleted = sum(s.get('deleted', 0) for s in all_stats.values())
 
         print(f"\nAggregated stats:")
         print(f"  Total pages crawled: {total_pages}")
@@ -760,6 +873,9 @@ if __name__ == "__main__":
         print(f"  Total PDFs downloaded: {total_pdfs}")
         print(f"  Total images downloaded: {total_images}")
         print(f"  Total errors: {total_errors}")
+        print(f"  New URLs discovered: {total_new_urls}")
+        print(f"  Changed URLs: {total_changed_urls}")
+        print(f"  Deleted URLs detected: {total_deleted}")
         if args.force:
             print(f"  Total force-recrawled: {total_force_recrawled}")
 

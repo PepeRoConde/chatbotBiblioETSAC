@@ -1,0 +1,173 @@
+{
+  "https://www.udc.es/es/cufie/GD/consulta-guias-docentes": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:33:34.964703",
+    "change_status": 3,
+    "content_length": 32631,
+    "last_crawled": "2025-11-19T12:33:34.964711",
+    "deleted_detected": "2025-11-19T12:36:23.145110"
+  },
+  "https://www.udc.es/gl/cufie/GD/consulta-guias-docentes/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:33:36.531013",
+    "change_status": 3,
+    "content_length": 32625,
+    "last_crawled": "2025-11-19T12:33:36.531023",
+    "deleted_detected": "2025-11-19T12:36:23.145123"
+  },
+  "https://www.udc.es/es/cufie/GD/consulta-guias-docentes/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:33:37.763600",
+    "change_status": 3,
+    "content_length": 32631,
+    "last_crawled": "2025-11-19T12:33:37.763611",
+    "deleted_detected": "2025-11-19T12:36:23.145127"
+  },
+  "https://www.udc.es/en/cufie/GD/consulta-guias-docentes/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:33:39.351905",
+    "change_status": 3,
+    "content_length": 32575,
+    "last_crawled": "2025-11-19T12:33:39.351938",
+    "deleted_detected": "2025-11-19T12:36:23.145129"
+  },
+  "https://www.udc.es/es/busca/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:33:40.661091",
+    "change_status": 3,
+    "content_length": 20959,
+    "last_crawled": "2025-11-19T12:33:40.661115",
+    "deleted_detected": "2025-11-19T12:36:23.145132"
+  },
+  "https://www.udc.es": {
+    "etag": null,
+    "last_modified": "Wed, 19 Nov 2025 11:02:23 GMT",
+    "last_download": "2025-11-19T12:35:00.014308",
+    "change_status": 3,
+    "content_length": 58713,
+    "last_crawled": "2025-11-19T12:35:00.014319",
+    "deleted_detected": "2025-11-19T12:36:23.145134"
+  },
+  "https://www.udc.es/gl/": {
+    "etag": null,
+    "last_modified": "Wed, 19 Nov 2025 11:02:23 GMT",
+    "last_download": "2025-11-19T12:35:01.130794",
+    "change_status": 3,
+    "content_length": 58713,
+    "last_crawled": "2025-11-19T12:35:01.130800",
+    "deleted_detected": "2025-11-19T12:36:23.145137"
+  },
+  "https://www.udc.es/gl/estudantes/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:35:02.679405",
+    "change_status": 3,
+    "content_length": 38177,
+    "last_crawled": "2025-11-19T12:35:02.679418",
+    "deleted_detected": "2025-11-19T12:36:23.145140"
+  },
+  "https://www.udc.es/gl/sape/futuros_estudantes/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:35:04.180878",
+    "change_status": 3,
+    "content_length": 36664,
+    "last_crawled": "2025-11-19T12:35:04.180889",
+    "deleted_detected": "2025-11-19T12:36:23.145142"
+  },
+  "https://www.udc.es/gl/alumni/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:35:05.755246",
+    "change_status": 3,
+    "content_length": 29247,
+    "last_crawled": "2025-11-19T12:35:05.755254",
+    "deleted_detected": "2025-11-19T12:36:23.145144"
+  },
+  "https://www.udc.es/gl/pdi/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:35:06.903468",
+    "change_status": 3,
+    "content_length": 40733,
+    "last_crawled": "2025-11-19T12:35:06.903475",
+    "deleted_detected": "2025-11-19T12:36:23.145147"
+  },
+  "https://www.udc.es/gl/pas/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:35:08.053258",
+    "change_status": 3,
+    "content_length": 33625,
+    "last_crawled": "2025-11-19T12:35:08.053268",
+    "deleted_detected": "2025-11-19T12:36:23.145149"
+  },
+  "https://www.udc.es/es/biblioteca/?language=es": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:34:59.357894",
+    "change_status": 3,
+    "content_length": 7415,
+    "last_crawled": "2025-11-19T12:34:59.357910",
+    "deleted_detected": "2025-11-19T12:36:23.145151"
+  },
+  "http://www.udc.es/": {
+    "etag": null,
+    "last_modified": "Wed, 19 Nov 2025 11:02:23 GMT",
+    "last_download": "2025-11-19T12:35:01.920439",
+    "change_status": 3,
+    "content_length": 58713,
+    "last_crawled": "2025-11-19T12:35:01.920446",
+    "deleted_detected": "2025-11-19T12:36:23.145153"
+  },
+  "http://www.udc.es/gl/": {
+    "etag": null,
+    "last_modified": "Wed, 19 Nov 2025 11:02:23 GMT",
+    "last_download": "2025-11-19T12:35:03.117779",
+    "change_status": 3,
+    "content_length": 58713,
+    "last_crawled": "2025-11-19T12:35:03.117790",
+    "deleted_detected": "2025-11-19T12:36:23.145159"
+  },
+  "http://www.udc.es/gl/estudantes/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:35:04.260452",
+    "change_status": 3,
+    "content_length": 38177,
+    "last_crawled": "2025-11-19T12:35:04.260458",
+    "deleted_detected": "2025-11-19T12:36:23.145161"
+  },
+  "http://www.udc.es/gl/sape/futuros_estudantes/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:35:05.691116",
+    "change_status": 3,
+    "content_length": 36664,
+    "last_crawled": "2025-11-19T12:35:05.691125",
+    "deleted_detected": "2025-11-19T12:36:23.145163"
+  },
+  "http://www.udc.es/gl/alumni/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:35:07.166507",
+    "change_status": 3,
+    "content_length": 29247,
+    "last_crawled": "2025-11-19T12:35:07.166514",
+    "deleted_detected": "2025-11-19T12:36:23.145165"
+  },
+  "http://www.udc.es/gl/pdi/": {
+    "etag": null,
+    "last_modified": "Mon, 10 Nov 2025 12:48:54 GMT",
+    "last_download": "2025-11-19T12:35:08.704190",
+    "change_status": 3,
+    "content_length": 40745,
+    "last_crawled": "2025-11-19T12:35:08.704201",
+    "deleted_detected": "2025-11-19T12:36:23.145168"
+  }
+}
