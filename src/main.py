@@ -22,6 +22,7 @@ def main():
     # Document Processing
     parser.add_argument('--docs_folder', type=str, default='crawl/crawled_data', help='Folder containing PDF and HTML files')
     parser.add_argument('--map_json', type=str, default='crawl/map.json', help='JSON file mapping filename to URL')
+    parser.add_argument('--metadata_json', type=str, default='crawl/map.json', help='JSON file mapping filename to URL')
     parser.add_argument('--chunk_size', type=int, default=500, help='Size of text chunks')
     parser.add_argument('--chunk_overlap', type=int, default=15, help='Overlap between chunks')
     parser.add_argument('--prefix_mode', type=str, default='source', help='Chunk prefix mode: none, source, llm')
@@ -122,6 +123,9 @@ def main():
             prefix_mode=args.prefix_mode,
             llm=llm,
             map_json=args.map_json,
+            metadata_json=args.metadata_json, 
+            max_workers=args.workers, 
+            batch_size=args.batch_size  
         )
     
     # Check if vector store exists and if we need to rebuild

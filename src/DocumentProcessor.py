@@ -1,7 +1,6 @@
 from typing import List, Dict, Tuple, Optional, Union, Any
 from pathlib import Path
 import os
-import pickle
 import json
 import hashlib
 from datetime import datetime
@@ -11,8 +10,8 @@ import numpy as np
 
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import (
-    PyPDFLoader, 
-    BSHTMLLoader, 
+    PyPDFLoader,
+    BSHTMLLoader,
     TextLoader,
     UnstructuredWordDocumentLoader
 )
@@ -22,10 +21,10 @@ from LocalEmbeddings import LocalEmbeddings
 
 
 class DocumentProcessor:
-    """Class for processing multiple document types (PDF, HTML, DOCX, TXT) with parallel processing."""
-    
+    """Document processor with unified crawler metadata and parallel processing."""
+
     def __init__(
-        self, 
+        self,
         docs_folder: str,
         embedding_model_name: str = "sentence-transformers/all-MiniLM-L6-v2",
         chunk_size: int = 300,
@@ -34,674 +33,362 @@ class DocumentProcessor:
         cache_dir: str = ".doc_cache",
         prefix_mode: str = "source",
         llm: Optional[Any] = None,
-        map_json: str = 'crawl/map.json',
+        map_json: str = "crawl/map.json",
+        metadata_json: str = "crawl/metadata.json",
         max_workers: int = 7,
         batch_size: int = 128,
         ocr_texts_folder: Optional[str] = "crawl/crawled_data/ocr_texts"
     ):
-        """Initialize document processor with parallel processing support.
-        
-        Args:
-            docs_folder: Folder containing documents
-            embedding_model_name: Name of embedding model
-            chunk_size: Size of text chunks
-            chunk_overlap: Overlap between chunks
-            verbose: Whether to show detailed information
-            cache_dir: Directory for caching file metadata
-            prefix_mode: How to prefix chunks ("none", "source", "llm")
-            llm: LLM instance for prefix generation (required if prefix_mode="llm")
-            map_json: Path to JSON file mapping filenames to URLs
-            max_workers: Maximum number of parallel workers (default: 7)
-            batch_size: Batch size for embedding generation (default: 128)
-            ocr_texts_folder: Folder containing OCR text files (optional)
-        """
+
         self.docs_folder = Path(docs_folder)
+        self.map_json = Path(map_json)
+        self.metadata_file = Path(metadata_json)
+
         self.ocr_texts_folder = Path(ocr_texts_folder) if ocr_texts_folder else None
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(exist_ok=True)
-        
+
+        # embeddings + splitter
         self.embeddings = LocalEmbeddings(
             model_name=embedding_model_name,
             cache_dir=str(self.cache_dir / "embeddings")
         )
         self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=chunk_size,
-            chunk_overlap=chunk_overlap
+            chunk_size=chunk_size, chunk_overlap=chunk_overlap
         )
-        
+
+        self.verbose = verbose
         self.documents = []
         self.vectorstore = None
-        self.verbose = verbose
-        
-        # File tracking with hash-based change detection
-        self.metadata_file = self.cache_dir / "file_metadata.pkl"
-        self.file_metadata = self._load_file_metadata()
-        
-        # Parallel processing settings
+
+        # unified metadata
+        self.unified_metadata = self._load_unified_metadata()
+
+        # parallel processing
         self.max_workers = max_workers
         self.batch_size = batch_size
-        self.doc_lock = Lock()  # Thread-safe document list access
-        
-        # Use the global rich console if available
+        self.doc_lock = Lock()
+
+        # logging
         try:
             self.console = __builtins__.rich_console
-        except (AttributeError, NameError):
+        except Exception:
             from rich.console import Console
             self.console = Console()
 
+        # prefix
         self.prefix_mode = prefix_mode
-        self.map_json = map_json
         self.llm = llm
-        
-        valid_modes = "none, source, llm"
-        if self.prefix_mode not in {"none", "source", "llm"}:
-            raise ValueError(f"prefix_mode must be one of {valid_modes}")
 
-        if self.verbose:
-            mode_desc = {
-                "none": "sen prefixo",
-                "source": "co nome do documento",
-                "llm": "xerado por LLM"
-            }[self.prefix_mode]
-            self.log(f"[cyan]Inicializado con {max_workers} workers paralelos[/cyan]")
-            self.log(f"Dividindo documentos en fragmentos ({mode_desc})...")
-    
-    def _load_file_metadata(self) -> Dict[str, Dict]:
-        """Load file metadata (hashes, modification times)."""
+        if prefix_mode not in {"none", "source", "llm"}:
+            raise ValueError("prefix_mode must be one of: none, source, llm")
+
+    # -------------------------------------------------------------------
+    # METADATA HELPERS
+    # -------------------------------------------------------------------
+
+    def _load_unified_metadata(self) -> Dict[str, Dict]:
+        """Load unified crawler metadata."""
         if self.metadata_file.exists():
             try:
-                with open(self.metadata_file, 'rb') as f:
-                    return pickle.load(f)
+                with open(self.metadata_file, "r", encoding="utf-8") as f:
+                    return json.load(f)
             except Exception as e:
-                self.log(f"Could not load metadata: {e}", "warning")
+                self.log(f"[red]Could not load unified metadata: {e}[/red]")
                 return {}
         return {}
-    
-    def _save_file_metadata(self) -> None:
-        """Save file metadata to disk."""
+
+    def _save_unified_metadata(self):
+        """Save unified metadata back to metadata.json."""
         try:
-            with open(self.metadata_file, 'wb') as f:
-                pickle.dump(self.file_metadata, f)
+            with open(self.metadata_file, "w", encoding="utf-8") as f:
+                json.dump(self.unified_metadata, f, ensure_ascii=False, indent=2)
         except Exception as e:
-            self.log(f"Could not save metadata: {e}", "error")
-    
+            self.log(f"[red]Could not save unified metadata: {e}[/red]")
+
     def _get_file_hash(self, file_path: Path) -> str:
-        """Calculate hash of a file's content."""
-        sha256_hash = hashlib.sha256()
+        sha = hashlib.sha256()
         try:
             with open(file_path, "rb") as f:
-                for byte_block in iter(lambda: f.read(4096), b""):
-                    sha256_hash.update(byte_block)
-            return sha256_hash.hexdigest()
-        except Exception as e:
-            self.log(f"Error calculating hash for {file_path}: {e}", "error")
+                for blk in iter(lambda: f.read(4096), b""):
+                    sha.update(blk)
+            return sha.hexdigest()
+        except Exception:
             return "error"
-    
-    def _get_file_info(self, file_path: Path) -> Dict:
-        """Get file information (hash, mod time, size)."""
+
+    # -------------------------------------------------------------------
+    # MAP.JSON HELPERS
+    # -------------------------------------------------------------------
+    def _get_url_for_file(self, filename: str) -> Optional[str]:
+        """Find URL for filename using map.json."""
         try:
-            stat = file_path.stat()
-            return {
-                'hash': self._get_file_hash(file_path),
-                'mtime': stat.st_mtime,
-                'size': stat.st_size,
-                'last_processed': datetime.now().isoformat(),
-                'file_type': file_path.suffix.lower()
-            }
-        except Exception as e:
-            self.log(f"Error getting file info for {file_path}: {e}", "error")
-            return {
-                'hash': 'error',
-                'mtime': 0,
-                'size': 0,
-                'last_processed': datetime.now().isoformat(),
-                'file_type': file_path.suffix.lower()
-            }
-    
+            with open(self.map_json, "r", encoding="utf-8") as f:
+                file_to_url = json.load(f)
+            return file_to_url.get(filename)
+        except Exception:
+            return None
+
+    # -------------------------------------------------------------------
+    # CHANGE DETECTION
+    # -------------------------------------------------------------------
     def _file_has_changed(self, file_path: Path) -> bool:
-        """Check if a file has changed since last processing using hash comparison."""
-        file_key = str(file_path)
-        
-        if file_key not in self.file_metadata:
+        """Detect file changes using unified metadata."""
+        filename = file_path.name
+        url = self._get_url_for_file(filename)
+        if not url or url not in self.unified_metadata:
             return True
-        
-        # Get current file info
-        current_info = self._get_file_info(file_path)
-        stored_info = self.file_metadata[file_key]
-        
-        # Compare hashes - if hash differs, file has changed
-        if current_info['hash'] != stored_info.get('hash', ''):
-            if self.verbose:
-                self.log(f"[yellow]Hash changed for {file_path.name}[/yellow]")
+
+        info = self.unified_metadata[url].get("file_info", {})
+        if not info:
             return True
-        
-        # Also check modification time as secondary check
-        if current_info['mtime'] > stored_info.get('mtime', 0):
-            if self.verbose:
-                self.log(f"[yellow]Modification time changed for {file_path.name}[/yellow]")
+
+        current_hash = self._get_file_hash(file_path)
+        current_mtime = file_path.stat().st_mtime
+        current_size = file_path.stat().st_size
+
+        if current_hash != info.get("file_hash"):
             return True
-        
+        if current_mtime != info.get("file_mtime"):
+            return True
+        if current_size != info.get("file_size"):
+            return True
+
         return False
-    
-    def _get_deleted_files(self, current_files: List[Path]) -> List[str]:
-        """Find files that were deleted since last run."""
-        current_file_keys = {str(f) for f in current_files}
-        stored_file_keys = set(self.file_metadata.keys())
-        return list(stored_file_keys - current_file_keys)
-    
-    def log(self, message: str, level: str = "info") -> None:
-        """Log a message with appropriate styling based on level."""
-        self.console.print(message)
-    
-    def _check_for_changes(self) -> Dict[str, List]:
-        """Check which files have changed without loading them."""
-        all_files = self._get_all_files()
-        
-        new_files = []
-        updated_files = []
-        unchanged_files = []
-        
-        for file_path in all_files:
-            file_key = str(file_path)
-            
-            if file_key not in self.file_metadata:
-                new_files.append(file_key)
-                if self.verbose:
-                    self.log(f"[cyan]New file detected: {file_path.name}[/cyan]")
-            elif self._file_has_changed(file_path):
-                updated_files.append(file_key)
-                if self.verbose:
-                    self.log(f"[yellow]File changed: {file_path.name}[/yellow]")
-            else:
-                unchanged_files.append(file_key)
-                if self.verbose:
-                    self.log(f"[dim]Unchanged: {file_path.name}[/dim]")
-        
-        deleted_files = self._get_deleted_files(all_files)
-        
-        return {
-            'new': new_files,
-            'updated': updated_files,
-            'unchanged': unchanged_files,
-            'deleted': deleted_files
+
+    def _update_file_metadata(self, file_path: Path):
+        filename = file_path.name
+        url = self._get_url_for_file(filename)
+        if not url:
+            return
+
+        if url not in self.unified_metadata:
+            self.unified_metadata[url] = {}
+
+        self.unified_metadata[url]["file_info"] = {
+            "filename": filename,
+            "file_hash": self._get_file_hash(file_path),
+            "file_mtime": file_path.stat().st_mtime,
+            "file_size": file_path.stat().st_size,
+            "file_type": file_path.suffix.lower()[1:],
+            "last_processed": datetime.now().isoformat(),
         }
-    
+
+    def _get_deleted_files(self, current_files: List[Path]) -> List[str]:
+        current = {f.name for f in current_files}
+        deleted = []
+
+        for url, meta in self.unified_metadata.items():
+            fname = meta.get("file_info", {}).get("filename")
+            if fname and fname not in current:
+                deleted.append(fname)
+
+        return deleted
+
     def _get_all_files(self) -> List[Path]:
-        """Get all supported files from configured folders."""
-        all_files = []
-        
-        # Files from main docs folder
-        pdf_files = list(self.docs_folder.glob("*.pdf"))
-        html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
-        docx_files = list(self.docs_folder.glob("*.docx")) + list(self.docs_folder.glob("*.doc"))
-        txt_files = list(self.docs_folder.glob("*.txt"))
-        
-        all_files.extend(pdf_files + html_files + docx_files + txt_files)
-        
-        # Files from OCR texts folder
+        files = []
+        files += list(self.docs_folder.glob("*.pdf"))
+        files += list(self.docs_folder.glob("*.html"))
+        files += list(self.docs_folder.glob("*.htm"))
+        files += list(self.docs_folder.glob("*.docx"))
+        files += list(self.docs_folder.glob("*.doc"))
+        files += list(self.docs_folder.glob("*.txt"))
+
         if self.ocr_texts_folder and self.ocr_texts_folder.exists():
-            ocr_txt_files = list(self.ocr_texts_folder.glob("*.txt"))
-            all_files.extend(ocr_txt_files)
-        
-        return all_files
-    
-    def _load_single_file(self, file_path: Path) -> Tuple[Optional[List], str, Optional[Dict], bool, Optional[str]]:
-        """Load a single file and return documents, key, metadata, is_new flag, and error.
-        
-        This method is designed to be called by parallel workers.
-        """
-        file_key = str(file_path)
-        is_new = file_key not in self.file_metadata
-        
+            files += list(self.ocr_texts_folder.glob("*.txt"))
+
+        return files
+
+    # -------------------------------------------------------------------
+    # LOADING FILES (PARALLEL)
+    # -------------------------------------------------------------------
+    def _load_single_file(self, file_path: Path):
+        filename = file_path.name
+        url = self._get_url_for_file(filename)
+        is_new = not url or url not in self.unified_metadata
+
         try:
-            # Load based on file type
-            file_ext = file_path.suffix.lower()
-            
-            if file_ext == '.pdf':
+            ext = file_path.suffix.lower()
+            if ext == ".pdf":
                 loader = PyPDFLoader(str(file_path))
-            elif file_ext in ['.docx', '.doc']:
+            elif ext in [".docx", ".doc"]:
                 loader = UnstructuredWordDocumentLoader(str(file_path))
-            elif file_ext == '.txt':
-                loader = TextLoader(str(file_path), encoding='utf-8')
-            else:  # HTML files
+            elif ext == ".txt":
+                loader = TextLoader(str(file_path), encoding="utf-8")
+            else:
                 loader = BSHTMLLoader(str(file_path), open_encoding="utf-8")
-            
+
             docs = loader.load()
             file_hash = self._get_file_hash(file_path)
-            
-            # Tag documents with source file and type
+
             for doc in docs:
-                doc.metadata['source_file'] = file_key
-                doc.metadata['file_hash'] = file_hash
-                doc.metadata['file_type'] = file_ext[1:]  # Remove the dot
-                
-                # Add OCR flag if from OCR folder
-                if self.ocr_texts_folder and str(self.ocr_texts_folder) in file_key:
-                    doc.metadata['is_ocr'] = True
-                else:
-                    doc.metadata['is_ocr'] = False
-            
-            # Get file info
-            file_info = self._get_file_info(file_path)
-            
-            return docs, file_key, file_info, is_new, None
-            
+                doc.metadata["source_file"] = str(file_path)
+                doc.metadata["file_hash"] = file_hash
+                doc.metadata["file_type"] = ext[1:]
+                doc.metadata["source_url"] = url
+                doc.metadata["is_ocr"] = (
+                    self.ocr_texts_folder and str(self.ocr_texts_folder) in str(file_path)
+                )
+
+            # update metadata
+            self._update_file_metadata(file_path)
+
+            return docs, filename, is_new, None
+
         except Exception as e:
-            return None, file_key, None, is_new, str(e)
-    
-    def load_documents(self, force_reload: bool = False) -> Dict[str, List]:
-        """Load all PDFs, HTML, DOCX, and TXT files in parallel, only processing changed files.
-        
-        Args:
-            force_reload: If True, reload all files regardless of changes
-            
-        Returns:
-            Dictionary with 'new', 'updated', 'unchanged' document lists
-        """
+            return None, filename, is_new, str(e)
+
+    def load_documents(self, force_reload=False):
         all_files = self._get_all_files()
-        
-        # Count files by type for logging
-        pdf_count = sum(1 for f in all_files if f.suffix.lower() == '.pdf')
-        html_count = sum(1 for f in all_files if f.suffix.lower() in ['.html', '.htm'])
-        docx_count = sum(1 for f in all_files if f.suffix.lower() in ['.docx', '.doc'])
-        txt_count = sum(1 for f in all_files if f.suffix.lower() == '.txt')
-        
-        if not force_reload:
-            self.log(f"[cyan]Found {pdf_count} PDFs, {html_count} HTMLs, {docx_count} DOCX, and {txt_count} TXTs[/cyan]")
-        
-        # Track file statuses
-        new_docs = []
-        updated_docs = []
-        unchanged_docs = []
-        
-        # Check for deleted files
-        deleted_files = self._get_deleted_files(all_files)
-        if deleted_files:
-            self.log(f"[yellow]Detected {len(deleted_files)} deleted files[/yellow]")
-            for deleted_file in deleted_files:
-                if deleted_file in self.file_metadata:
-                    del self.file_metadata[deleted_file]
-                    if self.verbose:
-                        self.log(f"[yellow]Removed deleted file from cache: {Path(deleted_file).name}[/yellow]")
-        
-        # Determine which files need processing
+
+        new_docs, updated_docs, unchanged_docs = [], [], []
         files_to_process = []
-        for file_path in all_files:
-            file_key = str(file_path)
-            is_changed = force_reload or self._file_has_changed(file_path)
-            
-            if not is_changed:
-                unchanged_docs.append(file_key)
-                if self.verbose:
-                    self.log(f"[dim]Skipping unchanged: {file_path.name}[/dim]")
-                continue
-            
-            files_to_process.append(file_path)
-        
+
+        for f in all_files:
+            changed = force_reload or self._file_has_changed(f)
+            if changed:
+                files_to_process.append(f)
+            else:
+                unchanged_docs.append(f.name)
+
         if not files_to_process:
             self.log("[green]✓ No changes detected[/green]")
-            self._save_file_metadata()
-            return {'new': new_docs, 'updated': updated_docs, 'unchanged': unchanged_docs}
-        
-        # Process files in parallel using ThreadPoolExecutor
-        self.log(f"[cyan]Processing {len(files_to_process)} files in parallel with {self.max_workers} workers...[/cyan]")
-        
-        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-            # Submit all tasks
-            future_to_file = {
-                executor.submit(self._load_single_file, file_path): file_path
-                for file_path in files_to_process
-            }
-            
-            # Process completed tasks as they finish
-            for future in as_completed(future_to_file):
-                file_path = future_to_file[future]
-                docs, file_key, file_info, is_new, error = future.result()
-                
-                if error:
-                    self.log(f"[red]Error processing {file_path.name}: {error}[/red]", "error")
+            return {"new": new_docs, "updated": updated_docs, "unchanged": unchanged_docs}
+
+        self.log(
+            f"[cyan]Processing {len(files_to_process)} files with {self.max_workers} workers...[/cyan]"
+        )
+
+        with ThreadPoolExecutor(max_workers=self.max_workers) as ex:
+            futures = {ex.submit(self._load_single_file, f): f for f in files_to_process}
+
+            for future in as_completed(futures):
+                docs, fname, is_new, err = future.result()
+
+                if err:
+                    self.log(f"[red]Error processing {fname}: {err}[/red]")
                     continue
-                
+
                 if not docs:
-                    self.log(f"[yellow]No content in {file_path.name}[/yellow]")
                     continue
-                
-                # Thread-safe update of shared state
+
                 with self.doc_lock:
                     self.documents.extend(docs)
-                    self.file_metadata[file_key] = file_info
-                
+
                 if is_new:
-                    new_docs.append(file_key)
+                    new_docs.append(fname)
                 else:
-                    updated_docs.append(file_key)
-                
-                if self.verbose:
-                    status = "new" if is_new else "updated"
-                    self.log(f"[cyan]✓ Processed {status}: {file_path.name} ({len(docs)} pages)[/cyan]")
-        
-        # Save updated metadata
-        self._save_file_metadata()
-        
-        # Summary
-        if new_docs or updated_docs:
-            self.log(
-                f"[green]Processed {len(new_docs)} new, {len(updated_docs)} updated, "
-                f"{len(unchanged_docs)} unchanged files[/green]",
-                "success"
-            )
-        
-        return {
-            'new': new_docs,
-            'updated': updated_docs,
-            'unchanged': unchanged_docs
-        }
-    
-    # [Rest of the methods remain the same as in the previous implementation]
-    # _split_document_batch, _add_source_prefix, _generate_llm_prefix, split_documents,
-    # create_vectorstore, process, save_vectorstore, load_vectorstore, get_cache_stats,
-    # _count_files_by_type, clear_cache
-    
-    def _split_document_batch(self, docs: List) -> List:
-        """Split a batch of documents into chunks."""
+                    updated_docs.append(fname)
+
+        self._save_unified_metadata()
+
+        return {"new": new_docs, "updated": updated_docs, "unchanged": unchanged_docs}
+
+    # -------------------------------------------------------------------
+    # SPLITTING + PREFIXES (PARALLEL)
+    # -------------------------------------------------------------------
+    def _split_document_batch(self, docs):
         return self.text_splitter.split_documents(docs)
-    
-    def _add_source_prefix(self, chunk) -> Any:
-        """Add source-based prefix to a chunk."""
-        source_file = chunk.metadata.get("source_file", "descoñecido")
-        filename = Path(source_file).name
-        file_type = chunk.metadata.get("file_type", "descoñecido")
+
+    def _add_source_prefix(self, chunk):
+        filename = Path(chunk.metadata.get("source_file", "")).name
+        url = chunk.metadata.get("source_url", "URL descoñecida")
         is_ocr = chunk.metadata.get("is_ocr", False)
-        
-        # Load URL mapping if available
-        mapping_path = Path(self.map_json)
-        url = "URL descoñecida"
-        
-        if mapping_path.exists():
-            try:
-                with open(mapping_path, "r", encoding="utf-8") as f:
-                    filename_to_url = json.load(f)
-                url = filename_to_url.get(filename, "URL descoñecida")
-            except Exception:
-                pass
-        
-        # Build prefix based on file type
+        ftype = chunk.metadata.get("file_type", "")
+
         if is_ocr:
-            prefix = f"Este fragmento é de texto extraído por OCR do arquivo {filename} con url {url} :\n "
+            pref = f"Este fragmento é texto OCR do arquivo {filename} con url {url}:\n"
         else:
-            prefix = f"Este fragmento é do documento {filename} ({file_type.upper()}) con url {url} :\n "
-        
-        chunk.page_content = prefix + chunk.page_content
+            pref = f"Este fragmento é do documento {filename} ({ftype.upper()}) con url {url}:\n"
+
+        chunk.page_content = pref + chunk.page_content
         return chunk
-    
-    def _generate_llm_prefix(self, chunk) -> Optional[str]:
-        """Generate LLM-based prefix for a chunk."""
-        if self.llm is None:
-            return None
-        
-        source_file = Path(chunk.metadata.get("source_file", 'descoñecido')).name
-        prompt = (
-            f"Escribe unha breve frase introdutoria (máx. 1-2 oracións) que resuma o seguinte fragmento "
-            f"do documento '{source_file}' e sirva como contexto:\n\n"
-            f"---\n{chunk.page_content[:400]}\n---\n"
-            f"Responde soamente coa frase introdutoria en galego, sen repetir o texto do fragmento."
-        )
-        
-        try:
-            if hasattr(self.llm, "invoke"):
-                prefix_text = self.llm.invoke(prompt)
-            elif hasattr(self.llm, "generate"):
-                prefix_text = self.llm.generate(prompt)
-            else:
-                raise ValueError("O obxecto LLM non ten un método invoke() nin generate().")
-            
-            # Extract text from response
-            if isinstance(prefix_text, dict) and "content" in prefix_text:
-                prefix_text = prefix_text["content"]
-            elif not isinstance(prefix_text, str):
-                prefix_text = str(prefix_text)
-            
-            return prefix_text.strip()
-            
-        except Exception as e:
-            self.log(f"[red]Erro xerando prefixo LLM: {e}[/red]")
-            return None
-    
-    def split_documents(self) -> List:
-        """Split documents into chunks in parallel, with optional prefixing.
-        
-        Returns:
-            List of split Document chunks
-        """
+
+    def split_documents(self):
         if not self.documents:
-            self.log("[yellow]Non hai documentos para dividir[/yellow]")
             return []
-        
-        # Split documents in parallel batches
-        num_docs = len(self.documents)
-        num_batches = min(self.max_workers, num_docs)
-        
-        if self.verbose:
-            self.log(f"[cyan]Dividindo {num_docs} documentos en {num_batches} lotes paralelos...[/cyan]")
-        
-        # Split documents into batches
-        doc_batches = np.array_split(self.documents, num_batches)
-        
-        all_chunks = []
-        with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-            futures = [
-                executor.submit(self._split_document_batch, batch.tolist())
-                for batch in doc_batches if len(batch) > 0
-            ]
-            
-            for future in as_completed(futures):
-                all_chunks.extend(future.result())
-        
-        if self.verbose:
-            self.log(f"[green]✓ Creados {len(all_chunks)} fragmentos[/green]")
-        
-        # Apply prefixes if needed
+
+        batches = np.array_split(self.documents, min(len(self.documents), self.max_workers))
+
+        chunks = []
+        with ThreadPoolExecutor(self.max_workers) as ex:
+            futs = [ex.submit(self._split_document_batch, b.tolist()) for b in batches if len(b)]
+            for f in as_completed(futs):
+                chunks.extend(f.result())
+
         if self.prefix_mode == "source":
-            if self.verbose:
-                self.log(f"[cyan]Aplicando prefixos de orixe en paralelo...[/cyan]")
-            
-            with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-                all_chunks = list(executor.map(self._add_source_prefix, all_chunks))
-            
-            if self.verbose:
-                self.log(f"[green]✓ Prefixos de orixe aplicados[/green]")
-        
+            with ThreadPoolExecutor(self.max_workers) as ex:
+                chunks = list(ex.map(self._add_source_prefix, chunks))
+
         elif self.prefix_mode == "llm":
-            if self.llm is None:
-                raise ValueError("Debe proporcionar un LLM se se usa prefix_mode='llm'")
-            
-            if self.verbose:
-                self.log(f"[cyan]Xerando prefixos LLM en lotes (esto pode tardar)...[/cyan]")
-            
-            # Process in smaller batches to avoid overwhelming the LLM
-            llm_batch_size = 10
-            for i in range(0, len(all_chunks), llm_batch_size):
-                batch = all_chunks[i:i + llm_batch_size]
-                
-                with ThreadPoolExecutor(max_workers=min(len(batch), self.max_workers)) as executor:
-                    futures = {executor.submit(self._generate_llm_prefix, chunk): j 
-                              for j, chunk in enumerate(batch)}
-                    
-                    for future in as_completed(futures):
-                        j = futures[future]
-                        prefix = future.result()
-                        if prefix:
-                            batch[j].page_content = prefix + "\n\n" + batch[j].page_content
-                            batch[j].metadata["llm_prefix"] = prefix
-                
-                if self.verbose and i > 0:
-                    progress = min(i + llm_batch_size, len(all_chunks))
-                    self.log(f"[dim]Progreso LLM: {progress}/{len(all_chunks)}[/dim]")
-            
-            if self.verbose:
-                self.log(f"[green]✓ Prefixos LLM xerados[/green]")
-        
-        return all_chunks
-    
-    def create_vectorstore(self, chunks: List) -> None:
-        """Create a vector store from document chunks with batched processing.
-        
-        Args:
-            chunks: List of document chunks to embed
-        """
+            if not self.llm:
+                raise ValueError("LLM required for prefix_mode='llm'")
+
+            for i in range(0, len(chunks), 10):
+                batch = chunks[i : i + 10]
+                with ThreadPoolExecutor(self.max_workers) as ex:
+                    results = list(ex.map(self._generate_llm_prefix, batch))
+                    for chunk, pref in zip(batch, results):
+                        if pref:
+                            chunk.page_content = pref + "\n\n" + chunk.page_content
+
+        return chunks
+
+    def _generate_llm_prefix(self, chunk):
+        prompt = (
+            f"Escribe unha frase introdutoria de máximo dúas oracións sobre o fragmento "
+            f"do documento {chunk.metadata.get('source_file')}:\n\n"
+            f"{chunk.page_content[:400]}\n\n"
+            "Só responde coa frase, en galego."
+        )
+
+        try:
+            resp = self.llm.invoke(prompt)
+            if isinstance(resp, dict):
+                return resp.get("content")
+            return str(resp)
+        except Exception:
+            return None
+
+    # -------------------------------------------------------------------
+    # VECTORSTORE CREATION
+    # -------------------------------------------------------------------
+    def create_vectorstore(self, chunks: List):
         if not chunks:
-            self.log("[yellow]Non hai chunks para crear vectorstore[/yellow]")
             return
-        
-        if self.verbose:
-            self.log(f"[cyan]Creando vectorstore con {len(chunks)} chunks (batch_size={self.batch_size})...[/cyan]")
-        
-        # Process in batches to manage memory and show progress
+
         for i in range(0, len(chunks), self.batch_size):
-            batch = chunks[i:i + self.batch_size]
-            
+            batch = chunks[i : i + self.batch_size]
             if i == 0:
-                # Create initial vectorstore
                 self.vectorstore = FAISS.from_documents(batch, self.embeddings)
             else:
-                # Merge additional batches
-                batch_vectorstore = FAISS.from_documents(batch, self.embeddings)
-                self.vectorstore.merge_from(batch_vectorstore)
-            
-            if self.verbose and i > 0:
-                progress = min(i + self.batch_size, len(chunks))
-                self.log(f"[dim]Progreso vectorstore: {progress}/{len(chunks)} chunks[/dim]")
-        
-        if self.verbose:
-            self.log("[green]✓ Vectorstore creado![/green]", "success")
-    
-    def process(self, force_reload: bool = False, incremental: bool = True) -> bool:
-        """Process all documents and create/update the vector store with parallel processing.
-        
-        Args:
-            force_reload: Force reprocessing of all files
-            incremental: Use incremental updates (only process changed files)
-            
-        Returns:
-            True if vectorstore was modified, False otherwise
-        """
-        vectorstore_modified = False
-        
+                self.vectorstore.merge_from(FAISS.from_documents(batch, self.embeddings))
+
+    # -------------------------------------------------------------------
+    # PROCESS PIPELINE
+    # -------------------------------------------------------------------
+    def process(self, force_reload=False, incremental=True):
         if incremental and not force_reload:
-            # Check for changes first
-            changes = self._check_for_changes()
-            has_changes = changes['new'] or changes['updated'] or changes['deleted']
-            
-            if not has_changes:
-                self.log("[green]✓ Non se detectaron cambios. Vectorstore actualizado![/green]")
+            change = self._check_for_changes()
+            if not (change["new"] or change["updated"] or change["deleted"]):
+                self.log("[green]✓ Non se detectaron cambios[/green]")
                 return False
-            
-            # Report changes
-            change_summary = []
-            if changes['new']:
-                change_summary.append(f"{len(changes['new'])} novos")
-            if changes['updated']:
-                change_summary.append(f"{len(changes['updated'])} modificados")
-            if changes['deleted']:
-                change_summary.append(f"{len(changes['deleted'])} eliminados")
-            
-            self.log(f"[yellow]⚠ Cambios detectados: {', '.join(change_summary)}[/yellow]")
-            self.log("[cyan]Reconstruíndo vectorstore con procesamento paralelo...[/cyan]")
-            
-            # Rebuild with all documents (but embeddings are cached!)
+
             self.documents = []
             self.load_documents(force_reload=True)
-            
-            if self.documents:
-                chunks = self.split_documents()
-                if chunks:
-                    self.create_vectorstore(chunks)
-                    self.log("[green]✓ Vectorstore reconstruído exitosamente![/green]")
-                    vectorstore_modified = True
-                else:
-                    self.log("[yellow]⚠ Non se crearon chunks[/yellow]")
-            else:
-                self.log("[yellow]⚠ Non hai documentos para procesar[/yellow]")
-            
-            self.documents = []
-            
+
         else:
-            # Full rebuild
-            self.log("[yellow]Realizando reconstrucción completa con procesamento paralelo...[/yellow]")
             self.documents = []
             self.load_documents(force_reload=True)
-            
-            if self.documents:
-                chunks = self.split_documents()
-                if chunks:
-                    self.create_vectorstore(chunks)
-                    vectorstore_modified = True
-                else:
-                    self.log("[yellow]⚠ Non se crearon chunks[/yellow]")
-            else:
-                self.log("[yellow]⚠ Non hai documentos para procesar[/yellow]")
-            
-            self.documents = []
-        
-        return vectorstore_modified
-    
-    def save_vectorstore(self, path: str) -> None:
-        """Save the vector store to disk."""
-        if self.vectorstore:
-            self.vectorstore.save_local(path)
-            if self.verbose:
-                self.log(f"Vectorstore gardado en {path}", "success")
-        else:
-            self.log("Non hai vectorstore para gardar. Execute process() primeiro.", "warning")
-    
-    def load_vectorstore(self, path: str) -> None:
-        """Load a vector store from disk."""
-        if os.path.exists(path):
-            self.vectorstore = FAISS.load_local(
-                path, 
-                self.embeddings, 
-                allow_dangerous_deserialization=True
-            )
-            if self.verbose:
-                self.log(f"Vectorstore cargado desde {path}", "success")
-        else:
-            if self.verbose:
-                self.log(f"Non se atopou vectorstore en {path}", "warning")
-    
-    def get_cache_stats(self) -> Dict[str, Any]:
-        """Get statistics about cached data and parallel processing."""
-        embedding_stats = self.embeddings.get_cache_stats()
-        
-        return {
-            'tracked_files': len(self.file_metadata),
-            'files_by_type': self._count_files_by_type(),
-            'embedding_cache': embedding_stats,
-            'cache_dir': str(self.cache_dir),
-            'max_workers': self.max_workers,
-            'batch_size': self.batch_size,
-            'ocr_texts_folder': str(self.ocr_texts_folder) if self.ocr_texts_folder else None
-        }
-    
-    def _count_files_by_type(self) -> Dict[str, int]:
-        """Count tracked files by type."""
-        counts = {'pdf': 0, 'html': 0, 'docx': 0, 'txt': 0, 'other': 0}
-        for file_path in self.file_metadata.keys():
-            ext = Path(file_path).suffix.lower()
-            if ext == '.pdf':
-                counts['pdf'] += 1
-            elif ext in ['.html', '.htm']:
-                counts['html'] += 1
-            elif ext in ['.docx', '.doc']:
-                counts['docx'] += 1
-            elif ext == '.txt':
-                counts['txt'] += 1
-            else:
-                counts['other'] += 1
-        return counts
-    
-    def clear_cache(self) -> None:
-        """Clear all caches."""
-        self.file_metadata = {}
-        self._save_file_metadata()
-        self.embeddings.clear_cache()
-        self.log("[green]Todos os cachés limpos[/green]", "success")
+
+        chunks = self.split_documents()
+        if chunks:
+            self.create_vectorstore(chunks)
+            return True
+        return False
+
+    # -------------------------------------------------------------------
+    # UTILS
+    # -------------------------------------------------------------------
+    def log(self, msg, level="info"):
+        self.console.print(msg)
+

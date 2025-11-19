@@ -447,15 +447,31 @@ class CrawlerUDC:
     def save_html(self, url: str, content: bytes):
         filename = self.generate_filename(url, 'html')
         filepath = self.output_dir / filename
-
+    
         if filepath.exists() and self.force_recrawl:
             print(f"↻ Force overwriting HTML: {filename}")
-
+    
         with open(filepath, 'wb') as f:
             f.write(content)
-
+    
         self.file_map[filename] = url
-
+    
+        # Ensure metadata[url] exists
+        if url not in self.metadata:
+            self.metadata[url] = {}
+    
+        old = self.metadata.get(url, {})
+        
+        self.metadata[url] = {
+            **old,                # keep file_info + old fields
+            **remote_meta,        # update etag / last_modified
+            "last_download": datetime.now().isoformat(),
+            "change_status": change_status,
+            "content_length": len(response.content),
+            "last_crawled": datetime.now().isoformat(),
+            "file_info": old.get("file_info")  # preserve hash
+        }
+ 
         self.stats['html_saved'] += 1
         print(f"✓ Saved HTML: {filename}")
 
@@ -517,12 +533,12 @@ class CrawlerUDC:
     def download_pdf(self, url: str):
         filename = self.generate_filename(url, 'pdf')
         filepath = self.output_dir / filename
-
+    
         if filepath.exists() and not self.force_recrawl and not self.should_refresh(url):
             print(f"⊘ Skipping existing PDF (fresh): {filename}")
             self.stats['skipped_not_modified'] += 1
             return
-
+    
         try:
             r = requests.get(url, headers=self.headers, timeout=30)
             r.raise_for_status()
@@ -536,15 +552,22 @@ class CrawlerUDC:
             
             with open(filepath, 'wb') as f:
                 f.write(r.content)
-
+    
             remote_meta = self.get_remote_metadata(url)
+            old = self.metadata.get(url, {})
+        
             self.metadata[url] = {
-                **remote_meta,
-                "last_download": datetime.now().isoformat()
+                **old,                # keep file_info + old fields
+                **remote_meta,        # update etag / last_modified
+                "last_download": datetime.now().isoformat(),
+                "change_status": change_status,
+                "content_length": len(response.content),
+                "last_crawled": datetime.now().isoformat(),
+                "file_info": old.get("file_info")  # preserve hash
             }
-
+ 
             self.file_map[filename] = url
-
+    
             self.downloaded_files.add(url)
             self.stats['pdfs_downloaded'] += 1
             if self.force_recrawl and filepath.exists():
@@ -555,6 +578,18 @@ class CrawlerUDC:
         except Exception as e:
             print(f"✗ Error downloading PDF {url}: {e}")
             self.stats['errors'] += 1
+
+    def _get_file_hash(self, file_path: Path) -> str:
+        """Calculate hash of a file's content."""
+        sha256_hash = hashlib.sha256()
+        try:
+            with open(file_path, "rb") as f:
+                for byte_block in iter(lambda: f.read(4096), b""):
+                    sha256_hash.update(byte_block)
+            return sha256_hash.hexdigest()
+        except Exception as e:
+            print(f"✗ Error calculating hash for {file_path}: {e}")
+            return "error"
 
     # =================== Crawling ===================
 
