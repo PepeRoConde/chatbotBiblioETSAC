@@ -14,3 +14,13 @@ local_vectorstore/*
 crawl/map.json
 crawl/metadata.json
 crawl/visited_urls.txt
+*.swp
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.gz
+*.syntex.gz
+*.toc
+

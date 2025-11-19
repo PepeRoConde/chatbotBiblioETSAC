@@ -1,10 +1,70 @@
 \documentclass[12pt,a4paper]{report}
-
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
+\usepackage[margin=1in]{geometry}
+\usepackage[galician]{babel}
 
-\title{Memory Title}
-\author{Marcelo Ferreiro Sánchez\\ Marcos Grobas Martínez\\ José Romero Conde}
+% Fonts: Palatino for body, Helvetica for headers
+\usepackage{mathpazo} % Palatino
+\usepackage{helvet}
+\usepackage{microtype}
+
+% Decorative initials
+\input Eichenla.fd
+\newcommand*\initfamily{\usefont{U}{Eichenla}{xl}{n}}
+\usepackage{lettrine}
+
+% Colors
+\usepackage{xcolor}
+\definecolor{techblue}{RGB}{0,51,102}
+\definecolor{lightgray}{RGB}{100,100,100}
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textsf{\nouppercase{\leftmark}}}
+\fancyhead[R]{\small\textcolor{lightgray}{\thepage}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Chapter and section styling
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]
+  {\normalfont\LARGE\bfseries\sffamily\color{techblue}}
+  {\thechapter.}{15pt}{}
+\titlespacing*{\chapter}{0pt}{-20pt}{30pt}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily\color{techblue}}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\sffamily}
+  {\thesubsection}{1em}{}
+
+% Better spacing
+\usepackage{setspace}
+\setstretch{1.1}
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{15pt}
+
+% Table of contents styling
+\usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\LARGE\bfseries\sffamily\color{techblue}}
+\renewcommand{\cftchapfont}{\bfseries\sffamily}
+\renewcommand{\cftsecfont}{\sffamily}
+
+% Hyperlinks
+\usepackage[colorlinks=true,linkcolor=techblue,citecolor=techblue,urlcolor=techblue]{hyperref}
+
+\title{\scshape\Huge\color{techblue}Chatbot para a documentación e normativa da UDC}
+\author{
+  Marcelo Ferreiro Sánchez\\
+  Marcos Grobas Martínez\\
+  José Romero Conde
+}
 \date{\today}
 
 \begin{document}
@@ -12,17 +72,22 @@
 \maketitle
 
 \begin{abstract}
-WAZAAAAAAAAAAAAAAA
+\noindent 
 \end{abstract}
 
 \tableofcontents
+\clearpage
 
 \chapter{Introduction}
+\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{I}}{}ntroduction text here.
 
 \chapter{Methods}
+\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{M}}{}ethods description here.
 
 \chapter{Results}
+\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{R}}{}esults presentation here.
 
 \chapter{Conclusions}
+\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{H}}{}ola castro
 
 \end{document}
