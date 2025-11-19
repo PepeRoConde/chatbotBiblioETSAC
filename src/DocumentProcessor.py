@@ -10,14 +10,19 @@ from threading import Lock
 import numpy as np
 
 from langchain_community.vectorstores import FAISS
-from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader, TextLoader
+from langchain_community.document_loaders import (
+    PyPDFLoader, 
+    BSHTMLLoader, 
+    TextLoader,
+    UnstructuredWordDocumentLoader
+)
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from LocalEmbeddings import LocalEmbeddings
 
 
 class DocumentProcessor:
-    """Class for processing multiple document types (PDF, HTML, TXT) with parallel processing."""
+    """Class for processing multiple document types (PDF, HTML, DOCX, TXT) with parallel processing."""
     
     def __init__(
         self, 
@@ -68,8 +73,8 @@ class DocumentProcessor:
         self.vectorstore = None
         self.verbose = verbose
         
-        # File tracking
-        self.metadata_file = self.cache_dir / "crawl/metadata.json"
+        # File tracking with hash-based change detection
+        self.metadata_file = self.cache_dir / "file_metadata.pkl"
         self.file_metadata = self._load_file_metadata()
         
         # Parallel processing settings
@@ -123,35 +128,58 @@ class DocumentProcessor:
     def _get_file_hash(self, file_path: Path) -> str:
         """Calculate hash of a file's content."""
         sha256_hash = hashlib.sha256()
-        with open(file_path, "rb") as f:
-            for byte_block in iter(lambda: f.read(4096), b""):
-                sha256_hash.update(byte_block)
-        return sha256_hash.hexdigest()
+        try:
+            with open(file_path, "rb") as f:
+                for byte_block in iter(lambda: f.read(4096), b""):
+                    sha256_hash.update(byte_block)
+            return sha256_hash.hexdigest()
+        except Exception as e:
+            self.log(f"Error calculating hash for {file_path}: {e}", "error")
+            return "error"
     
     def _get_file_info(self, file_path: Path) -> Dict:
         """Get file information (hash, mod time, size)."""
-        stat = file_path.stat()
-        return {
-            'hash': self._get_file_hash(file_path),
-            'mtime': stat.st_mtime,
-            'size': stat.st_size,
-            'last_processed': datetime.now().isoformat()
-        }
+        try:
+            stat = file_path.stat()
+            return {
+                'hash': self._get_file_hash(file_path),
+                'mtime': stat.st_mtime,
+                'size': stat.st_size,
+                'last_processed': datetime.now().isoformat(),
+                'file_type': file_path.suffix.lower()
+            }
+        except Exception as e:
+            self.log(f"Error getting file info for {file_path}: {e}", "error")
+            return {
+                'hash': 'error',
+                'mtime': 0,
+                'size': 0,
+                'last_processed': datetime.now().isoformat(),
+                'file_type': file_path.suffix.lower()
+            }
     
     def _file_has_changed(self, file_path: Path) -> bool:
-        """Check if a file has changed since last processing."""
+        """Check if a file has changed since last processing using hash comparison."""
         file_key = str(file_path)
         
         if file_key not in self.file_metadata:
             return True
         
-        current_mtime = file_path.stat().st_mtime
-        stored_mtime = self.file_metadata[file_key].get('mtime', 0)
+        # Get current file info
+        current_info = self._get_file_info(file_path)
+        stored_info = self.file_metadata[file_key]
         
-        if current_mtime > stored_mtime:
-            current_hash = self._get_file_hash(file_path)
-            stored_hash = self.file_metadata[file_key].get('hash', '')
-            return current_hash != stored_hash
+        # Compare hashes - if hash differs, file has changed
+        if current_info['hash'] != stored_info.get('hash', ''):
+            if self.verbose:
+                self.log(f"[yellow]Hash changed for {file_path.name}[/yellow]")
+            return True
+        
+        # Also check modification time as secondary check
+        if current_info['mtime'] > stored_info.get('mtime', 0):
+            if self.verbose:
+                self.log(f"[yellow]Modification time changed for {file_path.name}[/yellow]")
+            return True
         
         return False
     
@@ -178,10 +206,16 @@ class DocumentProcessor:
             
             if file_key not in self.file_metadata:
                 new_files.append(file_key)
+                if self.verbose:
+                    self.log(f"[cyan]New file detected: {file_path.name}[/cyan]")
             elif self._file_has_changed(file_path):
                 updated_files.append(file_key)
+                if self.verbose:
+                    self.log(f"[yellow]File changed: {file_path.name}[/yellow]")
             else:
                 unchanged_files.append(file_key)
+                if self.verbose:
+                    self.log(f"[dim]Unchanged: {file_path.name}[/dim]")
         
         deleted_files = self._get_deleted_files(all_files)
         
@@ -199,16 +233,17 @@ class DocumentProcessor:
         # Files from main docs folder
         pdf_files = list(self.docs_folder.glob("*.pdf"))
         html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
-        all_files.extend(pdf_files + html_files)
+        docx_files = list(self.docs_folder.glob("*.docx")) + list(self.docs_folder.glob("*.doc"))
+        txt_files = list(self.docs_folder.glob("*.txt"))
+        
+        all_files.extend(pdf_files + html_files + docx_files + txt_files)
         
         # Files from OCR texts folder
         if self.ocr_texts_folder and self.ocr_texts_folder.exists():
-            txt_files = list(self.ocr_texts_folder.glob("*.txt"))
-            all_files.extend(txt_files)
+            ocr_txt_files = list(self.ocr_texts_folder.glob("*.txt"))
+            all_files.extend(ocr_txt_files)
         
         return all_files
-    
-    # ========== PARALLEL LOADING METHODS ==========
     
     def _load_single_file(self, file_path: Path) -> Tuple[Optional[List], str, Optional[Dict], bool, Optional[str]]:
         """Load a single file and return documents, key, metadata, is_new flag, and error.
@@ -220,9 +255,13 @@ class DocumentProcessor:
         
         try:
             # Load based on file type
-            if file_path.suffix.lower() == '.pdf':
+            file_ext = file_path.suffix.lower()
+            
+            if file_ext == '.pdf':
                 loader = PyPDFLoader(str(file_path))
-            elif file_path.suffix.lower() == '.txt':
+            elif file_ext in ['.docx', '.doc']:
+                loader = UnstructuredWordDocumentLoader(str(file_path))
+            elif file_ext == '.txt':
                 loader = TextLoader(str(file_path), encoding='utf-8')
             else:  # HTML files
                 loader = BSHTMLLoader(str(file_path), open_encoding="utf-8")
@@ -234,11 +273,13 @@ class DocumentProcessor:
             for doc in docs:
                 doc.metadata['source_file'] = file_key
                 doc.metadata['file_hash'] = file_hash
-                doc.metadata['file_type'] = file_path.suffix.lower()[1:]  # Remove the dot
+                doc.metadata['file_type'] = file_ext[1:]  # Remove the dot
                 
                 # Add OCR flag if from OCR folder
                 if self.ocr_texts_folder and str(self.ocr_texts_folder) in file_key:
                     doc.metadata['is_ocr'] = True
+                else:
+                    doc.metadata['is_ocr'] = False
             
             # Get file info
             file_info = self._get_file_info(file_path)
@@ -249,7 +290,7 @@ class DocumentProcessor:
             return None, file_key, None, is_new, str(e)
     
     def load_documents(self, force_reload: bool = False) -> Dict[str, List]:
-        """Load all PDFs, HTML, and TXT files in parallel, only processing changed files.
+        """Load all PDFs, HTML, DOCX, and TXT files in parallel, only processing changed files.
         
         Args:
             force_reload: If True, reload all files regardless of changes
@@ -262,10 +303,11 @@ class DocumentProcessor:
         # Count files by type for logging
         pdf_count = sum(1 for f in all_files if f.suffix.lower() == '.pdf')
         html_count = sum(1 for f in all_files if f.suffix.lower() in ['.html', '.htm'])
+        docx_count = sum(1 for f in all_files if f.suffix.lower() in ['.docx', '.doc'])
         txt_count = sum(1 for f in all_files if f.suffix.lower() == '.txt')
         
         if not force_reload:
-            self.log(f"[cyan]Encontrados {pdf_count} PDFs, {html_count} HTMLs e {txt_count} TXTs[/cyan]")
+            self.log(f"[cyan]Found {pdf_count} PDFs, {html_count} HTMLs, {docx_count} DOCX, and {txt_count} TXTs[/cyan]")
         
         # Track file statuses
         new_docs = []
@@ -275,9 +317,12 @@ class DocumentProcessor:
         # Check for deleted files
         deleted_files = self._get_deleted_files(all_files)
         if deleted_files:
-            self.log(f"[yellow]Detectados {len(deleted_files)} arquivos eliminados[/yellow]")
+            self.log(f"[yellow]Detected {len(deleted_files)} deleted files[/yellow]")
             for deleted_file in deleted_files:
-                del self.file_metadata[deleted_file]
+                if deleted_file in self.file_metadata:
+                    del self.file_metadata[deleted_file]
+                    if self.verbose:
+                        self.log(f"[yellow]Removed deleted file from cache: {Path(deleted_file).name}[/yellow]")
         
         # Determine which files need processing
         files_to_process = []
@@ -288,18 +333,18 @@ class DocumentProcessor:
             if not is_changed:
                 unchanged_docs.append(file_key)
                 if self.verbose:
-                    self.log(f"[dim]Omitindo sen cambios: {file_path.name}[/dim]")
+                    self.log(f"[dim]Skipping unchanged: {file_path.name}[/dim]")
                 continue
             
             files_to_process.append(file_path)
         
         if not files_to_process:
-            self.log("[green]✓ Non se detectaron cambios[/green]")
+            self.log("[green]✓ No changes detected[/green]")
             self._save_file_metadata()
             return {'new': new_docs, 'updated': updated_docs, 'unchanged': unchanged_docs}
         
         # Process files in parallel using ThreadPoolExecutor
-        self.log(f"[cyan]Procesando {len(files_to_process)} arquivos en paralelo con {self.max_workers} workers...[/cyan]")
+        self.log(f"[cyan]Processing {len(files_to_process)} files in parallel with {self.max_workers} workers...[/cyan]")
         
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             # Submit all tasks
@@ -314,7 +359,11 @@ class DocumentProcessor:
                 docs, file_key, file_info, is_new, error = future.result()
                 
                 if error:
-                    self.log(f"[red]Erro procesando {file_path.name}: {error}[/red]", "error")
+                    self.log(f"[red]Error processing {file_path.name}: {error}[/red]", "error")
+                    continue
+                
+                if not docs:
+                    self.log(f"[yellow]No content in {file_path.name}[/yellow]")
                     continue
                 
                 # Thread-safe update of shared state
@@ -328,8 +377,8 @@ class DocumentProcessor:
                     updated_docs.append(file_key)
                 
                 if self.verbose:
-                    status = "novo" if is_new else "actualizado"
-                    self.log(f"[cyan]✓ Procesado {status}: {file_path.name}[/cyan]")
+                    status = "new" if is_new else "updated"
+                    self.log(f"[cyan]✓ Processed {status}: {file_path.name} ({len(docs)} pages)[/cyan]")
         
         # Save updated metadata
         self._save_file_metadata()
@@ -337,8 +386,8 @@ class DocumentProcessor:
         # Summary
         if new_docs or updated_docs:
             self.log(
-                f"[green]Procesados {len(new_docs)} novos, {len(updated_docs)} actualizados, "
-                f"{len(unchanged_docs)} sen cambios[/green]",
+                f"[green]Processed {len(new_docs)} new, {len(updated_docs)} updated, "
+                f"{len(unchanged_docs)} unchanged files[/green]",
                 "success"
             )
         
@@ -348,7 +397,10 @@ class DocumentProcessor:
             'unchanged': unchanged_docs
         }
     
-    # ========== PARALLEL SPLITTING METHODS ==========
+    # [Rest of the methods remain the same as in the previous implementation]
+    # _split_document_batch, _add_source_prefix, _generate_llm_prefix, split_documents,
+    # create_vectorstore, process, save_vectorstore, load_vectorstore, get_cache_stats,
+    # _count_files_by_type, clear_cache
     
     def _split_document_batch(self, docs: List) -> List:
         """Split a batch of documents into chunks."""
@@ -491,8 +543,6 @@ class DocumentProcessor:
         
         return all_chunks
     
-    # ========== VECTORSTORE METHODS ==========
-    
     def create_vectorstore(self, chunks: List) -> None:
         """Create a vector store from document chunks with batched processing.
         
@@ -634,13 +684,15 @@ class DocumentProcessor:
     
     def _count_files_by_type(self) -> Dict[str, int]:
         """Count tracked files by type."""
-        counts = {'pdf': 0, 'html': 0, 'txt': 0, 'other': 0}
+        counts = {'pdf': 0, 'html': 0, 'docx': 0, 'txt': 0, 'other': 0}
         for file_path in self.file_metadata.keys():
             ext = Path(file_path).suffix.lower()
             if ext == '.pdf':
                 counts['pdf'] += 1
             elif ext in ['.html', '.htm']:
                 counts['html'] += 1
+            elif ext in ['.docx', '.doc']:
+                counts['docx'] += 1
             elif ext == '.txt':
                 counts['txt'] += 1
             else:
