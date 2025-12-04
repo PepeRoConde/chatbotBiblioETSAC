@@ -225,7 +225,11 @@ class DocumentProcessor:
             elif file_path.suffix.lower() == '.txt':
                 loader = TextLoader(str(file_path), encoding='utf-8')
             else:  # HTML files
-                loader = BSHTMLLoader(str(file_path), open_encoding="utf-8")
+                loader = BSHTMLLoader(
+                    str(file_path),
+                    open_encoding="utf-8",
+                    bs_kwargs={"features": "xml"}   
+                )
             
             docs = loader.load()
             file_hash = self._get_file_hash(file_path)

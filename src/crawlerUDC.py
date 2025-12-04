@@ -16,14 +16,16 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
+
 # OCR imports
 try:
     from PIL import Image
     import pytesseract
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
     OCR_AVAILABLE = True
 except ImportError:
     OCR_AVAILABLE = False
-    print("⚠ Warning: PIL/pytesseract not available. OCR will be disabled.")
+    print("Warning: PIL/pytesseract not available. OCR will be disabled.")
 
 
 class OCRProcessor:
@@ -49,7 +51,7 @@ class OCRProcessor:
 
             # Skip if already processed
             if txt_path.exists():
-                print(f"⊘ OCR already exists: {txt_filename}")
+                print(f"OCR already exists: {txt_filename}")
                 return True
 
             # Open and perform OCR
@@ -62,26 +64,26 @@ class OCRProcessor:
                     f.write(text)
 
                 self.stats['processed'] += 1
-                print(f"📝 OCR completed: {txt_filename} ({len(text)} chars)")
+                print(f"OCR completed: {txt_filename} ({len(text)} chars)")
                 os.remove(image_path)
                 return True
 
             else:
-                print(f'📝 OCR completado pero {image_path.stem} no se guarda como .txt porque no tiene texto.')
+                print(f'OCR completado pero {image_path.stem} no se guarda como .txt porque no tiene texto.')
                 os.remove(image_path)
                 return True
 
 
 
         except Exception as e:
-            print(f"✗ OCR error for {image_path.name}: {e}")
+            print(f"OCR error for {image_path.name}: {e}")
             self.stats['errors'] += 1
             os.remove(image_path)
             return False
 
     def run(self):
         """Main loop for OCR processor"""
-        print(f"🔍 OCR Processor started (PID: {os.getpid()})")
+        print(f"OCR Processor started (PID: {os.getpid()})")
         print(f"   Output directory: {self.ocr_dir.absolute()}")
 
         while not self.stop_event.is_set() or not self.image_queue.empty():
@@ -97,10 +99,10 @@ class OCRProcessor:
             except Empty:
                 continue
             except Exception as e:
-                print(f"✗ OCR processor error: {e}")
+                print(f"OCR processor error: {e}")
                 self.stats['errors'] += 1
 
-        print(f"\n🔍 OCR Processor finished:")
+        print(f"\nOCR Processor finished:")
         print(f"   Processed: {self.stats['processed']}")
         print(f"   Errors: {self.stats['errors']}")
 
@@ -159,6 +161,7 @@ class CrawlerUDC:
         self.map_path = self.state_dir / "map.json"
 
         self.metadata: Dict[str, Dict[str, Any]] = self.load_metadata()
+        self.load_visited_urls()
 
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (compatible; UniversityCrawler/2.0; +research purposes)'
@@ -221,21 +224,36 @@ class CrawlerUDC:
             with open(self.map_path, "w", encoding="utf-8") as f:
                 json.dump(existing_map, f, ensure_ascii=False, indent=2)
 
-    def save_visited_urls(self):
+    def load_visited_urls(self):
+        """Load previously visited URLs from file"""
         with self._visited_lock:
-            existing_urls = set()
             if self.visited_path.exists():
                 try:
                     with open(self.visited_path, "r", encoding="utf-8") as f:
-                        existing_urls = set(line.strip() for line in f if line.strip())
-                except Exception:
-                    pass
+                        self.visited_urls = set(line.strip() for line in f if line.strip())
+                    print(f"Loaded {len(self.visited_urls)} previously visited URLs")
+                except Exception as e:
+                    print(f"Error loading visited URLs: {e}")
+                    self.visited_urls = set()
 
-            all_urls = existing_urls | self.visited_urls
-
-            with open(self.visited_path, "w", encoding="utf-8") as f:
-                for url in sorted(all_urls):
+    def append_visited_url(self, url: str):
+        """Append a single URL to the visited file immediately"""
+        with self._visited_lock:
+            try:
+                with open(self.visited_path, "a", encoding="utf-8") as f:
                     f.write(f"{url}\n")
+            except Exception as e:
+                print(f"Error appending visited URL {url}: {e}")
+
+    def save_visited_urls(self):
+        """Full save of all visited URLs (used as safety backup)"""
+        with self._visited_lock:
+            try:
+                with open(self.visited_path, "w", encoding="utf-8") as f:
+                    for url in sorted(self.visited_urls):
+                        f.write(f"{url}\n")
+            except Exception as e:
+                print(f"Error saving visited URLs: {e}")
 
     # =================== OCR Management ===================
 
@@ -249,7 +267,7 @@ class CrawlerUDC:
         self.ocr_queue = manager.Queue()
         self.ocr_stop_event = manager.Event()
 
-        print(f"\n🔍 Starting {self.ocr_workers} OCR worker process(es)...")
+        print(f"\nStarting {self.ocr_workers} OCR worker process(es)...")
         for i in range(self.ocr_workers):
             p = Process(
                 target=start_ocr_worker,
@@ -265,7 +283,7 @@ class CrawlerUDC:
         if not self.enable_ocr or not self.ocr_processes:
             return
 
-        print("\n🔍 Stopping OCR workers...")
+        print("\nStopping OCR workers...")
         
         # Send stop signal
         self.ocr_stop_event.set()
@@ -278,7 +296,7 @@ class CrawlerUDC:
         for i, p in enumerate(self.ocr_processes):
             p.join(timeout=30)
             if p.is_alive():
-                print(f"   ⚠ Worker {i+1} did not stop gracefully, terminating...")
+                print(f"   Worker {i+1} did not stop gracefully, terminating...")
                 p.terminate()
                 p.join()
             else:
@@ -390,7 +408,7 @@ class CrawlerUDC:
         filepath = self.output_dir / filename
 
         if filepath.exists() and self.force_recrawl:
-            print(f"↻ Force overwriting HTML: {filename}")
+            print(f"Force overwriting HTML: {filename}")
 
         with open(filepath, 'wb') as f:
             f.write(content)
@@ -398,7 +416,7 @@ class CrawlerUDC:
         self.file_map[filename] = url
 
         self.stats['html_saved'] += 1
-        print(f"✓ Saved HTML: {filename}")
+        print(f"Saved HTML: {filename}")
 
     def download_image(self, url: str, page_url: str = None):
         """Download high-quality images with srcset/lazy-loading support."""
@@ -421,7 +439,7 @@ class CrawlerUDC:
             # Validate it's actually an image
             content_type = r.headers.get('Content-Type', '')
             if not content_type.startswith("image/"):
-                print(f"✗ Skipped non-image content: {url}")
+                print(f"Skipped non-image content: {url}")
                 return
 
             # Extract extension based on Content-Type
@@ -446,13 +464,13 @@ class CrawlerUDC:
             self.file_map[filename] = url
             self.stats['images_downloaded'] += 1
 
-            print(f"🖼 High-quality image saved: {filename}")
+            print(f"High-quality image saved: {filename}")
 
             # Queue for OCR processing
             self.queue_image_for_ocr(filepath)
 
         except Exception as e:
-            print(f"✗ Error downloading image {url}: {e}")
+            print(f"Error downloading image {url}: {e}")
             self.stats['errors'] += 1
 
     def download_pdf(self, url: str):
@@ -460,7 +478,7 @@ class CrawlerUDC:
         filepath = self.output_dir / filename
 
         if filepath.exists() and not self.force_recrawl and not self.should_refresh(url):
-            print(f"⊘ Skipping existing PDF (fresh): {filename}")
+            print(f"Skipping existing PDF (fresh): {filename}")
             self.stats['skipped_not_modified'] += 1
             return
 
@@ -472,7 +490,7 @@ class CrawlerUDC:
                 with open(filepath, 'rb') as f:
                     existing_content = f.read()
                 if existing_content == r.content:
-                    print(f"⊘ PDF unchanged (force mode): {filename}")
+                    print(f"PDF unchanged (force mode): {filename}")
                     return
             
             with open(filepath, 'wb') as f:
@@ -489,12 +507,12 @@ class CrawlerUDC:
             self.downloaded_files.add(url)
             self.stats['pdfs_downloaded'] += 1
             if self.force_recrawl and filepath.exists():
-                print(f"↻ Force re-downloaded PDF: {filename}")
+                print(f"Force re-downloaded PDF: {filename}")
             else:
-                print(f"✓ Downloaded PDF: {filename}")
+                print(f"Downloaded PDF: {filename}")
                 
         except Exception as e:
-            print(f"✗ Error downloading PDF {url}: {e}")
+            print(f"Error downloading PDF {url}: {e}")
             self.stats['errors'] += 1
 
     # =================== Crawling ===================
@@ -503,19 +521,21 @@ class CrawlerUDC:
         if url in self.visited_urls and not self.force_recrawl:
             return []
 
+        # Mark as visited and persist immediately
         if not self.force_recrawl:
             self.visited_urls.add(url)
+            self.append_visited_url(url)
         else:
             self.stats['force_recrawled'] += 1
-            print(f"↻ Force recrawling: {url}")
+            print(f"Force recrawling: {url}")
 
         if not self.force_recrawl and not self.should_refresh(url) and not self.has_remote_changed(url):
-            print(f"⊘ Skipping unchanged page: {url}")
+            print(f"Skipping unchanged page: {url}")
             self.stats['skipped_not_modified'] += 1
             return []
 
         try:
-            print(f"→ Crawling: {url}")
+            print(f"Crawling: {url}")
             response = requests.get(url, headers=self.headers, timeout=30)
             response.raise_for_status()
             
@@ -579,7 +599,7 @@ class CrawlerUDC:
             return new_urls
 
         except Exception as e:
-            print(f"✗ Error crawling {url}: {e}")
+            print(f"Error crawling {url}: {e}")
             self.stats['errors'] += 1
             return []
 
@@ -615,10 +635,9 @@ class CrawlerUDC:
         finally:
             # Always stop OCR workers
             self.stop_ocr_workers()
-
-        self.save_metadata()
-        self.save_file_map()
-        self.save_visited_urls()
+            # Save metadata and file map
+            self.save_metadata()
+            self.save_file_map()
 
         self.print_summary()
 
@@ -668,8 +687,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Smart CrawlerUDC with parallel OCR support.")
     parser.add_argument("--urls_file", "-f", type=str, default="crawl/urls.txt")
     parser.add_argument("--keywords_file", "-kf", type=str, default="crawl/keywords.txt")
-    parser.add_argument("--max_pages", "-p", type=int, default=200)
-    parser.add_argument("--max_depth", "-d", type=int, default=4)
+    parser.add_argument("--max_pages", "-p", type=int, default=2000)
+    parser.add_argument("--max_depth", "-d", type=int, default=20)
     parser.add_argument("--output_dir", "-o", type=str, default="crawl/crawled_data")
     parser.add_argument("--state_dir", "-s", type=str, default="crawl")
     parser.add_argument("--refresh_days", "-r", type=int, default=30)
@@ -690,7 +709,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.enable_ocr and not OCR_AVAILABLE:
-        print("⚠ Error: OCR is enabled but required libraries are not installed.")
+        print("Error: OCR is enabled but required libraries are not installed.")
         print("   Please install: pip install pillow pytesseract")
         print("   And ensure tesseract-ocr is installed on your system.")
         exit(1)
@@ -725,15 +744,15 @@ if __name__ == "__main__":
                 result_url, stats, error = future.result()
                 if error:
                     errors[result_url] = error
-                    print(f"\n✗ Error crawling {result_url}: {error}")
+                    print(f"\nError crawling {result_url}: {error}")
                 else:
                     all_stats[result_url] = stats
-                    print(f"\n✓ Completed: {result_url}")
+                    print(f"\nCompleted: {result_url}")
             except Exception as e:
                 errors[url] = str(e)
-                print(f"\n✗ Exception for {url}: {e}")
+                print(f"\nException for {url}: {e}")
 
-    elapsed = time.time() - start_time
+    elapsed = time.time() - start_time 
 
     print("\n" + "="*60)
     print("GLOBAL CRAWL SUMMARY")
