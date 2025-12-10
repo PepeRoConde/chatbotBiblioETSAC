@@ -22,3 +22,5 @@ https://www.enfermariacoruna.es/
 http://www.erlac.es/
 https://etsa.udc.es/web/
 https://www.udc.es/es/eid/
+https://www.udc.es/es/biblioteca/?language=es
+https://www.udc.es/es/biblioteca/servizos/prestamo/
