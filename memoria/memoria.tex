@@ -74,16 +74,53 @@
 
 \begin{abstract}
 \noindent 
+O obxectivo do proxecto é desenvolver un chatbot capaz de solventar dúbidas
+acerca do funcionamiento dos procesos burocráticos e de documentación da
+Universidade da Coruña (UDC). Para conseguilo optamos por unha arquitectura
+xenerativa aumentada por recuperación (RAG), técnica moi empleada para mellorar
+o desempeño de chatbots baseados en LLM cando buscan información específica dun
+dominio sobre o que o modelo de linguaxe orixinal non foi entrenado. 
 \end{abstract}
 
 \tableofcontents
 \clearpage
 
 \chapter{Introdución}
-\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{O}}{} noso sistema é resultado da unión de compoñentes xa ben coñecidas, ó máis puro estilo enxeñeril. Por tanto, a nósa aportación foi a atención a este problema particular e o criterio para decir que ferramentas ou partes tiñan cabida, e cales non. 
+\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{A}}{}burocracia
+de calquera campo pode chegar a ser moi complexa e pode chegar a consumir moito
+tempo e recursos ás persoas que teñen que lidiar con ela. Os procesos
+universitarios non son unha excepción e moitas das persoas involucradas neles
+(tanto alumnos como profesores e persoal administrativo) os poder atopar
+inabarcables ou imposibles de navegar sen axuda. \\ Neste contexto, apreciouse
+como podería ser de gran utilidade o desenvolvemento dun chatbot capaz de
+responder a preguntas relacionadas coa documentación e normativa da Universidade
+seguindo a gran tendencia da actualidade de empregar chatbots para diversas
+tarefas.\\ O obxectivo deste proxecto é desenvolver un chatbot que poida
+simplificar e explicar  \textbf{referindo sempre ás fontes burocráticas
+oficiais} os procesos burocráticos e de documentación da Universidade da Coruña
+(UDC).\\ O sistema é resultado da unión de compoñentes e técnicas xa ben coñecidas,
+sempre tendo en mente o obxectivo a cumprir. Polo tanto, tratouse máis ven dunha
+tarefa de aplicación e adaptación de técnicas e ferramentas xa existentes nun
+caso particular, antes que de deseño ou resolución de novos problemas. Se ben
+este traballo está circunscrito no contexto da asignatura de Técnicas Avanzadas
+de Procesamiento de Linguaxe Natural (TAPLN), debido á súa natureza e obxectivo,
+gran parte do tempo invertido no proxecto dedicouse á tarefa de recolección de
+información para o RAG. \\ Ao non existir unha 'base de datos' oficial da UDC
+sobre a que un usuario poda descargar toda a documentación relativa ao centro,
+senón que atópase repartida nas páxinas web dos seus diferentes centros, foi
+necesario deseñar unha solución que nos permita extraela a partir dos seus
+portais oficiais. Este tipo de tarefas non son novas no mundo da informática, de
+feito pertencen a unha área máis que consolidada chamada Recuperación de
+Información (IR) e tales métodos que buscan, extraen e organizan información
+disposta en webs html son coñecidos como \emph{crawlers}.
+
+
+
 
 \chapter{Solución proposta}
-\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{M}}{}ethods description here.
+\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{M}}{}ostrarase
+nesta sección a arquitectura xeral do sistema e posteriormente describirase cada
+un dos seus compoñentes, sendo estos principalmente o \emph{crawler} e o \emph{RAGsystem}
 
 \section{A Arquitectura}
 \section{O \emph{Crawler}}

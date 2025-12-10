@@ -518,7 +518,7 @@ Resposta:"""
         
         return self.tfidf_reranker.get_top_keywords(document, top_n)
     
-    # ========== History Management Methods (unchanged) ==========
+    # ========== History Management Methods  ==========
     
     def clear_history(self) -> None:
         """Clear conversation history."""
