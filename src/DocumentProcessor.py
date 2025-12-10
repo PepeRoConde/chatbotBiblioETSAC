@@ -4,6 +4,7 @@ import os
 import pickle
 import json
 import hashlib
+import html
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
@@ -14,6 +15,7 @@ from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader, Text
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from LocalEmbeddings import LocalEmbeddings
+from CleanHTMLLoader import CleanHTMLLoader
 
 
 class DocumentProcessor:
@@ -191,7 +193,6 @@ class DocumentProcessor:
             'unchanged': unchanged_files,
             'deleted': deleted_files
         }
-    
     def _get_all_files(self) -> List[Path]:
         """Get all supported files from configured folders."""
         all_files = []
@@ -252,6 +253,42 @@ class DocumentProcessor:
         except Exception as e:
             return None, file_key, None, is_new, str(e)
     
+
+    def _preserve_list_linebreaks(self, text: str) -> str:
+        """
+        Conserva saltos de línea solo para líneas de listas,
+        y une todo el resto del texto en párrafos limpios.
+        """
+        import re
+        lines = text.splitlines()
+        processed_lines = []
+        list_pattern = re.compile(r'^\s*([-*•]|\d+\.)\s+')
+        
+        buffer = []
+        
+        for line in lines:
+            if list_pattern.match(line):
+                # Vaciar buffer previo como párrafo unido
+                if buffer:
+                    processed_lines.append(" ".join(buffer).strip())
+                    buffer = []
+                processed_lines.append(line.strip())  # Línea de lista
+            elif line.strip() == "":
+                # Línea vacía indica final de párrafo
+                if buffer:
+                    processed_lines.append(" ".join(buffer).strip())
+                    buffer = []
+            else:
+                buffer.append(line.strip())
+        
+        # Vaciar buffer final
+        if buffer:
+            processed_lines.append(" ".join(buffer).strip())
+        
+        return "\n".join(processed_lines)
+
+   
+
     def load_documents(self, force_reload: bool = False) -> Dict[str, List]:
         """Load all PDFs, HTML, and TXT files in parallel, only processing changed files.
         
