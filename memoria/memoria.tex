@@ -18,6 +18,7 @@
 % Colors
 \usepackage{xcolor}
 \definecolor{techblue}{RGB}{0,51,102}
+\definecolor{rosa}{RGB}{196,45,137}
 \definecolor{lightgray}{RGB}{100,100,100}
 
 % Headers and footers
@@ -32,12 +33,12 @@
 % Chapter and section styling
 \usepackage{titlesec}
 \titleformat{\chapter}[hang]
-  {\normalfont\LARGE\bfseries\sffamily\color{techblue}}
+  {\normalfont\LARGE\bfseries\sffamily\color{rosa}}
   {\thechapter.}{15pt}{}
 \titlespacing*{\chapter}{0pt}{-20pt}{30pt}
 
 \titleformat{\section}
-  {\normalfont\Large\bfseries\sffamily\color{techblue}}
+  {\normalfont\Large\bfseries\sffamily\color{rosa}}
   {\thesection}{1em}{}
 
 \titleformat{\subsection}
@@ -52,14 +53,14 @@
 
 % Table of contents styling
 \usepackage{tocloft}
-\renewcommand{\cfttoctitlefont}{\LARGE\bfseries\sffamily\color{techblue}}
+\renewcommand{\cfttoctitlefont}{\LARGE\bfseries\sffamily\color{rosa}}
 \renewcommand{\cftchapfont}{\bfseries\sffamily}
 \renewcommand{\cftsecfont}{\sffamily}
 
 % Hyperlinks
-\usepackage[colorlinks=true,linkcolor=techblue,citecolor=techblue,urlcolor=techblue]{hyperref}
+\usepackage[colorlinks=true,linkcolor=rosa,citecolor=techblue,urlcolor=techblue]{hyperref}
 
-\title{\scshape\Huge\color{techblue}Chatbot para a documentación e normativa da UDC}
+\title{\scshape\Huge\color{rosa}Chatbot para a documentación e normativa da UDC}
 \author{
   Marcelo Ferreiro Sánchez\\
   Marcos Grobas Martínez\\
@@ -78,13 +79,21 @@
 \tableofcontents
 \clearpage
 
-\chapter{Introduction}
-\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{I}}{}ntroduction text here.
+\chapter{Introdución}
+\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{O}}{} noso sistema é resultado da unión de compoñentes xa ben coñecidas, ó máis puro estilo enxeñeril. Por tanto, a nósa aportación foi a atención a este problema particular e o criterio para decir que ferramentas ou partes tiñan cabida, e cales non. 
 
-\chapter{Methods}
+\chapter{Solución proposta}
 \lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{M}}{}ethods description here.
 
-\chapter{Results}
+\section{A Arquitectura}
+\section{O \emph{Crawler}}
+\section{O \emph{tf-idf}}
+\section{Os modelos}
+\section{Ferramentas usadas}
+
+\chapter{Instalación e uso}
+
+\chapter{Resultados}
 \lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{R}}{}esults presentation here.
 
 \chapter{Conclusions}
