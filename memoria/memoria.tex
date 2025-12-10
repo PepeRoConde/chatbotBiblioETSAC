@@ -5,6 +5,22 @@
 \usepackage[margin=1in]{geometry}
 \usepackage[galician]{babel}
 
+
+\usepackage{array}
+\usepackage{booktabs}            % \toprule \midrule \bottomrule
+\usepackage{tabularx}   
+\usepackage{verbatim}
+\usepackage{tcolorbox}
+\usepackage{float}
+\usepackage{multicol}
+\tcbuselibrary{breakable}
+\usepackage[style=apa]{biblatex}  % o style=apa, ieee, etc.
+\addbibresource{referencias.bib}
+
+\makeatletter
+\let\@makecaption\relax
+\makeatother
+
 % Fonts: Palatino for body, Helvetica for headers
 \usepackage{mathpazo} % Palatino
 \usepackage{helvet}
@@ -90,29 +106,37 @@ dominio sobre o que o modelo de linguaxe orixinal non foi entrenado.
 de calquera campo pode chegar a ser moi complexa e pode chegar a consumir moito
 tempo e recursos ás persoas que teñen que lidiar con ela. Os procesos
 universitarios non son unha excepción e moitas das persoas involucradas neles
-(tanto alumnos como profesores e persoal administrativo) os poder atopar
-inabarcables ou imposibles de navegar sen axuda. \\ Neste contexto, apreciouse
+(sexan, alumnos, profesores ou persoal administrativo) os poden atopar
+inabarcables ou imposibles de navegar sen axuda. \\ 
+Neste contexto, apreciouse
 como podería ser de gran utilidade o desenvolvemento dun chatbot capaz de
 responder a preguntas relacionadas coa documentación e normativa da Universidade
 seguindo a gran tendencia da actualidade de empregar chatbots para diversas
-tarefas.\\ O obxectivo deste proxecto é desenvolver un chatbot que poida
+tarefas.\\ 
+O obxectivo deste proxecto é desenvolver un chatbot que poida
 simplificar e explicar  \textbf{referindo sempre ás fontes burocráticas
 oficiais} os procesos burocráticos e de documentación da Universidade da Coruña
-(UDC).\\ O sistema é resultado da unión de compoñentes e técnicas xa ben coñecidas,
-sempre tendo en mente o obxectivo a cumprir. Polo tanto, tratouse máis ven dunha
-tarefa de aplicación e adaptación de técnicas e ferramentas xa existentes nun
-caso particular, antes que de deseño ou resolución de novos problemas. Se ben
-este traballo está circunscrito no contexto da asignatura de Técnicas Avanzadas
-de Procesamiento de Linguaxe Natural (TAPLN), debido á súa natureza e obxectivo,
-gran parte do tempo invertido no proxecto dedicouse á tarefa de recolección de
-información para o RAG. \\ Ao non existir unha 'base de datos' oficial da UDC
-sobre a que un usuario poda descargar toda a documentación relativa ao centro,
-senón que atópase repartida nas páxinas web dos seus diferentes centros, foi
-necesario deseñar unha solución que nos permita extraela a partir dos seus
-portais oficiais. Este tipo de tarefas non son novas no mundo da informática, de
-feito pertencen a unha área máis que consolidada chamada Recuperación de
-Información (IR) e tales métodos que buscan, extraen e organizan información
-disposta en webs html son coñecidos como \emph{crawlers}.
+(UDC).\\ \\
+O sistema é resultado da unión de compoñentes e técnicas xa ben
+coñecidas, sempre tendo en mente o obxectivo a cumprir. Polo tanto, tratouse
+máis ven dunha tarefa de aplicación e adaptación de técnicas e ferramentas xa
+existentes nun caso particular, antes que de deseño ou resolución de novos
+problemas. \\Se ben este traballo está circunscrito no contexto da asignatura de
+Técnicas Avanzadas de Procesamiento de Linguaxe Natural (TAPLN), debido á súa
+natureza e obxectivo, gran parte do tempo invertido no proxecto dedicouse á
+tarefa de recolección de información para o RAG. \\
+Non exististindo unha 'base
+de datos' oficial da UDC sobre a que un usuario poda descargar toda a
+documentación relativa ao centro, senón que atópase esta repartida nas páxinas
+web dos seus diferentes centros, foi necesario deseñar unha solución que nos
+permita extraela a partir dos seus portais oficiais. \\Este tipo de tarefas non
+son novas no mundo da informática, de feito pertencen a unha área máis que
+consolidada chamada Recuperación de Información (IR) e tales métodos que buscan,
+extraen e organizan información disposta en webs html son coñecidos como
+\emph{crawlers}, parte esencial do traballo final pois para asegurar que o
+sistema sexa capaz de responder á maioría de dúbidas dos usuarios, é necesario
+ter un corpus de toda información mínimamente relevante acerca do funcionamento
+interno da universidade.
 
 
 
@@ -120,10 +144,147 @@ disposta en webs html son coñecidos como \emph{crawlers}.
 \chapter{Solución proposta}
 \lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{M}}{}ostrarase
 nesta sección a arquitectura xeral do sistema e posteriormente describirase cada
-un dos seus compoñentes, sendo estos principalmente o \emph{crawler} e o \emph{RAGsystem}
+un dos seus compoñentes, sendo estos principalmente o \emph{RAGsystem} e o \emph{Crawler}.
 
 \section{A Arquitectura}
-\section{O \emph{Crawler}}
+Fundamentalmente e como indicouse antes, o sistema componse de dúas partes
+relativamente independientes: \emph{RAGsystem}, que será un modelo de linguaxe grande
+(LLM) xa adestrado que recibirá xunto con cada consulta de usuario, unha serie
+de documentos (ou fragmentos dos mesmos) para responder mellor á mesma, e por
+outra parte, un sistema de \emph{crawling} que ocuparase de navegar as diversas páxinas
+e portais da UDC recolectando aquelas que considere que poden conter información
+relevante. \\ \\ 
+Nas siguientes subseccións explicaranse en detalle o funcionamento interno de
+cada parte e cómo interactúan entre elas. Optouse por unha orde de exposición
+que siga o fluxo de execución do sistema, é dicir, comezando polo \emph{Crawler}
+e seguindo polo \emph{RAGsystem}. Sopesouse seguir a orde cronolóxica do
+desenvolvemento do sistema mais concluíuse que introduciría demasiadas exégesis
+e reviraría demasiado e sen utilidade a narrativa desta memoria. De calquera
+forma, explicarase a evolución das partes que máis cambios sufriron ao longo da
+súa implementación.
+
+
+
+\section{O \emph{Crawler}} Considerouse que a posesión dun bo volume de datos
+sería crucial para resolver o problema a tratar, na maioría dos casos as dúbidas
+burocráticas resólvense encontrando o documento adecuado, e de non telo, o
+sistema veríase obrigado a comuinicarlle ao usuario que non ten acceso á tal ou
+cal información, voltándose completamente inútil. \\ É por iso que a
+Recuperación de Información xoga un papel crucial para o RAG. 
+\subsection{Selección de páxinas relevantes}
+Sendo así, o primeiro problema a solucionar é o de deseñar un bo criterio do 
+que é un \textbf{documento relevante} para a aplicación. Se ben tal tarefa 
+pódese complicar \textit{ad infinitum} e é un área de estudo activa aínda 
+nestes días [\cite{Pezzuti_2025}], neste caso optouse por un enfoque moito máis 
+sinxelo, baseándose primariamente na premisa de que esta tarefa non require de 
+conxuntos masivos de datos. Só é necesario navegar un certo número de URLs 
+(principalmente do directorio raíz de cada facultade), non a totalidade da web, 
+polo que pódese permitir descargar páxinas e documentos potencialmente 
+pouco relevantes. A información a colleitar ten un límite de tamaño finito e 
+razoable: nun escenario extremo, mesmo descargando todas as URLs da UDC, 
+estaríase lonxe de requirir terabytes de almacenamento, como sí acontecería 
+nun \textit{crawler} de propósito xeral. \\ \\
+
+Deste xeito, a solución proposta sitúase como un método arcaico aínda que funcional,
+unha asignación de relevancia binaria (relevante ou non relevante) mediante
+\textit{keywords}. Este enfoque, se ben simple, remite aos métodos de
+\textit{focused crawling} pioneiros [\cite{Chakrabarti1999}] que sentaron as
+bases da recuperación de información temática na web. \\ \\As palabras clave
+utilizadas son fixas e propias do ámbito académico e do vocabulario burocrático,
+aparecendo tanto en galego, coma en castelán e inglés (véxase o
+Apéndice~\ref{app:keywords} para a lista completa).
+
+\subsection{Procesado dos contidos de cada páxina}
+Unha vez unha páxina estímase como relevante, é necesario procesar seu contido,
+para este caso, procurar presentalo en texto plano, evitando ao máximo posible
+decoradores. Mais nunha páxina atópase máis que texto, especialmente neste caso
+de uso, moita información burocrática útil para un usario final atoparase nun
+documento PDF ligado ao URL, é por iso que o \textit{crawler} tamén os procesa e
+converte en texto plano listo para que posteriormente un LLM poda leelos sen
+maior complicación. \\ \\ 
+Non obstante, este enfoque presenta unha limitación importante: información que
+se atope unicamente en imaxes (capturas de pantalla, carteis dixitalizados ou
+documentos escaneados) permanece invisible para o \textit{crawler}. \\ Tal
+debilidade do sistema fíxose obvia nas primeiras fases de testeo do
+\textit{chatbot}, pois este non era capaz de responder a unha pregunta moi
+sinxela e básica para os estudantes: "Cantos libros pódense emprestar?". Tras
+investigar a casuística e comprobarse que o
+\href{https://www.udc.es/es/biblioteca/servizos/prestamo/}{URL onde figura tal
+información} foi efectivamente analizada polo crawler, caéuse na conta de que,
+se ben a información figura nunha táboa dentro da páxina, esta está en formato
+imaxe [ver \ref{figprestamos}], polo que próbase que é necesario aproveitar
+mellor a información de cada páxina para cumplir os obxectivo establecido.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{imaxes/prestamos.png}
+    \caption{ Táboa de préstamos}
+    \label{figprestamos}
+\end{figure}
+
+
+
+\subsubsection{Procesado de imaxes mediante OCR}
+O recoñecemento óptico de caracteres (OCR polas súas siglas en inglés) é unha
+técnica que permite extraer texto a partir de imaxes dixitais, se ben o seu uso
+máis típico é a dixitalización de documentos físicos escaneados, serve para
+calquera imaxe que conteña caracteres, como é o caso. \\ Neste caso,
+implementouse mediante a librería \textit{pytesseract} unha interface en
+\textit{Python} do motor OCR \texttt{Tesseract}, creado inicialmente por HP e
+mantido actualmente por Google. \\ Procesar cada imaxe presente nun URL pode
+semexar moi custoso computacionalmente, mais a extracción de texto mediante OCR
+é verdadeiramente rápida, isto sumado a que a maioría de imaxes son irrelevantes
+e de moi pequeno tamano, otorga a capacidade de poder procesar todas as
+presentes en calquera documento sen apenas engadir latencia ao sistema.\\
+Como exemplo, o tempo de procesado de OCR na imaxe da táboa de préstamos
+[\ref{figprestamos}] foi de $0.6280$ segundos. \\ \\ Demostrado que é posible e
+relativamente sinxelo á vez que barato procesar arquivos de imaxe, é necesario
+agora demostrar que tal texto é fidedigno ao realmente existente na mesma. \\ Un
+exemplo que demostra á perfección un caso de uso real é precisamente a táboa
+mencionada anteriormente, o texto extráido en crú pódese ver no
+apéndice~\ref{app:OCR}. Revisándoo, o texto extráido non asemexa nada parecido á
+táboa orixinal, mais hai que ter en mente que non é necesario que sexa
+intelixible para o usuario final, senón para o LLM que o debe de analizar. Unha
+forma rápida de comrpobar que o chatbot poida ser capaz de entender o texto
+extraído (coa complicación de que neste caso está en formato táboa) é pedirlle
+mediante un prompt no portal online dalgún LLM comercial, que refaga a táboa por
+nós con esa información. Fíxose tal experimento usando ChatGPT-5 e a táboa que
+reconstruiu foi a seguinte:
+
+
+
+\begin{table}[H]
+\centering
+\scriptsize
+\begin{tabular}{@{}p{0.18\textwidth} p{0.3\textwidth} ccc@{}}
+\toprule
+\textbf{Grupo} & \textbf{Tipo de usuarios} & \textbf{Nº docs} & \textbf{Días} & \textbf{Renov.} \\
+\midrule
+\textbf{1} & Estud. Grao (centros propios/adscritos), Mobilidade, Dobre Grao, Graos interuniv., Univ. Sénior & 10 & 10 días & Indef. (Lím. 10) \\
+\midrule
+\textbf{2} & Estud. másteres/posgraos propios (Fund. UDC), Estud. TFG, PTGAS & 15 & 21 días & Indef. (Lím. 15) \\
+\midrule
+\textbf{3} & Estud. Doutoramento, Inv. visitante/senior, Inv. predoc./posdoc & 35 & 30 días & Indef. (Lím. 35) \\
+\midrule
+\textbf{4} & Becarios inv., Pers. contr. inv. \textit{(Exclusión posible)} & 35 & Curso acad. & Indef. (Lím. 35) \\
+\midrule
+\textbf{5} & PDI UDC (inc. adscritos), Fund. UDC, Prof. emérito/xub./hon., Prof. visitante, Lectores \textit{(Exclusión posible)} & 100 & Curso acad. & Indef. (Lím. 100) \\
+\midrule
+\textbf{6} & Persoal externo á UDC, Pers. autoriz. Biblioteca & 6 & 10 días & Indef. (Lím. 6) \\
+\bottomrule
+\end{tabular}
+\caption{Táboa reconstruida mediante LLM (ChatGPT-5)}
+\end{table}
+
+Se ben existe certa información que o LLM obviou por ser incompleta, a
+información importante está presente, demostrando que os LLMs son capaces de
+reconstruir e interpretar a información extraída mediante OCR, incluso cando
+esté representada en formatos mais complexos como o é unha táboa.
+
+
+
+
+
 \section{O \emph{tf-idf}}
 \section{Os modelos}
 \section{Ferramentas usadas}
@@ -135,5 +296,246 @@ un dos seus compoñentes, sendo estos principalmente o \emph{crawler} e o \emph{
 
 \chapter{Conclusions}
 \lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{H}}{}ola castro
+
+
+\printbibliography
+\appendix
+
+\chapter{Lista completa de \textit{keywords}}
+\label{app:keywords}
+
+A continuación móstrase o conxunto completo de palabras clave utilizadas
+polo \textit{crawler} para determinar a relevancia das páxinas:
+
+\begin{multicols}{3}
+\small
+\begin{itemize}
+    \item regulation
+    \item reglamento
+    \item normativa
+    \item procedure
+    \item procedimiento
+    \item proceso
+    \item form
+    \item formulario
+    \item solicitud
+    \item guideline
+    \item guia
+    \item manual
+    \item policy
+    \item politica
+    \item norma
+    \item enrollment
+    \item matricula
+    \item inscripcion
+    \item administrative
+    \item administrativo
+    \item academic
+    \item academico
+    \item calendar
+    \item calendario
+    \item syllabus
+    \item programa
+    \item requirements
+    \item requisitos
+    \item regulamento
+    \item regulación
+    \item procedemento
+    \item solicitude
+    \item guía
+    \item docente
+    \item asignatura
+    \item política
+    \item matrícula
+    \item inscrición
+    \item académico
+    \item convocatoria
+    \item prazo
+    \item prazos
+    \item documentación
+    \item tramite
+    \item trámite
+    \item ordenanza
+    \item resolución
+    \item circular
+    \item instrucións
+    \item instrucciones
+    \item bases
+    \item anexo
+    \item catalog
+    \item catalogo
+    \item catálogo
+    \item library
+    \item biblioteca
+    \item collection
+    \item coleccion
+    \item colección
+    \item acquisition
+    \item adquisicion
+    \item adquisición
+    \item loan
+    \item prestamo
+    \item préstamo
+    \item reserve
+    \item reserva
+    \item interlibrary
+    \item interbibliotecario
+    \item reference
+    \item referencia
+    \item circulation
+    \item circulacion
+    \item circulación
+    \item periodical
+    \item periodico
+    \item periódico
+    \item journal
+    \item revista
+    \item archive
+    \item archivo
+    \item arquivos
+    \item repository
+    \item repositorio
+    \item classification
+    \item clasificacion
+    \item clasificación
+    \item indexing
+    \item indexacion
+    \item indexación
+    \item cataloging
+    \item catalogacion
+    \item catalogación
+    \item dewey
+    \item isbn
+    \item issn
+    \item bibliographic
+    \item bibliografico
+    \item bibliográfico
+    \item holdings
+    \item fondos
+    \item serials
+    \item publicacions seriadas
+    \item special collections
+    \item coleccions especiais
+    \item reading room
+    \item sala de lectura
+    \item stacks
+    \item depósito
+    \item microfilm
+    \item microficha
+    \item digital library
+    \item biblioteca dixital
+    \item opac
+    \item marc
+    \item application
+    \item deadline
+    \item plazo
+    \item documentation
+    \item documentacion
+    \item certification
+    \item certificado
+    \item certificación
+    \item authorization
+    \item autorizacion
+    \item autorización
+    \item notification
+    \item notificacion
+    \item notificación
+    \item registration
+    \item registro
+    \item protocol
+    \item protocolo
+    \item statute
+    \item estatuto
+    \item ordinance
+    \item decree
+    \item decreto
+    \item resolution
+    \item resolucion
+    \item official
+    \item oficial
+    \item office
+    \item oficina
+    \item department
+    \item departamento
+    \item service
+    \item servicio
+    \item servizo
+    \item unit
+    \item unidad
+    \item unidade
+\end{itemize}
+\end{multicols}
+\chapter{Saída OCR da táboa de exemplo}
+\label{app:OCR}
+\begin{tcolorbox}[
+    title=Texto OCR,
+    colback=rosa,
+    colframe=rosa!80!black,
+    fontupper=\small,
+    fonttitle=\small\bfseries,
+    breakable,  % Permite dividir en varias páginas si es necesario
+    boxrule=0.5pt,
+    arc=3pt,
+    outer arc=3pt,
+    left=5pt,
+    right=5pt,
+    top=3pt,
+    bottom=3pt,
+    before skip=10pt,
+    after skip=10pt,
+    width=\textwidth,  % Asegura que no se salga del ancho de página
+    coltitle=black]
+\begin{spacing}{0.85}  % Reduce el interlineado ligeramente
+[Tipos de usuarios
+
+N? de documentos en préstamo
+
+Días de préstamo
+
+Renovaciones
+
+Reservas
+
+GRUPO 1
+
+Estudiantado de Grado de centros propios y adscritos
+
+Estudiantado de programa de movilidad (Erasmus, Sicue-Séneca)
+
+Estudiantado de doble Grado, de simultaneidad 10 10 días Indefinidas | Límite 10 docs.
+Estudiantado de grados interuniversitarios
+Estudiantado da Universidad Séntor
+GRUPO 2
+Estudiantado de MASTERES e posgrados propios, incluyendo los
+dela Fundación Universidade da Coruña . ,
+15 21 días Indefinidas | Límite 15 docs.
+Estudiantado de Trabajos de fin de grado.
+Personal de administración en servicio (PTGAS)
+GRUPO 3
+Estudiantado de Doctorado 35 30 días Indefinidas | Límite 35 does.
+Personal investigador visitante; visitant tant
+'ersonal investigador visitante: visitante senior] visitante 35 30 días indefinidas | Límite 38 docs
+predoctoral o postdactoral
+GRUPO 4
+Becarios/as de investigación Curso académico
+Personal contratado investigador (cada biblioteca podrá excluir
+35 de este tipo de préstamo Indefinidas | Límite 35 docs.
+documentos par razón de uso y
+disponibilidad)
+GRUPO 5
+PDI da UDC (incluyendo centros adscritos), de la Fundación UDC Curso académico
+Profesorado emérito, jubilado incentivado y honorario (cada biblioteca podrá excluir
+Profesorado visitante 100 de este tipo de préstamo Indefíridas | Límite 100 docs.
+Lectores/as documentos par razón de uso y
+disponibilidad)
+GRUPO 6
+Cual ! idad taria de la UDC
+cualquier persona ajena a la comunidad universitaria dela 6 10 días indefinidas | Límite 6 docs
+
+que sea autorizada por la Biblioteca Universitaria
+
+
+\end{spacing}
+\end{tcolorbox}
 
 \end{document}
