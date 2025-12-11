@@ -107,36 +107,39 @@ de calquera campo pode chegar a ser moi complexa e pode chegar a consumir moito
 tempo e recursos ás persoas que teñen que lidiar con ela. Os procesos
 universitarios non son unha excepción e moitas das persoas involucradas neles
 (sexan, alumnos, profesores ou persoal administrativo) os poden atopar
-inabarcables ou imposibles de navegar sen axuda. \\ 
-Neste contexto, apreciouse
-como podería ser de gran utilidade o desenvolvemento dun chatbot capaz de
-responder a preguntas relacionadas coa documentación e normativa da Universidade
-seguindo a gran tendencia da actualidade de empregar chatbots para diversas
-tarefas.\\ 
-O obxectivo deste proxecto é desenvolver un chatbot que poida
-simplificar e explicar  \textbf{referindo sempre ás fontes burocráticas
-oficiais} os procesos burocráticos e de documentación da Universidade da Coruña
-(UDC).\\ \\
-O sistema é resultado da unión de compoñentes e técnicas xa ben
-coñecidas, sempre tendo en mente o obxectivo a cumprir. Polo tanto, tratouse
-máis ven dunha tarefa de aplicación e adaptación de técnicas e ferramentas xa
-existentes nun caso particular, antes que de deseño ou resolución de novos
-problemas. \\Se ben este traballo está circunscrito no contexto da asignatura de
-Técnicas Avanzadas de Procesamiento de Linguaxe Natural (TAPLN), debido á súa
-natureza e obxectivo, gran parte do tempo invertido no proxecto dedicouse á
-tarefa de recolección de información para o RAG. \\
-Non exististindo unha 'base
-de datos' oficial da UDC sobre a que un usuario poda descargar toda a
-documentación relativa ao centro, senón que atópase esta repartida nas páxinas
-web dos seus diferentes centros, foi necesario deseñar unha solución que nos
-permita extraela a partir dos seus portais oficiais. \\Este tipo de tarefas non
-son novas no mundo da informática, de feito pertencen a unha área máis que
-consolidada chamada Recuperación de Información (IR) e tales métodos que buscan,
-extraen e organizan información disposta en webs html son coñecidos como
-\emph{crawlers}, parte esencial do traballo final pois para asegurar que o
-sistema sexa capaz de responder á maioría de dúbidas dos usuarios, é necesario
-ter un corpus de toda información mínimamente relevante acerca do funcionamento
-interno da universidade.
+inabarcables ou imposibles de navegar sen axuda.
+
+Neste contexto, apreciouse como podería ser de gran utilidade o desenvolvemento 
+dun chatbot capaz de responder a preguntas relacionadas coa documentación e 
+normativa da Universidade seguindo a gran tendencia da actualidade de empregar 
+chatbots para diversas tarefas.
+
+O obxectivo deste proxecto é desenvolver un chatbot que poida simplificar e 
+explicar \textbf{referindo sempre ás fontes burocráticas oficiais} os procesos 
+burocráticos e de documentación da Universidade da Coruña (UDC).
+
+O sistema é resultado da unión de compoñentes e técnicas xa ben coñecidas, 
+sempre tendo en mente o obxectivo a cumprir. Polo tanto, tratouse máis ben 
+dunha tarefa de aplicación e adaptación de técnicas e ferramentas xa existentes 
+nun caso particular, antes que de deseño ou resolución de novos problemas.
+
+Se ben este traballo está circunscrito no contexto da asignatura de Técnicas 
+Avanzadas de Procesamiento de Linguaxe Natural (TAPLN), debido á súa natureza 
+e obxectivo, gran parte do tempo invertido no proxecto dedicouse á tarefa de 
+recolección de información para o RAG.
+
+Non existindo unha 'base de datos' oficial da UDC sobre a que un usuario poda 
+descargar toda a documentación relativa ao centro, senón que atópase esta 
+repartida nas páxinas web dos seus diferentes centros, foi necesario deseñar 
+unha solución que nos permita extraela a partir dos seus portais oficiais.
+
+Este tipo de tarefas non son novas no mundo da informática, de feito pertencen 
+a unha área máis que consolidada chamada Recuperación de Información (IR) e 
+tales métodos que buscan, extraen e organizan información disposta en webs html 
+son coñecidos como \emph{crawlers}, parte esencial do traballo final pois para 
+asegurar que o sistema sexa capaz de responder á maioría de dúbidas dos 
+usuarios, é necesario ter un corpus de toda información mínimamente relevante 
+acerca do funcionamento interno da universidade.
 
 
 
@@ -228,19 +231,24 @@ mellor a información de cada páxina para cumplir os obxectivo establecido.
 O recoñecemento óptico de caracteres (OCR polas súas siglas en inglés) é unha
 técnica que permite extraer texto a partir de imaxes dixitais, se ben o seu uso
 máis típico é a dixitalización de documentos físicos escaneados, serve para
-calquera imaxe que conteña caracteres, como é o caso. \\ Neste caso,
-implementouse mediante a librería \textit{pytesseract} unha interface en
-\textit{Python} do motor OCR \texttt{Tesseract}, creado inicialmente por HP e
-mantido actualmente por Google. \\ Procesar cada imaxe presente nun URL pode
-semexar moi custoso computacionalmente, mais a extracción de texto mediante OCR
-é verdadeiramente rápida, isto sumado a que a maioría de imaxes son irrelevantes
-e de moi pequeno tamano, otorga a capacidade de poder procesar todas as
-presentes en calquera documento sen apenas engadir latencia ao sistema.\\
-Como exemplo, o tempo de procesado de OCR na imaxe da táboa de préstamos
-[\ref{figprestamos}] foi de $0.6280$ segundos. \\ \\ Demostrado que é posible e
-relativamente sinxelo á vez que barato procesar arquivos de imaxe, é necesario
-agora demostrar que tal texto é fidedigno ao realmente existente na mesma. \\ Un
-exemplo que demostra á perfección un caso de uso real é precisamente a táboa
+calquera imaxe que conteña caracteres, como é o caso. 
+
+Neste caso, implementouse mediante a librería \textit{pytesseract} unha
+interface en \textit{Python} do motor OCR \texttt{Tesseract}, creado
+inicialmente por HP e mantido actualmente por Google. 
+
+Procesar cada imaxe presente nun URL pode semexar moi custoso
+computacionalmente, mais a extracción de texto mediante OCR é verdadeiramente
+rápida, isto sumado a que a maioría de imaxes son irrelevantes e de moi pequeno
+tamano, otorga a capacidade de poder procesar todas as presentes en calquera
+documento sen apenas engadir latencia ao sistema. Como exemplo, o tempo de
+procesado de OCR na imaxe da táboa de préstamos [\ref{figprestamos}] foi de
+$0.6280$ segundos. \\ \\ Demostrado que é posible e relativamente sinxelo á vez
+que barato procesar arquivos de imaxe, é necesario agora demostrar que tal texto
+é fidedigno ao realmente existente na mesma. 
+
+
+Un exemplo que demostra á perfección un caso de uso real é precisamente a táboa
 mencionada anteriormente, o texto extráido en crú pódese ver no
 apéndice~\ref{app:OCR}. Revisándoo, o texto extráido non asemexa nada parecido á
 táboa orixinal, mais hai que ter en mente que non é necesario que sexa
@@ -250,9 +258,6 @@ extraído (coa complicación de que neste caso está en formato táboa) é pedir
 mediante un prompt no portal online dalgún LLM comercial, que refaga a táboa por
 nós con esa información. Fíxose tal experimento usando ChatGPT-5 e a táboa que
 reconstruiu foi a seguinte:
-
-
-
 \begin{table}[H]
 \centering
 \scriptsize
@@ -281,8 +286,58 @@ información importante está presente, demostrando que os LLMs son capaces de
 reconstruir e interpretar a información extraída mediante OCR, incluso cando
 esté representada en formatos mais complexos como o é unha táboa.
 
+\subsection{Funcionamento interno do \textit{Crawler}}
+
+A implementación proposta usa da librería \textit{Python BeautifulSoup} para
+navegar a rede e extraer información das páxinas. O proceso comeza cunha lista
+de URLs semente que representa os portais principais da universidade
+(concretamente a \textit{homepage} de cada facultade). Para cada URL, o sistema
+descarga o contido HTML, extrae todos os enlaces e imaxes presentes na páxina, e
+identifica documentos PDF que conteñan termos relacionados coa burocracia
+universitaria segundo a lista de \textit{keywords} antes exposta. Os recursos
+descargados almacénanse de forma organizada no sistema de ficheiros local,
+mentres que un sistema de metadatos rexistra información sobre cada recurso para
+optimizar futuras execucións, concretamente garda o \textit{etag} e a data de
+última modificación de cada páxina, ademáis da data de descarga. 
+
+En canto ás imaxes, aplícase OCR a todas as presentes en cada documento e
+decídese se gardar o texto extraído ou non segundo se presenta máis dun mínimo
+de caracteres. Todo este proceso realízase ao final de crawlear cada páxina, os
+arquivos de imaxe vanse engadindo a unha pila, e esta é procesada cando xa
+extraéronse as hiperreferencias a outras páxinas e os documentos PDF.
+
+Para acelerar o proceso de \textit{crawling} aplicáronse técnicas de
+programación concurrente. É posible establecer un número de traballadores aos
+cales se lles asignará unha URL como base desde onde iniciar o crawler, deste
+xeito, é posible ter múltiples crawlers simultáneamente navegando a rede da
+universidade. Para non xerar problemas de lectura/escritura nos ficheiros onde
+se escriben os metadatos ou o rexistro de páxinas visitadas, implementáronse
+\textit{locks}, deste xeito dous \textit{crawlers} non podrán escribir á vez nun
+mesmo documento.
 
 
+\section{O \textit{RAGsystem}}
+
+O sistema RAG (Retrieval-Augmented Generation) implementado constitúe o núcleo 
+do chatbot, combinando técnicas de recuperación de información con modelos de 
+linguaxe xerativos. O proceso de resposta a unha consulta desenvólvese en varias 
+etapas: primeiro, a pregunta do usuario convértese nun vector mediante embeddings 
+semánticos que capturan o seu significado; a continuación, este vector empregase 
+para buscar no vectorstore os documentos máis relevantes mediante similitude 
+coseno, recuperando os $k$ fragmentos de texto máis próximos semanticamente á 
+consulta. Para mellorar a calidade da recuperación, o sistema incorpora un 
+compoñente de reranking baseado en TF-IDF que permite reordenar os documentos 
+recuperados segundo a súa relevancia léxica, ou ben combinarse de forma híbrida 
+coas puntuacións vectoriais mediante pesos configurables. Unha vez identificados 
+os fragmentos máis relevantes, estes incorpóranse como contexto nunha plantilla 
+de prompt xunto co historial recente da conversación, permitindo que o modelo 
+de linguaxe (Claude, ChatGPT ou calquera compatible con \textit{Langchain}) xere unha resposta fundamentada na documentación 
+oficial da universidade. O sistema mantén un historial de conversación de lonxitude 
+configurable que permite responder a preguntas que fan referencia a interaccións 
+previas, dotando ao chatbot de capacidade contextual e conversacional. Ademais, 
+cada documento recuperado enriquécese con metadatos que inclúen a súa puntuación 
+de relevancia tanto vectorial como TF-IDF, facilitando a trazabilidad e 
+verificación das fontes empregadas para xerar cada resposta.
 
 
 \section{O \emph{tf-idf}}
