@@ -26,11 +26,19 @@ except ImportError:
     print("Warning: pypdf not available. PDF text extraction will be disabled.")
 
 # OCR imports
+import sys
+
 try:
     from PIL import Image
     import pytesseract
-    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+    if sys.platform.startswith("win"):
+        pytesseract.pytesseract.tesseract_cmd = (
+            r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+        )
+
     OCR_AVAILABLE = True
+
 except ImportError:
     OCR_AVAILABLE = False
     print("Warning: PIL/pytesseract not available. OCR will be disabled.")
@@ -45,7 +53,7 @@ def process_image_ocr(image_path: Path) -> str:
     try:
         img = Image.open(image_path)
         text = pytesseract.image_to_string(img, lang='eng+spa')
-        return text.strip() if len(text) > 1 else ""
+        return text.strip() if len(text) > args.min_char_ocr else ""
     except Exception as e:
         print(f"  OCR error for {image_path.name}: {e}")
         return ""
@@ -702,6 +710,7 @@ if __name__ == "__main__":
     parser.add_argument("--keywords_file", "-kf", type=str, default="crawl/keywords.txt")
     parser.add_argument("--max_pages", "-p", type=int, default=2000)
     parser.add_argument("--max_depth", "-d", type=int, default=20)
+    parser.add_argument("--min_char_ocr", "-c", type=int, default=25)
     parser.add_argument("--output_dir", "-o", type=str, default="crawl/crawled_data")
     parser.add_argument("--state_dir", "-s", type=str, default="crawl")
     parser.add_argument("--refresh_days", "-r", type=int, default=30)
