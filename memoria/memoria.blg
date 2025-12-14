@@ -1,19 +1,68 @@
-[0] Config.pm:308> INFO - This is Biber 2.20
-[0] Config.pm:311> INFO - Logfile is 'memoria.blg'
-[127] biber-MSWIN64:340> INFO - === 
-[178] Biber.pm:420> INFO - Reading 'memoria.bcf'
-[338] Biber.pm:994> INFO - Found 2 citekeys in bib section 0
-[360] Biber.pm:4463> INFO - Processing section 0
-[372] Biber.pm:4654> INFO - Looking for bibtex file 'referencias.bib' for section 0
-[435] bibtex.pm:1713> INFO - LaTeX decoding ...
-[443] bibtex.pm:1519> INFO - Found BibTeX data source 'referencias.bib'
-[499] UCollate.pm:68> INFO - Overriding locale 'gl-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[499] UCollate.pm:68> INFO - Overriding locale 'gl-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[499] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'gl-ES'
-[499] Biber.pm:4289> INFO - No sort tailoring available for locale 'gl-ES'
-[509] UCollate.pm:68> INFO - Overriding locale 'gl-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[509] UCollate.pm:68> INFO - Overriding locale 'gl-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[510] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'gl-ES'
-[510] Biber.pm:4289> INFO - No sort tailoring available for locale 'gl-ES'
-[516] bbl.pm:676> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
-[520] bbl.pm:779> INFO - Output to memoria.bbl
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: memoria.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: memoria-blx.bib
+Database file #2: referencias.bib
+Biblatex version: 3.21
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 6 entries,
+            6402 wiz_defined-function locations,
+            1245 strings with 10225 characters,
+and the built_in function-call counts, 38257 in all, are:
+= -- 2810
+> -- 696
+< -- 181
++ -- 1117
+- -- 270
+* -- 2773
+:= -- 4365
+add.period$ -- 0
+call.type$ -- 6
+change.case$ -- 86
+chr.to.int$ -- 50
+cite$ -- 10
+duplicate$ -- 4108
+empty$ -- 3286
+format.name$ -- 360
+if$ -- 7773
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 0
+newline$ -- 203
+num.names$ -- 246
+pop$ -- 1839
+preamble$ -- 1
+purify$ -- 114
+quote$ -- 0
+skip$ -- 1075
+stack$ -- 0
+substring$ -- 4842
+swap$ -- 886
+text.length$ -- 173
+text.prefix$ -- 5
+top$ -- 1
+type$ -- 192
+warning$ -- 0
+while$ -- 577
+width$ -- 0
+write$ -- 198

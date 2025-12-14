@@ -3,8 +3,8 @@
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated by
-% biber as required.
+% This file may safely be deleted. It will be recreated as
+% required.
 %
 \begingroup
 \makeatletter
@@ -16,224 +16,195 @@
   {}
 \endgroup
 
+\datalist[entry]{nyt/global//global/global/global}
+  \entry{systematic_rag_2025}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=AA}{%
+         family={Author},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Author},
+         familyi={A\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AAAB1}
+    \strng{fullhash}{AAAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{note}{Consultado: Diciembre 2025}
+    \field{title}{A Systematic Review of Key Retrieval-Augmented Generation
+  (RAG) Systems: Progress, Gaps, and Future Directions}
+    \field{volume}{arXiv:2507.18910}
+    \field{journaltitle}{arXiv preprint}
+    \field{year}{2025}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
 
-\refsection{0}
-  \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{Chakrabarti1999}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=5db6bace50dc3f7959a05dd953753a5f}{%
-           family={Chakrabarti},
-           familyi={C\bibinitperiod},
-           given={Soumen},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dcb7428eb4586aa76b289aee243901ad}{%
-           family={Van\bibnamedelimb den\bibnamedelima Berg},
-           familyi={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ee00a874cddd3adf4230525db4bf84de}{%
-           family={Dom},
-           familyi={D\bibinitperiod},
-           given={Byron},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{edd51375c32f8def51a0d19d3e0f7118}
-      \strng{fullhash}{df40628de08b39efc462264dc5343b49}
-      \strng{fullhashraw}{df40628de08b39efc462264dc5343b49}
-      \strng{bibnamehash}{df40628de08b39efc462264dc5343b49}
-      \strng{authorbibnamehash}{df40628de08b39efc462264dc5343b49}
-      \strng{authornamehash}{edd51375c32f8def51a0d19d3e0f7118}
-      \strng{authorfullhash}{df40628de08b39efc462264dc5343b49}
-      \strng{authorfullhashraw}{df40628de08b39efc462264dc5343b49}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer Networks}
-      \field{number}{11-16}
-      \field{title}{Focused crawling: a new approach to topic-specific Web resource discovery}
-      \field{volume}{31}
-      \field{year}{1999}
-      \field{pages}{1623\bibrangedash 1640}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/S1389-1286(99)00052-3
-      \endverb
-    \endentry
-    \entry{Pezzuti_2025}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ce8c7fbb73f581219cea6af346d539b7}{%
-           family={Pezzuti},
-           familyi={P\bibinitperiod},
-           given={Francesca},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9a98c79605c728d47f2d3d527df2d84a}{%
-           family={MacAvaney},
-           familyi={M\bibinitperiod},
-           given={Sean},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=676b71a07df45e3ff4f64968a0a7f0bc}{%
-           family={Tonellotto},
-           familyi={T\bibinitperiod},
-           given={Nicola},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{1d68f8f92772645e9c8a3e4700e6dd0f}
-      \strng{fullhash}{ebf4d26513d2737bee343ed757b67142}
-      \strng{fullhashraw}{ebf4d26513d2737bee343ed757b67142}
-      \strng{bibnamehash}{ebf4d26513d2737bee343ed757b67142}
-      \strng{authorbibnamehash}{ebf4d26513d2737bee343ed757b67142}
-      \strng{authornamehash}{1d68f8f92772645e9c8a3e4700e6dd0f}
-      \strng{authorfullhash}{ebf4d26513d2737bee343ed757b67142}
-      \strng{authorfullhashraw}{ebf4d26513d2737bee343ed757b67142}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the 2025 International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (ICTIR)}
-      \field{month}{7}
-      \field{series}{ICTIR '25}
-      \field{title}{Neural Prioritisation for Web Crawling}
-      \field{year}{2025}
-      \field{pages}{307\bibrangedash 314}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1145/3731120.3744597
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1145/3731120.3744597
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1145/3731120.3744597
-      \endverb
-    \endentry
-  \enddatalist
-  \datalist[entry]{apa/global//global/global/global}
-    \entry{Chakrabarti1999}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=5db6bace50dc3f7959a05dd953753a5f}{%
-           family={Chakrabarti},
-           familyi={C\bibinitperiod},
-           given={Soumen},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dcb7428eb4586aa76b289aee243901ad}{%
-           family={Van\bibnamedelimb den\bibnamedelima Berg},
-           familyi={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ee00a874cddd3adf4230525db4bf84de}{%
-           family={Dom},
-           familyi={D\bibinitperiod},
-           given={Byron},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{edd51375c32f8def51a0d19d3e0f7118}
-      \strng{fullhash}{df40628de08b39efc462264dc5343b49}
-      \strng{fullhashraw}{df40628de08b39efc462264dc5343b49}
-      \strng{bibnamehash}{df40628de08b39efc462264dc5343b49}
-      \strng{authorbibnamehash}{df40628de08b39efc462264dc5343b49}
-      \strng{authornamehash}{edd51375c32f8def51a0d19d3e0f7118}
-      \strng{authorfullhash}{df40628de08b39efc462264dc5343b49}
-      \strng{authorfullhashraw}{df40628de08b39efc462264dc5343b49}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer Networks}
-      \field{number}{11-16}
-      \field{title}{Focused crawling: a new approach to topic-specific Web resource discovery}
-      \field{volume}{31}
-      \field{year}{1999}
-      \field{pages}{1623\bibrangedash 1640}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/S1389-1286(99)00052-3
-      \endverb
-    \endentry
-    \entry{Pezzuti_2025}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ce8c7fbb73f581219cea6af346d539b7}{%
-           family={Pezzuti},
-           familyi={P\bibinitperiod},
-           given={Francesca},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9a98c79605c728d47f2d3d527df2d84a}{%
-           family={MacAvaney},
-           familyi={M\bibinitperiod},
-           given={Sean},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=676b71a07df45e3ff4f64968a0a7f0bc}{%
-           family={Tonellotto},
-           familyi={T\bibinitperiod},
-           given={Nicola},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{1d68f8f92772645e9c8a3e4700e6dd0f}
-      \strng{fullhash}{ebf4d26513d2737bee343ed757b67142}
-      \strng{fullhashraw}{ebf4d26513d2737bee343ed757b67142}
-      \strng{bibnamehash}{ebf4d26513d2737bee343ed757b67142}
-      \strng{authorbibnamehash}{ebf4d26513d2737bee343ed757b67142}
-      \strng{authornamehash}{1d68f8f92772645e9c8a3e4700e6dd0f}
-      \strng{authorfullhash}{ebf4d26513d2737bee343ed757b67142}
-      \strng{authorfullhashraw}{ebf4d26513d2737bee343ed757b67142}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the 2025 International ACM SIGIR Conference on Innovative Concepts and Theories in Information Retrieval (ICTIR)}
-      \field{month}{7}
-      \field{series}{ICTIR '25}
-      \field{title}{Neural Prioritisation for Web Crawling}
-      \field{year}{2025}
-      \field{pages}{307\bibrangedash 314}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1145/3731120.3744597
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1145/3731120.3744597
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1145/3731120.3744597
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
+  \entry{carbonell1998mmr}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=CJ}{%
+         family={Carbonell},
+         familyi={C\bibinitperiod},
+         given={Jaime},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Goldstein},
+         familyi={G\bibinitperiod},
+         given={Jade},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{CJGJ1}
+    \strng{fullhash}{CJGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1998}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{booktitle}{Proceedings of the 21st Annual International ACM SIGIR
+  Conference on Research and Development in Information Retrieval}
+    \field{pages}{335\bibrangedash 336}
+    \field{series}{SIGIR '98}
+    \field{title}{The use of MMR, diversity-based reranking for reordering
+  documents and producing summaries}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{year}{1998}
+  \endentry
+
+  \entry{Chakrabarti1999}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=CS}{%
+         family={Chakrabarti},
+         familyi={C\bibinitperiod},
+         given={Soumen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VdBM}{%
+         prefix={Van\bibnamedelima den},
+         prefixi={V\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Berg},
+         familyi={B\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Dom},
+         familyi={D\bibinitperiod},
+         given={Byron},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{CSBMVdDB1}
+    \strng{fullhash}{CSBMVdDB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1016/S1389-1286(99)00052-3
+    \endverb
+    \field{number}{11-16}
+    \field{pages}{1623\bibrangedash 1640}
+    \field{title}{Focused crawling: a new approach to topic-specific Web
+  resource discovery}
+    \field{volume}{31}
+    \field{journaltitle}{Computer Networks}
+    \field{year}{1999}
+  \endentry
+
+  \entry{grofsky2025freshness}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=GM}{%
+         family={Grofsky},
+         familyi={G\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{note}{Consultado: Diciembre 2025}
+    \field{title}{Solving Freshness in RAG: A Simple Recency Prior and the
+  Limits of Heuristic Trend Detection}
+    \field{volume}{arXiv:2509.19376}
+    \field{journaltitle}{arXiv preprint}
+    \field{year}{2025}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Pezzuti_2025}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=PF}{%
+         family={Pezzuti},
+         familyi={P\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={MacAvaney},
+         familyi={M\bibinitperiod},
+         given={Sean},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Tonellotto},
+         familyi={T\bibinitperiod},
+         given={Nicola},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{PFMSTN1}
+    \strng{fullhash}{PFMSTN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Proceedings of the 2025 International ACM SIGIR
+  Conference on Innovative Concepts and Theories in Information Retrieval
+  (ICTIR)}
+    \verb{doi}
+    \verb 10.1145/3731120.3744597
+    \endverb
+    \field{pages}{307–314}
+    \field{series}{ICTIR '25}
+    \field{title}{Neural Prioritisation for Web Crawling}
+    \verb{url}
+    \verb http://dx.doi.org/10.1145/3731120.3744597
+    \endverb
+    \field{month}{07}
+    \field{year}{2025}
+  \endentry
+\enddatalist
 \endinput
-

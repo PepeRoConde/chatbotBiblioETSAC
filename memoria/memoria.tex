@@ -4,7 +4,7 @@
 \usepackage{graphicx}
 \usepackage[margin=1in]{geometry}
 \usepackage[galician]{babel}
-
+\usepackage{csquotes}
 
 \usepackage{array}
 \usepackage{booktabs}            % \toprule \midrule \bottomrule
@@ -14,7 +14,7 @@
 \usepackage{float}
 \usepackage{multicol}
 \tcbuselibrary{breakable}
-\usepackage[style=apa]{biblatex}  % o style=apa, ieee, etc.
+\usepackage[style=authoryear,backend=bibtex]{biblatex}  % o style=apa, ieee, etc.
 \addbibresource{referencias.bib}
 
 \makeatletter
@@ -318,29 +318,75 @@ mesmo documento.
 
 \section{O \textit{RAGsystem}}
 
-O sistema RAG (Retrieval-Augmented Generation) implementado constitúe o núcleo 
-do chatbot, combinando técnicas de recuperación de información con modelos de 
-linguaxe xerativos. O proceso de resposta a unha consulta desenvólvese en varias 
-etapas: primeiro, a pregunta do usuario convértese nun vector mediante embeddings 
-semánticos que capturan o seu significado; a continuación, este vector empregase 
-para buscar no vectorstore os documentos máis relevantes mediante similitude 
-coseno, recuperando os $k$ fragmentos de texto máis próximos semanticamente á 
-consulta. Para mellorar a calidade da recuperación, o sistema incorpora un 
-compoñente de reranking baseado en TF-IDF que permite reordenar os documentos 
-recuperados segundo a súa relevancia léxica, ou ben combinarse de forma híbrida 
-coas puntuacións vectoriais mediante pesos configurables. Unha vez identificados 
-os fragmentos máis relevantes, estes incorpóranse como contexto nunha plantilla 
-de prompt xunto co historial recente da conversación, permitindo que o modelo 
-de linguaxe (Claude, ChatGPT ou calquera compatible con \textit{Langchain}) xere unha resposta fundamentada na documentación 
-oficial da universidade. O sistema mantén un historial de conversación de lonxitude 
-configurable que permite responder a preguntas que fan referencia a interaccións 
-previas, dotando ao chatbot de capacidade contextual e conversacional. Ademais, 
-cada documento recuperado enriquécese con metadatos que inclúen a súa puntuación 
-de relevancia tanto vectorial como TF-IDF, facilitando a trazabilidad e 
+O sistema RAG (Retrieval-Augmented Generation) implementado constitúe o núcleo
+do chatbot, combinando técnicas de recuperación de información con modelos de
+linguaxe xerativos. O proceso de resposta a unha consulta desenvólvese en varias
+etapas: primeiro, a pregunta do usuario convértese nun vector mediante
+embeddings semánticos que capturan o seu significado; a continuación, este
+vector empregase para buscar no vectorstore os documentos máis relevantes
+mediante similitude coseno, recuperando os $k$ fragmentos de texto máis próximos
+semanticamente á consulta. Para mellorar a calidade da recuperación, o sistema
+incorpora un compoñente de reranking baseado en TF-IDF que permite reordenar os
+documentos recuperados segundo a súa relevancia léxica, ou ben combinarse de
+forma híbrida coas puntuacións vectoriais mediante pesos configurables. Unha vez
+identificados os fragmentos máis relevantes, estes incorpóranse como contexto
+nunha plantilla de prompt xunto co historial recente da conversación, permitindo
+que o modelo de linguaxe (Claude, ChatGPT ou calquera compatible con
+\textit{Langchain}) xere unha resposta fundamentada na documentación oficial da
+universidade. O sistema mantén un historial de conversación de lonxitude
+configurable que permite responder a preguntas que fan referencia a interaccións
+previas, dotando ao chatbot de capacidade contextual e conversacional. Ademais,
+cada documento recuperado enriquécese con metadatos que inclúen a súa puntuación
+de relevancia tanto vectorial como TF-IDF, facilitando a trazabilidad e
 verificación das fontes empregadas para xerar cada resposta.
 
 
-\section{O \emph{tf-idf}}
+\subsection{Construcción da base de vectores}
+
+\subsection{O sistema de recuperación}
+O sistema polo que o RAG recibe os documentos relevantes para cada consulta
+recibiu múltiples iteraciones e cambios tras varias fases de testeo e
+replanteamento teórico. Trátase dun compoñente clave do sistema e non ten unha
+solución trivial, pois é un área de investigación moi activa
+[\cite{systematic_rag_2025}], poderíase dicir que se ben a área de IR parecía
+estar algo estancada nos últimos anos, debido aos bos resultados que alcanzaron
+os buscadores web, agora volve a verse moi activa grazas ao xurdimento dos
+RAGsystems.
+
+Comezou empregando un sistema de recuperación baseado exclusivamente en
+similitude coseno de vectores FAISS. Mais tras comprobar que tal
+\textit{approach} podía non dar os resultados esperados, pois da a mesma
+importancia a todas as palabras da consulta, non ten en conta cal pode ser a
+palabra clave máis relevante. A maioría das consultas (especialmente
+burocráticas) van ter moitas palabras moi comúns e repetidas ao longo da
+colección de documentos (proceso, documento, normativa) que poden facer que o
+sistema recupere documentos pouco relevantes. 
+
+A primeira solución implementada foi aplicar MMR (Maximal Marginal Relevance) no
+canto da similaridade coseno. O fundamento detrás desta idea era que deste xeito
+non desenvolverianse documentos moi redundantes entre sí, xa que no caso de
+existir varios documentos moi relevantes entre sí, súa información útil para a
+consulta sería menor, mais durante a experimentación comprobouse que na
+realidade non se cumple tal suposición. 
+
+É moi común ver diferentes documentos oficiais que repiten a mesma información
+ou varias versións e revisións dun proceso en diferentes documentos. En tal caso
+é probable que o sistema devolva un só deles, perdéndose información relevante
+ou directamente indicando un proceso obsoleto, xa que prioriza diversidade ante
+exhaustuvudade [\cite{carbonell1998mmr}]. Por outra banda, esta problemática
+acerca da vixencia temporal dos documentos é unha das maiores problemáticas
+neste proxecto (e en calquera RAG que manexe información cambiante ao longo do
+tempo [\cite{grofsky2025freshness}]) e tratarase máis adiante, xa que require
+modificación en diversas partes do sistema. 
+
+
+
+ 
+
+
+
+
+
 \section{Os modelos}
 \section{Ferramentas usadas}
 
