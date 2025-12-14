@@ -2,40 +2,70 @@ from typing import List, Dict, Tuple, Optional, Union, Any
 import re
 import os
 import json
+import csv
 import numpy as np
 from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.documents import Document
+from langchain_core.retrievers import BaseRetriever
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
-from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 from langchain_classic.chains import create_retrieval_chain
+from langchain_core.callbacks import CallbackManagerForRetrieverRun
+from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 
 
 class TFIDFReranker:
     """TF-IDF based reranker for document relevance scoring."""
     
-    def __init__(self, max_features: int = 5000, ngram_range: Tuple[int, int] = (1, 2)):
+    def __init__(self, max_features: int = 5000, ngram_range: Tuple[int, int] = (1, 2), 
+                 stopwords_file: str = 'top_words.csv'):
         """Initialize TF-IDF reranker.
         
         Args:
             max_features: Maximum number of features for TF-IDF
             ngram_range: Range of n-grams to consider (unigrams and bigrams by default)
+            stopwords_file: Path to CSV file with stopwords
         """
+        # Load stopwords from CSV
+        stopwords = self.load_stopwords_from_csv(stopwords_file)
+        
         self.vectorizer = TfidfVectorizer(
             max_features=max_features,
             ngram_range=ngram_range,
-            stop_words=None,  # Can set to 'english' or custom list
+            stop_words=stopwords if stopwords else None,
             lowercase=True,
             token_pattern=r'\b\w+\b'
         )
         self.doc_vectors = None
         self.documents = []
-        self.fitted = False
-    
+        self.fitted = False 
+
+    @staticmethod
+    def load_stopwords_from_csv(csv_file: str) -> list:
+        """Load words from CSV file to use as stopwords.
+        
+        Args:
+            csv_file: Path to CSV file (word,count format)
+            
+        Returns:
+            List of words (first column of CSV)
+        """
+        stopwords = []
+        try:
+            with open(csv_file, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                for row in reader:
+                    if row:  # Check if row is not empty
+                        stopwords.append(row[0])
+            print(f"Loaded {len(stopwords)} stopwords from {csv_file}")
+        except FileNotFoundError:
+            print(f"Warning: {csv_file} not found, no custom stopwords loaded")
+        return stopwords
+
     def fit(self, documents: List[Document]) -> None:
         """Fit the TF-IDF vectorizer on a corpus of documents.
         
@@ -104,13 +134,19 @@ class TFIDFReranker:
         return top_keywords
 
 
-class HybridRetriever:
+class HybridRetriever(BaseRetriever):
     """Hybrid retriever combining vector similarity and TF-IDF."""
+    
+    vector_retriever: Any
+    tfidf_reranker: Any  # TFIDFReranker
+    vector_weight: float = 0.7
+    tfidf_weight: float = 0.3
+    verbose: bool = False
     
     def __init__(
         self,
         vector_retriever: Any,
-        tfidf_reranker: TFIDFReranker,
+        tfidf_reranker: Any,
         vector_weight: float = 0.7,
         tfidf_weight: float = 0.3,
         verbose: bool = False
@@ -124,28 +160,37 @@ class HybridRetriever:
             tfidf_weight: Weight for TF-IDF scores (0-1)
             verbose: Whether to log detailed information
         """
-        self.vector_retriever = vector_retriever
-        self.tfidf_reranker = tfidf_reranker
-        self.vector_weight = vector_weight
-        self.tfidf_weight = tfidf_weight
-        self.verbose = verbose
-        
         # Normalize weights
         total = vector_weight + tfidf_weight
-        self.vector_weight = vector_weight / total
-        self.tfidf_weight = tfidf_weight / total
+        normalized_vector_weight = vector_weight / total
+        normalized_tfidf_weight = tfidf_weight / total
+        
+        # Call parent __init__ with all fields
+        super().__init__(
+            vector_retriever=vector_retriever,
+            tfidf_reranker=tfidf_reranker,
+            vector_weight=normalized_vector_weight,
+            tfidf_weight=normalized_tfidf_weight,
+            verbose=verbose
+        )
     
-    def get_relevant_documents(self, query: str) -> List[Document]:
+    def _get_relevant_documents(
+        self, 
+        query: str,
+        *, 
+        run_manager: CallbackManagerForRetrieverRun
+    ) -> List[Document]:
         """Retrieve documents using hybrid approach.
         
         Args:
             query: Query string
+            run_manager: Callback manager
             
         Returns:
             List of ranked documents
         """
-        # Step 1: Get initial candidates from vector store
-        vector_docs = self.vector_retriever.get_relevant_documents(query)
+        # Step 1: Get initial candidates from vector store using invoke
+        vector_docs = self.vector_retriever.invoke(query)  # Changed from get_relevant_documents
         
         if not vector_docs:
             return []
@@ -171,11 +216,6 @@ class HybridRetriever:
             print(f"Hybrid retrieval: {len(ranked_docs)} documents ranked")
         
         return [doc for doc, score in ranked_docs]
-    
-    def invoke(self, query: str) -> List[Document]:
-        """Invoke method for LangChain compatibility."""
-        return self.get_relevant_documents(query)
-
 
 class RAGSystem:
     """RAG system with TF-IDF integration for improved retrieval and reranking."""
