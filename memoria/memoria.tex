@@ -315,6 +315,7 @@ se escriben os metadatos ou o rexistro de páxinas visitadas, implementáronse
 \textit{locks}, deste xeito dous \textit{crawlers} non podrán escribir á vez nun
 mesmo documento.
 
+\section{Análise dos datos obtidos mediante o \textit{Crawler}}
 
 \section{O \textit{RAGsystem}}
 
@@ -379,9 +380,23 @@ neste proxecto (e en calquera RAG que manexe información cambiante ao longo do
 tempo [\cite{grofsky2025freshness}]) e tratarase máis adiante, xa que require
 modificación en diversas partes do sistema. 
 
+Sabendo que o MMR mom é axeitado ao noso dominio, decidiuse volver cara o
+enfoque orixinal, pero esta buscando a maneira de discriminar mellor entre os
+términos relevantes e irrelevantes, existe un método que consegue estes
+resultados desde fai tempo, o TF-IDF (Term Frequency - Inverse Document
+Frequency) [\cite{sparck_jones1972}]. A forma de aplicalo inicialmente foi
+utilizalo para rerankear os documentos recuperados polo FAISS, é dicir, cos n
+documentos devoltos mediante a similaridade coseno, estes reordéanse segundo a
+ponderación tf-idf. Prontamente caeuse na conta de que deste xeito non obtense
+resultados demasiado óptimos pois simplemente cambia de orde os documentos
+retrieveados polo FAISS, mais non engade novos documentos que poidan ser
+relevantes e que a similaridade coseno obvia. Por iso, a solución final foi
+empregar un sistema híbrido, onde se combinan as puntuacións de similitude
+coseno e tf-idf mediante pesos configurables (50/50 no caso actual). Tal enfoque
+é moi común nos RAGsystems actuais como no caso de \cite{regulatory_hybrid_2025}
+e \cite{adobe_hybrid_2024}.
 
 
- 
 
 
 
