@@ -577,7 +577,6 @@ class CrawlerUDC:
     def crawl_page(self, url: str) -> List[str]:
         if url in self.visited_urls and not self.force_recrawl:
             return []
-
         # Mark as visited and persist immediately
         if not self.force_recrawl:
             self.visited_urls.add(url)
@@ -585,12 +584,10 @@ class CrawlerUDC:
         else:
             self.stats['force_recrawled'] += 1
             print(f"Force recrawling: {url}")
-
         if not self.force_recrawl and not self.should_refresh(url) and not self.has_remote_changed(url):
             print(f"Skipping unchanged page: {url}")
             self.stats['skipped_not_modified'] += 1
             return []
-
         try:
             print(f"Crawling: {url}")
             response = requests.get(url, headers=self.headers, timeout=30)
@@ -601,20 +598,28 @@ class CrawlerUDC:
             
             soup = BeautifulSoup(response.content, 'lxml')
             self.stats['pages_crawled'] += 1
-
+            
             # Procesar enlaces PDF
             for link in soup.find_all('a', href=True):
                 href = urljoin(url, link['href'])
                 if href.lower().endswith('.pdf') and self.is_bureaucratic_pdf(href, link.text):
                     self.download_pdf(href)
-
+                    if href not in self.metadata:
+                        self.metadata[href] = {}
+                    self.metadata[href]['discovered_from'] = url
+            
             # Extraer nuevos enlaces
             new_urls = [
                 urljoin(url, link['href'])
                 for link in soup.find_all('a', href=True)
                 if self.is_valid_url(urljoin(url, link['href']))
             ]
-
+            
+            for new_url in new_urls:
+                if new_url not in self.metadata:
+                    self.metadata[new_url] = {}
+                self.metadata[new_url]['discovered_from'] = url
+            
             # Actualizar metadatos (preservar campos de process_document_to_text)
             existing_meta = self.metadata.get(url, {})
             self.metadata[url] = {
@@ -622,11 +627,10 @@ class CrawlerUDC:
                 **self.get_remote_metadata(url),
                 "last_download": datetime.now().isoformat()
             }
-
             time.sleep(1)
             return new_urls
-
         except Exception as e:
+            print('ai carai')
             print(f"Error crawling {url}: {e}")
             self.stats['errors'] += 1
             return []
