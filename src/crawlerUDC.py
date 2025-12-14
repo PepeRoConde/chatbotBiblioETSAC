@@ -607,8 +607,10 @@ class CrawlerUDC:
                 if self.is_valid_url(urljoin(url, link['href']))
             ]
 
-            # Actualizar metadatos
+            # Actualizar metadatos (preservar campos de process_document_to_text)
+            existing_meta = self.metadata.get(url, {})
             self.metadata[url] = {
+                **existing_meta,  # Preservar needs_embeddings, text_hash, etc.
                 **self.get_remote_metadata(url),
                 "last_download": datetime.now().isoformat()
             }
