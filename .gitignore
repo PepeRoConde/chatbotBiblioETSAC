@@ -16,3 +16,16 @@ crawl/metadata.json
 crawl/visited_urls.txt
 etsacEnv/
 crawl/
+*.swp
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.gz
+*.syntex.gz
+*.toc
+*.bbl
+*.bcf
+*.blg
+*.run.xml
