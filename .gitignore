@@ -23,4 +23,7 @@ crawl/visited_urls.txt
 *.gz
 *.syntex.gz
 *.toc
-
+*.bbl
+*.bcf
+*.blg
+*.run.xml
