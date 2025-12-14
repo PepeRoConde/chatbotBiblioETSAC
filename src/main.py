@@ -122,6 +122,8 @@ def main():
             prefix_mode=args.prefix_mode,
             llm=llm,
             map_json=args.map_json,
+            crawler_metadata_path='crawl/metadata.json',
+            text_folder='crawl/text'
         )
     
     # Check if vector store exists and if we need to rebuild
@@ -163,13 +165,13 @@ def main():
     # Show cache stats if verbose
     if args.verbose:
         stats = processor.get_cache_stats()
-        cache_info = f"[bold blue]Estadísticas de caché:[/bold blue]"
-        cache_info += f"\nArquivos rastreados: [yellow]{stats['tracked_files']}[/yellow]"
-        cache_info += f"\nPDFs: [yellow]{stats['files_by_type']['pdf']}[/yellow]"
-        cache_info += f"\nHTMLs: [yellow]{stats['files_by_type']['html']}[/yellow]"
+        cache_info = f"[bold blue]Estadísticas del sistema:[/bold blue]"
+        cache_info += f"\nDocumentos totales: [yellow]{stats['total_documents']}[/yellow]"
+        cache_info += f"\nCon embeddings: [green]{stats['embedded_documents']}[/green]"
+        cache_info += f"\nPendientes: [yellow]{stats['needs_embeddings']}[/yellow]"
         cache_info += f"\nEmbeddings en caché: [yellow]{stats['embedding_cache']['cached_documents']}[/yellow]"
         cache_info += f"\nTamaño caché: [yellow]{stats['embedding_cache']['cache_size_mb']:.2f} MB[/yellow]"
-        console.print(Panel.fit(cache_info, title="Información de caché", border_style="cyan"))
+        console.print(Panel.fit(cache_info, title="Información del sistema", border_style="cyan"))
     
     # Initialize the RAG system
     with Progress(

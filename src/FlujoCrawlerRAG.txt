@@ -1,0 +1,14 @@
+Crawler:
+    ↓ Descarga documento solo si Last-Modified/ETag cambió
+    ↓ Extrae texto plano
+    ↓ Calcula hash del texto
+    ↓ Compara con hash anterior
+    ↓ Si cambió → needs_embeddings = True
+    ↓ Guarda texto plano en text/*.txt
+    ↓ Guarda metadata.json (hash, needs_embeddings, path, etc.)
+
+Pipeline RAG:
+    ↓ Filtra documentos con needs_embeddings = True
+    ↓ Lee texto de text/*.txt
+    ↓ Chunking + generar embeddings
+    ↓ Actualiza metadata → needs_embeddings = False

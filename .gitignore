@@ -15,3 +15,4 @@ crawl/map.json
 crawl/metadata.json
 crawl/visited_urls.txt
 etsacEnv/
+crawl/

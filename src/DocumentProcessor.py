@@ -34,12 +34,13 @@ class DocumentProcessor:
         map_json: str = 'crawl/map.json',
         max_workers: int = 7,
         batch_size: int = 128,
-        ocr_texts_folder: Optional[str] = "crawl/crawled_data/ocr_texts"
+        crawler_metadata_path: str = "crawl/metadata.json",
+        text_folder: str = "crawl/text"
     ):
         """Initialize document processor with parallel processing support.
         
         Args:
-            docs_folder: Folder containing documents
+            docs_folder: Folder containing documents (legacy, for compatibility)
             embedding_model_name: Name of embedding model
             chunk_size: Size of text chunks
             chunk_overlap: Overlap between chunks
@@ -50,10 +51,12 @@ class DocumentProcessor:
             map_json: Path to JSON file mapping filenames to URLs
             max_workers: Maximum number of parallel workers (default: 7)
             batch_size: Batch size for embedding generation (default: 128)
-            ocr_texts_folder: Folder containing OCR text files (optional)
+            crawler_metadata_path: Path to crawler's metadata.json
+            text_folder: Folder containing plain text files from crawler
         """
         self.docs_folder = Path(docs_folder)
-        self.ocr_texts_folder = Path(ocr_texts_folder) if ocr_texts_folder else None
+        self.text_folder = Path(text_folder)
+        self.crawler_metadata_path = Path(crawler_metadata_path)
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(exist_ok=True)
         
@@ -70,8 +73,9 @@ class DocumentProcessor:
         self.vectorstore = None
         self.verbose = verbose
         
-        # File tracking
-        self.metadata_file = self.cache_dir / "crawl/metadata.json"
+        # File tracking - now uses crawler's metadata
+        self.crawler_metadata = self._load_crawler_metadata()
+        self.metadata_file = self.cache_dir / "processor_cache.json"
         self.file_metadata = self._load_file_metadata()
         
         # Parallel processing settings
@@ -103,14 +107,33 @@ class DocumentProcessor:
             self.log(f"[cyan]Inicializado con {max_workers} workers paralelos[/cyan]")
             self.log(f"Dividindo documentos en fragmentos ({mode_desc})...")
     
+    def _load_crawler_metadata(self) -> Dict[str, Any]:
+        """Load metadata from crawler (shared metadata.json)."""
+        if self.crawler_metadata_path.exists():
+            try:
+                with open(self.crawler_metadata_path, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+            except Exception as e:
+                self.log(f"Could not load crawler metadata: {e}", "warning")
+                return {}
+        return {}
+    
+    def _save_crawler_metadata(self) -> None:
+        """Save updated crawler metadata."""
+        try:
+            with open(self.crawler_metadata_path, 'w', encoding='utf-8') as f:
+                json.dump(self.crawler_metadata, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            self.log(f"Could not save crawler metadata: {e}", "error")
+    
     def _load_file_metadata(self) -> Dict[str, Dict]:
-        """Load file metadata (hashes, modification times)."""
+        """Load processor's internal cache."""
         if self.metadata_file.exists():
             try:
                 with open(self.metadata_file, 'rb') as f:
                     return pickle.load(f)
             except Exception as e:
-                self.log(f"Could not load metadata: {e}", "warning")
+                self.log(f"Could not load processor cache: {e}", "warning")
                 return {}
         return {}
     
@@ -193,65 +216,75 @@ class DocumentProcessor:
             'unchanged': unchanged_files,
             'deleted': deleted_files
         }
-    def _get_all_files(self) -> List[Path]:
-        """Get all supported files from configured folders."""
-        all_files = []
+    def _get_documents_needing_embeddings(self) -> List[Tuple[str, Dict]]:
+        """Get documents that need embeddings based on crawler metadata.
         
-        # Files from main docs folder
-        pdf_files = list(self.docs_folder.glob("*.pdf"))
-        html_files = list(self.docs_folder.glob("*.html")) + list(self.docs_folder.glob("*.htm"))
-        all_files.extend(pdf_files + html_files)
+        Returns:
+            List of (url, metadata) tuples for documents needing processing
+        """
+        # Reload crawler metadata to get latest
+        self.crawler_metadata = self._load_crawler_metadata()
         
-        # Files from OCR texts folder
-        if self.ocr_texts_folder and self.ocr_texts_folder.exists():
-            txt_files = list(self.ocr_texts_folder.glob("*.txt"))
-            all_files.extend(txt_files)
+        docs_needing_processing = []
+        for url, meta in self.crawler_metadata.items():
+            if isinstance(meta, dict) and meta.get('needs_embeddings', False):
+                text_path = meta.get('text_path')
+                if text_path:
+                    # Convert relative path to absolute
+                    full_path = self.crawler_metadata_path.parent / text_path
+                    if full_path.exists():
+                        docs_needing_processing.append((url, meta))
+                    else:
+                        self.log(f"[yellow]Text file not found: {text_path}[/yellow]", "warning")
         
-        return all_files
+        return docs_needing_processing
     
     # ========== PARALLEL LOADING METHODS ==========
     
-    def _load_single_file(self, file_path: Path) -> Tuple[Optional[List], str, Optional[Dict], bool, Optional[str]]:
-        """Load a single file and return documents, key, metadata, is_new flag, and error.
+    def _load_single_text_file(self, url: str, meta: Dict) -> Tuple[Optional[List], str, Optional[str]]:
+        """Load a single plain text file and return documents, url, and error.
         
         This method is designed to be called by parallel workers.
-        """
-        file_key = str(file_path)
-        is_new = file_key not in self.file_metadata
         
+        Args:
+            url: Source URL for the document
+            meta: Metadata dict from crawler
+            
+        Returns:
+            (documents, url, error_message)
+        """
         try:
-            # Load based on file type
-            if file_path.suffix.lower() == '.pdf':
-                loader = PyPDFLoader(str(file_path))
-            elif file_path.suffix.lower() == '.txt':
-                loader = TextLoader(str(file_path), encoding='utf-8')
-            else:  # HTML files
-                loader = BSHTMLLoader(
-                    str(file_path),
-                    open_encoding="utf-8",
-                    bs_kwargs={"features": "xml"}   
-                )
+            text_path_rel = meta.get('text_path')
+            if not text_path_rel:
+                return None, url, "No text_path in metadata"
             
-            docs = loader.load()
-            file_hash = self._get_file_hash(file_path)
+            # Convert relative to absolute path
+            text_path = self.crawler_metadata_path.parent / text_path_rel
             
-            # Tag documents with source file and type
-            for doc in docs:
-                doc.metadata['source_file'] = file_key
-                doc.metadata['file_hash'] = file_hash
-                doc.metadata['file_type'] = file_path.suffix.lower()[1:]  # Remove the dot
-                
-                # Add OCR flag if from OCR folder
-                if self.ocr_texts_folder and str(self.ocr_texts_folder) in file_key:
-                    doc.metadata['is_ocr'] = True
+            if not text_path.exists():
+                return None, url, f"Text file not found: {text_path}"
             
-            # Get file info
-            file_info = self._get_file_info(file_path)
+            # Load plain text
+            with open(text_path, 'r', encoding='utf-8') as f:
+                text_content = f.read()
             
-            return docs, file_key, file_info, is_new, None
+            # Create Document object
+            from langchain_core.documents import Document
+            doc = Document(
+                page_content=text_content,
+                metadata={
+                    'source_url': url,
+                    'text_path': str(text_path),
+                    'text_hash': meta.get('text_hash', ''),
+                    'original_format': meta.get('original_format', 'unknown'),
+                    'last_crawl': meta.get('last_crawl', '')
+                }
+            )
+            
+            return [doc], url, None
             
         except Exception as e:
-            return None, file_key, None, is_new, str(e)
+            return None, url, str(e)
     
 
     def _preserve_list_linebreaks(self, text: str) -> str:
@@ -290,103 +323,74 @@ class DocumentProcessor:
    
 
     def load_documents(self, force_reload: bool = False) -> Dict[str, List]:
-        """Load all PDFs, HTML, and TXT files in parallel, only processing changed files.
+        """Load plain text files that need embeddings based on crawler metadata.
         
         Args:
-            force_reload: If True, reload all files regardless of changes
+            force_reload: If True, process all files (ignores needs_embeddings flag)
             
         Returns:
-            Dictionary with 'new', 'updated', 'unchanged' document lists
+            Dictionary with 'processed' and 'skipped' document lists
         """
-        all_files = self._get_all_files()
+        # Get documents needing processing
+        if force_reload:
+            # Process all documents in text folder
+            docs_to_process = []
+            for url, meta in self.crawler_metadata.items():
+                if isinstance(meta, dict) and 'text_path' in meta:
+                    docs_to_process.append((url, meta))
+            self.log(f"[yellow]Modo force_reload: procesando {len(docs_to_process)} documentos[/yellow]")
+        else:
+            docs_to_process = self._get_documents_needing_embeddings()
+            self.log(f"[cyan]Documentos que necesitan embeddings: {len(docs_to_process)}[/cyan]")
         
-        # Count files by type for logging
-        pdf_count = sum(1 for f in all_files if f.suffix.lower() == '.pdf')
-        html_count = sum(1 for f in all_files if f.suffix.lower() in ['.html', '.htm'])
-        txt_count = sum(1 for f in all_files if f.suffix.lower() == '.txt')
+        if not docs_to_process:
+            self.log("[green]✓ Todos los documentos tienen embeddings actualizados[/green]")
+            return {'processed': [], 'skipped': []}
         
-        if not force_reload:
-            self.log(f"[cyan]Encontrados {pdf_count} PDFs, {html_count} HTMLs e {txt_count} TXTs[/cyan]")
+        processed_docs = []
+        skipped_docs = []
         
-        # Track file statuses
-        new_docs = []
-        updated_docs = []
-        unchanged_docs = []
-        
-        # Check for deleted files
-        deleted_files = self._get_deleted_files(all_files)
-        if deleted_files:
-            self.log(f"[yellow]Detectados {len(deleted_files)} arquivos eliminados[/yellow]")
-            for deleted_file in deleted_files:
-                del self.file_metadata[deleted_file]
-        
-        # Determine which files need processing
-        files_to_process = []
-        for file_path in all_files:
-            file_key = str(file_path)
-            is_changed = force_reload or self._file_has_changed(file_path)
-            
-            if not is_changed:
-                unchanged_docs.append(file_key)
-                if self.verbose:
-                    self.log(f"[dim]Omitindo sen cambios: {file_path.name}[/dim]")
-                continue
-            
-            files_to_process.append(file_path)
-        
-        if not files_to_process:
-            self.log("[green]✓ Non se detectaron cambios[/green]")
-            self._save_file_metadata()
-            return {'new': new_docs, 'updated': updated_docs, 'unchanged': unchanged_docs}
-        
-        # Process files in parallel using ThreadPoolExecutor
-        self.log(f"[cyan]Procesando {len(files_to_process)} arquivos en paralelo con {self.max_workers} workers...[/cyan]")
+        # Process files in parallel
+        self.log(f"[cyan]Cargando {len(docs_to_process)} textos planos en paralelo con {self.max_workers} workers...[/cyan]")
         
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             # Submit all tasks
-            future_to_file = {
-                executor.submit(self._load_single_file, file_path): file_path
-                for file_path in files_to_process
+            future_to_url = {
+                executor.submit(self._load_single_text_file, url, meta): url
+                for url, meta in docs_to_process
             }
             
             # Process completed tasks as they finish
-            for future in as_completed(future_to_file):
-                file_path = future_to_file[future]
-                docs, file_key, file_info, is_new, error = future.result()
+            for future in as_completed(future_to_url):
+                url = future_to_url[future]
+                docs, _, error = future.result()
                 
                 if error:
-                    self.log(f"[red]Erro procesando {file_path.name}: {error}[/red]", "error")
+                    self.log(f"[red]Error cargando {url}: {error}[/red]", "error")
+                    skipped_docs.append(url)
                     continue
                 
                 # Thread-safe update of shared state
                 with self.doc_lock:
                     self.documents.extend(docs)
-                    self.file_metadata[file_key] = file_info
                 
-                if is_new:
-                    new_docs.append(file_key)
-                else:
-                    updated_docs.append(file_key)
+                processed_docs.append(url)
                 
                 if self.verbose:
-                    status = "novo" if is_new else "actualizado"
-                    self.log(f"[cyan]✓ Procesado {status}: {file_path.name}[/cyan]")
-        
-        # Save updated metadata
-        self._save_file_metadata()
+                    text_path = self.crawler_metadata[url].get('text_path', 'unknown')
+                    self.log(f"[cyan]✓ Cargado: {Path(text_path).name}[/cyan]")
         
         # Summary
-        if new_docs or updated_docs:
+        if processed_docs:
             self.log(
-                f"[green]Procesados {len(new_docs)} novos, {len(updated_docs)} actualizados, "
-                f"{len(unchanged_docs)} sen cambios[/green]",
+                f"[green]Cargados {len(processed_docs)} textos planos, "
+                f"{len(skipped_docs)} con errores[/green]",
                 "success"
             )
         
         return {
-            'new': new_docs,
-            'updated': updated_docs,
-            'unchanged': unchanged_docs
+            'processed': processed_docs,
+            'skipped': skipped_docs
         }
     
     # ========== PARALLEL SPLITTING METHODS ==========
@@ -397,28 +401,13 @@ class DocumentProcessor:
     
     def _add_source_prefix(self, chunk) -> Any:
         """Add source-based prefix to a chunk."""
-        source_file = chunk.metadata.get("source_file", "descoñecido")
-        filename = Path(source_file).name
-        file_type = chunk.metadata.get("file_type", "descoñecido")
-        is_ocr = chunk.metadata.get("is_ocr", False)
+        source_url = chunk.metadata.get("source_url", "URL descoñecida")
+        text_path = chunk.metadata.get("text_path", "descoñecido")
+        filename = Path(text_path).name
+        file_type = chunk.metadata.get("original_format", "descoñecido")
         
-        # Load URL mapping if available
-        mapping_path = Path(self.map_json)
-        url = "URL descoñecida"
-        
-        if mapping_path.exists():
-            try:
-                with open(mapping_path, "r", encoding="utf-8") as f:
-                    filename_to_url = json.load(f)
-                url = filename_to_url.get(filename, "URL descoñecida")
-            except Exception:
-                pass
-        
-        # Build prefix based on file type
-        if is_ocr:
-            prefix = f"Este fragmento é de texto extraído por OCR do arquivo {filename} con url {url} :\n "
-        else:
-            prefix = f"Este fragmento é do documento {filename} ({file_type.upper()}) con url {url} :\n "
+        # Build prefix
+        prefix = f"Este fragmento é do documento {filename} ({file_type.upper()}) con url {source_url} :\n "
         
         chunk.page_content = prefix + chunk.page_content
         return chunk
@@ -567,72 +556,64 @@ class DocumentProcessor:
             self.log("[green]✓ Vectorstore creado![/green]", "success")
     
     def process(self, force_reload: bool = False, incremental: bool = True) -> bool:
-        """Process all documents and create/update the vector store with parallel processing.
+        """Process documents and rebuild vector store when embeddings change.
         
         Args:
             force_reload: Force reprocessing of all files
-            incremental: Use incremental updates (only process changed files)
+            incremental: Use incremental updates (only process docs with needs_embeddings=True)
             
         Returns:
             True if vectorstore was modified, False otherwise
         """
         vectorstore_modified = False
         
-        if incremental and not force_reload:
-            # Check for changes first
-            changes = self._check_for_changes()
-            has_changes = changes['new'] or changes['updated'] or changes['deleted']
+        # Load documents that need embeddings
+        result = self.load_documents(force_reload=force_reload)
+        processed_urls = result.get('processed', [])
+        
+        if not processed_urls:
+            self.log("[green]✓ No hay cambios - vectorstore actualizado[/green]")
+            return False
+        
+        self.log(f"[cyan]Procesando {len(processed_urls)} documentos con cambios...[/cyan]")
+        
+        # Generate chunks and embeddings
+        if self.documents:
+            chunks = self.split_documents()
             
-            if not has_changes:
-                self.log("[green]✓ Non se detectaron cambios. Vectorstore actualizado![/green]")
-                return False
-            
-            # Report changes
-            change_summary = []
-            if changes['new']:
-                change_summary.append(f"{len(changes['new'])} novos")
-            if changes['updated']:
-                change_summary.append(f"{len(changes['updated'])} modificados")
-            if changes['deleted']:
-                change_summary.append(f"{len(changes['deleted'])} eliminados")
-            
-            self.log(f"[yellow]⚠ Cambios detectados: {', '.join(change_summary)}[/yellow]")
-            self.log("[cyan]Reconstruíndo vectorstore con procesamento paralelo...[/cyan]")
-            
-            # Rebuild with all documents (but embeddings are cached!)
-            self.documents = []
-            self.load_documents(force_reload=True)
-            
-            if self.documents:
-                chunks = self.split_documents()
-                if chunks:
-                    self.create_vectorstore(chunks)
-                    self.log("[green]✓ Vectorstore reconstruído exitosamente![/green]")
+            if chunks:
+                # Generate embeddings (with cache)
+                self.log("[cyan]Generando embeddings (usando caché para documentos sin cambios)...[/cyan]")
+                
+                # ALWAYS rebuild FAISS from scratch with all chunks
+                self.log("[yellow]Reconstruyendo FAISS desde cero...[/yellow]")
+                
+                # Load ALL documents (not just changed ones) for complete FAISS rebuild
+                _ = self.load_documents(force_reload=True)
+                all_chunks = self.split_documents()
+                
+                if all_chunks:
+                    self.create_vectorstore(all_chunks)
+                    self.log("[green]✓ Vectorstore reconstruido exitosamente![/green]")
                     vectorstore_modified = True
+                    
+                    # Update crawler metadata: mark processed docs as embedded
+                    for url in processed_urls:
+                        if url in self.crawler_metadata and isinstance(self.crawler_metadata[url], dict):
+                            self.crawler_metadata[url]['needs_embeddings'] = False
+                            self.crawler_metadata[url]['last_embedded'] = datetime.now().isoformat()
+                    
+                    self._save_crawler_metadata()
+                    self.log(f"[green]✓ Marcados {len(processed_urls)} documentos como embedded[/green]")
                 else:
                     self.log("[yellow]⚠ Non se crearon chunks[/yellow]")
             else:
-                self.log("[yellow]⚠ Non hai documentos para procesar[/yellow]")
-            
-            self.documents = []
-            
+                self.log("[yellow]⚠ Non se crearon chunks[/yellow]")
         else:
-            # Full rebuild
-            self.log("[yellow]Realizando reconstrucción completa con procesamento paralelo...[/yellow]")
-            self.documents = []
-            self.load_documents(force_reload=True)
-            
-            if self.documents:
-                chunks = self.split_documents()
-                if chunks:
-                    self.create_vectorstore(chunks)
-                    vectorstore_modified = True
-                else:
-                    self.log("[yellow]⚠ Non se crearon chunks[/yellow]")
-            else:
-                self.log("[yellow]⚠ Non hai documentos para procesar[/yellow]")
-            
-            self.documents = []
+            self.log("[yellow]⚠ Non hai documentos para procesar[/yellow]")
+        
+        # Clear documents from memory
+        self.documents = []
         
         return vectorstore_modified
     
@@ -663,14 +644,21 @@ class DocumentProcessor:
         """Get statistics about cached data and parallel processing."""
         embedding_stats = self.embeddings.get_cache_stats()
         
+        # Count documents by status
+        total_docs = len(self.crawler_metadata)
+        needs_embeddings = sum(1 for meta in self.crawler_metadata.values() 
+                              if isinstance(meta, dict) and meta.get('needs_embeddings', False))
+        embedded_docs = total_docs - needs_embeddings
+        
         return {
-            'tracked_files': len(self.file_metadata),
-            'files_by_type': self._count_files_by_type(),
+            'total_documents': total_docs,
+            'embedded_documents': embedded_docs,
+            'needs_embeddings': needs_embeddings,
             'embedding_cache': embedding_stats,
             'cache_dir': str(self.cache_dir),
+            'text_folder': str(self.text_folder),
             'max_workers': self.max_workers,
-            'batch_size': self.batch_size,
-            'ocr_texts_folder': str(self.ocr_texts_folder) if self.ocr_texts_folder else None
+            'batch_size': self.batch_size
         }
     
     def _count_files_by_type(self) -> Dict[str, int]:

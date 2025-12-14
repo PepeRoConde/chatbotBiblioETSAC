@@ -5,17 +5,25 @@ import hashlib
 import argparse
 from urllib.parse import urljoin, urlparse
 from pathlib import Path
-from typing import Set, List, Dict, Any
+from typing import Set, List, Dict, Any, Tuple
 from collections import deque
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
-from multiprocessing import Process, Queue, Event
-from queue import Empty
 
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
+# Import our CleanHTMLLoader
+from CleanHTMLLoader import CleanHTMLLoader
+
+# PDF parsing imports
+try:
+    from pypdf import PdfReader
+    PDF_AVAILABLE = True
+except ImportError:
+    PDF_AVAILABLE = False
+    print("Warning: pypdf not available. PDF text extraction will be disabled.")
 
 # OCR imports
 try:
@@ -28,96 +36,55 @@ except ImportError:
     print("Warning: PIL/pytesseract not available. OCR will be disabled.")
 
 
-class OCRProcessor:
-    """
-    Separate process that consumes images from a queue and performs OCR.
-    """
-    def __init__(self, image_queue: Queue, output_dir: Path, stop_event: Event):
-        self.image_queue = image_queue
-        self.output_dir = output_dir
-        self.ocr_dir = output_dir / "ocr_texts"
-        self.ocr_dir.mkdir(parents=True, exist_ok=True)
-        self.stop_event = stop_event
-        self.stats = {
-            'processed': 0,
-            'errors': 0
-        }
-
-    def process_image(self, image_path: Path) -> bool:
-        """Perform OCR on a single image and save as .txt"""
-        try:
-            txt_filename = image_path.stem + ".txt"
-            txt_path = self.ocr_dir / txt_filename
-
-            # Skip if already processed
-            if txt_path.exists():
-                print(f"OCR already exists: {txt_filename}")
-                return True
-
-            # Open and perform OCR
-            img = Image.open(image_path)
-            text = pytesseract.image_to_string(img, lang='eng+spa')  # English + Spanish
-
-            if len(text) > 1:
-                # Save OCR result
-                with open(txt_path, 'w', encoding='utf-8') as f:
-                    f.write(text)
-
-                self.stats['processed'] += 1
-                print(f"OCR completed: {txt_filename} ({len(text)} chars)")
-                os.remove(image_path)
-                return True
-
-            else:
-                print(f'OCR completado pero {image_path.stem} no se guarda como .txt porque no tiene texto.')
-                os.remove(image_path)
-                return True
+def process_image_ocr(image_path: Path) -> str:
+    """Perform OCR on a single image and return extracted text.
+    Returns empty string if no text found or error occurs."""
+    if not OCR_AVAILABLE:
+        return ""
+    
+    try:
+        img = Image.open(image_path)
+        text = pytesseract.image_to_string(img, lang='eng+spa')
+        return text.strip() if len(text) > 1 else ""
+    except Exception as e:
+        print(f"  OCR error for {image_path.name}: {e}")
+        return ""
 
 
-
-        except Exception as e:
-            print(f"OCR error for {image_path.name}: {e}")
-            self.stats['errors'] += 1
-            os.remove(image_path)
-            return False
-
-    def run(self):
-        """Main loop for OCR processor"""
-        print(f"OCR Processor started (PID: {os.getpid()})")
-        print(f"   Output directory: {self.ocr_dir.absolute()}")
-
-        while not self.stop_event.is_set() or not self.image_queue.empty():
-            try:
-                # Get image path from queue (timeout to check stop_event periodically)
-                image_path = self.image_queue.get(timeout=1)
-                
-                if image_path is None:  # Poison pill
-                    break
-                    
-                self.process_image(image_path)
-
-            except Empty:
-                continue
-            except Exception as e:
-                print(f"OCR processor error: {e}")
-                self.stats['errors'] += 1
-
-        print(f"\nOCR Processor finished:")
-        print(f"   Processed: {self.stats['processed']}")
-        print(f"   Errors: {self.stats['errors']}")
+def extract_text_from_html(html_content: bytes) -> str:
+    """Extract clean text from HTML using CleanHTMLLoader."""
+    return CleanHTMLLoader.extract_text_from_html(html_content)
 
 
-def start_ocr_worker(image_queue: Queue, output_dir: Path, stop_event: Event):
-    """Function to start OCR processor in a separate process"""
-    processor = OCRProcessor(image_queue, output_dir, stop_event)
-    processor.run()
+def extract_text_from_pdf(pdf_path: Path) -> str:
+    """Extract text from PDF file."""
+    if not PDF_AVAILABLE:
+        return "[PDF parsing not available - pypdf not installed]"
+    
+    try:
+        reader = PdfReader(str(pdf_path))
+        text_parts = []
+        
+        for page in reader.pages:
+            text = page.extract_text()
+            if text:
+                text_parts.append(text)
+        
+        return '\n\n'.join(text_parts)
+    except Exception as e:
+        return f"[Error extracting PDF text: {e}]"
+
+
+def calculate_text_hash(text: str) -> str:
+    """Calculate SHA256 hash of text content."""
+    return hashlib.sha256(text.encode('utf-8')).hexdigest()
 
 
 class CrawlerUDC:
     """
     Smart web crawler that downloads PDFs, HTML files and images,
     persists visited state, and refreshes only updated pages.
-    Now includes: force_recrawl, image downloading, and parallel OCR
+    Now includes: force_recrawl, image downloading, and inline OCR processing
     """
     _metadata_lock = Lock()
     _visited_lock = Lock()
@@ -130,8 +97,7 @@ class CrawlerUDC:
                  refresh_days: int = 30,
                  force_recrawl: bool = False,
                  download_images: bool = True,
-                 enable_ocr: bool = True,
-                 ocr_workers: int = 2):
+                 enable_ocr: bool = True):
 
         self.base_url = base_url.rstrip('/')
         self.domain = urlparse(base_url).netloc
@@ -139,6 +105,7 @@ class CrawlerUDC:
         self.output_dir = Path(output_dir)
         self.images_dir = self.output_dir / "images"
         self.state_dir = Path(state_dir)
+        self.text_dir = self.state_dir / "text"  # Nueva carpeta para textos planos
         self.keywords_file = Path(keywords_file)
         self.visited_urls: Set[str] = set()
         self.downloaded_files: Set[str] = set()
@@ -147,7 +114,6 @@ class CrawlerUDC:
         self.force_recrawl = force_recrawl
         self.download_images = download_images
         self.enable_ocr = enable_ocr and OCR_AVAILABLE
-        self.ocr_workers = ocr_workers
 
         self.file_map: Dict[str, str] = {}
 
@@ -155,6 +121,7 @@ class CrawlerUDC:
         if self.download_images:
             self.images_dir.mkdir(parents=True, exist_ok=True)
         self.state_dir.mkdir(parents=True, exist_ok=True)
+        self.text_dir.mkdir(parents=True, exist_ok=True)  # Crear carpeta de textos
 
         self.meta_path = self.state_dir / "metadata.json"
         self.visited_path = self.state_dir / "visited_urls.txt"
@@ -172,15 +139,11 @@ class CrawlerUDC:
             'pdfs_downloaded': 0,
             'html_saved': 0,
             'images_downloaded': 0,
+            'ocr_processed': 0,
             'errors': 0,
             'skipped_not_modified': 0,
             'force_recrawled': 0
         }
-
-        # OCR process management
-        self.ocr_queue = None
-        self.ocr_processes = []
-        self.ocr_stop_event = None
 
     # =================== Persistence ===================
 
@@ -255,59 +218,131 @@ class CrawlerUDC:
             except Exception as e:
                 print(f"Error saving visited URLs: {e}")
 
-    # =================== OCR Management ===================
+    # =================== URL & file handling ===================
 
-    def start_ocr_workers(self):
-        """Start OCR worker processes"""
-        if not self.enable_ocr:
-            return
-
-        from multiprocessing import Manager
-        manager = Manager()
-        self.ocr_queue = manager.Queue()
-        self.ocr_stop_event = manager.Event()
-
-        print(f"\nStarting {self.ocr_workers} OCR worker process(es)...")
-        for i in range(self.ocr_workers):
-            p = Process(
-                target=start_ocr_worker,
-                args=(self.ocr_queue, self.output_dir, self.ocr_stop_event),
-                daemon=False
-            )
-            p.start()
-            self.ocr_processes.append(p)
-            print(f"   Worker {i+1} started (PID: {p.pid})")
-
-    def stop_ocr_workers(self):
-        """Stop OCR worker processes gracefully"""
-        if not self.enable_ocr or not self.ocr_processes:
-            return
-
-        print("\nStopping OCR workers...")
+    def extract_and_process_images_from_html(self, html_content: bytes, page_url: str) -> List[Tuple[str, str]]:
+        """Extract images from HTML, download them, perform OCR, and return list of (image_name, ocr_text).
         
-        # Send stop signal
-        self.ocr_stop_event.set()
+        Args:
+            html_content: HTML content as bytes
+            page_url: URL of the page (for resolving relative URLs and referer)
+            
+        Returns:
+            List of tuples: (image_filename, ocr_text)
+        """
+        if not self.download_images or not self.enable_ocr:
+            return []
         
-        # Send poison pills
-        for _ in self.ocr_processes:
-            self.ocr_queue.put(None)
+        ocr_results = []
+        
+        try:
+            soup = BeautifulSoup(html_content, 'lxml')
+            image_tags = soup.find_all('img')
+            
+            if not image_tags:
+                return []
+            
+            print(f"  Found {len(image_tags)} images to process")
+            
+            # Process images in parallel using ThreadPoolExecutor
+            def process_single_image(img_tag) -> Tuple[str, str]:
+                """Download image, perform OCR, return (filename, ocr_text)"""
+                try:
+                    # Get image URL (prefer srcset high-res, then src)
+                    img_url = None
+                    if img_tag.get('srcset'):
+                        srcset = img_tag['srcset'].split(',')
+                        for src in srcset:
+                            parts = src.strip().split()
+                            if len(parts) >= 1:
+                                img_url = urljoin(page_url, parts[0])
+                                break
+                    
+                    if not img_url and img_tag.get('data-src'):
+                        img_url = urljoin(page_url, img_tag['data-src'])
+                    elif not img_url and img_tag.get('src'):
+                        img_url = urljoin(page_url, img_tag['src'])
+                    
+                    if not img_url or img_url in self.downloaded_images:
+                        return None, ""
+                    
+                    # Download image
+                    filepath = self._download_image_sync(img_url, page_url)
+                    if not filepath or not filepath.exists():
+                        return None, ""
+                    
+                    # Perform OCR
+                    ocr_text = process_image_ocr(filepath)
+                    
+                    # Delete image after OCR
+                    try:
+                        os.remove(filepath)
+                    except OSError:
+                        pass
+                    
+                    if ocr_text:
+                        self.stats['ocr_processed'] += 1
+                        print(f"    OCR extracted {len(ocr_text)} chars from {filepath.name}")
+                        return filepath.name, ocr_text
+                    
+                    return None, ""
+                    
+                except Exception as e:
+                    print(f"    Error processing image: {e}")
+                    return None, ""
+            
+            # Process images in parallel (max 4 concurrent downloads)
+            with ThreadPoolExecutor(max_workers=4) as executor:
+                futures = [executor.submit(process_single_image, img) for img in image_tags]
+                
+                for future in as_completed(futures):
+                    img_name, ocr_text = future.result()
+                    if img_name and ocr_text:
+                        ocr_results.append((img_name, ocr_text))
+            
+        except Exception as e:
+            print(f"  Error extracting images from HTML: {e}")
+        
+        return ocr_results
 
-        # Wait for all processes to finish
-        for i, p in enumerate(self.ocr_processes):
-            p.join(timeout=30)
-            if p.is_alive():
-                print(f"   Worker {i+1} did not stop gracefully, terminating...")
-                p.terminate()
-                p.join()
-            else:
-                print(f"   Worker {i+1} stopped")
-
-        self.ocr_processes.clear()
-
-    def queue_image_for_ocr(self, image_path: Path):
-        """Add image to OCR queue"""
-        if self.enable_ocr and self.ocr_queue is not None:
-            self.ocr_queue.put(image_path)
+    def _download_image_sync(self, url: str, page_url: str = None) -> Path | None:
+        """Synchronously download an image and return its path."""
+        if not url or url in self.downloaded_images:
+            return None
+        
+        try:
+            headers = {
+                'User-Agent': self.headers.get('User-Agent'),
+                'Accept': 'image/avif,image/webp,image/apng,*/*',
+                'Accept-Language': 'en-US,en;q=0.8',
+                'Referer': page_url or self.base_url
+            }
+            
+            r = requests.get(url, headers=headers, timeout=20)
+            r.raise_for_status()
+            
+            content_type = r.headers.get('Content-Type', '')
+            if not content_type.startswith("image/"):
+                return None
+            
+            ext = content_type.split("/")[-1].split(";")[0].strip().lower()
+            if ext == "":
+                ext = "jpg"
+            
+            filename = self.generate_filename(url, ext)
+            filepath = self.images_dir / filename
+            
+            with open(filepath, 'wb') as f:
+                f.write(r.content)
+            
+            self.downloaded_images.add(url)
+            self.file_map[filename] = url
+            self.stats['images_downloaded'] += 1
+            
+            return filepath
+            
+        except Exception:
+            return None
 
     # =================== URL & file handling ===================
 
@@ -403,113 +438,127 @@ class CrawlerUDC:
 
         return True
 
-    def save_html(self, url: str, content: bytes):
-        filename = self.generate_filename(url, 'html')
-        filepath = self.output_dir / filename
-
-        if filepath.exists() and self.force_recrawl:
-            print(f"Force overwriting HTML: {filename}")
-
-        with open(filepath, 'wb') as f:
-            f.write(content)
-
-        self.file_map[filename] = url
-
-        self.stats['html_saved'] += 1
-        print(f"Saved HTML: {filename}")
-
-    def download_image(self, url: str, page_url: str = None):
-        """Download high-quality images with srcset/lazy-loading support."""
-
-        if not url or url in self.downloaded_images and not self.force_recrawl:
-            return
-
+    def process_document_to_text(self, url: str, content: bytes, doc_type: str) -> bool:
+        """Process document (HTML/PDF) to plain text with OCR integration.
+        
+        Args:
+            url: Source URL
+            content: Document content (bytes)
+            doc_type: 'html' or 'pdf'
+            
+        Returns:
+            True if processing succeeded and text was saved
+        """
+        filename_base = self.generate_filename(url, doc_type).rsplit('.', 1)[0]
+        text_filename = filename_base + ".txt"
+        text_path = self.text_dir / text_filename
+        
+        # Also save original file
+        original_filename = self.generate_filename(url, doc_type)
+        original_path = self.output_dir / original_filename
+        
+        # Check if needs reprocessing
+        old_meta = self.metadata.get(url, {})
+        remote_meta = self.get_remote_metadata(url)
+        
+        if not self.force_recrawl and text_path.exists():
+            # Check if remote changed
+            if old_meta.get("etag") and remote_meta.get("etag"):
+                if old_meta["etag"] == remote_meta["etag"]:
+                    print(f"Skipping unchanged document (ETag match): {text_filename}")
+                    self.stats['skipped_not_modified'] += 1
+                    return False
+            if old_meta.get("last_modified") and remote_meta.get("last_modified"):
+                if old_meta["last_modified"] == remote_meta["last_modified"]:
+                    print(f"Skipping unchanged document (Last-Modified match): {text_filename}")
+                    self.stats['skipped_not_modified'] += 1
+                    return False
+        
         try:
-            # More realistic browser-like headers
-            headers = {
-                'User-Agent': self.headers.get('User-Agent'),
-                'Accept': 'image/avif,image/webp,image/apng,*/*',
-                'Accept-Language': 'en-US,en;q=0.8',
-                'Referer': page_url or self.base_url
+            # Save original file
+            with open(original_path, 'wb') as f:
+                f.write(content)
+            
+            # Extract base text
+            if doc_type == 'html':
+                base_text = extract_text_from_html(content)
+                
+                # Extract images and perform inline OCR
+                ocr_results = self.extract_and_process_images_from_html(content, url)
+                
+                # Append OCR texts to base text
+                if ocr_results:
+                    print(f"  → {len(ocr_results)} images processed with OCR")
+                    for img_name, ocr_text in ocr_results:
+                        base_text += f"\n\n--- OCR de imagen: {img_name} ---\n{ocr_text}"
+                
+                final_text = base_text
+                
+            elif doc_type == 'pdf':
+                # Save PDF first to extract text
+                final_text = extract_text_from_pdf(original_path)
+            else:
+                print(f"Unknown document type: {doc_type}")
+                return False
+            
+            # Calculate text hash
+            text_hash = calculate_text_hash(final_text)
+            
+            # Check if text content changed
+            needs_embedding = True
+            if old_meta.get("text_hash") == text_hash:
+                print(f"Text content unchanged: {text_filename}")
+                needs_embedding = False
+            
+            # Save plain text
+            with open(text_path, 'w', encoding='utf-8') as f:
+                f.write(final_text)
+            
+            # Update metadata with new schema
+            self.metadata[url] = {
+                **remote_meta,
+                "text_hash": text_hash,
+                "needs_embeddings": needs_embedding,
+                "last_crawl": datetime.now().isoformat(),
+                "last_embedded": old_meta.get("last_embedded"),
+                "text_path": str(text_path.relative_to(self.state_dir)),
+                "original_path": str(original_path.relative_to(self.output_dir)),
+                "original_format": doc_type
             }
-
-            r = requests.get(url, headers=headers, timeout=20)
-            r.raise_for_status()
-
-            # Validate it's actually an image
-            content_type = r.headers.get('Content-Type', '')
-            if not content_type.startswith("image/"):
-                print(f"Skipped non-image content: {url}")
-                return
-
-            # Extract extension based on Content-Type
-            ext = content_type.split("/")[-1].split(";")[0].strip().lower()
-            if ext == "":
-                ext = "jpg"   # fallback but rarely needed
-
-            # Build filename based on real extension
-            filename = self.generate_filename(url, ext)
-            filepath = self.images_dir / filename
-
-            # Skip if exists and not in force mode
-            if filepath.exists() and not self.force_recrawl:
-                self.downloaded_images.add(url)
-                return
-
-            # Save the image
-            with open(filepath, 'wb') as f:
-                f.write(r.content)
-
-            self.downloaded_images.add(url)
-            self.file_map[filename] = url
-            self.stats['images_downloaded'] += 1
-
-            print(f"High-quality image saved: {filename}")
-
-            # Queue for OCR processing
-            self.queue_image_for_ocr(filepath)
-
+            
+            # Save metadata immediately so OCR can access it
+            self.save_metadata()
+            
+            self.file_map[text_filename] = url
+            self.file_map[original_filename] = url
+            
+            if doc_type == 'html':
+                self.stats['html_saved'] += 1
+            else:
+                self.stats['pdfs_downloaded'] += 1
+            
+            status = "(necesita embeddings)" if needs_embedding else "(sin cambios en contenido)"
+            print(f"Processed to text: {text_filename} {status}")
+            return True
+            
         except Exception as e:
-            print(f"Error downloading image {url}: {e}")
+            print(f"Error processing document {url} to text: {e}")
             self.stats['errors'] += 1
+            return False
+    
+    def save_html(self, url: str, content: bytes):
+        """Legacy method - now uses process_document_to_text"""
+        self.process_document_to_text(url, content, 'html')
 
     def download_pdf(self, url: str):
-        filename = self.generate_filename(url, 'pdf')
-        filepath = self.output_dir / filename
-
-        if filepath.exists() and not self.force_recrawl and not self.should_refresh(url):
-            print(f"Skipping existing PDF (fresh): {filename}")
-            self.stats['skipped_not_modified'] += 1
-            return
-
+        """Download PDF and process to plain text."""
         try:
             r = requests.get(url, headers=self.headers, timeout=30)
             r.raise_for_status()
             
-            if filepath.exists() and self.force_recrawl:
-                with open(filepath, 'rb') as f:
-                    existing_content = f.read()
-                if existing_content == r.content:
-                    print(f"PDF unchanged (force mode): {filename}")
-                    return
-            
-            with open(filepath, 'wb') as f:
-                f.write(r.content)
-
-            remote_meta = self.get_remote_metadata(url)
-            self.metadata[url] = {
-                **remote_meta,
-                "last_download": datetime.now().isoformat()
-            }
-
-            self.file_map[filename] = url
-
+            # Process to plain text with metadata tracking
+            self.process_document_to_text(url, r.content, 'pdf')
             self.downloaded_files.add(url)
-            self.stats['pdfs_downloaded'] += 1
-            if self.force_recrawl and filepath.exists():
-                print(f"Force re-downloaded PDF: {filename}")
-            else:
-                print(f"Downloaded PDF: {filename}")
                 
         except Exception as e:
             print(f"Error downloading PDF {url}: {e}")
@@ -539,42 +588,11 @@ class CrawlerUDC:
             response = requests.get(url, headers=self.headers, timeout=30)
             response.raise_for_status()
             
-            self.save_html(url, response.content)
+            # Process HTML to plain text (includes OCR)
+            self.process_document_to_text(url, response.content, 'html')
             
             soup = BeautifulSoup(response.content, 'lxml')
             self.stats['pages_crawled'] += 1
-
-            # Procesar imágenes si está habilitado
-            if self.download_images:
-                for img in soup.find_all('img'):
-                    # Pick best possible URL (lazy-loading support)
-                    src = (
-                        img.get("src")
-                        or img.get("data-src")
-                        or img.get("data-original")
-                        or img.get("data-lazy")
-                    )
-
-                    # Handle srcset for high-resolution selection
-                    srcset = img.get("srcset")
-                    if srcset:
-                        try:
-                            # pick last (usually highest-res)
-                            candidates = [s.strip().split()[0] for s in srcset.split(",")]
-                            if candidates:
-                                src = candidates[-1]
-                        except Exception:
-                            pass
-
-                    if not src:
-                        continue
-
-                    img_url = urljoin(url, src)
-
-                    # Only download valid resources
-                    if self.is_image_url(img_url) or self.is_valid_url(img_url):
-                        self.download_image(img_url, page_url=url)
-
 
             # Procesar enlaces PDF
             for link in soup.find_all('a', href=True):
@@ -609,32 +627,22 @@ class CrawlerUDC:
         print(f"Force recrawl: {self.force_recrawl}")
         print(f"Download images: {self.download_images}")
         print(f"OCR enabled: {self.enable_ocr}")
-        if self.enable_ocr:
-            print(f"OCR workers: {self.ocr_workers}")
         print(f"Files will be saved to: {self.output_dir.absolute()}")
         if self.download_images:
             print(f"Images will be saved to: {self.images_dir.absolute()}")
         print(f"State will be saved to: {self.state_dir.absolute()}\n")
 
-        # Start OCR workers
-        self.start_ocr_workers()
+        queue = deque([(self.base_url, 0)])
 
-        try:
-            queue = deque([(self.base_url, 0)])
-
-            while queue and (len(self.visited_urls) < max_pages or self.force_recrawl):
-                url, depth = queue.popleft()
-                if depth > max_depth:
-                    continue
-                    
-                new_urls = self.crawl_page(url)
-                for new_url in new_urls:
-                    if len(self.visited_urls) < max_pages or self.force_recrawl:
-                        queue.append((new_url, depth + 1))
-
-        finally:
-            # Always stop OCR workers
-            self.stop_ocr_workers()
+        while queue and (len(self.visited_urls) < max_pages or self.force_recrawl):
+            url, depth = queue.popleft()
+            if depth > max_depth:
+                continue
+                
+            new_urls = self.crawl_page(url)
+            for new_url in new_urls:
+                if len(self.visited_urls) < max_pages or self.force_recrawl:
+                    queue.append((new_url, depth + 1))
             # Save metadata and file map
             self.save_metadata()
             self.save_file_map()
@@ -655,11 +663,17 @@ class CrawlerUDC:
             print(f"Pages force-recrawled: {self.stats['force_recrawled']}")
         print(f"Total URLs visited: {len(self.visited_urls)}")
         print(f"\nFiles saved to: {self.output_dir.absolute()}")
+        print(f"Plain texts saved to: {self.text_dir.absolute()}")
         if self.download_images:
             print(f"Images saved to: {self.images_dir.absolute()}")
         if self.enable_ocr:
             print(f"OCR texts saved to: {self.output_dir / 'ocr_texts'}")
         print(f"State saved to: {self.state_dir.absolute()}")
+        
+        # Count documents needing embeddings
+        needs_embeddings = sum(1 for meta in self.metadata.values() 
+                              if isinstance(meta, dict) and meta.get('needs_embeddings', False))
+        print(f"\nDocuments needing embeddings: {needs_embeddings}")
         print("="*50)
 
 
@@ -674,8 +688,7 @@ def crawl_single_url(url: str, args) -> tuple:
             refresh_days=args.refresh_days,
             force_recrawl=args.force,
             download_images=args.download_images,
-            enable_ocr=args.enable_ocr,
-            ocr_workers=args.ocr_workers
+            enable_ocr=args.enable_ocr
         )
         crawler.crawl(max_pages=args.max_pages, max_depth=args.max_depth)
         return (url, crawler.stats, None)
@@ -684,7 +697,7 @@ def crawl_single_url(url: str, args) -> tuple:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Smart CrawlerUDC with parallel OCR support.")
+    parser = argparse.ArgumentParser(description="Smart CrawlerUDC with inline OCR support.")
     parser.add_argument("--urls_file", "-f", type=str, default="crawl/urls.txt")
     parser.add_argument("--keywords_file", "-kf", type=str, default="crawl/keywords.txt")
     parser.add_argument("--max_pages", "-p", type=int, default=2000)
@@ -703,8 +716,6 @@ if __name__ == "__main__":
                         help="Enable OCR processing of images (default: True)")
     parser.add_argument("--no_ocr", action="store_false", dest="enable_ocr",
                         help="Disable OCR processing")
-    parser.add_argument("--ocr_workers", type=int, default=2,
-                        help="Number of parallel OCR worker processes (default: 2)")
 
     args = parser.parse_args()
 
@@ -724,9 +735,7 @@ if __name__ == "__main__":
     print(f"Found {len(urls)} URLs to crawl from {urls_path}")
     print(f"Using {args.workers} concurrent crawler workers")
     print(f"Image downloading: {'enabled' if args.download_images else 'disabled'}")
-    print(f"OCR processing: {'enabled' if args.enable_ocr else 'disabled'}")
-    if args.enable_ocr:
-        print(f"OCR workers per crawler: {args.ocr_workers}\n")
+    print(f"OCR processing: {'enabled (inline)' if args.enable_ocr else 'disabled'}\n")
 
     start_time = time.time()
     all_stats = {}
@@ -762,14 +771,13 @@ if __name__ == "__main__":
     print(f"Failed: {len(errors)}")
     print(f"Time elapsed: {elapsed:.2f} seconds")
     print(f"Crawler workers used: {args.workers}")
-    if args.enable_ocr:
-        print(f"OCR workers per crawler: {args.ocr_workers}")
 
     if all_stats:
         total_pages = sum(s['pages_crawled'] for s in all_stats.values())
         total_pdfs = sum(s['pdfs_downloaded'] for s in all_stats.values())
         total_html = sum(s['html_saved'] for s in all_stats.values())
         total_images = sum(s['images_downloaded'] for s in all_stats.values())
+        total_ocr = sum(s.get('ocr_processed', 0) for s in all_stats.values())
         total_errors = sum(s['errors'] for s in all_stats.values())
         total_force_recrawled = sum(s.get('force_recrawled', 0) for s in all_stats.values())
 
@@ -778,6 +786,8 @@ if __name__ == "__main__":
         print(f"  Total HTMLs saved: {total_html}")
         print(f"  Total PDFs downloaded: {total_pdfs}")
         print(f"  Total images downloaded: {total_images}")
+        if args.enable_ocr:
+            print(f"  Total OCR processed: {total_ocr}")
         print(f"  Total errors: {total_errors}")
         if args.force:
             print(f"  Total force-recrawled: {total_force_recrawled}")
