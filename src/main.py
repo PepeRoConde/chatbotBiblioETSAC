@@ -22,8 +22,8 @@ def main():
     # Document Processing
     parser.add_argument('--docs_folder', type=str, default='crawl/crawled_data', help='Folder containing PDF and HTML files')
     parser.add_argument('--map_json', type=str, default='crawl/map.json', help='JSON file mapping filename to URL')
-    parser.add_argument('--chunk_size', type=int, default=500, help='Size of text chunks')
-    parser.add_argument('--chunk_overlap', type=int, default=15, help='Overlap between chunks')
+    parser.add_argument('--chunk_size', type=int, default=2000, help='Size of text chunks')
+    parser.add_argument('--chunk_overlap', type=int, default=250, help='Overlap between chunks')
     parser.add_argument('--prefix_mode', type=str, default='source', help='Chunk prefix mode: none, source, llm')
     parser.add_argument('--check', type=bool, default=False, help='Either check changes in documents or not')
     
@@ -33,7 +33,7 @@ def main():
     parser.add_argument('--rebuild', action='store_true', help='Rebuild vector store even if it exists')
     
     # Retrieval
-    parser.add_argument('--k', type=int, default=4, help='Number of documents to retrieve')
+    parser.add_argument('--k', type=int, default=8, help='Number of documents to retrieve')
     parser.add_argument('--threshold', type=float, default=0.7, help='Similarity threshold for filtering')
     parser.add_argument('--search_type', type=str, default='mmr', help='Search type: similarity or mmr')
     
@@ -286,35 +286,38 @@ def main():
 
                 console.print("\n[bold]Textos dos que extráese a información:[/bold]")
 
+                # Parse it
                 for i, doc in enumerate(sources[:args.k]):
                     text = doc.page_content
-
-                    # --- Extract first line info (filename + URL) ---
                     first_line, _, rest = text.partition("\n")
-
-                    # regex: get filename and URL
-                    match = re.search(
-                        r"documento\s+(.+?)\s+con url\s+(https?://\S+)",
-                        first_line
-                    )
-
-                    if match:
-                        filename = match.group(1).strip()
-                        url = match.group(2).strip()
-                        header = f"Texto {i+1} – {filename}\n{url}"
+                    
+                    parts = first_line.split('|')
+                    
+                    if len(parts) >= 5:
+                        filename, file_type, url, last_modified, tipo_data = parts[:5]
+                        
+                        title = f"Texto {i+1}"
+                        metadata = f"[bold]{filename} ({file_type})[/bold]\n[dim]🔗 {url}[/dim]"
+                        
+                        if last_modified and last_modified.lower() != "no hai data":
+                            date_emoji = "📅" if "modificación" in tipo_data.lower() else "🕐" if "crawl" in tipo_data.lower() else "❓"
+                            metadata += f"\n[dim]{date_emoji} {last_modified}"
+                            if tipo_data and tipo_data.lower() != "no hai data":
+                                metadata += f" ({tipo_data})[/dim]"
+                            else:
+                                metadata += "[/dim]"
+                        
+                        content = f"{metadata}\n\n{rest.strip()[:200]}..."
                     else:
-                        header = f"Texto {i+1}"
-                        rest = text  # keep whole text if parse fails
-
-                    # limit preview
-                    preview = rest.strip()[:200] + "..."
-
+                        title = f"Texto {i+1}"
+                        content = text.strip()[:200] + "..."
+                    
                     console.print(Panel(
-                        preview,
-                        title=header,
-                        border_style="blue"
+                        content,
+                        title=title,
+                        border_style="blue",
+                        padding=(1, 2)
                     ))
- 
         except Exception as e:
             console.print(f"[error]Error procesando consulta:[/error] {e}")
             if args.verbose:

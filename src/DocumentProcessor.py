@@ -400,18 +400,37 @@ class DocumentProcessor:
         return self.text_splitter.split_documents(docs)
     
     def _add_source_prefix(self, chunk) -> Any:
-        """Add source-based prefix to a chunk."""
+        """Add source-based prefix to a chunk with date information."""
         source_url = chunk.metadata.get("source_url", "URL descoñecida")
         text_path = chunk.metadata.get("text_path", "descoñecido")
         filename = Path(text_path).name
         file_type = chunk.metadata.get("original_format", "descoñecido")
         
-        # Build prefix
-        prefix = f"Este fragmento é do documento {filename} ({file_type.upper()}) con url {source_url} :\n "
+        # Get date information - try different fields
+        last_modified = chunk.metadata.get("last_modified")  # From server
+        tipo_data = 'Data modificación'
+        if not last_modified:
+            last_modified = chunk.metadata.get("last_crawl")  # Fallback to crawl date
+            tipo_data = 'Data Crawl'
+        if not last_modified:
+            last_modified = "Data descoñecida"
+            tipo_data = 'No hai data'
+        else:
+            # Format date if it's in ISO format
+            try:
+                from datetime import datetime
+                if 'T' in str(last_modified):  # ISO format
+                    dt = datetime.fromisoformat(last_modified.replace('Z', '+00:00'))
+                    last_modified = dt.strftime("%d/%m/%Y %H:%M")
+                # If it's already formatted (e.g., "Sun, 14 Dec 2025 10:44:45 GMT"), keep as is
+            except:
+                pass  # Keep original format if parsing fails
         
+        # Build prefix
+        prefix = f"{filename}|{file_type.upper()}|{source_url}|{last_modified}|{tipo_data}\n"
+ 
         chunk.page_content = prefix + chunk.page_content
-        return chunk
-    
+        return chunk 
     def _generate_llm_prefix(self, chunk) -> Optional[str]:
         """Generate LLM-based prefix for a chunk."""
         if self.llm is None:
