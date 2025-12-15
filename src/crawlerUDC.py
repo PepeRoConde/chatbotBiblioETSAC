@@ -407,9 +407,9 @@ class CrawlerUDC:
     def should_refresh(self, url: str) -> bool:
         if self.force_recrawl:
             return True
-            
+
         info = self.metadata.get(url)
-        if not info:
+        if not info or "last_download" not in info:
             return True
         last_download = datetime.fromisoformat(info["last_download"])
         if datetime.now() - last_download > timedelta(days=self.refresh_days):
