@@ -134,6 +134,32 @@ class TFIDFReranker:
         return top_keywords
 
 
+class TFIDFRetriever(BaseRetriever):
+    vectorizer: Any
+    matrix: Any
+    documents: List
+    k: int = 4
+
+    def __init__(self, vectorizer, matrix, documents, k=4):
+        super().__init__(vectorizer=vectorizer, matrix=matrix, documents=documents, k=k)
+        self.vectorizer = vectorizer
+        self.matrix = matrix
+        self.documents = documents
+        self.k = k
+
+    def _get_relevant_documents(self, query: str, *, run_manager) -> List[Document]:
+        query_vec = self.vectorizer.transform([query])
+        similarities = cosine_similarity(query_vec, self.matrix)[0]
+        top_indices = similarities.argsort()[-self.k:][::-1]
+        return [self.documents[i] for i in top_indices]
+
+    def get_relevant_documents_with_scores(self, query: str, k: int) -> List[Tuple[Document, float]]:
+        query_vec = self.vectorizer.transform([query])
+        similarities = cosine_similarity(query_vec, self.matrix)[0]
+        top_indices = similarities.argsort()[-k:][::-1]
+        return [(self.documents[i], similarities[i]) for i in top_indices]
+
+
 class HybridRetriever(BaseRetriever):
     """Hybrid retriever combining vector similarity and TF-IDF."""
     
@@ -217,6 +243,38 @@ class HybridRetriever(BaseRetriever):
         
         return [doc for doc, score in ranked_docs]
 
+class TrueHybridRetriever(BaseRetriever):
+    vectorstore: Any
+    tfidf_retriever: Any
+    k: int = 4
+    verbose: bool = False
+
+    def __init__(self, vectorstore, tfidf_retriever, k=4, verbose=False):
+        super().__init__(vectorstore=vectorstore, tfidf_retriever=tfidf_retriever, k=k, verbose=verbose)
+        self.vectorstore = vectorstore
+        self.tfidf_retriever = tfidf_retriever
+        self.k = k
+        self.verbose = verbose
+
+    def _get_relevant_documents(self, query: str, *, run_manager) -> List[Document]:
+        # Get from vector store with scores
+        vector_docs_scores = self.vectorstore.similarity_search_with_score(query, k=self.k*2)
+        # Get from TF-IDF with scores
+        tfidf_docs_scores = self.tfidf_retriever.get_relevant_documents_with_scores(query, self.k*2)
+        # Combine and deduplicate
+        doc_to_score = {}
+        for doc, score in vector_docs_scores + tfidf_docs_scores:
+            key = id(doc)
+            if key not in doc_to_score:
+                doc_to_score[key] = (doc, score)
+            else:
+                # If already present, take the max score
+                existing_score = doc_to_score[key][1]
+                doc_to_score[key] = (doc, max(existing_score, score))
+        # Sort by score descending
+        ranked = sorted(doc_to_score.values(), key=lambda x: x[1], reverse=True)
+        return [doc for doc, _ in ranked[:self.k]]
+
 class RAGSystem:
     """RAG system with TF-IDF integration for improved retrieval and reranking."""
     
@@ -235,7 +293,10 @@ class RAGSystem:
         use_tfidf: bool = True,
         tfidf_mode: str = "rerank",  # "rerank", "hybrid", or "filter"
         tfidf_weight: float = 0.3,
-        tfidf_threshold: float = 0.1
+        tfidf_threshold: float = 0.1,
+        tfidf_vectorizer: Optional[Any] = None,
+        tfidf_matrix: Optional[Any] = None,
+        tfidf_documents: Optional[List] = None,
     ):
         """Initialize the RAG system with TF-IDF support.
         
@@ -262,6 +323,9 @@ class RAGSystem:
         self.use_tfidf = use_tfidf
         self.tfidf_mode = tfidf_mode
         self.tfidf_threshold = tfidf_threshold
+        self.tfidf_vectorizer = tfidf_vectorizer
+        self.tfidf_matrix = tfidf_matrix
+        self.tfidf_documents = tfidf_documents
         
         # Conversation history
         self.conversation_history: List[Dict[str, str]] = []
@@ -284,6 +348,15 @@ class RAGSystem:
         
         # Create the retriever (base or hybrid)
         if self.use_tfidf and self.tfidf_mode == "hybrid":
+            if tfidf_vectorizer is None or tfidf_matrix is None or tfidf_documents is None:
+                raise ValueError("TF-IDF components required for hybrid mode")
+            tfidf_retriever = TFIDFRetriever(tfidf_vectorizer, tfidf_matrix, tfidf_documents, k=self.k)
+            self.retriever = TrueHybridRetriever(vectorstore=self.vectorstore, tfidf_retriever=tfidf_retriever, k=self.k, verbose=self.verbose)
+        elif self.use_tfidf and self.tfidf_mode == "tfidf":
+            if tfidf_vectorizer is None or tfidf_matrix is None or tfidf_documents is None:
+                raise ValueError("TF-IDF components required for tfidf mode")
+            self.retriever = TFIDFRetriever(tfidf_vectorizer, tfidf_matrix, tfidf_documents, k=self.k)
+        elif self.use_tfidf and self.tfidf_mode == "rerank":
             self.retriever = self._create_hybrid_retriever(tfidf_weight)
         else:
             self.retriever = self.vectorstore.as_retriever(
@@ -336,7 +409,7 @@ class RAGSystem:
     def _create_hybrid_retriever(self, tfidf_weight: float) -> HybridRetriever:
         """Create a hybrid retriever combining vector and TF-IDF."""
         base_retriever = self.vectorstore.as_retriever(
-            search_kwargs={"k": self.k * 2, "score_threshold": self.threshold},  # Get more candidates
+            search_kwargs={"k": self.k * 2, "score_threshold": self.threshold},  
             search_type=self.search_type
         )
         
@@ -517,7 +590,7 @@ Resposta:"""
             source_docs = self._apply_tfidf_reranking(question, source_docs)
             
             if self.verbose and self.tfidf_mode == "filter":
-                self.log(f"TF-IDF filtering: {original_count} → {len(source_docs)} documents", "info")
+                self.log(f"TF-IDF filtering: {original_count} -> {len(source_docs)} documents", "info")
         
         # Add TF-IDF scores to document metadata for debugging
         if self.use_tfidf and self.tfidf_reranker and source_docs:

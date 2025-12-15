@@ -10,6 +10,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
 import numpy as np
 
+from sklearn.feature_extraction.text import TfidfVectorizer
+
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -56,6 +58,9 @@ class DocumentProcessor:
         """
         self.docs_folder = Path(docs_folder)
         self.text_folder = Path(text_folder)
+        self.tfidf_vectorizer = None
+        self.tfidf_matrix = None
+        self.tfidf_documents = []
         self.crawler_metadata_path = Path(crawler_metadata_path)
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(exist_ok=True)
@@ -574,6 +579,47 @@ class DocumentProcessor:
         if self.verbose:
             self.log("[green]✓ Vectorstore creado![/green]", "success")
     
+    def _build_tfidf_index(self, path: str) -> None:
+        """Build TF-IDF index from FAISS index.pkl file."""
+        index_path = f"{path}/index.pkl"
+        if not os.path.exists(index_path):
+            if self.verbose:
+                self.log(f"FAISS index not found at {index_path}, skipping TF-IDF build")
+            return
+        
+        if self.verbose:
+            self.log("Building TF-IDF index from FAISS index.pkl...")
+        
+        try:
+            with open(index_path, 'rb') as f:
+                data = pickle.load(f)
+            
+            docstore = data[0]
+            index_to_id = data[1]
+            
+            # Extract texts and documents in FAISS order
+            chunk_texts = []
+            self.tfidf_documents = []
+            
+            for idx in sorted(index_to_id.keys()):
+                doc_id = index_to_id[idx]
+                doc = docstore._dict[doc_id]
+                chunk_texts.append(doc.page_content)
+                self.tfidf_documents.append(doc)
+            
+            # Build TF-IDF
+            self.tfidf_vectorizer = TfidfVectorizer(max_features=5000, ngram_range=(1, 2))
+            self.tfidf_matrix = self.tfidf_vectorizer.fit_transform(chunk_texts)
+            
+            if self.verbose:
+                self.log(f"TF-IDF index built on {len(chunk_texts)} chunks from FAISS")
+                
+        except Exception as e:
+            self.log(f"Error building TF-IDF index: {e}", "error")
+            self.tfidf_vectorizer = None
+            self.tfidf_matrix = None
+            self.tfidf_documents = []
+        
     def process(self, force_reload: bool = False, incremental: bool = True) -> bool:
         """Process documents and rebuild vector store when embeddings change.
         
@@ -635,16 +681,30 @@ class DocumentProcessor:
         self.documents = []
         
         return vectorstore_modified
-    
+
     def save_vectorstore(self, path: str) -> None:
         """Save the vector store to disk."""
         if self.vectorstore:
             self.vectorstore.save_local(path)
+            self._build_tfidf_index(path)
+            self.save_tfidf(path)
             if self.verbose:
                 self.log(f"Vectorstore gardado en {path}", "success")
         else:
             self.log("Non hai vectorstore para gardar. Execute process() primeiro.", "warning")
-    
+
+    def save_tfidf(self, path: str) -> None:
+        if self.tfidf_vectorizer is not None and self.tfidf_matrix is not None:
+            data = {
+                'vectorizer': self.tfidf_vectorizer,
+                'matrix': self.tfidf_matrix,
+                'documents': self.tfidf_documents
+            }
+            with open(f"{path}/tfidf_index.pkl", 'wb') as f:
+                pickle.dump(data, f)
+            if self.verbose:
+                self.log(f"TF-IDF index saved to {path}/tfidf_index.pkl")
+
     def load_vectorstore(self, path: str) -> None:
         """Load a vector store from disk."""
         if os.path.exists(path):
@@ -653,12 +713,27 @@ class DocumentProcessor:
                 self.embeddings, 
                 allow_dangerous_deserialization=True
             )
+            self.load_tfidf(path)
             if self.verbose:
                 self.log(f"Vectorstore cargado desde {path}", "success")
         else:
             if self.verbose:
                 self.log(f"Non se atopou vectorstore en {path}", "warning")
-    
+
+    def load_tfidf(self, path: str) -> None:
+        tfidf_path = f"{path}/tfidf_index.pkl"
+        if os.path.exists(tfidf_path):
+            with open(tfidf_path, 'rb') as f:
+                data = pickle.load(f)
+            self.tfidf_vectorizer = data['vectorizer']
+            self.tfidf_matrix = data['matrix']
+            self.tfidf_documents = data['documents']
+            if self.verbose:
+                self.log(f"TF-IDF index loaded from {tfidf_path}")
+        else:
+            if self.verbose:
+                self.log(f"TF-IDF index not found at {tfidf_path}")
+
     def get_cache_stats(self) -> Dict[str, Any]:
         """Get statistics about cached data and parallel processing."""
         embedding_stats = self.embeddings.get_cache_stats()
@@ -666,7 +741,7 @@ class DocumentProcessor:
         # Count documents by status
         total_docs = len(self.crawler_metadata)
         needs_embeddings = sum(1 for meta in self.crawler_metadata.values() 
-                              if isinstance(meta, dict) and meta.get('needs_embeddings', False))
+                                if isinstance(meta, dict) and meta.get('needs_embeddings', False))
         embedded_docs = total_docs - needs_embeddings
         
         return {
@@ -679,7 +754,7 @@ class DocumentProcessor:
             'max_workers': self.max_workers,
             'batch_size': self.batch_size
         }
-    
+
     def _count_files_by_type(self) -> Dict[str, int]:
         """Count tracked files by type."""
         counts = {'pdf': 0, 'html': 0, 'txt': 0, 'other': 0}
@@ -694,7 +769,7 @@ class DocumentProcessor:
             else:
                 counts['other'] += 1
         return counts
-    
+
     def clear_cache(self) -> None:
         """Clear all caches."""
         self.file_metadata = {}

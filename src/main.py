@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import argparse
 from pathlib import Path
@@ -20,7 +21,7 @@ def main():
     parser = argparse.ArgumentParser(description='Mistral API RAG System for PDF and HTML documents')
 
     # Document Processing
-    parser.add_argument('--docs_folder', type=str, default='crawl/crawled_data', help='Folder containing PDF and HTML files')
+    parser.add_argument('--docs_folder', type=str, default='crawl/text', help='Folder containing PDF and HTML files')
     parser.add_argument('--map_json', type=str, default='crawl/map.json', help='JSON file mapping filename to URL')
     parser.add_argument('--chunk_size', type=int, default=2000, help='Size of text chunks')
     parser.add_argument('--chunk_overlap', type=int, default=250, help='Overlap between chunks')
@@ -39,7 +40,7 @@ def main():
     
     # TF-IDF
     parser.add_argument('--use_tfidf', action='store_true', default=True, help='Use TF-IDF enhancement')
-    parser.add_argument('--tfidf_mode', type=str, default='rerank', help='TF-IDF mode: rerank, hybrid, or filter')
+    parser.add_argument('--tfidf_mode', type=str, default='hybrid', help='TF-IDF mode: rerank, hybrid, tfidf, or filter')
     parser.add_argument('--tfidf_weight', type=float, default=0.3, help='TF-IDF weight in hybrid mode (0.0-1.0)')
     parser.add_argument('--tfidf_threshold', type=float, default=0.1, help='Minimum TF-IDF score for filter mode')
     
@@ -77,10 +78,16 @@ def main():
         "error": "bold red",
         "success": "bold green",
     })
-    
-    # Initialize rich console with our theme
-    console = Console(theme=custom_theme, color_system="truecolor")
-    
+
+
+    is_git_bash = 'MSYSTEM' in os.environ or 'MINGW' in os.environ.get('MSYSTEM', '')
+
+    console = Console(
+    theme=custom_theme,
+    color_system="truecolor",
+    legacy_windows=False if is_git_bash else None,
+    force_terminal=True
+    )
     # Share the console and verbose setting globally
     import builtins
     setattr(builtins, 'rich_console', console)
@@ -181,22 +188,43 @@ def main():
         transient=True
     ) as progress:
         task = progress.add_task("init", total=None)
-        rag = RAGSystem(
-            vectorstore=processor.vectorstore,
-            k=args.k,
-            threshold=args.threshold,
-            search_type=args.search_type,
-            language=args.language,
-            llm=llm,
-            provider=args.provider,
-            temperature=args.temperature,
-            max_tokens=args.max_tokens,
-            max_history_length=args.max_history_length,
-            use_tfidf=args.use_tfidf,
-            tfidf_mode=args.tfidf_mode,
-            tfidf_weight=args.tfidf_weight,
-            tfidf_threshold=args.tfidf_threshold
-        )
+        if args.tfidf_mode == "hybrid" or args.tfidf_mode == "tfidf":
+            rag = RAGSystem(
+                vectorstore=processor.vectorstore,
+                k=args.k,
+                threshold=args.threshold,
+                search_type=args.search_type,
+                language=args.language,
+                llm=llm,
+                provider=args.provider,
+                temperature=args.temperature,
+                max_tokens=args.max_tokens,
+                max_history_length=args.max_history_length,
+                use_tfidf=args.use_tfidf,
+                tfidf_mode=args.tfidf_mode,
+                tfidf_weight=args.tfidf_weight,
+                tfidf_threshold=args.tfidf_threshold,
+                tfidf_vectorizer=processor.tfidf_vectorizer,
+                tfidf_matrix=processor.tfidf_matrix,
+                tfidf_documents=processor.tfidf_documents
+            )
+        else:
+            rag = RAGSystem(
+                vectorstore=processor.vectorstore,
+                k=args.k,
+                threshold=args.threshold,
+                search_type=args.search_type,
+                language=args.language,
+                llm=llm,
+                provider=args.provider,
+                temperature=args.temperature,
+                max_tokens=args.max_tokens,
+                max_history_length=args.max_history_length,
+                use_tfidf=args.use_tfidf,
+                tfidf_mode=args.tfidf_mode,
+                tfidf_weight=args.tfidf_weight,
+                tfidf_threshold=args.tfidf_threshold
+            )
     
     # Welcome message with system info
     system_info = "[bold blue]Especificación actual do sistema[/bold blue]"
@@ -325,4 +353,9 @@ def main():
                 console.print(traceback.format_exc())
 
 if __name__ == "__main__":
+
+    if sys.platform == 'win32':
+        sys.stdout.reconfigure(encoding='utf-8')
+        sys.stderr.reconfigure(encoding='utf-8')
+
     main()
