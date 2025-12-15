@@ -1,17 +1,19 @@
 import os
 import time
 import json
+import csv
+import requests
 import hashlib
 import argparse
-from urllib.parse import urljoin, urlparse
+import pytesseract
+from PIL import Image
 from pathlib import Path
-from typing import Set, List, Dict, Any, Tuple
-from collections import deque
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
-
-import requests
 from bs4 import BeautifulSoup
+from collections import deque
+from urllib.parse import urljoin, urlparse
+from typing import Set, List, Dict, Any, Tuple
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 
 from pruebas_ocr_tabla.image2table import image_table2text
@@ -47,51 +49,42 @@ except ImportError:
     print("Warning: PIL/pytesseract not available. OCR will be disabled.")
 
 
-from pathlib import Path
-from PIL import Image
-import pytesseract
 
-def process_image_ocr(image_path: Path, min_char_ocr: int = 10) -> str:
-    """Perform OCR on a single image and return extracted text.
+def process_image_ocr(image_path: Path, min_char_ocr: int = 10) -> tuple[str, bool]:
+    """Perform OCR on a single image and return extracted text + is_table flag.
     First tries table extraction, falls back to regular OCR if that fails.
-    Returns empty string if no text found or error occurs.
     
     Args:
         image_path: Path to image file
         min_char_ocr: Minimum character count to consider valid OCR
         
     Returns:
-        str: Extracted text
+        tuple: (extracted_text, is_table_bool)
     """
     if not OCR_AVAILABLE:
-        return ""
+        return "", False
     
     try:
         # First attempt: try table extraction
-        print(f'  Trying table extraction for {image_path.name}...')
         table_text = image_table2text(image_path)
         
         # Check if table extraction was successful
         if table_text and not table_text.startswith('non se atoparon taboas') and not table_text.startswith('Error processing'):
-            print(f'  ✓ Table extracted from {image_path.name}')
-            return table_text
+            return table_text, True
         
         # Fallback: regular OCR
-        print(f'  No table found, using regular OCR for {image_path.name}...')
         img = Image.open(image_path)
         text = pytesseract.image_to_string(img, lang='eng+spa')
         text = text.strip()
         
         if len(text) >= min_char_ocr:
-            print(f'  ✓ OCR extracted {len(text)} chars from {image_path.name}')
-            return text
+            return text, False
         else:
-            print(f'  ✗ OCR found only {len(text)} chars (min: {min_char_ocr})')
-            return ""
+            return "", False
             
     except Exception as e:
         print(f"  OCR error for {image_path.name}: {e}")
-        return ""
+        return "", False
 
 def extract_text_from_html(html_content: bytes) -> str:
     """Extract clean text from HTML using CleanHTMLLoader."""
@@ -148,6 +141,8 @@ class CrawlerUDC:
         self.images_dir = self.output_dir / "images"
         self.state_dir = Path(state_dir)
         self.text_dir = self.state_dir / "text"  # Nueva carpeta para textos planos
+        self.ocr_stats_path = self.state_dir / "ocr_stats.csv"
+        self._init_ocr_stats_csv()
         self.keywords_file = Path(keywords_file)
         self.visited_urls: Set[str] = set()
         self.downloaded_files: Set[str] = set()
@@ -314,7 +309,7 @@ class CrawlerUDC:
                         return None, ""
                     
                     # Perform OCR
-                    ocr_text = process_image_ocr(filepath)
+                    ocr_text, is_table = process_image_ocr(filepath)
                     
                     # Delete image after OCR
                     try:
@@ -324,11 +319,15 @@ class CrawlerUDC:
                     
                     if ocr_text:
                         self.stats['ocr_processed'] += 1
-                        print(f"    OCR extracted {len(ocr_text)} chars from {filepath.name}")
+                        # Log stats
+                        self.log_ocr_stats(filepath.name, is_table, len(ocr_text), page_url)
                         return filepath.name, ocr_text
+                    else:
+                        # Log even failed OCR attempts
+                        self.log_ocr_stats(filepath.name, False, 0, page_url)
                     
-                    return None, ""
-                    
+                    return None, "" 
+
                 except Exception as e:
                     print(f"    Error processing image: {e}")
                     return None, ""
@@ -723,6 +722,23 @@ class CrawlerUDC:
                               if isinstance(meta, dict) and meta.get('needs_embeddings', False))
         print(f"\nDocuments needing embeddings: {needs_embeddings}")
         print("="*50)
+
+    def _init_ocr_stats_csv(self):
+        """Initialize OCR stats CSV if it doesn't exist"""
+        if not self.ocr_stats_path.exists():
+            with open(self.ocr_stats_path, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow(['image_name', 'is_table', 'char_count', 'url'])
+
+    def log_ocr_stats(self, image_name: str, is_table: bool, char_count: int, url: str):
+        """Append OCR statistics to CSV"""
+        try:
+            with open(self.ocr_stats_path, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow([image_name, is_table, char_count, url])
+        except Exception as e:
+            print(f"  Error logging OCR stats: {e}")
+
 
 
 # ================= CLI interface =================
