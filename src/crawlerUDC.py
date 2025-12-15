@@ -14,6 +14,9 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 
+from pruebas_ocr_tabla.image2table import image_table2text
+ 
+
 # Import our CleanHTMLLoader
 from CleanHTMLLoader import CleanHTMLLoader
 
@@ -44,20 +47,51 @@ except ImportError:
     print("Warning: PIL/pytesseract not available. OCR will be disabled.")
 
 
-def process_image_ocr(image_path: Path) -> str:
+from pathlib import Path
+from PIL import Image
+import pytesseract
+
+def process_image_ocr(image_path: Path, min_char_ocr: int = 10) -> str:
     """Perform OCR on a single image and return extracted text.
-    Returns empty string if no text found or error occurs."""
+    First tries table extraction, falls back to regular OCR if that fails.
+    Returns empty string if no text found or error occurs.
+    
+    Args:
+        image_path: Path to image file
+        min_char_ocr: Minimum character count to consider valid OCR
+        
+    Returns:
+        str: Extracted text
+    """
     if not OCR_AVAILABLE:
         return ""
     
     try:
+        # First attempt: try table extraction
+        print(f'  Trying table extraction for {image_path.name}...')
+        table_text = image_table2text(image_path)
+        
+        # Check if table extraction was successful
+        if table_text and not table_text.startswith('non se atoparon taboas') and not table_text.startswith('Error processing'):
+            print(f'  ✓ Table extracted from {image_path.name}')
+            return table_text
+        
+        # Fallback: regular OCR
+        print(f'  No table found, using regular OCR for {image_path.name}...')
         img = Image.open(image_path)
         text = pytesseract.image_to_string(img, lang='eng+spa')
-        return text.strip() if len(text) > args.min_char_ocr else ""
+        text = text.strip()
+        
+        if len(text) >= min_char_ocr:
+            print(f'  ✓ OCR extracted {len(text)} chars from {image_path.name}')
+            return text
+        else:
+            print(f'  ✗ OCR found only {len(text)} chars (min: {min_char_ocr})')
+            return ""
+            
     except Exception as e:
         print(f"  OCR error for {image_path.name}: {e}")
         return ""
-
 
 def extract_text_from_html(html_content: bytes) -> str:
     """Extract clean text from HTML using CleanHTMLLoader."""
