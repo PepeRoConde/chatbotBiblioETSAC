@@ -160,90 +160,8 @@ class TFIDFRetriever(BaseRetriever):
         return [(self.documents[i], similarities[i]) for i in top_indices]
 
 
-class HybridRetriever(BaseRetriever):
-    """Hybrid retriever combining vector similarity and TF-IDF."""
-    
-    vector_retriever: Any
-    tfidf_reranker: Any  # TFIDFReranker
-    vector_weight: float = 0.7
-    tfidf_weight: float = 0.3
-    verbose: bool = False
-    
-    def __init__(
-        self,
-        vector_retriever: Any,
-        tfidf_reranker: Any,
-        vector_weight: float = 0.7,
-        tfidf_weight: float = 0.3,
-        verbose: bool = False
-    ):
-        """Initialize hybrid retriever.
-        
-        Args:
-            vector_retriever: LangChain vector store retriever
-            tfidf_reranker: TF-IDF reranker instance
-            vector_weight: Weight for vector similarity scores (0-1)
-            tfidf_weight: Weight for TF-IDF scores (0-1)
-            verbose: Whether to log detailed information
-        """
-        # Normalize weights
-        total = vector_weight + tfidf_weight
-        normalized_vector_weight = vector_weight / total
-        normalized_tfidf_weight = tfidf_weight / total
-        
-        # Call parent __init__ with all fields
-        super().__init__(
-            vector_retriever=vector_retriever,
-            tfidf_reranker=tfidf_reranker,
-            vector_weight=normalized_vector_weight,
-            tfidf_weight=normalized_tfidf_weight,
-            verbose=verbose
-        )
-    
-    def _get_relevant_documents(
-        self, 
-        query: str,
-        *, 
-        run_manager: CallbackManagerForRetrieverRun
-    ) -> List[Document]:
-        """Retrieve documents using hybrid approach.
-        
-        Args:
-            query: Query string
-            run_manager: Callback manager
-            
-        Returns:
-            List of ranked documents
-        """
-        # Step 1: Get initial candidates from vector store using invoke
-        vector_docs = self.vector_retriever.invoke(query)  # Changed from get_relevant_documents
-        
-        if not vector_docs:
-            return []
-        
-        # Step 2: Rerank with TF-IDF
-        tfidf_scores = self.tfidf_reranker.rerank(query, vector_docs)
-        
-        # Step 3: Combine scores (assuming vector retriever returns docs in order of relevance)
-        # Assign decreasing vector scores based on position
-        vector_scores = np.linspace(1.0, 0.1, len(vector_docs))
-        
-        # Create a mapping of documents to combined scores
-        doc_to_combined_score = {}
-        for i, (doc, tfidf_score) in enumerate(tfidf_scores):
-            vector_score = vector_scores[i] if i < len(vector_scores) else 0.1
-            combined_score = (self.vector_weight * vector_score) + (self.tfidf_weight * tfidf_score)
-            doc_to_combined_score[id(doc)] = (doc, combined_score)
-        
-        # Sort by combined score
-        ranked_docs = sorted(doc_to_combined_score.values(), key=lambda x: x[1], reverse=True)
-        
-        if self.verbose:
-            print(f"Hybrid retrieval: {len(ranked_docs)} documents ranked")
-        
-        return [doc for doc, score in ranked_docs]
 
-class TrueHybridRetriever(BaseRetriever):
+class HybridRetriever(BaseRetriever):
     vectorstore: Any
     tfidf_retriever: Any
     k: int = 4
@@ -358,7 +276,7 @@ class RAGSystem:
             if tfidf_vectorizer is None or tfidf_matrix is None or tfidf_documents is None:
                 raise ValueError("TF-IDF components required for hybrid mode")
             tfidf_retriever = TFIDFRetriever(tfidf_vectorizer, tfidf_matrix, tfidf_documents, k=self.k)
-            self.retriever = TrueHybridRetriever(vectorstore=self.vectorstore, tfidf_retriever=tfidf_retriever, k=self.k, verbose=self.verbose)
+            self.retriever = HybridRetriever(vectorstore=self.vectorstore, tfidf_retriever=tfidf_retriever, k=self.k, verbose=self.verbose)
         elif self.use_tfidf and self.tfidf_mode == "tfidf":
             if tfidf_vectorizer is None or tfidf_matrix is None or tfidf_documents is None:
                 raise ValueError("TF-IDF components required for tfidf mode")
