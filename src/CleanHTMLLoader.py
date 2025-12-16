@@ -1,13 +1,10 @@
 from bs4 import BeautifulSoup
-from langchain_core.documents import Document  
-
-
+from langchain_core.documents import Document
 
 
 class CleanHTMLLoader:
     def __init__(self, file_path: str = None, html_content: bytes = None, encoding: str = "utf-8"):
-        """Initialize CleanHTMLLoader.
-        
+        """
         Args:
             file_path: Path to HTML file (optional if html_content provided)
             html_content: HTML content as bytes (optional if file_path provided)
@@ -18,7 +15,6 @@ class CleanHTMLLoader:
         self.encoding = encoding
 
     def load(self) -> list[Document]:
-        """Load and parse HTML to extract clean text."""
         if self.html_content is not None:
             html = self.html_content.decode(self.encoding)
         elif self.file_path is not None:
@@ -29,26 +25,46 @@ class CleanHTMLLoader:
 
         soup = BeautifulSoup(html, "html.parser")
 
-        # Extraer solo texto de <p>, <li>, <h1-h6>
-        elements = soup.find_all(["p", "li", "h1", "h2", "h3", "h4", "h5", "h6"])
-        texts = [el.get_text(separator=" ", strip=True) for el in elements]
+        texts = []
 
-        # Crear un documento por bloque de texto
-        docs = [Document(page_content=text, metadata={"source_file": self.file_path or "<bytes>"}) for text in texts if text]
+        # -----------------------------
+        # 1. Texto normal (p, h*, li)
+        # -----------------------------
+        for el in soup.find_all(["p", "li", "h1", "h2", "h3", "h4", "h5", "h6"]):
+            txt = el.get_text(" ", strip=True)
+            if txt:
+                texts.append(txt)
+
+        # -----------------------------
+        # 2. Tablas (fila completa)
+        # -----------------------------
+        for table in soup.find_all("table"):
+            for row in table.find_all("tr"):
+                cells = [
+                    cell.get_text(" ", strip=True)
+                    for cell in row.find_all(["th", "td"])
+                ]
+                if cells:
+                    texts.append(" | ".join(cells))
+
+        # -----------------------------
+        # 3. Crear documentos
+        # -----------------------------
+        docs = [
+            Document(
+                page_content=text,
+                metadata={
+                    "source_file": self.file_path or "<bytes>",
+                    "type": "html"
+                }
+            )
+            for text in texts
+        ]
+
         return docs
-    
+
     @staticmethod
     def extract_text_from_html(html_content: bytes, encoding: str = "utf-8") -> str:
-        """Extract clean plain text from HTML content.
-        
-        Args:
-            html_content: HTML content as bytes
-            encoding: Encoding to use
-            
-        Returns:
-            Clean plain text extracted from HTML
-        """
         loader = CleanHTMLLoader(html_content=html_content, encoding=encoding)
         docs = loader.load()
-        # Join all text blocks with newlines
-        return '\n'.join(doc.page_content for doc in docs)
+        return "\n".join(doc.page_content for doc in docs)
