@@ -65,6 +65,8 @@ function main()
     corpora = [
         (folder="crawl/text", name="UDC"),
         (folder="crawl_ucm/text", name="UCM"),
+        (folder="crawl_su/text", name="Standford"),
+        (folder="crawl_up/text", name="Paris"),
         (folder="corpora/brown", name="Brown"),
         (folder="corpora/quijote", name="Quijote")
     ]
@@ -75,7 +77,9 @@ function main()
         RGB(60/255, 135/255, 181/255),  # Blue
         RGB(135/255, 181/255, 60/255),  # Green
         RGB(181/255, 135/255, 60/255),  # Orange
-        RGB(135/255, 60/255, 181/255)   # Purple
+        RGB(135/255, 60/255, 181/255),   # Purple
+        RGB(50/255, 168/255, 145/255),   # Purple
+        RGB(50/255, 97/255, 30/255)   # Purple
     ]
     
     # Initialize plot
@@ -115,18 +119,26 @@ function main()
             continue
         end
         
+        # Calculate total words for normalization
+        total_words = sum(values(word_counts))
+        println("Total words in corpus: $total_words")
+        
         println("Step 2: Ranking words...")
         ranks, words, counts = rank_words(word_counts)
         
+        # Normalize counts: convert to relative frequencies
+        relative_freqs = counts ./ total_words
+        
         println("Step 3: Converting to log space...")
-        log_ranks, log_counts = to_log_space(ranks, counts)
+        log_ranks = log10.(ranks)
+        log_freqs = log10.(relative_freqs)
         
         println("Step 4: Fitting model for $(corpus.name)")
-        params = fit_model(log_ranks, log_counts)
+        params = fit_model(log_ranks, log_freqs)
         a, b = params
         println("Fitted parameters: a = $(round(a, digits=3)), b = $(round(b, digits=3))")
         
-        fitted_counts = linear_model(log_ranks, params)
+        fitted_freqs = linear_model(log_ranks, params)
         
         # Get color for this corpus
         color = colors[mod1(i, length(colors))]
@@ -137,7 +149,7 @@ function main()
         scatter!(
             p,
             log_ranks,
-            log_counts;
+            log_freqs;
             label="$(corpus.name) - Data",
             markersize=3,
             color=color,
@@ -149,22 +161,29 @@ function main()
         plot!(
             p,
             log_ranks,
-            fitted_counts;
-            label="$(corpus.name) - Model (a=$(round(a, digits=2)), b=$(round(b, digits=2)))",
+            fitted_freqs;
+            label="$(corpus.name) - Model (slope=$(round(b, digits=2)))",
             linewidth=2.8,
             color=color,
             linestyle=:solid
         )
+        
+        # Print some statistics
+        println("Top 5 words:")
+        for j in 1:min(5, length(words))
+            println("  $(j). $(words[j]): $(counts[j]) ($(round(relative_freqs[j]*100, digits=3))%)")
+        end
     end
     
     println("\n" * "="^60)
     println("Displaying combined plot...")
     display(p)
     
-    output_file = "memoria/imaxes/zipf_modelo_varios.png"
+    output_file = "memoria/imaxes/zipf_modelo_normalized.png"
     savefig(p, output_file)
     println("Plot saved to $output_file")
     println("="^60)
 end
+
 # Run the program
 main()
