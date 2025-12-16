@@ -43,7 +43,7 @@ def main():
     parser.add_argument('--tfidf_mode', type=str, default='hybrid', help='TF-IDF mode: rerank, hybrid, tfidf, or filter')
     parser.add_argument('--tfidf_weight', type=float, default=0.5, help='TF-IDF weight in hybrid mode (0.0-1.0)')
     parser.add_argument('--tfidf_threshold', type=float, default=0.1, help='Minimum TF-IDF score for filter mode')
-    parser.add_argument('--tfidf_score_factor', type=int, default=100, help='The actual score of TF-IDF retrieved docs will be multiplied by this number (default: 100)')
+    parser.add_argument('--tfidf_score_factor', type=int, default=45, help='The bigger, the more presence of tfidf retrieved docs, if 0 none, default 45')
     
     # LLM Provider
     parser.add_argument('--provider', type=str, default='claude', help='LLM provider: mistral or claude')
@@ -230,7 +230,8 @@ def main():
             'use_tfidf': args.use_tfidf,
             'tfidf_mode': args.tfidf_mode,
             'tfidf_weight': args.tfidf_weight,
-            'tfidf_threshold': args.tfidf_threshold
+            'tfidf_threshold': args.tfidf_threshold,
+            'tfidf_score_factor': args.tfidf_score_factor
         }
         
         # Add TF-IDF components if needed
