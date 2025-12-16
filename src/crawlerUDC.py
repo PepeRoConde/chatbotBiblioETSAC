@@ -137,9 +137,9 @@ class CrawlerUDC:
         self.base_url = base_url.rstrip('/')
         self.domain = urlparse(base_url).netloc
 
-        self.images_dir = self.output_dir / "images"
         self.state_dir = Path(state_dir)
-        self.output_dir = Path(state_dir) / output_dir
+        self.output_dir = self.state_dir / output_dir
+        self.images_dir = self.output_dir / "images"
         self.text_dir = self.state_dir / "text"  # Nueva carpeta para textos planos
         self.ocr_stats_path = self.state_dir / "ocr_stats.csv"
         self._init_ocr_stats_csv()
@@ -762,7 +762,7 @@ def crawl_single_url(url: str, args) -> tuple:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Smart CrawlerUDC with inline OCR support.")
-    parser.add_argument("--urls_file", "-f", type=str, default="crawl/urls.txt")
+    parser.add_argument("--urls_file", "-f", type=str, default="urls.txt")
     parser.add_argument("--keywords_file", "-kf", type=str, default="keywords.txt")
     parser.add_argument("--max_pages", "-p", type=int, default=2000)
     parser.add_argument("--max_depth", "-d", type=int, default=20)
@@ -790,7 +790,7 @@ if __name__ == "__main__":
         print("   And ensure tesseract-ocr is installed on your system.")
         exit(1)
 
-    urls_path = Path(args.urls_file)
+    urls_path = Path(args.state_dir) / args.urls_file
     if not urls_path.exists():
         raise FileNotFoundError(f"URLs file not found: {urls_path}")
 

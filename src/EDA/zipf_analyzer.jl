@@ -62,6 +62,7 @@ end
 # Main execution
 function main()
     folder_path = "crawl/text"
+
     
     println("Step 1: Counting words...")
     word_counts = count_words(folder_path)
@@ -72,7 +73,7 @@ function main()
     println("Step 3: Converting to log space...")
     log_ranks, log_counts = to_log_space(ranks, counts)
     
-    println("Step 4: Fitting model...")
+    println("Step 4: Fitting model for $(folder_path)")
     params = fit_model(log_ranks, log_counts)
     a, b = params
     println("Fitted parameters: a = $a, b = $b")
