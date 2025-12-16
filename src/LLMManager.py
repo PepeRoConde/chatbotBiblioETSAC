@@ -57,8 +57,8 @@ class LLMManager:
                 model=model_name,
                 anthropic_api_key=self.api_key,
                 temperature=temperature,
-                max_tokens=max_tokens,
-                top_p=0.95
+                max_tokens=max_tokens
+                
             )
 
         # For LangChain 1.0 compatibility, the chat model itself is the LLM

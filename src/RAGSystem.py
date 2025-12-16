@@ -276,43 +276,47 @@ class TrueHybridRetriever(BaseRetriever):
         return [doc for doc, _ in ranked[:self.k]]
 
 class RAGSystem:
-    """RAG system with TF-IDF integration for improved retrieval and reranking."""
+    """RAG system with TF-IDF integration and query optimization."""
     
     def __init__(
         self, 
         vectorstore: Any,
+        llm: Any,
+        llm_query: Optional[Any] = "claude-3-5-haiku-20241022",  
         k: int = 4,
         threshold: float = 0.7,
         search_type: str = "mmr",
         language: str = "english",
-        llm: Optional[Any] = None,
         provider: str = 'claude',
         temperature: float = 0.1,
         max_tokens: int = 512,
         max_history_length: int = 10,
         use_tfidf: bool = True,
-        tfidf_mode: str = "rerank",  # "rerank", "hybrid", or "filter"
+        tfidf_mode: str = "rerank",
         tfidf_weight: float = 0.3,
         tfidf_threshold: float = 0.1,
         tfidf_vectorizer: Optional[Any] = None,
         tfidf_matrix: Optional[Any] = None,
         tfidf_documents: Optional[List] = None,
+        use_query_optimization: bool = True,  
     ):
-        """Initialize the RAG system with TF-IDF support.
+        """Initialize the RAG system with query optimization support.
         
         Args:
             vectorstore: Vector store for retrieval
+            llm: Language model for generating final answers
+            llm_query: Optional separate model for query generation (defaults to llm if None)
             k: Number of documents to retrieve
             threshold: Filter unrelevant documents
             search_type: Way of performing the retrieval
             language: Language for prompt template
-            llm: Language model instance
             provider: LLM provider ('mistral' or 'claude')
             max_history_length: Maximum number of conversation turns to keep
             use_tfidf: Whether to use TF-IDF enhancement
             tfidf_mode: How to use TF-IDF ("rerank", "hybrid", or "filter")
             tfidf_weight: Weight for TF-IDF in hybrid mode (0-1)
             tfidf_threshold: Minimum TF-IDF score for filtering
+            use_query_optimization: Enable two-stage query optimization (Haiku + Sonnet)
         """
         self.vectorstore = vectorstore
         self.language = language
@@ -326,6 +330,7 @@ class RAGSystem:
         self.tfidf_vectorizer = tfidf_vectorizer
         self.tfidf_matrix = tfidf_matrix
         self.tfidf_documents = tfidf_documents
+        self.use_query_optimization = use_query_optimization
         
         # Conversation history
         self.conversation_history: List[Dict[str, str]] = []
@@ -339,7 +344,9 @@ class RAGSystem:
             self.console = Console()
             self.verbose = True
         
-        self.llm = llm
+        # LLM setup
+        self.llm = llm  # Main LLM for answers (Sonnet)
+        self.llm_query = llm_query if llm_query else llm  # Query optimization LLM (Haiku or same as main)
         
         # TF-IDF setup
         self.tfidf_reranker = None
@@ -372,8 +379,89 @@ class RAGSystem:
         
         if self.verbose:
             tfidf_status = f" with TF-IDF ({self.tfidf_mode} mode)" if self.use_tfidf else ""
-            self.log(f"RAG system initialized{tfidf_status} with {provider.upper()}", "success")
+            query_opt_status = " + Query Optimization (Haiku→Sonnet)" if self.use_query_optimization else ""
+            self.log(f"RAG system initialized{tfidf_status}{query_opt_status} with {provider.upper()}", "success")
             self.log(f"Language: {language}", "info")
+            if self.use_query_optimization:
+                self.log(f"Query model: {type(self.llm_query).__name__}", "info")
+                self.log(f"Answer model: {type(self.llm).__name__}", "info")
+    
+    def _generate_search_query(self, user_question: str, history_text: str) -> str:
+        """Generate optimized search query using llm_query (typically Haiku).
+        
+        Args:
+            user_question: Original user question
+            history_text: Formatted conversation history
+            
+        Returns:
+            Optimized search query
+        """
+        templates = {
+            "english": """You are an expert in information retrieval. 
+The user asked: {question}
+
+Recent conversation history:
+{history}
+
+Your task: Generate an optimized search query (maximum 15 words) that captures the user's intent.
+Include relevant keywords. If the question refers to previous conversation, incorporate that context.
+Output ONLY the search query, nothing else.
+
+Optimized query:""",
+            "spanish": """Eres un experto en recuperación de información.
+El usuario preguntó: {question}
+
+Historial reciente:
+{history}
+
+Tu tarea: Genera una query de búsqueda optimizada (máximo 15 palabras) que capture la intención del usuario.
+Incluye keywords relevantes. Si la pregunta hace referencia a la conversación previa, incorpora ese contexto.
+Responde SOLO con la query optimizada, nada más.
+
+Query optimizada:""",
+            "galician": """Es un experto en recuperación de información.
+O usuario preguntou: {question}
+
+Historial recente:
+{history}
+
+A túa tarefa: Xera unha query de busca optimizada (máximo 15 palabras) que capture a intención do usuario.
+Inclúe keywords relevantes. Se a pregunta fai referencia á conversa previa, incorpora ese contexto.
+Responde SOAMENTE coa query optimizada, nada máis.
+
+Query optimizada:"""
+        }
+        
+        template = templates.get(self.language.lower(), templates["english"])
+        query_prompt = ChatPromptTemplate.from_template(template)
+        
+        # Use the query-specific LLM (Haiku)
+        chain = query_prompt | self.llm_query | StrOutputParser()
+        
+        try:
+            optimized_query = chain.invoke({
+                "question": user_question,
+                "history": history_text if history_text else "No previous conversation."
+            })
+            
+            # Clean up the response (remove any extra text)
+            optimized_query = optimized_query.strip()
+            
+            # Remove common prefixes if model added them
+            prefixes_to_remove = [
+                "Query optimizada:", "Optimized query:", "Query:", 
+                "Search query:", "Búsqueda:", "Busca:"
+            ]
+            for prefix in prefixes_to_remove:
+                if optimized_query.lower().startswith(prefix.lower()):
+                    optimized_query = optimized_query[len(prefix):].strip()
+            
+            return optimized_query
+            
+        except Exception as e:
+            self.log(f"Error generating optimized query: {e}", "error")
+            # Fallback to original question
+            return user_question
     
     def _setup_tfidf(self) -> None:
         """Setup TF-IDF reranker by fitting on all documents in vectorstore."""
@@ -381,8 +469,6 @@ class RAGSystem:
             self.log("Initializing TF-IDF reranker...", "info")
         
         # Get all documents from vectorstore
-        # This is a workaround since FAISS doesn't expose all docs directly
-        # We do a broad search to get a large sample
         try:
             # Try to get docstore if available (FAISS has this)
             if hasattr(self.vectorstore, 'docstore'):
@@ -516,7 +602,7 @@ Resposta:"""
     def _create_rag_chain(self) -> None:
         """Create the RAG chain using LangChain 1.0 API."""
         document_chain = create_stuff_documents_chain(
-            llm=self.llm,
+            llm=self.llm,  # Uses main LLM (Sonnet) for final answer
             prompt=self.prompt
         )
         
@@ -561,23 +647,33 @@ Resposta:"""
         return answer_only.strip()
     
     def query(self, question: str, use_history: bool = True) -> Tuple[str, List[Document]]:
-        """Query the RAG system with optional TF-IDF enhancement.
+        """Query the RAG system with optional query optimization.
         
         Args:
-            question: Question to ask
+            question: User's original question
             use_history: Whether to include conversation history
         
         Returns:
-            Answer and source documents (with TF-IDF scores in metadata if applicable)
+            Tuple of (answer, source_documents)
         """
         # Format conversation history
         history_text = ""
         if use_history:
             history_text = self._format_history(max_turns=5)
         
-        # Invoke the RAG chain
+        # STEP 1: Generate optimized search query (using Haiku)
+        if self.use_query_optimization:
+            search_query = self._generate_search_query(question, history_text)
+            
+            if self.verbose:
+                self.log(f"📝 Original question: {question}", "info")
+                self.log(f"🔍 Optimized query: {search_query}", "success")
+        else:
+            search_query = question
+        
+        # STEP 2: Invoke the RAG chain with optimized query (Sonnet generates final answer)
         result = self.rag_chain.invoke({
-            "input": question,
+            "input": search_query,  # Use optimized query for retrieval
             "history": history_text
         })
         
@@ -587,14 +683,14 @@ Resposta:"""
         # Apply TF-IDF reranking if enabled and mode is "rerank" or "filter"
         if self.use_tfidf and self.tfidf_mode in ["rerank", "filter"] and source_docs:
             original_count = len(source_docs)
-            source_docs = self._apply_tfidf_reranking(question, source_docs)
+            source_docs = self._apply_tfidf_reranking(search_query, source_docs)
             
             if self.verbose and self.tfidf_mode == "filter":
                 self.log(f"TF-IDF filtering: {original_count} -> {len(source_docs)} documents", "info")
         
         # Add TF-IDF scores to document metadata for debugging
         if self.use_tfidf and self.tfidf_reranker and source_docs:
-            scored_docs = self.tfidf_reranker.rerank(question, source_docs, top_k=None)
+            scored_docs = self.tfidf_reranker.rerank(search_query, source_docs, top_k=None)
             for doc, score in scored_docs:
                 doc.metadata['tfidf_score'] = float(score)
         
