@@ -1,0 +1,72 @@
+ENLIGHTEN THE FUTURE
+You are
+Programmes
+JOIN US Students Researchers and PhD students Scholarships Living in France
+Students
+Researchers and PhD students
+Scholarships
+Living in France
+UNIVERSITY About us Organisation Circle U. development strategy Partnerships Careers at Université Paris Cité Campuses
+About us
+Organisation
+Circle U.
+development strategy
+Partnerships
+Careers at Université Paris Cité
+Campuses
+EDUCATION Higher education system Departments Find your programme Graduate schools Build your project Summer Schools International Mobility
+Higher education system
+Departments
+Find your programme
+Graduate schools
+Build your project
+Summer Schools
+International Mobility
+RESEARCH Excellence in research Awards and Distinctions Laboratories Scientific cooperation Interdisciplinary institutes Research and Technical Platforms Technology Transfer and Innovation Doctoral Studies Scientific publications
+Excellence in research
+Awards and Distinctions
+Laboratories
+Scientific cooperation
+Interdisciplinary institutes
+Research and Technical Platforms
+Technology Transfer and Innovation
+Doctoral Studies
+Scientific publications
+STUDENT LIFE Get involved Student Associations Libraries Health and social services Culture Sports Housing
+Get involved
+Student Associations
+Libraries
+Health and social services
+Culture
+Sports
+Housing
+Theileria annulata and Cancer: a parasite strategy revealed!
+Research
+A new study from Prof. Jonathan Weitzman’s research team at the Epigenetics and Cell Fate unit has shed light on the mechanism by which the parasite Theileria annulata, which causes a cancer-like diseases in cattle, evades the host cell’s defense mechanism. In a previous study, the team showed how Theileria manages to create a cancer transformation upon infection by secreting a protein that activates genetic and epigenetic pathways in host cells. Now, Marie Villares (a PhD student and first author of the new study) and the Weitzman team have discovered and deciphered how Theileria parasites evade the cell’s cleaning and recycling mechanism, known as autophagy.
+Microscopic images of cells (in blue) treated or not with the compound studied, showing a difference in localisation of the proteins of interest (in green and red) between the two conditions
+© Marie Villarès – Université Paris Cité
+All mammalian cells have a specialized cleaning process called “ autophagy “, which recycles damaged proteins and eliminates invading pathogens. To survive inside host cells, pathogens must find a way to escape autophagy. Theileria annulata , a single-cell parasite transmitted to cows by ticks, causes a fatal disease in cattle in Africa and Asia, with a significant socio-economic impact. This parasite divides and multiplies with the white blood cells it infects, rendering them, like cancer cells, “immortal”.
+In a previous study , the team of geneticists and biochemists from the Epigenetics and Cell Fate unit showed that Theileria parasites secrete a protein into the host cell, leading to changes in gene activity in the infected white blood cells and transforming them into cancer cells. This mechanism, never before described in mammals, opened up new therapeutic avenues. However, the parasite had not yet revealed all its secrets. How does it manage to survive in the hostile environment of host cells and evade the immune system?
+The Theileria parasite should be eliminated by the host cell’s autophagy mechanism. But somehow this mechanism is not effective against this parasite. By testing hundreds of compounds initially created for their anti-cancer properties, Marie Villares identified a molecule that enables the host cell to eliminate the parasite. Using fancy genomics, proteomics and imaging techniques, she then deciphered the mechanism by which this new compound acts in the infected cell. Marie Villares and the Weitzman research team discovered how the Theileria annulata parasite escapes autophagy to survive in the infected white blood cell. Once inside the cell it infects, the parasite sequesters on its surface a protein (called eIF5A) which is essential for the autophagic cleansing process. As the parasite traps the eIF5A protein, the cell can no longer defend itself. The new compound can efficiently restore the autophagy cleaning process by freeing eIF5A from the parasite’s grip. The autophagy process can then resume its activity within the cell and eliminate the parasite.
+This study reveals a new mechanism used by intracellular parasites, such as Theileria annulata , to escape host cell defenses through the process of autophagy. The new compound that releases eIF5A and restores autophagy could be a promising new drug to treat infected cows and eliminate this dangerous pathogen.
+This work is the fruit of an international collaboration with a team of medicinal chemists from the Sapienza University in Rome, Italy, and colleagues from the imaging and proteomics technology platforms at the Institut Jacques Monod. Prof. Weitzman’s team is supported by grants from the ANR, the Labex Who Am I?, the Graduate School G.E.N.E. and the Fondation pour la Recherche Médicale (Equipe FRM).
+Source
+Theileria parasites sequester host eIF5A to escape elimination by host-mediated autophagy – Marie Villares, Nelly Lourenço, Ivan Ktorza, Jérémy Berthelet, Aristeidis Panagiotou, Aurélie Richard, Angélique Amo, Yulianna Koziy, Souhila Medjkane, Sergio Valente, Rossella Fioravanti, Catherine Pioche-Durieu, Laurent Lignière, Guillaume Chevreux, Antonello Mai & Jonathan B. Weitzman
+Nature communications – March 12 2024
+DOI : 10.1038/s41467-024-45022-7
+Marie Villares completed her doctorate in the Epigenetics and Cell Fate unit, supervised by Prof. Jonathan Weitzman, and she is currently a post-doctoral fellow at the Institut de Recherche en Infectiologie in Montpellier. Marie is the winner of the 15th edition of the Prix Jeunes Talents France L’Oréal-UNESCO Pour les Femmes et la Science and competed in the Ma Thèse en 180s international French-language competition. Discover Marie Villares’ performance
+Read more
+Meet-Up 2025 : plus de 100 participants réunis pour les sessions d’information organisées par l’Université Paris Cité sur les appels européens MSCA Postdoctoral Fellowships
+Afin d'offrir aux post doctorantes, aux post doctorants et à leurs superviseurs le meilleur soutien possible pour une candidature réussie et de grande qualité aux appels MSCA Postdoctoral Fellowships (MSCA PF), le Réseau Recherche Europe, coordonné par l’Université...
+Deux projets d’excellence d’UPCité lauréats des ERC Consolidator Grants en mathématiques et neurosciences
+Le Conseil européen de la recherche (ERC) a annoncé le 9 décembre 2025 les résultats de son appel à projets Consolidator Grants. Parmi les 25 lauréats français, deux projets sont coordonnés à l'Université Paris Cité : le projet SAMPLING porté par Laura Dugué,...
+DiffeRs : le projet lauréat d’un ERC Consolidator Grants qui étudie les singularités
+Le projet DiffeRs, coordonné par André Belotto Da Silva, enseignant-chercheur à l’Institut de Mathématiques de Jussieu–Paris Rive Gauche (Université Paris Cité) et lauréat d’une bourse ERC Consolidator en 2025, vise à développer de nouvelles méthodes afin d’ouvrir de...
+[Circle U.] BRIDGE : Partagez votre histoire et créez le changement
+Vous évoluez dans le milieu universitaire et vous avez déjà expérimenté des défis en matière de discrimination ou d’exclusion ? Vous n’avez pas à les surmonter seul.e ! Rejoignez le programme BRIDGE ! BRIDGE vous mettra en relation avec des pairs qui comprennent votre...
+Youtube
+Bluesky
+Facebook
+Instagram
+Linkedin
+TikTok

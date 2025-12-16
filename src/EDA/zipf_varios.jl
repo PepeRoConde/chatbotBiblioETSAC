@@ -64,9 +64,9 @@ function main()
     # Define corpora to analyze
     corpora = [
         (folder="crawl/text", name="UDC"),
-        (folder="crawl_ucm/text", name="UCM"),
-        (folder="crawl_su/text", name="Standford"),
-        (folder="crawl_up/text", name="Paris"),
+	(folder="corpora/crawl_ucm/text", name="UCM"),
+        (folder="corpora/crawl_su/text", name="Standford"),
+        (folder="corpora/crawl_up/text", name="Paris"),
         (folder="corpora/brown", name="Brown"),
         (folder="corpora/quijote", name="Quijote")
     ]
