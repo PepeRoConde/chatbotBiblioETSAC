@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import argparse
 from pathlib import Path
@@ -20,7 +21,7 @@ def main():
     parser = argparse.ArgumentParser(description='Mistral API RAG System for PDF and HTML documents')
 
     # Document Processing
-    parser.add_argument('--docs_folder', type=str, default='crawl/crawled_data', help='Folder containing PDF and HTML files')
+    parser.add_argument('--docs_folder', type=str, default='crawl/text', help='Folder containing PDF and HTML files')
     parser.add_argument('--map_json', type=str, default='crawl/map.json', help='JSON file mapping filename to URL')
     parser.add_argument('--chunk_size', type=int, default=2000, help='Size of text chunks')
     parser.add_argument('--chunk_overlap', type=int, default=250, help='Overlap between chunks')
@@ -39,13 +40,15 @@ def main():
     
     # TF-IDF
     parser.add_argument('--use_tfidf', action='store_true', default=True, help='Use TF-IDF enhancement')
-    parser.add_argument('--tfidf_mode', type=str, default='rerank', help='TF-IDF mode: rerank, hybrid, or filter')
-    parser.add_argument('--tfidf_weight', type=float, default=0.3, help='TF-IDF weight in hybrid mode (0.0-1.0)')
+    parser.add_argument('--tfidf_mode', type=str, default='tfidf', help='TF-IDF mode: rerank, hybrid, tfidf, or filter')
+    parser.add_argument('--tfidf_weight', type=float, default=0.5, help='TF-IDF weight in hybrid mode (0.0-1.0)')
     parser.add_argument('--tfidf_threshold', type=float, default=0.1, help='Minimum TF-IDF score for filter mode')
     
     # LLM Provider
     parser.add_argument('--provider', type=str, default='claude', help='LLM provider: mistral or claude')
-    parser.add_argument('--model', type=str, default='claude-3-5-haiku-20241022', help='Model name')
+    parser.add_argument('--model', type=str, default='claude-sonnet-4-5', help='Model name for final answers')
+    parser.add_argument('--query_model', type=str, default="claude-3-5-haiku-20241022", help='Model name for query optimization (defaults to same as --model)')
+    parser.add_argument('--use_query_optimization',default = True, action='store_true', help='Enable query optimization (two-stage LLM)')
     parser.add_argument('--api_key', type=str, default=None, help='API key (uses env var if not set)')
     parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for generation (0.0-1.0)')
     parser.add_argument('--max_tokens', type=int, default=512, help='Maximum tokens to generate')
@@ -77,9 +80,15 @@ def main():
         "error": "bold red",
         "success": "bold green",
     })
-    
-    # Initialize rich console with our theme
-    console = Console(theme=custom_theme, color_system="truecolor")
+
+    is_git_bash = 'MSYSTEM' in os.environ or 'MINGW' in os.environ.get('MSYSTEM', '')
+
+    console = Console(
+        theme=custom_theme,
+        color_system="truecolor",
+        legacy_windows=False if is_git_bash else None,
+        force_terminal=True
+    )
     
     # Share the console and verbose setting globally
     import builtins
@@ -95,13 +104,36 @@ def main():
             shutil.rmtree(cache_dir)
             console.print("[success]Caché eliminada[/success]")
     
-    
-    # Initialize the LLM
+    # Initialize the main LLM (for final answers)
     llm = LLMManager(
         provider=args.provider,
         model_name=args.model, 
         api_key=args.api_key
     ).llm
+    
+    # Initialize query optimization LLM if enabled
+    llm_query = None
+    if args.use_query_optimization:
+        # If query_model is specified, use it; otherwise default to Haiku for Claude
+        if args.query_model:
+            query_model_name = args.query_model
+        else:
+            # Smart defaults based on provider
+            if args.provider == 'claude':
+                query_model_name = 'claude-haiku-4'  # Fast and cheap for query generation
+            else:
+                query_model_name = args.model  # Use same model for other providers
+        
+        llm_query = LLMManager(
+            provider=args.provider,
+            model_name=query_model_name,
+            api_key=args.api_key
+        ).llm
+        
+        if args.verbose:
+            console.print(f"[info]Query optimization enabled:[/info]")
+            console.print(f"  - Query model: [yellow]{query_model_name}[/yellow]")
+            console.print(f"  - Answer model: [yellow]{args.model}[/yellow]")
 
     # Initialize the document processor
     with Progress(
@@ -111,7 +143,6 @@ def main():
         transient=True
     ) as progress:
         progress.add_task("init", total=None)
-        print(args.docs_folder)
         processor = DocumentProcessor(
             docs_folder=args.docs_folder,
             embedding_model_name=args.embedding_model,
@@ -159,7 +190,6 @@ def main():
             ) as progress:
                 task = progress.add_task("comprobando", total=None)
                 processor.process(force_reload=False, incremental=True)
-                # Save vectorstore (will save only if there were changes)
         processor.save_vectorstore(args.vector_store)
     
     # Show cache stats if verbose
@@ -181,28 +211,46 @@ def main():
         transient=True
     ) as progress:
         task = progress.add_task("init", total=None)
-        rag = RAGSystem(
-            vectorstore=processor.vectorstore,
-            k=args.k,
-            threshold=args.threshold,
-            search_type=args.search_type,
-            language=args.language,
-            llm=llm,
-            provider=args.provider,
-            temperature=args.temperature,
-            max_tokens=args.max_tokens,
-            max_history_length=args.max_history_length,
-            use_tfidf=args.use_tfidf,
-            tfidf_mode=args.tfidf_mode,
-            tfidf_weight=args.tfidf_weight,
-            tfidf_threshold=args.tfidf_threshold
-        )
+        
+        # Common parameters for RAG system
+        rag_params = {
+            'vectorstore': processor.vectorstore,
+            'k': args.k,
+            'threshold': args.threshold,
+            'search_type': args.search_type,
+            'language': args.language,
+            'llm': llm,
+            'llm_query': llm_query,  # NEW: Pass query optimization LLM
+            'use_query_optimization': args.use_query_optimization,  # NEW: Enable feature
+            'provider': args.provider,
+            'temperature': args.temperature,
+            'max_tokens': args.max_tokens,
+            'max_history_length': args.max_history_length,
+            'use_tfidf': args.use_tfidf,
+            'tfidf_mode': args.tfidf_mode,
+            'tfidf_weight': args.tfidf_weight,
+            'tfidf_threshold': args.tfidf_threshold
+        }
+        
+        # Add TF-IDF components if needed
+        if args.tfidf_mode == "hybrid" or args.tfidf_mode == "tfidf":
+            rag_params.update({
+                'tfidf_vectorizer': processor.tfidf_vectorizer,
+                'tfidf_matrix': processor.tfidf_matrix,
+                'tfidf_documents': processor.tfidf_documents
+            })
+        
+        rag = RAGSystem(**rag_params)
     
     # Welcome message with system info
     system_info = "[bold blue]Especificación actual do sistema[/bold blue]"
     if args.verbose:
         system_info += f"\nProvider: [yellow]{args.provider.upper()}[/yellow]"
         system_info += f"\nModelo: [yellow]{args.model}[/yellow]"
+        if args.use_query_optimization:
+            query_model_display = args.query_model if args.query_model else ('claude-haiku-4' if args.provider == 'claude' else args.model)
+            system_info += f"\nModelo queries: [yellow]{query_model_display}[/yellow]"
+            system_info += f"\nQuery optimization: [green]✓ ACTIVADO[/green]"
         system_info += f"\nLingua: [yellow]{args.language}[/yellow]"
         system_info += f"\nBase vectorial: [yellow]{args.vector_store}[/yellow]"
         system_info += f"\nTamaño dos textos: [yellow]{args.chunk_size}[/yellow]"
@@ -222,11 +270,6 @@ def main():
     
     console.print(titulo_ascii, style="rgb(196,45,137)")
     
-    question = ''
-    answer = ''
-
-
-
     console.print("\n[dim]Comandos especiales:[/dim]")
     console.print("[dim]  - 'sair' → Saír do programa[/dim]")
     console.print("[dim]  - 'limpar' → Limpar historial de conversación[/dim]")
@@ -272,7 +315,7 @@ def main():
                 transient=True
             ) as progress:
                 task = progress.add_task("procesando", total=None)
-                answer, sources = rag.query(question, use_history=True)  # MODIFICADO: use_history=True
+                answer, sources = rag.query(question, use_history=True)  
             
             console.print(Panel(
                 Markdown(answer), 
@@ -325,4 +368,8 @@ def main():
                 console.print(traceback.format_exc())
 
 if __name__ == "__main__":
+    if sys.platform == 'win32':
+        sys.stdout.reconfigure(encoding='utf-8')
+        sys.stderr.reconfigure(encoding='utf-8')
+
     main()

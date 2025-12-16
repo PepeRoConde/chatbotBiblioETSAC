@@ -128,7 +128,7 @@ class CrawlerUDC:
     def __init__(self, base_url: str,
                  output_dir: str = "crawled_data",
                  state_dir: str = "crawl",
-                 keywords_file: str = "crawl/keywords.txt",
+                 keywords_file: str = "keywords.txt",
                  refresh_days: int = 30,
                  force_recrawl: bool = False,
                  download_images: bool = True,
@@ -137,13 +137,13 @@ class CrawlerUDC:
         self.base_url = base_url.rstrip('/')
         self.domain = urlparse(base_url).netloc
 
-        self.output_dir = Path(output_dir)
-        self.images_dir = self.output_dir / "images"
         self.state_dir = Path(state_dir)
+        self.output_dir = self.state_dir / output_dir
+        self.images_dir = self.output_dir / "images"
         self.text_dir = self.state_dir / "text"  # Nueva carpeta para textos planos
         self.ocr_stats_path = self.state_dir / "ocr_stats.csv"
         self._init_ocr_stats_csv()
-        self.keywords_file = Path(keywords_file)
+        self.keywords_file = self.state_dir / keywords_file
         self.visited_urls: Set[str] = set()
         self.downloaded_files: Set[str] = set()
         self.downloaded_images: Set[str] = set()
@@ -762,12 +762,12 @@ def crawl_single_url(url: str, args) -> tuple:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Smart CrawlerUDC with inline OCR support.")
-    parser.add_argument("--urls_file", "-f", type=str, default="crawl/urls.txt")
-    parser.add_argument("--keywords_file", "-kf", type=str, default="crawl/keywords.txt")
+    parser.add_argument("--urls_file", "-f", type=str, default="urls.txt")
+    parser.add_argument("--keywords_file", "-kf", type=str, default="keywords.txt")
     parser.add_argument("--max_pages", "-p", type=int, default=2000)
     parser.add_argument("--max_depth", "-d", type=int, default=20)
     parser.add_argument("--min_char_ocr", "-c", type=int, default=25)
-    parser.add_argument("--output_dir", "-o", type=str, default="crawl/crawled_data")
+    parser.add_argument("--output_dir", "-o", type=str, default="crawled_data")
     parser.add_argument("--state_dir", "-s", type=str, default="crawl")
     parser.add_argument("--refresh_days", "-r", type=int, default=30)
     parser.add_argument("--workers", "-w", type=int, default=8)
@@ -790,7 +790,7 @@ if __name__ == "__main__":
         print("   And ensure tesseract-ocr is installed on your system.")
         exit(1)
 
-    urls_path = Path(args.urls_file)
+    urls_path = Path(args.state_dir) / args.urls_file
     if not urls_path.exists():
         raise FileNotFoundError(f"URLs file not found: {urls_path}")
 
