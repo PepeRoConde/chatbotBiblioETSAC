@@ -40,9 +40,10 @@ def main():
     
     # TF-IDF
     parser.add_argument('--use_tfidf', action='store_true', default=True, help='Use TF-IDF enhancement')
-    parser.add_argument('--tfidf_mode', type=str, default='tfidf', help='TF-IDF mode: rerank, hybrid, tfidf, or filter')
+    parser.add_argument('--tfidf_mode', type=str, default='hybrid', help='TF-IDF mode: rerank, hybrid, tfidf, or filter')
     parser.add_argument('--tfidf_weight', type=float, default=0.5, help='TF-IDF weight in hybrid mode (0.0-1.0)')
     parser.add_argument('--tfidf_threshold', type=float, default=0.1, help='Minimum TF-IDF score for filter mode')
+    parser.add_argument('--tfidf_score_factor', type=int, default=100, help='The actual score of TF-IDF retrieved docs will be multiplied by this number (default: 100)')
     
     # LLM Provider
     parser.add_argument('--provider', type=str, default='claude', help='LLM provider: mistral or claude')
@@ -326,21 +327,53 @@ def main():
             if args.verbose:
                 history_len = len(rag.get_history())
                 console.print(f"[dim]Conversacións no historial: {history_len}[/dim]")
-
                 console.print("\n[bold]Textos dos que extráese a información:[/bold]")
-
-                # Parse it
+                
                 for i, doc in enumerate(sources[:args.k]):
                     text = doc.page_content
                     first_line, _, rest = text.partition("\n")
                     
                     parts = first_line.split('|')
                     
+                    # Get relevance scores and method from metadata
+                    relevance_score = doc.metadata.get('relevance_score', None)
+                    vector_score = doc.metadata.get('vector_score', None)
+                    tfidf_score_meta = doc.metadata.get('tfidf_score', None)
+                    retrieval_method = doc.metadata.get('retrieval_method', 'unknown')
+                    
+                    # Format score information
+                    score_info = []
+                    if relevance_score is not None:
+                        score_info.append(f"[bold cyan]Score: {relevance_score:.4f}[/bold cyan]")
+                    
+                    if retrieval_method == 'hybrid':
+                        method_emoji = "🔄"
+                        method_text = "[bold magenta]Hybrid[/bold magenta] (Vector + TF-IDF)"
+                        if vector_score is not None:
+                            score_info.append(f"[cyan]Vector: {vector_score:.4f}[/cyan]")
+                        if tfidf_score_meta is not None:
+                            score_info.append(f"[yellow]TF-IDF: {tfidf_score_meta:.4f}[/yellow]")
+                    elif retrieval_method == 'vector':
+                        method_emoji = "🎯"
+                        method_text = "[bold cyan]Vector[/bold cyan]"
+                        if vector_score is not None:
+                            score_info.append(f"[cyan]Vector: {vector_score:.4f}[/cyan]")
+                    elif retrieval_method == 'tfidf':
+                        method_emoji = "📊"
+                        method_text = "[bold yellow]TF-IDF[/bold yellow]"
+                        if tfidf_score_meta is not None:
+                            score_info.append(f"[yellow]TF-IDF: {tfidf_score_meta:.4f}[/yellow]")
+                    else:
+                        method_emoji = "❓"
+                        method_text = "[dim]Unknown[/dim]"
+                    
+                    score_line = " | ".join(score_info) if score_info else "[dim]No score info[/dim]"
+                    
                     if len(parts) >= 5:
                         filename, file_type, url, last_modified, tipo_data = parts[:5]
                         
-                        title = f"Texto {i+1}"
-                        metadata = f"[bold]{filename} ({file_type})[/bold]\n[dim]🔗 {url}[/dim]"
+                        title = f"{method_emoji} Texto {i+1} - {method_text}"
+                        metadata = f"{score_line}\n\n[bold]{filename} ({file_type})[/bold]\n[dim]🔗 {url}[/dim]"
                         
                         if last_modified and last_modified.lower() != "no hai data":
                             date_emoji = "📅" if "modificación" in tipo_data.lower() else "🕐" if "crawl" in tipo_data.lower() else "❓"
@@ -352,15 +385,16 @@ def main():
                         
                         content = f"{metadata}\n\n{rest.strip()[:200]}..."
                     else:
-                        title = f"Texto {i+1}"
-                        content = text.strip()[:200] + "..."
+                        title = f"{method_emoji} Texto {i+1} - {method_text}"
+                        content = f"{score_line}\n\n{text.strip()[:200]}..."
                     
                     console.print(Panel(
                         content,
                         title=title,
-                        border_style="blue",
+                        border_style="blue" if retrieval_method == "vector" else "yellow" if retrieval_method == "tfidf" else "magenta",
                         padding=(1, 2)
                     ))
+
         except Exception as e:
             console.print(f"[error]Error procesando consulta:[/error] {e}")
             if args.verbose:
