@@ -40,14 +40,15 @@ def main():
     
     # TF-IDF
     parser.add_argument('--use_tfidf', action='store_true', default=True, help='Use TF-IDF enhancement')
-    parser.add_argument('--tfidf_mode', type=str, default='tfidf', help='TF-IDF mode: rerank, hybrid, tfidf, or filter')
+    parser.add_argument('--tfidf_mode', type=str, default='hybrid', help='TF-IDF mode: rerank, hybrid, tfidf, or filter')
     parser.add_argument('--tfidf_weight', type=float, default=0.5, help='TF-IDF weight in hybrid mode (0.0-1.0)')
     parser.add_argument('--tfidf_threshold', type=float, default=0.1, help='Minimum TF-IDF score for filter mode')
+    parser.add_argument('--tfidf_score_factor', type=int, default=45, help='The bigger, the more presence of tfidf retrieved docs, if 0 none, default 45')
     
     # LLM Provider
     parser.add_argument('--provider', type=str, default='claude', help='LLM provider: mistral or claude')
     parser.add_argument('--model', type=str, default='claude-sonnet-4-5', help='Model name for final answers')
-    parser.add_argument('--query_model', type=str, default="claude-3-5-haiku-20241022", help='Model name for query optimization (defaults to same as --model)')
+    parser.add_argument('--query_model', type=str, default="claude-3-haiku-20240307", help='Model name for query optimization (defaults to same as --model)')
     parser.add_argument('--use_query_optimization',default = True, action='store_true', help='Enable query optimization (two-stage LLM)')
     parser.add_argument('--api_key', type=str, default=None, help='API key (uses env var if not set)')
     parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for generation (0.0-1.0)')
@@ -229,7 +230,8 @@ def main():
             'use_tfidf': args.use_tfidf,
             'tfidf_mode': args.tfidf_mode,
             'tfidf_weight': args.tfidf_weight,
-            'tfidf_threshold': args.tfidf_threshold
+            'tfidf_threshold': args.tfidf_threshold,
+            'tfidf_score_factor': args.tfidf_score_factor
         }
         
         # Add TF-IDF components if needed
@@ -315,32 +317,84 @@ def main():
                 transient=True
             ) as progress:
                 task = progress.add_task("procesando", total=None)
-                answer, sources = rag.query(question, use_history=True)  
+                # Obtener costes si verbose está activo
+                if args.verbose:
+                    answer, sources, cost_info = rag.query(question, use_history=True, return_costs=True)
+                else:
+                    answer, sources = rag.query(question, use_history=True, return_costs=False)
+            
+            # Construir título del panel con costes si verbose
+            if args.verbose and cost_info and cost_info.get("total_cost", 0) > 0:
+                by_stage = cost_info.get("by_stage", {})
+
+                query_cost = by_stage.get("query_decision", 0.0)
+                answer_cost = by_stage.get("answer", 0.0)
+                
+                title = (
+                    f"Resposta | "
+                    f"💰 ${cost_info['total_cost']:.6f} "
+                    f"(🤖 ${query_cost:.6f} + "
+                    f"🧠 ${answer_cost:.6f})"
+                )
+            else:
+                title = "Resposta"
             
             console.print(Panel(
                 Markdown(answer), 
-                title="Resposta", 
+                title=title, 
                 border_style="green"
             ))
             
             if args.verbose:
                 history_len = len(rag.get_history())
                 console.print(f"[dim]Conversacións no historial: {history_len}[/dim]")
-
                 console.print("\n[bold]Textos dos que extráese a información:[/bold]")
-
-                # Parse it
+                
                 for i, doc in enumerate(sources[:args.k]):
                     text = doc.page_content
                     first_line, _, rest = text.partition("\n")
                     
                     parts = first_line.split('|')
                     
+                    # Get relevance scores and method from metadata
+                    relevance_score = doc.metadata.get('relevance_score', None)
+                    vector_score = doc.metadata.get('vector_score', None)
+                    tfidf_score_meta = doc.metadata.get('tfidf_score', None)
+                    retrieval_method = doc.metadata.get('retrieval_method', 'unknown')
+                    
+                    # Format score information
+                    score_info = []
+                    if relevance_score is not None:
+                        score_info.append(f"[bold cyan]Score: {relevance_score:.4f}[/bold cyan]")
+                    
+                    if retrieval_method == 'hybrid':
+                        method_emoji = "🔄"
+                        method_text = "[bold magenta]Hybrid[/bold magenta] (Vector + TF-IDF)"
+                        if vector_score is not None:
+                            score_info.append(f"[cyan]Vector: {vector_score:.4f}[/cyan]")
+                        if tfidf_score_meta is not None:
+                            score_info.append(f"[yellow]TF-IDF: {tfidf_score_meta:.4f}[/yellow]")
+                    elif retrieval_method == 'vector':
+                        method_emoji = "🎯"
+                        method_text = "[bold cyan]Vector[/bold cyan]"
+                        if vector_score is not None:
+                            score_info.append(f"[cyan]Vector: {vector_score:.4f}[/cyan]")
+                    elif retrieval_method == 'tfidf':
+                        method_emoji = "📊"
+                        method_text = "[bold yellow]TF-IDF[/bold yellow]"
+                        if tfidf_score_meta is not None:
+                            score_info.append(f"[yellow]TF-IDF: {tfidf_score_meta:.4f}[/yellow]")
+                    else:
+                        method_emoji = "❓"
+                        method_text = "[dim]Unknown[/dim]"
+                    
+                    score_line = " | ".join(score_info) if score_info else "[dim]No score info[/dim]"
+                    
                     if len(parts) >= 5:
                         filename, file_type, url, last_modified, tipo_data = parts[:5]
                         
-                        title = f"Texto {i+1}"
-                        metadata = f"[bold]{filename} ({file_type})[/bold]\n[dim]🔗 {url}[/dim]"
+                        title = f"{method_emoji} Texto {i+1} - {method_text}"
+                        metadata = f"{score_line}\n\n[bold]{filename} ({file_type})[/bold]\n[dim]🔗 {url}[/dim]"
                         
                         if last_modified and last_modified.lower() != "no hai data":
                             date_emoji = "📅" if "modificación" in tipo_data.lower() else "🕐" if "crawl" in tipo_data.lower() else "❓"
@@ -352,21 +406,21 @@ def main():
                         
                         content = f"{metadata}\n\n{rest.strip()[:200]}..."
                     else:
-                        title = f"Texto {i+1}"
-                        content = text.strip()[:200] + "..."
+                        title = f"{method_emoji} Texto {i+1} - {method_text}"
+                        content = f"{score_line}\n\n{text.strip()[:200]}..."
                     
                     console.print(Panel(
                         content,
                         title=title,
-                        border_style="blue",
+                        border_style="blue" if retrieval_method == "vector" else "yellow" if retrieval_method == "tfidf" else "magenta",
                         padding=(1, 2)
                     ))
+
         except Exception as e:
             console.print(f"[error]Error procesando consulta:[/error] {e}")
             if args.verbose:
                 import traceback
                 console.print(traceback.format_exc())
-
 if __name__ == "__main__":
     if sys.platform == 'win32':
         sys.stdout.reconfigure(encoding='utf-8')
