@@ -75,14 +75,14 @@ MI CUENTA
 
  |  |  |  | 
 
+--- OCR de imagen: logoFac_9638ee41.png ---
+SM somunicacion
+audiovisual+3d+interactiva
+
 --- OCR de imagen: facultad_a0a55db8.png ---
 FACULTADE DE CIENCIAS DA COMUNICACION
 
 Qudiovisuel + ta + inberanive
-
---- OCR de imagen: logoFac_9638ee41.png ---
-SM somunicacion
-audiovisual+3d+interactiva
 
 --- OCR de imagen: oix_458f6bd6.png ---
 Oficina para a Igualdade de Xénero
@@ -118,9 +118,6 @@ sisi" docentes
 
 25-26 a5]
 
---- OCR de imagen: benvida_25-26_cdav_a853e125.png ---
-Ga/SeT — 09:04,
-
 --- OCR de imagen: cdav_grupos_medios_3096c019.png ---
 GRADO EN CREACION DIGITAL,
 ANIMACION Y VIDEQJUEGOS
@@ -134,6 +131,9 @@ GRADO EN
 COMUNICACION AUDIOVISUAL,
 
 [grupos medios]
+
+--- OCR de imagen: benvida_25-26_cdav_a853e125.png ---
+Ga/SeT — 09:04,
 
 --- OCR de imagen: movilidad1_1_f4b2982c.jpeg ---
 [mobilidade intemacional]
