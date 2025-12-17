@@ -1,21 +1,22 @@
 documentacion/
+
+# entornos
 venv/
 .venv/
 .env
 venv12/
+etsacEnv/
+
 __pycache__/
-*.swp
-crawl/crawled_data/*
 local_vectorstore/*
 .DS_Store
 .doc_cache/embeddings/
 .doc_cache/*
 *.bkp
-crawl/map.json
-crawl/metadata.json
-crawl/visited_urls.txt
-etsacEnv/
-crawl/
+crawl/crawled_data/*
+corpora/*
+
+# LaTeX
 *.swp
 *.aux
 *.fdb_latexmk
@@ -30,4 +31,3 @@ crawl/
 *.blg
 *.run.xml
 
-corpora/*
