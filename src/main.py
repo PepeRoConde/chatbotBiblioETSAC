@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 from LLMManager import LLMManager
 from DocumentProcessor import DocumentProcessor
-from RAGSystem import RAGSystem
+from RAGSystem.RAGSystem import RAGSystem
 from portada import titulo_ascii
 
 def main():
@@ -21,8 +21,9 @@ def main():
     parser = argparse.ArgumentParser(description='Mistral API RAG System for PDF and HTML documents')
 
     # Document Processing
-    parser.add_argument('--docs_folder', type=str, default='crawl/text', help='Folder containing PDF and HTML files')
-    parser.add_argument('--map_json', type=str, default='crawl/map.json', help='JSON file mapping filename to URL')
+    parser.add_argument('--state_dir', type=str, default='crawl', help='Folder containing PDF and HTML files')
+    parser.add_argument('--docs_folder', type=str, default='text', help='Folder containing PDF and HTML files')
+    parser.add_argument('--map_json', type=str, default='map.json', help='JSON file mapping filename to URL')
     parser.add_argument('--chunk_size', type=int, default=2000, help='Size of text chunks')
     parser.add_argument('--chunk_overlap', type=int, default=250, help='Overlap between chunks')
     parser.add_argument('--prefix_mode', type=str, default='source', help='Chunk prefix mode: none, source, llm')
@@ -145,7 +146,7 @@ def main():
     ) as progress:
         progress.add_task("init", total=None)
         processor = DocumentProcessor(
-            docs_folder=args.docs_folder,
+            docs_folder=args.state_dir + '/' + args.docs_folder,
             embedding_model_name=args.embedding_model,
             chunk_size=args.chunk_size,
             chunk_overlap=args.chunk_overlap,
@@ -153,9 +154,9 @@ def main():
             cache_dir=args.cache_dir,
             prefix_mode=args.prefix_mode,
             llm=llm,
-            map_json=args.map_json,
-            crawler_metadata_path='crawl/metadata.json',
-            text_folder='crawl/text'
+            map_json=args.state_dir + '/' + args.map_json,
+            crawler_metadata_path=args.state_dir + '/' + 'metadata.json',
+            text_folder=args.state_dir + '/' + 'text'
         )
     
     # Check if vector store exists and if we need to rebuild
@@ -217,12 +218,13 @@ def main():
         rag_params = {
             'vectorstore': processor.vectorstore,
             'k': args.k,
+            'state_dir': args.state_dir,
             'threshold': args.threshold,
             'search_type': args.search_type,
             'language': args.language,
             'llm': llm,
-            'llm_query': llm_query,  # NEW: Pass query optimization LLM
-            'use_query_optimization': args.use_query_optimization,  # NEW: Enable feature
+            'llm_query': llm_query,
+            'use_query_optimization': args.use_query_optimization,
             'provider': args.provider,
             'temperature': args.temperature,
             'max_tokens': args.max_tokens,

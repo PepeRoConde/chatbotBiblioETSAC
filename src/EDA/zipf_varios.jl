@@ -1,4 +1,8 @@
 using Plots
+using Plots
+using Colors
+using Plots
+using Colors
 using LsqFit
 
 function count_words(folder_path)
@@ -59,33 +63,36 @@ function fit_model(log_ranks, log_counts)
     return fit.param
 end
 
-# Main execution
-function main()
-    # Define corpora to analyze
-    corpora = [
-        (folder="crawl/text", name="UDC"),
-	(folder="corpora/crawl_ucm/text", name="UCM"),
-        (folder="corpora/crawl_su/text", name="Standford"),
-        (folder="corpora/crawl_up/text", name="Paris"),
-        (folder="corpora/brown", name="Brown"),
-        (folder="corpora/quijote", name="Quijote")
-    ]
+
+function plot_corpus!(p, log_ranks, log_freqs, fitted_freqs, corpus_name, color, slope)
+    # Add data points
+    scatter!(
+        p,
+        log_ranks,
+        log_freqs;
+        label="$(corpus_name) - Data",
+        markersize=3,
+        color=color,
+        alpha=0.45,
+        markerstrokewidth=0
+    )
     
-    # Color palette for different corpora
-    colors = [
-        RGB(181/255, 60/255, 135/255),  # Pink
-        RGB(60/255, 135/255, 181/255),  # Blue
-        RGB(135/255, 181/255, 60/255),  # Green
-        RGB(181/255, 135/255, 60/255),  # Orange
-        RGB(135/255, 60/255, 181/255),   # Purple
-        RGB(50/255, 168/255, 145/255),   # Purple
-        RGB(50/255, 97/255, 30/255)   # Purple
-    ]
-    
-    # Initialize plot
-    p = plot(
+    # Add fitted curve
+    plot!(
+        p,
+        log_ranks,
+        fitted_freqs;
+        label="$(corpus_name) - Model (slope=$(round(slope, digits=2)))",
+        linewidth=2.8,
+        color=color,
+        linestyle=:solid
+    )
+end
+
+function create_zipf_plot()
+    plot(
         xlabel="log(rank)",
-        ylabel="log(word count)",
+        ylabel="log(relative frequency)",
         title="Word Frequency vs Rank - Multiple Corpora (Zipf's Law)",
         legend=:topright,
         grid=true,
@@ -98,9 +105,84 @@ function main()
         legendfont=font(9),
         size=(900, 600)
     )
+end
+
+function create_parameter_plot(corpus_params)
+    p = plot(
+        xlabel="Intercept (a)",
+        ylabel="Slope (b)",
+        title="Zipf's Law Parameters by Corpus",
+        legend=:best,
+        grid=true,
+        gridalpha=0.15,
+        background_color=:white,
+        foreground_color_subplot=:black,
+        titlefont=font(14, "Helvetica"),
+        guidefont=font(11),
+        tickfont=font(9),
+        legendfont=font(9),
+        size=(700, 600)
+    )
+    
+    # Plot each corpus as a point in parameter space
+    for (i, (name, params, color)) in enumerate(corpus_params)
+        a, b = params
+        scatter!(
+            p,
+            [a],
+            [b];
+            label=name,
+            markersize=10,
+            color=color,
+            markerstrokewidth=2,
+            markerstrokecolor=:white
+        )
+        
+        # Add text annotation
+        annotate!(p, a, b, 
+		  text("  $(name)", 8, :left, color)
+		  )
+    end
+    
+    # Add reference line for ideal Zipf (slope = -1)
+    #b_range = ylims(p)
+    #hline!(p, [-1.0], linestyle=:dash, color=:gray, linewidth=2, label="Ideal Zipf (b=-1)")
+    
+    return p
+end
+
+"""
+Print corpus statistics
+"""
+function print_corpus_stats(corpus_name, total_words, params, words, counts, relative_freqs)
+    a, b = params
+    println("Total words in corpus: $total_words")
+    println("Fitted parameters: a = $(round(a, digits=3)), b = $(round(b, digits=3))")
+    println("Top 5 words:")
+    for j in 1:min(5, length(words))
+        println("  $(j). $(words[j]): $(counts[j]) ($(round(relative_freqs[j]*100, digits=3))%)")
+    end
+end
+
+function main()
+    # Define corpora to analyze with colors
+    corpora = [
+        (folder="crawl/text", name="UDC", color=RGB(181/255, 60/255, 135/255)),
+        (folder="corpora/crawl_ucm/text", name="UCM", color=RGB(60/255, 135/255, 181/255)),
+        (folder="corpora/crawl_su/text", name="Stanford", color=RGB(135/255, 181/255, 60/255)),
+        (folder="corpora/crawl_up/text", name="Paris", color=RGB(181/255, 135/255, 60/255)),
+        (folder="corpora/brown", name="Brown", color=RGB(135/255, 60/255, 181/255)),
+        (folder="corpora/quijote", name="Quijote", color=RGB(50/255, 168/255, 145/255))
+    ]
+    
+    # Initialize plots
+    zipf_plot = create_zipf_plot()
+    
+    # Store results for parameter plot
+    corpus_results = []
     
     # Process each corpus
-    for (i, corpus) in enumerate(corpora)
+    for corpus in corpora
         println("\n" * "="^60)
         println("Processing corpus: $(corpus.name) ($(corpus.folder))")
         println("="^60)
@@ -111,7 +193,6 @@ function main()
             continue
         end
         
-        println("Step 1: Counting words...")
         word_counts = count_words(corpus.folder)
         
         if isempty(word_counts)
@@ -119,71 +200,48 @@ function main()
             continue
         end
         
-        # Calculate total words for normalization
         total_words = sum(values(word_counts))
-        println("Total words in corpus: $total_words")
         
-        println("Step 2: Ranking words...")
         ranks, words, counts = rank_words(word_counts)
         
-        # Normalize counts: convert to relative frequencies
         relative_freqs = counts ./ total_words
         
-        println("Step 3: Converting to log space...")
         log_ranks = log10.(ranks)
         log_freqs = log10.(relative_freqs)
         
-        println("Step 4: Fitting model for $(corpus.name)")
         params = fit_model(log_ranks, log_freqs)
-        a, b = params
-        println("Fitted parameters: a = $(round(a, digits=3)), b = $(round(b, digits=3))")
+        
         
         fitted_freqs = linear_model(log_ranks, params)
         
-        # Get color for this corpus
-        color = colors[mod1(i, length(colors))]
-        
-        println("Step 5: Adding to plot...")
-        
-        # Add data points
-        scatter!(
-            p,
+        println("Step 5: Adding $(corpus.name) to plot...")
+        plot_corpus!(
+            zipf_plot,
             log_ranks,
-            log_freqs;
-            label="$(corpus.name) - Data",
-            markersize=3,
-            color=color,
-            alpha=0.45,
-            markerstrokewidth=0
+            log_freqs,
+            fitted_freqs,
+            corpus.name,
+            corpus.color,
+            params[2]  # slope (b)
         )
         
-        # Add fitted curve
-        plot!(
-            p,
-            log_ranks,
-            fitted_freqs;
-            label="$(corpus.name) - Model (slope=$(round(b, digits=2)))",
-            linewidth=2.8,
-            color=color,
-            linestyle=:solid
-        )
-        
-        # Print some statistics
-        println("Top 5 words:")
-        for j in 1:min(5, length(words))
-            println("  $(j). $(words[j]): $(counts[j]) ($(round(relative_freqs[j]*100, digits=3))%)")
-        end
+        # Store for parameter plot
+        push!(corpus_results, (corpus.name, params, corpus.color))
     end
     
-    println("\n" * "="^60)
-    println("Displaying combined plot...")
-    display(p)
+    # Create parameter space plot
+    param_plot = create_parameter_plot(corpus_results)
     
-    output_file = "memoria/imaxes/zipf_modelo_normalized.png"
-    savefig(p, output_file)
-    println("Plot saved to $output_file")
+    
+    zipf_output = "memoria/imaxes/zipf_modelo_normalized.png"
+    param_output = "memoria/imaxes/zipf_parameters.png"
+    
+    savefig(zipf_plot, zipf_output)
+    savefig(param_plot, param_output)
+    
+    println("Zipf plot saved to $zipf_output")
+    println("Parameter plot saved to $param_output")
     println("="^60)
 end
 
-# Run the program
 main()
