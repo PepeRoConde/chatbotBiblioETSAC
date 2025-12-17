@@ -61,6 +61,8 @@ class DocumentProcessor:
         self.tfidf_vectorizer = None
         self.tfidf_matrix = None
         self.tfidf_documents = []
+        self.bm25_index = None
+        self.bm25_documents = []
         self.crawler_metadata_path = Path(crawler_metadata_path)
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(exist_ok=True)
@@ -619,7 +621,47 @@ class DocumentProcessor:
             self.tfidf_vectorizer = None
             self.tfidf_matrix = None
             self.tfidf_documents = []
-        
+    
+    def _build_bm25_index(self, path: str) -> None:
+        """Build BM25 index from FAISS index.pkl file."""
+        index_path = f"{path}/index.pkl"
+        if not os.path.exists(index_path):
+            if self.verbose:
+                self.log(f"FAISS index not found at {index_path}, skipping BM25 build")
+            return
+
+        if self.verbose:
+            self.log("Building BM25 index from FAISS index.pkl...")
+
+        try:
+            with open(index_path, 'rb') as f:
+                data = pickle.load(f)
+
+            docstore = data[0]
+            index_to_id = data[1]
+
+            # Extract texts and documents in FAISS order
+            chunk_texts = []
+            self.bm25_documents = []
+
+            for idx in sorted(index_to_id.keys()):
+                doc_id = index_to_id[idx]
+                doc = docstore._dict[doc_id]
+                chunk_texts.append(doc.page_content)
+                self.bm25_documents.append(doc)
+
+            # Build BM25 index
+            self.bm25_index = BM25(b=0.75, k1=1.6)
+            self.bm25_index.fit(chunk_texts)
+
+            if self.verbose:
+                self.log(f"BM25 index built on {len(chunk_texts)} chunks from FAISS")
+
+        except Exception as e:
+            self.log(f"Error building BM25 index: {e}", "error")
+            self.bm25_index = None
+            self.bm25_documents = []
+
     def process(self, force_reload: bool = False, incremental: bool = True) -> bool:
         """Process documents and rebuild vector store when embeddings change.
         

@@ -1,0 +1,17 @@
+⚘⚘⚘⚘ chatbotBiblioETSAC (main) » julia src/eda/dates.jl
+⚘⚘⚘⚘ chatbotBiblioETSAC (main) » julia src/eda/last_modified.jl
+GKS: glyph missing from current font: 10060
+GKS: glyph missing from current font: 10060
+⚘⚘⚘⚘ chatbotBiblioETSAC (main) » julia src/eda/ocr.jl
+┌ Warning: thread = 1 warning: only found 1 / 4 columns around data row: 1037. Filling remaining columns with `missing`
+└ @ CSV ~/.julia/packages/CSV/XLcqT/src/file.jl:592
+GKS: could not find font box.ttf
+qt.qpa.fonts: Populating font family aliases took 72 ms. Replace uses of missing font family "Century Gothic" with one that exists to avoid this cost.
+⚘⚘⚘⚘ chatbotBiblioETSAC (main) » julia src/eda/top_words.jl
+┌ Warning: Assignment to `i` in soft scope is ambiguous because a global variable by the same name exists: `i` will be treated as a new local. Disambiguate by using `local i` to suppress this warning or `global i` to assign to the existing global variable.
+└ @ ~/repositorios/chatbotBiblioETSAC/src/eda/top_words.jl:94
+⚘⚘⚘⚘ chatbotBiblioETSAC (main) » julia src/eda/graph.jl
+ERROR in visualize_graph main: StringIndexError("https://es.wikipedia.org/w/index.php?title=Plantilla_discusión:Portada:Actualidad&action=edit&section=new&editintro=Portal_discusión:Actualidad/preload", 133)
+⚘⚘⚘⚘ chatbotBiblioETSAC (main) » julia src/eda/zipf_analyzer.jl
+⚘⚘⚘⚘ chatbotBiblioETSAC (main) » julia src/eda/zipf_varios.jl
+
