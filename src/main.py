@@ -48,7 +48,7 @@ def main():
     # LLM Provider
     parser.add_argument('--provider', type=str, default='claude', help='LLM provider: mistral or claude')
     parser.add_argument('--model', type=str, default='claude-sonnet-4-5', help='Model name for final answers')
-    parser.add_argument('--query_model', type=str, default="claude-3-5-haiku-20241022", help='Model name for query optimization (defaults to same as --model)')
+    parser.add_argument('--query_model', type=str, default="claude-3-haiku-20240307", help='Model name for query optimization (defaults to same as --model)')
     parser.add_argument('--use_query_optimization',default = True, action='store_true', help='Enable query optimization (two-stage LLM)')
     parser.add_argument('--api_key', type=str, default=None, help='API key (uses env var if not set)')
     parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for generation (0.0-1.0)')
@@ -317,11 +317,31 @@ def main():
                 transient=True
             ) as progress:
                 task = progress.add_task("procesando", total=None)
-                answer, sources = rag.query(question, use_history=True)  
+                # Obtener costes si verbose está activo
+                if args.verbose:
+                    answer, sources, cost_info = rag.query(question, use_history=True, return_costs=True)
+                else:
+                    answer, sources = rag.query(question, use_history=True, return_costs=False)
+            
+            # Construir título del panel con costes si verbose
+            if args.verbose and cost_info and cost_info.get("total_cost", 0) > 0:
+                by_stage = cost_info.get("by_stage", {})
+
+                query_cost = by_stage.get("query_decision", 0.0)
+                answer_cost = by_stage.get("answer", 0.0)
+                
+                title = (
+                    f"Resposta | "
+                    f"💰 ${cost_info['total_cost']:.6f} "
+                    f"(🤖 ${query_cost:.6f} + "
+                    f"🧠 ${answer_cost:.6f})"
+                )
+            else:
+                title = "Resposta"
             
             console.print(Panel(
                 Markdown(answer), 
-                title="Resposta", 
+                title=title, 
                 border_style="green"
             ))
             
@@ -401,7 +421,6 @@ def main():
             if args.verbose:
                 import traceback
                 console.print(traceback.format_exc())
-
 if __name__ == "__main__":
     if sys.platform == 'win32':
         sys.stdout.reconfigure(encoding='utf-8')

@@ -8,6 +8,11 @@ from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+
+
+from cost_tracker import CostTracker
+from claude_cost_callback import ClaudeCostCallback
+
 from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 from langchain_core.prompts import ChatPromptTemplate
@@ -237,7 +242,7 @@ class RAGSystem:
         self, 
         vectorstore: Any,
         llm: Any,
-        llm_query: Optional[Any] = "claude-3-5-haiku-20241022",  
+        llm_query: Optional[Any] = "claude-3-haiku-20240307",  
         k: int = 4,
         threshold: float = 0.7,
         search_type: str = "mmr",
@@ -292,6 +297,23 @@ class RAGSystem:
         # Conversation history
         self.conversation_history: List[Dict[str, str]] = []
         
+        # Cost tracking
+        self.total_cost = 0.0
+        self.query_costs = []
+        
+        # Claude pricing (per 1M tokens) - Actualizado a precios de Dic 2024
+        # Claude pricing (per 1M tokens) - Actualizado Diciembre 2024
+        self.pricing = {
+            'claude-3-haiku-20240307': {'input': 0.25, 'output': 1.25},
+            'claude-haiku-4-5': {'input': 1.00, 'output': 5.00},
+            'claude-3-5-sonnet-20241022': {'input': 3.00, 'output': 15.00},
+            'claude-3-5-sonnet-20240620': {'input': 3.00, 'output': 15.00},
+            'claude-sonnet-4-20250514': {'input': 3.00, 'output': 15.00},
+            'claude-sonnet-4-5': {'input': 3.00, 'output': 15.00},
+            'claude-3-opus-20240229': {'input': 15.00, 'output': 75.00},
+        }
+
+        self.cost_tracker = CostTracker(self.pricing)
         # Console setup
         try:
             self.console = __builtins__.rich_console
@@ -343,130 +365,160 @@ class RAGSystem:
                 self.log(f"Query model: {type(self.llm_query).__name__}", "info")
                 self.log(f"Answer model: {type(self.llm).__name__}", "info")
     
-    def _should_retrieve_documents(self, user_question: str, history_text: str) -> tuple[bool, str]:
-        """Determina si es necesario buscar en documentos y genera query si procede.
+    def _calculate_cost(self, model_name: str, input_tokens: int, output_tokens: int) -> float:
+        """Calculate cost for a model call.
         
         Args:
-            user_question: Pregunta del usuario
-            history_text: Historial formateado
+            model_name: Name of the model used
+            input_tokens: Number of input tokens
+            output_tokens: Number of output tokens
             
         Returns:
-            Tuple (should_retrieve, optimized_query)
-            - should_retrieve: True si necesita buscar en docs, False si no
-            - optimized_query: Query optimizada si should_retrieve=True, sino cadena vacía
+            Cost in dollars
         """
+        if model_name not in self.pricing:
+            # Default pricing if model not found
+            return 0.0
+        
+        prices = self.pricing[model_name]
+        input_cost = (input_tokens / 1_000_000) * prices['input']
+        output_cost = (output_tokens / 1_000_000) * prices['output']
+        
+        return input_cost + output_cost
+    
+    def _get_model_name(self, llm) -> str:
+        """Extract model name from LLM object.
+        
+        Args:
+            llm: LangChain LLM object
+            
+        Returns:
+            Model name string
+        """
+        if hasattr(llm, 'model'):
+            return llm.model
+        elif hasattr(llm, 'model_name'):
+            return llm.model_name
+        else:
+            return 'unknown'
+    
+    def _should_retrieve_documents(
+        self,
+        user_question: str,
+        history_text: str
+    ) -> tuple[bool, str]:
+        """
+        Determina si es necesario buscar en documentos y genera una query optimizada.
+
+        Returns:
+            (should_retrieve, optimized_query)
+        """
+
         templates = {
             "english": """You are a university assistant analyzing if a student's question requires searching in university documents (regulations, guides, academic procedures, course information, etc.).
 
-Student asked: {question}
+    Student asked: {question}
 
-Recent conversation history:
-{history}
+    Recent conversation history:
+    {history}
 
-Analyze if this question needs information from university documents or can be answered from:
-1. General knowledge or common courtesy responses
-2. Previous conversation context
-3. Greetings, thanks, clarifications about previous answers
+    Analyze if this question needs information from university documents or can be answered from:
+    1. General knowledge or common courtesy responses
+    2. Previous conversation context
+    3. Greetings, thanks, clarifications about previous answers
 
-If NO retrieval needed (greetings, thanks, clarifications), respond: NO_RETRIEVAL
-If retrieval IS needed (academic info, regulations, procedures), respond with an optimized search query (max 15 words).
+    If NO retrieval needed (greetings, thanks, clarifications), respond: NO_RETRIEVAL
+    If retrieval IS needed (academic info, regulations, procedures), respond with an optimized search query (max 15 words).
 
-Examples:
-- "Hello" -> NO_RETRIEVAL
-- "Thanks for the info" -> NO_RETRIEVAL
-- "Can you repeat that?" -> NO_RETRIEVAL
-- "I don't understand the previous answer" -> NO_RETRIEVAL
-- "What are the enrollment deadlines?" -> enrollment deadlines registration periods
-- "How do I apply for a scholarship?" -> scholarship application process requirements
-- "What about the exam schedule?" -> exam schedule dates calendar
+    Examples:
+    - "Hello" -> NO_RETRIEVAL
+    - "Thanks for the info" -> NO_RETRIEVAL
+    - "Can you repeat that?" -> NO_RETRIEVAL
+    - "What are the enrollment deadlines?" -> enrollment deadlines registration periods
 
-Your response:""",
-            
+    Your response:""",
+
             "spanish": """Eres un asistente universitario analizando si la pregunta de un estudiante requiere buscar en documentos de la universidad (normativas, guías, procedimientos académicos, información de cursos, etc.).
 
-El estudiante preguntó: {question}
+    El estudiante preguntó: {question}
 
-Historial reciente:
-{history}
+    Historial reciente:
+    {history}
 
-Analiza si esta pregunta necesita información de documentos universitarios o puede responderse con:
-1. Conocimiento general o respuestas de cortesía
-2. Contexto de la conversación previa
-3. Saludos, agradecimientos, aclaraciones sobre respuestas previas
+    Si NO necesita búsqueda, responde: NO_RETRIEVAL  
+    Si SÍ necesita búsqueda, responde con una query optimizada (máx 15 palabras).
 
-Si NO necesita búsqueda (saludos, agradecimientos, aclaraciones), responde: NO_RETRIEVAL
-Si SÍ necesita búsqueda (info académica, normativas, procedimientos), responde con una query optimizada (máx 15 palabras).
+    Tu respuesta:""",
 
-Ejemplos:
-- "Hola" -> NO_RETRIEVAL
-- "Gracias por la información" -> NO_RETRIEVAL
-- "¿Puedes repetir eso?" -> NO_RETRIEVAL
-- "No entiendo la respuesta anterior" -> NO_RETRIEVAL
-- "¿Cuáles son los plazos de matrícula?" -> plazos matrícula inscripción periodos
-- "¿Cómo solicito una beca?" -> proceso solicitud beca requisitos
-- "¿Y el calendario de exámenes?" -> calendario exámenes fechas convocatorias
-
-Tu respuesta:""",
-            
             "galician": """Es un asistente universitario analizando se a pregunta dun estudante require buscar en documentos da universidade (normativas, guías, procedementos académicos, información de cursos, etc.).
 
-O estudante preguntou: {question}
+    O estudante preguntou: {question}
 
-Historial recente:
-{history}
+    Historial recente:
+    {history}
 
-Analiza se esta pregunta necesita información de documentos universitarios ou pode responderse con:
-1. Coñecemento xeral ou respostas de cortesía
-2. Contexto da conversa previa
-3. Saúdos, agradecementos, aclaracións sobre respostas previas
+    Se NON necesita busca, responde: NO_RETRIEVAL  
+    Se SI necesita busca, responde cunha query optimizada (máx 15 palabras).
 
-Se NON necesita busca (saúdos, agradecementos, aclaracións), responde: NO_RETRIEVAL
-Se SI necesita busca (info académica, normativas, procedementos), responde cunha query optimizada (máx 15 palabras).
-
-Exemplos:
-- "Ola" -> NO_RETRIEVAL
-- "Grazas pola información" -> NO_RETRIEVAL
-- "Podes repetir iso?" -> NO_RETRIEVAL
-- "Non entendo a resposta anterior" -> NO_RETRIEVAL
-- "Cales son os prazos de matrícula?" -> prazos matrícula inscrición períodos
-- "Como solicito unha bolsa?" -> proceso solicitude bolsa requisitos
-- "E o calendario de exames?" -> calendario exames datas convocatorias
-
-A túa resposta:"""
+    A túa resposta:"""
         }
-        
+
         template = templates.get(self.language.lower(), templates["english"])
         query_prompt = ChatPromptTemplate.from_template(template)
-        
+
+        callback = ClaudeCostCallback(
+            stage="query_decision",
+            model=self._get_model_name(self.llm_query),
+            cost_tracker=self.cost_tracker,
+        )
+
         chain = query_prompt | self.llm_query | StrOutputParser()
-        
+
         try:
-            response = chain.invoke({
-                "question": user_question,
-                "history": history_text if history_text else "No previous conversation."
-            })
-            
+            response = chain.invoke(
+                {
+                    "question": user_question,
+                    "history": history_text or "No previous conversation.",
+                },
+                config={"callbacks": [callback]},
+            )
+
             response = response.strip()
-            
-            # Detectar si el modelo decidió NO hacer retrieval
-            if "NO_RETRIEVAL" in response.upper():
+
+            # Decisión explícita de NO retrieval
+            if response.upper().startswith("NO_RETRIEVAL"):
                 return False, ""
-            
-            # Limpiar prefijos comunes
-            prefixes_to_remove = [
-                "Query optimizada:", "Optimized query:", "Query:", 
-                "Search query:", "Búsqueda:", "Busca:", "Respuesta:"
-            ]
-            for prefix in prefixes_to_remove:
-                if response.lower().startswith(prefix.lower()):
+
+            # Limpieza de prefijos comunes
+            prefixes = (
+                "query optimizada:",
+                "optimized query:",
+                "query:",
+                "search query:",
+                "búsqueda:",
+                "busca:",
+                "respuesta:",
+            )
+
+            for prefix in prefixes:
+                if response.lower().startswith(prefix):
                     response = response[len(prefix):].strip()
-            
-            return True, response
-            
+                    break
+
+            # Seguridad extra: limitar longitud
+            response_words = response.split()
+            optimized_query = " ".join(response_words[:15])
+
+            return True, optimized_query
+
         except Exception as e:
-            self.log(f"Error en análisis de necesidad de búsqueda: {e}", "error")
-            # En caso de error, por seguridad hacemos retrieval
+            self.log(
+                f"Error en análisis de necesidad de búsqueda: {e}",
+                "error"
+            )
+            # Fail-safe: mejor buscar que no buscar
             return True, user_question
+
     
     def _setup_tfidf(self) -> None:
         """Setup TF-IDF reranker by fitting on all documents in vectorstore."""
@@ -651,110 +703,180 @@ Resposta:"""
         answer_only = re.sub(r'<.*?>.*', '', answer_only, flags=re.DOTALL)
         return answer_only.strip()
     
-    def query(self, question: str, use_history: bool = True) -> Tuple[str, List[Document]]:
-        """Query the RAG system with intelligent retrieval decision.
-        
-        Args:
-            question: User's original question
-            use_history: Whether to include conversation history
-        
-        Returns:
-            Tuple of (answer, source_documents)
+    def query(
+        self,
+        question: str,
+        use_history: bool = True,
+        return_costs: bool = False
+    ):
         """
-        # Format conversation history
+        Query the RAG system with intelligent retrieval decision.
+        """
+
+        # Reset cost tracker for this query
+        self.cost_tracker.reset()
+
+        # -----------------------------
+        # 1. Prepare conversation history
+        # -----------------------------
         history_text = ""
         if use_history:
             history_text = self._format_history(max_turns=5)
-        
-        # STEP 1: Decide if we need to retrieve documents
-        should_retrieve, search_query = self._should_retrieve_documents(question, history_text)
-        
+
+        # -----------------------------
+        # 2. Decide whether to retrieve (Haiku)
+        # -----------------------------
+        should_retrieve, search_query = self._should_retrieve_documents(
+            question,
+            history_text
+        )
+
         if self.verbose:
             self.log(f"📝 Pregunta: {question}", "info")
             if should_retrieve:
                 self.log(f"🔍 Query optimizada: {search_query}", "success")
             else:
-                self.log(f"💬 Sin búsqueda en docs (respuesta directa)", "warning")
-        
-        # STEP 2: Generate answer
+                self.log("💬 Sin búsqueda en documentos", "warning")
+
+        # -----------------------------
+        # 3. Generate answer (Sonnet)
+        # -----------------------------
+        used_retrieval = False
+
         if not should_retrieve:
-            # Respuesta directa sin buscar en documentos
-            direct_prompt_templates = {
+            # ---- Direct answer (no retrieval) ----
+            direct_templates = {
                 "english": """Answer the following question directly. Use conversation history if relevant.
 
-{history}
+    {history}
 
-Question: {input}
+    Question: {input}
 
-Answer:""",
+    Answer:""",
                 "spanish": """Responde directamente a la siguiente pregunta. Usa el historial si es relevante.
 
-{history}
+    {history}
 
-Pregunta: {input}
+    Pregunta: {input}
 
-Respuesta:""",
+    Respuesta:""",
                 "galician": """Responde directamente á seguinte pregunta en galego (NON en portugués). Usa o historial se é relevante.
 
-{history}
+    {history}
 
-Pregunta: {input}
+    Pregunta: {input}
 
-Resposta:"""
+    Resposta:"""
             }
-            
-            template = direct_prompt_templates.get(self.language.lower(), direct_prompt_templates["english"])
-            direct_prompt = ChatPromptTemplate.from_template(template)
-            direct_chain = direct_prompt | self.llm | StrOutputParser()
-            
-            answer = direct_chain.invoke({
-                "input": question,
-                "history": history_text
-            })
-            
-            source_docs = []  # No hay documentos fuente
-            
+
+            template = direct_templates.get(
+                self.language.lower(),
+                direct_templates["english"]
+            )
+
+            prompt = ChatPromptTemplate.from_template(template)
+            chain = prompt | self.llm | StrOutputParser()
+
+            callback = ClaudeCostCallback(
+                stage="answer",
+                model=self._get_model_name(self.llm),
+                cost_tracker=self.cost_tracker,
+            )
+
+            answer = chain.invoke(
+                {
+                    "input": question,
+                    "history": history_text,
+                },
+                config={"callbacks": [callback]},
+            )
+
+            source_docs = []
+
         else:
-            # Búsqueda normal con retrieval
-            result = self.rag_chain.invoke({
-                "input": search_query,
-                "history": history_text
-            })
-            
-            answer = result.get("answer", "No answer found")
+            # ---- RAG answer with retrieval ----
+            callback = ClaudeCostCallback(
+                stage="answer",
+                model=self._get_model_name(self.llm),
+                cost_tracker=self.cost_tracker,
+            )
+
+            result = self.rag_chain.invoke(
+                {
+                    "input": search_query,
+                    "history": history_text,
+                },
+                config={"callbacks": [callback]},
+            )
+
+            answer = result.get("answer", "")
             source_docs = result.get("context", [])
-            
-            # Apply TF-IDF reranking if enabled
-            if self.use_tfidf and self.tfidf_mode in ["rerank", "filter"] and source_docs:
+            used_retrieval = True
+
+            # Optional TF-IDF post-processing
+            if self.use_tfidf and self.tfidf_mode in ("rerank", "filter") and source_docs:
                 original_count = len(source_docs)
-                source_docs = self._apply_tfidf_reranking(search_query, source_docs)
-                
+                source_docs = self._apply_tfidf_reranking(
+                    search_query,
+                    source_docs
+                )
+
                 if self.verbose and self.tfidf_mode == "filter":
-                    self.log(f"Filtrado TF-IDF: {original_count} -> {len(source_docs)} docs", "info")
-            
-            # Add TF-IDF scores
+                    self.log(
+                        f"Filtrado TF-IDF: {original_count} -> {len(source_docs)} docs",
+                        "info"
+                    )
+
             if self.use_tfidf and self.tfidf_reranker and source_docs:
-                scored_docs = self.tfidf_reranker.rerank(search_query, source_docs, top_k=None)
+                scored_docs = self.tfidf_reranker.rerank(
+                    search_query,
+                    source_docs,
+                    top_k=None
+                )
                 for doc, score in scored_docs:
-                    doc.metadata['tfidf_score'] = float(score)
-            
+                    doc.metadata["tfidf_score"] = float(score)
+
             if not source_docs:
                 no_info_messages = {
                     "galician": "Non atopei información relevante nos documentos.",
                     "spanish": "No encontré información relevante en los documentos.",
                     "english": "I couldn't find relevant information in the documents."
                 }
-                answer = no_info_messages.get(self.language.lower(), no_info_messages["english"])
-        
-        if self.verbose:
-            self.log(f"📄 Documentos usados: {len(source_docs)}", "info")
-        
+                answer = no_info_messages.get(
+                    self.language.lower(),
+                    no_info_messages["english"]
+                )
+
+        # -----------------------------
+        # 4. Finalize
+        # -----------------------------
         clean_answer = self.extract_answer_only(answer)
-        
+
         if use_history:
             self._add_to_history(question, clean_answer)
-        
+
+        cost_summary = self.cost_tracker.summary()
+
+        if self.verbose:
+            self.log(f"📄 Documentos usados: {len(source_docs)}", "info")
+            self.log(
+                f"💵 Coste total: ${cost_summary['total_cost']:.6f}",
+                "success"
+            )
+
+        if return_costs:
+            cost_info = {
+                "total_cost": cost_summary["total_cost"],
+                "by_stage": cost_summary["by_stage"],
+                "calls": cost_summary["calls"],
+                "used_retrieval": used_retrieval,
+                "query_model": self._get_model_name(self.llm_query),
+                "answer_model": self._get_model_name(self.llm),
+            }
+            return clean_answer, source_docs, cost_info
+
         return clean_answer, source_docs
+
     
     def get_document_keywords(self, document: Document, top_n: int = 10) -> List[Tuple[str, float]]:
         """Extract top TF-IDF keywords from a document.
@@ -772,6 +894,58 @@ Resposta:"""
         return self.tfidf_reranker.get_top_keywords(document, top_n)
     
     # ========== History Management Methods  ==========
+    
+    def get_cost_summary(self) -> Dict[str, Any]:
+        """Get summary of all costs incurred.
+        
+        Returns:
+            Dictionary with cost statistics
+        """
+        if not self.query_costs:
+            return {
+                'total_cost': 0.0,
+                'num_queries': 0,
+                'avg_cost_per_query': 0.0,
+                'total_query_costs': 0.0,
+                'total_answer_costs': 0.0
+            }
+        
+        return {
+            'total_cost': self.total_cost,
+            'num_queries': len(self.query_costs),
+            'avg_cost_per_query': self.total_cost / len(self.query_costs),
+            'total_query_costs': sum(c['query_cost'] for c in self.query_costs),
+            'total_answer_costs': sum(c['answer_cost'] for c in self.query_costs),
+            'queries_with_retrieval': sum(1 for c in self.query_costs if c['used_retrieval']),
+            'queries_without_retrieval': sum(1 for c in self.query_costs if not c['used_retrieval']),
+        }
+    
+    def print_cost_summary(self) -> None:
+        """Print formatted cost summary."""
+        summary = self.get_cost_summary()
+        
+        if summary['num_queries'] == 0:
+            self.log("No hay queries registradas aún", "info")
+            return
+        
+        self.log("\n" + "="*50, "info")
+        self.log("📊 RESUMEN DE COSTES", "success")
+        self.log("="*50, "info")
+        self.log(f"💵 Coste total: ${summary['total_cost']:.6f}", "success")
+        self.log(f"📝 Número de queries: {summary['num_queries']}", "info")
+        self.log(f"📊 Coste medio por query: ${summary['avg_cost_per_query']:.6f}", "info")
+        self.log(f"🔍 Queries con retrieval: {summary['queries_with_retrieval']}", "info")
+        self.log(f"💬 Queries sin retrieval: {summary['queries_without_retrieval']}", "info")
+        self.log(f"🤖 Coste total Haiku (queries): ${summary['total_query_costs']:.6f}", "info")
+        self.log(f"🧠 Coste total Sonnet (respuestas): ${summary['total_answer_costs']:.6f}", "info")
+        self.log("="*50 + "\n", "info")
+    
+    def reset_costs(self) -> None:
+        """Reset cost tracking."""
+        self.total_cost = 0.0
+        self.query_costs = []
+        if self.verbose:
+            self.log("Costes reseteados", "success")
     
     def clear_history(self) -> None:
         """Clear conversation history."""
