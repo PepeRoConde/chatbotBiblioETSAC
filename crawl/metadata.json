@@ -1,0 +1,79 @@
+{
+  "https://comunicacion.udc.es/es?_gl=1%2A1qhshqy%2A_ga%2AMzgzODE0NjYzLjE2NjQyMDEyOTI.%2A_ga_PKZEC02YMQ%2AczE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MTkzJGozMiRsMCRoMA..": {
+    "etag": "\"1765965269-1\"",
+    "last_modified": "Wed, 17 Dec 2025 09:54:29 GMT",
+    "text_hash": "e606c06be7a6c4a37ff99878a9bea1757e0693eb4529b2e02fb5dfc0ec64a089",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T10:57:16.883980",
+    "last_embedded": null,
+    "text_path": "text\\es_00cd51a6.txt",
+    "original_path": "es_00cd51a6.html",
+    "original_format": "html"
+  },
+  "https://www.udc.es/fcs": {
+    "etag": null,
+    "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
+    "text_hash": "56401bd268faf1dd7ee0938b18eaacbe0c7472528d9d8c83b7f00e96b1fd5550",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T10:57:16.935879",
+    "last_embedded": null,
+    "text_path": "text\\fcs_09df079a.txt",
+    "original_path": "fcs_09df079a.html",
+    "original_format": "html"
+  },
+  "https://www.udc.es/nauticaemaquinas": {
+    "etag": null,
+    "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
+    "text_hash": "9d956d020aa93fc5dc1c9cf5682f2b43ac0a44cd95993ca3038058a87bf23404",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T10:57:16.936253",
+    "last_embedded": null,
+    "text_path": "text\\nauticaemaquinas_2306c944.txt",
+    "original_path": "nauticaemaquinas_2306c944.html",
+    "original_format": "html"
+  },
+  "https://euat.udc.es/?_gl=1*lnvplw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDgyJGo2MCRsMCRoMA..": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 09:57:17 GMT",
+    "text_hash": "feab6df1f214db1fbd2dc6fac4dc7ad2c889d6f096fdf354e1326190c89ae98e",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T10:57:17.664124",
+    "last_embedded": null,
+    "text_path": "text\\euat_udc_es_13d91458.txt",
+    "original_path": "euat_udc_es_13d91458.html",
+    "original_format": "html"
+  },
+  "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 09:57:17 GMT",
+    "text_hash": "75e46c017fcd05d66593653f94ba7e6d3a3fe42bb60526a4cfe711f881f36c22",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T10:57:17.708721",
+    "last_embedded": null,
+    "text_path": "text\\gl_ddb286e0.txt",
+    "original_path": "gl_ddb286e0.html",
+    "original_format": "html"
+  },
+  "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 09:57:17 GMT",
+    "text_hash": "36cd3d7a5a4e21eead969099626d3b216c5f14779cbcb4d78a9a1978fa79709e",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T10:57:17.753174",
+    "last_embedded": null,
+    "text_path": "text\\inefg_udc_es_211ccc1b.txt",
+    "original_path": "inefg_udc_es_211ccc1b.html",
+    "original_format": "html"
+  },
+  "https://caminos.udc.es/hosting/web": {
+    "etag": null,
+    "last_modified": null,
+    "text_hash": "069a5c4079278d71d49a915594b01fa391a9cb93a8a191ebec693404c83351f0",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T10:57:18.052616",
+    "last_embedded": null,
+    "text_path": "text\\web_3e565e89.txt",
+    "original_path": "web_3e565e89.html",
+    "original_format": "html"
+  }
+}
