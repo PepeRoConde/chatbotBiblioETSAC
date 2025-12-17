@@ -1,5 +1,15 @@
-rm -rf crawl/visited_urls.txt
-rm -rf crawl/metadata.json
-rm -rf crawl/map.json
-rm -rf crawl/crawled_data
-rm -rf crawl/text
+#!/bin/bash
+
+# Use first parameter if provided, otherwise default to 'crawl'
+DIR="${1:-crawl}"
+
+echo "Cleaning directory: $DIR"
+
+# Remove files and directories
+rm -rf "$DIR/visited_urls.txt"
+rm -rf "$DIR/metadata.json"
+rm -rf "$DIR/map.json"
+rm -rf "$DIR/crawled_data"
+rm -rf "$DIR/text"
+
+echo "Done! Cleaned $DIR directory."

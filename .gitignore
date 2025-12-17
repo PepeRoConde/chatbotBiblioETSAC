@@ -29,3 +29,5 @@ crawl/
 *.bcf
 *.blg
 *.run.xml
+
+corpora/*

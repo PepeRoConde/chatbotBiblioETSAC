@@ -1,8 +1,0 @@
-Acceso Web Unificado a la UCM (Web SSO)
-Identificarse correctamente en esta página le habilitará la entrada en la mayoría de las aplicaciones y en los servicios en la nube @UCM.
-Confiar en este equipo
-Volver atrás
-Para poder autenticarse es necesario tener configurado un certificado válido en el navegador o tener introducida correctamente en el lector de certificados la tarjeta correspondiente. Pulse "Aceptar" para seguir.
-otros medios de autenticación
-Una vez que se haya autenticado no será necesario identificarse de nuevo para acceder a otros recursos.
-Para desconectarse, recomendamos que cierre su navegador (cerrando todas las ventanas).
