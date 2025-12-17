@@ -571,7 +571,7 @@ class RAGSystem:
     def _create_prompt_template(self) -> ChatPromptTemplate:
         """Create prompt template based on selected language."""
         templates = {
-            "english": """Use the following context from documents and the conversation history (if any) to answer the question. 
+            "english": """Youre a RAGsystem of the University of A Coruña (UDC) use the following context from documents and the conversation history (if any) to answer the question. 
 Be concise and extract important information from the text. 
 If the question refers to something mentioned earlier in the conversation, use that information.
 If you don't know, politely say you don't know instead of making up an answer. 
@@ -585,7 +585,7 @@ Context from documents:
 Question: {input}
 
 Answer:""",
-            "spanish": """Usa el siguiente contexto de los documentos y el historial de conversación (si existe) para responder a la pregunta.
+            "spanish": """Eres un RAGsystem de la universidad da couruña (UDC) usa el siguiente contexto de los documentos y el historial de conversación (si existe) para responder a la pregunta.
 Sé conciso, extrae información importante del texto.
 Si la pregunta hace referencia a algo mencionado anteriormente en la conversación, usa esa información.
 Si no sabes, di educadamente que no sabes, no intentes inventar la respuesta.
@@ -599,7 +599,7 @@ Contexto de los documentos:
 Pregunta: {input}
 
 Respuesta:""",
-            "galician": """Usa o seguinte contexto dos documentos e o historial de conversación (se existe) para responder á pregunta.
+            "galician": """Es un RAGsystem da universidade da couruña (UDC) usa o seguinte contexto dos documentos e o historial de conversación (se existe) para responder á pregunta.
 Responde en galego e NON en portugués. Sé conciso, extrae información importante do texto.
 Se a pregunta fai referencia a algo mencionado anteriormente na conversación, usa esa información.
 Se non sabes a resposta, di educadamente que non o sabes, non intentes inventar.
