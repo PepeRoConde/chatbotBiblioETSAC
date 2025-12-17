@@ -1,79 +1,1723 @@
 {
-  "https://comunicacion.udc.es/es?_gl=1%2A1qhshqy%2A_ga%2AMzgzODE0NjYzLjE2NjQyMDEyOTI.%2A_ga_PKZEC02YMQ%2AczE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MTkzJGozMiRsMCRoMA..": {
-    "etag": "\"1765965269-1\"",
-    "last_modified": "Wed, 17 Dec 2025 09:54:29 GMT",
-    "text_hash": "e606c06be7a6c4a37ff99878a9bea1757e0693eb4529b2e02fb5dfc0ec64a089",
-    "needs_embeddings": true,
-    "last_crawl": "2025-12-17T11:04:05.153118",
-    "last_embedded": null,
-    "text_path": "text\\es_00cd51a6.txt",
-    "original_path": "es_00cd51a6.html",
-    "original_format": "html"
-  },
   "https://www.udc.es/fcs": {
+    "etag": null,
+    "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
+    "text_hash": "7943cd37c7b3bfc1b3d9bc7779779e1f9400cdaa299651e4d384f69721ef4da7",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:07:53.657171",
+    "last_embedded": null,
+    "text_path": "text\\fcs_09df079a.txt",
+    "original_path": "fcs_09df079a.html",
+    "original_format": "html",
+    "last_download": "2025-12-17T11:07:54.629859"
+  },
+  "https://www.udc.es/gl/fcs/": {
     "etag": null,
     "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
     "text_hash": "56401bd268faf1dd7ee0938b18eaacbe0c7472528d9d8c83b7f00e96b1fd5550",
     "needs_embeddings": true,
-    "last_crawl": "2025-12-17T11:04:05.389604",
+    "last_crawl": "2025-12-17T11:07:57.597098",
     "last_embedded": null,
-    "text_path": "text\\fcs_09df079a.txt",
-    "original_path": "fcs_09df079a.html",
-    "original_format": "html"
+    "text_path": "text\\fcs_c6890627.txt",
+    "original_path": "fcs_c6890627.html",
+    "original_format": "html",
+    "discovered_from": "https://www.udc.es/en/fcs/",
+    "last_download": "2025-12-17T11:07:58.569658"
+  },
+  "https://www.udc.es/es/fcs/": {
+    "etag": null,
+    "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
+    "text_hash": "30da558f4e8ad939a36a68e5d922ac4b1edabdb83f48b36eff4e658e7f7410dc",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:04.102333",
+    "last_embedded": null,
+    "text_path": "text\\fcs_bdcd5338.txt",
+    "original_path": "fcs_bdcd5338.html",
+    "original_format": "html",
+    "discovered_from": "https://www.udc.es/en/fcs/",
+    "last_download": "2025-12-17T11:08:04.473668"
+  },
+  "https://www.udc.es/en/fcs/": {
+    "etag": null,
+    "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
+    "text_hash": "1158edee8962696454cf690b065a3ff7ff745178da8a221251887279aac91a75",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:09.805674",
+    "last_embedded": null,
+    "text_path": "text\\fcs_5ee06b94.txt",
+    "original_path": "fcs_5ee06b94.html",
+    "original_format": "html",
+    "discovered_from": "https://www.udc.es/en/fcs/",
+    "last_download": "2025-12-17T11:08:10.340531"
+  },
+  "https://www.udc.es/gl/busca/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/fcs/a-facultade/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/gto/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/mais/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/mux/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/european-master-of-science-in-occupational-therapy/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/doutoramento/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/estudos-propios/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/benvida-do-decano_0001/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/covid19/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/calidade/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/plan-accion-titorial/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/mobilidade/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/green-campus/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/impresos-e-seguros/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/calendario/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/directorio/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/fcs/galeria-fcs/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/sobreUDC/localizacion/corunha/oza/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/oficinaigualdade/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/ocv/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/ori/": {
+    "discovered_from": "https://www.udc.es/gl/fcs/"
+  },
+  "https://www.udc.es/gl/sobreUDC/localizacion/index.html": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/mapa-web/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/pe/aviso_legal/index.html": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/pe/cookies/index.html": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/transparencia/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/identidadecorporativa/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/perfildecontratante/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/estudantes/secretaria-virtual/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/canleinternainformacion/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/biblioteca/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/calendarios/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/rss/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/investigacion/hrs4r/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
   },
   "https://www.udc.es/nauticaemaquinas": {
     "etag": null,
     "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
-    "text_hash": "9d956d020aa93fc5dc1c9cf5682f2b43ac0a44cd95993ca3038058a87bf23404",
+    "text_hash": "2249289e59e4a7306ccaec8666aba60baa6f364cf0152c47cb767e814d79284e",
     "needs_embeddings": true,
-    "last_crawl": "2025-12-17T11:04:05.456144",
+    "last_crawl": "2025-12-17T11:07:57.687976",
     "last_embedded": null,
     "text_path": "text\\nauticaemaquinas_2306c944.txt",
     "original_path": "nauticaemaquinas_2306c944.html",
-    "original_format": "html"
+    "original_format": "html",
+    "last_download": "2025-12-17T11:07:58.838449"
   },
   "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..": {
     "etag": null,
-    "last_modified": "Wed, 17 Dec 2025 10:04:06 GMT",
-    "text_hash": "75e46c017fcd05d66593653f94ba7e6d3a3fe42bb60526a4cfe711f881f36c22",
+    "last_modified": "Wed, 17 Dec 2025 10:07:59 GMT",
+    "text_hash": "eae195040151f66b6b9d6427767d9ab07b2c179db8a589cea7abcf28059b765f",
     "needs_embeddings": true,
-    "last_crawl": "2025-12-17T11:04:06.118826",
+    "last_crawl": "2025-12-17T11:07:58.432991",
     "last_embedded": null,
     "text_path": "text\\gl_ddb286e0.txt",
     "original_path": "gl_ddb286e0.html",
-    "original_format": "html"
-  },
-  "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..": {
-    "etag": null,
-    "last_modified": "Wed, 17 Dec 2025 10:04:06 GMT",
-    "text_hash": "36cd3d7a5a4e21eead969099626d3b216c5f14779cbcb4d78a9a1978fa79709e",
-    "needs_embeddings": true,
-    "last_crawl": "2025-12-17T11:04:06.188145",
-    "last_embedded": null,
-    "text_path": "text\\inefg_udc_es_211ccc1b.txt",
-    "original_path": "inefg_udc_es_211ccc1b.html",
-    "original_format": "html"
+    "original_format": "html",
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main",
+    "last_download": "2025-12-17T11:07:59.637727"
   },
   "https://euat.udc.es/?_gl=1*lnvplw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDgyJGo2MCRsMCRoMA..": {
     "etag": null,
-    "last_modified": "Wed, 17 Dec 2025 10:04:06 GMT",
-    "text_hash": "feab6df1f214db1fbd2dc6fac4dc7ad2c889d6f096fdf354e1326190c89ae98e",
+    "last_modified": "Wed, 17 Dec 2025 10:07:59 GMT",
+    "text_hash": "b67ff4570ab11b713e64aa5c797af7b43659098aa0541fe3dff69b662ab76f31",
     "needs_embeddings": true,
-    "last_crawl": "2025-12-17T11:04:06.221050",
+    "last_crawl": "2025-12-17T11:07:58.885604",
     "last_embedded": null,
     "text_path": "text\\euat_udc_es_13d91458.txt",
     "original_path": "euat_udc_es_13d91458.html",
-    "original_format": "html"
+    "original_format": "html",
+    "last_download": "2025-12-17T11:07:59.976476"
+  },
+  "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:10 GMT",
+    "text_hash": "938532abc5cb489af19a59a68a6e8df0fdcf3fd895d250ea4711270b5de7fa62",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:07:59.559519",
+    "last_embedded": null,
+    "text_path": "text\\inefg_udc_es_211ccc1b.txt",
+    "original_path": "inefg_udc_es_211ccc1b.html",
+    "original_format": "html",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile",
+    "last_download": "2025-12-17T11:08:10.757434"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/": {
+    "etag": null,
+    "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
+    "text_hash": "9d956d020aa93fc5dc1c9cf5682f2b43ac0a44cd95993ca3038058a87bf23404",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:01.787426",
+    "last_embedded": null,
+    "text_path": "text\\nauticaemaquinas_e0ad0535.txt",
+    "original_path": "nauticaemaquinas_e0ad0535.html",
+    "original_format": "html",
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/",
+    "last_download": "2025-12-17T11:08:02.486253"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/": {
+    "etag": null,
+    "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
+    "text_hash": "24f36a4d529e1461db036addda1fac423f16f99da4df7f7e8a5317412636ab61",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:09.689917",
+    "last_embedded": null,
+    "text_path": "text\\nauticaemaquinas_a9788c4d.txt",
+    "original_path": "nauticaemaquinas_a9788c4d.html",
+    "original_format": "html",
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/",
+    "last_download": "2025-12-17T11:08:10.322142"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/": {
+    "etag": null,
+    "last_modified": "Fri, 12 Dec 2025 09:11:01 GMT",
+    "text_hash": "241677c5dd50416e1e3a8cbf4437f8793a81d01c65143dc99ebd4473b9942397",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:15.780071",
+    "last_embedded": null,
+    "text_path": "text\\nauticaemaquinas_104b54bd.txt",
+    "original_path": "nauticaemaquinas_104b54bd.html",
+    "original_format": "html",
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/",
+    "last_download": "2025-12-17T11:08:16.149238"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/oferta-academica/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/estudantes/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/mobilidade/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/calidade/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/greencampus/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/cursos-e-certificados/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/marina-mercante/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/escola/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/servizos/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/invest_transf/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/Foro-Riazor/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/oferta-academica/graos/grao-en-maquinas-navais/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/oferta-academica/graos/grao-en-nautica-e-transporte-maritimo/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/oferta-academica/master/master-en-enxenaria-marina/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/oferta-academica/master/master-en-nautica-e-transporte-maritimo/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/oferta-academica/programa-de-doutorado/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/oferta-academica/practicas-academicas/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://www.udc.es/gl/nauticaemaquinas/emprego/": {
+    "discovered_from": "https://www.udc.es/gl/nauticaemaquinas/"
+  },
+  "https://comunicacion.udc.es/es?_gl=1%2A1qhshqy%2A_ga%2AMzgzODE0NjYzLjE2NjQyMDEyOTI.%2A_ga_PKZEC02YMQ%2AczE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MTkzJGozMiRsMCRoMA..": {
+    "etag": "\"1765965269-1\"",
+    "last_modified": "Wed, 17 Dec 2025 09:54:29 GMT",
+    "text_hash": "7bffc30df3d38b701e5341a955032f065666735b3ee77668c5381ee9b6a77524",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:00.363662",
+    "last_embedded": null,
+    "text_path": "text\\es_00cd51a6.txt",
+    "original_path": "es_00cd51a6.html",
+    "original_format": "html",
+    "last_download": "2025-12-17T11:08:00.968971"
+  },
+  "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:04 GMT",
+    "text_hash": "75e46c017fcd05d66593653f94ba7e6d3a3fe42bb60526a4cfe711f881f36c22",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:03.029421",
+    "last_embedded": null,
+    "text_path": "text\\gl_bee95fb2.txt",
+    "original_path": "gl_bee95fb2.html",
+    "original_format": "html",
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main",
+    "last_download": "2025-12-17T11:08:04.192592"
+  },
+  "https://ciencias.udc.es/es/": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:08 GMT",
+    "text_hash": "e7afb79b7a272e9674915806563ee6f9a24d8936b1198ff9f08a428fa8381793",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:07.212092",
+    "last_embedded": null,
+    "text_path": "text\\es_11ee99d5.txt",
+    "original_path": "es_11ee99d5.html",
+    "original_format": "html",
+    "discovered_from": "https://ciencias.udc.es/en/",
+    "last_download": "2025-12-17T11:08:08.300398"
+  },
+  "https://ciencias.udc.es/en/": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:11 GMT",
+    "text_hash": "4ee788975f0965b365fc2c058a3bb55a31070619522dcbc52cc5930b4e68deba",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:10.916301",
+    "last_embedded": null,
+    "text_path": "text\\en_8fcc05c4.txt",
+    "original_path": "en_8fcc05c4.html",
+    "original_format": "html",
+    "discovered_from": "https://ciencias.udc.es/en/",
+    "last_download": "2025-12-17T11:08:11.550378"
+  },
+  "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-dialog-mobile": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/gl/informacion-xeral": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/calidade": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/estudantes": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/programas-de-mobilidade": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/intraciencias": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/grao-en-bioloxia": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/grao-quimica": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/simultaneidade-info": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/grao-en-nanociencia-e-nanotecnoloxia": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/mestrados": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/as-novas/1869-suplemento-europeo-ao-titulo-2": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/es/green-campus": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/as-novas/2394-benvida-curso-2025-2026": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/as-novas/2437-4th-european-sample-preparation-eusp2026-and-the-3rd-green-and-sustainable-analytical-chemistry-gsac2026": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/as-novas/2436-prazo-ampliado-santander-x-explorer-udc-2026-9-decembro": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/as-novas/2435-programa-bolsas-de-practicas-fundacion-once-crue-na-udc": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/as-novas/2434-os-martes-da-ragc-2-decembro": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/as-novas/2433-2-edicion-do-programa-xeracion-talento-na-universidade-da-coruna-en-colaboracion-coa-fundacion-princesa-de-girona": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/as-novas/2432-proxeccion-pelicula-os-fillos-do-sol": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/as-novas/2431-semana-europea-de-prevencion-de-residuos": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://ciencias.udc.es/gl/as-novas": {
+    "discovered_from": "https://ciencias.udc.es/gl/?_gl=1*etrser*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDg3JGo1NSRsMCRoMA..#tm-main"
+  },
+  "https://euat.udc.es/?_gl=1*lnvplw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDgyJGo2MCRsMCRoMA..#tm-main": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:04 GMT",
+    "text_hash": "feab6df1f214db1fbd2dc6fac4dc7ad2c889d6f096fdf354e1326190c89ae98e",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:03.444162",
+    "last_embedded": null,
+    "text_path": "text\\euat_udc_es_f5c4563d.txt",
+    "original_path": "euat_udc_es_f5c4563d.html",
+    "original_format": "html",
+    "discovered_from": "https://euat.udc.es/?_gl=1*lnvplw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDgyJGo2MCRsMCRoMA..#tm-dialog-mobile",
+    "last_download": "2025-12-17T11:08:04.533716"
+  },
+  "https://euat.udc.es/?_gl=1*lnvplw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDgyJGo2MCRsMCRoMA..#tm-dialog-mobile": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:08 GMT",
+    "text_hash": "feab6df1f214db1fbd2dc6fac4dc7ad2c889d6f096fdf354e1326190c89ae98e",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:07.618640",
+    "last_embedded": null,
+    "text_path": "text\\euat_udc_es_7f6662d1.txt",
+    "original_path": "euat_udc_es_7f6662d1.html",
+    "original_format": "html",
+    "discovered_from": "https://euat.udc.es/?_gl=1*lnvplw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDgyJGo2MCRsMCRoMA..#tm-dialog-mobile",
+    "last_download": "2025-12-17T11:08:08.647636"
+  },
+  "https://euat.udc.es/es/": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:12 GMT",
+    "text_hash": "feab6df1f214db1fbd2dc6fac4dc7ad2c889d6f096fdf354e1326190c89ae98e",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:11.359825",
+    "last_embedded": null,
+    "text_path": "text\\es_a9c60a7d.txt",
+    "original_path": "es_a9c60a7d.html",
+    "original_format": "html",
+    "discovered_from": "https://euat.udc.es/es/",
+    "last_download": "2025-12-17T11:08:12.142492"
+  },
+  "https://euat.udc.es/la-escuela-mov": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/servicios-mov": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/gobierno-mov": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/titulaciones-mov": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/profesorado-mov": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/alumnado-mov": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/noticias-todas-mov": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/la-escuela": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/servicios": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/gobierno": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/titulaciones-es": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/profesorado": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/alumnado": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/noticias-todas": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/noticias-todas/967-11-12-2025-12-12-2025-conferencias-mdip": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/noticias-todas/964-21-11-2025-gira-contalento-en-la-euatac": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/noticias-todas/962-acto-de-graduacion-7-de-noviembre-de-2025": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/noticias-todas/961-octubre-saludable-2025": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/noticias-todas/960-premios-galicia-2024-2025": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/noticias-todas/959-conferencia-pizarra-30-se-septiembre-de-2025": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/index.php/recursos-informaticos/convenio-cype": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/noticias-todas/935-fotografias-acto-de-graduacion": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/index.php/noticias-todas/890-50-aniversario-de-la-euatac": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/es/noticias-todas/841-ranking-el-mundo": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/index.php/noticias-2020-2021/803-importante-suplemento-europeo-al-titulo": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/?_gl=1*lnvplw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDgyJGo2MCRsMCRoMA..#": {
+    "discovered_from": "https://euat.udc.es/?_gl=1*lnvplw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MDgyJGo2MCRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://euat.udc.es/master-ues": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/posgrado-bim": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/?view=article&id=199:bienvenida&catid=18": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/?view=article&id=7:historia-del-titulo-y-sus-distintas-denominaciones&catid=18": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/component/content/article/82-visita-la-escuela?Itemid=893&catid=17": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/web-admin": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://inefg.udc.es/images/Congresos/25-26/I%20Symposium%20Internacional%20Mentoria%20Dual/25-26%20-%20I%20Symposium%20Int%20-%20mentoria%20en%20carrera%20dual.pdf": {
+    "etag": "\"6b697e-645acf19d35ea\"",
+    "last_modified": "Thu, 11 Dec 2025 13:15:50 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:01.271026",
+    "last_embedded": null,
+    "text_path": "text\\25-2620-20I20Symposium20Int20-20mentoria20e_c10052f6.txt",
+    "original_path": "25-2620-20I20Symposium20Int20-20mentoria20e_c10052f6.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://comunicacion.udc.es/es?_gl=1%2A1qhshqy%2A_ga%2AMzgzODE0NjYzLjE2NjQyMDEyOTI.%2A_ga_PKZEC02YMQ%2AczE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MTkzJGozMiRsMCRoMA..#main-content": {
+    "etag": "\"1765965269-1\"",
+    "last_modified": "Wed, 17 Dec 2025 09:54:29 GMT",
+    "text_hash": "e606c06be7a6c4a37ff99878a9bea1757e0693eb4529b2e02fb5dfc0ec64a089",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:03.455292",
+    "last_embedded": null,
+    "text_path": "text\\es_4f30ec31.txt",
+    "original_path": "es_4f30ec31.html",
+    "original_format": "html",
+    "discovered_from": "https://comunicacion.udc.es/es?_gl=1%2A1qhshqy%2A_ga%2AMzgzODE0NjYzLjE2NjQyMDEyOTI.%2A_ga_PKZEC02YMQ%2AczE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MTkzJGozMiRsMCRoMA..#main-content",
+    "last_download": "2025-12-17T11:08:04.185965"
+  },
+  "https://comunicacion.udc.es/es/": {
+    "etag": "\"1765946222-1\"",
+    "last_modified": "Wed, 17 Dec 2025 04:37:02 GMT",
+    "text_hash": "e606c06be7a6c4a37ff99878a9bea1757e0693eb4529b2e02fb5dfc0ec64a089",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:06.424114",
+    "last_embedded": null,
+    "text_path": "text\\es_8cdc8814.txt",
+    "original_path": "es_8cdc8814.html",
+    "original_format": "html",
+    "discovered_from": "https://comunicacion.udc.es/es/facultad",
+    "last_download": "2025-12-17T11:08:07.171610"
+  },
+  "https://comunicacion.udc.es/es/facultad": {
+    "etag": "\"1765960210-1\"",
+    "last_modified": "Wed, 17 Dec 2025 08:30:10 GMT",
+    "text_hash": "2bcf883ea6f14310950103386d32f38c7b1e5dd7c6817492c5d3736a5b68db85",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:10.196191",
+    "last_embedded": null,
+    "text_path": "text\\facultad_c9f5ac41.txt",
+    "original_path": "facultad_c9f5ac41.html",
+    "original_format": "html",
+    "discovered_from": "https://comunicacion.udc.es/es/facultad",
+    "last_download": "2025-12-17T11:08:10.529966"
+  },
+  "https://comunicacion.udc.es/es/organos_colegiados": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/sgic": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/sistema_de_practicas": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/Plan_Accion_Tutorial": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/movilidad": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/normativas": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/docencia": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/grados": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/posgrados": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/investigacion": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/actividades": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/servicios": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/planes_estudios": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/calendario_academico": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/horarios_grados": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/SGIC": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/sugerencias": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/traslado_de_expedientes": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/biblioteca": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/green-campus": {
+    "discovered_from": "https://comunicacion.udc.es/es?_gl=1%2A1qhshqy%2A_ga%2AMzgzODE0NjYzLjE2NjQyMDEyOTI.%2A_ga_PKZEC02YMQ%2AczE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MTkzJGozMiRsMCRoMA..#main-content"
+  },
+  "https://comunicacion.udc.es/en": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/gl": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/curriculares/becas-colaboraci%C3%B3n-para-el-curso-2025-2026": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/goya-proyecci%C3%B3n-de-cortometrajes-preseleccionados": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/demo-game-jam": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/charla-de-alberto-v%C3%A1zquez": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/tfg-cav-septiembre-2025": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/tfg-cdav-septiembre-2025": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/gu%C3%ADas-docentes-25-26": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/cdav-grupos-medios": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/cav-grupos-medios": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/bienvenida-cdav-2025-2026": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/bienvenida-cav-2025-2026": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/mpxa-listas-definitivas-1": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/listado-movilidad-2025-26": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/listas-provisionales-admitidos-y-espera": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/cav-modificaci%C3%B3n-grado": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/admitidos-lista-de-espera": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/tfg-cav-julio-2025": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/curriculares/tfg-cdav-junio-2025": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/portada?_gl=1%2A1qhshqy%2A_ga%2AMzgzODE0NjYzLjE2NjQyMDEyOTI.%2A_ga_PKZEC02YMQ%2AczE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MTkzJGozMiRsMCRoMA..&page=1": {
+    "discovered_from": "https://comunicacion.udc.es/es?_gl=1%2A1qhshqy%2A_ga%2AMzgzODE0NjYzLjE2NjQyMDEyOTI.%2A_ga_PKZEC02YMQ%2AczE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MTkzJGozMiRsMCRoMA..#main-content"
+  },
+  "https://comunicacion.udc.es/es/contact": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/sitemap": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/user": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://inefg.udc.es/images/Grado%20CCAFD/Curso%202025-26/2025-26%20-%20Grado%20CCAFD%20-%20Calendario%20y%20horarios%20-%20modif.%20CGC%2028-09-2025%20.pdf": {
+    "etag": "\"141669-63ff80a7f9ce9\"",
+    "last_modified": "Mon, 29 Sep 2025 22:20:20 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:03.004274",
+    "last_embedded": null,
+    "text_path": "text\\2025-2620-20Grado20CCAFD20-20Calendario20y2_b5757acb.txt",
+    "original_path": "2025-2620-20Grado20CCAFD20-20Calendario20y2_b5757acb.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://www.udc.es/export/sites/udc/futuros_estudantes/_galeria_down/E_Normativa_de_preinscripcion_2025_26.pdf_2063069294.pdf": {
+    "etag": null,
+    "last_modified": "Tue, 21 Jan 2025 07:04:59 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:04.304520",
+    "last_embedded": null,
+    "text_path": "text\\E_Normativa_de_preinscripcion_2025_26.pdf_20630692_dd3f9358.txt",
+    "original_path": "E_Normativa_de_preinscripcion_2025_26.pdf_20630692_dd3f9358.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
   },
   "https://caminos.udc.es/hosting/web": {
     "etag": null,
     "last_modified": null,
-    "text_hash": "069a5c4079278d71d49a915594b01fa391a9cb93a8a191ebec693404c83351f0",
+    "text_hash": "2f0ee5bde4438b63f69d1f9bde3ef5b9879d13fbbf56c1675b3aa18bf1ccba45",
     "needs_embeddings": true,
-    "last_crawl": "2025-12-17T11:04:06.567264",
+    "last_crawl": "2025-12-17T11:08:04.462714",
     "last_embedded": null,
     "text_path": "text\\web_3e565e89.txt",
     "original_path": "web_3e565e89.html",
-    "original_format": "html"
+    "original_format": "html",
+    "last_download": "2025-12-17T11:08:10.061678"
+  },
+  "https://caminos.udc.es/escuela/archivos/reglamentos/regulamento_escola_caminos.pdf": {
+    "etag": "\"5539e-5f2848923ad0b\"",
+    "last_modified": "Wed, 18 Jan 2023 07:12:13 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:05.256553",
+    "last_embedded": null,
+    "text_path": "text\\regulamento_escola_caminos_f4b529d0.txt",
+    "original_path": "regulamento_escola_caminos_f4b529d0.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://inefg.udc.es/images/Grado%20CCAFD/Curso%202025-26/25-26%20-%20Convocatoria%20solicitud%20de%20taquillas.report.pdf": {
+    "etag": "\"5988c-63f2a47d5ec6a\"",
+    "last_modified": "Fri, 19 Sep 2025 16:51:26 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:05.411607",
+    "last_embedded": null,
+    "text_path": "text\\25-2620-20Convocatoria20solicitud20de20taquil_8b269d4d.txt",
+    "original_path": "25-2620-20Convocatoria20solicitud20de20taquil_8b269d4d.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://www.udc.es/es/busca/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/fcs/a-facultade/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/gto/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/mais/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/mux/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/european-master-of-science-in-occupational-therapy/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/doutoramento/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/estudos-propios/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/benvida-do-decano_0001/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/covid19/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/calidade/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/plan-accion-titorial/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/mobilidade/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/green-campus/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/impresos-e-seguros/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/calendario/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/directorio/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/fcs/galeria-fcs/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/sobreUDC/localizacion/corunha/oza/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/oficinaigualdade/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/ocv/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/ori/": {
+    "discovered_from": "https://www.udc.es/es/fcs/"
+  },
+  "https://www.udc.es/es/sobreUDC/localizacion/index.html": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/mapa-web/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/pe/aviso_legal/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/pe/cookies/index.html": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/transparencia/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/identidadecorporativa/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/perfildecontratante/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/estudantes/secretaria-virtual/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/canleinternainformacion/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/biblioteca/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/calendarios/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/rss/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/investigacion/hrs4r/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://caminos.udc.es/hosting/web/wp-content/uploads/ReglamentoE2.pdf": {
+    "etag": "\"2a325-6246a3532ee52\"",
+    "last_modified": "Mon, 14 Oct 2024 06:47:17 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:06.329312",
+    "last_embedded": null,
+    "text_path": "text\\ReglamentoE2_007db16b.txt",
+    "original_path": "ReglamentoE2_007db16b.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "http://caminos.udc.es/escuela/archivos/ReglamentoTFG.pdf": {
+    "etag": "\"3999b-4da12a710b880\"",
+    "last_modified": "Thu, 11 Apr 2013 09:45:54 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:06.414803",
+    "last_embedded": null,
+    "text_path": "text\\ReglamentoTFG_2ff64eb4.txt",
+    "original_path": "ReglamentoTFG_2ff64eb4.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "http://caminos.udc.es/escuela/archivos/reglamentos/reglamento_proyecto_tecnico.pdf": {
+    "etag": "\"2ad46-5b6304a720fa5\"",
+    "last_modified": "Fri, 11 Dec 2020 13:30:07 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:06.467003",
+    "last_embedded": null,
+    "text_path": "text\\reglamento_proyecto_tecnico_d4fc2473.txt",
+    "original_path": "reglamento_proyecto_tecnico_d4fc2473.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://inefg.udc.es/images/Grado%20CCAFD/Materias%20del%20grado/Tabla%20de%20asignaturas%20-%20Plan%20Modificado%20y%20calendario%20de%20implantacion.pdf": {
+    "etag": "\"23460-6311872e4689d\"",
+    "last_modified": "Mon, 24 Mar 2025 15:42:16 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:06.808707",
+    "last_embedded": null,
+    "text_path": "text\\Tabla20de20asignaturas20-20Plan20Modificado2_d4e59337.txt",
+    "original_path": "Tabla20de20asignaturas20-20Plan20Modificado2_d4e59337.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://caminos.udc.es/hosting/web/wp-content/uploads/06_Calendario_Avaliac_Compens_25_26.pdf": {
+    "etag": "\"20530-63fff69d68357\"",
+    "last_modified": "Tue, 30 Sep 2025 07:08:05 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:07.733723",
+    "last_embedded": null,
+    "text_path": "text\\06_Calendario_Avaliac_Compens_25_26_ba5c052a.txt",
+    "original_path": "06_Calendario_Avaliac_Compens_25_26_ba5c052a.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://comunicacion.udc.es/es/#main-content": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/es/green-campus": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://comunicacion.udc.es/es/portada?page=1": {
+    "discovered_from": "https://comunicacion.udc.es/es/"
+  },
+  "https://caminos.udc.es/hosting/web/wp-content/uploads/04-05-NORMATIVA-PRUEBA-DE-APTITUD-Aprobada-6-03-2023.pdf": {
+    "etag": "\"2ecee-61507243f4189\"",
+    "last_modified": "Mon, 01 Apr 2024 11:17:57 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:09.084382",
+    "last_embedded": null,
+    "text_path": "text\\04-05-NORMATIVA-PRUEBA-DE-APTITUD-Aprobada-6-03-20_922ec9e5.txt",
+    "original_path": "04-05-NORMATIVA-PRUEBA-DE-APTITUD-Aprobada-6-03-20_922ec9e5.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://ciencias.udc.es/es/#tm-main": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/#tm-dialog-mobile": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/la-facultad": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/calidad": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/estudiantes": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/movilidad": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/intraciencias": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/grado-en-biologia": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/es/grado-en-quimica": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/es/presentacion-es": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/es/grado-en-nanociencia-y-nanotecnologia": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/es/masteres-y-doctorados": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/#": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/as-novas/2437-4th-european-sample-preparation-eusp2026-and-the-3rd-green-and-sustainable-analytical-chemistry-gsac2026": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/as-novas/2436-prazo-ampliado-santander-x-explorer-udc-2026-9-decembro": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/as-novas/2435-programa-bolsas-de-practicas-fundacion-once-crue-na-udc": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/as-novas/2434-os-martes-da-ragc-2-decembro": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/as-novas/2433-2-edicion-do-programa-xeracion-talento-na-universidade-da-coruna-en-colaboracion-coa-fundacion-princesa-de-girona": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/as-novas/2432-proxeccion-pelicula-os-fillos-do-sol": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/as-novas/2431-semana-europea-de-prevencion-de-residuos": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/contacts": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://ciencias.udc.es/es/as-novas": {
+    "discovered_from": "https://ciencias.udc.es/es/"
+  },
+  "https://inefg.udc.es/images/PAT/Proxecto%20PAT%20%2024-25%20Facultade%20CC%20Deporte%20e%20EF%20Tutores%20y%20Guia%20Basica%20alumnado%20.pdf": {
+    "etag": "\"2706c-6289a6c8d81e5\"",
+    "last_modified": "Fri, 06 Dec 2024 13:59:31 GMT",
+    "text_hash": "1caaff2e860924cda94cfbedd1644b870b1a6259c5cbb241010940662bf1d437",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:09.812381",
+    "last_embedded": null,
+    "text_path": "text\\Proxecto20PAT202024-2520Facultade20CC20Depor_9d967d58.txt",
+    "original_path": "Proxecto20PAT202024-2520Facultade20CC20Depor_9d967d58.pdf",
+    "original_format": "pdf",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://caminos.udc.es/hosting/web#content": {
+    "etag": null,
+    "last_modified": null,
+    "text_hash": "069a5c4079278d71d49a915594b01fa391a9cb93a8a191ebec693404c83351f0",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:13.103492",
+    "last_embedded": null,
+    "text_path": "text\\web_b7191420.txt",
+    "original_path": "web_b7191420.html",
+    "original_format": "html",
+    "discovered_from": "https://caminos.udc.es/hosting/web#",
+    "last_download": "2025-12-17T11:08:16.754402"
+  },
+  "https://caminos.udc.es/hosting/web/": {
+    "etag": null,
+    "last_modified": null,
+    "text_hash": "069a5c4079278d71d49a915594b01fa391a9cb93a8a191ebec693404c83351f0",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:19.772511",
+    "last_embedded": null,
+    "text_path": "text\\web_81fe3e29.txt",
+    "original_path": "web_81fe3e29.html",
+    "original_format": "html",
+    "discovered_from": "https://caminos.udc.es/hosting/web#",
+    "last_download": "2025-12-17T11:08:22.351362"
+  },
+  "https://caminos.udc.es/hosting/web#": {
+    "etag": null,
+    "last_modified": null,
+    "text_hash": "069a5c4079278d71d49a915594b01fa391a9cb93a8a191ebec693404c83351f0",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:25.523525",
+    "last_embedded": null,
+    "text_path": "text\\web_0757b6be.txt",
+    "original_path": "web_0757b6be.html",
+    "original_format": "html",
+    "discovered_from": "https://caminos.udc.es/hosting/web#",
+    "last_download": "2025-12-17T11:08:28.198706"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/nuestraescuela/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/equipo-directivo/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/junta-de-escuela/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/comision-permanente/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/calidad/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/localizacion/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/contacto-3/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/wp-content/uploads/02-ESCUELA-PAS-directorio-2025-04-abril.pdf": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/grados/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/grados-2/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/tc_doctorado/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/calendarios-academicos/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/distribucion-de-aulas/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/reconocimientos/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "http://caminos.udc.es/hosting/delalumnos/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/convenios-intercambio/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/pat/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/estancia-en-practicas/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/premios-convocados/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/info/asignaturas/510/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/solicitudes/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/departamentos/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/departamentos-2/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/grupos-de-investigacion/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/localizacion": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/grado-en-tecnologia-de-la-ingenieria-civil-horarios-y-examenes/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/grado-en-ingenieria-de-obras-publicas/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/master-en-ingenieria-de-caminos-canales-y-puertos-horarios-y-examenes/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/actos-de-despedida-de-promocion-y-entrega-de-diplomas/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/faq/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "http://caminos.udc.es/hosting/web/index.php/historico-de-noticias": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/2025/11/21/anuncio-de-lectura-de-tesis-doctoral-copy/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/2025/11/13/anuncio-de-lectura-de-tesis-doctoral-3/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/2025/11/13/anuncio-de-lectura-de-tesis-doctoral-2/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/2025/11/05/resolucion-definitiva-de-becas-de-divulgacion-de-la-escuela/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/page/2/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/page/25/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/empleo": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/delalumnos/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://caminos.udc.es/hosting/web/index.php/green-campus/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "http://caminos.udc.es/hosting/web/index.php/contacto-3/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "http://caminos.udc.es/hosting/web/index.php/politica-de-cookies/": {
+    "discovered_from": "https://caminos.udc.es/hosting/web#"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/oferta-academica/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/estudantes/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/mobilidade/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/calidade/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/greencampus/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/cursos-e-certificados/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/marina-mercante/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/escola/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/servizos/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/invest_transf/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/Foro-Riazor/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/oferta-academica/graos/grao-en-maquinas-navais/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/oferta-academica/graos/grao-en-nautica-e-transporte-maritimo/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/oferta-academica/master/master-en-enxenaria-marina/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/oferta-academica/master/master-en-nautica-e-transporte-maritimo/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/oferta-academica/programa-de-doutorado/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/oferta-academica/practicas-academicas/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/es/nauticaemaquinas/emprego/": {
+    "discovered_from": "https://www.udc.es/es/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/busca/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/fcs/a-facultade/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/gto/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/mais/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/mux/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/european-master-of-science-in-occupational-therapy/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/doutoramento/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/estudos-propios/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/benvida-do-decano_0001/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/covid19/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/calidade/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/plan-accion-titorial/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/mobilidade/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/green-campus/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/impresos-e-seguros/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/calendario/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/directorio/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/fcs/galeria-fcs/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/sobreUDC/localizacion/corunha/oza/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/oficinaigualdade/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/ocv/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/ori/": {
+    "discovered_from": "https://www.udc.es/en/fcs/"
+  },
+  "https://www.udc.es/en/sobreUDC/localizacion/index.html": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/mapa-web/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/pe/aviso_legal/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/transparencia/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/identidadecorporativa/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/perfildecontratante/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/estudantes/secretaria-virtual/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/canleinternainformacion/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/biblioteca/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/calendarios/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/rss/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/investigacion/hrs4r/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://comunicacion.udc.es/es/facultad#main-content": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/localizacion": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/es/directorio": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/en/about-faculty": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://comunicacion.udc.es/gl/sobre-facultade": {
+    "discovered_from": "https://comunicacion.udc.es/es/facultad"
+  },
+  "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-main": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:19 GMT",
+    "text_hash": "36cd3d7a5a4e21eead969099626d3b216c5f14779cbcb4d78a9a1978fa79709e",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:13.238073",
+    "last_embedded": null,
+    "text_path": "text\\inefg_udc_es_d31c8feb.txt",
+    "original_path": "inefg_udc_es_d31c8feb.html",
+    "original_format": "html",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile",
+    "last_download": "2025-12-17T11:08:19.987949"
+  },
+  "https://inefg.udc.es/": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:28 GMT",
+    "text_hash": "36cd3d7a5a4e21eead969099626d3b216c5f14779cbcb4d78a9a1978fa79709e",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:22.489259",
+    "last_embedded": null,
+    "text_path": "text\\inefg_udc_es_27ee43a0.txt",
+    "original_path": "inefg_udc_es_27ee43a0.html",
+    "original_format": "html",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile",
+    "last_download": "2025-12-17T11:08:28.691561"
+  },
+  "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile": {
+    "etag": null,
+    "last_modified": "Wed, 17 Dec 2025 10:08:36 GMT",
+    "text_hash": "36cd3d7a5a4e21eead969099626d3b216c5f14779cbcb4d78a9a1978fa79709e",
+    "needs_embeddings": true,
+    "last_crawl": "2025-12-17T11:08:31.065284",
+    "last_embedded": null,
+    "text_path": "text\\inefg_udc_es_58e15421.txt",
+    "original_path": "inefg_udc_es_58e15421.html",
+    "original_format": "html",
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile",
+    "last_download": "2025-12-17T11:08:36.831930"
+  },
+  "https://inefg.udc.es/facultad": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/departamentos/depefd": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/departamentos/2011-11-10-08-47-25": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/departamentos/2011-11-10-08-50-01": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/biblioteca-inef": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/calidad-es": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/estudiantado": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/presentacion-estudios": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/investigacion-en-la-facultad": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/movilidad": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/servicios": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/asociacion-de-estudiantes": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/green-campus-espanol": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/noticias-es": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/documents": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/galeria": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/gl/": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/noticias-es/1124-25-26-centro-de-estudios-e-investigacion-olimpico-ceo-2": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/grado-cafd/horarios": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/noticias-es/786-convocatoria-adelantada-de-diciembre-2021": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Grado%20CCAFD/Curso%202025-26/2025-26%20-%20Convocatoria%20Adelantada%20-%20Fechas%20de%20examenes.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/master-univ-en-ciencia-del-ejercicio-preparacion-fisica-y-readaptacion-deportiva/lista-de-alumno-admitido-mucepfrd": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Master%20Univ%20-%20CEPFRD/2025-26/2025-26%20-%20Listado%203%20admitidos%20a%20vacantes%20MU%20CEPFRD%20-%20Octubre.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Master%20Univ%20-%20CEPFRD/2025-26/2025-26%20-%20Listado%202%20admtidos%20a%20vacantes%20MU%20CEPFRD%20-%20Octubre.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Master%20Univ%20-%20CEPFRD/2025-26/2025-26%20-%20Listado%20definitivo%20MU%20CEPFRD%20-%201%20Prazo%20Xullo%20-%20vacantes.report.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Master%20Univ%20-%20CEPFRD/2025-26/2025-26%20-%20Listado%20admitidos%20a%20vacantes%20MU%20CEPFRD%20-%20Septiembre.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Master%20Univ%20-%20CEPFRD/2025-26/2025-26%20-%20Listado%20definitivo%20MU%20CEPFRED%20-%202%20Plazo.report.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Master%20Univ%20-%20CEPFRD/2025-26/2025-26%20-%20MU%20-%20CEPFRD%20-%20Listado%20defnifito%20%201%20plazo.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Master%20Univ%20-%20CEPFRD/2025-26/2025-26%20-%20Listado%20provisional%20MU%20CEPFRD%20-%201%20Prazo%20Xullo%202025.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/taquillas-esp/solicitud-y-concesion-taquillas-25-26": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Taquillas/2025-26%20-%20Relacion%20taquillas%20concedidas.report.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/2011-08-08-22-13-02/lista-del-alumnado-admitido": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Doctorado/2025_26_POD/POD%20-%2025-26%20-%20Lista%20definitivo%20admitidos%20-%20plazo%20ordinario.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Doctorado/2025_26_POD/POD%20-25-26%20-%20Lista%20definifitva%20-plazo%20ordinario_puntuacion.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/distribucion-por-grupos/distribucion-por-grupos-1o-cuatrimestre": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/master-inter-universitario-en-actividad-fisica-deporte-y-salud/lista-de-alumno-admitido": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/grado-cafd/presentacion-del-curso": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/master-inter-universitario-en-actividad-fisica-deporte-y-salud/master-calendario-horarios-examenes": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/?start=6": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/?start=12": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/?start=18": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/grado-cafd/portal-del-titulo": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/grado-cafd/guias-docentes-asignaturas-a-partir-del-curso-24-25": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/grado-cafd/portal-del-titulo-en-proceso-de-extincion": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://inefg.udc.es/images/Grado%20CCAFD/Materias%20del%20grado/Tabla%20de%20asignaturas%20-%20Curso%202025-26%20-%20con%20codigos%20sigma_.pdf": {
+    "discovered_from": "https://inefg.udc.es/?_gl=1*ngnvbw*_ga*MzgzODE0NjYzLjE2NjQyMDEyOTI.*_ga_PKZEC02YMQ*czE3NjMwMzc5NjAkbzUyJGcxJHQxNzYzMDM4MjM4JGo0NyRsMCRoMA..#tm-dialog-mobile"
+  },
+  "https://ciencias.udc.es/en/#tm-main": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/#tm-dialog-mobile": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/the-faculty": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/quality": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/students": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/mobility": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/masters-and-doctoral-programs": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/#": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/as-novas/2437-4th-european-sample-preparation-eusp2026-and-the-3rd-green-and-sustainable-analytical-chemistry-gsac2026": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/as-novas/2436-prazo-ampliado-santander-x-explorer-udc-2026-9-decembro": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/as-novas/2435-programa-bolsas-de-practicas-fundacion-once-crue-na-udc": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/as-novas/2434-os-martes-da-ragc-2-decembro": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/as-novas/2433-2-edicion-do-programa-xeracion-talento-na-universidade-da-coruna-en-colaboracion-coa-fundacion-princesa-de-girona": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/as-novas/2432-proxeccion-pelicula-os-fillos-do-sol": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/as-novas/2431-semana-europea-de-prevencion-de-residuos": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/contacts": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://ciencias.udc.es/en/as-novas": {
+    "discovered_from": "https://ciencias.udc.es/en/"
+  },
+  "https://euat.udc.es/es/#tm-main": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/es/#tm-dialog-mobile": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://euat.udc.es/es/#": {
+    "discovered_from": "https://euat.udc.es/es/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/oferta-academica/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/estudantes/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/mobilidade/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/calidade/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/greencampus/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/cursos-e-certificados/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/marina-mercante/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/escola/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/servizos/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/invest_transf/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/Foro-Riazor/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/oferta-academica/graos/grao-en-maquinas-navais/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/oferta-academica/graos/grao-en-nautica-e-transporte-maritimo/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/oferta-academica/master/master-en-enxenaria-marina/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/oferta-academica/master/master-en-nautica-e-transporte-maritimo/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/oferta-academica/programa-de-doutorado/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/oferta-academica/practicas-academicas/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://www.udc.es/en/nauticaemaquinas/emprego/": {
+    "discovered_from": "https://www.udc.es/en/nauticaemaquinas/"
+  },
+  "https://caminos.udc.es/hosting/web/#content": {
+    "discovered_from": "https://caminos.udc.es/hosting/web/"
+  },
+  "https://caminos.udc.es/hosting/web/#": {
+    "discovered_from": "https://caminos.udc.es/hosting/web/"
+  },
+  "https://inefg.udc.es/#tm-main": {
+    "discovered_from": "https://inefg.udc.es/"
+  },
+  "https://inefg.udc.es/#tm-dialog-mobile": {
+    "discovered_from": "https://inefg.udc.es/"
+  },
+  "https://inefg.udc.es/#": {
+    "discovered_from": "https://inefg.udc.es/"
   }
 }
