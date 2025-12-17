@@ -1,0 +1,33 @@
+question,recall,precision,mrr,rank_first_relevant,faithfulness,answer
+¿Quién es el rector de la universidad?,0.0,0.0,0.0,-1,1.0,"Sentinto moito, pero non podo extraer o nome completo do reitor actual da Universidade da Coruña a p..."
+¿Quién encabeza el equipo rectoral?,0.0,0.0,0.0,-1,0.5,"Baseándome no contexto proporcionado, non podo identificar o nome específico do reitor actual da Uni..."
+Cuál es el horario habitual del Edificio Xoana Capdevielle,1.0,1.0,1.0,1,0.0,"Baseándome no contexto proporcionado, podo informarlle sobre o Edificio Xoana Capdevielle:
+
+Localiza..."
+Cuántos ejemplares reune la biblioteca de Informática,0.0,0.0,0.0,-1,0.5,"Sentinto, pero non podo atopar no contexto proporcionado información específica sobre o número total..."
+Cuántos libros hay en la biblioteca de la facultad de informática,0.0,0.0,0.0,-1,0.5,"Sentinto moito, pero non podo extraer do contexto proporcionado o número total de libros da bibliote..."
+Cuántos créditos tiene el grado en estudios de arquitectura,0.0,0.0,0.0,-1,0.5,"Baseándome no contexto proporcionado, podo informar sobre o Grao en Estudos de Arquitectura na UDC:
+..."
+Cuál es el horario de atención de la secretaría de la facultad de informática,1.0,0.4,1.0,1,1.0,"Segundo a información dispoñible, o horario de atención ao público na Secretaría da Facultade de Inf..."
+Cuál es el horario de la biblioteca de la facultad de sociología en días lectivos,1.0,0.2,0.3333333333333333,3,0.5,"Sentino moito, pero non podo atopar no contexto proporcionado información específica sobre o horario..."
+Cuánto dura el grado de arquitectura,0.0,0.0,0.0,-1,0.5,"Baseándome no contexto proporcionado, podo ver que hai dous graos relacionados con Arquitectura:
+
+1...."
+Cómo puedo convalidar créditos,0.0,0.0,0.0,-1,0.5,"Baseándome no contexto proporcionado, non atopo información detallada sobre o procedemento específic..."
+Cuánto tiempo tengo para modificar el contrato de estudios de movilidad,1.0,1.0,1.0,1,0.5,"Baseándome no contexto proporcionado, non podo atopar un prazo límite específico para a modificación..."
+Quién se encarga de gestionar las becas y las ayudas a la movilidad,1.0,0.4,1.0,1,0.5,"Baseándome nos documentos proporcionados, podo informar sobre os requisitos xerais para bolsas de mo..."
+Cuánto tiempo tengo para modificar mis asignaturas de erasmus,1.0,0.6,1.0,1,1.0,"Baseándome no contexto proporcionado, podo informarlle que:
+
+O prazo para modificar o contrato de pr..."
+Criterios para el reconocimiento de créditos,1.0,0.2,1.0,1,0.5,"Baseándome nos documentos proporcionados, podo ofrecer a seguinte información sobre os criterios de ..."
+Número de créditos mínimos para matrícula,0.0,0.0,0.0,-1,0.0,"Baseándome nos documentos proporcionados, podo informarlle sobre os requisitos de créditos mínimos n..."
+Qué tipo de prácticas hay en la facultad de informática,1.0,0.2,0.2,5,0.5,Na Facultade de Informática da Coruña (FIC) existen dous tipos principais de prácticas para os estud...
+Cuanto es la cantidad mínima de asignaturas en la que me puedo matricular si soy estudiante a tiempo completo,1.0,1.0,1.0,1,0.5,"Baseándome no contexto proporcionado, podo indicar que para estudantes a tempo completo na Universid..."
+Cuantos libros puedo llevarme de préstamo,1.0,1.0,1.0,1,1.0,"Sentíntoo, pero non atopo no contexto proporcionado unha información clara sobre o número máximo de ..."
+Cuantos días de préstamo me corresponden si soy estudiante de doctorado,1.0,1.0,1.0,1,0.0,"Baseándome no contexto proporcionado, non atopo información específica sobre os días de préstamo par..."
+Quien es el coordinador responsable de relaciones internacionales en la facultad de informática,1.0,0.2,0.2,5,0.0,"Segundo a información dispoñible, o coordinador de relacións internacionais da Facultade de Informát..."
+Cuantas plazas hay para el grado en Inteligencia Artificial,1.0,0.4,1.0,1,1.0,"Segundo a información dispoñible, o Grao en Intelixencia Artificial na Universidade da Coruña (Campu..."
+Que grados de ciencias de la salud hay en el campus de A Coruña,1.0,0.6,1.0,1,0.5,"Baseándome no documento de notas de corte da UDC para 2025, os graos de Ciencias da Saúde no Campus ..."
+Qué permite la tarjeta universitaria,1.0,0.8,1.0,1,0.5,"Baseándome no contexto proporcionado, as funcións e beneficios da tarxeta universitaria para estudan..."
+Qué tengo que hacer para usar la tarjeta universitaria en digital,1.0,1.0,1.0,1,0.8,"Baseándome no contexto proporcionado, podo explicarlle os pasos para obter a tarxeta universitaria d..."
+Cual es la fecha límite de firma de actas para TFG/TFM,1.0,1.0,1.0,1,1.0,"Segundo o documento, a data límite de firma e entrega de actas para TFG/TFM na Universidade da Coruñ..."

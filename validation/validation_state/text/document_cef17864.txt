@@ -1,0 +1,739 @@
+  
+1 
+ 
+Acordo do Consello de Goberno, do 28 de maio de 2025, polo que se aproba a 
+normativa que regula o réxime de dedicación ao estudo e o procedemento de 
+dispensa académica para o estudantado de grao e mestrado universitario  
+ 
+PREÁMBULO ............................................................................................................. 2 
+CAPÍTULO I. Disposicións xerais ............................................................................... 3 
+Artigo 1. Obxecto e ámbito de aplicación ................................................................ 3 
+CAPÍTULO II. Réximes de dedicación ao estudo ....................................................... 3 
+Artigo 2. Modalidades de dedicación ...................................................................... 3 
+Artigo 3. Réxime de dedicación a tempo completo ................................................. 4 
+Artigo 4. Réxime de dedicación a tempo parcial ..................................................... 5 
+Artigo 5. Réxime de matrícula adaptada ................................................................. 5 
+Artigo 6. Causas polas que pode solicitarse o réxime de dedicación a tempo parcial 
+ou a matrícula adaptada ......................................................................................... 5 
+Artigo 7. Efectos ...................................................................................................... 7 
+CAPÍTULO III. Procedemento de declaración de dedicación a tempo parcial ou 
+matrícula adaptada ..................................................................................................... 8 
+Artigo 8. Iniciación do procedemento ...................................................................... 8 
+Artigo 9. Recoñecemento ........................................................................................ 8 
+Artigo 10. Matrícula ................................................................................................. 9 
+CAPÍTULO IV. Dispensa académica de asistencia ás actividades formativas síncronas
+ ................................................................................................................................. 10 
+Artigo 11. Concepto .............................................................................................. 10 
+Artigo 12. Alcance da dispensa académica .......................................................... 11 
+Artigo 13. Procedemento de dispensa académica ................................................ 12 
+Artigo 14. Efectos .................................................................................................. 13 
+Artigo 15. Dispensa académica especial de asistencia ........................................ 14 
+Disposición adicional primeira. Estudantado de centros adscritos ........................... 15 
+Disposición adicional segunda. Estudantado de mención dual en grao e mestrado 
+universitario .............................................................................................................. 15 
+Disposición adicional terceira. Difusión e publicidade .............................................. 16 
+Disposición adicional cuarta. Rexistro e seguimento das dispensas académicas .... 16 
+Disposición transitoria primeira. Curso académico de aplicación desta normativa ... 16 
+Disposición transitoria segunda. Adaptación das memorias verificadas dos títulos a 
+esta normativa .......................................................................................................... 16 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 1 de un total de 17 página(s).
+
+
+ 
+2 
+ 
+Disposición derrogatoria. Derrogación normativa ..................................................... 16 
+Disposición final primeira. Habilitación ..................................................................... 17 
+Disposición final segunda. Entrada en vigor ............................................................. 17 
+ 
+PREÁMBULO 
+A Universidade da Coruña, como institución de educación superior e servizo público, 
+ten o deber de organizar as súas ensinanzas recoñecendo a diversidade do seu 
+estudantado. Esta diversidade esixe unha planificación académica que teña en conta 
+as distintas situacións persoais, sociais e económicas do alumnado, así como a 
+necesidade de facer un uso responsable dos recursos públicos, que son limitados por 
+natureza. 
+As demandas da sociedade actual, a lexislación vixente e a responsabilidade social 
+que debe asumir unha institución de educación superior requiren que a Universidade 
+da Coruña dispoña dunha normativa que  regule a dedicación ao estudo . Ademais, 
+resulta necesario organizar a actividade académica de forma que permita un bo 
+rendemento académico do estudantado, favoreza o seu progreso e axuste a matrícula 
+ao número de créditos que, no sistema ECTS, poidan ser razoablemente superados. 
+Na actualidade  moitas persoas  enfrontan situacións externas como problemas 
+socioeconómicos, laborais ou de saúde, que dificultan o seu progreso académico e a 
+súa permanencia nos estudos universitarios . Por isto, é preciso recoñecer  o dereito 
+desas persoas a disporen unha segunda oportunidade académica  unha vez 
+superadas estas dificultades, así como adaptar as normas para que tod as poidan 
+conciliar os seus estudos con outras responsabilidades 
+A Lei orgánica 2/2023, do 22 de marzo, do  sistema universitario, establece no seu 
+artigo 33.n) que as universidades deben facilitar esa conciliación mediante o deseño 
+das actividades académicas. Ademais, no artigo 3 recoñécese a autonomía 
+universitaria para aprobar normas internas como parte da súa capacidade de 
+autorregulación. Pola súa banda, o E statuto do estudante universitario (Real decreto 
+1791/2010, do 30 de decembro), no artigo 7.2, establece que as universidades e 
+administracións públicas competentes deben adoptar medidas para garantir que o 
+estudantado a tempo parcial poida exercer os seus  dereitos en condicións de 
+equidade, sempre dentro das posibilidades orzamentarias. 
+En consecuencia, resulta necesario regular o procedemento de recoñecemento da 
+condición de estudante con dedicación a tempo parcial ou dedicación adaptada, co fin 
+de que o estudantado poida axustar a súa matrícula a un número de créditos ECTS 
+que razoablemente poida superar, tendo en conta as súas circunstancias persoais, 
+socioeconómicas, laborais etc. 
+A través desta regulación, a Universidade da Coruña exerce a súa responsa bilidade 
+institucional e social, ao tempo que promove un rendemento académico sostible e 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 2 de un total de 17 página(s).
+
+
+ 
+3 
+ 
+ordenado, adaptado ás condicións reais do seu estudantado. Deste modo, garántese 
+tanto a protección de dereitos como o exercicio da responsabilidade  académica do 
+estudantado, tal e como prevé o Estatuto do estudante universitario. 
+Polo exposto, o Consello de Goberno na sesión do 28/05/2025, acorda aprobar  a 
+Normativa que regula o réxime de dedicación ao estudo e o procedemento de 
+dispensa académica para o estudantado de grao e mestrado universitario. 
+CAPÍTULO I. Disposicións xerais 
+Artigo 1. Obxecto e ámbito de aplicación 
+1. O obxecto desta norma é regular o réxime de dedicación ao estudo e o 
+procedemento de dispensa académica de asistencia ás actividades formativas 
+síncronas (clases ou actividades formativas que requiren a coincidencia temporal 
+entre o profesorado e o estudantado)  para o alumnado qu e estea matriculado en 
+estudos oficiais de grao e mestrado universitario da Universidade da Coruña (UDC). 
+2. Esta normativa aplicarase de forma supletoria nos seguintes supostos: 
+a) Estudantado matriculado en titulacións conxuntas con outras universidades , tanto 
+nacionais como estranxeiras, que conducen á obtención dun único título oficial de grao 
+ou mestrado universitari o, que se rexerán polo que establezan os respectivos 
+convenios de titulación conxunta ou as memorias de verificación correspondentes. 
+b) Estudantado dalgún dos programas de simultaneidade de estudos aprobados polo 
+Consello de Goberno, que se rexerán polas súas propias normas de matrícula. 
+c) Estudantado que participe en estudos regulados por convenios de dobre titulación 
+con universidades estranxeiras, que se regularán polo que dispoñan os convenios 
+correspondentes.  
+d) Estudantado doutras modalidades de matrícula non destinadas á obtención dunha 
+titulación oficial, que se rexerán pola súa normativa específica. 
+e) Estudantado que participe en programas de mobilidade entrante, que se regularán 
+polo que estableza o acordo académico durante o tempo que cursen estudos na UDC.  
+f) Estudantado que participe en programas de mobilidade saínte, que se rexerán polo 
+que dispoña o acordo académico e a normativa da universidade de destino durante o 
+tempo que cursen estudos nela. 
+CAPÍTULO II. Réximes de dedicación ao estudo 
+Artigo 2. Modalidades de dedicación 
+1. O estudantado da Universidade da Coruña matriculado en estudos oficiais de grao 
+e/ou mestrado terá dereito a elixir a condición de estudante con dedicación a tempo 
+completo, a tempo parcial ou en réxime adaptado, con independencia do curso en que 
+se atope, nos termos e condicións que estableza esta norma. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 3 de un total de 17 página(s).
+
+
+ 
+4 
+ 
+2. Todas as titulacións deberán permitir que o estudantado se matricule no réxime de 
+dedicación a tempo parcial ou adaptado, coas condicións recollidas nos parágrafos 
+seguintes. 
+3. No caso de inicio de estudos, a porcentaxe de persoas matriculadas a tempo parcial 
+non poderá superar o 15 % para estudos de grao e o 30 % para estudos de mestrado, 
+respecto ao límite de prazas ofertado cada curso académico, redondeado por exceso.  
+Excepcionalmente, a vicerreitoría con competencias en materia de organización 
+académica poderá autorizar unha porcentaxe superior para  unha titulación concreta, 
+a solicitude do centro ao que estea adscrita.  Para tales efectos, a persoa titular do 
+decanato ou dirección do cent ro, tras o acordo da xunta de centro, remitirá unha 
+solicitude non máis aló do último día hábil do mes de abril,  en que conste  a 
+xustificación da necesidade da dita modificación. A autorización, de concederse, será 
+para un único curso académico.  
+As solicitudes que se deneguen por superar as devanditas porcentaxes poderán ser 
+estimadas con posterioridade de non se cubriren todas as prazas que se oferten  e 
+sempre que o/a estudante continúe matriculado/a a tempo completo na mesma 
+titulación.  
+4. O réxime de dedicación que se elixa cando se formalice a matrícula manterase 
+durante todo o curso académico, agás nos supostos  de cambio de réxime previstos 
+na normativa que regule a matrícula nos estudos oficiais de grao e mestrado de cada 
+curso académico . En calquera caso, logo da aceptación do cambio de réxime de 
+dedicación, este manterase durante o curso académico sen que se poida volver á 
+dedicación inicial. 
+Artigo 3. Réxime de dedicación a tempo completo 
+1. O réxime de dedicación a tempo completo será o ordinario para os estudos de grao 
+e mestrado na Universidade da Coruña. 
+2. O estudantado de inicio de estudos  a tempo completo  terase que matricular  de 
+todos os créditos do primeiro curso da titulación.  
+No suposto de que inicie un mestrado, poderá solicitar matricularse de máis créditos 
+dos obrigatorios engadindo materias optativas, sempre que non se superen os 78 
+créditos ECTS en total. 
+3. O estudantado de continuación de estudos a tempo completo terase que matricular 
+dun mínimo de 48 e un máximo de 78 créditos ECTS.  
+Porén, poderá chegar ata os 90 créditos ECTS cando a matrícula estea condicionada 
+por obrigas académicas establecidas no plan de estudos (ordenación temporal do plan 
+de estudos, prelación ou prerrequisitos, compatibilidade hora ria das materias) ou por 
+circunstancias excepcionais debidamente  xustificadas. Neste último caso, será a 
+persoa titular do decanato  ou dirección do centro , por delegación da reitora ou do 
+reitor, quen valore e autorice a ampliación.  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 4 de un total de 17 página(s).
+
+
+ 
+5 
+ 
+O estudantado ao que lle reste menos de 48 créditos  ECTS para finalizar os seus 
+estudos deber á matricularse de todos eles, agás que  se lle conceda o réxime de 
+dedicación a tempo parcial. 
+ 
+Sexa como for, a estudante ou o estudante deberá incluír na súa matrícula todos os 
+créditos de formación básica, se os houber, e obrigatoria de cursos académicos 
+anteriores que aínda non teña superados. 
+Artigo 4. Réxime de dedicación a tempo parcial 
+1. Considerarase estudantado con dedicación a tempo parcial aquel que se matricule 
+nun curso académico dun mínimo de  24 e dun máximo de  48 créditos ECTS, tanto 
+para estudantes de inicio de estudos como para estudantes de continuación de 
+estudos.  
+O estudantado ao que lle reste menos de 24 créditos ECTS para finalizar os seus 
+estudos deberá matricularse de todos eles e poderá solicitar a consideración de 
+estudante con dedicación a tempo parcial.   
+2. A condición de estudante con dedicación a tempo parcial deberá ser solicitada pola 
+persoa interesada e declarada pola persoa titular do decanato ou dirección do centro, 
+polas causas establecidas no artigo 6 e segundo o procedemento recollido no capítulo 
+III. 
+Artigo 5. Réxime de matrícula adaptada 
+1.  Excepcionalmente, o estudantado de inicio ou de continuación de estudos poderá 
+solicitar un réxime de dedicación ao estudo adaptado a circunstancias extraordinarias, 
+que lle permita matricularse dun mínimo de 6 e dun máximo de 24 créditos ECTS. O 
+recoñecemento de matrícula adaptada eximirá o alumnado da obriga de cumprir cos 
+requisitos de permanencia. 
+2. O réxime de matrícula adaptada deberá ser solicitada pola persoa interesada e 
+declarada pola persoa titular d a vicerreitoría con competencias en o rganización 
+académica, polas causas dispostas no artigo 6 e segundo o procedemento recollidos 
+no capítulo III. 
+Artigo 6. Causas polas que pode solicitarse o réxime de dedicación a tempo 
+parcial ou a matrícula adaptada 
+1. Poderase solicitar ser estudante co n dedicación a tempo parcial ou con matrícula 
+adaptada nos seguintes casos:  
+a) Realizar unha actividade laboral ou profesional, por conta propia ou allea, durante 
+o curso académico cunha duración mínima de 90 días naturais (seguidos ou non). 
+Esta circunstanc ia acreditarase mediante o contrato de traballo ou nomeamento 
+administrativo, a documentación xustificativa da condición de empresario/a ou de 
+traballador/a autónomo/a e o xustificante de alta na Seguridade Social ou réxime 
+equiparable. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 5 de un total de 17 página(s).
+
+
+ 
+6 
+ 
+b) Ter recoñecido un g rao de discapacidade física, psíquica ou sensorial igual ou 
+superior ao 33  %. Esta condición acreditarase mediante a resolución expresa de 
+recoñecemento do grao emitida polo organismo competente. 
+c) Ter recoñecida a condición de estudante con discapacidade ou  necesidades 
+específicas de apoio educativo (NEAE), segundo o que indica a Normativa de atención 
+á diversidade da Universidade da Coruña. Esta condición acreditarase mediante un 
+informe da vicerreitoría competente en materia de atención a diversidade. 
+d) Padecer unha enfermidade ou seguir un tratamento médico que dificulte de forma 
+relevante continuar os estudos a tempo completo. Esta circunstancia acreditarase 
+mediante un informe médico oficial, emitido por un servizo público de saúde ou servizo 
+médico equivalente no caso de mutualidades que presten unha asistencia sanitaria 
+equivalente.  
+Esta circunstancia tamén se aplicará cando a doenza ou tratamento afecte a familiares 
+ata o segundo grao de consanguinidade ou afinidade da/o estudante. Neste suposto 
+terá qu e acreditarse, ademais do indicado no parágrafo anterior, a necesidade de 
+atención ou coidado por parte desta/e. 
+e) Estar en situación de baixa médica ou ter un permiso por embarazo, nacemento, 
+maternidade, paternidade, preadopción, adopción ou acollemento du n/dunha menor. 
+Esta situación acreditarase mediante un certificado médico ou a documentación oficial 
+que corresponda. 
+f) Estar a cargo do coidado dun ha filla(s) ou fillo(s)  menor(es) de 12 anos. Esta 
+circunstancia acreditarase mediante o certificado de nacemento da/o menor emitido 
+polo Rexistro Civil, en que se acredite a paternidade ou maternidade da/o estudante, 
+segundo corresponda. 
+g) Ser a persoa coidadora principal dun fam iliar dependente ata o segundo grao de 
+consanguinidade ou afinidade. Esta situación acreditarase mediante a credencial de 
+persoa coidadora. 
+h) Ser vítima de actos de terrorismo. Esta condición acreditarase segundo o que 
+recolle a Normativa de xestión académica do curso que corresponda. 
+i) Ser vítima dunha situación de violencia de xénero ou de calquera das violencias 
+que se recollen no Protocolo para a prevención, detección e actuación da UDC ante 
+situacións de violencia de xénero, violencias sexuais, violencias LGTBIfóbicas, 
+discriminación ou acoso sexista ou por razón de sexo, orientación afectivo -sexual, 
+identidade ou expresión de xénero e características sexuais, aprobado polo Consello 
+de Goberno o 20 de decembro de 2023. Esta condición acreditarase mediante u n 
+informe da vicerreitoría competente en materia de igualdade. 
+j) Ser maior de 45 anos. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 6 de un total de 17 página(s).
+
+
+ 
+7 
+ 
+k) Exercer cargos de representación cidadá en institucións ou administracións 
+públicas. Esta situación acreditarase mediante un certificado da entidade que 
+corresponda.   
+l) Ter dificultades económicas para continuar os estudos, incluídas as derivadas de 
+atoparse en situación de desemprego. Esta circunstancia acreditarase mediante un 
+documento emitido pola administración ou entidade pública que corresponda. 
+m) Estar matriculado ou matriculada, a tempo completo e de xeito simultáneo, noutros 
+estudos universitarios oficiais ou equivalentes –entre outros, os que se recollen no 
+Real decreto 1619/2011, do 14 de novembro, ou na norma que o substitúa – como 
+ensinanzas artísticas superiores ou ciclos formativos de grao superior. Esta situación 
+acreditarase mediante un certificado do centro correspondente, emitido con data non 
+superior a cinco dias hábiles antes da solicitude. 
+n) Ter a consideración de deportista de alto nivel ou alto rendemento, segundo os 
+criterios establecidos pola UDC. Será necesario achegar a documentación que 
+acredite o cumprimento dalgún dos requisitos do artigo 2 da Normativa do/a deportista 
+de alto nivel da UDC. 
+o) Desempeñar labores de representación estudantil. Esta circunstancia acreditarase 
+mediante unha certificación expedida pola Secretaría Xeral. 
+p) Participar en actividades de cooperación e voluntariado, sempre que estas 
+actividades se desenvolvan durante un mínimo de 90 días naturais (seguidos ou non). 
+Esta situación acreditarase mediante unha certificación expedida pola oficina da 
+Universidade que corresponda ou pola entidade con que se colabore. 
+q) Estar incluído/a no ámbito de aplicación dun convenio de mobilidade universitaria 
+subscrito con outras universidades que considere esta situación. 
+r) Outras circunstancias excepcionais relacionadas coa organiz ación académica do 
+título ou coa situación académica persoal d a/o estudante, sempre que quede 
+suficientemente acreditada e sexa aceptada polos órganos responsables da 
+resolución das solicitudes. 
+2. As circunstancias recollidas neste artigo deberán concorre r nas persoas 
+interesadas no momento de presentar a súa solicitude de dedicación a tempo parcial 
+ou matrícula adaptada. O cambio das súas circunstancias ao longo do curso 
+académico non alterará o réxime de dedicación, agás nos casos previstos no artigo 
+2.4 desta norma. 
+Artigo 7. Efectos  
+1. O recoñecemento da condición de estudante con dedicación a tempo parcial ou con 
+matrícula adaptada terá, cando menos, os seguintes efectos: 
+a) Dereito preferente para elixir a quenda cando haxa dous ou máis grupos con 
+horarios diferentes na mesma materia ou disciplina. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 7 de un total de 17 página(s).
+
+
+ 
+8 
+ 
+b) Dereito á adaptación dos horarios de titorías e a súa realización por vía telemática, 
+a través das tecnoloxías da información e a comunicación (TIC) da UDC. 
+c) Dereito a flexibilidade  nos prazos de entrega das actividades de avaliación 
+continua.  
+d) Dereito a un réxime flexible de asistencia ás clases, que se poderá materializar 
+mediante a solicitude e concesión d unha dispensa académica de asistencia ás 
+actividades formativas síncronas, de acordo co que se establece no capítulo III.  
+e) Dereito a matricularse dun número de créditos inferior ao que correspond ería ao 
+estudantado a tempo completo, dentro das limitacións previstas nos artigos 4 e 5. 
+2. O estudantado con dedicación a tempo parcial ou con matrícula adaptada deberá 
+respectar o número máximo de créditos autorizado segundo o seu tipo de matrícula, 
+polo que se matriculará en primeiro lugar de todos os créditos de formación básica, se 
+os houb er, e dos créditos obrigatorios dos cursos académicos anteriores que non 
+superase. 
+CAPÍTULO III. Procedemento de declaración de dedicación a tempo parcial ou 
+matrícula adaptada 
+Artigo 8. Iniciación do procedemento 
+1. O estudantado que desexe solicitar o réxime de dedicación a tempo parcial ou de 
+matrícula adaptada deberá indicalo na aplicación informática no momento de facer a 
+matrícula. 
+2. Unha vez formalizada a matrícula, terá que presentar unha solicitude de dedicación 
+a tempo parcia l ou de matrícula adaptada, indicando e acreditando algunha das 
+causas recollidas no artigo 6. A solicitude presentarase a través da Secretaria Virtual. 
+Artigo 9. Recoñecemento 
+1. A condición de estudante con dedicación a tempo parcial será recoñecida pola  
+persoa decana ou directora d e centro, tras o informe vinculante da comisión con 
+competencias académicas que determine cada centro, en función da súa organización 
+interna.  
+En calquera caso, establecerase un sistema de selección determinado polo día en que 
+a solicitude estea completa e correctamente presentada, o cal inclúe  toda a 
+documentación requirida. En caso de empate, terase en conta a nota de admisión á 
+titulación. 
+2. A condición de estudante con dedicación adaptada será recoñecida pola p ersoa 
+titular da vicerreitoría con competencias en materia de organización académica , tras 
+o informe vinculante da vicerreitoría competente en materia de atención á diversidade. 
+Cando se considere necesario, poderase solicitar tamén un informe ao decanato ou 
+dirección do centro, en que se valore a evolución académica do/a estudante no título 
+en que estea matriculado ou matriculada. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 8 de un total de 17 página(s).
+
+
+ 
+9 
+ 
+3. Todas estas resolucións, adoptadas por delegación do reitor ou da reitora, deberán 
+emitirse no prazo máximo de 15 días hábiles que contarán desde o día seguinte á 
+recepción das solicitudes.  
+Se a documentación presentada estiver incompleta ou contivese erros, notificaráselle 
+á persoa solicitante para que a corrixa ou complete no prazo de 10 días hábiles. 
+Durante ese tempo, o prazo para resolver a solicitude quedará suspendido, e volverá 
+contar unha vez achegada correctamente a documentación requirida. 
+4. A resolución notificaráselle á per soa solicitante  a través do correo electrónico 
+institucional. No caso de a notificación non se consider ar efectuada por esta vía, 
+posteriormente realizarase a través de correo postal con aviso de recepción.  
+Contra estas resolucións a persoa interesada poderá presentar un recurso potestativo 
+de reposición ante a reitora ou o reitor, de acordo co disposto na Lei 39/2015, do 1 de 
+outubro, do procedemento administrativo común das administracións públicas 
+(LPACAP). 
+5. O recoñecemento da condición de estudante con dedicación a tempo parcial ou 
+dedicación adaptada  terá validez durante un curso académico. O alumnado que 
+continúe estudos deberá solicitar a súa renovación para cada novo curso nos termos, 
+condicións e procedementos que se establecen nesta norma e sempre que concorran 
+e se acrediten as circunstancias que xustifican a súa concesión. 
+Artigo 10. Matrícula 
+1. O estudantado de inicio de estudos que solicite o réxime de dedicación a tempo 
+parcial ou matrícula adaptada deberá matricularse inicialmente de todas as materias 
+do primeiro curso. O pagamento da matrícula quedará aprazado ata que se resolva a 
+súa solicitude.  
+De serlle recoñecid o o réxime de matrícula que solicitou , modificarase a matrícula 
+inicial. Para isto o alumnado terá que indicar na administración do seu centro aquelas 
+materias en que desexa continuar matriculado e aquelas das que quere causar baixa. 
+Así mesmo, deberá aboar os créditos das materias en que finalmente se matricule, no 
+prazo que estableza a Normativa de xestión académica do curso que corresponda. 
+De serlle denegada a matrícula a tempo parcial, aplicarase a opción que previamente 
+indicase na súa solicitude. Deste xeito, o estudantado quedará matriculado a tempo 
+completo ou a administración do seu centro anulará a súa matrícula  co réxime de 
+devolución de prezos públicos establecido na Normativa de xestión académica que 
+corresponda. 
+2. O estudantado de continuación de estudos que solicite o réxime de d edicación a 
+tempo parcial ou matrícula adaptada deberá matricularse inicialmente dos créditos 
+que lle corresponderían no caso de que a súa solicitude fose estimada. O pagamento 
+da matrícula quedará aprazado ata que se resolva a súa solicitude.  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 9 de un total de 17 página(s).
+
+
+ 
+10 
+ 
+De serlle recoñecido o réxime de matricula que solicitou, o alumnado terá que aboar 
+os prezos públicos que correspondan aos créditos dos que se matriculou inicialmente, 
+dentro do prazo que estableza a Normativa de xestión académica do curso que 
+corresponda.  
+De serlle denegada a matrícula a tempo parcial, modificarase a súa matrícula inicial e 
+o estudantado quedará matriculado a tempo completo, agás que solicite a anulación 
+da matrícula co réxime de devolución de prezos públicos establecido na Normativa de 
+xestión académica que corresponda.  
+3. No caso de que ao estudantado de inicio ou de continuación de estudos se lle 
+denegue a matrícula adaptada, a súa matrícula inicial será modificada  e poderá  
+quedar matriculado a tempo completo ou a tempo parcial, de recollerse expresamente 
+na resolución. En calquera caso, poderá solicitar a anulación da matrícula co réxime 
+de devolución de prezos públicos establecido na Normativa de xestión académica que 
+corresponda.  
+De serlle denega da a matrícula adaptada pero si se lle conceda  a tempo parcial, o 
+estudantado de inicio ou de continuación de estudos terá que indicar na administración 
+do seu centro aquelas materias ás que quere ampliar a matrícula, sempre que lle 
+queden máis de 24 créditos ECTS para rematar os seus estudos e a súa matrícula 
+inicial fose inferior a esa cifra. 
+4. En situacións excepciona is debidamente xustificadas, o estudantado  de inicio ou 
+de continuación de estudos  poderá solicitar, dentro dos prazos que estableza a 
+Normativa de xestión académica do curso que corresponda, o cambio de réxime de 
+matrícula de tempo completo a tempo parcia l ou adaptad o e de tempo parcial a 
+adaptado. 
+Estas solicitudes deberán enviarase á vicerreitoría con competencias en materia de 
+organización académica, que resolverá tras o informe vinculante da Comisión de Plan 
+de Estudos delegada do Consello de Goberno , no prazo de 15 días hábiles, que 
+contarán a partir do seguinte ao da recepción da solicitude. As solicitudes 
+resolveranse por delegación das competencias da reitora ou do reitor. Contra esta 
+resolución poderase presentar un recurso potestativo de reposición ante o reitor ou a 
+reitora. 
+CAPÍTULO IV. Dispensa académica de asistencia ás actividades formativas 
+síncronas 
+Artigo 11. Concepto 
+1. A dispensa académica de asistencia é unha autorización que exime o estudantado 
+de grao ou mestrado da obrigatoriedade de asistir ás actividades formativas síncronas 
+presenciais ou virtuais, cando concorra algunha das causas recollidas no artigo 6 , e 
+sempre q ue sexan susceptibles de ser dispensadas  segundo o que dispón e sta 
+normativa.  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 10 de un total de 17 página(s).
+
+
+ 
+11 
+ 
+A súa concesión non poderá ter efectos negativos sobre o proceso de avaliación nin 
+sobre a adquisición dos resultados de aprendizaxe  que se establecesen  no plan de 
+estudos. 
+2. A dispensa académica deberá reunir as seguintes características:  
+a) Adaptarse ás situ acións concretas do estudantado, tendo en conta as súas 
+necesidades específicas.  
+b) Garantir que o proceso de ensin o-aprendizaxe se desenvolva co as suficientes  
+garantías suficientes para permitir unha progresión académica do estudantado, sen 
+comprometer a adquisición dos obxectivos formativos da titulación nin o seu dereito a 
+unha avaliación equitativa e adaptada á súa situación. 
+c) Aplicarse a todas aquelas actividades formativas síncronas que poidan se r 
+realizadas sen a intervención directa de persoal docente ou titor de entidades 
+colaboradoras, sempre que se asegure a adquisición dos correspondentes resultados 
+de aprendizaxe. 
+d) Incluír sistemas de avaliación flexibles que permitan ao estudantado con dispe nsa 
+académica acadar a cualificación máxima prevista na materia.  
+e) Permitir ao estudantado con dispensa académica un número de faltas non 
+xustificadas equivalente, como mínimo, ao 10  % do total de horas (nunca inferior a 
+unha sesión) das actividades formativas síncronas recollidas no artigo 12.2, letras a), 
+b), c) e f), sen que isto afecte á cualificación final . Esta excepción non será aplicable 
+no caso de actividades que conten cunha única sesión indivisible. 
+3. No suposto de  que unha normativa específica d unha titulación estableza o 
+contrario, o d ecanato ou dirección de centro deberá comunica lo á vicerreitoría 
+competente en materia de organización académica, que resolverá ao respecto tras 
+avaliar a dita normativa, 
+Artigo 12. Alcance da dispensa académica 
+1. A dispensa académica de asistencia ás actividades formativas síncronas aplicarase 
+exclusivamente ao estudantado ao que lle fose concedida, tras a correspondente 
+solicitude presentada segundo o que establece o artigo 13 desta normativa. 
+2. Con carácter xeral, t odas as actividades formativas síncronas das materias que 
+conforman o plan de estudos dunha titulación serán susceptibles de dispensa, agás 
+as seguintes: 
+a) Prácticas obrigatorias que esixan presencialidade, como as  que se realizan en 
+laboratorios, clínicas, centros, entidades colaboradoras, entre outras. 
+b) Obradoiros, seminarios ou outras actividades baseadas na participación activa do 
+estudantado, sempre que a ausencia de interacción directa co profesorado ou co 
+instrumental empregado impida acadar os resultados de aprendizaxe previstos. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 11 de un total de 17 página(s).
+
+
+ 
+12 
+ 
+c) Actividades de avaliación, tanto continua como final, en calquera das dúas 
+oportunidades oficiais, cando, por razóns debidamente xustificadas, non sexa posible 
+a súa adaptación ao estudantado con dispensa académica concedida.   
+d) Prácticas externas en empresas ou institucións que requiran asistencia física. 
+e) Defensa de traballos de fin de grao (TFG) e de traballos de fin de mestrado (TFM) 
+en titulacións presenciais, agás autorización expresa da persoa decana ou directora 
+do centro correspondent e, de acordo co que dispón a Normativa reguladora da 
+matrícula e a defensa do TFG/TFM. 
+f) Calquera outra actividade formativa síncrona en que se considere que o 
+estudantado non pode acadar os resultados de aprendizaxe previstos mediante o uso 
+de sistemas alternativos á asistencia. Neste caso, o centro deberá remitir unha 
+solicitude xustificada á persoa titular da vicerreitoría con competencias en materia de 
+organización académica, que resolverá tras recibir o informe da Comisión de Plan de 
+Estudos.  
+3. As materias que non permitan dispensar ningunha das súas actividades formativas 
+deberán contar cun informe xustificativo desta circunstancia emitido pola comisión con 
+competencias académica s que determine cada centro . Esta circunstancia deberá 
+indicarse expresamente na guía docente da materia. 
+4. As materias que conten con algunha actividade formativa  susceptible de dispensa 
+deberán recoller na guía docente: 
+a) a relación das actividades formativas que poidan ser obxecto de dispensa 
+académica e as correspondentes adaptacións previstas para cada unha delas; 
+b) o sistema de avaliación aplicable ao estudantado con dispensa académica 
+concedida. 
+Entenderase que t odas as actividades non  especificadas como susceptibles de 
+dispensa serán consideradas non dispensables, de acordo co disposto neste artigo. 
+Artigo 13. Procedemento de dispensa académica  
+1. O estudantado , en calquera dos réximes de dedicación ao estudo recollidos no 
+capítulo II  (tempo completo, parcial ou adaptado) , poderá solicitar a dispensa 
+académica de asistencia ás actividades formativas síncronas das materias en que 
+estea matriculado . Na solicitude deberá indicar as materias para as que solicita a 
+dispensa, o suposto en que se atopa d os recollidos no artigo 6 e a documentación 
+acreditativa correspondente. 
+A solicitude d eberá dirixirse  ao decanato ou dirección  de centro en que estea 
+matriculado o estudantado, e poderá presentarse: 
+a) No momento de formalizar a matrícula, ou como máximo, ata o último día hábil do 
+mes de outubro do curso académico correspondente. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 12 de un total de 17 página(s).
+
+
+ 
+13 
+ 
+b) No caso de materias impartidas no segundo cuadrimestre, poderá presentarse 
+antes do 15 de marzo  do curso académico correspondente , se non se fixo con 
+anterioridade. 
+En todos os casos, as circunstancias alegadas deberán existir no momento da 
+solicitude. 
+En situacións excepcionais debidamente xustificadas, o estudantado  poderá 
+presentar a solicitude d e dispensa fóra dos prazos establecidos no punto anterior, 
+mediante unha instancia dirixida a persoa titular do decanato ou dirección de  centro. 
+Neste caso, a solicitude terá que facerse antes de que finalice o período lectivo do 
+cuadrimestre en que se imparta(n) a(s) materia(s) afectada (s). 
+2. Se a documentación presentada estiver incompleta ou contivese erros, 
+notificaráselle á persoa solicitante para que a corrixa ou  a complete no prazo de 10 
+días hábiles. Durante ese tempo o prazo para resolver a solicitude quedará 
+suspendido e volverá contar unha vez que se achegue  correctamente a 
+documentación requirida.  
+3. O decanato ou dirección de  centro solicitará o informe da comisión con 
+competencias académicas que determine cada centro, en función da súa organización 
+interna.  
+No caso de darse unha situación excepcional recollida no parágrafo 1, a resolución 
+requirirá tamén dos informes das coordinacións das materias afectadas. Nestes 
+informes indicarase, de ser o caso, da imposibilidade de conceder a dispensa cando 
+supoña un prexuízo para o propio estudantado solicitante, especialmente no que se 
+refire aos resultados da súa avaliación. 
+4. O decanato ou dirección de ce ntro valorará e resolverá de forma motivada as 
+solicitudes de dispensa académica no prazo máximo de 15 días hábiles, que contarán 
+desde o día seguinte á recepción das solicitudes, agás en caso de suspensión do 
+prazo previsto no parágrafo 2. 
+5. A resolución  notificaráselle á persoa solicitante a través do correo electrónico 
+institucional. No caso de a notificación non se consider ar efectuada por esta vía, 
+posteriormente realizarase a través de correo postal con aviso de recepción. Así 
+mesmo, a resolución ser á comunicada ao profesorado responsable  das materias 
+afectadas. Se a resolución é favorable, comunicarase tamén ás coordinacións das 
+materias afectadas, segundo o procedemento que estableza cada centro.  
+Contra esta resolución a persoa interesada poderá presentar un recurso potestativo 
+de reposición ante o reitor ou a reitora, de acordo co disposto na LPACAP. 
+Artigo 14. Efectos 
+1. A resolución pola que se conceda a dispensa académica de asistencia terá validez 
+durante un curso académico. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 13 de un total de 17 página(s).
+
+
+ 
+14 
+ 
+2. A dispensa terá efecto desde o inicio do cuadrimestre ou curso académico anual 
+incluídos os aspectos de avaliación, agás que se indique outra cousa na resolución.  
+3. O alumnado que continúe estudos deberá solicitar a súa renovación para cada novo 
+curso nos termos, condicións e procedementos que se establecen nesta norma e 
+sempre que concorran e se acrediten as circunstancias que xustifican a súa 
+concesión. 
+4. A concesión de dispensa académica non terá ningún efecto económico nin 
+implicará redución ningunha nos dereitos de matrícula. 
+5. O estudantado con dispensa de asistencia manterá o dereito a ser avaliado nas 
+dúas oportunidades das materias afectadas, mediante un sistema alternativo, cando 
+sexa necesario, que lle permita acadar a cualificación máxima prevista na materia. 
+Este sistema deberá estar recollido na guía docente de cada materia. 
+Artigo 15. Dispensa académica especial de asistencia 
+1. Terá dereito a solicitar unha dispensa académica especial  de asistencia ás 
+actividades forma tivas síncronas aquel estudantado que se atope en calquera dos 
+seguintes supostos: 
+a) Estar embarazada ou ter un permiso por nacemento, maternidade, paternidade, 
+preadopción, adopción ou acollemento dunha persoa menor de idade.  
+b) Ter ao seu cargo fillas ou fillos menores de 12 anos. 
+c) Ser a persoa coidadora principal dun familiar dependente ata o segundo grao de 
+consanguinidade ou afinidade.  
+d) Ser vítima dunha situación de violencia de xénero ou de calquera das violencias 
+que se recollen no Protocolo para a prevención, detección e actuación da UDC ante 
+situacións de violencia de xénero, violencias sexuais, violencias LGTBIfóbicas, 
+discriminación ou acoso sexista ou por razón de sexo, orientación afectivo -sexual, 
+identidade ou expresión de xénero e características sexuais, aprobado polo Consello 
+de Goberno o 20/12/2023.  
+2. As situacións que se recollen no apartado anterior deberán acreditarse segundo o 
+que estableza a normativa aplicable en cada caso, sen prexuízo de que poidan 
+admitirse outros medios establecidos mediante  unha instrución da vicerreitoría con 
+competencias en materia de igualdade. 
+3. O recoñecemento desta dispensa especial dará dereito a que a persoa solicitante 
+poida ter un número de faltas non xustificadas equivalente, como mínimo, ao 20 % do 
+total de horas das actividades formativas síncronas que se recollen  no artigo 11. 2, 
+letras a), b),c) e f), sen que isto afecte negativamente á súa avaliación.  
+4. Para solicitar esta dispensa especial, o estudantado terá que  presentar un ha 
+solicitude coa indicación das materias para as que a solicita a dispensa, o suposto en 
+que se atopa e a documentación acreditativa correspondente.   
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 14 de un total de 17 página(s).
+
+
+ 
+15 
+ 
+A solicitude dirixirase á vicerreitoría con competencias en materia de organización 
+académica e poderá presentarse: 
+a) No momento de formalizar a matrícula ou, como máximo, ata o último día hábil do 
+mes de outubro do curso académico correspondente. 
+b) No caso de materias impartidas no segundo cuadrimestre, poderá presentarse 
+antes do 15 de marzo do curso académico correspondente, se non se fixo con 
+anterioridade. 
+5. A vicerreitoría con competencias en materia de organización académica solicitaralle 
+un informe ao decanato ou á dirección do centro, en que se propoñerán as posibles 
+adaptacións nas distintas materias en que estiver matriculado/a o/a estudante, tendo 
+en consideración a súa situación persoal. Unha vez recibido o informe, a vicerreitoría 
+resolverá as solicitude de forma motivada n o prazo máximo de 15 días hábiles, que 
+contarán desde o día seguinte á súa recepción. 
+Se a documentación presentada estiver incompleta ou contivese erros, notificaráselle 
+á persoa solicitante para que a corrixa ou complete no prazo de 10 días hábiles. 
+Durante ese tempo o prazo para resolver a solicitude quedará suspendido e volverá 
+contar unha vez que se achegue correctamente a documentación requirida. 
+6. A resolución notificaráselle á persoa solicitante a través do correo electrónico 
+institucional. No caso de a notificación non se consider ar efectuada por esta vía, 
+posteriormente realizaras e a través de correo postal con aviso de recepción. Así 
+mesmo, a resolución será comunicada ao profesorado responsable  das materias 
+afectadas. 
+Contra esta resolución poderá presentarse un recurso potestativo de reposición ante 
+a reitora ou o reitor, de acordo co disposto na LPACAP. 
+7. Os efectos desta dispensa especial serán os que establece o artigo 14 desta norma. 
+Disposición adicional primeira. Estudantado de centros adscritos 
+Esta normativa se rá aplicable ao estudantado matriculado nos centros adscritos da 
+UDC, que actuarán seguindo os procedementos que teñan establecidos a través dos 
+seus propios órganos ou unidades responsables. 
+Disposición adicional segunda. Estudantado de mención dual en gra o e 
+mestrado universitario 
+O estudantado que estea a cursar unha mención dual nun grao e/ou mestrado 
+universitario da Universidade  terá dereito a solicitar a dispensa académica de 
+asistencia ás actividades formativas síncronas naquelas materias que non formen 
+parte do  itinerario dual e que sexan incompatibles co horario do  seu proxecto 
+formativo.  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 15 de un total de 17 página(s).
+
+
+ 
+16 
+ 
+Disposición adicional terceira. Difusión e publicidade 
+A Universidade da Coruña, xunto cos seus centros e servizos, difundirá, a través das 
+súas canles habituais de comunicación, información clara e accesible sobre a 
+matricula a tempo parcial, o réxime de dedicación adaptada e a dispensa académica 
+de asistencia ás actividades formativas síncronas.  
+Así mesmo, proporcionará ao estudantado información detallada sobre os requisitos 
+e os trámites necesarios para solicitar estas opcións.  
+Disposición adicional cuarta. Rexistro e seguimento das dispensas académicas 
+Os centros deberán levar u n rexistro actualizado , en cada curso académico,  das 
+solicitudes de dispensa académica recibidas, das resolucións que se adopten e dos 
+supostos que alegue o estudantado. Esta información poderá ser solicitada polos 
+órganos competentes en materia de organización académica da Universidade, para a 
+súa análise con fins estatísticos ou para a mellora dos procedementos académicos. 
+Disposición transitoria primeira. Curso académico de aplicación  desta 
+normativa 
+Esta normativa será de aplicación a partir do curso académico 2025/26. 
+Disposición transitoria segunda.  Adaptación das memorias verificadas dos 
+títulos a esta normativa 
+Os títulos que teñan nas súas memorias verificadas números máximos ou mínimos de 
+créditos superiores ou inferiores aos que establece  esta norma para os diferentes 
+réximes de dedicación ao estudo, disporán dun período transitorio ata o curso 2026-
+27, para solicitar a modificación que lles permita adaptarse a esta normativa. Para iso, 
+os centros deberán  solicitar a correspondente modificación, segundo o que se 
+establece nos artigos 30 a 33 da sección terceira do Real decreto 822/2021, do 28 de 
+setembro, polo que se establece a organización das ensinanzas universitarias e do 
+procedemento de aseguramento da súa calidade e, segundo o vixente Procedemento 
+para a solicitude de mod ificacións nos títulos verificados de grao e mestrado 
+Universitario que aprobe a Axencia para a Calidade do Sistema Universitario de 
+Galicia (ACSUG). 
+Mentres non se realicen estas modificacións o estudantado matriculado nestes títulos 
+poderá elixir continuar co réxime de dedicación ao estudo establecido na memoria 
+verificada do título que estuda ata que este non se modifique ou acollerse de forma 
+definitiva ao réxime de dedicación establecido nesta normativa. 
+Disposición derrogatoria. Derrogación normativa 
+1. Quedan expresamente derrogadas: 
+a) A Norma que regula o réxime de dedicación ao estudo e a permanencia e a 
+progresión dos estudantes de grao e mestrado universitario na UDC, aprobada polo 
+Consello Social do 04/05/2017. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 16 de un total de 17 página(s).
+
+
+ 
+17 
+ 
+b) A Instrución da Vicerreitoría de Oferta Académica e Innovación Docente mediante 
+a que se desenvolve o artigo 8 da norma que regula o réxime de dedicación ao estudo 
+e a permanencia e progresión dos estudantes de estudos oficiais da Universidade da 
+Coruña do 10/10/2019. 
+c) A Instrución da Vicerreitoría de Planificación Académica e Innovación Docente 
+sobre a interpretación de determinados artigos da norma que regula o réxime de 
+dedicación ao estudo e a permanencia e progresión dos estudantes de estudos oficiais 
+na UDC, con data do 02/09/2022, modificada por Resolución do 24/04/2023.  
+2. Quedan igualmente derrogadas todas as disposicións de igual ou inferior rango que 
+se opoñan ao que se dispón nesta normativa. 
+Disposición final primeira. Habilitación 
+Habilítase a vicerreitoría con competencias en materia de organización académica 
+para desenvolver esta normativa e interpretar as dúbidas que poidan xurdir da súa 
+aplicación, mediante as instrución que sexan oportunas, que deberán ser publicadas 
+no Taboleiro Electrónico Oficial (TEO) da UDC no caso de ter alcance xeral 
+Disposición final segunda. Entrada en vigor 
+Esta norma entrará en vigor ao día seguinte da súa publicación no TEO da UDC. 
+ 
+O reitor 
+Ricardo José Cao Abad 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: CAKHBL51IM8DPU19V56RC09F
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 02/06/2025 12:01:39  Página 17 de un total de 17 página(s).
