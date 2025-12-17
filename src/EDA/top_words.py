@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import csv
 
 
-def read_text_files(directory='.'):
+def read_text_files(directory='crawl/text/'):
     """Read all .txt files in the specified directory."""
     text = []
     for filename in os.listdir(directory):
@@ -34,7 +34,7 @@ def get_top_words(words, n):
     return counter.most_common(n + 5)
 
 
-def save_top_words_csv(top_words, n, output_file='top_words.csv'):
+def save_top_words_csv(top_words, n, output_file='crawl/top_words.csv'):
     """Save the top n words to a CSV file."""
     with open(output_file, 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
@@ -104,7 +104,7 @@ def main():
     parser.add_argument(
         '-d', '--directory',
         type=str,
-        default='crawl/text/',
+        default='crawl',
         help='Directory containing text files (default: current directory)'
     )
     
@@ -112,7 +112,7 @@ def main():
     
     # Read all text files
     print(f"Reading text files from {args.directory}...")
-    text = read_text_files(args.directory)
+    text = read_text_files(args.directory + '/' + 'text')
     
     if not text:
         print("Error: No text files found or all files are empty.")
@@ -130,7 +130,7 @@ def main():
         print(f"Warning: Only {len(top_words)} unique words found.")
     
     # Save top n words to CSV file
-    save_top_words_csv(top_words, args.n)
+    save_top_words_csv(top_words, args.n, args.directory + '/' + 'top_words.txt')
     
     # Create bar plot
     create_barplot(top_words, args.n)

@@ -3,7 +3,7 @@ venv/
 .venv/
 .env
 venv12/
-src/__pycache__/*
+__pycache__/
 *.swp
 crawl/crawled_data/*
 local_vectorstore/*

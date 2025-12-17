@@ -22,218 +22,10 @@ from langchain_classic.chains import create_retrieval_chain
 from langchain_core.callbacks import CallbackManagerForRetrieverRun
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 
-
-class TFIDFReranker:
-    """TF-IDF based reranker for document relevance scoring."""
-    
-    def __init__(self, max_features: int = 5000, ngram_range: Tuple[int, int] = (1, 2), 
-                 stopwords_file: str = 'top_words.csv'):
-        """Initialize TF-IDF reranker.
-        
-        Args:
-            max_features: Maximum number of features for TF-IDF
-            ngram_range: Range of n-grams to consider (unigrams and bigrams by default)
-            stopwords_file: Path to CSV file with stopwords
-        """
-        # Load stopwords from CSV
-        stopwords = self.load_stopwords_from_csv(stopwords_file)
-        
-        self.vectorizer = TfidfVectorizer(
-            max_features=max_features,
-            ngram_range=ngram_range,
-            stop_words=stopwords if stopwords else None,
-            lowercase=True,
-            token_pattern=r'\b\w+\b'
-        )
-        self.doc_vectors = None
-        self.documents = []
-        self.fitted = False 
-
-    @staticmethod
-    def load_stopwords_from_csv(csv_file: str) -> list:
-        """Load words from CSV file to use as stopwords.
-        
-        Args:
-            csv_file: Path to CSV file (word,count format)
-            
-        Returns:
-            List of words (first column of CSV)
-        """
-        stopwords = []
-        try:
-            with open(csv_file, 'r', encoding='utf-8') as f:
-                reader = csv.reader(f)
-                for row in reader:
-                    if row:  # Check if row is not empty
-                        stopwords.append(row[0])
-            print(f"Loaded {len(stopwords)} stopwords from {csv_file}")
-        except FileNotFoundError:
-            print(f"Warning: {csv_file} not found, no custom stopwords loaded")
-        return stopwords
-
-    def fit(self, documents: List[Document]) -> None:
-        """Fit the TF-IDF vectorizer on a corpus of documents.
-        
-        Args:
-            documents: List of LangChain Document objects
-        """
-        self.documents = documents
-        texts = [doc.page_content for doc in documents]
-        self.doc_vectors = self.vectorizer.fit_transform(texts)
-        self.fitted = True
-    
-    def rerank(self, query: str, documents: List[Document], top_k: int = None) -> List[Tuple[Document, float]]:
-        """Rerank documents based on TF-IDF similarity to query.
-        
-        Args:
-            query: Query string
-            documents: Documents to rerank
-            top_k: Number of top documents to return (None = return all)
-            
-        Returns:
-            List of (document, score) tuples sorted by relevance
-        """
-        if not documents:
-            return []
-        
-        # Transform query and documents
-        query_vector = self.vectorizer.transform([query])
-        doc_texts = [doc.page_content for doc in documents]
-        doc_vectors = self.vectorizer.transform(doc_texts)
-        
-        # Calculate cosine similarities
-        similarities = cosine_similarity(query_vector, doc_vectors)[0]
-        
-        # Create (document, score) pairs and sort
-        doc_scores = list(zip(documents, similarities))
-        doc_scores.sort(key=lambda x: x[1], reverse=True)
-        
-        if top_k is not None:
-            doc_scores = doc_scores[:top_k]
-        
-        return doc_scores
-    
-    def get_top_keywords(self, document: Document, top_n: int = 10) -> List[Tuple[str, float]]:
-        """Extract top TF-IDF keywords from a document.
-        
-        Args:
-            document: Document to analyze
-            top_n: Number of top keywords to return
-            
-        Returns:
-            List of (keyword, score) tuples
-        """
-        if not self.fitted:
-            raise ValueError("Vectorizer must be fitted before extracting keywords")
-        
-        doc_vector = self.vectorizer.transform([document.page_content])
-        feature_names = self.vectorizer.get_feature_names_out()
-        
-        # Get TF-IDF scores for this document
-        scores = doc_vector.toarray()[0]
-        
-        # Get top N features
-        top_indices = scores.argsort()[-top_n:][::-1]
-        top_keywords = [(feature_names[i], scores[i]) for i in top_indices if scores[i] > 0]
-        
-        return top_keywords
-
-
-class TFIDFRetriever(BaseRetriever):
-    vectorizer: Any
-    matrix: Any
-    documents: List
-    k: int = 4
-
-    def __init__(self, vectorizer, matrix, documents, k=4):
-        super().__init__(vectorizer=vectorizer, matrix=matrix, documents=documents, k=k)
-        self.vectorizer = vectorizer
-        self.matrix = matrix
-        self.documents = documents
-        self.k = k
-
-    def _get_relevant_documents(self, query: str, *, run_manager) -> List[Document]:
-        query_vec = self.vectorizer.transform([query])
-        similarities = cosine_similarity(query_vec, self.matrix)[0]
-        top_indices = similarities.argsort()[-self.k:][::-1]
-        return [self.documents[i] for i in top_indices]
-
-    def get_relevant_documents_with_scores(self, query: str, k: int) -> List[Tuple[Document, float]]:
-        query_vec = self.vectorizer.transform([query])
-        similarities = cosine_similarity(query_vec, self.matrix)[0]
-        top_indices = similarities.argsort()[-k:][::-1]
-        return [(self.documents[i], similarities[i]) for i in top_indices]
-
-
-
-class HybridRetriever(BaseRetriever):
-    vectorstore: Any
-    tfidf_retriever: Any
-    k: int = 4
-    verbose: bool = False
-    tfidf_score_factor: int = 100
-
-    def __init__(self, vectorstore, tfidf_retriever, k=4, verbose=False, tfidf_score_factor= 100):
-        super().__init__(vectorstore=vectorstore, tfidf_retriever=tfidf_retriever, k=k, verbose=verbose)
-        self.vectorstore = vectorstore
-        self.tfidf_retriever = tfidf_retriever
-        self.k = k
-        self.verbose = verbose
-        self.tfidf_score_factor = tfidf_score_factor
-
-    def _get_relevant_documents(self, query: str, *, run_manager) -> List[Document]:
-        # Get from vector store with scores
-        vector_docs_scores = self.vectorstore.similarity_search_with_score(query, k=self.k*2)
-        # Get from TF-IDF with scores
-        tfidf_docs_scores = self.tfidf_retriever.get_relevant_documents_with_scores(query, self.k*2)
-        
-        # Track which retriever found each document
-        doc_to_info = {}
-        
-        # Add vector documents
-        for doc, score in vector_docs_scores:
-            key = id(doc)
-            if key not in doc_to_info:
-                doc_to_info[key] = {
-                    'doc': doc,
-                    'score': score,
-                    'vector_score': score,
-                    'tfidf_score': None,
-                    'retrieval_method': 'vector'
-                }
-        
-        # Add TF-IDF documents
-        for doc, score in tfidf_docs_scores:
-            key = id(doc)
-            if key not in doc_to_info:
-                doc_to_info[key] = {
-                    'doc': doc,
-                    'score': score * self.tfidf_score_factor,
-                    'vector_score': None,
-                    'tfidf_score': score,
-                    'retrieval_method': 'tfidf'
-                }
-            else:
-                # Document found by both methods
-                existing_score = doc_to_info[key]['score']
-                doc_to_info[key]['tfidf_score'] = score
-                doc_to_info[key]['score'] = max(existing_score, score)
-                doc_to_info[key]['retrieval_method'] = 'hybrid'
-        
-        # Sort by score descending
-        ranked = sorted(doc_to_info.values(), key=lambda x: x['score'], reverse=True)
-        
-        # Add metadata to documents
-        result_docs = []
-        for info in ranked[:self.k]:
-            doc = info['doc']
-            doc.metadata['relevance_score'] = float(info['score'])
-            doc.metadata['vector_score'] = float(info['vector_score']) if info['vector_score'] is not None else None
-            doc.metadata['tfidf_score'] = float(info['tfidf_score']) if info['tfidf_score'] is not None else None
-            doc.metadata['retrieval_method'] = info['retrieval_method']
-            result_docs.append(doc)
-        
-        return result_docs
+from .system_prompt import retrieval_prompt, no_retrieval_prompt, few_shot_classification_prompt
+from .HybridRetriever import HybridRetriever
+from .TFIDFRetriever import TFIDFRetriever
+from .TFIDFReranker import TFIDFReranker
 
 class RAGSystem:
     """RAG system with TF-IDF integration and query optimization."""
@@ -244,6 +36,7 @@ class RAGSystem:
         llm: Any,
         llm_query: Optional[Any] = "claude-3-haiku-20240307",  
         k: int = 4,
+        state_dir: str = 'crawl',
         threshold: float = 0.7,
         search_type: str = "mmr",
         language: str = "english",
@@ -414,56 +207,8 @@ class RAGSystem:
             (should_retrieve, optimized_query)
         """
 
-        templates = {
-            "english": """You are a university assistant analyzing if a student's question requires searching in university documents (regulations, guides, academic procedures, course information, etc.).
 
-    Student asked: {question}
-
-    Recent conversation history:
-    {history}
-
-    Analyze if this question needs information from university documents or can be answered from:
-    1. General knowledge or common courtesy responses
-    2. Previous conversation context
-    3. Greetings, thanks, clarifications about previous answers
-
-    If NO retrieval needed (greetings, thanks, clarifications), respond: NO_RETRIEVAL
-    If retrieval IS needed (academic info, regulations, procedures), respond with an optimized search query (max 15 words).
-
-    Examples:
-    - "Hello" -> NO_RETRIEVAL
-    - "Thanks for the info" -> NO_RETRIEVAL
-    - "Can you repeat that?" -> NO_RETRIEVAL
-    - "What are the enrollment deadlines?" -> enrollment deadlines registration periods
-
-    Your response:""",
-
-            "spanish": """Eres un asistente universitario analizando si la pregunta de un estudiante requiere buscar en documentos de la universidad (normativas, guías, procedimientos académicos, información de cursos, etc.).
-
-    El estudiante preguntó: {question}
-
-    Historial reciente:
-    {history}
-
-    Si NO necesita búsqueda, responde: NO_RETRIEVAL  
-    Si SÍ necesita búsqueda, responde con una query optimizada (máx 15 palabras).
-
-    Tu respuesta:""",
-
-            "galician": """Es un asistente universitario analizando se a pregunta dun estudante require buscar en documentos da universidade (normativas, guías, procedementos académicos, información de cursos, etc.).
-
-    O estudante preguntou: {question}
-
-    Historial recente:
-    {history}
-
-    Se NON necesita busca, responde: NO_RETRIEVAL  
-    Se SI necesita busca, responde cunha query optimizada (máx 15 palabras).
-
-    A túa resposta:"""
-        }
-
-        template = templates.get(self.language.lower(), templates["english"])
+        template = few_shot_classification_prompt.get(self.language.lower(), few_shot_classification_prompt["english"])
         query_prompt = ChatPromptTemplate.from_template(template)
 
         callback = ClaudeCostCallback(
@@ -536,7 +281,7 @@ class RAGSystem:
                 all_docs = temp_retriever.get_relevant_documents("*")
             
             if all_docs:
-                self.tfidf_reranker = TFIDFReranker(max_features=5000, ngram_range=(1, 2))
+                self.tfidf_reranker = TFIDFReranker(max_features=5000, ngram_range=(1, 2), stopwords_file=self.state_dir + '/' + 'top_words.csv')
                 self.tfidf_reranker.fit(all_docs)
                 
                 if self.verbose:
@@ -570,52 +315,8 @@ class RAGSystem:
     
     def _create_prompt_template(self) -> ChatPromptTemplate:
         """Create prompt template based on selected language."""
-        templates = {
-            "english": """Youre a RAGsystem of the University of A Coruña (UDC) use the following context from documents and the conversation history (if any) to answer the question. 
-Be concise and extract important information from the text. 
-If the question refers to something mentioned earlier in the conversation, use that information.
-If you don't know, politely say you don't know instead of making up an answer. 
-The answer should be pleasant and clear.
-
-Context from documents:
-{context}
-
-{history}
-
-Question: {input}
-
-Answer:""",
-            "spanish": """Eres un RAGsystem de la universidad da couruña (UDC) usa el siguiente contexto de los documentos y el historial de conversación (si existe) para responder a la pregunta.
-Sé conciso, extrae información importante del texto.
-Si la pregunta hace referencia a algo mencionado anteriormente en la conversación, usa esa información.
-Si no sabes, di educadamente que no sabes, no intentes inventar la respuesta.
-La respuesta debe ser agradable y clara.
-
-Contexto de los documentos:
-{context}
-
-{history}
-
-Pregunta: {input}
-
-Respuesta:""",
-            "galician": """Es un RAGsystem da universidade da couruña (UDC) usa o seguinte contexto dos documentos e o historial de conversación (se existe) para responder á pregunta.
-Responde en galego e NON en portugués. Sé conciso, extrae información importante do texto.
-Se a pregunta fai referencia a algo mencionado anteriormente na conversación, usa esa información.
-Se non sabes a resposta, di educadamente que non o sabes, non intentes inventar.
-A resposta debe ser agradable e clara.
-
-Contexto dos documentos:
-{context}
-
-{history}
-
-Pregunta: {input}
-
-Resposta:"""
-        }
         
-        template = templates.get(self.language.lower(), templates["english"])
+        template = retrieval_prompt.get(self.language.lower(), retrieval_prompt["english"])
         return ChatPromptTemplate.from_template(template)
     
     def _format_history(self, max_turns: int = 5) -> str:
@@ -745,33 +446,10 @@ Resposta:"""
 
         if not should_retrieve:
             # ---- Direct answer (no retrieval) ----
-            direct_templates = {
-                "english": """Answer the following question directly. Use conversation history if relevant.
 
-    {history}
-
-    Question: {input}
-
-    Answer:""",
-                "spanish": """Responde directamente a la siguiente pregunta. Usa el historial si es relevante.
-
-    {history}
-
-    Pregunta: {input}
-
-    Respuesta:""",
-                "galician": """Responde directamente á seguinte pregunta en galego (NON en portugués). Usa o historial se é relevante.
-
-    {history}
-
-    Pregunta: {input}
-
-    Resposta:"""
-            }
-
-            template = direct_templates.get(
+            template = no_retrieval_prompt.get(
                 self.language.lower(),
-                direct_templates["english"]
+                no_retrieval_prompt["english"]
             )
 
             prompt = ChatPromptTemplate.from_template(template)
@@ -929,15 +607,15 @@ Resposta:"""
             return
         
         self.log("\n" + "="*50, "info")
-        self.log("📊 RESUMEN DE COSTES", "success")
+        self.log("RESUMEN DE COSTES", "success")
         self.log("="*50, "info")
         self.log(f"💵 Coste total: ${summary['total_cost']:.6f}", "success")
-        self.log(f"📝 Número de queries: {summary['num_queries']}", "info")
-        self.log(f"📊 Coste medio por query: ${summary['avg_cost_per_query']:.6f}", "info")
-        self.log(f"🔍 Queries con retrieval: {summary['queries_with_retrieval']}", "info")
-        self.log(f"💬 Queries sin retrieval: {summary['queries_without_retrieval']}", "info")
-        self.log(f"🤖 Coste total Haiku (queries): ${summary['total_query_costs']:.6f}", "info")
-        self.log(f"🧠 Coste total Sonnet (respuestas): ${summary['total_answer_costs']:.6f}", "info")
+        self.log(f"Número de queries: {summary['num_queries']}", "info")
+        self.log(f"Coste medio por query: ${summary['avg_cost_per_query']:.6f}", "info")
+        self.log(f"Queries con retrieval: {summary['queries_with_retrieval']}", "info")
+        self.log(f"Queries sin retrieval: {summary['queries_without_retrieval']}", "info")
+        self.log(f"Coste total Haiku (queries): ${summary['total_query_costs']:.6f}", "info")
+        self.log(f"Coste total Sonnet (respuestas): ${summary['total_answer_costs']:.6f}", "info")
         self.log("="*50 + "\n", "info")
     
     def reset_costs(self) -> None:
