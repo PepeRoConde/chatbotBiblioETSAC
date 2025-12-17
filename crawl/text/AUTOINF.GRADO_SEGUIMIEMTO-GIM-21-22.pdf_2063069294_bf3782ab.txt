@@ -1,0 +1,1 @@
+[Error extracting PDF text: I/O operation on closed file.]

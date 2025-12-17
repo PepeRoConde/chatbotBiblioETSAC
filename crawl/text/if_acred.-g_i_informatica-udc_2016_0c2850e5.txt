@@ -1,0 +1,512 @@
+ 
+ 
+ 
+ 
+ID MECD: 2502210 
+Nº EXPEDIENTE: 3583/2010 
+ 
+ 
+ 
+INFORME FINAL DE EVALUACIÓN PARA LA 
+RENOVACIÓN DE LA ACREDITACIÓN 
+ 
+ 
+DENOMINACIÓN DEL TÍTULO 
+GRADUADO O GRADUADA EN INGENIERÍA 
+INFORMÁTICA 
+MENCIONES 
+INGENIERÍA DEL SOFTWARE 
+INGENIERÍA DE COMPUTADORES 
+COMPUTACIÓN 
+SISTEMAS DE INFORMACIÓN 
+TECNOLOGÍAS DE LA INFORMACIÓN 
+UNIVERSIDAD RESPONSABLE UNIVERSIDAD DE A CORUÑA 
+CENTRO RESPONSABLE FACULTAD DE INFORMÁTICA 
+CENTRO DONDE SE IMPARTE FACULTAD E INFORMÁTICA 
+RAMA DE CONOCIMIENTO INGENIERÍA Y ARQUITECTURA 
+NÚMERO TOTAL DE CRÉDITOS 240 
+PROFESIÓN REGULADA NO 
+MODALIDAD DE IMPARTICIÓN PRESENCIAL 
+ACREDITACIÓN EX ANTE 
+(VERIFICACIÓN) 
+29/07/2010 
+CURSO DE IMPLANTACIÓN 2010/2011 
+ 
+ 
+ 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             2 
+ 
+Conforme a lo establecido en el Real Decreto 1393/2007, modificado por el Real Decreto 
+861/2010, la Universidad de A Coruña  ha remitido la solicitud para la renovación de la 
+acreditación del título de GRADO EN INGENIERÍA INFORMÁTICA con el fin de que ACSUG 
+compruebe que el plan de estudios se está llevando a cabo de acuerdo con la descripción y los 
+compromisos que se incluyeron en el proyecto inicial que, para este título, se aprobó en el 
+proceso de verificación.  
+ 
+La evaluación se ha realizado por una subcomisión derivada de la comisión de evaluación de la 
+rama de conocimiento de Ingeniería y Ar quitectura formada por expertos nacionales e 
+internacionales del ámbito académico, profesionales y estudiantes. Los miembros de esta 
+comisión han sido seleccionados y nombrados según el procedimiento que se recoge en la 
+página Web de ACSUG. 
+ 
+Este informe e s el resultado de la evaluación del conjunto de evidencias de carácter 
+documental del título y de la visita de la subcomisión de evaluación al centro donde se imparte 
+el título y de la revisión, por dicha subcomisión, del Plan de Mejoras remitido por el Ce ntro tras 
+la recepción del informe provisional de evaluación para la renovación de la acreditación. 
+ 
+Una vez valorados los criterios de evaluación establecidos en la Guía de evaluación para la 
+renovación de la acreditación de títulos oficiales de grado y m áster, ACSUG emite un informe 
+final de evaluación para la renovación de la acreditación FAVORABLE considerando la 
+siguiente valoración por criterio: 
+ 
+DIMENSIONES Y CRITERIOS VALORACIÓN 
+DIMENSIÓN 1. LA GESTIÓN DEL TÍTULO 
+Criterio 1. Organización y desarrollo C: Se alcanza parcialmente 
+Criterio 2. Información y transparencia C: Se alcanza parcialmente 
+Criterio 3. Sistema de garantía de calidad  SGC CERTIFICADO 31/07/2013 
+DIMENSIÓN 2. RECURSOS 
+Criterio 4. Recursos humanos B: Se alcanza 
+Criterio 5. Recursos materiales y servicios B: Se alcanza 
+DIMENSIÓN 3. RESULTADOS 
+Criterio 6. Resultados de aprendizaje B: Se alcanza 
+Criterio 7. Indicadores de satisfacción y rendimiento C: Se alcanza parcialmente 
+ 
+ 
+ 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             3 
+ 
+- ASPECTOS MEJOR VALORADOS: 
+ 
+o El interés, implicaci ón y compromiso del equipo directivo por la mejora continua, 
+habiéndose presentado, de forma voluntaria, al proceso de certificación de la 
+implantación del Sistema de Garantía de Calidad del Centro, obteniendo informe 
+favorable (31/07/2013). 
+ 
+o El "Portal de  Estudios" de la Universidad es una adecuada herramienta de difusión. 
+Aporta información suficiente. Así mismo la aplicación denominada "Ficha do PDI da 
+UDC" contiene información sobre las líneas de investigación de los docentes que 
+imparten cada materia. 
+ 
+o El título se ha mostrado como un título actualizado, relevante, de prestigio y que aporta 
+una adecuada capacitación profesional, lo que ha sido reconocido por todos los grupos 
+de interés. 
+ 
+o La demanda del título se mantiene en niveles aceptables desde el i nicio de la 
+implantación del mismo. 
+ 
+o La buena relación y comunicación existente entre el profesorado y los estudiantes que 
+en general se constató en las reuniones mantenidas con los diferentes grupos de 
+interés. 
+ 
+o El tamaño de los grupos se considera confor me en relación con las actividades 
+desarrolladas. 
+ 
+o La coordinación docente, tanto horizontal como vertical, facilita que no se aprecien 
+duplicidades y que haya una buena complementación, en la mayoría de las asignaturas, 
+de la enseñanza teórica con la prác tica, lo que permite relacionar estrechamente y 
+afianzar los contenidos teórico-prácticos.  
+ 
+o Los sistemas de evaluación utilizados en las diferentes materias son variados (trabajos 
+en grupo, individuales, exámenes), coherentes con las metodologías y las co mpetencias 
+y están bien aceptadas por los estudiantes. 
+ 
+o Las normativas de permanencia y reconocimiento de créditos, se aplican sin problemas 
+manifestados. 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             4 
+ 
+o El personal académico es suficiente y adecuado en experiencia docente e investigadora, 
+de acuerdo con  las características del título y el número de estudiantes. Participan en 
+actividades de formación dentro de los programas gestionados por la universidad. 
+ 
+o El personal de apoyo es suficiente y adecuado de acuerdo con las características del 
+título y el núm ero de estudiantes. Participa en programas de formación dentro del 
+programa gestionado por la Universidad. 
+ 
+o Las infraestructuras son las adecuadas en función de la naturaleza, modalidad del título, 
+número de estudiantes matriculados y competencias a adquirir por los mismos. 
+ 
+o El extenso horario y buen funcionamiento de los servicios de Biblioteca  y CECAFI 
+(Centro de Cálculo de la Facultad de Informática) son satisfactorios. 
+ 
+o El desarrollo de las prácticas externas , tanto las curriculares como las extracurric ulares, 
+están bien valoradas por los diferentes grupos de interés (estudiantes, egresados y 
+empleadores) ya que facilitan alcanzar las competencias que les corresponden. 
+ 
+o El procedimiento de presentación, distribución, elección, elaboración, orientación, 
+defensa y la proporcionalidad entre los créditos asignados y los contenidos exigidos del 
+Trabajo Fin de Grado. 
+ 
+o El éxito, la oportunidad y la aceptación de la implantación de la línea en inglés. 
+ 
+o En general, el nivel de satisfacción de los diferentes grupos  de interés con el título es 
+bueno, destacando especialmente la satisfacción de los egresados y empleadores. 
+ 
+o La realización de las encuestas de satisfacción por menciones, lo que facilita la 
+comparación de resultados entre ellas. 
+ 
+o Elevados índices de empleabilidad. 
+ 
+o El elevado prestigio del título entre los empleadores con los que se ha mantenido la 
+audiencia, así como el reconocimiento de la capacitación profesional de los egresados.  
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             5 
+ 
+ 
+PLAN DE ACCIONES DE MEJORA ENVIADO POR EL CENTRO PARA DAR 
+RESPUESTA A: 
+ 
+- ASPECTOS QUE DEBEN SER OBJETO DE ELABORACIÓN DE UN PLAN 
+DE MEJORAS: 
+ 
+DIMENSIÓN 1. LA GESTIÓN DEL TÍTULO 
+ 
+Criterio 1. Organización y desarrollo 
+ 
+ Revisar y a ctualizar la memoria del título solicitando una modificación del plan de 
+estudios. En la revisión  realizada por la comisión de evaluación durante la visita al 
+centro, se han podido detectar algunas incoherencias entre la información incluida en la 
+memoria y la actividad desarrollada en el título.  Por ejemplo: enlaces web que no 
+funcionan en la memoria  (normativa de permanencia, normativa de transferencia y 
+reconocimiento de créditos,…), adaptar el número de créditos de matrícula a tiempo 
+parcial a la nueva normativa de la Universidad, cambio de materia s de cuatrimestre 
+(con el objetivo de mejorar los r esultados), realizar un análisis de las competencias 
+asociadas a cada materia, etc. 
+ 
+ Acciones de mejora:  
+o Revisión y actualización de la memoria del título. 
+ 
+ Realizar un análisis real del perfil de ingreso  que facilite la puesta en marcha de cursos 
+de nivelación (Curso "0"), en forma de video-apuntes o similar, que quede a disposición 
+de los estudiantes a manera de prerrequisitos o conocimientos básicos de partida que 
+puedan consultar sin restricciones de horario y/o calendario. Se han detectado 
+materias, sobre todo en primero, que acumulan un número excesivo de estudiantes en 
+segunda y sucesiva matrícula (Cálculo, Tecnología Electrónica, Fundamentos de las 
+Computadoras, Álgebra). 
+  
+ Acciones de mejora:  
+o Implantación de curso de nivelación. 
+ 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             6 
+ 
+ Potenciar la form ación en el ámbito de las competencias transversales: comunicación 
+oral y escrita, creatividad y emprendimiento, conocimiento de realidad contemporánea, 
+pensamiento crítico, aprendizaje permanente, planificación y gestión del tiempo,…  
+ 
+ Acciones de mejora:  
+o Potenciación de la formación en competencias transversales. 
+ 
+ Fomentar la participación de los estudiantes en los diferentes órganos de gobierno del 
+centro (comisión de garantía de calidad y junta de centro) y del título (comisión 
+académica). Utilizar el P lan de Acción Tutorial para informar a los estudiantes de la 
+importancia de su participación en esos órganos así como el posible reconocimiento de 
+créditos optativos que eso conlleva. 
+ 
+ Acciones de mejora:  
+o Aumento de la participación del alumnado en los órganos de Gobierno. 
+ 
+ Desarrollar acciones de potenciación de la movilidad de los estudiantes. 
+ 
+ Acciones de mejora:  
+o Acciones de potenciación de la movilidad de los estudiantes. 
+ 
+o Desarrollar, desde la Universidad, de forma inmediata el procedimiento de emisi ón del 
+Suplemento Europeo al Título, para proceder a la emisión del mismo en cumplimiento 
+de la normativa actual vigente. 
+ 
+ Acciones de mejora:  
+o Desarrollo del procedimiento de emisión del Suplemento Europeo al Título 
+(SET). 
+ 
+Criterio 2. Información y transparencia 
+ 
+o La página web de Centro/Título debe ser actualizada con el objetivo de que sea el eje 
+central de información, conteniendo la información mínima relevante del Grado , 
+simplificando y mejorando el diseño y eliminando duplicidades. 
+ 
+ Acciones de mejora:  
+o Mejora de la web del centro y del título. 
+ 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             7 
+ 
+o Incluir, en la página web del título, la información sobre los recursos materiales y las 
+infraestructuras, así como los requerimientos mínimos de los equipos informáticos que 
+los estudiantes deben adquirir. 
+ 
+ Acciones de mejora:  
+o Mejora de la web del centro y del título. 
+ 
+DIMENSIÓN 2. RECURSOS 
+ 
+Criterio 5. Recursos materiales y servicios 
+ 
+o Asegurar la accesibilidad universal en todos los espacios de la Facultad. 
+ 
+ Acciones de mejora:  
+o Asegurar la accesibilidad universal en todos los espacios de la Facultad. 
+ 
+DIMENSIÓN 3. RESULTADOS 
+ 
+Criterio 7. Indicadores de satisfacción y rendimiento 
+ 
+ Rediseñar las encuestas de satisfacción, incluyendo, por ejemplo un cuadro para 
+incorporar observaciones, preguntas sobre material es didácticos utilizados, sistemas de 
+evaluación, metodologías docentes, etc. Actualmente existe una sensación general, por 
+parte de la mayoría de los grupos de interés de que son inútiles. 
+ 
+ Acciones de mejora:  
+o Revisión y modificación de la encuesta institucional de la UDC. 
+ 
+ Establecer las propuestas de mejora que sean necesarias, para rebajar los resultados 
+tan elevados de estudiantes que no presentan el Trabajo Fin de Grado al finalizar el 
+título. 
+  
+ Acciones de mejora:  
+o Reducción del número de alumnos que no presentan el TFG. 
+o Promocionar la realización de TFG en las empresas, y difundir su 
+importancia tanto a las empresas como a los alumnos. 
+ 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             8 
+ 
+ Valorar los resultados obtenidos en las tasas de graduación y abandono, ya que se 
+desvían de los establecidos en la memoria vigente del título y establecer las acciones de 
+mejora oportunas. 
+ 
+ Acciones de mejora:  
+o Vigilancia de las tasas de graduación y abandono del Grado en Ingeniería 
+Informática. 
+ 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             9 
+ 
+- RECOMENDACIONES PARA LA MEJORA: 
+ 
+DIMENSIÓN 1. LA GESTIÓN DEL TÍTULO 
+ 
+Criterio 1. Organización y desarrollo 
+ 
+o Desarrollar un plan de difusión efectivo de la titulación. Fomentando la proyección 
+externa de las numerosas fortalezas  del centro y de la titulación,  lo que proporcionaría 
+al Centro una imagen de calidad e internacio nalización que podría ayudar a incrementar 
+la demanda como primera opción y que la nota de corte fuera más exigente lo que, 
+probablemente, mejoraría las tasas de éxito, eficiencia, etc. 
+ 
+ Acciones de mejora:  
+o Mejorar el plan de difusión de la titulación : El aborar un folleto 
+informativo, ampliar la información de promoción en la nueva web, 
+realizar un vídeo promocional, remitir información a los orientadores de 
+los institutos. 
+ 
+o Valorar la posibilidad de incrementar la oferta de prácticas externas  curriculares, dado 
+el interés manifestado en las audiencias de estudiantes, egresados y empleadores ; y la 
+existencia de demanda por parte de los estudiantes y de oferta por parte de las 
+empresas. 
+ 
+ Acciones de mejora:  
+o Evaluar la posibilidad de aumentar la oferta de pr ácticas curriculares  en 
+función de la demanda y capacidad de tutorización de los docentes de la 
+Facultad. 
+ 
+o Fomentar el uso responsable de las redes sociales (Twitter etc.) entre los diferentes 
+miembros de la Facultad, garantizando en todo momento el debido  respeto y educación 
+que posibilite una convivencia correcta entre profesores y estudiantes. 
+ 
+ Acciones de mejora:  
+o No se han establecido. 
+ 
+Comentario de la Comisión de Evaluación : Se han encontrado evidencias en las 
+redes sociales de comentarios realizados en junio, julio y octubre de 2015. 
+ 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             10 
+ 
+o Valorar la posibilidad de establecer jornadas de conocimiento con las empresas  del 
+sector antes de la elección y asignación de las prácticas externas. Por ejemplo a través 
+de la organización de "Foros". 
+ 
+ Acciones de mejora:  
+o Jornadas de conocimiento de las empresas que ofertan prácticas 
+curriculares.  
+o Aumentar el conocimiento que los estudiantes tienen sobre las empresas 
+que ofertan prácticas curriculares a través de charlas y formato de la 
+oferta de prácticas, y valorar la viabilidad de organizar un foro. 
+ 
+Criterio 2. Información y transparencia 
+ 
+o Vincular la aplicación denominada "Ficha do PDI da UDC" al espacio de "Profesorado" 
+del "Portal de Estudios de la UDC". 
+ 
+ Acciones de mejora:  
+o Vinculación a la aplicación “Ficha del PDI de la UDC” al “Portal de 
+Estudios” espacio profesorado. 
+ 
+o Realizar encuestas de satisfacción sobre la información pública que se ofrece en las  
+diferentes páginas web. 
+ 
+ Acciones de mejora:  
+o Modificación y simplificación los diferentes procedimientos que conforman 
+el SGC y la aplicación informática a través de la que se gestiona, con el 
+fin de continuar con la implantación total del SGC”, ya que las encuestas 
+de satisfacción a los diferentes grupos de interés (alumnado, 
+profesorado, PAS, titulados y em pleadores) se contemplan en el 
+procedimiento PA03. Satisfacción, expectativas y necesidades del SGC del 
+centro. Una vez se acometa la revisión y modificación de este 
+procedimiento se incorporarán a dichas encuestas ítems referentes a la 
+información pública que se ofrece en las diferentes páginas web. 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             11 
+ 
+Criterio 3. Sistema de garantía de calidad  
+ 
+ Promocionar la existencia de la certificación del Sistema de Garantía de Calidad (SGC) y 
+la mejora que supone para la Facultad, algunos de los colectivos entrev istados no 
+conocían su existencia y beneficios. 
+ 
+ Acciones de mejora:  
+o No se han establecido. 
+ 
+ Continuar con la implantación total del SGC, realizando la modificación y simplificación 
+de los diferentes procedimientos que conforman el Sistema.  
+ 
+ Acciones de mejora:  
+o Modificación y simplificación los diferentes procedimientos que conforman 
+el SGC del centro y la aplicación informática a través de la que se 
+gestiona, con el fin de continuar con su total implantación. 
+ 
+ Utilizar las encuestas de satisfacción para  recabar información de todos los grupos de 
+interés, incluidos los empleadores. 
+ 
+ Acciones de mejora:  
+o No se han establecido. 
+ 
+ Fomentar el uso y la visibilidad del procedimiento de “Gestión de quejas, sugerencias y 
+felicitaciones” para que éstas, se gestion en a través de él; y no solo a través del Plan 
+de Acción Tutorial. 
+ 
+ Acciones de mejora:  
+o Elaboración de guía del centro. Acción ya incluida en el Plan de Mejoras 
+del Centro. 
+ 
+DIMENSIÓN 2. RECURSOS 
+ 
+Criterio 4. Recursos humanos 
+ Desarrollar acciones de potenciación de la movilidad para los docentes de la Facultad. 
+ 
+ Acciones de mejora:  
+o Acciones de potenciación de la movilidad de los docentes. 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             12 
+ 
+ 
+ En cuanto la situación económica lo permita, promocionar las plazas de interinos de 
+sustitución por figuras de contra tación de Personal Docente e Investigador (PDI) de  
+mayor estabilidad y reconocimiento. 
+ 
+ Acciones de mejora:  
+o La UDC está empleando toda la capacidad de estabilización y promoción 
+de la plantilla que le permite el marco normativo actual (tasa de 
+reposición). 
+ 
+Criterio 5. Recursos materiales y servicios 
+ 
+o Asegurar un número adecuado de equipos informáticos físicos para el correcto 
+desarrollo del proceso de enseñanza -aprendizaje por parte de todos los est udiantes. Al 
+mismo tiempo incluir en los requisitos de ac ceso, por ejemplo, las características d el 
+equipo informático recomendable que deberían tener los estudiantes. 
+ 
+ Acciones de mejora:  
+o Informar sobre las características de los equipos recomendables a través 
+de la web del centro. 
+ 
+o Potenciar actividades de orientación profesional por menciones. 
+ 
+ Acciones de mejora:  
+o No se han establecido. 
+ 
+DIMENSIÓN 3. RESULTADOS 
+ 
+Criterio 6. Resultados de aprendizaje 
+ 
+o Valorar los resultados de aprendizaje obtenidos y utilizarlos para la mejora continua del 
+título. 
+ 
+ Acciones de mejora:  
+o No se han establecido. 
+ 
+ 
+ 
+
+ 
+ 
+Informe de renovación de la acreditación                                                                                                             13 
+ 
+Criterio 7. Indicadores de satisfacción y rendimiento 
+ 
+ En cuanto avance la línea de inglés establecida, analizar los indicadores de satisfacción 
+y rendimiento y compararlos con los obtenidos en el resto de los grupos. 
+ 
+ Acciones de mejora:  
+o Análisis de los resultados de la línea de inglés. 
+ 
+ Revisar el contenido, el procedimiento y la planificación de realización de las encuestas 
+de satisfacción, racionalmente planificadas, a los diferentes grupos de interés, de modo 
+que s e incremente la participación y los resultados sean suficientemente 
+representativos y fiables y faciliten la elaboración de acciones de mejora. 
+ 
+ Acciones de mejora:  
+o Revisión y modificación de la encuesta institucional de la UDC. 
+ 
+ Informar a los encuestado s del objetivo de las encuestas, de los resultados obtenidos 
+con las mismas y de las acciones de mejora consecuencia de estas, además de 
+fomentar la transparencia del proceso podría ser un modo de colaborar a aumentar la 
+participación de los grupos de interés en las mismas.  
+ 
+ Acciones de mejora:  
+o Revisión y modificación de la encuesta institucional de la UDC. 
+ 
+ACSUG, en un plazo máximo de 3 años evaluará el informe de seguimiento del 
+título junto con las evidencias que justifiquen el cumplimiento de las acc iones 
+incluidas en el Plan de Acciones de Mejora y remitirá a la universidad un informe 
+de seguimiento sobre el cumplimiento del mismo. 
+ 
+Santiago de Compostela, 16 de junio de 2016 
+DIRECTOR ACSUG 
+SECRETARIO CGIACA 
+ 
+ 
+  
+ 
+ 
+José Eduardo López Pereira  

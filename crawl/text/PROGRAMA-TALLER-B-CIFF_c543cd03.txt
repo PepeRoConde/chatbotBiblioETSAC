@@ -1,0 +1,209 @@
+1
+MUA
+DEPARTAMENTO  DE  PROYECTOS  ARQUITECTÓNICOS
+URBANISMO Y COMPOSICIÓN
+ETSAC   A CORUÑA
+PROGRAMA TALLER B
+CENTRO DE INVESTIGACIÓN FLORA Y FAUNA DE LA 
+CUENCA DEL RIO GAFOS. PAZO DE GANDARÓN
+
+
+2
+MUA
+ESCUELA TÉCNICA SUPERIOR DE ARQUITECTURA DE LA CORUÑA
+CURSO 2024-2025
+PROFESORES DEL CURSO  TALLER B
+Amparo Casares Gallego Área Proyectos
+Andrés Fernández-Albalat Ruiz Área Proyectos
+Francisco J. Vidal Pérez Área Proyectos
+Miguel  Abelleira Doldán Area Composición
+Jesús Llamazares Área Urbanismo
+Antonio Raya de Blas Área Construcción
+Garitaonaindia de Vera Área Construcción
+Víctor Hermo Sánchez Área Construcción
+Félix Suárez Riestra Área Estructuras
+¿ Área Instalaciones
+
+
+3
+INTRODUCCIÓN 4
+OBJETO DEL PROYECTO 4
+EMPLAZAMIENTO 5
+CRITERIOS GENERALES 6
+PROGRAMA CENTRO DE INVESTIGACIÓN 9
+CALENDARIO DE ENTREGAS 12
+BIBLIOGRAFÍA 13
+…, el muro, los cultivos, los invernaderos, emparrados,…
+ …, y el agua
+
+
+4
+INTRODUCCIÓN
+Este programa se establece para orientar y facilitar la elaboración de un Centro
+de Investigacion de la Flora y Fauna del ecosistema del rio gafos
+Los  criterios  de  diseño  y  especificaciones  planteadas  deberán  tenerse  en
+cuenta  en  la  elaboración  del  proyecto,  al  margen  de  aquellas  otras
+consideradas apropiadas y que se podrán incorporar en las propuestas.
+OBJETO DEL PROYECTO
+El objeto del proyecto es el diseño de un edificio destinado a la investigación
+que a su vez contará con zonas mas accesibles al publico en general haciendo
+posible su funcionamiento tambien como Centro de Interpretación y difusion del
+ecosistema  rio,  posibilitando  la  organización  de  visitas  guiadas  a  las
+instalaciones,  sobre  todo  a  aquellas  áreas  planteadas  como  expositivas,
+ademas de permitir la organización de itinerarios que desde el Centro lleguen
+hasta los paseos existentes a lo largo del río.
+Por ello se deberan estructurar las propuestas contemplando como minimo los
+ambitos siguientes:
+- Areas de recepción y actividades con acceso publico general
+- Laboratorios de investigación
+- Zonas de personal investigador
+- Areas exteriores
+Aunque el Centro de Investigación se plantea en una ubicación no cercana al
+rio, se deberán estudiar y proponer los nuevos itinerarios entre el edificio y los
+ya existentes a lo largo del rio, pero también aquellos otros que lo relacionen
+con el núcleo y edificios existentes.
+
+5
+EMPLAZAMIENTO
+La zona de implantación se vincula con el Pazo de Salcedo en la zona grafiada
+en los planos. La superficie total es de                 m2 aprox. La topografía no
+presenta desniveles resolviendose en bancales, estando comprendida entre las
+cotas que figuran en planos.
+Sera importante para tomar las decisiones de proyecto concretas entender la
+importancia del Pazo y su capacidad de ordenar un territorio, no solo con su
+edificación  principal  sino  con  aquellas  otras  que  llegan  a  estructurar  y
+configurar todos los espacios exteriores (capilla, horreos, jardines, galpones,
+muros, emparrados, caminos, acequias, sistemas de riego etc..)
+
+
+6
+Planta de la zona de actuación
+CRITERIOS GENERALES PARA LA ELABORACIÓN DEL PROYECTO
+Se deberán estudiar las relaciones posibles entre el nuevo edificio y las zonas
+de uso agrícola del pazo, permitiendo y facilitando su convivencia, por lo que se
+podrán  incorporar  a  las  propuestas  elementos  existentes  en  el  interior  del
+recinto del pazo y apoyarse en ellas para completarlas y mejorarlas: La acequia
+existente, el aljibe, elementos de invernadero, el muro, la ampliación de la
+carballeira, etc.. Especial atención al análisis de las edificaciones auxiliares que
+se  están  utilizando  como aparcamiento  y en especial a  plantear un  nuevo
+diseño de sus viales de acceso.
+No menos importante serán las relaciones que se puedan establecer con el
+núcleo  existente,  su  viario,  sus  construcciones,  su  patrimonio  (material  e
+inmaterial), para que así la propuesta encaje de forma adecuada con el lugar y
+con su gente.
+
+
+7
+Medidas medioambientales y de eficiencia energética
+También se garantizará la optimización de los recursos energéticos mediante la
+inclusión de parámetros de eficiencia energética y otros criterios ambientales.
+Por todo esto se valoraran las aportaciones en materia de control energético,
+aislamiento térmicos y generación de energías alternativas, que superen los
+mínimos establecidos en el Código Técnico de la Edificación, y en la restante
+normativa vigente.
+Se  deberán  tener  en  cuenta  las  aportaciones  en  materia  de  defensa  y
+captación solar pasiva, y las encaminadas a reducir las aportaciones de CO2 a
+la atmósfera a lo largo del proceso tanto de fabricación como de  vida del
+edificio.
+Las cifras que se establecen para el Centro de Investigación en el Programa de
+Necesidades (superficies y espacios de locales), se consideran útiles y tendrán
+que respetarse. No se podrán proyectar espacios con una superficie menor, y
+se desaconsejan aumentos innecesarios de las mismas que no manejen la
+proporcionalidad de todas las dependencias.
+Calefacción y producción de ACS
+- Prever un sistema de producción mixta de agua caliente sanitaria
+- Utilización de caldera de con acumulación y energia solar térmica
+- Se preverá la instalación de placas solares, combinadas con el sistema de
+producción de ACS. 
+Recogida de pluviales para su uso en:
+-Red contraincendios
+-Instalación de riego
+-Para el circuito de alimentación de inodoros y urinarios
+Fontanería
+-Doble circuito de agua de alimentación
+-Lavamanos y duchas: agua potable
+
+8
+-Inodoros y urinarios, sistema mixto de aguas pluviales y red publica
+-ACS circuitos con retorno
+Electricidad
+Los equipos de iluminación deberán ser de bajo consumo y con equipos
+electrónicos
+Climatización
+Cumplimiento estricto de la HE1 y del RITE
+ELEMENTOS DE COMUNICACIÓN: PUERTAS, PASILLOS, ASCENSORES,
+RAMPAS, ESCALERAS Y BARANDILLA
+Todo el dimensionado de elementos  deberá estar supeditado al cumplimiento
+de la normativa vigente en materia de supresión de barreras arquitectónicas y
+de protección contra incendios, al CTE en general y cualquier otra normativa
+que le sea de aplicación.
+Los esquemas de  inicio  de las instalaciones  y las salas se  dimensionarán
+respetando  los  criterios  fijados  por  las  reglamentaciones  sectoriales  que
+correspondan en cada caso.  
+
+
+9
+PROGRAMA CENTRO DE INVESTIGACION FLORA Y FAUNA .   CIFLOFA
+área recepción y actividades con acceso publico   390,00 m²
+zona de acceso vestíbulo  100,00 m²
+sala de exposiciones temporales  50,00 m²
+sala de exposiciones permanentes    50,00 m²
+sala de audiovisuales, conferencias 100,00 m²
+almacén zona exposiciones   20,00 m²
+cafeteria o zona de vending  50,00 m²
+aseos publico y almacén  20,00 m²
+áreas de investigación:  320,00 m²
+aula laboratorio fauna acuática (acuarios,..) 50,00 m²
+aula laboratorio fauna terrestre (terrarios,..) 50,00 m²
+aula laboratorio aves (hospital de aves, aviario..) 50,00 m²
+aula laboratorio flora acuática 50,00 m²
+aula laboratorio flora de ribera (invernaderos, ..)  50,00 m²
+office aulas 1/aula 50,00 m²
+aseos según zonas 20,00 m²
+biblioteca  180,00 m²
+zonas de lectura individual        40,00 m²
+zonas de ordenadores individuales 40,00 m²
+deposito de libros y material informático  100,00 m²
+
+10
+área administración / personal investigacion  180,00 m²
+despacho dirección 20,00 m²
+administración 20,00 m²
+despachos investigadores  3x20 60,00 m²
+sala de reuniones 30,00 m²
+descanso personal  pequeño apartamento 1D  (guardias)  40,00 m²
+aseos 2x5 10,00 m²
+Total superf. útil 1070,00 m2
+circulaciones 25%    260,00 m²
+total superfice útil  1330,00 m²
+tabiquería 15%    200,00 m²
+TOTAL SUPERFICIE CONSTRUIDA  1530,00 m²
+Vista del aparcamiento existente en el Pazo
+
+
+11
+elementos exteriores
+aparcamientos  10 plazas vehiculos, 1 autobus
+acequias de agua con estanques
+pequeños invernaderos
+aviario
+terrarios
+torre de observación de aves
+la ubicación de la torre podrá preverse vinculada a algún itinerario entre el
+centro  de  investigación  y  el  rio  o  en  cualquier  punto  donde  se  estime
+interesante otear el territorio de la cuenca del rio gafos y su entorno.
+Torre de observacion de aves  en Graswarder
+
+
+12
+CALENDARIO DE ENTREGAS
+CURSO 2024-25
+OCTUBRE ESTUDIOS PREVIOS
+DICIEMBRE ENTREGA ANTEPROYECTO
+ MARZO ENTREGA PROYECTO BÁSICO 
+JULIO ENTREGA PROYECTO EJECUTIVO
+ petroglifos, pazo,...
+
+
+13
+ ….y las cruces

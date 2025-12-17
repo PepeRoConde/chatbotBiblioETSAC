@@ -1,0 +1,53 @@
+gl
+es
+en
+gl
+es
+en
+UDC
+RSS RSS Fuentes RSS en la UDC Cómo visualizar RSS
+RSS
+Fuentes RSS en la UDC
+Cómo visualizar RSS
+RSS
+>>
+Fuentes RSS en la UDC
+Cómo visualizar RSS
+Cómo visualizar RSS
+Hay varias formas de visualizar contenido RSS, pero la más efectiva es mediante un programa lector o agregador RSS instalado en el PC y configurado para que lea las fuentes RSS deseadas.
+Hay varios tipos de lectores RSS, algunos se integran con otros programas (como navegador web o cliente de correo) y otros son independientes. Habitualmente permanecen residentes en memoria y consultan periódicamente, si hay contenidos nuevos en las fuentes RSS a las que están suscritos. Muestran un icono al lado del reloj en la barra de tareas de Windows que cambia de aspecto cuando hay titulares sin leer, y suelen mostrar una ventana emergente para avisar al usuario de que hay información nueva.
+Los más elaborados utilizan una interfaz similar a la de un cliente de correo electrónico. Muestran varios paneles, uno con la lista de fuentes de noticias que se pueden clasificar en carpetas, otro con una lista de titulares de la fuente seleccionada en que se resaltan los que aún no han sido leídos por el usuario, y un tercero en que aparece la descripción de la noticia.
+Hay muchos programas lectores o agregadores de noticias que soportan RSS, gratuitos y de pago, para multitud de plataformas (Windows, Linux, Mac, etc.). Algunos de los más interesantes son:
+FeedReader de código abierto, para Windows, ligero, eficiente y disponible en español. Recomendado por el CATA.
+SharpReader para Windows, necesita platarforma .NET 1.1. Muchas posibilidades, gratuito, sólo en inglés.
+RssOwl: Multiplataforma (Java), de código abierto y disponible en español. Está en desarrollo y faltan algunas características importantes; en el momento de escribir estas líneas, por ejemplo, no presenta contenido HTML en el cuerpo de las noticias.
+AmphetaDesk: (Windows, Macintosh, Linux) Inglés, utiliza un navegador web para mostrar la información.
+Mozilla Firefox, es un excelente navegador web que entre sus características incluye la integración de fuentes RSS en los marcadores, los llamados "marcadores vivos". Cuando se visita una página web que dispone de fuentes RSS compatibles con esta característica de Firefox, éste muestra la siguiente imagen a la derecha de la barra de estado: . Haciendo clic en este icono aparece un menú contextual que permite suscribirse a las fuentes disponibles en el sitio. También es posible suscribirse a cualquier fuente RSS manualmente, en el menú "Marcadores" -> "Administrar Marcadores" - > "Añadir Marcador"
+Sage es una extensión de Mozilla Firefox para visualizar RSS con una funcionalidad más elaborada que la básica del navegador. Permite ver todos los resúmenes de las noticias de una fuente de una vez, en una página HTML que genera dinámicamente.
+RSS
+>>
+Fuentes RSS en la UDC
+Cómo visualizar RSS
+Universidade da Coruña
+Localización
+Directorio telefónico
+Sugerencias
+Contacto con la ciudadanía
+Mapa web
+Aviso legal
+Política de cookies
+Portal de transparencia
+Identidad corporativa
+Oficina de Igualdad de Género
+Perfil de contratante
+Secretaría virtual estudiantes
+Portal de noticias
+Canal interno de información
+Biblioteca universitaria
+Instagram
+YouTube
+Linkedin
+Calendarios
+App Store
+Google Play
+RSS

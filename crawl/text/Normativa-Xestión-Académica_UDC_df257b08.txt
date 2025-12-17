@@ -1,0 +1,2794 @@
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+NORMATIVA DE XESTIÓN ACADÉMICA DA UNIVERSIDADE 
+DA CORUÑA PARA O CURSO ACADÉMICO 2017/2018 
+ 
+Aprobada por Resolución reitoral do 31/05/2017 
+Modificada por RR 15/06/2017 
+Modificada por RR 21/07/2017 
+(Texto consolidado) 
+ 
+ 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 1 de un total de 59 página(s).
+
+
+ 
+Índice 
+Artigo 1. Ámbito de aplicación ..................................................................................... 4 
+Título I. Matrícula nas titulacións de grao e nas titulacións non adaptadas ao EEES ... 4 
+Artigo 2. Definición de matrícula ordinaria e extraordinaria nas titulacións de grao .............. 4 
+Artigo 3. Matrícula ordinaria de inicio de estudos e de continuación de estudos de grao ....... 4 
+Artigo 4. Impedimentos para a formalización da matrícula de continuación de estudos de 
+grao. Permanencia ..................................................................................................... 8 
+Artigo 5. Matrícula de dúas titulacións oficiais ou simultaneidade de estudos ...................... 9 
+Artigo 6. Matrícula nas titulacións non adaptadas ao EEES ............................................. 10 
+Artigo 7. Solicitudes de matrícula efectuadas fóra de prazo: .......................................... 10 
+Artigo 8. Desistencia e modificación da matrícula ......................................................... 10 
+Artigo 9. Recoñecementos e transferencias de créditos ................................................. 12 
+Artigo 10. Prezos públicos por servizos académicos ...................................................... 13 
+Título II. Réxime de cambio de universidade e/ou estudos universitarios oficiais 
+españois ................................................................................................................. 17 
+Artigo 11. Ámbito de aplicación ................................................................................. 17 
+Artigo 12. Cota de admisión ...................................................................................... 18 
+Título III. Admisión e matrícula nos estudos de grao dos titulados na ordenación 
+universitaria anterior .............................................................................................. 18 
+Artigo 13. Ámbito de aplicación ................................................................................. 18 
+Artigo 14. Orde de prelación para resolver as solicitudes de admisión ............................. 18 
+Título IV. Réxime de avaliacións .............................................................................. 19 
+Artigo 15. Convocatorias e Oportunidades para materias das titulacións de grao e mestrado 
+universitario ........................................................................................................... 19 
+Artigo 16. Convocatoria e oportunidades para os  Traballos de Fin de Grao e Traballos de Fin 
+de Mestrado ........................................................................................................... 19 
+Título V. Inscrición e matrícula nas ensinanzas oficiais de mestrado ........................ 20 
+Artigo 17. Ámbito de aplicación ................................................................................. 20 
+Artigo 18. Acceso e admisión .................................................................................... 20 
+Artigo 19. Preinscrición e matrícula ............................................................................ 21 
+Artigo 20. Matrícula en cursos extinguidos de titulacións de mestrado ............................. 24 
+Artigo 21. Impedimentos para a formalización da matrícula de conti nuación de estudos de 
+mestrado universitario. Permanencia .......................................................................... 24 
+Artigo 22. Coordinación dos mestrados e comisión de selección ...................................... 24 
+Artigo 23. Reclamacións e recursos ............................................................................ 26 
+Artigo 24. Desistencia e modificación da matrícula ....................................................... 26 
+Artigo 25. Simultaneidade ........................................................................................ 27 
+Artigo 26. Prezos de matrícula .................................................................................. 28 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 2 de un total de 59 página(s).
+
+
+ 
+ 
+Título VI. Procedemento de matrícula e documentación para entregar .................... 28 
+Artigo 27. Matrícula pola internet ............................................................................... 28 
+Artigo 28. Efectos da matrícula .................................................................................. 29 
+Artigo 29. Seguros .................................................................................................. 29 
+Artigo 30. Execución desta normativa ......................................................................... 29 
+Artigo 31. Resolución das reclamacións e dos recursos ................................................. 29 
+Artigo 32. Desenvolvemento da normativa .................................................................. 30 
+Anexo I: prazos e calendarios ................................................................................. 31 
+Anexo II: documentos ............................................................................................. 40 
+Anexo III .................................................................................................................. 43 
+MODELO DE DESESTIMACIÓN DE CAMBIO DE UNIVERSIDADE / ESTUDOS ...................... 43 
+Anexo IV ................................................................................................................... 44 
+MODELO DE ESTIMACIÓN DE CAMBIO DE UNIVERSIDADE / ESTUDOS ............................ 44 
+Anexo V .................................................................................................................... 45 
+MODELO DE DESESTIMACIÓN DE SIMULTANEIDADE DE ESTUDOS ................................. 45 
+Anexo VI ................................................................................................................... 46 
+MODELO DE ESTIMACIÓN DE SIMULTANEIDADE DE ESTUDOS ....................................... 46 
+Anexo VII ................................................................................................................. 47 
+MODELO DE ESTIMACIÓN DE RECOÑECEMENTO/TRANSFERENCIA DE CRÉDITOS ............. 47 
+Anexo VIII ................................................................................................................ 50 
+MODELO DE DESESTIMACIÓN DE RECOÑECEMENTO/TRANSFERENCIA DE CRÉDITOS .......................... 50 
+Anexo IX ................................................................................................................... 52 
+MODELO DE DESESTIMACIÓN DE MATRÍCULA FÓRA DE PRAZO ..................................... 52 
+Anexo X .................................................................................................................... 53 
+MODELO DE ESTIMACIÓN DE MATRÍCULA FÓRA DE PRAZO ........................................... 53 
+Anexo XI ................................................................................................................... 54 
+MODELO DE DESESTIMACIÓN DE MATRÍCULA A TEMPO PARCIAL ................................... 54 
+Anexo XII ................................................................................................................. 55 
+MODELO DE ESTIMACIÓN DE MATRÍCULA A TEMPO PARCIAL ......................................... 55 
+Anexo XIII ................................................................................................................ 56 
+MODELO DE ESTIMACIÓN DE DESISTENCIA DA SOLICITUDE DE MATRÍCULA ................... 56 
+Anexo XIV ................................................................................................................. 57 
+M O D E L O  D E  R E Q U I R I M E N T O  D O  P A G A M E N T O  D A  M A T R Í C U L A  P A R A  S O L I C I T A N T E S  D E  
+BOLSA (art. 10.4.2) ................................................................................................. 57 
+Anexo XV .................................................................................................................. 58 
+MODELO DE RESOLUCIÓN DE AUTORIZACIÓN PARA CONTINUAR ESTUDOS DE GRAO DE 
+ACORDO CO DISPOSTO NOS ARTIGOS 3.4.1.  b) E 4.1 DA NORMATIVA DE XESTIÓN 
+ACADÉMICA ............................................................................................................ 58 
+Anexo XVI ................................................................................................................. 59 
+MODELO DE DECLARACIÓN RESPONSABLE ................................................................. 59 
+  
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 3 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 4 de 59 
+ 
+Unha vez informado o Consello de Goberno o dí a 31 de maio de 2017 e, en aplicación do que 
+está disposto nos artigos 34.1 e 36.1 dos Estatu tos da Universidade da Coruña, aprobados por 
+Decreto da Xunta de Galicia 101/2004, de 13 de maio, e modificados polo Decreto 194/2007, de 
+11 de outubro, 
+RESOLVO: 
+Aprobar e facer pública a convocatoria de matrícula para o curso académico 2017/2018 nas 
+diferentes facultade e escolas, suxeita á seguinte: 
+Normativa de xestión académica da Universidade da Coruña para o 
+curso académico 2017/2018 
+ARTIGO 1. ÁMBITO DE APLICACIÓN 
+Esta Normativa de xestión académica resulta de aplicación aos planos de estudos que 
+conducen á obtención de títulos oficiais da UDC. Tamén será de aplicación supletoria a calquera 
+outro procedemento de xestión académica, o corre spondente ás bolsas e, en xeral, a todo o 
+procedemento académico en que a persoa interesada teña a condición de alumno da UDC. 
+Título I. Matrícula nas titulacións de grao e nas titulacións non adaptadas ao 
+EEES 
+ARTIGO 2. DEFINICIÓN DE MATRÍCULA ORDINARIA E EXTRAORDINARIA NAS TITULACIÓNS DE GRAO 
+2.1. A matrícula ordinaria  é a que realizan os estudantes que se inscr iben na universidade 
+para seguir regularmente os estudos que conducen á obtención dun título universitario oficial de 
+grao. 
+De acordo co establecido na Norma que regu la o réxime de dedica ción ao estudo e a 
+permanencia e a progresión dos es tudantes de Grao e Máster Univ ersitario na Universidade da 
+Coruña, aprobada polo Consello Social do 04/05/ 2017, establécense para as titulacións de grao 
+as seguintes modalidades de matrícula ordinaria: matrícula a tempo completo e matrícula a 
+tempo parcial, cuxas condicións están reguladas nos apartados 3.3 e 3.4 do artigo 3 desta 
+normativa. 
+2.2. A matrícula extraordinaria é a que realizan aquelas persoa s que, reunindo os requisitos 
+de acceso á universidade e con independencia da titulación que posúan, se inscriben en 
+materias diversas das diferentes  titulacións de grao da univers idade sen esperaren a obtención 
+dun título. Estas persoas non constarán en actas de cualificacións oficiais e recibirán, ao 
+remate dos estudos que realiz aren, un certificado do prof esorado encargado da materia 
+expresivo da súa asistencia e aproveitamento, con indicación da cualificación final que 
+obtivesen. Aboarán as taxas correspondentes  á apertura do expediente de matrícula 
+extraordinaria e os prezos públicos correspondentes aos créditos matriculados. 
+En calquera caso, a admisión destas persoas en  cada unha das materias que quixeren cursar 
+quedará condicionada pola existencia de prazas dispoñibles nelas, unha vez que se computen as 
+matrículas ordinarias en cada titulación en qu e se imparta a materia que solicitaren, así como 
+pola decisión que adopte o centro sobre a formación previa necesaria do solicitante. 
+Para estes efectos esta matrícula deberá realizar se de forma presencial na administración do 
+centro que corresponder. 
+ARTIGO 3. MATRÍCULA ORDINARIA DE INICIO DE ESTUDOS E DE CONTINUACIÓN DE ESTUDOS DE GRAO  
+3.1. O calendario de preinscrición e de matrícula é o que figura no Anexo I. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 4 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 5 de 59 
+ 
+3.2. Inicio de estudos de grao: 
+Nos prazos de matrícula que se estableceren poderán formalizar a súa matrícula os alumnos 
+que inicien os estudos de grao que conducen á obtención de títulos oficiais en calquera das 
+titulacións da Universidade da Coruña e que es tiveren habilitados, ou ben que posuíren algún 
+dos títulos que dan acceso a estes estudos dos que están previstos no Real decreto 412/2014, 
+do 6 de xuño, polo que se establece a normativa básica dos procedementos de admisión ás 
+ensinanzas universitarias oficiais de grao. 
+Aqueles alumnos que pretenderen iniciar os estudo s de primeiro curso de grao en titulacións, 
+alén de teren a habilitación a que se refire o parágrafo anterior, deberán estar admitidos para 
+a formalización da matrícula nas sucesivas resoluci óns da Comisión Interuniversitaria de Galicia 
+(CIUG). 
+Os alumnos procedentes doutros estudos oficiais cursados en España non poderán ingresar 
+directamente en titulacións universitarias de gr ao, aínda que ao ingresaren poderán promover o 
+recoñecemento dos seus estudos. 
+3.3. Matrícula no primeiro curso en titulacións de grao 
+Os estudantes que iniciasen os estudos co rrespondentes a estas titulacións poderán 
+matricularse de acordo coas seguintes opcións: 
+a) Opción preferente: matrícula a tempo completo: 
+Os estudantes admitidos por prim eira vez no primeiro curso dos estudos de grao, que elixan a 
+condición de estudantes con dedicación a temp o completo, deberán matr icularse da totalidade 
+dos créditos correspondentes ao primeiro curso, e só destes. 
+b) Opción que deberá xustificar o estudante: matrícula a tempo parcial: 
+De acordo co disposto na Norma que regula o ré xime de dedicación ao estudo e a permanencia 
+e a progresión dos estudantes de Grao e Máster  Universitario na Universidade da Coruña: Son 
+estudantes de primeiro curso/primeira vez con dedicación ao estudo a tempo parcial, aqueles 
+aos que se lles autorice a efectuar a súa matrícula neste réxime, que nunca poderá ser inferior a 
+24 créditos, nin superior a 48, tras acreditare n coa súa solicitude que se atopan nalgún dos 
+supostos que se enumeran no artigo 8 da norma citada e de acordo cos procedementos 
+establecidos nos artigos 7 e 9. 
+A Comisión Académica de cada Facultade ou Esco la será o órgano encargado de resolver as 
+solicitudes en base ás circunstancias acreditada s polos solicitantes, sen que en ningún caso o 
+número de solicitudes autorizadas poida superar o 15% do número de prazas que se ofertan a 
+primeiro curso en cada ano académico. No supo sto de que non se cubrise na súa totalidade a 
+oferta de prazas realizada, non será necesario aplicar esa limitación para o réxime de matrícula 
+a tempo parcial; porén deberá respectarse en to do caso o número de prazas que se oferten a 
+primeiro. 
+Por conseguinte, establecerase un sistema de selección que, en ca lquera caso, terá en conta a 
+nota de acceso do alumnado á universidade. O procedemento seguirá o establecido no Capítulo 
+II da norma citada no primeiro parágrafo deste apartado e as solicitudes serán resoltas, por 
+desconcentración das competencias do reitor, po los presidentes das Comisións Académicas dos 
+centros (os modelos correspondentes figuran nos  Anexos XI e XII ). Contra a súa resolución 
+poderá presentarse recurso de alzada perante o reitor. 
+Esta matrícula producirá os efectos descritos no art. 6 da norma antedita. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 5 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 6 de 59 
+ 
+Os solicitantes desta opción deberán aprazar o pagamento da súa matrícula, agás os prezos 
+correspondentes de secretaría, ao presentar a so licitude mencionada, até que se resolver o seu 
+pedimento. 
+Se o estudante non resulta seleccionado para a opción de matrícula a tempo parcial, poderá 
+optar pola matrícula a tempo completo ou, de ser o caso, renunciar á praza que lle fose 
+adxudicada pola CIUG, e no seu lugar accederá a seguinte persoa na listaxe desta. 
+No caso de non cumprir o establecido nos apar tados a) e b) anteriores, terase á persoa 
+interesada por desistida da súa solicitude de matrícula, e pr ocederase de oficio, mediante 
+resolución do decano ou director do centro , por desconcentración do  reitor, dirixida ao 
+interesado, a aceptar de plano a desistencia da solicitude da matrícula e declararase concluso o 
+procedemento, coa devolución dos prezos públicos que correspondan, se proceder, de acordo co 
+establecido no artigo 94 da Lei 39/2015, do 1 de  outubro, do procedemento administrativo 
+común das Administracións Públicas (o modelo correspondente figura no Anexo XIII). 
+c) Matrícula en programas de simultaneidade de estudos aprobados por Consello de 
+Goberno: 
+O alumnado que se matricule por primeira vez do primei ro curso nos programas de 
+simultaneidade de: grao en ADE e grao en  Dereito (CG 30/06/2009), grao en Ciencias 
+Empresariais e grao en Turismo (CG 29/09/2011) , grao en Arquitectura Técnica e grao en 
+Ciencias Empresariais (CG 27/03/2014), grao en  Bioloxía e grao e Química (CG 27/03/2014), 
+grao en Enxeñaría Mecánica e grao en Enxe ñaría Naval e Oceánica (CG 23/03/2015), grao en 
+Inglés: Estudos Lingüísticos e Literarios e grao en Galego e Portugués: Estudos Lingüísticos e 
+Literarios (CG 23/03/2015), grao en Español: Estudos Lingüísticos e Literarios e grao en Galego 
+e Portugués: Estudos Lingüísticos e Literari os (CG 23/03/2015), grao en Inglés: Estudos 
+Lingüísticos e Literarios e grao  en Español: Estudos Lingüístic os e Literarios (CG 23/03/2015), 
+poderán optar por matricularse no réxime de dedicación a tempo completo, é dicir, da totalidade 
+dos créditos correspondentes ao primeiro cu rso, ou ben a tempo parcial, segundo o que 
+establece a Norma que regula o réxime de dedicación ao estudo e a permanencia e a progresión 
+dos estudantes de grao e máster universitario na UDC. 
+3.4. Matrícula de continuación de estudos nas titulacións de grao 
+3.4.1. Poderán formalizar a súa matrícula de continuación de estudos de grao: 
+a) Aqueles alumnos que pretendan continuar os seus estudos na mesma titulación en que 
+estiveron matriculados no curso 2016/2017 ou no utros cursos anteriores, sen prexuízo do 
+establecido no artigo 4.1 desta normativa.  
+b) Os alumnos de grao que abandonasen temp oralmente os seus estudos e que teñan 
+superados polo menos 12 créditos, se a matrícula se efectuou a tempo completo, e 6 créditos se 
+se efectuou a tempo parcial, poderán conti nualos no mesmo centro en que comezaron sen 
+necesidade de participar en ning ún proceso de admisión, de acordo  co disposto no aptdo. 5 do 
+art. 5 do RD 412/2014, do 6 de xuño e no art. 3 da Norma que regula o réxime de dedicación 
+ao estudo e a permanencia e a progresión dos es tudantes de Grao e Máster Universitario na 
+Universidade da Coruña (o modelo de resolución figura no Anexo XV). 
+3.4.2. De acordo co disposto no art. 2 da norma citada no parágrafo an terior, o alumnado de 
+continuación de estudos de grao, con dedicación a tempo completo deberá matricularse dun 
+número non inferior a 48 créditos, que nunca poderá superar os 78, agás aquel ao que lle restar 
+un número inferior de créditos para rematar os seus estudos. A matrícula poderá alcanzar os 90 
+créditos cando estea condicionada polas obrigas académicas establecidas no plan de estudos: 
+ordenación temporal dos estudos, prelacións ou  pre-requisitos e pola compatibilidade horaria 
+das materias a matricular. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 6 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 7 de 59 
+ 
+O alumnado de continuación de estudos de grao deberase matricular, até o máximo indicado no 
+parágrafo anterior, incluíndo todos aqueles crédit os de formación básica e obrigatoria que non 
+teña superados, correspondentes aos cursos ante riores da titulación, agás no caso de que a 
+memoria verificada do seu plan de estudos conteña outras previsións ao respecto. 
+Están exceptuados da obrigatoriedade de matríc ula daqueles créditos de formación básica e 
+obrigatorios non superados os alumnos que estean incursos nalgún dos programas de 
+mobilidade previstos no Regulamento da UDC so bre mobilidade internac ional de estudantes, 
+aprobado polo Consello de Goberno o 20 de decembro de 2012. 
+De acordo co establecido nas normativas específicas para os programas de simultaneidade: 
+Os estudantes de continuación de estudos de berán efectuar a súa matrícula en réxime de 
+dedicación a tempo completo ou en réxime de  dedicación a tempo parcial, respectando o 
+número de créditos establecido con carácter xera l para todo o alumnado da UDC na Normativa 
+citada: nunca inferior a 48, nin superior a 78 cr éditos e nunca inferior a 24, nin superior a 48 
+créditos, respectivamente. 
+3.4.3. De acordo co disposto no artigo e norma citados no anterior apartado: Son estudantes de 
+continuación de  estudos, con dedicación a tempo parcial , aqueles que realicen unha 
+matrícula que nunca pode ser inferior a 24 créditos, agás que lle reste un número inferior para 
+rematar os seus estudos, nin superior a 48 créditos. A Comisión Académica de cada Facultade 
+ou Escola será o órgano encargado de resolv er as solicitudes en base ás circunstancias 
+acreditadas polos solicitantes, tras acreditaren que se atopan nalgún dos supostos que se 
+enumeran no artigo 8 desa norma e de acordo co procedemento establecido no seu artigo 9. 
+O procedemento seguirá o establecido no Capítu lo II da norma citada no primeiro parágrafo 
+deste apartado e as solicitudes serán resoltas, por desconcentración das competencias do reitor, 
+polos presidentes da Comisións Académicas do s centros (os modelos correspondentes figuran 
+nos Anexos XI e XII). Contra a súa resolución poderá presentarse recurso de alzada perante o 
+reitor. 
+Os solicitantes desta opción deberán aprazar o pagamento da súa matrícula,  agás os prezos 
+correspondentes de secretaría, ao presentar a so licitude mencionada, até que se resolver o seu 
+pedimento. 
+Se o estudante non resulta seleccionado para a opción de matrícula a tempo parcial, deberá 
+optar pola matrícula a tempo completo.  
+Naqueles casos en que os créditos de formació n básica e obrigatorios, pendentes de cursos 
+anteriores, superen o número de créditos nos que queira matricularse o alumno a tempo parcial, 
+non será necesario que se matricule de todos eles; porén a matrícula nestes será prioritaria. 
+No caso de non cumprir o establecido nos apartado s 3.4.2. e 3.4.3., terase á persoa interesada 
+por desistida da súa solicitude de matrícula, e procederase de oficio, mediante resolución do 
+decano ou director do centro, por desconcentració n do reitor, dirixida ao  interesado, a aceptar 
+de plano a desistencia da solici tude da matrícula e declararase concluso o procedemento, coa 
+devolución dos prezos públicos que correspondan, se proceder, de acordo co establecido no 
+artigo 94 da Lei 39/2015, do 1 de outubro, do procedemento administrativo común das 
+Administracións Públicas (o modelo correspondente figura no Anexo XIII). 
+3.4.4. Realizarase a matrícula do TFG  de acordo co establecido no artigo 1 da Normativa 
+reguladora da matrícula e a defensa do Traballo Fin de Grao (TFG) e do Traballo Fin de Mestrado 
+(TFM), aprobada polo Consello de Goberno do 19 de decembro de 2013.  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 7 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 8 de 59 
+ 
+Para formalizar a matrícula do TFG, o alumnado poderá ter pendentes como máximo 78 créditos 
+para completar os estudos, incluídos os corresp ondentes ao TFG, e debe rá matricularse tamén 
+de todas as materias necesarias para rematar o plan de estudos do Grao. 
+Aqueles alumnos que estean en posesión dun título universitario oficial correspondente á 
+ordenación académica anterior e accedan ao grao equivalente ou que proveña da súa titulación, 
+poderán realizar a matrícula do TFG sempre que se matriculen de todos os créditos que lles 
+restan para finalizar os seus estudos, ate o máximo sinalado no parágrafo anterior, con 
+independencia do curso ao que pertenzan as materias. 
+Poderán realizar a mesma matrícula aqueles al umnos que iniciaron os estudos universitarios 
+oficiais conforme a anterior ordenación académica e se incorporan ao grao, así como os alumnos 
+procedentes doutra universidade e/ou titulación. 
+En cada titulación, e baixo a supervisión académica que corresponder a cada centro, 
+establecerase a forma de realización, a titoriza ción e os procedementos de avaliación deste 
+traballo, que deberá orientarse á avaliación da s competencias asociadas ao título e con que 
+concluirán as ensinanzas de grao.  
+3.5. Matrícula en cursos extinguidos de titulacións de grao: o alumnado de continuación 
+de estudos de grao, unha vez extinguido cada curso por calquera das causas mencionadas nos 
+puntos 1.º e 3.º da Instrución  1/2012-2013, da Vicerreitoría de Títulos, Calidade e Novas 
+Tecnoloxías, mediante a que se establecen as garantías dos dereitos académicos dos alumnos 
+de títulos oficiais de grao e mestrado, que estean incursos en procesos de modificación, 
+supresión ou extinción dos seus títulos ou do s seus planos de estudos, disporán dunha 
+convocatoria con dúas oportunidades de exam e en cada un dos dous cursos académicos 
+seguintes, incluíndo aquel no que se produciu a extinción, para superar as materias ou as 
+disciplinas pertencentes ao curso académico extinguido. 
+3.6. Matrícula de alumnado que solicite bolsas 
+As persoas que soliciten bolsas deberán matricul arse quer de curso completo, quer do número 
+mínimo de materias ou créditos que para cada titulación establece a correspondente orde do 
+Ministerio de Educación respectando, en calquera caso, o número mínimo de créditos esixido 
+nesta normativa. As materias ou créditos recoñecidos, validados ou adaptados non se terán en 
+conta para os efectos do cumprimento dos requisitos académicos para bolsas. En ningún caso 
+entrarán a formar parte dos créditos mínimos os  correspondentes a distintas especialidades ou 
+que superen os precisos para a obtención do título correspondente. 
+No caso de estaren afectados por unha discapacidade recoñecida igual ou superior ao 65% 
+poderán acollerse á matrícula a tempo completo na súa modalidade de matrícula reducida, nos 
+termos que se establecer en na orde mencionada. 
+ARTIGO 4. IMPEDIMENTOS PARA A FORMALIZACIÓN DA MATRÍCULA DE CONTINUACIÓN DE ESTUDOS DE 
+GRAO. PERMANENCIA  
+4.1. Ao abeiro do artigo 3 da Norma que regu la o réxime de dedicación ao estudo e a 
+permanencia e a progresión dos es tudantes de Grao e Máster Univ ersitario na Universidade da 
+Coruña, os estudantes de primeiro curso, po r primeira vez, matric u l a d o s  e n  r é x i m e  d e  
+dedicación a tempo completo, deberán superar nese curso académico polo menos 12 créditos, e 
+6 créditos no réxime de dedi cación a tempo parcial, para poder ter a consideración de 
+estudantes de continuación de estudos na mesma titulación no curso académico seguinte. 
+De non cumprirse estes requisitos, o Decano/Dir ector do centro, previa petición do alumno, 
+poderá admitir de novo a matríc ula no seguinte curso académico no que se matricule, pero 
+neste caso o alumno deberá superar un mínimo de  36 créditos obrigatorios do primeiro curso, 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 8 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 9 de 59 
+ 
+para matrícula a tempo completo, e 18 créditos obrigatorios no caso de tempo parcial (o modelo 
+de resolución figura no Anexo XV). 
+Os estudantes de continuación de estudos, matriculados a tempo completo, deberán superar un 
+mínimo de 60 créditos cada tres anos académicos. 
+Os estudantes de continuación de estudos, ma triculados a tempo parcial, deberán superar un 
+mínimo de 30 créditos cada tres anos académicos. 
+Aquel estudante que non cumprise  os requisitos anteriores, no n poderá proseguir os mesmos 
+estudos na UDC. Non obstante poderá cambiar de universidade e/ou ti tulación conforme se 
+dispón no artigo 11 da norma citada. 
+4.2. Se no plan de estudos figuraren prerrequis itos, enténdese que o/a estudante non poderá 
+matricularse dunha materia até que non aprobe os seus prerrequisitos. Se no plan de estudos 
+figuraren correquisitos, enténdese que o/a estudante non poderá matricularse dunha materia 
+se non está simultaneamente matriculado, ou se non os aprobou, nos seus correquisitos. 
+4.3. Os alumnos de continuación de estudos de  grao non poderán ma tricularse de novos 
+créditos se non se matriculan daqueles cr éditos non superados de formación básica e 
+obrigatorios, correspondentes a cursos académic os anteriores, de acordo co establecido no 
+punto 3.4.2 desta normativa. 
+4.4. En calquera caso, o exercicio do dereito de matrícula que establecen estas normas non 
+obrigará á modificación do réxime de horarios xerais que se determinar en cada centro, de 
+acordo coas necesidades dos seus programas de estudo. 
+ARTIGO 5. MATRÍCULA DE DÚAS TITULACIÓNS OFICIAIS OU SIMULTANEIDADE DE ESTUDOS 
+5.1. Os alumnos que desexaren simultanear estudo s do mesmo nivel en dúas titulacións das 
+que se imparten nesta universidade, deberán ter integramente superado o primeiro curso ou os 
+créditos de que estiveron obrigados a formalizar a matrícula no primeiro curso, e solicitar 
+a simultaneidade de estudos ao reitor. Presenta rán a solicitude no centro en que pretenderen 
+comezar os novos estudos. 
+5.2. Non se poderán simultanear dúas titulacións que se someteren a límite de prazas, agás 
+se unha vez rematado o proceso de  admisión resultaren prazas vacantes na segunda titulación. 
+Neste suposto, os casos de concorrencia competit iva resolveranse mediante a nota de acceso á 
+universidade. 
+5.3. A resolución das solicitudes de  simultaneidade de estudos delé gase, ao abeiro do disposto 
+no artigo 2.1, da Orde do Mi nisterio de Educación e Cultura de 28 de setembro de 1984, nos 
+decanos ou directores dos centros (os modelos correspondentes figuran nos Anexos V e VI). 
+5.4. No caso de darse solicitudes de simultaneida de entre distintas universidades, estarase ao 
+disposto na Orde citada.  
+As solicitudes de simultaneidade de estudos reso lveranse cando rematen os prazos de admisión 
+e só se outorgará praza en caso de que queden vacantes. 
+5.5. Os alumnos, tanto de centros públicos como adscritos, que posuíren a condición xurídica de 
+solicitante de simultan eidade de estudos, aprazarán o pagamento do prezo da matrícula da 
+titulación en que solicitan a simultaneidade, ao presentaren o xustificante que acredite a 
+solicitude da simultaneidade de estudos, até que se ditar a resolución positiva. 
+5.6. Para os efectos do que dispón esta normat iva deberá entenderse que non é un suposto 
+de simultaneidade de estudos e, en consecuenc ia, que se trata dunha soa matrícula ordinaria 
+que o alumno formalice a súa matrícula simult aneamente en dúas ou máis orientacións, 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 9 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 10 de 59 
+ 
+itinerarios, mencións ou calquera outra denominación que figure nos planos de estudos cando 
+tras a súa superación obtiver exclusivamente un título universitario oficial. 
+5.7. Os programas de simultaneidade de estu dos aprobados por Consello de Goberno: 
+licenciatura en Administración e Dirección de Empresas (ADE) e licenciatura en Dereito, grao en 
+ADE e grao en Dereito, grao en Ciencias Empresariais e grao en Turismo, grao en Arquitectura 
+Técnica e grao en Ciencias Empresariais, grao en Bioloxía e grao en Química, grao en Enxeñaría 
+Mecánica e grao en Enxeñaría Naval e Oceáni ca, grao en Inglés: Estudos Lingüísticos e 
+Literarios e grao en Galego e Portugués: Estudos Lingüísticos e Literarios, grao en Español: 
+Estudos Lingüísticos e Literarios e grao en Galego e Portugués: Estudos Lingüísticos e Literarios, 
+grao en Inglés: Estudos Lingüíst icos e Literarios e grao en Español: Estudos Lingüísticos e 
+Literarios, rexeranse pola súa propia normativa. 
+ARTIGO 6. MATRÍCULA NAS TITULACIÓNS NON ADAPTADAS AO EEES  
+6.1. Titulacións: no ano académico 2017/2018 os alumnos poderán superar só o Proxecto Fin 
+de Carreira nas seguintes titula cións: Enxeñaría en Informátic a, Arquitectura, Enxeñaría de 
+Camiños, Canais e Portos, Enxeñaría Naval e Oceánica e Enxeñaría Industrial. 
+Os alumnos aboarán as taxas e os prezos públicos que corresponderen. 
+A matrícula poderá formalizarse ao longo do curso académico, segundo o que estableceren as 
+normas para a entrega e a defensa do proxecto de fin de carreira de cada centro. 
+6.2. Número de convocatorias en cursos extinguidos de titulacións non adaptadas ao 
+EEES 
+6.2.1. Os centros determinarán as datas de presen tación dos proxectos de fin de carreira e 
+deberán realizar, cando menos, tres convocatorias anuais.  
+6.2.2. Se consumisen as convocatorias que lles corresponderen sen superaren o PFC, terán 
+que se incorporar á nova ordenación académica de estudos de grao. 
+6.2.3. En calquera caso,  os alumnos que comezasen os seus  estudos conforme á anterior 
+ordenación académica poderán incorporarse ás  novas ensinanzas de grao de acordo coa 
+Resolución reitoral que estableza este procedemento. 
+6.2.4. Autorizarase por última ve z no curso 2017/2018 a validación  e/ou o recoñecemento de 
+créditos de libre elección nas titulacións da anterior ordenación académica que se mencionan no 
+apartado 6.1, cuxas solicitudes se presentarán xunto coa matrícula.  
+ARTIGO 7. SOLICITUDES DE MATRÍCULA EFECTUADAS FÓRA DE PRAZO: 
+As solicitudes de matrícula realizadas fóra dos pr azos establecidos para este fin, agás aquelas 
+das que a súa resolución sexa competencia da CIUG, serán resoltas, por desconcentración de 
+competencias do reitor, polos decanos ou dire ctores dos centros (os modelos correspondentes 
+figuran nos  Anexos IX e X ). Contra a súa resolución poderá  presentarse recurso de alzada 
+perante o reitor. 
+ARTIGO 8. DESISTENCIA E MODIFICACIÓN DA MATRÍCULA 
+Os estudantes poderán solicitar a desistencia ou a modificación da matrícula de acordo co que 
+se dispón a seguir. 
+8.1. A desistencia total da matrícula só se estimará  de se solicitar como data tope o día 22 de 
+novembro de 2017, inclusive, sen prexuízo do disposto na epígrafe 8.5 desta normativa.  
+A estimación da solicitude de desistencia tota l de matrícula realizada no período indicado 
+poderá levar consigo a devolución dos prezos públicos aboados, agás os correspondentes á 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 10 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 11 de 59 
+ 
+tarifa terceira do decreto da Xunta de Galici a que establece os prezos públicos de nivel 
+universitario. 
+Se o alumno que solicita a desistencia de matríc ula ten a condición de solicitante de bolsa, 
+deberá solicitar ao mesmo tempo a desistencia da súa solicitude de bolsa. 
+Xa que logo, alén do prazo indicado o estudante deberá constar como alumno nas actas oficiais 
+correspondentes ao curso académico coas cualificacións que corresponder.  
+De se estimar a desistencia total da matrícula de  primeiro curso por primeira vez en titulacións 
+con límite de prazas, no período ordinario de ma trícula ou de forma inmediatamente posterior, 
+as administracións dos centros notificarán ao  punto esta circunstancia ao Servizo de 
+Estudantes (LERD). 
+8.2. A solicitude de desistencia parcial de matríc ula, correspondente a/s materia/s do segundo 
+cuadrimestre, resolverase conforme se establece nos apartados 8.5 e 8.6 destas normas.  
+No expediente do estudante ao que lle fose es timada a solicitude de desistencia parcial de 
+matrícula constarán todas as cualificacións que obtiver no 1.º cuadrimestre e, se é o caso, 
+aqueloutras cualificacións que obtiver en materias do 2.º cuadrimestre. 
+8.3. A  m o d i f i c a c i ó n  d a  m a t r í c u l a  e n t é n d e s e  c o m o  a  a m p l i a c i ó n  d e  m a t e r i a s  e / o u  c o m o  a  
+substitución dunha materia por outra, ou por mate rias cun número de créditos igual ou similar. 
+Estas novas materias teñen que ser elixidas entre as que estivesen en condición de matrícula 
+durante o período de matriculación. Os prazos máximos para solicitar a modificación son os 
+seguintes: 
+a) Ampliación e/ou substitución de materias do primeiro cuadri mestre, ou de materias anuais: 
+ata o 20 de setembro de 2017. 
+b) Ampliación e/ou substitución de materias do segundo cuadrimestre ou anuais: ata o 19 de 
+febreiro de 2018. 
+Respectando os prazos sinalados,  o alumnado de primeiro de grao, matriculado por primeira 
+vez, con matrícula a tempo parcial, poderá solicitar a ampliación de matrícula en créditos 
+correspondentes a materias do primeiro curso da súa titulación. 
+Da mesma forma, o alumnado de continuación de estudos de grao poderá solicitar a ampliación 
+no número de créditos que considere. Non obstante , o número final de créditos que resulte tras 
+a solicitude de ampliación de matrícula, de scontados aqueles correspondentes a materias 
+superadas no primeiro cuadrimestre, se é o caso, non poderá superar o número máximo de 
+créditos establecidos no apartado 3.4.2 destas normas. 
+8.4. Aceptarase a ampliación de matrícula en ma terias, sempre que nestas non se realizase a 
+primeira convocatoria ordinaria ou oportuni dade de exame, e tamén a posibilidade de 
+anulación parcial de materias, nos casos seguintes: 
+a) Ampliación de matrícula en materias e/ou anulación parcial de materias, co obxecto de que 
+o/a estudante poida beneficiarse de bolsas convocadas polo Ministerio de Educación, a Xunta de 
+Galicia, a UDC ou calquera outro organismo, público ou privado. 
+b) Ampliación de matrícula en materias por dita rse resolución positiva  de recoñecemento de 
+créditos nas titulacións de grao, sempre que se solicitasen no período ordinario de matrícula. 
+Con independencia da presentación ou non do re curso que proceder contra a citada resolución 
+de recoñecemento de créditos ECTS, o alumnado  deberá matricularse no prazo indicado na 
+resolución de ampliación de matrícula. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 11 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 12 de 59 
+ 
+8.5. Non obstante o indicado nos apartados preceden tes, o reitor poderá estimar en calquera 
+momento a solicitude de desistencia total ou parcial da matrícula,  a súa modificación e resolver 
+a súa anulación, naquelas situacións en que concorreren circunstancias excepcionais 
+debidamente motivadas polas pers oas interesadas. A resolución poderá levar consigo, no seu 
+caso, a devolución dos prezos públicos aboados que corresponder. 
+8.6. A competencia para resolver as situacións  derivadas das epígrafes 8.1, 8.3 e 8.4  
+corresponderalles aos decanos ou director es dos centros, por desconcentración das 
+competencias do reitor, nos prazos que se establ eceren en cada caso. Contra a súa resolución 
+caberá recurso de alzada perante o reitor.  
+A competencia para resolver a situación prevista  na epígrafe 8.2 correspóndelle ao reitor ou 
+vicerreitor en que delegue. Cont ra a súa resolución caberá recu rso potestativo de reposición 
+perante o reitor ou recurso contencioso-administrativo. 
+8.7. En calquera caso, para os efectos de coor dinación cos procedemen tos de solicitude de 
+bolsas, enviaráselle sempre unha copia das resolucións que se ditaren á unidade competente na 
+tramitación destas. 
+ARTIGO 9. RECOÑECEMENTOS E TRANSFERENCIAS DE CRÉDITOS 
+9.1. Recoñecemento de créditos 
+O procedemento de recoñecemento de créditos para titulacións adaptadas ao espazo europeo 
+de educación superior rexerase polo Real decreto 1393/2007, de 29 de outubro, modificado polo 
+Real decreto 861/2010, de 2 de xullo; pola normativ a aprobada para o efecto polo Consello de 
+Goberno o día 30 de xuño de 2011, e polo Re al decreto 1791/2010, de 30 de decembro, polo 
+que se aproba o Estatuto do estudante universitario. 
+9.2. Transferencia de créditos 
+O procedemento de transferencia de créditos rexerase polo Real decreto 1393/2007, de 29 de 
+outubro, modificado polo Real decreto 861/2010; pola normativa aprobada para o efecto polo 
+Consello de Goberno o día 30 de xuño de 2 011, e polo Real decreto 1791/2010, de 30 de 
+decembro, polo que se aproba o Estatuto do estudante universitario. 
+9.3. A solicitude de recoñecement o e transferencia de créditos presentarase no prazo 
+establecido para a formalización da matrícula ordi naria, agás nos casos previstos no artigo 11 
+desta normativa e aqueles casos de títulos cu xa memoria do plan de estudos prevea o 
+recoñecemento de créditos por superación de pr ácticas extracurriculares que se realicen entre 
+os meses de xullo, agosto e setembro, que disporán do seu propio réxime. 
+As solicitudes mencionadas resolveranse nos prazos establecidos no punto 2 do Anexo I. 
+Os alumnos que estean en posesión dalgún dos títulos establecidos no Real decreto 1618/2011, 
+do 14 de novembro, sobre recoñecemento de estudos no ámbito da Educación Superior: 
+graduado en Ensinanzas Artísticas, Técnico Su perior de Artes Plásti cas e Deseño, Técnico 
+Superior de Formación Profesional e Técnico Deportivo Superior, ou teñan superados os 
+períodos de estudos previstos no apartado 2 do artigo 2 do mencionado Real decreto, 
+presentarán a solicitude de recoñecemento de créd itos, na Facultade ou Escola en que estean 
+matriculados, xunto coa matrícula ordinaria e ata transcorridos 15 días desde o inicio oficial do 
+curso. 
+No caso de que calquera dos procedementos en unciados alterase a matrícula realizada con 
+anterioridade polos alumnos solicitantes de bolsa,  remitiráselle unha copia da resolución ditada 
+á unidade competente na tramitación dos procedementos de solicitude de bolsas. 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 12 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 13 de 59 
+ 
+9.4. Pagamento de prezos públicos por recoñecementos ou transferencias 
+Pola realización destes trámites pagaranse, de  ser o caso, os prezos que para cada curso 
+académico foren fixados polo correspondente de creto da Xunta de Galicia e na Instrución 
+3/2014, da Vicerreitoría de Título s, Calidade e Novas Tecnoloxías,  pola que se establecen os 
+criterios sobre a gratuidade dos recoñecementos de créditos. Os prezos faranse efectivos nos 
+centros en que o alumnado vaia iniciar ou conti nuar os seus estudos, seguindo o procedemento 
+vixente en materia de pagamento de prezos por servizos académicos universitarios, nun prazo 
+máximo de dez días naturais que contará a partir da recepción da notificación da 
+correspondente resolución. 
+A efectividade destes trámites queda condicio nada a que se efectúe o pagamento dos prezos 
+correspondentes. 
+As resolucións de calquera destes trámites só producen efecto no propio curso académico en 
+que se dita a resolución (os modelos figuran nos Anexos VII e VIII). 
+ARTIGO 10. PREZOS PÚBLICOS POR SERVIZOS ACADÉMICOS 
+10.1. Pagamento de prezos públicos por servizos académicos universitarios 
+Os alumnos que formalizaren a súa matrícula en calquera dos cursos dos estudos que conducen 
+á obtención de títulos oficiais e con validez en todo o territorio nacional, satisfarán os prezos 
+públicos por servizos académic os que establece o decreto da Xunta de Galicia polo que se 
+fixan os prezos correspondentes aos estudos conducentes á obtención de títulos oficiais no 
+ensino universitario.  
+Non obstante, de acordo co disposto no apartado 2 do artigo 9 da Resolución reitoral do 27 de 
+abril de 2012, mediante a que se aproba o proc edemento para a recadación de impagados por 
+prezos públicos de matrícula, o alumno coa ma trícula declarada en suspenso por impago no 
+curso académico anterior, cando solicite matricularse de novo na UDC, deberá pagar 
+previamente os atrasos que lle correspondan. 
+10.2. Exencións e bonificacións no pagamento de prezos públicos por servizos 
+académicos 
+A teor do disposto na normativa da Xunta de Galicia, mediante a que se fixan os prezos 
+correspondentes aos estudos conducentes á obtenció n de títulos oficiais no ensino universitario 
+e na normativa interna da UDC, establécense os  casos de exención ou bonificación destes 
+prezos que se sinalan a seguir: 
+10.2.1. Matrícula de honra, premio ex traordinario e medalla en olimpíadas 
+acreditadas: o alumnado que obteña créditos coa cualificación de matrícula de honra estará 
+exento, no seguinte curso académico no que formalice a matrícula dos mesmos estudos ou 
+rama de coñecemento, do pagamento dos prezos  públicos para a prim eira matrícula, nun 
+número equivalente dos créditos de que conste n as materias nas que tiña acadado a dita 
+cualificación. 
+Esta bonificación non será de aplicación no caso de que a matrícula de honra sexa consecuencia 
+da validación de materias ou de recoñecemento de créditos. 
+As matrículas de honra obtidas no derradeiro cu rso de grao serán de aplicación, para estes 
+efectos, exclusivamente na primeira vez que se  matricule en estudos de máster e sempre que 
+este se realice no curso académico inmediatamente seguinte. 
+Para estes efectos: 
+a) As materias ou disciplinas cuadrimestrais computarán como media materia ou disciplina, e as 
+bonificacións por matrícula de honra nestas serán a metade das que correspondan a unha anual.  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 13 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 14 de 59 
+ 
+b) A bonificación de prezos públicos en materi as de segunda matrícula e sucesivas aplicarase 
+tomando como base o prezo por crédito de primeira matrícula. 
+10.2.2. Terán dereito á exención dos prezos de matríc ula, agás os previstos na tarifa terceira 
+do decreto da Xunta de Galicia, por unha soa ve z, no primeiro curso de ensinanzas de grao, o 
+alumnado que inicie estudos universitarios e acredite ter obtido: 
+a) matrícula de honra global no segundo curso de bacharelato ou ciclo formativo de formación 
+profesional de grao superior, 
+b) premio extraordinario de bacharelato ou de formación profesional de grao superior, 
+c) medalla en olimpíadas acreditadas de ámbito nacional ou internacional. 
+10.2.3. Familias numerosas: os alumnos membros de familias  numerosas de categoría xeral 
+teñen dereito a unha bonificación dun 50% nos prezos públicos de todas as tarifas do decreto 
+da Xunta de Galicia, de acordo co que está disp osto no artigo 12.2.a) da Lei 40/2003, de 18 de 
+novembro, de protección ás fa milias numerosas, desenvolvida polo Real decreto 1621/2005, de 
+30 do decembro, e polas Instrucións da Vicerreitoría de Organización Académica e Titulacións de 
+26 de febreiro de 2008. Os alumnos membros de familias numerosas de categoría especial  
+teñen dereito á exención total do pagamento dos prezos públicos de todas as tarifas  
+mencionadas, de acordo coa normativa citada . Esta situación acreditarase mediante a 
+documentación mencionada no punto 2 do Anexo II, ou, no seu caso, por calquera medio de 
+proba admisible en dereito. 
+10.2.4. Persoas con discapacidade: teñen dereito á exención total do pagamento dos prezos 
+públicos de todas as tarifas do decreto da Xunta de Galicia, de acordo co disposto na 
+disposición adicional 24 da Lei orgánica 6/ 2001, de 21 de decembro, de universidades, 
+modificada pola Lei 4/2007, de 12 de abril, os  alumnos que presenten a resolución expresa da 
+Xunta de Galicia, ou da Seguri dade Social, segundo os artigos 1, 2 e 4  do RD lexislativo 
+1/2013, de 29 de novembro, e polo Real decreto 1414/2006, de 1 de decembro, sobre o 
+recoñecemento dun grao de disca pacidade grave cuxa porcentaxe  determinada sexa igual ou 
+superior ao 33%. Esta situación acreditarase mediante a documentación mencionada no punto 2 
+do Anexo II, ou, no seu caso, por calquera medio de proba admisible en dereito. 
+10.2.5. Os orfos de funcionarios ci vís e de militares que falecese n en acto de servizo terán 
+dereito á exención do pagamento dos prezos públicos establecidos na tarifa primeira  do 
+decreto da Xunta de Galicia, sempre que se xan persoas non emancipadas e menores de 25 
+anos, en aplicación da Orde ministerial do 17/ 08/1982. A gratuidade alcanzará o prezo 
+correspondente á 1.ª matrícula e non cubrirá a segunda e sucesivas matrículas. 
+10.2.6. Empregados públicos: teñen dereito á exención do pagamento dos prezos públicos 
+establecidos na tarifa primeira  do decreto da Xunta de Galicia os alumnos a que se lles 
+recoñeza o dereito á matrícula gratuíta na Resolu ción reitoral da Univer sidade da Coruña de 1 
+de xullo de 1998, pola cal se regulan os supostos de matrícula gratuíta, modificada pola 
+Resolución reitoral de 22 de xaneiro de 2009 e po la Resolución reitoral de 5 de xullo de 2011, 
+nas condicións que nela se establecen. Esta situación acreditarase mediante a documentación 
+mencionada no punto 2 do Anexo II, ou, no seu caso, por calque ra medio de proba admisible 
+en dereito. 
+10.2.7. Vítimas de actos terroristas:  teñen dereito á exención do pagamento dos prezos 
+públicos por servizos académicos establecidos no decreto da Xunta de Galicia, agás os previstos 
+na tarifa terceira, os alumnos vítimas de actos terroristas, así como os seus cónxuxes e fillos, de 
+acordo co que está disposto na Lei 32/1999, de 8 de outubro, de solidariedade coas vítimas do 
+terrorismo, modificada pola Lei 2/2003, de 12 de marzo, e na normativa que a desenvolve. Esta 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 14 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 15 de 59 
+ 
+situación acreditarase mediante a documentación mencionada no punto 2 do Anexo II, ou, no 
+seu caso, por calquera medio de proba admisible en dereito. 
+10.2.8. Vítimas de violencia de xénero: teñen dereito á exención do pagamento dos prezos 
+públicos por servizos académicos establecidos no decreto da Xunta de Galicia, agás os previstos 
+na tarifa terceira, os alumnos que sufran violencia de xénero. Tamén quedarán exentos no caso 
+de seren os seus proxenitores os que a sufran, de acordo co establecido na Lei orgánica 1/2004, 
+de 28 de decembro, de medidas de protección integral contra a viol encia de xénero. Esta 
+situación acreditarase mediante a documentación mencionada no punto 2 do Anexo II, ou, no 
+seu caso, por calquera medio de proba admisible en dereito. 
+10.3. Pagamento dos prezos públicos de matrícula (tarifa primeira do decreto de 
+prezos por servizos académicos) 
+Os prezos públicos de matrícula, xunto co s correspondentes á apertura de expediente, 
+expedición e mantemento de tarx eta, seguros, e de ser o caso taxa de tramitación, poden 
+domiciliarse ou realizarse en efectivo. 
+O alumno deberá entregar na Administración da súa Facultade/Escola a autorización da 
+domiciliación bancaria, no caso de non constar como titular da conta bancaria. 
+Non se admitirán domiciliacións para o pagamento dos prezos públicos de matrícula alén do 1 de 
+decembro do ano en curso. 
+No momento de presentaren a solicitude de matr ícula no prazo ordinario desta, os alumnos 
+poderán optar polo pagamento íntegro do im porte que corresponder ou polo pagamento 
+fraccionado en catro prazos: un primeiro dun 40%, un segundo dun 30%, un terceiro dun 20% 
+e un cuarto dun 10%. 
+a) No caso de elixir o pagamento íntegro, este deberá efectuarse no prazo común dos dez 
+días naturais seguintes ao día de efectuar a matrícula, nos prazos establecidos para 
+esta.  
+b) No caso de elixir o pagamento fraccionado, que só poderá utilizarse para pagamentos en 
+efectivo, pagarase o 1.º prazo nos dez días naturais seguintes ao día de efectuar a 
+matrícula, nos prazos establecidos para esta, o 2.º prazo pagarase entre os días 1 ao 11 de 
+decembro, ambos os dous incluídos, o 3.º prazo pagarase entre os días 2 ao 12 de febreiro, 
+ambos os dous incluídos, e o cuarto entre os días 2 e 12 de abril, ambos os dous incluídos. 
+De non facer efectivo o importe íntegro ou o importe do 1.º prazo de matrícula nos prazos 
+establecidos nos apartados anteriores, ou de non presentar aqueles documentos que acrediten o 
+dereito de exención ou bonificación de prezos públicos, así como a autorización da domiciliación 
+bancaria e outros documentos necesarios dos sinalados no Anexo II e aqueloutros demandados 
+pola Facultade/Escola, no prazo común dos 10 dí as naturais seguintes ao día de efectuar a 
+matrícula, sen ter efectuado ningún pago e/ou sen ter presentada a documentación, terase á 
+persoa interesada por desistid a da súa solicitude de matríc ula, e procederase de oficio, 
+mediante resolución do decano ou director do centro, por desconcentración do reitor, dirixida ao 
+interesado, a aceptar de plano a desistencia da solicitude da matrícula e declararase concluso o 
+procedemento, coa devolución dos prezos públicos que correspondan, se proceder, de acordo co 
+establecido no artigo 94 da Lei 39/2015, do 1 de  outubro, do procedemento administrativo 
+común das Administracións Públicas (o modelo correspondente figura no Anexo XIII). 
+No caso de terse efectuado o pagamento do 1.º prazo, pero non os correspondentes aos 2.º, 3.º 
+ou 4.º prazos, as Administracións dos centros, antes do 5 de xaneiro, antes do 2 de marzo, 
+ou antes do 27 de abril respectivamente, seguirán o procedemento establecido no artigo 5 da 
+Resolución reitoral do 27 de abril de 2012, medi ante a que se aproba o procedemento para a 
+recadación de impagados por prezos públicos de matrícula.  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 15 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 16 de 59 
+ 
+O alumnado sobre o que, en virtude da mencionada Resolución reitoral, recaese unha resolución 
+de suspensión de matrícula non de berá figurar, a partir da data  da resolución de suspensión, 
+nas actas de cualificacións oficiais. 
+Se o alumno xa fose cualificado en actas, procederase á súa eliminación, de acordo co 
+procedemento establecido nas Normas sobre a elaboración, tramitación, modificación e custodia 
+das actas de cualificacións correspondentes aos tí tulos oficiais de grao e mestrado universitario 
+da UDC (Consello de Goberno de 23 de abril e 28 de maio de 2013).  
+Establecerase unha recarga por un importe de 30 euros, ou o recargo que estableza a Xunta de 
+Galicia, no seu caso, en concepto de gastos de xestión e tramitación, en caso de existir atraso 
+no pagamento dos prezos públicos que se deben satisfacer, así como no caso de reactivación da 
+matrícula tras ser declarada en suspenso por fa lta de pagamento, sen prexuízo do que está 
+disposto no artigo 9 da Resolución reitoral do  27 de abril de 2012, mediante a que se aproba o 
+procedemento para a recadación de impagados por prezos públicos de matrícula. 
+10.4. Solicitantes de bolsa da convocatoria do Ministerio de Educación 
+10.4.1. Os alumnos, tanto de centros propios como adscritos, que posúan a condición xurídica 
+de solicitantes de bolsa de estudos do Mini sterio de Educación aprazarán o pagamento dos 
+prezos de matrícula até que se resolva o seu pedimento e presentarán o xustificante que 
+acredite a solicitude de bolsa no momento de formalizaren a matrícula, ou, de ser o caso, nun 
+prazo de dez días naturais que contarán a partir  do primeiro día do pr azo de presentación de 
+solicitudes que estableza a convocatoria de bolsas do Ministerio de Educación. 
+No caso de que a solicitude de bolsa fose desest imada ou lles fose revogada, polo Ministerio de 
+Educación, os alumnos deberán pagar o import e correspondente aos prezos públicos da súa 
+matrícula utilizando calquera dos procedementos seguintes: 
+ a) Pagamento único: realizarase nos 10 días  naturais seguintes ao de ter recibida a 
+notificación da denega ción da solicitude da bolsa. Pa ra efectuar este pagamento, o 
+alumno solicitará no prazo indicado a liqui dación correspondente na  Administración do 
+centro no que estea cursando os seus estudos. 
+ b) Pagamento fraccionado no módulo de  matrícula: cobrarase o 90% do importe 
+facéndoo coincidir co terceiro prazo establ ecido no artigo 10.3 desta norma e o 10% 
+restante facéndoo coincidir co cuarto prazo mencionado nese artigo.  
+ c) Pagamento fraccionado extraordinario : cobrarase o 50% do importe nos 10 días 
+naturais seguintes ao de ter recibida a notificación da denegación da solicitude da bolsa e 
+o 50% restante facéndoo coincidir co cuarto pr azo previsto no citado artigo 10.3. Para 
+efectuar estes pagamentos o alumno solicit ará nos prazos indicados, as liquidacións 
+correspondentes na Administración do centro no que estea cursando os seus estudos. 
+No caso contrario aplicaráselle o procedemento establecido na Resolución reitoral do 27 de abril 
+de 2012, mediante a que se aproba o procedem ento para a recadación de “impagados” por 
+prezos públicos de matrícula. 
+10.4.2. Malia o disposto na epígrafe anterior, e se n prexuízo da tramitac ión da solicitude de 
+bolsa, os alumnos que non reuniren os requis itos académicos que foren esixidos pola 
+correspondente Orde do Ministerio de Educació n deberán realizar o pagamento da matrícula, 
+sen prexuízo de que, de se lles conceder posteriormente a bolsa, poidan solicitar a devolución 
+do seu pagamento (o modelo figura no Anexo XIV). De non pagar o prezo da matrícula seralles 
+de aplicación o establecido no artigo 10.3. 
+10.4.3. Os bolseiros do Ministerio de Educación só teñen dereito a exención dos prezos públicos 
+das primeiras matrículas. Non entrarán a formar parte da bolsa de matrícula aqueles créditos 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 16 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 17 de 59 
+ 
+que excedan o número mínimo preciso para obte r a titulación de que se trate. Tampouco 
+forman parte da bolsa de matrícula os prezos públicos que hai que aboar polos recoñecementos. 
+10.4.4. As administracións dos centros comprobarán que os alumnos beneficiarios de bolsas de 
+carácter xeral e de mobilidade convocadas polo Ministerio de Educación, que consten na relación 
+nominal que no seu momento sexa remitida dende ese Ministerio, destinaron a axuda á 
+finalidade para a que foi concedida, seguindo as consideracións e requisitos que se estableceran 
+na oportuna convocatoria. 
+10.4.5. Os alumnos deberán liquidar o pagamento do seguro escolar. Ademais, o alumnado que 
+se matricular de primeiro curso por vez primeira deberá aboar o prezo que corresponde á 
+apertura de expediente. 
+10.5. Solicitantes de bolsa e bolseiros doutros organismos públicos ou privados 
+No caso do alumnado solicitante ou beneficiar io dunha bolsa distinta ás do Ministerio de 
+Educación, para poder acollerse á exención dos prezos públicos este beneficio deberá figurar 
+explicitamente na convocatoria á que se presento u ou, no seu caso, na resolución ou o acordo 
+que corresponder, así como tamén a compensación do importe á universidade correspondente. 
+10.6 Se o alumnado for beneficiario dalgunha bonificación ou exención deberá acreditalo no 
+momento de formalizar a matrícula. 
+Título II. Réxime de cambio de universidade e/ou estudos universitarios 
+oficiais españois 
+ARTIGO 11. ÁMBITO DE APLICACIÓN 
+Este procedemento resultará de aplicación só para as titulacións de grao, adaptadas ao EEES. 
+1. Considéranse os seguintes casos: 
+a) Alumnos de novo ingreso que desexen iniciar estudos. 
+b) Alumnos con estudos universitarios parciais es pañois procedentes doutras universidades que 
+soliciten praza para seren admitidos nunha titulación da Universidade da Coruña. 
+c) Alumnos da Universidade da Coruña que soliciten un cambio dos estudos oficiais que 
+estivesen a realizar. 
+Os casos previstos nos puntos b) e c) anteriores  requiren que aos alumno s solicitantes se lles 
+recoñeza un número de 30 créditos ECTS. As solicitudes serán resoltas polos decanos e 
+directores dos centros (os modelos figuran nos Anexos III e IV) de acordo coa Normativa de 
+recoñecemento e transferencia de créditos para  as titulacións adaptadas ao EEES, aprobada 
+polo Consello de Goberno o 30 de xuño de 2011.  En caso contrario deberán incorporarse ao 
+procedemento xeral de admisión. 
+d) Alumnos con estudos estranxeiros que tras o correspondente recoñecemento destes, sexan 
+admitidos nunha titulación da Universidade da Coruña. 
+As solicitudes de praza dos alumnos correspondent es ao apartado d) aos que se lles recoñeza 
+un número mínimo de 30 créditos ECTS tamén se rán resoltas polos decanos e directores dos 
+centros (os modelos figuran nos Anexos III e IV), de acordo coa normativa antes citada. 
+Estes alumnos, que non obtiveren este recoñece mento parcial, poderán acceder á universidade 
+de acordo co disposto no art. 30 do Real decreto 412/2014, do 6 de xuño. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 17 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 18 de 59 
+ 
+2. Os prazos para solicitar e resolver estes trámites son os establecidos no punto 2 do Anexo I 
+desta normativa. A documentación que teñen que presentar e o lugar de presentación figuran 
+no Anexo II. 
+3. As solicitudes de cambio de universidade e/ou estudos universitarios realizadas fóra do prazo 
+establecido para este fin serán resoltas, por de sconcentración de competencias do reitor, polos 
+decanos ou directores dos centros, que se poderán resolver favorablemente sempre que existan 
+prazas vacantes. Contra a súa resolución poderá presentarse recurso de alzada perante o reitor. 
+4. Os alumnos solicitantes deberán ter en cont a que tamén terán que superar aquelas probas 
+específicas que a Universidade teña establecidas para o acceso a determinadas ensinanzas. 
+ARTIGO 12. COTA DE ADMISIÓN 
+12.1. Titulacións adaptadas ao EEES 
+Establécese para a admisión de alumnos de continuación de estudos unha cota máxima do 20% 
+sobre o número de prazas ofertadas a primeiro por primeira vez. Para a súa selección terase en 
+conta o expediente académico do alumno. 
+Respectando o máximo establecido do 20%, os ce ntros poderán ofertar porcentaxes inferiores 
+en determinadas titulacións, tendo en conta o número de solicitudes que poidan ser atendidas, 
+logo de comprobar a disponibilidade existente.  Neste caso deberíase facer público o acordo 
+adoptado polo órgano que corresponda, que deberá ser motivado. 
+12.2. Situacións excepcionais 
+Enténdese que o cambio que puider solicitar un/ha alumno/a entre as titulacións de grao en 
+Enfermaría e entre as titulacións de grao en Relacións Laborais e Recursos Humanos, que se 
+imparten en centros propios no campus de Ferro l e en centros adscritos no campus da Coruña, 
+non supón máis que un cambio de centro por se  tratar da mesma universidade e das mesmas 
+titulacións. Así, o réxime de cambio de universidade e/ou estudos universitarios oficiais 
+establecido neste título non lle resultará de aplicación agás no que corresponder á posible 
+limitación de prazas en cada centro. 
+Para estes efectos, se un alumno solicita un cambio de centro para a mesma titulación, o centro 
+de orixe enviaralle unha copia do  seu expediente ao centro rece ptor. O centro de orixe quedará 
+co expediente orixinal do alumno, ao que incorporará unha dilixencia que dea conta desta 
+circunstancia, que se notificará tamén aos Servizos Informáticos da Universidade para estes 
+adoptaren ou sinalaren as medidas correspondentes. 
+Título III. Admisión e matrícula nos estudos de grao dos titulados na 
+ordenación universitaria anterior 
+ARTIGO 13. ÁMBITO DE APLICACIÓN 
+Aqueles alumnos que estiveren en posesión dun título universitario correspondente á ordenación 
+académica anterior que lles dea acceso a un grao, de acordo cos requisitos establecidos en cada 
+memoria do plan de estudos oportuno, poderán solicitar a admisión nas condicións sinaladas 
+nela, nos prazos, no lugar e coa documentación que se establece nos Anexos I e II. 
+Esta admisión solicitarase no centro en que se imparta a titulación á que pretenda acceder. 
+ARTIGO 14. ORDE DE PRELACIÓN PARA RESOLVER AS SOLICITUDES DE ADMISIÓN 
+14.1. As solicitudes atenderanse coa seguinte orde de prelación: 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 18 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 19 de 59 
+ 
+a) En primeiro lugar as daqueles alumnos que ob tivesen o título universitario dos estudos que 
+dan acceso á titulación solicitad a ben en xuño do ano en curso,  ben en cursos anteriores, e 
+presenten a solicitude dentro do prazo establecido. 
+b) En segundo lugar as daqueles alumnos que obti vesen o título universitario dos estudos que 
+dan acceso á titulación solicitada en setembro do  ano en curso, así como as daqueles alumnos 
+que malia poderen presentar a solicitude confor me á alínea a) non o fixesen, soamente se 
+resultasen prazas vacantes na fase anterior. 
+14.2. Para adxudicar as prazas dispoñibles en tre alumnos que se encontraren na mesma 
+situación terase en conta a nota media do expediente académico nos estudos que acrediten, que 
+se calculará de acordo co dispos to no apartado segundo do Protocolo de colaboración subscrito 
+entre a Consellería de Educación e Ordenación Un iversitaria e as Universidades de Santiago de 
+Compostela, A Coruña e Vigo, publicado por Resolución do 15 de setembro de 2011, da 
+Secretaría Xeral Técnica da citada Consellería (DOG do 30/09/2011). 
+14.3. A competencia para resolver as reclamacións realizadas contra a listaxe provisional de 
+admitidos no “curso ponte” correspóndelles, po r desconcentración, aos decanos ou directores 
+dos centros nos prazos que se estableceren. 
+As datas e os prazos de publicación das relación s provisorias e definitivas de admitidos, que se 
+exporán nos centros, así como de reclamacións e de matrícula, son os que figuran no punto 3 
+do Anexo I desta normativa. 
+Título IV. Réxime de avaliacións 
+ARTIGO 15. CONVOCATORIAS E OPORTUNIDADES PARA MATERIAS DAS TITULACIÓNS DE GRAO E 
+MESTRADO UNIVERSITARIO 
+15.1. O número de convocatorias e oportunida des será o establecido no “Título IV. 
+Convocatorias” das Normas de avaliación, revisión e reclamación das cualificacións dos estudos 
+de grao e mestrado universitario, aprobadas polo Consello de Goberno do 19/12/2013. 
+15.2. Existirá unha única convocatoria por ano académico para cada unha das materias. O 
+alumnado disporá de dúas oportunidades por cada convocatoria.  
+15.3. O alumno de grao e mestrado que non te ña pendente máis que a superación de 12 
+créditos ou dúas materias das que xa estivese  matriculado nalgún ano académico, ou de 18 
+créditos correspondentes a prácticas, ademais do  TFG ou TFM, para rematar os seus estudos, 
+poderá concorrer a unha oportunidade adiantad a de avaliación que se realizará antes da 
+finalización das actividades académicas correspo ndentes ao 1.º cuadrime stre, naquelas datas 
+que se establezan no calendario académico que aprobar o Consello de Goberno. 
+Os trámites e condicións que corresponden a este  adianto de oportunidades están establecidos 
+no artigo 19 das Normas de ava liación, revisión e reclamación das cualificacións dos estudos de 
+grao e mestrado universitario. 
+ARTIGO 16. CONVOCATORIA E OPORTUNIDADES PARA OS TRABALLOS DE FIN DE GRAO E TRABALLOS DE 
+FIN DE MESTRADO  
+O número de convocatorias e oportunidades será o establecido no “Título IV. Convocatorias” das 
+Normas de avaliación, revisión e reclamación das cualificacións dos estudos de grao e mestrado 
+universitario, aprobadas polo Consello de Goberno do 19/12/2013 e na Normativa reguladora da 
+matrícula e a defensa do Traballo  Fin de Grao (TFG) e do Trab allo Fin de Mestrado (TFM), 
+aprobada polo Consello de Goberno do 19 de decembro de 2013. 
+16.1. As ensinanzas oficias de grao e mestrado concluirán coa elaboración e defensa pública 
+dun traballo de fin de grao (T FG) ou dun traballo de fin de mestrado (TFM), no que deben 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 19 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 20 de 59 
+ 
+integrarse e desenvolverse os contidos format ivos recibidos, así como as capacidades, 
+competencias e habilidades adquiridas durante o período de docencia e que suporá a realización, 
+por parte de cada estudante e de forma individ ual, dun proxecto, unha memoria ou un estudo 
+concreto. A avaliación dos TFG e TFM estará orientada á verificación das competencias esenciais 
+que outorga o título. 
+16.2. O TFG e o TFM só poderán ser defendidos e avaliados unha vez que se teña constancia de 
+que o/a estudante superou todos os créditos necesa rios para a obtención do título de grao ou 
+mestrado, agás os correspondentes aos propios TFG ou TFM. 
+16.3. Para a súa defensa e avaliación, o estuda nte disporá dunha convocatoria con dúas 
+oportunidades en cada curso académico, te ndo en conta que a consideración de “Non 
+Presentado” (NP) non esgota oportunidades.  
+Nas titulacións de grao e nas de mestrados uni versitarios de 60 e de 120 créditos ECTS, a 
+primeira oportunidade de defensa e avaliación  dos TFG e dos TFM realizarase nos meses de 
+maio/xuño/xullo. A segunda oportunidade de  defensa e avaliación dos TFG e dos TFM 
+realizarase nos meses de xullo/setembro. 
+Nos programas de simultaneidade de estudos de  grao aprobados polo Consello de Goberno 
+(cuxa estrutura así o requira) e nos mestrados uni versitarios de 90 créditos ECTS, a primeira 
+oportunidade de defensa e avaliación do s TFG e dos TFM realizarase nos meses de 
+xaneiro/febreiro. A segunda oportunidade naquel as datas que estableza cada Facultade/Escola, 
+no segundo cuadrimestre. 
+En todos os casos, as Facultades/Escolas respec tarán as datas límite que, para a sinatura e 
+entrega de actas, consten no calendario académico aprobado polo Consello de Goberno.  
+16.4. De forma excepcional e sempre que o estudante non teña pendente máis que a 
+superación do TFG ou do TFM para rematar os seus estudos de grao ou de mestrado 
+universitario, poderá solicitar a defensa para realizala naquelas datas que estableza cada 
+Facultade/Escola, desde o incio do  curso académico ate a data límite de sinatura e entrega de 
+actas de segunda oportunidade que conste no ca lendario académico aprobado polo Consello de 
+Goberno, pero respectando sempre o número má ximo de dúas oportunidades do que poderá 
+facer uso en cada curso académico. 
+Título V. Inscrición e matrícula nas ensinanzas oficiais de mestrado 
+ARTIGO 17. ÁMBITO DE APLICACIÓN 
+O alumnado que desexe iniciar ou continuar os estudos que conduzan á obtención dun título 
+oficial de mestrado da UDC. 
+ARTIGO 18. ACCESO E ADMISIÓN 
+18.1. Acceso 
+18.1.1. Para acceder ás ensinanzas oficiais de mest rado será necesario estar en posesión dun 
+título universitario oficial español ou doutro expedido por unha institución de educación superior 
+do EEES que faculte no país expedidor do título para o acceso a ensinanzas de mestrado. 
+18.1.2. Así mesmo, poderán acceder os titula dos conforme a sistemas educativos alleos ao 
+espazo europeo de educación superior , sen necesidade da homologa ción dos seus títulos, 
+logo de que a UDC comprobe que estes acredi tan un nivel de formación equivalente aos 
+correspondentes títulos universitarios oficiais españois e facultan no país expedidor do título 
+para o acceso a ensinanzas de posgrao. O acceso  por esta vía non implicará, en ningún caso, a 
+homologación do título previo de que estea en posesión a persoa interesada, nin o seu 
+recoñecemento para outros efectos que o de cursar as ensinanzas de mestrado. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 20 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 21 de 59 
+ 
+18.1.3. Segundo o acordado polo Consello de Go berno do 29/03/2017, reservarase un 5% das 
+prazas dispoñibles para estudos de mestrado universitario para os estudantes que teñan 
+recoñecido un grao de discapa cidade igual ou superior ao 33%, así como para aqueles 
+estudantes con necesidades educativas especiais permanentes asociadas ás condicións persoais 
+de discapacidade, que durante a súa escolarización anterior precisaran de recursos e apoio para 
+a súa plena normalización educativa.  
+As prazas obxecto de reserva destes estudantes  que queden sen cubrir, serán acumuladas ás 
+ofertadas pola Universidade polo réxime xeral en cada unha das convocatorias. 
+18.2. Admisión 
+18.2.1. Os estudantes poderán ser admitidos nun mestrado de acordo cos requisitos específicos 
+e os criterios de valoración de  méritos que, de ser o caso, fo ren propios de cada título de 
+mestrado universitario ou que establecer a Universidade da Coruña. 
+18.2.2. A Universidade da Coruña incluirá os proced ementos e os requisitos de admisión, entre 
+os que poderán figurar requisitos de formación pr evia específica nalgunhas disciplinas, no plan 
+de estudos. 
+18.2.3. Estes sistemas e procedementos deberán in cluír, para o caso de estudantes con 
+necesidades educativas específi cas derivadas de discapacidade, os servizos de apoio e 
+asesoramento adecuados que avaliarán a necesi dade de posibles adap tacións curriculares, 
+itinerarios ou estudos alternativos. 
+A admisión non implicará, en ningún caso, ningunha modificación dos efectos académicos e 
+profesionais que correspondan ao título previo de que estea en posesión a persoa interesada, 
+nin o seu recoñecemento para outro efecto que o de cursar ensinanzas de mestrado. 
+ARTIGO 19. PREINSCRICIÓN E MATRÍCULA 
+19.1. A matrícula ordinaria é a que realizan os estudantes que se inscriben na universidade 
+para seguir regularmente os estudos que conducen á obtención dun título universitario oficial de 
+mestrado. 
+De acordo co establecido na Norma que regu la o réxime de dedica ción ao estudo e a 
+permanencia e a progresión dos es tudantes de Grao e Máster Univ ersitario na Universidade da 
+Coruña, aprobada polo Consello Social do 04 /05/2017, establécense pa ra as titulacións de 
+mestrado universitario as seguintes modalidades de matrícula ordinaria: matrícula a tempo 
+completo e matrícula a tempo parcial, cuxas condicións están reguladas no apartados 19.7 e 
+19.8  desta normativa. 
+19.2. A matrícula extraordinaria é a que realizan aquelas persoas que, reunindo os requisitos 
+de acceso e admisión a estudos de mestrado e con independencia da titu lación que posúan, se 
+inscriben en materias diversas das diferentes  titulacións de mestra do da universidade sen 
+esperaren a obtención dun título. Estas persoas non constarán en actas de cualificacións 
+oficiais e recibirán, ao remate dos estudos que re alizaren, un certificado do profesorado 
+encargado da materia expresivo da súa asiste ncia e aproveitamento, con indicación da 
+cualificación final que obtivesen. Aboarán as taxas correspondentes á apertura do expediente de 
+matrícula extraordinaria e os prezos públicos correspondentes aos créditos matriculados. 
+En calquera caso, a admisión destas persoas en  cada unha das materias que quixeren cursar 
+quedará condicionada pola existencia de prazas dispoñibles nelas, unha vez que se computen as 
+matrículas ordinarias en cada titulación en qu e se imparta a materia que solicitaren, así como 
+pola decisión que adopte o centro sobre a formación previa necesaria do solicitante. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 21 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 22 de 59 
+ 
+Para estes efectos esta matrícula deberá realizar se de forma presencial na administración do 
+centro que corresponder. 
+19.3. O calendario de preinscrición e de matrícula, aprobado polo Consello de Goberno do 27 de 
+abril de 2017, será o que figura no Anexo I. 
+19.4. Publicada a relación definitiva de persoas ad mitidas, estas matricularanse, procedendo ao 
+aboamento dos prezos públicos de matrícula de  a c o r d o  c o  d i s p o s t o  n o  a r t i g o  1 0 . 3  d e s t a  
+normativa. 
+19.5. Os alumnos que non estean en posesión d un título universitario poderán acollerse ao 
+procedemento extraordinario de preinscrició n nos mestrados universitarios conforme ao 
+establecido no acordo adoptado polo CG da UDC o 23/03/2015. 
+19.6. As solicitudes de matrícula re alizadas fóra dos prazos establecidos para este fin serán 
+resoltas, grazas á desconcentración de competen cias, polos decanos ou directores dos centros 
+(os modelos correspondentes figuran nos  Anexos IX e X ). Contra a súa resolución poderá 
+presentarse recurso de alzada perante o reitor. 
+19.7. Matrícula no primeiro curso en titulacións de mestrado universitario 
+Os estudantes que iniciasen os estudos co rrespondentes a estas titulacións poderán 
+matricularse de acordo coas seguintes opción s, segundo a Norma que regula o réxime de 
+dedicación ao estudo e a permanencia e a pr ogresión dos estudantes de Grao e Máster 
+Universitario na Universidade da Coruña: 
+a) Opción preferente: matrícula a tempo completo: 
+Os estudantes admitidos por primeira vez no  primeiro curso dos estudos de mestrado 
+universitario con dedicación a tempo comple to, deberán matricularse de 60 créditos 
+correspondentes ao primeiro curso da titulación. 
+b) Opción que deberá xustificar o/a estudante: matrícula a tempo parcial: 
+De acordo co disposto na norma mencionada: So n estudantes de primei ro curso/primeira vez 
+con dedicación ao estudo a tempo parcial aquele s aos que se lles autorice a efectuar a súa 
+matrícula neste réxime, que nunca poderá ser in ferior a 24 créditos, nin superior a 48, tras 
+acreditaren coa súa solicitude que se atopan na lgún dos supostos que se enumeran no artigo 8 
+da norma citada e de acordo cos procedementos establecidos nos artigos 7 e 9. 
+A Comisión de selección do Mást er de cada Facultade ou Escola  será o órgano encargado de 
+resolver as solicitudes en base  ás circunstancias acreditadas polos solicitantes, sen que en 
+ningún caso o número de solicitudes autorizadas poida superar o 30% do número de prazas que 
+se ofertan a primeiro curso en cada ano académ ico. No suposto de que non se cubrise na súa 
+totalidade a oferta de prazas realizada, non será  necesario aplicar esa limitación para o réxime 
+de matrícula a tempo parcial; porén deberá resp ectarse en todo caso o número de prazas que 
+se oferten a primeiro. 
+Por conseguinte, establecerase un sistema de selección que, en ca lquera caso, terá en conta a 
+nota media do expediente académico correspondente aos estudos universitarios que dan acceso 
+ao Máster. O procedemento seguirá o establecido no Capítulo II da norma citada no primeiro 
+parágrafo deste apartado e as solicitude s serán resoltas, por desconcentración das 
+competencias do reitor, polo presidente da Co misión de selección (os modelos correspondentes 
+figuran nos Anexos XI e XII ). Contra a súa resolución poderá  presentarse recurso de alzada 
+perante o reitor. 
+A súa matrícula producirá os efectos descritos no art. 6 desa norma. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 22 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 23 de 59 
+ 
+Os solicitantes desta opción deberán aprazar o pagamento da súa matrícula, agás os prezos 
+correspondentes de secretaría, ao presentar a so licitude mencionada, até que se resolver o seu 
+pedimento. 
+Se o/a estudante non resulta seleccionado/a para a opción de matrícula a tempo parcial, poderá 
+optar pola matrícula a tempo completo ou, de ser o caso, renunciar á praza que lle fose 
+adxudicada pola Comisión de selección do Máster, no seu caso. 
+No caso de non cumprir o establecido nos apar tados a) e b) anteriores, terase á persoa 
+interesada por desistida da súa solicitude de matrícula, e pr ocederase de oficio, mediante 
+resolución do decano ou director do centro , por desconcentración do  reitor, dirixida ao 
+interesado, a aceptar de plano a desistencia da solicitude da matrícula e declararase concluso o 
+procedemento, coa devolución dos prezos públicos que correspondan, se proceder, de acordo co 
+establecido no artigo 94 da Lei 39/2015, do 1 de  outubro, do procedemento administrativo 
+común das Administracións Públicas (o modelo correspondente figura no Anexo XIII). 
+19.8. Matrícula de continuación de estudos nas titulacións de mestrado universitario 
+19.8.1. Poderán formalizar a súa matrícula de continuación de estudos de mestrado 
+universitario aqueles alumnos que pretendan continuar os  seus estudos na mesma titulación en 
+que estiveron matriculados no curso 2016/2017 ou noutros cursos anteriores, sen prexuízo do 
+establecido no artigo 27 desta normativa.  
+19.8.2. De acordo co disposto no art. 4 da Norma que regula o réxime de dedicación ao estudo 
+e a permanencia e a progresión do s estudantes de Grao e Máster Universitario na Universidade 
+da Coruña, o alumnado de continuación de  estudos de mestrado universitario, con dedicación 
+a tempo completo  deberá matricularse dun número non inferior a 48 créditos, que nunca 
+poderá superar os 78, agás aquel ao que lle rest ar un número inferior de créditos para rematar 
+os seus estudos. Poderase alcanzar unha matríc ula dun número superior de créditos cando esta 
+estea condicionada por obrigas académicas esta blecidas no plan de estudos: ordenación 
+temporal dos estudos, prelacións ou pre-requisit os pola compatibilidade horaria das materias a 
+matricular. 
+19.8.3. De acordo co disposto no artigo e norma citados no anterior apartado: Son estudantes 
+de continuación de estudos con dedicación a tempo parcial  aqueles que realicen unha 
+matrícula que nunca pode ser inferior a 24 créditos, agás que lle reste un número inferior para 
+rematar os seus estudos, nin superior a 48 crédit os. A Comisión de selección do Máster de cada 
+Facultade ou Escola será o órgano encargad o de resolver as solicitudes en base ás 
+circunstancias acreditadas polos solicitantes, tras acreditaren que se atopan nalgún dos 
+supostos que se enumeran no artigo 8 desa norma e de acordo co procedemento establecido no 
+seu artigo 9. 
+O procedemento seguirá o establecido no Capítu lo II da norma citada no primeiro parágrafo 
+deste apartado e as solicitudes serán resoltas, por desconcentración das competencias do reitor, 
+polo presidente da Comisión de selecció n (os modelos correspondentes figuran nos  Anexos XI 
+e XV). Contra a súa resolución poderá presentarse recurso de alzada perante o reitor. 
+Os solicitantes desta opción deberán aprazar o pagamento da súa matrícula, agás os prezos 
+correspondentes de secretaría, ao presentar a so licitude mencionada, até que se resolver o seu 
+pedimento. 
+Se o/a estudante non resulta seleccionado/a para a opción de matrícula a tempo parcial, deberá 
+optar pola matrícula a tempo completo. 
+No caso de non cumprir o establecido nos apartados 19.8.2 e 19.8.3 anteriores, terase á persoa 
+interesada por desistida da súa solicitude de matrícula, e pr ocederase de oficio, mediante 
+resolución do decano ou director do centro , por desconcentración do  reitor, dirixida ao 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 23 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 24 de 59 
+ 
+interesado, a aceptar de plano a desistencia da solicitude da matrícula e declararase concluso o 
+procedemento, coa devolución dos prezos públicos que correspondan, se proceder, de acordo co 
+establecido no artigo 94 da Lei 39/2015, do 1 de  outubro, do procedemento administrativo 
+común das Administracións Públicas (o modelo correspondente figura no Anexo XIII). 
+19.9. Realizarase a matrícula do TFM  de acordo co establecido no artigo 1 da Normativa 
+reguladora da matrícula e a defensa do Traballo Fin de Grao (TFG) e do Traballo Fin de Mestrado 
+(TFM), aprobada polo Consello de Goberno do 19 de decembro de 2013. 
+Para poder formalizar a matrícula do TFM será requisito imprescindible matricularse tamén de 
+todas as materias necesarias para rematar o plan de estudos do mestrado. 
+ARTIGO 20. MATRÍCULA EN CURSOS EXTINGUIDOS DE TITULACIÓNS DE MESTRADO 
+O alumnado de continuación de  estudos de mestrado, unha ve z extinguido cada curso por 
+calquera das causas mencionadas nos puntos  1.º e 3.º da Instrución 1/2012-2013, da 
+Vicerreitoría de Títulos, Calidade e Novas Tecnoloxías, mediante a que se establecen as 
+garantías dos dereitos académicos dos alumnos de títulos oficiais de grao e mestrado, que 
+estean incursos en procesos de modificación, supresión ou extinción dos seus títulos ou dos seus 
+planos de estudos, disporán dunha convocator ia con dúas oportunida des de exame no mesmo 
+curso académico no que se produciu a extinción,  para superar as materias ou as disciplinas 
+pertencentes ao ese curso académico extinguido. 
+ARTIGO 21. IMPEDIMENTOS PARA A FORMALIZACIÓN DA MATRÍCULA DE CONTINUACIÓN DE ESTUDOS DE 
+MESTRADO UNIVERSITARIO. PERMANENCIA 
+Ao abeiro do artigo 5 da Norma que regula o réxime de dedicación ao estudo e a permanencia e 
+a progresión dos estudantes de Grao e Máster Universitario na Universidade da Coruña, os 
+estudantes de primeiro curso, por primeira vez, matriculados en réxime de dedicación a tempo 
+completo, deberán superar nese curso académico polo menos 18 créditos. Se o título no que 
+estivesen matriculados dese a cceso a unha profesión regulada , deberán superar un mínimo de 
+12 créditos no primeiro ano académico no que estivesen matriculados. 
+Os estudantes de primeiro curs o, por primeira vez, matriculad os en réxime de dedicación a 
+tempo parcial deberán superar nese curso académico polo menos 12 créditos. Se o título no que 
+estivesen matriculados dese acceso a unha profesión regulada, deberán superar un mínimo de 6 
+créditos no primeiro ano académico no que estivesen matriculados. 
+Os estudantes de continuación de estudos, matriculados a tempo completo, deberán superar un 
+mínimo de 60 créditos cada dous anos académic os. Se o título no que estivesen matriculados 
+dese acceso a unha profesión regulada, deberán superar un mínimo de 60 créditos cada tres 
+anos académicos. 
+Os estudantes de continuación de estudos, ma triculados a tempo parcial, deberán superar un 
+mínimo de 30 créditos cada dous anos académic os. Se o título no que estivesen matriculados 
+dese acceso a unha profesión regulada, deberán superar un mínimo de 30 créditos cada tres 
+anos académicos. 
+Aquel estudante que non cumprise  os requisitos mencionados nos apartados anteriores, non 
+poderá proseguir os mesmos estudos na UDC. Non obstante poderá cambiar de universidade 
+e/ou de titulación conforme se dispón no artigo 11 da norma mencionada. 
+ARTIGO 22. COORDINACIÓN DOS MESTRADOS E COMISIÓN DE SELECCIÓN 
+22.1. Cada mestrado universitario estará coordina do por un/ha profesor/a coordinador/a que 
+será nomeado/a de acordo co disposto no apar tado 1 do artigo 7 da Normativa pola que se 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 24 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 25 de 59 
+ 
+regulan as ensinanzas oficiais de grao e mestrado  universitario na UDC, aprobada polo Consello 
+de Goberno do 27/06/2012, modificada o 19/12/2013. 
+22.1.1. Para a selección dos estudantes, a direcci ón do centro nomeará unha comisión que 
+estará presidida polo coordinado r do mestrado e da cal formar án parte, como mínimo, tres 
+profesores con docencia nel e a persoa responsable da administración do centro, que custodiará 
+a documentación recibida. A devandita comisión  elixirá, entre os seus membros, un/ha 
+secretario/a, que redactará as actas das reuni óns e que certificará os seus acordos. A 
+composición desta comisión farase pública no taboleiro da facultade ou escola e nas web destas, 
+no caso de existir. 
+22.1.2. Cada comisión de selección de berá constituírse antes do in icio do proceso de admisión 
+de alumnos. Antes da apertura deste prazo de admisión, as comisións el aborarán e publicarán, 
+no taboleiro de anuncios e na web do centro , o baremo que empregarán para valorar as 
+solicitudes presentadas para cada mestrado. 
+Finalizada a baremación, as comi sións de selección elaborarán dúas listaxes provisionais de 
+persoas admitidas e excluídas en que se especificará o motivo da  exclusión, de ser o caso. A 
+listaxe de admitidos distinguirá as solicitudes de  admisión a tempo completo e as solicitudes de 
+admisión a tempo parcial. 
+Estableceranse en ambos os casos a correspondente listaxe de agarda. 
+Tras o prazo de reclamacións ás listaxes prov isionais e unha vez que estas se resolvan pola 
+comisión, o secretario desta entregará na administ ración do centro as lis taxes definitivas, que 
+conterán a puntuación concedida a cada solicitante. A admini stración do centro será a 
+encargada de introducir os datos na aplicac ión informática elaborada para o proceso de 
+admisión.  
+As comisións de selección do s mestrados interuniversitarios seguirán os procedementos 
+establecidos nos respectivos convenios. 
+22.1.3. Para acceder aos estudos de mestrado, o alumnado con títulos estranxeiros de sistemas 
+educativos alleos ao EEES, sen homologar, que faculten no país expedidor do título para o 
+acceso a ensinanzas de posgra o, tamén deberá presentar na administración do centro 
+correspondente, xunto coa solicitude de acceso, unha “solicitude de equivalencia de estudos 
+estranxeiros aos estudos oficiais españois”, dirixida ao reitor, pola que aboará as taxas 
+correspondentes en todo caso antes de formalizar a súa matrícula. 
+Unha vez que a comisión de selección pertinente comprobe que os solicitantes acreditan un nivel 
+de formación equivalente aos correspondentes títulos españois de grao, e que no país expedidor 
+do título este faculta para o acceso a estudos de  posgrao, remitiralle a través da administración 
+do centro a súa proposta ao reitor, que resolverá de acordo coa proposta realizada. 
+22.1.4. Todas as solicitudes formuladas por persoa s con títulos académicos estranxeiros de 
+sistemas educativos alleos ao EEES deberán ir  acompañadas da documentación que consta a 
+continuación, traducida a calquera das dúas lingua s oficiais na Universidade da Coruña; porén, 
+non será precisa a tradución oficial cando se trat e de documentos redactados en lingua inglesa, 
+francesa, portuguesa ou italiana. Nestes casos bastará a tradución que realice a propia persoa 
+interesada, prevalecendo, se ho uber discrepancia, a tradución que realice a Universidade da 
+Coruña. 
+a) Título que dá acceso ao mestrado 
+b) Certificado expedido por autoridade competente  que exprese que o título do que estea en 
+posesión o interesado facilita, no país expedidor deste, para o acceso a ensinanzas de mestrado 
+ou de posgrao. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 25 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 26 de 59 
+ 
+c) Certificación académica 
+Non obstante, a comisión de cada  mestrado poderá requirir, de o considerar preciso, a entrega 
+doutra documentación. 
+A citada documentación deberá presentarse polo s interesados convenientemente legalizada, ou 
+coa Apostila da Haia  (no caso de títulos obtidos en univ ersidades pertencentes a países que 
+subscribisen o correspondente convenio) na admi n i s t r a c i ó n  d o  c e n t r o  e n  q u e  s e  i m p a r t e  o  
+mestrado, en todo caso antes de formalizaren a súa matrícula. 
+Non obstante, de acordo co disposto no arti go 28.3 da Lei 39/2015, do 1 de outubro, do 
+procedemento administrativo común das Administracións Públicas, cando no momento da 
+formalización da matrícula a persoa interesada non poida achegar a documentación requirida 
+debidamente legalizada ou apostilada, bastar á con que achegue unha copia simple do 
+documento de que se tratar, acompañada du nha copia da solicitude da correspondente 
+legalización ou apostila. 
+Neste caso, a matrícula quedará anulada, sen dere ito á devolución das taxas e prezos públicos 
+aboados, por resolución reitoral a proposta do decano/director do centro no que se imparta o 
+título, se antes do inicio das datas de avaliación  das materias do 1º cuadrimestre, o interesado 
+non presenta os documentos debidamente legalizados ou apostilados. 
+O certificado expedido pola autoridade competente que exprese que o título do que estea en 
+posesión o interesado facilita, no país expedidor deste, para o acceso a ensinanzas de mestrado 
+ou de posgrao, poderase substituír por unha declaración responsable formulada polo interesado, 
+de acordo co disposto no artigo 69.1 da LPAC (o modelo figura no Anexo XVI). 
+ARTIGO 23. RECLAMACIÓNS E RECURSOS 
+Os estudantes que non foren admitidos poderán presentar unha reclamación ante a comisión de 
+selección correspondente, median te unha instancia motivada di rixida a quen a presidir, que 
+entregará na administración do centro no prazo sinalado no calendario académico aprobado polo 
+Consello de Goberno (Anexo I). 
+A devandita comisión resolverá as reclamacións, e publicará no taboleiro de anuncios do centro 
+a relación definitiva de persoas admitidas. 
+Contra esta resolución cabe interpoñer un recurso de alzada perante o reitor. 
+ARTIGO 24. DESISTENCIA E MODIFICACIÓN DA MATRÍCULA 
+Os estudantes poderán solicitar a desistencia ou a modificación da matrícula de acordo co que 
+se dispón a seguir. 
+24.1. A desistencia total da matrícula só se estimará  de se solicitar como data tope o día 22 de 
+novembro de 2017, inclusive, sen prexuízo do di sposto na epígrafe 24.5 desta normativa.  
+A estimación da solicitude de desistencia tota l de matrícula realizada no período indicado 
+poderá levar consigo a devolución dos prezos públicos aboados, agás os correspondentes á 
+tarifa terceira do decreto da Xunta de Galici a que establece os prezos públicos de nivel 
+universitario. 
+Xa que logo, alén do prazo indicado o estudante deberá constar como alumno nas actas oficiais 
+correspondentes ao curso académico coas cualificacións que corresponder.  
+24.2. A solicitude de desistencia parcial de matrícula, correspondente a/s materia/s do 
+segundo cuadrimestre, resolverase conforme se  establece nos apartados 24.5 e 24.6 destas 
+normas. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 26 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 27 de 59 
+ 
+No expediente do estudante ao que lle fose es timada a solicitude de desistencia parcial de 
+matrícula constarán todas as cualificacións que obtiver no 1.º cuadrimestre e, se é o caso, 
+aqueloutras cualificacións que obtiver en materias do 2.º cuadrimestre. 
+24.3. A modificación da matrícula enténdese como  a  a m p l i a c i ó n  d e  m a t e r i a s  e / o u  c o m o  a  
+substitución dunha materia por outra, ou por mate rias cun número de créditos igual ou similar. 
+Estas novas materias teñen que ser elixidas entre as que estivesen en condición de matrícula 
+durante o período de matriculación. Os prazos máximos para solicitar a modificación son os 
+seguintes: 
+a) Ampliación e/ou substitución de materias do primeiro cuadri mestre, ou de materias anuais: 
+ata o 20 de setembro de 2017. 
+b) Ampliación e/ou substitución de materias do segundo cuadrimestre ou anuais: ata o 19 de 
+febreiro de 2018. 
+c) O alumnado de continuación de estudos de mestrado poderá solicitar a ampliación no número 
+de créditos que considere, respectando o disposto na memoria verificada do seu título. 
+24.4. Aceptarase a ampliación de matrícula en ma terias, sempre que nestas non se realizase a 
+primeira convocatoria ordinaria ou oportuni dade de exame, e tamén a posibilidade de 
+anulación parcial de materias, nos casos seguintes: 
+a) Ampliación de matrícula en materias e/ou anulación parcial de materias, co obxecto de que 
+o/a estudante poida beneficiarse de bolsas convocadas polo Ministerio de Educación, a Xunta de 
+Galicia, a UDC ou calquera outro organismo, público ou privado. 
+b) Ampliación de matrícula en materias por dita rse resolución positiva  de recoñecemento de 
+créditos, sempre que se solicitasen no período ordinario de matrícula. 
+Con independencia da presentación ou non do re curso que proceder contra a citada resolución 
+de recoñecemento de créditos ECTS, o alumnado  deberá matricularse no prazo indicado na 
+resolución. 
+24.5. Non obstante o indicado nos apartados preceden tes, o reitor poderá estimar en calquera 
+momento a solicitude de desistencia total ou parcial da matrícula,  a súa modificación e resolver 
+a súa anulación, naquelas situacións en que concorreren circunstancias excepcionais 
+debidamente motivadas polas pers oas interesadas. A resolución poderá levar consigo, no seu 
+caso, a devolución dos prezos públicos aboados que corresponder. 
+24.6. A competencia para resolver as situacións  derivadas das epígrafes 24.1, 24.3 e 24.4  
+corresponderalles aos decanos ou director es dos centros, por desconcentración das 
+competencias do reitor, nos prazos que se establ eceren en cada caso. Contra a súa resolución 
+caberá recurso de alzada perante o reitor.  
+A competencia para resolver a situación prevista  na epígrafe 24.2 correspóndelle ao reitor ou 
+vicerreitor en que delegue. Cont ra a súa resolución caberá recu rso potestativo de reposición 
+perante o reitor ou recurso contencioso-administrativo. 
+24.7. En calquera caso, para os efectos de coor dinación cos procedemen tos de solicitude de 
+bolsas, enviaráselle sempre unha copia das resolucións que se ditaren á unidade competente na 
+tramitación destas. 
+ARTIGO 25. SIMULTANEIDADE 
+25.1. Os alumnos que desexaren simultanear es tudos deste nivel no mesmo ano académico 
+deberán facer a súa solicitude  ante o/a presidente/a de cada comisión a través das 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 27 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 28 de 59 
+ 
+administracións dos centros en que se imparten  os correspondentes me strados. Cumprirá que 
+sinale cal é o seu título preferente de entre aqueles que pretende simultanear. 
+A resolución das solicitudes de simultaneidade de estudos deléga se, ao abeiro do disposto no 
+artigo 2.1, da Orde do Ministerio de Educ ación e Cultura de 28 de setembro de 1984, nos 
+decanos ou directores dos centros (os modelos correspondentes figuran nos Anexos V e VI). 
+25.2. Non poderán simultanearse dúas titulacións agás se ao rematar o proceso de admisión 
+resultasen prazas vacantes na segunda titulación ou titulación non-preferente. 
+En calquera caso, a concesión da simultaneida de determinarase pola media do expediente 
+académico do título que dá acceso ao Máster. 
+25.3. O alumnado que posúa a condición de so licitante de simultaneidade de estudos aprazará 
+o pagamento do prezo da matrícula ao presenta r o xustificante que acredite a solicitude da 
+simultaneidade de estudos até que se ditar a súa resolución positiva. 
+ARTIGO 26. PREZOS DE MATRÍCULA 
+Os estudos conducentes á obtención dun título oficial de mestrado xerarán os prezos públicos 
+que determinar a Comunidade Autónoma de Ga licia. A xestión dos prezos públicos dos 
+mestrados realizarase de acordo coas normas  de aplicación que no ámbito das súas 
+competencias poida ditar esta universidade. 
+As disposicións previstas no artigo 10 para as titulacións de grao, serán de aplicación supletoria, 
+de ser necesaria, ás ensinanzas oficiais de mestrado. 
+Título VI. Procedemento de matrícula e documentación para entregar 
+ARTIGO 27. MATRÍCULA POLA INTERNET 
+Normas xerais 
+Os alumnos de estudos oficiais de calquera nivel da Universidade da Coruña matricularanse pola 
+internet, agás naqueles casos que esta norma sinale de forma expresa. 
+27.1. Procedemento 
+Os alumnos de estudos oficiais desta universidade  matricularanse a través da web da UDC, nas 
+ligazóns habilitadas para tal efecto, seguindo as pautas que corresponderen. 
+No caso de ser preciso, os alumnos poderán fa cer a súa matrícula pola internet nos distintos 
+centros da universidade, e para estes efectos terán á súa disposición o equipamento informático 
+necesario e poderán solicitar a información precis a. De optaren por realizar a súa matrícula de 
+forma presencial a través da administración de ses centros, aboarán a taxa correspondente por 
+esa xestión. 
+Despois de confirmar a súa matr ícula, os alumnos que efectúen o pagamento da matrícula en 
+efectivo imprimirán unha copia para entregar na entidade financeira en que realice o pagamento 
+da súa matrícula. 
+27.2. Documentación 
+Coa solicitude de matrícula deberá entregarse a documentación que corresponda de acordo co 
+sinalado no articulado destas normas e no seu Anexo II , nun prazo máximo de dez días 
+naturais que contarán a partir da data da solicitude de matrícula. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 28 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 29 de 59 
+ 
+De non se entregar esta documentación no prazo sinalado, entenderase que o/a alumno/a 
+desiste da súa solicitude de matrícula e esta arqu ivarase de acordo co disposto no artigo 10.3 
+desta normativa. 
+ARTIGO 28. EFECTOS DA MATRÍCULA 
+A matrícula realizada de acordo coas normas apuntadas supón: 
+a) O dereito e o deber de asistencia ás clases teór icas e ás prácticas das materias en que así se 
+establecese, así como a realización dos traballo s complementarios adecuados e precisos para a 
+avaliación da materia segundo a súa guía docente. 
+Quedan exceptuadas destas obrigas de asistencia as materias de cursos extinguidos, así como 
+tamén as optativas que se ofrecesen no curso anterior, de que estivesen matriculados os 
+alumnos e non superasen, e que non se impa rtan no curso 2017/2018; a matrícula nestas 
+materias é, xa que logo, sen dereito a docencia. 
+b) O dereito a ser cualificado nas convocatorias que regulamentariamente se efectuaren durante 
+o curso académico, sen prexuízo das incompat ibilidades académicas derivadas dos programas 
+de estudos. 
+ARTIGO 29. SEGUROS  
+Será obrigatorio o pagamento do seguro escola r para os alumnos españois, para os alumnos 
+nacionais dos estados membros do EEES e para o resto dos estudantes es tranxeiros residentes 
+que formalicen a súa matrícula en estudos oficiais e sexan menores de 28 anos.  
+Os alumnos maiores de 28 anos, o alumnado es tranxeiro non residente e todo o alumnado 
+entrante de mobilidade internacio nal, teñen a obriga de subscrib ir o seguro que se indica no 
+proceso de matrícula; porén aqueles alumnos que pertenzan a programas específicos, que 
+impliquen a obriga de contratar outro seguro co as coberturas mínimas esixibles, non terán que 
+aboalo. Habida conta de que a matrícula dos al umnos entrantes de mobilidade internacional se 
+formaliza presencialmente na ORI, o persoal dest a, encargado da matrícula, debe suprimir na 
+propia aplicación informática a obriga de efectu ar este pagamento nos casos anteditos, tras ser 
+informado o interesado que, en todo caso, pode manifestar a súa vontade de subscribilo. 
+Os estudantes españois, os nacionais dos esta dos membros do EEES e o resto dos estudantes 
+estranxeiros residentes que formalicen a súa matrícula en estudos oficiais, e sexan menores de 
+28 anos, poderán subscribir voluntariamente un se guro idéntico ao anterior como complemento 
+do seguro escolar. 
+ARTIGO 30. EXECUCIÓN DESTA NORMATIVA 
+A programación e o desenvolvemento normal das actividades docentes, así como o 
+cumprimento dos prazos que se indican, vinculan do mesmo xeito tanto o alumnado 
+destinatario como a propia universidade a través de todos os seus órganos, polo que se solicita 
+o cumprimento rigoroso de todas as prescricións contidas nesta normativa. 
+ARTIGO 31. RESOLUCIÓN DAS RECLAMACIÓNS E DOS RECURSOS 
+As resolucións reitorais que aten dan as reclamacións ou os recu rsos interpostos polo alumnado 
+desta universidade, en materias que se form ulen sobre a matrícula do curso académico 
+2017/2018, ditaranse ao abeiro do contido nesta resolución, sen prexuízo das disposicións legais 
+e regulamentarias que foren de aplicación en cada caso. 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 29 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 30 de 59 
+ 
+ARTIGO 32. DESENVOLVEMENTO DA NORMATIVA 
+Ao abeiro do disposto no artigo 8 da Reso lución do 12 de xaneiro de 2016, pola que se 
+establece a estrutura orgánica dos servizos ce ntrais da UDC e as competencias dos seus 
+órganos directivos, facúltase á Vicerreitoría de  Oferta Académica e Innovación Docente para 
+ditar as resolucións e as instrucións precisas que aclararen, interpretaren ou desenvolveren esta 
+normativa académica, á que se lle dará a public idade necesaria nos taboleiros de anuncios dos 
+centros universitarios, na web da Universidade da  Coruña e naqueles outros lugares ou medios 
+que se consideren pertinentes. 
+A Coruña, 31 de maio de 2017 
+O reitor 
+Julio Abalde Alonso 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 30 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 31 de 59 
+ 
+Anexo I: prazos e calendarios 
+1. Prazos de admisión e matrícula nas titulacións de 1.º ciclo ou de 1.º 
+e 2.º ciclo (en extinción) 
+MATRÍCULA 
+Alumnado de continuación 
+de estudos  
+Matrícula Proxecto Fin 
+de Carreira 
+Ao longo do curso académico 
+2017/2018, segundo as normas de 
+cada centro 
+Libre elección 
+Solicitudes de validación 
+ou recoñecemento de 
+créditos 
+Xunto coa matrícula  
+Desistencia total de 
+matrícula Solicitude Ata o 22 de novembro de 2017 
+ 
+2. Prazos de admisión e matrícula nas titulacións de grao 
+ADMISIÓN 
+Alumnado de 1.º curso por 
+primeira vez en titulacións 
+con límite de prazas 
+Preinscrición  Segundo os prazos da CIUG: 
+http://ciug.gal/preins.php 
+MATRÍCULA 
+Alumnado de 1.º curso por 
+primeira vez en titulacións 
+con límite de prazas 
+Matrícula 
+Segundo os prazos da CIUG:  
+1.º)  12 - 14 de xullo de 2017 
+2.º)  19 - 21 de xullo de 2017 
+3.º)  27 - 31 de xullo de 2017 
+4.º)  4 - 6 de setembro de 2017 
+5.º)  11 - 13 de setembro de 2017 
+6.º)  20 - 22 de setembro de 2017 
+7.º)  9 - 11 de outubro de 2017 
+8.º)  18 - 20 de outubro de 2017 
+Alumnado de continuación 
+de estudos Matrícula Do 1 ao 20 de agosto 2017 
+Ampliación da matrícula 
+e/ou substitución de 
+materias do 1.º 
+cuadrimestre ou anuais 
+Matrícula Ata o 20 de setembro de 2017 
+Ampliación e ou substitución 
+da matrícula en materias do 
+2.º cuadrimestre e/ou anuais 
+para o alumnado de 
+continuación de estudos e 
+de 1.º/1.ª vez  
+Matrícula Ata o 19 de febreiro de 2018  
+Alumnado da anterior 
+ordenación académica que 
+se incorpora 
+voluntariamente ás 
+ensinanzas do grao 
+correspondentes á súa 
+titulación de orixe 
+Solicitude Do 12 de xullo ao 20 de setembro 
+de 2017 
+Resolución Antes do 30 de setembro de 2017 
+Matrícula Até o 6 de outubro de 2017 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 31 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 32 de 59 
+ 
+Alumnado que se adapta 
+dun título de grao en 
+extinción ao título de grao 
+que o substitúe 
+Solicitude Do 12/06 ao 18/08 de 2017 
+Resolución Do 1 ao 11 de setembro de 2017 
+Matrícula Do 12 ao 18 de setembro de 2017 
+Solicitude de 
+recoñecemento e de 
+transferencia de créditos 
+formulada polo alumnado  
+Solicitude Xunto coa matrícula ordinaria 
+Resolución 
+ Antes do 11 de outubro de 2017 
+Solicitude de 
+recoñecemento de créditos 
+formulada por alumnos ao 
+abeiro do RD 1618/2011, do 
+14 de novembro 
+Solicitude 
+Xunto coa matrícula ordinaria e 
+ata transcorridos 15 días desde o 
+inicio oficial do curso  
+Resolución 1 mes a partir do día seguinte ao 
+día de entrada da súa solicitude. 
+Solicitude de 
+recoñecemento de créditos 
+por superación de prácticas 
+extracurriculares 
+Solicitude Coa finalización das prácticas 
+realizadas 
+Resolución 
+Sempre antes da data da defensa 
+do TFG, que se realizará sempre 
+antes do 25/09/2018, data límite 
+da sinatura e entrega de actas 
+aprobada polo Consello de 
+Goberno  
+ 
+Alumnado que solicita o 
+cambio de universidade e/ou 
+titulación 
+Solicitude 
+No mes de xullo de 2017 nas 
+datas sinaladas por cada 
+Facultade/Escola 
+Resolución e matrícula Antes do 4 de setembro de 2017 
+Alumnado con estudos 
+estranxeiros parciais ou con 
+títulos sen homologación 
+que solicita o cambio de 
+universidade e/ou titulación 
+Solicitude 
+No mes de xullo de 2017 nas 
+datas sinaladas por cada 
+Facultade/Escola 
+Resolución e matrícula Antes do 4 de setembro de 2017 
+Desistencia total de 
+matrícula Solicitude Ata o 22 de novembro de 2017  
+ 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 32 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 33 de 59 
+ 
+3. Prazos de admisión e matrícula para o alumnado titulado que accede 
+ao curso ponte 
+ou a outros cursos de grao 
+Preinscrición 
+ 
+Preinscrición Do 19 ao 22 de xuño de 2017 
+Listaxe provisional de persoas 
+admitidas 21 de xullo de 2017 
+Reclamacións á listaxe provisional 
+de persoas admitidas Do 24 ao 28 de xullo de 2017 
+Listaxe definitiva de persoas 
+admitidas 3 de agosto de 2017 
+Matrícula 
+ 
+1.º prazo de matrícula Do  4 ao 20 de agosto de 2017 
+Publicación das prazas vacantes 22 de agosto de 2017 
+2.º prazo de matrícula 
+(Nas prazas vacantes seguindo a 
+listaxe de espera) 
+Do 23 ao 25 de agosto de 2017 
+4. Calendario de preinscrición e matrícula nos estudos oficiais de mestrado 
+PRAZOS EXCEPCIONAIS: 
+ESTUDANTES DE SISTEMAS UNIVERSITARIOS ESTRANXEIROS 
+16 de xaneiro - 30 de abril de 2017 Preinscrición 
+8 - 10 maio de 2017 Publicación lista provisional 
+10 - 18 maio de 2017 Reclamacións 
+24 - 25 de maio de 2017 Publicación lista definitiva 
+2017 Matrícula 
+ 
+PRAZOS XERAIS: 
+1º PRAZO (xuño-xullo de 2017) 
+23 xuño – 13 xullo  Preinscrición 
+18 xullo  Publicación lista provisional 
+18 – 26 xullo  Reclamacións 
+31 xullo  Publicación lista definitiva 
+1 – 13 agosto  Matrícula (*) 
+2º PRAZO (agosto-setembro de 2017) 
+14 -21 agosto Preinscrición 
+6 setembro Publicación lista provisional 
+6 – 8 setembro Reclamacións 
+13 setembro Publicación lista definitiva 
+13 - 18 setembro Matrícula (*) 
+3º PRAZO (setembro-outubro de 2017) 
+19 - 27 de setembro Preinscrición 
+2 outubro Publicación lista provisional 
+2 – 5 outubro Reclamacións 
+9 outubro Publicación lista definitiva 
+10 – 19 outubro Matrícula (*) 
+ 
+(*) A matrícula realizarase nas datas de chamamento e seguindo o procedemento que 
+se estableza polos centros, de ser o caso. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 33 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 34 de 59 
+ 
+MATRÍCULA DO ALUMNADO DE CONTINUACIÓN DE ESTUDOS:  
+Matrícula Do 1 ao 20 de agosto 2017 
+  
+RECOÑECEMENTO E TRANSFERENCIA DE CRÉDITOS 
+Solicitude de recoñecemento e de 
+transferencia de créditos formulada polo 
+alumnado  
+Solicitude Xunto coa matrícula ordinaria 
+Resolución 
+ 
+Antes do 11 de outubro de 
+2017 
+Solicitude de recoñecemento de créditos 
+por superación de prácticas 
+extracurriculares formulada polo alumnado 
+Solicitude Coa finalización das prácticas 
+realizadas 
+Resolución 
+Sempre antes da data da 
+defensa do TFM, que se 
+realizará sempre antes do 
+25/09/2018, data límite da 
+sinatura e entrega de actas 
+aprobada polo Consello de 
+Goberno 
+ 
+ 
+MODIFICACIÓN DE MATRÍCULA 
+Ampliación da matrícula e/ou 
+substitución de materias do 1.º 
+cuadrimestre ou anuais 
+Matrícula Ata o 20 de setembro de 2017 
+Ampliación e ou substitución da 
+matrícula en materias do 2.º 
+cuadrimestre e/ou anuais  
+Matrícula Até o 19 de febreiro de 2018  
+Desistencia total de matrícula Solicitude Ata o 22 de novembro de 2017 
+PRAZOS CURSO 2018/2019: 
+ 
+ESTUDANTADO SISTEMAS UNIVERSITARIOS ESTRANXEIROS 
+16 de xaneiro – 30 de abril de 2018 Preinscrición 
+8-10 de maio de 2018 Publicación lista provisional 
+10-18 de maio de 2018 Reclamacións 
+24-25 de maio de 2018 Publicación lista definitiva 
+Primeiro prazo xeral (a determinar) Matrícula 
+ 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 34 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 35 de 59 
+ 
+ACLARACIÓNS AO CALENDARIO DE PREINSCRICIÓN E MATRÍCULA NOS MESTRADOS 
+UNIVERSITARIOS 
+(Consello de Goberno do 27 de abril de 2017) 
+I.- PRAZOS PARA O ESTUDANTADO DE SISTEMAS UNIVERSITARIOS ESTRANXEIROS 
+ALLEOS AO SISTEMA UNIVERSITARIO ESPAÑOL: 
+ 
+Establécese un prazo extraordinario de preinscrición e matrícula, para os mestrados universitarios 
+da UDC, para estudantes de sistemas universitarios estranxeiros, tanto do EEES coma alleos a 
+éste. En todo caso, o número total de estudantes admitidos non superará o 30% das prazas 
+ofertadas (as prazas desta reserva que non se cubriren acumularanse para os prazos xerais 
+sinalados no apartado II destas aclaracións). Os solicitantes deberán cumprir os requisitos de 
+acceso e de admisión nos prazos sinalados para realizar a preinscrición.  
+ 
+ESTUDANTES DE SISTEMAS UNIVERSITARIOS ESTRANXEIROS 
+16 de xaneiro – 30 de abril de 2017 Preinscrición 
+8-10 de maio de 2017 Publicación lista provisional 
+10-18 de maio de 2017 Reclamacións 
+24-25 de maio de 2017 Publicación lista definitiva 
+2017 Matrícula (segundo prazos xerais) 
+ 
+II.- PRAZOS XERAIS: 
+Establécense distintos prazos de preinscrición e matrícula nos mestrados universitarios da UDC. En 
+cada prazo ofertaranse as prazas vacantes ex istentes do total de prazas ofertadas en cada 
+mestrado. Os solicitantes preinscritos que non fosen chamados a matrícula  constituirán unha lista 
+de agarda que será utilizada en caso de que se produza unha vacante, antes de rematar cada 
+prazo de matrícula. Os integrantes da lista de agarda incorporaranse na lista provisional do 
+segundo prazo sen necesidade de facer unha nova inscrición, agás renuncia expresa ou que exista 
+constancia de que formalizaron a matrícula noutro mestrado. Estas solicitudes, xunto coas novas do 
+segundo prazo, serán baremadas, realizándose unha nova ordenación para a asignación das 
+prazas vacantes.  
+No terceiro prazo procederase seguindo os mesmos trámites dos prazos anteriores. 
+Os solicitantes do Sistema Universitario Español deberán cumprir os requisitos de acceso e de 
+admisión no último día do prazo establecido para presentar reclamacións contra a publicación da 
+lista provisional, para o cal deberán acreditar que cumpren cos requisitos de acceso e admisión que 
+non xustificaron no prazo establecido para solicitar a preinscrición. 
+A preinscrición realizarase a través do formulario en liña da web da UDC.  
+Unha vez publicada a relación definitiva de admitidos, estes matricularanse nos prazos establecidos 
+a través da secretaría virtual na internet. A non formalización da matrícula no período establecido 
+suporá a perda da correspondente praza, sendo necesario realizar unha nova preinscrición. 
+Habida conta de que os estudantes provenientes de sistemas universitarios estranxeiros poden 
+solicitar a preinscripción nun mestrado nos prazos xerais previstos no apartado II destas 
+aclaracións, se non o fixeron nos prazos establecidos no apartado I ou se non foron admitidos 
+nestes prazos, as comisións de selección deberán ter en conta o seguinte: 
+-Terán preferencia en todos os prazos sinalados no apartado II os solicitantes provenientes do 
+Sistema Universitario Español sobre os solicit antes provenientes de sistemas universitarios 
+estranxeiros, toda vez que éstes tiveron os seus propios prazos así como unha porcentaxe de 
+reserva de prazas, segundo o  establecido no apartado I destas aclaracións. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 35 de un total de 59 página(s).
+
+
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+ 
+Páxina 36 de 59 
+ 
+Ao abeiro do acordo adoptado polo Consello de Goberno do 29/03/2017, establécese unha reserva 
+do 5% das prazas dispoñibles para estudos de mestrado universitario para os estudantes que teñan 
+recoñecido un grao de discapacidade igual ou superior ao 33%, así como para aqueles estudantes 
+con necesidades educativas especiais permanentes asociadas ás condicións persoais de 
+discapacidade, que durante a súa escolarización anterior precisaran de recursos e apoio para a súa 
+plena normalización educativa. 
+Os estudantes deberán acreditar esa condición no momento de efectuar a preinscrición 
+correspondente, mediante un certificado oficial de cualificación e recoñecemento do grao de 
+discapacidade, expedido polo órgano competente de cada Comunidade Autónoma. 
+A ordenación e adxudicación das prazas reservadas realizarase atendendo aos criterios de 
+valoración que sexan de aplicación a cada mestrado. 
+As prazas obxecto de reserva destes estuda ntes que queden sen cubrir serán acumuladas ás 
+ofertadas pola Universidade polo réxime xeral en cada unha das convocatorias. 
+ 
+1º PRAZO (xuño-xullo de 2017) 
+23 xuño – 13 xullo  Preinscrición 
+18 xullo  Publicación lista provisional 
+18 – 26 xullo  Reclamacións 
+31 xullo  Publicación lista definitiva 
+1 – 13 agosto  Matrícula (*) 
+2º PRAZO (agosto-setembro de 2017) 
+14 -21 agosto Preinscrición 
+6 setembro Publicación lista provisional 
+6 – 8 setembro Reclamacións 
+13 setembro Publicación lista definitiva 
+13 - 18 setembro Matrícula (*) 
+3º PRAZO (setembro-outubro de 2017) 
+19 - 27 de setembro Preinscrición 
+2 outubro Publicación lista provisional 
+2 – 5 outubro Reclamacións 
+9 outubro Publicación lista definitiva 
+10 – 19 outubro Matrícula (*) 
+ 
+(*) A matrícula realizarase nas datas de chamamento e seguindo o procedemento que 
+se estableza polos centros, de ser o caso. 
+ 
+PRAZOS PARA O ESTUDANTADO DE SISTEMAS UNIVERSITARIOS ESTRANXEIROS 
+ALLEOS AO SISTEMA UNIVERSITARIO ESPAÑOL, PARA O CURSO 2018-2019: 
+ 
+Coa finalidade de facilitar a planificación de accións de internacionalización e acceso aos 
+mestrados universitarios dos estudantes procedentes de todos os sistemas universitarios 
+estranxeiros (solicitude de bolsas, visados etc.), tanto do Espazo Europeo de Educación 
+Superior coma de alleos a éste, os prazos previstos para a vindeira edición, correspondente ao 
+curso 2018/2019, e para as seguintes, serán os que se indican na seguinte táboa.  
+ 
+O número total de solicitantes admitidos nestes prazos non poderá superar o 30% das prazas 
+ofertadas en cada mestrado (as prazas desta reserva que non se cubriren acumularanse á 
+quenda xeral na preinscrición). Estes solicitantes deberán cumprir os requisitos de acceso e de 
+admisión no momento de realizaren a preinscrición.  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 36 de un total de 59 página(s).
+
+
+ 
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+Páx. 37 de 59 
+ESTUDANTADO SISTEMAS UNIVERSITARIOS ESTRANXEIROS 
+16 de xaneiro – 30 de abril de 2018 Preinscrición 
+8-10 de maio de 2018 Publicación lista provisional 
+10-18 de maio de 2018 Reclamacións 
+24-25 de maio de 2018 Publicación lista definitiva 
+Primeiro prazo xeral (a determinar) Matrícula 
+ 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 37 de un total de 59 página(s).
+
+
+ 
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017) 
+Páx. 38 de 59 
+5. Calendarios académicos para o curso 2017/2018  
+Aprobados polo Consello de Goberno o 27 de abril de 2017. Poden consultarse no enderezo 
+web: http://www.udc.es/ensino/calendario_academico/ 
+1. CURSO ACADÉMICO 
+O curso académico 2017/2018 comprenderá desde o 1 de setembro de 2017 ata o 31 de 
+agosto de 2018. Abarcará dous períodos lectivos que se organizan en dous cuadrimestres, 
+conforme se indica no apartado 2 deste calendario. Non será lectivo o mes de agosto, nin os 
+días festivos, nin os períodos sinalados neste calendario para a avaliación.  
+Consideraranse alumnos do curso académico 2017/2018 aqueles que deban ser avaliados das 
+Prácticas/TFG/TFM en segunda oportunidade, cuxas actas se asinen e entreguen o 25 de 
+setembro de 2018, conforme se establece neste calendario. 
+2. PERÍODOS LECTIVOS 
+As actividades académicas docentes comprenden os seguintes períodos lectivos:  
+Primeiro cuadrimestre: desde o 11 de setembro ao 22 de decembro de 2017 
+Segundo cuadrimestre: desde o 30 de xaneiro ao 16 de maio de 2018 
+Co fin de facilitar a planificación docente dos mestrados, e cando non precisen utilizar o período 
+de avaliación, poderán iniciar as súas actividades docentes no mes de outubro e prolongalas 
+ata o 26 de xaneiro. Neste caso o segundo cuadrimestre poderá comezar unha semana máis 
+tarde. Para facer efectiva esta posibilidade os coordinadores dos mestrados deberán poñelo en 
+coñecemento do Servizo de Organización Académica. 
+3. AVALIACIÓN 
+ 3.1. Graos e Mestrados 
+Para a súa avaliación os/as estudantes en cada curso académico terán dereito a dúas 
+oportunidades e o calendario quedará organizado en catro períodos: 
+ 
+Convocatoria 
+Datas de avaliación 
+Data límite de sinatura e 
+entrega de actas 
+Adianto de convocatoria Do 23 de novembro ao 12 de 
+decembro de 2017 
+22 de decembro de 2017 
+Materias do primeiro 
+cuadrimestre 
+Do 8 ao 26 de xaneiro de 
+2018 
+10 de febreiro de 2018  
+TFG/ TFM, fixadas polos 
+Centros 
+9 de marzo de 2018 para as 
+actas do TFG e TFM 
+Materias do segundo 
+cuadrimestre e anuais 
+Do 18 de maio ao 8 de xuño 
+de 2018 
+20 de xuño de 2018  
+TFG/ TFM, fixadas polos 
+Centros 
+4 de xullo de 2018 para as 
+actas do TFG e TFM 
+2ª oportunidade 
+Do 28 de xuño ao 17 xullo 
+de 2018 (*) 
+24 de xullo de 2018 
+Prácticas/ TFG/ TFM, 
+fixadas polos Centros 
+25 de setembro de 2018 
+para as actas do TFG e TFM 
+As datas de avaliación correspondentes ao “adianto de convocatoria” serán establecidas 
+polos Centros só no caso de existiren solicitudes.  
+(*) Os exames organizaranse de forma que se realicen primeiro aqueles correspondentes 
+ás materias do primeiro cuadrimestre e a continuación os das materias do segundo 
+cuadrimestre. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 38 de un total de 59 página(s).
+
+
+ 
+ 
+ 
+ 
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017)  
+Páxina 39 de 59 
+A matrícula e defensa do TFG e do TFM realizarase conforme ao disposto nos artigos 1º, 2º e 
+3º da Normativa reguladora da matrícula e defensa do TFG e TFM aprobada polo Consello de 
+Goberno de 19 de decembro de 2013 e as súas posteriores modificacións. 
+ 
+ 3.2. Titulacións da anterior ordenación académica 
+ 
+No ano académico 2017/2018 os alumnos poderán superar só o Proxecto Fin de Carreira nas 
+seguintes titulacións: Enxeñaría en Informática, Arquitectura, Enxeñaría de Camiños, Canais e 
+Portos, Enxeñaría Naval e Oceánica e Enxeñaría Industrial, conforme se estableza na 
+Normativa de xestión académica do citado curso. 
+As actividades académicas docentes e os exames de todos os plans de estudo 
+interromperanse desde o día 23 de decembro de 2017 ata o día 6 de xaneiro de 2018 (ambos 
+os dous incluídos); os días 12 e 13 de febreiro de 2018 e desde o día 26 de marzo ao día 2 de 
+abril de 2018 (ambos os dous incluídos). Terá carácter festivo o día 29 de xaneiro de 2018 por 
+traslado da festividade de San Tomé de Aquino. Así mesmo, posuirán carácter festivo os días 
+das festas oficiais do Estado, da Comunidade Autónoma e das cidades onde estea cada 
+centro, así como o día da festividade de cada un deles. 
+Coa finalidade de aproveitar ao máximo os días lectivos, sempre que as festividades da 
+Universidade coincidan en martes ou en xoves celebr aranse o luns ou o venres máis próximo; 
+e se cadrasen en mércores trasladaranse ao venres. As que cadren en sábado, domingo ou 
+festivo celebraranse o día anterior ou o seguinte lectivos.  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 39 de un total de 59 página(s).
+
+
+ 
+ 
+ 
+ 
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017)  
+Páxina 40 de 59 
+Anexo II: documentos 
+1. Documentos necesarios para a solicitude de matrícula ordinaria 
+• Fotocopia do DNI (só para quen se matricular por vez primeira nesta universidade) 
+• O documento que corresponder, segundo o título ou as probas que habilitaren o/a 
+alumno/a para os estudos que pretende cursar. Se o curso académico en que o alumno 
+rematou o título ou realizou as probas que o habilitan para o acceso aos estudos que 
+pretende cursar non é o inmediatamente anterior ao da súa solicitude, achegará o 
+xustificante de pagamento de traslado da universidade de orixe ou, no seu caso, declaración 
+xurada de non estiver matriculado en estudos universitarios oficiais anteriormente (só para 
+quen se matricular por vez primeira nesta universidade) 
+• Xustificante, se for o caso, de exención ou de redución dos prezos da matrícula 
+• Xustificante de solicitude de bolsa ou acreditación do Ministerio de Educación 
+• Autorización da domiciliación bancaria do cobro de prezos públicos, no caso de non constar 
+como titular da conta bancaria. 
+• Os alumnos doutras universidades que foron admitidos para iniciar ou continuar os seus 
+estudos nesta universidade e deberán presentar o resgardo de que aboaron os dereitos de 
+traslado do expediente na universidade de procedencia. 
+• 1 fotografía de tamaño carné para a tarxeta universitaria 
+2. Documentos que acreditan a gratuidade, a exención ou a redución dos prezos da 
+matrícula en titulacións oficiais  
+Se for preciso, por ser posuidor dos beneficios de gratuidade, exención ou redución de prezos 
+públicos por servizos académicos, algún dos seguintes documentos: 
+a) Para os que obtivesen a cualificación global de matrícula de honra no 2.º curso do 
+bacharelato ou na FP, ou premio extraordinario no bacharelato: certificación do centro 
+respectivo. 
+b) Para os beneficiarios do réxime de protección ás familias numerosas xeral e especial: 
+fotocopia do título de beneficiario  ou renovación actualizada; en caso de necesidade 
+deberá presentarse o documento orixinal, do que debe deixar constancia o persoal que 
+efectuar a matrícula. 
+c) Para os solicitantes de bolsa: documento que acredite a solicitude de bolsa segundo a 
+que, conforme a correspondente orde do Ministerio de Educación, poderá realizar a 
+formalización da matrícula sen o pagamento previo das taxas. 
+d) Para as persoas beneficiarias de axudas ao estudo con cargo aos orzamentos do Estado: 
+documento que acredite que se lle concedeu tal axuda para o curso académico 
+2017/2018. De non o ter, resgardo da solicitude de axuda (con carácter provisional). 
+e) A consideración de vítima de acto terrorista quedará acreditada mediante o informe 
+preceptivo do Ministerio do Interior, ou ben mediante o recoñecemento por parte da 
+Administración Xeral do Estado de pensión extraordinaria por acto de terrorismo, ou por 
+sentenza xudicial firme. 
+f) As persoas con discapacidade acreditarán esta  situación mediante resolución expresa sobre 
+o recoñecemento do grao de discapacidade emitida pola Xunta de Galicia segundo se 
+establece no artigo 10 do Real decreto 1971/1999, de 23 de decembro (BOE de 26 de 
+xaneiro de 2000), ou emitida pola Seguridade Social segundo os artigos 1, 2 e 4  do RD 
+lexislativo 1/2013, de 29 de novembro, e o Real decreto 1414/2006, de 1 de decembro. 
+g) Os empregados públicos acreditarán esta circunstancia, no seu caso, mediante certificación 
+emitida pola universidade pública do SUG que corresponda. 
+h) A condición de vítima de violencia de xénero acreditarase por calquera dos seguintes 
+medios: 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 40 de un total de 59 página(s).
+
+
+ 
+ 
+ 
+ 
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017)  
+Páxina 41 de 59 
+1. Certificación da orde de protección ou da medida cautelar, ou testemuño ou copia 
+autentificada polo/a secretario/a xudicial da propia orde de protección ou da medida 
+cautelar. 
+2. Sentenza de calquera orde xurisdicional que declare que a persoa sufriu violencia de 
+xénero. 
+3. Certificación dos servizos sociais e/ou sanitarios da Administración pública autonómica 
+ou local. 
+4. Certificación dos servizos de acollida da Administración pública autonómica ou local. 
+5. Informe do Ministerio Fiscal que indique a existencia de indicios de violencia. 
+6. Informe da Inspección de Traballo e Seguridade Social. 
+7. Calquera outro que se establecer regulamentariamente 
+3. Documentos específicos para alumnos procedentes doutras universidades 
+4.1. Documentos 
+a) Solicitude 
+b) Copia do DNI ou pasaporte 
+c) Certificación académica oficial (CAO) en que consten as cualificacións da última 
+convocatoria, con expresión do número de convocatorias esgotadas en cada unha das 
+materias. 
+d) Para os alumnos que solicitaren iniciar estu dos en titulacións con límite de prazas, será 
+xustificante suficiente ser convocado/a para formalizar a matrícula, e deberán presentar o 
+resgardo do pagamento dos dereitos de traslado do expediente. 
+4.2. A falsidade nos datos declarados conforme as parágrafos anteriores deixará sen efecto a 
+resolución que, de ser o caso, se adoptas e no momento en que a UDC teña coñecemento de 
+que non se cumpren os requisitos esixidos, o que se lle comunicará á persoa interesada por 
+correo certificado con xustificante de recepción. 
+4. Documentos para os alumnos que superasen as probas de acceso á universidade 
+antes do curso 2017/2018 
+Os alumnos que inicien estudos nun centro e que superasen as probas de acceso á 
+universidade (ou titulación equivalente) antes do curso 2017/2018 deben presentar unha 
+certificación académica persoal dos estudos universitarios que realizasen anteriormente ou 
+ben, se for o caso, unha declaración xurada de que non estiveron matriculados antes noutro 
+centro universitario. 
+A falsidade nos datos declarados deixará sen efecto a resolución que, de ser o caso, se 
+adoptase no momento en que a UDC teña coñecemento de que non se cumpren os requisitos 
+esixidos, o que se lle comunicará á persoa interesada por correo certificado con xustificante de 
+recepción. 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 41 de un total de 59 página(s).
+
+
+ 
+ 
+ 
+ 
+Normativa de xestión académica 2017/2018 
+(RR 31/05/2017)  
+Páxina 42 de 59 
+5. Documentos para alumnos que proceden de centros da Universidade da Coruña  
+Aos alumnos procedentes doutros centros desta universidade, a documentación que se lles 
+esixirá será o Certificado de documentación , que deberá conter a mención expresa dos 
+datos a que se refire a epígrafe 1 deste Anexo. Esta certificación será solicitada de oficio polo 
+centro de destino do/a alumno/a ao centro de procedencia, do que deberá quedar constancia 
+no seu expediente. 
+No momento da matrícula será suficiente con que o/a alumno/a presente no centro a que 
+accede unha declaración xurada da súa situación académica no centro de procedencia. A 
+falsidade nos datos declarados deixará sen efecto a resolución que, de ser o caso, se 
+adoptase no momento en que a UDC teña coñecemento de que non se cumpren os requisitos 
+esixidos, o que se lle comunicará á persoa interesada por correo certificado con xustificante de 
+recepción. 
+6. Documentos para os alumnos con estudos estranxeiros 
+Os alumnos con estudos estranxeiros presentar án ao mesmo tempo a solicitude de validación 
+de estudos acompañada dos seguintes documentos: 
+ Certificado oficial acreditativo do nivel e da clase de estudos que pretende validar 
+ Certificado expedido por autoridade competente que exprese que o título do que estea en 
+posesión o interesado facilita, no país expedidor deste, para o acceso a ensinanzas de 
+mestrado ou de posgrao. 
+ Programas das materias en que figura o contido e a amplitude con que foron cursadas 
+ DNI ou pasaporte 
+A resolución que, de ser o caso, se adopte estará condicionada á presentación no centro 
+respectivo dos documentos anteriores debidamente legalizados por vía diplomática, de acordo 
+co que establece a Instrución da Secretaría Xeral de 2 de agosto de 2001. A falsidade nos 
+datos declarados deixará sen efecto a resolución, no caso de ser positiva, no momento en que 
+a UDC teña coñecemento dela. 
+7. Documentos para o alumnado que solicite acceso a prácticas ou actividades que 
+impliquen contacto habitual con menores 
+Certificación negativa do Rexistro Central de delincuentes sexuais, de non ter condena por 
+sentenza firme por algún delito contra a liberdade e indemnidade sexual. 
+ 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 42 de un total de 59 página(s).
+
+
+ 
+Páxina 43 de 59 
+Anexo III 
+MODELO DE DESESTIMACIÓN DE CAMBIO DE UNIVERSIDADE / 
+ESTUDOS 
+Antecedentes 
+O día ....................................  D/D.ª......................................................................................... 
+presenta na Facultade ou Escola de ...................................................................................... 
+unha solicitude de cambio de universidade ou estudos de ......................................... 
+............................................................................................................ para ser admitido/ a nos 
+estudos universitarios oficiais de ........................................................................................... 
+na UDC. 
+Consideracións legais e técnicas 
+1. O artigo 29 do Real decreto 412/2014, de 6 de xuño. 
+2. O artigo ......... da Normativa de xestión académica (NXA) vixente. 
+3. O artigo 36 dos Estatutos da UDC, aprobados polo Decreto da Xunta de Galicia 
+101/2004, de 13 de maio, modificado polo Decreto 194/2007, de 11 de outubro. 
+4. O/a decano/a ou director/a do centro é competente para resolver a solicitude en virtude 
+da desconcentración de competencias prevista no artigo ....... da NXA. 
+De acordo co indicado, RESOLVO: 
+Desestimar a solicitude formulada por D./D.ª ........................................................................... ,  
+polos motivos que a continuación se sinalan: 
+ Non obter o recoñecemento nun mínimo de 30 créditos 
+ Esgotar nalgunha materia o número máximo de convocatorias permitido nesta 
+universidade 
+ Presentar a solicitude fóra de prazo 
+ Outros (cómpre especificar o motivo)  ...................................................................................  
+Contra este acordo e de conformidade co que dispoñen os artigos 121 e 122 da Lei 39/2015, 
+do 1 de outubro, do procedemento administrativo común das Administracións Públicas, 
+poderá interpoñer un recurso de alzada perante o reitor, no prazo dun mes que contará a 
+partir do día seguinte ao da recepción da súa notificación, ou calquera outro recurso que se 
+considere oportuno. 
+ ................. ,  ......  de  .....................  de  .......  
+O/a decano/a ou director/a 
+ ....................................................................  
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 43 de un total de 59 página(s).
+
+
+ 
+Páxina 44 de 59 
+Anexo IV 
+MODELO DE ESTIMACIÓN DE CAMBIO DE UNIVERSIDADE / ESTUDOS 
+Antecedentes 
+O día  ....................................  D/D.ª  ..........................................................................................  
+presenta na Facultade ou Escola de  .........................................................................................  
+unha solicitude de cambio de universidade ou estudos de ........................................................  
+ .............................................  para ser admitido/a nos estudos universitarios oficiais de ..........  
+ ................................................................ na UDC. 
+Consideracións legais e técnicas 
+1. O artigo 29 do Real decreto 412/2014, de 6 de xuño. 
+2. O artigo ..... da Normativa de xestión académica (NXA) vixente. 
+3. O artigo 36 dos Estatutos da UDC, aprobados polo Decreto da Xunta de Galicia 
+101/2004, de 13 de maio, modificado polo Decreto 194/2007, de 11 de outubro. 
+4. O/a decano/a ou director/a do centro é competente para resolver a solicitude en virtude 
+da desconcentración de competencias prevista no artigo ..... da NXA. 
+De acordo co indicado, RESOLVO: 
+Estimar a solicitude formulada por D./D.ª  ................................................................................ , 
+que deberá pagar os prezos públicos correspondentes no seu centro de orixe e matricularse 
+posteriormente nos prazos que establece esta universidade. 
+Contra este acordo e de conformidade co que dispoñen os artigos 121 e 122 da Lei 39/2015, 
+do 1 de outubro, do procedemento administrativo común das Administracións Públicas, 
+poderá interpoñer un recurso de alzada perante o reitor, no prazo dun mes que contará a 
+partir do día seguinte ao da recepción da súa notificación, ou calquera outro recurso que se 
+considere oportuno. 
+ ................. ,  ......  de  .....................  de  .......  
+O/a decano/a ou director/a 
+ ....................................................................  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 44 de un total de 59 página(s).
+
+
+ 
+Páxina 45 de 59 
+Anexo V 
+MODELO DE DESESTIMACIÓN DE SIMULTANEIDADE DE ESTUDOS 
+Antecedentes 
+D./D.ª  ........................................................................ , alumno/a da titulación de ......................  
+ ...............................................  da Facultade/Escola de  ...........................................................  
+solicita ser admitido/a para simultanear estudos na titulación de  .............................................  
+ ...............................................  da Facultade/Escola de  ...........................................................  
+da UDC. 
+Consideracións legais e técnicas 
+1. O artigo 2.1 da Orde do MEC de 28 de setembro de 1984, sobre o réxime de 
+simultaneidade de estudos universitarios en distintos centros. 
+2. O artigo  ......  da Normativa de xestión académica (NXA) vixente.  
+3. O artigo 36 dos Estatutos da UDC, aprobados polo Decreto da Xunta de Galicia 
+101/2004, de 13 de maio, modificado polo Decreto 194/2007, de 11 de outubro. 
+4. O/a decano/a ou director/a do centro é competente para resolver a solicitude en virtude 
+da delegación de competencias prevista no artigo ....... da NXA. 
+De acordo co indicado, RESOLVO: 
+Desestimar a solicitude de simultaneidade de estudos formulada por D./D.ª...........................  
+ ....................................  polos motivos que a continuación se sinalan: 
+ Non existir vacante na titulación solicitada. 
+ Non ter superado integramente o primeiro curso ou os créditos necesarios dos que 
+estean obrigados a formalizar matrícula no primeiro curso. 
+ Presentar a solicitude fóra de prazo. 
+ Outros (cómpre especificar o motivo)  ...................................................................................  
+Contra esta resolución, que esgota a vía admin istrativa, e de conformidade co disposto no 
+artigo 122.3 da Lei 39/2015, do 1 de outubro, do procedemento administrativo común das 
+Administracións Públicas, cabe interpoñer un recurso contencioso- 
+-administrativo no prazo de dous meses na forma e coas condicións previstas no artigo 46 
+da Lei 29/1998, de 13 de xullo, reguladora da xurisdición contencioso-administrativa, sen 
+prexuízo de calquera outro recurso que se estime procedente. 
+ ................. ,  ......  de  .....................  de  .......  
+O/a decano/a ou director/a 
+................................................  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 45 de un total de 59 página(s).
+
+
+ 
+Páxina 46 de 59 
+Anexo VI 
+MODELO DE ESTIMACIÓN DE SIMULTANEIDADE DE ESTUDOS 
+Antecedentes 
+D./D.ª  ........................................................................ , alumno/a da titulación de ......................  
+ ...............................................  da Facultade/Escola de  ...........................................................  
+solicita ser admitido/a para simultanear estudos na titulación de  .............................................  
+ ...............................................  da Facultade/Escola de  ...........................................................  
+da UDC. 
+Consideracións legais e técnicas 
+1. O artigo 2.1 da Orde do MEC de 28 de setembro de 1984, sobre o réxime de 
+simultaneidade de estudos universitarios en distintos centros. 
+2. O artigo  ......  da Normativa de xestión académica (NXA) vixente. 
+3. O artigo 36 dos Estatutos da UDC, aprobados polo Decreto da Xunta de Galicia 
+101/2004, de 13 de maio, modificado polo Decreto 194/2007, de 11 de outubro. 
+4. O/a decano/a ou director/a do centro é competente para resolver a solicitude en virtude 
+da delegación de competencias prevista no artigo ....... da NXA. 
+De acordo co indicado, RESOLVO: 
+Estimar a solicitude de simultaneidade de estudos formulada por D./D.ª .................................  
+ .................................... , que ten un prazo improrrogable de dez días naturais que contarán 
+a partir da recepción desta resolución para aboar as taxas e os prezos públicos 
+correspondentes á 
+matrícula na titulación de  .......................................................................... 
+Contra esta resolución, que esgota a vía admin istrativa, e de conformidade co disposto no 
+artigo 122.3 da Lei 39/2015, do 1 de outubro, do procedemento administrativo común das 
+Administracións Públicas, cabe interpoñer un recurso contencioso- 
+-administrativo no prazo de dous meses na forma e coas condicións previstas no artigo 46 
+da Lei 29/1998, de 13 de xullo, reguladora da xurisdición contencioso-administrativa, sen 
+prexuízo de calquera outro recurso que se estime procedente. 
+ ................. ,  ......  de  .....................  de  .......  
+O/a decano/a ou director/a 
+ ....................................................................  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 46 de un total de 59 página(s).
+
+
+ 
+Páxina 47 de 59 
+Anexo VII 
+MODELO DE ESTIMACIÓN DE RE COÑECEMENTO/TRANSFERENCIA DE 
+CRÉDITOS 
+D./D.ª............................................................................................................................... 
+Con domicilio en.............................................................................................................. 
+CP e poboación............................................................................................................... 
+Resolución de recoñecemento e/ou transferencia de créditos para titulacións 
+adaptadas ao espazo europeo de educación superior (EEES) 
+Asunto: recoñecemento ou transferencia de créditos nas titulacións de grao/mestrado 
+universitario 
+Interesado/a:  .........................................................................  
+Data de presentación da solicitude:  ...................................  
+Antecedentes 
+1. D./D.ª  ......................................................................................  solicita: 
+ O recoñecemento das materias/créditos superadas na titulación de  ..............................  
+ ....................................................... , da Universidade ...................................................... , 
+polos créditos correspondentes na titulación de (grao ou mestrado en)  .........................  
+ .......................................................  da Universidade da Coruña. 
+ A transferencia das materias ou os créditos superados na titulación de (grao ou 
+mestrado en)  ....................................................................................................................  
+da Universidade  .....................................................  no seu expediente académico da 
+titulación de (grao ou mestrado en) ..................................... ............................................  
+na Universidade da Coruña. 
+2. A Administración do centro examina o seu expediente e comproba que a persoa 
+interesada xustifica documentalmente que superou os devanditos créditos ou materias 
+mediante unha certificación académica persoal, ou oficial, de ser o caso. 
+Consideracións legais e técnicas 
+1. Artigo 6 □, artigo 13 □, disposición adicional cuarta □ (segundo o caso), do Real 
+decreto 1393/2007, de 29 de outubro, modificado polo Real decreto 861/2010, de 2 de 
+xullo. 
+2. Artigo ...... da Normativa de xestión académica do curso académico vixente. 
+3. Normativa de recoñecemento e transferencia de créditos para titulacións adaptadas ao 
+espazo europeo de educación superior (Acordo do Consello de Goberno de 30 de xuño 
+de 2011). 
+4. Trátase do recoñecemento de créditos correspondentes a estudos universitarios oficiais 
+nos casos seguintes: 
+a)   A titulación a que se pretende acceder pertence á mesma rama de coñecemento 
+que a de orixe e, xa que logo, serán obxecto de recoñecemento os créditos 
+correspondentes ás materias de formación básica da devandita rama. 
+b)   Recoñecemento de créditos obtidos naquelas outras materias de formación básica 
+pertencentes á rama de coñecemento do título ao que se pretende acceder. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 47 de un total de 59 página(s).
+
+
+ 
+Páxina 48 de 59 
+5.   Visto o informe vinculante da Xunta de Centro (ou da comisión delegada) na súa 
+sesión de ............................................., por ser créditos que poden: 
+  Visto o informe vinculante da Comisión de Selección na súa sesión 
+de......................................................, por ser créditos que poden: 
+a)   Ser recoñecidos pola UDC tendo en conta a adecuación entre as 
+competencias e os coñecementos asociados ás restantes disciplinas cursadas 
+polo/a estudante e os previstos no plan de estudos ou ben que teñan carácter 
+transversal. 
+b)   Ser recoñecidos por superarse noutras ensinanzas superiores oficiais de  
+ .............................................................................  
+c)   Ser recoñecidos por superarse en ensinanzas universitarias conducentes á 
+obtención doutros títulos non-oficiais de .................................................. 
+ ....................................  
+d)   Ser recoñecidos pola experiencia laboral e profesional acreditada polo/a 
+solicitante en ................................................................................................ 
+6. O/a decano/a ou director/a do centro é competente para resolver a solicitude en 
+virtude da desconcentración de competencias establecida na epígrafe 6 do artigo 3 da 
+Normativa de recoñecemento e transferencia de créditos para titulacións adaptadas ao 
+espazo europeo de educación superior. 
+De acordo co indicado, RESOLVO: 
+ Estimar a solicitude de recoñecemento dos créditos correspondentes ás materias 
+que a continuación se relacionan: 
+TIPO DE CRÉDITOS (FB/OB/OP):  ..............................  N.º DE CRÉDITOS: ......... 
+Denominación da materia de destino: 
+................................................................................................................................. 
+................................................................................................................................. 
+ Recoñecemento con cualificación: ..................................................................... 
+ Recoñecemento sen cualificación: ..................................................................... 
+ Estimar a solicitude de transferencia dos créditos correspondentes ás materias de 
+estudos oficiais de grao ou mestrado que a continuación se relacionan: 
+TIPO DE CRÉDITOS (FB/OB/OP):  ..............................  N.º DE CRÉDITOS: ......... 
+Denominación da materia de destino: 
+................................................................................................................................. 
+................................................................................................................................. 
+Curso académico:  ...........................................  Cualificación: ................................. 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 48 de un total de 59 página(s).
+
+
+ 
+Páxina 49 de 59 
+Así mesmo, infórmoo/a de que para o recoñecemento/transferencia producir efecto 
+deberá aboar, de ser o caso, no prazo máximo de dez días naturais que contará a 
+partir do día seguinte ao da notificación deste acordo, o 25% da taxa de matrícula 
+correspondente ás materias recoñecidas/transferidas, agás se estas quedan incluídas 
+na taxa do curso completo ou conta vostede cunha exención do pagamento dos 
+prezos públicos. Neste mesmo prazo adecuarase a súa matrícula nos termos que 
+recolle a convocatoria, coa seguinte devolución de prezos públicos, se así proceder. 
+Contra este acordo e de conformidade co que dispoñen os artigos 121 e 122 da Lei 
+39/2015, do 1 de outubro, do procedemento administrativo común das Administracións 
+Públicas, poderá interpoñer un recurso de alzada perante o reitor, no prazo dun mes 
+que contará a partir do día seguinte ao da recepción da súa notificación, ou calquera 
+outro recurso que se considere oportuno. 
+ .................. ,  ......  de  .....................  de  .......  
+O/a decano/a ou director/a 
+ .....................................................................  
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 49 de un total de 59 página(s).
+
+
+ 
+Páxina 50 de 59 
+Anexo VIII 
+MODELO DE DESESTIMACIÓN DE RECOÑECEMENTO/TRANSFERENCIA DE 
+CRÉDITOS 
+D./D.ª...................................................................................................................... 
+Con domicilio en..................................................................................................... 
+CP e poboación...................................................................................................... 
+Resolución de recoñecemento e/ou transferencia de créditos para titulacións 
+adaptadas ao espazo europeo de educación superior (EEES) 
+Asunto: recoñecemento ou transferencia de créditos nas titulacións de grao/mestrado 
+universitario 
+Interesado/a:  .........................................................................  
+Data de presentación da solicitude:  ...................................  
+Antecedentes 
+1. D./D.ª  ......................................................................................  solicita: 
+ O recoñecemento das materias/créditos superados na titulación de ............. 
+ ...................................................... , da Universidade ...................................., 
+polos créditos correspondentes na titulación de (grao ou mestrado en) ........ 
+ ......................................................  da Universidade da Coruña. 
+ A transferencia das materias ou os créditos superados na titulación de (grao ou 
+mestrado en) .............................................................................................. 
+da Universidade  .....................................................  no seu expediente 
+académico da titulación de (grao ou mestrado en)  ......................................... 
+na Universidade da Coruña. 
+2. A Administración do centro examina o seu expediente e comproba que a persoa 
+interesada xustifica documentalmente que superou os devanditos créditos ou materias 
+mediante unha certificación académica persoal, ou oficial, de ser o caso. 
+Consideracións legais e técnicas 
+1. Artigo 6 □, artigo 13 □, disposición adicional cuarta □ (segundo o caso), do Real 
+decreto 1393/2007, de 29 de outubro, modificado polo Real decreto 861/2010, de 2 
+de xullo. 
+2. Artigo ........ da Normativa de xestión académica do curso académico vixente. 
+3. Normativa de recoñecemento e transferencia de créditos para titulacións adaptadas 
+ao espazo europeo de educación superior (Acordo do Consello de Goberno de 30 
+de xuño de 2011). 
+4. O/a decano/a ou director/a do centro é competente para resolver a solicitude en 
+virtude da desconcentración de competencias establecida na epígrafe 6 do artigo 3 
+da Normativa de recoñecemento e transferencia de créditos para titulacións 
+adaptadas ao espazo europeo de educación superior. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 50 de un total de 59 página(s).
+
+
+ 
+Páxina 51 de 59 
+De acordo co indicado, RESOLVO: 
+ Desestimar a solicitude de recoñecemento de créditos formulada por D./D.ª ...... 
+ ................................................................  polos seguintes motivos: 
+.................................................................................................................................... 
+.................................................................................................................................... 
+...................................................................................................................................... 
+Contra este acordo e de conformidade co que dispoñen os artigos 121 e 122 da Lei 
+39/2015, do 1 de outubro, do procedemento administrativo común das Administracións 
+Públicas, poderá interpoñer un recurso de alzada perante o reitor, no prazo dun mes  
+que contará a partir do día seguinte ao da recepción da súa notificación, ou calquera 
+outro recurso que se considere oportuno. 
+ .................. ,  ......  de  .....................  de  .......  
+O/a decano/a ou director/a 
+ .....................................................................  
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 51 de un total de 59 página(s).
+
+
+ 
+Páxina 52 de 59 
+Anexo IX 
+MODELO DE DESESTIMACIÓN DE MATRÍCULA FÓRA DE PRAZO 
+Antecedentes 
+O día  ....................................  D/D.ª .......................................................................... 
+presenta unha solicitude para realizar a matrícula fóra de prazo na titulación de. 
+ .....................................................................  da UDC. 
+Consideracións legais e técnicas 
+1. O artigo  ..........  da Normativa de xestión académica (NXA) vixente. 
+2. O artigo 36 dos Estatutos da UDC, aprobados polo Decreto da Xunta de Galicia 
+101/2004, de 13 de maio, modificado polo Decreto 194/2007, de 11 de outubro. 
+3. As causas expostas pola persoa interesada que motivan o impedimento para 
+realizar a matrícula nos prazos sinalados. 
+4. O/a decano/a ou director/a do centro é competente para resolver a solicitude en 
+virtude da desconcentración de competencias prevista na NXA. 
+De acordo co indicado, RESOLVO: 
+Desestimar a solicitude formulada por D./D.ª ........................................................ 
+ .................................... , toda vez que rematou o prazo sinalado no Anexo........ 
+da Normativa de xestión académica do curso académico vixente. 
+Contra esta resolución e de conformidade co que dispoñen os artigos 121 e 122 da Lei 
+39/2015, do 1 de outubro, do procedemento administrativo común das Administracións 
+Públicas, poderá interpoñer un recurso de alzada perante o reitor, no prazo dun mes 
+que contará a partir do día seguinte ao da recepción da súa notificación, ou calquera 
+outro recurso que se considere oportuno. 
+ .................. ,  ......  de  .....................  de  .......  
+O/a decano/a ou director/a 
+ .....................................................................  
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 52 de un total de 59 página(s).
+
+
+ 
+Páxina 53 de 59 
+Anexo X 
+MODELO DE ESTIMACIÓN DE MATRÍCULA FÓRA DE PRAZO 
+ 
+Antecedentes 
+O día  ....................................  D/D.ª ........................................................................... 
+presenta unha solicitude para realizar a matrícula fóra de prazo na titulación de.. 
+ .....................................................................  da UDC. 
+Consideracións legais e técnicas 
+1. O artigo  ..........  da Normativa de xestión académica (NXA) vixente. 
+2. O artigo 36 dos Estatutos da UDC, aprobados polo Decreto da Xunta de Galicia 
+101/2004, de 13 de maio, modificado polo Decreto 194/2007, de 11 de outubro. 
+3. As causas expostas pola persoa interesada que motivan o impedimento para 
+realizar a matrícula nos prazos sinalados. 
+4. O/a decano/a ou director/a do centro é competente para resolver a solicitude en 
+virtude da desconcentración de competencias prevista na NXA. 
+De acordo co indicado, RESOLVO: 
+Estimar a solicitude formulada por D./D.ª ............................................................., 
+que deberá formalizar a súa matrícula nun prazo improrrogable de  .............  días 
+naturais que contan a partir da recepción desta notificación. 
+Contra este acordo e de conformidade co que dispoñen os artigos 121 e 122 da Lei 
+39/2015, do 1 de outubro, do procedemento administrativo común das Administracións 
+Públicas, poderá interpoñer un recurso de alzada perante o reitor, no prazo dun mes 
+que contará a partir do día seguinte ao da recepción da súa notificación, ou calquera 
+outro recurso que se considere oportuno. 
+ .................. ,  ......  de  .....................  de  .......  
+O/a decano/a ou director/a 
+ .....................................................................  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 53 de un total de 59 página(s).
+
+
+ 
+Páxina 54 de 59 
+Anexo XI 
+MODELO DE DESESTIMACIÓN DE MATRÍCULA A TEMPO PARCIAL 
+Antecedentes 
+O día………………………………. D./D.ª ………………………………………….presenta 
+unha solicitude de: 
+□ matrícula a tempo parcial en 1.º por primeira vez 
+□ matrícula a tempo parcial en continuación de estudos 
+□ renovación da concesión da dedicación a tempo parcial 
+Na titulación de ………………………………………………………………………………… 
+Consideracións legais e técnicas 
+1. O artigo ...... da Normativa de xestión académica (NXA) vixente. 
+2. O artigo 9 da Norma que regula o réxime de dedicación ao estudo e a permanencia 
+e a progresión dos estudantes de grao e máster universitario na Universidade da 
+Coruña. 
+3. As causas expostas pola persoa interesada que xustifican a súa solicitude de 
+matrícula/renovación da dedicación a tempo parcial. 
+De acordo co indicado, RESOLVO: 
+Desestimar a solicitude de matrícula a tempo parcial formulada por 
+D./D.ª............................................................................................ para a titulación de 
+............................................................................................................polos seguintes 
+motivos:.............................................................................................................................
+...........................................................................................................................................
+............................................................................................................................. 
+Non obstante, poderá formalizar a matrícula a tempo completo no curso e na 
+titulación mencionados, concedéndolle un prazo de ... días, a contar desde a 
+recepción desta resolución, para formalizar a súa matrícula na Administración do 
+centro. 
+Contra este acordo e de conformidade co que dispoñen os artigos 121 e 122 da Lei 
+39/2015, do 1 de outubro, do procedemento administrativo común das Administracións 
+Públicas, poderá interpoñer un recurso de alzada perante o reitor, no prazo dun mes 
+que contará a partir do día seguinte ao da recepción da súa notificación, ou calquera 
+outro recurso que se considere oportuno. 
+ .................. ,  ......  de  .....................  de  .......  
+O/a presidente da Comisión Académica/ 
+O/a presidente da Comisión de Selección 
+ 
+ 
+ 
+.................................................................. 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 54 de un total de 59 página(s).
+
+
+ 
+Páxina 55 de 59 
+Anexo XII 
+MODELO DE ESTIMACIÓN DE MATRÍCULA A TEMPO PARCIAL 
+Antecedentes 
+O día………………………………. D./D.ª ………………………………………….presenta 
+unha solicitude de: 
+□ matrícula a tempo parcial en 1.º por primeira vez 
+□ matrícula a tempo parcial en continuación de estudos 
+□ renovación da concesión da dedicación a tempo parcial 
+Na titulación de ………………………………………………………………………………… 
+ 
+Consideracións legais e técnicas 
+4. O artigo ...... da Normativa de xestión académica (NXA) vixente. 
+5. O artigo 9 da Norma que regula o réxime de dedicación ao estudo e a permanencia 
+e a progresión dos estudantes de grao e máster universitario na Universidade da 
+Coruña. 
+6. As causas expostas pola persoa interesada que xustifican a súa solicitude de 
+matrícula/renovación da dedicación a tempo parcial. 
+De acordo co indicado, RESOLVO: 
+Estimar a solicitude de matrícula a tempo parcial formulada por 
+D./D.ª............................................................................................ para a titulación de 
+...................................................................................................................................., 
+concedéndolle un prazo de ... días, a contar desde a recepción desta resolución, para 
+formalizar a súa matrícula na Administración do centro. 
+Contra este acordo e de conformidade co que dispoñen os artigos 121 e 122 da Lei 
+39/2015, do 1 de outubro, do procedemento administrativo común das Administracións 
+Públicas, poderá interpoñer un recurso de alzada perante o reitor, no prazo dun mes 
+que contará a partir do día seguinte ao da recepción da súa notificación, ou calquera 
+outro recurso que se considere oportuno. 
+ 
+ .................. ,  ......  de  .....................  de  .......  
+O/a presidente da Comisión Académica/ 
+O/a presidente da Comisión de Selección 
+ 
+ 
+ 
+ 
+...................................................................... 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 55 de un total de 59 página(s).
+
+
+ 
+Páxina 56 de 59 
+Anexo XIII 
+MODELO DE ESTIMACIÓN DE DESISTENCIA DA SOLICITUDE DE 
+MATRÍCULA 
+Antecedentes 
+1. O día ..... ................................  D/D.ª................................................................................. 
+presenta unha solicitude de matrícula na titulación de .................................................. 
+ ............................................................................ ................................... que se impart e na 
+Facultade/Escola de ...................................................................................................... 
+2. Unha vez que transcorreron dez días naturais  desde o día en que efectuou a solicitude de 
+matrícula, D./D.ª.......................................................................................... 
+   □ Non aboou o importe que corresponder. 
+   □ Non presentou os documentos acreditativos de ter dereito de exención ou  
+         bonificación de prezos públicos. 
+   □ Non presentou os documentos necesarios sinalados no Anexo II da Normativa de 
+xestión académica (NXA) vixente. 
+   □ Non está correctamente matriculado/a do número de créditos necesario segundo o establecido 
+na NXA. 
+   □ Non está correctamente matriculado/a dos créditos de formación básica e obrigatorios non 
+superados en cursos anteriores. 
+Consideracións legais e técnicas 
+1. Os artigos 94 da Lei 39/2015, do 1 de out ubro, do procedemento administrativo común das 
+Administracións Públicas. 
+2. O artigo ...... da Normativa de xest ión académica (NXA) vixente. 
+3. O artigo 36 dos Estatutos da UDC, aprobados polo Decreto da Xunta de Galicia 101/2004, de 
+13 de maio, modificado polo Decreto 194/2007, de 11 de outubro. 
+4. O/a decano/a ou director/a do centro é compet ente para resolver a solicitude en virtude da 
+desconcentración de competencias prevista na NXA. 
+De acordo co indicado, RESOLVO: 
+Aceptar de plano a desistencia da solicitude de matrícula de 
+D./D.ª.......................................................................................................... na titulación de 
+....................................................... ..................................................................... ....... e declarar 
+concluso o procedemento iniciado. 
+Contra este acordo e de conformidade co que disp oñen os artigos 121 e 122 da Lei 39/2015, do 1 
+de outubro, do procedemento administrativo co mún das Administracións Públicas, poderá 
+interpoñer un recurso de alzada perante o reitor, no prazo dun mes que contará a partir do día 
+seguinte ao da recepción da súa notificación, ou calquera outro recurso que se considere 
+oportuno. 
+ .................... ,  .......  de  ........................  de  ........  
+O/a decano/a ou director/a 
+.......................................  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 56 de un total de 59 página(s).
+
+
+ 
+Páxina 57 de 59 
+Anexo XIV 
+MODELO DE REQUIRIMENTO DO PAGAMENTO DA MATRÍCULA 
+PARA SOLICITANTES DE BOLSA (art. 10.4.2) 
+  
+ 
+ D./D.ª 
+ Enderezo 
+ CP Localidade 
+ 
+ 
+Revisada a solicitude de matrícula de D./D.ª …, con DNI …, na titulación de …, para o 
+presente curso académico, obsérvase que non reúne os requisitos académicos 
+establecidos na Resolución …,  da Secretaría de Estado de Educación, Formación 
+Profesional e Universidades, pola que se convocan axudas para alumnado con 
+necesidade específica de apoio educativo para o curso académico … . 
+ 
+Polo indicado, requíreselle, de acordo co artigo 10.4.2 da Normativa de xestión 
+académica da Universidade da Coruña para o curso …, e ao abeiro do disposto no artigo 
+68 da Lei 39/2015, do 1 de outubro, do procedemento administrativo común das 
+Administracións Públicas, para que nun prazo máximo de dez días naturais, a partir da 
+data da notificación, se presente na Administración desta facultade/escola/uxai para 
+recoller o “Documento de liquidación de prezos públicos por servizos académicos” e 
+pagar posteriormente o importe que corresponder.  
+ 
+De non facelo nos prazos indicados, considerarase que desiste da súa solicitude de 
+matrícula, de acordo co disposto no artigo 10.3 da citada normativa. 
+ 
+ 
+A Coruña, ….. de ……………. de ………….. 
+O/A administrador/a 
+ 
+ 
+ 
+ 
+…………………. 
+  
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 57 de un total de 59 página(s).
+
+
+ 
+Páxina 58 de 59 
+Anexo XV 
+MODELO DE RESOLUCIÓN DE AUTORIZACIÓN PARA CONTINUAR 
+ESTUDOS DE GRAO DE ACORDO CO DISPOSTO NOS ARTIGOS 
+3.4.1. b) E 4.1 DA NORMATIVA DE XESTIÓN ACADÉMICA 
+Antecedentes 
+O día  ....................................  D/D.ª ................................................................................ 
+presenta na Facultade ou Escola de ............................................................................. 
+unha solicitude de autorización para continuar os estudos de 
+.....................................................................................................................do grao en  
+........................................................................................................................................... 
+polo seguinte motivo...................................................................................................... 
+Consideracións legais e técnicas 
+1. O artigo 5.5 do RD 412/2014, do 6 de xuño, polo que se establece a normativa 
+básica dos procedementos de admisión ás ensinanzas universitarias oficiais de 
+grao. 
+2. O artigo 3 da Norma que regula o réxime de dedicación ao estudo e a permanencia 
+e a progresión dos estudantes de Grao e Máster Universitario na Universidade da 
+Coruña. 
+3. O artigo ..... da Normativa de xestión académica (NXA) vixente. 
+De acordo co indicado, RESOLVO: 
+□ a) Estimar a solicitude formulada por D./D.ª ......................................................... 
+que deberá ter superados neste curso académico un mínimo de 36 créditos 
+obrigatorios  do primeiro curso se realiza a matrícula a tempo completo, ou de 18 
+créditos se a realiza a tempo parcial.  
+□ b) Estimar a solicitude formulada por D./D.ª ....................................................que 
+poderá continuar os seus estudos neste centro en que os comezou, sen necesidade 
+de participar en ningún proceso de admisión. 
+c) Desestimar  a solicitude formulada por D./D.ª ......................................................., 
+por (expoñer as causas) ........................................................................................... 
+Contra este acordo e de conformidade co que dispoñen os artigos 121 e 122 da Lei 
+39/2015, do 1 de outubro, do procedemento administrativo común das Administracións 
+Públicas, poderá interpoñer un recurso de alzada perante o reitor, no prazo dun mes 
+que contará a partir do día seguinte ao da recepción da súa notificación, ou calquera 
+outro recurso que se considere oportuno. 
+ .................. ,  ......  de  .....................  de  .......  
+O/a decano/a ou director/a 
+...................................... 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 58 de un total de 59 página(s).
+
+
+ 
+Páxina 59 de 59 
+Anexo XVI 
+MODELO DE DECLARACIÓN RESPONSABLE 
+ 
+(Nome)........................................ (Apelidos)............................................., con 
+documento de identidade/pasaporte número ......................................................., 
+correo electrónico ................................................................. e enderezo a efectos 
+de notificación na rúa ..........................................., número 
+................................., piso/porta ........................, código postal 
+...................................., país .................................., por medio do presente 
+escrito 
+ 
+ 
+DECLARO 
+ 
+Que de acordo coa lexislación ................. (país de realización dos estudos) .............. 
+posúo a titulación necesaria para acceder aos estudos de posgrao/mestrado. 
+ 
+E, para que conste, asino esta declaración en  (lugar) ..........., a ........ de ........... de 
+.......... 
+ 
+ 
+ 
+Asdo.: .............................. 
+ 
+ 
+Firmante: Universidade da Coruña - Q6550005J   URL de validación: https://sede.udc.gal/services/documents_validation  CSV: SMVPINVAB80GO0LKQBSUH8OE
+Este documento es copia auténtica de un documento custodiado por la Universidade da Coruña. Fecha de creación: 28/07/2017 17:30:11  Página 59 de un total de 59 página(s).

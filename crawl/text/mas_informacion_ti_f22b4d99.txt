@@ -1,0 +1,44 @@
+ Engloba todos los aspectos de las tecnologías 
+de la computación: hw, sw y redes. 
+ 
+ Se encarga de: 
+− Aconsejar/recomendar a los usuarios. 
+− Ajustarse a sus necesidades (en el contexto de una 
+organización). 
+ 
+ Mediante la selección, creación, aplicación, 
+integración y administración de las tecnologías 
+de computación. 
+TI: Definición 
+
+TI: Objetivos 
+ Explicar y aplicar las TI y metodologías 
+adecuadas para ayudar al usuario a conseguir 
+sus metas. 
+ Actuar como abogado del usuario. 
+ Gestionar los recursos de TI del usuario. 
+ Anticiparse a los cambios de dirección de las TI 
+y evaluar y comunicárselas al usuario. 
+ Entender (y contribuir a) las bases científicas, 
+matemáticas y teóricas de las TI. 
+
+TI: Perfiles profesionales 
+ Puestos de dirección: 
+− Dirección General 
+− Dirección de División 
+− Gerencia de Área de 
+Desarrollo 
+− Gerencia de Área de 
+Consultoría 
+− Dirección RRHH Sector TI 
+− Dirección de Informática 
+− Gerencia Área Sistemas 
+ Puestos específicos: 
+− Responsable de Sistemas 
+− Analista Programación 
+− Técnico de Sistemas 
+− Administración de Sistemas 
+− Administración de 
+Seguridad 
+− Administración de BBDD 
+− Consultoría TI 

@@ -1,0 +1,341 @@
+Escola Politécnica de Enxeñaría de Ferrol 
+1 
+Reglamento para la realización del trabajo de fin de grado o máster de la Escuela 
+Politécnica de Ingeniería 
+1. Objeto y ámbito de aplicación
+El objeto de este reglamento es establecer las bases de actuación y los procedimientos de trabajo 
+relativos a la asignación, presentación, defensa y calificación del trabajo de fin de grado (en adelante 
+TFG) y trabajo fin de máster (en adelante TFM). Su ám bito de aplicación abarca las siguientes 
+titulaciones: 
+• Grado en Ingeniería Eléctrica (profesión regulada por la Orden CIN/351/2009)
+• Grado en Ingeniería en Electrónica Industrial y Automática (profesión regulada por la Orden
+CIN/351/2009)
+• Grado en Ingeniería Naval y Oceánica (profesión regulada por la Orden
+C
+IN/350/2009)
+• Grado en Ingeniería Mecánica (profesión regulada por la Orden CIN/351/2009)
+• Grado en Ingeniería en Tecnologías Industriales.
+• Programa de Simultaneidad del Grado en Ingeniería Mecánica y del Grado en Ingeniería Naval
+y Oceánica
+• Máster Universitario en Ingeniería Naval y Oceánica (profesión regulada por la Orden
+CIN/309/2009)
+• Máster Universitario en Ingeniería Industrial (profesión regulada por la Orden CIN/311/2009)
+• Máster Universitario en Diseño, Desarrollo y Comercialización de Videojuegos
+• Máster Universitario en Informática Industrial y Robótica (alumnado no acogido a la doble
+titulación)
+• Máster Universitario en Eficiencia Energética y Sostenibilidad (alumnado no acogido a la doble
+titulación)
+L
+as dobles titulaciones, arriba mencionadas, se regirán por su convenio regulador. 
+El Máster Universitario en Materiales Complejos: Análisis térmico y Reología, se guía por el convenio 
+de la doble titulación firmado entre las dos universidades (UDC y Universidad Paris Diderot) y por la 
+normativa y procedimientos específicos establecidos en la UDC por el vicerrectorado correspondiente. 
+El master Erasmus Mundus SEAS 4.0 se guía por la memoria de título  conjunto con la Universidad de 
+Nápoles, Universidad de Zagreb  y Técnica de Hamburgo,  y por la normativa y procedimientos 
+específicos establecidos en la UDC por el vicerrectorado correspondiente. 
+Cualquier nueva titulación que se implante en el centro, se guiará según este reglamento, ajustándose 
+a la estructura de Grado o Master según sea el caso, o según la normativa específica si se trata de una 
+titulación singular. 
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+2 
+2. Órganos de control y seguimiento
+L
+os órganos de control y seguimiento de los TFG y TFM serán los indicados en el reglamento de régimen 
+interno del centro (a partir de aquí RRI) a tal fin.  
+Para los programas de simultaneidad las decisiones deberán ser aprobadas en las Comisiones de 
+titulación que formen parte de ese programa.  Será el coordinador del programa de simultaneidad el 
+responsable de la gestión de los procesos. 
+Las comisiones que según el RRI se encargan de la gestión de TFG/TFM tendrán que realizar las acciones 
+relativas a la publicación de ofertas, asignación, presentación y defensa de estos  de acuerdo con las 
+funciones que se establecen más adelante en este reglamento. 
+2.1. Funciones de las comisiones 
+Las funciones de las comisiones de trabajos serán estas: 
+a) Aprobar la oferta propuestas de los TFG/TFM, así como sus posibles modificaciones.
+b) Establecer la documentación que es necesario desarrollar para cada TFG/TFM, y que  se indicará en el
+procedimiento de cada comisión.
+c) Determinar el formato de presentación de los TFG/TFM, que será uniforme para la Escola Politécnica 
+de Enxeñaría y que se recogerá en el procedimiento para la realización del TFG/TFM.
+d) Nombrar los tribunales evaluadores de los TFG/TFM.
+e) Velar por que existan suficientes propuestas para que el alumnado matriculado pueda  realizar un
+TFG/TFM.
+f) Vigilar el cumplimiento del calendario de defensa de los TFG/TFM.
+g) Velar por el cumplimiento de este reglamento e interpretar su contenido, en el caso de que sea
+necesario.
+h) Resolver las situaciones extraordinarias que excepcionalmente pudieran surgir en la aplicación de
+este reglamento.
+i) Proponer, de oficio, o tras recibir la propuesta, la/s modificación/es de este reglamento que se
+estimasen convenientes.
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+3 
+ 
+ 
+3. Tribunales evaluadores 
+El tribunal de evaluación de trabajo será nombrado por la comisión correspondiente y estará constituido por 
+profesorado perteneciente a alguno de los departamentos con docencia en el centro , de acuerdo con la 
+siguiente composición: 
+a) Un/una presidente/a elegido/a por la comisión de titulación  con docencia o investigación afín al 
+tema del que fuese objeto el TFG/TFM. 
+b) Un/una secretario/a, que será el/la coordinador/a de la titulación objeto del trabajo, o el/la 
+profesor/a en que delegue, como miembro nato. 
+c) Un/una profesor/a, que actuará como vocal, y que deberá ser miembro del profesorado de los 
+departamentos con docencia en el centro y tener docenc ia o investigación afín al tema del que fuese 
+objeto el TFG/TFM. 
+Para cada uno de los puestos del tribunal evaluador se nombrará un/una titular y un/una suplente. Para 
+la constitución del tribunal será requisito la presencia de todos sus miembros , bien los titulares  o de 
+ser el caso los suplentes . Se tratará en la medida de lo posible que los tribunales cumplan  la paridad 
+según la Ley de Igualdad. 
+No podrán ser miembros del tribunal, ni participar en las deliberaciones del mismo, los directores/as 
+del trabajo. 
+ 
+4. Temas que pueden ser objeto del TFG/TFM 
+a) Podrán ser objeto de un TFG/TFM todos aquellos proyectos en el ámbito del título 
+correspondiente, y en los que se sintetizasen las competencias adquiridas en las correspondientes 
+enseñanzas. El detalle de los temas y requisitos mínimos de los mismos se recogerán en los 
+Procedimientos desarrollados y aprobados por las comisiones a las que el RRI le haya encargado la 
+gestión de TFG/TFM. 
+b) Cualquier miembro del profesorado de departamentos con docencia en el centro  podrá realizar 
+propuestas de TFG/TFM a la correspondiente comisión de titulación. 
+c) El alumnado podrá proponer TFG/TFM a dicho profesorado para que estos transmitan la propuesta 
+a la comisión de trabajos que corresponda. Podrán realizarse TFG/TFM en colaboración con 
+empresas, instituciones públicas o privadas, centros tecnológicos o universidades, pero será 
+condición imprescindible para su aceptación que sean propuestos y codirigidos por algún miembro 
+del profesorado. 
+d) Las ofertas de TFG/TFM sólo podrán ser solicitadas en el curso académico en el que se publiquen. 
+e) Tras la publicación de los títulos ofertados, el alumnado formulará su solicitud de asignación de 
+TFG/TFM a lo largo del curso académico de acuerdo con el procedimiento establecido por la 
+comisión de titulación  correspondiente. A tal fin,  contactará con el profesor/a que propone el  
+trabajo que sea de su interés con el fin de acordar la realización de dicho trabajo. Dicha aceptación 
+será confirmada por el profesorado mediante la firma del documento de solicitud de adjudicación 
+de título. El alumnado entregará en la dirección del centro dicha solicitud para su registro y será el 
+encargado de grabar dicho título (en los tres idiomas) en su expediente académico. 
+f) Los trabajos de varios alumnos /as, aunque tengan carácter individual, podrán agruparse en un 
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+4 
+ 
+ 
+único proyecto de mayor envergadura en aquellas titulaciones que lo contemplen en su memoria 
+de verificación. En ese caso, la calificación será individual en función de la aportación de cada uno 
+de los alumnos/as al proyecto, y esta aportación tendrá que ser especificada de forma clara en la  
+memoria. 
+g) El trabajo debe estar realizado en cualquiera de los idiomas empleados en la impartición del título 
+objeto del trabajo, de acuerdo con lo dispuesto en la memoria de verificación del título. Para 
+aquellos casos en los que el idioma de realización sea distinto a los que constan en la memoria 
+verificada, será la comisión de titulación correspondiente la que decida aceptar otro idioma, previa 
+comparación de que se pueda nombra un tribunal para la defensa en dicho idioma 
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+5 
+ 
+ 
+5. Dirección académica del TFG/TFM 
+Todos los TFG/TFM tendrán asignado un/una director/a, que deberá ser miembro del profesorado de 
+los departamentos con docencia en el título objeto del trabajo y que será responsable de: 
+a) Exponerle al alumnado cuya tutoría ejerza las características del trabajo, y orientarlo en su 
+desarrollo. 
+b) Realizar el seguimiento de la elaboración del TFG/TFM y velar por el cumplimiento de los 
+objetivos fijados. 
+c) Autorizar la presentación y defensa del TFG/TFM. 
+El TFG/TFM podrá ser dirigido por un máximo de dos directores . En este caso, por lo menos un o de 
+ellos deberá ser un miembro del profesorado de departamentos con docencia en el centro. Aquellos/as 
+directores/as que no tengan la condición de personal docente o investigador de la UDC u otra  
+universidad, deberá pertenecer a una entidad o empresa con la que exista un convenio de colaboración. 
+Dicho convenio establecerá los permisos que correspondan con el fin de que los est udiantes puedan 
+desarrollar parte o la totalidad del TFG/TFM en dicha entidad. Será función del director miembro de 
+esa entidad, o empresa, colaborar en la definición y el desarrollo del TFG/TFM. En caso de no existir 
+convenio, la decisión recaerá en la comisión. 
+6. Solicitud de defensa y depósito. 
+a) Podrá depositar el TFG/TFM para su defensa el alumnado que superase la totalidad de los créditos 
+de la titulación. 
+b) Para los trabajos sujetos a confidencialidad, el autor/a deberá solicitarlo mediante escrito o correo 
+electrónico al presidente de la comisión, que resolverá en cada caso. Si es aceptada, se habilitará 
+la forma de entrega que la asegure. 
+c) La solicitud de defensa deberá solicitarse a través de la secretaría virtual del estudiante dentro del 
+plazo que el centro establezca para cada convocatoria.  
+d) Se depositará la memoria en el repositorio de la UDC habilitado para tal fin, e informado al 
+alumnado por la comisión correspondiente. Además,  la Comisión podrá indicar en el 
+Procedimiento de TFG/TFM la necesidad de la entrega de información adicional a la memoria para 
+la autorización de la defensa. 
+e) Cuando concurran circunstancias excepcionales que el alumnado acredite documentalmente, 
+podrá formular una solicitud de defensa extraordinaria, fuera de los plazos establecidos. Dicha 
+pretensión deberá ser entregada en la dirección del centro y será resuelta por la correspondiente 
+comisión de TFG/TFM. Como circunstancias excepcionales se tendrá en cuenta: 
+• Necesidad del título motivada por una oferta laboral 
+• Necesidad del título para la admisión en otros estudios universitarios o superiores 
+• Traslado de residencia por motivos laborales por un período superior a 12 meses 
+• Cualquier otro motivo por el cual la defensa, en el siguiente periodo establecido en el 
+calendario provoque perjuicio irreparable. 
+Las circunstancias alegadas deberán ser acreditadas documentalmente sin perjuicio de que la 
+comisión pueda solicitar documentación adicional.  
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+6 
+ 
+ 
+7. Defensa y calificación del TFG/TFM 
+ 
+a) El/la presidente/a de la comisión de TFG/TFM convocará a cada alumno/a y al tribunal evaluador para 
+la defensa de su TFG/TFM, mediante la publicación del día y la hora de defensa en la plataforma 
+electrónica de la materia en la UDC y en la página web del centro. 
+b) La defensa del TFG/TFM podrá efectuarse en cualquiera de los idiomas empleados en la 
+impartición del título objeto del trabajo, de acuerdo con lo dispuesto en la memoria de verificación 
+del título. Para aquellos casos en los que el idioma de realización sea distinto a los que constan en 
+la memoria verificada, será la comisión de titulación correspondiente la que d ecida aceptar otro 
+idioma. 
+c) El alumnado defenderá sus TFG/TFM de forma pública y presencial. En el caso de que el/la 
+estudiante solicite de forma motivada y acreditada defender el TFG/TFM de forma online, será 
+necesario que haga su solicitud ante la comisión de titulación, que resolverá de forma estimatoria 
+o desestimatoria , siempre que se den las condiciones legales, técnicas, administrativas y 
+económicas que lo permitiesen.  
+Una vez estima la defensa d el TFG/TFM, el/la alumno/a deberá exponer y defender su trabajo 
+durante un tiempo máximo definido por la comisión en su procedimiento. La exposición y defensa 
+del TFG/TFM será pública. Tras la cual, los miembros del tribunal podrán hacer las preguntas que 
+consideren oportunas para cualificar el TFG/ TFM durante un tiempo máximo definido por la 
+comisión en su procedimiento. 
+d) Concluida la exposición y oídas las respuestas del/la alumno/a, el tribunal deliberará a puerta 
+cerrada y determinará la calificación que corresponda al TFG/TFM, o bien, si procediera, devolverá 
+este al alumno/a para su modificación o mejora. A la hora de calificar el TFG/TFM el tribunal 
+valorará los aspectos definidos en la guía docente  y en la rúbrica de evaluación existente para el 
+mismo. 
+e) La calificación del TFG/TFM se comunicará en la misma fecha de su defensa. Esta calificación se 
+otorgará según en normativa en vigor , a la que tendrá añadírsele la correspondiente calificación 
+cualitativa. En el caso de que el/la estudiante obtuviera una calificación de suspenso, el tribunal le 
+hará llegar un informe con las recomendaciones oportunas para la mejora del trabajo y su posterior 
+evaluación y defensa. Se le/s enviará una copia de este informe a la/s persona/s que dirigieron el 
+TFG/TFM. 
+f) La revisión o reclamación de las calificaciones de los TFG se llevarán a cabo de conformidad con lo 
+previsto en la normativa de la UDC.  
+  
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+7 
+ 
+ 
+8. Matrícula, calendario académico y actas.  
+a) La matrícula se realizará en los plazos establecidos por la UDC.  
+b) Las fechas de defensa de los TFG/TFM serán establecidas por la comisión correspondiente dentro 
+de los plazos marcados en el calendario académico aprobado por el Consejo de Gobierno.  
+ 
+9. Consulta y publicación de los TFG.  
+Una vez realizada la defensa y evaluación del TFG/TFM, el tribunal seleccionará los trabajos que serán 
+publicados en el Repositorio Institucional de la UDC (RUC). El coordinador se encargará de comprobar 
+cuales de esos trabajos han sido autorizados por el alumnado para su exposición pública. Enviará una 
+copia en formato electrónico al Servicio de Biblioteca.  
+ 
+10. Alumnado de la EPEF que realice el TFG/TFM en otras universidades en el marco de un programa de 
+intercambio 
+El alumnado da EPEF que desee realizar el TFG/TFM en otra universidad, en el marco de un programa 
+de intercambio nacional o internacional, deberá incluir en su contrato de estudios la realización del  
+TFG/TFM. 
+La documentación complementaria que el alumnado deberá aportar con el contrato de estudios será 
+el formulario del Anexo I, que deberá ser entregado en la Administración de la EPEF. 
+ 
+11. Alumnado de la EPEF que curse el Programa de Simultaneidad del Grado en Ingeniería 
+Mecánica y del Grado en Ingeniería Naval y Oceánica. 
+ 
+El alumnado que curse el Programa de Simultaneidad del Grado en Ingeniería Mecánica y el Grado en 
+Ingeniería Naval y Oceánica puede realizar el TFG de cada grado de forma independiente, siguiendo el 
+procedimiento descrito en los apartados anteriores, o puede optar por la realización de dos TFGs  
+ligados. 
+Las propuestas de los TFGs ligados deberán estar acompañadas de una descripción detallada del 
+alcance en cada una de las titulaciones para poder ser aprobadas en las comisiones de título 
+correpondientes. Una vez aprobadas, estas serán publicadas en una lista independiente. 
+Cualquier programa de simultaneidad que se apruebe posteriormente a la entrada en vigor del 
+presente reglamento, se regirá de forma similar a este programa de simultaneidad, pero teniendo e n 
+cuenta las titulaciones que lo conforman. 
+ 
+Ferrol, 24 de maio de 2022 
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+8 
+ 
+ 
+ 
+Anexo I 
+Formulario de solicitud para el alumnado de la EPEF que realice el TFG/TFM en otras 
+universidades en el marco de un programa de intercambio 
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+9 
+ 
+ 
+Formulario de solicitude para o alumnado da EPEF que realice o TFG/TFM notras universidades no marco 
+dun programa de intercambio 
+Formulario de solicitud para el alumnado de la EPEF que realice el TFG/TFM en otras universidades en el 
+marco de un programa de intercambio 
+ 
+Nome/nombre: 
+Apelidos/apellidos: 
+Teléfono/teléfono: 
+Correo electrónico/correo electrónico: 
+Universidade e centro de destino/Universidad o centro de destino: 
+ 
+Proposta de título de trabajo fin de grado o Máster/Propuesta de título de trabajo fin de grado o máster:  
+ 
+Breve descrición do TFG/TFM proposto e dos seus obxectivos y alcance/Breve descripción del TFG/TFM 
+propuesto y de sus objetivos: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O/a director/a (data e sinatura)/ El/la director/a (fecha y firma):    
+ 
+ 
+ 
+O/a alumno/a (data e sinatura)/ El/la alumno/a (fecha y firma):    
+ 
+RESOLUCIÓN/RESOLUCIÓN: Aceptada  Denegada  
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+10 
+ 
+ 
+ 
+OBSERVACIÓNS/OBSERVACIONES: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O/a secretario/a da Comisión de TFG/TFM (data e sinatura)/ El/la secretario/a de la Comisión de TFG/TFM 
+(fecha y firma):    
+ 
+PRESIDENTE/A DA COMISIÓN DE TRABAJOS 
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022
+
+Escola Politécnica de Enxeñaría de Ferrol 
+11 
+Application form. EPEF students requesting to carry ot their TFG/TFM in other universities in the 
+framework of an exchange program 
+Name: 
+Surname: 
+Phone: 
+E-mail:
+Destination University and Centre: Title 
+suggested: 
+Short description of the work to be performed and its objectives:  
+The supervisor (date and signature): The student (date and signature): 
+DECISION: Accepted  Rejected  
+OBSERVATIONS: 
+TFG/TFM Commission. The Secretary (date and signature): 
+CHAIRMAN OF TFG/TFM COMMISION 
+APROBADO EN XUNTA DE ESCOLA DE 23/09/2022

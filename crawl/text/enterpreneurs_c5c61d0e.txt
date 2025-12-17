@@ -1,0 +1,134 @@
+Search form
+Español
+Galego
+English
+The FIC Presentation Structure and organization Departments
+Presentation
+Structure and organization
+Departments
+Studies General Information Tutorials Plano de Acción Titorial (PAT) Mobility Grado en Ingeniería Informática (GEI) Docencia en inglés Business Practices Orientation Doctoral Programs Titulaciones en Extinción
+General Information Tutorials Plano de Acción Titorial (PAT) Mobility
+Tutorials
+Plano de Acción Titorial (PAT)
+Mobility
+Grado en Ingeniería Informática (GEI) Docencia en inglés Business Practices Orientation
+Docencia en inglés
+Business Practices
+Orientation
+Doctoral Programs
+Titulaciones en Extinción
+Quality
+Services Library Cafeteria Caretaker Computing Center (CeCaFi) Facilities Classrooms Laboratories Special Rooms
+Library
+Cafeteria
+Caretaker
+Computing Center (CeCaFi)
+Facilities Classrooms Laboratories Special Rooms
+Classrooms
+Laboratories
+Special Rooms
++ FIC About us Where we are History Studying at FIC Premio TFG Enterpreneurs FIC-Society
+About us Where we are History
+Where we are
+History
+Studying at FIC
+Premio TFG
+Enterpreneurs
+FIC-Society
+News/Job
+.
+.
+Enterpreneurs
+You are here
+(INGLES)
+Na FIC promovese a iniciativa empresarial dos seus estudantes e profesores, como fruto de isto, xurdiron nos últimos anos diversas empresas de tecnoloxía entre as que podemos citar a ....
+Torus Software Solutions
+Torus Software Solutions é unha empresa de solucións de software de comunicacións ultrarrápido, que permite acelerar aplicacións en entornos donde o rendemento é crítico, en especial nos ámbito financieiro, o das telecomunicacións e a enerxía. Torus está participada pola UDC e a Fundación Barrié, así como por investigadores do Grupo de Arquitectura de Computadores da UDC. É o resultado das investigacións levadas a cabo polos promotores no campo das comunicacións de altas prestacións e do financiamento recibido pola Fundación Barrié a través do Fondo de Investimento Ciencia, mecanismo creado para axudar a valorización e comercialización de tecnoloxías xeradas nas Universidades e Centros de investigación Galego.
+Torus aposta firmemente polo I+D e a súa aplicación aos sectores máis competitivos, así como a valorización comercial de tecnoloxías disruptivas mediante a súa transformación en productos únicos. Torus está comprometida co progreso económico e social de Galicia, tendendo pontes entre o mundo académico e o empresarial, e o recoñecemento profesional da Enxeñaría en Informática.
+Torus Software Solutions
+KAPPOWSKY
+KAPPOWSKY é unha empresa destinada a realización de aplicacións de tipo corporativa para Smartphones e de aplicacións con Xeolocalización para o interior dos edificios, o que denominaremos “ASPIE”: Aplicacións específicas para Smartphones de Posicionamiento no Interior de Edificios.
+Para KAPPOWSKY o deseño de aplicacións corporativas supon moito mais que crear unha carta de presentación de unha empresa e gracias as modernas cualidades dos dispositivos móviles fai que unha aplicación corporativa sexa moito máis completa que unha simple páxina web, otorgándolles novas funcionalidades.
+A característica máis innovadora de KAPPOWSKY é o desenvolvemento de unha idea que se bautizou como ASPIE. ASPIE permitirá usar o móvil para posicionarse e indicar rutas no interior dos edificios.
+Kappowsky
+Appentra
+Appentra proporciona ferramentas software de calidade que permitan un uso extensivo das técnicas de computación de alto rendemento (HPC) en todas as áreas de aplicación da enxeñaría, a ciencia e a industria. Os clientes obxectivo de Appentra son empresas e organizacións que actualizan frecuentemente as súas aplicacións de cálculo intensivo en mercados como o aeroespacial, automoción, enxeñaría civil, biomedicina ou químico.
+As ferramentas software de Appentra simplifican a programación multi-core e many-core debido a que reducen a necesidade de coñecementos e habilidades en técnicas de programación paralela e HPC, o que redunda nun aumento da produtividade dos seus clientes.
+En Appentra, a investigación e o desenrolo é un valor estratéxico e a innovación é o motor para proporcionar novas solucións software HPC innovadoras que satisfagan as necesidades e melloren a produtividade dos seus clientes.
+Trileuco Solutions
+Trileuco Solutions é unha iniciativa empresarial galega, que proporciona servizos integrais de consultoría e solucións en Tecnoloxías da Información e as Comunicacións. A nosa labor abrangue todos os ámbitos da enxeñería informática, pero a traxectoria profesional dos promotores fai que a optimización de procesos de negocio sexa un ámbito de especial interese para Trileuco.
+As nosas solucións incorporan tecnoloxías e estándares amplamente consolidados no mercado, xunto ás últimas innovacións en tecnoloxías emerxentes, sendo ademais o Software Libre un dos alicerces fundamentais dos proxectos que levamos a cabo.
+A nosa innovación non se cinxe únicamente á tecnoloxía, e tamén facemos uso das últimas metodoloxías áxiles de desenvolvemento, buscando incrementar a nosa productividade tanto nos procesos de desenvolvemento como na interación cos nosos clientes.
+TrileucoSolutions.com
+Appeiros Mobile Development S.L.
+Appeiros Mobile Development S.L. é unha iniciativa empresarial promovida por estudantes Enxeñaría Informática da Universidade da Coruña coa intención estratéxica de desenvolver aplicacións para dispositivos móbiles intelixentes que permitan a comunicación e o acceso á información en calquera lugar e momento baseándonos nas principais plataformas de desenvolvemento para promover o seu uso sensato e universalización.
+As nosas metas son:
+Axudar a empresas e organizacións locais a mellorar a súa presenza en mobilidade.
+Desenvolver e comercializar aplicacións propias a nivel internacional
+Colaborar na incorporación de colectivos minoritarios ás novas tecnoloxías móbiles
+O noso enfoque é a paixon pola tecnoloxía e a busca da excelencia no desenvolvemento de software en mobilidade, fundamentada na calidade, a innovación e a responsabilidade social.
+Appeiros.com
+Teimas
+Teimas e unha empresa creada por tres ex-alumnos da Facultade de Informática, que se dedica ao desenvolvemento de software orientada a produto. Desenvolve a súa actividade no sector medioambiental pero tamén inicia novos proxectos singulares noutros negocios. Sen dúbida, a pedra angular da sua actividade é o desenvolvemento de produtos ofrecidos coma servizo: SaaS.
+teimas.com
+Trabe Soluciones
+Trabe Soluciones e unha empresa creada por catro ex-alumnos da Facultade de Informática, que se dedica ao desenrrolo de solucións software, a consultoría e a formación. Os seus desenrrolos orientanse ao entorno web, utilizando tecnoloxías innovadoras e software libre potenciando a estandarización, a accesibilidade e a usabilidade.
+trabesoluciones.com
+LambdaStream
+LambdaStream é unha spin-off de base tecnolóxica, creada a partir dun proxecto de investigación (VoDKA: Video-on-Demand Kernel Architecture) na que participan profesores, investigadores e ex-alumnos da Facultade de Informática. Desde o seu inicio, focaliza toda a súa actividade de I+D+i en obter plataformas robustas e innovadoras para a adquisición, codificación, cifrado, tratamento, almacenamento, distribución e presentación de contidos multimedia, centrándose especialmente nos sistemas distribuídos e disponibilidade, nos sistemas de streaming de vídeo e audio, nos sistemas de vídeo baixo demanda, así como na obtención de aplicacións, produtos, servicios e contidos interactivos para televisión dixital.
+LambdaStream Servicios Interactivos
+Igalia
+Igalia é unha empresa de software fundada por varios ex-alumnos da Facultade de Informática (FIC), na que traballan actualmente máis de 20 enxeñeiros da FIC. A súa actividade pasa polo desenvolvemento de solucións baseadas en Software Libre, principalmente para administración pública e multinacionais tecnolóxicas dentro e fora de España. Igalia é unha organización cooperativista e asamblearia que desenvolve un modelo de negocio innovador, rentable e sostible ó redor do Software Libre.
+Igalia
+Imaxin|software
+Imaxin|software é unha empresa formada en 1997 por catro ex-alumnos da FIC. Dedicada á consultoría e o desenvolvemento software conta con cinco áreas de negocio:
+imaxin|context: Tradución automática. Solucións multilingües de procesamento lingüístico e documental.
+imaxin|localiza: Servizos integrais de localización de software a galego, portugués, español e inglés.
+imaxin|gaming: área multimedia especializada en aplicacións educativas e formativas, xogos sociais, advergaming...
+imaxin|groupWeb: Desenvolvemento software en ambiente web, especialmente orientada a solucións corporativas.
+imaxin|avanza: Solucións personalizadas para a xestión de contidos, xestión documental, intranet e extranet.
+Imaxin software
+SSIT CONSULTING
+SSIT CONSULTING é unha empresa Consultora en Tecnoloxía adicada ó deseño e desenrrolo de Software con tecnoloxías de última xeración conxuntamente con Linguaxes, Técnicas e Metodoloxías avanzadas de Enxeneríade Software, deseño e implantación de Redes de Datos corporativas, Domiños de Rede e servizos de consultoría nas áreas de Software, Hardware e Networking, coma así tamén ó Deseño Gráfico aplicado a Identidades Corporativas, Sitos Web, e en xeral todo tipo de deseños gráficos.
+SSIT Consulting
+Nomasystems, S.L.
+nomasystems é unha empresa de enxeñería dedicada ao desenvolvemento de software de comunicacións para contornas de telefonía móbil e fixa, proporcionando solucións a medida para cada cliente.
+O noso ámbito de desenvolvemento está centrado nas aplicacións móbiles, solucións e servizos de telefonía, así como pasarelas de comunicacións e middleware de alto rendemento e dispoñibilidade.
+A empresa fúndase no 2004 como unha spin-off da Universidade da Coruña, para levar ao mundo empresarial os resultados e o coñecemento adquirido polos seus socios fundadores durante máis de 10 anos de investigación e desenvolvemento no campo das comunicacións móbiles.
+Desenvolvemos os nosos produtos coas premisas de innovación, fiabilidade e calidade. Avalan o noso traballo o coñecemento e a experiencia dos nosos profesionais, así como a plena satisfacción de todos os nosos clientes.
+Nomasystems, S.L.
+Avansig
+Avansig é una empresa creada por dous ex-alumnos da Facultade de Informática (David Trillo Pérez e José Ignacio Lamas Fonte) que está especializada na enxeñería do software e que nace co obxectivo de ofrecer a administración e empresas servizos de consultaría tecnolóxica e desenvolvemento de software a medida baseados en tecnoloxías SIX (Sistemas de Información Xeográfica) FOSS (Free and Open Source Software)
+O principal obxectivo da nosa empresa é propoñer e desenvolver a profesionais, empresas e organizacións solucións avanzadas en tecnoloxías da información e as comunicacións, co fin de mellorar os seus procesos de negocio e aportar carácter diferenciador a os seus produtos.
+A actividade de Avansig está orientada a o desenvolvemento de software a medida, a I+D+I e a prestación de servizos dentro do campo das tecnoloxías SIX. Este campo, en constante crecemento e renovación, ten como principais clientes a administracións e empresas que utilizan as tecnoloxías SIX para incrementar e mellorar os seus procesos e capacidade de xestión, incrementar as súas ventas, aforrar custos e mellorar a súa competitividade.
+As aplicacións e sistemas desenvolvidos por Avansig ofrecen solucións para o análise, xestión, procesado e publicación en Web de información cunha compoñente espacial, así como para a resolución de todo tipo de problemas relacionados coa organización territorial.
+avansig.com
+Easis
+Easis é unha empresa galega que desenvolve e comercializa software e servicios relacionados coa actividade informática, arrancando como resultado da iniciativa empresarial dun grupo de Enxeñeiros formados na Facultade de Informática. Easis foi concebida cunha visión a largo prazo, baseada no talento e calidade dos seus empregados.
+A innovación constante constitúe a nosa vantaxe competitiva a través da anticipación de necesidades, así como dunha inversión continua en formación.
+www.easis.es
+aCore
+aCore é unha empresa de base tecnolóxica fundada por dous ex-alumnos da Facultade de Informática (actualmente cun terceiro ex-alumno coma novo socio).
+A especialidade de aCore é a tecnoloxía de identificación por radio frecuencia, ou RFID, e a sua integración nos máis diversos ámbitos. Para elo, realízanse os desenrolos software necesarios en cada situación apoiados no hardware RFID máis axeitado en cada caso. O obxectivo principal de aCore é acadar sistemas completos, fiables, de calidade e que cumplan completamente os requisitos do cliente.
+www.acore.es
+A Coruña Faculty of Computer Science
+Facebook
+Twitter
+Youtube
+Rss
+Telegram
+ | Torus Software Solutions Torus Software Solutions é unha empresa de solucións de software de comunicacións ultrarrápido, que permite acelerar aplicacións en entornos donde o rendemento é crítico, en especial nos ámbito financieiro, o das telecomunicacións e a enerxía. Torus está participada pola UDC e a Fundación Barrié, así como por investigadores do Grupo de Arquitectura de Computadores da UDC. É o resultado das investigacións levadas a cabo polos promotores no campo das comunicacións de altas prestacións e do financiamento recibido pola Fundación Barrié a través do Fondo de Investimento Ciencia, mecanismo creado para axudar a valorización e comercialización de tecnoloxías xeradas nas Universidades e Centros de investigación Galego. Torus aposta firmemente polo I+D e a súa aplicación aos sectores máis competitivos, así como a valorización comercial de tecnoloxías disruptivas mediante a súa transformación en productos únicos. Torus está comprometida co progreso económico e social de Galicia, tendendo pontes entre o mundo académico e o empresarial, e o recoñecemento profesional da Enxeñaría en Informática. Torus Software Solutions
+ | KAPPOWSKY KAPPOWSKY é unha empresa destinada a realización de aplicacións de tipo corporativa para Smartphones e de aplicacións con Xeolocalización para o interior dos edificios, o que denominaremos “ASPIE”: Aplicacións específicas para Smartphones de Posicionamiento no Interior de Edificios. Para KAPPOWSKY o deseño de aplicacións corporativas supon moito mais que crear unha carta de presentación de unha empresa e gracias as modernas cualidades dos dispositivos móviles fai que unha aplicación corporativa sexa moito máis completa que unha simple páxina web, otorgándolles novas funcionalidades. A característica máis innovadora de KAPPOWSKY é o desenvolvemento de unha idea que se bautizou como ASPIE. ASPIE permitirá usar o móvil para posicionarse e indicar rutas no interior dos edificios. Kappowsky
+ | Appentra Appentra proporciona ferramentas software de calidade que permitan un uso extensivo das técnicas de computación de alto rendemento (HPC) en todas as áreas de aplicación da enxeñaría, a ciencia e a industria. Os clientes obxectivo de Appentra son empresas e organizacións que actualizan frecuentemente as súas aplicacións de cálculo intensivo en mercados como o aeroespacial, automoción, enxeñaría civil, biomedicina ou químico. As ferramentas software de Appentra simplifican a programación multi-core e many-core debido a que reducen a necesidade de coñecementos e habilidades en técnicas de programación paralela e HPC, o que redunda nun aumento da produtividade dos seus clientes. En Appentra, a investigación e o desenrolo é un valor estratéxico e a innovación é o motor para proporcionar novas solucións software HPC innovadoras que satisfagan as necesidades e melloren a produtividade dos seus clientes.
+ | Trileuco Solutions Trileuco Solutions é unha iniciativa empresarial galega, que proporciona servizos integrais de consultoría e solucións en Tecnoloxías da Información e as Comunicacións. A nosa labor abrangue todos os ámbitos da enxeñería informática, pero a traxectoria profesional dos promotores fai que a optimización de procesos de negocio sexa un ámbito de especial interese para Trileuco. As nosas solucións incorporan tecnoloxías e estándares amplamente consolidados no mercado, xunto ás últimas innovacións en tecnoloxías emerxentes, sendo ademais o Software Libre un dos alicerces fundamentais dos proxectos que levamos a cabo. A nosa innovación non se cinxe únicamente á tecnoloxía, e tamén facemos uso das últimas metodoloxías áxiles de desenvolvemento, buscando incrementar a nosa productividade tanto nos procesos de desenvolvemento como na interación cos nosos clientes. TrileucoSolutions.com
+ | Appeiros Mobile Development S.L. Appeiros Mobile Development S.L. é unha iniciativa empresarial promovida por estudantes Enxeñaría Informática da Universidade da Coruña coa intención estratéxica de desenvolver aplicacións para dispositivos móbiles intelixentes que permitan a comunicación e o acceso á información en calquera lugar e momento baseándonos nas principais plataformas de desenvolvemento para promover o seu uso sensato e universalización. As nosas metas son: Axudar a empresas e organizacións locais a mellorar a súa presenza en mobilidade. Desenvolver e comercializar aplicacións propias a nivel internacional Colaborar na incorporación de colectivos minoritarios ás novas tecnoloxías móbiles O noso enfoque é a paixon pola tecnoloxía e a busca da excelencia no desenvolvemento de software en mobilidade, fundamentada na calidade, a innovación e a responsabilidade social. Appeiros.com
+ | Teimas Teimas e unha empresa creada por tres ex-alumnos da Facultade de Informática, que se dedica ao desenvolvemento de software orientada a produto. Desenvolve a súa actividade no sector medioambiental pero tamén inicia novos proxectos singulares noutros negocios. Sen dúbida, a pedra angular da sua actividade é o desenvolvemento de produtos ofrecidos coma servizo: SaaS. teimas.com
+ | Trabe Soluciones Trabe Soluciones e unha empresa creada por catro ex-alumnos da Facultade de Informática, que se dedica ao desenrrolo de solucións software, a consultoría e a formación. Os seus desenrrolos orientanse ao entorno web, utilizando tecnoloxías innovadoras e software libre potenciando a estandarización, a accesibilidade e a usabilidade. trabesoluciones.com
+ | LambdaStream LambdaStream é unha spin-off de base tecnolóxica, creada a partir dun proxecto de investigación (VoDKA: Video-on-Demand Kernel Architecture) na que participan profesores, investigadores e ex-alumnos da Facultade de Informática. Desde o seu inicio, focaliza toda a súa actividade de I+D+i en obter plataformas robustas e innovadoras para a adquisición, codificación, cifrado, tratamento, almacenamento, distribución e presentación de contidos multimedia, centrándose especialmente nos sistemas distribuídos e disponibilidade, nos sistemas de streaming de vídeo e audio, nos sistemas de vídeo baixo demanda, así como na obtención de aplicacións, produtos, servicios e contidos interactivos para televisión dixital. LambdaStream Servicios Interactivos
+ | Igalia Igalia é unha empresa de software fundada por varios ex-alumnos da Facultade de Informática (FIC), na que traballan actualmente máis de 20 enxeñeiros da FIC. A súa actividade pasa polo desenvolvemento de solucións baseadas en Software Libre, principalmente para administración pública e multinacionais tecnolóxicas dentro e fora de España. Igalia é unha organización cooperativista e asamblearia que desenvolve un modelo de negocio innovador, rentable e sostible ó redor do Software Libre. Igalia
+ | Imaxin|software Imaxin|software é unha empresa formada en 1997 por catro ex-alumnos da FIC. Dedicada á consultoría e o desenvolvemento software conta con cinco áreas de negocio: imaxin|context: Tradución automática. Solucións multilingües de procesamento lingüístico e documental. imaxin|localiza: Servizos integrais de localización de software a galego, portugués, español e inglés. imaxin|gaming: área multimedia especializada en aplicacións educativas e formativas, xogos sociais, advergaming... imaxin|groupWeb: Desenvolvemento software en ambiente web, especialmente orientada a solucións corporativas. imaxin|avanza: Solucións personalizadas para a xestión de contidos, xestión documental, intranet e extranet. Imaxin software
+ | SSIT CONSULTING SSIT CONSULTING é unha empresa Consultora en Tecnoloxía adicada ó deseño e desenrrolo de Software con tecnoloxías de última xeración conxuntamente con Linguaxes, Técnicas e Metodoloxías avanzadas de Enxeneríade Software, deseño e implantación de Redes de Datos corporativas, Domiños de Rede e servizos de consultoría nas áreas de Software, Hardware e Networking, coma así tamén ó Deseño Gráfico aplicado a Identidades Corporativas, Sitos Web, e en xeral todo tipo de deseños gráficos. SSIT Consulting
+ | Nomasystems, S.L. nomasystems é unha empresa de enxeñería dedicada ao desenvolvemento de software de comunicacións para contornas de telefonía móbil e fixa, proporcionando solucións a medida para cada cliente. O noso ámbito de desenvolvemento está centrado nas aplicacións móbiles, solucións e servizos de telefonía, así como pasarelas de comunicacións e middleware de alto rendemento e dispoñibilidade. A empresa fúndase no 2004 como unha spin-off da Universidade da Coruña, para levar ao mundo empresarial os resultados e o coñecemento adquirido polos seus socios fundadores durante máis de 10 anos de investigación e desenvolvemento no campo das comunicacións móbiles. Desenvolvemos os nosos produtos coas premisas de innovación, fiabilidade e calidade. Avalan o noso traballo o coñecemento e a experiencia dos nosos profesionais, así como a plena satisfacción de todos os nosos clientes. Nomasystems, S.L.
+ | Avansig Avansig é una empresa creada por dous ex-alumnos da Facultade de Informática (David Trillo Pérez e José Ignacio Lamas Fonte) que está especializada na enxeñería do software e que nace co obxectivo de ofrecer a administración e empresas servizos de consultaría tecnolóxica e desenvolvemento de software a medida baseados en tecnoloxías SIX (Sistemas de Información Xeográfica) FOSS (Free and Open Source Software) O principal obxectivo da nosa empresa é propoñer e desenvolver a profesionais, empresas e organizacións solucións avanzadas en tecnoloxías da información e as comunicacións, co fin de mellorar os seus procesos de negocio e aportar carácter diferenciador a os seus produtos. A actividade de Avansig está orientada a o desenvolvemento de software a medida, a I+D+I e a prestación de servizos dentro do campo das tecnoloxías SIX. Este campo, en constante crecemento e renovación, ten como principais clientes a administracións e empresas que utilizan as tecnoloxías SIX para incrementar e mellorar os seus procesos e capacidade de xestión, incrementar as súas ventas, aforrar custos e mellorar a súa competitividade. As aplicacións e sistemas desenvolvidos por Avansig ofrecen solucións para o análise, xestión, procesado e publicación en Web de información cunha compoñente espacial, así como para a resolución de todo tipo de problemas relacionados coa organización territorial. avansig.com
+ | Easis Easis é unha empresa galega que desenvolve e comercializa software e servicios relacionados coa actividade informática, arrancando como resultado da iniciativa empresarial dun grupo de Enxeñeiros formados na Facultade de Informática. Easis foi concebida cunha visión a largo prazo, baseada no talento e calidade dos seus empregados. A innovación constante constitúe a nosa vantaxe competitiva a través da anticipación de necesidades, así como dunha inversión continua en formación. www.easis.es
+ | aCore aCore é unha empresa de base tecnolóxica fundada por dous ex-alumnos da Facultade de Informática (actualmente cun terceiro ex-alumno coma novo socio). A especialidade de aCore é a tecnoloxía de identificación por radio frecuencia, ou RFID, e a sua integración nos máis diversos ámbitos. Para elo, realízanse os desenrolos software necesarios en cada situación apoiados no hardware RFID máis axeitado en cada caso. O obxectivo principal de aCore é acadar sistemas completos, fiables, de calidade e que cumplan completamente os requisitos do cliente. www.acore.es

@@ -1,0 +1,792 @@
+Usos na aula de Microsoft Teams
+José A. García Naya
+Carlos J. Escudero
+Universidade da Coruña
+ 25 de setembro de 2020
+
+¿Quiénes somos?
+Adxunto ao Reitor en TIC 
+Servizo de Informática e Comunicacións (SIC)
+Profesor na Facultade de Informática
+Director do CUFIE
+Centro Universitario de Formación e Innovación Educativa
+Profesor na Facultade de Informática
+Carlos J. Escudero
+José A. García Naya
+2
+
+Contenidos
+1. Introducción
+2. Evolución de Teams
+3. Las novedades que vienen
+4. Descarga, instalación y autenticación
+5. Interfaz de usuario (escritorio)
+6. Recorrido por Teams
+7. Referencias
+3
+
+Introducción
+¿Qué es Microsoft Teams?
+4
+
+¿Qué es Microsoft Teams?
+Equipos de 
+seguridad de 
+confianza
+Altos niveles de 
+seguridad, 
+protección y 
+privacidad
+Chat individual y 
+grupal
+Comunícate en el 
+momento y mantén 
+a todo el mundo 
+informado
+Personalizable 
+para cada equipo
+Adapta tu espacio 
+de trabajo / 
+aprendizaje
+Un centro para el 
+trabajo/aprendizaje 
+en equipo
+Acceso rápido a la 
+información que se 
+necesita
+Espacio de trabajo/aprendizaje basado en chat de Microsoft 365
+5
+
+Introducción a Microsoft Teams
+• Trabajar y aprender en colaboración en el medio virtual:
+• Chat, reuniones, llamadas, colaboración
+• Características destacables
+6
+
+Evolución de Teams
+Lo que ha cambiado desde el curso pasado
+7
+
+Nuevas opciones: sala espera y asistentes
+8
+
+
+Configuración y lista de asistentes
+9
+
+
+Ventanas independientes
+10
+
+
+Fijar participantes
+11
+
+
+Nuevas formas de ver participantes
+12
+https://youtu.be/RZgik33VHFc
+
+Mejoras Whiteboard (pizarra digital)
+13
+
+
+Las novedades que vienen
+Los que se espera a corto plazo
+https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-
+microsoft-teams-microsoft-ignite-2020/ba-p/1665600?s=09
+14
+
+Grabaciones y nuevo Stream
+15
+• Los vídeos (grabaciones) se 
+tratarán como un fichero más 
+en Onedrive/Sharepoint
+• Permisos = otros ficheros
+• Compartición externa
+• Políticas de retención.
+• Stream => Portal web
+• Personalizable para los ficheros 
+de vídeo.
+• En proceso de cambio
+• 2020 Q4: finalización cambio.
+• 2021 H1: Migración contenidos 
+antiguos de Stream.
+
+Grabaciones y nuevo Stream
+16
+https://youtu.be/8iol0KfCeL8?t=426 (desde 7:06 hasta 9:21)
+
+Nuevas escenas del “modo juntos”
+17
+
+Diseños personalizados
+18
+
+Breakout rooms (dividir participantes en salas)
+19
+
+Meeting recap
+20
+
+Límites
+21
+25000
+
+Webinar: registro e informe
+• Organizadores de webinars pueden utilizar el registro de eventos con 
+correos electrónicos automatizados para facilitar la gestión de la 
+asistencia. 
+• Panel de informes después de la reunión
+22
+
+Nueva interfaz para el panel de llamadas
+23
+
+Panel de información y conversaciones ancladas
+25
+
+Nueva experiencia de búsqueda
+26
+
+Nuevos dispositivos
+27
+• Reuniones y Docencia híbrida.
+• Experiencia súper-simplificada.
+
+
+Integración en UDC con Campus Virtual / Espazos
+28
+• Reuniones y Docencia híbrida.
+• Experiencia súper-simplificada.
+
+
+Descarga, instalación y 
+autenticación
+Primeros pasos …
+29
+
+Descarga e instalación
+• https://www.microsoft.com/es-
+es/microsoft-365/microsoft-
+teams/download-app
+• Disponibilidad
+• Windows, MacOS, GNU/Linux y Web
+• Móvil: Android, iOS y versión Web
+• No tienen las mismas funcionalidades
+• Se recomienda usar las apps
+30
+
+Autenticación
+•Después de instalar Microsoft Teams
+en tu equipo es necesario 
+autenticarse
+•Utiliza las credenciales de la UDC
+• nombre-de-usuario@udc.es
+nombreusuario
+31
+
+Interfaz de usuario
+App de escritorio
+El entorno virtual de aprendizaje y trabajo colaborativos
+Windows, MacOS y GNU/Linux
+32
+
+Guía de MS Teams
+• En la sección de recursos de la 
+web de la Unidad de 
+Teleformación del CUFIE hay 
+una versión extendida de la 
+Guía de Microsoft Teams
+• Esta guía se irá actualizando 
+para incorporar cambios y 
+novedades
+33
+https://www.udc.es/export/sites/udc/cufie/_galer
+ia_down/TELEFORMACION/GuiaMicrosoftTeams.p
+df_2063069239.pdf
+
+Interfaz de usuario
+34
+Panel lateral de 
+navegación
+Barra superior
+Panel izquierdo Panel central redimensionable
+
+Interfaz de usuario
+Buscador de usuarios y 
+recursos, lanzar aplicaciones, 
+realizar acciones rápidas …
+Navegación 
+atrás/adelante
+Avatar, estado, 
+menú de usuario
+Indicador: una 
+actividad nueva 
+sin leer
+35
+
+Configuración
+36
+
+Recorrido por Teams
+Actividad, chats, equipos, reuniones…
+37
+
+Fuente de actividades
+Navegar por Microsoft Teams
+Utiliza los botones para 
+cambiar entre
+Fuente de actividades
+Chat individual y grupal
+Equipos
+No se explica en esta guía
+Calendario de reuniones
+Llamadas, correo de voz …
+Archivos recientes, descargas …
+Yammer: el Facebook de la UDC
+Aplicaciones adicionales
+Temas, aprendizaje, comunidad …
+38
+
+Fuente de actividades
+Permite ver la 
+actividad realizada por 
+el usuario o la recibida
+Permite filtrar el tipo y 
+estado de la actividad
+El contenido de este panel varía 
+en función del tipo de actividad 
+seleccionada: chat, llamadas, 
+equipos …
+39
+
+Chat individual y grupal
+Navegar por Microsoft Teams
+Utiliza los botones para 
+cambiar entre
+Fuente de actividades
+Chat individual y grupal
+Equipos
+No se explica en esta guía
+Calendario de reuniones
+Llamadas, correo de voz …
+Archivos recientes, descargas …
+Yammer: el Facebook de la UDC
+Aplicaciones adicionales
+Temas, aprendizaje, comunidad …
+40
+
+Chat individual y grupal
+Vista de chat o 
+de contactos
+Permite filtrar Nuevo chat Vistas de chat y de 
+archivos compartidos
+Nueva 
+videollamada, 
+llamada y compartir
+Agregar 
+participantes al chat
+Abre el chat en una 
+nueva ventana 
+independiente
+Chats anclados. 
+Es posible anclar 
+y ocultar chats
+Es posible poner 
+un nombre a un 
+chat
+Área de edición
+El mensaje ha sido 
+leído por el 
+destinatario
+Permite anclar otras 
+aplicaciones y/o 
+ficheros para edición 
+colaborativa (Word, 
+Excel, …)
+Avatar con 
+indicador de 
+estado
+41
+
+Chat individual y grupal
+Área de edición y menciones
+• Opciones de entrega (estándar, importante, urgente)
+• Adjuntar fichero (local o desde OneDrive)
+• Añadir emoticonos, animaciones
+Envía mensaje 
+(ENTER = enviar mensaje)
+Menciones
+@
+42
+Programar reunión con 
+los integrantes del chat
+
+Chat individual y grupal
+Edición con formato
+Edición avanzada 
+(ENTER = 
+retorno de 
+carro)
+43
+
+Equipos
+Navegar por Microsoft Teams
+Utiliza los botones para 
+cambiar entre
+Fuente de actividades
+Chat individual y grupal
+Equipos
+No se explica en esta guía
+Calendario de reuniones
+Llamadas, correo de voz …
+Archivos recientes, descargas …
+Yammer: el Facebook de la UDC
+Aplicaciones adicionales
+Temas, aprendizaje, comunidad …
+44
+
+Equipos
+• Un equipo es un grupo de 
+personas que se unen para tratar 
+de hacer algo de envergadura en 
+su organización
+• Los equipos se componen de 
+canales, que son las 
+conversaciones que se mantienen 
+entre los miembros del equipo
+• Cada canal se dedica a algo concreto: 
+tema, departamento, proyecto
+45
+Equipo
+Canales
+
+Equipos: integrantes
+• Propietarios: administran configuraciones del equipo 
+• Agregan y quitan miembros, agregan invitados, cambian la configuración del equipo 
+y se ocupan de las tareas administrativas. Puede haber varios propietarios en un 
+equipo
+• Miembros: personas de la organización
+• Se comunican con otros miembros del equipo mediante las conversaciones.
+• Pueden ver archivos, y suelen cargarlos y cambiarlos
+• Realizan tareas usuales de colaboración según lo que permitan los propietarios del 
+equipo
+• Invitados: personas de fuera de la organización
+• Tienen menos funcionalidades que los miembros o los propietarios del equipo, pero 
+aún así pueden realizar muchas tareas
+46
+
+Equipos: tipos de canal
+• Canales estándar
+• Están abiertos para todos los miembros del equipo
+• Canales privados
+• Limitados a un subconjunto de miembros del equipo
+• No admiten reuniones programadas ni ciertos tipos de aplicaciones
+• Reuniones y llamadas en canales privados:
+• Los invitados solo pueden participar en reuniones de canal privado si un miembro 
+envía enlace a la reunión o los llama durante la misma
+• Durante la reunión los invitados tendrán acceso temporal a la conversación, archivos, 
+pizarra, notas y lista de participantes, pero no después
+47
+
+Chats grupales vs. equipos
+Chats grupales
+• Notificaciones de los mensajes
+• Mensajes urgentes
+• Ventana emergente
+Equipos
+• Documentos compartidos en 
+Sharepoint del equipo
+• Canales estándar y privados
+• Se pueden programar reuniones 
+en canal estándar
+48
+
+Equipos
+Unirse a un equipo 
+o crear uno nuevo
+Inicia un nuevo tema 
+de conversación (hilo)
+Temas de 
+conversación 
+diferentes 
+(hilos)
+Responder al mismo 
+tema (hilo)
+Información del 
+canal
+Las opciones dependen 
+de si el usuario es 
+propietario, miembro o 
+invitado
+Vistas de las conversaciones 
+del equipo, archivos 
+(Sharepoint), …
+49
+
+Administrar equipo: integrantes
+Nombre y descripción 
+del equipo
+Agregar miembro
+Cambia la imagen 
+(avatar) del equipo
+50
+
+Administrar equipo: canales
+Agregar canal 
+estándar o 
+privado
+51
+
+
+Administrar equipo: unirse mediante código
+Permite unirse 
+al equipo con 
+un código
+52
+
+Canales y notificaciones
+Nombres de 
+equipos y/o 
+canales en negrita 
+indican que hay 
+publicaciones sin 
+leer
+53
+
+Configuración de las notificaciones del canal
+Tipos de notificaciones:
+Fuente (de actividades)
+• Se muestran en el panel 
+de “actividad”
+Banner
+• Notificación de 
+escritorio en sistemas 
+Windows y MacOS
+1
+2
+3
+54
+
+Unirse a un equipo o crear uno nuevo
+Permite unirse 
+al equipo con 
+un código
+Equipo público
+Inicia el asistente de 
+creación de equipos
+55
+
+Creación de un equipo
+Equipos de Teams basados en grupos 
+de Microsoft 365
+1. Crear el grupo de Microsoft 
+365 en Outlook
+2. Crear un equipo de Teams para 
+el grupo
+• Eventos programados se envían 
+a cada usuario
+• Buzón de correo del grupo
+Equipos de Teams
+1. Crear el equipo directamente 
+en Teams
+• Los eventos programados no 
+aparecen en el calendario
+• No hay buzón
+56
+
+Creación de un equipo
+Para crear equipos de 
+Teams y equipos de Teams 
+basados en grupos de 
+Microsoft 365
+Equipos especiales para docencia
+En la UDC no los usamos porque 
+utilizamos el Campus Virtual UDC 
+(Moodle)
+57
+
+
+Creación de un equipo
+Nombre y descripción
+Tipo de privacidad:
+• Privado
+• Público
+Crea un equipo a partir de 
+otro (incluye sus miembros)
+Crea un equipo a partir de 
+un grupo de Microsoft 365 
+(añade el equipo al grupo)
+58
+
+Calendario de reuniones
+Navegar por Microsoft Teams
+Utiliza los botones para 
+cambiar entre
+Fuente de actividades
+Chat individual y grupal
+Equipos
+No se explica en esta guía
+Calendario de reuniones
+Llamadas, correo de voz …
+Archivos recientes, descargas …
+Yammer: el Facebook de la UDC
+Aplicaciones adicionales
+Temas, aprendizaje, comunidad …
+59
+
+
+Calendario
+Inicia una reunión con el usuario 
+como único asistente inicial (abre 
+sala virtual)
+Programar reunión en un canal o 
+con un grupo de usuarios
+Evento en directo: requiere 
+licencia especial previa solicitud en 
+https://axudatic.udc.gal
+Indica que se trata de un evento en 
+directo
+Indica que se trata de un evento 
+recurrente
+Al hacer clic sobre una reunión se 
+muestran los detalles de la reunión
+60
+
+Formulario de creación de una reunión
+61
+Nombre de la reunión
+Asistentes: usuarios 
+específicos, pueden ser 
+moderadores
+Asistentes: miembros 
+de un canal de un 
+equipo (reunión de 
+canal)
+Sala donde se llevará a 
+cabo la reunión
+Descripción (p.e., orden 
+del día)
+
+Detalles de la reunión (existente)
+Al hacer clic en una reunión se muestra:
+Enlace a la sala de la 
+reunión: cualquiera con 
+un enlace puede unirse
+Opciones de la reunión
+Abre una ventana del 
+navegador web con las 
+opciones.
+No aparece hasta que la 
+reunión se haya creado
+62
+Cancela la reunión
+Entra en la reunión
+
+Opciones de la reunión
+Para personas que se unen mediante 
+llamada telefónica
+Solo yo (opción por defecto)
+• El organizador es el único 
+moderador. Todos los demás 
+serán asistentes
+Personas específicas
+• En reuniones que no son de 
+canal permite especificar los 
+moderadores de antemano 
+Todos
+• Todos los asistentes son 
+moderadores 63
+Personas de mi organización 
+(opción por defecto)
+• Sólo los invitados externos pasan a la 
+sala de espera
+Solo tú
+• Todos los asistentes esperarán en la 
+sala de espera
+Todos
+• Todos los usuarios entran 
+directamente en la reunión
+
+Unirse a una reunión
+Controles de activación de 
+la cámara y del micrófono
+Nombre de la reunión
+Muestra el panel de 
+configuración del fondo
+Muestra el panel de 
+configuración del 
+dispositivo para 
+seleccionar altavoz, 
+micrófono y cámara 
+Agrega una sala a la 
+reunión para usar el 
+sistema de audio y vídeo 
+de la misma. Se conecta 
+con el micrófono 
+silenciado
+Unirse a la sala de la 
+reunión con la 
+configuración de cámara y 
+micrófono indicados.
+64
+
+Unirse a una reunión en la UDC
+• Por defecto, el organizador de la reunión es el único moderador
+• Los demás asistentes no pueden iniciar grabación, compartir contenido o 
+silenciar a otros asistentes
+65
+
+En una reunión
+Muestra/oculta el panel 
+de participantes
+Muestra/oculta el panel de chat
+Sube/baja la mano
+Activar/desactivar cámara/micrófono
+Muestra/oculta el panel inferior 
+para compartir contenido
+Opciones de la reunión
+Copiar enlace a la reunión
+Añade participantes
+Cierra la sala virtual y 
+detiene la grabación 
+(si estaba en curso)
+Inicia/detiene la grabación
+Desactiva todos los vídeos entrantes. 
+Útil para mejorar la calidad de la 
+llamada si hay problemas de conexión66
+
+Cambiar rol de usuario durante la reunión
+Clic con el botón derecho sobre un 
+participante. Opciones del menú:
+• Silenciar participante
+• Anclar a la lista de participantes
+• Cambiar rol
+• Convertir en 
+moderador/asistente
+• Echar de la reunión
+67
+
+Pedir unirse a una reunión
+Al hacer clic en “solicitud para 
+unirse” el usuario recibe una 
+llamada para invitarle a unirse a la 
+reunión
+El círculo color violeta indica que el 
+interlocutor está hablando (o su 
+micrófono está captando sonido)
+Útil para identificar fuentes de 
+ruidos molestos durante las 
+reuniones
+68
+
+Grabación de la reunión
+• Notificación del inicio de la grabación en la ventana de vídeo y en el 
+chat de la reunión
+Indicador de 
+grabación en curso Notificación 
+en el chat de 
+inicio de la 
+grabación
+69
+
+Compartir contenido
+Comparte el audio de 
+este equipo con los 
+asistentes a la reunión
+(sólo en Windows)
+Comparte la pantalla 
+completa del equipo
+Comparte 
+ventanas/pestañas 
+de aplicaciones
+Comparte documentos 
+PowerPoint. En clase mejor 
+compartir la ventana de la 
+presentación PowerPoint
+Permite cargar 
+presentaciones 
+desde el equipo o 
+desde OneDrive
+Pizarra de 
+Microsoft. 
+Su contenido no 
+se incluye en la 
+grabación
+Barra de 
+desplazamiento
+70
+
+Reuniones en espera
+Caso de uso
+• Clase través de Teams con varios estudiantes
+• Un estudiante necesita mostrar lo que está haciendo al docente
+• No queremos que los demás estudiantes vean la solución del 
+estudiante
+• Nueva reunión entre estudiante y docente
+• No es necesario abortar ni salir de la reunión de clase
+• La reunión de clase queda en espera para el docente y el estudiante
+• Se puede alternar entre ambas reuniones (sólo una puede estar activa)
+71
+
+Reuniones en espera
+Permite regresar a la reunión en espera (“Reunión general”)
+En la reunión en espera (“Reunión general”) sólo está activo el chat
+72
+
+Llamadas/reuniones en espera
+• Ahora la reunión en espera (“Reunión adicional”) es la de la ventana de la derecha.
+• Esto nos permite alternar entre reuniones sin abandonar ninguna de ellas 
+73
+
+Programar reuniones para clases virtuales
+• Reunión de canal en el equipo de la asignatura
+• Todos los integrantes reciben invitación en Outlook a la reunión
+• Docentes y alumnado no interesados en la reunión también reciben invitación
+• El organizador obtiene emails por cada aceptación/rechazo de la invitación
+• Programamos la reunión
+• En la lista de asistentes incluimos docentes y les asignamos el rol moderador
+• Difundimos el enlace a la reunión (p.e. a través de Moodle)
+• Informamos a los estudiantes que la sala se abre al inicio de la clase
+• Llegada la hora abrimos la sala en el equipo/canal correspondiente
+• Solución válida para grupos de estudiantes en canales privados
+74
+
+Referencias
+75
+
+Referencias
+• Ayuda y aprendizaje de Microsoft Teams
+https://support.microsoft.com/es-es/teams
+https://support.microsoft.com/en-us/teams (recomendado)
+• Formación en vídeo de Microsoft Teams
+https://support.microsoft.com/es-es/office/formaci%C3%B3n-en-v%C3%ADdeo-
+de-microsoft-teams-4f108e54-240b-4351-8084-b1089f0d21d7
+• Novedades en Microsoft Teams (ordenadas cronológicamente)
+https://support.microsoft.com/es-es/office/novedades-en-microsoft-
+teams-d7092a6d-c896-424c-b362-a472d5f105de
+• Recomendaciones y sugerencias para Teams
+https://www.microsoft.com/es-es/tips/home/connect-with-
+teams#chat-based-workspace-teams
+76
+
+Referencias
+• Canal de Microsoft 365 en Youtube (en Inglés)
+• https://www.youtube.com/c/microsoft365/playlists
+• Listas de reproducción organizadas por herramientas: 
+Teams, Word, Excel, Outlook, OneDrive, etc.
+• https://axudatic.udc.gal/
+• https://www.udc.es/cufie/TELEFORMACION/teleformacion/
+77
+
+Demos interactivas de Microsoft Teams
+•Aspectos fundamentales de Teams 
+https://go.microsoft.com/fwlink/p/?linkid=2132087
+•Reuniones y chats 
+https://go.microsoft.com/fwlink/p/?linkid=2131944
+•Sugerencias y trucos
+https://go.microsoft.com/fwlink/p/?linkid=2131945
+78
+
+79

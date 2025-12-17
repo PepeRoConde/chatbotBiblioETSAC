@@ -1,0 +1,406 @@
+SEGURIDADE 
+DA 
+INFORMACIÓN
+Ciberseguridade e medidas 
+de protección dixital na UDC
+José A. Pizarro
+Director de Seguridade da Información
+jose.pizarro@udc.es
+
+
+1. Introducción aos sistemas de xestión da seguridade da información
+2. Por onde nos están atacando?
+3. Que podo facer eu para defenderme?
+4. Lexislación neste ámbito: Esquema Nacional de Seguridade
+5. Normativa UDC
+ÍNDICE
+
+OBXECTIVOS DESTE WEBINAR
+IDENTIFICAR 
+AMEAZAS
+APRENDER A 
+PROTEÑERNOS
+COÑECER O 
+POR QUE DA 
+NORMATIVA
+FOMENTAR UNHA CULTURA DE 
+SEGURIDADE NA COMUNIDADE 
+UNIVERSITARIA
+NORMAS
+
+PARTE 1
+-
+QUE E UN SISTEMAS DE 
+XESTIÓN DA SEGURIDADE DA 
+INFORMACIÓN
+
+Fonte: www.tthegap.com
+Fonte: www.aldakin.com
+Fonte: blogs.deusto.es
+
+
+CIBERCRIME: ALGUNHAS CIFRAS
+Custe mundial por ransomware 
+2015 - 2019
+De 325 a 10.000 millóns de $ (1)
+$
+Custo medio por ciberincidente 
+España 2018: 8,16M $ (2)$
+Incremento de ciberataques 
+exitosos a nivel mundial: 67% 
+(1): CSO Digital Magazine, IDG Communications, Inc
+(2) (3): Annual cost of cybercrime study, Accenture
+
+Fuente: IT Governance Ltd.
+
+
+1
+4
+Incidentes xestionados polo CCN-CERT
+ Incidentes 2019 por tipoloxía
+Fonte: “Ciberamenazas y tendencias 2020”, CCN-CERT 
+
+Principales motivos que impiden a unha organización defenderse 
+fronte ás cíber ameazas
+Fonte: 2020 Cyberthreat Defense Report, CyberEdge Group, LLC.
+
+
+Fonte: Alpha Stock Images - http://alphastockimages.com/ 
+SEGURIDADE
+• Confidencialidade
+• Integridade
+• Dispoñibilidade
+• Trazabilidade
+• Autenticidade
+
+SECURITY
+COMPANY¿ ¿
+
+SISTEMAS DE 
+XESTIÓN DA 
+SEGURIDADE DA 
+INFORMACIÓN
+Liderado
+Xestión de riscos
+Medición e 
+Avaliación
+Millora continua
+"Diagram by Karn G. Bulsuk (http://www.bulsuk.com)".
+
+
+ Liderado
+ Xestión dos riscos
+ Medición
+ Reavaliación periódica
+ Mellora continua
+SECURITY
+COMPANY
+Sistemas de xestión da seguridade da información
+
+SECURITY
+COMPANY
+Sistemas de xestión da seguridade da información
+Prioridade 1
+Prioridade 2
+Prioridade 3
+Prioridade 4
+
+
+Sistemas de xestión da seguridade da información
+Requisitos 
+dun
+Sistema de Xestión da 
+Seguridade
+da Información
+
+PARTE 2
+-
+QUE AMENAZAS DEBEN 
+PREOCUPARNOS 
+ESPECIALMENTE
+
+AMEAZAS
+Malware
+Intrusións
+Phishing
+
+
+1.- MALWARE
+Virus Ransomware
+Troianos Adware
+Vermes Spyware
+
+
+2.- PHISHING
+
+
+3.- ACCESO NO AUTORIZADO
+
+
+PARTE 3
+-
+MEDIDAS DE 
+SEGURIDADE
+AMEAZA MEDIDA DE SEGURIDADE
+Virus Antivirus
+Vermes e troianos Antivirus
+Actualización software
+Ransomware Copias de seguridade
+Phishing Uso do correo so para tarefas profesionais
+Dobre factor de autenticación
+Enxeñería social Actitude razoablemente crítica (formación)
+Extravío de información Cifrado de soportes
+Destrución soportes 
+
+10 CONSELLOS DE SEGURIDADE
+1. Adoptar unha actitude razoablemente crítica coas mensaxes que se reciban
+2. Antivirus actualizado. Examinar o ficheiro en caso de dúbida
+3. Sistema operativo e aplicacións actualizados
+4. Almacenar a información nas unidades previstas. Copias de seguridade
+5. Contrasinais “seguros”, non reutilizados + dobre factor de autenticación
+6. Desactivar execución de macros
+7. Desactivar execución automática medios extraíbles
+8. Instalar sóftware de repositorios oficiais
+9. Custodiar e cifrar os soportes extraíbles
+10. Custodiar a documentación e utilizar destrutoras
+
+1: IDENTIFICACIÓN DE PHISHING
+OBXECTIVO: detectar elementos que poidan indicar que unha mensaxe é 
+fraudulenta
+RECURSO 1: https://phishingquiz.withgoogle.com/
+RECURSO 2: https://www.phishingbox.com/phishing-test
+PRÁCTICAS RECOMENDADAS
+
+PRÁCTICAS RECOMENDADAS
+2. CONFIGURACIÓN DO DOBRE FACTOR DE AUTENTICACIÓN
+OBXECTIVO: minimizar o risco de usurpación de identidade
+RECURSOS: 
+Google Authenticator
+• Android: https://apps.apple.com/us/app/google-authenticator/id388497605
+• iOS: https://apps.apple.com/us/app/google-authenticator/id388497605
+FreeOTP
+• Android: https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp&hl=en_US
+• iOS: https://play.google.com/store/apps/details?id=org.fedorahosted.freeotp&hl=en_US
+PASOS para engadir o segundo factor na conta de Google:
+1. Acceder á conta de Google
+2. Apartado “Seguridade” >  “Verificación en dous pasos”
+3. Confirmar identidade mediante contrasinal e código enviado ao teléfono móvil
+4. Activar segundo factor mediante Google Authenticator/FreeOTP.
+5. Escanear código QR.
+6. Verificar validez.
+
+PRÁCTICAS RECOMENDADAS
+https://www.oit.uci.edu
+
+
+FERRAMENTAS ÚTILES
+• Virustotal: para comprobar se un ficheiro ou URL conteñen código malicioso.
+• Unshorten.me: para "desacortar" unha URL e poder inspeccionala.
+• Keepassx: Xestor de contrasinais.
+• Have I been powned: web que nos indica se algunha das nosas contas foi hackeada.
+• BitLocker: Ferramenta de cifrado integrada en sistemas Windows
+
+
+PARTE 4
+-
+LEXISLACIÓN
+
+Artículo 42 
+2. El Esquema Nacional de Seguridad tiene por objeto establecer la política de 
+seguridad
+en la utilización de medios electrónicos en el ámbito de la presente Ley, y está 
+constituido
+por los principios básicos y requisitos mínimos que permitan una protección 
+adecuada de la información.
+
+Artículo 17. Archivo de documentos
+Artículo 27. Validez y eficacia de las copias realizadas por las Administraciones 
+Públicas
+Artículo 13. Derechos de las personas en sus relaciones con las Administraciones 
+Públicas 
+Artículo 16. Registros
+
+Artículo 3. Principios generales
+2. Las Administraciones Públicas se relacionarán entre sí y con sus órganos, 
+organismos públicos y entidades vinculados o dependientes a través de medios 
+electrónicos, que aseguren la interoperabilidad y seguridad de los sistemas y 
+soluciones adoptadas por cada una de ellas, garantizarán la protección de los 
+datos de carácter personal, y facilitarán preferentemente la prestación conjunta de 
+servicios a los interesados.
+
+
+Disposición adicional primera. Medidas de seguridad en el ámbito del sector público. 
+2. Los responsables enumerados en el artículo 77.1 de esta ley orgánica deberán
+aplicar a los tratamientos de datos personales las medidas de seguridad que 
+correspondan de las previstas en el Esquema Nacional de Seguridad.
+
+Lei 11/2007
+Lei 39/2015
+Lei 40/2015
+LO 3/2018
+O ENS 
+obriga
+ á 
+implantación 
+dun
+ Sistema 
+de Xestión da 
+Seguridade
+da información (SXSI)
+
+
+Seguridade integral
+- A seguridade non debe consistir en accións puntuais
+- Máxima atención á concienciación das persoas e aos seus responsables xerárquicos
+Xestión de riscos
+- Parte esencial do proceso de seguridade, que debe manterse actualizado.
+- Equilibrio entre a natureza dos datos, os riscos e as medidas de seguridade.
+Prevención, reacción e recuperación
+- Disuasión e redución da exposición
+- Detección e reacción –> resiliencia (capacidade de recuperarse)
+Liñas de defensa
+- Seguridade en diversas capas
+Reavaliación periódica
+- Revisión da eficacia das medidas
+Función diferenciada
+- Responsable da información, responsable do servizo, responsable do sistema,   
+responsable de seguridade.
+Índice
+PRINCIPIOS BÁSICOS DO ENS
+
+
+O ENS establece os seguintes requisitos mínimos que todas as organizacións 
+deben ter en conta á hora de establecer normas e medidas de seguridade:
+•Organización e implantación do proceso de seguridade
+•Análise e xestión dos riscos
+•Xestión de persoal
+•Profesionalidade
+•Autorización e control dos accesos
+•Protección das instalacións
+•Adquisición de produtos
+•Seguridade por defecto
+•Integridade e actualización do sistema
+•Protección da información almacenada e en tránsito
+•Prevención ante outros sistemas de información interconectados
+•Rexistro de actividade
+•Incidentes de seguridade
+•Continuidade da actividade
+•Mellora continua do proceso de seguridadeÍndice
+REQUISITOS MÍNIMOS DO ENS
+
+
+FONTE: CCN-CERT
+
+
+Exemplos medidas de seguridade
+Marco organizativo:
+Normativa de seguridade [org.2].
+Disporase dunha serie de documentos que describan: 
+a) O uso correcto de equipamentos, servizos e instalacións. 
+b) O que se considerará uso indebido. 
+c) A responsabilidade do persoal con respecto ao cumprimento ou 
+violación destas normas: dereitos, deberes e medidas disciplinarias de 
+acordo coa lexislación vixente.
+
+
+Exemplos medidas de seguridade
+Medidas de protección:
+Identificación [op.acc.1]
+3. Cada entidad (usuario o proceso) que accede al sistema, contará con un identificador 
+singular de tal forma que:
+a) Se puede saber quién recibe y qué derechos de acceso recibe.
+b) Se puede saber quién ha hecho algo y qué ha hecho
+
+
+PARTE 5
+-
+NORMATIVA UDC
+
+Política de seguridade da información e protección 
+de datos na UDC
+• Obxectivos
+• Principios
+• Directrices
+• Responsabilidades
+• Comité de Seguridade da Información 
+
+Regulamento xeral de uso das TIC na UDC
+• Dereitos e deberes dos usuarios/as
+• Emprego profesional dos medios
+• Potestade de monitorización do uso  dos recursos por parte da UDC en 
+(coas garantías para o/a traballador/a que contempla a lei)
+• Funcións do SIC
+• Acceso aos recursos mediante identificadores persoais e intransferibles
+• Almacenamento da información.
+• …
+
+Comunicación de incidentes de seguridade:
+https://axudatic.udc.gal/display/SIC/Ciberseguridade
+
+Norma sobre o control de acceso lóxico
+• Autenticación:
+• Uso de contasinais cunha calidade mínima
+• Renovación dos contrasinais
+• Uso de dobre factor de autenticación
+• Prevención de acceso por forza bruta
+• Autorización baseada en roles:
+• A xefatura do servizo ou unidade administrativa deberá comunicar 
+ao SIC a alta dun novo usuario.
+• A xefatura do servizo ou unidade organizativa comunicará ao SIC a 
+baixa dos usuarios baixo a súa dependencia para a eliminación dos 
+permisos de acceso que deixen de ser necesarios.
+• Usos prohibidos:
+• Usar o contrasinal corporativo para servizos alleos á UDC.
+
+Norma de uso do correo electrónico
+• O persoal da UDC debe ter presente que o correo electrónico corporativo é 
+un instrumento de traballo. Se o/a traballador/a fai un uso particular desta
+ferramenta deberá ter en conta o indicado no artigo 10 do Regulamento
+xeral de uso das TIC na UDC, de cara ás súas expectativas de privacidade.
+• Estandarización dos formatos de contas institucionais de correo: centros, 
+servizos, seccións, …
+• Nas   contas   institucionais   e   nas   dos   traballadores da   UDC   non   se   
+permitirán redireccioamentos automáticos a caixas de correo externas á 
+UDC.
+• O persoal da UDC non deberá facilitar o seu enderezo de correo corporativo 
+para servizos externos que non teñan relación coas súas funcións
+profesionais.
+
+Norma de uso do posto informático de traballo
+• Antivirus, actualizacións, bloqueo por inactividade
+• Bloqueo en caso de ausencia (WIN+L)
+• Almacenamento en unidades de rede ou nube corporativa -> copia de 
+seguridade automática
+• Autorización para extraer información dos sistemas
+ANTIVIRUS BLOQUEO POR 
+INACTIVIDADE
+ACTUALIZACIÓNS
+CONTROL DE 
+ACCESO
+MINIMIZAR 
+EXPOSICÍON NA 
+CONEXIÓN A 
+INTERNET
+CIFRADO DE 
+SOPORTES 
+EXTRAÍBLES
+
+Norma de uso da rede e do acceso a internet
+• Principio de mínimo privilexio -> filtrado de servizos non necesarios
+
+Norma de uso dos servizos de acceso remoto
+Escritorio virtual (VDI) e Rede privada virtual (VPN)
+• Conexións desde equipos de confianza cunha configuración mínima de 
+seguridade
+• Non almacenar información no dispositivo local salvo aquela estrictamente 
+necesaria
+• Non gardar contrasinais
+
+Dudas e consultas: jose.pizarro@udc.es
+Mantente informado na canle de ciberseguridade da UDC en 
+Yammer (Office365)
+https://www.yammer.com/udc.es/#/threads/inGroup?type=in_gro
+up&feedId=13100294144
+Grazas por asistir!
+Nesta presentación utilizáronse plantillas de Slidesgo e 
+contidos de Freepik (www.slidesgo.com, www.freepik.es)

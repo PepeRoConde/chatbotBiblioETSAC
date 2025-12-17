@@ -1,0 +1,253 @@
+Procedemento para a xestión e o recoñecemento dos estudos 
+realizados na University of South Wales no marco do acordo 
+bilateral de dobre titulación para estudantes saíntes 
+(aprobado en Comisión Académica o 3 de setembro de 2014 e modificado en Comisión 
+Académica o xx de xullo de 2015)
+1. Requisitos dos estudantes:
+- O  alumno  debe  ter  superadas  todas  as  materias  de  primeiro  e 
+segundo curso (120 ECTS) do Grao en Enxeñaría Informática en maio  
+ou xullo do curso inmediatamente anterior á súa estadía na University 
+of South Wales.
+- O alumno debe posuír un  nivel  C1 de  coñecemento  de  inglés  ou 
+pertencer ao grupo bilingüe do Grao en Informática, se o houber.
+2. Sobre os módulos a cursar en destino:
+Dependendo do curso e mención que curse o alumno, deberá cursar en  
+destino un conxunto de módulos (asignaturas de University of South  
+Wales) dentro dos ofertados pola universidade equivalentes a 60 créditos 
+ECTS, que corresponden con 6 módulos na universidade de destino. No  
+Anexo I especifícanse os módulos a cursar en destino se o estudante  
+cursa na University of South Wales o 3º curso do grao. No caso dos  
+estudantes de 4º curso, estudiarase cada caso de forma individualizada.
+3. Solicitude:
+Os alumnos interesados deben presentar unha solicitude de participación 
+no convenio bilateral na administración do centro antes do 5 de febreiro  
+do curso académico inmediatamente anterior ao previsto para a súa  
+estadía con fins de estudos. O modelo da solicitude de participación no  
+programa está recollido no Anexo II.
+4. Sobre a matrícula en destino e orixe:
+Unha vez confirmada a aceptación da solicitude por parte da persoa  
+responsable de relacións internacionais do centro, o estudante deberá  
+formalizar  a  súa  pre-matrícula  na  universidade  de  destino  –finais  de 
+marzo-.  A  pre-matrícula  estará  condicionada  á  superación  dos  120 
+créditos  ECTS  do  1º  e  2º  curso.  Para  elo,  seguiranse  as  instrucións 
+recibidas da universidade de destino, logo da nominación realizada polo  
+centro. 
+
+Igualmente, antes do inicio do curso, o estudante deberá entregar a  
+solicitude de recoñecemento de contrato de estudos na administración  
+do centro, dirixida á Comisión de Docencia do centro, no que se incluirán  
+as  materias  a  cursar  na  University  of  South  Wales  e  as  súas 
+equivalencias no plano de estudos do Grao en Enxeñaría Informática.  
+Este contrato deberá incluír 60 créditos correspondentes a materias de  
+3º ou 4º curso do Grao en Enxeñaría Informática. O modelo da solicitude  
+de recoñecemento está recollido no Anexo III.
+O estudante non será oficialmente alumno da Universidade da Coruña  
+durante o curso académico no que estea matriculado na University of  
+South Wales, pero quedará rexistrado no seu expediente o contrato de  
+recoñecemento de estudos aprobado pola Comisión de Docencia.
+O estudante poderá modificar o contrato ao inicio de cada cuadrimestre  
+da universidade de destino. Para iso, deberá remitir unha solicitude de  
+cambio de contrato de recoñecemento de estudios na administración do  
+centro, dirixida á Comisión de Docencia, que estudará a aprobación dos  
+cambios solicitados.
+Rematada a estadía o centro recoñecerá, a instancias do estudante e  
+sempre  que  se  acompañe  cun  certificado  de  notas  orixinal  da  
+universidade de destino, as materias superadas na University of South  
+Wales de acordo ao último contrato aprobado pola Comisión de Docencia  
+nos termos descritos no seguinte apartado.
+No caso de cursar o TFG na University of South Wales, o estudante  
+deberá matricularse na materia correspondente ao TFG do seu itinerario  
+na  UDC  antes  de  que  termine  a  súa  mobilidade  e  rexistrarse  como 
+alumno  en  convenio  bilateral  específico  na  Oficina  de  Relacións 
+Internacionais,  xa  que  o  traballo  non  pode  ser  obxecto  de  
+recoñecemento académico ordinario. A incorporación da cualificación do  
+traballo no expediente deberá seguir o procedemento que a normativa  
+establece  para  os  traballos  fin  de grao  en programas  de mobilidade 
+(artigo 2.7 do Procedemento para a avaliación dos Traballos Fin de Grao  
+e Fin de Mestrado). 
+5. Sobre o recoñecemento académico:
+O  recoñecemento  académico  realizarase  seguindo  a  equivalencia  de 
+materias  establecidas  no  último  contrato  de  estudos  aprobado  pola 
+Comisión  de  Docencia,  realizando  a  conversión  da  nota  segundo  o 
+baremo  aplicado  a  calquera  estudante  da  UDC  que  realice  o  seu 
+intercambio na University of South Wales.
+
+A conversión da nota realizarase segundo os baremos oficiais aplicables  
+ás  cualificacións  existentes  na  University  of  South  Wales  
+(http://sasstudent.southwales.ac.uk/onlineresults/grade/Understanding_
+my_module_and_assessment_results_USW/ e  
+http://academicregistry.southwales.ac.uk/regulations/ ) , que se indican  
+na seguinte táboa:
+University of South Wales UDC
+Fail (0-29.9) Suspenso (0-2.9)
+Narrow Fail (30-39.9) Suspenso (4-4.9)
+Pass – Third (40-40.9) Aprobado (5)
+Pass – Third (41-49.9) Aprobado (6-6.9)
+Pass – Lower second (50-59.9) Notable (7-7.9)
+Merit – Lower second (60-69.9) Notable (8-8.9)
+Distinction (70-100) Sobresaliente (9-10) 
+Opción á MH no caso >=75)
+
+ANEXO I: RECOÑECEMENTOS ACADÉMICOS COA UNIVERSITY OF  
+SOUTH WALES
+Enxeñaría do Software:
+SE3S604 Advanced Internet & Mobile Computing
+CS3S605 Computer Networks
+IS3S602 Advanced Databases & Modelling
+SE3S601 Object Oriented Systems
+IS3S601 IS Management
+IS3S603 E-business Systems & Strategy
+Convalidaríanse por:
+- Internet e Sistemas Distribuídos
+- Interfaces Persoa Máquina
+- Xestión de Infraestruturas
+- Bases de Datos Avanzadas
+- Ferramentas de Desenvolvemento
+- Arquitectura do Software
+- Validación e Verificación do Software
+- Sistemas de Información Empresarial
+- Xestión de Procesos de Negocio
+- Sectores de Negocio
+T ería que cursar en 4º:
+- Xestión de Proxectos
+- Lexislación e Seguridade Informática
+- Aseguramento da Calidade
+- Enxeñaría de Requisitos
+- Metodoloxías de Desenvolvemento
+
+- Proxectos de desenvolvemento software
+- Marcos de desenvolvemento
+- Programación avanzada
+- TFG
+
+Enxeñaría de Computadores:
+SE3S604 Advanced Internet & Mobile Computing
+CS3S601 Concurrent & Parallel Programming
+CS3S606 Distributed Computing
+SE3S606 Mobile Application Development or IS4S704 Independent Study
+CS3S603 Real-Time Rendering T echniques
+CS3S608 Advanced Applied Computer Networking or CS3S605 Computer 
+Networks
+Convalidaríanse por:
+- Internet e Sistemas Distribuídos
+- Interfaces Persoa Máquina
+- Arquitectura de Computadores
+- Enxeñaría de Infraestruturas Informáticas
+- Programación de Sistemas
+- Sistemas embarcados
+- Computación gráfica 
+- Contornos inmersivos, interactivos e de entretemento
+- Software de comunicacións
+- Administración de Redes
+T ería que cursar en 4º:
+- Xestión de Proxectos
+- Lexislación e Seguridade Informática
+- Xestión de infraestruturas
+- Dispositivos Hardware e Interfaces
+
+- Redes móbiles e sen fíos
+- Administración de Infraestructuras Informáticas
+- Codeseño Hardware-Software
+- Procesamento Dixital da Información
+- TFG
+
+Computación:
+SE3S604 Advanced Internet & Mobile Computing
+CS3S605 Computer Networks
+CS3S602 Modern Applications of Artificial Intelligence
+CS3S603 Real-Time Rendering T echniques
+SE3S606 Mobile Application Development or IS4S704 Independent Study
+SE3S601 Object Oriented Systems
+Convalidaríanse por:
+- Internet e Sistemas Distribuídos
+- Interfaces Persoa Máquina
+- Xestión de Infraestruturas
+- Representación do Coñecemento e Razoamento Automático
+- Desenvolvemento de Sistemas Intelixentes
+- Computación gráfica 
+- Contornos inmersivos, interactivos e de entretemento
+- Programación de Sistemas
+- Sistemas embarcados
+- Arquitectura do Software
+T ería que cursar en 4º:
+- Xestión de Proxectos
+- Lexislación e Seguridade Informática
+- Deseño de Linguaxes de Programación
+- Procesamento de Linguaxes
+- Visión artificial
+
+- Aprendizaxe automática
+- T eoría da Computación
+- Recuperación da Información
+- TFG
+
+Sistemas de Información:
+SE3S604 Advanced Internet & Mobile Computing
+CS3S605 Computer Networks
+IS3S602 Advanced Databases & Modelling
+SE3S601 Object Oriented Systems
+IS3S601 IS Management
+IS3S603 E-business Systems & Strategy
+Convalidaríanse por:
+- Internet e Sistemas Distribuídos
+- Interfaces Persoa Máquina
+- Xestión de Infraestruturas
+- Modelado Avanzado da Información
+- Bases de Datos Avanzadas
+- Metodoloxías de desenvolvemento
+- Sistemas de Información Empresarial
+- Xestión de Procesos de Negocio
+- Sectores de Negocio
+- Calidade na Xestión TIC
+T ería que cursar en 4º:
+- Xestión de Proxectos
+- Lexislación e Seguridade Informática
+- Integración de Datos
+- Arquitecturas dos Sistemas de Información
+- Explotación de Almacéns de Datos
+
+- Calidade en Sistemas de Información
+- Análise e Desenvolvemento dos Sistemas de Información
+- Planificación de Sistemas de Información
+- TFG
+
+Tecnoloxías da Información:
+SE3S604 Advanced Internet & Mobile Computing
+CS3S605 Computer Networks
+IY3S602 Systems Security & Administration
+IS3S602 Advanced Databases & Modelling
+IY3S601 Ethical Hacking
+CS3S608 Advanced Applied Computer Networking or CS3S606 
+Distributed Computing
+Convalidaríanse por:
+- Internet e Sistemas Distribuídos
+- Interfaces Persoa Máquina
+- Xestión de Infraestruturas
+- Administración de Sistemas Operativos
+- Seguridade nos Sistemas Informáticos
+- Administración de Bases de Datos
+- Explotación de Almacéns de Datos
+- Programación integrativa
+- Deseño de redes /  Integración de Aplicacións
+- Administración de redes /  Administración de Infraestruturas e 
+Sistemas Inform.
+T ería que cursar en 4º:
+- Xestión de Proxectos
+- Lexislación e Seguridade Informática
+- Deseño de redes /  Integración de Aplicacións
+- Servizos multimedia
+
+- Calidade na Xestión TIC
+- Administración de Redes /  Administración de Infraestruturas e 
+Sistemas Inform.
+- Optativa do Q8
+- Optativa do Q8
+- TFG
+
+ANEXO II: SOLICITUDE PARA A PARTICIPACIÓN NO CONVENIO 
+BILATERAL DO DOBRE GRADO COA UNIVERSIDADE DE GALES DO 
+
+SUR
+
+ANEXO III: SOLICITUDE DE CONTRATO DE RECOÑECEMENTO DE 
+ESTUDOS

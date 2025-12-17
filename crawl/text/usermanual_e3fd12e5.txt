@@ -1,0 +1,805 @@
+Manual de Usuario
+Espazos UDC
+Versión 1.2.0-S3
+
+Índice
+1. Introdución . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+2. AutenƟcación na plataforma . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+3. Estrutura da aplicación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+4. XesƟón de permisos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+4.1. Grupos de usuarios xestores . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+4.2. Grupos de usuarios con permisos de reserva . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+4.3. XesƟón de requerimentos de validación das reservas . . . . . . . . . . . . . . . . . . . . . . . . 7
+5. XesƟón de espazos e equipamento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+5.1. Eliminación dun espazo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+5.2. Edición dun espazo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+6. XesƟón de permisos dun espazo ou equipamento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .10
+6.1. Grupos de usuarios con permisos de reserva . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+6.2. XesƟón de requerimentos de validación das reservas dun espazo . . . . . . . . . . . . . . . . . .11
+7. Procura de espazos e equipamento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+8. Dispoñibilidade dun espazo ou equipamento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+9. Creación de reservas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+9.1. Formulario de reserva . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+9.2. Compoñente de calendario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+9.3. Tipos de reserva . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+9.4. Reservas periódicas ou puntuais . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+9.5. Vinculación a unha asignatura . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+9.6. Excepcións . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+10. Edición de reservas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+11. Cancelación de reservas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+12. Colisións entre reservas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+13. Exportar calendario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+14. As miñas reservas de espazos e equipamento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .21
+15. XesƟón de solicitudes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+15.1. Aceptar unha solicitude . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+15.2. Denegar unha solicitude . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+1
+
+16. XesƟón de alertas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+17. Xeración de horarios de docencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .23
+17.1. Importar horario dun ano a outro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
+18. Consulta de horarios de docencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .24
+18.1. Exportar horario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+19. Consultar o calendario de exames . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+20. O meu horario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+20.1. Conﬁgurar o meu horario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+21. O meu calendario de exames . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .29
+22. Dispoñibilidade do centro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+23. Maestro de Ɵpos de espazo e Ɵpos de equipamento . . . . . . . . . . . . . . . . . . . . . . . . . . . . .30
+24. Maestro de Ɵpos de recursos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .32
+25. XesƟón de calendarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+25.1. Conﬁguración do calendaro laboral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+25.2. Conﬁguración do calendaro de docencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .36
+25.3. XesƟón de calendarios laborais por centro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .36
+25.4. XesƟón de calendarios docentes por Ɵtulación . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+25.5. Estender un calendario base . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+26. XesƟón de convocatorias de exames . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+27. Conﬁguración de horarios de centros . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .39
+28. Conﬁguración de horarios de Ɵtulacións . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+29. As miñas Ɵtorías . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+30. Procura de Ɵtorías . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+
+Índice de ﬁguras
+1. Cabeceira común na aplicación de espazos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+2. Detalle da cabeceira cun usuario autenƟcado . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+3. Ligazóns para a navegación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+4. Seccións do menú lateral da aplicación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+5. XesƟón de permisos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+6. XesƟón de grupos de usuarios que non precisan validación deshabilitada . . . . . . . . . . . . . . . . . 8
+7. Ligazóns relacionadas coa xesƟón de espazos e equipamento . . . . . . . . . . . . . . . . . . . . . . . . 8
+8. Listaxe paxinada de espazos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+9. Creación dun novo espazo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+10. Existencia de reservas asociadas a un espazo a ser borrado . . . . . . . . . . . . . . . . . . . . . . . . .10
+11. XesƟón de permisos dun espazo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+12. XesƟón de requerimentos de validación das reservas dun espazo . . . . . . . . . . . . . . . . . . . . . .11
+13. Procura de espazos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+14. Dispoñibilidade dun espazo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+15. Formulario de reserva dun espazo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+16. Calendario para reserva de datas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .15
+17. Calendario de docencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+18. Selector de Ɵtulación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+19. Reserva periódica . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+20. Selector de semana mes e ano . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .17
+21. Campos requiridos para a vinculación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+22. Exemplo de reserva vinculada a unha asignatura . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .18
+23. Conﬁguración de excepcións dunha reserva periódica . . . . . . . . . . . . . . . . . . . . . . . . . . . .18
+24. Exemplo de excepcións conﬁguradas para unha reserva . . . . . . . . . . . . . . . . . . . . . . . . . . .19
+25. Cancelar unha reserva . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+26. Información da reserva . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+27. Información dunha colisión entre reservas . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .20
+28. Páxina de As miñas reservas de espazos. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+29. Solicitudes pendentes de revisión . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+30. Información da solicitude . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+3
+
+31. Ventá para denegar unha solicitude . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+32. Enlace que indica as alertas existentes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .24
+33. Páxina de creación de horarios de docencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .25
+34. Páxina de xesƟón de horarios de docencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .26
+35. Formulario de procura de horarios de docencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .26
+36. Calendario coas reservas de docencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+37. Calendario coas reservas de docencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+38. Botón para exportar o horario a PDF . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .28
+39. Consultar calendario de exames . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+40. O meu horario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+41. Conﬁguración do meu horario . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
+42. O meu calendario de exames . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .31
+43. Dispoñibilidade do centro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+44. Lista de Ɵpos de espazos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+45. Creación dun novo Ɵpo de espazo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .33
+46. Lista de Ɵpos de recursos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .33
+47. Creación dun novo Ɵpo de recurso . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .34
+48. XesƟón de calendarios . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+49. XesƟón de calendario laboral . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+50. XesƟón de calendario docente . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+51. Adaptación de calendario laboral por centro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .38
+52. Adaptación de calendario docente por Ɵtulación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+53. Estender un calendario base . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+54. Páxina de xesƟón de convocatorias de exames . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .40
+55. XesƟón de horarios de centros . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+56. XesƟón de horarios de Ɵtulacións . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+57. Edición dun horario dunha Ɵtulación . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .41
+58. As miñas Ɵtorías . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+59. Buscador de Ɵtorías . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+
+1. Introdución
+A aplicación Web deEspazos da UDCpermite dar sorporte á xesƟón centralizada dos espazos cos que a UDC conta. Esta
+aplicación mantén un rexistro dos espazos dispoñibles, permiƟndo ós usuarios que así o precisen facer una reserva sobre
+eles para empregalos durante un tempo deﬁnido.
+2. AutenƟcación na plataforma
+A autenƟcación na plataforma realízase por medio do CAS da UDC. Unha vez que o usuario xa foi autenƟcado, a aplica-
+ción presenta diferentes funcionalidades dependendo do Ɵpo de usuario establecido na ferramenta. Os Ɵpos de usuario
+soportados son os seguintes:
+Xestor dos espazos dun centroSon os usuarios que teñen permisos para dar de alta ou modiﬁcar os datos dos espazos
+dun centro. Estes usuarios tamén poderán, para ese centro, xesƟonar as extensións precisas aos calendarios base.
+Validador de reservas dun centroOs usuarios que conten con este privilexio poderán aprobar ou denegar as reservas
+que requiran validación para un centro determinado.
+Administrador dos espazosSerá aquel usuario ou grupo de usuarios que poderán xesƟonar os maestros da aplicación
+(Ɵpos de espazos e Ɵpos de recursos), crear ou modiﬁcar os calendarios base da plataforma e xesƟonar as datas
+de comezo e ﬁn de cuadrimestres.
+3. Estrutura da aplicación
+A aplicación de espazos mantén unha estrutura xenérica en tódalas páxinas que a conforman. Esta estrutura segue o
+deseño da aplicación de Servizos UDC, formada por unha cabeceira, un menú lateral e unha zona central onde se situará
+o conƟdo das disƟntas páxinas da aplicación. Esta estrutura é a mesma para calquera Ɵpo de usuario da plataforma.
+Cabeceira
+A cabeceira común a tódalas páxinas da aplicación de espazos garda o aspecto seguinte:
+Figura 1: Cabeceira común na aplicación de espazos
+Está formada por:
+• Unha imaxe facendo referencia áUniversidade da Coruña.
+• A aplicación saudará ao usuario autenƟcado a través do seulogin e ademáis engádese unha ligazón para
+pechar a sesión. Tamén se mostra unha ligazón para obter o manual de usuario.
+Figura 2: Detalle da cabeceira cun usuario autenƟcado
+• Unha serie de ligazóns que permiten ao usuario saber por cales páxinas está navegando a modo demigas de
+pan¹.
+¹hƩp://es.wikipedia.org/wiki/Hilo_de_Ariadna
+5
+
+Figura 3: Ligazóns para a navegación
+Menú lateral
+O menú lateral da aplicación está composto de dúas seccións, unha coas opcións propias de cada Ɵpo de usuario
+da aplicación (1) e outra con ligazóns a outros servizos dispoñibles da UDC (2). A apariencia deste menú pódese
+ver na ﬁgura 4.
+Figura 4: Seccións do menú lateral da aplicación
+4. XesƟón de permisos
+A páxina de xesƟón de permisos permiƟrá ao administrador asignar permisos a nivel de centro para diferentes grupos
+de usuarios. O enlace para acceder a esta páxina pode atoparse baixo o apartado de administración no panel lateral. A
+páxina de xesƟón de permisos móstrase na ﬁgura 5.
+Os elementos que se poden apreciar nesta páxina son os seguintes:
+1. Selector de centro para o cal se van a asignar permisos.
+2. Sección que permite a xesƟón de grupos de usuarios xestores.
+3. Sección que permite a xesƟón de grupos de usuarios que teñen permisos para realizar reservas.
+4. Sección de requerimentos de validación para as reservas e grupos de usuarios que non precisan validación.
+4.1. Grupos de usuarios xestores
+Os grupos de usuarios xestores son os encargados de poder xesƟonar os espazos pertencentes a un centro determinado.
+Será o administrador o encargado de asignar para cada centro os disƟntos grupos xestores.
+6
+
+Figura 5: XesƟón de permisos
+Se se quere engadir un novo grupo de usuarios xestores, introdúcese o novo rol no campo de texto dispoñible e prémese
+no botón de engadir. No caso no que se introduza un valor incorrecto (introducir un valor en branco ou intentar engadir
+un rol xa existente), mostraráselle ao usuario unha mensaxe idenƟﬁcaƟva do erro.
+Para eliminar un rol xestor simplemente hai que premer o botón de eliminar ó lado do nome de grupo. Deste xeito
+realizarase a súa eliminación no sistema. O usuario será noƟﬁcado de que a eliminación foi realizada correctamente.
+4.2. Grupos de usuarios con permisos de reserva
+Os grupos de usuarios con permisos de reserva son aqueles aos que se lles permite a realización de reservas nun centro
+concreto. Será o administrador o encargado de asignar, para cada centro, os disƟntos grupos con permisos de reserva.
+O procedemento para engadir e eliminar un grupo de usuarios con permisos de reserva é idenƟco ao descrito anterior-
+mente para os grupos de usuarios xestores.
+4.3. XesƟón de requerimentos de validación das reservas
+Baixo os grupos de usuarios con permisos de reserva pode apreciarse un check que permiƟrá habilitar ou deshabilitar
+os requerimentos de validación para as solicitudes de reserva (punto 4 da ﬁgura 5). As reservas que precisen validación
+necesitarán dun usuario validador para que as acepte ou as denegue. No caso de que non requiran validación, as reservas
+serán aceptadas automaƟcamente, sempre e cando non teñan conﬂitos con outras xa existentes.
+Pódense crear grupos de usuarios que non precisan validación dentro dun centro que precisa validar as súas solicitudes
+de reserva.
+Se o check de validación está seleccionado, poderanse xesƟonar estos grupos de usuarios que non precisan validación.
+Poderemos engadir ou eliminar un grupo seguindo o mesmo procedemento que para os grupos xestores ou os de usuarios
+con permisos de validación.
+No caso no que o check non estea seleccionado, mostrarase a información dos grupos de usuarios que xa se atopaban
+conﬁgurados (no caso de habelos), pero estando ésta deshabilitada para a súa interacción (ﬁgura 6).
+7
+
+Figura 6: XesƟón de grupos de usuarios que non precisan validación deshabilitada
+5. XesƟón de espazos e equipamento
+Cando se seleccione un centro no selector do menú lateral, amosarase a sección de xesƟón se espazos e equipamento
+de dito centro. No menú lateral aparecerán ligazóns relacionadas con dita xesƟón.
+Figura 7: Ligazóns relacionadas coa xesƟón de espazos e equipamento
+A conƟnuación detallaranse as opcións relaƟvas aos espazos, sendo as opcións de equipamento totalmente equivalentes.
+No caso de exisƟr algunha diferencia signiﬁcaƟva, ésta detallarase.
+Premendo no enlacelista de espazospoderase acceder á páxina de lista de espazos.
+Figura 8: Listaxe paxinada de espazos
+Na ﬁgura 8 pode verse a táboa paxinada de espazos engadidos. Os puntos que se poden idenƟﬁcar nesta páxina son os
+8
+
+seguintes:
+1. Información relevante ó espazo engadido.
+2. Ligazón para editar o espazo.
+3. Ligazón para eliminar o espazo.
+4. Ligazón para ver a súa dispoñibilidade.
+Premendo na ligazónalta de novo espazodo menú lateral poderase acceder á paxina de creación dun novo espazo.
+Figura 9: Creación dun novo espazo
+Na ﬁgura 9 pode verse a páxina de creación dun espazo. Os puntos que se poden idenƟﬁcar nesta páxina son os seguintes:
+1. Formulario cos campos a ser cubertos relevantes a un espazo (os camposCapacidade e Recursos non aplican no
+caso da alta dun novo equipamento).
+2. Lista de recursos dun espazo.
+3. Botón de eliminación dun recurso do espazo.
+4. Ligazón para engadir un novo recurso ó espazo.
+5. Área para poder engadir unha enumeración de recursos adicionais (este campo será para información adicional na
+alta de equipamento).
+6. Campo para engadir unha imaxe do plano do espazo.
+7. Botón de gardado do espazo no sistema.
+9
+
+5.1. Eliminación dun espazo
+Para eliminar un espazo tan só é necesario premer a ligazón de eliminar na páxina de lista de espazos e este será com-
+pletamente eliminado do sistema. O espazo pode que teña reservas asociadas, nese caso aparecerá unha ventá que
+informará ao usuario desta situación. O usuario poderá de todas formas eliminar o espazo e as súas reservas asociadas.
+A ventá pode verse na ﬁgura 10.
+Figura 10: Existencia de reservas asociadas a un espazo a ser borrado
+5.2. Edición dun espazo
+Dende a páxina de lista de espazos poderase editar un dos espazos xa existentes premendo a ligazón deeditar. A páxina
+resultante de dita acción contén dúas pestanas. A primeira pestana será de edición dos datos do espazo. A segunda
+pestana será de conﬁguración dos permisos de tratamento dun espazo.
+A páxina de edición será a mesma que a de creación dun espazo pero co formulario cuberto cos datos do espazo que se es-
+tá a editar. Aí poderán ser modiﬁcados e posteriormente, premendo o botón de gardado, os cambiós serán almacenados
+no sistema.
+A páxina de xesƟón de permisos dun espazo será moƟvo de explicación na sección posterior.
+6. XesƟón de permisos dun espazo ou equipamento
+A xesƟón de permisos é exactamente igual para un espazo que para un equipamento. A conƟnuación coméntase para o
+caso dos permisos dun espazo.
+A páxina de xesƟón de permisos dun espazo é a que se mostra na ﬁgura 11. Nesta páxina pódense disƟnguir os seguintes
+puntos:
+1. Grupos de usuarios con permisos de reserva para o espazo.
+2. Conﬁguración de requerimentos de validación das reservas sobre o espazo.
+3. Grupos de usuarios que non precisan validación para as reservas do espazo.
+6.1. Grupos de usuarios con permisos de reserva
+O xestor do centro poderá decidir se os usuarios con permisos de reserva para un centro poden realizar ou non reservas
+para un espazo concreto dese mesmo centro. Tamén poderán engadir novos usuarios ou eliminar usuarios xa existentes.
+No recadro de grupos de usuarios con permisos de reserva poderanse ver os usuarios que teñen permisos para o centro
+ao que pertence o espazo. Mediante o check asociado poderase habilitar ou deshabilitar este permiso herdado para o
+espazo en concreto.
+10
+
+Figura 11: XesƟón de permisos dun espazo
+A maiores dos grupos de usuarios herdados do centro, poderanse crear novos grupos propios para o espazo, permiƟndo
+crear un grupo xa existente no centro. Isto permite seguir mantendo o control sobre dito grupo, xa que se se elimina o
+grupo do centro, éste tamén se eliminaría para o espazo, xa que non o herdaría.
+6.2. XesƟón de requerimentos de validación das reservas dun espazo
+Un espazo xesƟona as validacións das reservas que nel se realicen a través dun mecanismo de herdanza. Cada espazo
+herdará os permisos de validación sobre as reservas segundo a conﬁguración establecida no seu centro.
+Figura 12: XesƟón de requerimentos de validación das reservas dun espazo
+Un espazo concreto permite sobreescribir o comportamento anterior, restrinxindo a ausencia de validación das reservas
+nese espazo a un grupo con eses permisos no seu centro, ou engadindo un novo grupo de usuarios que permita a creación
+de reservas sen necesidade de validación para ese espazo e que non se atope entre os grupos de usuarios que non
+precisen validación das reservas dos espazos conﬁgurados no centro.
+Este comportamento anterior que permite ampliar os permisos de validación dentro dos espazos dun centro realízase co
+check que se pode apreciar no punto 1 da ﬁgura 12.
+Ao pulsar neste check, estarase indicando que se empregarán como permisos de validación das reservas dese espazo os
+que se atopan deﬁnidos no propio espazo. Esta acción provoca que se habilite a sección inferior (punto 2 na ﬁgura 12)
+onde se localiza outro check que por defecto aparecerá desacƟvado, indicando que non se requerirá validación para as
+reservas dese espazo.
+Se se preme nese check, estarase indicando que as solicitudes de reserva para ese espazo necesitarán de validación e ha-
+bilitarase o recadro inferior (punto 3 na ﬁgura 12), onde aparecerán inicialmente listados os grupos de usuarios herdados
+do centro que non precisan validación para as reservas dos espazos (co respecƟvo check para habilitar/deshabilitar).
+11
+
+A maiores dos grupos de usuarios herdados do centro, poderanse crear (ou eliminar) novos grupos que non precisen
+validación á hora de solicitar unha reserva para o espazo, permiƟndo crear un grupo xa existente e herdado do centro
+coma no caso anterior cos grupos de usuarios con permisos de reserva.
+Se se desexa voltar aos permisos de validación para as solicitudes de reserva que se estableceron no centro, basta con
+desmarcar o check inicial (punto 1), que permiơa a sobreescritura dos mesmos, e de forma automáƟca deshabilitaranse
+as seccións inferiores que permiơan a conﬁguración dos permisos de validacións das solicitudes dese espazo en concreto,
+mantendo o úlƟmo estado de permisos conﬁgurado por se se desexan recuperar nalgún momento.
+7. Procura de espazos e equipamento
+No menú lateral da aplicación tamén se pode apreciar un apartado de procura e nese apartado un enlace para ir á páxina
+de procura de espazos.
+Na ﬁgura 13 pode verse a páxina de procura de espazos onde se aprecian as diferentes caracterísƟcas.
+1. Formulario de procura de espazos. Cada un dos campos uƟlizados será un criterio a ter en conta á hora de realizar
+a procura de espazos.
+2. Especial mención ten o apartado de selección de recursos. Neste caso o espazo que se busque debe ter todos os
+recursos que fosen marcados.
+3. Tamén existe un apartado para a procura de espazos con recursos adicionais. Introduciranse as palabras clave que
+se desexen buscar separadas por comas. As letras maiúsculas e os acentos non afectan á procura.
+4. A sección de dispoñibilidade permiƟrá indicar unha data e un rango de horas no que os espazos estean dispoñibles.
+5. Botón de procura. Os resultados da procura aparecerán nunha páxina moi similar á páxina de lista de espazos vista
+con anterioridade.
+A procura de equipamento está dispoñible no enlaceprocura de equipamentodo panel lateral. O funcionamento é idén-
+Ɵco ao descrito para a procura de espazos, salvo que hai algún ﬁltro que non aplica no caso dos equipamentos.
+8. Dispoñibilidade dun espazo ou equipamento
+A páxina de dispoñibilidade dun espazo pode ser accedida dente a lista de espazos ou dende a procura de espazos pre-
+mendo no enlace dedispoñibilidade dun espazo en parƟcular.
+A páxina de dispoñibilidade pode apreciarse na ﬁgura 14. Na parte superior móstrase información relaƟva ao espazo.
+Na parte inferior apréciase un calendario a nivel de semana onde se poden ver as ocupacións do espazo nunha semana
+concreta. A semana pódese seleccionar mediante os selectores de semana, mes e ano. Os días fesƟvos do calendario
+laboral móstranse en cor vermello. As reservas veranse cunha cor parƟcular segundo o seu Ɵpo e cun comentario para
+entender que Ɵpo de reserva é.
+A páxina de dispoñibilidade dun equipamento é igual á do espazo, mostrando aquela información relaƟva ao equipa-
+mento.
+9. Creación de reservas
+Na aplicación pódense realizar reservas tanto de espazos como de equipamento. Nesta sección detállase o proceso para
+a creación dunha reserva dun espazo, sendo o mesmo proceso para a creación dunha reserva de equipamento. No caso
+de exisƟr algún punto diferenciador, éste será detallado.
+Dende a páxina de dispoñibilidade dun espazo pódese acceder á páxina de realización de reservas para o espazo pre-
+mendo no botón desolicitar reserva.
+12
+
+Figura 13: Procura de espazos
+9.1. Formulario de reserva
+O formulario de solicitude de reservas pódese ver na ﬁgura 15, onde se disƟnguen os seguintes puntos:
+1. Selección de Ɵpo de reserva (no caso dunha reserva de equipamento só exisƟrán os Ɵpos Evento e Mantemento).
+2. Selección de Ɵtulación (no caso de seleccionar reserva de docencia. Non aplica nos equipamentos).
+3. Selección de Ɵpo de docencia (só posible para unha reserva de docencia. Non aplica nos equipamentos).
+4. Vincular reserva a asignatura (non aplica nos equipamentos).
+5. Comentario sobre a reserva a realizar.
+6. Reserva puntual ou periódica.
+7. Campos para establecer a reserva periódica. Se a reserva é periódica haberá que indicar a periodicidade da mesma
+e durante que datas terá efecto dita reserva periódica.
+8. Conﬁguración de excepcións. Para reservas periódicas poderanse conﬁgurar días nos que o espazo quedará libre
+de forma excepcional dentro do rango de datas da reserva.
+9. Botón de solicitude de reserva. Almacenará no sistema tanto os datos introducidos no formulario de reserva coma
+os introducidos no calendario que será explicado a conƟnuación.
+9.2. Compoñente de calendario
+Para poder determinar os días e rangos de horas nos que se quere realizar unha reserva uƟlizarase un calendario coma
+o que se amosa na ﬁgura 16.
+Neste calendario pódense disƟnguir as seguintes seccións:
+13
+
+Figura 14: Dispoñibilidade dun espazo
+1. Selector de semana.
+2. Selector de mes.
+3. Selector de ano.
+4. Navegador de semanas. Poderase ir á seguinte ou anterior semana da mostrada.
+5. Táboa de selección. Para cada día poderase facer unha selección de horas nas que se quere reservar o espazo. Para
+iso haberá que premer nunha cela da táboa e deﬁnir o rango de datas de reserva para ese día.
+6. Ventá de selección de horas.
+9.3. Tipos de reserva
+A aplicación soporta tres Ɵpos diferentes de reservas a solicitar:
+Evento: Reservas dun espazo para a organización dun evento.
+Mantemento: Reservas dun espazo por labores de mantemento.
+Docencia: Reservas para a imparƟción de docencia (non soportado nas reservas de equipamento).
+14
+
+Figura 15: Formulario de reserva dun espazo
+Figura 16: Calendario para reserva de datas
+O calendario de selección de datas será o mesmo para as reservas de evento e mantemento. Neste caso terase en conta
+o horario do centro e os fesƟvos do calendario laboral coas conﬁguracións para o centro ao que pertence o espazo. Un
+exemplo deste calendario pode verse na ﬁgura 16.
+15
+
+Non obstante para as reservas de docencia o calendario será diferente. Terase en conta o horario da Ɵtulación selec-
+cionada e tanto os fesƟvos do calendario de docencia, coas súas conﬁguracións para a Ɵtulación seleccionada, coma os
+fesƟvos do calendario do centro. Un exemplo dun calendario docente pode apreciarse na ﬁgura 17. Neste caso haberá
+que seleccionar cela a cela para reservar os diferentes tramos horarios.
+Figura 17: Calendario de docencia
+Cando se selecciona unha reserva de docencia hai que seleccionar a Ɵtulación á que corresponde. O selector de Ɵtulación
+móstrase na ﬁgura 18. Nese despregabre aparecerán só as Ɵtulacións asociadas ao centro ao que pertence o espazo no
+que se fai a reserva, ﬁltradas ademais segundo teñan conﬁgurado un horario (ver a sección Conﬁguración de horarios de
+Ɵtulacións).
+Figura 18: Selector de Ɵtulación
+9.4. Reservas periódicas ou puntuais
+Unha reserva periódica será unha reserva que aconteza de forma repeƟda durante un intervalo de tempo deﬁnido. A
+reserva será para uns días determinados nuns rangos de horas determinados. A periodicidade coa que se repite pode ser
+16
+
+semanal ou quincenal e poderá ser conﬁgurada no formulario de reserva (ﬁgura 19). As datas de comezo e de ﬁn tamén
+serán establecidas no formulario de reserva. Os días e as horas da reserva marcaranse seleccionando as celas requiridas
+no calendario.
+Figura 19: Reserva periódica
+Unha reserva puntual será para un día determinado nuns rangos de horas determinados. O compoñente de calendario
+terá na súa parte superior un selector de semana, mes e ano (ﬁgura 20) para reservar o espazo en momentos puntuais.
+Figura 20: Selector de semana mes e ano
+9.5. Vinculación a unha asignatura
+Como se pode comprobar no formulario de reserva da ﬁgura 15, existe a posibilidade de poder vincular unha reserva a
+unha asignatura. Esta opción só está dispoñible para as reservas de espazos.
+A vinculación de reservas a asignaturas só se pode dar para as reservas de docencia. Se seleccionamos dita conﬁguración
+e ademais seleccionamos unha Ɵtulación, o check de vinculación habilitarase.
+Se o marcamos, automaƟcamente aparecerán os campos do formulario requiridos para a vinculación (ﬁgura 21). O campo
+do comentario ocultarase, sendo éste establecido co nome da asignatura que se vincula. O campo de asignatura cubrirase
+coas opcións axeitadas cando se seleccione un curso da Ɵtulación. Se seleccionamos un cuadrimestre no correspondente
+despregabre cubriranse as datas de comezo e de ﬁn da reserva coas datas de comezo e ﬁn do cuadrimestre, tendo a
+posibilidade de cambialas.
+Se temos unha asignatura seleccionada, automaƟcamente habilitaránsenos dous campos a maiores. Un primeiro campo
+para engadirlogins de profesores da asignatura, e un segundo campo co que poderemos vincular a reserva a un grupo
+desa asignatura. Poderemos introducir un novo grupo ou seleccionar un xa existente para esa asignatura.
+Figura 21: Campos requiridos para a vinculación
+Na ﬁgura 22 pódese observar un exemplo do formulario de reserva dunha reserva vinculada a unha asignatura.
+17
+
+Figura 22: Exemplo de reserva vinculada a unha asignatura
+9.6. Excepcións
+Se a reserva que vamos a crear é unha reserva periódica, os campos para conﬁgurar excepcións aparecerán habilitados
+como podemos observar na ﬁgura 19.
+Se marcamos o check deConﬁgurar excepciónsaparecerannos uns campos para poder establecer rangos de excepcións
+ou excepcións en datas concretas (ﬁgura 23).
+Figura 23: Conﬁguración de excepcións dunha reserva periódica
+O espazo quedará libre de forma excepcional nas datas que engloban os rangos introducidos ou as datas concretas esta-
+blecidas.
+18
+
+Figura 24: Exemplo de excepcións conﬁguradas para unha reserva
+10. Edición de reservas
+As reservas creadas que aínda non fosen aceptadas poderán ser modiﬁcadas. Para acceder á páxina de edición de reservas
+debemos de premer o enlaceModiﬁcar asociado á reserva que queremos editar na páxina das miñas reservas. Pódese
+ver esta situación na ﬁgura 28.
+Existen varias restricións na edición das reservas:
+Unha reserva periódica non pode cambiarse a unha reserva puntual e viceversa.
+Unha reserva de docencia non pode cambiarse a unha de non docencia e viceversa.
+Non se pode cambiar a Ɵtulación nunha reserva de docencia.
+Se a reserva ten unha asignatura vinculada, ésta non poderá ser modiﬁcada.
+Se se desexa realizar algún cambio relacionado con algunha das restricións enumeradas con anterioridade débese de
+cancelar a reserva e volver a crear unha nova.
+11. Cancelación de reservas
+As reservas poderán ser canceladas premendo na ligazón correspondente dentro de cada rango seleccionado. Só poderán
+cancelar reservas o usuario propietario da reserva, o usuario xestor do centro ou o administrador.
+Figura 25: Cancelar unha reserva
+Como se pode observar na ﬁgura 26, cando se prema na ligazón de cancelar unha reserva aparecerá unha ventá na que
+se mostra a información relevante da reserva e un botón para proceder a cancelar a reserva.
+As reservas canceladas xá non se mostrarán nos calendarios.
+19
+
+Figura 26: Información da reserva
+12. Colisións entre reservas
+Cando se estea creando unha nova reserva, pode darse o caso de que se seleccionen datas ou rangos no calendario nos
+que xa existe outra reserva no sistema. Isto provocará unha colisión entre a reserva que se está a crear e a reserva ou
+reservas que xa estean establecidas.
+De producirse unha colisión, a aplicación mostrará unha ventá indicando dita situación e mostrando información rele-
+vante das reservas coas que colisiona.
+Figura 27: Información dunha colisión entre reservas
+20
+
+13. Exportar calendario
+Como se aprecia na ﬁgura 14, poderemos exportar o calendario das reservas que pertencen a un espazo determinado
+premendo o botónExportar calendario.
+A aplicación devolveranos un ﬁcheiro.ics que contén todos os eventos que se desenvolverán no espazo dentro do ano
+actual, e que poderemos importar na ferramenta de xesƟón de calendarios que uƟlicemos a coƟo.
+Ademais, non so se poderán importar os eventos a un calendario, senón que poderanse crear calendarios "vivos". Este
+Ɵpo de calendarios créanse a parƟr dunha URL e permiten a sincronización dos eventos, engadíndo ou eliminando eventos
+se éstes cambian na aplicación.
+Para obter a URL situámonos enriba do botón deExportar calendario, prememos o botón dereito do rato e seleccionamos
+a opciónCopiar ubicación do enlace.
+A URL que se obtén exportará o calendario para o ano actual. Se se precisa o calendario para outro ano é necesario enga-
+dir á URL un parámetro que indique dito ano. Para iso bastará con engadir ao ﬁnal da URL obƟda?year=<ano-deseado>,
+sendo <ano-deseado> un valor válido para un ano. Un exemplo podería ser?year=2015, co que obteríamos o calen-
+dario para o ano 2015.
+Se se indica un ano no que ainda non existe un calendario deﬁnido, a aplicación devolverá un calendario baleiro. Por
+outra banda, se se indica un ano incorrecto, a aplicación devolverá o calendario para o ano actual.
+Tamén poderemos exportar o calendario de reservas dun determinado equipamento. O procedemento é similaar ao
+descrito para as reservas de espazos.
+14. As miñas reservas de espazos e equipamento
+A aplicación tamén consta cun apartado onde o usuario poderá obter unha lista coas súas reservas. Existen dúas ligazóns
+na aplicación que permiten ver estas listaxes:reservas de espazose reservas de equipamento. A conƟnuación coméntanse
+os detalles da páxina de reservas de espazos. Todo o comentado aplica para as reservas de equipamento.
+Na páxina deAs miñas reservas de espazosmóstrase información relaƟva ás reservas de espazos do usuario: centro,
+espazo, Ɵpo de reserva, datas de comezo e ﬁn e o estado no que se atopa a reserva, así como unha serie de accións que
+serán dependentes de dito estado.
+Na ﬁgura 28 pódese apreciar a páxina deAs miñas reservas de espazos, que está accesible ao usuario premendo no enlace
+reservas de espazosque se atopa no panel lateral da aplicación.
+15. XesƟón de solicitudes
+Premendo no enlaceXesƟón de solicitudesno menú lateral (enlace dispoñible só para os administradores ou os usuarios
+xestores de centros) poderase ver unha listaxe de reservas que se atopan pendentes de revisión (ﬁgura 29). Móstranse
+tanto reservas de espazos como de equipamento.
+A ligazónDetalles mostrará unha nova páxina que inclúe información da solicitude de reserva e un calendario onde se
+poderá ver a selección horaria da reserva (ﬁgura 30).
+15.1. Aceptar unha solicitude
+Unha solicitude de reserva que se atopa pendente de revisión poderá ser aceptada premendo o botónAceptar que se
+pode observar na ﬁgura 30.
+Con isto, a solicitude de reserva estará aceptada e será mostrada na páxina de dispoñibilidade do espazo para o que foi
+feita (ﬁgura 14).
+21
+
+Figura 28: Páxina deAs miñas reservas de espazos
+Figura 29: Solicitudes pendentes de revisión
+15.2. Denegar unha solicitude
+Tamén se poderán denegar solicitudes de reserva premendo o botónDenegar que se pode observar na ﬁgura 30.
+Na ﬁgura 31 podemos observar a ventá modal que se mostra premendo dito botón e na que se poderá especiﬁcar o
+moƟvo da denegación. Premendo enDenegar marcaremos a solicitude como denegada.
+A solicitude de reserva estará denegada e desaparecerá da listaxe de solicitudes pendentes.
+16. XesƟón de alertas
+Existen determinadas accións levadas a cabo na aplicación que implican a noƟﬁcación a determinados usuarios da súa
+realización. Por exemplo, se se acepta ou denega unha solicitude de reserva, débese de noƟﬁcarlle ao seu creador sobre
+dita acción.
+Para isto, a aplicación conta cun módulo que xesƟona as alertas que recibe un determinado usuario. Se este ten algunha
+alerta, un novo enlace aparecerá na secciónAs miñas opcións, indicando o número de alertas existentes (ﬁgura 32).
+Premendo nesa ligazón mostrarase unha ventá coas alertas acƟvas. As alertas poderán marcarse como vistas premendo
+en Eliminar.
+22
+
+Figura 30: Información da solicitude
+Figura 31: Ventá para denegar unha solicitude
+17. Xeración de horarios de docencia
+Tendo seleccionado un centro, no panel lateral atoparemos o enlaceXerar horario de docencia, que nos levará a unha
+páxina onde poderemos crear reservas de docencia de asignaturas para poder confeccionar un horario de docencia da
+23
+
+Figura 32: Enlace que indica as alertas existentes
+Ɵtulación desexada dunha maneira mais cómoda e directa ca na pantalla de reservas.
+Escollendo o ano académico, a Ɵtulación, o curso e o cuadrimestre mostrarásenos a información relevante para estas
+reservas: asignatura, espazo da reserva, Ɵpo de docencia, etc. Ademais, móstranse dous calendarios. O primeiro é unha
+vista de calendario global coas reservas de docencia para a Ɵtulación, curso e cuadrimestre seleccionados coa que a
+persoa que está creando o horario pode ver nunha ollada como vai quedando o horario. O segundo é un calendario para
+o espazo seleccionado, onde se poderán marcar as horas que se precisen para crear a reserva adecuada. Cambiando de
+espazo actualizaremos este calendario.
+O horario poderá ser un borrador se marcamos o check habilitado para a ocasión. Isto creará un horario cuxas reservas
+aindan non estean aceptadas, é dicir, estarían pendentes.
+Establencendo os datos perƟnentes e seleccionando as celas oportunas procederase á creación da reserva. No caso de
+haber colisións, o usuario será informado adecuadamente da situación. Na ﬁgura 33 pódese ver a pantalla de xeración
+de horarios de docencia.
+Unha vez creado o horario coa súa primeira reserva, éste aparecerá dispoñible para a súa edición premendo no enlace
+XesƟón de horarios de docenciasito no manú lateral da aplicación.
+Nesta páxina ademais poderanse realizar diversas accións cos horarios, como conﬁrmar un borrador de horario (conﬁr-
+mando así todas as reservas asociadas), eliminar un horario ou editalo (ﬁgura 34).
+Na edición dun horario xa teremos cubertos os campos relaƟvos ao ano académico, Ɵtulación e curso, podendo selec-
+cionar cuadrimestre, asignatura, espazo, etc.
+No caso de exisƟres algunha colisión no momento no que queremos conﬁrmar un horario, deberemos cancelar algunha
+das reservas do horario. Para iso compre entrar a editar o horario e premer no botón de cancelar na reserva oportuna
+para a súa cancelación.
+17.1. Importar horario dun ano a outro
+Comom podemos apreciar na ﬁgura 33, cando vamos a crear un novo horario de docencia podemos importar as re-
+servas de outro previamente xa conﬁgurado para a Ɵtulación e curso seleccionados simplemente seleccionando o ano
+académico.
+Importaranse todas aquelas reservas periódicas asociadas ao horario. As reservas de exames non se importarán. Se al-
+gunha reserva xera unha colisión non se importará.
+18. Consulta de horarios de docencia
+Premendo na ligazónConsulta de horarios de docenciadispoñible no panel lateral da aplicación, accederemos a unha
+páxina que permiƟrá ver o horario de docencia para unha Ɵtulación, un curso e un cuadrimestre dado.
+Na ﬁgura 35 podemos observar os campos do formulario de procura.
+Se a procura é saƟsfactoria, mostrarásenos un calendario cuberto coas reservas de docencia feitas para o curso (ﬁgura
+36), Ɵtulación e cuadrimestre seleccionados. As reservas traerán información relevante ao nome da asignatura, grupo
+(no caso de ser unha reserva de docencia cunha asignatura vinculada e cun grupo asociado) e ao espazo no que foron
+solicitadas.
+24
+
+Figura 33: Páxina de creación de horarios de docencia
+Mostraranse ademais aquelas reservas periódicas de docencia que estean incluidas parcialmente no cuadrimestre selec-
+cionado. Así, esas reservas levarán un icono, como se pode apreciar na ﬁgura 37, que ao pasar por enriba co rato indicará
+as datas de comezo e ﬁn da reserva.
+25
+
+Figura 34: Páxina de xesƟón de horarios de docencia
+Figura 35: Formulario de procura de horarios de docencia
+18.1. Exportar horario
+Cando unha procura é saƟsfactoria, ademais do calendario coas reservas, aparecerá un botón que permiƟrá exportar o
+calendario a formato PDF. Na ﬁgura 38 pódese ver dito botón.
+19. Consultar o calendario de exames
+Premendo na ligazónConsultar o calendario de examespoderemos ver o calendario de exames para o centro seleccio-
+nado. Na ﬁgura 39 móstrase a páxina coas diferentes seccións:
+1. Formulario de consulta. Fíltrase por ano académico, Ɵtulación, curso e convocatoria.
+2. Botón de buscar.
+3. Botón de exportar a PDF. Exportarase o calendario de todas as convocatorias do ano académico.
+4. Calendario de exames resultado da procura. Este calendario está limitado ás semanas que dura o período de exames
+deﬁnido pola convocatoria seleccionada.
+20. O meu horario
+Premendo na ligazón do panel lateralO meu horariomostrarásenos unha páxina onde poderemos ver nun calendario o
+noso horario para a semana actual. Nese calendario aparecerán unicamente aquelas reservas de docencia que coincidan
+26
+
+Figura 36: Calendario coas reservas de docencia
+Figura 37: Calendario coas reservas de docencia
+cuns parámetros de conﬁguración que deberemos de introducir na pantalla á que leva o botónConﬁgurar o meu horario.
+Ademais, inclúense uns botóns para a súa exportación en diferentes formatos: exportación a PDF e exportación a un
+ﬁcheiro .ics. Coma no caso do calendario dun espazo, poderase crear un horario "vivo", é dicir, mediante unha URL, que
+27
+
+Figura 38: Botón para exportar o horario a PDF
+Figura 39: Consultar calendario de exames
+obtemos premendo o botón dereito do rato no botón deExportar a ICalendare seleccionando a opciónCopiar ubicación
+do enlace, e engadindo ésta nunha ferramenta de xesƟón de calendarios permiƟranos ter un horario sincronizado que
+irá variando en función da conﬁguración dispoñible.
+No caso da exportación a PDF obteremos un documento que inclue o calendario global dos dous cuadrimestres do ano
+académico correspondente.
+Un exemplo de horario é o que se pode apreciar na ﬁgura 40.
+28
+
+Figura 40: O meu horario
+20.1. Conﬁgurar o meu horario
+Para poder visualizar o meu horario é necesario ter engadidas conﬁguracións para él. Para iso, na pantalla deConﬁgu-
+ración do meu horariopoderemos seleccionar as asignaturas desexadas para confeccionar o noso horario (o grupo é
+opcional, unha conﬁguración sen grupo non mostrará información de ningún grupo).
+Na ﬁgura 41 podemos observar un exemplo de conﬁguracións.
+21. O meu calendario de exames
+A opciónO meu calendario de examespermiƟrá obter, para as conﬁguracións do horario xa establecidas, o horario parƟ-
+cular de exames para a convocatoria seleccionada dentro do ano académico actual. Na ﬁgura 42 móstrase a páxina coas
+diferentes seccións:
+1. Enlace para crear as conﬁguracións do horario académico e para exportar a PDF. Xerarase un PDF co calendario dos
+exames para todas as convocatorias do ano académico actual.
+2. Formulario de consulta. Fíltrase por convocatoria.
+3. Botón de buscar.
+4. Calendario de exames resultado da procura. Este calendario está limitado ás semanas que dura o período de exames
+deﬁnido pola convocatoria seleccionada.
+29
+
+Figura 41: Conﬁguración do meu horario
+22. Dispoñibilidade do centro
+No menú lateral tamén temos a opción de ver adispoñibilidade do centrocando temos un centro seleccionado. Premendo
+nese enlace atoparémonos cunha páxina na que se mostra un calendario coas reservas dos espazos do centro para un día
+en concreto (ﬁgura 43). Botando unha ollada rápida poderemos ver as reservas existentes no centro. Se o centro conta
+con moitos espazos, o calendario habilitará unha barra de desprazamento para poder ver toda a información dispoñible.
+Premendo no nome do espazo iremos á paxina de dispoñibilidade do espazo.
+23. Maestro de Ɵpos de espazo e Ɵpos de equipamento
+A aplicación conta cun módulo para a xesƟón de Ɵpos de espazo e para a xesƟón de Ɵpos de equipamento. Nesta sección
+coméntase o relaƟvo á xesƟón de Ɵpos de espazo, que é exactamente igual para os Ɵpos de equipamento.
+A páxina do maestro de Ɵpos de espazo atópase accesible para o administrador premendo no menú lateral o enlace de
+maestro de Ɵpos de espazo. Este enlace dirixe á páxina de lista dos Ɵpos de espazos engadidos na aplicación. No caso de
+que aínda non haxa Ɵpos de espazo engadidos mostrarase unha mensaxe adverƟndo que non existen resultados.
+Na ﬁgura 44 pode verse a táboa de resultados de Ɵpos de espazo engadidos. Os puntos que se poden idenƟﬁcar nesta
+páxina son os seguintes:
+30
+
+Figura 42: O meu calendario de exames
+1. Tipo de espazo engadido.
+2. Enlace para editar o Ɵpo de espazo.
+3. Enlace para eliminar o Ɵpo de espazo.
+4. Enlace para crear un novo Ɵpo de espazo.
+Premendo no enlace decrear novo Ɵpo de espazopoderase acceder á páxina de creación dun novo Ɵpo de espazo. Esta
+páxina pode verse na ﬁgura 45. Os puntos que se poden apreciar son os seguintes:
+1. Formulario de inserción de datos sobre o Ɵpo de espazo a engadir.
+2. Botón para gardar o novo Ɵpo.
+Dende a páxina de lista de Ɵpos de espazo poderase editar os Ɵpos de espazos xa existentes premendo o enlace deeditar.
+A páxina será a mesma que a de creación dun Ɵpo pero co formulario cuberto cos datos do Ɵpo a editar. Aí poderán ser
+modiﬁcados e posteriormente, premendo o botón de gardado, os cambiós serán almacenados no sistema.
+Para eliminar un Ɵpo de espazo tan só é necesario premer o enlace deeliminar na páxina de lista de Ɵpos de espazo e o
+Ɵpo será completamente eliminado do sistema. Só se poderán eliminar aqueles Ɵpos que non teñan espazos asignados.
+31
+
+Figura 43: Dispoñibilidade do centro
+24. Maestro de Ɵpos de recursos
+O administrador poderá acceder a esta páxina premendo no enlace demaestro de Ɵpos de recursosno menú lateral.
+Este enlace dirixe á páxina de lista dos Ɵpos de recursos engadidos na aplicación. No caso de que aínda non haxa Ɵpos
+32
+
+Figura 44: Lista de Ɵpos de espazos
+Figura 45: Creación dun novo Ɵpo de espazo
+de recurso engadidos mostrarase unha mensaxe adverƟndo que non existen resultados.
+Figura 46: Lista de Ɵpos de recursos
+Na ﬁgura 46 pode verse a táboa de resultados de Ɵpos de recurso engadidos. Os puntos que se poden idenƟﬁcar nesta
+páxina son os seguintes:
+1. Tipo de recurso engadido.
+2. Enlace para editar o Ɵpo de recurso.
+3. Enlace para eliminar o Ɵpo de recurso.
+4. Enlace para crear un novo Ɵpo de recurso.
+Premendo no enlace decrear novo Ɵpo de recursopoderase acceder á páxina de creación dun novo Ɵpo de recurso. Esta
+páxina pode verse na ﬁgura 47. Os puntos que se poden apreciar son os seguintes:
+33
+
+1. Formulario de inserción de datos sobre o Ɵpo de recurso a engadir.
+2. Botón para gardar o novo Ɵpo.
+Figura 47: Creación dun novo Ɵpo de recurso
+Dende a páxina de lista de Ɵpos de recurso poderase editar un dos Ɵpos xa existentes premendo o enlace deeditar. A
+páxina será a mesma que a de creación dun Ɵpo pero co formulario cuberto cos datos de Ɵpo a editar. Aí poderán ser
+modiﬁcados e posteriormente, premendo o botón de gardado, os cambiós serán modiﬁcados no sistema.
+Para eliminar un Ɵpo de recurso tan só é necesario premer o enlace deeliminar na páxina de lista de Ɵpos de recursos
+e o Ɵpo será completamente eliminado do sistema. Só se poderán eliminar aqueles Ɵpos que non estean asignados a
+ningún espazo.
+25. XesƟón de calendarios
+O administrador tamén dispón dunha opción no menú para axesƟón de calendarios. Ao premer este enlace aparece a
+páxina de xesƟón de calendarios que se aprecia na ﬁgura 48.
+Figura 48: XesƟón de calendarios
+Nesta páxina pódense diferenciar os seguintes apartados:
+1. Conﬁguración de calendarios base (calendario laboral e calendario de docencia).
+2. XesƟón de calendarios laborais por centro.
+3. XesƟón de calendarios docentes por Ɵtulación.
+34
+
+25.1. Conﬁguración do calendaro laboral
+A esta páxina accederase dente o apartado deconﬁguración de calendario basena sección de calendario laboral. A páxina
+de conﬁguración do calendario laboral pode verse na ﬁgura 49.
+Figura 49: XesƟón de calendario laboral
+As partes que se poden diferenciar nesta páxina son as seguintes:
+Selector de ano. Para seleccionar o ano para o cal se vai a conﬁgurar o calendario laboral.
+Meses do ano. Premendo en cada día pódese seleccionar ou deseleccionar coma día fesƟvo do calendario base
+laboral. Os datos quedan automaƟcamente almacenados no sistema simplemente premendo en cada día. Os días
+xa pasados non poden ser cambiados e móstranse noutra cor.
+35
+
+25.2. Conﬁguración do calendaro de docencia
+A esta páxina accederase dente o apartado deconﬁguración de calendario basena sección de calendario de docencia.
+A páxina de conﬁguración do calendario docente pode verse na ﬁgura 50. A páxina é moi similar á de conﬁguración do
+calendario laboral.
+As partes que se poden diferenciar nesta páxina son as seguintes:
+Selector de curso. Para seleccionar o curso académico para o cal se vai a conﬁgurar o calendario docente.
+Formulario de deﬁnición de cuadrimestres. Estableceranse as datas de comezo e ﬁn dos dous cuadrimestres exis-
+tentes. Poderanse almacenar no sistema premendo o botón de gardado.
+Meses do ano. Premendo en cada día pódese seleccionar ou deseleccionar coma día fesƟvo do calendario base
+docente. Os datos quedan automaƟcamente almacenados no sistema simplemente premendo en cada día. Os días
+xa pasados non poden ser cambiados e mostránse noutra cor.
+25.3. XesƟón de calendarios laborais por centro
+A aplicación permiƟrá que o calendario laboral base poida ser extendido a nivel de centro. É dicir, para cada centro o
+administrador poderá adaptar o calendario laboral base conﬁgurado previamente. Na páxina de xesƟón calendarios que
+xa se mencionou previamente pódese encontrar o apartado relaƟvo á extensión de calendarios laborais. Na ﬁgura 51
+expóñense os puntos necesarios para realizar esta adaptación do calendario.
+Os puntos que se poden disƟnguir son os seguintes:
+1. Selección de centro para o que se vai estender o calendario base.
+2. Botón para conﬁgurar o calendario para o centro seleccionado.
+3. Lista de centros para os que xa se modiﬁcou o calendario laboral base.
+4. Edición de calendario base para un centro determinado.
+5. Eliminación do sistema das extensións do calendario laboral para un centro determinado.
+25.4. XesƟón de calendarios docentes por Ɵtulación
+A aplicación permiƟrá que o calendario de docencia base poida ser extendido a nivel de Ɵtulación. É dicir, para cada
+Ɵtulación o administrador poderá adaptar o calendario docente base conﬁgurado previamente. Na páxina de xesƟón
+de calendarios que xa se mencionou previamente pódese encontrar o apartado relaƟvo á extensión de calendarios de
+docencia. Na ﬁgura 52 expóñense os puntos necesarios para realizar esta adaptación do calendario.
+Os puntos que se poden disƟnguir son os seguintes:
+1. Selección da Ɵtulación para a que se vai estender o calendario base.
+2. Botón para conﬁgurar o calendario para a Ɵtulación seleccionada.
+3. Lista de Ɵtulacións para as que xa se modiﬁcou o calendario docente base.
+4. Edición de calendario base para unha Ɵtulación determinada.
+5. Eliminación do sistema das extensións do calendario docente para unha Ɵtulación determinada.
+36
+
+Figura 50: XesƟón de calendario docente
+25.5. Estender un calendario base
+Para estender un calendario base, sexa de docencia ou laboral é necesario uƟlizar a páxina de conﬁguración de extensións.
+Para ir a esa páxina non hai mais que premer o botón deadaptar calendario baseou editar unha extensión xa creada
+37
+
+Figura 51: Adaptación de calendario laboral por centro
+Figura 52: Adaptación de calendario docente por Ɵtulación
+previamente premendo o enlace deeditar asociado a un calendario xa extendido.
+A páxina de conﬁguración de extensións é a que se mostra na ﬁgura 53. Os puntos que se poden disƟnguir móstranse a
+conƟnuación.
+1. Selector de data para a cal se quere facer unha modiﬁcación no calendario base.
+2. Selección de estado da data. Especiﬁcarase se a data seleccionada vai a ser un día de traballo ou non.
+3. Botón de gardado. Almacenarase no sistema a excepción engadida.
+4. Lista de extensións engadidas.
+5. Eliminación dunha extensión.
+26. XesƟón de convocatorias de exames
+No panel de administración atopámonos co enlacexesƟón de convocatorias de exames, que nos levará a unha nova páxina
+onde poderemos xesƟonar os períodos de exames.
+Na ﬁgura 54 pódese a preciar dita páxina cos seguintes apartados:
+38
+
+Figura 53: Estender un calendario base
+1. Formulario de creación/edición dunha convocatoria.
+2. Botón para gardar a convocatoria.
+3. Táboa que mostra as convocatorias creadas.
+4. Accións posibles para unha convocatoria.
+27. Conﬁguración de horarios de centros
+Premendo na ligazón dexesƟón de horarios de centrosdo panel lateral de administración poderase acceder á páxina de
+manexo de horarios de centros.
+Nesta páxina pódense diferenciar os seguintes apartados como se observa na ﬁgura 55.
+1. Formulario de creación dun horario dun centro.
+2. Botón para gardar o horario.
+3. Táboa que mostra os horarios creados para os centros.
+4. Eliminación dun horario dun centro.
+28. Conﬁguración de horarios de Ɵtulacións
+Premendo na ligazón dexesƟón de horarios de Ɵtulaciónsdo panel lateral de administración accederase á páxina de
+xesƟón de horarios de Ɵtulacións.
+Na ﬁgura 56 pódense apreciar os diferentes apartados cos que consta a páxina:
+1. Formulario de creación dun horario dunha Ɵtulación.
+2. Botón para gardar o horario.
+39
+
+Figura 54: Páxina de xesƟón de convocatorias de exames
+Figura 55: XesƟón de horarios de centros
+3. Táboa que mostra os horarios creados para as Ɵtulacións.
+4. Accións sobre un horario xa creado.
+40
+
+Figura 56: XesƟón de horarios de Ɵtulacións
+O horario da Ɵtulación deberá conter polo menos un período de mañá ou de tarde, ou os dous se é necesario. Tamén
+haberá que ter en conta que a duración das clases deberá ser compaƟble cos horarios de ﬁn e de inicio de cada período.
+Premendo enEditar poderemos modiﬁcar os valores do horario, podendo establecer unha hora anterior para os valores
+iniciais do horario e unha hora inferior para os valores ﬁnais. As duracións non poderán ser modiﬁcadas. Se existe algún
+período que non esƟvera establecido na creación poderase establecer, podendo agora introducir unha duración.
+Na ﬁgura 57 podemos var a páxina de edición dun horario de docencia.
+Figura 57: Edición dun horario dunha Ɵtulación
+41
+
+29. As miñas Ɵtorías
+Na secciónAs miñas opciónspódese atopar a ligazónAs miñas Ɵtoríasso para aqueles usuarios que impartan docencia.
+Premendo nese enlace o usuario irá a unha páxina na que poderá xesƟonar as súas Ɵtorías (ﬁg 58).
+Figura 58: As miñas Ɵtorías
+1. Formulario de creación / edición dunha Ɵtoría.
+2. Botón para gardar.
+3. Táboa que mostra as Ɵtorías creadas.
+4. Accións sobre unha Ɵtoría xa creada.
+30. Procura de Ɵtorías
+Tamén está dispoñible unha opción para a procura de Ɵtorías. Introducindo o nome do profesor poderemos ver o seu
+horario de Ɵtorías. A medida que vamos cubrindo o campo do nome irannos saindo opcións para autocompletar. Na
+ﬁgura 59 móstrase a páxina de procura de Ɵtorías.
+Se a procura ten éxito, mostrarase unha taboa coas Ɵtorías do profesor seleccionado, así como unha ligazón á ﬁcha do
+profesor na aplicación do directorio telefónico da UDC (hƩp://directorio.udc.es/) para ver a súa información de contacto.
+42
+
+Figura 59: Buscador de Ɵtorías
+43

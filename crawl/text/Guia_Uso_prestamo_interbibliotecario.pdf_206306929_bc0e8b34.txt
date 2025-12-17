@@ -1,0 +1,130 @@
+1 
+ 
+GUÍA DE USO DO SERVIZO DE PRÉSTAMO INTERBIBLIOTECARIO 
+ 
+Como acceder ao servizo 
+ 
+Podes acceder ao servizo de préstamo interbibliotecario desde a barra superior do menú d o catálogo Crunia 
+  
+desde a páxina web da biblioteca: https://www.udc.es/biblioteca
+ 
+ e desde os rexistros bibliográficos de Crunia despois de autenticarte. Podes consultar a seguinte infoguía 
+ 
+Cando accedas ao servizo de préstamo interbibliotecario  
+ 
+Se es membro da UDC, o sistema pedirá que te identifiques cos contrasinais da Universidade: 
+ Se xa realizaches algunha petición accederás ao teu menú directamente. 
+ Se é a primeira vez que solicitas un documento pedirache que te rexistres 
+ 
+
+
+2 
+ 
+e terás que cubrir este formulario: 
+ 
+Lembra que se eres membro da comunidade universitaria tes que poner o correo institucional.  
+Cando o servizo de préstamo interbibliotecario confirme a túa alta recibirás unha mensaxe de correo 
+electrónico informándote. 
+ 
+ 
+ 
+ 
+ 
+
+
+3 
+ 
+Se non pertences á comunidade universitaria e non tes contrasinais de acceso, o primeiro paso é que 
+solicites a alta como persoa usuaria externa en calquera biblioteca da UDC ou en liña. Unha vez esteas dada 
+de alta no Servizo de Biblioteca, poderás rexistarte no servizo de préstamo interbibliotecario cubrindo o 
+formulario. 
+ 
+ 
+Menú de usuario/a 
+ 
+O menú de usuario/a do sistema de xestión do préstamo interbibliotecario (GTBib) permite: 
+• Facer peticións de documentos 
+• Ver o estado das túas peticións 
+• Acceder aos documentos xa consultados e que poden borrarse 
+• Cambiar o contrasinal (sempre que non utilices as credenciais da UDC para acceder ao sistema) 
+ 
+ 
+ 
+Realizar unha petición de documento 
+ 
+Podes realizar a túa petición desde o teu menú de usuario/a 
+O formulario de solicitude de documentos pódese cubrir de dúas maneiras: 
+ ou ben introducindo o DOI ou Pubmed ID e desta manera, completaranse  o resto dos campos 
+automaticamente  
+ ou ben cubrindo os diferentes campos manualmente.  
+É importante indicar o maior número de datos posible na solicitude para facilitar a localización da 
+publicación e o tipo de publicación (revista, teses…) e se solicita un préstamo no caso dos libros. 
+
+
+4 
+ 
+ 
+ 
+Todas as comunicacións relacionadas coas túas solicitudes que realice o servizo de préstamo 
+interbibliotecario, serán a través do correo electrónico. 
+ 
+Consultar o estado das súas peticións 
+ 
+Nesta opción aparecen as peticións que fixemos e as que están en proceso de xestión. Poderemos: 
+ reclamar as peticións, cando pasase un prazo de tempo razoable e non recibísemos contestación  
+ cancelar a petición se xa non nos interesa 
+ renovar o nosos préstamos 
+ 
+
+
+5 
+ 
+Se prememos en “información”, aparece un formulario para contactar ou achegar nova información sobre o 
+documento. 
+ 
+ 
+ 
+No caso de que teñamos algún libro prestado, na petición aparece a data de devolución e a opción de 
+renovalo se nolo permite o subministrador do documento: 
+ 
+ 
+Cada petición contén unha ficha con datos como a data en que foi servido ou a de devolución. 
+ 
+ 
+Ademais desde esta pantalla permítenos exportar estas referencias bibliográficas aos xestores Mendeley e 
+Refworks. 
+ 
+Documentos pendentes de borrar 
+ 
+Nesta opción podemos acceder ao ficheiro no que se cargan as copias dos artigos ou capítulos de libros que 
+solicitamos. Nela, tras os datos bibliográficos, veremos a información sobre o arquivo e o número de accesos 
+ao mesmo e as seguintes opcións:  
+ Descargar. Recoméndase eliminar o ficheiro unha vez descargado para non saturar os servidores.  
+ Eliminar  
+ Albará: ofrécenos un documento con toda a información da petición 
+ 
+
+
+6 
+ 
+ 
+ 
+Cando teñamos dispoñible o documento no apartado “documentos pendentes de borrar” , tamén aparecerá 
+un aviso na pantalla principal do programa 
+ 
+ 
+Menú de datos persoais. Modificar perfil 
+ 
+Mediante este despregable é posible consultar e solicitar a modificación d os nosos datos persoais. 
+ 
+
+
+7 
+ 
+ 
+ 
+Contacto 
+ 
+Podes acceder ao formulario de contacto para consultar dúbidas e comunicar incidencias á nosa biblioteca.  
+Para abrir o formulario, débese premer en contactar 
+ 

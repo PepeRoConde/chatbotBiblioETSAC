@@ -1,0 +1,161 @@
+Estudantes matriculados. 
+Graos e Programas conxuntos de estudos
+Curso Académico 2014/2015
+Campus Estudo Home Muller Total
+A Coruña Administración e Dirección de Empresas 451 458 909
+Arquitectura 424 481 905
+Arquitectura Técnica 368 296 664
+Arquitectura Técnica. Curso Ponte. 4 3 7
+Bioloxía 121 262 383
+Ciencias da Actividade Física e do Deporte 641 166 807
+Ciencias Empresariais 226 216 442
+Ciencias Empresariais. Curso Ponte 29 46 75
+Comunicación Audiovisual 89 168 257
+Dereito 224 380 604
+Economía 202 176 378
+Educación Infantil 41 520 561
+Educación Primaria 177 395 572
+Educación Social 58 295 353
+Enfermaría 46 217 263
+Enfermaría. Curso Ponte 1 6 7
+Enxeñaría de Obras Públicas 251 118 369
+Enxeñaría de Obras Públicas. Curso Ponte 19 10 29
+Enxeñaría Informática 887 108 995
+Enxeñaría Informática. Curso Ponte 64 18 82
+Español: Estudos Lingüísticos e Literarios 22 61 83
+Fisioterapia 110 154 264
+Fisioterapia. Curso Ponte 0 1 1
+Galego e Portugués: Estudos Lingüísticos e Literarios 14 19 33
+Inglés: Estudos Lingüísticos e Literarios 92 205 297
+Logopedia 17 220 237
+Náutica e Transporte Marítimo 180 44 224
+Náutica e Transporte Marítimo. Curso Ponte 7 3 10
+Química 104 144 248
+Relacións Laborais e Recursos Humanos 167 224 391
+Socioloxía 111 162 273
+Tecnoloxía da Enxeñaría Civil 178 96 274
+Tecnoloxías Mariñas 176 17 193
+Tecnoloxías Mariñas. Curso Ponte 41 2 43
+Terapia Ocupacional 23 182 205
+Turismo 70 123 193
+Turismo. Curso Ponte 2 15 17
+PCEO Turismo/Ciencias Empresariais 38 60 98
+PCEO Administración e Dirección de Empresas/Dereito 116 210 326
+PCEO Bioloxía/Química 6 9 15
+PCEO Ciencias Empresariais/Arquitectura Técnica 7 3 10
+Total 5804 6293 12097
+Ferrol Arquitectura Naval 44 10 54
+Enfermaría 47 203 250
+Enfermaría. Curso Ponte 3 8 11
+Enxeñaría de Deseño Industrial e Desenvolvemento de Produto. Curso Ponte 9 2 11
+Enxeñaría de Deseño Industrial e Desenvolvemento do Produto 161 165 326
+Enxeñaría de Propulsión e Servizos do Buque 29 6 35
+Enxeñaría Eléctrica 143 34 177
+Enxeñaría Electrónica Industrial e Automática 172 38 210
+Enxeñaría en Tecnoloxías Industriais 126 48 174
+Enxeñaría Mecánica 134 29 163
+Enxeñaría Naval e Oceánica 43 16 59
+Humanidades 22 34 56
+Información e Documentación 5 28 33
+Podoloxía 42 141 183
+Relacións Laborais e Recursos Humanos 67 127 194
+Total 1047 889 1936
+Total UDC 6851 7182 14033
+
+
+Estudantes matriculados. 
+Mestrados
+Curso Académico 2014/2015
+Columna1 Estudio Home Muller Total
+MU en Acuicultura 8 7 15
+MU en Arquitectura da Paisaxe Juana de Vega 2 2 4
+MU en Asesoramento Xurídico Empresarial 22 34 56
+MU en Asistencia e Investigación Sanitaria 10 35 45
+MU en Avogacía 38 78 116
+MU en Banca e Finanzas 28 37 65
+MU en Bioloxía Mariña 7 9 16
+MU en Bioloxía Molecular, Celular e Xenética 4 8 12
+MU en Biotecnoloxía Avanzada 12 16 28
+MU en Ciencia e Tecnoloxía en Termalismo e Balneoterapia 0 1 1
+MU en Ciencias Documentais no Contorno Dixital 2 5 7
+MU en Ciencias, Tecnoloxías e Xestión Ambiental 6 7 13
+MU en Computación de Altas Prestacións 8 2 10
+MU en Contabilidade Superior e Auditoría de Contas 13 20 33
+MU en Dereito: Estudos da Unión Europea 8 12 20
+MU en Dirección e Administración de Empresas 18 8 26
+MU en Dirección integrada de proxectos 14 8 22
+MU en Dirección, Xestión e Innovación de Institucións Escolares e Socioeducativas 6 15 21
+MU en Enxeñaría da Auga  pola  Universidade da Coruña e Hochschule Magdeburg-Stendal (Fh)(Alemania) 28 12 40
+MU en Enxeñaría Industrial 23 3 26
+MU en Enxeñaría Informática 56 9 65
+MU en Enxeñaría Mariña 23 7 30
+MU en Enxeñaría Náutica e Transporte Marítimo 5 4 9
+MU en Enxeñaría Naval e Oceánica 3 2 5
+MU en Enxeñería de Camiños, Canais e Portos 28 6 34
+MU en Estudos Avanzados sobre a Linguaxe, a Comunicación e as súas Patoloxías 1 25 26
+MU en Estudos Ingleses Avanzados e as súas Aplicacións 0 7 7
+MU en Fotónica e Tecnoloxías do Láser 3 1 4
+MU en Innovación, Orientación e Avaliación Educativa 6 8 14
+MU en Intervención na Discapacidade e na Dependencia 1 31 32
+MU en Investigación en Enxeñaría Civil 15 10 25
+MU en Investigación, Ordenación e Avaliación de Servizos Sociosanitarios 1 2 3
+MU en Lingüística Aplicada 3 7 10
+MU en Literatura, Cultura e Diversidade 3 5 8
+MU en Matemática Industrial 5 3 8
+MU en Materiais Complexos: Análise Térmica e Reoloxía 2 5 7
+MU en Metodoloxia da Investigación en Ciencias Sociais: Innovacións e Aplicacións 6 6 12
+MU en Migracións Internacionais: Investigación, Políticas Migratorias e Mediación Intercultural 8 13 21
+MU en Neurociencia 3 4 7
+MU en Patrimonio cultural: a eurorrexión Galicia-Norte de Portugal 4 6 10
+MU en Planificación e Xestión de Destinos e Novos Produtos Turísticos 9 28 37
+MU en Prevención de Riscos Laborais e Riscos Comúns 26 13 39
+MU en Profesorado de ESO e Bacharelato, Formación Profesional e Ensinanza de Idiomas 53 123 176
+MU en Psicoloxía Aplicada 8 22 30
+MU en Psicopedagoxía 2 27 29
+MU en Rehabilitación Arquitectónica 13 18 31
+MU en Técnicas Estatísticas 1 7 8
+MU en Tecnoloxías de Edificación Sostible 27 23 50
+MU en Xerontoloxía 0 34 34
+MU en Xestión e Dirección Laboral 6 19 25
+Total 578 794 1372
+
+
+Estudantes matriculados. 
+!º e 2º Ciclo
+Curso Académico 2014/2015
+Campus Estudo Home Muller Total
+A Coruña Arquitecto 338 362 700
+Arquitecto Técnico en Execución de Obras 66 68 134
+Diplomatura en Fisioterapia 1 2 3
+Diplomatura en Máquinas Navais 27 2 29
+Diplomatura en Navegación Marítima 4 1 5
+Enxeñeiro de Camiños, Canais e Portos 211 118 329
+Enxeñeiro en Informática 138 41 179
+Enxeñeiro Técnico en Informática de Sistemas 88 14 102
+Enxeñeiro Técnico en Informática de Xestión 88 31 119
+Enxeñeiro Técnico en Obras Públicas - Especialidade en Construcións Civís 32 9 41
+Licenciatura en Administración e Dirección de Empresas 41 77 118
+Licenciatura en Bioloxía 5 7 12
+Licenciatura en Ciencias da Actividade Física e do Deporte 14 4 18
+Licenciatura en Comunicación Audiovisual 8 15 23
+Licenciatura en Dereito 102 138 240
+Licenciatura en Dereito e Licenciatura en ADE 11 27 38
+Licenciatura en Economía 26 34 60
+Licenciatura en Filoloxía Galega 0 2 2
+Licenciatura en Filoloxía Hispánica 3 10 13
+Licenciatura en Filoloxía Inglesa 4 12 16
+Licenciatura en Máquinas Navais 27 4 31
+Licenciatura en Náutica e Transporte Marítimo 19 4 23
+Licenciatura en Psicopedagoxía 11 47 58
+Licenciatura en Química 13 16 29
+Licenciatura en Socioloxía 9 13 22
+Total 1286 1058 2344
+Ferrol Enxeñeiro Industrial 56 21 77
+Enxeñeiro Naval e Oceánico 70 28 98
+Enxeñeiro Técnico Industrial - Especialidade en Electricidade 65 22 87
+Enxeñeiro Técnico Industrial - Especialidade en Electrónica Industrial 74 19 93
+Enxeñeiro Técnico Naval - Especialidade en Estruturas Mariñas 21 11 32
+Enxeñeiro Técnico Naval - Especialidade en Propulsión e Servizos do Buque 21 6 27
+Licenciatura en Documentación 0 6 6
+Total 307 113 420
+Total UDC 1593 1171 2764

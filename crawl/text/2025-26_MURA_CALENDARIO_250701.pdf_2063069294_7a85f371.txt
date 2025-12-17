@@ -1,0 +1,78 @@
+CALENDARIO Y HORARIOS [CP.CA]
+MJV M J V
+S01 [C1A] 24-9 25-9 26-9 S01 [C2A] 4-2 5-2 6-2
+11:00-13:00 apertura 09:00-12:00 HPA 09:00-12:00 IE -- 09:00-12:00 PREM 09:00-12:00 GIPR
+12:00-13:00 Conferencia 12:00-15:00 TLG 12:00-15:00 ISC 13:00-15:00 h.coincidencia 12:00-15:00 PREH 12:00-15:00 EER
+13:00-15:00 [S1] 16:00-19:00 TIDA 16:00-19:00 SER -- 16:00-19:00 AEEH 16:00-19:00 --
+S02 [C1A] 1-10 2-10 3-10 S02 [C2A] 11-2 12-2 13-2
+-- 09:00-12:00 HPA 09:00-12:00 IE -- 09:00-12:00 PREM 09:00-12:00 GIPR
+13:00-15:00 h.coincidencia 12:00-15:00 TLG 12:00-15:00 ISC 13:00-15:00 h.coincidencia 12:00-15:00 PREH 12:00-15:00 EER
+-- 16:00-19:00 TIDA 16:00-19:00 SER -- 16:00-19:00 AEEH 16:00-19:00 --
+S03 [C1A] 8-10 9-10 10-10 S03 [C2A] 18-2 19-2 20-2
+-- 09:00-12:00 HPA 09:00-12:00 IE -- 09:00-12:00 PREM 09:00-12:00 GIPR
+13:00-15:00 h.coincidencia 12:00-15:00 TLG 12:00-15:00 ISC 13:00-15:00 h.coincidencia 12:00-15:00 PREH 12:00-15:00 EER
+-- 16:00-19:00 TIDA 16:00-19:00 SER -- 16:00-19:00 AEEH 16:00-19:00 --
+S04 [C1A] 15-10 16-10 17-10 S04 [C2A] 25-2 26-2 27-2
+-- 09:00-12:00 HPA 09:00-12:00 IE 09:00-12:00 -- 09:00-12:00 PREM 09:00-12:00 GIPR
+13:00-15:00 h.coincidencia 12:00-15:00 TLG 12:00-15:00 ISC 12:00-15:00 h.coincidencia 12:00-15:00 PREH 12:00-15:00 EER
+-- 16:00-19:00 TIDA 16:00-19:00 SER 16:00-19:00 -- 16:00-19:00 AEEH 16:00-19:00 --
+S05 [C1A] 22-10 23-10 24-10 S05 [C2A] 4-3 5-3 6-3
+-- 09:00-12:00 HPA 09:00-12:00 IE 09:00-12:00 PREM 09:00-12:00 GIPR
+13:00-15:00 h.coincidencia 12:00-15:00 TLG 12:00-15:00 ISC 13:00-15:00 h.coincidencia 12:00-15:00 PREH 12:00-15:00 EER
+-- 16:00-19:00 TIDA 16:00-19:00 SER 16:00-19:00 [S3] 16:00-19:00 AEEH 16:00-19:00 --
+S06 [C1A] 29-10 30-10 31-10 S06 [C2A] 11-3 12-3 13-3
+09:00-12:00 HPA 09:00-12:00 IE 09:00-12:00 -- 09:00-12:00 PREM 09:00-12:00 GIPR
+12:00-15:00 TLG 12:00-15:00 ISC 12:00-15:00 h.coincidencia 12:00-15:00 PREH 12:00-15:00 EER
+16:00-19:00 TIDA 16:00-19:00 SER 16:00-19:00 -- 16:00-19:00 AEEH 16:00-19:00 --
+S01 [C1B] 5-11 6-11 7-11 S01 [C2B] 8-3 9-3 10-3
+-- 09:00-12:00 PREF 09:00-12:00 TITA SARRE -- 09:00-12:00 ERC 09:00-12:00 SARRE
+13:00-15:00 h.coincidencia 12:00-15:00 ATIP 12:00-15:00 II RAPT 13:00-15:00 h.coincidencia 12:00-15:00 TCIR 12:00-15:00 RAPT
+-- 16:00-19:00 -- 16:00-19:00 PMST TIRI -- 16:00-19:00 AEAM 16:00-19:00 TIRI
+S02 [C1B] 12-11 13-11 14-11 S02 [C2B] 15-3 16-3 17-3
+-- 09:00-12:00 PREF 09:00-12:00 TITA ERC -- 09:00-12:00 ERC 09:00-12:00 SARRE
+13:00-15:00 h.coincidencia 12:00-15:00 ATIP 12:00-15:00 II TCIR 13:00-15:00 h.coincidencia 12:00-15:00 TCIR 12:00-15:00 RAPT
+-- 16:00-19:00 -- 16:00-19:00 PMST -- -- 16:00-19:00 AEAM 16:00-19:00 TIRI
+S03 [C1B] 19-11 20-11 21-11 S03 [C2B] 22-3 23-3 24-3
+-- 09:00-12:00 PREF 09:00-12:00 TITA -- 09:00-12:00 ERC 09:00-12:00 SARRE
+13:00-15:00 h.coincidencia 12:00-15:00 ATIP 12:00-15:00 II 13:00-15:00 h.coincidencia 12:00-15:00 TCIR 12:00-15:00 RAPT
+-- 16:00-19:00 -- 16:00-19:00 PMST -- 16:00-19:00 AEAM 16:00-19:00 TIRI
+S04 [C1B] 26-11 27-11 28-11 S04 [C2B] 29-3 30-3 31-3
+-- 09:00-12:00 PREF 09:00-12:00 TITA -- 09:00-12:00 ERC 09:00-12:00 SARRE
+13:00-15:00 h.coincidencia 12:00-15:00 ATIP 12:00-15:00 II 13:00-15:00 h.coincidencia 12:00-15:00 TCIR 12:00-15:00 RAPT
+16:00-19:00 [S2] 16:00-19:00 -- 16:00-19:00 PMST 16:00-19:00 [S4] 16:00-19:00 AEAM 16:00-19:00 TIRI
+S05 [C1B] 3-12 4-12 5-12 S05 [C2B] 5-4 6-4 7-4
+-- 09:00-12:00 PREF 09:00-12:00 TITA -- 09:00-12:00 ERC 09:00-12:00 SARRE
+13:00-15:00 h.coincidencia 12:00-15:00 ATIP 12:00-15:00 II 13:00-15:00 h.coincidencia 12:00-15:00 TCIR 12:00-15:00 RAPT
+-- 16:00-19:00 -- 16:00-19:00 PMST -- 16:00-19:00 AEAM 16:00-19:00 TIRI
+S06 [C1B] 10-12 11-12 12-12 S06 [C2B] 12-4 13-4 14-4
+-- 09:00-12:00 PREF 09:00-12:00 TITA -- 09:00-12:00 ERC 09:00-12:00 SARRE
+13:00-15:00 h.coincidencia 12:00-15:00 ATIP 12:00-15:00 II 13:00-15:00 h.coincidencia 12:00-15:00 TCIR 12:00-15:00 RAPT
+-- 16:00-19:00 -- 16:00-19:00 PMST -- 16:00-19:00 AEAM 16:00-19:00 TIRI
+EVALUACION [C1A] 15.01 16.01 EVALUACION [C2A] 21.05 22.05
+09:00-12:00 HPA 09:00-12:00 IE 09:00-12:00 PREM 09:00-12:00 GIPR
+12:00-15:00 TLG 12:00-15:00 ISC 12:00-15:00 PREH 12:00-15:00 EER
+16:00-19:00 TIDA 16:00-19:00 SER 16:00-19:00 AEEH 16:00-19:00 --
+EVALUACION [C1B] 22.01 23.01 EVALUACION [C2B] 28.05 29.05
+09:00-12:00 PREF 09:00-12:00 TITA 09:00-12:00 ERC 09:00-12:00 SARRE
+12:00-15:00 ATIP 12:00-15:00 II 12:00-15:00 TCIR 12:00-15:00 RAPT
+16:00-19:00 -- 16:00-19:00 PMST 16:00-19:00 AEAM 16:00-19:00 TIRI
+CUATRIMESTRE 1A CUATRIMESTRE 2A
+HPA [op.] Historia del patrimonio arquitectónico [Louzao M.] AEEH [op.] Análisis estructural de edificios históricos  [Martín G.]
+IE  [Ob.] Inspección de las estructuras  [Aragón F.] AEAM [op.] Acciones y estrategias sobre la arquitectura moderna [Agrasar Q.·Paz A.]
+ISC  [Ob.] Inspección de los sistemas constructivos [Seoane G.] EER [Ob.] Evaluación energética en la rehabilitación [Pintos P.]
+SER [op.] La sostenibilidad en rehabilitación [Pintos P.] GIPR [op.] Gestión integral del proyecto de rehabilitación [Antelo T.·Hermo S.]
+TIDA [op.] Técnicas de investigación y documentación en Arquitectura [Fuertes D.· Río V.· ] PREH [Ob.] Patología y recuperación de estructuras de hormigón [Suárez R.]
+TLG [Ob.] Técnicas de levantamiento gráfico [López Chao] PREM [op.] Patología y recuperación de estructuras de madera [Vázquez R.·Otero Ch.]
+CUATRIMESTRE 1B CUATRIMESTRE 2B
+ATIP [Ob.] Análisis y Teoría de la intervención en el patrimonio [Agrasar Q.·Paz A.] ERC  [ob.] Evaluación y recalce de cimentaciones [Muñiz G.]
+II  [Ob.] Inspección de las instalaciones [Dios V.] RATP [ob.] La rehabilitación a través del proyecto [Gariatonaindia V.]
+PMST [op.] Patología de los materiales y sistemas tradicionales [Hermo S. Bermúdez G. Seoane G.] SARRE [op.] Sistemas avanzados de reparación y refuerzo de estructuras  [Otero Ch.·Suárez R.]
+PREF [op.] Patología y recuperación de estructuras de fábrica [Freire T.] TCIR  [ob.] Técnicas constructivas de intervención en rehabilitación [Antelo T. Hermo S. Seoane G.]
+TITA [op.] Técnicas de investigación tecnológica en arquitectura [F.Cobián] TIRI  [ob.] Técnicas de intervención en rehabilitación de instalaciones [Pdte.]
+ACTAS MATERIAS TFM 1ºC 2ºC 2ªOP.
+ADIANTADA 12.12.2025 ENTREGA 13.02.2026 10.07.2026 viernes 11.09.2026
+1ª OP.C1 6.02.2026 DEFENSA miercoles 04.03.2026 24.07.2026 viernes 25.09.2026
+1ª OP.C2 19.06.2026 ACTAS: Consultar Consultar Consultar
+2ª OP. 17.07.2026 *ajuste puntual TFM[S]
+--
+19 ª edición 2025-26

@@ -1,0 +1,388 @@
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+AULA 1.1 FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+ 
+ 
+  
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+A1 0,50  
+A2 2,50  
+A3 4,80  
+A4 2,80  
+A5 1,90  
+A6 1,50  
+A7 3,80  
+A8 4,80  
+A9 2,40  
+A10 0,50  
+A11 0,50  
+A12 2,50  
+A13 4,80  
+A14 2,80  
+A15 1,90  
+A16 1,50  
+A17 2,70  
+A18 4,80  
+A19 2,80  
+A20 1,00  
+A21 0,50  
+A22 2,70  
+A23 4,80  
+A24 2,50  
+A25 0,50  
+A26 1,00  
+A27 2,40  
+A28 4,80  
+A29 2,80  
+A30 1,10  
+A31 1,00  
+A32 2,80  
+A33 1,70  
+A34 2,60  
+A35 0,50   
+ 
+ 
+ 
+ 
+
+
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+AULA 1.2 FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+B1 1,50  
+B2 2,50  
+B3 4,80  
+B4 2,80  
+B5 0,75  
+B6 0,50  
+B7 2,50  
+B8 4,80  
+B9 2,80  
+B10 1,50  
+B11 1,50  
+B12 2,50  
+B13 4,80  
+B14 2,80  
+B15 0,50  
+B16 0,50  
+B17 2,70  
+B18 4,80  
+B19 3,00  
+B20 1,50  
+B21 1,50  
+B22 2,40  
+B23 4,80  
+B24 2,80  
+B25 0,50  
+B26 0,50  
+B27 2,20  
+B28 4,80  
+B29 3,00  
+B30 1,20  
+B31 1,00  
+B32 1,80  
+B33 1,50  
+B34 1,50  
+B35 0,50   
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+
+
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+AULA 0.1 FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+C1 0,50  
+C2 2,40  
+C3 4,80  
+C4 2,40  
+C5 1,50  
+C6 1,50  
+C7 3,00  
+C8 4,80  
+C9 2,40  
+C10 0,50  
+C11 0,50  
+C12 2,40  
+C13 5,00  
+C14 2,80  
+C15 2,00  
+C16 1,50  
+C17 3,00  
+C18 3,00  
+C19 2,80  
+C20 2,50  
+C21 0,50  
+C22 2,60  
+C23 4,80  
+C24 2,40  
+C25 0,50  
+C26 1,00  
+C27 2,40  
+C28 4,80  
+C29 2,40  
+C30 0,50  
+C31 1,50  
+C32 2,80  
+C33 5,00  
+C34 2,80  
+C35 1,50  
+ 
+  
+ 
+ 
+ 
+ 
+
+
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+AULA 0.2 FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+D1   
+D2   
+D3   
+D4   
+D5   
+D6   
+D7   
+D8   
+D9   
+D10   
+D11   
+D12   
+D13   
+D14   
+D15   
+D16   
+D17   
+D18   
+D19   
+D20   
+D21   
+D22   
+D23   
+ 
+  
+ 
+ 
+ 
+ 
+
+
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+ 
+AULA 2.1 FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+E1 2,30  
+E2 2,10  
+E3 3,00  
+E4 2,50  
+E5 1,20  
+E6 1,20  
+E7 2,80  
+E8 4,90  
+E9 3,00  
+E10 1,60  
+E11 1,90  
+E12 2,80  
+E13 3,50  
+E14 2,30  
+E15 1,40  
+E16 1,20  
+E17 1,50  
+E18 1,90  
+E19 0,80  
+ 
+ 
+ 
+   
+   
+  
+ 
+  
+ 
+ 
+
+
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+AULA 2.2 FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+F1 1,50  
+F2 4,40  
+F3 3,30  
+F4 1,20  
+F5 1,90  
+F6 3,50  
+F7 3,80  
+F8 1,40  
+F9 0,90  
+F10 1,80  
+F11 2,00  
+F12 1,60  
+F13 1,80  
+ 
+           
+  
+
+
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+ 
+ 
+AULA 2.4 FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+H1 1,00  
+H2 2,90  
+H3 2,80  
+H4 0,60  
+H5 1,00  
+H6 2,90  
+H7 2,70  
+H8 0,90  
+H9 1,70  
+H10 3,60  
+H11 3,40  
+H12 2,10  
+H13 1,00  
+H14 1,80  
+H15 1,50  
+H16 1,00  
+ 
+  
+
+
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+SALÓN DE GRADOS FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+G1   
+G2   
+G3   
+G4   
+G5   
+G6   
+G7   
+G8   
+G9   
+G10   
+ 
+  
+
+
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+AULA 6 FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+J1 1,30  
+J2 3,40  
+J3 3,00  
+J4 1,20  
+J5 3,00  
+J6 1,40  
+J7 0,50  
+J8 2,50  
+J9 3,40  
+J10 2,80  
+J11 4,10  
+J12 5,00  
+   
+   
+   
+   
+ 
+  
+
+
+*NOTA: cada estudiante deberá de traer , junto con su ordenador portátil, una alargadera eléctrica lo 
+suficientemente larga para alzar la toma de corriente disponible más cercana al puesto asignado. 
+V 14.06.2021 11:36 
+ 
+AULA INFORMÁTICA FECHA        /       /20 
+Hora inicio    :        h Hora fin    :        h 
+ 
+MESA 
+Distancia a 
+enchufe (m) APELLIDOS, NOMBRE 
+I1   
+I2   
+I3   
+I4   
+I5   
+I6   
+I7   
+I8   
+I9   
+I10   
+I11   
+I12   
+ 
+ 

@@ -1,0 +1,152 @@
+__________________________________________________________________________ 
+ 
+ Normas para la utilización de los recursos informáticos de la  
+       Facultad de Inform ática. 
+___________________________________________________________________________ 
+ 
+ 
+Estas normas se aplican a todos los usuarios de los recursos informáticos 
+de la Facultad de Informática de la Universidad de La Coruña. 
+ 
+1. Sólo tendrán acceso a estos equipos los estudiantes y profesores de la 
+Facultad de Informática y, excepcionalmente, aquellos otros miembros de 
+la comunidad universitaria que sean autorizados para ello por la Junta 
+de Facultad. 
+ 
+2. Los equipos de la Facultad están reservados para tareas relacionadas 
+con la docencia de la Facultad o la investigación de sus Departamentos. 
+No deben utilizarse para otros fines. 
+ 
+3. En los laboratorios de prácticas: 
+ 
+ 3.1. Los estudiantes que est án realizando sus practicas en el 
+  horario reservado para las mismas, tendr án siempre prioridad en 
+ el uso de los equipos. 
+  
+ 3.2. No deber án trabajar más de dos personas simultáneamente en 
+ un mismo terminal. 
+ 
+ 3.3. Guarde silencio. No est á permitido fumar, comer ni beber. 
+ 
+ 3.4. No acapare ni  bloquee los equipos. Procure utilizar los 
+ equipos adecuados a las necesidades de su trabajo. En ning ún 
+ caso deje la pantalla bloqueada. Si va a ejecutar un proceso 
+ para el cual prev io una duración excepcional o un uso especial 
+ de recursos, p óngase en contacto con el personal del Centro de 
+ C álculo para garantizar la disponibilidad de los mismos. 
+ 
+ 3.5. Cuide el material. No modifique la ubicaci ón de los 
+ equipos ni su configuraci ón. Si un equipo no funciona 
+ correctamente o si piensa que su configuraci ón debe ser 
+ cambiada, comun íqueselo al personal del CeCaFI. 
+ 
+ 3.6. Siga con atenci ón las instrucciones relativas al uso de 
+ los equipos inform áticos y de las distintas aplicaciones 
+ disponibles. No apague ni reinicie estaciones de trabajo ni 
+ impresoras. Apague s ólo los monitores de aquellos equipos en 
+ los que as í se indique. En caso de duda, pregunte al personal 
+
+ del CeCaFI. 
+ 
+ 3.7. No interfiera en el trabajo de otros usuarios con acciones 
+ como el env ío de mensajes no deseados. 
+ 
+ 3.8. No imprima documentos ajenos a las pr ácticas de docencia. 
+ No env íe a la impresora documentación que está disponible en  
+ l ínea (helps, manuales, news, etc.). Si necesita algún documento 
+  que no se encuentre accesible, dir íjase al personal del CeCaFI. 
+ No utilice las impresoras para hacer varias copias de un mismo 
+ documento. No bloquee la cola de impresi ón. Tenga en cuenta que 
+ la Junta de Facultad podr á establecer anualmente un límite de 
+ impresi ón por usuario. 
+ 
+ 3.9. Si tiene que esperar por un puesto de trabajo, por trabajos 
+ en la cola de impresi ón o por el cambio de turno, hágalo fuera  
+ del laboratorio para evitar aglomeraciones y ruido. 
+ 
+4. Compromisos del usuario: 
+ 
+ 4.1. El usuario es responsable del uso que haga de su cuenta y  
+ de la informaci ón almacenada en el espacio de disco que se  
+ le asigne. En particular, el us uario se compromete a cumplir la 
+ legislaci ón vigente sobre protección jurídica de programas de 
+ ordenador.  
+ 
+ 4.2. El usuario es responsable de mantener en secreto su 
+ contrase ña. 
+ La contrase ña debe establecerse respetando unos criterios mínimos 
+ de seguridad. En particular: 
+ 
+  - No debe corresponder a ninguna palabra ya existente, 
+     nombre, n úmero de teléfono, sigla de proyecto,  
+    laboratorio u organismo, ni a cualquier informaci ón 
+    personal. 
+ 
+  - Debe contener al menos 6 caracteres, entre letras, 
+    n úmeros y signos de puntuación. 
+ 
+ 4.3. El usuario se compromete a no acceder a recursos (sistemas,  
+ cuentas, software, ficheros, etc.) a los que no est á autorizado. 
+ En particular, nadie est á autorizado a utilizar cuentas de otro  
+ usuario, ni puede dar permiso de acceso a su cuenta a otros  
+ usuarios. Se sugiere que no d é acceso a sus archivos a otros 
+ usuarios. 
+ Tenga en cuenta que si no lo hace as í será usted el responsable 
+ de las consecuencias que ello pudiera acarrear. 
+ 
+ 4.4. El usuario se compromete a no interferir intencionadamente 
+ en el funcionamiento normal de los sistemas y a no difundir datos  
+
+ ni ejecutar programas que puedan comprometer la seguridad de  
+ los mismos. 
+ 
+ 4.5. El usuario se compromete a no realizar acciones que supongan: 
+ 
+  - La ocultaci ón de su identidad. 
+  - La apropiaci ón de la contraseña de una cuenta ajena. 
+  - El acceso a la informaci ón perteneciente a otros  
+    usuarios o la alteraci ón de la misma. 
+  - La ofensa o difamaci ón de otras personas. 
+  - La alteraci ón del funcionamiento normal de los sistemas 
+    y las comunicaciones. 
+  - La conexi ón o el intento de conexión a sistemas no 
+    autorizados. 
+ 
+ 4.6. El respeto de estos compromisos se extiende igualmente a 
+ cualquier sistema ajeno al Centro que sea accedido a trav és de 
+ los equipos de la Facultad. 
+ 
+5. Tenga en cuenta que al estar destinadas las cuentas de docencia 
+exclusivamente a la realización de prácticas, no está garantizada la 
+confidencialidad de la información almacenada en los directorios asociados. 
+   Por ello, se recomienda que no utilice estas cuentas para el 
+almacenamiento de información de carácter personal o confidencial. 
+   A efectos de verificar el uso adecuado de los recursos, los  
+responsables de la Facultad podrán autorizar a los administradores de los 
+sistemas el acceso a la información contenida en estas cuentas.  
+   Asimismo, para garantizar el buen funcionamiento de los sistemas, el 
+personal del CeCaFI podrá excepcionalmente bloquear de forma cautelar la  
+cuenta (o alguno de los servicios asociados a ella) del usuario que está 
+provocando la interferencia. 
+ 
+6. En caso de incumplimiento de esta normativa: 
+ 
+ 6.1. El personal del CeCaFI podr á exigirle que ceda su puesto de  
+ trabajo por el incumplimiento de cualquiera de estas normas. 
+ 
+ 6.2. El incumplimiento de la norma relativa al uso de los recursos 
+ (punto 2) o de los compromisos del usuario (punto 4) conllevar á el 
+ bloqueo temporal de la cuenta de usuario, pudiendo llegarse a su 
+ supresi ón definitiva en caso de reiteración. 
+ 
+ 6.3. La reiteraci ón o alevosía en el incumplimiento de las normas 
+ conducir á a la apertura de expediente sancionador por parte de la  
+ Facultad de Inform ática. 
+ 
+___________________________________________________________________________ 
+     
+  Aprobado por la Junta de la Facultad de Informática el día 
+
+  5 de Marzo de 1998. 
+_____________________________________________ 
+ 

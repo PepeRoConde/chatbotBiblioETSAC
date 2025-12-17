@@ -1,0 +1,70 @@
+Obradoiro de Fabricación Dixital da ETSAC
+Recursos
+showroom
+Uso de la Cortadora Láser. Normas y reservas.
+Manuales
+Uso de la Cortadora Láser. Normas y reservas.
+Se deberá aportar el material de corte.
+Madera: DM, contrachapado,… espesor máximo 6mm. El contrachapado se recomienda que sea de maderas blandas y fibras claras.
+Metacrilato: espesor máximo 8mm.
+Papel gramaje superior a 120 gr.
+Cartón Piedra
+Cartón pluma–> no se puede utilizar, contiene PVC.
+Otros materiales, podrán ser utilizados previa prueba.
+NO SE ADMITE: PVC, TEFLÓN, o cualquier material que contenga cloro, flúor, etc..
+NO SE ADMITEN METALES
+NO se admiten poliestireno o poliuretanos.
+NO se recomienda  policarbonatos.
+Formato para corte:
+El archivo se procesa desde un archivo de Coreldraw, versión X3 disponible en el #ldfab
+Admite directamente los formatos .cdr (CorelDraw X3) y dxf (2000/2004), los dwg deben de ser procesados en el laboratorio.
+Se entregará en la dirección de correo del laboratorio ( ldfab.etsa@gmail.com )en un ÚNICO archivo comprimido, en formato cdr,  dxf o dwg con el color por capa establecido para sus elementos. El nombre del archivo deberá de estar constituido por:  apellido-nombre-AnchoxAlto por ejemplo: rodriguez-juan-500×450.cdr/dxf/dwg.
+No se admitirán archivos desde memorias USB o HD portátiles.
+Formato: Apaisado
+Tamaño máximo: 1000×750 mm. siempre definido con un rectángulo en color Azul (5). Espacio libre 60x100mm. en esquina superior izquierda. 10mm. de margen a los bordes (para evitar deformaciones del material)
+Nombre del Archivo:  apellido-nombre-AnchoxAlto por ejemplo: rodriguez-juan-500×450.cdr/dxf/dwg
+Color de las entidades: Por capa
+Estilo de texto para marcado y rotulación de piezas: *.shx
+No utilizar líneas de corte superpuestas. Mínima separación entre líneas 1mm en maderas y cartones, y 3mm en metacrilato y otros plásticos.
+Colocar las piezas rectangulares siempre en disposición apaisada.
+Para el corte de piezas muy pequeñas en papel o cartón y con el fin de que no se pierdan en el interior de la cortadora,  no cerrar la líneas de corte dejando dos o más pequeños puntos de contacto para su posterior corte con el cutter.
+Su organización ha de ser acorde con estas condiciones de nombre de capa y color asociado:
+(0): vacía. Sin uso
+Rojo (1): utilizado para corte exterior
+Amarillo (2): utilizado para corte interior
+Verde (3): utilizado para grabado
+Cian (4): utilizado para rotulación de textos y marcas.  Atención: fuentes para rotulación y marcado solo *.shx. No utilizar*.ttf.
+Azul (5): utilizado para definir marco exterior.
+IMPORTANTE: Siempre un recuadro de tamaño no superior a 1000x750mm. que englobe todos los objetos a procesar con sus dimensiones indicadas en milímetros, acorde con el material aportado para el corte.
+Dejar un margen superior izquierdo sin ocupar de al menos 60×100 mm. para pruebas de corte.
+No podrán existir otras capas distintas a las indicadas, todas estarán activas y desbloqueadas. Solo contendrán los objetos y entidades a procesar.
+Cualquier archivo que incumpla estas reglas no podrá ser utilizado, perdiendo el alumno el turno reservado.
+RESERVA de TURNO y TARIFAS.
+Inscripción:  A través del correo electrónico del taller de fabricación los Lunes,  Miércoles, Jueves y Viernes o en el propio laboratorio planta sótano del Edificio de Departamentos.
+Los trabajos han de ser enviados al correo electrónico (no se admite otro medio para evitar virus) del taller de fabricación en el momento de realizar la solicitud. TODOS LOS TRABAJOS DEBE DE SER REVISADOS para comprobar que tienen el formato correcto y adecuado para ser llevado a la correspondiente máquina y para REALIZAR LA ESTIMACIÓN DE TIEMPO NECESARIO PARA SU EJECUCIÓN, antes de reservar bonos y pedir turno.
+Leer las entradas relativas a cada máquina donde se detalla cómo se deben de preparar los trabajos.
+Tarifas : http://etsa.udc.es/ofabdaetsac/web/wp-content/uploads/2016/09/Precios-para-la-utilización-de-los-equipos-del-Laboratorio-de-Fabricación-Digital-de-la-ETSAC.pdf
+Es conveniente adjuntar número telefónico de contacto, pues esto puede agilizar la gestión y resolución de errores.
+La no presentación en el turno reservado implica una penalización consistente en la no autorización de uso de la máquina al alumno hasta pasados  al menos 15 días, o hasta la disponibilidad de un nuevo turno.
+QUE OTRAS COSAS ME PUEDE VENIR BIEN SABER:
+Una cortadora láser no es una impresora láser .
+Una cortadora láser tampoco es una impresora 3D.
+Una cortadora láser te permite cortar paneles 2D para luego ensamblar formado estructuras 3D mediante diversas técnicas de ensamblado. Infórmate.
+Con cloroformo se puede conseguir la soldadura química del metacrilato. Úsalo en un lugar muy ventilado. Ficha internacional de seguridad y documentación toxicológica.
+En la actualidad existe una gama de pegamentos transparentes con menos riesgo toxicológico que el cloroformo pertenecientes a la gama de pegamentos
+La máquina de corte láser es una máquina para corte y grabado  2D, carece de precisión en el eje Z. Si quieres hacer canales sobre el material controlando con precisión la profundidad del canal, entonces, la máquina que necesitas es una fresadora, no una cortadora láser.
+Contacto
+Escuela Técnica Superior de Arquitectura de A Coruña.
+Aprende más en los cursos organizados periódicamente pulsando aquí ->
+Post navigation
+Busca
+Entradas recentes
+FRESADORA ALARSYS instrucciones de uso simplificadas
+Llega la OSHWDem 2017
+recursos cortadora láser caseira
+Cartaz Obradoiro de fabricación dixital e deseño paramétrico
+Obradoiro de deseño paramétrico e fabricación dixital
+Sociales
+Ver perfil de Ofab_etsac en Twitter
+Ver perfil de Ofab_etsac en Instagram
+Ver perfil de Ofab_etsac en Pinterest

@@ -1,0 +1,165 @@
+Formulario de busca
+Español
+Galego
+English
+A FIC Presentación Estructura e organización Órganos de Goberno Comisións Delegación e Asociacións Departamentos Normativa
+Presentación
+Estructura e organización Órganos de Goberno Comisións
+Órganos de Goberno
+Comisións
+Delegación e Asociacións
+Departamentos
+Normativa
+Estudos Información Xeral Calendarios Titorías Plano de Acción Titorial (PAT) Mobilidade Procedementos Administrativos Grao en Enxeñaría Informática (GEI) Portal de Estudos Acceso e Admisións Horarios e Exames Plan de estudos Docencia en inglés Prácticas en Empresa Traballo Fin de Grao Orientación Curso Ponte Contacto Grao en Ciencia e Enxeñaría de Datos (GCED) Portal de Estudos Por qué o GCED? Acceso e Admisións Horarios e Exames Plan de Estudos Prácticas en empresa Traballo Fin de Grao Orientación Contacto Grao en Intelixencia Artificial (GIA) Portal de estudos Acceso e Admisións Horarios e Exames Plan de estudos Prácticas en Empresa Traballo Fin de Grao Orientación Contacto Simultaneidade GEI + GCED Máster Universitario en Enxeñaría Informática (MUEI) Outros Mestrados Programas de Doutoramento
+Información Xeral Calendarios Titorías Plano de Acción Titorial (PAT) Mobilidade Procedementos Administrativos
+Calendarios
+Titorías
+Plano de Acción Titorial (PAT)
+Mobilidade
+Procedementos Administrativos
+Grao en Enxeñaría Informática (GEI) Portal de Estudos Acceso e Admisións Horarios e Exames Plan de estudos Docencia en inglés Prácticas en Empresa Traballo Fin de Grao Orientación Curso Ponte Contacto
+Portal de Estudos
+Acceso e Admisións
+Horarios e Exames
+Plan de estudos
+Docencia en inglés
+Prácticas en Empresa
+Traballo Fin de Grao
+Orientación
+Curso Ponte
+Contacto
+Grao en Ciencia e Enxeñaría de Datos (GCED) Portal de Estudos Por qué o GCED? Acceso e Admisións Horarios e Exames Plan de Estudos Prácticas en empresa Traballo Fin de Grao Orientación Contacto
+Portal de Estudos
+Por qué o GCED?
+Acceso e Admisións
+Horarios e Exames
+Plan de Estudos
+Prácticas en empresa
+Traballo Fin de Grao
+Orientación
+Contacto
+Grao en Intelixencia Artificial (GIA) Portal de estudos Acceso e Admisións Horarios e Exames Plan de estudos Prácticas en Empresa Traballo Fin de Grao Orientación Contacto
+Portal de estudos
+Acceso e Admisións
+Horarios e Exames
+Plan de estudos
+Prácticas en Empresa
+Traballo Fin de Grao
+Orientación
+Contacto
+Simultaneidade GEI + GCED
+Máster Universitario en Enxeñaría Informática (MUEI)
+Outros Mestrados
+Programas de Doutoramento
+Calidade SGIC Política de Calidade Memorias e Informes Seguimento Enquisas Atención ao usuario Outros enlaces de interese
+SGIC
+Política de Calidade
+Memorias e Informes
+Seguimento
+Enquisas
+Atención ao usuario
+Outros enlaces de interese
+Servizos Secretaría Información administrativa Estudos de grao Estudos de mestrado Trámites en secretaría Horario Biblioteca Cafetería Conserxería Instalacións Aulas Laboratorios Salas Especiais
+Secretaría Información administrativa Estudos de grao Estudos de mestrado Trámites en secretaría Horario
+Información administrativa Estudos de grao Estudos de mestrado Trámites en secretaría
+Estudos de grao
+Estudos de mestrado
+Trámites en secretaría
+Horario
+Biblioteca
+Cafetería
+Conserxería
+Instalacións Aulas Laboratorios Salas Especiais
+Aulas
+Laboratorios
+Salas Especiais
+International
++ FIC Coñécenos Onde estamos Historia Estudar na FIC Premio TFG Feira de Empresas Emprendedores FIC-Sociedade CÁTEDRA ALDABA CÁTEDRA CICAS CÁTEDRA NTT DATA CÁTEDRA R IDEFIC Historia do club Quen somos?
+Coñécenos Onde estamos Historia
+Onde estamos
+Historia
+Estudar na FIC
+Premio TFG
+Feira de Empresas
+Emprendedores
+FIC-Sociedade
+CÁTEDRA ALDABA
+CÁTEDRA CICAS
+CÁTEDRA NTT DATA
+CÁTEDRA R
+IDEFIC Historia do club Quen somos?
+Historia do club
+Quen somos?
+Novas / Emprego
+.
+.
+Plan de estudos
+Vostede está aquí
+Información xeral
+O título de Graduado/a en Enxeñaría Informática pola UDC propón a integración de todas as especialidades existentes en España, sendo o único título en Galicia que asegura a cobertura de todas as competencias que poden adquirirse hoxe en día no ámbito da Enxeñaría Informática: o estudante poderá elixir no 3º curso entre as especialidades de Computación, Enxeñaría de Computadores, Enxeñaría do Software, Sistemas de Información e Tecnoloxías da Información.
+O título no portal estudos da UDC
+Guías docentes
+Información de seguimento do título
+Última memoria verificada
+Materias comúns
+Detallamos a continuación as asignaturas de formación básica e obrigatorias que todo alumno do Grao en Enxeñaría Informática debe cursar:
+Primeiro curso (asignaturas de formación básica):
+Programación I
+Informática Básica
+Cálculo
+Matemática Discreta
+Administración e Xestión de Organizacións
+Tecnoloxía Electrónica
+Programación II
+Fundamentos dos Computadores
+Estatística
+Álxebra
+Segundo curso (asignaturas obrigatorias do título):
+Algoritmos
+Estrutura de Computadores
+Paradigmas de Programación
+Deseño Software
+Sistemas Operativos
+Bases de Datos
+Redes
+Concorrencia e Paralelismo
+Proceso Software
+Sistemas Intelixentes
+Terceiro curso, primeiro cuadrimestre (asignaturas obrigatorias do título):
+Xestión de Proxectos
+Interfaces Persoa Máquina
+Internet e Sistemas Distribuídos
+Lexislación e Seguridade Informática
+Xestión de Infraestructuras
+Mencións
+En España, o título de Grao en Enxeñaría Informática debe seguir as fichas profesionais da titulación, que podes consultar aquí .  Nestas fichas fíxanse en 5 o número de especialidades (coñecidas como mencións ) que se poden cursar neste título en España. A nosa facultade é a única no sistema universitario galego que ofrece a posibilidade de realizar calquera destas 5 mencións, facilitando a posibilidade de simultanear dúas delas.
+A diferencia entre mencións comeza no segundo cuatrimestre do Terceiro Curso e continúa durante todo o Cuarto Curso. Nos links que figuran a contnuación podes atopar algo de información sobre cada unha destas mencións.
+Enxeñaría do Software. Ficha do itinerario. Máis información.
+Enxeñaría do Software.
+Ficha do itinerario.
+Máis información.
+Enxeñaría de Computadores. Ficha do itinerario. Díptico. Máis información.
+Enxeñaría de Computadores.
+Ficha do itinerario.
+Díptico.
+Máis información.
+Computación. Ficha do itinerario. Díptico.
+Computación.
+Ficha do itinerario.
+Díptico.
+Sistemas de Información. Ficha do itinerario. Díptico. Máis información.
+Sistemas de Información.
+Ficha do itinerario.
+Díptico.
+Máis información.
+Tecnoloxías da Información. Ficha do itinerario. Máis información.
+Tecnoloxías da Información.
+Ficha do itinerario.
+Máis información.
+Se xa estás matriculado na UDC, podes atopar unha información máis detallada pulsando neste enlace para visitar o noso TaboleiroFIC .
+Facultade de Informática da Coruña
+Facebook
+Twitter
+Youtube
+Rss
+Telegram

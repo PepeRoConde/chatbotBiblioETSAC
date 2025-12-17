@@ -1,0 +1,221 @@
+Moodle da UDC
+
+
+Quen somos
+Adxunto ao Reitor en TIC
+Responsable dos Servizos de Informática e Comunicacións (SIC)
+Profesor na Facultade de Informática.
+Director do Centro Universitario de Formación e Innovación Educativa (CUFIE)
+Profesor na Facultade de Informática
+
+
+Contidos
+Novidades das ferramentas 
+TIC para o novo curso
+Cambios "non visibles" do 
+novo campus virtual
+Funcionalidades actuais e 
+futuras
+Respostas de preguntas 
+realizadas durante a 
+presentación
+Peche da sesión e 
+publicación da gravación
+
+
+Melloras TIC
+
+
+Características
+Moodle
+3.9
+Campus virtual mais áxil y adaptable
+Deseñado para dar a mellor resposta en 
+calquera circunstancia
+Tecnoloxías de aloxamento novas, 
+potentes e adaptables.
+Reforzos para o teleensino.
+Cambios e modificacións continuas.
+Servizos da UDC incluídos no campus 
+virtual.
+
+
+Evolución
+Novas funcionalidades con novos 
+módulos
+Compatibilidade da App móbil propia de 
+Moodle
+Turnitin
+UDC TV
+Microsoft 365
+Mellora da experiencia de usuario
+
+
+Campus Virtual UDC
+Principais novidades
+8
+
+
+Seguro, amigable e accesible
+Moodle 3.9 está adaptado á 
+GDPR (Política de Protección 
+de datos da UE)
+Regulation (EU) 2016/679
+Obrigatoria desde o 25 de maio 
+de 2018
+A nova interface de 
+usuario facilita a 
+navegabilidade polo 
+contido, adaptándose a 
+calquera dispositivo
+Mellora substancial nas 
+opcións de accesibilidade 
+e usabilidade (fontes, 
+lentes para ver o contido, 
+panel lateral …)
+Tema “responsive”
+Botón activar edición 
+sempre accesible
+Edición directa de títulos
+Bloque central amplo
+
+Nova interface
+Melloras
+• Detalle de cursos e 
+elementos accedidos recentemente
+• Facilidade para ordenar e clasificar os 
+cursos aos que temos acceso
+• Facilidade para personalizar os bloques 
+da interface
+• Panel esquerdo para acceso ós 
+elementos principais
+
+
+Nova interface
+• Acceso rápido a correo, mensaxes e notificación
+• Contorna de mensaxes mellorada: delimitación de 
+destinatarios, remitentes e mensaxes grupais
+• Melloras na xestión do calendario: edición en venta 
+emerxente e arrastrar-soltar para mover eventos
+• Espazo para arquivos privados informa do espazo 
+dispoñible
+• Recursos e actividades ocultas: permite poñer a 
+disposición dos estudantes recursos e actividades 
+que non se mostran na páxina do curso
+• Etiquetas para facilitar a procura de información
+
+
+Nova interface
+• Novo selector de actividades e recursos con 
+buscador integrado
+• Inclúe axuda en liña para cada actividade e 
+recurso
+
+
+Nova interface
+• Accede á axuda en liña de 
+Moodle para a páxina que 
+se está a visualizar
+• Selecciona o idioma da 
+axuda en función do 
+idioma da interface
+
+
+Melloras
+• Ventá emerxente alerta cando o tempo 
+da sesión se vai esgotar
+• Reproductor de video mellorado
+• Gráficas interactivas para os informes
+• Xestión de participantes nunha única 
+pantalla
+• Marcaxe de actividades como 
+completadas no nome de calquera 
+estudante
+• Condicionamento de insignias en base a 
+outra insignia lograda con anterioridade 
+e soporte para OpenBagdes 2.0
+
+
+Melloras
+• Calquera elemento eliminado queda gardado na papeleira 
+durante 4 semanas
+• Durante ese tempo é posible restáuralo como estaba
+• No caso de actividades, recupéranse tamén as entregas e a 
+actividade dos estudantes
+• Unha vez eliminado un elemento, tarda aproximadamente 
+15 minutos en aparecer na papeleira
+
+
+Melloras
+• Botón para gravar vídeo e son directamente, p.e. para 
+proporcionar comentarios nas entregas de actividades.
+• Melloras en simboloxía matemática
+• Emoticonos
+
+
+Melloras
+• Anotacións sobre diferentes 
+tipos de arquivos (non só 
+PDF) sen saír do editor
+• Selección e descarga 
+conxunta de tarefas
+• Modificar prazo para 
+estudantes ou grupos
+• Tipos de ficheiro permitidos
+• Rotación de documentos 
+PDF
+• Etiquetas no banco de 
+preguntas
+• Borrar opción seleccionada 
+en preguntas de opción 
+múltiple
+• Exportación de preguntas 
+individuais
+• Melloras no informe de 
+resultados
+• Permite fixar temas de 
+debate
+• Cada mensaxe dispón 
+de ligazón permanente 
+(permalink)
+• Permite destacar, 
+marcar con estrelas, 
+ordenar, bloquear, etc.
+• Cartafol: permite descargar 
+todo o seu contido nun 
+arquivo ZIP
+• Libro: melloras na impresión 
+e navegabilidade
+• Rúbricas: permite 
+puntuacións negativas e o 
+cálculo non é 
+obrigatoriamente desde 0
+
+
+Contido interactivo con H5P
+• Software libre multiplataforma que permite 
+reutilización a través do banco de contidos
+• 35 tipos diferentes de actividades: 
+presentacións e vídeos interactivos, galerías 
+de imaxes, liñas do tempo, gráficas, test ...
+• Integrado no editor e no libro de cualificacións
+• Máis información: https://h5p.org/
+
+
+Enlace ao novo Campus 
+Virtual UDC
+https://campusvirtual.udc.gal
+
+
+Rede de Asesore/as de Teleformación
+https://www.udc.es/cufie/
+TELEFORMACION/RedeAsesores/
+
+
+Agradecementos
+Agradecemento especial a todo 
+o persoal do CUFIE e do SIC, 
+especialmente
+• Pedro
+• Ángel
+• Francisco

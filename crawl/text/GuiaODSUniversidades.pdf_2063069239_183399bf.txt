@@ -1,0 +1,2376 @@
+EN COLABORACIÓN CON
+CÓMO EMPEZAR CON LOS 
+ODS EN LAS UNIVERSIDADES
+EDICIÓN EN ESPAÑOL
+UNA GUÍA PARA LAS UNIVERSIDADES, LOS CENTROS DE EDUCACIÓN SUPERIOR Y EL SECTOR 
+ACADÉMICO
+
+Esta guía ha sido elaborada por la Sustainable Development Solutions Network (SDSN) Australia / Pacíﬁco en colaboración con los ACTS 
+(Australian Campuses Towards Sustainability) y la Secretaria Global de de SDSN.
+La edición en español de esta guía ha sido posible gracias a la colaboración de los siguientes miembros de la Red Española 
+para el Desarrollo Sostenible (REDS / SDSN-Spain):
+Elena Pérez Lagüela y José Luis de la Cruz (ASYPS); Alexis Velo y Silvia Arias Careaga (Oﬁcina de Acción Solidaria y Cooperación, 
+Universidad Autónoma de Madrid); Cristina Bernis (Asociación para el Estudio de la Ecología Humana, Universidad Autónoma de Madrid); 
+Montserrat Cabré Pairet, Joseﬁna Fernández Martínez y Eva Pelayo Sañudo (Área de Igualdad, Conciliación y Responsabilidad Social, 
+Universidad de Cantabria); Olatz Ukar Arrien y Miguel Ruiz (Área de medio ambiente, Responsabilidad Social, Universidad de Deusto); 
+Javier Agustí; Dorothea Strüber (SDSN) y Marta García Haro (REDS).
+Autores: Tahl Kestin (SDSN Australia/Paciﬁc & Monash Sustainable Development Institute, Monash University), Marjan van den 
+Belt (Victoria University of Wellington), Leanne Denby (ACTS & Macquarie University), Katie Ross (Institute for Sustainable Futures, 
+University of Technology Sydney), Professor John Thwaites (SDSN Australia/Paciﬁc & Monash Sustainable Development Institute, 
+Monash University), and Martine Hawkes (Monash Sustainable Development Institute, Monash University). 
+Los autores quieren agradecer a las siguientes personar por su ayuda, contribuciones, casos de estudio e información: 
+Elizabeth Bacchetti (Monash University), Lauren Barredo (SDSN), Adele Broadbent (Council for International Development, NZ), 
+María Cortés Puch (SDSN), Peter Devereux (Curtin University), Jen Dollin (Western Sydney University), Jane Fulton, Professor Dave 
+Griggs (Monash University), Nina Hall (University of Queensland), Eleanor Jackson (Oxfam-Monash Partnership, Monash University), 
+Caitlin Leahy (University of Technology Sydney), Professor Manfred Lenzen (University of Sydney), Siamak Sam Loni (Monash 
+University), Professor Peter Newman (Curtin University), Professor Thomas Neitzert (Auckland University of Technology), Kerryn 
+O’Conor (James Cook University), Susan Pepper (Monash University), Alberto Posso (RMIT University), Professor Jeffrey Sayer 
+(James Cook University), Lesley Stone (University of Auckland), Ranjit Voola (University of Sydney), Andrew Wilks (Victoria University 
+of Wellington), Helen Whitbread (University of Western Australia).
+Coordinadora del proyecto: Tahl Kestin (SDSN Australia/Paciﬁc & Monash Sustainable Development Institute, Monash University).
+Al citar esta publicación, se sugiere que se haga de la siguiente forma: SDSN Australia/Paciﬁc (2017): Getting started with the 
+SDGs in universities: A guide for universities, higher education institutions, and the academic sector. Australia, New Zealand and 
+Paciﬁc Edition. Sustainable Development Solutions Network – Australia/Paciﬁc, Melbourne.
+Sobre SDSN 
+La Red de Soluciones para un Desarrollo Sostenible (Sustainable Development Solutions Network), SDSN por sus siglas en inglés, es 
+una iniciativa global lanzada por el ex secretario general de Naciones Unidas Ban Ki-Moon en 2012. Su misión es movilizar la experiencia 
+y los recursos – tanto técnicos como cientíﬁcos – del ámbito académico, de la sociedad civil y del sector privado, aportando soluciones 
+para un desarrollo sostenible a nivel local, nacional y global. La red SDSN se articula en redes nacionales y regionales de centros de 
+conocimiento y en redes temáticas con un enfoque hacia soluciones prácitcas. Su Academia de los ODS (The SDG Academy) es un 
+proyecto de universidad online para ofecer educación gratuita en desarrollo sostenible: www.unsdsn.org 
+Sobre SDSN Australia/Paciﬁc 
+The Sustainable Development Solutions Network (SDSN) – Australia/Paciﬁc is a network of SDSN members in Australia, New Zealand 
+and the Paciﬁc, and works to mobilise universities and the broader community to focus on the SDGs. SDSN Australia/Paciﬁc initiated and 
+leads the University Commitment to the SDG. The network is hosted by Monash University in Melbourne, Australia. ap-unsdsn.org 
+Sobre ACTS 
+The Australasian Campuses Towards Sustainability (ACTS) is a membership-based association for the Australian and New Zealand 
+higher education sectors. ACTS supports the development and connection of sustainability leaders, practitioners and educators 
+towards a more sustainable sector. www.acts.asn.au   
+ 
+Este proyecto también ha sido posible gracias a las siguientes instituciones:
+
+
+ÍNDICE 
+Resumen ejecutivo 2
+Sobre esta guía 4
+1. Por qué son importantes los ODS para las universidades 5
+1.1 ¿Qué son los ODS?  5
+1.2 Razones para comprometerse con los ODS desde la universidad 7
+2.  Cómo pueden las universidades contribuir a lograr los ODS 10
+2.1 Educación y aprendizaje 11
+2.2 Investigación  16
+2.3 Gobernanza institucional, prácticas y cultura de la Universidad  23
+2.4 Liderazgo social 28
+3. Una universidad comprometida con los ODS 31
+3.1 Paso 1: Analizar lo que ya se está haciendo  32
+3.2 Paso 2: Desarrollar capacidad y liderazgo interno alrededor de los ODS 33
+3.3 Paso 3: Identiﬁcar prioridades, oportunidades y debilidades 33
+3.4 Paso 4: Integrar, implementar e incorporar los ODS en las estrategias y planes 34
+3.5 Paso 5: Monitorizar, evaluar y comunicar sus acciones con respecto a los ODS 34
+4.  Herramientas y orientación para la integración de los ODS 35
+4.1 Supervisión de las contribuciones universitarias a los ODS 35
+4.2 Realización de un taller de participación con actores interesados 36
+4.3 Difusión de casos de éxito de las universidades comprometidas 38
+4.4 El Compromiso de la Universidad con los ODS 38
+4.5 Cómo gestionar las interrelaciones  40
+4.6 Reporting sobre la contribución a los ODS 40
+Referencias 43
+Anexo A: Ejemplos de retos abordados con los ODS 45
+Anexo B: Casos de estudio (solo en Australia) 47
+B.1 Compromiso estudiantil a través del Take one Step (Monash University) 47
+B.2 Doctorado en Desarrollo Sostenible por los ODS (Curtin University) 47
+B.3 El Programa de Práctica del Desarrollo (James Cook University)  47
+B.4 Foro de Liderazgo Estudiantil sobre los ODS (Monash University). 48
+B.5 Enseñando el ODS 1 (The University of Sydney) 48
+B.6 Mapeando el Currículo a través de los ODS (Victoria University of Wellington)  48
+B.7 Logrando el ODS 6: Serie de documentos de discusión (The University of Queensland)  49
+B.8 La Red de Desarrollo UTS (The University of Technology, Sydney) 49
+B.9 Foro de Ideas ODS (Victoria University of Wellington). 49
+B.10 Sitio web de investigación ODS (The University of Western Australia).  50
+B.11 Estudio de Investigación de Familias Seguras (Monash University).  50
+B.12 Conectando la investigación académica con los ODS (Institute for Sustainable Futures,  
+ University of Technology, Sydney). 50
+B.13 Red ODS de Australia Occidental (Curtin University Sustainability Policy Institute).  51
+B.14 Liderar la localización de los ODS en Australia (SDSN Australia/Paciﬁc) 51
+B.15 Reconocimiento del impacto en los ODS en los premios universitarios (Wester Sydney U). 51
+B.16  Cumbre de Bienestar Social (The University of Sydney) 52
+B.17  Taller de Liderazgo Universitario en ODS (James Cook University). 52
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES2
+RESUMEN EJECUTIVO
+La declaración de Naciones Unidas “Transformando nuestro mundo: la Agenda 2030 para el Desarrollo 
+Sostenible” es uno de los acuerdos globales más ambiciosos y trascendentales en la historia reciente. La 
+agenda, con los 17 Objetivos de Desarrollo Sostenible (ODS) como eje central, es una guía para abordar 
+los desafíos mundiales más acuciantes: acabar con la pobreza y promover la prosperidad económica, la 
+inclusión social, la sostenibilidad medioambiental, la paz y el buen gobierno para todos los pueblos para 
+el 2030. 
+ 
+Los ODS han suscitado un gran interés, produciéndose las primeras respuestas por parte de Gobiernos, 
+empresas y organizaciones en la mayoría de países. Los ODS están llamados a inﬂuir en las estrategias 
+y acciones de todos estos actores, así como en los ﬂujos de ﬁnanciación para el desarrollo, durante los 
+próximos años. Los ODS también tienen una gran relevancia para las universidades y, de manera más 
+general, para el sector servicios y para otras instituciones académicas.
+Los ODS incluyen una compleja gama de desafíos sociales, económicos, y medioambientales, que 
+requerirá de trasformaciones en el funcionamiento de las sociedades y las economías, y en cómo 
+interactuamos con nuestro planeta. La educación, la investigación, la innovación y el liderazgo serán 
+esenciales para ayudar a la sociedad a enfrentar estos desafíos. Las universidades, debido a su labor de 
+generación y difusión del conocimiento y su preeminente situación dentro de la sociedad, están llamadas 
+a desempeñar un papel fundamental en el logro de los ODS. Es probable que ninguno de los ODS pueda 
+cumplirse sin la implicación de este sector. 
+Comprometerse con los ODS también beneﬁciará en gran medida a las universidades, pues 
+ayudará a demostrar su capacidad de impacto, atraerá el interés de formación relacionada con 
+los ODS, creará nuevas alianzas, permitirá acceder a nuevas fuentes de ﬁnanciación y deﬁnirá a la 
+universidad como institución comprometida.
+La educación y la investigación se reﬂejan explícitamente en varios de los ODS en los que las 
+universidades tienen un papel directo. Sin embargo, la contribución de las universidades a los ODS es 
+mucho más amplia, ya que pueden apoyar tanto la implementación de cada uno de los ODS como la del 
+propio marco de los ODS. Algunas de estas áreas principales de contribución son:
+t Aprendizaje y enseñanza: Dotar al estudiantado del conocimiento, las habilidades y la 
+motivación suﬁciente para comprender y abordar los ODS (de manera general, “Educación 
+para el Desarrollo Sostenible”, EDS); proporcionar experiencia académica o profesional en 
+profundidad para implementar soluciones a los ODS; proporcionar una educación asequible e 
+inclusiva para todos; fomentar el desarrollo de las capacidades de estudiantes y profesionales 
+de países en desarrollo; y empoderando y movilizando a la juventud.
+t Investigación: Dotar del conocimiento necesario, las pruebas cientíﬁcas, las soluciones, 
+tecnologías, vías e innovaciones para respaldar y apoyar la implementación de los ODS por 
+parte de la comunidad global -a través tanto de enfoques disciplinarios tradicionales, como de 
+nuevos enfoques interdisciplinarios, transdisciplinarios y de enfoque cientíﬁco; dotar a los países 
+en desarrollo de capacidad de emprendimiento y utilización de la investigación; colaborar y 
+apoyar a empresas innovadoras para implementar soluciones ODS; potenciar la diversidad en 
+investigación; y formar a los estudiantes en la investigación del desarrollo sostenible.
+t Gobernanza institucional, políticas de gestión y extensión universitaria: Implementar 
+los principios de los ODS a través de la gestión y gobierno de la universidad en sus diferentes 
+aspectos: empleo, ﬁnanzas, servicios universitarios, instalaciones, adquisiciones, recursos 
+humanos y gestión académica y de estudiantes
+t Liderazgo social: fortalecimiento del compromiso público de la universidad y de su implicación 
+en el abordaje de los ODS; iniciar y facilitar el diálogo y la acción intersectorial; asegurar la 
+presencia del sector educativo superior en la implementación nacional de los ODS; ayudar a 
+diseñar políticas basadas en los ODS; y demostrar el compromiso universitario con los ODS.  
+ 
+RESUMEN EJECUTIVO
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 3
+ 
+ 
+A través de las actuales acciones en estas áreas, las universidades ya están haciendo importantes 
+contribuciones para el cumplimiento de los ODS. No obstante, para que los ODS sean un éxito a escala 
+global, es necesario que las universidades adquieran un papel preponderante en el desarrollo sostenible 
+y lideren la implementación de los ODS.
+Para ello, es esencial un enfoque integral de toda la universidad. Las universidades pueden seguir los 
+siguientes pasos para comenzar, o profundizar, su compromiso con los ODS:
+1. Conocer e identiﬁcar lo que ya se está haciendo (mapeo) 
+2. Apropiarse de la Agenda 2030 desarrollando capacidad y liderazgo interno de los ODS
+3. Identiﬁcar prioridades, oportunidades y debilidades
+4. Integrar, implementar e incorporar los ODS en las estrategias, políticas y planes de la 
+universidad
+5. Monitorizar, evaluar y comunicar sus acciones con respecto a los ODS
+Las universidades tomarán contacto con este proceso de formas distintas. Esta guía pretende 
+proporcionar herramientas generales y orientaciones que después pueden adaptarse según sus 
+propias características y necesidades – incluyendo orientaciones y consejos sobre el seguimiento o 
+el compromiso de los actores universitarios y equipos de gobierno, construyendo ejemplos o casos 
+exitosos, gestionando interrelaciones e informando (de todo lo anterior). 
+ 
+Alcanzar los ODS supone acometer una tarea de grandes proporciones, en la que las universidades 
+tienen un papel protagonista en su apoyo y cumplimiento. Urge la puesta en marcha de los ODS. La 
+clave es que las universidades comiencen a desarrollar esta labor y esta guía proporciona el marco para 
+hacerlo.
+RESUMEN EJECUTIVO
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES4
+SOBRE ESTA GUÍA
+¿Cuál es el propósito de esta guía?
+Empezar con los ODS en las universidades subraya tanto el papel clave que las universidades – y, en 
+general, la educación superior y el sector académico - tienen en contribuir a alcanzar los Objetivos de 
+Desarrollo Sostenible (ODS) de Naciones Unidas, así como los beneﬁcios que este compromiso pueda 
+conllevar. La guía proporciona información práctica sobre cómo empezar a trabajar través de ejemplos 
+concretos. 
+Si bien existe una conciencia cada vez mayor del papel fundamental que tienen las universidades 
+en la implementación de los ODS – y muchas universidades buscan desempeñar activamente ese 
+papel - existe muy poco material disponible que oriente “en la práctica”. Las guías existentes sobre la 
+implementación de los ODS en otros sectores [1,2,3], no abordan las necesidades y oportunidades 
+únicas de las universidades. Esta guía llena este vacío aprovechando los recursos existentes y las 
+experiencias de las universidades que ya han comenzado a involucrarse con los ODS. 
+No existe una forma única y correcta de comprometerse con los ODS desde las universidades. El cómo 
+las universidades deciden actuar dependerá de su tamaño, su contexto, sus fortalezas en investigación 
+y formación, su disponibilidad presupuestaria, sus valores, sus prioridades y las necesidades del entorno 
+local con el que trabajen. Esta guía describe conceptos generales, pasos y ejemplos que ayudarán a 
+diseñar la aproximación hacia los ODS.
+¿Qué contenido incluye?
+Sección 1 | Describe qué son los ODS, por qué las universidades son importantes para alcanzarlos y los 
+importantes beneﬁcios que las universidades pueden obtener al comprometerse con ellos.
+Sección 2 | Proporciona una visión general de cómo las universidades pueden contribuir a implementar 
+los ODS a través de sus funciones propias: formación, investigación, acciones y Liderazgo social.
+Sección 3 | Ofrece una Guía, paso a paso, para ayudar a las universidades a comprometerse con los 
+ODS y en particular a desarrollar un marco institucional para apoyar la implementación de los mismos. 
+Sección 4 | Ofrece orientación práctica y herramientas para ayudar a las universidades a comprometerse 
+con los ODS, incluida la forma de analizar las actividades ya existentes (mapeo), cómo involucrar a otros 
+actores y cómo comunicar y difundir las contribuciones de los ODS.
+¿A quién va dirigida?
+Esta guía se dirige principalmente a personas y colectivos que quieran poner en marcha y de manera 
+coordinada un acercamiento a los ODS dentro de su universidad. A menudo, estos suelen ser “puntos 
+de conexión” de desarrollo sostenible ya existentes, tales como institutos de sostenibilidad, gestores de 
+sostenibilidad, grupos de sostenibilidad o coordinadores de Responsabilidad Social Corporativa.
+La guía también incluye información para orientar a los equipos de gobierno de las universidades a 
+comprender las oportunidades que ofrecen los ODS y a qué hacer para llevarlo a cabo. Será también útil 
+para el resto de la comunidad universitaria (personal y estudiantes) interesados en: conocer los ODS; en 
+llevar a cabo actividades relacionadas con los ODS dentro de sus propias áreas de trabajo y estudio o; 
+impulsar la adopción de los ODS en su universidad.
+SOBRE ESTA GUÍA
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 5
+1. POR QUÉ SON IMPORTANTES LOS ODS 
+PARA LAS UNIVERSIDADES 
+ 
+ 
+En septiembre de 2015, y en el marco de Naciones Unidas, los líderes mundiales adoptaron de manera 
+unánime el documento “Transformando nuestro mundo: la Agenda 2030 para el Desarrollo Sostenible” 
+[4], uno de los acuerdos globales más ambiciosos e importantes de nuestra historia reciente. La Agenda, 
+que entró en vigor el 1 de enero de 2016, aspira a que para el año 2030 hayamos situado al mundo y a 
+sus sociedades en un camino hacia un futuro mejor. 
+Cuadro 1: Los 17 Objetivos de Desarrollo Sostenible (ODS)*
+ODS 1 - Poner ﬁn a la pobreza en todas sus formas en todo el mundo.
+ODS 2 - Poner ﬁn al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible. 
+ 
+ODS 3 - Garantizar una vida sana y promover el bienestar para todos en todas las edades. 
+ 
+ODS 4 - Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda          
+              la vida para todos. 
+ 
+ODS 5 - Lograr la igualdad entre los géneros y empoderar a todas las mujeres y niñas.
+ODS 6 - Garantizar la disponibilidad de agua y su gestión sostenible y el saneamiento para todos.
+ODS 7 - Garantizar el acceso a una energía asequible, segura, sostenible y moderna para todos.
+ODS 8 - Fomentar el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo, y el trabajo 
+              decente para todos.
+ODS 9 - Desarrollar infraestructuras resilientes, promover la industrialización inclusiva y sostenible, y fomentar la innovación. 
+ 
+ODS 10 - Reducir la desigualdad en y entre los países.
+ODS 11 - Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles.
+ODS 12 - Garantizar modalidades de consumo y producción sostenibles. 
+ 
+ODS 13 - Adoptar medidas urgentes para combatir el cambio climático y sus efectos.
+ODS 14 - Conservar y utilizar de forma sostenible los océanos, los mares y los recursos marinos para lograr el desarrollo 
+                sostenible. 
+ 
+ODS 15 - Gestionar sosteniblemente los bosques, luchar contra la desertiﬁcación, detener e invertir la degradación de las  
+                tierras y detener la pérdida de biodiversidad.
+ODS 16 - Promover sociedades justas, pacíﬁcas e inclusivas. 
+ 
+ODS 17 - Revitalizar la Alianza Mundial para el Desarrollo Sostenible.
+* Un listado completo de las metas de cada objetivo puede encontrarse en http://www.un.org/sustainabledevelopment/sustainable-
+development-goals/. El Anexo A ofrece detalle de los desafíos sociales, ambientales y económicos de cada uno de los ODS.
+1.1 ¿QUÉ SON LOS ODS?
+1.  POR QUÉ  SON IMPORTANTES LOS ODS PARA LAS UNIVERSIDADES 
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES6
+En el punto central de la Agenda se sitúan los 17 Objetivos de Desarrollo Sostenible (ODS), denominados 
+también Objetivos Globales, y sus 169 metas (ver cuadro 1). Los ODS son un conjunto de prioridades 
+y aspiraciones que - actuando como hoja de ruta para todos los países - aborda los retos y desafíos 
+más urgentes, incluyendo la erradicación de la pobreza y el hambre; la protección del planeta de la 
+degradación ambiental abordando el cambio climático; asegurar que todas las personas puedan disfrutar 
+vidas prósperas, saludables y satisfactorias; y fomentar sociedades pacíﬁcas, justas e inclusivas, libres de 
+violencia y sin miedo.
+Los ODS continúan el trabajo realizado por los Objetivos de Desarrollo del Milenio (ODM), que orientaron, 
+entre los años 2000 y 2015, la acción global para abordar las necesidades básicas de los países más 
+pobres del mundo. Sin embargo, los ODS se diferencian de los ODM en varias cuestiones importantes 
+que los hacen más inﬂuyentes y relevantes.
+Los ODS cubren un mayor rango de desafíos y retos que los ODM, muchos de los cuales son relevantes 
+y se pueden aplicar a todos los países y grupos vulnerables dentro de cada país. Los ODS enfatizan las 
+interconexiones tanto entre las dimensiones sociales, económicas y medioambientales del desarrollo 
+sostenible como entre los propios objetivos – y por lo tanto la necesidad de abordar los objetivos 
+en relación unos con otros (y no de manera separada o secuencial) [5]. Incluyen metas orientadas a 
+movilizar los recursos necesarios para implementar los ODS, como alianzas, ﬁnanciación y políticas 
+activas. Reconocen que abordar los desafíos que plantean los ODS es responsabilidad de todos y llama 
+explícitamente a las empresas, la sociedad civil, al tercer sector y al sector académico, entre otros, a 
+colaborar para lograr el cumplimiento de los ODS.
+Aunque los ODS no son legalmente vinculantes, la buena acogida que han recibido, gracias a las 
+consultas abiertas realizadas tanto de carácter global como a través de llamamientos locales, hacen 
+prever que estos objetivos tendrán un gran impacto sobre las estrategias y acciones de los gobiernos, 
+las empresas y las organizaciones, así como en los ﬂujos de los fondos y subvenciones destinados al 
+desarrollo en los próximos 15 años.
+El fuerte interés y respuesta a los ODS en la mayoría de los países y sectores desde su adopción y las 
+numerosas iniciativas, alianzas y redes que han impulsado, proporcionan una clara evidencia de que 
+se han convertido en fuente de inspiración e inﬂuencia. Ya existe una fuerte aceptación dentro de la 
+ONU (i) y los gobiernos nacionales (ii), y un creciente interés en las empresas (iii), los gobiernos locales y 
+municipalidades (iv), la juventud (v), la sociedad civil, las organizaciones ﬁlantrópicas (vi) y los bancos de 
+desarrollo.
+La universidad está empezando a apoyar y dar la bienvenida a los ODS gracias a los esfuerzos de 
+organizaciones como la Red de Soluciones para el Desarrollo Sostenible - Sustainable Development 
+Solutions Network (SDSN) -, Future Earth, la Organización de las Naciones Unidas para la Educación, 
+la Ciencia y la Cultura (UNESCO), los Principios de Gestión Responsable en Educación (PRIME), y otras 
+asociaciones independientes como Australasian Campuses Towards Sustainability (ACTS), Environmental 
+Association for Universities and Colleges (EUAC), o la Association for the Advancement of Sustainability in 
+Higher Educaction (AASHE).
+Sin embargo, dada la envergadura del reto para lograr el cumplimento de los 17 ODS y el papel crítico 
+que la universidad tiene en ello, existe una necesidad urgente en acelerar las acciones desde el ámbito 
+universitario. El presente manual proporciona a las universidades información y herramientas para 
+comenzar a implementar los ODS. 
+Algunos ejemplos son:
+i.Web de Naciones Unidas y los ODS www.un.org/sustainabledevelopment. 
+ii.Las Revisiones Voluntarias Naciones (VNRs) dentro del Foro Político de Alto Nivel sobre Desarrollo Sostenible (HLPF) (www.sustainabledevelopment.
+un.org/vnrs) y el 2016 G20 Action Plan on the 2030 Agenda for Sustainable Development (g20chn.org/English/Documents/Current/201609/
+P020160908661601548463.pdf) 
+iii.UN Global Compact (www.unglobalcompact.org/sdgs), el Business and Sustainable Development Commision for Business Leaders (report.
+businesscommission.org), y el CEO Statement of Support for the Sustainable Development Goals (www.unglobalcompact.org.au/2016/09/07/gcna-
+launches-ceo-stament-of-support-for-the-sdgs). 
+iv. USA Sustainable Cities Initiative (unsdsn.org/what-we-do/solution-initiatives/usa-sustainable-cities-initiative-usa-scl). 
+v. SDSN Youth 2017, Youth Solutions Report, (www.youthsolutions.report). 
+vi.SDGfunders: the SDG Philanthropy Platform (sdgfunders.org/home.lang/en). 
+1.  POR QUÉ  SON IMPORTANTES LOS ODS PARA LAS UNIVERSIDADES 
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 7
+1.2 RAZONES PARA COMPROMETERSE CON LOS 
+ODS DESDE LA UNIVERSIDAD
+ 
+Las universidades ocupan un lugar privilegiado dentro de la sociedad. Con un incuestionable 
+protagonismo en torno a la creación y difusión del conocimiento, las universidades han sido durante 
+mucho tiempo potentes impulsores de la innovación global, nacional y local, el desarrollo económico, 
+y el bienestar social [6, 7, 8]. Como tal, las universidades tienen un papel fundamental para lograr el 
+cumplimiento de los ODS, a la vez que pueden beneﬁciarse enormemente al comprometerse con esta 
+Agenda (ver Figura 1). 
+Figura 1: Razones para compromiso universitario con los ODS
+Aumentan la demanda de 
+formación sobre los ODS
+Proporcionan una deﬁnición 
+globalmente aceptada y 
+comprendida del concepto de la 
+universidad responsable 
+Ofrecen un marco para mostrar el 
+impacto de la universidad
+Generan nuevas fuentes de 
+ﬁnanciación
+Fomentan la colaboración con 
+nuevos socios tanto externos 
+como internos
+Proporcionan soluciones, 
+conocimiento e ideas innovadoras 
+a los ODS
+Forman a los actuales y futuros 
+ejecutores y responsables de 
+implementar los ODS
+Sirven de modelo sobre cómo 
+apoyar, adoptar e implementar 
+los ODS en la gobernanza, las 
+políticas de gestión y la cultura 
+universitaria
+Desarrollan liderazgos 
+intersectoriales que orientan a los 
+ODS
+¿Qué aportan las 
+universidades a los ODS?
+¿Qué aportan los ODS a 
+las universidades?
+Conocimiento
+Aprendizaje
+Ejemplaridad
+Impacto
+Colaboración
+1.  POR QUÉ  SON IMPORTANTES LOS ODS PARA LAS UNIVERSIDADES 
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES8
+Por qué los ODS necesitan a las universidades
+La educación terciaria y la investigación cientíﬁca son citadas explícitamente en varios de los ODS, 
+sin embargo, la contribución de la universidad es necesaria a un nivel mucho más amplio si se quiere 
+lograr el cumplimiento de los ODS. La Agenda de los ODS cubre un amplio número de desafíos 
+sociales, económicos y medioambientales y las funciones propias de las universidades y su experiencia 
+y preparación resultan clave para poder vencer y superar dichos desafíos. Los hitos clave para las 
+universidades son:
+Proporcionar el conocimiento y las soluciones que sustenten la implementación de los ODS
+Abordar los desafíos de los ODS requerirá de nuevos conocimientos, nuevas formas de hacer 
+las cosas, tomar decisiones difíciles entre opciones contrapuestas y, en algunos casos, a realizar 
+profundas transformaciones. Las universidades impulsan el progreso tecnológico y social a través de la 
+investigación, el descubrimiento, la creación y la adopción de conocimiento. Las universidades atraen y 
+nutren el talento y la creatividad y son actores clave en los sistemas de innovación regional y nacional. 
+Estas funciones son fundamentales para ayudar a la comunidad global a comprender los desafíos, 
+oportunidades e interacciones entre los ODS; desarrollar e implementar soluciones; desarrollar y evaluar 
+opciones de políticas y vías de trasformación; y a realizar un seguimiento del progreso. 
+Crear implementadores (actuales y futuros) de los ODS
+Las universidades forman personas con habilidades y capacidades profesionales y personales. Tienen 
+acceso a un importante número de jóvenes apasionados, creativos, con curiosidad y el deseo de un 
+mundo mejor. También inﬂuyen cada vez más en el desarrollo global a través de estudiantes y ex alumnos 
+internacionales, campos internacionales y actividades de desarrollo del talento. Alcanzar los ODS 
+requerirá de la contribución de todos. Por lo tanto, las universidades deben asegurarse de que están 
+formando a los líderes actuales y futuros, a los responsables de la toma de decisiones, a los docentes, a 
+los innovadores, los empresarios y los ciudadanos con los conocimientos, las habilidades y la motivación 
+que los ayudarán a contribuir al logro de los ODS. 
+Incorporación de los principios de los ODS a través de la gobernanza, la gestión y la cultura
+Universidades son instituciones complejas y diversas. A través de su personal, estudiantes, campus, 
+vecindarios y cadenas de suministro, tienen un importante impacto social, económico y ambiental. Al 
+implementar los principios de los ODS dentro de su estructura de gobierno y gestión y de su ﬁlosofía, las 
+universidades contribuirán directamente al logro de los ODS dentro de estas extensas esferas.
+Proporcionar liderazgo intersectorial en la implementación 
+Las universidades son reconocidas por la sociedad como entidades neutrales en las que se puede 
+conﬁar. Por ello, las universidades tienen la capacidad y responsabilidad de guiar y liderar la respuesta 
+local, nacional e internacional a los ODS a través del diálogo intersectorial y creación de alianzas. Tienen 
+un papel clave en la educación pública y en otros sectores, así como en defender la importancia de los 
+ODS.
+1.  POR QUÉ  SON IMPORTANTES LOS ODS PARA LAS UNIVERSIDADES 
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 9
+Por qué las universidades necesitan los ODS
+Los ODS son un marco global que ha sido muy bien recibido y aceptado por gobiernos, empresas, la 
+sociedad civil, ﬁlántropos, universidades y ciudadanos. Las universidades pueden obtener una variedad 
+de beneﬁcios de este amplio apoyo a los ODS. Los principales beneﬁcios son: 
+Demostrar el impacto de la universidad
+Los ODS ofrecen una forma nueva e integradora para comunicar y demostrar a socios externos – 
+incluyendo a los gobiernos, patrocinadores y ciudadanos – cómo las universidades contribuyen al 
+bienestar global y local y, por lo tanto, a su impacto y relevancia.
+Atraer la demanda de educación relacionada con los ODS
+Los ODS se dirigen tanto a jóvenes como a adultos como ciudadanos del mundo que desean hacer 
+contribuciones signiﬁcativas a la sociedad y al medio ambiente. Además, a medida que los gobiernos 
+y las empresas incorporen cada vez más los ODS como un enfoque estratégico, más aumentará la 
+demanda de graduados que comprendan y puedan implementar la agenda de los ODS. Adelantarse a 
+ofrecer formación en los ODS es una forma de demostrar la capacidad de la institución en adaptarse a 
+estas circunstancias cambiantes.
+Construir alianzas con nuevos socios externos e internos
+Una de las fortalezas de los ODS es que proporcionan un marco común para que diferentes sectores 
+y organizaciones conecten y trabajen juntos en intereses compartidos. Esto dará a las universidades 
+la oportunidad de crear sinergias y colaboraciones con el gobierno, la industria y la comunidad 
+tanto en investigación como en educación. Del mismo modo, este marco puede ayudar a identiﬁcar 
+intereses comunes en diferentes áreas de la universidad, ayudando a impulsar alianzas interdisciplinars, 
+colaboraciones e innovación.
+Acceder a nuevas fuentes de ﬁnanciación
+Las entidades ﬁnanciadoras y los patrocinadores – incluídos los organismos gubernamentales, bancos 
+internacionales y ﬁlántropos – están destinando cada vez más ayudas al cumplimiento de los ODS.
+Adoptar una deﬁnición integral y aceptada a nivel mundial de una universidad responsable y 
+globalmente comprometida
+Las universidades están repensando cada vez más cual debe de ser su papel en el siglo XXI. Para ello, 
+buscan ser más receptivas y sensibles a las necesidades sociales y convertirse en agentes de cambio 
+que resuelvan los desafíos globales. Como marco universalmente aceptado, los ODS proporcionan una 
+estructura organizada que da respuesta a esta búsqueda. Además, dado el papel fundamental que 
+tienen las universidades para garantizar el éxito de los ODS, las universidades tienen el imperativo moral 
+de incorporar el apoyo a los ODS como parte de su misión social y sus funciones básicas.
+“Podemos utilizar la red global de universidades, su universidad, mi universidad, más de mil universidades en 
+todo el mundo, para ser una “red de soluciones” activa para ayudar a los gobiernos, las empresas y la sociedad 
+civil a trazar el camino hacia el éxito en el desarrollo sostenible, y también ser la incubadora para el rápido 
+desarrollo de las tecnologías de desarrollo sostenible. Las universidades de todo el mundo deberían estar a la 
+vanguardia a ﬁn de ayudar a la sociedad a encontrar las soluciones técnicas para lograr estos objetivos”
+Jeffrey D. Sachs,  
+Director de la Red de Soluciones para el Desarrollo Sostenible (SDSN) 
+ 
+[Sachs, JD 2015, ‘Achieving the sustainable development goals’, Journal of International Business Ethics, vol. 8, no. 2, pp. 53–62 (p.61).]
+1.  POR QUÉ  SON IMPORTANTES LOS ODS PARA LAS UNIVERSIDADES
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES10
+2. CÓMO PUEDEN LAS UNIVERSIDADES 
+CONTRIBUIR A LOS ODS
+Como se ha explicado en la Sección 1, las universidades tienen un papel fundamental en la consecución de 
+los ODS. Esta sección amplía este debate incidiendo en cómo las universidades pueden contribuir a lograr 
+estos objetivos mundiales.
+Para mayor comodidad, esta Sección se divide en 4 subsecciones, dedicando cada una de ellas a una de 
+las funciones principales de la actividad universitaria: aprendizaje y enseñanza, investigación, gobernanza 
+institucional, gestión y administración de servicios, y liderazgo social. Cada subsección explica en qué 
+medida esta área es relevante para los ODS y lo que las universidades pueden hacer para contribuir. Las 
+subsecciones también incluyen ideas, recursos y ejemplos para futuras acciones.
+Si bien el aprendizaje y la enseñanza, la investigación, la gobernanza y la gestión y el liderazgo social a 
+menudo se abordan por separado, en realidad se hallan estrechamente relacionados. Los ODS presentan 
+grandes oportunidades para crear, fortalecer y conectar vínculos entre estas áreas, y por lo tanto ofrecer un 
+mejor enfoque integral de toda la universidad en su compromiso con los ODS.
+La Figura 2 resume la estructura de esta Sección y proporciona una visión general de las contribuciones clave 
+que las universidades pueden hacer a los ODS. 
+Investigación sobre los 
+ODS
+Investigación inter y 
+transdisciplinar
+Innovaciones y 
+soluciones
+Implementación local y 
+nacional
+Creación de capacidades 
+para la investigación
+Figura 2: Una visión general de la contribución de las universidades a los ODS.
+Educación para el 
+desarrollo sostenible
+Empleos para 
+implementar los ODS
+Creación de 
+capacidades
+Movilizar e implicar a la 
+juventud
+Gobernanza y gestión 
+universitarias alineadas 
+con los ODS
+Incluir los ODS en la 
+rendición de cuentas
+Compromiso público
+Acción y diálogo 
+intersectorial
+Desarrollo de políticas y 
+abogacía hacia los ODS 
+Movilización y 
+posicionamiento del sector 
+hacia los ODS
+Demostrar el compromiso 
+del sector universitario
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 11
+2.1 EDUCACIÓN Y APRENDIZAJE
+La educación es una de las piedras angulares de los ODS. Por sí misma, una educación de calidad 
+conlleva considerables beneﬁcios para personas, comunidades y países en el ámbito del desarrollo 
+sostenible [9]. Es también un medio crucial para apoyar y acelerar la capacidad global para implementar 
+los ODS [10]. Las universidades, a través de su extensa variedad de actividades educativas y de 
+aprendizaje (enseñanzas de grado y posgrado, prácticas profesionales, formación a mayores y a 
+empresas, enseñanza a distancia, asociaciones estudiantiles), tienen un papel importante que jugar en la 
+implementación de los ODS.
+¿De qué manera el aprendizaje y la enseñanza son relevantes para los ODS?
+Los ODS reconocen la importancia de la educación para el desarrollo sostenible a través del ODS 4, que 
+exige proporcionar “educación de calidad inclusiva e igualitaria y promover oportunidades de aprendizaje 
+permanente para todos”. Algunas de las metas dentro de este objetivo requieren la acción explícita de las 
+universidades, y otros tienen relevancia directa para las actividades de aprendizaje y enseñanza dentro 
+de las universidades (ver Tabla 1).
+ 
+Tabla 1: Metas relacionadas con la educación y el aprendizaje.
+Objetivo Metas
+4.3 Para el año 2030, asegurar el acceso igualitario para hombres y mujeres a una formación 
+técnica, profesional y superior de calidad, incluida la enseñanza universitaria.
+4.4 Para el año 2030, aumentar considerablemente el número de jóvenes y adultos con 
+habilidades relevantes, incluidas las técnicas y vocacionales, para el acceso al empleo, el 
+empleo de calidad y el emprendimiento.
+4.5 Para el año 2030, eliminar las disparidades de género en la educación y asegurar el acceso 
+igualitario a todos los niveles de la enseñanza y la formación profesional para las personas 
+vulnerables, incluidas las personas con discapacidad, los pueblos indígenas y los niños en 
+situaciones de vulnerabilidad
+4.7 Para el año 2030, asegurar que todos los alumnos adquieran los conocimientos teóricos 
+y prácticos necesarios para promover el desarrollo sostenible, entre otras cosas mediante 
+la educación para el desarrollo sostenible y los estilos de vida sostenibles, los derechos 
+humanos, la igualdad de género, la promoción de una cultura de paz y no violencia, la 
+ciudadanía mundial y la valoración de la diversidad cultural y la contribución de la cultura al 
+desarrollo sostenible 
+4.a Construir y adecuar instalaciones educativas que tengan en cuenta las necesidades de los 
+niños y las personas con discapacidad y las diferencias de género, y que ofrezcan entornos 
+de aprendizaje seguros, no violentos, inclusivos y eﬁcaces para todos
+4.b Para el año 2020, aumentar considerablemente a nivel mundial el número de becas para los 
+países en desarrollo, en particular los menos adelantados, los pequeños Estados insulares 
+en desarrollo y los países africanos, a ﬁn de que sus estudiantes puedan matricularse en 
+programas de enseñanza superior, incluida la formación profesional y programas técnicos, 
+cientíﬁcos, de ingeniería y de tecnología de la información y las comunicaciones, de países 
+desarrollados y otros países en desarrollo
+4.c Para el año 2030, aumentar considerablemente la oferta de docentes caliﬁcados, incluso 
+mediante la cooperación internacional para la formación de docentes en los países en 
+desarrollo, especialmente los países menos adelantados y los pequeños Estados insulares 
+en desarrollo
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES12
+Si bien la educación es el centro de uno de los objetivos – ODS 4 – está estrechamente relacionada con todos 
+los demás ODS y desempeña un papel preponderante en el apoyo a su implementación. Esto se debe a que:
+t La educación de calidad conduce a mejores resultados de desarrollo para las personas, y por 
+extensión, a sus comunidades y países. Esto incluye un mejor acceso a un empleo remunerado, una 
+mejor nutrición y salud, la reducción de las diferencias de género, una mayor resiliencia frente a los 
+desastres, ciudadanos más comprometidos y así sucesivamente. 
+t La implementación de los ODS requerirá abordar una amplia gama de retos sociales y 
+medioambientales que son multifacéticos y están interconectados; que implican interconexiones 
+complejas, incertidumbres y conﬂictos de valores. Muchos de estos retos han sido hasta ahora 
+difíciles de abordar, en parte por la tendencia a reducir los problemas a aspectos básicos, ignorando 
+el elemento humano, y optando por soluciones dualistas (“o esto, o lo otro”). Dotar a los estudiantes 
+de habilidades para pensar a través de la complejidad, de trascender los paradigmas, de aprender 
+a través del diálogo y de la comunicación, de participar de una reﬂexión profunda, de generar una 
+cosmovisión y valores, así como de saber valorar cuándo unas acciones apoyan o menoscaban 
+el cumplimiento de los ODS (así como otras importantes habilidades, conocimientos y experiencia 
+profesional), ayudará a crear implementadores de ODS más efectivos y acelerará la implementación del 
+resto de ODS. [12].
+Debido a la importancia de la educación hacia el resto de ODS, es fundamental proporcionar una educación 
+accesible, asequible, e inclusiva para todas las personas; independientemente del género, la identidad sexual, 
+raza, edad, cultura, etnia, religión, discapacidad, estatus económico o el lugar de residencia (ver sección 2.3). 
+ 
+ 
+¿Qué pueden hacer las universidades?
+ 
+En resumen:
+Ø	Dotar al alumnado de conocimientos, habilidades y motivación para entender y abordar los ODS
+Ø	Empoderar y movilizar a la juventud
+Ø	Proporcionar amplia formación académica o vocacional para implementar soluciones de ODS
+Ø	Crear más oportunidades para la creación de capacidades de estudiantes y profesionales de países en 
+desarrollo para abordar los desafíos relacionados con los ODS
+ 
+Dotar al alumnado de conocimientos, habilidades y motivación para comprender y abordar los ODS
+Para convertirse en ejecutores efectivos de los ODS, los estudiantes necesitan [13,14]:
+t Habilidades transversales y competencias clave que son relevantes para abordar todos los ODS: 
+pensamiento sistémico, pensamiento crítico, autoconciencia, resolución integral de problemas 
+y capacidad de anticipación, competencias normativas, estratégicas y de colaboración; 
+creatividad, espíritu emprendedor, curiosidad y habilidades de aprendizaje, pensamiento 
+creativo, responsabilidad social, competencias de asociación y sentirse cómodo en entornos 
+interdisciplinarios.
+t Conocimiento básico de las materias/asignaturas de cada uno de los ODS.
+t Conocimiento y comprensión del marco de los ODS, de su propósito y de sus aplicaciones.
+La educación para los ODS está estrechamente alineada con la más general y ya asentada Educación 
+para el Desarrollo Sostenible (EDS), desde la que puede reformar sus enfoques y metodologías. La EDS 
+está cada vez más orientada a los ODS y está desarrollando recursos y herramientas especíﬁcos para 
+ellos, como los objetivos de aprendizaje [15] y pruebas de conocimientosi.
+i  Por ejemplo, Sulitest (www.sulitest.org).
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 13
+Para contribuir a la educación para los ODS, las universidades pueden:
+t Integrar los ODS y los principios de la EDS en todos los cursos de grado y posgrado, así como en 
+la formación en investigación. 
+t Proporcionar formación sobre los ODS y la EDS a las personas responsables de la elaboración de 
+los planes de estudios, a la coordinación de los cursos y al profesorado. 
+t Ofrecer formación y creación de capacidades a empresas y a entidades externas sobre los ODS, 
+así como el conocimiento y habilidades necesarias para abordarlos. 
+t Abogar por una política de educación nacional y estatal que deﬁenda los ODS. 
+t Vincular a estudiantes en procesos de co-creación compartida de entornos de aprendizaje e 
+iniciativas que apoyen el aprendizaje sobre los ODS.
+t Estructurar cursos en torno a proyectos colaborativos para el cambio con aplicación práctica, en 
+los que el estudiantado tenga opciones para actuar y reﬂexionar de manera iterativa, y desarrolle 
+una capacidad adaptativa mientras trabaja por un objetivo. 
+Empoderar y movilizar a la juventud
+Es de interés primordial para los jóvenes que se cumplan los ODS, así mismo tienen un papel 
+fundamental en contribuir a ello. Son personas creativas, energéticas, idealistas y optimistas sobre el 
+futuro, y quieren colaborar con acciones globales, retadoras y de trascendencia. Como tales, tienen el 
+potencial para ser los agentes clave del desarrollo sostenible, no sólo en el futuro, sino ya mismo.  (P .E 
+SDSN Youth 2017, www.youthsolutions.report).  Las universidades deben aprovechar la oportunidad que 
+tienen de acceder a grandes grupos de jóvenes para que contribuyan en todos los ODS:
+t Dándoles la oportunidad de ser escuchados y de participar en la gobernanza de la universidad en 
+relación a los ODS
+t Utilizando el marco de los ODS y la identiﬁcación de soluciones para los desafíos de los ODS como 
+base para co-crear actividades, como cursos, programas de aprendizaje y de liderazgo estudiantil, 
+hackatones, desafío de emprendimiento y de innovación, excursiones de estudio, así como labores de 
+promoción de la universidad consistentes en procesos de selección de estudiantes de secundaria
+t Promoviendo y apoyando clubes estudiantiles y asociaciones para que se involucren con los ODS 
+y cooperen entre ellos en actividades y eventos relacionados con los ODS
+t Promoviendo actividades de voluntariado abordando los ODS
+t Ayudando a los estudiantes a crear redes o clubes para movilizar la comunidad universitaria hacia 
+los ODS a través de eventos, campañas y proyectos
+t Apoyando la implicación del alumnado en programas de liderazgo nacionales e internacionales 
+sobre los ODS, como SDSN Youth
+Proporcionar formación académica o vocacional para implementar soluciones ODS
+Las universidades pueden contribuir a todos los ODS cerciorándose de que están capacitando a los 
+estudiantes para los trabajos necesarios para la implementación de los ODS. Las universidades deben 
+asegurar que los estudiantes sean ágiles, estén preparados para el cambio y tengan visión de futuro, de 
+modo que sean útiles no solo para los trabajos que existen hoy, sino también para los que existirán en el 
+futuro. Para ello, las universidades pueden:
+t Establecer vínculos fuertes con empresas e industria para monitorear tendencias en cuanto a 
+empleabilidad, por ejemplo, a través de comunidades de práctica empresariales.
+t Ampliar las oportunidades para el aprendizaje a lo largo de toda la vida, como la educación en 
+entidades y empresas, aprendizaje en línea, y formación profesional.
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES14
+Mejorar las oportunidades para el desarrollo de formación de estudiantes y profesionales de 
+países en desarrollo para abordar los desafíos relacionados con los ODS
+La creación de capacidades, a través de la educación, es un importante “medio de implementación” para 
+ayudar a los países en desarrollo a abordar sus propios desafíos en el campo de la sostenibilidad.
+Las universidades tienen amplios vínculos con países en desarrollo a través de estudiantes internacionales y 
+ex alumnos, campus internacionales, programas de intercambio académico, viajes de estudio y convenios 
+con universidades de países en desarrollo. Las universidades pueden aprovechar estos vínculos para apoyar 
+la creación de capacidades para los ODS a través de diferentes maneras, tales como:
+t Implicar a estudiantes internacionales en los ODS, asegurando que la EDS forma parte de todos 
+los cursos
+t Desarrollar cursos en línea de calidad y gratuitos sobre desarrollo sostenible y sobre cómo abordar 
+los desafíos de los ODS
+t Desarrollar relaciones de intercambio con universidades en países en desarrollo y programas de 
+capacitación en el país para abordar los ODS
+t Proporcionar becas relacionadas con los ODS para estudiantes de países en desarrollo
+t Abogar por fondos de asistencia internacional para el desarrollo tanto para becas como para 
+mejorar la educación conducente al cumplimiento de los ODS
+Casos de estudio (en Australia)
+1. Compromiso estudiantil a través del Take One Step (Monash University) [Anexo B.1]
+2. Doctorado en Desarrollo Sostenible por los ODS (Curtin University) [Anexo B.2]
+3. Programa de Práctica del Desarrollo (James Cook University) [Anexo B.3]
+4. Foro de Liderazgo Estudiantil sobre los ODS (Monash University) [Anexo B.4]
+5. Enseñando el ODS 1 (The University of Sydney) [Annex B.5]
+6. Mapeando el curriculum a través de los ODS (Victoria University of Wellington) [Anexo B.6]+
+Recursos útiles
+Los numerosos recursos ya existentes sobre la implementación de la EDS suponen un excelente 
+punto de partida para la educación para los ODS. Por otro lado, cada día hay más recursos dedicados 
+especíﬁcamente a la educación para los ODS. A continuación, se propone una selección de los mismos:
+Publicaciones
+t UNESCO 2017, Education for Sustainable Development Goals: Learning objectives, UNESCO, 
+Paris, unesdoc.unesco.org/images/0024/002474/247444e.pdf. 
+t Morin, E 1999, Seven complex lessons in education for the future, UNESCO, Paris, unesdoc.
+unesco.org/images/0011/001177/117740eo.pdf.
+t SDSN General Assembly 2017 The role of Higher Education to foster sustainable development: 
+Practices, tools and solutions, Position paper, www.sdsn-mediterranean.unisi.it/wp-content/
+uploads/sites/30/2017/08/Testo-positional-CON-FIG-1.pdf.
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 15
+Cursos en línea gratuitos
+t SDG Academy: Recursos educativos y cursos en línea gratuitos de expertos en desarrollo 
+sostenible de todo el mundo. courses.sdgacademy.org.
+Redes y páginas web
+t Education for Sustainable Development (UNESCO): Información útil sobre noticias, eventos, y 
+publicaciones sobre desarrollo sostenible en el contexto de la educación. en.unesco.org/themes/
+education-sustainable-development.
+t Global Action Programme on Education for Sustainable Development (UNESCO): Recurso 
+útil para generar y ampliar acciones concretas sobre educación para los ODS. en.unesco.org/gap.
+t Principles for Responsible Management Education (PRME): Escuela de negocios dentro de la 
+iniciativa Global Compact para mejorar la responsabilidad social y los ODS incorporando valores 
+universales en los curricula y en la investigación. www.unprme.org.
+t SDSN Youth: La rama de juventud de la Sustainable Development Solutions Network (SDSN) 
+trabaja globalmente por el empoderamiento de los jóvenes para crear soluciones de desarrollo 
+sostenible. sdsnyouth.org.
+t The Sulitest Initiative: The Sustainability Literacy Test ofrece una herramienta en línea para 
+instituciones de educación superior y otras para medir y mejorar el conocimiento en sostenibilidad 
+entre estudiantado y profesores. sulitest.org.
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES16
+2.2 INVESTIGACIÓN
+Para lograr los ODS la comunidad mundial deberá superar muchas diﬁcultades y complejos desafíos 
+sociales, económicos y ambientales, algunos de los cuales requerirán transformaciones en cómo 
+funcionan las sociedades y las economías, y en la manera de interactuar con nuestro planeta. Las 
+universidades, a través de sus amplias competencias y actividades de investigación, tienen un papel 
+crítico para consolidar y respaldar esta tarea [16, 17, 18, 19, 20], proporcionado el conocimiento, la base 
+empírica, las soluciones y las innovaciones necesarias.
+¿En qué medida es relevante la investigación para los ODS?
+Abordando las metas de los ODS relacionadas con la investigación universitaria
+Varias de las metas de los ODS se reﬁeren directamente a la necesidad de actividades relacionadas 
+con la investigación como componente clave. Muchas de éstas son consideradas “medios de 
+implementación”. Las metas relevantes para la investigación universitaria se resumen en la Tabla 2: 
+ 
+Tabla 2: Metas de los ODS relacionadas directamente con la investigación
+Objetivos Metas
+9.5   Aumentar la investigación cientíﬁca y mejorar la capacidad tecnológica de los sectores 
+industriales de todos los países, en particular los países en desarrollo, entre otras cosas 
+fomentando la innovación y aumentando considerablemente, de aquí a 2030, el número 
+de personas que trabajan en I+D por millón de habitantes y los gastos de los sectores 
+público y privado en investigación y desarrollo.
+9.b Apoyar el desarrollo de tecnologías, la investigación y la innovación nacionales en los 
+países en desarrollo, garantizando un entorno normativo propicio a la diversiﬁcación 
+industrial y la adición de valor a los productos básicos, entre otras cosas.
+Los ODS 2.a, 3.b, 7.a, 12.a se reﬁeren, respectivamente, a la necesidad 
+de realizar investigaciones cientíﬁcas y aportaciones sobre agricultura 
+sostenible, desarrollo de vacunas y consumo y producción sostenibles. 
+Los ODS 14.3, 14.4, 14.5, 14.a se reﬁeren a la necesidad de aportaciones 
+cientíﬁcas para abordar la gestión de los océanos y de la pesca.
+ 
+ 
+ 
+17.6 Mejorar la cooperación regional e internacional Norte-Sur, Sur-Sur y triangular en 
+materia de ciencia, tecnología e innovación y el acceso a estas, y aumentar el 
+intercambio de conocimientos en condiciones mutuamente convenidas, incluso 
+mejorando la coordinación entre los mecanismos existentes, en particular a nivel 
+de las Naciones Unidas, y mediante un mecanismo mundial de facilitación de la 
+tecnología.
+17.8 Poner en pleno funcionamiento, a más tardar en 2017, el banco de tecnología y el 
+mecanismo de apoyo a la creación de capacidad en materia de ciencia, tecnología 
+e innovación para los países menos adelantados y aumentar la utilización de 
+tecnologías instrumentales, en particular la tecnología de la información y las 
+comunicaciones.
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 17
+Apoyo a la implementación de todos los ODS
+En términos generales, la investigación, la creación de conocimiento e innovación transversal en ciencias 
+físicas, sociales, biomédicas, ingenierías y humanidades es fundamental para la implementación exitosa 
+de todos los ODS [21]. La investigación es la base para:
+t Comprender los desafíos: Necesitamos comprender las causas y las dinámicas de los desafíos del 
+desarrollo sostenible representados por los ODS (ver Anexo A) para identiﬁcar cuáles son las mejores 
+políticas y soluciones para abordarlos. La investigación es fundamental para llenar los numerosos 
+vacíos en nuestra comprensión del mundo físico, los sistemas humanos y las interacciones entre ellos 
+que afectan estos desafíos. 
+t Localizar la agenda de los ODS: La investigación tiene también un papel clave en la traslación 
+de los ODS y la Agenda Global 2030 a contextos nacionales y globales, incluyendo ayuda para 
+identiﬁcar desafíos locales relevantes, prioridades para la acción e indicadores apropiados para 
+medir el progreso local.
+t Desarrollar soluciones: Se necesita investigación para impulsar el desarrollo de innovaciones y 
+soluciones sociales y tecnológicas a través de los desafíos de los ODS. Esto incluirá el desarrollo, la 
+examinación, la dirección y la ampliación de las soluciones, así como la comprensión de las diﬁcultades 
+y los obstáculos para su implementación.
+t Identiﬁcar y evaluar opciones y vías: La implementación de los ODS está “dirigida” [22], en el 
+sentido de que sabemos dónde queremos llegar. Sin embargo, encontrar el mejor camino para 
+llegar allí puede ser un desafío, debido a los contextos radicalmente diversos de cada país y 
+comunidad, a las interdependencias que pueden conducir a compensaciones o sinergias entre los 
+objetivos [23, 24] y la probabilidad de que cada camino incluya éxitos y fracasos. La investigación 
+-mediante el uso de modelos y enfoques de “backcasting”5 - desempeñará un papel clave para 
+ayudar a los responsables políticos y al público a construir, evaluar e identiﬁcar las vías más 
+positivas, eﬁcientes y coherentes para alcanzar los ODS.
+t Apoyo a la implementación operativa de los ODS: La comunidad investigadora tuvo un papel 
+importante en la conﬁguración de la Agenda 2030 y los ODS, pero todavía quedan muchas lagunas 
+e incógnitas sobre la mejor manera de implementarlos. La investigación tiene un papel crítico en 
+determinar, por ejemplo, cómo dirigir y evaluar el progreso, cómo abordar sistemáticamente las 
+interconexiones entre las metas y cómo incorporar la Agenda en los marcos de políticas nacionales y 
+regionales. La comunidad investigadora también tendrá un papel importante en la síntesis y evaluación 
+del progreso global de los ODS6. Finalmente, la comunidad investigadora también posee una gran 
+experiencia e instalaciones para recopilar, gestionar y analizar datos, lo que podría proporcionar un 
+apoyo muy necesario a la enorme tarea de monitorizar el progreso de los ODS.
+Implementación de los ODS relevantes para el ámbito de la investigación
+Varios de los ODS tienen gran relevancia en el ámbito en el que se lleva a cabo la investigación, en especial:
+t ODS 5 (“Lograr la igualdad de género y empoderar a todas las mujeres y niñas”) y ODS 10 
+(por ejemplo: “10.3: Garantizar la igualdad de oportunidades y reducir las desigualdades de 
+resultados...”): la falta de diversidad en la investigación cientíﬁca, particularmente en ciencia, 
+tecnología, ingeniería, matemáticas y medicina7 es bien conocida, y puede restar valor a la calidad 
+y los resultados de la investigación cientíﬁca [25]. (Ver Sección 2.3) 
+ODS 4.7 (“... asegurar que todos los alumnos adquieran los conocimientos y habilidades necesarios 
+para promover desarrollo sostenible “): esto es relevante para garantizar que la próxima generación 
+de investigadores esté capacitada para llevar a cabo investigaciones relacionadas con el desarrollo 
+sostenible. (Ver la Sección 2.1)  
+5 Por ejemplo, el proyecto Deep Decarbonization Pathways Project (deepdecarbonization.org). 
+6 Por ejemplo, a través del Informe de Desarrollo Sostenible Global de la ONU, que tiene como objetivo “proporcionar una 
+sólida base empírica”, un instrumento para apoyar a los formuladores de políticas “en la implementación de los ODS (sustaina-
+bledevelopment.un.org/globalsdreport/2019)
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES18
+¿Qué pueden hacer las universidades?  
+En resumen:
+Ø	Fomentar y promover los ODS como un tema de investigación dentro de la universidad
+Ø	Apoyar todo el espectro de enfoques de investigación necesarios para abordar los ODS, incluida la 
+investigación interdisciplinar y transdisciplinar
+Ø	Apoyar y fomentar la innovación para soluciones de desarrollo sostenible
+Ø	Apoyar activamente la implementación nacional y local de los ODS
+Ø	Abogar por el apoyo nacional y la coordinación de la investigación sobre los ODS
+Ø	Apoyar la creación de capacidades para que los países emergentes desarrollen y utilicen la 
+investigación sobre los ODS.
+Fomentar y promover los ODS como un tema de investigación dentro de la universidad
+Los ODS representan uno de los mayores desafíos a los que se enfrenta el mundo en la actualidad. Para 
+abordarlos, el desarrollo sostenible debe convertirse en la base de la investigación futura en todos los 
+niveles [26]. Esto requerirá que el apoyo para la investigación sobre los ODS se internalice dentro de las 
+políticas y la cultura de la universidad [27]. Para hacer esto, las universidades pueden:
+t Aumentar la sensibilización sobre los ODS entre los investigadores, incluidos los que inician su 
+carrera buscando construir su perﬁl y su presencia en nuevos espacios.
+t Ayudar a los investigadores a comprender cómo su investigación actual se relaciona y conecta 
+con varios objetivos
+t Analizar, a través de un mapeo, cómo la investigación universitaria y sus fortalezas se alinean con 
+los ODS, e identiﬁcar investigadores clave.
+t Priorizar la investigación relacionada con los ODS y reclutar personal académico adecuado.
+t Desarrollar criterios de promoción académica que valoren las contribuciones a los ODS
+t Exhibir la investigación relacionada con los ODS y resaltar los ODS en los principales proyectos 
+emblemáticos.
+t Rendir las cuentas regularmente sobre cómo la investigación universitaria contribuye a los ODS
+t Alentar y apoyar a los investigadores para que participen en los esfuerzos de la comunidad 
+investigadora mundial para apoyar los ODS (como evaluaciones internacionales y síntesis del 
+estado actual del conocimiento).
+Además, el marco de los ODS acoge adecuadamente el fuerte impulso global para que las universidades 
+informen sobre el impacto de la investigación.
+Apoyar todo el espectro de enfoques necesarios para abordar la investigación de los ODS, 
+incluida la investigación interdisciplinar y transdisciplinar
+Se necesita una amplia gama de enfoques de investigación para abordar la amplitud y la naturaleza 
+de los desafíos que plantean los ODS [28, 29, 30, 31]. Estos enfoques incluyen los enfoques 
+disciplinarios más tradicionales (en las ciencias naturales, las ciencias sociales y los estudios de 
+ingeniería y tecnología), en particular la investigación empírica fundamental para llenar vacíos en nuestro 
+conocimiento y responder a “qué hay actualmente”, y la  investigación aplicada o pragmática sobre “qué 
+es factible” para resolver desafíos particulares de los ODS.
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 19
+Sin embargo, son cruciales nuevos enfoques para abordar la complejidad y el contexto del mundo real 
+de los ODS. Estos enfoques ayudan a explorar “qué es posible” y están guiados por los valores [32] para 
+lograr equitativamente los ODS. Estos son:
+t Ciencias de la sostenibilidad – o en un sentido amplio, investigación para el desarrollo sostenible - 
+una nueva rama de investigación que busca comprender cómo las interacciones y las propiedades 
+emergentes entre los sistemas naturales, sociales y económicos conforman los desafíos del 
+desarrollo sostenible y cómo crear transformaciones hacia resultados más sostenibles [33].
+t Enfoques interdisciplinares y transdisciplinares que unen disciplinas, sectores y tipos de 
+conocimientos (tradicional, profesional, experto, ciudadano, etc.), para ayudar a iluminar todos los 
+aspectos de los complejos desafíos sociales, ambientales y económicos.
+t Enfoques de codiseño y coproducción, que trabajan en estrecha colaboración con los 
+responsables de las políticas y los usuarios de conocimiento desde el comienzo, para deﬁnir los 
+problemas, planiﬁcar la metodología de investigación y llevarla a cabo
+t Enfoques inclusivos que reconocen y se relacionan con grupos importantes, como las mujeres [34] 
+y los pueblos indígenas; diversas culturas, cosmovisiones e ideologías y formas de conocimiento, 
+como los conocimientos tradicionales, que están frecuentemente sub representados en la 
+investigación.
+t Asesoramiento político relevante, que utilice el conocimiento y la investigación existentes, para 
+ayudar a los responsables políticos a comprender las implicaciones de diferentes opciones 
+políticas y a diseñar nuevas políticas.
+Estos nuevos enfoques de investigación pueden ser más difíciles de llevar a cabo que los enfoques 
+tradicionales, particularmente dentro de las estructuras universitarias clásicas. Crear conﬁanza y 
+relaciones entre personas de diferentes disciplinas y de actores interesados de otros sectores lleva 
+tiempo, y los fondos y revistas de investigación a veces están sesgados hacia la investigación referida a 
+una concreta disciplina. La investigación sobre problemas altamente aplicados y el asesoramiento sobre 
+políticas es un desafío ya que la metodología y el calendario a menudo cambian signiﬁcativamente a 
+medida que la naturaleza del espacio complejo se vuelva más clara. Además, el rendimiento académico y 
+las estructuras de recompensa, que generalmente se basan en publicaciones y subvenciones, a menudo 
+no incentivan el compromiso colaborativo.
+Sin embargo, para ayudar a abordar los ODS, es crucial que las universidades fomenten y apoyen estos 
+enfoques de investigación, en particular los enfoques interdisciplinares y transdisciplinares, asignando 
+por ejemplo carga de trabajo y reconocimiento de contribuciones académicas. Las universidades pueden 
+usar los ODS para abordar esta tarea. Para ello pueden:
+t Analizar pormenorizadamente la investigación universitaria sobre los ODS e identiﬁcar 
+oportunidades para vínculos interdisciplinares (ver Sección 4.1)
+t Identiﬁcar los esfuerzos y capacidades de investigación interdisciplinar relacionados con los ODS 
+que existen dentro de la universidad
+t Desarrollar la capacidad de todos los investigadores (incluidos los que han iniciado recientemente 
+su carrera y los estudiantes de posgrado) en investigación interdisciplinar y en otros nuevos 
+enfoques de investigación
+t Proporcionar fondos y becas para el trabajo interdisciplinario y transdisciplinario sobre los ODS
+t Proporcionar estructuras y foros para fomentar la interacción, la generación de ideas y la 
+integración entre disciplinas
+t Destacar el valor y la validez de la investigación colaborativa, del diseño metodológico integrador y 
+de los enfoques orientados a conseguir incentivos de investigación y oportunidades de promoción.
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES20
+Apoyar la creación y la innovación de soluciones de desarrollo sostenible 
+ 
+Las universidades son centros de innovación, invención y descubrimiento, y han contribuido al desarrollo 
+de las principales tecnologías del siglo XX. Pueden ayudar al desarrollo de innovaciones y soluciones 
+sociales y tecnológicas para los desafíos que plantean los ODS.  
+Las universidades pueden ampliar su papel como centros de innovación apoyando y albergando 
+empresas, por ejemplo, empresas de alta tecnología de nueva creación, ubicadas cerca de los 
+programas universitarios de investigación, que proporcionen tecnologías y servicios para el desarrollo 
+sostenible. Para hacer esto, pueden:
+t Colaborar con empresas para desarrollar nuevas tecnologías y soluciones para abordar los ODS.
+t Fomentar la creación de nuevas empresas de alta tecnología, asociadas con programas de 
+investigación universitaria inspirados en los ODS y evaluados por su contribución a los ODS
+t Establecer centros de innovación enfocados a los desafíos relacionados con los ODS, la 
+asociación con empresas, y la investigación basada en la universidad
+t Desarrollar soluciones ODS de “prueba de concepto”, para su adopción por parte de las empresas
+t Desarrollar programas de intercambio relacionados con los ODS entre universidades y empresas
+t Organizar desafíos de innovación para abordar los ODS, destinados a investigadores de toda la 
+universidad e interesados externos
+t Fomentar procesos para evaluar los impactos de las soluciones propuestas en todos los ODS, y 
+procurar maximizar los cobeneﬁcios y minimizar los impactos negativos (ver Sección 4.5)
+Apoyar activamente la implementación nacional y local de los ODS
+t Utilizar los ODS para desarrollar relaciones de colaboración con la industria, el gobierno, las 
+comunidades, el sector privado y organizaciones no gubernamentales en torno a desafíos 
+especíﬁcos de los ODS
+t Desempeñar un papel principal en el desarrollo de políticas para el desarrollo sostenible, incluido 
+el inicio de proyectos para identiﬁcar problemas y desafíos, desarrollar políticas y estrategias, 
+modelizar futuros probables con y sin intervenciones, vigilar e informar sobre las intervenciones, y 
+permitir una gestión adaptativa
+t Brindar asesoramiento especializado sobre la implementación de los ODS a otros sectores, como 
+empresas, gobiernos nacionales y gobiernos locales
+t Brindar asesoramiento experto sobre metas de ODS e indicadores locales y mecanismos de 
+seguimiento e información
+t Usar los ODS como base para el aprendizaje basado en el lugar y donde la universidad busca 
+involucrar a la comunidad en programas de aprendizaje o en investigación
+Abogar por el apoyo y la coordinación nacional de la investigación sobre los ODS
+Los cambios en el entorno externo de la investigación facilitarían mucho la investigación universitaria para los 
+ODS, incluyendo la coordinación gubernamental y la ﬁnanciación para la implementación nacional por parte 
+de todos los sectores, y la disponibilidad de fondos de investigación nacionales especíﬁcos para investigación 
+interdisciplinar y relacionada con los ODS, como el Fondo de Investigación Global Challenges en Reino Unido8
+t Abogar por políticas nacionales y ﬁnanciación para la investigación relacionada con los ODS y con 
+la investigación interdisciplinar en general
+t Ayudar a establecer agendas nacionales de investigación y prioridades para abordar los ODS 
+8 www.rcuk.ac.uk/funding/gcrf
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 21
+Apoyar el desarrollo de capacidades en países en desarrollo para que lleven a cabo y utilicen la 
+investigación sobre los ODS
+El desarrollo de capacidades para fomentar la investigación cientíﬁca es necesario en todas las áreas de 
+los ODS. Muchas universidades ya juegan un papel importante en el desarrollo de capacidades para la 
+investigación y pueden construir y aumentar las actividades existentes.
+t Establecer alianzas y programas de intercambio con universidades en países en desarrollo sobre 
+aspectos relevantes para los ODS
+t Fomentar proyectos conjuntos de investigación sobre los ODS y desarrollar la capacidad para 
+llevarla a cabo
+t Facilitar el intercambio de conocimientos con y entre comunidades o países sobre cómo abordar 
+desafíos comunes de los ODS
+t Compartir experiencias en recopilación e interpretación de datos y en el acceso a instalaciones de 
+alta potencia y programación para gestionar grandes conjuntos de datos, para ayudar a los países 
+a gestionar los enormes desafíos para guiar y monitorizar el progreso en los ODS
+Casos de estudio (en Australia)
+1. Alcanzar el ODS 6: Serie de documentos de discusión (Universidad de Queensland) [Anexo B.7]
+2. La Red de Desarrollo UTS (Universidad de Tecnología, Sydney) [Anexo B.8] 
+3. Foro de Ideación ODS (Victoria University of Wellington) [Anexo B.9]
+4. Sitio web de investigación ODS (Universidad de Australia Occidental) [Anexo B.10]
+5. Estudio de Investigación de Familias Seguras (Universidad de Monash) [Anexo B.11]
+6. Conectando la investigación académica con los ODS (Instituto para Futuros Sostenibles, UTS) 
+[Anexo B.12]
+ 
+Recursos útiles 
+Publicaciones
+t Schmalzbauer, B & Visbeck, M (eds) 2016, The contribution of science in implementing the 
+Sustainable Development Goals, German Committee Future Earth, Stuttgart/Kiel.  
+futureearth.org/sites/default/ﬁles/2016_report_contribution_science_sdgs.pdf.
+t Dena, F, Palmer, J, Riedy, C & Mitchell, C 2017, Transdisciplinary research and practice for 
+sustainability outcomes, Routledge, Londres. www.routledge.com/Transdisciplinary-Research-and-
+Practice-for-Sustainability-Outcomes/Fam-Palmer-Riedy-Mitchell/p/book/9781138119703.
+t Brown, RR, Deletic, A & Wong THF 2015, ‘Interdisciplinarity: How to catalyse collaboration’, 
+Nature, vol. 525 (16 septiembre), pp. 315–317. www.nature.com/news/interdisciplinarity-how-to-
+catalyse-collaboration-1.18343
+t ICSU & ISSC 2015, Review of the Sustainable Development Goals: The science perspective, 
+International Council for Science (ICSU), París. www.icsu.org/publications/reports-and-reviews/
+review-of-targets-for-the-sustainable-development-goals-the-science-perspective-2015 
+t Elsevier 2015, Sustainability science in a global landscape, www.elsevier.com/research-
+intelligence/resource-library/sustainability-2015.
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES22
+Recursos útiles
+t Red de Soluciones para el Desarrollo Sostenible (SDSN): La Red de Soluciones de Desarrollo 
+Sostenible de las Naciones Unidas (SDSN) moviliza la experiencia cientíﬁca y técnica del mundo 
+académico, la sociedad civil y el sector privado a escala local, nacional y mundial. La SDSN ha 
+estado operando desde 2012 bajo los auspicios del Secretario General de la ONU. La SDSN está 
+creando una red nacional y regional de instituciones de conocimiento, redes temáticas centradas 
+en soluciones, y la SDG Academy, universidad online para el desarrollo sostenible. unsdsn.org.
+t Future Earth: importante plataforma internacional de investigación sobre cambio ambiental global 
+y sostenibilidad global. www.futureearth.org
+t td-net: plataforma para investigadores y patrocinadores en el campo de la investigación 
+y docencia interdisciplinar. Proporciona conocimientos, métodos y herramientas para la 
+coproducción de conocimiento. www.transdisciplinarity.ch/en/td-net/Ueber-td-net.html
+t Ciencias de Integración e Implementación (I2S): (Integration and Implementation Sciences) 
+(I2S): un centro para mejorar el impacto de la investigación en problemas complejos del mundo 
+real. i2s.anu.edu.au
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 23
+2.3 GOBERNANZA, CULTURA Y ACTIVIDADES DE LA 
+UNIVERSIDAD
+Las universidades son con frecuencia entidades grandes y pueden tener un impacto signiﬁcativo en los 
+aspectos sociales, culturales y de bienestar ambiental dentro de sus campus, comunidades y regiones, y en 
+ocasiones mucho más allá. Estos impactos se relacionan directamente con todas las áreas de los ODS y al 
+actuar responsablemente las universidades pueden hacer contribuciones signiﬁcativas para su logro.
+¿Por qué la gobernanza, la cultura y las actividades universitarias son 
+relevantes para los ODS?
+Todas las instituciones tendrán algún impacto sobre cómo se maniﬁestan los ODS dentro de su esfera 
+operativa de inﬂuencia. Dependiendo de la naturaleza y el tamaño de la organización, su impacto en 
+algunos – y en ocasiones en todos – los ODS, puede ser signiﬁcativo. Al identiﬁcar estos impactos y 
+actuar responsablemente para abordarlos, cada institución puede contribuir a los ODS.
+Las universidades suelen ser grandes empleadoras, consumidoras, inversoras y propietarias de 
+propiedades inmobiliarias. Supervisan amplias comunidades de personal, estudiantes y proveedores. 
+Sus campus pueden funcionar como y ser del tamaño de pequeñas ciudades. Pueden crear ﬂujos 
+signiﬁcativos de personas y bienes que requieren inversión en infraestructura en áreas adyacentes. 
+También pueden inﬂuir mucho más allá de sus regiones a través de sus cadenas de suministro y su 
+alcance cada vez más internacional. Como resultado, las universidades tienen un impacto en todos y 
+cada uno de los ODS, y este impacto puede ser signiﬁcativo. 
+ 
+¿Qué pueden hacer las universidades?
+ 
+En resumen: 
+Ø	Alinear las estructuras de gobierno universitario y las políticas operativas con los ODS
+ 
+Al abordar sus impactos dentro de cada área de los ODS a través de sus políticas y actuaciones internas, las 
+universidades pueden hacer una contribución signiﬁcativa para alcanzar los ODS dentro de sus esferas de 
+acción. Los ejemplos de acciones que pueden adoptar las universidades se enumeran en la Tabla 3. 
+ 
+Existe una superposición signiﬁcativa entre la agenda de los ODS, ya que se aplica a las operaciones internas 
+dentro de universidades, con las actividades de Responsabilidad Social Corporativa (RSE) y Campus 
+Sostenibles, con las que muchas universidades ya están profundamente comprometidas. Los ODS son una 
+oportunidad para vincular, mostrar y basarse en estas actividades. 
+Estas acciones se gestionan en gran medida a través de estructuras administrativas y de políticas y decisiones 
+de gestión, como las relacionadas con el empleo, las ﬁnanzas, los servicios del campus, los servicios de 
+apoyo, las instalaciones, las adquisiciones, los recursos humanos y la administración de los estudiantes. 
+Asegurar que todo esto se alinee con los ODS dará lugar a un ﬂujo continuo de acciones y responsabilidad en 
+todas las áreas. Las acciones que las universidades pueden tomar para que esto comience incluyen:
+t Analizar cómo las estrategias, políticas, planes e indicadores de información de alto nivel de la 
+universidad se alinean con los ODS e identiﬁcar cuales unidades organizativas son relevantes para 
+cada ODS
+t Identiﬁcar y abordar cualquier brecha clave en la respuesta de la universidad a través de los ODS
+t Incorporar los ODS en los informes de las estructuras institucionales de las universidades (Ver 
+también la Sección 4.6
+Las universidades pueden recurrir a los recursos y redes que existen en torno a la Responsabilidad Social 
+Corporativa (RSC) y los Campus Sostenibles para su apoyo en la implementación posterior (ver Recursos 
+útiles al ﬁnal de la sección). A medida que los ODS se aplican, los recursos se pueden ir adaptando.
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES24
+Cuadro 3: Ejemplos de acciones que pueden adoptar las universidades para contribuir a los ODS 
+a través de sus operaciones internas.
+Objetivo Ejemplos de acciones
+t Garantizar el comercio justo y cadenas éticas de suministro
+t Políticas de inversión que promuevan principios de gobernanza ambiental y social
+t Proporcionar estructuras de apoyo para estudiantes que viven en la pobreza, como 
+becas y paquetes de asistencia
+t Ofrecer opciones de alimentos sostenibles, nutritivos y asequibles en el campus
+t Facilitar la producción de alimentos en el campus
+t Ofrecer mercados de alimentos frescos en el campus
+t Introducción de medidas para reducir el desperdicio de alimentos en el campus
+t Proporcionar acceso a servicios asequibles de salud y bienestar en el campus
+t Proporcionar programas de bienestar para el personal y los estudiantes destinados 
+a reducir la incidencia de enfermedades no transmisibles y a promover la salud 
+mental
+t Implementar políticas de ‘no fumar’ en el campus
+t Asegurar que existan servicios y prácticas apropiadas para tratar el consumo de 
+sustancias peligrosas
+t Apoyar a las personas vulnerables y desfavorecidas para garantizar su acceso y 
+participación plena en la universidad, incluidas las personas con discapacidad, los 
+pueblos indígenas y las personas con diﬁcultad económica
+t Proporcionar programas para mejorar la alfabetización y la educación en 
+comunidades y escuelas en el área local de la universidad y más allá
+t Proporcionar instalaciones que promuevan y fomenten el aprendizaje inclusivo
+t Implementar estrategias de equidad de género en el lugar de trabajo, incluidas las 
+destinadas a mejorar la representación de las mujeres en puestos de liderazgo 
+universitario y en puestos académicos principales
+t Trabajar para cerrar la brecha salarial de género
+t Adoptar medidas de conciliación como proporcionar cuidado infantil en el campus 
+y promover la ﬂexibilidad en el lugar de trabajo
+t Participar en campañas nacionales para prevenir la violencia contra las mujeres, 
+y compromiso de informar sobre el número de agresiones sexuales que se han 
+producido en la institución
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 25
+Objetivo Ejemplos de acciones
+t
+t
+t Incorporar propuestas e ideas de diseño ambientalmente sostenible en 
+las obras capitales del campus
+t Proporcionar agua potable gratis para estudiantes, personal y visitantes
+t Establecer políticas de emisión cero e invertir en la producción de energía 
+renovable en el campus
+t Desarrollar estrategias de mitigación y adaptación al cambio climático
+t Incluir el riesgo de cambio climático en el marco de información sobre 
+riesgos
+t Desarrollar planes de gestión y eﬁciencia de recursos a largo plazo
+t Desarrollar planes de gestión y tutela para el campus y los cursos de 
+agua circundantes
+t Desarrollar planes de gestión y tutela para la biodiversidad y ecosistemas 
+del campus
+t Instalar sistemas apropiados de drenaje para minimizar la contaminación
+t Instalar sistemas de recolección, almacenamiento y reutilización de agua
+t Reducir todos los desechos (incluidos los desechos peligrosos) y 
+aumentar el reciclaje
+t Garantizar expectativas de prácticas seguras para el manejo y disposición 
+de desechos peligrosos
+t Fomentar el uso del transporte sostenible
+t Incorporar consideraciones éticas y sostenibles en las políticas, 
+procedimientos y actividades de compras
+t Liderar e informar sobre el desempeño de la sostenibilidad hasta el nivel 
+de Consejo de Liderazgo
+t Involucrar al personal y a los estudiantes en todas las actividades 
+sostenibles del campus
+t Alinear las políticas de empleo, capacitación y regulación de manera coherente con 
+los compromisos y estrategias de equidad y los objetivos de acceso
+t Establecer becas adecuadamente distribuidas y apoyadas, y programas de apoyo 
+ﬁnanciero para estudiantes necesitados
+t Apoyar la creatividad y la innovación a través de una cultura que asuma riesgos 
+aceptables y que proporcione espacios y procedimientos apropiados para que las 
+ideas puedan prosperar
+t Supervisar los resultados del empleo y la gestión de la carga de trabajo académica
+t Implementar políticas y procedimientos ambientalmente responsables de 
+contratación pública, que afecten a la cadena de suministro en ambas direcciones 
+(hacia arriba y hacia abajo)
+t Cuestionar de manera crítica el papel del crecimiento económico
+t Emitir solo bonos verdes donde se requieran bonos
+t Probar y dirigir soluciones innovadoras para mejorar las actividades del campus
+t Comprometerse con el desarrollo de una infraestructura sostenible y resiliente que 
+apoye el bienestar y minimice el impacto ambiental
+t Garantizar la modernización de los ediﬁcios existentes, aumentando la eﬁciencia de 
+los recursos y adoptando tecnologías ambientalmente racionales
+t Comprometerse con procesos y servicios que aseguren una tecnología de la 
+información y comunicación sostenible y veraz
+Ejemplos de acciones
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES26
+Objetivo Ejemplos de acciones
+t Gestionar la brecha salarial entre el personal con menor y mayor remuneración
+t Establecer una agenda de equidad y un plan que se comprometa con la igualdad 
+de oportunidades y con la reducción de las desigualdades en todos los procesos y 
+actividades, especialmente en el salario.
+t Comprometerse con la eliminación de la discriminación en toda la universidad, 
+garantizando que toda todos los pueblos tengan la oportunidad de ser 
+representados y dispongan de una voz en el proceso de toma de decisiones
+t Proporcionar un ambiente de trabajo y aprendizaje solidario, inclusivo y seguro para 
+personas con desventaja económica y social, de origen rural o regional, personas 
+con discapacidad, mujeres en el lugar de trabajo, personas de diversos géneros 
+y sexualidades y personas de comunidades con diferentes culturas y creencias 
+religiosas
+t Ampliación y entrega de soluciones sostenibles frente a desafíos globales, desarrollados 
+por la universidad para la comunidad y la industria en general
+t Proporcionar vivienda segura y asequible en el campus y / o la universidad
+t Compromiso con el desarrollo de y la inversión en la comunidad local universitaria y las 
+áreas de mayor inﬂuencia (donde sea posible)
+t Permitir que los límites ﬂuidos del campus fomenten el uso de espacio verde por parte 
+de miembros de la comunidad local como un servicio público
+t Compromiso de campus seguro, ecológico y accesible para todos los niveles de 
+movilidad. 
+t Implementar las mejores prácticas y políticas para el control de la contaminación 
+(incluido el aire) y de gestión de residuos
+t Trabajar con el gobierno local y estatal para abogar por un mayor acceso y provisión de 
+sistemas de transporte sostenible, incluidos el transporte público y las vías para ciclistas
+t Desarrollar políticas, procedimientos y planes para garantizar que el campus sea seguro 
+para todo el personal, los estudiantes y visitantes
+t Asegurar que las políticas y procedimientos de compra indiquen claramente la 
+exclusión de cualquier compañía conocida o identiﬁcada que esté involucrada en la 
+explotación de personas
+t Asegurar que las políticas de inversión impidan la inversión en la industria que se ocupa 
+de las armas, trata de personas y / o esclavitud moderna
+t Asegurar que las políticas y la cultura de la institución indiquen claramente que el 
+soborno, la corrupción, la violencia, el crimen y los actos de terrorismo son inaceptables
+t Organizar actividades interculturales e interreligiosas en el campus
+t Asegurar que todo el personal y los estudiantes tengan acceso a la justicia e 
+información sobre sus derechos
+t Involucrar al personal, a los estudiantes y a las partes interesadas clave, en las 
+decisiones de gobernanza de la universidad
+t Desarrollar estrategias y una cultura que apoyen abiertamente el desarrollo, 
+mantenimiento y mejora de las alianzas con otras entidades, tanto interna como 
+externamente
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 27
+Recursos útiles
+Publicaciones
+t Programa de las Naciones Unidas para el Medio Ambiente 2014, Conjunto de herramientas 
+de universidades verdes V2.0: Transformar las universidades en campus verdes y sostenibles, 
+web.unep.org/training/content/greeninguniversities-toolkit-v20-transforming-universities-green-
+and-sustainable-campuses-0. Este kit de herramientas proporciona estrategias, herramientas y 
+recursos para inspirar, alentar y apoyar a las universidades a desarrollar e implementar sus propias 
+estrategias transformadoras para el establecimiento de campus ecológicos, con uso eﬁciente de 
+recursos y bajos en carbono.
+t Vida Silvestre y entorno social de Sud Africa 2016. Intensiﬁcando los ODS, USAID, www.
+wessa.org.za/uploads/documents/WESSA_Stepping_up_to_the_Sustainable_Development_ 
+Goals _-_ Jun_2016.pdf. Guía práctica para integrar los ODS en nuestra vida cotidiana, incluidas 
+nuestras actividades prácticas, el plan anual, la creación de redes y el desarrollo de centros 
+sostenibles a través de prácticas de cambio de decisión.
+Redes y páginas web
+t Centro australiano de ODS para empresas (Global Compact Network Australia): un recurso 
+“vivo” sobre la relevancia de los ODS para empresas y otras organizaciones y sobre lo qué pueden 
+hacer para contribuir a ellos. www.unglobalcompact.org.au/issues/sustainable-development/
+sustainabledevelopment-goals-sdg
+t El Pacto Mundial de las Naciones Unidas: la organización de informes de Responsabilidad 
+Social Empresarial más grande del mundo, que ayuda a las empresas a alinear estrategias y 
+operaciones con principios universales sobre derechos humanos, trabajo, medio ambiente y 
+lucha contra la corrupción, y tomar medidas que promuevan los objetivos sociales. Muchas 
+universidades también son miembros. www.unglobalcompact.org.
+t Campus Australo-asiáticos hacia la Sostenibilidad (ACTS): asociación basada en la 
+membresía para los sectores de educación superior de Australia y Nueva Zelanda; ACTS apoya el 
+desarrollo y la conexión de líderes, profesionales y educadores de sostenibilidad hacia un sector 
+más sostenible. ACTS tiene fuertes vínculos con otras asociaciones similares en todo el mundo 
+a través de su participación en la Alianza Educativa Global. Ser miembro, proporciona acceso a 
+boletines informativos regulares, seminarios web, oportunidades de desarrollo profesional sobre 
+los problemas y desafíos más actualizados para el sector. www.acts.asn.au.
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES28
+2.4 LIDERAZGO SOCIAL
+El éxito en el logro de los ODS dependerá de la acción y colaboración de todos los actores [35]. Utilizando su 
+posición única dentro de la sociedad, las universidades, tanto de manera individual como colectiva, pueden 
+ayudar a dirigir, guiar, y apoyar las respuestas locales, nacionales e internacionales a los ODS [36].
+¿Por qué el liderazgo universitario es relevante para los ODS?
+La escala de la tarea de alcanzar los ODS requerirá la movilización de todos los sectores. Así lo expresan 
+las inspiradoras palabras del documento de Naciones Unidas Transformando nuestro mundo [37]: “El futuro 
+de la humanidad y de nuestro planeta se encuentra en nuestras manos... Hemos trazado el camino hacia 
+el desarrollo sostenible y es nuestra responsabilidad asegurar el éxito del viaje y la irreversibilidad de sus 
+beneﬁcios. “El viaje” involucrará a los gobiernos, así como a parlamentos, al sistema de las Naciones Unidas 
+y otras instituciones internacionales, autoridades locales, pueblos indígenas, la sociedad, los negocios y el 
+sector privado, la comunidad cientíﬁca y académica, y todas las personas”
+La colaboración también será crucial, como se describe en el objetivo 17.16 para “Mejorar la Alianza Global 
+para el Desarrollo Sostenible, complementado por asociaciones de múltiples partes interesadas, que movilizan 
+y comparten conocimiento, experiencia, tecnología y recursos ﬁnancieros, para apoyar el logro de los 
+Objetivos de desarrollo en todos los países... “.
+La movilización y la colaboración de esta magnitud requiere el liderazgo y apoyo signiﬁcativo para incorporar a 
+todas las partes interesadas, desarrollar su capacidad para comprender e implementar los ODS, y facilitar las 
+conversaciones, el aprendizaje mutuo y las alianzas entre diferentes sectores. La ciudadanía en sí misma es 
+también una parte clave en la implementación de los ODS para la identiﬁcación de las prioridades, el debate de 
+las opciones y la contribución a implementación en sus propias vidas. En la mayoría de los países, la ciudadanía 
+tiene poco conocimiento de los ODS y poca oportunidad de participar activamente en la implementación.
+Como lugares dedicados a la creación de conocimiento y a la enseñanza en beneﬁcio de la sociedad, las 
+universidades tradicionalmente ocupan una posición única en la sociedad que las hace particularmente 
+adecuadas para liderar la implementación de los ODS. Tienen la conﬁanza de la ciudadanía y son consideradas 
+como actores neutrales por otros sectores. Muchas tienen una gran importancia e inﬂuencia en la esfera 
+pública y gran experiencia en investigación y educación, esenciales para desarrollar capacidades y fomentar la 
+formulación de políticas. Dado que muchas universidades han luchado por mantener ese papel crítico sobre los 
+procesos de “racionalización y comercialización”, los ODS les brindan la oportunidad de mejorarlo.
+¿Qué pueden hacer las universidades?
+En resumen:
+Ø	Fortalecer el compromiso público y su participación pública en el ámbito de los ODS
+Ø	Iniciar y facilitar el diálogo, así como la acción intersectorial sobre la implementación de los ODS.
+Ø	Desempeñar un papel protagonista en el desarrollo y promoción de políticas de desarrollo sostenible
+Ø	Demostrar la importancia del sector universitario en la implementación de los ODS.
+Ø	Demostrar el compromiso del sector universitario con los ODS
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 29
+Fortalecer el compromiso público y la participación para abordar los ODS
+t Organizar conferencias públicas de destacados y prominentes pensadores, eventos comunitarios 
+y foros para crear conciencia sobre los ODS y porqué son relevantes para todos
+t Facilitar talleres y debates interactivos sobre acciones, soluciones, innovaciones y tecnologías que 
+fomenten las ideas y la interacción.
+Iniciar y facilitar el diálogo y la acción intersectorial sobre la implementación de los ODS
+t Servir como plataforma neutral y espacio “seguro” para que las diferentes partes interesadas se 
+reúnan para discutir honestamente los desafíos de implementar los ODS
+t Facilitar la colaboración y cooperación intersectorial sobre soluciones para hacer frente a desafíos 
+de ODS especíﬁcos
+t Hablar con socios comerciales e industriales para comprender lo que se está haciendo en el 
+ámbito del desarrollo sostenible e identiﬁcar nuevas oportunidades en este ámbito.
+Desempeñar un papel protagonista en el desarrollo de las políticas y la promoción del desarrollo 
+sostenible
+t Trabajar con los responsables de las políticas para identiﬁcar problemas, opciones y soluciones, y 
+ayudar en la evaluación política
+t Identiﬁcar problemas sobre la agenda política
+t Desarrollar orientación y síntesis de conocimiento sobre áreas particulares de ODS
+t Desarrollar herramientas y recursos para apoyar la implementación de los ODS
+Demostrar la importancia del sector universitario en la implementación de los ODS
+t Trabajar en el sector terciario y con otros sectores para iniciar y dirigir debates sobre 
+implementación nacional y regional
+t Asegurar que el sector esté coherentemente representado en todos los diálogos y procesos 
+nacionales sobre implementación de los ODS
+t Crear alianzas y redes con otras universidades para movilizar la acción del sector sobre los ODS
+t Buscar activamente oportunidades para desarrollar orientación y herramientas para apoyar los 
+esfuerzos nacionales y regionales para la implementación de los ODS
+ Demostrar el compromiso del sector universitario con los ODS
+t Trabajar activamente para apoyar la implementación de los ODS dentro de la universidad a través 
+de la enseñanza, la investigación y las actividades
+t Firmar el Compromiso de la Universidad con los ODS y hacer que los ODS sean una parte esencial 
+de la promoción universitaria.
+t Iniciar actividades públicas de perﬁl alto en apoyo de los ODS
+t Apoyar las actividades de otros sectores y gobiernos sobre la importancia de los ODS y la 
+necesidad de abordarlos
+2. CÓMO PUEDEN CONTRIBUIR LAS UNIVERSIDADES A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES30
+Estudios de casos (en Australia)
+1. Red ODS de Australia Occidental (Instituto de Políticas de Sostenibilidad de la Universidad de 
+Curtin) [Anexo B.13]
+2. Liderar la localización de los ODS en Australia (SDSN Australia / Pacíﬁco) [Anexo B.14]
+3. Reconocimiento del impacto en los ODS en los premios universitarios (Western Sydney University) 
+[Anexo B.15]
+4. Cumbre de Bienestar Social (La Universidad de Sydney) [Anexo B.16]
+Recursos útiles
+Redes
+t Sustainable Development Solutions Network (SDSN):  La Red de Soluciones para el Desarrollo 
+Sostenible de las Naciones Unidas (SDSN) moviliza la experiencia cientíﬁca y técnica del mundo 
+académico, la sociedad civil y el sector privado a escala local, nacional y mundial. La SDSN ha 
+estado operando desde 2012 bajo los auspicios del Secretario General de la ONU. La SDSN 
+conforma una red nacional, regional y global de instituciones de conocimiento, redes temáticas 
+centradas en soluciones, y la SDG Academy, una universidad online para el desarrollo sostenible. 
+unsdsn.org.
+2. CÓMO PUEDEN LAS UNIVERSIDADES CONTRIBUIR A LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 31
+3. UNA UNIVERSIDAD COMPROMETIDA 
+CON LOS ODS 
+A través de sus labores cotidianas en educación, investigación y demás actividades, las universidades 
+ya hacen contribuciones muy importantes para el logro de los ODS. Sin embargo, para que se alcancen 
+los ODS a escala global, las universidades necesitan convertirse en defensores del desarrollo sostenible 
+y jugar un papel de liderazgo en la implementación de los mismos. Esta tarea supone grandes retos. 
+Las universidades a menudo se encuentran encorsetadas por factores estructurales externos y por 
+limitaciones internas. Sin embargo, los ODS proporcionan un marco para trabajar hacia soluciones 
+estructurales, así como para acelerar la contribución al bienestar local, nacional y global. 
+Los ODS suponen una oportunidad única para adoptar un enfoque holístico en la solución de los grandes 
+retos a los que se enfrenta la humanidad. Los ODS son lo suﬁcientemente inclusivos y diversos como para 
+permitir expresarse a la mayoría, proporcionando un lenguaje común y construyendo una plataforma de 
+colaboración. En general, las universidades pueden implicarse con los ODS a través de diferentes niveles:
+t Reconocimiento: identiﬁcar y comunicar lo que una universidad está ya haciendo para contribuir a los 
+ODS puede ser una narrativa poderosa sobre su impacto y un fuerte impulso para la acción futura.
+t Adaptación estratégica: diferentes áreas de la universidad reconocen la utilidad e importancia 
+de los ODS y encuentran oportunidades de usar este marco para llevar a cabo actividades 
+independientes y programas sin una estrategia conjunta (ver ejemplos en la Sección 2).
+t Principio organizador: el continuo y extenso impacto tendrá lugar si los ODS pasan a formar 
+parte de la actividad habitual de la universidad, por medio de su reconocimiento e integración en 
+todas las estructuras de gobierno y espacios de relevancia en la universidad.
+Esta Sección constituye una guía de Fases que las universidades pueden seguir para comenzar y 
+aﬁanzar su implicación con los ODS. Estas Fases, que han sido adaptadas de otros manuales9, se 
+resumen en la Figura 3 y se describen con mayor detalle a continuación.
+ 
+Figura 3: Resumen del proceso de integración de los ODS paso a paso
+3. UNA UNIVERSIDAD COMPROMETIDA CON LOS DOS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES32
+Estas fases están diseñadas para ofrecer una guía de carácter general. Dependiendo del contexto y de 
+su punto de partida, algunas universidades pueden querer trabajar en una sola, omitir algunas, asumir 
+varias conjuntamente, o seguir una secuencia de Fases distinta.
+Es importante reconocer que no hay un único camino para que las universidades implementen o 
+contribuyan a los ODS. Las universidades diﬁeren unas de otras en muchos aspectos, incluyendo 
+el tamaño, estructura, acceso a ﬁnanciación, trabajo preexistente en desarrollo sostenible, valores, 
+prioridades, y las necesidades de las comunidades a las que sirven. Cómo eligen involucrarse con los 
+ODS y trabajar en las Fases descritas en esta Sección debería reﬂejar estas diferencias y oportunidades.
+3.1 FASE 1. MAPEAR LO QUE SE ESTÁ HACIENDO
+Realizar un análisis de lo que su universidad está ya haciendo para apoyar y contribuir a los ODS, bien 
+en todas las áreas o en ámbitos especíﬁcos de la universidad, es un punto de partida magníﬁco para 
+descubrir las posibilidades de aﬁanzar el compromiso. Es también una poderosa herramienta para 
+mostrar lo que ya está en marcha, así como para identiﬁcar sinergias dentro de la universidad.
+Al utilizar los ODS como guía para realizar el mapeo de las acciones que la universidad realiza, se podrá:
+t Identiﬁcar los principales grupos de interés y los líderes potenciales para los ODS
+t Identiﬁcar las fortalezas y deﬁciencias como base para identiﬁcar las prioridades y las acciones 
+para los ODS (Fase 2)
+t Ayudar a construir un business case para aumentar la implicación universitaria con los ODS
+Antes de comenzar la tarea de esquematizar las actividades de la universidad, se debería tener una idea 
+clara del objetivo y qué datos se buscan para ello. Esto ayudará a identiﬁcar las fuentes y a centrar el 
+área de investigación. Las siguientes herramientas te ayudarán a conseguir esta Fase:
+a) Mapeo de las contribuciones de la universidad a los ODS (Sección 4.1).
+b) Organizar un taller de interacción con los grupos de interés.
+Estudio de casos 
+1. Mapeando el Currículo a través de los ODS(Victoria University of Wellington) [Anexo B.6] 
+Conectando la investigación académica con los ODS (Institute for Sustainable Futures, UTS) 
+[Anexo B.12] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9 En particular, el manual SDG Compass: The guide for business action on the SDGs. diseñado por Global Reporting 
+Initiative, UN Global Compact, y World Business Council for Sustainable Development (2015) (sdgcompass.org); y el 
+manual Getting Started with the SDGs in Cities: A Guide for Stakeholders, elaborado por la Sustainable Development 
+Solutions Network (2016) (sdgcities.guide).
+3. UNA UNIVERSIDAD COMPROMIETIDA CON LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 33
+3.2 FASE 2. DESARROLLAR CAPACIDAD Y 
+LIDERAZGO INTERNO DE LOS ODS
+Tomar una actitud participativa es esencial para trabajar hacia la agenda ODS. Esto incluye la colaboración 
+y co-participación dentro y a través de las organizaciones y comunidades, contando con todas aquellas 
+personas involucradas en la vida y trabajo de la universidad con el ﬁn de impulsar el camino ya en marcha y 
+contando con todos aquellos involucrados en la vida y trabajo de la universidad a ﬁn de impulsar y desarrollar 
+un verdadero liderazgo interno de las acciones emprendidas.
+Para desarrollar la capacidad y el liderazgo interno de los ODS es necesario comprender el conocimiento 
+actual y el compromiso con los ODS a través de la investigación, el aprendizaje, la enseñanza, la gestión, 
+la gobernanza y la cultura. Llegar a este entendimiento podría requerir confeccionar un inventario con la 
+información recopilada en la Fase 1. Esto puede mostrar dónde se encuentran las lagunas de conocimiento 
+existentes y cómo se podría defender la importancia de los ODS para el trabajo y la vida de la universidad. Los 
+talleres en los que participan varias áreas de la universidad son también una excelente forma de comprender 
+el conocimiento actual de los ODS al mismo tiempo que se sensibiliza sobre ellos y sobre su relevancia para la 
+comunidad universitaria. 
+Al discutir la relevancia global y local de los ODS, las personas involucradas en la universidad pueden 
+desarrollar una comprensión compartida de los ODS, aprender sobre el trabajo e intereses de los demás, 
+comenzar a identiﬁcar áreas de acción y colaboración, desarrollar el liderazgo tanto individual como colectivo 
+del proceso. Involucrarse con el cuerpo estudiantil en particular es la clave de esta Fase. Se puede comenzar 
+organizando talleres para los estudiantes e interactuando directamente con las organizaciones estudiantiles.
+Para comenzar a llevar a cabo la Fase 2, las siguientes herramientas son de utilidad:
+a) Organizar un taller de interacción con los grupos de interés (Sección 4.2).
+b) Construir un business case para la implicación universitaria (Sección 4.3).
+c) El Compromiso de la Universidad con los ODS (Sección 4.4).
+ 
+Estudios de caso
+1. Taller de Liderazgo Universitario en ODS / University SDG Leadership Workshop (James Cook 
+University) [Annex B.17]
+3.3 FASE 3. IDENTIFICAR PRIORIDADES, 
+OPORTUNIDADES Y LAGUNAS
+La Fase 3 permite ampliar el compromiso con los ODS establecido en la Fase 2 y comenzar a integrarlos en 
+cada universidad. Este paso es fundamental para instaurar una visión global de intenciones y compromiso 
+respecto a los ODS.  
+Para la consecución de esta Fase es esencial implantar unas bases realistas y progresivas para cualquier 
+acción que la universidad realice de cara a integrar su compromiso con los ODS. Labrar una base sólida y 
+cohesiva desde la que actuar nos protegerá de decisiones ad hoc o reaccionarias.  
+La Fase 3 requiere poner en contacto a los principales grupos de interés – estudiantes, personal, miembros de 
+la comunidad – para llegar a un acuerdo común de prioridades para la acción en materia de ODS e identiﬁcar 
+oportunidades para trabajar conjunta y colaborativamente para lograr los mismos.Las siguientes tareas 
+pueden ayudar a emprender el camino para implementar una acción integrada respecto a los ODS:
+t Revisar la información recopilada en las Fases 1 y 2 (o a través de otros procesos universitarios) para 
+identiﬁcar y entender las lagunas y oportunidades con los que trabajar hacia los ODS que existan en su 
+universidad. 
+t Identiﬁcar las prioridades para implementar el compromiso con los ODS. Es crucial el diálogo con 
+todos los grupos de interés. Se puede organizar un taller sobre establecer una agenda. Esto serviría 
+para contar con representantes de todos los ámbitos de la universidad o de áreas independientes que 
+empezaran a trabajar para implementar una agenda de acción.
+3. UNA UNIVERSIDAD COMPROMETIDA CON LOS DOS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES34
+Es importante que toda la universidad se involucre en conseguir esta Fase –incluyendo al alumnado– 
+en identiﬁcar prioridades, oportunidades y lagunas, ya que será crucial para el trabajo colectivo y 
+cooperativo por los ODS en toda la universidad.
+Para empezar a diseñar esta Fase, estas herramientas serán útiles:
+a) Supervisión de las contribuciones universitarias a los ODS (Sección 4.1
+b) Organización de un taller de participación de actores interesados (Sección 4.2)
+3.4 FASE 4. INTEGRAR, IMPLEMENTAR E INCORPORAR
+Las Fases anteriores preparan el escenario para que la universidad avance. Esta cuarta Fase busca 
+identiﬁcar el mejor modo de integrar e implementar el compromiso y las acciones para lograr los ODS. 
+Esto asegurará que la universidad adopte un rol de liderazgo y pueda convertirse en un motor para los 
+ODS.
+Dependiendo del contexto institucional, esta Fase requerirá incluir los ODS en varios medios de gestión, 
+estableciendo mecanismos de coordinación para la acción en materia de ODS e implementando 
+políticas, estrategias y/o planes de acción. Para completar esta Fase, es necesario tomar decisiones 
+que sean claras y debidamente fundamentadas sobre cómo van a ser integrados los ODS de manera 
+transversal en todas las estrategias y políticas de la universidad. Estas estrategias y políticas podrían 
+incluir el plan estratégico de cada universidad, el marco de investigación, el marco de enseñanza y 
+aprendizaje, el marco de implicación corporativa, futura comunicación con el alumnado, etc.
+Implementar los ODS de manera transversal en las estrategias y políticas implica una de las siguientes 
+opciones:
+a) Integrar el compromiso y las acciones ODS en una estrategia conjunta de toda la universidad y sus 
+elementos de apoyo; o
+b) Que el compromiso y acciones por los ODS estén reﬂejados en una política universitaria que vele 
+por una perspectiva integral al desarrollo sostenible.
+El verdadero poder de transformación tiene lugar cuando se integra el marco de los ODS dentro de toda 
+la universidad, convirtiéndose en una práctica habitual. 
+Las siguientes herramientas permitirán completar esta Fase:
+a) Creando el business case para acción universitaria en los ODS (Sección 4.3).
+b) El Compromiso de la Universidad con los ODS (Sección 4.4).
+3.5 FASE 5: MONITORIZAR, EVALUAR Y COMUNICAR
+La forma en que las universidades evalúan y realizan sus contribuciones a los ODS es clave para informar 
+y conﬁgurar los futuros compromisos y acciones. Un plan de seguimiento, evaluación y comunicación 
+coherente y bien fundamentado permitirá a las universidades crear y compartir experiencias para obtener 
+el apoyo necesario en su compromiso futuro con los ODS y ampliar el conocimiento compartido sobre 
+estos. 
+Las herramientas que se utilizan para medir y evaluar pueden estar ya en funcionamiento dentro de la 
+universidad. Por ejemplo, pueden utilizarse los informes anuales y los procedimientos de comunicación 
+habituales ya existentes, o se pueden comunicar a un organismo especíﬁco. Con el tiempo, las 
+universidades o los organismos de coordinación pueden desarrollar sus propios estándares de 
+comparación en relación con los ODS. Por el momento, se pueden encontrar herramientas útiles en 
+“Declaración de la contribución a los ODS ” (Sección 4.6).
+3. UNA UNIVERSIDAD COMPROMIETIDA CON LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 35
+4.   HERRAMIENTAS Y RECOMENDACIONES 
+PARA LA INTEGRACIÓN DE LOS ODS
+Los ODS constituyen una nueva agenda que proporciona a los gobiernos, las empresas, industria, 
+sociedad civil y la enseñanza un marco para trabajar colaborativamente hacia el futuro que queremos. 
+Esta nueva agenda se basa y proporciona un espacio mejorado para introducir, progresar y normalizar 
+los enfoques interdisciplinares y transdisciplinares.  
+Esta sección ofrece una serie de herramientas y recomendaciones para que las universidades puedan 
+abordar los nuevos aspectos de la agenda ODS, dado que han superado las Fases de la Sección 3 para 
+reforzar su compromiso. Estas herramientas son:
+t Supervisión de las contribuciones universitarias a los ODS (Sección 4.1)
+t Organización de un taller de participación de actores interesados (Sección 4.2).
+t Creación del business case para acción universitaria en los ODS (Sección 4.3).
+t El Compromiso de la Universidad a los ODS (Sección 4.4).
+t Gestionar las interconexiones entre los ODS.
+t Informar sobre los ODS.
+Muchas de estas herramientas son útiles para más de una de las fases descritas en la Sección 3. La 
+información que se incluye está destinada a la aplicación dentro de un amplio abanico de contextos 
+universitarios y las universidades pueden adaptar las herramientas a su propio contexto y necesidades.
+4.1 SUPERVISIÓN DE LAS CONTRIBUCIONES 
+UNIVERSITARIAS A LOS ODS
+Esta sección plantea una serie de estrategias para identiﬁcar e inventariar cómo la universidad contribuye 
+a los ODS a través de sus actividades de investigación, educación y de gobernanza, así como algunas 
+consideraciones a tener en cuenta a la hora de seleccionar y diseñar la mejor estrategia.
+El análisis a través del inventariado (mapping) puede ser un ejercicio muy beneﬁcioso para comenzar el 
+debate acerca de los ODS en el ámbito universitario, así como para su implementación y comunicación. 
+Se puede utilizar, por ejemplo, para:
+t Identiﬁcar las personas y departamentos clave implicados en contribuir a los ODS, como forma 
+de identiﬁcar los principales grupos de interés y mantener una base de datos de lo que ya se está 
+haciendo
+t Identiﬁcar áreas de interés compartido en toda la universidad y oportunidades de colaboración 
+tanto interna como externa
+t Identiﬁcar fortalezas y lagunas en las actividades de la universidad como base para la construcción 
+de un business case por el compromiso universitario y las necesidades existentes para futuras 
+actividades
+t Involucrar y capacitar al personal y al alumnado en la agenda ODS
+t Recopilar información para comunicar y mostrar la contribución de la universidad a los ODS
+t Formar un grupo nacional y regional de personal experto en ODS e identiﬁcar lagunas. 
+El inventario puede ser una arduo ya que las universidades son instituciones grandes y complejas y pueden 
+contribuir a los ODS de muchas formas. La clave para asegurarse de que el proceso es manejable es dejar 
+claros los objetivos y resultados del inventariado y escoger una estrategia y una fuente de información 
+4. HERRAMIENTAS Y RECOMENDACIONES PARA INTEGRAR LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES36
+adecuada. Es probable que cada mapeo sea diferente. También puede ser útil adoptar una estrategia 
+progresiva para inventariar diferentes tipos de contribuciones, en lugar de intentar hacerlo todo a la vez.
+Los principales tipos de estrategias para el mapeo son:
+t Evaluación de la documentación mediante ordenador: Esta estrategia requiere una revisión 
+previa por medio del ordenador de las fuentes de información y una evaluación y asignación manual 
+de actividades relacionadas con los ODS. Técnica y logísticamente es el enfoque más sencillo. Sin 
+embargo, es un proceso de trabajo intenso, y sería más adecuado para pequeñas series de datos, 
+tales como las fortalezas de investigación docente y objetivos universitarios.
+t Auto-identiﬁcacion: Esta estrategia requiere solicitar que las personas identiﬁquen en qué ODS 
+se enmarcan sus actividades. Esto tiene la ventaja de involucrar a las personas más familiarizadas 
+con una actividad y construir su conocimiento de los ODS. Sin embargo, se requiere un esfuerzo 
+considerable tanto en el diseño como en el seguimiento de la petición para asegurarse de que 
+la gente responda. Por ello, esta estrategia funciona mejor con relaciones ya existentes y con 
+un número pequeño de personas fundamentales (como coordinadores de investigación de las 
+facultades), cuando hay un alto grado de apoyo y relaciones personales ya existentes. También 
+puede ser una buena manera de “veriﬁcar” el mapeo realizado a través de otras estrategias.
+t Búsquedas por palabras clave: Esta estrategia utiliza palabras clave especíﬁcas sobre los ODS 
+a ﬁn de buscar en grandes series de datos relacionados a actividades, como publicaciones de 
+investigación y listados de cursos. La implementación de esta aproximación puede requerir mucho 
+tiempo, igual que la identiﬁcación de palabras clave adecuadas, y encontrar buenos programas 
+informáticos de análisis, tener acceso al tipo de información adecuada y monitorizar que los 
+resultados obtenidos tienen sentido. Sin embargo, una vez implementado, este método puede 
+ser automatizado hasta cierto punto, lo que supone una gran ventaja para poder actualizar los 
+resultados de manera regular y para supervisar el progreso hacia los ODS.
+Algunos ejemplos de “fuentes de datos” que se pueden usar como base para el mapeo:
+t Investigación: estrategias de investigación, iniciativas emblemáticas, investigadores, proyectos/becas, 
+publicaciones y rankings de excelencia investigadora.
+t Educación: cursos/unidades de grado y postgrado, coordinadores de cursos, club de estudiantes e 
+intereses de la sociedad.
+t Gestión: estrategias universitarias, políticas, objetivos, iniciativas y áreas de gestión.
+t Comunicación: indicadores sobre los cuales la universidad informa actualmente.
+Un par de fuentes adicionales que son útiles para ayudar con la puesta en marcha son:
+t Practical approaches to mapping university contributions to the SDGs (Webinar), escrito por SDSN 
+Australia/Paciﬁc and ACTS (2017): youtu.be/PbET71egLzw. 
+t Compiled list of SDG keywords (hoja de cálculo) by Monash University and SDSN Australia/Paciﬁc (2017): 
+ap-unsdsn.org/wp-content/uploads/2017/04/Compiled-Keywords-for-SDG-Mapping_Final_17-05-10.xlsx.
+4.2 ORGANIZAR UN TALLER DE PARTICIPACIÓN DE 
+ACTORES INTERESADOS 
+Los ODS abarcan todas las facultades y áreas de la actividad universitaria y pueden ser una oportunidad 
+para desarrollar nuevas colaboraciones con los grupos de interés internos y externos. Un taller 
+transversal bien diseñado constituye una gran ocasión para debatir acerca de cómo puede involucrarse 
+la universidad con los ODS y puede ser una experiencia altamente satisfactoria y de impulso para 
+todos sus participantes. En el Cuadro 2 se sugieren unas propuestas de talleres, aunque la estructura 
+y contenidos concretos deberán ser adaptados en función de los participantes, su familiaridad con los 
+ODS, y los objetivos exactos del taller.
+4. HERRAMIENTAS Y RECOMENDACIONES PARA INTEGRAR LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 37
+Cuadro 2: Plantilla para un taller de ODS aplicado a la universidad de forma transversal
+Objetivos potenciales
+t Construir un conocimiento básico de los ODS.
+t Atraer el compromiso con los ODS de personas clave y crear líderes.
+t Identiﬁcar fortalezas, debilidades, prioridades, y oportunidades para el compromiso universitario 
+con los ODS, y desarrollar un plan para llevarlos a cabo.
+t Crear vínculos y un objetivo compartido para las personas que estén trabajando en distintas áreas 
+de la universidad
+Duración
+t Entre media jornada y una jornada completa
+Participantes
+t Representantes de la dirección de la universidad, principales líderes de desarrollo sostenible en la 
+misma, representantes de las facultades, de áreas de gobernanza y de relaciones externas, de los 
+estudiantes (p.e. clubs y asociaciones relevantes), y principales grupos de interés externos.
+Presentaciones (primera parte)
+t ¿Qué son los ODS y cómo responde la sociedad global a ellos?
+t ¿Cómo se pueden traducir las ambiciones de los ODS en acciones concretas?
+t Ejemplos interesantes y relevantes de cómo los ODS han sido utilizados (dentro del área, por 
+grupos de interés externos, por otras universidades).
+t Breves reﬂexiones de grupos de interés sobre las oportunidades de los ODS para la universidad
+Preguntas para el debate / grupos paralelos (segunda parte)
+t ¿Cómo está mi actividad alineada con los ODS? ¿Qué más podría hacer para contribuir a los mismos?
+t ¿De qué manera el trabajo actual de la universidad se relaciona o contribuye a los ODS — qué ODS y 
+cómo?
+t ¿Cuáles son nuestras fortalezas, cuáles nuestras deﬁciencias y oportunidades? ¿Cómo se relacionan 
+éstas con las prioridades y valores de la universidad?
+t ¿Cómo puedo usar el marco de los ODS para mejorar y demostrar lo que estamos haciendo 
+actualmente?
+t ¿Cuáles son las áreas de interés común dentro de la universidad? ¿Podemos usar estas conexiones 
+como base para la colaboración?
+t ¿Cuáles son las barreras/retos estructurales? ¿Qué se necesita cambiar para promover más acción?
+t ¿Qué es necesario que ocurra para llevar a cabo las oportunidades? ¿Cuáles son los siguientes pasos?
+Resultados
+t Informe/Resumen del taller
+t Plan de acción para la universidad 
+t Comunicación a toda la universidad
+Consejos
+t Asegurarse de que el contenido y las actividades son signiﬁcativos para todos los participantes, 
+independientemente de su trasfondo o área de la universidad. Por ejemplo, asegurarse de que las 
+preguntas de discusión tengan sentido desde la perspectiva de los participantes.
+t Usar una combinación de presentación y actividades que permitan la discusión. 
+4.  TOOLS AND GUIDANCE FOR SDG 4. HERRAMIENTAS Y RECOMENDACIONES PARA INTEGRAR LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES38
+4.3 CREAR UN BUSINESS CASE PARA LA ACCIÓN 
+UNIVERSITARIA EN LOS ODS
+Para posicionar la discusión adecuadamente en frente a la dirección de la universidad, puede ser 
+necesario el desarrollo de un business case. Esta Guía ha sido diseñada para ayudar con la preparación 
+de un business case, proporcionando una descripción general de por qué los ODS son importantes 
+para las universidades y cómo las universidades pueden involucrarse con ellos, al mismo tiempo que 
+proporciona herramientas para que las universidades vean cómo los ODS son relevantes para sus 
+propias actividades.  El Cuadro 3 proporciona un esquema que muestra un business case ejemplar con 
+respecto a la acción universitaria en el ámbito de los ODS. 
+Cuadro 3: Plantilla de un business case para un compromiso universitario amplio con los ODS
+1. ¿Qué son los ODS? (Sección 1.1)
+2. La importancia global de los ODS y cómo los utilizan otros sectores (Sección 1.1).
+3. Los beneﬁcios para la universidad, incluyendo la necesidad de un liderazgo en materia de ODS (Sección 
+1.2).
+4. Algunas acciones clave que la universidad ya está realizando para contribuir a los ODS (Sección 4.1).
+5. Oportunidades para la universidad y cómo podrían usarse los ODS para ampliar sus objetivos estratégicos 
+(Sección 1.2).
+6. ¿Qué están haciendo otras universidades (estudios de caso y búsqueda web)?
+7. Las expectativas y obligaciones potenciales que la universidad podría tener que cumplir si se compromete 
+con los ODS (por ejemplo, Sección 3 y 4.6).
+8. Abordar los obstáculos potenciales (recogido de la Sección 4.2).
+9. Recomendaciones para siguientes pasos – por ejemplo, organizar más talleres en toda la universidad 
+(Sección 4.2) y ﬁrmar el Acuerdo Universitario por los ODS (Sección 4.4) 
+4.4 DECLARACIÓN DEL COMPROMISO 
+UNIVERSITARIO CON LOS ODS
+El Compromiso Universitario con los ODS (Cuadro 4) es una breve declaración que ﬁrma el rector de la 
+universidad por la que ésta se compromete a apoyar y promocionar los ODS a través de la investigación, 
+la educación y la gobernanza institucional así como a informar sobre las actividades de refuerzo de los 
+ODS. El Compromiso fue impulsado por el capítulo australiano de la Red de Soluciones para el Desarrollo 
+Sostenible (SDSN/Australia-Paciﬁc) con el ﬁn de demostrar el liderazgo universitario y subrayar el 
+importante papel que puede tener el sector para lograr los ODS.
+De manera deliberada se redactó un Compromiso que no fuera arduo o prescriptivo, sin obligaciones 
+legales, para que pueda usarse también como herramienta para involucrar al personal directivo de la 
+universidad con los ODS y para comenzar las gestiones internas. Queda al criterio de cada universidad 
+cómo interpretar la implementación del Compromiso. En cierta medida, se ha diseñado esta guía para 
+ayudar a las universidades en esta tarea.
+A fecha de esta publicación10, 9 universidades líderes en la región de Australia-Pacíﬁco han ﬁrmado el 
+Compromiso: James Cook University, The University of Adelaide, The University of Melbourne, Monash 
+University, University of Technology, Sydney, RMIT University, Western Sydney University, Deakin 
+University, y Victoria University of Wellington.  
+Se invita a las universidades que están interesadas en ﬁrmar el Compromiso a que contacten a la Red de 
+Soluciones para el Desarrollo Sostenible (SDSN). 
+10 Para la lista actualizada de los signatarios, ver ap-unsdsn.org/regional-initiatives/sdgs/university-commitment/
+4. HERRAMIENTAS Y RECOMENDACIONES PARA INTEGRAR LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 39
+Cuadro 4: Declaración “El Compromiso Universitario con los ODS” 
+ 
+Los 17 Objetivos de Desarrollo Sostenible (ODS) y sus 169 metas asociadas fueron acordados por 
+todos los países en las Naciones Unidas en septiembre de 2015 y constituyen un marco global conjunto 
+de las prioridades de desarrollo para el 2030. Los ODS intentan acabar con la pobreza, promover la 
+prosperidad y bienestar para todo el mundo, proteger el medio ambiente y enfrentar el cambio climático, 
+y promover la buena gobernanza, la paz y la seguridad.
+Las universidades tienen un papel vital en cómo abordar estos críticos desafíos globales y la consecución 
+de los ODS. Las universidades tienen la responsabilidad, a través de la enseñanza, de formar a la 
+próxima generación de líderes, emprendedores y pensadores para comprender los desafíos mundiales 
+que enfrenta el mundo y el papel que pueden desempeñar para superar estos retos. A través de su 
+investigación y formación de líderes en investigación, las universidades están a la vanguardia de la 
+búsqueda de soluciones sociales, económicas, ambientales y tecnológicas sostenibles para enfrentar 
+estos problemas globales. Finalmente, a través de su propia gestión, las universidades pueden ser 
+pioneras en innovación y pueden dar ejemplo a otros sectores y empresas.
+Es importante para el futuro del mundo que todas las universidades desempeñen su parte en lograr los 
+Objetivos de Desarrollo Sostenible.
+Por lo tanto, las universidades abajo ﬁrmantes;
+t reconocemos los enormes retos sociales, económicos y medioambientales a los que se enfrenta el 
+mundo
+t reconocemos que el desarrollo futuro debe tener lugar de un modo que sea social, económica y 
+medioambientalmente sostenible 
+t reconocemos que los Objetivos de Desarrollo Sostenible establecen una agenda para la 
+consecución del desarrollo sostenible para 2030.
+t subrayamos el papel vital que las universidades pueden tener en lograr un futuro sostenible a 
+través de la docencia, investigación y gestión
+Y por ello, adoptamos los siguientes compromisos:
+t apoyaremos y promocionaremos los valores de los Objetivos de Desarrollo Sostenible
+t emprenderemos una investigación que brinde soluciones a los desafíos del desarrollo sostenible. 
+t proporcionaremos oportunidades educacionales para que nuestros estudiantes adquieran el 
+conocimiento y las destrezas necesarias para promocionar el desarrollo sostenible
+t contribuiremos a la consecución de los Objetivos de Desarrollo Sostenible asegurándonos de que 
+nuestros campus y programas sean medioambientalmente sostenibles y socialmente inclusivos, 
+e informaremos sobre las actividades que realicemos en apoyo de los Objetivos de Desarrollo 
+Sostenible.
+4. HERRAMIENTAS Y RECOMENDACIONES PARA INTEGRAR LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES40
+4.5 CÓMO GESTIONAR LAS INTERRELACIONES
+La agenda de los ODS reconoce explícitamente la importancia de las interdependencias entre y dentro 
+de los ODS. Reclama que los Objetivos sean considerados como un todo indivisible e integrado que 
+debería tratarse de una manera equilibrada que tenga en cuenta los vínculos entre los ODS y entre sus 
+dimensiones sociales, medioambientales y económicas.
+Es importante Identiﬁcar los vínculos negativos (o efectos secundarios) para asegurar que el progreso 
+en un área no lleve a resultados inesperados que debiliten el progreso en otras áreas. Por otro lado, los 
+vínculos positivos (o sinergias) son útiles para tratar múltiples áreas a la vez. El proceso de identiﬁcación 
+de los vínculos es fundamental para tender puentes entre disciplinas y sectores. [39, 40].
+El análisis de los vínculos entre los ODS puede ser relevante y útil para las universidades de varias 
+maneras:
+t Es un área de investigación importante donde las universidades pueden proporcionar un apoyo a 
+los responsables políticos para que identiﬁquen los mejores procedimientos y políticas para lograr 
+los ODS (Sección 2.2.)
+t Puede ayudar a identiﬁcar conexiones clave entre diversas disciplinas e iniciar inﬂuyentes proyectos de 
+investigación interdisciplinares que investiguen temas desde muchas perspectivas (Sección 2.2.)
+t Es un concepto central en muchas de las competencias clave de la educación en favor de los 
+ODS – incluyendo sistemas de pensamiento, competencias de anticipación, y mecanismos de 
+resolución de problemas integrados (Sección 2.1)
+t Puede ayudar a medir los beneﬁcios más amplios de la educación e identiﬁcar los modos en los 
+que puede ser fomentada a través de otras acciones (Sección 2.1)
+t Puede ayudar a identiﬁcar posibles contrapartidas y beneﬁcios de implementar ODS especíﬁcos dentro 
+de la gestión, lo que puede ayudar a priorizar las acciones con los beneﬁcios más positivos (Sección 2.3)
+t Puede ayudar a identiﬁcar y ampliﬁcar los mayores beneﬁcios de los principales proyectos universitarios 
+(incluyendo investigación y proyectos de gestión) así como evaluar y mitigar posibles impactos negativos.
+t Puede ayudar a unir diferentes áreas de la universidad – especialmente la investigación, docencia y 
+gestión – por ejemplo, a través del concepto de “laboratorios vivos”.
+El trabajo a través de las distintas disciplinas, facultades y tareas organizacionales para la identiﬁcación 
+y manejo de vínculos puede resultar difícil porque los sistemas están anclados y estructurados para 
+ser competitivos y trabajar de una manera más sistémica puede provocar sobrecargas en términos de 
+tiempo, preparación y dinero. Sin embargo, se está asumiendo un esfuerzo considerable por parte de las 
+comunidades cientíﬁcas y responsables políticos para desarrollar un conocimiento práctico y asesoramiento 
+que sirva de apoyo a este proceso. El Cuadro 5 ofrece enlaces a algunas herramientas y ejemplos útiles 
+para ayudar a las universidades a poner este proceso en práctica.
+4.6 REPORTING SOBRE LA CONTRIBUCIÓN A LOS ODS 
+Como se ha mostrado en la Sección 3, Paso 5, la labor de informar es tanto una medida importante 
+de cara a la rendición de cuentas y evaluación como una oportunidad única para que las universidades 
+se involucren con los ODS. En particular, los ODS proporcionan una gran oportunidad para organizar e 
+integrar los informes de la universidad y para mostrar y celebrar el impacto e importancia de lo que las 
+universidades hacen por el bienestar local y global.
+Como los ODS son relativamente nuevos, aún se está desarrollando cómo emitir informes acerca de 
+los mismos. Por el momento no hay unas directrices completas y aceptadas acerca de lo que debería 
+hacerse, especialmente en cómo las organizaciones pueden informar de su impacto en materia ODS. 
+Esta sección proporciona un resumen de los esfuerzos existentes de presentación de informes sobre los 
+ODS, y algunas ideas de cómo las universidades pueden empezar a considerar la comunicación de sus 
+contribuciones a los ODS.
+4. HERRAMIENTAS Y RECOMENDACIONES PARA INTEGRAR LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 41
+La Agenda global 2030 incluye 232 indicadores oﬁciales11, para los cuales las Naciones Unidas están 
+recopilando datos. Sin embargo, su comunicación es voluntaria y los gobiernos nacionales pueden elegir 
+sobre qué informar y cómo. El único informe que los países tienen la obligación de proporcionar es el 
+informe del progreso en la implementación de los ODS dirigido al Foro Político de Alto Nivel sobre Desarrollo 
+Sostenible de las Naciones Unidas (HLPF, por sus siglas en inglés) al menos dos veces entre 2016 y 203012.
+ 
+Cuadro 5: Algunas fuentes y ejemplos para manejar los vínculos entre las universidades
+t Nilsson et al. [41] explican las diferentes formas que pueden adoptar los vínculos entre los ODS y 
+proporcionan una escala sencilla para puntuar su fortaleza y dirección.
+t ICSU [42] realizó un análisis, cientíﬁcamente fundamentado, usando la escala anterior para identiﬁcar 
+y clasiﬁcar las principales interacciones positivas y negativas entre comida/agricultura (ODS 2), salud 
+(ODS 3), energía (ODS 7) y océanos (ODS 14) y para todos los otros objetivos, como la base para un 
+diálogo entre la ciencia y la política para su implementación. 
+t Hall et al. [43] organizaron talleres con un equipo interdisciplinar de personal investigador en la 
+Universidad de Queensland para realizar un mapeo de cómo los ODS se inﬂuyen entre sí, con un 
+particular énfasis en agua potable, saneamiento e higiene (OSD 6) en Australia y otras partes del 
+mundo. El diagrama de inﬂuencia resultante proporciona una base estratégica para llevar a cabo las 
+opciones de implementación.
+t Malekpour et al. [44] realizaron un taller interuniversitario en la Universidad de Monash para explorar el 
+nexo entre alimentos (ODS 2), energía (ODS 7) y agua (ODS 6) dentro del campus de la universidad, 
+como una forma de generar ideas para proyectos basados en el campus que podrían estimular nueva 
+investigación, proporcionar oportunidades de educación y contribuir a la sostenibilidad del campus.
+t El Gold Standard ha lanzado el “Informe Gold Standard para los Objetivos Globales” y está 
+desarrollando herramientas de medición de los impactos y beneﬁcios marginales de los proyectos 
+para reducir las emisiones del efecto invernadero en la salud, para lograr la igualdad de género y el 
+acceso al agua limpia en aquellas comunidades en que se implementan13.
+t SDSN Australia/Pacíﬁco [45] desarrolló un marco para que la integración ODS guíe una discusión 
+multisectorial sobre los vínculos principales de los ODS que son relevantes para Australia, y que 
+identiﬁque los objetivos/indicadores potenciales para capturar esos vínculos.
+t El Instituto para los Futuros Sostenibles en la University of Technology Sydney organizó un curso de 
+Máster en Pensamiento Sistémico (Systems Thinking Master Class) para proporcionar a los agentes 
+del desarrollo el conocimiento conceptual y herramientas prácticas con que resolver la complejidad de 
+los vínculos ODS e identiﬁcar nuevas oportunidades para abordarlos14.
+ 
+ 
+La información por parte de otros sectores es voluntaria, pero cada vez más organizaciones están empezando 
+a incorporar la comunicación sobre los ODS en sus informes anuales o de sostenibilidad. El SDG Compass 
+[46] y Getting Started with the SDGs in Cities [47] proporcionan una guía inicial acerca de cómo informar. 
+SDG Compass también aporta un suplemento que une los ODS y los indicadores de la Iniciativa Global 
+de Presentación de Informes (Global Reporting Initiative, GRI). El Pacto Mundial de Naciones Unidas y GRI 
+también están preparando una guía más completa. Algunas de estas herramientas tienen relevancia para la 
+preparación de informes por parte de las universidades, aunque ninguna sea especíﬁcamente dirigida a ella.
+Es importante señalar que ninguno de los manuales existentes recomienda que las organizaciones informen 
+de cada una de las metas de los 169 ODS, o incluso de cada uno de los 17 objetivos, debido al enorme 
+esfuerzo que requiere.  
+ 
+11 https://unstats.un.org/sdgs/  
+12 https://sustainabledevelopment.un.org/hlpf     
+13 https://www.goldstandard.org/project-developers/develop-project 
+14 https://www.uts.edu.au/research-and-teaching/our-research/institute-sustainable-futures/news/systems-thinking-impact 
+15 https://sdgcompass.org/business-indicators/ 
+ 16 https://www.globalreporting.org/information/SDGs/Pages/Reporting-on-the-SDGs.aspx
+4. HERRAMIENTAS Y RECOMENDACIONES PARA INTEGRAR LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES42
+En ausencia de requerimientos obligatorios sobre la presentación de informes y de directrices especíﬁcas 
+para las universidades, éstas pueden ajustarlo a sus propios valores, prioridades y actividades de 
+comunicación ya existentes. 
+Aquí se ofrecen algunas sugerencias sobre cómo proceder:
+t Como mínimo, identiﬁcar o desarrollar medidas o indicadores para demostrar el compromiso de 
+la universidad con los ODS e informar de ello anualmente. Esas acciones podrían estar basadas 
+en los resultados del proceso de implicación con los ODS como se describió en la Sección 3, y 
+en particular en la Sección 3, Fase 5. Pueden incluir las operaciones realizadas para progresar en 
+el marco ODS; los resultados del mapeo de las contribuciones de los ODS; experiencias sobre 
+las iniciativas de la universidad y su impacto; y nuevos recursos (herramientas de medición, 
+tecnologías, prácticas) que han sido desarrollados. 
+t Ampliar las obligaciones de información existentes. Muchas actividades que las universidades 
+realizan están relacionadas con los ODS y se recogen en los informes anuales de las 
+universidades, en los informes de sostenibilidad y en los informes voluntarios a organizaciones 
+informantes como PRME, el Pacto Mundial de las Naciones Unidas, la Iniciativa Global de 
+Presentación de Informes, y el índice LiFE. La consolidación de estos informes en torno a los ODS 
+es una oportunidad para desarrollar en un único instrumento general el impacto de la universidad 
+en el bienestar global.
+t Evitar el “SDG Washing”. Se habla de “Green Washing” cuando la información se usa para dar 
+la impresión de que un producto, organización, política o proyecto es respetuoso con el medio 
+ambiente (incluso cuando no lo es). Los ODS se pueden usar de la misma manera. Es importante 
+asegurarse de que la información sobre la que se informa es sustancial y veraz, y que los ODS 
+no se utilizan solo para promover la percepción de que una universidad está contribuyendo al 
+desarrollo sostenible. Las universidades pueden dar la impresión de que hacen un lavado de sus 
+logros en materia ODS si informan solo sobre indicadores de ODS donde la universidad funciona 
+bien, ignorando otros indicadores importantes donde el rendimiento no es fuerte.
+t Es importante tener claro a qué objetivo se está tratando de llegar a través de los informes para 
+ayudar a identiﬁcar lo que funcionará para cada caso. Por ejemplo, ¿el objetivo es atraer a un 
+público amplio? Entonces, el enfoque del storytelling puede ser el que mejor funcione. ¿O se está 
+tratando de transmitir hechos y cifras? En este caso, una tabla de progreso con los indicadores 
+identiﬁcados puede ser la solución perfecta. Cualquiera que sea el supuesto, hay que asegurarse 
+de no informar solo por informar, ya que esta tarea consume mucho tiempo y tiene asociados 
+pocos resultados y beneﬁcios. 
+Varias universidades han comenzado a informar sobre aspectos de sus contribuciones a los ODS, y 
+algunos ejemplos se pueden encontrar en:
+t Un compendio de enfoques: Giselle Weybrecht 2017, ‘Reporting on the SDGs – A visual tour of 
+different approaches’, PRiMEtime Blog, (10 & 17 July) (https://primetime.unprme.org/2017/07/10/
+reporting-on-the-sdgs-a-visual-tour-of-different-approaches-part-1-of-2/).
+t Una selección de informes anuales de las universidades: RMIT University, Sustainability Annual 
+Report 2016 (http://www1.rmit.edu.au/browse;ID=7pzvmijz5s6y); Deakin University, Sustainability 
+Progress Report 2016 (www.deakin.edu.au/students/your-campus/organisational-sustainability); 
+Victoria University of Wellington, Sustainability Report 2016; The University of Bologna, Report on 
+U.N. Sustainable Development Goals 2016 (www.unibo.it/en/university/who-we-are/report-on-un-
+sdg).
+ 
+Dado que la tarea de los informes ODS es un tema en permanente desarrollo, sin duda, las futuras 
+ediciones de esta guía contendrán pautas y herramientas más completas que las universidades podrán 
+utilizar.
+4. HERRAMIENTAS Y RECOMENDACIONES PARA INTEGRAR LOS ODS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 43
+REFERENCIAS
+1. Global Reporting Institute (GRI), United Nations Global Compact (UNGC) & World Business 
+Council for Sustainable Development (WBCSD) 2015, The SDG Compass: The guide for business 
+action on the SDGs, sdgcompass.org/wp-content/uploads/2015/12/019104_SDG_Compass_
+Guide_2015.pdf. 
+2. Kanuri, C, Revi, A, Espey, J & Kuhle, H 2016, Getting started with the SDGs in Cities: A 
+guide for stakeholders, Sustainable Development Solutions Network, unsdsn.org/wp-content/
+uploads/2016/07/9.1.8.-Cities-SDG-Guide.pdf.
+3. Sustainable Development Solutions Network (SDSN) 2015, Getting started with the SDGs: A 
+guide for stakeholders, SDSN, New York, sdg.guide. 
+4. United Nations (UN) General Assembly 2015, Transforming our world: The 2030 Agenda for 
+Sustainable Development, A/RES/70/1 (21 October), viewed 3 August 2017, www.refworld.org/
+docid/57b6e3e44.html.
+5. Nilsson, M, Griggs, D & Visbeck, M 2016, ‘Map the interactions between Sustainable Development 
+Goals’, Nature, vol. 534, pp. 320–322.
+6. Crow, M 2014, What is the role of universities in global development?, viewed 30 April 2017, blogs.
+worldbank.org/education/what-role-universities-global-development.
+7. Boulton, G 2009, ‘What are universities for?’, University World News, issue: 69 (29 March), viewed 3 
+August 2017, www.universityworldnews.com/article.php?story=20090326200944986. 
+8. Deloitte Access Economics 2015, The importance of universities to Australia’s prosperity, Deloitte 
+Access Economics Pty Ltd, Canberra, www.universitiesaustralia.edu.au/news/commissioned-
+studies/The-Importance-of-universities-to-Australia-s-prosperity#.WQU9b3o2sYs.
+9. United Nations Educational, Scientiﬁc and Cultural Organization (UNESCO) 2014, 
+Sustainable development begins with education, UNESCO, Paris, unesdoc.unesco.org/
+images/0023/002305/230508e.pdf.
+10. UNESCO 2016, ‘Education for people and planet: Creating sustainable futures for all’, New Global 
+Education Monitoring Report Series, UNESCO, Paris, en.unesco.org/gem-report/report/2016/
+education-people-and-planet-creating-sustainable-futures-all.
+11. UNESCO 2014.
+12. UNESCO 2016.
+13. UNESCO 2017, Education for Sustainable Development Goals: Learning objectives, UNESCO, Paris, 
+unesdoc.unesco.org/images/0024/002474/247444e.pdf.
+14. UNESCO 2016.
+15. UNESCO 2017.
+16. Scientiﬁc Advisory Board of the United Nations (UN) Secretary-General 2016, ‘Science for 
+sustainable development’ Policy Brief by the Scientiﬁc Advisory Board of the UN Secretary-General, 
+UNESCO, unesdoc.unesco.org/images/0024/002461/246105e.pdf.
+17. Nilsson, M 2016, ‘How science should feed into the 2030 Agenda’, SciDev.Net, (5 April), viewed 3 
+August 2017, www.scidev.net/global/sdgs/opinion/science-sdg-2030-agenda-sustainability.html.
+18. ICSU & ISSC 2015, Review of the Sustainable Development Goals: The science perspective, 
+International Council for Science (ICSU), Paris, www.icsu.org/publications/reports-and-reviews/
+review-of-targets-for-the-sustainable-development-goals-the-science-perspective-2015.
+19. Schmalzbauer, B & Visbeck, M (eds) 2016, ‘The contribution of science in implementing the 
+Sustainable Development Goals’, German Committee Future Earth, Stuttgart/Kiel, futureearth.org/
+sites/default/ﬁles/2016_report_contribution_science_sdgs.pdf.
+REFERENCIAS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES44
+20. Perkins, NI 2016, Science plays crucial role in SDG success, SciDev.Net, (21 March), viewed 3 
+August 2017, www.scidev.net/global/sdgs/scidev-net-at-large/science-crucial-role-sdg-success.html.
+21. Scientiﬁc Advisory Board of the UN Secretary-General 2016. 
+22. Elsevier 2015, Sustainability science in a global landscape, www.elsevier.com/research-intelligence/
+resource-library/sustainability-2015, (p. 61).
+23. Nilsson, M, Griggs, D & Visbeck, M 2016. 
+24. International Council for Science (ICSU) 2017, A guide to SDG interactions: From science to 
+implementation [D.J. Griggs, M. Nilsson, A. Stevance, D. McCollum (eds)]. ICSU, Paris,  
+www.icsu.org/cms/2017/05/SDGs-Guide-to-Interactions.pdf.
+25. Lee, H & Pollitzer, E 2016, The role of gender-based innovations for the UN Sustainable 
+Development Goals: Toward 2030: Better science and technology for all, Korea Center for Women in 
+Science, Engineering and Technology (WISET), Seoul.
+26. Scientiﬁc Advisory Board of the UN Secretary-General 2016.
+27. Lubchenco, J, Barner, AK, Cerny-Chipman, EB & Reimer, JN 2015, ‘Sustainability rooted in 
+science’, Nature Geoscience, vol. 8, pp. 741–745.
+28. Elsevier 2015.
+29. Schmalzbauer, B & Visbeck, M (eds) 2016.
+30. Lubchenco, J, Barner, AK, Cerny-Chipman, EB & Reimer, JN 2015.
+31. Future Earth 2014, Future Earth 2025 vision, International Council for Science (ICSU), Paris,  
+www.futureearth.org/sites/default/ﬁles/future-earth_10-year-vision_web.pdf.
+32. Jantsch, E 1972, ‘Inter- and transdisciplinary university: A systems approach to education and 
+innovation’, Higher Education, vol. 1, no. 1, pp. 7–37.
+33. Elsevier 2015.
+34. Lee, H & Pollitzer, E 2016.
+35. GRI, UNGC & WBCSD 2015.
+36. Nilsson, M 2016.
+37. UN General Assembly 2015, (Para 52–53).
+38. UN General Assembly 2015.
+39. Nilsson, M, Griggs, D & Visbeck, M 2016.
+40. ICSU 2017.
+41. Nilsson, M, Griggs, D & Visbeck, M 2016.
+42. ICSU 2017.
+43. Hall, N, Richards, R, Barrington, D, Ross, H, Reid, S, Head, B, Jagals, P , Dean, A, Hussey, K, 
+Abal, E, Ali, S, Boully, L & Willis, J 2016, Achieving the UN Sustainable Development Goals for 
+water and beyond, Global Change Institute, The University of Queensland, Brisbane,  
+gci.uq.edu.au/achieving-un-sustainable-development-goals-water-and-beyond.
+44. Malekpour, S, Caball, R, Brown, RR, Georges, N & Jasieniak, J 2017 Food-energy-water nexus: 
+Ideas for Monash Clayton Campus, Monash University, Melbourne, Australia.
+45. Watson, R, Thwaites, J, Griggs, D, Kestin, T & McGrath K 2014, Sustainable development goals 
+and targets for Australia: An interim proposal, Monash Sustainability Institute Report 14/3,  
+ap-unsdsn.org/wp-content/uploads/2013/10/SDGs-for-Australia_Interim-Report.pdf.
+46. GRI, UNGC & WBCSD 2015.
+47. Kanuri, C, Revi, A, Espey, J and Kuhle, H 2016.
+REFERENCIAS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 45
+ANEXO A: EJEMPLOS DE RETOS 
+ABORDADOS POR LOS ODS
+Objetivo Problemas y desafíos claves
+El Objetivo 1 pide la erradicación de la pobreza en todas sus formas y en las todas partes 
+del mundo. Para cumplir con este objetivo, deben ampliarse y mejorarse los programas de 
+protección social y asistencia especíﬁca para los más pobres y vulnerables, así como fortalecer 
+las iniciativas de reducción y mitigación del riesgo de desastres para los países en desarrollo que 
+tengan instituciones más débiles.
+El Objetivo 2 es acabar con el hambre, lograr la seguridad alimentaria, mejorar la nutrición y 
+promover la agricultura sostenible. Alcanzar esta meta signiﬁca asegurar a todo el mundo el acceso 
+a comida segura, suﬁciente y nutritiva. Esto requerirá prácticas agrícolas resilientes y sistemas 
+sostenibles de producción de alimentos. Disponer de más y mejores datos sobre el acceso a 
+los alimentos puede ayudar a rastrear el progreso en el Objetivo 2, y guiar las intervenciones en 
+inseguridad alimentaria.
+El Objetivo 3 busca garantizar la salud y el bienestar para todo el mundo a todas las edades, 
+incluido el acceso a una atención médica segura, asequible y efectiva. Para lograr este objetivo, se 
+necesita trabajar en el acceso universal a servicios de salud sexual y reproductiva, prevención de 
+enfermedades infecciosas y tratamiento y prevención de otros problemas de salud pública.
+El Objetivo 4 se dirige a garantizar el acceso inclusivo y equitativo a (y la ﬁnalización de) una educación 
+de calidad. Este objetivo promueve la adquisición del conocimiento, las habilidades y los valores 
+necesarios para funcionar bien y contribuir a la sociedad. Las metas de este objetivo van desde 
+garantizar habilidades numéricas y la alfabetización elemental de la juventud a un nivel universal, 
+ampliar el número global de becas disponibles para los países en desarrollo, y asegurar la igualdad de 
+acceso a una educación técnica, vocacional y terciaria asequible y de calidad.
+El logro de la igualdad de género y el empoderamiento de las mujeres y niñas para alcanzar todo 
+su potencial es clave para el Objetivo 5. La consecución de este objetivo requiere la eliminación de 
+todas las formas de discriminación, violencia y prácticas perjudiciales en contra de las mujeres, y 
+el acceso a la salud y los derechos sexuales y reproductivos. Trabajar para alcanzar este objetivo 
+también signiﬁcará el logro de la paridad de género en la vida política, pública y económica.
+El Objetivo 6 busca garantizar no solo la disponibilidad de agua potable, saneamiento e 
+higiene, sino también mejoras en la calidad y sostenibilidad de los recursos hídricos. Atender 
+el Objetivo 6 implicará una gestión de los recursos hídricos eﬁcaz e integrada y una mejora de 
+las instalaciones sanitarias para todo el mundo. Para lograr estos resultados, la cooperación 
+internacional y la participación de las comunidades locales deberá ampliarse.
+Se dirige a garantizar el acceso a una energía asequible, conﬁable, sostenible y moderna 
+para todo el mundo. El logro de este objetivo requiere garantizar el acceso a la electricidad 
+y a combustibles limpios y tecnologías para cocinar, así como aumentar el uso de la energía 
+renovable a través tanto de la cooperación internacional como de una red ampliada de 
+infraestructura y tecnología para la energía limpia.
+El crecimiento económico y el empleo son importantes para alcanzar la seguridad 
+económica que es crucial para el logro del Objetivo 8, así como lo es también el 
+acceso equitativo a los servicios ﬁnancieros. Para cumplir este objetivo, los países y 
+las industrias deben proteger los derechos laborales y promover entornos laborales 
+seguros para todos los trabajadores y trabajadoras, incluidas las personas migrantes, 
+en particular las mujeres migrantes, y las personas que tienen un empleo precario.
+ANEXO A
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES46
+Objetivo Problemas y desafíos claves
+Abarca el desarrollo de la infraestructura, la industrialización y la innovación. Para 
+cumplir este objetivo, se debe trabajar para desarrollar y garantizar una infraestructura 
+de calidad, ﬁable, inclusiva, sostenible y resiliente. Esto implicará la innovación y la 
+creación de industrias nuevas y más sostenibles, impulsadas por las inversiones en 
+investigación y desarrollo.
+El llamado a reducir la desigualdad a través del Objetivo 10 es universal, subrayando 
+aquellas desigualdades dentro y entre todos los países. Para lograr este objetivo es 
+crucial reducir los síntomas y los factores estructurales detrás de las desigualdades 
+en los salarios y las oportunidades, así como las basadas en el sexo, la edad, la 
+discapacidad, origen, clase, etnicidad, raza, religión y representación. La clave para 
+esto será el desarrollo de indicadores de seguimiento y guía y el fortalecimiento de 
+la voluntad política para promulgar políticas internas y de cooperación regional e 
+internacional.
+El Objetivo 11 es lograr que las ciudades y otros asentamientos humanos sean 
+inclusivos, seguros, resilientes y sostenibles, al tiempo que estimulen la innovación y el 
+empleo. A medida que la urbanización aumenta y transforma las sociedades, para el 
+logro de los ODS se hará fundamental la promoción de estrategias cohesivas a nivel 
+urbano para innovar, transformar e impulsar el desarrollo económico y social sostenible.
+Se centra en la promoción de patrones de consumo y producción sostenibles. Este 
+objetivo representa un desafío para producir y consumir menos, al tiempo que cumple 
+con otros objetivos relacionados con las desigualdades en la calidad de vida y el 
+consumo. Para lograr este objetivo serán cruciales las innovaciones en torno a la 
+gestión sostenible de los recursos naturales, la reducción del desperdicio de alimentos, 
+y un aumento en las prácticas de reciclaje, reutilización, prevención y reducción. 
+Solicita acciones urgentes para combatir el cambio climático y sus impactos, pero 
+también para desarrollar la resiliencia en responder a los peligros relacionados con el 
+clima y los desastres naturales. Este objetivo representa una responsabilidad colectiva 
+para reforzar la capacidad de adaptación y la resiliencia a los desastres naturales y 
+peligros relacionados con el cambio climático. El logro de este objetivo requerirá tanto 
+la incorporación de medidas para luchar contra el cambio climático en la planiﬁcación, 
+estrategias y políticas nacionales, como la mejora de la concienciación, la educación 
+y la capacidad institucional y humana en la mitigación, reducción de impactos, alerta 
+temprana y adaptación al cambio climático.
+Busca promover la conservación y el uso sostenible de los océanos, los mares y los 
+recursos marinos para el desarrollo sostenible. Este objetivo requiere el reconocimiento 
+por parte del gobierno, la industria y la comunidad del valor e importancia de las áreas 
+costeras y los océanos. El logro de este objetivo requerirá la colaboración para mejorar 
+la capacidad de investigación, el conocimiento cientíﬁco y el intercambio de tecnología 
+marina no solo para mejorar la salud de los océanos, sino también para mejorar el 
+papel de la biodiversidad marina en los países en vías de desarrollo.
+El Objetivo 15 se centra en la gestión sostenible de los bosques, la restauración de 
+tierras degradadas, en combatir con éxito la desertiﬁcación, en reducir los hábitats 
+naturales degradados y en ponerle ﬁn a la pérdida de biodiversidad. Crucial para 
+este objetivo es la integración de la biodiversidad y los valores del ecosistema en la 
+planiﬁcación local y nacional, los planes de reducción de la pobreza y los procesos de 
+desarrollo.
+ANNEX A: EXAMPLES OF CHALLENGES  COVERED BY THE SDGS
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 47
+Objetivo Problemas y desafíos claves
+El Objetivo 16 busca promover sociedades pacíﬁcas e inclusivas basadas en el respeto 
+de los derechos humanos, el estado derecho, la buena gobernanza en todos los 
+niveles e instituciones transparentes, eﬁcaces y responsables. Para que se logre este 
+objetivo, la universalidad es importante. Deben desarrollarse los indicadores globales 
+que permiten medidas especíﬁcas de acuerdo al contexto y la motivación para actuar. 
+El acceso universal a la justicia y a la información también debe estar garantizado.
+El Objetivo 17 busca fortalecer los medios de implementación y revitalizar la 
+colaboración global para el desarrollo sostenible. La clave para el logro de este objetivo 
+es la colaboración universal, complementada por la colaboración de los grupos de 
+interés para compartir y movilizar competencias, recursos ﬁnancieros, conocimiento y 
+tecnología para apoyar los ODS en cada país.
+ANEXO B: ESTUDIOS DE CASOS EN AUSTRALIA
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES48
+ANEXO B: CASOS DE ESTUDIO EN 
+AUSTRALIA
+A continuación, presentamos unos casos prácticos, elaborados por distintas universidades, con 
+respecto a los Objetivos de Desarrollo Sostenible:
+B.1 COMPROMISO DEL ESTUDIANTE EN UN PASO (UNIVERSIDAD 
+MONASH)
+Motivar a los estudiantes para que se involucren con los ODS es clave para movilizar la acción a nivel universitario. 
+“Take One Step”, desarrollado por “Monash Sustainable Development Institute” en la Universidad de Monash es 
+una plataforma de participación en línea para estudiantes, dirigida a inspirar el liderazgo y la acción en los ODS.
+Diseñado como una plataforma interactiva que juega con los instintos competitivos de los estudiantes se les pide 
+a los jóvenes participantes que se comprometan con un cambio inspirado en los ODS en sus vidas, documenten 
+su progreso, tomen pruebas y lean el contenido de aprendizaje. Los estudiantes se han comprometido a 
+una variedad de desafíos que incluyen reducir el desperdicio de alimentos, convertirse en consumidores con 
+conciencia social y ser voluntarios en sus comunidades locales. La interactividad social a través de la capacidad de 
+compartir y seguir los desafíos de otras personas. Movilizar grupos de estudiantes y miembros del personal para 
+defender el proyecto e incorporar elementos de gamiﬁcación en la plataforma ha sido fundamental para su éxito.
+Se prevé que Take One Step crezca, permitiendo a estudiantes de diferentes países interactuar, compartir ideas 
+y trabajar juntos en distintos desafíos. Monash planea crear una plataforma mejorada para el sitio donde se 
+pueda personalizar con contenido con videos educativos, herramientas de colaboración y gamiﬁcación adicional 
+y que se pueda compartir con otras universidades y organizaciones. Para obtener más información, visite www.
+takeonestep.com.au.
+B.2 DOCTORADO EN DESARROLLO SOSTENIBLE PARA LOS ODS 
+(CURTIN UNIVERSITY)
+La comunidad mundial necesita una investigación centrada en los ODS para abordar los desafíos y las metas que 
+representan. El Doctorado en Desarrollo Sostenible (DSD) de la Universidad de Curtin es un Doctorado Profesional 
+diseñado para ayudar a los profesionales a abordar los complejos desafíos articulados por los ODS.
+Vinculado a éstos, el Doctorado en Desarrollo Sostenible (DSD) de la Universidad de Curtin es uno de los primeros 
+de su tipo. Los primeros 15 estudiantes de DSD relacionan su experiencia práctica, personal y profesional en 
+el campo con instituciones nacionales e internacionales. El DSD cuenta con el apoyo de expertos mundiales 
+en sostenibilidad, y se asocia activamente con gobiernos, agencias de ayuda, corporaciones y organizaciones 
+voluntarias. Su trabajo principal es encontrar formas de integrar procesos prácticos y políticas y los resultados 
+necesarios para alcanzar los ODS. Abordar las barreras para lograrlo será una parte fundamental del Doctorado. 
+Algunos cursos al inicio del DSD incluyen unidades en los ODS, liderazgo en sostenibilidad, y métodos de 
+investigación. Para obtener más información, visite www.sustainability.curtin.edu.au/.
+B.3 EL PROGRAMA DE PRÁCTICAS DE DESARROLLO (JAMES COOK 
+UNIVERSITY)
+El Programa de Prácticas de Desarrollo de la Universidad James Cook (JCU) enseña e investiga enfoques 
+integrados de paisaje para el logro de los ODS a través de áreas de estudio de caso en ‘Paisajes Centinela’ 
+en países tropicales en desarrollo. Estos son paisajes en los que la Universidad interactúa con organizaciones 
+locales académicas, de gestión, de la sociedad civil y comunitaria para comprender mejor los contextos 
+locales completos en los que se deben alcanzar los ODS y explorar con las partes interesadas locales las 
+opciones para avanzar en los objetivos de desarrollo de forma integrada.
+Los desafíos especiales para el desarrollo sostenible en bosques tropicales y regiones costeras se identiﬁcan 
+a través del ODS 9. El Programa de Prácticas de Desarrollo en JCU tiene como objetivo proporcionar a los 
+estudiantes las herramientas que necesiten para conciliar la disminución de la pobreza con la sostenibilidad 
+ambiental en estos entornos.
+La investigación producida a través del Programa de Prácticas de Desarrollo tiene como objetivo proporcionar 
+ANEXO B: ESTUDIOS DE CASOS EN AUSTRALIA
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 49
+el conocimiento y el análisis que conducirán a una toma de decisiones coherente con los ODS. La Universidad 
+tiene como objetivo establecer asociaciones a largo plazo, con universidades en países en desarrollo tropicales 
+y organizaciones de la sociedad civil que comparten el compromiso de JCU con el desarrollo sostenible. JCU 
+también tiene como objetivo reclutar estudiantes de posgrado de estos países con el ﬁn de enriquecer el 
+cuerpo estudiantil en JCU y también para desarrollar la capacidad local en la ciencia del desarrollo sostenible.
+B.4 FORO DE LIDERAZGO ESTUDIANTIL EN LOS ODS (UNIVERSIDAD 
+MONASH)
+Catalizar la acción de los estudiantes sobre los ODS y mejorar su comprensión por parte de los estudiantes 
+será crucial para cumplir éstos. En octubre de 2016, el Instituto de Desarrollo Sostenible de Monash organizó 
+el Foro de Liderazgo Estudiantil de Monash sobre los ODS con el objetivo de reunir a los líderes estudiantiles 
+y al personal clave para analizar cómo la acción de los estudiantes de Monash podría ser mejor reconocida, 
+conectada y ampliﬁcada.
+Los objetivos clave del foro fueron:
+t Vincular personas clave y áreas de Monash involucradas en la organización de actividades estudiantiles 
+relacionadas con los ODS.
+t Presentar a todos los ODS y dar ejemplos de su impacto global.
+t Mapa de cómo los estudiantes de Monash contribuyen actualmente a los ODS.
+t Identiﬁcar áreas de interés común y posibles actividades conjuntas para 2017.
+t Lluvia de ideas para aumentar la participación de los estudiantes y el interés en contribuir con los ODS.
+Los participantes fueron muy positivos acerca del evento y mostraron entusiasmo con la experiencia de 
+encontrar intereses comunes con otros estudiantes. Muchos no habían oído hablar de los ODS antes, o sólo 
+sabían un poco sobre ellos, así que encontraron este foro muy útil. Se sugirió una amplia gama de posibles 
+actividades de seguimiento. Estas sugerencias y entusiasmo se construirán para alentar a más estudiantes de 
+Monash a participar y entusiasmarse con los ODS.
+B.5 ENSEÑANZA DEL ODS 1 (UNIVERSITY OF SYDNEY)
+En 2014, la Universidad de Sydney desarrolló una nueva unidad de enseñanza para el Máster de la 
+Universidad.
+Gestión titulada “Reducción de la pobreza y rentabilidad”. Esta unidad se relaciona con el ODS 1 a través de 
+su exploración de la pobreza y el papel de las empresas para favorecer su alivio, pero también se contextualiza 
+mediante la discusión de su relación con los demás Objetivos. La unidad toma un enfoque macro, cuestionando el 
+propósito de los negocios, discutiendo cómo los ODS redeﬁnen el papel de las empresas en cuestiones sociales, y 
+presentando teorías académicas tales como la creación de valor compartido y la base de la pirámide.
+La unidad ha sido acorde al conocimiento adquirido gracias de la asistencia de los líderes del Pacto Mundial 
+de las Naciones Unidas, cuya cumbre se celebró en Nueva York. Evidencia anecdótica de los estudiantes - así 
+como los hallazgos preliminares de los estudiantes en curso de investigación formal - ilustra algunos cambios 
+fundamentales en los valores del estudiante y las aspiraciones de carrera después de acabar la unidad. Sobre 
+la base del trabajo logrado a través de ésta, la Universidad ha desarrollado un MOOC /SPOC sobre los ODS y 
+las empresas. Puede ver un video corto sobre ‘la reducción de la pobreza y Unidad de rentabilidad’ aquí: www.
+youtube.com/watch?v=N4HZN9Tr6dU y encontrará más información aquí:  
+sydney.edu.au/news-opinion/news/2017/04/06/on-my-mind.html.
+B.6 MAPEO DE CURRÍCULUM A TRAVÉS DE LOS ODS (VICTORIA 
+UNIVERSITY OF WELLINGTON)
+Equipar a los estudiantes con las habilidades y la experiencia para desarrollar soluciones sostenibles a través 
+de un plan de estudios que responda a los ODS es una forma importante en la que las universidades pueden 
+contribuir a la consecución de éstos. La Universidad Victoria de Wellington (Victoria) está utilizando los 
+ODS como marco de la organización para guiar la contribución a un futuro sostenible. Como parte de esta 
+contribución, en el contenido del plan de estudios de Victoria se revisaron más de 3000 cursos.
+ANEXO B: ESTUDIOS DE CASOS EN AUSTRALIA
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES50
+Victoria quería ver qué escuelas y facultades tenían el mayor contenido referente a la sostenibilidad en sus 
+cursos e igualmente cuál de los 17 objetivos destacaba.
+Se contrató a un consultor para desarrollar un proceso automatizado de extracción de contenido y se 
+buscaron las descripciones del curso mediante palabras clave para cada uno de los 17 objetivos.
+Los hallazgos se han utilizado para iniciar discusiones sobre cómo los ODS se pueden incorporar en cursos y 
+cómo se puede mejorar el proceso para marcar su contenido en ellos. 
+El proyecto se ha empezado a utilizar para analizar cómo se pueden incluir los ODS a los cursos e identiﬁcar 
+una red de experiencia académica en sostenibilidad. Para más información sobre el trabajo de Wellington en 
+sostenibilidad de Vitoria University, visite: www.victoria.ac.nz/about/governance/sustainability-ofﬁce.
+B.7 CÓMO MEJORAR LAS EXISTENTES PONENCIAS DE DISCUSIÓN DEL 
+SDG 6 (LA UNIVERSIDAD DE QUEENSLAND) 
+ODS, con un enfoque particular en el ODS 6. Elaborados por un grupo multidisciplinar de investigadores de la 
+UQ y facilitados por el Global Change Institute en la UQ, estos documentos tienen como objetivo:
+t Identiﬁcar cómo comenzar a implementar los ODS; 
+t Identiﬁcar y comprender las interrelaciones entre los ODS; 
+t Llevar a cabo una investigación profunda sobre la cooperación comunitaria y la creación de capacidad 
+(Objetivo 6º)
+B.8 LA RED DE DESARROLLO DE UTS (THE UNIVERSITY OF 
+TECHNOLOGY, SYDNEY)
+Un desafío clave para las universidades al abordar los ODS radica en fomentar la colaboración entre docentes. 
+En 2013, el Instituto para Futuros Sostenibles de la Universidad Tecnologica de Sídney (UTS) organizó la 
+conferencia del sector de desarrollo ‘Desarrollos Futuros’. Al planiﬁcar la conferencia se buscó personal con 
+un interés en la pobreza y la justicia social en toda la UTS. A partir de ahí, se formó la Red de Desarrollo de 
+UTS, una comunidad de práctica centrada en el desarrollo, la mitigación de la pobreza y la justicia social. Su 
+propósito es promover la colaboración, el intercambio de aprendizaje y desarrollar investigación compartida en 
+diferentes áreas de UTS.
+La Red de Desarrollo de UTS ha celebrado 2 foros, uno sobre igualdad de género y los ODS y otro sobre 
+energía y los ODS. Estos foros proporcionaron un marco útil para investigadores de diferentes facultades 
+para establecer vínculos entre su trabajo y los ODS. Los objetivos especíﬁcos proporcionaron una orientación 
+concreta para los participantes y oradores, y se enfatizó y articuló la intersección de diferentes ODS en ambos 
+foros. El uso del marco de los ODS de esta manera ha permitido que la red conecte áreas dentro de UTS, 
+que de lo contrario no hubieran salido a la luz. También sirvió para promover un propósito común para los 
+investigadores de UTS en su trabajo de desarrollo internacional.
+B.9 FORO DE CONCEPTUALIZACIÓN DE LOS ODS (VICTORIA 
+UNIVERSITY OF WELLINGTON)
+La colaboración interdisciplinar en los ODS puede brindar diversas perspectivas para encontrar soluciones 
+y sinergias entre los 17 ODS. La Universidad Victoria de Wellington (Victoria) ha canalizado recursos hacia el 
+desarrollo de nuevas investigaciones para fomentar la colaboración entre facultades.
+En noviembre de 2016 se celebró en Victoria un Foro de Conceptualización que reunió a 57 estudiantes 
+de posgrado y personal de todas las facultades, con invitados provenientes del mundo empresarial, de 
+la sociedad civil y del gobierno. Juntos, generaron nuevas ideas de investigación y formaron equipos 
+interdisciplinares para desarrollar las ideas en propuestas de investigación, que se presentaron para la 
+ﬁnanciación interna. Los ODS fueron elegidos como el contexto del Foro debido a su amplitud y capacidad 
+para ser relevantes para todas las disciplinas.
+El resultado de este Foro fue la ﬁnanciación de ocho proyectos para el año 2017 con temas que incluyen 
+“participación de la comunidad en ciudades biodiversas”, “legislación y políticas alimentarias sostenibles” y 
+“afrontar el cambio climático en la educación”. Más allá de los proyectos de investigación, el Foro brindó una 
+gran oportunidad para que los académicos establecieran nuevas conexiones con colegas con los que no habían 
+ANEXO B: ESTUDIOS DE CASOS EN AUSTRALIA
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 51
+trabajado o incluso no se habían visto antes. Como resultado, el contexto de los ODS ha demostrado ser muy útil 
+para romper los grupos cerrados de investigación. En abril de 2017 se llevó a cabo un segundo Foro. Se puede 
+encontrar más información sobre los Foros en: www.victoria.ac.nz/about/strengths/sustainability .
+B.10     SITIO WEB PARA LA INVESTIGACIÓN SOBRE LOS ODS (THE 
+UNIVERSITY OF WESTERN AUSTRALIA)
+Con el deseo de destacar algunas de las investigaciones de desarrollo sostenible signiﬁcativas e interconectadas 
+llevadas a cabo a nivel local, nacional e internacional por sus investigadores, la Universidad de Western Australia 
+(UWA) identiﬁcó los ODS como un marco ideal para el mapeo de actividades de investigación. A partir de este 
+mapeo, la Universidad identiﬁcó 8 áreas dominantes de la actividad de investigación de desarrollo sostenible: 
+seguridad alimentaria, derechos humanos, salud para todos, ciudades sostenibles, cambio climático y energía, 
+ecosistemas saludables, conocimiento y educación para todos, y gobernabilidad.
+Estas 8 áreas de actividad proporcionaron el marco para un sitio web que destaca a los líderes de investigación, 
+noticias de investigación, programas e iniciativas y eventos. El sitio web se identiﬁcó como un medio ideal 
+para involucrar y destacar la información relevante sobre las actividades universitarias en los ODS, así como 
+para fomentar la comunicación y la interacción. Se ha convertido en un centro virtual para la información de 
+sostenibilidad de UWA para visitantes externos e internos de la web. El sitio web se está expandiendo para 
+compartir las historias de líderes emergentes dentro de las áreas de actividad de investigación identiﬁcadas. Este 
+enfoque para comunicar la importante investigación sobre desarrollo sostenible de la Universidad cuenta con el 
+apoyo total del Ejecutivo de la Universidad. Para más información consultar la web: www.research.uwa.edu.au/
+sustainability-research-at-uwa.
+B.11 INVESTIGACIÓN EN TORNO A FAMILIAS SEGURAS. (INSTITUTE 
+FOR SUSTAINABLE FUTURES, UNIVERSITY OF TECHNOLOGY, 
+SYDNEY) 
+Al trabajar con socios en el terreno, las universidades pueden utilizar el marco de los ODS como una forma 
+de alinear, medir y explicar las actividades de investigación. La Universidad de Monash está llevando a cabo 
+investigaciones que evaluarán la implementación del proyecto “familias seguras”. “Familias Seguras” es el 
+primer proyecto a largo plazo, intensivo y desarrollado localmente, para la prevención de la violencia basado en 
+la comunidad, implementado en las Islas Salomón. Actualmente está basado en un modelo de colaboración 
+y participación que incluye a las islas Oxfam Salomón, que se asocian con la Universidad de Monash en esta 
+investigación. 
+Los ODS – particularmente el ODS 5, y los objetivos e indicadores relacionados en torno a la prevalencia 
+de la violencia – han sido utilizados para guiar y dirigir la investigación. La investigación preguntará: ¿cómo 
+se pueden construir las pruebas para la prevención primaria de la violencia sexual en los países de ingresos 
+bajos y medios? Dentro de ello, hay una necesidad implícita de ampliar las pruebas de la alta prevalencia en el 
+Pacíﬁco, y después de los conﬂictos.
+Durante el proceso de diseño de la investigación, los ODS han servido a los equipos para veriﬁcar la 
+metodología frente a los resultados previstos, preguntando: ¿esta investigación ayudará a demostrar la carga 
+global de la violencia de género? Como las actividades del proyecto se iniciarán pronto se prevé que los ODS 
+seguirán actuando como un guía para los investigadores.
+B.12 REVISIÓN DE LOS ODS EN LA UNIVERSIDAD (INSTITUTE FOR 
+SUSTAINABLE FUTURES, UNIVERSITY OF TECHNOLOGY, SYDNEY) 
+La revisión de las actividades y acciones universitarias desde la perspectiva de los ODS ayuda a identiﬁcar 
+posibles vínculos dentro de la propia universidad, a favorecer el sentido de pertenencia y para impulsar 
+colaboraciones interdisciplinares de investigación en torno a los ODS. 
+En 2016 el Instituto ISF en la UTS (ISF-UTS) se creó una herramienta para revisar su investigación desde el punto 
+de vista de los ODS. La herramienta y el proceso de análisis se emplearon para que la ISF-UTS identiﬁcara dónde 
+se encuentra actualmente su trabajo de investigación en relación a los ODS, y para ayudar a determinar cómo 
+fortalecer las colaboraciones y tomar decisiones sobre si se debe abordar cualquiera de las brechas identiﬁcadas. 
+En el ISF-UTS también se desarrolló un proceso colaborativo para alentar a los directores de investigación a 
+involucrarse con los ODS de una manera signiﬁcativa y promover la comprensión precisa y la introducción de 
+estos en todo el Instituto. Se creó una herramienta simple en Excel, donde los 10 directores de investigación 
+ANEXO B: ESTUDIOS DE CASOS EN AUSTRALIA
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES52
+debían indicar dónde encontraban una relación entre alguno de los ODS (como objetivo) y un proyecto activo 
+o reciente en su área de investigación. Los resultados fueron entonces cotejados y analizados para mostrar en 
+qué medida está alineado en instituto ISF-UTS con los ODS. 
+El ISF-UTS usará los resultados del análisis para hacer un seguimiento de su impacto. Esto incluirá el uso de 
+los ODS como referencia en el que se informe sobre el impacto de la investigación y las contribuciones a la 
+creación de un cambio hacia un futuro más sostenible. Más información en: www.UTS.edu.au/Research-and-
+Teaching/Our-Research/Institute-Sustainable-Futures/nuestra-Research/ODS-mapeo-nuestro.
+B. 13 RED DE ODS DE AUSTRALIA OCCIDENTAL (AO) (CURTIN 
+UNIVERSITY SUSTAINABILITY POLICY INSTITUTE) 
+La agenda de los ODS llama a todos los países, comunidades y partes interesadas, a trabajar en colaboración 
+para lograr un mundo mejor para todos. Desde su formación en febrero de 2016 de la red SDG de AO ha 
+involucrado a la sociedad civil para aumentar la comprensión de la comunidad de AO sobre los ODS, para 
+destacar los beneﬁcios de la planiﬁcación integrando en todos los sectores, y para construir nuevas alianzas y la 
+acción en torno a los ODS a través de negocios, comunidad y gobierno. 
+La red se formó después de un taller realizado en diciembre de 2015 sobre los ODS y cómo se conectan a 
+organizado de la Universidad Curtin, al que asistieron más de 70 personas de diversos sectores y organizaciones. 
+La red reúne un amplio número de miembros de diferentes áreas, entre ellos el Instituto de política de 
+sostenibilidad de la Universidad Curtin, el centro mundial Oneworld, WACOSS, el Consejo para la conservación 
+de AO, la Asociación de gobierno local de AO, Oxfam, el centro universitario de Murdoch para Ciudadanía 
+Responsable y Sostenible, Reconciliación AO, Voluntariado AO, y la Oﬁcina de Justicia, Ecología y Desarrollo de la 
+Archidiócesis de Perth. 
+El objetivo de la red es localizar y favorecer la comprensión de la sociedad civil, la propiedad y la acción para 
+los objetivos de desarrollo global en AO, y encontrar maneras signiﬁcativas de determinar una línea base y un 
+marco para el progreso hacia los objetivos a través de las colaboraciones que favorezcan los intereses colectivos 
+de las comunidades e individuos de AO. Se llevarán a cabo más trabajos en 2017 para involucrar más a las 
+comunidades y documentar las formas en que los grupos están trabajando juntos a favor de los ODS. 
+B. 14  PRINCIPAL LOCALIZACIÓN DE SDG EN AUSTRALIA.  
+ (SDSN AUSTRALIA/ PACIFIC)
+A principios de 2013, Naciones de Australia/Paciﬁco, lideradaz por la Universidad de Monash, lanzaron una 
+de las primeras iniciativas para localizar los ODS en un contexto subnacional, ayudando a los interesados en 
+Australia a entender, preparar y responder a los ODS. Esta iniciativa ha proporcionado inspiración para las 
+actividades de localización global de Naciones.
+Como red de universidades regionales e instituciones de conocimiento, también ha sido capaz de desempeñar 
+un papel central en la participación y la construcción de alianzas con los negocios, el gobierno, la sociedad 
+civil, la Academia, la comunidad para el desarrollo y los jóvenes gente de la región. 
+A través de talleres multisectoriales para líderes senior y tomadores de decisiones, la participación y la asesoría 
+directa, y la presentaciones y eventos públicos, la red ha estado concienciando sobre los ODS a toda la 
+región, demostrando su relevancia local y potencial y ha favorecido iniciar discusiones sobre los roles de los 
+diferentes sectores en su implementación.
+En septiembre de 2016, Naciones de Australia/Paciﬁco se asociaron con las organizaciones de negocios y 
+de la sociedad civil para que coauspiciaran la Cumbre australiana de los ODS, el primer foro multisectorial de 
+alto nivel para promover la implementación nacional de los ODS. La Cumbre reunió a 150 líderes de todos los 
+sectores de Australia, para crear un entendimiento común de las oportunidades presentadas por los ODS y 
+cómo podrían ser éstas puestas en práctica en Australia. Véase: AP-unsdsn.org .
+B. 15 RECONOCIENDO EL IMPACTO DE SDG EN LOS PREMIOS 
+UNIVERSITARIOS. (WESTERN SYDNEY UNIVERSITY) 
+Identiﬁcar y reconocer lo que una Universidad ya está haciendo para contribuir a los ODS puede ofrecer no sólo 
+una narrativa poderosa sobre el impacto, sino también un fuerte impulso para una mayor acción. Los premios de la 
+Universidad de Sydney Occidental celebran los logros signiﬁcativos del personal y estudiantes de Western Sydney 
+University. Los premios proporcionan una plataforma para que la Universidad muestre algunos de los trabajos 
+ANEXO B: ESTUDIOS DE CASOS EN AUSTRALIA
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES 53
+destacados que se están llevando a cabo en la docencia, la investigación de posgrado y la supervisión, el servicio 
+profesional, el compromiso, la sostenibilidad y el liderazgo. También ayudan a fortalecer la fuerza organizativa. 
+Una categoría reconocida a través de los premios es la “excelencia en el compromiso universitario y el premio 
+a la sostenibilidad”. Este año, el premio cuenta con las categorías de personal y estudiantes en modalidad 
+individual y grupal y proporciona un ejemplo de cómo integrar y promover los ODS a través de los canales 
+existentes, a la vez que proporciona una plataforma universitaria para el reconocimiento de los trabajos ya 
+realizados. Tras el compromiso de la Universidad con la iniciativa de SDSN a principios de 2017 se anunció 
+que este premio se ampliaría para permitir el reconocimiento del personal y las contribuciones de los 
+estudiantes a los ODS. El formulario para la nominación incluye criterios para la evaluación y requiere que los 
+solicitantes indiquen cómo su trabajo se alinea con los ODS. 
+Para conocer los ganadores anteriores y obtener más información sobre los premios visitando: www.
+westernsydney.edu.au/university_awards/Awards.
+B.16 SOCIAL GOOD SUMMIT (THE UNIVERSITY OF SYDNEY)
+En 2015, la escuela de negocios de la Universidad de Sydney se asoció con la Social Good Summit de Australia 
+para acoger una cumbre en la que se destacarían los esfuerzos de las empresas, sin ánimo de lucro, así como 
+el gobierno y la sociedad civil en Australia para trabajar en pro de los ODS. En base a la publicación anual de la 
+Social Good Summit celebrada en la ONU en Nueva York, se invitó a individuos y grupos instrumentales a un día la 
+Cumbre. Uno de los objetivos principales de esta reunión era comprometer a la sociedad australiana más amplia 
+con los ODS, y proporcionar ejemplos inspiradores y modelos de trabajo que ya se están realizando. Los oradores 
+se agruparon según los distintos ODS, y hablaron sobre las iniciativas que se llevaban a cabo en respuesta a 
+cada uno de los objetivos concretos. Entre los oradores que hablan de su trabajo, se encontraban líderes del 
+Banco Nacional de Australia, OZ Harvest y el Comisionado Australiano para los Derechos Humanos. Para más 
+información sobre la Social Good Summit de Australia: www.socialgoodsummit.com.au. También se puede ver un 
+vídeo corto sobre la Cumbre 2015 aquí: www.youtube.com/watch?v=6tTJlwbPNCY&feature=youtu.be.
+B.17 TALLER DE LIDERAZGO DE OSD DE LA UNIVERSIDAD (JAMES 
+COOK UNIVERSITY).
+The SDGs have relevance for all areas of university activity. Support from university leadership is crucial to 
+Los ODS tienen relevancia para todas las dimensiones de la actividad universitaria. El apoyo del liderazgo 
+universitario es crucial para asegurar que los compromisos universitarios con los ODS se cumplan.
+En abril de 2017 la Universidad James Cook (JCU) celebró el taller de liderazgo en metas de desarrollo 
+sostenible. Como la primera Universidad Australiana en ﬁrmar el compromiso universitario con los ODS (ver 
+4,4), JCU han estado explorando la mejor manera de implementar este compromiso. El taller reunió a los 
+líderes de toda la Universidad para alinear y revisar la entrega del compromiso de JCU con los ODS con su 
+estrategia, su proyecto de estado del trópico, y para identiﬁcar oportunidades a través de la investigación, el 
+aprendizaje, la enseñanza, operaciones, gobernanza y cultura. 
+Del taller surgieron los siguientes resultados:
+t  Mayor conciencia del compromiso de JCU con los ODS entre los líderes universitarios, incluyendo la 
+gestión Senior y media
+t Una comprensión de cómo los ODS pueden ser utilizados como marco de planiﬁcación y operación a 
+través de la Universidad;
+t El alcance de las oportunidades para alinear los ODS con actividades en operaciones, investigación, 
+currículos y participación de las partes interesadas.
+Hay planes futuros para expandir el interés hacia los ODS a toda la comunidad universitaria, utilizando este 
+modelo del taller también entre los estudiantes y todo el personal de la universidad. Los resultados ya están 
+marcando las líneas de trabajo para la planiﬁcación de la Universidad, ya que los temas que surgieron del taller 
+están siendo incluidos en los procesos de planiﬁcación estratégica de la Universidad. 
+Para aprender más acerca de cómo JCU está creando una cultura de sostenibilidad: www.JCU.edu.au/
+Tropeco. culture of sustainability, see www.jcu.edu.au/tropeco.
+ANEXO B: ESTUDIOS DE CASOS EN AUSTRALIA
+
+CÓMO EMPEZAR CON LOS ODS EN LAS UNIVERSIDADES

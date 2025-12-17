@@ -1,0 +1,970 @@
+                                                                                                                     
+      
+ 
+                                                                                                                  
+1 
+ 
+ 
+RESOLUCIÓN POR L A QUE SE FORMALIZA EL ENCARGO A MEDIO PROPIO DE LA 
+UNIVERSIDADE DA CORUÑA A SIGMA GESTIÓN UNIVERSITARIA A.I.E. (M.P.)  PARA LA 
+EJECUCIÓN DEL PROYECTO INTEGRACIÓN DE APLICACIONES DE GESTIÓN ACADÉMICA 
+EN EL ECOSISTEMA INFORMÁTICO DE UNA UNIVERSIDAD (ISGA), FINANCIADO POR EL 
+REAL DECRETO 641/202 1, DE 27 DE JULIO, P OR EL QUE SE REGULA LA CONCESIÓN 
+DIRECTA DE SUBVENCIO NES A UNIVERSIDADES PÚBLICAS ESPAÑOLAS P ARA LA 
+MODERNIZACIÓN Y DIGITALIZACIÓN DEL SISTEMA UNIVE RSITARIO ESPAÑOL EN EL 
+MARCO DEL PLAN DE RECUPERACIÓN, TRANSFORMACIÓN Y RESILIENCIA FINANCIADO 
+POR LA UNIÓN EUROPEA “NEXTGENERATIONEU” 
+ 
+ 
+En A Coruña, 2 de junio de 2022.  
+ 
+ 
+D. Julio E. Ab alde Alonso, Rector Magnífico de la Universidad de A Coruña (en adelante, la 
+Universidad), en nombre y representación de la misma, y en ejercicio de las competencias que le 
+atribuyen los artículos 20 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades y el 
+Decreto 101/2004 de 13 de mayo (D.O.G. de 26 de mayo) y modificados por el Decreto 194/2007, de 
+11 de octubre (D.O.G. de 17 de octubre) por el que se aprueban los Estatutos de la Universidad, a 
+los efectos del presente encargo con domicilio y con domicilio en la calle Maestranza 9, 15001 
+A Coruña y con NIF:Q6550005J. 
+ 
+EXPONE:  
+ 
+Primero.- Que la presente Resolución se somete a lo dispuesto en la Ley 9/2017, de 8 de noviembre, 
+de Contratos del Sector Público, por la que se transponen al ordenamiento jurídico español las 
+Directivas del Parlamento Europeo y del Consejo 2014/23/UE y 2014/24/UE, de 26 de febrero de 2014 
+(en adelante, LCSP). 
+ 
+Segundo.-  Que, conforme al artículo 3 de la LCSP, la Universidad recibe la consideración de poder 
+adjudicador, quedando, por tanto, incluida en el ámbito de aplicación subjetivo de dicha norma. 
+ 
+Tercero.- Que SIGMA es una Agrupación de Interés Económico sin ánimo de lucro, regulada al amparo 
+de la Ley 12/1991 de 29 de abril, de Agrupaciones de Interés Económico, cuyo capital social se 
+encuentra íntegramente participado por once Universidades, entre ellas la Universidad, cuyo objeto es, 
+de acuerdo con dicha Ley y según sus Estatutos, facilitar  el desarrollo y mejorar el resultado de la 
+actividad de sus socios en el ámbito del desarrollo, implantación y explotación informáticos de los 
+circuitos administrativos e informativos relacionados con la gestión de las universidades, y de su 
+explotación comercial, incluido el sistema SIGMA. 
+ 
+Cuarto.- Que los artículos 2 y 32 de la LCSP excluyen del ámbito objetivo de aplicación de dicha norma 
+los negocios jurídicos en cuya virtud un poder adjudicador encargue a una entidad que, conforme a lo 
+señalado en el artículo 32 de la LCSP, tenga atribuida la condición de medio propio personificado y 
+servicio técnico del mismo, la realización de una determinada prestación, considerando 
+expresamente el referido artículo como medio propio personificado y servicio técnico de aquellos 
+poderes adjudicadores para los que realicen la parte esencial de su actividad a aquéllos entes, 
+organismos y entidades del sector público a los que aquéllos puedan conferirles encargos que sean de 
+ejecución obligatoria para ellos. 
+
+                                                                                                                     
+      
+ 
+                                                                                                                  
+2 
+ 
+ 
+Quinto.- Que, conforme a lo establecido en  el referido artículo 32 de la LCSP, SIGMA constituye 
+medio propio personificado y servicio técnico de la Universidad y de los poderes adjudicadores 
+dependientes de ella, según consta expresamente en el artículo 2 de los Estatutos de la Agrupación, 
+por lo que quedarán excluidas del ámbito de aplicación de dichas Leyes los encargos que SIGMA 
+reciba de la Universidad y que sean de ejecución obligatoria. A estos efectos, las relaciones de 
+SIGMA con los poderes adjudicadores de los que es medio propio personificado y servicio técnico 
+tienen naturaleza instrumental y no contractual, articulándose a través de encargos de los previstos 
+en el mismo artículo 32 de la LCSP. 
+ 
+Sexto.- Que la Universidad tiene interés en desarrollar el proyecto de integración de aplicaciones de 
+gestión académica en el ecosistema informático de la Universidad ( en adelante, el “ Proyecto” o 
+“ISGA”), en colaboración con otras Universidades Públicas socias de SIGMA y con cargo a los fondos 
+de la Unión Europea “NextgenerationUE”, regulados por el Real Decreto 641/2021, de 27 de julio, por 
+el que se regula la concesión directa de subvenciones a U niversidades Públicas españolas para la 
+modernización y digitalización del sistema universitario español en el marco del Plan de 
+Recuperación, Transformación y Resiliencia. 
+ 
+Este interés es compartido por las siguientes Universidades, las cuales también son socias de SIGMA 
+(en adelante, las “Universidades”, incluyendo en dicha denominación también a la Universidad): 
+• Universidade de Vigo. 
+• Universidad de Cantabria. 
+• Universidade da Coruña. 
+ 
+Las Universidades han suscrito un convenio de colaboración, del cual el presente encargo es un acto 
+de mera ejecución (en adelante, el “Convenio”). 
+ 
+Séptimo.- Que la Universidad considera idóneo que el Proyecto se ejecute a través de SIGMA, al 
+encajar dentro de su objeto social  y disponer esta Agrupación de los medios precisos para su 
+desarrollo. 
+ 
+Octavo.- Que se ha verificado por parte de la Universidad que SIGMA cuenta con los medios 
+personales y materiales para la realización del presente encargo. 
+ 
+ 
+En virtud de lo expuesto, RESUELVE: 
+ 
+Primero: 
+ 
+Formalizar y regular el encargo de la Universidad a su medio propio SIGMA para la implantación de 
+un sistema de gestión académica que constituye un proyecto propio de cada una de las universidades 
+participantes en el convenio que da inicio a este encargo de gestión. No obstante, la integración e 
+interoperabilidad de esta herramienta en el ecosistema informático de estas universidades se  
+concibió como un proyecto colaborativo, toda vez que se hace necesario desarrollar unas 
+funcionalidades y procedimientos de los que no sólo se beneficiarán las universidades participantes, 
+sino también cualquier universidad use o no el sistema Sigma Academic. 
+ 
+De acuerdo con los artículos 2 y 32 de la LCSP, el presente encargo se encuentra excluido del ámbito 
+de aplicación de la normativa aplicable a los contratos del sector público. 
+ 
+En virtud de la presente Resolución, SIGMA queda obligada a ejecutar las actuaciones descritas en 
+el Anexo I, de acuerdo con las instrucciones fijadas por la Universidad.  
+ 
+
+                                                                                                                     
+      
+ 
+                                                                                                                  
+3 
+ 
+Durante el periodo de vigencia de este encargo, la Universidad podrá ordenar a SIGMA la realización 
+de otras actuaciones distintas de las anteriores, siempre que cumplan los requisitos de elegibilidad de 
+cofinanciación mediante fondos del Plan de Recuperación, Transformación y Resiliencia, las cuales se 
+incorporarán como Anexo a la presente Resolución, en la que se detallarán dichas actuaciones y la 
+compensación tarifaria aplicable a las mismas.  Cualquier otra actuación que no cumpla dichos 
+requisitos será objeto de un nuevo encargo de gestión.  
+ 
+Tercero: 
+ 
+El personal de SIGMA que realice las actividades derivadas del presente encargo no tendrá ningún 
+tipo de vinculación, de carácter laboral o administrativa, con la Universidad. 
+ 
+SIGMA podrá contratar con terceros la ejecución de las actuaciones definidas en el Anexo I, en cuyo 
+caso se ajustará a lo dispuesto en la LCSP, en particular a lo establecido en s u artículo 32, y a lo 
+previsto en el presente encargo.  Asimismo, debería cumplir con lo establecido en las bases de 
+ejecución de los Fondos del Plan de Recuperación, Transformación y Resiliencia en cuanto al 
+beneficiario final de las ayudas y subcontratistas. 
+ 
+Cuarto: 
+ 
+SIGMA facilitará todos los medios materiales necesarios para el desarrollo de las actuaciones antes 
+relacionadas, incluyendo medios técnicos, informáticos, telefonía móvil y desplazamientos necesarios 
+para la realización de los trabajos encargados, rigiéndose por los criterios de economía, eficacia, 
+eficiencia y calidad. 
+ 
+Quinto: 
+ 
+Las actuaciones a llevar a cabo por SIGMA se financiarán con cargo a la partida presupuestaria 
+100021NG17 422D 6400001 del vigente presupuesto de gastos de la Universidad. No obstante, esta 
+cantidad quedará supeditada a la existencia de crédito adecuado y suficiente en el presupuesto de la 
+Universidad que se apruebe para el año 2023. 
+ 
+La compensación tarifaria de la que resulta acreedora SIGMA ha sido aprobada por la Universidad y 
+responde al siguiente presupuesto global del proyecto, donde a la Universidad le corresponde abonar en 
+la proporción que establece el Convenio: 
+ 
+Concepto Uds Importe 
+Convenio 
+Universidade 
+da Coruña 
+Actividad Propia  SIGMA 4.079 257.827,22 66.427,10 
+Gobierno ISGA (Tarifa Consultoría) 289 18.539,95 4.776,67 
+Estudio Proyectos (Tarifa Consultoría) 890 57.138,00 14.721,14 
+Desarrollo Proyecto (Tarifa Proyecto) 2.900 166.170,00 42.812,36 
+Desplazamientos (2 personas x 2 días) 14 15.979,28 4.116,93 
+Subcontrataciones a terceros (personas) 0 200.172,78 51.572,90 
+Oficina de proyectos 0 37.688,01 9.710,01 
+Consultoría/soporte desarrollo del proyecto 0 162.484,77 41.862,89 
+Total 4.079 458.000,00 118.000,00 
+ 
+De acuerdo con la Disposición final décima de la LCSP, la compensación tarifaria de la que resulta 
+acreedora SIGMA no está sujeta a IVA. 
+
+                                                                                                                     
+      
+ 
+                                                                                                                  
+4 
+ 
+ 
+Sexto: 
+ 
+La ejecución del encargo se realizará bajo la dirección del responsable designado por la Universidad, 
+que dispondrá el orden de los trabajos y las variaciones que en su caso procedan.  
+ 
+Será responsabilidad de la Gerente de la Universidad dictar los actos o resoluciones que den soporte 
+o en los que se integre la concreta actividad material objeto del encargo. 
+ 
+Por su parte, SIGMA se hará cargo del desarrollo técnico de los trabajos contenidos en este encargo 
+bajo la supervisión del Gerente de Cuentas asignado a la Universidad, miembro del Comité de 
+Seguimiento del Convenio y al que corresponde la dirección del proyecto, que será el interlocutor con 
+quien se relacionará la Universidad y que se encargará de impartir las órdenes e instrucciones de 
+trabajo al resto de trabajadores de SIGMA. 
+ 
+Séptimo: 
+ 
+SIGMA remitirá a la Universidad, al final de cada trimestre, una memoria que permita el seguimiento 
+de la gestión efectuada. 
+ 
+Igualmente, se someterá a las actuaciones de comprobación que, en relación con la misma, se 
+practiquen por la Universidad, facilitando toda la información que le sea requerida. 
+ 
+Octavo: 
+ 
+SIGMA queda obligada a cumplir con las exigencias previstas en el Reglamento (UE) 2016/679, 
+relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales 
+(en adelante, RGPD) y normativa relacionada, así como de aquellas normas y en aquellas que las 
+sustituyan o puedan dictarse en su desarrollo en relación con los datos de carácter personal de que 
+disponga.  
+ 
+Se adjunta como Anexo II el Protocolo sobre Protección de Datos de Carácter Personal aplicable al 
+presente encargo.  
+ 
+En dicho Anexo II se contienen, asimismo, las medidas de seguridad que SIGMA deberá aplicar de 
+acuerdo con los principios y requisitos contenidos en el Real Decreto 3/2010, de 8 de enero, por el que 
+se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica, modificado 
+por el Real Decreto 951/2015, de 23 de octubre, en su caso y de acuerdo con las instrucciones fijadas 
+por la Universidad y recogidas en los Anexos del presente encargo. 
+ 
+Noveno: 
+ 
+9.1 Derechos de Propiedad Intelectual 
+ 
+A excepción de lo establecido de forma expresa en est a Resolución, ésta  no garantiza a la 
+Universidad o SIGMA  ningún derecho, título o interés sobre los respectivos Derechos de 
+Propiedad Intelectual o de sus otorgantes de licencia.  
+ 
+La Universidad es la titular de todos los Derechos de Propiedad Intelectual correspondientes a 
+los contenidos de la Universidad y SIGMA es l a titular de todos los Derechos de Propiedad 
+Intelectual correspondientes a la Plataforma SIGMA. 
+ 
+
+                                                                                                                     
+      
+ 
+                                                                                                                  
+5 
+ 
+En particular, la Universidad acepta que la Plataforma SIGMA, incluyendo el Software SIGMA 
+y cualesquiera otro software, hardware y documentación asociada, ha sido creada por SIGMA, 
+quien conservará todos los derechos de propiedad intelectual, industrial o cualesquiera otros 
+sobre la misma, que no podrá ser objeto de ulterior modificación, copia, alteración, 
+reproducción, adaptación o traducción por parte de la Universidad.  
+ 
+La estructura, características, códigos, métodos de trabajo, sistemas de información, 
+herramientas de desarrollo, know-how, metodologías, procesos, tecnologías o algoritmos de la 
+Plataforma SIGMA son propiedad de SIGMA, o de sus proveedores , habiendo sido, en este 
+último caso, objeto de licencia o cesión por parte de los mismos, y están protegidos por las 
+normas españolas o internacionales de propiedad intelectual e industrial, y no pueden ser 
+objeto de ulterior modificación, copia, alteración, reproducción, adaptación o traducción por 
+parte de la Universidad. 
+ 
+En consecuencia, no está permitido cualquier uso por la Universidad de la Plataforma SIGMA 
+o de los materiales asociados a la misma que se realice sin la autorización de SIGMA, incluida 
+su explotación, reproducción, difusión, transformación, distribución, transmisión por cualquier 
+medio, posterior publicación, exhibición, comunicación pública o representación total o parcial, 
+las cuales, de producirse, constituirán infracciones de los derechos de propiedad intelectual o 
+industrial de SIGMA, sancionadas por la legislación vigente. 
+ 
+9.2 Signos Distintivos 
+ 
+La Universidad no podrá exponer ni utilizar signos distintivos de SIGMA ni ésta podrá exponer 
+o utilizar signos distintivos de la Universidad, salvo en los supuestos expresamente permitidos 
+en este encargo, sin el previo consentimiento por escrito de la entidad titular del signo distintivo 
+en cuestión. SIGMA únicamente podrá exhibir aquellos signos distintivos de la Universidad que 
+la Universidad le hubiera autorizado (dicha autorización se entiende otorgada al encargar la 
+Universidad a SIGMA el desarrollo y mantenimiento de aplicaciones para la gestión académica). 
+ 
+Tanto la Universidad como SIGMA podrán revocar su consentimiento a la utilización de sus 
+signos distintivos en virtud del presente encargo, mediante notificación escrita al respecto, en 
+cualquier momento con la debida antelación. 
+ 
+9.3 Publicidad 
+ 
+La Universidad acepta que SIGMA pueda incluir el nombre de la Universidad en una lista de 
+usuarios de los servicios de SIGMA, online o en materiales de promoción. Además, la 
+Universidad también acepta que SIGMA puede hacer referencia verbal a la Universidad como 
+un usuario de los servicios de SIGMA. 
+ 
+Décimo: 
+ 
+Sin perjuicio de la información que, con carácter general, se deba publicar en cumplimiento de la 
+legislación sobre transparencia, acceso a la información y buen gobierno, “ Información 
+Confidencial” significa toda la información técnica, jurídica, económica, organizativa o de cualquier 
+otro tipo correspondiente a la Universidad o SIGMA, vinculada a o generada como consecuencia de 
+la ejecución del presente encargo y que por su naturaleza pudiera ser considerada confidencial, con 
+independencia del soporte en que constara o de los medios empleados para su revelación, así como 
+cualquier análisis, recopilación, estudio, resumen o extracto que ya sea SIGMA o la Universidad o 
+ambas, conjuntamente, hubieran elaborado a partir de la información/documentación inicialmente 
+divulgada por cualquiera de ellas. En particular, los medios personales, materiales y económicos 
+específicamente empleados en la ejecución del presente encargo, los datos de carácter personal y 
+los derechos de propiedad intelectual definidos anteriormente, tendrán la consideración de 
+
+                                                                                                                     
+      
+ 
+                                                                                                                  
+6 
+ 
+Información Confidencial de la Universidad. No recibirá esta consideración la información que, 
+conforme a la legislación aplicable a la contratación del sector público, deba hacerse pública en el 
+perfil del contratante. 
+ 
+La Universidad y SIGMA quedan obligadas, respecto a la Información Confidencial, a (i) mantenerla 
+secreta, incluyendo este deber, cualquier divulgación de la información, no sólo a terceros sino 
+también a cualquier persona no autorizada en virtud del presente encargo; (ii) adoptar todas las 
+medidas necesarias tendentes a evitar que dicha información pueda ser conocida por terceros no 
+autorizados por el titular de la misma. En este sentido, la Universidad protegerá la Información 
+Confidencial de SIGMA y ésta protegerá la Información Confidencial de la Universidad, utilizando los 
+mismos medios de protección que utilizan para proteger su propia Información Confidencial y nunca 
+medios inferiores a los razonablemente exigibles en atención a la naturaleza de la información y al 
+estado de la técnica; (iii) No utilizar la Información Confidencial, directa o indirectamente, para ningún 
+fin ajeno al cumplimiento del presente encargo; (iv) Restringir el acceso a la Información Confidencial 
+sólo a aquellos empleados, propios o subcontratados, que deban conocerla con motivo de la 
+ejecución del encargo; (v) No reproducir o copiar la Información Confidencial a menos que sea 
+imprescindible para dar cumplimiento a lo es tablecido en el presente encargo o se obtenga el 
+consentimiento previo y escrito de la entidad a la que pertenezca.  
+ 
+En el supuesto de que una autoridad judicial o administrativa requiriera dar Información Confidencial, 
+la entidad que reciba el requerimiento lo pondrá previamente en conocimiento de la entidad a la cual 
+haga referencia dicha Información Confidencial y restringirá la divulgación de la misma tanto como el 
+requerimiento le permita. 
+ 
+Decimoprimero: 
+ 
+El encargo deberá realizarse por SIGMA, pudiendo contratar con terceros la ejecución de 
+prestaciones parciales del Proyecto, siempre que éstas no excedan de un 50% de la cuantía del 
+encargo, así como asumiendo directamente los gastos correspondientes a las diferentes partes en 
+las que se divide la ejecución del Proyecto. Se considerará gasto del proyecto el IVA soportado por 
+SIGMA en la contratación con terceros. 
+ 
+Los contratos que celebre SIGMA para ejecutar el Proyecto quedarán sometidos a la LCSP, en los 
+términos que sean procedentes de acuerdo con la naturaleza de SIGMA y el tipo y valor estimado de 
+los mismos, aplicando en todo caso las normas contenidas en dicha Ley.  
+ 
+Decimosegundo: 
+ 
+SIGMA responderá de los daños causados por dolo, culpa o negligencia derivados de su actuación 
+frente a las Partes o a terceros, sin ninguna limitación derivada del importe correspondiente al precio 
+de los servicios efectivamente abonado por la Universidad a SIGMA en el momento en que se produjo 
+la causa que motivó la indemnización. A tales efectos, SIGMA tiene suscrita una póliza de seguro de 
+responsabilidad civil que presta cobertura a los riesgos derivados de la actividad objeto del encargo. 
+Los subcontratistas y proveedores de SIGMA quedarán obligados sólo ante ésta, que asumirá, por 
+tanto, la total responsabilidad de la ejecución del encargo.  
+ 
+Las Partes no serán responsables, en ningún caso, de daños indirectos, imprevistos, especiales o 
+accidentales sufridos por cualquiera de las Partes o por un tercero, incluso si la otra Parte o cualquier 
+otra persona ha sido advertida de la posibilidad de tales daños. En consecuencia, será obligación de 
+la Universidad y no de SIGMA, la realización de copias de respaldo con la periodicidad suficiente, así 
+como la instalación de medidas de seguridad y la obtención de licencias e implantación de programas 
+de antivirus, firewall, o cualquier otro que pudiera ser necesario para mantener la integridad, 
+confidencialidad y seguridad de los datos y sistemas de la Universidad.  
+ 
+
+                                                                                                                     
+      
+ 
+                                                                                                                  
+7 
+ 
+SIGMA no será responsable frente a la Universidad, entre otros supuestos, de los siguientes (i) en 
+caso de que la Plataforma SIGMA no se utilice de acuerdo a la documentación proporcionada a la 
+Universidad por SIGMA; (ii) en caso de que el fallo sea provocado por manipulaciones de la 
+Plataforma SIGMA no autorizadas previamente por SIGMA o por software de terceros. 
+ 
+Decimotercero: 
+ 
+La presente Resolución será publicada en los Perfiles del Contratante de la Universidad y de SIGMA. 
+ 
+Decimocuarto: 
+ 
+El presente encargo desplegará su eficacia desde el día de su notificación a SIGMA y tendrá vigencia 
+en el periodo 2022-2023.  
+ 
+Su vigencia inicial se podrá prorrogar, mediante Resolución expresa, siempre que continúen dándose 
+las razones que justifican la necesidad de formalización del encargo. En todo caso, las prórrogas 
+quedarán supeditadas a la existencia de consignación presupuestaria suficiente y adecuada en los 
+presupuestos generales de la Universidad de las correspondientes anualidades. 
+ 
+Del mismo modo, con anterioridad a la fecha de terminación del plazo inicialmente fijado o de 
+cualquiera de sus prórrogas, la Universidad podrá acordar modificaciones sobre el contenido del 
+presente encargo, que se incorporarán como Anexo y pasarán a formar parte del mismo.    
+ 
+Decimoquinto: 
+ 
+La Universidad podrá resolver anticipadamente el encargo, mediando preaviso a SIGMA con una 
+antelación mínima de un mes, en los siguientes supuestos: 
+• Incumplimiento de la presente Resolución. 
+• Incumplimiento de las condiciones aprobadas por la Universidad. 
+ 
+En cualquiera de estos supuestos se procederá a realizar la oportuna liquidación del encargo, 
+reconociéndose a SIGMA el derecho a la compensación tarifaria por las actuaciones efectivamente 
+ejecutadas. 
+ 
+Decimosexto: 
+ 
+El presente encargo tiene naturaleza administrativa, rigiéndose su interpretación y desarrollo por el 
+ordenamiento jurídico-administrativo, y siendo de aplicación los principios de la LCSP para resolver 
+las dudas que pudieran suscitarse en su cumplimiento. 
+ 
+Decimoséptimo: 
+ 
+En tanto que el presente encargo se enmarca dentro de un convenio colaborativo, el Proyecto se 
+enmarca en las líneas de actuación 2, 3 y 4 definidas en el Anexo II del RD 641/2021, participando 
+en su ejecución tres Universidades beneficiarias de los fondos de continua referencia, siendo el 
+mismo un instrumento de colaboración horizontal entre las Universidades.  
+ 
+Además, de acuerdo con el Anexo I del RD 641/2021, el Proyecto va enfocado hacia soluciones y 
+servicios que son susceptibles de ser aprovechados por todas las Universidades públicas españolas, 
+sean o no socias de SIGMA. En este sentido, el resultado final del Proyecto no estará sujeto, en 
+ningún caso, a la previa obtención de una licencia y podrá ser aprovechado, directamente, por las 
+
+                                                                                                                     
+      
+ 
+                                                                                                                  
+8 
+ 
+Universidades que ya son socias de SIGMA y que actualmente representan más del 25% de la 
+totalidad de Universidades Públicas españolas, así como por el resto de Universidades Públicas que, 
+en el futuro, acaben siendo socias de SIGMA. Asimismo, el resultado final del Proyecto estará 
+disponible para otras Universidades Públicas habilitándose los cauces de acceso al desarrollo que 
+correspondan en cada caso. 
+ 
+SIGMA aplicará en la ejecución del Proyecto, en todo caso, las normas contenidas que le sean de 
+aplicación de acuerdo con el RD 641/2021 y las disposiciones que lo desarrollen, entre ellas, la 
+Orden HFP/1030/2021, de 29 de septiembre, por la que se configura el sistema de gestión del Plan 
+de Recuperación, Transformación y Resiliencia, así como cualquier otra norma que desarrolle, 
+complemente o sustituya las anteriores y que esté en vigor en el momento de celebrarse los 
+contratos. 
+ 
+SIGMA está actualmente trabajando en la evaluación de los riesgos de fraude, corrupción o conflicto 
+de interés, en base a las recomendaciones de la Oficina Antifrau de Catalunya. Una vez adoptadas 
+las medidas derivadas de la evaluación SIGMA cumplirá respecto de proyectos PRTR las exigencias 
+en cuanto a la evaluación de los riesgos del fraude y tendrá a disposición del poder adjudicador las 
+DACIS cumplimentadas.  
+ 
+SIGMA se compromete a hacer constar  en los contratos que celebre para ejecutar el Proyecto , en 
+su caso, la obligación de aportación de la información relativa al titular real del  beneficiario final de 
+los fondos en la forma prevista en el artículo 10 de la Orden HFP/1031/2021, de 29 de septiembre.  
+ 
+SIGMA se compromete a hacer constar en los contratos que celebre para ejecutar el Proyecto , en 
+su caso, la sujeción a los controles de la Comisión Europea, la Oficina de Lucha Antifraude, el 
+Tribunal de Cuentas Europeo y la Fiscalía Europea y el derecho de estos órganos al acceso a la 
+información sobre el encargo y/o el convenio del cual trae causa. 
+ 
+SIGMA se compromete a hacer constar  en los contratos que celebre para ejecutar el Proyecto , en 
+su caso, las normas sobre conservación de la documentación, de acuerdo con lo dispuesto en el 
+artículo 132 del Reglamento Financiero.  
+ 
+SIGMA se compromete a cumplir las exigencias derivadas de los  compromisos en materia de 
+comunicación, encabezamientos y logos que se contienen en el artículo 9 de la Orden 
+HFP/1030/2021, de 29 de septiembre. En concreto, se ajustará a los condicionantes propios de la 
+Ayuda (Fondos Unidigital). Así, entre otras, cumplirá las condiciones específicas de la propia 
+convocatoria en materia de comunicación (logos, factura indicando a líneas de acción…), plazos de 
+duración, aprovechamiento por otras universidades públicas, etc. 
+ 
+ 
+Julio E. Abalde Alonso  
+            EL RECTOR DE LA UNIVERSIDAD  
+ 
+ 
+ 
+ 
+   
+
+              
+Página 1 de 3 
+ANEXO I PROYECTO ISGA  
+1. OBJETIVO  Las universidades participantes en el presente convenio se encuentran inmersas en un proceso de renovación de su sistema de gestión académico. Entre las pocas soluciones existentes, las cuatro universidades han optado por el proyecto SIGMA Academic, que es un medio propio de un conjunto mayor de universidades españolas, que componen la agrupación sin ánimo de lucro SIGMA.  La implantación de este sistema de gestión académica constituye un proyecto propio de cada una de las universidades participantes. No obstante, la integración e interoperabilidad de esta herramienta en el ecosistema informático de estas universidades se concibió como un proyecto colaborativo, toda vez que se hace necesario desarrollar unas funcionalidades y procedimientos de los que no sólo se beneficiarán las universidades participantes, sino también cualquier universidad use o no el sistema Sigma Academic. 
+2. ALCANCE  Concretamente, el proyecto propuesto plantea los objetivos principales: 2.1. Funcionalidades de Interoperabilidad  1. Estudio, desarrollo y puesta en marcha de nuevas funcionalidades de interoperabilidad. a. Gestión de estudios interuniversitarios: Definir y crear un estándar de interoperabilidad que permita el traslado de expedientes entre universidades nacionales y permita una mejor gestión de los programas interuniversitarios. Se debe incorporar un mecanismo de gestión integral 
+
+              
+Página 2 de 3 
+de los expedientes de los alumnos matriculados en títulos conjuntos en universidades nacionales. b. APIs de acceso para consulta e intercambio de información universitaria. c. Internacionalización (p.e. EWP). d. Conexión con otros sistemas ampliamente utilizados: ERPs económicos, aplicaciones móviles, CMS, LMS, portafirmas, administración electrónica, conexión con sistemas de certificación digital, ... 2.2. Funcionalidades de localización  2. Localización del sistema para las características de cada región de las universidades involucradas:  a. Traducción al gallego: adaptación del ERP SIGMA Academic al gallego. Se estructura en tres fases para abordar la traducción de literales de la aplicación en tres fases que contemplen: i. fase I - Módulo de Servicios al estudiante de Formación no reglada (titulaciones propias) ii. fase II - Servicios al estudiante y docente iii. fase III - Resto de módulos de gestión académica b. Adaptación al sistema de EVAU: i. Proceso de carga y gestión de los ficheros de acceso a la universidad de la CCAA de Galicia. ii. Las universidades gallegas requieren desarrollar unos servicios Web que provean a la Comisión Interuniversitaria de Galicia (CIUG) la información de alumnos matriculados de nuevo ingreso y anulaciones de matrículas de los alumnos que accedan al Sistema Universitario Gallego (SUG). c. Adaptación al sistema de gestión de evaluación Sistema Universitario Gallego (ej: gestión de oportunidades)    
+
+              
+Página 3 de 3 
+3. PLANIFICACIÓN ESTIMADA  Para el desarrollo de cada uno de los bloques y apartados, se plantean las siguientes fases: 1. Análisis y especificación de funcionalidades de interoperabilidad y localización  2. Diseño de funcionalidades 3. Implementación  4. Validación, pruebas y puesta en producción  Y se estima el siguiente calendario de actuaciones para cada uno de los ámbitos descritos en el alcance del proyecto:  
+  
+1 2 3 4 1 2 3 41.     Estudio, desarrollo y puesta en marcha de nuevas funcionalidades de interoperabilidada.   Gestión de estudios interuniversitarios may'23Análisis y especificación Diseño de funcionalidadesImplementaciónValidación y pruebasb.     APIs de acceso para consulta e intercambio de información universitaria.mar'23 dic'23Análisis y especificación Diseño de funcionalidadesImplementaciónValidación y pruebasc.     Internacionalización (p.e. EWP). dic'23Análisis y especificación Diseño de funcionalidadesImplementaciónValidación y pruebasd.     Conexión con otros sistemas ampliamente utilizados mar'23 dic'23Análisis y especificación Diseño de funcionalidadesImplementaciónValidación, pruebas y puesta en producción2.     Localización del sistema para las características de cada región de las universidades involucradasa.     traducción al gallego sep'22 abril'23sep'23Análisis y especificación Diseño de funcionalidadesImplementaciónValidación, pruebas y puesta en producciónb.     adaptación al sistema de EVAU abr'23Análisis y especificación Diseño de funcionalidadesImplementaciónValidación, pruebas y puesta en producciónc.     adaptación al sistema de gestión de evaluación Sistema Universitario Gallego (gestión de oportunidades)jun'23Análisis y especificación Diseño de funcionalidadesImplementaciónValidación, pruebas y puesta en producción
+2022 2023
+
+                                                                                                                                       
+      
+             
+1 
+ 
+ANEXO II 
+ACUERDO PARA EL TRATAMIENTO DE DATOS PERSONALES AL AMPARO DEL 
+ARTÍCULO 28 RGPD. 
+En A Coruña, 2 de junio de 2022 
+ 
+REUNIDOS 
+ 
+D. Julio E. Ab alde Alonso, Rector Magnífico de la Universidad de A Coruña (en adelante, la 
+Universidad), en nombre y representación de la misma , y en ejercicio de las competencias que le 
+atribuyen los artículos 20 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades y el 
+Decreto 101/2004 de 13 de mayo (D.O.G. de 26 de mayo) y modificados por el Decreto 194/2007, 
+de 11 de octubre (D.O.G. de 17 de octubre) por el que se aprueban los Estatutos de la 
+Universidad, a los efectos del presente encargo con domicilio y con domicilio  en la calle 
+Maestranza 9, 15001 A Coruña y con NIF:Q6550005J. 
+ 
+De otra parte, el Sr. D. Ramón Grau Sala, en su calidad de Director -Gerente de Sigma Gestión 
+Universitaria, A.I.E., (M.P.) (en adelante, SIGMA o la Agrupación), que actúa en nombre y 
+representación de dicha Agrupación conforme a las facultades que le fueron delegadas por 
+Acuerdo del Consejo de Administración de fecha 11 de abril de 2008, con domicilio, a los efectos 
+del presente encargo, en la calle Alcalde Barnils núm. 64-68, Módulo B, 3a planta, puertas 2-3 y 4, 
+Parque Empresarial Sant Joan, 08174 Sant Cugat del Vallés, Barcelona y, con NIF V61213641, en 
+adelante “el ENCARGADO” o encargado del tratamiento 
+ 
+Ambos comparecientes se reconocen mutua y recíprocamente suficiente capacidad para obligarse 
+entre sí por medio del presente ACUERDO DE TRATAMIENTO DE DATOS PERSONALES y  
+ 
+MANIFIESTAN 
+Que la Universidad, en su condición de responsable del tratamiento de datos, ha encargado a 
+SIGMA el desarrollo y mantenimiento de aplicaciones para la gestión universitaria, exigiendo en la 
+prestación encargada el  tratamiento de datos personales del RESPONSABLE por el prestador 
+que posee la condición de ENCARGADO. En virtud de ello, en aplicaci ón de lo dispuesto en el 
+artículo 28 del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril 
+de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos 
+personales y a la libre circulación de estos datos, - en adelante RGPD o Reglamento (UE) 
+2016/679-, ambas partes suscriben el presente contrato y, 
+ 
+ 
+ 
+
+                                                                                                                                       
+      
+             
+2 
+ 
+ 
+DECLARAN 
+PRIMERO.- Que este acuerdo, que trae su causa de un mandato normativo en garantía del derecho 
+fundamental a la protección de datos, es anexo al “ Integración de aplicaciones de gestión 
+académica en el ecosistema informático de una universidad (ISGA)” , no comportando coste 
+adicional alguno para ninguna de las partes , salvo lo previsto en el apartado quinto, segundo 
+párrafo. 
+ 
+SEGUNDO.- El ENCARGADO se compromete a utilizar los datos de carácter personal objeto del 
+tratamiento indicados en el Anexo I únicamente para la finalidad objeto de este encargo y a que, 
+en ningún caso, podrá utilizar los datos para fines propios. 
+ 
+TERCERO.- Que, sin perjuicio de su descripción detallada en el Anexo I la prestación a desarrollar 
+por el ENCARGADO consistirá en el desarrollo y mantenimiento de aplicaciones para la gestión 
+académica. Esta prestación se desarrollará en las siguientes formas:  
+- En instalaciones o sistemas del ENCARGADO , cuando se trate de labores de desarrollo y 
+prueba de aplicaciones. 
+- Con acceso re moto por el encargado del tratamiento a datos en los sistemas del 
+RESPONSABLE, en caso de que fuera necesario la realización de intervenciones de 
+mantenimiento, pruebas de software y resolución de incidencias. 
+- Con acceso a datos en sistemas del RESPONSABLE, para la puesta en explotación y 
+mantenimiento de las aplicaciones, por un técnico in-situ miembro de la plantilla del 
+ENCARGADO. 
+ 
+CUARTO.- Que el encargado del tratamiento garantiza condiciones de confiabilidad y proactividad 
+en el cumplimiento de sus obligaciones derivadas del Reglamento (UE) 2016/679 y de las 
+obligaciones específicamente establecidas por este contrato y para ello: 
+a) Certifica la formación de su personal en materia de protección de datos personales, 
+confidencialidad y seguridad. 
+b) Cuenta c on un delegado de protección de datos designado con las garantías y para las 
+funciones previstas por los artículos 37 a 39 RGPD. 
+ 
+Y en virtud de ello, 
+ACUERDAN 
+Cláusula primera.- Seguimiento de las instrucciones por el encargado.  
+El ENCARGADO tratará los datos personales únicamente siguiendo instrucciones del 
+RESPONSABLE contenidas en este contrato y sus anexos. Cuando, en virtud del cumplimiento de 
+obligaciones legales de naturaleza imperativa el ENCARGADO deba realizar algún trat amiento 
+adicional lo notificará al RESPONSABLE.  
+
+                                                                                                                                       
+      
+             
+3 
+ 
+ 
+En particular, y salvo obligación legal de secreto, se notificará al RESPONSABLE los tratamientos 
+que deriven del deber de colaboración con las Fuerzas y Cuerpos de Seguridad, jueces y 
+tribunales, y autoridades públicas.  
+Será causa de resolución de acuerdo , que conllevará la del encargo principal, sin indemnización 
+alguna para el ENCARGADO, tanto aquellos casos en los que el ENCARGADO no notificase 
+previamente los tratamientos descritos en el párrafo anterior, como en aquellos casos en los que 
+por tratarse de la jurisdicción de un país tercero el responsable del tratamiento considerase que se 
+afecta al derecho fundamental a la protección de datos de los interesados. 
+Asimismo, y como se desarrolla en la cláusula décima del presente contrato, el RESPONSABLE 
+podrá exigir responsabilidades al ENCARGADO por aquellos daños que eventualmente pudieran 
+causar. 
+ 
+Cláusula segunda.- Transferencias internacionales de datos. 
+Se prohíben aquellos tratamientos que cons tituyan una transferencia internacional de datos 
+personales a efectos del Reglamento (UE) 2016/679. Únicamente se autoriza al encargado del 
+tratamiento a realizar los tratamientos en España/países de la Unión Europea/ países del espacio 
+económico europeo. 
+En caso de que SIGMA requiriese la realización de transferencias internacionales de datos deberá 
+solicitar la autorización expresa del RESPONSABLE, salvo que ello sea exigible legalmente. 
+ 
+Clausula tercera.- Confidencialidad y formación del personal. 
+El ENCARGADO garantizará que las personas autorizadas para tratar datos personales se hayan 
+comprometido a respetar la confidencialidad o, en su caso,  estén sujetas a una obligación de 
+confidencialidad de naturaleza estatutaria. En particular, si es requerido por el RESPONSABLE 
+acreditará la existencia de un compromiso contractual de confidencialidad del personal y/o la 
+formación adecuada del mismo.  
+ 
+Cláusula cuarta. - Características de los sistemas de información del ENCARGADO y/o 
+desarrollo de software.  
+1.-En relación con los tratamientos realizados en las instalaciones, medios y soportes del 
+ENCARGADO, éste garantizará la interoperabilidad de sus sistemas y en todo caso la portabilidad 
+de los datos objeto de tratamiento. 
+2.-En los aspectos en que la prestación principal del ENCARGADO consista en el desarrollo de 
+software, o de cualquier procedimiento físico o lógico ordenado al tratamiento de datos 
+personales, además de las garantías indicadas en el párrafo anterior, el ENCARGADO asegurará 
+el cumplimiento de los principios de protección de datos y seguridad desde el diseño y por 
+defecto, de acuerdo con los medios disponibles según el estado del arte.   
+ 
+
+                                                                                                                                       
+      
+             
+4 
+ 
+ 
+Cláusula quinta.- Medidas de seguridad. 
+1. El ENCARGADO deber á implantar las medidas de seguridad previstas en el Documento de 
+Seguridad de la Universidad:  
+a)  Tener establecida una política de seguridad de los datos de carácter personal.  
+b)  Establecer un sistema de control y limitaci ón de accesos l ógicos solo a quienes deban 
+tener acceso a los datos.  
+d)  Implementar procedimientos de gesti ón de soportes de datos personales: copias de 
+seguridad, almacenamiento, transporte, desecho y demás operaciones relacionadas.  
+e)  Realizar copias de respaldo de los datos personales.  
+f)  Establecer procedimientos de recuperación de los datos en caso de incidentes.  
+g)  Desarrollar y aplicar protocolos de actuación para la gestión de incidencias. 
+h)  Aplicar las medidas de seguridad pertinentes también en el caso de que realice pruebas 
+con datos reales. 
+En todo caso, deberá implantar mecanismos para:  
+a) Garantizar la confidencialidad, integridad, disponibilidad y resiliencia permanentes de los 
+sistemas y servicios de tratamiento.  
+b) Restaurar la disponibilidad y el acceso a los datos personales de forma r ápida, en caso 
+de incidente físico o técnico.  
+c) Verificar, evaluar y valorar, de forma regular, la eficacia de las medidas t écnicas y 
+organizativas implantadas para garantizar la seguridad del tratamiento.  
+ 
+2.-El ENCARGADO se compromete a notificar al RESPONSABLE cualquier incidente de 
+seguridad susceptible de ser considerado violación de la seguridad de los datos personales 
+conforme a lo dispuesto por los artículos 33 y 34 RGPD. Para ello se seguirá el procedimiento 
+descrito en Anexo II de este contrato. 
+ 
+Cláusula sexta.- Colaboración con el responsable. 
+Si resultare necesario, el ENCARGADO cooperará lealmente con el RESPONSABLE cuando 
+fuera necesario llevar a cabo la evaluación de impacto relativa a la protección de datos prevista 
+por el artículo 35 RGPD.  
+Asimismo, el ENCARGADO asistirá al RESPONSABLE, teniendo cuenta la naturaleza del 
+tratamiento, a través de medidas técnicas y organizativas apropiadas, siempre que sea posible, 
+para que este pueda cumplir con su obligación de responder a las solicitudes que teng an por 
+objeto el ejercicio de los derechos de los interesados establecidos en el capítulo III del 
+Reglamento (UE) 2016/679. 
+En ambos casos, el RESPONSABLE requerirá expresamente al ENCARGADO a través de la 
+siguiente dirección electrónica protecciondatos@sigmaaie.org  
+ 
+
+                                                                                                                                       
+      
+             
+5 
+ 
+ 
+En el caso de que las personas afectadas ejerzan los derechos, anteriormente indicados, ante el 
+ENCARGADO, éste debe comunicarlo por correo electr ónico a la direcci ón dpd@udc.gal. La 
+comunicación debe hacerse de forma inmediata y en ning ún caso m ás allá  del dí a laborable 
+siguiente al de la recepci ón de la solicitud, juntamente, en su caso, con otras informac iones que 
+puedan ser relevantes para resolver la solicitud, que corresponde al responsable del tratamiento.  
+Serán causa de resolución de este acuerdo , que conllevará la del encargo principal, sin 
+indemnización alguna, aquellos supuestos en los que transcurridos diez días naturales después 
+de haberse requerido, el ENCARGADO no colaborase debidamente. 
+Asimismo, y como se desarrolla en la cláusula décima del presente contrato, el RESPONSABLE 
+podrá exigir responsabilidades al ENCARGADO por aquellos daños que eventualmente pudieran 
+causar. 
+Información adicional: puede consultar la información adicional y detallada sobre nuestra Política 
+de Privacidad en https://www.udc.es/es/goberno/equipo_reitoral/secretaria/proteccion-de-datos/. 
+ 
+Cláusula séptima.- Prueba del cumplimiento. 
+El ENCARGADO pondrá a disposición del RESPONSABLE toda la información necesaria para 
+demostrar el cumplimiento de las obligaciones establecidas en el presente contrato. 
+En caso de solicitarse informe de auditoría por un tercero de confianza autorizado por el 
+RESPONSABLE las partes acuerdan realizar una comunicaci ón previa al respecto, acordando 
+condiciones y disponibilidad horaria, corriendo con los gastos de la misma el RESPONSABLE, 
+pudiéndose repercutir en caso de anomalías de cumplimiento en protección de datos al 
+ENCARGADO. 
+Respecto a las prestaciones que se realicen íntegramente en instalaciones del RESPONSABLE, 
+el ENCARGADO recon oce el derecho al RESPONSABLE a auditar la actividad del encargado 
+incluidas las inspecciones a los terminales y medios del personal del ENCARGADO. Es obligación 
+de este último levantar toda expectativa de privacidad de su personal, cuyo acceso no será 
+autorizado de no garantizarse los poderes del RESPONSABLE establecidos en este contrato.  
+ 
+Cláusula octava.- Facultades del encargado. 
+El ENCARGADO informará inmediatamente al RESPONSABLE si, en su opinión, una instrucción 
+infringe el presente Reglamento u otras disposiciones en materia de protección de datos de la 
+Unión o de los Estados miembros. 
+El ENCARGADO garantizará la adecuada llevanza del Registro de Actividades del tratamiento 
+regulado por el artículo 30.2 y en particular asegurará la debida documentación de las medidas 
+técnicas y organizativas de seguridad. 
+El registro de actividades del tratamiento contendrá la siguiente información:  
+1. El nombre y los datos de contacto del encargado o encargados y de cada responsable por 
+cuenta del cual actúe el encargado y, en su caso, del representante del responsable o del 
+encargado y del delegado de protección de datos.  
+2. Las categorías de tratamientos efectuados por cuenta de cada responsable.  
+
+                                                                                                                                       
+      
+             
+6 
+ 
+3. En su caso, las transferencias internacionales de datos personales  a un tercer paí s u 
+organización, incluida la identificaci ón de dicho tercer paí s u organizaci ón internacional y, 
+en el caso de las transferencias indicadas en el artículo 49 apartado 1, párrafo segundo del 
+RGPD, la documentación de garantías adecuadas.  
+4. Una descripción general de las medidas t écnicas y organizativas de seguridad relativas a 
+los siguientes aspectos:  
+0. La seudonimización (el establecimiento de seud ónimos o sistemas de disociaci ón) 
+y el cifrado de datos personales.  
+1. La capacidad de garantizar la confidencialidad, integridad, disponibilidad y 
+resiliencia permanentes de los sistemas y servicios del tratamiento.  
+2. La capacidad de restaurar la disponibilidad y el acceso a los datos personales de 
+forma rápida, en caso de incidente físico o técnico  
+3. El proceso de verificaci ón, evaluación y valoraci ón regulares de la eficacia de las 
+medidas técnicas y organizativas para garantizar la seguridad del tratamiento.  
+El registro al que se refiere el presente apartado deber á ser puesto a disposici ón de la autoridad 
+de control de datos personales que lo solicite, en particular, de la Agencia Española de Protección 
+de Datos.  
+ 
+Cláusula novena.– Contratación con terceros.  
+Si fuera necesario subcontratar alg ún tratamiento, el ENCARGADO deberá comunicar 
+previamente y por escrito a la Universidad, con antelaci ón de DOS MESES, indicando los 
+tratamientos que se pretende subcontratar e identificando de forma clara e inequí voca la empresa 
+subcontratista y sus datos de contacto. La subcontratación podrá llevarse a cabo si el responsable 
+no manifiesta su oposición en el plazo establecido. Tanto la no notificación, o el incumplimiento de 
+este plazo para ella, como la negativa del RESPONSABLE a autorizar la contrataci ón, una vez 
+ejecutada ésta, ser án causa de resoluci ón de este acuerdo, y del encargo principal, sin 
+indemnización alguna.  
+Asimismo, y como se desarrolla en la cl áusula décima del presente acuerdo, el RESPONSABLE 
+podrá exigir responsabilidades al ENCARGADO por aquellos dañ os que eventualmente pudieran 
+causar.  
+El ENCARGADO garantiza que se impondr án al contratista encargado, mediante contrato las 
+mismas obligaciones de protecci ón de datos que las estipuladas en el presente contrato. 
+Corresponde al encargado inicial regular la nueva relaci ón de forma que el nuevo encargado 
+quede sujeto a las mismas condiciones (instrucciones, obligaciones, medidas de seguridad...).  
+En el caso de incumplimiento por parte del sub-encargado, el ENCARGADO inicial seguirá siendo 
+plenamente responsable ante el RESPONSABLE en lo referente al cumplimiento de las 
+obligaciones.  
+ 
+Cláusula décima.- Responsabilidad del encargado e indemnizaciones. 
+Si el ENCARGADO del tratamiento infringe el Reglamento (UE) 2016/679 al determinar los fines y 
+medios del tratamiento, será considerado responsable del tratamiento. A efectos de este acuerdo  
+el ENCARGADO también será considerado responsable cuando comunique datos sin autorización 
+
+                                                                                                                                       
+      
+             
+7 
+ 
+o los utilice incumpliendo las estipulaciones de este acuerdo, respondiendo de las infracciones en 
+que hubiera incurrido personalmente. 
+Ello sin perjuicio de la exigencia de responsabilidad por los daños que eventualmente se pudier an 
+causar, incluidos aquellos reputacionales que menoscaben el honor corporativo y la imagen 
+pública del RESPONSABLE.  
+ 
+Cláusula undécima.- Finalización de la prestación.  
+EL ENCARGADO, previa elección del responsable, suprimirá o devolverá todos los datos  
+personales una vez finalice la prestación de los servicios de tratamiento, y suprimirá las copias 
+existentes a menos que se requiera la conservación de los datos personales en virtud del Derecho 
+de la Unión o de los Estados miembros. En este último caso, lo hará constar expresamente con 
+indicación específica del plazo de conservación y la norma de la que deriva su obligación. 
+En caso de que el ENCARGADO tuviera un deber de conservación de los datos conforme a la 
+cláusula novena se le prohíbe cualquier tratamiento distinto de esta conservación. 
+El procedimiento de devolución se ajustará a lo descrito en el Anexo I a este Contrato. 
+ 
+Cláusula duodécima.- Vigencia. 
+La vigencia de este acuerdo se vincula a la del encargo de prestación de servicios del que trae su 
+causa. No obstante, no se considerará extinguido hasta la completa devolución o destrucción de 
+los datos. En caso de que el ENCARGADO tuviera un deber de conservación de los datos 
+conforme a la cláusula novena subsistirán todas las obligac iones previstas en este acuerdo  que 
+garantizan la seguridad de los datos sin coste adicional alguno para el RESPONSABLE. 
+ 
+Cláusula Decimotercera.- Legislación aplicable y jurisdicción.  
+El presente acuerdo se regirá por la normativa española y europea en materia de Protección de 
+Datos de Carácter Personal, sin perjuicio de la restante descrita en el encargo principal. 
+En caso de controversia entre las partes surgida con motivo de la aplicación de este contr ato, 
+ambas partes, con renuncia expresa a su propio fuero se someten a la jurisdicción de los 
+Juzgados y Tribunales del domicilio del Responsable del tratamiento. 
+Y para que así conste, y en prueba de conformidad y aceptación de todo cuanto antecede, las 
+partes firman el presente Contrato por duplicado ejemplar y a un sólo efecto en la fecha y lugar 
+indicados en el encabezamiento. 
+ 
+  
+
+                                                                                                                                       
+      
+             
+8 
+ 
+ 
+Anexo I – Descripción detallada de los tratamientos. 
+a) Objeto de la prestación. 
+El desarrollo y mantenimiento de aplicaciones para la gestión académica, SIGMA ACADEMIC.  
+b) Datos que se facilitan o a los que accede el encargado del tratamiento. 
+Los tratamientos de datos previstos a realizar, relacionados con el desarrollo de los servicios 
+objeto de la prestación, son los siguientes:  Consulta, Modificación, Interconexión, Comunicación 
+por transmisión, Registro, Cotejo, Estructuración, Limitación, Conservación,  Supresión y 
+Destrucción.  
+Para la ejecución de las actividades derivadas de la prestación de servicios, el ENCARGADO 
+tratará la información que se describe a continuación. 
+ Datos identificativos (nombre y apellidos, NIF/DNI, nº Seguridad Social/Mutualidad, dirección, 
+teléfono, firma, fotografía…). 
+ Datos de características personales (datos de familia, fecha de nacimiento, lugar de 
+nacimiento, edad, sexo, nacionalidad…). 
+ Datos sobre circunstancias sociales (discapacidad, condiciones económicas, condiciones 
+laborales...). 
+ Datos académicos y profesionales (formación/titulaciones, historial de estudiante, experiencia 
+profesional…). 
+ Datos de detalles de empleo (profesión, puesto de trabajo, datos no económicos de nómina, 
+historial del trabajador…). 
+ Datos económicos, financieros y de seguros (ingresos y rentas, datos bancarios, datos 
+económicos de nómina ...). 
+ Datos de categorías especiales (datos relativos a la salud…). 
+En cuanto a las categorías de interesados que se verán afectadas por los tratamientos de datos 
+realizados por el ENCARGADO son las siguientes:  Estudiantes, Becarios, Profesores, Personal 
+de Investigación, Personas de Contacto y Otros Empleados. 
+c) Modo de entrega o acceso a los datos. 
+La entrega de la información al ENCARGADO, como el acceso a los datos de carácter personal, 
+variará en función del lugar donde se desarrolle la prestación de los servicios, detallada en el 
+Exponendo Segundo de la Declaración de las partes del presente acuerdo.  
+1.-Si los tratamientos de datos se realizan en las instalaciones o los sistemas del encargado, el 
+ENCARGADO deberá establecer las suficientes medidas técnicas y organizativas de segur idad 
+que controlen los accesos y garanticen la confidencialidad, integridad y disponibilidad y resiliencia 
+de la información tratada.  
+
+                                                                                                                                       
+      
+             
+9 
+ 
+2.-En caso de que  el ENCARGADO lleve a cabo los tratamientos de datos con acceso remoto a 
+los sistemas del RESPONSABLE o con acceso a datos únicamente en sistemas de 
+RESPONSABLE, el ENCARGADO deberá aplicar las medidas de seguridad aplicando el estándar 
+comprometido en este acuerdo y anexado al presente acuerdo para el tratamiento de datos 
+personales.  
+En todo caso, tanto el  RESPONSABLE como el ENCARGADO en el tratamiento y envío de 
+información personal por medios lógicos o físicos, establecen las siguientes medidas técnicas y 
+organizativas de seguridad idóneas para evitar el acceso no autorizado, la pérdida, la sustracción 
+o la modificación de la información tratada, protegiendo así la confidencialidad, integridad, 
+disponibilidad y resiliencia de los sistemas y la información objeto de tratamiento: 
+- Acceso por empleado in-situ perteneciente a la plantilla del ENCARGADO: 
+Aplicará las medidas dictadas por el RESPONSABLE, cuando se trate de interacciones directas 
+en las máquinas de este. Si fuese necesario realizar pruebas por parte del ENCARGADO, el 
+empleado in-situ realizará las pruebas correspondientes en las instalaciones del RESPONSABLE, 
+sin que se realicen transferencias de datos personales al ENCARGADO. 
+- Conexiones en remoto para pruebas en equipos del ENCARGADO: 
+Se realizarán conexiones cifradas para garantizar la confidencialidad de las comunicaciones, a los 
+servidores del entorno de pruebas de base de datos y servidores de aplicaciones del 
+RESPONSABLE, aplicándose filtros por dirección IP y puerto de conexión. 
+- Suministro de datos para pruebas software en instalaciones del ENCARGADO: 
+Para permitir la realización de desarrollos nuevos o mejorar los existentes, puede ser necesario el 
+envío de datos al ENCARGADO destinados a la realización de pruebas del software. Cuando sea 
+necesario proporcionar una base de datos para realizar estas pruebas de desarrollo, se hará 
+previamente una anonimización de los datos a enviar . El envío de esta base de datos al 
+ENCARGADO, se realizará encriptada y se transferirá mediante conexiones cifradas que impidan 
+el acceso a la información por parte de terceros. 
+d) Sistemas de información afectados conforme al Registro de Actividades del Tratamiento. 
+Los datos personales que se facilitan al encargado o a los que este accede en virtud del presente 
+acuerdo se encuentran en los siguientes ficheros o tratamientos de datos incluidos en el registro 
+de actividades del RESPONSABLE: 
+• GESTIÓN MATRÍCULA  
+• GESTIÓN CALIFICACIONES Y ACTAS  
+• GESTIÓN DE BECAS  
+• GESTIÓN DE EXPEDIENTE ACADÉMICO  
+• GESTIÓN DE TÍTULOS  
+• GESTIÓN DE PRÁCTICAS DE ALUMNOS EN EMPRESA  
+• APP SIGMA  
+• GESTIÓN DE PRODUCCIÓN INVESTIGADORA  
+• GESTIÓN DE TESIS DOCTORALES  
+
+                                                                                                                                       
+      
+             
+10 
+ 
+• GESTIÓN DE PROGRAMAS DE MOVILIDAD  
+• GESTIÓN DE PLANES DE ESTUDIOS  
+• GESTIÓN DE CERTIFICADOS  
+• GESTIÓN DE ANALÍTICA DE DATOS  
+e) Devolución de los datos.  
+Una vez cumplida la prestación de los servicios, el ENCARGADO devolverá al responsable los 
+datos de carácter personal y, si procede, los soportes donde consten.  Asimismo, suprimirá todos 
+los datos y copias existentes en los eq uipos informativos, pudiendo conservar una copia, con los 
+datos debidamente bloqueados, mientras puedan derivarse responsabilidades de la ejecución de 
+la prestación. 
+Así, en un plazo de 10 días hábiles tras la finalización de la prestación de servicios, el  
+ENCARGADO deberá aportar un certificado acreditativo de la supresión de la información. En el 
+caso que sea necesaria su conservación, porque así lo regula la legislación aplicable, se deberá 
+indicar en el mismo.  
+Sin perjuicio de lo anterior, y previa comunicación del RESPONSABLE una vez cumplida la 
+prestación, se le podrá exigir al ENCARGADO: 
+- La entrega de la información a otro encargado del tratamiento y, si procede, los soportes donde 
+consten. Tras la entrega se suprimirán todos los datos y copias existentes en los equipos 
+informativos, pudiendo conservar una copia, con los datos debidamente bloqueados, mientras 
+puedan derivarse responsabilidades de la ejecución de la prestación. Asimismo, se dispondrá de 
+10 días hábiles para la entrega del certificado acreditativo de la supresión en los términos fijados.  
+- La destrucción de la información tratada tras la prestación de servicios. El ENCARGADO 
+dispondrá de 10 días hábiles para la entrega del certificado acreditativo de la destrucción. En el 
+caso que sea necesaria la conservación de la información, porque así lo regula la legislación 
+aplicable, se deberá indicar en el mismo. 
+ 
+Anexo II.-Obligaciones específica en materia de seguridad. 
+a) Notificación de violaciones de seguridad. 
+El ENCARGADO notificará al responsable del tratamiento, sin dilación indebida, y en un plazo 
+máximo de 24 horas desde su conocimiento, y a través de la siguiente dirección electrónica 
+(dpd@udc.gal), junto con toda la información relevante para la documentación y comunicación 
+de la incidencia.  
+Solo en el caso que no exista probabilidad de que dicha violación de la seguridad constituya un 
+riesgo para los derechos y las libertades de las personas físi cas, no será necesaria la notificación 
+al RESPONSABLE.  
+La información a incorporar en la notificación, si se conoce, es la siguiente: 
+a) Descripción de la naturaleza de la violación de la seguridad de los datos personales, inclusive, 
+cuando sea posible, las categorías y el número aproximado de interesados afectados, y las 
+categorías y el número aproximado de registros de datos personales afectados.  
+
+                                                                                                                                       
+      
+             
+11 
+ 
+b) El nombre y los datos de contacto del delegado de protección de datos o de otro punto de 
+contacto en el que pueda obtenerse más información. 
+c) Descripción de las posibles consecuencias de la violación de la seguridad de los datos 
+personales.  
+d) Descripción de las medidas adoptadas o propuestas para poner remedio a la violación de la 
+seguridad de los datos personales, incluyendo, si procede, las medidas adoptadas para mitigar 
+los posibles efectos negativos. 
+Si no es posible facilitar la información simultáneamente, y en la medida en que no lo sea, la 
+información se facilitará de manera gradual sin dilación indebida. 
+Además, el ENCARGADO deberá cumplir con las instrucciones que el responsable del 
+tratamiento le dirija en cada momento relativas a la notificación y documentación asociada a 
+posibles incidentes de seguridad, en coherencia con los protocolos o procedimiento s que se 
+hayan adoptado.  
+b) Obligaciones de seguridad del personal del encargado del tratamiento. 
+El ENCARGADO debe informar, a requerimiento del RESPONSABLE acerca de: 
+- Las funciones de los usuarios o perfiles de usuarios con acceso a los datos de carácter 
+personal y a los sistemas de información que interviene en la concreta prestación del servicio; 
+- Las funciones de control o autorizaciones delegadas;  
+- La formación del personal para que conozca de una forma comprensible las normas de 
+seguridad que afecten al desarrollo de sus funciones, así como las consecuencias en que 
+pudiera incurrir en caso de incumplimiento. 
+ 
+ 
+EL RECTOR DE LA UNIVERSIDADE 
+DA CORUÑA  
+EL DIRECTOR GERENTE DE SIGMA 
+GESTIÓN UNIVERSITARIA, A.I.E. 
+(M.P.) 
+ 
+ 
+ 
+ 
+  
+Fdo.: Julio E. Abalde Alonso              Fdo.: Ramón Grau Sala 
+ 

@@ -1,0 +1,156 @@
+Portada
+Portal de la comunidad
+Actualidad
+Cambios recientes
+Páginas nuevas
+Página aleatoria
+Ayuda
+Notificar un error
+Páginas especiales
+Donaciones
+Crear una cuenta
+Acceder
+Donaciones
+Crear una cuenta
+Acceder
+Edición de « Universidad de La Coruña »
+Artículo
+Discusión
+Leer
+Editar
+Ver historial
+Leer
+Editar
+Ver historial
+Lo que enlaza aquí
+Cambios en enlazadas
+Subir archivo
+Información de la página
+Obtener URL acortado
+Descargar código QR
+Elemento de Wikidata
+Por favor, ten en cuenta que:
+Al pulsar en «Publicar cambios», tus modificaciones se harán visibles inmediatamente. Si estás haciendo una prueba, usa la zona de pruebas .
+Al editar páginas, aceptas todos nuestros términos de uso ; en particular, cedes tus contribuciones de manera irrevocable bajo las licencias CC BY-SA 4.0 y GFDL —por lo que podrán ser utilizadas y modificadas libremente, incluso con fines comerciales—, y garantizas que estás legalmente autorizado a hacerlo, por ser el titular de los derechos de autor o por haberlas obtenido de una fuente que las publicó de forma explícita bajo una licencia compatible con la CC BY-SA o en el dominio público .
+Los artículos deben contener información enciclopédica que tenga un punto de vista neutral y pueda ser verificada por fuentes externas.
+Caracteres especiales (copie y pegue):
+Á á É é Í í Ó ó Ú ú Ü ü Ñ ñ ·
+¡ ¿ - † º ª  ·
+Â â Ĉ ĉ Ê ê Î î Ô ô Ŝ ŝ Û û ·
+Č č Š š Ž ž ·
+Ć ć Đ đ Ń ń Ś ś Ź ź Ż ż ·
+Ä ä Ë ë Ï ï Ö ö Ü ü  ·
+Ç ç  ·
+Ā ā Ē ē Ī ī Ō ō Ū ū  ·
+ß  ·
+Ð ð Þ þ  ·
+Æ æ Œ œ Å å Ø ø ·
+– —  ·
+~ | ° § → ·
+≈ ± ≠ − × ¹ ² ³  ·
+‘ ’ “ ” « » ·
+£ € © ·
+Α α Β β Γ γ Δ δ  ·
+Ε ε Ζ ζ Η η Θ θ  ·
+Ι ι Κ κ Λ λ Μ μ  ·
+Ν ν Ξ ξ Ο ο Π π  ·
+Ρ ρ Σ σ ς Τ τ Υ υ  ·
+Φ φ Χ χ Ψ ψ Ω ω  ·
+&nbsp; < > [ ] [[ ]] {{ }} {{{ }}}  ·
+—~~~~ ·
+<!-- --> ·
+[[Categoría: ]] ·
+{{ORDENAR: }} ·
+#REDIRECCIÓN[[ ]] ·
+<gallery> </gallery> ·
+<ref> </ref>
+Entidades de Wikidata usadas en esta página
+identificador BIBSYS : Declaración: P1630
+identificador Dialnet de autor : Statement (with qualifiers and references): P1630
+identificador ISNI : Statement (with qualifiers and references): P1630
+identificador VIAF : Statement (with qualifiers and references): P1630
+identificador GND (DNB) : Statement (with qualifiers and references): P1630
+identificador de autoridades de la Biblioteca del Congreso de EE. UU. : Statement (with qualifiers and references): P1630
+identificador BnF : Statement (with qualifiers and references): P1630
+identificador de referencia de idRef SUDOC : Statement (with qualifiers and references): P1630
+ID de autor NACSIS-CAT : Statement (with qualifiers and references): P1630
+número de identificación de IVA europeo : Statement (with qualifiers and references): P1630
+categoría en Commons : Declaración: P1630
+identificador J9U de la Biblioteca Nacional de Israel : Statement (with qualifiers and references): P1630
+identificador BNE v1.0 : Statement (with qualifiers and references): P1630
+identificador CANTIC : Statement (with qualifiers and references): P1630
+Universidad de La Coruña : Título, Enlace de sitio, Some statements, Descripción: es
+editor de acceso abierto : Título, Etiqueta: es
+universidad pública : Título, Etiqueta: es
+Plantillas usadas en esta página:
+Plantilla:AP ( ver código ) (protegida para editores de plantillas)
+Plantilla:Botón enlazable 2 ( ver código ) (semiprotegida)
+Plantilla:CP ( ver código ) (protegida)
+Plantilla:Cita web ( ver código ) (protegida para editores de plantillas)
+Plantilla:Clave de ordenación oculta ( ver código ) (protegida para editores de plantillas)
+Plantilla:Clickable button 2 ( editar )
+Plantilla:Co ( ver código ) (protegida para editores de plantillas)
+Plantilla:Control de autoridades ( ver código ) (protegida para editores de plantillas)
+Plantilla:Control de autoridades/styles.css ( ver código ) (protegida para editores de plantillas)
+Plantilla:Coord ( ver código ) (protegida para editores de plantillas)
+Plantilla:Creciente ( ver código ) (protegida para editores de plantillas)
+Plantilla:Desvincular ( ver código ) (protegida para editores de plantillas)
+Plantilla:Detecta espacio de nombres ( ver código ) (protegida para editores de plantillas)
+Plantilla:ESP ( ver código ) (protegida para editores de plantillas)
+Plantilla:Ficha/imagelimit.css ( ver código ) (protegida para editores de plantillas)
+Plantilla:Ficha de centro educativo ( ver código ) (protegida para editores de plantillas)
+Plantilla:Ficha de universidad ( ver código ) (protegida para editores de plantillas)
+Plantilla:Incremento ( editar )
+Plantilla:Listaref ( ver código ) (protegida para editores de plantillas)
+Plantilla:Reemplazar ( ver código ) (protegida para editores de plantillas)
+Plantilla:Y-e ( ver código ) (protegida para editores de plantillas)
+Módulo:Argumentos ( ver código ) (protegida para editores de plantillas)
+Módulo:Categorización de buenos y destacados ( ver código ) (protegida para editores de plantillas)
+Módulo:Citas ( ver código ) (protegida para editores de plantillas)
+Módulo:Citas/Configuración ( ver código ) (protegida para editores de plantillas)
+Módulo:Citas/ValidaciónFechas ( ver código ) (protegida para editores de plantillas)
+Módulo:Citas/Whitelist ( ver código ) (protegida para editores de plantillas)
+Módulo:Clickable button 2 ( ver código )
+Módulo:Control de autoridades ( ver código ) (protegida para editores de plantillas)
+Módulo:Coordenadas ( ver código ) (protegida para editores de plantillas)
+Módulo:Date ( ver código ) (protegida para editores de plantillas)
+Módulo:Ficha ( ver código ) (protegida para editores de plantillas)
+Módulo:Ficha de centro educativo ( ver código )
+Módulo:Formato texto ( ver código ) (protegida para editores de plantillas)
+Módulo:HtmlBuilder ( ver código ) (protegida para editores de plantillas)
+Módulo:Identificadores ( ver código ) (protegida para editores de plantillas)
+Módulo:Math ( ver código ) (protegida para editores de plantillas)
+Módulo:Navbar ( ver código ) (protegida para editores de plantillas)
+Módulo:Navbar/configuración ( ver código ) (protegida para editores de plantillas)
+Módulo:Navbox ( ver código ) (protegida para editores de plantillas)
+Módulo:No globals ( ver código ) (protegida para editores de plantillas)
+Módulo:Páginas ( ver código ) (protegida para editores de plantillas)
+Módulo:String ( ver código ) (protegida para editores de plantillas)
+Módulo:Tablas ( ver código ) (protegida para editores de plantillas)
+Módulo:URL ( ver código ) (protegida para editores de plantillas)
+Módulo:Wikidata ( ver código ) (protegida para editores de plantillas)
+Módulo:Wikidata/Formatos ( ver código ) (protegida para editores de plantillas)
+Módulo:Wikidata/Globos ( ver código ) (protegida para editores de plantillas)
+Módulo:Wikidata/mensajes ( ver código ) (protegida para editores de plantillas)
+Módulo:Wikidata/modulosTipos ( ver código ) (protegida para editores de plantillas)
+Módulo:Yesno ( ver código ) (protegida para editores de plantillas)
+Esta página está incluida en 10 categorías ocultas:
+Categoría:Wikipedia:Artículos con identificadores BIBSYS
+Categoría:Wikipedia:Artículos con identificadores BNE
+Categoría:Wikipedia:Artículos con identificadores VIAF
+Categoría:Wikipedia:Artículos con identificadores GND
+Categoría:Wikipedia:Artículos con identificadores LCCN
+Categoría:Wikipedia:Control de autoridades con 15 elementos
+Categoría:Wikipedia:Artículos con identificadores Dialnet
+Categoría:Wikipedia:Artículos con identificadores BNF
+Categoría:Wikipedia:Artículos con identificadores CANTIC
+Categoría:Wikipedia:Artículos con identificadores ISNI
+Política de privacidad
+Acerca de Wikipedia
+Limitación de responsabilidad
+Contactos para cuestiones legales y de seguridad
+Código de conducta
+Desarrolladores
+Estadísticas
+Declaración de cookies
+Versión para móviles

@@ -1,0 +1,391 @@
+INFORME FINAL DE EVALUACIÓN PARA LA
+RENOVACIÓN DE LA ACREDITACIÓN
+Denominación del Título: Máster Universitario en Matemática Industrial
+Número de Expediente (RUCT): 4314422
+Especialidades: Especialidad en Simulación Numérica, Especialidad en Modelización
+Matemática
+Universidad responsable: Universidad de Santiago de Compostela
+Centro: Facultad de Matemáticas, Facultad de Informática, Escuela de
+Ingeniería de Telecomunicación
+Otros centros de impartición: Escuela  Politécnica  Superior-UC3M  Escuela  de  Ingeniería
+Aeronáutica  y  del  Espacio-UPM
+Universidades participantes: USC, UDC, UVIGO, UPM, UC3M
+Rama de conocimiento: Ingeniería y Arquitectura
+Nº de créditos: 90
+Modalidades de impartición: Presencial
+Acreditación: 25/09/2013
+Curso de implantación: 2013-2014
+
+Conforme a lo establecido en el Real Decreto 1393/2007, modificado por el Real Decreto 861/2010, la Universidad de
+Santiago de Compostela ha remitido a la "Secretaría Xeral de Universidades" de la "Xunta de Galicia" la solicitud de
+la propuesta para la renovación de la acreditación del título "Máster Universitario en Matemática Industrial" con el fin
+de que ACSUG compruebe que el plan de estudios se está llevando a cabo de acuerdo con la descripción y los
+compromisos que se incluyeron en el proyecto inicial que, para este título, se aprobó en el proceso de verificación.
+La evaluación se ha realizado por una subcomisión derivada de la Comisión de Evaluación de la rama de
+conocimiento de Ingeniería y Arquitectura formada por expertos nacionales e internacionales del ámbito académico,
+profesionales y estudiantes. Los miembros de esta comisión han sido seleccionados y nombrados según el
+procedimiento que se recoge en la página Web de ACSUG.
+Este informe es el resultado de la evaluación del conjunto de evidencias de carácter documental del título y de la
+visita al centro donde se imparte el título, que se ha desarrollado sin incidencias conforme a la agenda prevista, y de
+la revisión del Plan de Mejoras presentado por el centro una vez recibido el informe provisional de evaluación para la
+renovación de la acreditación. Las acciones incluidas en dicho Plan de Mejoras serán objeto de especial revisión
+durante el proceso de seguimiento del título.
+Una vez valorado cada uno de los criterios de acreditación según estos cuatro niveles:
+Se supera excelentemente (A). El estándar correspondiente al criterio se logra completamente , además, es un●
+ejemplo que excede los requerimientos básicos.
+Se alcanza (B). El estándar correspondiente al criterio se logra completamente.●
+Se alcanza parcialmente (C) . Se logra el estándar en el mínimo nivel pero se detectan aspectos puntuales que●
+han de mejorarse.
+No se alcanza (D). El criterio no logra el nivel mínimo requerido para llegar al estándar correspondiente.●
+ACSUG emite un informe final de evaluación favorable.
+Considerando la siguiente valoración por criterio:
+
+DIMENSIONES Y CRITERIOS VALORACIÓN
+DIMENSIÓN 1. LA GESTIÓN DEL TÍTULO
+Criterio 1. Organización y desarrollo C - Se alcanza parcialmente
+Criterio 2. Información y transparencia A - Se supera excelentemente
+Criterio 3. Sistema de garantía de calidad C - Se alcanza parcialmente
+DIMENSIÓN 2. RECURSOS
+Criterio 4. Recursos humanos B - Se alcanza
+Criterio 5. Recursos materiales y servicios A - Se supera excelentemente
+DIMENSIÓN 3. RESULTADOS
+Criterio 6. Resultados de aprendizaje A - Se supera excelentemente
+Criterio 7. Indicadores de satisfacción y rendimiento B - Se alcanza
+OBSERVACIONES ADICIONALES
+Generales
+- El Informe de Autoevaluación (IA) resulta, de forma general, excesivamente descriptivo y escasamente
+valorativo.
+- Sería deseable, que las citas a las evidencias en el IA estuvieran enlazadas con la propia evidencia con la
+finalidad de facilitar su consulta en el momento necesario.
+- Animar a que se lleven adelante las propuestas de mejora que se indican en el IA, así como las elaboradas
+como consecuencia de este proceso de evaluación y que han sido aportadas por la titulación tras recibir el
+informe provisional y que se han incorporado a este informe final de acreditación.
+- Se considera una buena práctica que en el plan de mejoras se recoja, también, la atención dada a las
+“Recomendaciones para la mejora” que pueda incluir el “Informe provisional de evaluación para la renovación
+de la acreditación".
+A continuación de cad  a uno de los aspectos que deben ser objeto de elaboración de un plan de
+mejoras y de las recomendaciones para la mejora se incluyen las acciones de mejora, elaboradas
+por el título en respuesta al informe provisional de la acreditación, así como los comentarios de la
+comisión de evaluación, de ser el caso.
+PRINCIPALES PUNTOS FUERTES
+- El máster mantiene un contacto permanente con los egresados, cuyas opiniones considera parte de la
+información relevante. Se ha creado y se mantiene activo un grupo de Linkedin para los egresados y los
+estudiantes.
+- La tasa de empleo de los egresados es del 88,68%. Y en el curso actual, la tasa de empleo de los estudiantes
+de segundo año es del 81,48% (22 trabajan y 5 no trabajan), lo que permite afirmar el interés de la titulación.
+
+- La temática de cada Proyecto Fin de Máster (PFM) desarrollado por el estudiante dentro del módulo Trabajo Fin
+de Máster (TFM) es propuesta por empresas o constituye la etapa inicial de una tesis doctoral.
+- La relación con las empresas y el reconocimiento internacional, permite identificar la actualización del perfil
+formativo y de egreso del máster.
+- Hay una clara estructura de elaboración, revisión y aprobación de las guías docentes. Cada curso académico el
+profesorado revisa las guías docentes de las materias, y la Comisión Académica aprueba, en su caso, los
+posibles cambios.
+- La consecución de las competencias está bien valorada por estudiantes y egresados.
+- Se invita al profesorado que aún no lo utiliza, a emplear el sistema de grabación de las clases que permite una
+mayor flexibilidad horaria en el trabajo personal de los estudiantes.
+- Se dispone de una estructura de coordinación claramente establecida que ha sido valorada positivamente por
+estudiantes y personal académico. Coordina la Comisión Académica del Máster (CAM), constituida por los
+coordinadores de las cinco universidades participantes), con el apoyo de coordinadores y colaboradores de las
+diferentes universidades. También hay coordinadores de materia.
+- Para las prácticas (son una actividad formativa del TFM) se cuenta con un tutor académico y otro en la
+empresa. Se definen unos planes de trabajo que se recogen en los correspondientes acuerdos. Además, las
+prácticas se documentan con informes de los estudiantes y de los tutores, que emiten la calificación y es
+considerada dentro de la evaluación del TFM con una asignación de 3 ECTS. Estas están muy bien valoradas por
+los estudiantes.
+- El perfil de ingreso está claramente establecido, está suficientemente publicitado y coincide con el real de los
+matriculados (Matemáticas y Física suponen el 46,90% de los estudiantes de las tres primeras promociones y
+los titulados en Ingeniería el 53,10%).
+- Satisfacción con la participación en Prácticas en empresa, coordinación con el profesorado para estas prácticas
+y para el TFM.
+- El máster cuenta con una página web propia a la que se enlaza desde las cinco universidades participantes.
+Contiene suficiente información para el conocimiento del programa formativo.
+- El acceso a la información pública es fácil para todos los grupos de interés. Incluso cuenta con un apartado
+específico  para  cada  uno  de  ellos  (equipo  docente,  estudiantes,  egresados,  empresas,  colaboradores,
+departamentos y centros).
+- Se valora positivamente que, a pesar de que cada Universidad tiene su propia normativa y su saber hacer, no
+se han planteado problemas a la hora de aplicar convalidaciones, reconocimientos de créditos, etc.
+- La Facultad de Matemáticas cuenta con un Sistema de Garantía de Calidad (SGC), documentado en un Manual
+de Calidad de 2015 y un Manual de Procesos de 2016, complementado con un Manual de Procedimientos
+Documentados y se dispone de una aplicación informática que permite su gestión.
+- El Área de Calidad y Mejora de los Procedimientos (ACMP) de la USC, en colaboración con las unidades
+técnicas de calidad de las universidades participantes en el título, ha elaborado y facilitado a la comisión del
+título el documento "Informe de indicadores 201572016" (global y por sedes) elaborado con la información
+remitida desde las universidades participantes. Por otra parte, se han entregado evidencias por sede de todos
+los aspectos solicitados por ACSUG (profesorado, personal de apoyo, recursos, etc.).
+- El SGC aporta información para la elaboración de los diferentes informes que se requieren a lo largo del ciclo
+de vida de la titulación.
+- Cada Universidad plantea sus propias áreas de mejora, que se ponen en común en la Comisión Académica y se
+trasmiten a los Informes de Evaluación, en los que se recogen todas las acciones necesarias para el título en un
+plan unificado y desde donde se realiza el seguimiento de las mismas.
+- Todas las recomendaciones para la mejora indicadas en el último informe de seguimiento, han sido
+consideradas a la hora de elaborar el IA.
+- El personal académico que participa en el máster, se puede considerar adecuado y suficiente. Cuenta con un
+
+nivel de cualificación alto en cuanto a experiencia docente e investigadora y categoría universitaria.
+- Se cuenta con cinco aulas con sistema de videoconferencia y grabación. Se emite por dos canales que puede
+plantear problemas (solucionados) cuando un estudiante debe atender a ambos en paralelo.
+- La valoración de los recursos materiales por parte de los estudiantes supera la media de la escala de
+puntuación.
+- Buena parte de los recursos (aulas de videoconferencia y software) han sido adquiridos con patrocinio externo,
+lo que supone una buena relación con las empresas.
+- Se ha mejorado la accesibilidad universal.
+- El máster cuenta con diversas actuaciones de orientación a sus estudiantes (bienvenida, asesoramiento a la
+elección o cambio de optativas, tutor académico). Además, los coordinadores de las cinco universidades
+atienden, por diferentes medios telemáticos y presenciales, las consultas de los estudiantes.
+- Recursos materiales suficientes para el desarrollo de las actuales actividades formativas del Máster (“No son
+necesarios otros medios materiales, solamente el mantenimiento y renovación de los mismos”, indica la
+Memoria).
+- Las tasas de éxito son muy positivas en todas las asignaturas y no se ha identificado ninguna asignatura con
+un comportamiento singular respecto de la media. La media de la titulación supera el 96% en todos los años. La
+de rendimiento también supera la previsión de la Memoria (70%), sobrepasando el 83%.
+- La tasa de graduación media en el curso 2015/2016 (único año calculado) es de 77,42%, que supera la
+previsión de la memoria (60%). Igual sucede con la tasa de eficiencia (curso 2015/2016: 99,09%) que también
+supera el 85% de la memoria. También está por debajo de lo previsto en la Memoria (20%) la tasa de abandono,
+que en el curso 2015/2016 es de un 15,15%. Las desviaciones particulares (por Universidad) que se han
+encontrado se analizan convenientemente.
+- Se puede observar en el informe de indicadores que la demanda en los dos últimos cursos (en los que ya
+participan las cinco universidades) presenta un claro ascenso, llegando a cubrirse las plazas de nuevo ingreso
+en alguna de las universidades. Así mismo, los indicadores de resultados son superiores a los previstos en la
+memoria de verificación del título.
+- La opinión de los egresados manifestada a través de la página web así como de las encuestas a los tres
+primeros cursos en global, refleja su satisfacción con el máster.
+- La CAM, en la encuesta a los egresados de los tres últimos años, ha podido constatar su alta inserción laboral.
+- La encuesta de empleabilidad realizada por el título es muy completa y aporta unos datos muy positivos.
+- La realización de una encuesta piloto en las tres universidades gallegas para la evaluación de la actividad
+docente del profesorado. Aunque con una baja participación (18,67%) las valoraciones superan el 3,7 con un
+3,83 de media.
+DIMENSIÓN 1. LA GESTIÓN DEL TÍTULO
+Criterio 1. Organización y desarrollo
+Valoración:
+C - Se alcanza parcialmente
+ASPECTOS DE OBLIGADO CUMPLIMIENTO
+- Incorporar las competencias transversales en la memoria del título.
+Acciones de mejora: Incorporación de las competencias transversales en la memoria del título.●
+- Fomentar la participación de estudiantes en programas de movilidad. El IA reconoce la internacionalización
+como un área de mejora del máster. En la USC, en los dos últimos años, dos estudiantes participaron en
+
+Erasmus Practicas, y se han recibido el 1,72% de estudiantes en el curso 2014/2015 y el 2,02% en el curso
+2015/2016.
+Acciones de mejora: Plan de internacionalización del M2i.●
+- Revisar las guías docentes, para indicar con qué metodologías se trabajan las diferentes competencias y
+con qué criterios se evalúan.
+Acciones de mejora: Revisión de las guías docentes de las materias y/o asignaturas y atendiendo a lo●
+establecido en la MVT. Detallando con qué metodologías se trabajan las diferentes competencias y con
+qué criterios se evalúan.
+- Revisar la coherencia de las guías docentes con la memoria del título, en aspectos tan importantes como
+los contenidos, las competencias, la metodología, los resultados de aprendizaje, los criterios de evaluación,
+actividades formativas.
+Acciones de mejora: Revisión de las guías docentes de las materias y/o asignaturas y atendiendo a lo●
+establecido en la MVT. Detallando con qué metodologías se trabajan las diferentes competencias y con
+qué criterios se evalúan.
+RECOMENDACIONES
+- Analizar si el volumen de trabajo que los estudiantes realizan para elaborar el Trabajo fin de Máster (TFM)
+está ajustado al número de créditos asignado, así como su organización temporal. En la mayor parte de los
+casos, esto convierte el título en un Máster de dos años, en vez de año y medio.
+Acciones de mejora: No se establecen acciones de mejora.●
+- Aportar, tanto en la memoria del título como en las guías docentes de todas las materias, más información
+sobre los métodos de evaluación, de modo que resulten más concretos y no den lugar a interpretaciones
+ambiguas. En general todas las asignaturas indican ejercicios individuales y examen.
+Acciones de mejora: No se establecen acciones de mejora.●
+- Diferenciar en las guías de las materias la bibliografía básica de la recomendada.
+Acciones de mejora: No se establecen acciones de mejora.●
+- Continuar trabajando en el tema de ofertar materias en inglés.
+Acciones de mejora: No se establecen acciones de mejora.●
+- Valorar la posibilidad de incorporar algún representante del alumnado en la comisión académica.
+Acciones de mejora: No se establecen acciones de mejora.●
+Criterio 2. Información y transparencia
+Valoración:
+A - Se supera excelentemente
+RECOMENDACIONES
+- Analizar la eficacia de la información/comunicación de la página web del Máster.
+Acciones de mejora:  No se establecen acciones de mejora. En el documento de "Alegaciones y plan de●
+mejoras del Máster en Matemática Industrial" (aprobado el 02/06/2017 por la Comisión de Titulo, el
+01/06/2017 por la Comisión de Calidad de la Escuela de Ingeniería de Telecomunicación de Universidad de
+Vigo, 06/06/2017 por la Comisión de Calidad de la Facultad de Matemáticas de la Universidad de Santiago
+de Compostela) se recoge que en el estudio de egresados se pregunta sobre las vías de información y la
+web del M2i es la opción que recibe un mayor número de respuestas (47 respuestas, 23,2% ver Pg. 7
+documento EEM2i3.pdf). En el IA se detallan las consultas a todos los apartados de la web. El análisis de la
+
+eficacia que se realiza a través de la encuesta de egresados permite el establecimiento de tendencias
+para este aspecto en este grupo de interés lo que facilita la detección de posibles deficiencias en la
+transmisión de la información por este canal. En las encuestas de satisfacción a los miembros del equipo
+docente también se valora la web. A la vista de esa información, la Comisión Académica considera que la
+información pública y los diferentes canales de comunicación con nuestros grupos de interés son eficaces.
+Comentarios de la Comisión de Evaluación:  La eficacia de la información/comunicación de la página●
+web debe ser analizada consultando a todos los grupos de interés implicados en el procesos de
+enseñanza-aprendizaje.
+- Publicar los informes de seguimiento en la web, con el objetivo de que puedan ser consultados por todos
+los grupos de interés.
+Acciones de mejora:  No se establecen acciones de mejora. En el documento de "Alegaciones y plan de●
+mejoras del Máster en Matemática Industrial" (aprobado el 02/06/2017 por la Comisión de Titulo, el
+01/06/2017 por la Comisión de Calidad de la Escuela de Ingeniería de Telecomunicación de Universidad de
+Vigo, 06/06/2017 por la Comisión de Calidad de la Facultad de Matemáticas de la Universidad de Santiago
+de Compostela) se recoge que e stán todos publicados desde el día siguiente a la visita, siguiendo las
+indicaciones recibidas durante su transcurso, tanto en el apartado de Calidad y resultados como en el de
+Descargas.
+Comentarios de la Comisión de Evaluación:  Los informes de seguimiento están publicados con●
+posterioridad a la visita de la comisión de evaluación para renovar la acreditación del título.
+- Establecer claramente en cada unas de las páginas Web de las universidades participantes que los
+resultados que se muestran son los de los estudiantes matriculados en cada una de ellas, no los resultados
+globales del Máster.
+Acciones de mejora: Se comunicará a todas las universidades participantes que tengan en cuenta esta●
+recomendación al publicar los resultados.
+Criterio 3. Sistema de garantía de calidad
+Valoración:
+C - Se alcanza parcialmente
+ASPECTOS DE OBLIGADO CUMPLIMIENTO
+- Particularizar a la Facultad, la Política y Objetivos de Calidad.
+Acciones de mejora: No se establecen acciones de mejora.●
+- Desarrollar un mecanismo de colaboración a nivel institucional para que la recogida de información de
+satisfacción sea comparable y homogénea en el caso de títulos interuniversitarios, sobre todo cuando
+participan universidades de fuera del Sistema Universitario de Galicia, tal como se recoge en el IA. Por
+ejemplo, se deberían realizar unas encuestas únicas para cada asignatura, independientemente de la
+universidad de cada estudiante.
+Acciones de mejora: Desarrollar un protocolo de actuación para recabar la información necesaria para el●
+seguimiento y acreditación de títulos interuniversitarios.
+- Aportar las acciones desarrolladas como consecuencia de la evaluación y mejora de la calidad de la
+enseñanza y del profesorado.
+Acciones de mejora: Una vez aprobado el procedimiento para la evaluación docente por órganos●
+competentes, difundir la convocatoria entre el personal docente del título y fomentar la participación en la
+misma.
+- Aportar información que permita comprobar que están desarrollados los procedimientos de recogida de
+sugerencias, quejas y reclamaciones según su configuración o incluso su activación. El IA indica que “los
+SGC de las cinco universidades disponen de procedimientos de recogida de sugerencias, quejas y
+reclamaciones que permiten a cualquier colectivo manifestar su disconformidad con diferentes aspectos del
+
+título, así como sugerencias de mejora”.
+Acciones de mejora:  Todos los centros en los que se imparte este título disponen de Sistemas de●
+Garantía de Calidad en los que se ha diseñado un procedimiento de gestión de incidencias. En los
+sucesivos informes de seguimiento se analizarán en la Comisión las incidencias, si las hubiese, que se
+reciban a través de estos canales.
+- Analizar y valorar la eficacia de las planificaciones a las que el SGC hace referencia: captación, orientación,
+etc.
+Acciones de mejora: Revisión del SGC para adecuarlo a las características y necesidades del centro.●
+Elaboración de la planificación estratégica: Plan Estratégico y Programación Plurianual.
+- Realizar acciones de promoción de la utilidad del SGC, no solo de creación de cultura de calidad, como se
+indica en el IA.
+Acciones de mejora: Revisión del SGC para adecuarlo a las características y necesidades del centro.●
+Elaboración de la planificación estratégica: Plan Estratégico y Programación Plurianual.
+- Favorecer la participación del personal del Centro en la revisión del SGC, que se aprecia en algunas de las
+evidencias, que se está realizando exclusivamente desde el Área de Calidad.
+Acciones de mejora: Revisión del SGC para adecuarlo a las características y necesidades del centro.●
+Elaboración de la planificación estratégica: Plan Estratégico y Programación Plurianual.
+RECOMENDACIONES
+- Revisar y simplificar la documentación del SGC, reduciendo el número de documentos (procedimientos)
+una vez que los indicadores están adaptados al ciclo VSMA (Verificación, Seguimiento, Modificación,
+Acreditación) de las titulaciones.
+Acciones de mejora: Revisión del SGC para adecuarlo a las características y necesidades del centro.●
+Elaboración de la planificación estratégica: Plan Estratégico y Programación Plurianual.
+DIMENSIÓN 2. RECURSOS
+Criterio 4. Recursos humanos
+Valoración:
+B - Se alcanza
+ASPECTOS DE OBLIGADO CUMPLIMIENTO
+- Fomentar la participación del personal académico en acciones de movilidad. Como se indica en el IA, “se
+deben continuar las acciones de difusión”, ya que de 39 docentes participó uno en el curso 2013/2014 y
+ninguno en los cursos posteriores.
+Acciones de mejora: Plan de internacionalización del M2i.●
+- La evidencia aporta como personal de apoyo un amplio listado por universidad, adscrito a cada uno de los
+centros donde se imparte el título, lo que no es coherente con lo indicado en el IA, que determina que el
+personal de apoyo no es suficiente y que las tareas que debería realizar las lleva a cabo la CAM con la ayuda
+del personal de los grupos de investigación. Analizar y elaborar, si es el caso, las acciones de mejora
+oportunas para solucionar esta deficiencia.
+Acciones de mejora: No se establecen acciones de mejora.●
+RECOMENDACIONES
+
+- Aportar evidencias claras de la participación del personal de apoyo en acciones de formación. La UDC
+informa del PAS que hay disponible, pero no de la formación que realiza; la UPM informa de los cursos de
+informática que se ofrecen, pero no de los que realizan; la USC adjunta una tabla con formación del PAS de
+Matemáticas: por encima del 40% todos los años y el resto de universidades no aportan esta información.
+Acciones de mejora: Desarrollar un protocolo de actuación para recabar la información necesaria para el●
+seguimiento y acreditación de títulos interuniversitarios.
+- Aunque el número de materias que permite la grabación de las clases o videoapuntes, compartidos en el
+Canal Docente es elevado, y el empleo de software que permite reducir la movilidad de los estudiantes
+entre los cinco centros es habitual, se considera que debería llegarse a la totalidad de las asignaturas del
+Máster, dadas sus características de título presencial interuniversitario.
+Acciones de mejora:  No se establecen acciones de mejora. En el documento de "Alegaciones y plan de●
+mejoras del Máster en Matemática Industrial" (aprobado el 02/06/2017 por la Comisión de Titulo, el
+01/06/2017 por la Comisión de Calidad de la Escuela de Ingeniería de Telecomunicación de Universidad de
+Vigo, 06/06/2017 por la Comisión de Calidad de la Facultad de Matemáticas de la Universidad de Santiago
+de Compostela) se recoge que, como fue manifestado verbalmente en las entrevistas, las clases que no se
+graban actualmente es por tratarse de clases de software en su mayoría, además de respetar el derecho
+de los docentes que no deseen autorizarlo, que es muy residual. Valoramos muy positivamente los
+videoapuntes para ayudar a los estudiantes, por este motivo lo hemos implementado pero por ser
+presencial no sería necesario grabarlas.
+Comentarios de la Comisión de Evaluación: Se considera que debería llegarse a la totalidad de las●
+asignaturas del Máster, dadas sus características de título presencial interuniversitario.
+- En las diferentes páginas web se aporta una relación del profesorado con su actividad docente y
+localización. Incluir las líneas de investigación en las que trabaja. Desde la web del máster se accede a un
+listado de profesores por Universidad, que enlaza en algunos casos con una web personal y en otros con el
+grupo de trabajo. En el caso de la UPM no todos los profesores tienen el link activo.
+Acciones de mejora:  No se establecen acciones de mejora. En el documento de "Alegaciones y plan de●
+mejoras del Máster en Matemática Industrial" (aprobado el 02/06/2017 por la Comisión de Titulo, el
+01/06/2017 por la Comisión de Calidad de la Escuela de Ingeniería de Telecomunicación de Universidad de
+Vigo, 06/06/2017 por la Comisión de Calidad de la Facultad de Matemáticas de la Universidad de Santiago
+de Compostela) se recoge que todos los enlaces están activos desde el día siguiente a la visita.
+Comentarios de la Comisión de Evaluación:  Los enlaces están activos con posterioridad a la visita de●
+la comisión de evaluación para renovar la acreditación del título.
+- Valorar y analizar la eficacia de la formación de los recursos humanos implicados en el título.
+Acciones de mejora: No se establecen acciones de mejora.●
+Criterio 5. Recursos materiales y servicios
+Valoración:
+A - Se supera excelentemente
+RECOMENDACIONES
+- Valorar los servicios de atención al estudiante.
+Acciones de mejora:  No se establecen acciones de mejora. En el documento de "Alegaciones y plan de●
+mejoras del Máster en Matemática Industrial" (aprobado el 02/06/2017 por la Comisión de Titulo, el
+01/06/2017 por la Comisión de Calidad de la Escuela de Ingeniería de Telecomunicación de Universidad de
+Vigo, 06/06/2017 por la Comisión de Calidad de la Facultad de Matemáticas de la Universidad de Santiago
+de Compostela) se recoge que en las encuestas de satisfacción de los estudiantes se valoran los servicios
+en el documento 4314422_Alumnado_15-16_global.pdf. Se comenta en el IA en las páginas 48 y 49 dentro
+de este criterio.
+Comentarios de la Comisión de Evaluación: En el IA no se recoge información sobre los servicios de●
+
+atención  al  estudiante  (documentación,  informes  de  calificaciones,  actas,  certificados  académicos,
+tramitación de solicitudes de convalidaciones o de traslado,..) puestos a su disposición.
+- Aportar información sobre las instalaciones donde se realizan las prácticas externas.
+Acciones de mejora: No se establecen acciones de mejora.●
+- Muchas acciones de mejora consisten en solicitar financiación para mantener las infraestructuras o
+personal mínimo necesario para el funcionamiento de la titulación, de lo cual se desprende que este no está
+garantizado. Se recomienda realizar una planificación plurianual priorizada de los recursos necesarios.
+Acciones de mejora: No se establecen acciones de mejora.●
+DIMENSIÓN 3. RESULTADOS
+Criterio 6. Resultados de aprendizaje
+Valoración:
+A - Se supera excelentemente
+RECOMENDACIONES
+- Elaborar un protocolo para valorar de forma global, no asignatura a asignatura, si se alcanzan los
+resultados de aprendizaje previstos en el título (contemplando también opinión de empleadores, inserción
+laboral, etc.).
+Acciones de mejora: No se establecen acciones de mejora.●
+Criterio 7. Indicadores de satisfacción y rendimiento
+Valoración:
+B - Se alcanza
+RECOMENDACIONES
+- Recabar información de la satisfacción de empleadores, para lo que se pueden utilizar las encuestas de
+valoración de las prácticas externas.
+Acciones de mejora: Informe de satisfacción de los empleadores.●
+- Aportar alguna acción motivada para eliminar las oscilaciones en las medias y tasa de algunas asignaturas.
+El IA indica que “son fruto de los diferentes perfiles de entrada y el reducido número de estudiantes en
+algunas asignaturas”.
+Acciones de mejora: No se establecen acciones de mejora.●
+- Realizar un estudio comparativo de los resultados académicos de las dos especialidades y de la
+Universidad de matriculación, aunque es cierto que hay casos con pocos alumnos y uno sólo puede
+distorsionarlos, la evidencia que se aporta muestra claras diferencias entre Universidades.
+Acciones de mejora: No se establecen acciones de mejora.●
+- Comparar los resultados académicos con los de otras titulaciones similares del Sistema Universitario de
+Galicia (SUG) y con el Sistema Integrado de Información Universitaria (SIIU).
+Acciones de mejora: No se establecen acciones de mejora.●
+- Realizar encuestas propias y comunes a las cinco universidades para elaborar estudios estadísticos
+conjuntos de la calidad de la titulación, lo que aportaría una información mucho más relevante.
+
+Acciones de mejora: Desarrollar un protocolo de actuación para recabar la información necesaria para el●
+seguimiento y acreditación de títulos interuniversitarios.
+La ACSUG, en un plazo máximo de 2 años evaluará el informe de seguimiento del título junto con las evidencias
+que justifiquen el cumplimiento de las acciones incluidas en el Plan de Mejoras y remitirá a la universidad un
+informe de seguimiento sobre el cumplimiento de dicho Plan.
+Santiago de Compostela 21 de junio de 2017
+Director ACSUG
+Secretario CGIACA
+José Eduardo López Pereira

@@ -1,0 +1,440 @@
+Escola Internacional de Doutoramento 
+Vicerreitoría de Oferta Académica e Innovación Docente 
+1 
+ 
+ 
+ 
+ 
+ 
+Recomendacións  para  a  presentación  da  tese  de 
+doutoramento 
+ 
+Este documento ten por obxecto indicar os requisitos mínimos de estilo e presentación que debe ter 
+unha tese de doutoramento da Un iversidade da Coruña. Recolle criterios de aplicación a todas as 
+teses, independentemente do ámbito científico, co obxectivo de facilitar a identificación correcta, a 
+presentación coherente dos contidos e unha ampla difusión. 
+Inclúe  tamén  normas  de  presentación  da  tese  en  formato  electrónico,  para  a  súa  publicación 
+posterior no Repositorio da Universidade da Coruña (RUC). 
+ 
+ 
+1. Presentación da tese de doutoramento da UDC en formato papel 
+ 
+1.1. Estrutura e partes da tese de doutoramento 
+ 
+1.1.1. Cuberta 
+ 
+É a parte exterior dianteira que cobre os pregos dun libro e que adoita reproducir os datos da 
+portada. Empregarase a orientación vertical. 
+Deben figurar na cuberta os seguintes datos para unha correcta identificación: 
+ 
+ Título da tese. 
+ 
+ Autor/a. 
+ Tipo  de  traballo,  no  idioma  que  corresponda:  Tese  de  doutoramento  /  Tesis  doctoral  / 
+Doctoral Thesis. 
+ 
+ Universidade da Coruña (xunto co logotipo). 
+ Ano. 
+ 
+Na cuberta, non figurará nunca o nome ou o logotipo de grupos de investigación nin doutros órganos 
+ou centros da Universidade (departamentos, institutos, centros...). 
+Nas teses en réxime de cotutela, poderase incluír o logotipo doutra Universidade ou organismo de 
+investigación coa que se establece o convenio de cotutela. 
+No lombo da cuberta aparecerán estes datos: 
+ Autor/a. 
+ Título da tese. 
+ Ano. 
+ UDC. 
+ 
+Se é unha obra en varios volumes, farase constar o número. 
+ 
+1.1.2. Portada (enlace ao modelo) 
+É a primeira folla da tese, onde deben figurar os datos principais da obra. 
+ 
+A portada debe conter uns datos obrigatorios para a identificación e recuperación da t ese de 
+doutoramento. Ademais, estes datos seguirán unhas pautas de estilo, xa que esta mesma portada 
+será  a que apareza no  formato electrónico e, se  se  seguen estas indicacións,  facilitarase a súa 
+correcta indexación e recuperación por buscadores xerais e especializados. 
+
+Escola Internacional de Doutoramento 
+Vicerreitoría de Oferta Académica e Innovación Docente 
+2 
+ 
+ 
+ 
+ 
+ 
+As pautas de estilo dos datos da portada son descritas a continuación: 
+ 
+ Título: 
+o Aparecerá en primeiro lugar na portada e destacado tipograficamente. Recoméndase un 
+tamaño de letra de 24 puntos. 
+o O título completo irá sempre nun mesmo parágrafo. 
+o Non  se  usarán  maiúsculas  fóra  da  palabra  inicial  do  título  (salvo  que  as  normas 
+ortográficas así o indiquen). 
+o Recoméndase usar o menor número de palabras e non inserir abreviacións, acrónimos, 
+códigos ou símbolos. 
+ Autor/a: 
+ 
+o O/a autor/a aparecerá despois do título, destacado, pero en menor tamaño sempre que 
+o título. Recoméndase un ta maño de letra entre 16 e 23 puntos. Para favorecer a 
+recuperación, recoméndase normalizar o nome do/a autor/a 
+Consultar: La identificación de autor en la UDC: La firma científica 
+ 
+ 
+Os outros datos da portada, descritos a continuación, terán sempre un tamaño de letra menor que o 
+do/a autor/a e o do título. Recoméndase un tamaño de 12 puntos. 
+ Tipo  de  traballo,  no  idioma  que  corresponda:  Tese  de  doutoramento  /Tesis  doctoral  / 
+Doctoral Thesis. 
+ Ano. 
+ Director/a da tese. 
+ Titor/a da tese. 
+ Nome do Programa de Doutoramento no que se presentou a tese. 
+ Se é unha obra en varios volumes, especificarase o número e o total. Exemplo: Vol. 1 de 5 Vol. 
+ Universidade da Coruña (xunto co logotipo). 
+ 
+1.1.3. Elementos preliminares 
+Algúns destes elementos son opcionais. A súa inclusión farase de acordo coa seguinte orde: 
+ 
+ Acreditación  do/a director/a de que a tese cumpre os requisitos para optar ao grao de 
+doutor/a. Se a tese pretende obter a mención internacional, debe indicarse nese certificado. 
+ Dedicatoria (opcional). 
+ Agradecementos (opcional). 
+ 
+ Resumo: 
+o En galego, español e inglés, cunha extensión máxima de 200 palabras e precedido en 
+cada caso polo termo resumo/resumen/abstract. 
+o Opcionalmente, poderase engadir ademais un resumo máis amplo, pero sempre será 
+obrigatoria a versión breve do estudo. 
+ Prefacio ou prólogo. É a introdución á tese, onde se inclúen os motivos, as finalidades e os 
+obxectivos do estudo. 
+
+Escola Internacional de Doutoramento 
+Vicerreitoría de Oferta Académica e Innovación Docente 
+3 
+ 
+ 
+ 
+ 
+ 
+ Índice ou táboa de contidos: 
+o Conterá os títulos das principais subdivisións da tese cos números de páxina onde se 
+atopan. Cando a tese teña máis dun volume, cada un deles terá a súa propia táboa de 
+contidos e tamén a táboa de contidos da obra completa. 
+o Para as táboas e figuras crearase un índice diferente. 
+ Listaxe de abreviacións, se existen. 
+ 
+1.1.4. Corpo da tese 
+ 
+É a parte fundamental, onde se expón a investigación. Habitualmente, ten esta estrutura: estado da 
+arte, hipótese e obxectivos, metodoloxía, resultados, discusión e conclusións. 
+Xeralmente, divídese en capítulos numerados. Cada un deles debe empezar nunha nova páxina. 
+ 
+1.1.5. Citas e referencias bibliográficas 
+ 
+Unha citación recollerase no texto entre comiñas (“). 
+A cita e a referencia breve, que identifica a fonte da que sacamos a información, recollerase a pé de 
+páxina ou entre paréntese. 
+ 
+1.1.6. Bibliografía 
+Recollerá a listaxe de referencias bibliográficas consultadas. 
+ 
+Chamaremos  a  este  elemento  Bibliografía  ou  Referencias.  Non  usaremos  outros  termos,  nin 
+combinaremos ambos (Referencias bibliográficas, Bibliografía e referencias...). 
+Recoméndase numerar a listaxe de bibliografía.  
+Para ampliar a información, consultar Citas e referencia bibliográficas:  http://udc-
+es.libguides.com/citas_referencias_gal  
+ 
+1.1.7. Anexos 
+Os anexos recollen información máis detallada, explicacións técnicas, mapas, planos... ou calquera 
+outra información complementaria. 
+Cada anexo debe empezar nunha nova páxina. Se hai varios anexos, identificaranse precedidos pola 
+palabra Anexo (Anexo A...). 
+A paxinación debe seguir a do texto principal. 
+ 
+1.1.8. Índices 
+Un índice é unha listaxe de palabras significativas coa indicación da páxina onde se atopan. É preciso 
+indicar o tipo de índice: toponímico, xeral, onomástico... 
+ 
+1.2. Formato para a encadernación en papel 
+ 
+O tamaño de papel recomendado é DIN-A4 (21 x 29,7 cm), aínda que se admiten outros. 
+ 
+A encadernación será tipo libro e en pasta dura para facilitar o seu arquivo e preservación. Non se 
+aceptarán encadernacións non consistentes ou que podan ser manipuladas (espiral, canutillo...). 
+A tese en papel poderá estar acompañada por material complementario noutro formato (CD, DVD, 
+planos...), que debe figurar como anexo. 
+
+Escola Internacional de Doutoramento 
+Vicerreitoría de Oferta Académica e Innovación Docente 
+4 
+ 
+ 
+ 
+ 
+ 
+1.3. Presentación da tese por compendio de artigos de investigación 
+ 
+Para poder presentarse nesta modalidade, a tese debe cumprir os requisitos esixidos no artigo 41 do 
+Regulamento de Estudos de Doutoramento da UDC. Ademais, deberá seguir as indicacións recollidas 
+neste documento e, especificamente, deberá incluír: 
+ Unha introdución, que conterá: 
+o Unha xustificación razoada da unidade e coherencia temática e metodolóxica da tese. 
+o Os obxectivos que cómpre alcanzar. 
+o Unha discusión xeral que dote de coherencia e unidade aos diferentes traballos. 
+o As conclusións. 
+o A bibliografía común. 
+ Unha copia íntegra das publicacións, xa sexan publicadas ou con aceptación definitiva para a 
+súa publicación, onde conste necesariamente o nome e a filiación do/a autor/a. 
+Deben aparecer claramente explícitos os nomes e a filiación de todos os/as coautores/as, a 
+súa orde, así como a referencia completa da publicación, a editorial e o ISSN ou ISBN. 
+No caso dos artigos con aceptación definitiva para a súa publicación e que na presentación da 
+tese aínda non estean publicados, engadirase o código de identificación do mesmo (o DOI nas 
+publicacións dixitais). 
+ Ningún dos artigos incluídos poderá ser anterior á data de matriculación no programa. 
+ 
+ 
+1.4. Idioma de redacción da tese de doutoramento 
+ 
+De acordo co artigo 33 do Regulamento de Estudos de Doutoramento da UDC, a t ese de 
+doutoramento redactarase, como norma xeral, en lingua galega, castelá, inglesa ou portuguesa ou no 
+idioma de uso común no ámbito científico, técnico ou artístico do que se trate.A Escola Internacional 
+de Doutoramento poderá autorizar a redacción noutro idioma, logo de que a Comisión Académica do 
+programa informe favorablemente e garanta que o tribunal estea en condicións de xulgala. 
+Se se redacta nunha lingua distinta do galego ou do castelán, deberase incluír un anexo no propio 
+volume da tese, que conterá un resumo de, polo menos, tres mil palabras en galego ou en castelán. 
+ 
+ 
+2. Presentación da tese de doutoramento en formato electrónico 
+ 
+A tese de doutoramento en soporte electrónico corresponderase coa copia fidedigna entregada en 
+papel para o seu arquivo. A estes efectos, o/a autor/a da tese debe de achegar unha declaración 
+asinada,  na  que  conste  a  conformidade  do/a  director/a  da  tese  (Declaración  de  que  a  copia 
+electrónica da tese é copia fidedigna da copia en papel). 
+No arquivo electrónico, non se incluirá a cuberta. A primeira páxina será a portada, onde constarán 
+os datos de identificación da tese segundo as recomendacións deste documento. 
+No arquivo electrónico que se entregue non figurarán datos persoais  como o DNI do autor /a e/ou 
+director/a ou sinaturas manuscritas. Podería aparecer unha sinatura electrónica configurada para non 
+visualizar o DNI. 
+ 
+ 
+ 
+
+Escola Internacional de Doutoramento 
+Vicerreitoría de Oferta Académica e Innovación Docente 
+5 
+ 
+ 
+ 
+ 
+2.1. Formato 
+ 
+A   tese   en   formato   electrónico   deberá   estar   contida   nun   ou   varios   arquivos   electrónicos 
+(recoméndase o formato PDF), que poderán incluír ligazóns de hipertexto e información multimedia. 
+Poderán achegarse tamén arquivos doutros tipos (imaxes, programas de ordenador, información 
+multimedia, etc.) en formatos coñecidos (TIFF, JPG, MPG…). 
+ 
+2.2. Identificación 
+ 
+Entregarase  un  único  disco  físico  (CD,  DVD),  identificado  conforme  aos  modelos  de  carátula 
+e  etiqueta das teses de doutoramento da UDC. Se o disco contén varios arquivos, deberase inserir a 
+portada no inicio de cada un deles, para garantir a súa identificación e recuperación en internet. 
+ 
+2.3. Seguranza 
+ 
+Os arquivos electrónicos non terán ningunha protección tecnolóxica para garantir a recuperación por 
+buscadores xerais e especializados. 
+ 
+2.4. Número e tamaño dos arquivos 
+ 
+A tese presentarase nun único arquivo, sempre que non exceda de 100 MB. Se o tamaño do 
+documento é maior, poderase partir a tese en varios arquivos de menor tamaño. Empregaranse 
+tantos arquivos como foren necesarios, inserindo en cada un deles a portada. 
+ 
+2.5. Nome dos arquivos que conteñen o documento principal 
+ 
+Os nomes dos arquivos deberán seguir as seguintes pautas (para todos os exemplos posteriores, 
+consideraremos a tese de doutoramento defendida en 2005 por Xosé Manuel Pérez López): 
+− Se o documento principal da tese consta dun só arquivo, este chamarase: 
+PerezLopez_XoseManuel_TD_2005.pdf 
+ 
+− Se este documento principal da tese estiver formado por tres arquivos, estes chamaranse: 
+PerezLopez_XoseManuel_TD_2005_01de3.pdf 
+PerezLopez_XoseManuel_TD_2005_02de3.pdf 
+PerezLopez_XoseManuel_TD_2005_03de3.pdf 
+No caso de que haxa varias persoas co mesmo primeiro nome e o mesmo primeiro apelido que lean a 
+súa tese de doutoramento no mesmo ano, a Biblioteca, antes da súa publicación no Repositorio, 
+pode verse obrigada a realizar algunha modificación no nome dos arquivos. 
+Nunca  se  usarán  espazos,  nin  tiles,  nin  o  ñ  no  nome  dos  arquivos,  co  fin  de  asegurar  a 
+compatibilidade con todos os navegadores. 
+ 
+2.6. Nome doutros arquivos 
+ 
+No caso de arquivos adicionais doutros tipos (imaxes, programas de ordenador, información 
+multimedia, etc.) en formatos coñecidos (TIFF, JPG, MPG…), poderase indicar o tipo de arquivo que 
+envía e a extensión propia deste arquivo, e a súa identificación seguirá unha pauta similar á dos que 
+conteñen o documento principal. 
+− Así, o arquivo dun vídeo en formato MPG (o cuarto dun total de sete) podería chamarse: 
+PerezLopez_XoseManuel_TD_2005_Video_04de7.mpg 
+ 
+− A numeración destes arquivos é correlativa á dos arquivos do documento principal: 
+PerezLopez_XoseManuel_TD_2005_01de4.pdf  
+
+Escola Internacional de Doutoramento 
+Vicerreitoría de Oferta Académica e Innovación Docente 
+6 
+ 
+ 
+ 
+ 
+  PerezLopez_XoseManuel_TD_2005_02de4.pdf 
+PerezLopez_XoseManuel_TD_2005_03de4.pdf 
+PerezLopez_XoseManuel_TD_2005_Video_04de4.mpg 
+Poderanse definir vínculos para acceder a estes contidos desde os arquivos electrónicos que forman 
+o documento principal da tese de doutoramento. 
+ 
+3. Dereitos de autor/a da tese de doutoramento 
+ 
+O/A autor/a da tese de doutoramento, desde o momento da súa creación, ten todos os dereitos 
+sobre ela, sa lvo circunstancias excepcionais como cláusulas de confidencialidade con empresas ou 
+cesión de dereitos a editores. 
+Todas as teses de doutoramento da UDC, logo de ser aprobadas, son depositadas na Biblioteca 
+Universitaria. 
+Ademais, en cumprimento do Real decreto 99/2011, todas as teses son difundidas en acceso aberto 
+no Repositorio Institucional da UDC (RUC). O/A autor/a, como titular dos dereitos, pode elixir que a 
+súa tese se publique con Todos os dereitos reservados ou baixo unha Licenza Creative Commons 
+(CC). 
+Esta elección de licenza realizarase a través do documento Declaración do/a autor/a da tese para o 
+depósito no Repositorio da UDC (RUC), que pode descargarse no seguinte enlace: 
+http://www.udc.es/export/sites/udc/eid/_galeria_down/tesis/Declaracion_Deposito_RUC.doc 
+No caso de elixir Todos os dereitos reservados, non é preciso engadir esta declaración na propia 
+tese, xa que é a licenza por defecto que ten calquera creación. 
+No caso de elixir unha Licenza Creative Commons, recoméndase inserir a citada declaración na 
+propia tese de doutoramento. Desta forma, calquera usuario/a que consulte o pdf da tese terá 
+información sobre os usos permitidos polo/a autor/a. 
+Recoméndase engadir no reverso da portada ou nunha páxina inicial o logotipo correspondente a 
+Creative Commons. 
+ 
+Para máis información, consultar o Anexo I. Información sobre as modalidades de licenza que se 
+poden elixir para a tese de doutoramento. 
+
+Escola Internacional de Doutoramento 
+Vicerreitoría de Oferta Académica e Innovación Docente 
+7 
+ 
+ 
+ 
+ 
+ 
+Anexo I. Información sobre as modalidades de licenza que se poden elixir 
+para a tese de doutoramento 
+A consulta das teses de doutoramento da UDC a través do RUC é de libre acceso, pero o/a autor/a da 
+tese de doutoramento, como titular dos dereitos de propiedade intelectual, ten que decidir os usos 
+que permite sobre a súa obra a través da elección dunha das seguintes dúas modalidades: 
+• Todos os dereitos reservados. A elección desta modalidade significa que para facer calquera uso 
+da tese é preciso solicitar permiso expresamente do/a autor/a, coas excepcións previstas na Lei 
+de Propiedade Intelectual (copia privada, dereito de cita, ilustración para o ensino). 
+• Licenza Creative Commons (CC). Con esta licenza, o/a autor/a pode indicar os usos que autoriza 
+sen necesidade dunha petición expresa. 
+Todas  as  licenzas  Creative  Commons  permiten  a  reprodución,  distribución  e  comunicación 
+pública   sen   que   sexa   necesaria   a   autorización   do/a   autor/a,   sempre   coa   obriga   do 
+recoñecemento da autoría. 
+As licenzas Creative Commons son amplamente coñecidas, teñen recoñecemento internacional e 
+son fáciles de entender, tanto para o/a autor/a como para o/a usuario/a, que pode saber para 
+que usos da tese está autorizado. Esta claridade nos usos favorece a visibilidade da obra e do/a 
+autor/a. 
+As licenzas CC actualmente vixentes son estas: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CC  BY-NC-ND.  Pe rmite  a  reprodución  total  ou  p arcial  e  a 
+comunicación pública da obra con recoñecemento da autoría. Non se 
+permite   o   uso   comercial   nin   a   creación   de   obras   derivadas 
+(traducións, adaptacións son obras derivadas). É  a licenza máis 
+restritiva. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CC BY. Permite a r eprodución total ou parcial, a distribución, a 
+comunicación  pública  da  obra  e  a  cre ación  d e  obras  derivadas, 
+incluso  con  finalidade  comercial.  Obriga  ao  recoñecemento  da 
+autoría. É a licenza menos restritiva. 
+ 
+ 
+ 
+ 
+CC BY-NC. Permite a creación de obras derivadas, con 
+recoñecemento de autoría e sen fin comercial. 
+ 
+ 
+ 
+ 
+ 
+CC BY-NC-SA. Permite a creación de obras derivadas, con 
+recoñecemento de autoría e sen fin comercial, coa obriga de licenciar 
+as novas creacións baixo as mesmas condicións. 
+ 
+ 
+ 
+ 
+ 
+CC BY-SA. Permite o uso comercial da obra e das posibles obras 
+derivadas, con recoñecemento de autoría e a obriga de licenciar as 
+novas creacións baixo as mesmas condicións. 
+ 
+ 
+ 
+ 
+CC BY-ND. Esta licenza permite o uso comercial con recoñecemento 
+de autoría, pero non a creación de obras derivadas. 
+
+
+Escola Internacional de Doutoramento 
+Vicerreitoría de Oferta Académica e Innovación Docente 
+8 
+ 
+ 
+ 
+ 
+ 
+A difusión no RUC e a elección dunha destas licenzas non exclúe en ningún caso que o/a autor/a 
+poida comercializar a obra ou facer calquera outro uso dela, xa que a titularidade da obra é súa e 
+mantén todos os dereitos de autor/a, morais e de explotación sobre a mesma. 
+O/a autor/a debe facer constar a elección de licenza na Declaración do/a autor/a da tese para o  
+depósito  no  Repositorio  da  UDC  (RUC),  indicando  unha  das  opcións.  En  caso  de  non  escoller 
+ningunha, publicarase no RUC con Todos os dereitos reservados. 
+Esta declaración pode descargarse en: 
+ 
+http://www.udc.es/export/sites/udc/eid/_galeria_down/tesis/Declaracion_Deposito_RUC.doc 
+No caso de usar Creative Commons, recoméndase ademais inserir a información da licenza na propia 
+tese de doutoramento. Desta forma, calquera usuario/a que acceda directamente ao pdf da tese 
+desde un buscador e  non desde o rexistro no RUC terá información na propia tese sobre os usos 
+permitidos. 
+ 
+Como xerar unha Creative Commons? 
+ 
+• A solicitude dunha licenza Creative Commons é completamente gratuíta e non é preciso rexistrar 
+a tese en ningunha páxina. 
+ 
+• Para  xerar  unha  licenza,  débese  elixir  na  web  de  Creative  Commons  a  licenza  que  se  vai 
+usar (https://creativecommons.org/choose/?lang=es_CO). A web de Creative Commons dispón 
+dun  titorial para axudar na elección de licenza. 
+ 
+• Despois de elixir a licenza, recoméndase inserir na tese de doutoramento o logotipo e o texto 
+correspondente no reverso da portada ou nunha páxina inicial (tamén na versión dixital da tese). 
+Estes datos proporciónaos Creative Commons. 
+Por exemplo: 
+ 
+ 
+ 
+Esta obra está bajo una  Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional. 

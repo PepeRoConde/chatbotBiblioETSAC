@@ -1,0 +1,34 @@
+Date Exam Time / Room
+04/11/2024 Simulation and optimization of shipbuilding processes 16:00 h/ 01
+05/11/2024
+06/11/2024 IIoT 10:00 h / 01
+07/11/2024 Digital Twin 09:00 h / 01
+08/11/2024
+Date (10:00 h) Exam Time / Room
+18/11/2024 Simulation and optimization of shipbuilding processes 16:00 h/ 01
+19/11/2024
+20/11/2024 IIoT 10:00 h / 01
+21/11/2024 Digital Twin 09:00 h / 01
+22/11/2024
+Date (10:00 h) Exam Time / Room
+02/06/2025 Industry 4.0 Enabling Technologies 10:00 h
+06/06/2025 Introduction to Marine CFD 10:00 h
+09/06/2025 Ship Operations and Decission Support Systems 10:00 h
+12/06/2025 Transport Economics 10:00 h
+16/06/2025 Autonomous marine vehicles / Statistical models/IIoT 10:00 h
+20/06/2025 Manoeuvrability and Shallow Water Ship Hydrodynamics 10:00 h
+30/06/2025 Autonomous marine vehicles / Statistical models / IIoT 10:00 h
+01/07/2025
+02/07/2025 Introduction to Marine CFD 10:00 h
+03/07/2025
+04/07/2025 Ship Operations and Decission Support Systems 10:00 h
+07/07/2025 Manoeuvrability and Shallow Water Ship Hydrodynamics 10:00 h
+08/07/2025
+09/07/2025 Transport Economics 10:00 h
+10/07/2025
+11/07/2025 Industry 4.0 Enabling Technologies 10:00 h
+2nd Oportunity
+EXAM SCHEDULE (3rd semester, Intake 23/24)
+1st Oportunity2ndOportunity
+EXAM SCHEDULE (2nd semester, Intake 24/25)
+1st Oportunity

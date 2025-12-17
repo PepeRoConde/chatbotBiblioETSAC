@@ -1,0 +1,253 @@
+Portada
+Portal de la comunidad
+Actualidad
+Cambios recientes
+Páginas nuevas
+Página aleatoria
+Ayuda
+Notificar un error
+Páginas especiales
+Donaciones
+Crear una cuenta
+Acceder
+Donaciones
+Crear una cuenta
+Acceder
+Contenidos
+Inicio
+1 Historia Alternar subsección Historia 1.1 Richard Feynman 1.2 Richard E. Smalley 1.3 Nanociencia en el mundo 1.3.1 Europa 1.3.2 América Latina 1.3.3 Asia
+1.1 Richard Feynman
+1.2 Richard E. Smalley
+1.3 Nanociencia en el mundo 1.3.1 Europa 1.3.2 América Latina 1.3.3 Asia
+1.3.1 Europa
+1.3.2 América Latina
+1.3.3 Asia
+2 Física Alternar subsección Física 2.1 Física cuántica 2.2 Física del estado sólido
+2.1 Física cuántica
+2.2 Física del estado sólido
+3 Herramientas Alternar subsección Herramientas 3.1 Microscopios
+3.1 Microscopios
+4 Aplicaciones Alternar subsección Aplicaciones 4.1 Medicina 4.2 Alimentos 4.3 Computación y electrónica 4.4 Energía 4.5 Nanomateriales 4.6 Medio Ambiente
+4.1 Medicina
+4.2 Alimentos
+4.3 Computación y electrónica
+4.4 Energía
+4.5 Nanomateriales
+4.6 Medio Ambiente
+5 Impacto Alternar subsección Impacto 5.1 Futuro de la Nanociencia
+5.1 Futuro de la Nanociencia
+6 Instituciones Alternar subsección Instituciones 6.1 CERN 6.2 IMDEA-Nanociencia 6.3 CNyN
+6.1 CERN
+6.2 IMDEA-Nanociencia
+6.3 CNyN
+7 Véase también
+8 Referencias
+9 Enlaces externos
+Nanociencia
+Беларуская
+Català
+Deutsch
+English
+Suomi
+Français
+Galego
+Italiano
+日本語
+한국어
+Lietuvių
+Nederlands
+Português
+Русский
+Slovenščina
+Українська
+Tiếng Việt
+中文
+Artículo
+Discusión
+Leer
+Editar
+Ver historial
+Leer
+Editar
+Ver historial
+Lo que enlaza aquí
+Cambios en enlazadas
+Subir archivo
+Enlace permanente
+Información de la página
+Citar esta página
+Obtener URL acortado
+Descargar código QR
+Crear un libro
+Descargar como PDF
+Versión para imprimir
+Elemento de Wikidata
+La nanociencia es el estudio de los procesos fundamentales que ocurren en estructuras de 1 a 100 nanómetros . Está fuertemente relacionada con  la Nanotecnología . [ 1 ] ​
+«Nano-» es el prefijo utilizado para indicar la mil-millonésima parte de algo, en términos de notación científica se expresa como 1 × 10 -9 , algunos ejemplos de esta serían: [ 2 ] ​
+1 nanómetro = 0.000000001 metros.
+1 nanosegundo = 0.000000001 segundos.
+La nanociencia puede relacionarse con diferentes ciencias, con los descubrimientos que se han hecho en los últimos años se ha comprobado que a través de la tecnología se pueden mejorar distintos campos de la ciencia como la biología, química, física, ciencia de los materiales y la ingeniería; se espera que su impacto a futuro en la vida diaria sea grande, sin embargo también se han tenido que estudiar las consecuencias y el impacto que puede causar el uso de objetos tan pequeños, un ejemplo son los riegos que se pueden correr, pues al tratarse de materiales relativamente "nuevos" y extremadamente pequeños, contienen distintas propiedades que deben de ser analizadas de acuerdo a cada situación.
+El prefijo nano- proviene del latín nanus y significa "enano". [ 3 ] ​
+La nanociencia puede formar parte de prácticamente todas las actividades del ser humano como en las industrias, comunicaciones, educación, agricultura, uso de energía, sistema de defensa militar, sistemas de comunicación o transporte, comercio, entretenimiento general, entre otras muchas cosas. [ 4 ] ​
+Historia
+El 29 de diciembre de 1959 el físico Richard Feynman habló sobre las ideas y conceptos de la nanociencia y la nanotecnología a través de su charla titulada There's Plenty of Room at the Bottom en una reunión de la Sociedad Americana de Física en el California Institute of Technology , el físico describió un proceso en donde los científicos podrían manipular y controlar átomos y moléculas individuales. El profesor Norio Taniguchi acuñó el término nanotecnología una década más tarde. [ 5 ] ​
+Desde tiempos muy antiguos el hombre busca mejorar su entorno y la nanotecnología es el proyecto de ciencia que la humanidad lleva a cabo para fabricar y perfeccionar materiales a la escala de lo muy pequeño. Por ejemplo, el uso de nanopartículas de oro no es algo nuevo en la humanidad, en la Edad Media los artesanos aprendieron que al mezclar pequeñas cantidades de oro o plata con el vidrio, se obtenían diferentes colores, los cuales se usaban en los vitrales de iglesias. En ese entonces no se sabía el porqué de dichas propiedades ópticas, pero en la actualidad eso se puede explicar con ayuda de la nanociencia. [ 3 ] ​
+Richard Feynman
+En el año de 1960 Richard Feynman , considerado por algunos como el padre de la nanotecnología, [ 6 ] ​ dio una plática en la cual hace una invitación a todo el mundo para entrar en un nuevo campo de la física. Uno en el que en ese entonces había poco avances, sin embargo sí había y faltaba mucho por descubrir, este campo no hablaría mucho sobre la física fundamental, pero sí de extraños fenómenos que ocurrían en situaciones complejas y tendría un gran número de aplicaciones técnicas. De lo que estaba hablando Richard Feynman era de poder controlar la materia a pequeña escala.
+Algunos puntos interesantes dentro de su discurso son: mejores microscopios de barrido, miniaturizar la computadora, el poder escribir una enciclopedia en la punta de un bolígrafo,  el maravilloso sistema biológico , un millón de manos pequeñas, reacomodar átomos, etc. [ 7 ] ​
+Richard E. Smalley
+Richard E. Smalley referido también como "el padre de la nanotecnología", fue profesor en Rice University , ganó el premio Nobel de Química en 1996 y es aún más conocido por su trabajo en nanotubos de carbono . Smalley tenía la esperanza de que la nanotecnología resolviera el problema global de energía, el cual por sí mismo resolvería a su vez problemas de hambre y falta de agua; él en general veía a la nanotecnología como beneficio para la humanidad. "Sé un científico, salva el mundo", era su célebre frase. De ahí la sublime intención de erradicar el hambre en las próximas décadas a través de la alimentación 3d generada por impresoras que logran sintetizar alimentos prácticamente instantáneos. Este tipo de alimentos ya están siendo comercializados ampliamente por las grandes cadenas de supermercados. Se intenta evaluar el efecto y la tolerancia de la población a dichos alimentos.
+En 1999 el Centro de Nanociencia y Tecnología de su universidad (CNST) fue renombrado en su nombre. [ 8 ] ​
+Nanociencia en el mundo
+Europa
+Europa ha sido uno de los grandes inversionistas en esta ciencia, destacando principalmente Alemania , Francia y Reino Unido , aunque se debe de especificar que una parte importante de estas inversiones provienen del sector privado. [ 9 ] ​
+América Latina
+Brasil es el primer lugar en desarrollo e investigación, seguido de México , dónde a pesar de los esfuerzos de algunas instancias, sigue estando muy abajo en comparación a otros países más desarrollados. [ 10 ] ​
+Asia
+Actualmente varios países en Asia invierten en nanociencia pero los que destacan más en el sector educativo son Singapur, China y Corea del Sur, respectivamente. Hasta 2018 según el "ShanghaiRanking's Global Ranking of Academic Subjects 2018 - Nanoscience & Nanotechnology" la Nanyang Technological University en Singapur fue la Universidad que consiguió el puntaje más alto a nivel mundial. [ 11 ] ​
+Física
+En la nanociencia se estudian los objetos a gran escala los cuales se ven regidos por las leyes que van desde la física cuántica a la física clásica , [ 12 ] ​ pasando por la física del estado sólido. [ 13 ] ​
+Física cuántica
+La física cuántica es la encargada de explicar los fenómenos extraños que ocurren a esta escala, los objetos pueden ser partículas y ondas a la vez, pero principalmente, la energía ya no es continua, sino que viene en "cuantos" que son pequeños paquetes de energía, además las leyes del mundo cuántico no son como las conocemos, sino que son probabilísticas. [ 14 ] ​
+Física del estado sólido
+La física del estado sólido es la rama de la física de la materia condensada que se dedica al estudio de las propiedades físicas de la materia en dicho estado. [ 15 ] ​
+Gran parte de su estudios se centran en los cristales gracias al tipo de acomodo periódico de estos.
+Herramientas
+Microscopios
+Un microscopio es un instrumento que nos permite ver objetos demasiado pequeños que no pueden ser observados a simple vista, cuando el tamaño del objeto es mucho más pequeño que la longitud de onda de la luz, no se puede observar con un microscopio óptico, por lo tanto se debe utilizar un microscopio electrónico. Algunas de las herramientas utilizadas para observar el nanomundo son: [ 3 ] ​
+El microscopio electrónico de transmisión (TEM) funciona como un microscopio óptico, a excepción de que usa electrones en lugar de luz, los cuales tienen una longitud de onda mucho más corta que permite una resolución muchísimas veces mejor que el microscopio óptico. Este tipo de microscopios pueden aumentar un objeto hasta un millón de veces. [ 16 ] ​
+* El microscopio de efecto túnel (STM) fue construido en 1980 por Gerd Binning y Heinrich Rohrer y funciona colocando una punta afilada a aproximadamente un nanómetro de distancia de la muestra que se va a examinar, donde hay una circulación por el flujo de corriente por el efecto túnel, su estabilidad permite que se pueda mantener a esa distancia constante sin haber contacto entre la punta y la muestra. Este microscopio no tiene lentes y permite observar imágenes de estructuras superficiales en el espacio real, tridimensional y con resolución atómica.
+El microscopio de fuerzas atómicas (AFM) nació de la idea de los microscopios de proximidad, este es capaz de medir la fuerza entre la punta y la muestra cuando están entre uno y cuatro nanómetros de distancia. No cuenta con restricciones para el tipo de muestras ni necesita de vacío como otros tipos de microscopios. [ 17 ] ​
+Aplicaciones
+Medicina
+La nanomedicina es una rama de la nanociencia y la nanotecnología que consiste en el uso del conocimiento molecular que se tiene de los seres vivos y la posibilidad de fabricar dispositivos que contribuyan a la mejora de la salud humana tanto en el ámbito de diseño, liberación de fármacos, construcción de nanomateriales biocompatibles, medicina regenerativa y mejora de técnicas terapéuticas como en el diagnóstico a través del incremento de sensibilidad y especificidad de técnicas convencionales con la fabricación de nanobiosensores. [ 18 ] ​
+La medicina en escala nanométrica ofrece avances tecnológicos particulares que involucran el control, monitorización, reparación, control, defensa, construcción y mejora a los sistemas biológicos. [ 19 ] ​  Se pueden encontrar diferentes aplicaciones en la administración de fármacos y genes, sondeo de estructura de ADN, biodetección de patógenos, ingeniería de tejidos, detección de proteínas, separación y purificación de moléculas y células biológicas, detección de tumores, entre otras muchas. [ 20 ] ​
+En la farmacéutica se utilizan para tratamientos farmacológicos, regeneraciones, implantes de dispositivos y diagnóstico in vitro e in vivo, se espera que en el futuro se usen nanomáquinas o nanorrobots para que sean introducidos en el organismo humano y reparen daños celulares o transporten fármacos. [ 19 ] ​
+El uso de los puntos cuánticos , nanocristales semiconductores que con base en el estímulo excitatorio son capaces de emitir luz a diferentes longitudes de onda, hacer posible el diagnóstico in-vitro, por lo que son utilizados como marcadores biológicos de la actividad celular. Un ejemplo de esto es su utilización para la temprana detección del Alzheimer mediante la detección de un ligando específico. [ 21 ] ​
+Alimentos
+La nanociencia es utilizada en la industria agroalimentaria y tiene algunas funciones entre las que destacan la prevención del deterioro microbiano de los alimentos envasados, el desarrollo de materiales de embalaje innovadores, la creación de pesticidas y suplementos alimenticios . [ 22 ] ​
+Otra de las principales aplicaciones en esta área son los pesticidas donde se usan nano-encapsulados para su liberación controlada en el medio ambiente y su movimiento; como por ejemplo, los recubrimientos pueden permitir que las partículas no se adhieran a las plantas por su afinidad para que así no haya acumulación de sustancia tóxica y la liberación se hace de manera lenta para que no haya problemas de sobredosis temporal y se minimice la contaminación. No solo se le puede dar protección a los cultivos y evitar las plagas, también se puede aumentar la producción y calidad de los cultivos, donde fertilizantes en forma de nanoemulsiones se utilizan para aumentar la potencia de ingredientes activos o para reducir la cantidad de fertilizante que debe ser aplicado. [ 22 ] ​
+Su aplicación en el envasado de alimentos son de las más importantes ya que sirven como barreras gas o rayos ultravioleta, alta resistencia a las temperaturas, propiedades antimicrobianas, entre otras aplicaciones. [ 22 ] ​
+Computación y electrónica
+Estas áreas son fundamentales ya que permiten que se descubra, prediga, entienda y confirme fenómenos y propiedades que tiene la materia a escala nanométrica. Se ha podido calcular una gran variedad de propiedades tanto físicas como químicas de las nanopartículas y las nanoestructuras gracias al desarrollo e implementación de métodos teóricos y de simulación computacional. Los cálculos utilizan distintas metodologías que pueden ser desde enfoques atomísticos hasta descripciones mecánico-cuánticas. [ 23 ] ​
+Algunos de los principales avances en este campo son:
+Creación de un páncreas artificial. El cual funciona introduciendo una cápsula en el cuerpo del paciente, de manera que ella cuide de sus niveles de azúcar en la sangre y pueda detectar el momento preciso para secretar insulina, todo esto sin necesidad de que el paciente utilice un glucómetro o tenga que pincharse el dedo y exponerse a infecciones.
+Puntos cuánticos . Los puntos cuánticos emiten luz brillante y muy estable, lo cual tiene aplicaciones biomédicas, ya que pueden obtener imágenes bien definidas y usarlas para estudiar procesos biológicos.
+Computación cuántica. La idea surgió desde la posible miniaturización de las computadoras. Durante los años 90, en los Laboratorios Bell, un científico llamado Peter Shor comienza a crear algoritmos para factorización cuántica, lo que une a todo esto es la criptografía. El objetivo es que una computadora cuántica pueda descifrar claves de manera muy rápida y además sea capaz de modelar cualquier fenómeno físico, lo cual es prácticamente imposible para una computadora regida por la física clásica. [ 24 ] ​
+Energía
+En el ámbito energético los conocimientos de nanociencia se aplican para la mejora o implementación de materiales nanoestructurados en tecnologías como: [ 25 ] ​
+Pila de combustible e hidrógeno: A través de nanoestructuración, manufactura de catalizadores e implementación de membranas poliméricas.
+Batería de ion de litio : Mejorar los materiales del electrodo y electrolito de baterías para mejorar su rendimiento.
+Fotovoltaica : Mejorar las propiedades de los materiales que conforman las celdas fotovoltaicas para potencializar su rendimiento y reducir sus costos. Se utilizan nanopartículas absorbentes de la luz solar o materiales nanoestructurados sobre los cuales se depositan los materiales absorbentes.
+Supercondensadores. Mejoras en la distribución y porosidad dentro de los supercondutores mediante nanotubos de carbono, carbones mesoporosos y nanopartículas de óxidos de metales de transición.
+Los conocimientos en nanociencia también pueden ser utilizados en la producción de energías renovables, aplicando, por ejemplo, recubrimientos anti-incrustantes y resistentes a la corrosión del agua de mar en la obtención de energía hidráulica, o la producción de biocombustible con ayuda de materiales con los que se puedan obtener cristales catalizadores encargados de generarlo. [ 26 ] ​
+Nanomateriales
+Los nanomateriales son materiales con al menos una dimensión en escala nanométrica. [ 27 ] ​ Su estructura está compuesta por átomos reorganizados en formas específicas que les dan características especiales que se pueden usar a conveniencia; por ejemplo, se han podido fabricar materiales de aislamiento, herramientas mecánicas, fósforos, baterías, imanes de alta potencia, motores de vehículos, turbinas e implantes, mejora de fortaleza de fundidos, nanoesferas para extraer compuestos orgánicos del agua, pigmentos de pinturas, producción de dispositivos electrónicos a nanoescala. [ 12 ] ​
+Los nanomateriales pueden ser de distintos tipos, entre ellos nanofibras, nanopartículas, nanocables, nanocristales y nanotubos , donde sus aplicaciones son muy extensas gracias a sus propiedades ópticas, catalíticas, electrónicas, mágneticas y mecánicas, estas propiedades pueden cambiar a causa de la forma y el tamaño.
+Algunos ejemplos de nanomateriales son:
+Nanotubos: Los nanotubos de carbono son una forma alotrópica del carbono y se forma a partir de una lámina de grafito enrollada. Pueden variar en diámetro y estructura interna. Debido a sus propiedades tiene diversas aplicaciones en ropa que pueda transmitir señales de la información del portados además de ser más resistente que las fibras utilizadas actualmente, aumentar la resistencia del hormigón, aumentar la elasticidad del polietileno, aumentar fuerza y disminuir peso de equipamiento deportivo, volantes de Inercia, sonda químicas y genéticas, nanopinzas, sensores supersensibles, almacenamiento de hidrógeno y iones, mayor resolución en el microscopio de barrido. [ 28 ] ​
+Puntos Cuánticos: Estructura cristalina creada en laboratorio cuyos electrones quedan atrapados en las tres dimensiones lo que genera propiedades que se pueden modificar a voluntad propia. Son utilizados para aplicaciones computacionales donde la luz, por sus capacidades reflectoras dependiendo de su tamaño, se utiliza para procesar información. En medicina se pueden usar para detectar virus o como nanorrobots administradores de fármacos. La tercera generación de celdas solares utiliza puntos cuánticos para aumentar su rendimiento y reducir costos. [ 29 ] ​
+Medio Ambiente
+Por su tamaño, los nanomateriales son usados para purificar el agua o medir su calidad de acuerdo a las necesidades, por ejemplo, las nanopartículas de hierro han sido usadas para descontaminar agua de plomo y arsénico, pues tienen propiedades abortivas de estos elementos. [ 30 ] ​ Otro ejemplo actual es el Drinkable Book creado por la Dr. Theresa Dankovich, es un libro que contiene veinticinco páginas que funcionan como filtros de agua donde a través del uso de nanopartículas de plata y cobre, es capaz de eliminar el 99.9% de la bacteria E.coli en el agua contaminada. [ 31 ] ​
+Por otro lado, los nanomateriales, pueden ser perjudiciales debido a sus propiedades, como que son extremadamente móviles, pueden pasar fácilmente al torrente sanguíneo cuando se inhala o se ingiere, y posiblemente cuando se aplica a la piel y una vez dentro del cuerpo tienen acceso a la mayoría de órganos y tejidos, incluyendo el cerebro.
+Por ejemplo en el caso del carbono 60 (C60), se han hecho simulaciones en las que este material entra al cuerpo y los resultados son que es capaz de interactuar con las células y el ADN ocasionando su deformación y evitando que funcionen como normalmente. Si el ADN fuera afectado, el daño podría ser heredado. Así mismo, se ha informado que agregados como este son tóxicos para bacterias, lo que sugiere un impacto negativo en los ecosistemas.
+Además la inhalación de contaminantes químicos de tamaño nanométricos se asocia con ataques de asma, enfermedades del corazón, accidentes cerebrovasculares y enfermedades respiratorias.
+Existen instituciones encargadas de regular los productos nanotecnológicos permitidos comercialmente como lo son la Agencia de Protección Ambiental de Estados Unidos (EPA) y la NRDC (Consejo para la Defensa de Recursos Naturales). [ 32 ] ​
+Impacto
+El estudio de la Nanociencia puede generar Nanotecnología cuyo impacto radica en las diversas aplicaciones en otras ciencias que buscan cambiar procesos y nuestra vida en general. [ 9 ] ​
+Se espera que en siglo XXI la nanotecnología tenga un fuerte impacto en la vida humana, al menos tan importante como el que tuvieron en el siglo XX los antibióticos, los circuitos integrados, la microelectrónica y los polímeros hechos por el hombre. Como la nanotecnología tiene cambios muy variables, es necesario evaluar el impacto que tendría en cada uno de ellos, desde computación, electrónica y medicina. Sin embargo se cree que el mayor impacto se dará en el campo de los materiales, pues estos son indispensables para crear objetos que se utilizan en la vida diaria.
+Ahora iniciando por la medicina, se esperan avances en diagnósticos médicos, así como en la fabricación de fármacos y agilización de tratamientos médicos y en cuanto a la salud en general, el mejor aprovechamiento de fuentes de energía renovables y disminución de los efectos que trae el consumismo de energía.
+Algunos impactos negativos podrían ser las nanopartículas de dióxido de titanio/óxido de zinc, usadas en filtros solares que causan radicales libres en la piel y pueden llegar a modificar el ADN. Además, según una publicación de la Facultad de Ciencias Químicas de la UNAM, en 2004 se encontraron por primera vez resultados sobre el movimiento de nanopartículas de oro que pueden moverse desde la madre hasta el feto a través de la placenta. [ 33 ] ​ Inclusive, los fulerenos han causado daño al cerebro de peces y modifican las funciones de los genes.
+Futuro de la Nanociencia
+Se espera que haya avances en las diferentes ramas de la Nanociencia y se integren más a nuestra vida cotidiana. Algunos ejemplos de avances que se cree que habrá son: ordenadores orgánicos del tamaño de una tarjeta de crédito, vacunas anti-cáncer, dispositivos para medición continua de biomarcadores en sangre, avances en el combustible y baterías de automóviles eléctricos, sensores basados en principios físicos o químicos, antenas mejoradas y dispositivos de información cuántica. [ 9 ] ​
+En un futuro cercano habrá un cambio significativo en el ámbito médico principalmente donde se espera que la nanomedicina sea capaz de preservar la salud humana utilizando herramientas moleculares que diagnostiquen, traten y prevengan enfermedades. [ 4 ] ​
+Instituciones
+CERN
+La organización Europea de Investigación Nuclear, también referido como Laboratorio de Física de Partículas, fue fundada en 1952 con el mandato de establecer una organización de clase mundial en investigación de física fundamental en Europa. En CERN se han hecho grandes aportaciones a la ciencia desde distintas áreas [ 34 ] ​
+IMDEA-Nanociencia
+La fundación Instituto Madrileño de Estudios Avanzados en Nanociencia (IMDEA-Nanociencia) es una organización dedicada a la divulgación y el impulso de la nanotecnología en Madrid, además gestiona el centro IMDEA Nanociencia donde se desarrollan proyectos de investigación y conexión con la industria. [ 35 ] ​
+CNyN
+El Centro de Nanociencia y Nanotecnología (CNyN) se encarga de desarrollar investigación enfocada, especialmente en nanomateriales, además de proporcionar información certera acerca de la ciencia y cultura a la sociedad. Se encuentra en México y forma parte de la UNAM. [ 36 ] ​
+Véase también
+Nanotecnología
+Mecánica cuántica
+Nanomedicina
+Biotecnología
+Nanopartícula
+Nanorrobótica
+Microscopio electrónico de barrido
+Microscopio de fuerza atómica
+Punto cuántico
+Referencias
+↑ Urbano, Ricardo (2014). «Kernel Nanotecnología» . Nanotecnología . ISSN 1665-2665 . Consultado el 9 de octubre de 2018 .
+↑ Antunez, Joel; Maytorena, Jesús; Morales, Leonardo; Pérez, María; Petranovskii, Vitalii; Raymond, Oscar. «¿A qué nos referimos con nano?» . Preguntas y Respuestas del Mundo Nano . Archivado desde el original el 16 de enero de 2021 . Consultado el 8 de octubre de 2018 .
+↑ a b c Takeuchi, Noboru (2009). «I.Las nanoestructuras, la nanociencia y la nanotecnología.». Nanociencia y nanotecnología . La ciencia para todos; 222. p. 14.
+↑ a b Gómez Pando, Vidal (2012). «Vida molecular, nanociencia, impacto en la sociedad» . Revista Científica ASDOPEN-UNMSM . Consultado el 19 de septiembre de 2018 .
+↑ «What is nanotechnology?» (en inglés) . Consultado el 3 de septiembre de 2018 .
+↑ Takeuchi, Noboru (2009). «IV. Las herramientas de la nanotecnología.». Nanociencia y nanotecnología . La ciencia para todos; 222. p. 49.
+↑ Feynman (1960). «There's plenty of room at the bottom» .
+↑ Mongillo, John (2007). «1. What is nanotechnology?» . Nanotechnology 101 (en inglés) . Greenwood Press. p. 19 . (requiere registro) .
+↑ a b c Cabreira, Serena, Antonio; Serena, Pedro. «Introducción» . Nanociencia y Nanotecnología en España . Consultado el 24 de septiembre de 2018 .
+↑ Záyago-Lou, Edgar; Faladori, Gillermo (9 de julio de 2009). «La nanotecnología en México: un desarrollo incierto» . La nanotecnología en México: un desarrollo incierto . Consultado el 8 de octubre de 2018 .
+↑ «ShanghaiRanking's Global Ranking of Academic Subjects 2018 - Nanoscience & Nanotechnology» . Academic Ranking of World Universities . Archivado desde el original el 2 de julio de 2020 . Consultado el 9 de octubre de 2018 .
+↑ a b Cerecedo, Hector; Hernandez, Ester (Enero de 2010). «Nanociencia y Nanotecnología» . Ciencia y el Hombre . Consultado el 24 de septiembre de 2018 .
+↑ «Qué es la Nanotecnología» . Archivado desde el original el 17 de septiembre de 2018 . Consultado el 9 de octubre de 2018 .
+↑ Takeuchi, Noboru (2009). «II. La física cuántica: ¿ondas o partículas?». Nanociencia y nanotecnología . La ciencia para todos; 222. p. 21.
+↑ «D.A. Física del Estado Solido» . Archivado desde el original el 9 de octubre de 2018 . Consultado el 9 de octubre de 2018 .
+↑ Takeuchi, Noboru (2009). «IV. Las herramientas de la nanotecnología». Nanociencia y nanotecnología . La ciencia para todos; 222. p. 51.
+↑ Baró, Arturo. «LA  FÍSICA  Y  LA  NANOCIENCIA: AVANCES  ACTUALES  Y  PERSPECTIVAS  DE  FUTURO» . Universidad Autónoma de Madrid . Consultado el 1 de octubre de 2018 .
+↑ Martín Gago, José Martín. «Nanociencia y Nanotecnología entre la ciencia ficción del presente y la tecnología del futuro» . Fundación Española para la Ciencia y la Tecnología . Consultado el 5 de septiembre de 2018 .
+↑ a b Pájaro, Nerlis; Olivero, Jesús; Redondo, Juan (2013). «Nanotecnología aplicada a la medicina». Revista Científica Guillermo de Ockham . |fechaacceso= requiere |url= ( ayuda )
+↑ Saini, Rajiv; Saini, Santosh; Sharma, Sugandha (2010). «Nanotechnology: The Future Medicine» . Journal of Cutaneous and Aesthetuc Surgery . doi : 10.4103/0974-2077.63301 . Consultado el 1 de octubre de 2018 .
+↑ Etcheverry, Álvaro (2010). «Nanociencia y sus aplicaciones». Universidad de Chile . |fechaacceso= requiere |url= ( ayuda )
+↑ a b c Ávos Fúnez, Alicia (2016). NANOTECNOLOGÍA EN LA INDUSTRIA ALIMENTARIA  I: APLICACIONES . Consultado el 24 de septiembre de 2018 .
+↑ Garzón, Ignacio (2014). Nanociencia Computacional . Consultado el 8 de octubre de 2018 .
+↑ Daniel Ichbiah (2010). «Nanotechnologie: les incroyables applications» .
+↑ Pomposo, J.; Crespo, O. «Energía» . Nanociencia y Nanotecnología  en España . Consultado el 1 de octubre de 2018 .
+↑ Reguera, Edilso (2014). «Nanotecnología y Energías Renovables» . Nanotecnología . ISSN 1665-2665 . Consultado el 8 de octubre de 2018 .
+↑ Palacio, F. «Nanomateriales» . Nanociencia y Nanotecnología en España . Consultado el 1 de octubre de 2018 .
+↑ Díaz, Felipe (2012). «Nanotubos» . Introducción a los nanomateriales . Consultado el 9 de octubre de 2018 .
+↑ Díaz, Felipe (2012). «Puntos Cuánticos» . Introducción a los Nanomateriales . Consultado el 9 de octubre de 2018 .
+↑ Jiménez, Lorena (26 de enero de 2015). «Investigadores utilizan la nanociencia para descontaminar agua» . Chile. Agencia Iberoamericana para la Difusión de la Ciencia y la Tecnología . Consultado el 8 de octubre de 2018 .
+↑ Gunther, Matthew (18 de agosto de 2015). « " Drinkable Book" Turns Dirty Water Clean for a Thirsty World» . Scientific American . Consultado el 9 de octubre de 2018 .
+↑ Ph. D. Jennifer Sass (2007). «Nanotechnology's invisible threat.» .
+↑ «La nanociencia y la nanotecnología: una revolución en curso» . Archivado desde el original el 9 de octubre de 2018 . Consultado el 8 de octubre de 2018 .
+↑ «CERN» .
+↑ «Nanoscience and Nanotecnology: small is different» .
+↑ «Cambio de Denominación a Centro de Nanociencias y Nanotecnología» .
+Enlaces externos
+IMDEA Nanociencia. [1]
+"Nanospain - Red Española de Nanotecnología" , Sitio web sobre la Red Española de Nanotecnología coordinada por el Consejo Superior de Investigaciones Científicas y la Fundación Phantoms.
+"Fundación Phantoms" , Sitio web que proporciona información sobre Nanociencia y Nanotecnología.
+http://www.revistas.unam.mx/index.php/nano/ Archivado el 10 de octubre de 2018 en Wayback Machine ., Sitio web que proporciona revistas acerca del mundo nano.
+http://statnano.com/ , Sitio web en inglés que habla sobre las últimas noticias de la Nanotecnología en general.
+Proyectos Wikimedia
+Datos: Q912169
+Identificadores
+GND : 7734987-8
+LCCN : sh2002000242
+NKC : ph496671
+NLI : 987007566475705171
+Diccionarios y enciclopedias
+Britannica : url
+Datos: Q912169
+Nanociencia
+Nanotecnología
+Wikipedia:Páginas con referencias que requieren registro
+Wikipedia:Páginas con referencias sin URL y con fecha de acceso
+Wikipedia:Artículos que necesitan formato correcto de referencias
+Wikipedia:Artículos con identificadores GND
+Wikipedia:Artículos con identificadores LCCN
+Esta página se editó por última vez el 8 abr 2025 a las 07:40.
+El texto está disponible bajo la Licencia Creative Commons Atribución-CompartirIgual 4.0 ; pueden aplicarse cláusulas adicionales. Al usar este sitio aceptas nuestros términos de uso y nuestra política de privacidad . Wikipedia® es una marca registrada de la Fundación Wikimedia , una organización sin ánimo de lucro.
+Política de privacidad
+Acerca de Wikipedia
+Limitación de responsabilidad
+Contactos para cuestiones legales y de seguridad
+Código de conducta
+Desarrolladores
+Estadísticas
+Declaración de cookies
+Versión para móviles
+ | Las referencias de este artículo no tienen un formato correcto . Puedes colaborar editándolas como se indica en esta página . También puedes avisar en su página de discusión a quien las añadió pegando lo siguiente: {{subst:Aviso formato de referencias|Nanociencia}} ~~~~ Este aviso fue puesto el 10 de octubre de 2018.
+Control de autoridades | Proyectos Wikimedia Datos: Q912169 Identificadores GND : 7734987-8 LCCN : sh2002000242 NKC : ph496671 NLI : 987007566475705171 Diccionarios y enciclopedias Britannica : url

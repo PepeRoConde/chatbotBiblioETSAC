@@ -1,0 +1,85 @@
+¿Qué es el servicio de préstamo interbibliotecario? 
+Es un servicio que localiza y obtiene documentos o libros con fines de investigación y estudio 
+que no están disponibles en las bibliotecas de la UDC y también ofrece la colección 
+bibliográfica de la UDC a bibliotecas externas en un marco de cooperación. 
+Si quiere sugerir a las biblioteca la compra de un documento, puedo hacerlo en este enlace 
+ 
+¿Quién puede usar este servicio? 
+Todos los miembros de la comunidad universitaria.  
+Las personas usuarias externas que quieran hacer uso de este servicio tienen que pagar el 
+coste de las peticiones que se les suministren. 
+ 
+¿Cómo se accede al servicio por primera vez? 
+Si nunca ha usado el servicio tiene que darse de alta en el formulario , una vez se comprueben 
+los datos, le mandaremos un mensaje electrónico de confirmación. Si es miembro de la 
+comunidad universitaria tiene que usar el correo electrónico institucional. Acceda de nuevo a 
+la página principal e identifíquese como miembro de la UDC.  
+Si no es miembro tendrá que introducir las claves de validación que se le enviaron. 
+ 
+¿Cómo se realiza una petición? 
+Las solicitudes se cubren desde su menú de usuario/a en el botón de Realizar una petición de 
+documento. Cuanto más complete los datos, más posibilidad de éxito en la localización del 
+documento. Si conoce el DOI o el Pubmed ID, el formulario se rellena automáticamente al 
+pulsar el botón Buscar. 
+Si le falta espacio en algún campo o quiere aclarar algo, use el campo notas. 
+En su correo electrónico, recibirá información del estado de tramitación de sus peticiones, a 
+qué biblioteca se pidió, cuando llega ...así como cualquier solicitud de aclaración que se 
+necesite en relación con su petición. 
+ 
+¿Qué documentos se pueden solicitar? 
+Se pueden solicitar libros impresos, capítulos o partes de libros impresos o electrónicos, 
+artículos de revistas científicas, tesis doctorales, microformas, copia de manuscritos, 
+reproducciones de fondo antiguo… 
+  
+No se pueden solicitar números enteros de revistas impresas ni libros electrónicos completos y 
+tampoco patentes, normas u obras de referencia.  
+ 
+¿Dónde se puede consultar el estado de las peticiones? 
+
+Desde el menú de usuario/a de préstamo interbibliotecario, accediendo de la misma forma 
+que para solicitar un documento, la opción Mis peticiones o en Consultar el estado de sus 
+peticiones permite ver el estado de las solicitudes y la fecha de vencimiento de los préstamos. 
+ 
+¿Cuándo y cómo se reciben los documentos? 
+El periodo de tiempo desde que un documento se solicita hasta que se recibe varía según la 
+entidad suministradora y las dificultades de localización. Si es electrónico suele ser entre 0-6 
+días y si es un original puede tardar entre 10-15 días, ya que hay que hacer uso del servicio 
+postal. 
+Los documentos que llegan en formato electrónico, se depositan en el servidor del programa 
+de gestión de préstamo interbibliotecario. Se enviará un correo electrónico a la persona 
+usuaria que realizó la solicitud con un enlace para descargárselos. Estos documentos pasarán a 
+ser del solicitante quien será el responsable de su uso según la Ley de Propiedad Intelectual. 
+Los libros se enviarán a su biblioteca de centro para su préstamo. Los libros cuyo suministrador 
+no lo permita y los que vengan de instituciones extranjeras, no podrán salir de la Biblioteca 
+Central (Campus A Coruña) o de la Biblioteca do Patín (Campus de Ferrol). Las personas 
+usuarias externas deberán consultar siempre los libros en estas dos bibliotecas. 
+ 
+¿Qué condiciones de préstamo tienen los libros? 
+Los libros de préstamo interbibliotecario llevan una banda amarilla en la que se indica la fecha 
+de devolución que habitualmente es de un mes. En su menú de usuario/a puede consultar los 
+préstamos y las fechas de devolución. 
+Puede solicitarse la prórroga de un libro antes de que acabe el vencimiento del plazo de 
+préstamo. Se consultará a la biblioteca suministradora y le notificaremos su respuesta y, si 
+fuera positivo, la nueva fecha de devolución. 
+ 
+¿Se puede reproducir un documento obtenido por PI?  
+Como norma general el usuario/a es responsable de cumplir la legislación vigente sobre 
+derechos de autor y reproducción. La biblioteca suministradora puede enviar, además, 
+condiciones específicas de reproducción que se deberán respetar. 
+ 
+¿Se puede reclamar una petición? 
+El servicio de préstamo interbibliotecario reclama periódicamente todas las peticiones que no 
+se han recibido en un tiempo prudencial. 
+Además, desde su cuenta de usuario/a, en la opción Mis peticiones, puede pinchar el enlace 
+Reclamar de cada petición que aún no ha recibido. 
+ 
+¿Se puede cancelar una petición? 
+
+Si después de realizar una petición ya no necesita el documento, conviene que informe al 
+servicio lo antes posible a través de su cuenta de usuario/a, en la opción Mis peticiones, 
+pinchando el enlace Cancelar de cada petición que aún no haya recibido. 
+No se podrá cancelar si el centro suministrador ya la ha enviado. 
+ 
+¿Cómo se puede contactar con el servicio de préstamo interbibliotecario? 
+Puede contactar desde su menú de préstamo interbibliotecario o a través del correo 
+electrónico sod@udc.es.  
