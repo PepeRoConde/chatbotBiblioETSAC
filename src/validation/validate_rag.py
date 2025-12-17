@@ -6,6 +6,10 @@ import sys
 import json
 import time
 import os
+import re
+import pickle
+import argparse
+from dotenv import load_dotenv
 from pathlib import Path
 from typing import List, Dict, Any, Tuple
 from dataclasses import dataclass, asdict
@@ -15,12 +19,12 @@ from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
 from rich.progress import Progress, SpinnerColumn, TextColumn
+from langchain_community.vectorstores import FAISS
 
-# Añadir src al path
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
-
-from RAGSystem.RAGSystem import RAGSystem
-from LLMManager import LLMManager
+from src.rag.RAGSystem import RAGSystem
+from src.LLMManager import LLMManager
+from src.LocalEmbeddings import LocalEmbeddings
+from src.preprocessing.DocumentProcessor import DocumentProcessor
 
 
 class OpenAIJudge:
@@ -205,7 +209,6 @@ class RAGEvaluator:
                     response_text = response.content if hasattr(response, 'content') else str(response)
                     
                     # Buscar el bloque JSON mediante regex
-                    import re
                     json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
                     
                     if json_match:
@@ -271,7 +274,6 @@ class RAGEvaluator:
                 response = self.llm_judge.invoke(prompt)
                 response_text = response.content if hasattr(response, 'content') else str(response)
                 
-                import re
                 json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
                 
                 if json_match:
@@ -602,8 +604,6 @@ def load_dataset(dataset_file: str) -> List[Dict[str, Any]]:
 
 
 def main():
-    import argparse
-    from dotenv import load_dotenv
     
     load_dotenv()
     
@@ -697,10 +697,6 @@ def main():
 
 
     # Embeddings y TF-IDF autocontenidos
-    from LocalEmbeddings import LocalEmbeddings
-    from langchain_community.vectorstores import FAISS
-    import pickle
-    from DocumentProcessor import DocumentProcessor
 
     tfidf_dir = Path(args.vector_store)
     text_folder = Path(args.text_folder)

@@ -1,11 +1,11 @@
 {
   "avg_recall": 0.58,
-  "avg_precision": 0.304,
-  "avg_mrr": 0.5533333333333333,
-  "avg_faithfulness": 0.97,
-  "avg_relevance": 0.716,
-  "f1_score": 0.3989140271493213,
-  "recall@1": 0.52,
+  "avg_precision": 0.27599999999999997,
+  "avg_mrr": 0.4946666666666667,
+  "avg_faithfulness": 0.95,
+  "avg_relevance": 0.6839999999999999,
+  "f1_score": 0.37401869158878503,
+  "recall@1": 0.44,
   "recall@5": 0.6,
   "recall@10": 0.6,
   "total_questions": 25
