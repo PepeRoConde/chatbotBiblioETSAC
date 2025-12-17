@@ -1,0 +1,127 @@
+[
+    {
+        "question": "¿Quién es el rector de la universidad?",
+        "answers": ["Ricardo Cao Abad"],
+        "gold_docs": ["equipo_reitoral_2b7d8c43.txt"]
+    },
+    {
+        "question": "¿Quién encabeza el equipo rectoral?",
+        "answers": ["Ricardo Cao Abad"],
+        "gold_docs": ["equipo_reitoral_2b7d8c43.txt"]
+    },
+    {
+        "question": "Cuál es el horario habitual del Edificio Xoana Capdevielle",
+        "answers": ["De lunes a viernes: de las 8:15 h a las 21.45 h"],
+        "gold_docs": ["horarios_4e320c1a.txt"]
+    },
+    {
+        "question": "Cuántos ejemplares reune la biblioteca de Informática",
+        "answers": ["25.570 ejemplares"],
+        "gold_docs": ["biblioteca-0_5eff5a6a.txt"]
+    },
+    {
+        "question": "Cuántos libros hay en la biblioteca de la facultad de informática",
+        "answers": ["25.570 ejemplares"],
+        "gold_docs": ["biblioteca-0_5eff5a6a.txt"]
+    },
+    {
+        "question": "Cuántos créditos tiene el grado en estudios de arquitectura",
+        "answers": ["300 créditos"],
+        "gold_docs": ["630g02v01_3d9b1a3f.txt"]
+    },
+    {
+        "question": "Cuál es el horario de atención de la secretaría de la facultad de informática",
+        "answers": ["El horario de atención al público en la Secretaría de la Facultad de Informática será de 9:15h a 13:45h"],
+        "gold_docs": ["horarios-de-atencion_d6d236bf.txt"]
+    },
+    {
+        "question": "Cuál es el horario de la biblioteca de la facultad de sociología en días lectivos",
+        "answers": ["Días lectivos: 8.30h - 21.30h, Junio, Julio y Septiembre (hasta comienzo de curso): 9.00h - 20.00h, Agosto, Navidad, Lunes de Carnaval, Semana Santa: 9.15h - 13.45h"],
+        "gold_docs": ["horarios_7642b102.txt"]
+    },
+    {
+        "question": "Cuánto dura el grado de arquitectura",
+        "answers": ["300 créditos (equivalente a 5 años)"],
+        "gold_docs": ["630g02v01_3d9b1a3f.txt"]
+    },
+    {
+        "question": "Cuánto créditos tengo por equipos federados propios de la UDC",
+        "answers": ["1,5 créditos ECTS por curso académico"],
+        "gold_docs": ["document_cd41648a.txt"]
+    },
+    {
+        "question": "Cuánto tiempo tengo para modificar el contrato de estudios de movilidad",
+        "answers": ["Plazo de un mes desde el inicio de las actividades académicas en la universidad de destino."],
+        "gold_docs": ["document_5958ed71.txt"]
+    },
+    {
+        "question": "Quién se encarga de gestionar las becas y las ayudas a la movilidad",
+        "answers": ["Oficina de Relaciones Internacionales (ORI) en lo que no sea responsabilidad de los centros"],
+        "gold_docs": ["document_5958ed71.txt"]
+    },
+    {
+        "question": "Cuánto tiempo tengo para modificar mis asignaturas de erasmus",
+        "answers": ["Plazo de un mes desde el inicio de las actividades académicas en la universidad de destino."],
+        "gold_docs": ["document_5958ed71.txt"]
+    },
+    {
+        "question": "Cuántos créditos son los cursos de formación deportiva",
+        "answers": ["1,5 créditos ECTS cada 30 horas de formación "],
+        "gold_docs": ["document_cd41648a.txt"]
+    },
+    {
+        "question": "Número de créditos mínimos para matrícula",
+        "answers": ["Los estudiantes de  primer  curso,  por  primera  vez,  deberán superar en ese curso académico al menos 12 créditos, si la matrícula se efectuó en el régimen de dedicación a  tiempo  completo, y 6 créditos en el régimen de dedicación  a  tiempo  parcial para poder  tener  la  consideración  de  estudiante  de  continuación  de  estudios"],
+        "gold_docs": ["dedicacion_e.txt_2063069294_f7b3dfc2"]
+    },
+    {
+        "question": "Qué tipo de prácticas hay en la facultad de informática",
+        "answers": ["Prácticas curriculares y extracurriculares"],
+        "gold_docs": ["practicas-en-empresa_a40b7284.txt"]
+    },
+    {
+        "question": "Cuanto es la cantidad mínima de asignaturas en la que me puedo matricular si soy estudiante a tiempo completo",
+        "answers": ["Un  número  no  inferior  a  48  créditos"],
+        "gold_docs": ["dedicacion_e.txt_2063069294_f7b3dfc2.txt"]
+    },
+    {
+        "question": "Cuantos libros puedo llevarme de préstamo",
+        "answers": ["Depende del grupo de usuario: Grupo 1 (estudiantes de grado): 10, Grupo 2 (estudiantes de máster, TFG, PAS): 15, Grupo 3 (estudiantes de doctorado, personal investigador): 35, PDI: 100"],
+        "gold_docs": ["prestamo_fb00e6da.txt"]
+    },
+    {
+        "question": "Cuantos días de préstamo me corresponden si soy estudiante de doctorado",
+        "answers": ["30 días"],
+        "gold_docs": ["prestamo_fb00e6da.txt"]
+    },
+    {
+        "question": "Quien es el coordinador responsable de relaciones internacionales en la facultad de informática",
+        "answers": ["Diego Andrade"],
+        "gold_docs": ["coordinadores-academicos_867aace4.txt"]
+    },
+    {
+        "question": "Cuantas plazas hay para el grado en Inteligencia Artificial",
+        "answers": ["50"],
+        "gold_docs": ["NotasCorte_C_2025_Plazas.txt_2063069294_91ca9fd9.txt"]
+    },
+    {
+        "question": "Que grados de ciencias de la salud hay en el campus de A Coruña",
+        "answers": ["Grado en Enfermería, Grado en Fisioterapia, Grado en Logopedia, Grado en Terapia Ocupacional"],
+        "gold_docs": ["NotasCorte_C_2025_Plazas.txt_2063069294_91ca9fd9.txt"]
+    },
+    {
+        "question": "Qué permite la tarjeta universitaria",
+        "answers": ["La tarjeta universitaria es la credencial que permite la identificación de todos los integrantes de la comunidad universitaria, brinda acceso a múltiples servicios tecnológicos y constituye un avanzado sistema de información, gestión, acreditación, préstamo bibliotecario, acceso a recintos"],
+        "gold_docs": ["tui_7df940d2.txt"]
+    },
+    {
+        "question": "Qué tengo que hacer para usar la tarjeta universitaria en digital",
+        "answers": ["Debes añadir o actualizar tu fotogtafía"],
+        "gold_docs": ["tui_7df940d2.txt", "emision_2feeeba7.txt"]
+    },
+    {
+        "question": "Cual es la fecha límite de firma de actas para TFG/TFM",
+        "answers": ["30 de septiembre de 2026"],
+        "gold_docs": ["document_9c5fad96.txt"]
+    }
+]

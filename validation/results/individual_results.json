@@ -1,0 +1,903 @@
+[
+  {
+    "question": "¿Quién es el rector de la universidad?",
+    "retrieval": {
+      "question": "¿Quién es el rector de la universidad?",
+      "gold_docs": [
+        "equipo_reitoral_2b7d8c43.txt"
+      ],
+      "retrieved_docs": [
+        "tui_7df940d2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "reitoria_b00f07ed.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "tui_7df940d2.txt",
+        "coordinadores-academicos_867aace4.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "¿Quién es el rector de la universidad?",
+      "generated_answer": "Sentíndoo moito, pero non podo atopar o nome completo do rector actual da Universidade da Coruña nos documentos proporcionados. Os textos inclúen información sobre a TUI (Tarxeta Universitaria de Identificación), coordinadores académicos e localizacións do campus, pero non mencionan o nome do rector. Para obter esta información específica, suxiro consultar directamente a páxina web oficial da UDC ou contactar coa secretaría do rectorado.",
+      "expected_answers": [
+        "Ricardo Cao Abad"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[3/3 claims] Todas las afirmaciones están respaldadas por el contexto. La respuesta reconoce explícitamente que no puede encontrar el nombre del rector en los documentos proporcionados, lo cual es correcto según el contexto dado. Los documentos mencionan el rectorado pero no proporcionan el nombre del rector actual.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta no proporciona el nombre del rector, que era el objetivo específico de la pregunta. Aunque ofrece una explicación detallada sobre la falta de información y sugiere formas de obtenerla, no resuelve directamente la consulta planteada. El texto está en gallego y explica que no se encontró el nombre del rector, pero no cumple el objetivo de identificarlo."
+    }
+  },
+  {
+    "question": "¿Quién encabeza el equipo rectoral?",
+    "retrieval": {
+      "question": "¿Quién encabeza el equipo rectoral?",
+      "gold_docs": [
+        "equipo_reitoral_2b7d8c43.txt"
+      ],
+      "retrieved_docs": [
+        "equipo_reitoral_2b7d8c43.txt",
+        "tui_7df940d2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "equipo_reitoral_2b7d8c43.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "tui_7df940d2.txt",
+        "equipo_reitoral_2b7d8c43.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "tui_7df940d2.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.3,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "¿Quién encabeza el equipo rectoral?",
+      "generated_answer": "Segundo a información proporcionada, o rector da Universidade da Coruña (UDC) é Ricardo Cao Abad. \n\nO equipo reitoral está composto por:\n\n1. Ricardo Cao Abad - Reitor\n2. Marta García Pérez - Secretaría Xeral\n3. María Jesús Grela Barreiro - Xerencia\n4. Mª Cristina Naya Riveiro - Vicerrectorado de Divulgación, Cultura e Deporte\n5. Jerónimo Puertas Agudo - Vicerrectorado de Infraestruturas e Sustentabilidade\n6. Teresa López Fernández - Vicerrectorado de Investigación e Transferencia\n7. Moisés Canle López - Vicerrectorado de Profesorado\n8. Ana Isabel Ares Pernas - Vicerrectorado de Titulacións e Internacionalización\n9. Vicerrectorado do Campus de Ferrol e Responsabilidade Social (sen nome especificado)\n\nCada membro ten un correo electrónico institucional asociado ao seu cargo.",
+      "expected_answers": [
+        "Ricardo Cao Abad"
+      ],
+      "faithfulness_score": 0.9,
+      "faithfulness_explanation": "[9/10 claims] La afirmación sobre el Vicerrectorado del Campus de Ferrol y Responsabilidad Social sin nombre específico no está completamente respaldada por el contexto. Todas las demás afirmaciones están directamente respaldadas por el texto del archivo equipo_reitoral_2b7d8c43.txt, incluyendo nombres, cargos y correos electrónicos.",
+      "answer_relevance_score": 1.0,
+      "answer_relevance_explanation": "La respuesta aborda directamente la pregunta identificando claramente a Ricardo Cao Abad como rector y proporcionando además la lista completa del equipo rectoral. La información es precisa, relevante y responde completamente lo solicitado."
+    }
+  },
+  {
+    "question": "Cuál es el horario habitual del Edificio Xoana Capdevielle",
+    "retrieval": {
+      "question": "Cuál es el horario habitual del Edificio Xoana Capdevielle",
+      "gold_docs": [
+        "horarios_4e320c1a.txt"
+      ],
+      "retrieved_docs": [
+        "horarios_4e320c1a.txt",
+        "document_cef17864.txt",
+        "document_cd41648a.txt",
+        "document_cef17864.txt",
+        "document_cd41648a.txt",
+        "document_cef17864.txt",
+        "horarios_4e320c1a.txt",
+        "document_cd41648a.txt",
+        "document_cef17864.txt",
+        "document_cef17864.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Cuál es el horario habitual del Edificio Xoana Capdevielle",
+      "generated_answer": "Segundo o documento de horarios da UDC, o Edificio Xoana Capdevielle (no campus de Elviña) ten os seguintes horarios:\n\n- Do 1 ao 31 de agosto: \n  * De luns a venres: de 9:15h a 13:45h\n  * Sábados, domingos e festivos: pechado\n\n- Conta con 654 prazas dispoñibles\n\nTamén hai información sobre outros períodos do ano, pero para o Edificio Xoana Capdevielle non se detallan máis horarios no documento. Se necesitas información doutras datas, recomendaría consultar directamente na web da UDC.",
+      "expected_answers": [
+        "De lunes a viernes: de las 8:15 h a las 21.45 h"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[3/3 claims] Todas las afirmaciones están directamente respaldadas por el contexto del documento horarios_4e320c1a.txt",
+      "answer_relevance_score": 0.7,
+      "answer_relevance_explanation": "La respuesta proporciona el horario del Edificio Xoana Capdevielle para el mes de agosto, lo cual responde parcialmente a la pregunta. Sin embargo, incluye información adicional sobre plazas disponibles que no es relevante y sugiere consultar más información en otro lugar. El texto está en gallego, lo que podría dificultar la comprensión para algunos lectores. La respuesta no cubre el horario habitual completo del edificio, solo un período específico."
+    }
+  },
+  {
+    "question": "Cuántos ejemplares reune la biblioteca de Informática",
+    "retrieval": {
+      "question": "Cuántos ejemplares reune la biblioteca de Informática",
+      "gold_docs": [
+        "biblioteca-0_5eff5a6a.txt"
+      ],
+      "retrieved_docs": [
+        "document_cd41648a.txt",
+        "prestamo_fb00e6da.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "tui_7df940d2.txt",
+        "prestamo_fb00e6da.txt",
+        "document_cd41648a.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "Cuántos ejemplares reune la biblioteca de Informática",
+      "generated_answer": "Sentinto, pero non podo atopar no contexto proporcionado información específica sobre o número exacto de exemplares ou fondos documentais da biblioteca de informática da UDC. \n\nOs documentos achegados falan sobre servizos xerais de préstamo da biblioteca, como:\n\n- Préstamo de portátiles en varias bibliotecas\n- Condicións de préstamo \n- Préstamo intercentros\n\nSe quere información precisa sobre o número de exemplares, recomendaríalle contactar directamente coa Biblioteca da Facultade de Informática ou consultar o seu catálogo en liña.",
+      "expected_answers": [
+        "25.570 ejemplares"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[3/3 claims] Todas las afirmaciones están respaldadas por el contexto o la ausencia de información específica. La respuesta reconoce explícitamente que no hay información sobre el número de ejemplares de la biblioteca de Informática en los documentos proporcionados.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta no proporciona el número de ejemplares de la biblioteca de Informática. En su lugar, explica que no tiene información específica y sugiere contactar directamente con la biblioteca. No resuelve la pregunta original, solo ofrece una orientación para obtener la información."
+    }
+  },
+  {
+    "question": "Cuántos libros hay en la biblioteca de la facultad de informática",
+    "retrieval": {
+      "question": "Cuántos libros hay en la biblioteca de la facultad de informática",
+      "gold_docs": [
+        "biblioteca-0_5eff5a6a.txt"
+      ],
+      "retrieved_docs": [
+        "prestamo_fb00e6da.txt",
+        "horarios_7642b102.txt",
+        "document_cd41648a.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "Cuántos libros hay en la biblioteca de la facultad de informática",
+      "generated_answer": "Sentino moito, pero non podo atopar no contexto proporcionado información específica sobre o número de libros existentes na Biblioteca da Facultade de Informática da UDC. Os documentos achegados falan de servizos de préstamo, reservas e normativa xeral da biblioteca, pero non mencionan o número concreto de volumes nunha biblioteca específica. Para obter esa información precisa, recomendaríalle contactar directamente coa Biblioteca da Facultade de Informática.",
+      "expected_answers": [
+        "25.570 ejemplares"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[3/3 claims] Todas las afirmaciones están respaldadas por la ausencia de información específica en el contexto. La respuesta reconoce explícitamente que no hay datos sobre el número de libros en la Biblioteca de la Facultad de Informática y recomienda contactar directamente para obtener esa información.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y no proporciona el número de libros solicitado. Reconoce explícitamente que no tiene la información específica y sugiere contactar directamente con la biblioteca, lo cual indica que no puede responder a la pregunta original. No entrega el dato concreto que se solicita, por lo que su relevancia es muy baja."
+    }
+  },
+  {
+    "question": "Cuántos créditos tiene el grado en estudios de arquitectura",
+    "retrieval": {
+      "question": "Cuántos créditos tiene el grado en estudios de arquitectura",
+      "gold_docs": [
+        "630g02v01_3d9b1a3f.txt"
+      ],
+      "retrieved_docs": [
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cd41648a.txt",
+        "document_cd41648a.txt",
+        "document_cd41648a.txt",
+        "document_cd41648a.txt",
+        "document_cd41648a.txt",
+        "document_cd41648a.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cd41648a.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "Cuántos créditos tiene el grado en estudios de arquitectura",
+      "generated_answer": "Sentinto, pero non podo atopar no contexto proporcionado información específica sobre os créditos totais do grao de Arquitectura na Universidade da Coruña. Os documentos achegados falan sobre recoñecemento de créditos e normas de matrícula, pero non mencionan o número total de créditos para este grao en particular. \n\nPara obter esa información precisa, recomendaríalle consultar directamente o plan de estudos de Arquitectura na web da UDC ou contactar coa secretaría do centro.",
+      "expected_answers": [
+        "300 créditos"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[2/2 claims] Todas las afirmaciones están respaldadas por la ausencia de información específica en el contexto",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y no proporciona el número de créditos solicitado. Aunque reconoce la falta de información y sugiere formas de obtenerla, no responde directamente a la pregunta sobre cuántos créditos tiene el grado de arquitectura. La respuesta es más una orientación para buscar la información que una resolución concreta de la consulta."
+    }
+  },
+  {
+    "question": "Cuál es el horario de atención de la secretaría de la facultad de informática",
+    "retrieval": {
+      "question": "Cuál es el horario de atención de la secretaría de la facultad de informática",
+      "gold_docs": [
+        "horarios-de-atencion_d6d236bf.txt"
+      ],
+      "retrieved_docs": [
+        "horarios-de-atencion_d6d236bf.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cd41648a.txt",
+        "horarios_4e320c1a.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "document_cd41648a.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "document_cd41648a.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.3,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Cuál es el horario de atención de la secretaría de la facultad de informática",
+      "generated_answer": "Segundo a información dispoñible, o horario de atención ao público na Secretaría da Facultade de Informática da UDC é:\n\n- De 9:15h a 13:45h\n\nImportante ter en conta:\n- Para realizar calquera trámite, o alumnado debe enviar un correo electrónico a administracion.fic@udc.es\n- O correo debe ser enviado desde o seu email institucional @udc\n- Debe indicar claramente o trámite que desexa realizar\n- É obrigatorio o uso de máscara e respectar as normas de seguridade sanitarias",
+      "expected_answers": [
+        "El horario de atención al público en la Secretaría de la Facultad de Informática será de 9:15h a 13:45h"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[5/5 claims] Todas las afirmaciones están directamente respaldadas por el contexto del archivo horarios-de-atencion_d6d236bf.txt",
+      "answer_relevance_score": 1.0,
+      "answer_relevance_explanation": "La respuesta proporciona directamente el horario de atención de la secretaría de la Facultad de Informática (9:15h a 13:45h), que es exactamente lo que se preguntó. Además, incluye información adicional útil sobre cómo realizar trámites, lo cual complementa la respuesta sin distraer del punto principal."
+    }
+  },
+  {
+    "question": "Cuál es el horario de la biblioteca de la facultad de sociología en días lectivos",
+    "retrieval": {
+      "question": "Cuál es el horario de la biblioteca de la facultad de sociología en días lectivos",
+      "gold_docs": [
+        "horarios_7642b102.txt"
+      ],
+      "retrieved_docs": [
+        "horarios_7642b102.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "tui_7df940d2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "horarios_7642b102.txt",
+        "horarios_7642b102.txt",
+        "coordinadores-academicos_867aace4.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.3,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Cuál es el horario de la biblioteca de la facultad de sociología en días lectivos",
+      "generated_answer": "Segundo a información dispoñible, a Biblioteca de Socioloxía e Ciencias da Comunicación da UDC está:\n\n- Aberta de luns a venres\n- Os horarios de atención ao público varían ao longo do ano\n\nRecomendaría consultar directamente na web da biblioteca ou contactar con eles para coñecer os horarios exactos dos días lectivos, xa que non se especifican horas concretas no documento.\n\nPara máis detalles, podes contactar co seguinte correo electrónico: mobilidade.socioloxia@udc.es",
+      "expected_answers": [
+        "Días lectivos: 8.30h - 21.30h, Junio, Julio y Septiembre (hasta comienzo de curso): 9.00h - 20.00h, Agosto, Navidad, Lunes de Carnaval, Semana Santa: 9.15h - 13.45h"
+      ],
+      "faithfulness_score": 0.75,
+      "faithfulness_explanation": "[3/4 claims] Afirmaciones respaldadas: 1) Biblioteca abierta de lunes a viernes, 2) Horarios varían a lo largo del año, 3) Correo de contacto correcto. No respaldada: Recomendación de contactar directamente (no es un hecho verificable en el contexto).",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y no proporciona el horario específico de la biblioteca en días lectivos. Aunque menciona que está abierta de lunes a viernes, no detalla las horas concretas. Sugiere contactar para obtener más información, pero no resuelve directamente la consulta sobre el horario. Además, no está en el idioma de la pregunta original."
+    }
+  },
+  {
+    "question": "Cuánto dura el grado de arquitectura",
+    "retrieval": {
+      "question": "Cuánto dura el grado de arquitectura",
+      "gold_docs": [
+        "630g02v01_3d9b1a3f.txt"
+      ],
+      "retrieved_docs": [
+        "tui_7df940d2.txt",
+        "document_cd41648a.txt",
+        "equipo_reitoral_2b7d8c43.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "document_cd41648a.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "tui_7df940d2.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "Cuánto dura el grado de arquitectura",
+      "generated_answer": "Baseándome no contexto proporcionado, non atopo información específica sobre a duración do grao de Arquitectura na Universidade da Coruña. Os documentos dispoñibles non mencionan os anos ou créditos deste plan de estudos en concreto.\n\nPara obter información precisa sobre a duración exacta do grao de Arquitectura, recomendaríalle consultar directamente a web da Facultade de Arquitectura da UDC ou contactar coa secretaría do centro.",
+      "expected_answers": [
+        "300 créditos (equivalente a 5 años)"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[2/2 claims] Ambas afirmaciones están respaldadas por la ausencia de información en el contexto. La primera afirmación reconoce explícitamente que no hay información sobre la duración del grado de Arquitectura, y la segunda sugiere consultar fuentes oficiales, lo cual es una recomendación apropiada cuando no se encuentra información en el contexto proporcionado.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y no proporciona información concreta sobre la duración del grado de arquitectura. En lugar de dar una respuesta directa, sugiere consultar otras fuentes. No resuelve la pregunta original sobre cuántos años dura el grado de arquitectura."
+    }
+  },
+  {
+    "question": "Cuánto créditos tengo por equipos federados propios de la UDC",
+    "retrieval": {
+      "question": "Cuánto créditos tengo por equipos federados propios de la UDC",
+      "gold_docs": [
+        "document_cd41648a.txt"
+      ],
+      "retrieved_docs": [
+        "document_cd41648a.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cd41648a.txt",
+        "document_cd41648a.txt",
+        "document_cd41648a.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cd41648a.txt",
+        "document_cd41648a.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cd41648a.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.7,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Cuánto créditos tengo por equipos federados propios de la UDC",
+      "generated_answer": "Despois de revisar coidadosamente o contexto proporcionado, non atopo información específica sobre créditos por participación en equipos federados na UDC. Os documentos mencionan recoñecemento de créditos para diversas actividades como representación estudantil, actividades culturais e de internacionalización, pero non hai referencia directa a equipos federados.\n\nPara obter información precisa sobre este tema, recomendaría consultar directamente coa Vicerreitoría de Estudantes ou a Área de Deportes da UDC, xa que eles poderán proporcionar os detalles exactos sobre o recoñecemento de créditos por participación en equipos federados.",
+      "expected_answers": [
+        "1,5 créditos ECTS por curso académico"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[2/2 claims] Ambas afirmaciones están respaldadas por la ausencia de información en el contexto. La primera afirmación indica que no hay información específica sobre créditos por equipos federados, lo cual es correcto según los documentos proporcionados. La segunda afirmación sugiere consultar directamente a las autoridades universitarias, lo cual es una recomendación razonable ante la falta de información.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta no proporciona información concreta sobre los créditos por equipos federados propios de la UDC. Aunque reconoce la falta de información específica y sugiere consultar directamente a las autoridades, no resuelve la duda planteada. La respuesta es más una recomendación de dónde buscar la información que una respuesta directa a la pregunta."
+    }
+  },
+  {
+    "question": "Cuánto tiempo tengo para modificar el contrato de estudios de movilidad",
+    "retrieval": {
+      "question": "Cuánto tiempo tengo para modificar el contrato de estudios de movilidad",
+      "gold_docs": [
+        "document_5958ed71.txt"
+      ],
+      "retrieved_docs": [
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "document_cef17864.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "Cuánto tiempo tengo para modificar el contrato de estudios de movilidad",
+      "generated_answer": "Baseándome no contexto proporcionado, non atopo información específica sobre o prazo de modificación do contrato de estudos para estudantes de intercambio na normativa académica da UDC.\n\nOs documentos mencionan aspectos de mobilidade e prácticas externas, pero non detallan concretamente os prazos para modificar contratos de estudos en programas de intercambio.\n\nSe quere información precisa sobre este trámite, recomendaríalle contactar directamente coa Oficina de Relacións Internacionais (ORI) da Universidade da Coruña, xa que eles poderán proporcionarlle os detalles exactos sobre os prazos de modificación de contratos de estudos.",
+      "expected_answers": [
+        "Plazo de un mes desde el inicio de las actividades académicas en la universidad de destino."
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[3/3 claims] Todas las afirmaciones están respaldadas por el contexto o por la ausencia de información específica",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y no proporciona información concreta sobre el tiempo específico para modificar el contrato de estudios. Aunque sugiere contactar con la Oficina de Relaciones Internacionales, no responde directamente a la pregunta sobre el plazo de modificación. La respuesta es más una recomendación de consulta que una resolución del tiempo disponible para modificar el contrato."
+    }
+  },
+  {
+    "question": "Quién se encarga de gestionar las becas y las ayudas a la movilidad",
+    "retrieval": {
+      "question": "Quién se encarga de gestionar las becas y las ayudas a la movilidad",
+      "gold_docs": [
+        "document_5958ed71.txt"
+      ],
+      "retrieved_docs": [
+        "coordinadores-academicos_867aace4.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "tui_7df940d2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "tui_7df940d2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "coordinadores-academicos_867aace4.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "Quién se encarga de gestionar las becas y las ayudas a la movilidad",
+      "generated_answer": "Baseándome no contexto proporcionado, podo informarlle sobre as becas de mobilidade para estudantes na Universidade da Coruña (UDC):\n\nA UDC ofrece varios tipos de becas de mobilidade:\n\n1. Tipos de Mobilidade:\n- Erasmus\n- Convenios bilaterais\n- Libre mobilidade\n- Mobilidade nacional SICUE\n\n2. Tipos de Becas:\n- Becas complementarias ao programa Erasmus e bilateral\n- Becas de competencias lingüísticas\n- Prácticas en empresas\n\n3. Información Adicional:\n- Dispoñen de formularios de mobilidade internacional\n- Contacto para mobilidade: mobilidade.epef@udc.es (Escola Politécnica de Enxeñaría)\n\nPara obter máis detalles específicos, recomendo contactar directamente coa Oficina de Relacións Internacionais (ORI) da UDC.",
+      "expected_answers": [
+        "Oficina de Relaciones Internacionales (ORI) en lo que no sea responsabilidad de los centros"
+      ],
+      "faithfulness_score": 0.875,
+      "faithfulness_explanation": "[7/8 claims] Afirmaciones respaldadas: 1) Tipos de movilidad (Erasmus, convenios bilaterales, libre movilidad, SICUE), 2) Becas complementarias, 3) Becas de competencias lingüísticas, 4) Prácticas en empresas, 5) Existencia de formularios de movilidad internacional, 6) Email de contacto de movilidad, 7) Referencia a la Oficina de Relaciones Internacionales. La única afirmación NO respaldada es la recomendación de contactar directamente, que aunque parece razonable, no está explícitamente en el contexto.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta proporciona información sobre becas de movilidad de una universidad específica (UDC), pero no responde directamente a quién gestiona las becas y ayudas de movilidad en general. Solo menciona detalles de una universidad y no aborda el agente o institución responsable de la gestión de becas a nivel más amplio."
+    }
+  },
+  {
+    "question": "Cuánto tiempo tengo para modificar mis asignaturas de erasmus",
+    "retrieval": {
+      "question": "Cuánto tiempo tengo para modificar mis asignaturas de erasmus",
+      "gold_docs": [
+        "document_5958ed71.txt"
+      ],
+      "retrieved_docs": [
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cef17864.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "Cuánto tiempo tengo para modificar mis asignaturas de erasmus",
+      "generated_answer": "Despois de revisar coidadosamente o contexto proporcionado, non atopo información específica sobre o prazo de modificación de asignaturas para estudantes Erasmus na normativa da Universidade da Coruña (UDC). \n\nOs documentos achegados tratan sobre dedicación de estudantes, normativas académicas xerais e condicións de permanencia, pero non mencionan explicitamente os prazos para modificación de asignaturas no programa Erasmus.\n\nPara obter información precisa sobre este tema, recomendaríalle contactar directamente coa Oficina de Relacións Internacionais da UDC ou consultar a súa web oficial de Erasmus.",
+      "expected_answers": [
+        "Plazo de un mes desde el inicio de las actividades académicas en la universidad de destino."
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[3/3 claims] Todas las afirmaciones están respaldadas por la ausencia de información específica en el contexto proporcionado. La respuesta reconoce explícitamente que no hay información sobre modificación de asignaturas Erasmus en los documentos, y recomienda contactar directamente con la oficina correspondiente.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y no proporciona información concreta sobre el tiempo para modificar asignaturas de Erasmus. Aunque sugiere contactar con la Oficina de Relaciones Internacionales, no responde directamente a la pregunta sobre el plazo específico de modificación. La respuesta es más una explicación de que no se encontró información, en lugar de una solución práctica para el estudiante."
+    }
+  },
+  {
+    "question": "Cuántos créditos son los cursos de formación deportiva",
+    "retrieval": {
+      "question": "Cuántos créditos son los cursos de formación deportiva",
+      "gold_docs": [
+        "document_cd41648a.txt"
+      ],
+      "retrieved_docs": [
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "tui_7df940d2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "equipo_reitoral_2b7d8c43.txt",
+        "document_cd41648a.txt",
+        "tui_7df940d2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "tui_7df940d2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.1,
+      "mrr": 0.2,
+      "rank_first_relevant": 5
+    },
+    "generation": {
+      "question": "Cuántos créditos son los cursos de formación deportiva",
+      "generated_answer": "De acordo co documento de dedicación da UDC, os estudantes poderán obter recoñecemento académico de créditos polas seguintes actividades deportivas:\n\n- 3 créditos ECTS por escola deportiva con asistencia anual\n- 1,5 créditos ECTS por escola deportiva con asistencia cuadrimestral\n\nTamén se mencionan cursos de formación deportiva, aínda que non se especifican os créditos concretos para estes cursos.",
+      "expected_answers": [
+        "1,5 créditos ECTS cada 30 horas de formación "
+      ],
+      "faithfulness_score": 0.75,
+      "faithfulness_explanation": "[3/4 claims] Afirmaciones respaldadas: 1) 3 créditos ECTS por escola deportiva con asistencia anual, 2) 1,5 créditos ECTS por escola deportiva con asistencia cuadrimestral, 3) Mención de actividades deportivas para reconocimiento de créditos. Afirmación no respaldada: Mención de cursos de formación deportiva sin especificar créditos (no hay detalles específicos en el contexto sobre estos cursos).",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y proporciona información sobre créditos de escuelas deportivas, pero no responde directamente a cuántos créditos tienen específicamente los cursos de formación deportiva. Solo menciona que hay cursos de formación deportiva sin especificar sus créditos, lo cual no resuelve completamente la pregunta original."
+    }
+  },
+  {
+    "question": "Número de créditos mínimos para matrícula",
+    "retrieval": {
+      "question": "Número de créditos mínimos para matrícula",
+      "gold_docs": [
+        "dedicacion_e.txt_2063069294_f7b3dfc2"
+      ],
+      "retrieved_docs": [
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cd41648a.txt",
+        "document_cef17864.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cd41648a.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.7,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Número de créditos mínimos para matrícula",
+      "generated_answer": "Segundo a normativa da Universidade da Coruña (UDC), os requisitos de matrícula son:\n\nPara estudantes a tempo completo:\n- Primeiro curso: 60 créditos\n- Cursos seguintes: entre 48 e 78 créditos\n- Deben superar un mínimo de 60 créditos cada dous ou tres anos académicos\n\nPara estudantes a tempo parcial:\n- Non se especifica un número mínimo concreto de créditos no contexto proporcionado\n\nA normativa busca que o estudantado poida axustar a súa matrícula segundo as súas circunstancias persoais, socioeconómicas e laborais, promovendo un rendemento académico sostible.\n\nHai excepcións para estudantes que estean a piques de rematar os seus estudos ou para títulos que dean acceso a profesións reguladas, onde os requisitos mínimos de créditos superados no primeiro ano son diferentes.",
+      "expected_answers": [
+        "Los estudiantes de  primer  curso,  por  primera  vez,  deberán superar en ese curso académico al menos 12 créditos, si la matrícula se efectuó en el régimen de dedicación a  tiempo  completo, y 6 créditos en el régimen de dedicación  a  tiempo  parcial para poder  tener  la  consideración  de  estudiante  de  continuación  de  estudios"
+      ],
+      "faithfulness_score": 0.875,
+      "faithfulness_explanation": "[7/8 claims] Afirmaciones no respaldadas: 'Para estudantes a tempo parcial: Non se especifica un número mínimo concreto de créditos no contexto proporcionado' - Esta afirmación no está directamente respaldada por el contexto, aunque es técnicamente cierta.",
+      "answer_relevance_score": 0.7,
+      "answer_relevance_explanation": "La respuesta proporciona información detallada sobre los créditos mínimos para matrícula en la Universidad de A Coruña, especificando los requisitos para estudiantes a tiempo completo (60 créditos en primer curso, entre 48-78 en cursos siguientes). Sin embargo, incluye información adicional sobre excepciones y contexto que no fue específicamente solicitada, lo que hace que la respuesta sea algo extensa. El tono es formal y técnico, adecuado para una consulta académica."
+    }
+  },
+  {
+    "question": "Qué tipo de prácticas hay en la facultad de informática",
+    "retrieval": {
+      "question": "Qué tipo de prácticas hay en la facultad de informática",
+      "gold_docs": [
+        "practicas-en-empresa_a40b7284.txt"
+      ],
+      "retrieved_docs": [
+        "practicas-en-empresa_a40b7284.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "practicas-en-empresa_a40b7284.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.8,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Qué tipo de prácticas hay en la facultad de informática",
+      "generated_answer": "Na Facultade de Informática da Coruña (FIC), as prácticas académicas externas teñen os seguintes aspectos destacados:\n\n1. Obxectivos:\n- Permitir aos estudantes aplicar coñecementos académicos\n- Complementar a formación\n- Adquirir competencias profesionais\n- Mellorar a empregabilidade\n- Fomentar o emprendemento\n\n2. Tipos de Prácticas:\n- Prácticas curriculares (optativa no Plan de Estudos)\n- Prácticas extracurriculares\n\n3. Características:\n- Supervisadas pola universidade\n- Cada práctica ten:\n  - Un titor profesional da empresa\n  - Un titor académico da FIC\n\n4. Seguimento:\n- O estudante entrega informes quincenais\n- Ao finalizar, presenta unha memoria final\n- O titor profesional envía un informe ao Decanato\n- O titor académico emite unha calificación\n\n5. Convenios:\n- A FIC ten acordos con entidades colaboradoras\n- Ofrecen prácticas anualmente para estudantes de Enxeñaría Informática",
+      "expected_answers": [
+        "Prácticas curriculares y extracurriculares"
+      ],
+      "faithfulness_score": 0.9,
+      "faithfulness_explanation": "[13/14 claims] Casi todas las afirmaciones están respaldadas por el contexto. La única afirmación no completamente respaldada es 'Fomentar o emprendemento', que aunque está implícitamente mencionada en el contexto original, no está tan explícitamente declarada como las otras.",
+      "answer_relevance_score": 0.7,
+      "answer_relevance_explanation": "La respuesta está en gallego y proporciona información detallada sobre las prácticas en la Facultad de Informática de A Coruña, pero no está en español y contiene más detalles de los necesarios. Describe tipos de prácticas, objetivos, características y seguimiento, lo cual es relevante, pero podría ser más concisa y directa. Además, la información es específica de una facultad, lo que limita su generalidad."
+    }
+  },
+  {
+    "question": "Cuanto es la cantidad mínima de asignaturas en la que me puedo matricular si soy estudiante a tiempo completo",
+    "retrieval": {
+      "question": "Cuanto es la cantidad mínima de asignaturas en la que me puedo matricular si soy estudiante a tiempo completo",
+      "gold_docs": [
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt"
+      ],
+      "retrieved_docs": [
+        "document_cef17864.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cef17864.txt",
+        "document_cef17864.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cef17864.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "document_cef17864.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "rank_first_relevant": 2
+    },
+    "generation": {
+      "question": "Cuanto es la cantidad mínima de asignaturas en la que me puedo matricular si soy estudiante a tiempo completo",
+      "generated_answer": "Baseándome no contexto proporcionado, podo informar sobre os requisitos de matrícula a tempo completo na Universidade da Coruña (UDC):\n\nPara estudantes de primeiro curso:\n- Deben matricularse entre 36 e 60 créditos\n\nPara estudantes de continuación de estudos:\n- Deben matricularse sempre primeiro nas asignaturas de formación básica e obrigatorias\n- O número de créditos non pode ser inferior a 24 nin superior a 48, salvo que queden poucos créditos para finalizar os estudos\n\nRequisitos adicionais:\n- Os estudantes a tempo completo deben superar un mínimo de 36 créditos obrigatorios no primeiro curso\n- Se non cumpren estes requisitos, o decano/director do centro pode admitir novamente a matrícula no seguinte curso académico\n\nEstas normas aplícanse aos estudos oficiais de grao e mestrado universitario da UDC.",
+      "expected_answers": [
+        "Un  número  no  inferior  a  48  créditos"
+      ],
+      "faithfulness_score": 0.875,
+      "faithfulness_explanation": "[7/8 claims] Afirmaciones no respaldadas: La afirmación sobre matricularse entre 36 y 60 créditos en primer curso no está directamente en el contexto. Todas las demás afirmaciones están respaldadas por los documentos proporcionados.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego/portugués y proporciona información detallada sobre créditos en la Universidad de A Coruña, pero no responde directamente a la pregunta sobre la cantidad MÍNIMA de asignaturas para un estudiante a tiempo completo. Menciona rangos de 24 a 48 créditos, pero no es clara ni está en español. No ofrece una respuesta concreta y directa a la pregunta planteada."
+    }
+  },
+  {
+    "question": "Cuantos libros puedo llevarme de préstamo",
+    "retrieval": {
+      "question": "Cuantos libros puedo llevarme de préstamo",
+      "gold_docs": [
+        "prestamo_fb00e6da.txt"
+      ],
+      "retrieved_docs": [
+        "prestamo_fb00e6da.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "tui_7df940d2.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.8,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Cuantos libros puedo llevarme de préstamo",
+      "generated_answer": "Baseándome no contexto proporcionado, podo informar que o límite de préstamo varía segundo o tipo de usuario:\n\n- Usuarios de investigación: ata 35 documentos por curso académico\n- Profesorado xubilado ou honorario: ata 100 documentos por curso académico\n- Profesorado visitante: ata 100 documentos por curso académico\n\nCada biblioteca pode establecer algunhas restriccións segundo a dispoñibilidade e uso dos documentos. Ademais, as renovacións son indefinidas para estes grupos.\n\nPara usuarios externos autorizados pola Biblioteca Universitaria, o préstamo é de 10 días, pero non se especifica un límite concreto de documentos.",
+      "expected_answers": [
+        "Depende del grupo de usuario: Grupo 1 (estudiantes de grado): 10, Grupo 2 (estudiantes de máster, TFG, PAS): 15, Grupo 3 (estudiantes de doctorado, personal investigador): 35, PDI: 100"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[6/6 claims] Todas las afirmaciones están directamente respaldadas por el contexto proporcionado",
+      "answer_relevance_score": 0.7,
+      "answer_relevance_explanation": "La respuesta proporciona información detallada sobre los límites de préstamo de libros para diferentes tipos de usuarios, lo cual es relevante. Sin embargo, está escrita en un idioma que parece ser gallego o portugués, lo que puede dificultar la comprensión. Además, incluye detalles adicionales sobre renovaciones y préstamos que no fueron específicamente solicitados en la pregunta original. La información es útil pero no completamente concisa."
+    }
+  },
+  {
+    "question": "Cuantos días de préstamo me corresponden si soy estudiante de doctorado",
+    "retrieval": {
+      "question": "Cuantos días de préstamo me corresponden si soy estudiante de doctorado",
+      "gold_docs": [
+        "prestamo_fb00e6da.txt"
+      ],
+      "retrieved_docs": [
+        "prestamo_fb00e6da.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "tui_7df940d2.txt",
+        "horarios_4e320c1a.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "prestamo_fb00e6da.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Cuantos días de préstamo me corresponden si soy estudiante de doctorado",
+      "generated_answer": "Baseándome no contexto proporcionado, non atopo información específica sobre os días de préstamo para estudantes de doutoramento na normativa da Biblioteca da UDC. \n\nOs documentos só mencionan aspectos xerais do préstamo, como:\n- Requírese tarxeta de usuario ou DNI/pasaporte\n- Algúns documentos non son prestables por razóns de conservación\n- Hai préstamo de portátiles con duración de 6 horas\n\nPara obter información precisa sobre os días de préstamo para estudantes de doutoramento, recomendaríalle consultar directamente coa Biblioteca Universitaria da UDC, xa que os documentos dispoñibles non especifican este detalle.",
+      "expected_answers": [
+        "30 días"
+      ],
+      "faithfulness_score": 0.75,
+      "faithfulness_explanation": "[3/4 claims] Afirmaciones no respaldadas: La recomendación de consultar directamente a la Biblioteca no está en el contexto proporcionado. Las otras afirmaciones sobre requisitos de préstamo y características generales están respaldadas por el texto.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y no proporciona información específica sobre los días de préstamo para estudiantes de doctorado. En lugar de dar una respuesta directa, sugiere consultar directamente a la biblioteca, lo cual no resuelve la duda planteada. La respuesta incluye información sobre préstamo de portátiles y requisitos generales, pero no aborda el punto central de la pregunta sobre los días de préstamo para doctorandos."
+    }
+  },
+  {
+    "question": "Quien es el coordinador responsable de relaciones internacionales en la facultad de informática",
+    "retrieval": {
+      "question": "Quien es el coordinador responsable de relaciones internacionales en la facultad de informática",
+      "gold_docs": [
+        "coordinadores-academicos_867aace4.txt"
+      ],
+      "retrieved_docs": [
+        "coordinadores-academicos_867aace4.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "document_5958ed71.txt",
+        "equipo_reitoral_2b7d8c43.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "document_cd41648a.txt",
+        "tui_7df940d2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "coordinadores-academicos_867aace4.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.3,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Quien es el coordinador responsable de relaciones internacionales en la facultad de informática",
+      "generated_answer": "Baseándome no contexto proporcionado, especificamente no documento \"document_5958ed71.txt\", podo informar que:\n\nEn cada facultade ou escola da UDC haberá unha persoa responsable de dirixir e xestionar a política de internacionalización do centro. Esta función corresponderá a un membro do equipo de dirección do centro, que a desenvolverá en equipo.\n\nPara obter os datos específicos do coordinador de relacións internacionais da Facultade de Informática, recomendaría contactar directamente coa secretaría do centro ou consultar a súa páxina web oficial.",
+      "expected_answers": [
+        "Diego Andrade"
+      ],
+      "faithfulness_score": 0.75,
+      "faithfulness_explanation": "[3/4 claims] Afirmaciones respaldadas: 1) En cada facultad o escuela de la UDC habrá una persona responsable de dirigir y gestionar la política de internacionalización del centro (documento_5958ed71.txt). 2) Esta función corresponderá a un miembro del equipo de dirección del centro (documento_5958ed71.txt). 3) La desarrollará en equipo (documento_5958ed71.txt). Afirmación NO respaldada: Recomendación de contactar a secretaría o consultar web oficial (no hay evidencia en el contexto de esto).",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta no identifica al coordinador específico de relaciones internacionales de la Facultad de Informática. En lugar de proporcionar el nombre concreto, ofrece información general sobre la existencia de un responsable y sugiere contactar con la secretaría para obtener los datos precisos. No resuelve directamente la pregunta planteada, por lo que su relevancia es baja."
+    }
+  },
+  {
+    "question": "Cuantas plazas hay para el grado en Inteligencia Artificial",
+    "retrieval": {
+      "question": "Cuantas plazas hay para el grado en Inteligencia Artificial",
+      "gold_docs": [
+        "NotasCorte_C_2025_Plazas.txt_2063069294_91ca9fd9.txt"
+      ],
+      "retrieved_docs": [
+        "tui_7df940d2.txt",
+        "horarios_4e320c1a.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "reitoria_b00f07ed.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "Cuantas plazas hay para el grado en Inteligencia Artificial",
+      "generated_answer": "Sentino moito, pero non atopei información específica sobre as prazas dispoñibles para o grao de Intelixencia Artificial na documentación proporcionada. Os documentos inclúen información xeral sobre a UDC, como horarios de espazos de estudo e información sobre a tarxeta universitaria, pero non detalles sobre prazas de grao específicas. \n\nPara obter información precisa sobre as prazas dispoñibles para este grao, recomendaríalle contactar directamente coa secretaría da facultade ou consultar a web oficial da UDC.",
+      "expected_answers": [
+        "50"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[3/3 claims] Todas las afirmaciones están respaldadas por la ausencia de información específica en el contexto proporcionado. La respuesta reconoce explícitamente que no hay datos sobre plazas para el grado de Inteligencia Artificial, y recomienda contactar directamente con la universidad para obtener información precisa.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y no proporciona el número de plazas para el grado de Inteligencia Artificial. Aunque reconoce la falta de información y sugiere contactar con la secretaría, no resuelve directamente la pregunta planteada. El texto explica que no encontró los datos específicos solicitados, pero no ofrece una solución concreta sobre el número de plazas."
+    }
+  },
+  {
+    "question": "Que grados de ciencias de la salud hay en el campus de A Coruña",
+    "retrieval": {
+      "question": "Que grados de ciencias de la salud hay en el campus de A Coruña",
+      "gold_docs": [
+        "NotasCorte_C_2025_Plazas.txt_2063069294_91ca9fd9.txt"
+      ],
+      "retrieved_docs": [
+        "tui_7df940d2.txt",
+        "horarios_4e320c1a.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "reitoria_b00f07ed.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "tui_7df940d2.txt",
+        "emision_2feeeba7.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "tui_7df940d2.txt"
+      ],
+      "recall": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "rank_first_relevant": -1
+    },
+    "generation": {
+      "question": "Que grados de ciencias de la salud hay en el campus de A Coruña",
+      "generated_answer": "Sentinto moito, pero non podo atopar información específica sobre os graos de Ciencias da Saúde na Universidade da Coruña nos documentos proporcionados. O contexto actual non contén detalles sobre os graos dispoñibles nesta área. \n\nPara obter información precisa, recomendaríache consultar directamente a páxina web oficial da UDC, na sección de Estudos ou Graos, ou contactar coa secretaría da universidade.",
+      "expected_answers": [
+        "Grado en Enfermería, Grado en Fisioterapia, Grado en Logopedia, Grado en Terapia Ocupacional"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[2/2 claims] Todas las afirmaciones están respaldadas por la ausencia de información en el contexto. La respuesta reconoce explícitamente que no hay información sobre grados de Ciencias de la Salud en los documentos proporcionados y recomienda buscar información oficial, lo cual es apropiado.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y no proporciona información específica sobre los grados de ciencias de la salud en el campus de A Coruña. Aunque reconoce la falta de información y sugiere formas de obtenerla, no responde directamente a la pregunta planteada. Solo ofrece una recomendación genérica de consultar la web oficial o contactar con la secretaría, sin aportar los datos concretos solicitados."
+    }
+  },
+  {
+    "question": "Qué permite la tarjeta universitaria",
+    "retrieval": {
+      "question": "Qué permite la tarjeta universitaria",
+      "gold_docs": [
+        "tui_7df940d2.txt"
+      ],
+      "retrieved_docs": [
+        "tui_7df940d2.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "emision_2feeeba7.txt",
+        "coordinadores-academicos_867aace4.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.6,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Qué permite la tarjeta universitaria",
+      "generated_answer": "Baseándome no contexto proporcionado, podo informarlle sobre a Tarxeta Universitaria de Identificación (TUI) da UDC:\n\nCaracterísticas principais:\n- É unha tarxeta intelixente realizada en colaboración co Banco Santander\n- Acredita como membro da comunidade universitaria (estudantes, profesorado e PAS)\n- Serve como credencial de identificación\n\nServizos e beneficios:\n- Permite o acceso a múltiples servizos tecnolóxicos\n- Constitúe un sistema avanzado de información, xestión e acreditación\n- Identificación dentro da universidade\n\nLimitacións:\n- Non se emite para usuarios externos\n- Non inclúe tarxeta bibliotecaria para non membros\n- Non permite acceso a instalacións deportivas para externos\n\nQuen pode obtela:\n- Estudantes\n- Profesorado \n- Persoal de administración e servizos (PAS)\n\nA tarxeta ofrece múltiples funcionalidades para facilitar a vida universitaria dos seus membros.",
+      "expected_answers": [
+        "La tarjeta universitaria es la credencial que permite la identificación de todos los integrantes de la comunidad universitaria, brinda acceso a múltiples servicios tecnológicos y constituye un avanzado sistema de información, gestión, acreditación, préstamo bibliotecario, acceso a recintos"
+      ],
+      "faithfulness_score": 0.875,
+      "faithfulness_explanation": "[7/8 claims] Afirmaciones no respaldadas: 'Banco Santander' (aunque se menciona Santander, no se especifica 'Banco'). Todas las demás afirmaciones están directamente respaldadas por el contexto, incluyendo características de la tarjeta, servicios, limitaciones y quiénes pueden obtenerla.",
+      "answer_relevance_score": 0.7,
+      "answer_relevance_explanation": "La respuesta proporciona información detallada sobre la tarjeta universitaria, explicando sus características, servicios y quiénes pueden obtenerla. Sin embargo, está redactada en gallego y contiene más detalles de los necesarios para responder directamente a la pregunta. Aborda el tema de manera general, pero podría ser más concisa y directa en español. Incluye información útil pero también 'paja' que no es estrictamente necesaria para responder qué permite la tarjeta universitaria."
+    }
+  },
+  {
+    "question": "Qué tengo que hacer para usar la tarjeta universitaria en digital",
+    "retrieval": {
+      "question": "Qué tengo que hacer para usar la tarjeta universitaria en digital",
+      "gold_docs": [
+        "tui_7df940d2.txt",
+        "emision_2feeeba7.txt"
+      ],
+      "retrieved_docs": [
+        "tui_7df940d2.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "document_cd41648a.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "tui_7df940d2.txt",
+        "horarios-de-atencion_d6d236bf.txt",
+        "emision_2feeeba7.txt",
+        "tui_7df940d2.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.7,
+      "mrr": 1.0,
+      "rank_first_relevant": 1
+    },
+    "generation": {
+      "question": "Qué tengo que hacer para usar la tarjeta universitaria en digital",
+      "generated_answer": "A tarxeta universitaria (TUI) na Universidade da Coruña (UDC) é unha tarxeta intelixente que:\n\nCaracterísticas principais:\n- Acredita como membro da comunidade universitaria\n- Permite identificación\n- Brinda acceso a servizos tecnolóxicos\n- Funciona como sistema de información e xestión\n\nQuen pode obtela:\n- Estudantes\n- Profesorado\n- Persoal de administración e servizos\n\nFuncionalidades para estudantes:\n- Identificación\n- Préstamo bibliotecario\n- Acceso a recintos universitarios\n- Servizos tecnolóxicos\n\nCondicións importantes:\n- Perderase o dereito ao uso se se extingue o vínculo coa UDC\n- Realizada en colaboración co Banco Santander\n\nRecomendo consultar directamente na web da UDC para coñecer o procedemento exacto de solicitude e emisión.",
+      "expected_answers": [
+        "Debes añadir o actualizar tu fotogtafía"
+      ],
+      "faithfulness_score": 0.875,
+      "faithfulness_explanation": "[7/8 claims] Afirmaciones no respaldadas: 'Recomendo consultar directamente na web da UDC para coñecer o procedemento exacto de solicitude e emisión' - Esta frase no está directamente en el contexto proporcionado.",
+      "answer_relevance_score": 0.3,
+      "answer_relevance_explanation": "La respuesta está en gallego y proporciona información general sobre la tarjeta universitaria de la Universidad de A Coruña, pero no responde específicamente a cómo usar la tarjeta en formato digital. No explica los pasos concretos para la digitalización o uso digital de la tarjeta. Además, sugiere consultar en la web de la universidad en lugar de dar instrucciones directas."
+    }
+  },
+  {
+    "question": "Cual es la fecha límite de firma de actas para TFG/TFM",
+    "retrieval": {
+      "question": "Cual es la fecha límite de firma de actas para TFG/TFM",
+      "gold_docs": [
+        "document_9c5fad96.txt"
+      ],
+      "retrieved_docs": [
+        "practicas-en-empresa_a40b7284.txt",
+        "document_cef17864.txt",
+        "document_9c5fad96.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "dedicacion_e.txt_2063069294_f7b3dfc2.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "practicas-en-empresa_a40b7284.txt",
+        "document_cef17864.txt",
+        "document_9c5fad96.txt",
+        "horarios-de-atencion_d6d236bf.txt"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.3333333333333333,
+      "rank_first_relevant": 3
+    },
+    "generation": {
+      "question": "Cual es la fecha límite de firma de actas para TFG/TFM",
+      "generated_answer": "Segundo a normativa académica da UDC, a data límite para a firma e entrega de actas de Traballos Fin de Grao (TFG) e Traballos Fin de Máster (TFM) é o 30 de setembro de 2026.\n\nEsta información atópase no documento document_9c5fad96.txt, que especifica claramente no seu calendario de avaliación que a \"Fecha límite de firma y entrega de actas TFG/TFM\" é o 30 de setembro de 2026.\n\nOs estudantes de grao e máster teñen dereito a dúas oportunidades de avaliación en cada curso académico, respectando as datas fixadas polos centros e a normativa que regula os TFG/TFM.",
+      "expected_answers": [
+        "30 de septiembre de 2026"
+      ],
+      "faithfulness_score": 1.0,
+      "faithfulness_explanation": "[3/3 claims] Todas las afirmaciones están directamente respaldadas por el documento document_9c5fad96.txt",
+      "answer_relevance_score": 1.0,
+      "answer_relevance_explanation": "La respuesta aborda directamente la pregunta proporcionando la fecha límite de firma de actas para TFG/TFM (30 de septiembre de 2026). Además, incluye información contextual relevante sobre las oportunidades de evaluación. La información está clara, precisa y responde completamente a lo solicitado."
+    }
+  }
+]

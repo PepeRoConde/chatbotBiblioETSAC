@@ -1,7 +1,7 @@
 from typing import List, Dict, Tuple, Optional, Union, Any
 from sklearn.feature_extraction.text import TfidfVectorizer
 from langchain_core.documents import Document
-
+from sklearn.metrics.pairwise import cosine_similarity
 class TFIDFReranker:
     """TF-IDF based reranker for document relevance scoring."""
     
