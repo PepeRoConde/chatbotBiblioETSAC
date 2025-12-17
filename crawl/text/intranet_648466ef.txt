@@ -1,0 +1,8 @@
+Inicio de sesión
+Usuario e contrasinal Identifícate con usuario e contrasinal
+Certificado dixital Identifícate con certificado dixital
+Esqueciches o teu contrasinal?
+Activa a túa conta de servizos
+Necesitas axuda?
+Browser cookies disabled
+Your browser does not accept cookies. Single Sign On WILL NOT WORK.

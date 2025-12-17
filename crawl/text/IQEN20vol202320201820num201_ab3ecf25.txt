@@ -1,0 +1,623 @@
+Drepanocitosis en Colombia: análisis de la notificación como enfermedad huérfana o rara al sistema 
+de vigilancia en salud pública, 2016 y 2017....................................................................................................2
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+1
+Ministro de Salud y Protección Social
+Alejandro Gaviria Uribe
+Directora General Instituto Nacional de Salud
+Martha Lucía Ospina Martínez
+ 
+Director de Vigilancia y Análisis del Riesgo en Salud Pública 
+Franklyn Edwin Prieto Alvarado
+Comité Editorial
+Franklyn Edwin Prieto
+Oscar Eduardo Pacheco
+Pilar Zambrano
+Cecilia Saad
+Luis Fernando Fuertes
+Paola Elena León
+Diseño y Diagramación
+Claudia P. Clavijo A.
+Dirección de Vigilancia y Análisis del Riesgo en Salud Pública, INS 
+Instituto Nacional de Salud
+Avenida calle 26 n.º 51-20
+Bogotá, D.C., Colombia
+El Informe Quincenal Epidemiológico Nacional (IQEN) es una publicación de la Dirección de Epidemiología y Demografía 
+del Ministerio de Salud y Protección Social y de la Dirección de Vigilancia y Análisis del Riesgo en Salud Pública del Instituto 
+Nacional de Salud.
+Los datos y análisis pueden estar sujetos a cambio. Las contribuciones enviadas por los autores son de su exclusiva 
+responsabilidad, y todas deberán ceñirse a las normas y principios éticos nacionales e internacionales.
+El comité editorial del IQEN agradece el envío de sus contribuciones a la Dirección de Vigilancia y Análisis del Riesgo en 
+Salud Pública del Instituto Nacional de Salud; mayor información en el teléfono 220 77 00, extensiones 1382, 1486.
+Cualquier información contenida en el IQEN es de dominio público y puede ser citada o reproducida mencionando la fuente.
+Cita sugerida: 
+Misnaza Castrillón S. P. Drepanocitosis en Colombia: análisis de la notificación como enfermedad huérfana o 
+rara al sistema de vigilancia en salud pública, 2016 y 2017; 23 (1):1 - 13 Disponible en: http://www.ins.gov.co/
+buscador-eventos/IQEN/IQEN%20vol%2023%202018%20num%2001.pdf
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+2
+Sandra Patricia Misnaza Castrillón1
+1Vigilancia de enfermedades no transmisibles. Dirección de vigilancia y análisis del riesgo. Egresada Programa de Epidemiología de campo, FETP-
+Colombia. Instituto Nacional de Salud.
+Drepanocitosis en Colombia: análisis de la notificación como enfermedad 
+huérfana o rara al sistema de vigilancia en salud pública, 2016 y 2017
+Resumen
+Introducción: La drepanocitosis está ocasionada 
+por un defecto en la hemoglobina que se hereda de 
+manera autosómica recesiva. El gen está ampliamente 
+difundido en África y fue trasladado a América por el 
+comercio de esclavos.
+Objetivo: describir la incidencia, prevalencia y dis-
+tribución geográfica de los casos de drepanocito -
+sis a partir de la vigilancia rutinaria de enfermeda -
+des huérfanas en Colombia durante 2016 y 2017. 
+Métodos: Estudio descriptivo. Universo: 3.805 casos 
+notificados de enfermedades huérfanas. Población de 
+estudio: 195 casos notificados como drepanocitosis. 
+Plan de análisis: cálculo de frecuencias, medidas 
+de tendencia central y proporciones de incidencia y 
+prevalencia. Los denominadores para las proporciones 
+de prevalencia e incidencia fueron las proyecciones 
+DANE 2016 y 2017.
+Resultados: 35 casos se notificaron en el año 2016 y 
+160 durante 2017. La prevalencia reportada por sexo 
+durante 2017 fue de 0,33 en mujeres y de 0,32 en 
+hombres. La mayor prevalencia por edad se presentó 
+en población de 10 a 14 años. La prevalencia nacional 
+fue de 0,07 por 100.000 personas en 2016 y de 0,32 
+en 2017. La prevalencia más alta se presentó en 2016, 
+en Valle del Cauca, y en 2017 en Buenaventura. La 
+incidencia nacional fue de 0,01 por 100.000 personas 
+en 2016 y de 0,03 en 2017. La mayor incidencia se 
+presentó en Buenaventura.
+Conclusión: La notificación de drepanocitosis ha 
+aumentado a partir del segundo año de vigilancia. 
+Se ha notificado en mayor proporción en el sexo 
+femenino, adolescentes y personas residentes en la 
+costa pacífica. Es más prevalente en el Valle del Cauca 
+y en Buenaventura.
+Palabras clave: drepanocitosis, anemia de 
+células falciformes, hemoglobinopatía, vigilancia 
+epidemiológica, enfermedades raras, Colombia.
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+3
+Introducción
+La drepanocitosis o anemia de células falciformes esta 
+ocasionada por un defecto en la hemoglobina que le 
+hace adoptar una forma de media luna y romperse con 
+facilidad dando lugar a una enfermedad hemolítica 
+crónica (1). Las complicaciones incluyen episodios de 
+oclusión vascular aguda, alteraciones viscerales cróni-
+cas de origen isquémico que afectan a casi la totalidad 
+de los órganos y complicaciones infecciosas (2). 
+Los episodios vaso-oclusivos producen isquemia tisu-
+lar que causa dolor agudo y crónico, así como daños 
+en los órganos que pueden afectar cualquier sistema 
+de órganos, incluidos los huesos, el bazo, el hígado, el 
+cerebro, los pulmones, los riñones y las articulaciones 
+(3). En la vaso-oclusión participan muchos factores, 
+como la deshidratación del glóbulo rojo, alteraciones 
+de su membrana, aumento de su adhesión al endote-
+lio, alteraciones intrínsecas de las células endoteliales 
+y otros (4).
+La drepanocitosis se hereda de manera autosómica 
+recesiva (3) y se ha descrito que el gen está amplia -
+mente difundido en África y fue trasladado hacia Amé-
+rica mediante el comercio de esclavos (5).
+En el estudio de Bernadette Modell y Matthew Darliso-
+na, divulgado por la Organización Mundial de la Salud 
+(OMS), se informa que las hemoglobinopatías repre-
+sentan un importante problema sanitario en el 71 % 
+de 229 países; en ese 71 %, se produce el 89 % de 
+los nacimientos en el mundo. Cada año nacen más de 
+330.000 niños afectados (83 % de casos de anemia 
+de células falciformes y 17 % de casos de talasemia). 
+Las hemoglobinopatías causan aproximadamente un 
+3,4 % de las defunciones entre los niños menores de 
+cinco años a nivel mundial (6).
+Se estima que la prevalencia de portadores de células 
+falciformes en 25 estados europeos es de aproximada-
+mente 1/150. En África central y occidental (15-25 %), 
+en las Indias occidentales francesas (10-15 %) y en 
+zonas mediterráneas (1-15 %). De acuerdo con esto, 
+en África se observa una mayor prevalencia, esto se 
+puede relacionar con el efecto parcialmente protector 
+relacionado con esta condición frente a la malaria por 
+Plasmodium falciparum, evento en el que se considera 
+una letalidad importante; en este caso, la superviven -
+cia de pacientes con drepanocitosis (Hb AS) es mayor 
+que en los pacientes sin esta condición (Hb AA) (1).  
+La OMS describió en el documento de la 59ª Asamblea 
+Mundial de la Salud que, en algunas zonas del África 
+subsahariana, el porcentaje de niños que nacen con 
+este trastorno puede llegar al 2 %. En general, la pre-
+valencia del rasgo drepanocítico (portadores sanos que 
+han heredado el gen mutante solamente de uno de los 
+progenitores) oscila entre el 10 % y el 40 % en África 
+ecuatorial, disminuye al 1 % a 2 % en la costa norteafri-
+cana y a menos del 1 % en Sudáfrica (7). En Colombia 
+la prevalencia no está bien establecida, es mayor en al-
+gunos territorios del país, en especial donde predomina 
+la población negra encontrándose hasta 10 % de rasgo 
+falciforme en algunos de esos territorios (8).
+En 2008, las naciones unidas reconocieron este evento 
+como un problema de salud pública (9). En 2013 se in-
+cluye en el primer listado de enfermedades huérfanas, 
+el cual se actualiza en 2015 y continúa incluyendo la 
+drepanocitosis (10). En el censo realizado en el 2013 
+(11) a través de la cuenta de alto costo, se identifica-
+ron 157 personas con la enfermedad, residentes en 
+su mayoría en Cauca (n=86), Valle del Cauca (n=27) 
+y Nariño (n=19). El evento se presentó en su mayoría 
+en mujeres (50,4%) (12). Posteriormente, en 2016, se 
+inicia la vigilancia de enfermedades huérfanas a través 
+del Sistema nacional de Vigilancia en salud pública - 
+Sivigila (13).
+En el Sivigila, se cuenta con la información de las per-
+sonas a quienes se les ha confirmado drepanocitosis 
+por laboratorio. Las variables contenidas en la fuen-
+te de información permiten cumplir con el objetivo de 
+describir la incidencia, prevalencia y distribución geo-
+gráfica de los casos de drepanocitosis a partir de la 
+vigilancia rutinaria de enfermedades huérfanas en Co-
+lombia durante 2016 y 2017
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+4
+Métodos
+Análisis descriptivo a partir de las bases de datos de 
+la notificación rutinaria de enfermedades huérfanas al 
+Sivigila durante los años 2016 y 2017. Se analizaron 
+los casos notificados por el evento drepanocitosis 
+y confirmados únicamente por laboratorio (Análisis 
+molecular HbS). El universo estuvo constituido por 
+3.805 casos notificados de enfermedades huérfanas. La 
+población de estudio fue de 195 casos notificados como 
+drepanocitosis. Las bases de datos fueron depuradas 
+con el fin de identificar la notificación de casos repetidos 
+durante el periodo de estudio. Las variables de análisis 
+fueron, edad, sexo, pertenencia étnica, fecha de 
+diagnóstico y entidad territorial de residencia. 
+El plan de análisis se realizó mediante estadística 
+descriptiva en términos de tiempo, persona y lugar, 
+utilizando el programa Excel®. Se calcularon medidas de 
+tendencia central para la variable edad de diagnóstico, 
+la cual se calculó con base en la fecha de nacimiento y 
+la fecha de diagnóstico de la enfermedad huérfana.
+Los datos utilizados en los denominadores para las 
+proporciones de prevalencia e incidencia corresponden 
+a las proyecciones poblacionales del Departamento 
+Administrativo Nacional de Estadística (DANE) de 
+los años 2016 y 2017. Para el cálculo de prevalencia 
+en afrocolombianos se incluyó la información de 
+Buenaventura en el Valle del Cauca, dado que no 
+se contaba con este dato para Buenaventura. La 
+distribución geográfica de los casos se mapeó con el 
+programa ArcGis®.
+El análisis de prevalencia por municipio incluyo 159 
+casos en 2017, ya que un caso notificado presentaba 
+municipio desconocido del departamento de Putumayo, 
+por lo cual se excluyó del análisis.
+Consideraciones éticas: En el diseño del estudio se 
+tuvieron en cuenta los principios metodológicos para 
+salvaguardar el interés de la ciencia y el respeto 
+a los derechos de las personas. No hubo ninguna 
+intervención en los sujetos, no se violó el derecho a 
+la privacidad y los resultados se presentan de manera 
+agrupada en cumplimiento de la norma nacional 
+(Resolución 008430 de 1993). Este estudio se 
+considera sin riesgo.
+Resultados
+Fueron notificados 195 casos de drepanocitosis desde el inicio de la vigilancia de enfermedades huérfanas en 
+2016, año durante el cual se notificaron 35 casos. Durante 2017 fueron notificadas 160 personas. La tendencia 
+de la notificación no fue sostenida en el tiempo durante 2016, situación que cambió en 2017, donde fueron 
+notificados casos en la mayoría de las semanas epidemiológicas, con un aumento a partir de la semana 17 
+(gráfico 1). 
+Gráfico 1. Comportamiento de la notificación de drepanocitosis. Colombia, 2016 - 2017
+ 
+Fuente: Sivigila, Instituto Nacional de Salud, Colombia, 2016-2017
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+5
+La prevalencia por sexo durante 2016 fue de 0,07 / 100.000 personas de ambos sexos. Durante 2017 fue de 
+0,33 en mujeres y de 0,32 en hombres. Por grupo de edad, la mayor prevalencia se presentó en población de 
+10 a 14 años (tabla 1).
+Tabla 1. Prevalecía de drepanocitosis por grupo de edad. Colombia 2016 – 2017
+Grupo de edadCasos 2016Prevalencia 2016*Casos 2017 Prevalencia 2017*
+0 a 4 7 0,1615 20 0,4600
+5 a 9 4 0,0938 34 0,7961
+10 a 14 7 0,1641 36 0,8458
+15 a 19 7 0,1620 21 0,4885
+20 a 24 3 0,0697 13 0,3018
+25 a 29 2 0,0497 12 0,2939
+30 a 34 2 0,0555 6 0,1632
+35 a39 1 0,0306 7 0,2109
+40 a 44 0 0,0000 4 0,1351
+45 a 49 1 0,0348 1 0,0350
+50 a 54 0 0,0000 3 0,1081
+55 a 59 0 0,0000 0 0,0000
+60 a 64 0 0,0000 2 0,1066
+65 y mas 1 0,0267 1 0,0258
+ 
+*Prevalencia / 100,000 habitantes 
+Fuente: Sivigila, Instituto Nacional de Salud, Colombia, 2016-2017. DANE, proyecciones 2016 – 2017
+La media de edad de diagnóstico fue de nueve años con un límite inferior de cero días y un límite superior de 
+78,2 años.
+Fueron notificados casos que residían en nueve de las 37 entidades territoriales del país (24,3%), principalmente 
+en la región pacífica (mapa 1).
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+6
+Mapa 1. Distribución geográfica de la drepanocitosis por entidad territorial de residencia. Colombia 2016-2017
+Fuente: Sivigila, Instituto Nacional de Salud, Colombia, 2016-2017
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+7
+La prevalencia nacional fue de 0,07 / 100.000 personas en 2016 y de 0,32 en 2017. La prevalencia más alta 
+durante el año 2016 se presentó en el Valle del Cauca y en Buenaventura durante el 2017. La prevalencia 
+nacional fue superada durante 2017 en Buenaventura, Cauca, Nariño y Valle del Cauca (tabla 2).
+Tabla 2. Prevalencia de drepanocitosis por entidad territorial de residencia. Colombia, 2016 – 2017
+Entidad territorial de 
+residencia
+Casos 
+2016
+Prevalencia 
+2016*
+Casos 
+2017
+Prevalencia 
+2017*
+Buenaventura 1 0,25 15 3,61
+Cartagena 0 0 1 0,1
+Cauca 6 0,43 20 1,42
+Chocó 0 0 1 0,2
+Nariño 0 0 9 0,5
+Putumayo 0 0 1 0,28
+Santander 0 0 2 0,1
+Tolima 0 0 1 0,07
+Valle del cauca 28 0,66 110 2,56
+Total nacional 35 0,07 160 0,32
+*Prevalencia / 100,000 habitantes
+Fuente: Sivigila, Instituto Nacional de Salud, Colombia, 2016-2017. DANE, proyecciones 2016 – 2017
+La prevalencia por municipio de residencia fue mayor en Puerto Tejada, Guachené y Buga en 2016. Durante 
+2017, las mayores prevalencias se presentaron en Nariño en el departamento de Nariño y Padilla en el Cauca. 
+Todos los municipios con casos durante 2016 superaron la prevalencia nacional y todos los casos residían 
+en municipios del Cauca y Valle del Cauca. Durante 2017, 27 de 29 municipios (93,1%) que reportaron casos 
+superaron la prevalencia nacional (tabla 3).  
+Tabla 3. Prevalencia de drepanocitosis por entidad territorial de residencia. Colombia, 2016 – 2017
+Municipio de residenciaCasos Prevalencia Casos 
+2017
+Prevalencia 
+2016 2016* 2017*
+Nariño 0 0 3 59,98
+Padilla 0 0 2 25,66
+Cerrito 0 0 1 17,87
+Puerto Tejada 3 6,54 6 13,05
+Dagua 0 0 4 10,91
+Suarez 0 0 2 10,78
+Guachené 1 5,04 2 10,05
+Timbiquí 0 0 2 9,15
+Litoral del Bajo San Juan 0 0 1 6,25
+Villarica 0 0 1 6,03
+Santander de Quilichao 2 2,1 5 5,18
+Candelaria 0 0 4 4,75
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+8
+Jamundí 1 0,82 5 4,01
+Buenaventura 1 0,25 15 3,61
+Pradera 1 1,79 2 3,54
+Cali 25 1,04 82 3,39
+Guapi 0 0 1 3,35
+Roldanillo 0 0 1 3,09
+Guacarí 0 0 1 2,85
+Barbacoas 0 0 1 2,53
+El Charco 0 0 1 2,53
+Yumbo 0 0 3 2,44
+Zarzal 0 0 1 2,17
+Tumaco 0 0 4 1,92
+Florida 0 0 1 1,71
+Tuluá 0 0 3 1,38
+Palmira 0 0 3 0,97
+Bucaramanga 0 0 1 0,19
+Cartagena 0 0 1 0,1
+Buga 1 4,73 0 0
+Total nacional 35 0,07 159 0,32
+*Prevalencia / 100,000 habitantes
+Fuente: Sivigila, Instituto Nacional de Salud, Colombia, 2016-2017. DANE, proyecciones 2016 – 2017
+La incidencia nacional fue de 0,01 /100.000 personas en 2016 y de 0,03 en 2017. Las mayores incidencias 
+durante los dos años de análisis se presentaron en Buenaventura (tabla 4).
+Tabla 4. Incidencia de drepanocitosis por entidad territorial de residencia. Colombia, 2016 – 2017
+Entidad territorial de 
+residencia
+Casos 
+2016
+Incidencia 
+2016*
+Casos 
+2017
+Incidencia 
+2017*
+Buenaventura 1 0,25 2 0,48
+Cauca 2 0,14 1 0,07
+Nariño 0 0,00 1 0,06
+Tolima 0 0,00 1 0,07
+Valle del Cauca 4 0,09 9 0,21
+Total nacional 8 0,01 14 0,03
+*Incidencia / 100,000 habitantes 
+Fuente: Sivigila, Instituto Nacional de Salud, Colombia, 2016-2017. DANE, proyecciones 2016 – 2017
+Con respecto a la pertenencia a grupos étnicos por parte de los pacientes, se encontró que, durante los años 
+2016 y 2017, 54 personas se reconocieron como afrocolombianos (27,7 %) y ninguna de las personas se 
+reconoció como indígena. La prevalencia de drepanocitosis en población afrocolombiana fue de 0,13 /100.000 
+afrocolombianos en 2016 y de 1,02 en 2017. Los afrocolombianos residían en Guachené, Padilla, Puerto 
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+9
+Tejada y Timbiquí en el Cauca, Tumaco en Nariño y Buenaventura, Cali, Candelaria, Dagua, Jamundí, Palmira, 
+Pradera, Roldanillo, Tuluá y Zarzal en el Valle del Cauca. Las mayores prevalencias en los dos años de análisis 
+se presentaron en el Valle del Cauca (tabla 5).
+Tabla 5. Prevalencia de drepanocitosis en Afrocolombianos por entidad territorial de residencia. Colombia, 2016 – 2017
+Entidad territorial de residencia
+Casos 
+2016
+Prevalencia 
+2016*
+Casos 
+2017
+Prevalencia 
+2017*
+Valle del Cauca 3 0,26 41 3,50
+Cauca 3 1,11 4 1,47
+Nariño 0 0,00 3 1,02
+Total 6 0,13 48 1,02
+*Prevalencia / 100,000 habitantes 
+Fuente: Sivigila, Instituto Nacional de Salud, Colombia, 2016-2017. DANE
+Discusión
+La tendencia de la notificación de drepanocitosis desde 
+el inicio de la vigilancia a nivel nacional ha sido al 
+aumento, lo cual se explica por el posicionamiento del 
+evento a través del tiempo dado el trabajo encaminado 
+al fortalecimiento de la notificación con aseguradores, 
+entidades territoriales, Ministerio de Salud y Protección 
+Social, fundaciones y asociaciones de pacientes 
+y sociedades científicas. El aumento a partir de la 
+semana epidemiologica 17 de 2017 puede explicarse 
+por la contratación de un experto ad honorem en mayo 
+de ese año, que realizó talleres en Buenaventura, 
+Cauca y Valle del Cauca con la comunidad y con 
+prestadores, con el objeto de fortalecer los análisis de 
+casos de anemia de células falciformes, el abordaje 
+clínico y la notificación.
+Se observó una mayor frecuencia de notificación de 
+drepanocitosis en mujeres, resultados acordes con 
+el censo 2013 (12) y con lo descrito en dos estudios 
+de prevalencia; uno realizado en un municipio de 
+Honduras (14) y otro, realizado en Cuba, donde también 
+se evidencio mayor frecuencia del evento en mujeres 
+con respecto a los hombres (5); sin embargo, esto 
+puede deberse a que las mujeres estén accediendo 
+en mayor proporción a los servicios de salud, ya que 
+se ha descrito en la literatura científica que suelen 
+utilizar más los servicios de salud en comparación a 
+los hombres (15), siendo posible que la enfermedad 
+no afecte de manera diferencial a hombres y mujeres. 
+Por otra parte, vale la pena resaltar que se ha 
+documentado que la sobrevida por drepanocitosis es 
+mayor en mujeres que en hombres (4), (7).
+La drepanocitosis presenta mayor prevalencia en 
+el quinquenio del grupo de edad de los 10 a los 14 
+años, resultado que difiere de un estudio en Honduras, 
+donde la anemia drepanocitica fue más prevalente en 
+población de 16 a 45 años (14), pero concuerda con 
+un estudio realizado en el estado Zulia en Venezuela 
+donde la anemia de células falciformes fue más 
+frecuente en adolescentes (16). El censo de 2013 
+identificó con mayor frecuencia a personas de cinco 
+a 14 años (12). La media de edad de diagnóstico 
+fue de nueve años, acorde con lo descrito en un 
+estudio realizado en Medellín, donde se indicó que las 
+personas con anemia de células falciformes suelen ser 
+diagnosticadas antes de los nueve años (17).
+La distribución geográfica de los casos muestra un 
+patrón en la región pacifica, esta zona se caracteriza 
+por la presencia de población afrocolombiana. Un 
+artículo de la revista de información básica sobre 
+los afrocolombianos y el censo 2005 en Colombia, 
+refiere que asentamientos históricos de población 
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+10
+afrocolombiana se han identificado en todo el litoral 
+pacífico, incluyendo la región del Urabá chocoano 
+y antioqueño; en el valle del río Cauca hasta las 
+poblaciones que se encuentran al norte del actual 
+departamento del Cauca; en la zona baja y media 
+que baña el río Magdalena; en el bajo río Cauca y 
+en el litoral caribe, incluidas sus llanuras, sabanas y 
+ciénagas; también  en el área urbana de Cartagena, 
+Santa Marta y Mompóx (18). Dado el patrón en la 
+región pacifica se habría esperado que una mayor 
+proporción de los las personas se hubiesen auto-
+reconocido como afrocolombianas (27,7%), situación 
+contraria a la presentada en el censo de 2013, donde 
+el 64,3 % de las personas se auto-reconocieron como 
+afrocolombianos (12).
+Acorde con el patrón de distribución geográfica, la 
+drepanocitosis fue más prevalente en municipios 
+de Cauca y Valle del Cauca, y más incidente en 
+Buenaventura. Se esperaría que en estas entidades 
+territoriales se encontrara mayor proporción de 
+hemoglobinas normales; al respecto se realizó un 
+estudio en 2012, donde se encontró una mayor 
+proporción de hemoglobinas anormales en San 
+Andrés y Chocó; y se concluyó, que las poblaciones 
+afrocolombianas tienen mayor susceptibilidad a 
+manifestar hemoglobinopatías, alcanzando un 
+porcentaje de 7,02 % en muestras de sangre de recién 
+nacidos, tomadas en Putumayo, Nariño, Guajira, San 
+Andrés, Chocó y Valle del Cauca (19). Vale la pena 
+reproducir estos estudios en las entidades territoriales 
+con mayores prevalencias identificadas a través de la 
+vigilancia en salud pública.
+Los resultados por entidad territorial son similares 
+con los resultados del censo de 2013, donde Cauca 
+y Valle del Cauca presentaban la enfermedad con 
+mayor frecuencia (12); sin embargo, en Sivigila no se 
+reportaron casos en departamentos donde si se habían 
+identificado casos en el censo de 2013: Antioquia, 
+Bogotá, Caquetá, Cesar, Córdoba, Cundinamarca, 
+Huila, Norte de Santander, Quindío y Risaralda (12).
+La mayor prevalencia en afrocolombianos se observó 
+en el Cauca y el Valle del Cauca, resultados acordes con 
+lo reportado en el censo de 2013. Los afrocolombianos 
+identificados residían con mayor frecuencia en Cauca 
+(n=71), Nariño (n=11) y Valle del Cauca (n=9) (12).
+Una de las limitaciones radica en que, dado que no 
+se tiene acceso a la información nominal del censo 
+de 2013, no fue posible establecer si existe una 
+sobre-estimación del Sivigila en esta patología. Es 
+importante realizar un análisis de las dos fuentes de 
+información, previa depuración de casos duplicados y 
+repetidos, a fin de establecer la distribución geográfica 
+en el territorio nacional a partir del registro nacional de 
+enfermedades huérfanas.
+Otra limitación radicó en que no existen denominadores 
+de la población afrocolombiana de Buenaventura 
+para la realización de los cálculos de prevalencia. 
+Por último, se identificó que la variable Fecha de 
+diagnóstico en algunos casos (n=7), era inferior a la 
+fecha de nacimiento, por lo cual no fue posible calcular 
+la edad de diagnóstico en todos los casos.
+Otra limitación fue que la fuente de información del 
+Sivigila no cuenta con variables clínicas y de laboratorio 
+que permitirían precisar, por ejemplo, el tipo de Hb 
+anormal de los casos notificados, situación que no 
+puede ser ajustada en la ficha de vigilancia dado que 
+es una ficha de notificación para 2.149 enfermedades 
+huérfanas. Estos resultados podrían motivar estudios 
+adicionales en las entidades territoriales con mayores 
+prevalencias que incluyan la revisión de datos clínicos 
+y de laboratorio en historias clínicas y registros 
+administrativos.
+Es importante precisar que el Sivigila permite tener un 
+panorama de los casos de enfermedades huérfanas 
+- raras que acceden a las instituciones prestadoras 
+de salud o que han sido identificados por las 
+administradoras de planes de beneficios, mas no es 
+un registro poblacional.
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+11
+ca y Valle del Cauca. La mayor prevalencia e 
+incidencia de notificación se presenta en Bue-
+naventura y el patrón de distribución de la re-
+sidencia de los casos notificados se limita a la 
+región pacífica.
+Conflicto de intereses
+La autora declara no tener conflicto de intereses 
+asociados con la preparación y publicación de este 
+artículo. 
+Conclusiones
+•	 La notificación de la drepanocitosis a través 
+del Sivigila presentó una tendencia al aumento 
+de la notificación en su segundo año de imple-
+mentación.
+•	 La drepanocitosis notificada a través del Sivigila 
+es más prevalente en mujeres y en adolescen-
+tes. En cuanto a pertenencia étnica, la mayor 
+proporción de personas no se auto-reconocen 
+ni como afrocolombianos ni como indígenas.
+•	 Las personas con drepanocitosis notificadas 
+residen en su mayoría en Buenaventura, Cau-
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+12
+Bibliografìa
+1. ORPHANET. Drepanocitosis. [internet]. 2018. [fecha de consulta: enero 31 de 2018]. Disponible en: 
+http://www.orpha.net/consor/cgi-bin/Disease_Search.php?lng=ES&data_id=125&Disease_Disease_
+Search_diseaseGroup=Drepanocitosis&Disease_Disease_Search_diseaseType=Pat&Enfermedade(s)/
+grupo%20de%20enfermedades=Drepanocitosis&title=Drepanocitosis&search=Disease_Search_Sim-
+ple 
+2. Godeau F. principales hemoglobinopatías. EMC tratado de medicina. 2004; 8(4): 1-5
+3. Bender MA. Sickle cell disease. Seatle: GeneReviews editors; 2003. 1-46
+4. Svarch E. fisiopatología de la drepanocitosis. Revista Cubana de Hematología, Inmunología y Medicina 
+Transfusional. [internet]2009[fecha de consulta: enero 31 de 2018]; 25(1). Disponible en: http://bvs.sld.
+cu/revistas/hih/vol25_1_09/hih03109.htm 
+5. Machín S et al. Morbiletalidad en pacientes adultos con drepanocitosis. Revista Cubana de Hematolo -
+gía, Inmunología y Hemoterapia. [internet] 2004 [fecha de consulta: enero 31 de 2018];20(2). Disponible 
+en: http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S0864-02892004000200004 
+6. Organización Mundial de la Salud. Modell B, Darlison M. Epidemiología mundial de las hemoglobino-
+patías e indicadores de los servicios correspondientes. [internet] 2018. [fecha de consulta: enero 31 de 
+2018]. Disponible en: http://www.who.int/bulletin/volumes/86/6/06-036673-ab/es/ 
+7. Organización Mundial de la Salud. 59ª asamblea mundial de la salud. [internet] 2006. [fecha de con-
+sulta: enero 31 de 2018]. Disponible en: http://apps.who.int/gb/archive/pdf_files/WHA59/A59_9-sp.pdf 
+8. Chaves W, Amador D, Sánchez J. Anemia de células falciformes. Repert.med.cir. [Internet] 2014 [fecha 
+de consulta: enero 31 de 2018];23(3): 221-225. Disponible en: http://www.fucsalud.edu.co/sites/default/
+files/2017-01/ANEMIA%20DE%20CE%CC%81LULAS%20FALCIFORMES.pdf 
+9. Naciones Unidas. Asamblea general A/63/L.63. [Internet] 2008 [fecha de consulta: febrero 1 
+de 2018]. Disponible en: http://repository.un.org/bitstream/handle/11176/172355/A_63_L.63-ES.
+pdf?sequence=6&isAllowed=y 
+10. Ministerio de Salud y Protección Social. Resolución 2048. [Internet] 2015 [fecha de consulta: febrero 
+1 de 2018]. Disponible en: https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20
+2048%20de%202015.pdf 
+11. Ministerio de Salud y Protección Social. Resolución 3681. [Internet] 2013 [fecha de consulta: febre-
+ro 1 de 2018]. Disponible en: https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/
+resolucion-3681-de-2013.pdf 
+12. Ministerio de Salud y Protección Social. Sistema integral de información de la protección social. 
+Consulta de Cubos de enfermedades huérfanas [Internet] 2018 [fecha de consulta: marzo 5 de 2018]. 
+Disponible en: http://www.sispro.gov.co/ 
+13. Instituto Nacional de Salud. Protocolo de vigilancia de enfermedades huérfanas – raras. [Internet] 2018 
+
+IQEN
+INFORME QUINCENAL 
+EPIDEMIOLÓGICO NACIONAL
+13
+[fecha de consulta: marzo 3 de 2018]. Disponible en: http://www.ins.gov.co/buscador-eventos/ZIKA%20
+Lineamientos/PRO%20Enfermedades%20hu%C3%A9rfanas%20y%20raras-.pdf 
+Anexos: http://www.ins.gov.co/Direcciones/Vigilancia/Paginas/Lineamientos-y-documentos.aspx 
+14. Zavala et al. Prevalencia de anemia drepanocitica en la población de la comunidad de San Juan, Yoró. 
+Rev. Fac. Cienc. Méd. [Internet] 2014 [fecha de consulta: febrero 17 de 2018]. Disponible en: http://www.
+bvs.hn/RFCM/pdf/2014/pdf/RFCMVol11-1-2014-4.pdf 
+15. Gómez E. Género, equidad y acceso a los servicios de salud: una aproximación empírica. Rev Panam 
+Salud Publica/Pan Am J Public Health. 2002;11: 327-334
+16. Torres E, Torres T, Valbuena G, Artega M, Soto L. Frecuencia de anemia de células falciformes 
+en la población de “cuatro bocas”, parroquia Ricaurte, Municipio Mara, estado de Zulia, Venezue-
+la. Invest Clin [Internet] 1993[fecha de consulta: febrero 20 de 2018];34(2): 99 – 105. Disponible en: 
+http://200.74.222.178/index.php/investigacion/article/view/9682/9668 
+17. Pinto L, Cuellar F, Maya L, Murillo M, Murillo M, Mondragón M, Alvarez L. Anemia de células fal-
+ciformes en adultos. Estudio clínico de 51 pacientes tratados en el Hospital san Vicente de Paul. Acta 
+medica colombiana [Internet] 1991. [fecha de consulta: febrero 20 de 2018]. Disponible en: http://www.
+actamedicacolombiana.com/anexo/articulos/06-1991-04-.html
+18.  Estupiñan J. Afrocolombianos y el censo 2005. Elementos preliminares para el análisis del proceso 
+censal con la población afrocolombiana. [Internet] 2018 [fecha de consulta: marzo 3 de 2018]. Disponible 
+en: https://sitios.dane.gov.co/revista_ib/html_r1/articulo7_r1.htm
+19. Cantuñi V. Hemoglobinopatías detectadas en muestras de sangre del cordón umbilical en los recién 
+nacidos afrocolombianos. [Internet] 2018 [fecha de consulta: marzo 3 de 2018]. Disponible en: http://
+repositorio.ug.edu.ec/handle/redug/18180 

@@ -1,0 +1,431 @@
+ 
+ 
+ 
+Regulamento dos Traballos Fin de Grao do título de Grao en Enxeñaría Informática 
+pola UDC, impartido na Facultade de Informática da Coruña (aprobado pola Xunta 
+de Centro o 18 de xuño de 2019) 
+ 
+ 
+Prólogo do regulamento 
+ 
+O Real Decreto 1393/20071 establece no artigo 12.3, situado no capítulo 3, que se dedica ás 
+ensinanzas oficiais de grao, que «estas ensinanzas concluirán coa elaboración e defensa dun traballo 
+fin de grao». No artigo 12.7 engádese que «o traballo fin de grao terá entre 6 e 30 créditos, 
+deberá realizarse na fase final do plan de estudos e estar orientado á avaliación de 
+competencias asociadas ao título», sen se recoller ningunha outra disposición sobre o proceso de 
+elaboración e avaliación que, en consecuencia e no exercicio da súa autonomía, deberá ser regulado 
+por cada universidade. 
+Para estes efectos, as Directrices para a elaboración de propostas de títulos de grao na UDC 2 
+especifican o seguinte sobre a fase final dos estudos na liña 9 do artigo 3.2, que trata a organización 
+das ensinanzas de grao: «Traballo fin de grao: os plans de estudos de grao deberán incluír entre 
+6 e 30 créditos destinados a realizar un traballo fin de grao na fase final do plan de estudos, unha 
+vez superados, cando menos, un total de 180 créditos, incluídos todos os  da primeira metade. En 
+cada plan de estudos, coa supervisión académica do centro correspondente, establecerase a forma 
+de realización, a titorización e os procedementos de avaliación do dito traballo, que deberá 
+orientarse á avaliación das competencias asociadas ao título.» 
+O Estatuto do estudante universitario3  establece no artigo 27: «Os proxectos de fin de carreira, 
+traballos de fin de grao e mestrado, así como as teses de doutoramento, rexeranse pola súa 
+normativa específica». Así mesmo, nas epígrafes g) e h) do artigo 8 sinálanse os dereitos 
+específicos do estudantado de grao en relación co traballo de fin de grao; e no artigo 30 o dereito á 
+revisión das cualificacións. 
+A títulación de Grado en Enxeñaría Informática pola UDC integra 5 mencións (Enxeñaría do 
+Software, Enxeñaría de Computadores, Computación, Sistemas de Información, Tecnoloxías da 
+Información)4, ofertando a cobertura completa das competencias que poden adquirirse na 
+actualidade no ámbito da Enxeñaría Informática. Cada estudante elixe a súa mención no terceiro 
+curso, con flexibilidade para construír un itinerario propio incorporando contidos complementarios 
+doutras especialidades. Así mesmo, o plan de estudos desta titulación5 inclúe un Traballo Fin de 
+Grao (en diante TFG) como materia obrigatoria do segundo cuadrimestre do cuarto curso, cunha 
+carga lectiva de 12 créditos, e indica explicitamente que o TFG debe realizarse no contexto da 
+ 
+1 Real Decreto 1393/2007, de 29 de outubro, polo que se establece a ordenación das ensinanzas universitarias 
+oficiais (BOE nº 260, de 30 de outubro de 2007). Modificado polo Real Decreto 861/2010, de 2 de xullo (BOE nº 
+161, de 3 de xullo de 2010). 
+2 Directrices para a elaboración de títulos de grao na UDC, aprobadas polo Consello de Goberno na súa sesión de 3 
+de abril de 2008. 
+3 Real Decreto 1791/2010, de 30 de decembro, polo que se aproba o Estatuto do estudante universitario (BOE nº 
+318, de 31 de decembro de 2010). 
+4 As que corresponden ás Tecnoloxías Específicas da Enxeñaría Informática da Resolución do 8 de xuño de 2009 da 
+Secretaría Xeral de Universidades (BOE nº 187, de 4 de agosto de 2009). 
+5 Publicado por Resolución da UDC de 5 de outubro de 2011 (BOE nº 278, de 18 de novembro de 2011).
+
+ 
+ 
+ 
+tecnoloxía específica correspondente á mención elixida por cada 
+estudante. 
+ 
+Neste contexto, e coa finalidade de unificar os criterios e procedementos para garantir unha 
+actuación homoxénea á hora de planificar e avaliar os TFG desta titulación, resulta conveniente 
+establecer as seguintes normas de carácter xeral. 
+ 
+ 
+ 
+1. Obxecto e ámbito de aplicación 
+ 
+1.1. Este regulamento contén as directrices relativas á definición, realización, defensa, cualificación 
+e tramitación administrativa dos TFG do plan de estudos do Grao en Enxeñaría Informática pola 
+UDC, de acordo coas Directrices para a elaboración de regulamentos relativos ao traballo de fin de 
+grao nos graos da UDC, aprobadas polo Consello de Goberno de 22 de xullo de 2011. Este 
+regulamento será publicado na web do centro. 
+ 
+1.2. O contido deste regulamento complétase co resto de regulamentacións e procedementos da 
+UDC que se atoparen en vigor e que se refiren, entre outros aspectos, ao sistema de avaliación, ao 
+recoñecemento e á transferencia de créditos, así como á mobilidade de estudantes. 
+ 
+1.3. O TFG contará con profesorado encargado da súa docencia, cuxas funcións determínanse na 
+sección 3 deste regulamento. Así mesmo, os TFG terán a lo menos cinco tribunais de avaliación, de 
+xeito que haxa polo menos un por cada mención do grao, cuxas configuracións e funcións 
+determínanse na sección 5 deste regulamento. No contexto do encargo docente que o centro 
+realiza anualmente aos departamentos, cada departamento adscrito ao centro, en función das 
+súas porcentaxes na docencia das materias obrigatorias de cada unha das mencións e do número 
+de estudantes que se matriculen  na materia Traballo Fin de Grao de cada unha das mencións, 
+asignará o p rofesorado que permita cubrir as necesidades docentes e avaliadoras 
+correspondentes a cada mención. Unha vez comunicado polos departamentos o profesorado 
+proposto para estas tarefas, a xunta de centro nomeará unha comisión cuxa función principal 
+será a de xestionar todos os p rocesos relativos aos TFG e asegurar a aplicación deste 
+regulamento. Esta comisión, en diante Comisión Xestora dos TFG, estará constituída como segue: 
+ 
+– Presidencia: a persoa coordinadora do grao. 
+ 
+– Secretaría: a persoa que exerza a secretaría do centro. 
+ 
+– Vogais: por cada unha das mencións do grao, dous docentes de cada departamento 
+que imparta docencia nas materias obrigatorias desa mención (este profesorado vogal 
+será- proposto- polos propios departamentos). 
+ 
+A Comisión Xestora dos TFG proporcionará modelos oficiais para todos os aspectos relacionados 
+cos TFG. A utilización de ditos modelos oficiais é obrigatoria. 
+ 
+ 
+2. Natureza e características do TFG 
+ 
+2.1. O TFG é un exercicio orixinal a realizar individualmente e presentar e defender ante un tribunal 
+universitario, consistente nun proxecto no ámbito das tecnoloxías específicas da Enxeñaría 
+
+ 
+ 
+Informática. Este proxecto realizarase no contexto da mención elixida por cada estudante, de entre 
+as cinco ofertadas. 
+ 
+2.2. O TFG deberá estar orientado a se aplicaren as competencias xerais asociadas ao título de 
+Grado en Enxeñaría Informática. En concreto, a todo aquilo que fai referencia á análise, ao 
+deseño técnico, á construción, á implementación, á avaliación, á administración e ao mantemento 
+de sistemas de información para as organizacións, e de sistemas e equipos informáticos e de 
+comunicacións en xeral, de xeito que estes satisfagan os requisitos dos usuarios, teñan 
+comportamentos fiables e eficientes, e cumpran as normativas de calidade. 
+ 
+2.3. A memoria da titulación do Grao en Enxeñaría Informática pola UDC establece que o TFG 
+pode ser defendido e avaliado unha vez que se tiver constancia fidedigna de que a/ o estudante 
+superou todos os créditos da titulación excepto os do TFG. A/O alumno só se pode matricular do 
+TFG unha vez superados cando menos 180 créditos, incluídos todos os da súa primeira metade, 
+tal e como establece o apartado 2.9 no artigo 3.º da Normativa pola que se regulan as 
+ensinanzas oficias do Grao e Mestrado Universitario na UDC, aprobada polo Consello de Goberno 
+o día 27 de xuño de 2012. 
+ 
+2.4. Poderán ser propostos como TFG proxectos relacionados coas seguintes categorías: 
+ 
+– Proxectos clásicos de enxeñaría: son proxectos relativos á creación de sistemas, dispositivos 
+e procesos relacionados co ámbito da enxeñaría informática. 
+ 
+– Proxectos de desenvolvemento en investigación: son proxectos que desenvolven sistemas 
+de apoio á investigación dentro do ámbito da enxeñaría informática. 
+ 
+– Proxectos de proba de estándares ou de orde metodolóxica: son proxectos  que desenvolven 
+sistemas sobre novos estándares ou metodoloxías aplicables á enxeñaría informática. 
+ 
+ 
+2.5. TFG, tanto no seu nivel como na súa extensión e os seus obxectivos, deberá posibilitar que o 
+estudantado o realice no número de horas equivalentes aos créditos ECTS asignados a este traballo 
+no plan de estudos, e coa duración que alí se establece. O centro velará mediante os mecanismos 
+de coordinación existentes no grao e mediante a Comisión Xestora dos TFG sinalada no artigo 1.3 
+por que isto se cumpra e, en consecuencia, poidan alcanzarse as taxas de eficiencia, éxito e 
+graduación ás que fai referencia a memoria do grao. 
+ 
+ 
+3. Modalidades de TFG e dirección académica 
+ 
+3.1. O TFG contará con profesorado encargado da súa docencia, e poderá pertencer a algunha das 
+seguintes clases: 
+ 
+a) Un traballo individual de entre os propostos polo profesorado, que deberá ser realizado 
+por un/ha único/a estudante, sen excluír a posibilidade de ser asignado un mesmo TFG a 
+máis dun/ha estudante. Será o profesorado que dirixa o TFG quen velará pola súa unicidade. 
+b) Un traballo individual dirixido por un/ha docente do centro que se desenvolva fóra do 
+ámbito da materia. Esta modalidade esixe a presentación na administración do centro dun 
+anteproxecto ligado a unha das cinco mencións, e a súa aprobación por parte da 
+Comisión Xestora dos TFG. O anteproxecto constará dun título e dunha breve descrición 
+dos obxectivos, da metodoloxía e das ferramentas necesarias. 
+
+ 
+ 
+c) Un traballo individual de entre os propostos polas entidades externas que colaboran co a 
+Facultade, e aprobado pola Comisión Xestora de TFG.  Deberá ser realizado por un/ha 
+único/a estudante. A dirección do TFG será levada a cabo por un/ha representante da 
+entidade externa  que propón o TFG e por un profesor/a do centro que realizará unha 
+titorización do TFG desde o punto de vista académico. Estes TFG desenvolveranse no marco 
+da realización dunhas prácticas extra -curriculares, e deben ser completados no marco 
+temporal de ditas prácticas. 
+ 
+ 
+d) Un traballo individual que se desenvolva fóra do ámbito do centro, en colaboración cunha 
+entidade externa, e dirixido por unha persoa pertencente  a esa entidade e por un/ha 
+profesor/a do centro. Esta modalidade esixe a presentación na administración do centro 
+dun anteproxecto ligado a unha das cinco mencións, e a súa aprobación por parte da 
+Comisión Xestora dos TFG. 
+ 
+3.2. O TFG será dirixido por profesorado dos departamentos con docencia no plan de estudos do 
+grao (excepto no caso das persoas directoras externas dos TFG citados no apartado 3.1.c). Quen 
+exerza a dirección será responsable- de: 
+ 
+– Expoñerlle ao estudantado que dirixe - e titoriza - as características do traballo, e orientalo 
+no seu desenvolvemento. 
+ 
+– Realizar un seguimento da elaboración do TFG e velar polo cumprimento dos obxectivos 
+fixados. 
+ 
+– Autorizar a presentación e defensa do TFG. 
+ 
+3.3. O TFG poderá ser dirixido por máis dunha persoa. Nese caso, cando menos unha delas deberá 
+ser membro do profesorado pertencente aos departamentos que imparten docencia no grao 
+(excepto no caso das persoas directoras externas dos TFG citados no apartado 3.1.c). 
+ 
+4. Propiedade intelectual dos traballos 
+4.1. No caso dos traballos desenvolvidos en colaboración cunha entidade externa, a titularidade 
+dos dereitos de propiedade intelectual, se for o caso, rexerase polo establecido na relación 
+contractual entre a/o estudante e a entidade externa. Neste caso, quen exerza a dirección 
+académica non será titular dos dereitos de propiedade intelectual, salvo que se establecer doutra 
+maneira nun documento asinado pola/o estudante, o profesorado encargado da dirección e un/ha 
+representante da entidade externa. 
+4.2. No caso dos traballos desenvolvidos no ámbito do centro, a titularidade dos dereitos de 
+propiedade intelectual, se for o caso, corresponderá á/ao estudante segundo queda recollido no 
+apartado h) do artigo 8 do Real Decreto 1791/2010 do 30 de  decembro, salvo que se establecer 
+doutra maneira no anteproxecto asinado pola/o estudante e o profesorado encargado da dirección 
+do TFG. 
+ 
+O traballo e os sistemas desenvolvidos no TFG poderán ser utilizados para a docencia na UDC, 
+sempre con autorización e mención explícita de quen ostente a súa autoría. 
+ 
+ 
+5. Oferta de temas dos TFGs e asignación de direccións 
+ 
+
+ 
+ 
+5.1. A oferta de TFG da materia comprenderá TFG ofertados tanto por profesorado do centro como 
+por parte de entidades externas que colaboren co centro nesta materia. Os temas ou as liñas dos  
+TFG proporanse de xeito razoado. O profesorado remitirá as súas propostas de TFG directamente á 
+Comisión Xestora dos TFG. O Vicedecanato de Relacións Institucionais recollerá as propostas de 
+entidades externas, e remitiraas á Comisión Xe stora de TFG. Adicionalmente, calquera profesor/a 
+dun departamento con docencia no plan de estudos do grao, estea ou non adscrito ao centro, e 
+teña ou non docencia nunha determinada mención, poderá tamén remitir á Comisión Xestora temas 
+ou liñas ligadas a esa mención, os cales, no caso de seren aprobados pola Comisión, poderán ser 
+engadidos á oferta de TFG considerada na modalidade 3.1.a). 
+ 
+5.2. A Comisión Xestora dos TFG aprobará e fará pública unha listaxe cos temas ou liñas de traballo 
+dos TFG, así como co número de estudantes que poden escoller cada tema e os criterios de 
+asignación. Para elo, tomando como base o número de TFG defendidos satisfactoriamente en cada 
+mención en cursos anteriores, a Comisión Xestora estimará a porcentaxe de estudantes que se 
+matriculen  no TFG que estarán en condicións de defendelo ao longo deste curso, e a devandita 
+listaxe garantirá un número de direccións suficiente. 
+ 
+5.3. Unha vez publicada esta listaxe, o- estudantado matriculados da materia de TFG a quen só lle 
+resten como máximo 48 créditos (excluídos os do TFG) para finalizar a titulación, no prazo dos 
+cinco días seguintes e cun modelo facilitado polo centro, poderá solicitar a asignación por orde de 
+preferencia daqueles temas ou liñas nos que teña interese. Os proxectos da modalidade 3.1.c  
+(proxectos propostos por entidades externas) só poderán ser solicitados por estudantado ao 
+que lle reste como m áximo 18  créditos  (excluíndo os do TFG) . A Comisión Xestora dos TFG 
+preparará unha proposta de asignación provisional, na que intentará respectar as opcións 
+manifestadas polo estudantado, baixo o principio de igualdade, mérito e capacidade. Para dirimir 
+as prioridades na elección dun tema ou liña de traballo valorarase como criterio o expediente 
+académico. No caso dos TFG realizados na modalidade 3.1.c, a asignación do TFG queda 
+condicionada ao establecemento dun contrato de prácticas extracurriculares entre a entidade 
+externa e o alumno/a. 
+ 
+5.4. Coa publicación da proposta provisional establecerase un período de reclamacións. Resoltas 
+estas, a Comisión Xestora dos TFG publicará unha listaxe definitiva. Calquera modificación 
+posterior terá que efectuarse de común acordo entre o alumnado e o profesorado afectado, e en 
+todo caso sempre que a comisión o autorizar. 
+ 
+5.5. Os prazos para os procedementos anteriormente indicados serán os seguintes: 
+ 
+a) O TFG do Grao en Enxeñaría Informática pola UDC está asignado no plan de estudos ao segundo 
+cuadrimestre. Non obstante, estableceranse dúas quendas de asignación de traballos. No primeiro 
+deles, os procedementos establecidos nas epígrafes 4.1, 4.2 e 4.3 deberán estar finalizados antes 
+do 15 de novembro. No segundo deles, os procedementos establecidos nas epígrafes 4.1, 4.2 e 4.3 
+deberán estar finalizados antes do 15 de marzo. Nesta segunda quenda de asignación, poderá 
+solicitar traballos todo o alumnado matriculado no período ordinario, e tamén o alumnado 
+matriculado no período de ampliación de matrícula ao redor do mes de febreiro. Para o correcto 
+funcionamento dos procedementos involucrados en ambas quendas, o calendario académico 
+do centro e a Comisión Xestora dos TFG poderán establecer os prazos intermedios que consideren 
+pertinentes. 
+ 
+
+ 
+ 
+b) Aínda que o TFG estea asignado ao segundo cuadrimestre, o alumnado poderá defendelo non 
+só na primeira oportunidade do segundo cuadrimestre (ao redor do mes de xuño), senón tamén 
+no período establecido para a primeira oportunidade do primeiro cuadrimestre (ao redor do mes 
+de febreiro) e no período establecido para a segunda oportunidade (ao redor do mes de 
+setembro). 
+ 
+5.6. O alumnado poderá renunciar a un TFG asignado mediante un escrito razoado á Comisión 
+Xestora dos TFG. Unha vez concedida a renuncia, a/ o alumna/o deberá presentar un TFG fóra 
+do ámbito da materia ou optar á oferta de traballos por parte do- profesorado da materia no 
+seguinte curso académico. 
+ 
+5.7. Cada estudante deberá defender o seu TFG dentro do curso académico no que lle foi asignado 
+o traballo ou aprobado o correspondente anteproxecto pola Comisión Xestora dos TFG. 
+Transcorrido ese prazo, poderase solicitar no primeiro mes do curso académico seguinte, unha 
+única prórroga para a continuación da validez do seu TFG por outro novo curso académico, 
+mediante escrito razoado á Comisión Xestora dos TFG, acompañado dun inform e do profesorado 
+encargado da dirección. A solicitude de prórroga require matricularse na materia de TFG. 
+Transcorrido o prazo deste mes sen a realización da solicitude de prórroga, ou transcorrido o prazo 
+do curso académico adicional sen a realización da defensa do traballo, a/o estudante decaerá nos 
+seus dereitos respecto ao TFG, declarándose este caducado. Neste caso, a/o estudante deberá 
+iniciar de novo o procedemento previsto neste regulamento. 
+ 
+6. Tribunais de avaliación 
+ 
+6.1. Haberá tribunais de avaliación por cada unha das cinco mencións do grao. Estes tribunais 
+configuraranse da forma que establecer a Comisión Xestora dos TFG, segundo o estudantado que 
+se matricule e a temática dos diferentes TFG que se presentaren. 
+ 
+6.2. Cada tribunal estará formado por tres persoas titulares e unha suplente. Todas elas deberán 
+pertencer ao profesorado do centro. as persoas que exerzan a dirección do TFG non poderán formar 
+parte do tribunal dese traballo. 
+ 
+6.3. Cada tribunal contará cunha persoa que o presida e outra que exerza as funcións de 
+secretaría. Utilizaranse como criterios a categoría docente e a antigüidade nesa categoría para 
+a s i g n a r a presidencia e a secretaría, que exercerán como tales en todas as actuacións do tribunal. 
+ 
+6.4. Unha vez constituídos os tribunais de avaliación, estes, de acordo coa Comisión Xestora dos 
+TFG establecerán a orde de exposición do estudantado no caso de seren varias persoas, así como 
+o día, a hora e o lugar de realización das defensas dos TFG. Realizarase a adecuada comunicación 
+destes datos a todo o estudantado e profesorado afectado. 
+ 
+6.5. A comparecencia das/os membros dos tribunais aos actos de defensa correspondentes é 
+obrigatoria. Se por causa de forza maior unha persoa integrante do tribunal non puidese comparecer 
+a un acto de  defensa, quen exerza a presidencia do tribunal ordenará a súa substitución pola 
+persoa suplente. O tribunal non poderá constituírse para un acto de defensa se faltase algún 
+membro. Neste caso, a persoa que o  presida comunicaralle ao decanato a incidencia para que se 
+tomen as medidas oportunas. 
+ 
+7. Memoria do TFG 
+
+ 
+ 
+7.1. Cada estudante entregará, seguindo as instrucións publicadas polo centro e nos prazos 
+establecidos, unha memoria que describa o traballo desenvolvido no proxecto. A memoria recollerá 
+os contidos recollidos nas instrucións e recomendacións proporcionadas polo centro, cunha 
+extensión máxima de 80 páxinas. Débese ter en conta que a memoria se avaliará polo seu contido, 
+e non pola súa extensión. 
+7.2. En canto ao formato da memoria, esta deberá seguir as instrucións e o modelo proporcionado 
+polo centro. 
+ 
+8. Presentación dos TFG 
+ 
+8.1. Na oportunidade pertinente cada  estudante presentará unha solicitude de defensa e 
+avaliación do TFG, segundo o modelo de impreso que a Comisión Xestora dos TFG establecer, no 
+prazo que se fará público para estes efectos. Coa solicitude entregaranse na administración do 
+centro unha copia da memoria completa do traballo realizado, tres copias dun resumo, a versión 
+electrónica destes dous documentos, a autorización do profesorado responsable da dirección para 
+que o TFG poida ser defendido e cantos documentos estimar necesarios a comisión. Se o TFG inclúe 
+a implementación dunha ferramenta i nformática, poderase entregar tamén a correspondente 
+aplicación sobre os soportes informáticos adecuados, facilitando as instrucións que sexan necesarias 
+para a súa instalación e execución. 
+ 
+Rematado o prazo de solicitudes, a administración do centro entregará a documentación que 
+proceda á persoa nomeada para a  secretaría do tribunal de avaliación, quen deberá custodiar a 
+memoria completa do traballo ata a súa defensa e facer chegar unha copia electrónica da dita 
+memoria e unha copia en papel do resumo ás outras persoas integrantesdo tribunal. 
+ 
+8.2. O estudantado defenderá os seus TFG pública e presencialmente. No caso de que se solicite de 
+forma motivada e acreditada defender o TFG de forma non-presencial, cumprirá que se faga ante a 
+Comisión de Plans de Estudo, delegada do Consello de Goberno, para que a autorice ou non. Isto 
+sempre de se daren as condicións legais, técnicas, administrativas e económicas que o permitiren. 
+ 
+8.3. A realización, presentación e defensa dos TFG poderán efectuarse en calquera dos idiomas 
+empregados na impartición do grao, de acordo co disposto na memoria de verificación do título. 
+ 
+8.4. Cada estudante disporá dun tempo máximo de 20 minutos para a defensa do TFG, en que 
+deberá expoñer os obxectivos, a metodoloxía, o contido e as conclusións do seu traballo. Con 
+posterioridade terá que atender as preguntas, as aclaracións, os comentarios e as suxestións que 
+puideren formularlle as p e r s o a s  i n t e g r a n t e s  do tribunal de avaliación. Se houber 
+persoas tituladas (con categoría igual ou superior á de graduado) presentes no acto, estas 
+poderán tamén formular preguntas. A persoa ou persoas que dirixen o TFG poderán solicitar ao 
+tribunal ser escoitadas en sesión privada despois do acto público de defensa. 
+ 
+9. Desenvolvemento do Traballo de Fin de Grao en Inglés 
+9.1. O alumnado que curse o Grao formando parte do grupo de docencia en Inglés deberá realizar 
+a memoria e a presentación do TFG en Inglés. 
+9.2. O resto do alumnado poderá realizar a memoria e a presentación do TFG en Inglés, tras 
+solicitalo no anteproxecto e obter a correspondente aprobación do mesmo. 
+
+ 
+ 
+ 
+10. Avaliación e cualificación 
+ 
+10.1. Unha vez realizada a exposición de cada estudante e rematadas as quendas de preguntas, o 
+tribunal deliberará sobre a cualificación que lle corresponde. Aplicaranse os criterios de avaliación 
+da guía docente e o disposto na memoria de verificación do título. Cada integrante do tribunal 
+indicará a puntuación outorgada a cada un dos criterios, xunto cunha breve xustificación desa 
+valoración, nun modelo  deseñado a tal efecto p ola Comisión Xestora dos TFG. Unha vez 
+cumprimentados  os tres modelos, a/o secretaria/o do tribunal procederá ao cálculo das 
+cualificacións. Para a cualificación individual de cada integrante do tribunal, terase en conta a 
+ponderación de cada criterio avaliado. E para a cualificación final do TFG establecerase a media 
+aritmética das cualificacións individuais asignadas ao traballo por cada unha das persoas integrantes 
+do tribunal. 
+ 
+10.2. As cualificacións outorgaranse en función da seguinte escala numérica establecida no Real 
+Decreto 1125/20036, de 0 a 10, con expresión dun decimal, á que terá que engadírselle a 
+correspondente cualificación cualitativa: 
+ 
+a) 0 – 4,9 suspenso 
+ 
+b) 5,0 – 6,9  aprobado 
+ 
+c) 7,0 – 8,9 notable 
+ 
+d) 9,0 – 10 sobresaliente 
+ 
+10.3. O estudantado que obtiver unha cualificación igual ou superior a 9,0 puntos, poderá acceder á 
+mención de matrícula de honra, sempre que esta sexa por unanimidade ou a proposta de a lo 
+menos dúas persoas do tribunal, que o indicarán no modelo citado no apartado 7.1. 
+ 
+10.4. No caso da/o estudante obter a cualificación de suspenso, o tribunal faralle chegar un 
+informe coas recomendacións oportunas para a mellora do traballo e a súa posterior avaliación. 
+Enviaráselle tamén unha copia deste informe á persoa ou persoas que dirixiron o TFG. 
+ 
+10.5. A   revisión   e/ou   reclamación   das   cualificacións   finais   dos   TFG   levaranse   a   cabo  de 
+conformidade co previsto na normativa da UDC. 
+ 
+10.6. Real Decreto 1125/2003, de 5 de setembro, polo que se establece o sistema europeo de 
+créditos e o sistema de cualificacións nas titulacións universitarias de carácter oficial e validez en 
+todo o territorio nacional (BOE nº 224, de 18 de setembro de 2003)  conformidade co previsto na 
+normativa da UDC. 
+ 
+11. Matrícula, calendario académico e actas 
+ 
+11.1. A matrícula dos TFG realizarase dentro do prazo xeral de matrícula establecido pola UDC, ou no 
+período de ampliación de matrícula se se  reúnen os requisitos para poder realizar esta 
+modalidade de matrícula, mediante o aboamento dos prezos públicos que corresponderen de 
+acordo co número de créditos asignados ao TFG. 
+ 
+
+ 
+ 
+11.2. O centro, atendendo a criterios de programación docente, establecerá a realización das 
+defensas dos TFG dentro dos prazos marcados no calendario académico que aprobar o Consello de 
+Goberno. 
+ 
+11.3. O peche e entrega das actas de avaliación dos TFG aterase ao previsto no calendario 
+académico aprobado polo Consello de Goberno. 
+ 
+12. Consulta e publicación dos TFG 
+ 
+12.1. Os TFG poderán ser publicados no Repositorio Institucional da UDC (RUC). Cada  estudante 
+poderá autorizar o u  n o n  a u t o r i z a r  a publicación do TFG no RUC e noutros medios de 
+divulgación propios da Universidade da Coruña. No suposto establecido no apartado 2.5 deste 
+Regulamento, a autorización deberá ser asinada tamén polas persoas que exerzan a dirección 
+ 

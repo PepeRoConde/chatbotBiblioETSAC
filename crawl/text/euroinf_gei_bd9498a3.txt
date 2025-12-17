@@ -1,0 +1,1126 @@
+                                                                                                                                        
+ 
+ 
+1 
+v2. 16/02/2018 
+ 
+EXPEDIENTE Nº. (2502210) 
+FECHA DEL INFORME: 10/01/2020 
+ 
+ 
+EVALUACIÓN PARA LA OBTENCIÓN  
+DEL SELLO INTERNACIONAL DE CALIDAD  
+INFORME PROVISIONAL DE LA COMISIÓN DE ACREDITACIÓN 
+DEL SELLO 
+ 
+ 
+Denominación del título GRADUADO O GRADUADA EN INGENIERÍA 
+INFORMÁTICA 
+Universidad (es) UNIVERSIDADE DA CORUÑA (UDC) 
+Menciones/Especialidades 
+MENCIÓN EN INGENIERÍA DEL SOFTWARE 
+MENCIÓN EN INGENIERÍA DE COMPUTADORES 
+MENCIÓN EN TECNOLOGÍAS DE LA INFORMACIÓN 
+MENCIÓN EN SISTEMAS DE INFORMACIÓN 
+MENCIÓN EN COMPUTACIÓN 
+Centro/s donde se imparte FACULTADE DE INFORMÁTICA DA CORUÑA (FIC) 
+Modalidad (es) en la que se 
+imparte el título en el centro. 
+ 
+PRESENCIAL 
+ 
+El Sello Internacional de Calidad del ámbito del título evaluado es un certificado concedido 
+a una universidad en relación con un título de Grado o Máster evaluado respecto a 
+estándares de calidad, relevancia, transparencia, reconocimiento y movilidad 
+contemplados en el Espacio Europeo de Educación Superior.  
+ 
+Se presenta a continuación el Informe Provisional sobre la obtención del sello , 
+elaborado por la Comisión de Acreditación de éste tras el análisis del informe de la 
+renovación de la acreditación (o si milar), el informe realizado por un panel de expertos en 
+la visita al centro universitario donde se imparte este título, junto con el análisis de la 
+autoevaluación realizada por la universidad, el estudio de las evidencias, y otra 
+documentación asociada al título.  
+ 
+La universidad podrá remitir alegaciones a este informe provisional en el plazo máximo de 
+20 días naturales, pudiendo aportar un Plan de Mejoras si lo estimase oportuno.  
+ 
+ 
+
+                                                                                                                                        
+ 
+ 
+2 
+v2. 16/02/2018 
+CUMPLIMIENTO DE LOS CRITERIOS Y DIRECTRICES 
+ 
+DIMENSIÓN: ACREDITACIÓN NACIONAL  
+ 
+El título ha renovado su acreditación con ACSUG con un resultado FAVORABLE con 
+recomendaciones en los siguientes criterios:  
+ 
+Criterio 1: Diseño, organización y desarrollo de la formación  
+ 
+Criterio 2: Información y transparencia  
+ 
+Criterio 3: Sistema de Garantía Interno de Calidad   
+ 
+Criterio 4: Personal académico 
+ 
+Criterio 5: Personal de apoyo, recursos materiales y servicios  
+ 
+Criterio 6: Resultados de aprendizaje  
+ 
+Criterio 7: Indicadores de satisfacción y rendimiento  
+ 
+Estas recomendaciones se están atendiendo en el momento de la visita del panel de 
+expertos a la universidad y aunque no afectan a la obtención de la renovación de la 
+acreditación del sello, la Comisión de Acreditación que realizó esta evaluación previa tiene 
+previsto en su planificación de evaluaciones el seguimiento de la implantación de éstas en 
+junio de 2019, que se tendrá en cuenta en la próximas evaluaciones o renovaci ones de la 
+obtención del sello internacional.   
+ 
+ 
+DIMENSIÓN. SELLO INTERNACIONAL DE CALIDAD 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Los resultados de aprendizaje definidos  en el plan de estudios incluyen los resultados 
+establecidos por la agencia europea de calidad para la acreditación del Sello en el 
+ámbito del título evaluado. 
+Criterio. RESULTADOS DEL APRENDIZAJE DEL SELLO INTERNACIONAL DE 
+CALIDAD 
+Estándar: 
+Los egresados del título han alcanzado los resultados de aprendizaje  
+establecidos por la agencia europea de calidad para la acreditación del Sello en el 
+ámbito del título evaluado. 
+ 
+
+                                                                                                                                        
+ 
+ 
+3 
+v2. 16/02/2018 
+VALORACIÓN:  
+ 
+A B C D No aplica 
+ X    
+ 
+JUSTIFICACIÓN DE CUMPLIMIENTO DE LA DIRECTRIZ: 
+ 
+Para analizar qué competencias y asignaturas integran los resultados del aprendizaje 
+establecidos por la agencia internacional y si éstos quedan completamente cubiertos por 
+las competencias y asignaturas indicadas por los responsables del título, se ha ana lizado 
+las siguientes evidencias: 
+ 
+ Correlación entre los resultados del aprendizaje del Sello y las asignaturas en las que se 
+trabajan (Tabla 5).   
+ CV de los profesores que imparten las asignaturas con las que se adquieren los 
+resultados de aprendizaje (Ver Tabla 5). 
+ Guías docentes de las asignaturas que contengan actividades formativas relacionadas 
+con los resultados de aprendizaje definidos para la obtención del Sello (Ver Tabla 5). 
+ Actividades formativas, metodologías docentes, exámenes, u otras prueb as de 
+evaluación de asignaturas seleccionadas. 
+ Tabla: Listado de proyectos  / trabajos / seminarios / visitas por asignatura donde los 
+estudiantes hayan tenido que desarrollar las competencias relacionadas con 2  
+resultados de aprendizaje en concreto exigidos para el Sello (Tablas 7 y 8). 
+ Listado Trabajos Fin de Grado (Tabla 9). 
+ 
+A partir del análisis de esta información se puede afirmar que las siguientes 
+competencias integran los resultados de aprendizaje establecidos por la agencia 
+internacional: 
+A1: Capacidad para la resolución de los problemas matemáticos que puedan 
+plantearse en la ingeniería. Aptitud para aplicar los conocimientos sobre :  álgebra 
+lineal; cálculo diferencial e integral; métodos numéricos; algorítmica numérica; 
+estadística y optimización. 
+A2: Comprensión y dominio de los conceptos básicos de campos y ondas y 
+electromagnetismo, teoría de circuitos eléctricos, circuitos electrónicos, principio físico 
+de los semiconductores y familias lógicas, dispositivos electrónicos y fotónicos, y su 
+aplicación para la resolución de problemas propios de la ingeniería.  
+A3: Capacidad para comprender y dominar los conceptos básicos de matemática 
+discreta, lógica, algorítmica y complejidad computacional, y su aplicación para la 
+resolución de problemas propios de la ingeniería. 
+A4: Conocimientos básicos sobre el uso y programación de los ordenadores, sistemas 
+operativos, bases de datos y programas informáticos con aplicación en ingeniería.  
+A5: Conocimiento de la estructura, organización, funcionamiento e int erconexión de los 
+sistemas informáticos, los fundamentos de su programación, y su aplicación para la 
+resolución de problemas propios de la ingeniería. 
+A6: Conocimiento adecuado del concepto de empresa, marco institucional y jurídico de 
+la empresa. Organización y gestión de empresas. 
+
+                                                                                                                                        
+ 
+ 
+4 
+v2. 16/02/2018 
+A7: Capacidad para diseñar, desarrollar, seleccionar y evaluar aplicaciones y sistemas 
+informáticos, asegurando su fiabilidad, seguridad y calidad, conforme a principios 
+éticos y a la legislación y normativa vigente. 
+A8: Capacidad para planificar, concebir, desplegar y dirigir proyectos, servicios y 
+sistemas informáticos en todos los ámbitos, liderando su puesta en marcha y su 
+mejora continua y valorando su impacto económico y social. 
+A9: Capacidad para comprender la importancia de la negociación, los hábitos de 
+trabajo efectivos, el liderazgo y las habilidades de comunicación en todos los entornos 
+de desarrollo de software. 
+A10: Capacidad para elaborar el pliego de condiciones técnicas de una instalación 
+informática que cumpla los estándares y normativas vigentes. 
+A11: Conocimiento, administración y mantenimiento de sistemas, servicios y 
+aplicaciones informáticas. 
+A12: Conocimiento y aplicación de los procedimientos algorítmicos básicos de las 
+tecnologías informáticas para diseñar  soluciones a problemas, analizando la idoneidad 
+y complejidad de los algoritmos propuestos. 
+A13: Conocimiento, diseño y utilización de forma eficiente de los tipos y estructuras de 
+datos más adecuados a la resolución de un problema. 
+A14: Capacidad para an alizar, diseñar, construir y mantener aplicaciones de forma 
+robusta, segura y eficiente, eligiendo el paradigma y los lenguajes de programación 
+más adecuados. 
+A15: Capacidad de conocer, comprender y evaluar la estructura y arquitectura de los 
+computadores, así como los componentes básicos que los conforman. 
+A16: Conocimiento de las características, funcionalidades y estructura de los sistemas 
+operativos y diseñar e implementar aplicaciones basadas en sus servicios.  
+A17: Conocimiento y aplicación de las características, funcionalidades y estructura de 
+los sistemas distribuidos, las redes de computadores e internet, y diseñar e 
+implementar aplicaciones basadas en ellas. 
+A18: Conocimiento y aplicación de las características, funcionalidades y estructura de 
+las bases de datos, que permitan su adecuado uso, y el diseño y el análisis e 
+implementación de aplicaciones basadas en ellos. 
+A19: Conocimiento y aplicación de las herramientas necesarias para el 
+almacenamiento, procesamiento y acceso a los sistemas de in formación, incluidos los 
+basados en web. 
+A20: Conocimiento y aplicación de los principios fundamentales y técnicas básicas de la 
+programación paralela, concurrente, distribuida y de tiempo real.  
+A21: Conocimiento y aplicación de los principios fundamentale s y técnicas básicas de 
+los sistemas inteligentes y su aplicación práctica. 
+A22: Conocimiento y aplicación de los principios, metodologías y ciclos de vida de la 
+ingeniería de software. 
+A23: Capacidad para diseñar y evaluar interfaces persona computador qu e garanticen 
+la accesibilidad y usabilidad a los sistemas, servicios y aplicaciones informáticas.  
+A24: Conocimiento de la normativa y la regulación de la informática en los ámbitos 
+nacional, europeo e internacional. 
+C4: Desarrollarse para el ejercicio de u na ciudadanía abierta, culta, crítica, 
+comprometida, democrática y solidaria, capaz de analizar la realidad, diagnosticar 
+
+                                                                                                                                        
+ 
+ 
+5 
+v2. 16/02/2018 
+problemas, formular e implantar soluciones basadas en el conocimiento y orientadas 
+al bien común. 
+A31: Capacidad de diseñar y construi r sistemas digitales, incluyendo computadores, 
+sistemas basados en microprocesador y sistemas de comunicaciones. 
+A36: Capacidad para comprender, aplicar y gestionar la garantía y seguridad de los 
+sistemas informáticos. 
+A37: Capacidad para analizar, evaluar , seleccionar y configurar plataformas hardware 
+para el desarrollo y ejecución de aplicaciones y servicios informáticos.  
+A38: Capacidad para diseñar, desplegar, administrar y gestionar redes de 
+computadores. 
+A47: Capacidad para determinar los requisitos de  los sistemas de información y 
+comunicación de una organización atendiendo a aspectos de seguridad y 
+cumplimiento de la normativa y la legislación vigente. 
+A48: Capacidad para participar activamente en la especificación, diseño, 
+implementación y mantenimiento de los sistemas de información y comunicación. 
+A50: Capacidad para comprender y aplicar los principios de la evaluación de riesgos y 
+aplicarlos correctamente en la elaboración y ejecución de planes de actuación.  
+A53: Capacidad para seleccionar, diseñar , desplegar, integrar, evaluar, construir, 
+gestionar, explotar y mantener las tecnologías de hardware, software y redes, dentro 
+de los parámetros de coste y calidad adecuados. 
+A58: Capacidad para comprender, aplicar y gestionar la garantía y seguridad de los 
+sistemas informáticos. 
+B1: Capacidad de resolución de problemas 
+B2: Trabajo en equipo 
+B3: Capacidad de análisis y síntesis 
+B4: Capacidad para organizar y planificar 
+B5: Habilidades de gestión de la información 
+B6: Toma de decisiones 
+B7: Preocupación por la calidad 
+B8: Capacidad de trabajar en un equipo interdisciplinar 
+B9: Capacidad para generar nuevas ideas (creatividad) 
+C1: Expresarse correctamente, tanto de forma oral como escrita, en las lenguas 
+oficiales de la comunidad autónoma. 
+C2: Dominar la exp resión y la comprensión de forma oral y escrita de un idioma 
+extranjero. 
+C3: Utilizar las herramientas básicas de las tecnologías de la información y las 
+comunicaciones (TIC) necesarias para el ejercicio de su profesión y para el aprendizaje 
+a lo largo de su vida. 
+C4: Desarrollarse para el ejercicio de una ciudadanía abierta, culta, crítica, 
+comprometida, democrática y solidaria, capaz de analizar la realidad, diagnosticar 
+problemas, formular e implantar soluciones basadas en el conocimiento y orientadas 
+al bien común. 
+C5: Entender la importancia de la cultura emprendedora y conocer los medios al 
+alcance de las personas emprendedoras. 
+C6: Valorar críticamente el conocimiento, la tecnología y la información disponible para 
+resolver los problemas con los que deben enfrentarse. 
+
+                                                                                                                                        
+ 
+ 
+6 
+v2. 16/02/2018 
+C7: Asumir como profesional y ciudadano la importancia del aprendizaje a lo largo de 
+la vida. 
+C8: Valorar la importancia que tiene la investigación, la innovación y el desarrollo 
+tecnológico en el avance socioeconómico y cultural de la sociedad. 
+ 
+ Si diferenciamos por resultados de aprendizaje establecidos por la agencia 
+internacional:  
+ 
+1. Fundamentos de la Informática  
+1.1. Describir y explicar los conceptos, teorías y métodos matemáticos relativos a la 
+informática, equipamiento informático, comunicaciones informáticas y aplicaciones 
+informáticas de acuerdo con el plan de estudios. 
+ 
+Se integra completamente con las siguientes competencias: 
+A1, A2, A3. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Cálculo, Matemática Discreta, Tecnología Electrónica, Programación II, 
+Estadística, Álgebra, Algoritmos, Bases de Datos, Gestión de Proyectos, Gestión de 
+Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades for mativas como sesiones de laboratorio, de problemas y de seminario s en 
+grupos reducidos , boletines de ejercicios  en asignaturas como Cálculo, la boratorios en 
+asignaturas como Programación 1  y prácticas en grupo en Gestión de Proyectos  y para la 
+medición de su adquisición por todos los estudiantes mediante sistemas de evaluación  
+como pruebas escritas de evaluación continua y entregables de prácticas  o prácticas en 
+grupo en Gestión de Proyectos. 
+ 
+ 
+1.2. Describir las características de los últimos avances en hardware y software y sus 
+correspondientes aplicaciones prácticas. 
+ 
+Se integra completamente con las siguientes competencias: 
+A4, A5, A7, A15, A16, A17, A20, A21, C6, C8. 
+Asociadas a las siguientes asignaturas: 
+Informática Básica, Tecnología Electrónica, F undamentos de los Computadores, Estructura de 
+Computadores, Paradigmas de Programación, Diseño Software, Sistemas Operativos, Redes, 
+Concurrencia y Paralelismo, Procesos Software, Sistemas Inteligentes, Internet y Sistemas 
+Distribuidos, Legislación y Seguridad Informática y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como clases magistrales, seminarios y prácticas de laboratorio en 
+Informática Básica  y Paradigmas de Programación  y para su medición de adquisición por 
+todos los estudiantes mediante sistemas de evaluación  como entregas de prácticas y 
+pruebas objetivas de la materia en Informática Básica y Paradigmas de Programación. 
+ 
+ 
+ 
+
+                                                                                                                                        
+ 
+ 
+7 
+v2. 16/02/2018 
+1.3. Describir los avances informáticos actuales e históricos y demostrar cierta visión 
+sobre tendencias y avances futuros. 
+ 
+Se integra completamente con las siguientes competencias: 
+A4, A5, A7, A15, A16, A17, A21, C6, C7 y C8. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Informática Básica, Programación II, Fundamentos de los Computadores, 
+Álgebra, Algoritmos, Estructura de Computadores, Paradigmas de Programación, Diseño 
+Software, Sistemas Operativos, Redes, Concurrencia y Paralelismo, Proceso Software, Si stemas 
+Inteligentes, Gestión de Proyectos, Internet y Sistemas Distribuidos, Legislación y Seguridad 
+Informática y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas  como clases magistrales, seminarios y prácticas de laboratorio en 
+Informática Básica  y Paradigmas de Programación  y para su medición de adquisición por 
+todos los estudiantes mediante sistemas de evaluación  como entregas de prácticas y 
+pruebas objetivas en Informática Básica y Paradigmas de Programación. 
+ 
+ 
+1.4. Aplicar e integrar conocimientos de otras disciplinas informáticas como apoyo al 
+estudio de la propia área de especialidad (o áreas de especialidad).  
+ 
+Se integra completamente con las siguientes competencias: 
+B1, B3, C6 y C7. 
+Asociadas a las siguientes asignaturas: 
+Informática Básica, Álgebra, Estructura de Computadores, Bases de Datos, Paradigmas de 
+Programación, Diseño Software, Sistemas Operativos, Concurrencia y Paralelismo, Sistemas 
+Inteligentes, Gestión de Proyectos, Interfaces Persona Máquina, Internet y Sistemas Distribuidos, 
+Legislación y Seguridad Informática y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como sesiones magistrales, prácticas de laboratorio en Informática 
+Básica y Paradigmas de Programación  y aprendizaje colaborativo  y para su medición de 
+adquisición por todos los estudiantes mediante sistemas de evaluación  como pruebas 
+escritas de tipo cuestiones cortas y test  o pruebas objetivas y en exámenes de la materia 
+en Informática Básica y Paradigmas de Programación. 
+ 
+ 
+1.5. Demostrar sensibilización ante la necesidad de contar con amplios 
+conocimientos a la hora de crear aplicaciones informáticas en otras áreas temáticas. 
+ 
+Se integra completamente con las siguientes competencias: 
+C6, C7 y C8. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Cálculo, Matemática Discreta, Álgebra, Algoritmia, Bases de Datos, Diseño 
+Software, Sistemas Operativos, Proceso Software, Sistemas Inteligentes, Gestión de Proyectos, 
+Legislación y Seguridad Informática y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como sesiones magistrales, prácticas de laboratorio en 
+
+                                                                                                                                        
+ 
+ 
+8 
+v2. 16/02/2018 
+Programación I y Diseño Software o seminarios en Diseño Software y aprendizaje colaborativo 
+y para su medición de adquisición por todos los estudiantes mediante sistemas de 
+evaluación como cuestionarios en sesiones presenciales y pruebas de respuesta múltiple  y 
+trabajos tutelados en prácticas de laboratorio en Programación I y Diseño software. 
+ 
+ 
+2. Análisis  
+2.1. Utilizar una serie de técnicas con las que identificar las necesidades de  
+problemas reales, analizar su complejidad y evaluar la viabilidad de las posibles 
+soluciones mediante técnicas informáticas. 
+ 
+Se integra completamente con las siguientes competencias: 
+A1, A2, A3, A4, A5, A7, A8, A12, A15, A16, A17, A21, A31, B1, B3, B5, B6 y B9. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Informática Básica, Cálculo, Matemática Discreta, Tecnología Electrónica, 
+Programación II, Fundamentos de los Computadores, Estadística, Álgebra, Algoritmos, Estructura 
+de Computadores, Bases  de Datos, Paradigmas de Programación, Diseño Software, Sistemas 
+Operativos, Redes, Concurrencia y Paralelismo, Proceso Software, Sistemas Inteligentes, Gestión 
+de Proyectos, Internet y Sistemas Distribuidos, Legislación y Seguridad Informática  y Gestión de 
+Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como prácticas de laboratorio en Programación I  o seminarios en 
+Diseño Software, el desarrollo de programas en papel y su posterior implementación en el 
+computador y para su medición de adquisición por todos los estudiantes mediante 
+sistemas de evaluación  como la realización de prácticas en el laboratorio con ordenador  y 
+trabajos tutelados en prácticas de laboratorio en Programación I y Diseño software. 
+ 
+ 
+2.2. Describir un determinado problema y su solución a varios niveles de abstracción.  
+ 
+Se integra completamente con las siguientes competencias: 
+A1, A2, A3, A4, A5, A7, A13, A15, A17, A18, A21, A23, A31, B1 y B3. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Informática Básica, Cálculo, Matemática Discreta, Tecnología Electrónica, 
+Programación II, Fundamentos de los Computadores, Estadística, Álgebra, Algoritmos, Estructura 
+de Computadores, Bases de Datos, Paradigmas  de Programación, Diseño Software, Redes, 
+Concurrencia y Paralelismo, Proceso Software, Sistemas Inteligentes, Interfaces Persona 
+Máquina, Internet y Sistemas Distribuidos, Legislación y Seguridad Informática y Gestión de 
+Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como la realización de trabajos que se corregirán en las tutorías 
+grupales, prácticas de laboratorio en Programación I  y Diseño Software  o seminarios en 
+Diseño Software y para su medición de adquisición por todos los estudiantes mediante 
+sistemas de evaluación  como evaluación de prácticas de laboratorio y pruebas objetivas 
+sobre contenidos teóricos o trabajos tutelados en prácticas de laboratorio en Programación 
+I y Diseño software. 
+ 
+
+                                                                                                                                        
+ 
+ 
+9 
+v2. 16/02/2018 
+2.3. Seleccionar y utilizar los correspondientes métodos analíticos, de simulación y 
+de modelización. 
+ 
+Se integra completamente con las siguientes competencias: 
+A1, A3, A7, A12, A14, A21, B1 y B3. 
+Asociadas a las siguientes asignaturas: 
+Cálculo, Matemática Discreta, Tecnología Electrónica, Estadística, Algoritmos, Bases de Datos, 
+Paradigmas de Programación, Diseño Software, Sistemas Operativos, Concurrencia y 
+Paralelismo, Proceso Software, Sistemas Inteligentes, Gestión de Pr oyectos y Gestión de 
+Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como prácticas de laboratorio en Bases de datos  y Diseño Software , 
+trabajos tutelados en Bases de datos  o seminarios en Diseño Software  y para su medición 
+de adquisición por todos los estudiantes mediante sistemas de evaluación  como pruebas 
+escritas al final del curso sobre los contenidos teórico -prácticos y trabajos tutelados en 
+prácticas de laboratorio en Bases de datos y Diseño software. 
+ 
+ 
+2.4. Escoger los patrones de solución, algoritmos y estructuras de datos apropiados.   
+ 
+Se integra completamente con las siguientes competencias:  
+A1, A3, A12, A13, A14, A16, A17, A18, B1 y B3. 
+Asociadas a las siguientes asignaturas:  
+Programación I, Matemática Discreta, Programación II, Álgebra, Algoritmos, Bases de Datos, 
+Paradigmas de Programación, Diseño Software, Sistemas Operativos, Concurrencia y 
+Paralelismo e Internet y Sistemas Distribuidos. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como prácticas de laboratorio supervisadas  en Bases de datos  y 
+Diseño Software , trabajos tutelados en Bases de datos  o seminarios en Diseño Software  y 
+para su  medición de adquisición por todos los estudiantes mediante sistemas de 
+evaluación como pruebas mixtas en las que se evalúan conocimientos teóricos y prácticos  
+y trabajos tutelados en prácticas de laboratorio en Bases de datos y Diseño software. 
+ 
+ 
+2.5. Analizar la medida en la que un determinado sistema informático cumple con los 
+criterios definidos para su uso actual y desarrollo futuro. 
+ 
+Se integra completamente con las siguientes competencias:  
+A5, A7, A12, A13, A14, A15, A18 y B7. 
+Asociadas a las siguientes asignaturas:  
+Fundamentos de los Computadores, Algoritmos, Estructura de Computadores, Bases de Datos, 
+Paradigmas de Programación, Diseño Software, Sistemas Operativos, Proceso Software, 
+Interfaces Persona Máquina, Internet y Sistemas Distribuid os y Legislación y Seguridad 
+Informática. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como solución de problemas en seminarios y sesiones prácticas de 
+laboratorio y trabajos tutelados en Bases de Datos  o seminarios en Diseño Software y para 
+
+                                                                                                                                        
+ 
+ 
+10 
+v2. 16/02/2018 
+su medición de adquisición por todos los estudiantes mediante sistemas de evaluación  
+como evaluación de prácticas en laboratorio en Bases de datos  y Diseño software y pruebas 
+objetivas para la evaluación de contenidos teóricos. 
+ 
+ 
+3. Diseño e implementación  
+3.1. Definir y diseñar hardware/software informático/de red que cumpla con los 
+requisitos establecidos. 
+ 
+Se integra completamente con las siguientes competencias: 
+A7, A10, A11, A15, A17, A21, A37, A38, A48, A53, B1 y B3. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Informática Básica, Programación II, Fundamentos de los Computadores, 
+Algoritmos, Estructura de Computadores, Bases de Datos, Paradigmas de Programación, Diseño 
+Software, Redes, Pr oceso Software, Sistemas Inteligentes, Internet y Sistemas Distribuidos, 
+Legislación y Seguridad Informática y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como sesiones magistrales, solución de problemas y prácticas de 
+laboratorio en Bases de datos  y Diseño Software , trabajos tutelados en Bases de datos  o 
+seminarios en Diseño Software, y para su medición de adquisición por todos los estudiantes 
+mediante sistemas de evaluación  como evaluación de prácticas de laboratorio y pruebas 
+objetivas. 
+ 
+ 
+3.2. Describir las fases implicadas en distintos modelos de ciclo de vida con respecto 
+a la definición, construcción, análisis y puesta en marcha de nuevos sistemas y el 
+mantenimiento de sistemas existentes. 
+ 
+Se integra completamente con las siguientes competencias: 
+A14, A16, A22 y B3. 
+Asociadas a las siguientes asignaturas: 
+Bases de Datos, Diseño Software, Sistemas Operativos, Proceso Software, Gestión de Proyectos e 
+Interfaces Persona Máquina. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas  como resolución de boletines de ejercicios en prácticas de 
+laboratorio con ordenador en Bases de Datos y Diseño Software y resolución de problemas 
+en seminarios  y para su medición de adquisición por todos los estudiantes mediante 
+sistemas de evaluación  como pruebas objetivas escritas sobre contenidos teórico -
+prácticos. 
+ 
+ 
+3.3. Elegir y utilizar modelos de proceso adecuados, entornos de programación y 
+técnicas de gestión de datos con respecto a proyectos que impliquen aplicaciones 
+tradicionales así como aplicaciones emergentes. 
+ 
+Se integra completamente con las siguientes competencias: 
+A14, A17, A19 y B1. 
+
+                                                                                                                                        
+ 
+ 
+11 
+v2. 16/02/2018 
+Asociadas a las siguientes asignaturas: 
+Programación I, Programación II, Diseño Software, Gestión de Proyectos, Interfaces Persona 
+Máquina e Internet y Sistemas Distribuidos. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como sesiones magistrales y prácticas de laboratorio  en 
+Programación I  y Diseño Software  o seminarios en Diseño Software  y para su medición de 
+adquisición por todos los estudiantes mediante sistemas de evaluación  como 
+presentaciones or ales y pruebas objetivas escritas  y trabajos tutelados en prácticas de 
+laboratorio en Programación I y Diseño software. 
+ 
+3.4. Describir y explicar el diseño de sistemas e interfaces para interacción persona -
+ordenador y ordenador-ordenador. 
+ 
+Se integra completamente con las siguientes competencias: 
+A5, A14, A15, A17 y A23. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Fundamentos de los Computadores, Estructura de Computadores, Paradigmas 
+de Programación, Diseño Software, Concurrencia y Parale lismo, Proceso Software, Internet y 
+Sistemas Distribuidos, y Legislación y Seguridad Informática. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas  como discusiones dirigidas , prácticas de laboratorio en 
+Programación I y Diseño Software y trabajos tutelados y para su medición de adquisición por 
+todos los estudiantes mediante sistemas de evaluación  como entregas de prácticas de 
+laboratorio en Programación I o Diseño software y exámenes escritos. 
+ 
+ 
+3.5. Aplicar las correspondientes competencias prácticas y de programación en la 
+creación de programas informáticos y/u otros dispositivos informáticos.  
+ 
+Se integra completamente con las siguientes competencias: 
+A4, A5, A7, A12, A14, A16, A17, A19, A20, A21, B1, B9 y C3. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Informática Básica, Programación II, Algoritmos, Bases de Datos, Paradigmas 
+de Programación, Diseño Software, Sistemas Operativos, Concurrencia y Paralelismo, Sis temas 
+Inteligentes, Interfaces Persona Máquina, Internet y Sistemas Distribuidos y Gestión de 
+Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como sesiones prácticas de laboratorio con ordenador  en 
+Programación I  y Diseño Software  o seminarios en Diseño Software  y para su medición de 
+adquisición por todos los estudiantes mediante sistemas de evaluación  como exámenes 
+escritos de evaluación continua para los contenidos teór icos y pruebas en laboratorio para 
+los contenidos prácticos. 
+ 
+ 
+ 
+ 
+ 
+
+                                                                                                                                        
+ 
+ 
+12 
+v2. 16/02/2018 
+4. Contexto económico, jurídico, social, ético y medioambiental  
+4.1. Demostrar concienciación sobre la necesidad de tener una conducta ética y 
+profesional de primer nivel y conocimientos de  los códigos de conducta 
+profesionales. 
+ 
+Se integra completamente con las siguientes competencias: 
+A6, A7, A10, C4, C5 y C6. 
+Asociadas a las siguientes asignaturas: 
+Administración y Gestión de Organizaciones, Diseño Software, Sistemas Operativos, Interfaces 
+Persona Máquina, Legislación y Seguridad Informática y Gestión de Infraestructuras.  
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como sesiones magistrales y prácticas de laborato rio en Diseño 
+Software o seminarios en Administración y gestión de organizaciones  y Diseño Software y para 
+su medición de adquisición por todos los estudiantes mediante sistemas de evaluación  
+como pruebas orales para la evaluación de las prácticas de labor atorio, trabajos tutelados 
+en prácticas de laboratorio o a través de TIC en Administración y gestión de organizaciones  y 
+Diseño software  y cuestionarios en las sesiones magistrales para evaluar contenidos 
+teóricos. 
+ 
+ 
+4.2. Explicar la forma en la que el contexto comercial, industrial, económico y social 
+afecta la práctica de la informática. 
+ 
+Se integra completamente con las siguientes competencias: 
+A6, A7, A10, C4, C5 y C6. 
+Asociadas a las siguientes asignaturas: 
+Administración y Gestión de Organizaciones , Estructura de Computadores, Bases de Datos, 
+Sistemas Operativos, Internet y Sistemas Distribuidos, Legislación y Seguridad Informática y 
+Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de  
+actividades formativas como prácticas a través de TIC y seminarios  en Administración y 
+gestión de organizaciones  y prácticas de laboratorio y pruebas de respuesta múltiple en 
+Legislación y Seguridad Informática  y para su medición de adquisición por todos los 
+estudiantes mediante sistemas de evaluación  como solución de problemas , trabajos 
+tutelados en prácticas de laboratorio en Legislación y Seguridad Informática  y pruebas 
+mixtas. 
+ 
+ 
+4.3. Identificar los requisit os jurídicos que rigen las actividades informáticas, 
+incluyendo la protección de datos, derechos de propiedad intelectual, contratos, 
+cuestiones de seguridad del producto y responsabilidad, cuestiones personales y 
+riesgos laborales. 
+ 
+Se integra completamente con las siguientes competencias: 
+A7, A10, A24 y A47. 
+Asociadas a las siguientes asignaturas: 
+Interfaces Persona Máquina, Legislación y Seguridad Informática y Gestión de Infraestructuras.  
+
+                                                                                                                                        
+ 
+ 
+13 
+v2. 16/02/2018 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas  como prácticas a través de TIC,  trabajos tutelados  y pruebas de 
+respuesta múltiple en Legislación y Seguridad Informática  y para su medición de adquisición 
+por todos los estudiantes medi ante sistemas de evaluación  como defensa de trabajos y 
+pruebas escritas y trabajos tutelados en prácticas de laboratorio en Legislación y Seguridad 
+Informática. 
+ 
+ 
+4.4. Explicar la importancia de la confidencialidad de la información y cuestiones 
+relativas a la seguridad con respecto al diseño, desarrollo, mantenimiento, 
+supervisión y uso de sistemas informáticos. 
+ 
+Se integra completamente con las siguientes competencias: 
+A7, A24, A36, A47, A50, A58 y C6. 
+Asociadas a las siguientes asignaturas: 
+Informática B ásica, Diseño Software, Redes, Internet y Sistemas Distribuidos, Legislación y 
+Seguridad Informática y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como análisis de fuentes documentales y estudios de casos , 
+prácticas de laboratorio y pruebas de respuesta múltiple en Legislación y Seguridad 
+Informática y para su medición de adquisición por todos los estudiantes mediante sistemas 
+de evaluación como pruebas orales y pruebas de respuesta múltiple  y trabajos tutelados 
+en prácticas de laboratorio en Legislación y Seguridad Informática. 
+ 
+ 
+5. Práctica de la informática  
+5.1. Demostrar conocimientos sobre los códigos y estándares de cumplimiento del 
+sector. 
+ 
+Se integra completamente con las siguientes competencias: 
+A7, A8, A17, A18, A19 y A20. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Informática Básica, Algoritmos, Bases de Datos, Diseño Software, Concurrencia 
+y Paralelismo, Gestión de Proyectos, I nterfaces Persona Máquina, Internet y Sistemas 
+Distribuidos y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como sesiones magistrales, prácticas de laboratorio en 
+Programación I y Bases de datos y seminarios, y para su medición de adquisición por todos 
+los estudiantes mediante sistemas de evaluación  como pruebas escritas en exámenes de 
+la materia en Programación I  y trabajos tutelados en prácticas de laboratorio en 
+Programación I y Bases de datos. 
+ 
+ 
+5.2. Describir y explicar las técnicas de gestión correspondientes al diseño, 
+implementación, análisis, uso y mantenimiento de sistemas informáticos, 
+incluyendo gestión de proyectos, de configuración y de cambios, así como las 
+técnicas de automatización correspondientes.  
+
+                                                                                                                                        
+ 
+ 
+14 
+v2. 16/02/2018 
+Se integra completamente con las siguientes competencias: 
+A8, A9, A14, A17 y A22. 
+Asociadas a las siguientes asignaturas: 
+Algoritmos, Diseño Software, Proceso Software, Gestión de Proyectos, Interfaces  Persona 
+Máquina e Internet y Sistemas Distribuidos. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como sesiones magistrales y prácticas de laboratorio  en Diseño 
+Software y Gestión de Proyectos o seminarios en Diseño Software  y para su medición de 
+adquisición por todos los estudiantes mediante sistemas de evaluación  como pruebas 
+mixtas y trabajos tutelados en prácticas de laboratorio Diseño software  y Gestión de 
+Proyectos. 
+ 
+ 
+5.3. Identificar los riesgos, incluyendo riesgos de seguridad, laborales, 
+medioambientales y comerciales y llevar a cabo una evaluación de riesgos, reducción 
+de riesgos y técnicas de gestión de riesgos 
+ 
+Se integra completamente con las siguientes competencias: 
+A7, A8, A9, A50 y A58. 
+Asociadas a las siguientes asignaturas: 
+Gestión de Proyectos, Legislación y Seguridad Informática, y Gestión de Infraestructuras.  
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades format ivas como estudios de casos y análisis de fuentes documentales  o 
+prácticas de laboratorio en Gestión de Proyectos  y Legislación y Seguridad Informática  y para 
+su medición de adquisición por todos los estudiantes mediante sistemas de evaluación  
+como evaluación de prácticas de laboratorio en Gestión de Proyectos  y Legislación y 
+Seguridad Informática y pruebas de respuesta múltiple. 
+ 
+ 
+5.4. Realizar investigaciones bibliográficas y evaluaciones utilizando bases de datos y 
+otras fuentes de información. 
+ 
+Se integra completamente con las siguientes competencias: 
+A5, A7, A19 y B5. 
+Asociadas a las siguientes asignaturas: 
+Diseño Software, Sistemas Operativos, Sistemas Inteligentes, Gestión de Proyectos, Legislación y 
+Seguridad Informática y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como trabajos tutelados, prácticas de laboratorio en Diseño Software 
+y prácticas a través de TIC en Gestión de Infraestructura s y para su medición de adquisición 
+por todos los estudiantes mediante sistemas de evaluación  como evaluación de prácticas 
+de laboratorio Diseño software, trabajos tutelados y prácticas a través de TIC en Gestión de 
+Infraestructuras. 
+ 
+ 
+ 
+
+                                                                                                                                        
+ 
+ 
+15 
+v2. 16/02/2018 
+5.5. Diseñar y llevar a cabo investigaciones prácticas (por ejemplo, de rendimientos 
+de sistemas) para interpretar datos y extraer conclusiones. 
+ 
+Se integra completamente con las siguientes competencias: 
+A7, A14, A15, A20, B3 y B5. 
+Asociadas a las siguientes asignaturas: 
+Fundamentos de los Computadores, Algoritmos, Estructura de Computadores, Paradigmas de 
+Programación, Diseño Software, Sistemas Operativos, Redes, Concurrencia y Paralelismo, y 
+Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como sesiones magistrales , trabajos tutelados y prácticas a través 
+de TIC en Gestión de Infraestructuras  y soluciones de problemas  y para su medición de 
+adquisición por todos los estudia ntes mediante sistemas de evaluación  como pruebas 
+objetivas escritas. 
+ 
+ 
+6. Otras competencias y habilidades profesionales 
+6.1. Organizar su propio trabajo de manera independiente demostrando iniciativa y 
+ejerciendo responsabilidad personal. 
+ 
+Se integra completamente con las siguientes competencias: 
+B1, B4, B6, B7 y B9. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Informática Básica, Cálculo, Matemática Discreta, Programación II, Algoritmos, 
+Bases de Datos, Paradigmas de Programación, Redes, Co ncurrencia y Paralelismo, Proceso 
+Software, Gestión de Proyectos, Interfaces Persona Máquina, Internet y Sistemas Distribuidos, y 
+Legislación y Seguridad Informática. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas  como sesiones de laboratorio en Programación I cuyo objetivo es 
+que el estudiante realice un programa organizando su trabajo de forma independiente  y 
+para su medición de adquisición por todos los estudiantes mediante sistemas de 
+evaluación como pruebas objetivas en exámenes de la materia en Programación I, trabajos 
+tutelados en prácticas de laboratorio en Programación I y Legislación y Seguridad Informática 
+y ejercicios prácticos individuales con formatos de entrega estrictos. 
+ 
+ 
+6.2. Comunicar mensajes de forma efectiva tanto oralmente como por medio de 
+otros medios de comunicación ante distintas audiencias. 
+ 
+Se integra completamente con las siguientes competencias: 
+C1, C2 y C3. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Informática Básica, Matemática Discreta, Tecnología Electrónica, Programación 
+II, Fundamentos de los Computadores, Estadística, Administración y Gestión de Organizaciones, 
+Álgebra, Algoritmos, Estructura de Computadores, Paradigmas de Programación, Sistemas  
+Operativos, Concurrencia y Paralelismo, Proceso Software, Sistemas Inteligentes, Interfaces 
+
+                                                                                                                                        
+ 
+ 
+16 
+v2. 16/02/2018 
+Persona Máquina, Internet y Sistemas Distribuidos, Legislación y Seguridad Informática y 
+Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como seminarios en grupos reducidos donde los estudiantes deben 
+justificar la solución de problemas propuestos  y prácticas de laboratorio en Programación I 
+y Legislación y Seguridad Informática y para su medición de adquisición por todos los 
+estudiantes mediante sistemas de evaluación  como pruebas objetivas en exámenes de la 
+materia en Programación I y trabajos tutelados en prácticas de laboratorio en Programación 
+I y Legislación y Seguridad Informática. 
+ 
+ 
+6.3. Planificar su propio proceso de aprendizaje autodidacta y mejorar su 
+rendimiento personal como base de una formación y un desarrollo personal 
+continuos. 
+ 
+Se integra completamente con las siguientes competencias: 
+B1, B4 y C7. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Cálculo, Matemática Discreta, Estructura de Computadores, Bases de Datos, 
+Paradigmas de Programación, Diseño Software, Sistemas Operativos, Redes, Internet y Sistemas 
+Distribuidos, y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como seminarios donde los estudiantes plantean cuestiones sobre 
+la materia o prácticas de laboratorio en Diseño Software y para su medición de adquisición 
+por todos los estudiantes mediante sistemas de evaluación como defensa de trabajos ante 
+el profesor/a de prácticas de laboratorio  en Diseño software y prácticas a través de TIC en 
+Gestión de Infraestructuras. 
+ 
+ 
+6.4. Identificar las distintas maneras de organizar equipos y los distintos roles dentro 
+de dichos equipos. 
+ 
+Se integra completamente con las siguientes competencias: 
+A9, B1, B2, B4, B6 y B8. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Programación II, Algoritmos, Diseño Software, Sistemas Operativos, Redes, 
+Proceso Software, Sistemas Inteligentes, Gestión de Proyectos, Interfaces Persona Máquina, 
+Internet y Sistemas Distribuidos, y Gestión de Infraestructuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como trabajos tutelados en grupos de tamaño reducido  y para su 
+medición de adquisición por todos los estudiantes mediante sistemas de evaluación  como 
+resolver en grupos de prácticas de laboratorio el análisis de un dominio planteado por el/la 
+profesor/a. 
+ 
+ 
+ 
+ 
+
+                                                                                                                                        
+ 
+ 
+17 
+v2. 16/02/2018 
+6.5. Participar de manera efectiva en grupos de trabajo informático.  
+ 
+Se integra completamente con las siguientes competencias: 
+A9, B1, B2 y B8. 
+Asociadas a las siguientes asignaturas: 
+Programación I, Programación II, Algoritmos, Diseño Software, Sistemas Operativos, 
+Concurrencia y Paralelismo, Proceso Software, Sistemas Inteligentes, Gestión de Proyectos, 
+Interfaces Persona Máquina, Internet y Sistemas Distribuidos, y Gestión de Infrae structuras. 
+En las que el profesorado y los contenidos son adecuados para su integración a través de 
+actividades formativas como trabajos tutelados, prácticas de laboratorio en Diseño Software 
+y prácticas a través de TIC en Gestión de Infraestructuras  y para su medición de adquisición 
+por todos los estudiantes mediante sistemas de evaluación  como evaluación de prácticas 
+realizadas en parejas y trabajos tutelados en prácticas de laboratorio en Diseño software. 
+ 
+ 
+A partir del análisis de cada uno de los sub-resultados se considera que: 
+ 
+- 29 de 29 sub-resultados de aprendizaje establecidos por EQANIE para informática están 
+integrados completamente por el plan de estudios del título. 
+ 
+ 
+2. Los resultados de aprendizaje alcanzados por los titulados satisfacen aquellos 
+establecidos por la agencia europea de calidad para la acreditación del Sello en el 
+ámbito del título evaluado. 
+ 
+VALORACIÓN:  
+A B C D No aplica 
+ X    
+ 
+JUSTIFICACIÓN DE CUMPLIMIENTO DE LA DIRECTRIZ: 
+ 
+Para analizar si todos los egresados del título, independientemente de su perfil de ingreso 
+y de la especialidad que hayan cursado, han adquirido todos los resultados del aprendizaje 
+establecidos por la agencia internacional, se ha tenido en cuenta la siguiente información: 
+ Muestras de exámenes, trabajos y pruebas corregidos de las asignaturas con las que se 
+adquieren los resultados de aprendizaje establecidos para obtener el Sello.  
+ Tasas de resultados de las asignaturas con las que se adquieren los resultados de 
+aprendizaje establecidos por la ag encia internacional de calidad que concede el Sello 
+(Tabla 5). 
+ Resultados de satisfacción de las asignaturas en las que se trabajan los resultados de 
+aprendizaje establecidos por la agencia internacional de calidad que concede el Sello.  
+ Muestra de los Trabajo Fin de Grado (TFG) con las calificaciones. 
+ Información obtenida en las entrevistas durante la visita a todos los agentes implicados, 
+
+                                                                                                                                        
+ 
+ 
+18 
+v2. 16/02/2018 
+especialmente egresados y empleadores de los egresados del título respecto a la 
+adquisición de los resultados de aprendizaje establecidos para la obtención del Sello. 
+ 
+ 
+A partir del análisis de esta información se puede afirmar que: 
+1. Fundamentos de la Informática  
+ 
+Todos los egresados han adquirido: 
+1.1. Describir y explicar los conceptos, teorías y métodos matemáticos relativos a la 
+informática, equipamiento informático, comunicaciones informáticas y aplicaciones 
+informáticas de acuerdo con el plan de estudios. 
+1.2. Describir las características de los últimos avances en hardware y software y sus 
+correspondientes aplicaciones prácticas. 
+1.3. Describir los avances informáticos actuales e históricos y demostrar cierta visión 
+sobre tendencias y avances futuros. 
+1.4. Aplicar e integrar conocimientos de otras disciplinas informáticas como apoyo al 
+estudio de la propia área de especialidad (o áreas de especialidad). 
+1.5. Demostrar sensibilización ante la necesidad de contar con amplios 
+conocimientos a la hora de crear aplicaciones informáticas en otras áreas temáticas.  
+ 
+De manera que:  
+5 de los 5 sub-resultados del aprendizaje que integran este resultado del aprendizaje son 
+adquiridos por todos los egresados del título, independientemente de su perfil de ingreso 
+y de la mención que hayan cursado. 
+ 
+2. Análisis 
+ 
+Todos los egresados han adquirido: 
+2.1. Utilizar una serie de técnicas con las que identificar las necesidades de 
+problemas reales, analizar su complejidad y evaluar la viabilidad de las posibles 
+soluciones mediante técnicas informáticas. 
+2.2.  Describir un determinado problema y su solució n a va rios niveles de 
+abstracción. 
+2.3. Seleccionar y utilizar los correspondientes métodos analíticos, de simulación y 
+de modelización. 
+2.4. Escoger los patrones de solución, algoritmos y estructuras de datos apropiados.  
+2.5. Analizar la medida en la que un determinado sistema informático cumple con los 
+criterios definidos para su uso actual y desarrollo futuro. 
+ 
+De manera que: 
+5 de los 5 sub-resultados del aprendizaje que integran este resultado del aprendizaje son 
+adquiridos por todos los egresados del título,  independientemente de su perfil de ingreso 
+y de la mención que hayan cursado. 
+
+                                                                                                                                        
+ 
+ 
+19 
+v2. 16/02/2018 
+ 
+3. Diseño e implementación 
+ 
+Todos los egresados han adquirido: 
+3.1. Definir y diseñar hardware/software informático/de red que cumpla con los 
+requisitos establecidos. 
+3.2. Describir las fases implicadas en distintos modelos de ciclo de vida con respecto 
+a la definición, construcción, análisis y puesta en marcha de nuevos sistemas y el 
+mantenimiento de sistemas existentes. 
+3.3. Elegir y utilizar modelos de proceso adecuados, entornos de programación y 
+técnicas de gestión de datos con respecto a proyectos que impliquen aplicaciones 
+tradicionales así como aplicaciones emergentes. 
+3.4. Describir y explicar el diseño de sistemas e interfaces para interacción persona -
+ordenador y ordenador-ordenador. 
+3.5. Aplicar las correspondientes competencias prácticas y de programación en la 
+creación de programas informáticos y/u otros dispositivos informáticos. 
+ 
+De manera que: 
+5 de los 5 sub-resultados del aprendizaje que integran este resultado del aprendizaje son 
+adquiridos por todos los egresados del título, independientemente de su perfil de ingreso 
+y de la mención que hayan cursado. 
+ 
+4. Contexto económico, jurídico, social, ético y medioambiental  
+ 
+Todos los egresados han adquirido: 
+4.1. Demostrar concienciación sobre la necesidad de tener una conducta ética y 
+profesional de primer nivel y conocimientos de los códigos de conducta 
+profesionales. 
+4.2. Explicar la forma en la que el contexto comercial, industrial, económico y social 
+afecta la práctica de la informática. 
+4.3. Identificar los requisitos jurídicos que rigen las actividades informáticas, 
+incluyendo la protecci ón de datos, derechos de propiedad intelectual, contratos, 
+cuestiones de seguridad del producto y responsabilidad, cuestiones personales y 
+riesgos laborales. 
+4.4. Explicar la importancia de la confidencialidad de la información y cuestiones 
+relativas a la seguridad con respecto al diseño, desarrollo, mantenimiento, 
+supervisión y uso de sistemas informáticos. 
+ 
+De manera que: 
+4 de los 4 sub-resultados del aprendizaje que integran este resultado del aprendizaje son 
+adquiridos por todos los egresados del título,  independientemente de su perfil de ingreso 
+y de la mención que hayan cursado. 
+ 
+
+                                                                                                                                        
+ 
+ 
+20 
+v2. 16/02/2018 
+5. Práctica de la informática 
+ 
+Todos los egresados han adquirido: 
+5.1. Demostrar conocimientos sobre los códigos y estándares de cumpli miento del 
+sector. 
+5.2. Describir y explicar las técnicas de gestión correspondientes al diseño, 
+implementación, análisis, uso y mantenimiento de sistemas informáticos, 
+incluyendo gestión de proyectos, de configuración y de cambios, así como las 
+técnicas de automatización correspondientes. 
+5.3. Identificar los riesgos, incluyendo riesgos de seguridad, laborales, 
+medioambientales y comerciales y llevar a cabo una evaluació n de riesgos, reducción 
+de riesgos y técnicas de gestión de riesgos. 
+5.4. Realizar investigaciones bibliográficas y evaluaciones utilizando bases de datos y 
+otras fuentes de información. 
+5.5. Diseñar y llevar a cabo investigaciones prácticas (por ejemplo, de rendimientos 
+de sistemas) para interpretar datos y extraer conclusiones. 
+ 
+De manera que: 
+5 de los 5 sub-resultados del aprendizaje que integran este resultado del aprendizaje son 
+adquiridos por todos los egresados del título, independientemente de su perfil de ingreso 
+y de la mención que hayan cursado. 
+ 
+6. Otras competencias y habilidades profesionales 
+ 
+Todos los egresados han adquirido: 
+6.1. Organizar su propio trabajo de manera independiente demostrando iniciativa y 
+ejerciendo responsabilidad personal. 
+6.2. Comunicar mensajes de forma efectiva tanto oralmente como por medio de 
+otros medios de comunicación ante distintas audiencias. 
+6.3. Planificar su propio proceso de aprendizaje autodidacta y mejorar su 
+rendimiento personal como base de una fo rmación y un desarrollo personal 
+continuos. 
+6.4. Identificar las distintas maneras de organizar equipos y los distintos ro les dentro 
+de dichos equipos. 
+6.5. Participar de manera efectiva en grupos de trabajo informático.  
+ 
+De manera que: 
+5 de los 5 sub-resultados del aprendizaje que integran este resultado del aprendizaje son 
+adquiridos por todos los egresados del título, independientemente de su perfil de ingreso 
+y de la mención que hayan cursado. 
+En conclusión, 29 sub-resultados de aprendizaje se adquieren completamente. 
+ 
+
+                                                                                                                                        
+ 
+ 
+21 
+v2. 16/02/2018 
+ 
+ 
+ 
+ 
+ 
+1. Los objetivos del título son consistentes con la misión de la universidad y su 
+consecución se garantiza a través de un adecuado soporte en términos económicos, 
+humanos y materiales y de una estructura organizativa que permite una apropiada 
+designación de responsabilidades y una toma de decisiones eficaz. 
+ 
+VALORACIÓN:  
+ 
+A B C D No aplica 
+ X    
+ 
+ 
+JUSTIFICACIÓN DE CUMPLIMIENTO DE LA DIRECTRIZ:  
+ 
+Para comprobar el cumplimiento de este criterio, se ha analizado las siguientes evidencias: 
+ Organigrama y funciones de los cargos con responsabilidad en el título. 
+ Asignación de responsabilidades para dirigir y controlar el proceso educativo, su 
+interrelación y dependencia. 
+ Recursos humanos y materiales asignados al título. 
+ Relación entre la misión de la universidad/facultad/escuela con los objetivos del título. 
+ Carta de apoyo institucional al título y compromiso con la calidad por sus responsables 
+académicos. 
+ 
+A partir del análisis de esta información se puede afirmar que: 
+ 
+El título cuenta con un soporte institucional adecuado para el desarrollo del programa 
+formativo que garantiza su sostenibilidad en el tiempo porque: 
+ 
+- Los objetivos del título son consistentes con la misión de la universidad: 
+o     La creación, el desarrollo, la transmisión  y la crítica de la ciencia, de la 
+técnica y de la cultura. 
+o     La preparación para el ejercicio de actividades profesionales que exijan la 
+aplicación de métodos y conocimientos científicos y artísticos. 
+o     La difusión, la valorización y la transferencia del conocimiento al servicio 
+de la cultura, de la calidad de la vida y del desarrollo económico.  
+o     La difusión del conocimiento y de la cultura a través de la extensión 
+universitaria y la formación a lo largo de toda la vida. 
+ 
+Criterio. SOPORTE INSTITUCIONAL DEL TÍTULO 
+Estándar: 
+El título cuenta con un soporte institucional  adecuado para el desarrollo 
+del programa formativo que garantiza su sostenibilidad en el tiempo.  
+
+                                                                                                                                        
+ 
+ 
+22 
+v2. 16/02/2018 
+- Su consecución se garantiza  a través de un adecuado soporte en términos 
+económicos, humanos y materiales , en base a la información proporcionada por la 
+universidad. Así, la Facultad de Informática de Coruña es el centro de la u niversidad 
+con un mayor número de P ersonal Docente e Investigador doctor. Además, el título y 
+esta facultad se adhieren al plan estratégico de la UDC 2020. 
+ 
+- La estructura organizativa permite una apropiada designación de responsabilidades y 
+una toma de decisiones eficaz. El equipo de dirección de esta facultad está formado 
+por cinco vicedecanos/as y un secretario, siendo el decano el máximo responsable.  El 
+apoyo institucional del título se completa con el equipo rectoral, formado por seis 
+vicerrectores y el rector. 
+ 
+- La universidad ha presentado una carta de apoyo institucional al título y compromiso 
+con la calidad por sus responsables académicos , firmada por su Rector con fecha 29 
+de enero de 2019. 
+ 
+MOTIVACIÓN 
+Una vez valorados los anteriores criterios de evaluación, la Comisión de Acreditación del 
+Sello emite un informe provisional en los siguientes términos: 
+ 
+Obtención del sello Obtención del sello 
+Con prescripciones 
+Denegación 
+sello 
+X   
+ 
+ 
+ En Madrid, a 10 de enero de 2020 
+ 
+ 
+ El Presidente de la Comisión de Acreditación del Sello 
+Ernesto Pimentel Sánchez 
+ 
+ 

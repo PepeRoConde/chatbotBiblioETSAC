@@ -1,0 +1,305 @@
+ID MEC:  2502210
+Nº EXPEDIENTE:  3583/2010
+INFORME FINAL DE EVALUACIÓN DE LA SOLICITUD DE
+MODIFICACIÓN DE PLAN DE ESTUDIOS
+ 
+Denominación del título Graduado o Graduada en Ingeniería Informática por la
+Universidad de A Coruña
+Mención en Ingeniería del Software, Mención en Ingeniería
+de Computadores, Mención en Computación, Mención en
+Sistemas de Información, Mención en Tecnologías de la
+Información
+Menciones
+Rama de Conocimiento Ingeniería y Arquitectura
+Universidad de A CoruñaUniversidad solicitante
+Universidad/es participante/s Universidad de A Coruña
+Centro/s en los que se imparte  • Facultad de Informática
+
+El Consejo de Universidades ha remitido a ACSUG la solicitud de MODIFICACIÓN del plan de estudios
+verificado de este título oficial. Dicha solicitud se presenta al amparo del artículo 28 del RD 1393/2007 de
+29 de octubre modificado por el RD 861/2010 de 2 de julio, y lo establecido en artículo 15 del Decreto
+222/2011, de 2 de diciembre de la Consellería de Educación e Ordenación Universitaria, por el que se
+regulan las enseñanzas universitarias oficiales en el ámbito de la Comunidad Autónoma de Galicia, la
+ACSUG ha procedido a evaluar el plan de estudios que conduce al título oficial arriba citado.
+La evaluación de la MODIFICACIÓN del plan de estudios se ha realizado por la  Comisión de evaluación
+de la Rama de Conocimiento de Ingeniería y Arquitectura, formada por expertos nacionales e
+internacionales del ámbito académico, profesionales y estudiantes. Los miembros de la comisión han sido
+seleccionados y nombrados según el procedimiento que se recoge en la Web de la ACSUG.
+Dicha comisión de evaluación, de forma colegiada, ha valorado la MODIFICACIÓN de plan de estudios de
+acuerdo con los criterios recogidos en el protocolo de evaluación para la verificación.
+Se envió una propuesta de informe a la Universidad, la cual ha remitido las observaciones oportunas. Una
+vez finalizado el periodo de alegaciones a dicho informe, la Comisión de Evaluación, considera que todos
+aquellos aspectos relacionados con:
+1.1 - Datos básicos de la descripción del título: Listado de menciones: Mención en Tecnologías de la
+Información Mención en Ingeniería del Software
+1.2 - Descripción de créditos en el título: Créditos totales: 60 Créditos obligatorios: 48 Créditos trabajo
+fin de grado: 12
+1.3 - Universidades y centros en los que se imparte: Nº de plazas que se ofertan en el curso de
+adaptación para ingenieros técnicos en informática: 40 Se tiene en cuenta la posibilidad de implementar
+un sólo grupo con 40 estudiantes que se mantiene tanto en teoría, como en prácticas y en las tutorías en
+grupo o seminarios.
+De acuerdo con el procedimiento, se emite un informe final de evaluación en términos Favorables,
+considerando que:
+ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN
+112 /
+
+2.1 - Justificación, adecuación de la propuesta y procedimientos: La demanda de cursos de
+adaptación en títulos de grado de la rama de ingeniería y arquitectura se debe a la mejor consideración
+del profesional que acredita el título de Grado, puesto que su formación es de 4 cursos en lugar de los 3
+cursos de la anterior ordenación universitaria. En particular, con el título de Grado un/a ingeniero/a
+técnico/a está habilitado/a para presentarse a las oposiciones del grupo A1 de la Función Pública. Por otra
+parte, el acceso normal al Grado por la vía prevista para titulados podría exigir al ingeniero/a técnico/a de
+la anterior ordenación universitaria la superación de todas las asignaturas del plan de estudios. Y si bien
+de un buen número de asignaturas pudiera esperarse su posible convalidación, aplicando la tabla prevista
+para la adaptación de estudiantes que no hayan terminado la ingeniería técnica, esta posibilidad no sería
+razonable para el/la ingeniero/a técnico/a ya titulado/a por la necesidad de esperar por la implantación de
+todos los cursos del grado, y porque no se puede garantizar un itinerario resultante en 60 ECTS que
+pudiera realizarse en un solo curso académico. Por todo ello, la solución planteada en el ordenamiento
+actual consiste en proponer cursos de adaptación para ingenieros/as técnicos/as, con no más de 60
+ECTS y el Proyecto de Fin de Grado incluido. Dado que a todos los efectos el título obtenido con este
+curso es el mismo título que obtendría un estudiante que siguiera el itinerario completo de cuatro cursos,
+debe asegurarse que se siguen las recomendaciones del Consejo de Universidades para este tipo de
+enseñanzas, y por tanto el título de Grado en Ingeniería Informática debe corresponder a uno de los
+Bloques de Tecnología Específica previsto en dichas recomendaciones. Por otra parte, debe considerarse
+que la experiencia profesional puede ser tenida en cuenta a la hora de realizar un curso de adaptación, y
+en particular puede ser objeto de reconocimiento. Finalmente, puesto que de las cinco especialidades que
+la UDC oferta en su Grado en Ingeniería Informática, aquellas que con mayor claridad se adaptan al
+conjunto de competencias adquiridas en las ingenierías técnicas son las especialidades en Tecnologías
+de la Información y en Ingeniería del Software (ver la figura de la p. 16 de la memoria), la propuesta que
+se presenta es la de prever ambas
+ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN
+113 /
+
+especialidades en el curso de adaptación. De esta forma, los itinerarios propuestos se presentan como la
+extensión natural de la Ingeniería Técnica en Informática de Sistemas (Tecnologías de la Información) y
+de la Ingeniería Técnica en Informática de Gestión (Ingeniería del Software).
+4.2 - Requisitos de acceso y criterios de admisión: El acceso al curso de adaptación para
+ingenieros/as técnicos/as en informática está restringido a los/las titulados/as en Ingeniería Técnica en
+Informática de Gestión, Ingeniería Técnica en Informática de Sistemas o Diplomado en Informática,
+condición que debe acreditarse en la solicitud de acceso. En caso de existir más demanda que oferta,
+está establecido como norma en la UDC que sea la nota media del expediente académico el criterio que
+se utilice en la selección de los estudiantes, para lo cual se exigirá que dicha información se acredite
+mediante certificación académica oficial aportada por el candidato en la solicitud de acceso. En caso de
+superar el curso, el estudiante obtiene el título de Graduado/a en Ingeniería Informática por la UDC,
+especialidad en Tecnologías de la Información/Ingeniería del Software, título que habilita el acceso a la
+profesión de Ingeniero/a Técnico/a en Informática.
+4.4 - Sistemas de transferencia y reconocimiento de créditos: Reconocimientos específicos: El/la
+estudiante, una vez admitido/a, podrá solicitar el reconocimiento de 1, 2 o 3 asignaturas (6, 12 o 18 ECTS)
+por la experiencia profesional que acredite, de forma que se justifique documentalmente la adquisición de
+las competencias de las asignaturas en cuestión. La comisión de docencia del centro determinará, a la
+vista del informe de los profesores de las asignaturas, la aprobación de cada solicitud, en el plazo
+establecido por la normativa académica durante el primer cuatrimestre del curso. Para la obtención de los
+correspondientes reconocimientos (6, 12 o 18 ECTS) será necesario acreditar una experiencia profesional
+mínima de1, 1.5 o 2 años, respectivamente, a tiempo completo ejerciendo vía contrato o convenio como
+ingeniero/a técnico/a en informática.
+ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN
+114 /
+
+4.5 - Curso de adaptación para titulados: Universidad de A Coruña Esta decisión, que constituye una
+diferencia con respecto al tamaño de los grupos de la titulación, se justifica por distintos motivos. En
+primer lugar, el perfil de los estudiantes a los que se dirige la oferta, y la tasa de empleabilidad en el sector
+de las TIC, asegura que la mayoría de ellos están en condiciones de acreditar una experiencia profesional
+que permite diseñar las prácticas desde una perspectiva diferenciadora. Y en segundo lugar, también
+debe tenerse en cuenta la coyuntura actual, que impide la ampliación de la plantilla docente en este
+momento de primera implantación. En todo caso, los procesos de seguimiento que ya se realizan en el
+marco de la titulación deben permitir actuaciones concretas que aseguren la calidad del proceso
+formativo. 2. Justificación, adecuación de la propuesta y procedimientos Por tanto, en el diseño de este
+plan de estudios, se asegura la adquisición de las competencias de cada especialidad,
+independientemente de cuál sea la titulación de acceso. Por esta razón, este plan incluye de manera
+prioritaria asignaturas de especialidad (6 asignaturas, correspondientes a 36 créditos ECTS) frente a
+asignaturas de módulo común. 5. Planificación de las enseñanzas 5.1. Descripción del plan de estudios.
+En todo caso, en la sección 5.1.1 se incluye un estudio detallado de las competencias del curso de
+adaptación para ingenieros/as técnicos/as en informática. Tal y como se explica de forma más detallada
+en la sección 5.1.1, esta selección de asignaturas del Módulo Común se justifica mediante el estudio de
+las competencias adquiridas por el estudiante, según su procedencia. El exhaustivo estudio que aparece
+en la sección 5.1.1, permite justificar cómo las asignaturas aseguran la cobertura de todas las
+competencias específicas de cada especialidad. 5.1.1. Estudio de competencias para el Curso de
+Adaptación al Grado para Ingenieros Técnicos en Informática En el diseño del Curso de Adaptación al
+Grado para Ingenieros Técnicos en Informática se ha tenido en cuenta, en primer lugar, las competencias
+comunes a la rama de Informática que establece el Acuerdo del Consejo de Universidades que no se
+hayan desarrollado completamente en la formación de los estudiantes o que lo hayan sido de una forma
+parcial o limitada. La base para su justificación es la que se establece en la Memoria del Grado con la
+tabla de reconocimientos asignatura por asignatura previstos en el
+ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN
+115 /
+
+procedimiento de adaptación de los estudiantes de los estudios existentes al nuevo plan de estudios
+(capítulo 10 de la memoria), que tiene en cuenta las posibles diferencias entre los planes de estudio
+sustituidos por el Grado en Ingeniería Informática: la Ingeniería Técnica en Informática de Gestión (ITIG) y
+la Ingeniería Técnica en Informática de Sistemas (ITIS) ofertadas por la Facultad de Informática de la
+Universidad de A Coruña. Adicionalmente debe considerarse la Diplomatura en Informática, previa a la
+Ingeniería Técnica y homologada a la misma, para la que se han utilizado las tablas de equivalencia con
+las ingenierías técnicas para justificar la adquisición de las competencias correspondientes. Así pues, las
+titulaciones de origen consideradas son las siguientes: [ITIG] Ingeniería Técnica en Informática de Gestión
+[ITIS] Ingeniería Técnica en Informática de Sistemas [DI] Diplomatura en Informática Se introducen las
+tablas solicitadas
+5.1 - Descripción del plan de estudios: El curso de adaptación para ingenieros/as técnicos/as en
+informática consta de 60 ECTS y se establece con la siguiente estructura: 48 ECTS correspondientes a 8
+asignaturas de 6 ECTS, 5 de ellas en el primer cuatrimestre y 3 en el segundo; 12 ECTS que
+corresponden a la realización de un proyecto de fin de grado durante el segundo cuatrimestre. Desde el
+punto de vista del alumno, la tabla siguiente resume la planificación de las enseñanzas a cursar por un
+estudiante para la obtención del título (8 asignaturas, todas de 6 créditos ECTS, impartidas en dos
+cuatrimestres, Q1-A y Q2-A, más un Proyecto Fin de Grado de 12 créditos, a realizar durante el segundo
+cuatrimestre, y sólo contendrá dos posibles especialidades, Tecnologías de la Información e Ingeniería del
+Software). Desde el punto de vista de la oferta académica del centro, el curso de adaptación se
+implementa completamente con un total de 15 asignaturas (entre las dos especialidades) o parcialmente
+con 9 (con una sola especialidad): 2 asignaturas del Módulo Común para ITIS,  2 asignaturas del Módulo
+Común para ITIG (una de ellas coincidente con el anterior), 6 asignaturas del Módulo BTE de Tecnologías
+de la Información, 6 asignaturas del Módulo BTE de Ingeniería del Software. Las asignaturas del Módulo
+Común cubren las competencias recomendadas en el Anexo II de la Resolución de 8 de junio de 2009, de
+la Secretaría
+ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN
+116 /
+
+General de Universidades (BOE 187 / 4 de agosto de 2009) que son complementarias a la formación del
+Ingeniero Técnico, y las asignaturas de los Módulos BTE cubren todas las competencias de la
+especialidad, siendo el Proyecto Fin de Grado también específico a la especialidad. La organización
+docente en el momento de la implantación será realizada teniendo en cuenta las dependencias entre
+asignaturas, no sólo a la hora de asignarlas a uno u otro cuatrimestre, sino también en lo que se refiere al
+orden de impartición dentro de un mismo cuatrimestre. Así pues, con el objeto de completar todas las
+competencias previstas en el Módulo Común del título de Grado, el/la titulado/a en Ingeniería Técnica en
+Informática de Sistemas, deberá cursar obligatoriamente las siguientes asignaturas: Gestión de Proyectos
+Obligatoria C2, C3 Sistemas Inteligentes Obligatoria C15. Y en lo que respecta a la/al titulado/a en
+Ingeniería Técnica en Informática de Gestión o Diplomado en Informática, deberá cursar obligatoriamente
+las siguientes asignaturas: Estructura de Computadores Obligatoria C9 Sistemas Inteligentes Obligatoria
+C15. Esta selección de asignaturas del Módulo Común según la titulación cursada se justifica con las
+siguientes consideraciones: La competencia [C9] Capacidad de conocer, comprender y evaluar la
+estructura y arquitectura de los computadores, así como los componentes básicos que los conforman está
+completamente cubierta por cuatro asignaturas planificadas en la Ingeniería Técnica en Informática de
+Sistemas (ITIS): Tecnología de Computadores, Tecnología Electrónica, Estructura de Computadores I y
+Estructura de Computadores II. Sin embargo sólo una de ellas (Tecnología de Computadores) está
+incluida en la planificación de la Ingeniería Técnica en Informática de Gestión (ITIG), por lo que no puede
+considerarse una competencia plenamente adquirida por quienes hayan cursado ésta titulación. Es por
+ello que proponemos reforzar esta competencia en el curso de adaptación, proponiendo la asignatura
+Estructura de Computadores, perteneciente al Módulo Común del Grado, para aquellos estudiantes
+provenientes de ITIG o Diplomados en Informática. Por otra parte, las competencias [C2] Capacidad para
+planificar, concebir, desplegar y dirigir proyectos, servicios y sistemas informáticos en todos los ámbitos,
+liderando su puesta en marcha y su mejora continua y valorando su impacto económico y social y [C3]
+Capacidad para comprender la importancia
+ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN
+117 /
+
+de la negociación, los hábitos de trabajo efectivos, el liderazgo y las habilidades de comunicación en
+todos los entornos de desarrollo de software tampoco estaban consideradas entre los objetivos de la ITIS
+y dependen exclusivamente de la asignatura Gestión de Proyectos, perteneciente al Módulo Común del
+Grado, por lo que se propone su planificación para los estudiantes provenientes de ITIS. Y por último, la
+competencia [C15] Conocimiento y aplicación de los principios fundamentales y técnicas básicas de los
+sistemas inteligentes y su aplicación práctica no estaba plenamente considerada en la troncalidad ni en
+las materias obligatorias de las ingenierías técnicas consideradas, por lo que proponemos incluirla como
+un objetivo del curso de adaptación, planificando la asignatura Sistemas Inteligentes, perteneciente al
+Módulo Común del Grado, tanto para estudiantes provenientes de ITIG, como para estudiantes
+provenientes de ITIS. Todas estas asignaturas son cuatrimestrales, de 6 ECTS, y se organizan en el curso
+de la siguiente forma: Primer cuatrimestre: Gestión de Proyectos, Estructura de Computadores. Segundo
+cuatrimestre: Sistemas Inteligentes. El siguiente bloque de asignaturas corresponden a la especialidad de
+Tecnologías de la Información. Todas son cuatrimestrales, de 6 ECTS, y se organizan en el curso de
+forma que se tienen en cuenta las dependencias identificadas entre ellas: Primer cuatrimestre: Calidad en
+la Gestión TIC, Administración de Sistemas Operativos, Administración de Redes, Servicios Multimedia.
+Segundo cuatrimestre: Seguridad en los Sistemas Informáticos (dependencia con Administración de
+Sistemas Operativos y Administración de Redes), Administración de Infraestructuras y Sistemas
+Informáticos (dependencia con Calidad en la Gestión TIC y Seguridad en los Sistemas Informáticos),
+Proyecto de Fin de Grado. La dependencia entre las dos asignaturas del segundo cuatrimestre será
+objeto de especial seguimiento mediante una coordinación y una planificación adecuadas. El tercer bloque
+de asignaturas corresponden a la especialidad de Ingeniería del Software. Todas son cuatrimestrales, de
+6 ECTS, y se organizan en el curso de forma que se tienen en cuenta las dependencias identificadas
+entre ellas: Primer cuatrimestre: Arquitectura del Software, Ingeniería de Requisitos, Aseguramiento de la
+Calidad, Metodologías de Desarrollo (dependencia con Aseguramiento de la Calidad). Segundo
+cuatrimestre: Validación y
+ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN
+118 /
+
+Verificación del Software (dependencia con Arquitectura del Software, Ingeniería de Requisitos y
+Aseguramiento de la Calidad), Proyectos de Desarrollo Software (dependencia con Aseguramiento de la
+Calidad), Proyecto de Fin de Grado. La dependencia entre las dos asignaturas del primer cuatrimestre
+será objeto de especial seguimiento mediante una coordinación y una planificación adecuadas. El
+Proyecto de Fin de Grado, específico a la especialidad, se regirá por las mismas normas previstas en el
+reglamento de Proyecto de Fin de Grado del título de Grado en Ingeniería Informática por la UDC. Para
+aprobar el Proyecto de Fin de Grado, será necesaria su presentación ante el tribunal que establezca el
+centro, en un acto de defensa, que podrá realizarse una vez que el estudiante haya superado todas las
+asignaturas del curso. Para ello, se tendrán en cuenta las fechas previstas en el calendario académico
+para la defensa de proyectos de fin de grado de las titulaciones de grado de la UDC.
+5.5 - Módulos, Materias y/o Asignaturas: (Nivel 1: vacío; Nivel 2: módulos; Nivel 3: asignaturas) Todas
+las asignaturas son cuatrimestrales, de carácter obligatorio y de 6 ECTS, salvo el Proyecto Fin de Grado
+que es de 12 ECTS. Módulo Tecnologías de la Información: Primer cuatrimestre: Gestión de Proyectos
+(los Ingenieros Técnicos en Informática de Sistemas) o Estructura de Computadores (los Ingenieros
+Técnicos en Informática de Gestión y los Diplomados en Informática), Calidad en la Gestión TIC,
+Administración de Sistemas Operativos, Administración de Redes, Servicios Multimedia. Segundo
+cuatrimestre: Sistemas Inteligentes, Seguridad en los Sistemas Informáticos, Administración de
+Infraestructuras y Sistemas Informáticos. Proyecto Fin de Grado Módulo Ingeniería del Software Primer
+cuatrimestre: Gestión de Proyectos (los Ingenieros Técnicos en Informática de Sistemas) o Estructura de
+Computadores (los Ingenieros Técnicos en Informática de Gestión y los Diplomados en Informática),
+Arquitectura del Software, Ingeniería de Requisitos, Aseguramiento de la Calidad, Metodologías de
+Desarrollo. Segundo cuatrimestre: Sistemas Inteligentes, Validación y Verificación del Software, Proyectos
+de Desarrollo Software, Proyecto Fin de Grado
+ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN
+119 /
+
+6.1 – Profesorado: La estimación del coste mínimo en horas de docencia que corresponde a la
+implantación del curso de adaptación para ingenieros/as técnicos/as en informática se establece
+inicialmente en 468 horas, para el curso 2012/2013. En función de la demanda, esta dedicación podría
+aumentar. Debe tenerse en cuenta el compromiso de implantar el título de Grado con el personal
+académico existente en el centro. Por tanto la docencia que corresponde al curso de adaptación
+propuesto debe incluirse en dicho compromiso, lo que obligará al centro a ajustar el número de grupos de
+los cursos que se implanten en cada una de las titulaciones oficiales que imparte, sea el Grado en
+Ingeniería Informática, los distintos Másteres Universitarios o las ingenierías en extinción. Será en el
+momento de planificar cada curso, cuando se aprueba la Programación Docente Académica (PDA),
+cuando se tenga en cuenta la situación de cada curso para asignar el número de grupos de cada
+asignatura, que en los años de transición puede ser extremadamente variable dependiendo de la ratio de
+adaptación de los estudiantes a los títulos de la nueva ordenación universitaria. Sin embargo la viabilidad
+de esta propuesta de curso de adaptación para ingenieros técnicos está asegurada al plantearse con un
+mínimo de 468 horas que suponen del orden del 2% de las horas de docencia que acumulan todos los
+títulos oficiales de grado, 1º y 2º ciclo de la Facultad de Informática en el curso actual. Este mínimo
+corresponde a la puesta en marcha en un primer momento de una de las especialidades. La implantación
+de las dos especialidades requeriría al menos 720 horas de docencia.
+7.1 - Justificación de recursos materiales y servicios disponibles: Para el curso de adaptación para
+ingenieros/as técnicos/as en informática se haría uso fundamentalmente de un aula-laboratorio wifi del
+centro, entre los asignados a la docencia del grado, durante las últimas horas de la tarde, en las que los
+recursos se encuentran libres dado que la docencia de los primeros cursos del grado se concentran en las
+mañanas y en las primeras horas de la tarde. Por otra parte, el horario se adapta así a la actividad
+profesional del estudiante. Igualmente se tiene en cuenta que el estudiante podrá utilizar su propio portátil
+para acceder
+ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN
+1110
+/
+
+a los servicios de apoyo a la docencia vía wifi. Bastaría por tanto con planificar un horario con 3 horas al
+día, de lunes a viernes, ya que cada asignatura puede organizarse en 3 horas a la semana, durante 14
+semanas (42 horas al cuatrimestre). Las horas presenciales del estudiante del curso de adaptación para
+ingenieros/as técnicos/as en informática sería así de 15 horas semanales en el primer cuatrimestre y de 9
+horas semanales de media en el segundo, a las que habría que añadir las tutorías, principalmente las
+correspondientes al seguimiento del Proyecto de Fin de Grado.
+10.1 - Cronograma de implantación: El curso de adaptación para ingenieros/as técnicos/as en
+informática se empezará a impartir en el curso 2012/2013 implementando la especialidad de Tecnologías
+de la Información. La oferta en cursos posteriores de la especialidad de Ingeniería del Software se
+valorará según la demanda y la disponibilidad de recursos.
+10.3 - Enseñanzas que se extinguen: No se extingue ninguna enseñanza.
+Han sido planteados de forma correcta.
+RECOMENDACIONES:
+Se recomienda considerar la posibilidad de implementar más de un grupo de estudiantes tanto de teoría
+como en prácticas y en las tutorías en grupo o seminarios. 40 estudiantes en un solo grupo es excesivo
+para una enseñanza de calidad.
+ 
+Santiago de Compostela, a 23/07/2012
+José Eduardo López Pereira
+DIRECTOR DE ACSUG
+1111
+/ID MEC:2502210
+23/07/2012
+Informe Final MODIFICACIÓN

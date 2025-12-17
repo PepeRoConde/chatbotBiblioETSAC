@@ -1,0 +1,304 @@
+Portada
+Portal de la comunidad
+Actualidad
+Cambios recientes
+Páginas nuevas
+Página aleatoria
+Ayuda
+Notificar un error
+Páginas especiales
+Donaciones
+Crear una cuenta
+Acceder
+Donaciones
+Crear una cuenta
+Acceder
+Contenidos
+Inicio
+1 Historia de la ingeniería civil
+2 Formación académica Alternar subsección Formación académica 2.1 España 2.2 Latinoamérica
+2.1 España
+2.2 Latinoamérica
+3 Campos de aplicación
+4 Subdisciplinas
+5 Trabajo de la ingeniería civil
+6 Ramas de la ingeniería civil
+7 Véase también
+8 Referencias
+9 Enlaces externos
+Ingeniería civil
+Afrikaans
+Alemannisch
+አማርኛ
+अंगिका
+العربية
+Asturianu
+Башҡортса
+Bikol Central
+Беларуская
+Български
+বাংলা
+Bosanski
+Català
+کوردی
+Čeština
+Cymraeg
+Dansk
+Deutsch
+English
+Esperanto
+Eesti
+Euskara
+فارسی
+Suomi
+Français
+Frysk
+Gaeilge
+Galego
+ગુજરાતી
+עברית
+हिन्दी
+Hrvatski
+Interlingua
+Bahasa Indonesia
+Íslenska
+Italiano
+日本語
+Jawa
+ქართული
+ಕನ್ನಡ
+한국어
+Kurdî
+Latina
+ລາວ
+Lietuvių
+Latviešu
+മലയാളം
+Монгол
+मराठी
+Bahasa Melayu
+မြန်မာဘာသာ
+नेपाली
+Nederlands
+Norsk bokmål
+Polski
+پښتو
+Português
+Română
+Русский
+سنڌي
+Srpskohrvatski / српскохрватски
+සිංහල
+Simple English
+Slovenčina
+Slovenščina
+Shqip
+Српски / srpski
+Sunda
+Svenska
+Kiswahili
+தமிழ்
+తెలుగు
+ไทย
+Türkmençe
+Tagalog
+Türkçe
+Українська
+اردو
+Vèneto
+Tiếng Việt
+Winaray
+吴语
+中文
+閩南語 / Bân-lâm-gí
+粵語
+Artículo
+Discusión
+Leer
+Editar
+Ver historial
+Leer
+Editar
+Ver historial
+Lo que enlaza aquí
+Cambios en enlazadas
+Subir archivo
+Enlace permanente
+Información de la página
+Citar esta página
+Obtener URL acortado
+Descargar código QR
+Crear un libro
+Descargar como PDF
+Versión para imprimir
+Wikimedia Commons
+Elemento de Wikidata
+La ingeniería civil es la disciplina de la ingeniería que emplea conocimientos de cálculo , mecánica , hidráulica y física para encargarse del diseño, construcción y mantenimiento de las infraestructuras emplazadas en el entorno, incluyendo carreteras , ferrocarriles , puentes , canales , presas , puertos , aeropuertos , diques y otras construcciones relacionadas. [ 1 ] ​ [ 2 ] ​ [ 3 ] ​ La ingeniería civil es la más antigua después de la ingeniería militar , [ 4 ] ​ de ahí su nombre para distinguir las actividades civiles con las militares. [ 5 ] ​ Tradicionalmente ha sido dividida en varias subdisciplinas incluyendo ingeniería ambiental , ingeniería sanitaria , ingeniería geotécnica , ingeniería estructural , ingeniería del transporte , ciencias de la Tierra , urbanismo , ordenación del territorio , ingeniería hidráulica , ecología , biología y microbiología , ciencia de materiales , gestión costera , [ 4 ] ​ ingeniería de la construcción e ingeniería de la edificación . [ 6 ] ​ El ingeniero civil ocupa puestos en prácticamente todos los niveles: en el sector público desde el ámbito municipal al gubernamental y en el ámbito privado desde los pequeños consultores autónomos que trabajan en casa hasta los contratados en grandes compañías internacionales.
+Historia de la ingeniería civil
+La ingeniería ha sido un aspecto de la vida desde el inicio de la existencia humana. Las prácticas más tempranas de la ingeniería civil podrían haber comenzado entre el 4000 y el 2000 a. C. en el Antiguo Egipto y Mesopotamia cuando los humanos comenzaron a abandonar la existencia nómada, creando la necesidad de un cobijo. Durante este tiempo, el transporte empezó a incrementar su importancia, lo que llevó al desarrollo de la rueda y de la navegación.
+Hasta la Edad Contemporánea no hay una distinción clara entre ingeniería civil y arquitectura , y el término ingeniero y arquitecto sufrió variaciones refiriéndose a la misma persona, incluso intercambiándose. [ 7 ] ​ La construcción de las Pirámides de Egipto entre el 2700 y el 2500 a. C. podría considerarse las primeras manifestaciones de construcciones de gran tamaño e importancia. Otras construcciones históricas antiguas de ingeniería civil incluyen el sistema de gestión del agua a través de viaje de agua en el Irán moderno (el más antiguo tiene más de 3000 años y más de 71 kilómetros (44 millas), [ 8 ] ​ el Partenón por Ictino en la Grecia Antigua ( 447-438 a. C. ), la vía Apia por los ingenieros romanos o la Gran Muralla China en el 220 a. C., o los trabajos de irrigación en Anuradhapura . De todas las civilizaciones antiguas quizás la más desarrollada en ingeniería civil fueron los romanos que fueron pioneros en la construcción de una red de calzadas, acueductos, puertos, puentes, presas y alcantarillados.
+La Ingeniería Civil es una disciplina fundamental para el desarrollo de la sociedad, ya que se encarga del diseño, construcción y mantenimiento de infraestructuras que facilitan la vida cotidiana, como carreteras, puentes, edificios y sistemas de agua. Su importancia radica en garantizar obras seguras, funcionales y sostenibles que impulsen el progreso económico y social, promoviendo al mismo tiempo el uso responsable de los recursos y la protección del medio ambiente.
+En el siglo XVIII el término ingeniería civil fue acuñado para incorporar toda la ingeniería para usos civiles en oposición de la ingeniería militar (artillería, balística, construcción de defensas...). En 1747 se crea la escuela de ingeniería civil más antigua del mundo, la École nationale des ponts et chaussées en París , que aún hoy sigue vigente. El primer ingeniero civil autoproclamado fue John Smeaton que construyó el faro de Eddystone. [ 4 ] ​ [ 6 ] ​ En 1771 Smeaton y algunos colegas formaron la Smeatonian Society of Civil Engineers , un grupo de profesionales que se reunían diariamente para debatir sobre su profesión. A través de estos encuentros se formaron las sociedades profesionales que conocemos hoy en día.
+En España se consideró la necesidad de crear un cuerpo de ingenieros específico que se encargara de las obras públicas, por eso se funda la Escuela Oficial del Cuerpo de Ingenieros de Caminos dirigida por Agustín de Betancourt en 1802. Por aquel entonces México ya había establecido el primer instituto de investigación especializado en la ingeniería civil [ 9 ] ​ y en 1857 se instituyen las enseñanzas de ingeniero civil en la Academia de San Carlos basándose en los planes de estudios europeos.
+Formación académica
+Los ingenieros civiles cuentan con un título académico en ingeniería civil. El tiempo de estudio es de entre cuatro y cinco años para el título de grado en ingeniería ( bachelor de ingeniería en los países anglosajones), que es necesario para poder cursar posteriormente los estudios de posgrado (títulos de máster en ingeniería y doctor en ingeniería ).
+En la mayoría de los países, el título universitario representa el primer paso a la certificación profesional y el programa de la titulación en sí mismo está certificado por un colegio profesional . Después de completar un programa de titulación certificada el ingeniero debe satisfacer una serie de requerimientos (incluyendo experiencia laboral y un examen) antes de ser certificado. Una vez certificado, el ingeniero es designado con el título de ingeniero profesional (en Estados Unidos, Canadá y Sudáfrica), o ingeniero colegiado (en la mayoría de los países de la Commonwealth ), ingeniero profesional colegiado (en Australia y Nueva Zelanda) o ingeniero europeo (para algunos países de la Unión Europea ). Existen acuerdos internacionales entre colegios de ingenieros que permiten a ingenieros de otros países ejercer fuera de sus fronteras. En España cualquier persona que completa la carrera puede ejercer y colegiarse, sin ningún otro requisito adicional como experiencia o examen.
+Las ventajas de la certificación varían dependiendo del sitio. Por ejemplo, en Estados Unidos y Canadá “sólo un ingeniero profesional licenciado puede preparar, firmar y sellar, y entregar un proyecto de ingeniería a una autoridad pública para su aprobación, o sello para clientes públicos o privados”. [ 10 ] ​ En el estado de Quebec, en Canadá, esto es así. En Reino Unido no existe una legislación tan restrictiva ni en España si bien existen colegios que pueden expulsar a sus miembros por mala praxis y así no poder ejercer. Se supone que todos los ingenieros deben respetar un código ético y que si no lo cumplen se les puede culpar por negligencia.
+España
+En España existe actualmente el grado en Ingeniería Civil , Obras Públicas o Civil y Territorial (entre otros nombres dependiendo de la universidad que lo otorga) de 4 años y 240 ECTS ), [ 11 ] ​ así como el máster en Ingeniería de Caminos, Canales y Puertos de entre 1 y 2 años más y 66 a 120 ECTS ). Anteriormente existían las titulaciones oficiales de Ingeniero Técnico de Obras Públicas e Ingeniero de Caminos, Canales y Puertos , que se corresponden con las profesiones reguladas actuales homónimas. Dichas titulaciones generalmente incluyen unidades que cubren física, matemáticas, gestión de proyectos, construcción, diseño y temas específicos de la ingeniería civil. Normalmente en el inicio de la titulación las asignaturas cubren la mayoría, si no todas, las subdisciplinas de la ingeniería civil. Los estudiantes entonces eligen especializarse en la parte final de la titulación en una o más subdisciplinas en vistas a terminar sus titulaciones. [ 12 ] ​ Además del Máster Universitario en Ingeniería de Caminos, Canales y Puertos , que atribuye las competencias específicas de dicha profesión regulada, las universidades generalmente ofrecen además másteres de especialización para mejorar los conocimientos del ingeniero civil en un área de particular interés dentro de la ingeniería civil. [ 13 ] ​
+Latinoamérica
+Actualmente se estudia 5 o 6 años para el “Título en Ingeniería Civil”, el cual es necesario para cursar estudios de postgrado, como “máster o Magíster en ciencias de la ingeniería ”, después el “doctorado”. Las materias necesarias para la obtención del Título de ingeniero civil se deben cursar materias tales como Ciencias básicas, Ciencias de Ingeniería, Matemáticas Avanzadas, Ingeniería Aplicada, Ciencias Económicas y Administrativas [ cita requerida ] .
+Campos de aplicación
+Su campo de aplicación es muy amplio. Estarían, por ejemplo, las infraestructuras del transporte:
+Aeropuertos
+Autovías
+Carreteras
+Vías férreas
+Puertos
+Puentes
+Redes de transporte urbano
+Las obras hidráulicas:
+Alcantarillado
+Canales para el transporte de agua potable o regadío
+Canales de navegación
+Canalizaciones de agua potable
+Centrales hidroeléctricas
+Depuradoras
+Diques
+Esclusas
+Muelles
+Presas
+Presa derivadora
+La intervención sobre problemas de estabilidad del terreno.
+Las estructuras que componen las obras anteriores:
+Terraplenes
+Desmontes
+Obras de contención de terreno
+Túneles
+Zapatas
+Pilares
+Vigas
+Estribos de puentes
+En general, las obras de ingeniería civil implican el trabajo una gran cantidad de personas (en ocasiones cientos y hasta miles) a lo largo de lapsos que abarcan desde unas pocas semanas o meses hasta varios años.
+Debido al elevado costo de los trabajos que se acometen (piénsese en el coste de una autovía o de una línea de ferrocarril ) buena parte de los trabajos que se realizan son para el Estado, o bien para grandes compañías que pretenden la explotación de una infraestructura a largo plazo (autopistas y túneles de peaje, compañías de ferrocarril, etcétera). Sin embargo, sus técnicas son también aplicadas para obras semejantes a las anteriores pero de más pequeña escala, como podrían ser:
+La contención de un terreno difícil en la excavación para la cimentación de un edificio.
+La ejecución de la estructura de un edificio .
+El diseño y ejecución de los sistemas de distribución de agua potable y alcantarillado de una pequeña población (incluyendo las estaciones de tratamiento de agua potable (ETAP), equipos de bombeo, estaciones de depuración de aguas residuales (EDAR), etc.
+El diseño y urbanización de las calles de una pequeña población
+Además, son también competencia de un ingeniero civil:
+La planificación, diseño y control de los sistemas de transporte urbano, incluyendo el diseño de intercambiadores y la creación de nuevas líneas o modificación de las existentes.
+Adopción de nuevos sistemas de transporte que no existan en ese momento, como líneas de metro o metro ligero (más comúnmente conocido como tranvía ).
+La elaboración de estudios y trabajos relacionados con el transporte y la logística.
+La elaboración de estudios, planes y proyectos urbanísticos, de ordenación territorial y medioambientales.
+Planificación, ejecución y administración de plantas de tratamiento o incineración de residuos y vertederos.
+Labores auxiliares de ingeniería (control de calidad, ensayos de laboratorio, supervisión de temas de seguridad y salud).
+Mantenimiento de todas las anteriores
+De esta forma, un ingeniero civil no se limita a las grandes obras de infraestructura, muy raras debido a su elevado coste.
+Subdisciplinas
+Hay una serie de subdisciplinas dentro del amplio campo de la ingeniería civil. Los ingenieros civiles generales trabajan en estrecha colaboración con agrimensores e ingenieros civiles especializados para diseñar nivelación, drenaje, pavimento , suministro de agua, servicio de alcantarillado, presas, suministro eléctrico y de comunicaciones. La ingeniería civil general también se conoce como ingeniería de sitio, una rama de la ingeniería civil que se enfoca principalmente en convertir una extensión de tierra de un uso a otro. Los ingenieros de sitio pasan tiempo visitando los sitios del proyecto, reuniéndose con las partes interesadas y preparando planes de construcción. Los ingenieros civiles aplican los principios de ingeniería geotécnica, ingeniería estructural, ingeniería ambiental, ingeniería de transporte e ingeniería de construcción a proyectos residenciales, comerciales, industriales y de obras públicas de todos los tamaños y niveles de construcción.
+Trabajo de la ingeniería civil
+El trabajo de un ingeniero civil comienza al presentarse una determinada necesidad (un nuevo dique en un puerto, la ampliación o construcción de una carretera, una presa que dé continuidad y estabilidad al caudal de un río…). En esta etapa de planificación, los ingenieros civiles trabajan en forma integrada con otros profesionales y autoridades nacionales o locales con poder de decisión.
+Entra entonces el trabajo de recopilación de los datos necesarios para el diseño de una solución a dicha necesidad, datos que pueden ser topográficos (medición de la superficie real del terreno), hidrológicos ( pluviometría de una cuenca , caudal de un río, etc.), estadísticos (aforos de las carreteras o calles existentes, densidades de población), etcétera.
+Para esta finalidad los diseños de las obras y sistemas más complejos se hacen en varias etapas. La primera etapa denominada de pre-factibilidad , se encarga de analizar el mayor número de soluciones posibles. Es en esta etapa en la cual los organismos competentes decidirán por ejemplo: el emplazamiento de un puerto, el trazado general de una carretera o tomarán la decisión respecto a si construir una vía férrea para transporte de minerales o un mineroducto. Para la toma de decisiones se consideran, entre otros, los siguientes puntos de vista: dificultad de la obra; costo de la obra; impacto ambiental producido por la obra. El estudio de pre-factibilidad involucra un equipo multidisciplinario de técnicos, donde además de ingenieros civiles participan ingenieros eléctricos, mecánicos, geólogos, economistas, sociólogos, ecologistas. Como resultado de esta fase se escogen 2 o 3 soluciones para detallarlas en la etapa siguiente.
+En la siguiente etapa, llamada factibilidad técnico-económica , ya se avanza mucho en los detalles constructivos, en la determinación de los costos, en el cronograma de construcción y en el flujo de caja necesario para la ejecución de la obra. En esta etapa tienen mucho peso las investigaciones de campo para detectar dificultades específicas relacionadas con la geología de las áreas en las que se intervendrá, y se detallarán los impactos ambientales, incluyendo tanto la parte física como la abiótica y la social. En general es en esta fase que se escoge la solución definitiva, que será detallada en la etapa de diseño definitivo o proyecto ejecutivo.
+Viene entonces el trabajo real sobre el terreno: acondicionar este para que sea capaz de soportar las estructuras que se van a construir sobre él (llegándose en ocasiones a sustituir el terreno por otro de mayor capacidad portante si el existente no cumple las condiciones necesarias), movimientos de tierras (desmontes y terraplenes), construcción de las estructuras (pilotes, zapatas, pilares, estribos, vigas, muros de contención).
+Sin embargo, todos estos pasos rara vez se dan de forma fluida ni, mucho menos, competen a un mismo equipo de ingeniería. Así, a menudo son los ingenieros de la Administración correspondiente los que detectan la necesidad que se tratará de solventar, mientras que en otras ocasiones la obra viene incluida dentro de un plan de actuación político (no siempre con una clara justificación técnica).
+Si la obra a acometer es de gran envergadura la Administración no la ejecuta, sino que sus ingenieros elaboran un anteproyecto que es sacado a subasta pública. Entonces son los ingenieros de las diferentes empresas constructoras los que, a partir de las prescripciones técnicas del anteproyecto, elaboran diferentes alternativas. Las alternativas ofrecidas por las constructoras pueden ser muy distintas al anteproyecto y entre sí, pues cada empresa hace uso de la maquinaria y procedimientos que le son más conocidos, y la Administración elegirá la más barata de las opciones que cumplan las exigencias.
+Los ingenieros que lleven a cabo la obra no tienen por qué ser (ni, generalmente, son) los que la hayan diseñado. La empresa constructora puede decidir también subcontratar diferentes trabajos a otras empresas, con lo que puede llegar a haber a diferentes empresas para una misma obra (una ejecuta los movimientos de tierras, otra las estructuras de hormigón…) cada una con su correspondiente departamento de ingeniería y su correspondiente equipo de ingenieros en obra.
+Muy a menudo, debido a lo imprevisible del terreno se producen problemas a pie de obra que obligan a realizar modificaciones en el proyecto; en otras ocasiones la Administración puede decidir variar algunas condiciones o exigencias a medida que la obra se desarrolla y se observan problemas o posibilidades que no se habían estudiado o que en el momento en que se elaboró el anteproyecto no se consideraron importantes. Puede ocurrir que una nueva infraestructura obligue a hacer modificaciones o surja la posibilidad de que dos obras diferentes, construidas por empresas diferentes (por supuesto con diferentes equipos de ingenieros) sean ejecutadas en conjunto.
+Todo esto puede dar idea de la gran cantidad de variables que afectan al trabajo de ingeniería civil. Las obras de gran envergadura son raras, y más frecuentemente el ingeniero civil se limita a la supervisión de la obra y a la toma de decisiones concretas en problemas concretos que no afectan al desarrollo o presupuesto general de la obra. Así, trabajos como la contención de un terreno de características habituales, la colocación de una viga pretensada o la ejecución de un firme, son trabajos rutinarios que no implican cambios significativos en el proyecto.
+La Ingeniería Civil es una disciplina fundamental para el desarrollo de la sociedad, ya que se encarga del diseño, construcción y mantenimiento de infraestructuras que facilitan la vida cotidiana, como carreteras, puentes, edificios y sistemas de agua. Su importancia radica en garantizar obras seguras, funcionales y sostenibles que impulsen el progreso económico y social, promoviendo al mismo tiempo el uso responsable de los recursos y la protección del medio ambiente.
+Ramas de la ingeniería civil
+La ingeniería civil comparte campo con muchas disciplinas que forman parte de otra ingeniería. Un ingeniero civil puede dedicarse a diferentes ámbitos dentro de la ingeniería, por ejemplo:
+Ingeniería estructural
+Ingeniería geotécnica
+Ingeniería hidráulica
+Ingeniería de transporte
+Ingeniería de construcción
+Ingeniería ambiental
+Ingeniería Urbanística
+Ingeniería de materiales
+Ingeniería Sísmica
+Estas son unos ejemplos de las diversas áreas que abordar la ingeniería civil, dentro de estas existen otras ramas un poco más vanguardistas como es la ingeniería en sistemas , civionica , mecatrónica , entre otras.
+La ingeniería civil aborda un gran espectro de carreras ya que lidia con organizar, mantener y llevar a cabo una construcción [ 14 ] ​por lo cual aborda ramas desde las industrias petroleras, hasta la construcción de casas. El ingeniero civil se dedica a construir y armar estructuras resistentes con respecto al cuidado de la vida y la salud de las personas que van a utilizar o habitar este espacio.
+Véase también
+Portal:Ingeniería . Contenido relacionado con Ingeniería .
+ciencia de materiales
+geología
+hidráulica
+ingeniería
+Anexo:materias de la ingeniería civil
+Categoría:Facultades y escuelas de ingeniería por país
+Construcción
+Referencias
+↑ The American Heritage Dictionary of the English Language, Fourth Edition. Houghton Mifflin Company, 2004 (consultado el 8 de agosto de 2007).
+↑ «History and Heritage of Civil Engineering» . ASCE . Archivado desde el original el 16 de febrero de 2007 . Consultado el 8 de agosto de 2007 .
+↑ «Institution of Civil Engineers What is Civil Engineering» . ICE . Archivado desde el original el 10 de abril de 2008 . Consultado el 22 de septiembre de 2007 .
+↑ a b c «What is Civil Engineering?» . The Canadian Society for Civil Engineering . Archivado desde el original el 12 de agosto de 2007 . Consultado el 8 de agosto de 2007 .
+↑ «Civil engineering» . Encyclopædia Britannica . Consultado el 9 de agosto de 2007 .
+↑ a b Oakes, William C.; Leone, Les L.; Gunn, Craig J. (2001). Engineering Your Future . Great Lakes Press. ISBN 1-881018-57-1 .
+↑ The Architecture of the Italian Renaissance Jacob Burckhardt ISBN 0-8052-1082-2
+↑ p. 4 of Mays, L. (30 de agosto de 2010). Ancient Water Technologies . Springer. ISBN 978-90-481-8631-0 .
+↑ Manuel Rendón. «Historia de la Escuela de Ingeniería» . Archivado desde el original el 3 de diciembre de 2013 . Consultado el 16 de enero de 2013 .
+↑ «Why Should You Get Licensed?» . National Society of Professional Engineers . Archivado desde el original el 11 de julio de 2007 . Consultado el 11 de agosto de 2007 .
+↑ Universidad de Granada. «Información académica de la titulación de Grado de Ingeniería Civil» .
+↑ Various undergraduate degree requirements at MIT Archivado el 22 de mayo de 2013 en Wayback Machine ., Cal Poly Archivado el 29 de octubre de 2013 en Wayback Machine ., Queen's and Portsmouth
+↑ , «CITE Postgrad» . Archivado desde el original el 31 de agosto de 2009.
+↑ «¿Qué hace un Ingeniero Civil?» . www.uag.mx . Consultado el 19 de octubre de 2023 .
+Enlaces externos
+Wikimedia Commons alberga una categoría multimedia sobre Ingeniería civil .
+Proyectos Wikimedia
+Datos: Q77590
+Multimedia: Civil engineering / Q77590
+Identificadores
+BNE : XX525590
+BNF : 11936922q (data)
+GND : 4004955-3
+LCCN : sh85026331
+NDL : 00561514
+NKC : ph126091
+NLI : 987007283808505171
+NARA : 10638585
+AAT : 300054481
+Diccionarios y enciclopedias
+Britannica : url
+Treccani : url
+Repositorios digitales
+BVPB : 19834
+Datos: Q77590
+Multimedia: Civil engineering / Q77590
+Ingeniería civil
+Wikipedia:Páginas con enlaces mágicos de ISBN
+Wikipedia:Artículos con pasajes que requieren referencias
+Wikipedia:Artículos con identificadores BNE
+Wikipedia:Artículos con identificadores BNF
+Wikipedia:Artículos con identificadores GND
+Wikipedia:Artículos con identificadores LCCN
+Wikipedia:Artículos con identificadores AAT
+Wikipedia:Artículos con identificadores BVPB
+Wikipedia:Control de autoridades con 14 elementos
+Esta página se editó por última vez el 6 nov 2025 a las 23:33.
+El texto está disponible bajo la Licencia Creative Commons Atribución-CompartirIgual 4.0 ; pueden aplicarse cláusulas adicionales. Al usar este sitio aceptas nuestros términos de uso y nuestra política de privacidad . Wikipedia® es una marca registrada de la Fundación Wikimedia , una organización sin ánimo de lucro.
+Política de privacidad
+Acerca de Wikipedia
+Limitación de responsabilidad
+Contactos para cuestiones legales y de seguridad
+Código de conducta
+Desarrolladores
+Estadísticas
+Declaración de cookies
+Versión para móviles
+Ingeniería Civil
+El Puente del Gran Belt , la Presa Hoover , el Burj Khalifa y la Autovía del Olivar son algunas de las construcciones que alteran el medio en el que vivimos.
+Áreas del saber | Matemáticas , mecánica del medio continuo y ciencia de materiales , especialmente siderurgia y disciplinas relacionadas con el hormigón
+Campo de aplicación | Construcción, infraestructuras , obras hidráulicas e infraestructura energética ( hidroeléctricas y centrales térmicas ), vías y transporte , asesoría y consultoría , urbanismo , ordenación del territorio , cooperativas y gestoras de viviendas, sector de la energía , seguridad e higiene , impacto ambiental
+[ editar datos en Wikidata ]
+Control de autoridades | Proyectos Wikimedia Datos: Q77590 Multimedia: Civil engineering / Q77590 Identificadores BNE : XX525590 BNF : 11936922q (data) GND : 4004955-3 LCCN : sh85026331 NDL : 00561514 NKC : ph126091 NLI : 987007283808505171 NARA : 10638585 AAT : 300054481 Diccionarios y enciclopedias Britannica : url Treccani : url Repositorios digitales BVPB : 19834
+
+--- OCR de imagen: 500px-Escudo_de_Ingenieros_de_Caminos2C_Canales_y_8658ac94.png ---
+=
+
+aaa ae
+th t) AG)|Z
+
+)

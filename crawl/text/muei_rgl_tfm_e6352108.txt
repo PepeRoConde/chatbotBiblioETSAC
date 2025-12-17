@@ -1,0 +1,265 @@
+Facultade de Informática
+Mestrado Universitario en Enxeñaría Informática (MUEI)
+Regulamento do
+Traballo Fin de Mestrado
+15 de novembro de 2013
+Índice
+1. Natureza do TFM 1
+2. Obxectivos e responsabilidade do regulamento 1
+3. Comisión Xestora dos TFM 1
+4. Condicións de matrícula e de asignación do TFM 2
+5. Dirección 2
+6. Propostas, oferta e asignación do TFM 3
+7. Anteproxecto de TFM 3
+8. Tribunais 5
+9. Depósito do TFM 5
+10. Defensa 7
+11. Avaliación 7
+12. Autoría e conﬁdencialidade 8
+
+1. Natureza do TFM
+Artigo 1.1. Os estudos do Mestrado Universitario en Enxeñaría Informática (MUEI) rematan
+coa elaboración e defensa dun Traballo Fin de Mestrado (TFM). Conforme á normativa da UDC,
+para defender o TFM deberán terse superados os créditos correspondentes ao resto de materias
+incluídas as de complementos formativos.
+Artigo 1.2. O TFM será un traballo orixinal, realizado individualmente, defendido ante
+un tribunal universitario e consistente nun proxecto integral de Enxeñaría Informática de
+natureza profesional, que desenvolva os contidos formativos recibidos e sintetice as competencias
+adquiridas nas ensinanzas.
+2. Obxectivos e responsabilidade do regulamento
+Artigo 2.1. O presente regulamento ten por obxecto establecer a normativa relativa á
+deﬁnición, asignación, realización, defensa, avaliación e tramitación administrativa dos TFM
+das ensinanzas oﬁciais do MUEI.
+Artigo 2.2. A responsabilidade do presente regulamento corresponde á Comisión Académica
+do MUEI, que velará polo seu cumprimento e resolverá as cuestións que xurdan no seu
+desenvolvemento.
+Artigo 2.3. O contido deste regulamento complétase co resto da normativa e dos
+procedementos en vigor.
+3. Comisión Xestora dos TFM
+Artigo 3.1. Para unha axilización dos trámites relacionados co TFM, a Comisión Académica
+delegará nunha Comisión Xestora dos TFM as tarefas de asignación de propostas, resolución de
+solicitudes de anteproxectos, designación dos tribunais, autorización de defensas e outras que a
+Comisión Académica considere axeitadas.
+Artigo 3.2. A Comisión Xestora dos TFM estará formada por:
+− Presidente: o coordinador ou coordinadora do MUEI.
+− Secretario: o secretario ou secretaria do centro.
+− Vogais: a persoa que coordina a materia de Prácticas de Empresa no MUEI e catro
+persoas nomeadas pola Comisión Académica que pertenzan ao profesorado das materias
+obrigatorias da titulación.
+A Comisión Xestora poderá solicitar asesoramento externo cando o estime oportuno.
+1
+
+4. Condicións de matrícula e de asignación do TFM
+Artigo 4.1. O TFM aparece asignado no plano de estudos ao segundo curso do MUEI co
+obxectivo de que os estudantes poidan desenvolvelo despois de cursar a maioría dos créditos
+correspondentes ás outras materias. O número de créditos ECTS pendentes non se considera un
+condicionante para matricularse no TFM.
+Artigo 4.2. Autorizarase a asignación dun TFM só cando ao estudante lle queden, como
+máximo, 66 créditos ECTS para rematar os estudos do MUEI.
+5. Dirección
+Artigo 5.1. A dirección dun TFM poderá realizala unha ou máis persoas con titulación
+superior que cumpran calquera das condicións seguintes:
+− Que forme parte dun departamento e que este departamento teña asignada docencia no
+MUEI.
+− Que pertenza a unha empresa, a unha entidade ou a un centro tecnolóxico.
+Artigo 5.2. Polo menos unha das persoas que exerza a dirección dun TFM deberá ser membro
+do persoal docente e investigador de calquera departamento con docencia no MUEI, para
+desempeñar as funcións de codirección académica.
+Artigo 5.3. Son funcións das persoas que exerzan a dirección dun TFM:
+− Expoñer ao estudante as características do traballo e orientalo no desenvolvemento deste.
+− Realizar un seguimento do desenvolvemento do TFM e velar polo cumprimento dos
+obxectivos ﬁxados.
+− Autorizar a defensa do TFM cando se considere que está rematado e que cumpre os
+requisitos académicos indicados no primeiro parágrafo do artigo 7.3.
+2
+
+6. Propostas, oferta e asignación do TFM
+Artigo 6.1. As entidades colaboradoras, os profesores e os estudantes poderán propoñer o
+desenvolvemento de TFM. Todas estas propostas conforman a oferta de TFM.
+Cada proposta incluirá o título, unha descrición mínima e a referencia das persoas que asumirán
+a dirección, podendo ir acompañada dunha descrición máis detallada do traballo.
+Artigo 6.2. Se as propostas de profesores e entidades colaboradoras non están vinculadas a
+un estudante, pasarán a conformar a oferta libre. A asignación das propostas desta oferta farase
+segundo as preferencias dos estudantes e, en caso de conﬂito, segundo o expediente académico
+Artigo 6.3. A Comisión Xestora garantirá que a oferta sexa suﬁciente para cubrir a demanda
+de estudantes que cumpran as condicións requiridas para solicitar a asignación dun TFM.
+7. Anteproxecto de TFM
+Presentación do anteproxecto
+Artigo 7.1. Os estudantes presentarán ante a Comisión Xestora, no prazo que se determine,
+un anteproxecto de TFM que debe incluír:
+− Os datos do estudante e a súa sinatura.
+− O nome, entidades e sinaturas das persoas que aceptan exercer a dirección.
+− As direccións de correo electrónico tanto do estudante como das persoas que asinan a
+dirección do anteproxecto.
+− O número de créditos ECTS que ten pendentes o estudante para o remate do MUEI, que
+non poderá ser superior a 66 segundo o artigo 4.2.
+− O título do TFM en inglés, castelán e galego.
+− Un resumo do traballo a desenvolver, incluíndo a descrición, a motivación, os obxectivos
+a acadar e as ferramentas a utilizar.
+− A xustiﬁcación da natureza profesional do TFM.
+− As competencias das ensinanzas do MUEI que se desenvolven no TFM.
+Artigo 7.2. Haberá dous prazos de presentación de anteproxectos, un ao principio de cada
+cuadrimestre do curso académico.
+3
+
+Resolución do anteproxecto
+Artigo 7.3. A Comisión Xestora debe garantir que os estudantes cumpran as condicións
+administrativas esixidas e que os anteproxectos teñen natureza profesional, que se corresponden
+coas competencias adquiridas nas ensinanzas, que teñen a entidade suﬁciente para cubrir os
+créditos ECTS asignados e que se diferencian suﬁcientemente doutros traballos desenvolvidos
+na titulación, moi especialmente do realizado na materia “Prácticas en Empresa”.
+A Comisión Xestora poderá aceptar un anteproxecto –co que o TFM pasará a ter validez
+académica e administrativa–, solicitar aclaracións ou modiﬁcacións do mesmo, ou rexeitalo.
+Se un anteproxecto non é aceptado, a Comisión Xestora xustiﬁcará os motivos e abrirá un prazo
+de alegacións para presentar, ou ben documentación adicional, ou ben outra proposta.
+Se un anteproxecto non é aprobado despois do prazo de alegacións, o estudante só poderá
+presentar outro nese mesmo cuadrimestre, que poderá ser unha modiﬁcación do anterior.
+Tempo de validez do anteproxecto
+Artigo 7.4. Un anteproxecto aceptado pola Comisión Xestora terá validez durante dous cursos
+académicos e o primeiro cuadrimestre do terceiro. Así, se é aprobado nun curso académico terá
+validez nese curso, no seguinte ao que se aprobe e no primeiro cuadrimestre do seguinte curso
+máis.
+Modiﬁcacións do anteproxecto
+Artigo 7.5. Un estudante poderá solicitar á Comisión Xestora a substitución dun director do
+seuTFM,sencambiarorestodascaracterísticasxaaceptadas,alegandoosmotivosqueconsidere
+oportunos. No caso de aprobarse, o tempo de validez do anteproxecto non se modiﬁcará.
+Artigo 7.6. Un estudante poderá solicitar á Comisión Xestora, co aval das persoas que exercen
+a dirección, a modiﬁcación das características dun anteproxecto xa aceptado. Se a modiﬁcación
+non se considera un cambio importante, como por exemplo o cambio do título, manterase o
+tempo de validez. Se a solicitude supón unha modiﬁcación substancial das características ou dos
+obxectivos do anteproxecto, deberá considerarse un novo anteproxecto para todos os efectos.
+Artigo 7.7. Unha persoa que dirixa un TFM poderá renunciar a esta función mediante un
+escrito á Comisión Xestora no que exporá os motivos da decisión.
+Renuncia ao anteproxecto
+Artigo 7.8. Un estudante poderá solicitar a renuncia a un anteproxecto mediante un escrito
+dirixido á Comisión Xestora, que decidirá sobre a solicitude.
+4
+
+8. Tribunais
+Artigo 8.1. A Comisión Académica nomeará un tribunal por curso académico, formado por
+membros do profesorado que impartan docencia no MUEI no curso académico actual, ou que a
+impartiron nos dous cursos anteriores.
+O tribunal dividirase en grupos avaliadores formados por tres persoas, que actuarán como
+tribunal dun conxunto de TFM, desempeñando as funcións de presidente –a persoa de maior
+categoría académica e antigüidade–, secretario –a persoa de menor antigüidade– e vogal.
+Unha persoa que exerza a dirección dun TFM non poderá formar parte do grupo avaliador que
+cualiﬁque ese TFM.
+Artigo 8.2. Cada membro dun grupo avaliador será, polo menos, titular nun período de
+avaliación e suplente noutro.
+Recoméndase que cada grupo avalíe aproximadamente entre cinco e dez TFM, polo que se
+designarán os grupos avaliadores necesarios para todo o curso académico, aínda que haberá a
+posibilidade de formar novos grupos se xurdise a necesidade ao longo do curso.
+Se a un tribunal lle corresponde avaliar menos de cinco traballos nun período, os seus membros
+poderán repetir como titulares pero só noutro período do mesmo curso académico, aínda que si
+poderán ser suplentes dun terceiro.
+Artigo 8.3. O número mínimo de membros do tribunal que poden avaliar un TFM é de
+tres, polo que, ante unha situación excepcional, calquera membro do tribunal designado para
+ese curso, poderá formar parte de calquera grupo de avaliación cara a súa constitución como
+tribunal, se non se presentasen os membros titulares nin suplentes necesarios.
+9. Depósito do TFM
+Períodos e condicións de depósito do TFM
+Artigo 9.1. A Comisión Académica aprobará os prazos de cada período de depósito dos TFM
+de acordo co calendario académico.
+Para depositar o TFM, o estudante deberá ter superados os créditos correspondentes ao resto
+de materias, como se indica no artigo 1.1 e de acordo coa normativa da UDC.
+Ao ser o TFM unha materia do primeiro cuadrimestre, haberá un período de depósito ao remate
+dese cuadrimestre, e outro ao ﬁnal do segundo cuadrimestre.
+Para facilitar o remate da titulación e sempre que sexa compatible coa normativa académica da
+UDC, haberá un terceiro período de depósito do TFM, preferentemente en setembro.
+5
+
+Procedemento de depósito
+Artigo 9.2. Nun dos períodos establecidos ao efecto, o estudante presentará unha solicitude
+de depósito do TFM, acompañada de:
+− A autorización da defensa asinada por todas as persoas que exerzan a dirección do TFM,
+o que garantirá que o TFM cumpre os obxectivos propostos.
+− A memoria en formato electrónico.
+− Adxuntaranse en formato electrónico os documentos entregados no anteproxecto aprobado,
+referenciadosnoartigo7.1,econsistentesnoresumodotraballo,axustiﬁcacióndanatureza
+profesional e as competencias das ensinanzas que desenvolve o TFM.
+− O resto de documentos que a Comisión Xestora considere necesarios, no formato que
+determine.
+Artigo 9.3. Rematado o período de presentación de solicitudes de depósito, a administración
+do centro entregará a documentación ao secretario do correspondente grupo de avaliación do
+tribunal, que a custodiará ata a súa devolución á administración, e fará chegar unha copia da
+versión electrónica ao resto dos compoñentes do grupo avaliador.
+Memoria do TFM
+Artigo 9.4. A memoria constitúe a documentación principal do TFM. Poderá presentarse en
+galego, castelán ou inglés.
+A estrutura da memoria deberá organizarse da maneira seguinte:
+− Unha portada que, polo menos, conterá:
+⋄ O logotipo da universidade e o nome do centro.
+⋄ O título do TFM.
+⋄ O nome do estudante.
+⋄ O nome das persoas que exercen a dirección.
+⋄ O mes e o ano da data de defensa do proxecto.
+− Un resumo do proxecto cunha extensión máxima de 500 palabras.
+− A relación de palabras chave que reﬂictan, de maneira separada, o contido do TFM e as
+ferramentas utilizadas. Estas palabras chave teñen que poderse utilizar como elementos de
+procura bibliográﬁca.
+− O índice completo do contido, co número de páxina para cada epígrafe e preferiblemente
+con ligazóns aos contidos.
+6
+
+− O corpo do TFM:
+⋄ Unha introdución na que se fai unha contextualización ou exposición do ámbito do
+problema que se trata, de maneira que quede claramente determinada a motivación
+e os obxectivos do TFM.
+⋄ Un resumo dos fundamentos teóricos ou dos conceptos previos necesarios para
+entender e afrontar o TFM, se procede.
+⋄ Os traballos previos, se proceden.
+⋄ Unha exposición do núcleo central do TFM, indicando tamén as ferramentas,
+estándares e metodoloxías utilizadas, así como as prestacións e funcionalidades máis
+destacadas.
+⋄ Un resumo dos resultados obtidos e da súa aplicabilidade, podendo incluír as leccións
+aprendidas.
+− A bibliografía consultada na elaboración do TFM. As referencias bibliográﬁcas deberán
+ser completas, incluíndo sempre que proceda o título, as persoas que sexan autoras, a
+publicación, a editorial e a data. Poden servir como exemplo as regras establecidas pola
+norma UNE 50-104.
+− Un glosario ou relación de siglas, abreviaturas, etc utilizadas no documento, xunto cos seus
+respectivos signiﬁcados, se procede.
+− Os anexos que se consideren oportunos.
+10. Defensa
+Artigo 10.1. O acto de defensa será público e farase no período aprobado pola Comisión
+Académica, nas datas e horas determinadas polos representantes do tribunal ao que lle
+corresponda avaliar a dita defensa.
+Artigo 10.2. O presidente do tribunal moderará o acto, no que o estudante realizará unha
+exposición que terá unha duración recomendada de 20 minutos, á que seguirá unha rolda de
+preguntas formuladas polos membros do tribunal. Coa autorización do presidente, poderán
+tamén realizar preguntas as persoas presentes no acto con igual ou superior categoría á de
+mestrado.
+A persoa ou persoas que dirixen o TFM poderán solicitar ao tribunal ser escoitadas, tanto no
+propio acto, se están presentes, como en sesión privada despois do acto de defensa.
+11. Avaliación
+Artigo 11.1. Cada membro do tribunal outorgará de maneira individual unha nota numérica
+baseándose na avaliación do traballo desenvolvido, da documentación presentada e da defensa
+realizada, e incluíndo a xustiﬁcación das valoracións. Indicará tamén se considera que o TFM é
+merecedor da mención de matrícula de honra.
+O tribunal poderá solicitar opinión a persoas que considere expertas na temática dun TFM.
+7
+
+Artigo 11.2. A cualiﬁcación numérica ﬁnal será a media aritmética das notas emitidas polos
+membros do tribunal.
+O estudante cunha cualiﬁcación igual ou superior a 9 puntos poderá acceder á mención de
+matrícula de honra, sempre que sexa por unanimidade do tribunal.
+Cando nun período haxa varios grupos avaliadores, a decisión sobre o número de mencións
+de matrícula de honra a conceder debe ser consensuada por todas as persoas que exerzan a
+presidencia deles.
+Artigo 11.3. No caso de que un TFM obtivera unha cualiﬁcación de suspenso ou equivalente,
+o tribunal fará chegar ao estudante e ás persoas que dirixiron o TFM un informe razoado cos
+motivos da cualiﬁcación.
+12. Autoría e conﬁdencialidade
+Artigo 12.1. Segundo a normativa da UDC, a propiedade intelectual dun TFM corresponde
+ao seu autor ou autora.
+Poderá existir un acordo especíﬁco que estenda esta propiedade de maneira compartida entre a
+persoa que ten a autoría e calquera das que exerzan a dirección.
+Artigo 12.2. Sempre que algunha das persoas que exercen a dirección dun TFM o solicite,
+considerarase que este TFM é conﬁdencial o que fará que non sexa de acceso público.
+Asolicitude decarácter conﬁdencialdun TFMfarase constaroﬁcialmente polapersoainteresada,
+ben na proposta do TFM ou anteproxecto, ben na autorización da defensa, ou en ambas as dúas.
+Artigo 12.3. Os datos involucrados nun TFM considerado conﬁdencial poderanse substituír
+na memoria e no acto de defensa por datos ﬁcticios, pero a memoria debe reﬂectir os detalles
+suﬁcientes para deixar claro as características principais do traballo, especialmente o indicado
+como núcleo central do TFM no artigo 9.4.
+8

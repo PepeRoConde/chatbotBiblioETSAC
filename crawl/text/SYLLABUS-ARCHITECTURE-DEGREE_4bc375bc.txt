@@ -1,0 +1,530 @@
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+CORE MODULES 
+Cycle Year Name University 
+module 
+Credits Brief description of the content Relation to knowledge areas 
+Total Theory Practice 
+1 2 Architectural 
+projects 
+Projects II 18T +3A 3 18 Introduction to theory and practice 
+of architecture. Foundations of 
+architectural projects. Composition 
+elements 
+Architectural projects 
+1 1 Theory and 
+history of 
+architecture 
+Introduction 
+to architecture 
+9 3 6 Introduction to architecture. Idea of 
+architecture. Introduction to history 
+of architecture. Contemporaneous 
+architecture. Architecture, city and 
+land.  
+Architectural composition 
+ 2  Art history 6T+3A 9  Art history. Art through history: 
+ancient history, middle age, modern 
+age, contemporaneous age. 
+Architectural composition 
+1 2 Construction Construction 
+II 
+15 9 6 Construction materials (Science of 
+construction materials). Project and 
+development of construction 
+systems in architecture and 
+urbanism. Construction regulation. 
+Architectural constructions. 
+Construction engineering 
+1 1 Physical 
+foundations of 
+architecture 
+Physics for 
+architecture I 
+6T+1.5A 4.5 3 
+ 
+Introduction to building facilities. 
+General mechanic. Fluid mechanics. 
+Acoustics. Thermodynamics. 
+Electricity. Electromagnetism. 
+Colour and light theories. 
+Theoretical basis for physical 
+environment. 
+Continuum mechanics and 
+theory of structures. Applied 
+physics. Electromagnetism. 
+Optics 
+1 2 Introduction to 
+building 
+structures 
+Structures I 9T+3A 9 3 Introduction to building structures. 
+Types of structures. Mechanics. 
+Solid mechanics. Elasticity and 
+plasticity. Strengths of materials. 
+Continuum mechanics and 
+theory of structures. 
+Architectural constructions 
+1 1 Mathematical 
+foundations for 
+Mathematics 
+for 
+9 6 3 Algebra. Calculation. Differential 
+equation. Measurement geometry. 
+Applied mathematics. 
+Mathematical analysis. 
+
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+architecture architecture I Differential and analytical geometry. 
+Numerical calculation. Statistics. 
+Computer science. Artificial 
+intelligence. Statistics and 
+operative research 
+1 2 Urbanism Urbanism I 9 6 3 Introduction to urban planning and 
+urban project. Physical and social 
+environment. Theory and history of 
+urban planning. 
+Urban planning 
+1 1 Graphic 
+expression for 
+architecture 
+Descriptive 
+geometry I 
+6T+1.5A 3 4.5 Foundations of architectural 
+drawing. Descriptive geometry. 
+Land representation. 
+Graphic expression. 
+Architectural composition 
+1 1  Drawing I 15 3 12 Analysis of architectural shapes. 
+Architectural drawing. Computer-
+aided design. 
+Graphic expression. 
+Architectural composition 
+2 4 Architectural 
+projects 
+Projects IV 15T+3A 3 15 Project and city. Theory and practice 
+of architecture through other 
+disciplines. Urban space. Collective 
+housing. Regulations. 
+Architectural projects 
+ 5  Projects V 18T+3A 3 18 Project and land. Theory and 
+practice of architecture through 
+other disciplines. Joint projects. 
+Method, organisation and 
+management of projects. Execution 
+projects. 
+Architectural projects 
+2 5 Final Project Final Project 3T 1 2 Development of an architectural 
+project which includes knowledge 
+from all areas. 
+Architectural composition. 
+Architectural construction. 
+Graphic expression. Continuum 
+mechanics and theory of 
+structures. Architectural 
+projects. Urban planning 
+2 3 Architectural 
+composition 
+Theory of 
+architecture 
+9T 9  Theory of architectural composition. 
+Aesthetics. 
+Architectural composition 
+ 4  History of 
+architecture I 
+3T+1.5A 4.5  History of architecture and 
+urbanism. Architecture and 
+Architectural composition 
+
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+historical city. Architecture and 
+contemporaneous city. 
+2  Architectural 
+constructions 
+      
+ 3  Construction 
+III 
+10.5T+1.5A 6 6 Constructive architectural systems. 
+Structural systems: materials, 
+project, dimensions, pathology, 
+programming and monitoring. 
+Regulation 
+Architectural construction 
+ 4  Construction 
+IV 
+10.5T+1.5A 6 6 Constructive architectural systems. 
+Siding and coating: materials, 
+project, dimensions, pathology, 
+programming and monitoring. 
+Regulation 
+Architectural construction 
+2 2 Building 
+structures 
+Structures II 12 9 3 Building structures: types, analysis, 
+project, development. Regulation. 
+Quality control and pathology. Soil 
+mechanics 
+Continuum mechanics and 
+theory of structures. 
+Architectural structures. 
+Construction engineering. 
+2 3 Urbanism Urbanism II 9 6 3 Urban planning. Urban legislation. 
+Legal architecture. Environmental 
+impact. Landscape 
+Urban planning. Architectural 
+composition 
+ 4  Urbanism III 6T+3A 6 3 Urban exploration. Morphological 
+analysis. Built land. City 
+construction. Urban project. 
+Valuation. Urban economy 
+Urban planning. Architectural 
+composition 
+2 2 Conditioning 
+and services 
+Installations 12 6 6 Installations project and 
+development. Environmental 
+conditioning techniques. Acoustics. 
+Electrical installations. Electrical 
+and light engineering. Hydraulic 
+installations. Quality control 
+Architectural constructions. 
+Electrical engineering. 
+Hydraulic engineering 
+ 
+
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+COMPULSORY MODULES 
+Cycle Year Name Credits Brief description of the content. Relation to knowledge 
+areas Total Theory Practice 
+1 1 Projects І 9 3 6 Introduction to the architectural project. The project. The 
+habitat as a problem in architecture. 
+Architectural projects 
+1 1 Construction І 9 3 6 Introduction to the construction: systems, elements and 
+materials of construction. 
+Architectural 
+constructions 
+1 1 Physics Foundations in 
+Architecture ІІ 
+7.5 4.5 3 General mechanics advanced. Statics. Beans and porches. 
+Mass geometry. 
+Continuum mechanics 
+and structure theory 
+1 1 Mathematical 
+Foundations in 
+Architecture 
+9 6 3 Calculus. Differential equations advanced. Applied mathematics 
+1 1 Descriptive Geometry 7.5 3 4.5 Descriptive geometry advanced. Perspective. Land 
+representation advanced. 
+Architectural graphic 
+expression 
+1 2 Drawing ІІ 15 3 12 Architectural drawing advanced. Graphic analysis. 
+Technics and means of representation. Computer-assisted 
+drawing advanced. 
+Architectural graphic 
+expression 
+2 3 Projects ІІІ 18 3 15 Project foundations. Introduction to project execution. Architectural projects 
+ 
+OPTIONAL MODULES 
+Name (2) Credits Brief description of the content Relation to knowledge areas 
+Total Theory Practice 
+Graphic Design (3rd 
+year) 
+9   Development of systems and representation technics and 
+design. Assisted design. Photography and audio-visual 
+medias. Signalling.  
+Architectural graphic expression. 
+Industrial Design (4th 
+year) 
+9   Theory and technics of applied Arts in architecture. 
+Industrial design. Furniture design. 
+Architectural projects. 
+Restauration (5th year) 9   Architectural interventions in the historical Heritage. 
+Theory, technics and project. Monuments restoration. 
+Archaeology. 
+Architectural composition. Architectural 
+constructions. Architectural projects. 
+Theory of composition 
+(5th year) 
+9   Methodology of architectural composition. Theory of forms. 
+Critics. 
+Architectural composition. Architectural 
+projects. 
+
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+Industrial Architecture 
+(2nd cycle) 
+9   Architecture of industrial buildings. Container architecture. 
+Sports architecture. 
+Architectural constructions. 
+Architectural projects. 
+Interior design (2nd 
+cycle) 
+9   Interior design. Furniture and its connection to the interior 
+design. Ergonomics. Anthropometry.  
+Architectural constructions. 
+Architectural graphic expression. 
+Architectural projects. 
+History of Galician 
+architecture (2nd cycle) 
+9   The architecture in Galicia, through history. Periods and 
+styles. 
+Architectural composition. 
+ 
+OPTIONAL MODULES 
+Name (2) Credits Brief description of the content Relation to knowledge areas 
+Total Theory Practice 
+Drawing ІІІ (3rd year) 9   Architectural and urbanism drawing advances. 
+Cartography. Solar geometry. Assisted design. 
+Graphic architectural expression. 
+Urban planning І (4th year) 9   Planning methodology І. Analysis and project. Urbanism and spatial planning.  
+Urban planning ІІ (5th 
+year) 
+9   Planning methodology ІІ. Analysis and project. Urbanism and spatial planning. 
+Urbanisation projects  9   Projects of urbanisation. Project, calculation and 
+construction of installations and urban elements. 
+Urbanism and spatial planning. 
+Gardening and landscape 
+(2nd  cycle) 
+9   Systems of free space and green zones in the city. 
+Landscape. Analysis and intervention proposals. 
+Urbanism and spatial planning. 
+Rural planning (2nd cycle) 9   Analysis, projecting and planning of rural space. Urbanism and spatial planning. 
+Topography (2nd cycle) 9   Introduction to the topography. Photogrammetry. 
+Technics. Interpretation and representation.  
+Graphic architectural expression. 
+Urban legislation and 
+economics (2nd cycle) 
+9   Introduction to the legislation and the urban economics. 
+Application to the construction and the planning. 
+Urbanism and spatial planning. Applied 
+economics. Administrative Law. 
+ 
+ 
+OBLIGATORY MODULES BY THE UNIVERSITY 
+Cycle Year Name Credits Brief description of the content Relation to knowledge 
+areas Total Theory Practice 
+
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+2 5 Construction V 15 9 6 Constructive analysis: the construction technics in the architectonical 
+typology. Constructive design in the project of execution. 
+Architectural 
+constructions 
+2 4 Structures ІІІ 15 9 6 Structures of constructions and foundations: structures of reinforced 
+concrete: types, analysis, project, execution. Regulations. Quality 
+control and pathology. Soil mechanics advanced. 
+Continuum mechanics 
+and Theory of 
+Structures 
+2 4 History of 
+architecture ІІ 
+4.5 4.5  History of architecture and urbanism. Architecture and contemporary 
+cities. 
+Architectural 
+composition 
+ 
+OPTIONAL MODULES 
+Name (2) Credits Brief description of the content Relation to knowledge areas 
+Total Theory Practice 
+Structures project І (3rd 
+year) 
+9   Structural typologies. Project of structures. Assisted 
+design. 
+Continuum mechanics and Theory of 
+structures.  
+Mathematical methods in 
+architecture (4th year) 
+9   Theory of curves and surfaces. Partial differential 
+equations. Numerical methods of resolution of 
+differential equations.  
+Applied mathematics.   
+Structures ІV (5th year) 9   Long span structures. High-rise structures. Lightweight 
+structures. 
+Continuum mechanics and Theory of 
+structures.   
+Project of installations (5th 
+year) 
+9   Design and calculations of installation in architecture. 
+Special installations. Specific installation projects. 
+Intelligent buildings.   
+Architectural constructions. 
+Architectural projects. 
+Foundations (2nd cycle) 9   Soil mechanics and foundations Advanced. Special 
+foundations.   
+ Soil engineering. Continuum 
+mechanics and Theory of structures.   
+Structures projects ІІ (2nd 
+cycle) 
+9   Project of execution of construction structures. Continuum mechanics and Theory of 
+structures.   
+Industrialisation and 
+prefabrication (2nd cycle) 
+9   Industrialized construction systems. High technology 
+systems. Industrialisation and prefabrication. 
+Architectural constructions. 
+Project management for 
+contsruction 
+9   Organisation of works. Economics, organisation and 
+management of works and enterprises. Measurements and 
+Budgets. 
+Architectural constructions. 
+Design of structural 
+systems (2nd cycle) 
+9   Design of structural systems. Assisted design. Architectural graphic expression. 
+Continuum mechanics and Theory of 
+
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+structures.   
+ 
+1.B 
+TEMPORAL  ORGANISATION OF LEARNING 
+The Studies Plan distributes the subjects per academic year, indicating which is a reasonable 
+progression for the learning process and without any preference among the modules, according 
+to the following core and obligatory modules of the University: 
+  
+ 
+First Cycle Modules 
+First Year  Projects І 
+Introduction to Architecture 
+Construction І 
+Basic Physics in Architecture І 
+Basic Physics in Architecture ІІ 
+Basic Mathematics  in Architecture І 
+Basic Mathematics  in Architecture ІІ 
+Descriptive Geometry І 
+Descriptive Geometry ІІ 
+Drawing І 
+ 
+Second Year Projects I 
+History of Art 
+Construction II 
+Structures I 
+Urbanism I 
+Drawing II 
+ 
+Second Cycle Modules 
+Third Year Projects III 
+Theory of Architecture 
+Construction III 
+
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+ 
+ 
+1.D 
+Recognition and Validation Mechanisms 
+Structures II 
+Urbanism II 
+Installations 
+Fourth Year Projects IV 
+History of Architecture I 
+Construction IV 
+Structures III 
+Urbanism III 
+History of Architecture II 
+Fifth Year Projects V 
+Final Degree Work 
+Construction V 
+Without limiting the foregoing , to enroll to the second cycle, it is necessary to have 
+successfully passed all the modules corresponding to 75% of the first cycle credits. 
+This percentage may be reduced, specifically in particular or special cases by the Teaching 
+Commission of the Center. 
+ 
+1.C 
+Teaching Period 
+A teaching period of five years is determined in the Studies Plan. 
+ 
+
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+The change from the old program to the new one allows the student to recognize the old 
+modules in order to incorporate them to the new one. To this end, the adaptation between the 
+Plan of 1984 and the present one is regulated by the Board of Equivalents, which is 
+accompanied, without any prejudice that any other validation not included in the present Board 
+must be decided in any case by the Validation Commission. 
+ 
+ADAPTATION BOARD 
+PLAN 1984 PLAN 1992 
+Composition elements 
+Projects I 
+Projects II 
+Projects III 
+Intro. to the Architecture and Urbanism 
+History of Art 
+Esthetics and Composition 
+History of Architecture and Urbanism 
+Intro. to the Construction 
+Construction I 
+Construction II 
+Construction III 
+Construction IV 
+Mathematics 
+Mathematics Advanced 
+Physics 
+Physics Advanced 
+Calculation of Structures I 
+Calculation of Structures II 
+Calculation of Structures III 
+Soil mechanics and Foundations  
+Electrical engineering, lightning 
+technology and installations 
+Conditioning Technics 
+Projects I + Projects II 
+Projects III 
+Projects IV 
+Projects V 
+Introduction to the Architecture 
+History of Art 
+Theory of Architecture 
+History of Architecture I and II 
+Construction I 
+Construction II 
+Construction III 
+Construction IV 
+Construction V 
+Basic Mathematics I and II 
+Mathematical Methods (optional) 
+Basic Physics I and II 
+Structures I 
+Structures II 
+Structures III 
+Structures IV 
+Foundations 
+ 
+ 
+Installations 
+
+SYLLABUS OF THE ARCHITECTURE DEGREE AT UNIVERSITY OF A CORUÑA (1995) 
+Structures project 
+Project management for constructions and 
+enterprises 
+Industrialization and prefabrication 
+Introduction to the Urbanism 
+Urbanism I 
+Urbanism II 
+Urbanism III 
+Gardening and Landscape 
+Training in urbanism and urban 
+installations 
+Economics 
+Analysis of Architectural Forms 
+Architectural Drawing 
+Descriptive Geometry 
+Geometry of the Architectural Form 
+ 
+  
+Installations Project 
+Project management for constructions 
+ 
+Industrialization and prefabrication 
+Urbanism I 
+Urbanism II + Urbanism III 
+Urban Planning I 
+Urban Planning II 
+Gardening and Landscape 
+Projects of Urbanism 
+ 
+Sociology and urban Economics 
+Drawing I 
+Drawing II 
+Descriptive Geometry 
+Graphic Design, or Drawing III, or Drawing of 
+structural systems 
+The remaining modules of the Plan of 1984 may be validated by elective credits, or by the 
+optional modules of the present Plan. 
+ 

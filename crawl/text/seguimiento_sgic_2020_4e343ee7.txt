@@ -1,0 +1,322 @@
+ 
+ 
+ 
+ 
+ 
+ 
+PROGRAMA FIDES-AUDIT 
+ 
+INFORME FINAL DE RENOVACIÓN DE LA 
+CERTIFICACIÓN DE IMPLANTACIÓN  
+DEL SISTEMA DE GARANTÍA DE CALIDAD 
+ 
+ 
+ 
+ 
+FACULTAD DE INFORMÁTICA 
+UNIVERSIDAD DE A CORUÑA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+13.11.2020  
+
+   
+ 
+ 
+ Página 2 de 9  
+ 
+DATOS DEL CENTRO EVALUADO 
+UNIVERSIDAD Universidad de A Coruña 
+CENTRO Facultad de Informática 
+ALCANCE (especificar 
+cualquier posible exclusión) 
+Todas las titulaciones oficiales de grado y máster universitario 
+adscritas al centro 
+REPRESENTANTE  
+NOMBRE Adriana Dapena Janeiro 
+CARGO Vicedecana de Calidade 
+TELÉFONO 981 16 70 00 
+CORREO 
+ELECTRÓNICO decanato.fic@udc.es 
+ 
+ 
+ 
+COMISIÓN DE EVALUACIÓN QUE REALIZA LA VISITA 
+PRESIDENTE Laureano González Vega Institución Universidad de Cantabria 
+VOCAL 
+ACADÉMICO 
+Juan José Tarí Guilló Institución Universidad de Alicante 
+PROFESIONAL Marta González Moldes  Institución Trillium Consultores 
+PROFESIONAL María Vilas Breijo  Institución Auditora externa 
+ESTUDIANTE Gladis Ferreira Troncoso  Institución Universidade de Vigo 
+SECRETARIA Mª Dolores Castro Pais  Institución Técnica ACSUG 
+FECHA VISITA 22 de julio de 2020 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+   
+ 
+ 
+ Página 3 de 9  
+ 
+VALORACIÓN Y JUSTIFICACIÓN DEL RESULTADO 
+ 
+El proceso de evaluación externa desarrollado por ACSUG persigue los siguientes objetivos: 
+- Determinar que el SGC implantado en el centro sigue cumpliendo las directrices del 
+Programa FIDES-AUDIT: 
+ Directriz 1. Política y objetivos de calidad 
+ Directriz 2. Diseño, revisión periódica y mejora de los programas formativos 
+ Directriz 3. Garantía del aprendizaje, enseñanza y evaluación centrados en el estudiante 
+ Directriz 4. Garantía y mejora de la calidad de los recursos humanos 
+ Directriz 5. Garantía y mejora de la calidad de los recursos materiales y servicios 
+ Directriz 6. Información Pública 
+- Determinar que se aplican los documentos establecidos por la institución universitaria 
+incluidos en el SGC de la misma. 
+- Facilitar al centro orientaciones sobre el SGC implantado con el fin de mejorar su eficacia. 
+- Verificar que el SGC del centro es un proceso sistemático y estructurado que contempla 
+los cuatro elementos del ciclo de mejora continua: planificar, desarrollar, analizar y 
+actuar (mejorar). 
+La Comisión de Evaluación de ACSUG, una vez examinado el Sistema de Garantía 
+de Calidad (SGC) del citado centro con objeto de evaluar su grado real de 
+implantación, emite la siguiente valoración: 
+ 
+ FAVORABLE     
+ 
+ DESFAVORABLE 
+ 
+La Facultad tiene un Sistema de Garantía de Calidad (SGC) documentado, una política y 
+unos objetivos de calidad que revisa periódicamente y que publica junto con el plan 
+estratégico en su página web.  Sin embargo, el Sistema de Garantía de Calidad de este 
+centro debería haber evolucionado y mejorado tras la primera certificación de su 
+implantación como consecuencia, entre otros aspectos, de las recomendaciones realizadas 
+en auditorías previas y del proceso de seguimiento interno del centro. Si bien se entiende 
+que el proceso de revisión documental en una institución como es una universidad es muy 
+complejo, esta Comisión de Evaluación considera que resulta necesario revisar y actualizar 
+el SGC de la Facultad y adaptarlo a su contexto y a su realidad. 
+El certificado concedido por ACSUG tendrá una validez de cinco años desde la fecha de 
+este informe, prorrogable por idéntico período tras superar un nuevo proceso de evaluación 
+externa.   
+
+   
+ 
+ 
+ Página 4 de 9  
+ 
+FORTALEZAS DETECTADAS  
+ 
+ 
+ La participación en este proceso de evaluación del equipo directivo y de la Comisión 
+de Garantía de Calidad y su disposición hacia la mejora continua. 
+ El esfuerzo que está haciendo la Facultad por realizar un seguimiento para la mejora. 
+ La estructura y el contenido del informe para la renovación de la certificación del SGC 
+que se presentó de cara a este proceso de evaluación y que ha facilitado el análisis del 
+funcionamiento del SGC durante el periodo bajo evaluación. 
+ La información que sobre el SGC se ofrece en la página web de la Facultad y que 
+incluye, en particular, la publicación de su política de calidad.  
+ La información que se recoge respecto de lo s diferentes indicadores de rendimiento 
+académico para cada titulación y su visualización en la página web de la UDC.  
+ 
+  
+
+   
+ 
+ 
+ Página 5 de 9  
+ 
+ASPECTOS QUE DEBEN SER OBJETO DE ELABORACIÓN DE UN PLAN DE ACCIONES DE 
+MEJORA 
+Aspectos generales 
+El SGC de la Facultad no ha sido actualizado. Revisados todos los procedimientos del SGC, se encuentran 
+con revisión de fecha 18/04/2012, excepto los que se indican a continuación: 
+ PC03 Perfiles de ingreso/egreso y captación de estudiantes: Revisión 2 del 20/11/2014 
+ PC08 Movilidad de Estudiantes: Revisión 2 del 22/07/2013 
+ PC09 Prácticas externas: Revisión 2  del 09/10/2015 
+ PE03 Plan Estratégico: Revisión 2 del 29/04/2014 
+ PA04 Gestión de incidencias, reclamaciones y sugerencias: Revisión 2 del 29/04/2014   
+Se debe revisar la documentación del SGC, simplificando todo aquello que se considere necesario y 
+actualizando los registros del procedimiento PA01 (Control de documentos y evidencias). Se han detectado 
+varios anexos/evidencias sin cubrir y/o que pueden con siderarse innecesarios, como los asociados al 
+procedimiento PC14 Objetivos del Plan de Estudios. Si bien se entiende que la actualización puede haber 
+retrasado el proceso, éste data del año 2013, no advirtiendo que se hubiese solventado la situación en estos 
+7 años. 
+Se debe disponer, a la mayor brevedad posible, de la nueva aplicación de la UDC que permita la mejora de 
+la gestión documental y el archivo de la documentación derivada de la implantación de cada uno de los 
+procedimientos procesos del SGC. Si bien se valoran las aclaraciones aportadas en alegaciones, se considera 
+necesario que se dé un empuje a la nueva aplicación con el objeto de garantizar la mejora de la gestión 
+documental. 
+DIRECTRIZ 2. Diseño, revisión periódica y mejora de los programas formativos 
+Procedimientos 
+afectados PC01 Oferta formativa de la UDC que se elabora en el centro 
+Descripción 
+En el periodo evaluado se han producido diversos cambios en la oferta formativa de la 
+Facultad sin que se hayan encontrado evidencias del papel jugado por la Comisión de 
+Garantía de Calidad. Los cambios producidos están perfectamente documentados, 
+pero no se encuentran evidencias de que la Comisión de Garantía de Calidad se haya 
+pronunciado, en su momento,  sobre los nuevos títulos propuestos o sobre las 
+modificaciones a implementar (o incluso si esos cambios han sido promovidos desde 
+la Comisión de Garantía de Calidad). 
+DIRECTRIZ 4: Garantía y mejora de la calidad de los RRHH 
+Procedimientos 
+afectados PE02 Política de personal académico y de administración y servicios  
+Descripción 
+El análisis y seguimiento de los recursos humanos de la Facultad por parte de la 
+Comisión de Garantía de Calidad se ha asociado al procedimiento PA05 donde 
+periódicamente se incluyen unas bre ves valoraciones sobre la evolución de las 
+características del PDI y del PAS de la Facultad.  Si bien se evidencia la existencia y 
+actualización del PA05 (Anexos 02, 03 y 04), la Comisión de Garantía de Calidad tiene 
+que incluir, entre lo s aspectos a tratar  y tal y como se explica en la descripción de l 
+
+   
+ 
+ 
+ Página 6 de 9  
+ 
+ASPECTOS QUE DEBEN SER OBJETO DE ELABORACIÓN DE UN PLAN DE ACCIONES DE 
+MEJORA 
+procedimiento PA05 , cuestiones tales como la suficiencia y adecuación de los recursos 
+humanos, el análisis de los problemas asociados a la tasa de reposición, la valoración 
+de los informes individuales del programa DOCENTIA, el análisis de los datos 
+contenidos en los informes remitidos a la Facultad sobre la evaluación de la actividad 
+docente del profesorado, etc. La CGC debe evaluar estos aspectos desde el punto de 
+vista del SGC, centrándose en si la falta de recursos puede o podría comprometer la 
+calidad de las enseñanzas.  
+DIRECTRIZ 5: Garantía y mejora de la calidad de los recursos materiales 
+Procedimientos 
+afectados 
+PA07 Gestión de la prestación de los servicios 
+Descripción 
+No se presenta ninguna evidencia relativa al análisis , por parte de la Comisión de 
+Garantía de Calidad, de los servicios que presta la Facultad. Se analizan aspectos sobre 
+los servicios en el PA03  de satisfacción, pero no se registran evidencias sobre este 
+aspecto en el PA07 . Si s e desea que esto sea así entonces se debe abordar la 
+modificación del procedimiento PA07. 
+ 
+  
+
+   
+ 
+ 
+ Página 7 de 9  
+ 
+RECOMENDACIONES PARA LA MEJORA 
+Aspectos generales 
+Se debe mantener el esfuerzo por mantener  la integridad de la información que da soporte al SGC 
+independientemente del gestor documental o de la herramienta utilizada. Así, se debe evitar que no estén 
+disponibles todas las actas. El procedimiento PA01, debidamente desplegado, tiene que dar respuesta a 
+este requerimiento. 
+En las actas de la Comisión de Garantía de Calidad se recomienda que, al lado de cada asistente, se 
+incluya su papel como miembro de dicha comisión. 
+Se recomienda incrementar la participación e implicación de los y las estudiantes en el funcionamiento 
+del SGC y de la Comisión de Garantía de Calidad. Se ha de notar aquí que, además, grupos de interés tan 
+importantes como los egresados o los empleadores no tienen ninguna participación directa o indirecta en 
+el funcionamiento del SGC de la Facultad. 
+DIRECTRIZ 1. Política y objetivos de calidad 
+Procedimientos 
+afectados 
+PE01 Establecimiento, revisión y actualización de la política y los objetivos 
+de calidad 
+PE03 Elaboración y revisión del Plan Estratégico de los centros de la UDC 
+Descripción 
+Se recomienda concretar el plazo de cumplimiento de las actuaciones incluidas en 
+los planes de mejora. Por ejemplo, en la acción de mejora PM -SGIC-2017-02-A se 
+indica como plazo de cumplimiento “En cada nuevo mandato”. Lo mismo ocurre con 
+la acción de mejora “PM -SGIC-2017-03-A” donde se indica como plazo  de 
+cumplimiento “Curso 2017/18 en adelante”.  
+Se recomienda establecer los responsables y los plazos de cumplimiento de los 
+objetivos del centro (evidencia P01-anexo3).  
+Se recomienda reflexionar sobre los resultados de todos los procesos  y/o que se 
+evidencie que dicha reflexión se ha realizado incluso si no produce acciones de 
+mejora. La Facultad realiza un seguimiento anual, como se evid encia por ejemplo 
+en el informe de resultados del centro publicado en su página web o en las evidencias 
+de las actas de la Comisión de Garantía de Calidad, pero no queda claro si se revisan 
+los resultados de determinados procesos como, por ejemplo, el PAT, la movilidad o 
+las prácticas.  
+Finalmente se recomienda mejorar la sistematización de la recogida de información 
+sobre la satisfacción de empleadores y egresados y del análisis que debe realizar de 
+esta la Comisión de Garantía de Calidad. 
+
+   
+ 
+ 
+ Página 8 de 9  
+ 
+RECOMENDACIONES PARA LA MEJORA 
+DIRECTRIZ 2. Diseño, revisión periódica y mejora de los programas formativos 
+Procedimientos 
+afectados PC10 Orientación profesional 
+Descripción 
+Se detecta la existencia de aspectos puntuales mejorables en cuanto a la 
+coordinación docente que tendrían que ser objeto de especial atención por parte de 
+la Comisión de Garantía de Calidad de la Facultad. 
+Si bien se detectan evidencias claras y continuas que demuestran que los programas 
+formativos se revisan de forma periódica y, en su caso, se mejoran, se recomienda, 
+en relación a la elaboración del plan anual de mejoras de cada título, que éste refleje 
+medidas específicas para los puntos débiles detectados. Como ejemplo de ello se 
+puede revisar el registro de “Plan de mejoras PM -MUNICS-2019-03A” presentado 
+para el Máster Universitario en Ciberseguridad. En él se señala como mejora la 
+necesidad de elaborar documentos con los que, según lo procedimentado, el título 
+ya debería contar previamente. Por ello, se recomienda que se preste la debida 
+atención a este aspecto en el futuro de forma que los planes de mejora provengan 
+de un análisis de causas y propongan medidas eficaces para la resolución de los 
+puntos débiles detectados. 
+Se recomienda mejorar la visibilidad de las actuaciones que propone la Comisión de 
+Garantía de Calidad cuando analiza la eficacia de las actividades de orientación e n 
+las que se indica que la asistencia ha sido escasa o baja. 
+DIRECTRIZ 6: Información pública 
+Procedimientos 
+afectados PC12 Información pública 
+Descripción 
+No se proporciona en la página web de la Facultad ni en la página web de cada título 
+ninguna información amigable y comprensiva para todos los grupos de interés sobre 
+los resultados que produce el funcionamiento del SGC. Si bien la información 
+proporcionada en la página web de la Facultad sobre el SGC es exhaustiva, se 
+recomienda acercar la descripción de los resultados de su funcionamiento a todos 
+los grupos de interés. 
+En el apartado dedicado al SGC en la página web de la Facultad se debiera incluir e 
+información sobre los indicadores de satisfacción (ahora solo se puede acceder a 
+ellos desde el portal de transparencia y su acceso está muy lejos de ser sencillo). 
+En dicho apartado se incluye la información sobre la acreditación institucional de la 
+Facultad dentro de la sección dedicada al seguimiento de los títulos lo que debe ser 
+corregido salvo que se explique el porqué de esta ubicación. 
+
+   
+ 
+ 
+ Página 9 de 9  
+ 
+RECOMENDACIONES PARA LA MEJORA 
+En próximas revisiones del SGC se recomienda incluir, en la definición del 
+procedimiento PC12, el listado de la información pública mínima a incluir en la página 
+web de la Facultad. 
+Se recomienda analizar la eficacia de la información pública proporcionada. Aunque 
+se hacen esfuerzos por tener la documentación actualizada no queda claro cómo se 
+revisan los resultados del proceso de información pública. En la evidencia “Informe 
+de resultados del centro” se indica que se actualiza la información del c entro y en 
+los anexos del mismo (donde se muestran los autoinformes de seguimiento de los 
+títulos) parece que existen preguntas en las encuestas para medir algunos aspectos 
+de la eficacia de la información pública), pero no se han encontrado evidencias de 
+su análisis por la Comisión de Garantía de Calidad. 
+ 
+ 
+ 
+Santiago de Compostela, 13 de noviembre de 2020 
+ 
+DIRECTOR ACSUG 
+José Eduardo López Pereira 

@@ -1,0 +1,629 @@
+                                                                                                                 
+                      
+Página 1 de 9 
+ 
+RESOLUCIÓN POR L A QUE SE FORMALIZA EL ENCARGO A MEDIO PROPIO DE LA  
+UNIVERSIDAD DE A CORUÑA A SIGMA GESTIÓN UNIVERSITARIA A.I.E. (M.P.) PARA EL 
+DESARROLLO, IMPLANTACIÓN, CONFIGURACIÓN Y PUESTA EN MARCHA DE 
+APLICACIONES PARA LA GESTIÓN ACADÉMICA  
+ 
+ 
+ 
+ 
+D. Julio E. Abalde Alonso, Rector Magnífico de la Universidad de A Coruña (en adelante, la  
+Universidad), en nombre y representación de la misma, y en ejercicio de las competencias que le  
+atribuyen los artículos 20 de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades y el  
+Decreto 101/2004 de 13 de mayo (D.O.G. de 26 de mayo) y modificados por el Decreto 194/2007, de 
+11 de octubre (D.O.G. de 17 de octubre) por el que se aprueban los Estatutos de la Universidad, a   
+los efectos del presente encargo con domicilio y con domicilio en la calle Maestranza 9, 15001  A 
+Coruña y con NIF:Q6550005J. 
+ 
+ 
+EXPONE: 
+ 
+ 
+Primero.- Que la presente Resolución se somete a lo dispuesto en la Ley 9/2017, de 8 de noviembre, 
+de Contratos del Sector Público, por la que se transponen al ordenamiento jurídico español las 
+Directivas del Parlamento Europeo y del Consejo 2014/23/UE y 2014/24/UE, de 26 de febrero de 2014 
+(en adelante, LCSP). 
+ 
+ 
+Segundo.-  Que, conforme al artículo 3 de la LCSP, la Universidad recibe la consideración de poder 
+adjudicador, quedando, por tanto, incluida en el ámbito de aplicación subjetivo de dicha norma. 
+ 
+ 
+Tercero.- Que SIGMA es una Agrupación de Interés Económico sin ánimo de lucro, regulada al 
+amparo de la Ley 12/1991 de 29 de abril, de Agrupaciones de Interés Económico, cuyo capital social 
+se encuentra íntegramente participado por dieciséis Universidades, entre ellas la Universidad, cuyo 
+objeto es, de acuerdo con dicha Ley y según sus Estatutos, facilitar el desarrollo y mejorar el resultado 
+de la actividad de sus socios en el ámbito del desarrollo, implantación y explotación informáticos de 
+los circuitos administrativos e informativos relacionados con la gestión de las universidades, y de su 
+explotación comercial, incluido el sistema SIGMA. 
+ 
+ 
+Cuarto.- Que los artículos  2 y 32 de la LCSP excluyen del ámbito objetivo de aplicación de dicha 
+norma los negocios jurídicos  en cuya virtud un poder adjudicador encargue a una entidad que, 
+conforme a lo señalado en el artículo 32 de la LCSP, tenga atribuida la condición de medio propio 
+personificado y servicio técnico del mismo, la realización de una determinada prestación, 
+considerando expresamente el referido artículo como medio propio personificado y servicio técnico 
+de aquellos poderes adjudicadores para los que realicen la parte esencial de su actividad a aquéllos 
+entes, organismos y entidades del sector público a los que aquéllos puedan conferirles encargos que 
+sean de ejecución obligatoria para ellos. 
+ 
+ 
+Quinto.- Que, conforme a lo establecido en el referido artículo 32 de la LCSP, SIGMA constituye 
+medio propio personificado y servicio técnico de la Universidad y de los poderes adjudicadores 
+dependientes de ella, según consta expresamente en el artículo 2 de los Estatutos de la Agrupación, 
+Código Seguro De Verificación xXI20oJFTlPTSRdgk08hjg==Estado Data e hora
+Asinado Por Reitor  - Julio Ernesto Abalde Alonso Asinado 13/10/2022 10:36:53
+Observacións Páxina 1/53
+Url De Verificación https://sede.udc.gal/services/validation/xXI20oJFTlPTSRdgk08hjg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+                                                                                                                 
+                      
+Página 2 de 9 
+ 
+por lo que quedarán excluidas del ámbito de aplicación de dichas Leyes los encargos que SIGMA 
+reciba de la Universidad y que sean de ejecución obligatoria. A estos efectos, las relaciones de 
+SIGMA con los poderes adjudicadores de los que es medio propio personificado y servicio técnico 
+tienen naturaleza instrumental y no contractual, articulándose a través de encargos de los previstos 
+en el mismo artículo 32 de la LCSP. 
+ 
+ 
+Sexto.- Que la Universidad considera idóneo que las actuaciones de implantación, desarrollo y 
+mantenimiento de aplicaciones para la gestión académica se ejecuten a través de SIGMA, al encajar 
+dentro de su objeto social y disponer esta Agrupación de los medios precisos para su desarrollo., y 
+con cargo a los Fondos Europeos “NextGenerationUE”, regulados por el Real Decreto 641/2021, de 
+27 de julio, por  el que se regula la concesión directa de subvenciones a Universidades Públicas 
+españolas para la modernización y digitalización del sistema universitario español en el marco del 
+Plan de Recuperación, Transformación y Resiliencia. 
+ 
+ 
+Séptimo.- Que se ha verificado por parte de la Universidad que SIGMA cuenta con los medios 
+personales y materiales para la realización del presente encargo. 
+ 
+ 
+En virtud de lo expuesto, RESUELVE: 
+ 
+ 
+Primero: 
+ 
+Formalizar y regular el encargo de la Universidad a su medio propio SIGMA para el desarrollo, 
+implantación, configuración y puesta en marcha de aplicaciones para la gestión académica. El 
+encargo a medio propio no supone, en caso alguno, la cesión por la Universidad a SIGMA de la 
+titularidad de ninguna prerrogativa o competencia ni de los elementos sustantivos de su ejercicio. 
+ 
+De acuerdo con los artículos  2 y 32 de la LCSP,  el presente encargo se encuentra excluido del 
+ámbito de aplicación de la normativa aplicable a los contratos del sector público. 
+ 
+ 
+Segundo: 
+ 
+En virtud de la presente Resolución, SIGMA queda obligada a ejecutar las actuaciones descritas en 
+el anexo I, de acuerdo con las instrucciones fijadas por la Universidad.  
+ 
+Durante el periodo de vigencia de este encargo, la Universidad podrá ordenar a SIGMA la realización 
+de otras actuaciones distintas de las anteriores, siempre que cumplan los requisitos de elegibilidad de 
+cofinanciación mediante fondos del Plan de Recuperación, Transformación y Resiliencia, las cuales 
+se incorporarán como anexo a la presente Resolución, en la que se detallarán dichas actuaciones y 
+la compensación tarifaria aplicable a las mismas. Cualquier otra actuación que no cumpla dichos  
+requisitos será objeto de un nuevo encargo de gestión. 
+ 
+ 
+Tercero: 
+ 
+El personal de SIGMA que realice las actividades derivadas del presente encargo no tendrá ningún 
+tipo de vinculación, de carácter laboral o administrativa, con la Universidad. 
+ 
+SIGMA podrá contratar con terceros la ejecución de las actuaciones definidas en el anexo I, en cuyo 
+Código Seguro De Verificación xXI20oJFTlPTSRdgk08hjg==Estado Data e hora
+Asinado Por Reitor  - Julio Ernesto Abalde Alonso Asinado 13/10/2022 10:36:53
+Observacións Páxina 2/53
+Url De Verificación https://sede.udc.gal/services/validation/xXI20oJFTlPTSRdgk08hjg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+                                                                                                                 
+                      
+Página 3 de 9 
+ 
+caso se ajustará a lo dispuesto en la LCSP, en particular a lo establecido en s u artículo 32, y a lo 
+previsto en el presente encargo. Asimismo, debería cumplir con lo establecido en las bases de 
+ejecución de los Fondos del Plan de Recuperación, Transformación y Resiliencia en cuanto al  
+beneficiario final de las ayudas y subcontratistas. 
+ 
+ 
+Cuarto: 
+ 
+SIGMA facilitará todos los medios materiales necesarios para el desarrollo de las actuaciones antes 
+relacionadas, incluyendo medios técnicos, informáticos, telefonía móvil y desplazamientos necesarios 
+para la realización de los trabajos encargados, rigiéndose por los criterios de economía, eficacia, 
+eficiencia y calidad. 
+ 
+ 
+Quinto: 
+ 
+Las actuaciones a llevar a cabo por SIGMA se financiarán con cargo a las partidas presupuestarias 
+siguientes de este subproyecto del proyecto UNIDIGITAL por una suma total 479.775,68 €: 
+100021NG15.422D.22712 (consultoría y asesoramiento externo/contratación de servicios) por 
+importe de 186.035,58 € y 100021NG15.422D.64007 (adquisición de software) por importe de 
+293.740,10 € del vigente presupuesto de gastos de la Universidad. No obstante, estas cantidades 
+quedarán supeditadas a la existencia de crédito adecuado y suficiente en el presupuesto de la 
+Universidad que se apruebe para el año 2022. 
+ 
+La compensación tarifaria de la que resulta acreedora SIGMA ha sido aprobada por la Universidad y 
+se abonará de acuerdo con el plan siguiente:  
+ 
+Actuación Fecha Base Imponible 
+Referencia Implantación SIGMA Academic – Fase II 
+ 
+425.220,30 €     
+ 
+100021NG15 422D 22712 (consultoría y asesoram.externo/contratación de servicios) 
+UdC001/22 Implantación Fase II 
+ 
+186.035,58 € 
+ 
+  
+30/10/22 89.905,20 
+ 
+  
+1/1/23 27.905,34 € 
+ 
+  
+1/4/23 27.905,34 € 
+ 
+  
+1/7/23 20.159,85 € 
+ 
+  
+1/10/23 20.159,85 € 
+ 
+ 
+100021NG15 422D 64007 (adquisición de software) 
+  
+UdC002/22 Carga datos básicos y expedientes vigentes 
+ 
+31.992,09 € 
+ 
+  
+30/11/22 9.855,59 € 
+ 
+  
+1/1/23 6.398,42 € 
+ 
+  
+1/4/23 6.398,42 € 
+ 
+  
+1/7/23 6.398,42 € 
+ 
+  
+1/10/23 2.941,25 € 
+ 
+UdC003/22 Cuota Academic 2022 
+ 
+12.474,11 € 
+ 
+  
+1/10/22 12.474,11 
+ 
+UdC001/23 Cuota Academic 2023 
+ 
+178.283,32 € 
+ 
+  
+1/1/23 44.570,83 €  
+ 
+  
+1/4/23 44.570,83 € 
+ 
+Código Seguro De Verificación xXI20oJFTlPTSRdgk08hjg==Estado Data e hora
+Asinado Por Reitor  - Julio Ernesto Abalde Alonso Asinado 13/10/2022 10:36:53
+Observacións Páxina 3/53
+Url De Verificación https://sede.udc.gal/services/validation/xXI20oJFTlPTSRdgk08hjg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+                                                                                                                 
+                      
+Página 4 de 9 
+ 
+  
+1/7/23 44.570,83 € 
+ 
+  
+1/10/23 44.570,83 € 
+ 
+UdC002/23 Soporte en producción 2023 
+ 
+16.435,20 € 
+ 
+  
+1/4/23 4.108,80 €  
+ 
+  
+1/7/23 4.108,80 €  
+ 
+  
+1/10/23 4.108,80 €  
+ 
+  
+1/12/23 4.108,80 €  
+ 
+ 
+GAP 
+ 
+54.555,38 € 
+ 
+UdC004/22 Estudio GAP 2022-23 
+ 
+20.544,00 € 
+ 
+  
+30/11/22 20.544,00 € 
+ 
+UdC003/23 Desarrollo GAP 2022-23 
+ 
+34.011,38 € 
+ 
+ 
+Según aprobación propuestas 34.011,38 € 
+ 
+      
+Total Facturación 
+ 
+479.775,68 € 
+ 
+     
+ 
+NIF Universidade da Coruña: 
+ 
+Q-6550005-J 
+ 
+Operación no sujeta a IVA por aplicación del art. 7, apartado 8, de la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido. 
+ 
+De acuerdo con la Disposición final décima de la LCSP, la compensación tarifaria de la que resulta 
+acreedora SIGMA no está sujeta a IVA.  
+ 
+ 
+Sexto: 
+ 
+La ejecución del encargo se realizará bajo la dirección del responsable designado por la 
+Universidad, que dispondrá el orden de los trabajos y las variaciones que en su caso procedan.  
+ 
+Será responsabilidad del Gerente de la Universidad dictar los actos o resoluciones que den soporte 
+o en los que se integre la concreta actividad material objeto del encargo. 
+ 
+Por su parte, SIGMA se hará cargo del desarrollo técnico de los trabajos contenidos en este encargo 
+bajo la supervisión del Gerente de Cuentas asignado a la Universidad que será el interlocutor con 
+quien se relacionará únicamente la Universidad y a quien corresponderá la dirección del proyecto, 
+así como de impartir directamente las órdenes e instrucciones de trabajo al resto de trabajadores 
+de SIGMA. 
+ 
+ 
+Séptimo: 
+ 
+SIGMA remitirá a la Universidad, al final de cada trimestre, una memoria que permita el seguimiento 
+de la gestión efectuada. 
+ 
+Igualmente, se someterá a las actuaciones de comprobación que, en relación con la misma, se 
+practiquen por la Universidad, facilitando toda la información que le sea requerida. 
+ 
+ 
+Octavo: 
+ 
+SIGMA queda obligada a cumplir con las exigencias previstas en el Reglamento (UE) 2016/679, 
+Código Seguro De Verificación xXI20oJFTlPTSRdgk08hjg==Estado Data e hora
+Asinado Por Reitor  - Julio Ernesto Abalde Alonso Asinado 13/10/2022 10:36:53
+Observacións Páxina 4/53
+Url De Verificación https://sede.udc.gal/services/validation/xXI20oJFTlPTSRdgk08hjg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+                                                                                                                 
+                      
+Página 5 de 9 
+ 
+relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales 
+(en adelante, RGPD) y normativa relacionada, así como de aquellas normas y en aquellas que las 
+sustituyan o puedan dictarse en su desarrollo en relación a los datos de carácter personal de que 
+disponga.  
+ 
+Se adjunta como anexo II.1 el Protocolo sobre Protección de Datos de Carácter Personal aplicable 
+al presente encargo.  
+ 
+En dicho anexo II.2 se contienen, asimismo, las medidas de seguridad  que SIGMA deberá aplicar de 
+acuerdo con los principios y requisitos contenidos en el Real Decreto 3/2010, de 8 de enero, por el 
+que se regula el Esquema Nacional de Seguridad en el ámbito de la Administración Electrónica, 
+modificado por el Real Decreto 951/2015, de 23 de octubre, en su caso y de acuerdo con las 
+instrucciones fijadas por la Universidad y recogidas en los anexos del presente encargo. Asimismo, 
+SIGMA se compromete a adaptar las nuevas disposiciones y las medidas de seguridad para el 
+cumplimiento del Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional 
+de Seguridad durante el periodo de transición establecido legalmente por esta misma norma. 
+ 
+ 
+Noveno: 
+ 
+9.1 Derechos de Propiedad Intelectual 
+ 
+A excepción de lo establecido de forma expresa en esta Resolución, ést a no garantiza a la 
+Universidad o SIGMA  ningún derecho, título o interés sobre los respectivos Derechos de 
+Propiedad Intelectual o de sus otorgantes de licencia.  
+ 
+La Universidad es la titular de todos los Derechos de Propiedad Intelectual correspondientes 
+a los contenidos de la Universidad y SIGMA es la titular de todos los Derechos de Propiedad 
+Intelectual correspondientes a la Plataforma SIGMA. 
+ 
+En particular, la Universidad acepta que la Plataforma SIGMA, incluyendo el Software SIGMA 
+y cualesquiera otro software, hardware y documentación asociada, ha sido creada por SIGMA, 
+quien conservará todos los derechos de propiedad intelectual, industrial o cualesquiera otros 
+sobre la misma, que no podrá ser objeto de ulterior modificación, copia, alteración, 
+reproducción, adaptación o traducción por parte de la Universidad.  
+ 
+La estructura, características, códigos, métodos de trabajo, sistemas de información, 
+herramientas de desarrollo, know-how, metodologías, procesos, tecnologías o algoritmos de 
+la Plataforma SIGMA son propiedad de SIGMA, o de sus proveedores, habiendo sido, en este 
+último caso, objeto de licencia o cesión por parte de los mismos, y están protegidos por las 
+normas españolas o internacionales de propiedad intelectual e industrial, y no pueden ser 
+objeto de ulterior modificación, copia, alteración, reproducción, adaptación o traducción por 
+parte de la Universidad. 
+ 
+En consecuencia, no está permitido cualquier uso por la Universidad de la Plataforma SIGMA 
+o de los materiales asociados a la misma que se realice sin la autorización de SIGMA, incluida 
+su explotación, reproducción, difusión, transformación, distribución, transmisión por cualquier 
+medio, posterior publicación, exhibición, comunicación pública o representación total o parcial, 
+las cuales, de producirse, constituirán infracciones de los derechos de propiedad intelectual o 
+industrial de SIGMA, sancionadas por la legislación vigente. 
+ 
+ 
+ 
+Código Seguro De Verificación xXI20oJFTlPTSRdgk08hjg==Estado Data e hora
+Asinado Por Reitor  - Julio Ernesto Abalde Alonso Asinado 13/10/2022 10:36:53
+Observacións Páxina 5/53
+Url De Verificación https://sede.udc.gal/services/validation/xXI20oJFTlPTSRdgk08hjg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+                                                                                                                 
+                      
+Página 6 de 9 
+ 
+9.2 Signos Distintivos 
+ 
+La Universidad no podrá exponer ni utilizar signos distintivos de SIGMA ni ésta podrá exponer 
+o utilizar signos distintivos de la Universidad, salvo en los supuestos expresamente permitidos 
+en este encargo, sin el previo consentimiento por escrito de la entidad titular del signo distintivo 
+en cuestión. SIGMA únicamente podrá exhibir aquellos signos distintivos de la Universidad 
+que la Universidad le hubiera autorizado (dicha autorización se entiende otorgada al encargar 
+la Universidad a SIGMA el desarrollo y mantenimiento de aplicaciones para la gestión 
+académica). 
+ 
+Tanto la Universidad como SIGMA  podrán revocar su consentimiento a la utilización de sus 
+signos distintivos en virtud del presente encargo, mediante notificación escrita al respecto, en 
+cualquier momento con la debida antelación. 
+ 
+9.3 Publicidad 
+ 
+La Universidad acepta que SIGMA pueda incluir el nombre de la Universidad en una lista de 
+usuarios de los servicios de SIGMA, online o en materiales de promoción. Además, la 
+Universidad también acepta que SIGMA puede hacer referencia verbal a la Universidad como 
+un usuario de los servicios de SIGMA. 
+ 
+ 
+Décimo: 
+ 
+Sin perjuicio de la información que, con carácter general, se deba publicar en cumplimiento de la 
+legislación sobre transparencia, acceso a la información y buen gobierno, “ Información 
+Confidencial” significa toda la información técnica, jurídica, económica, organizativa o de cualquier 
+otro tipo correspondiente a la Universidad o SIGMA, vinculada a o generada como consecuencia 
+de la ejecución del presente encargo y que por su naturaleza pudiera ser considerada confidencial, 
+con independencia del soporte en que constara o de los medios empleados para su revelación, así 
+como cualquier análisis, recopilación, estudio, resumen o extracto que ya sea SIGMA o la 
+Universidad o ambas, conjuntamente, hubieran elaborado a partir de la información/documentación 
+inicialmente divulgada por cualquiera de ellas. En particular, los medios personales, materiales y 
+económicos específicamente empleados en la ejecución del presente encargo, los datos de carácter 
+personal y los derechos de propiedad intelectual definidos anteriormente, tendrán la consideración 
+de Información Confidencial de la Universidad. No recibirá esta consideración la información que, 
+conforme a la legislación aplicable a la contratación del sector público, deba hacerse pública en el 
+perfil del contratante. 
+ 
+La Universidad y SIGMA quedan obligadas, respecto a la Información Confidencial, a (i) mantenerla 
+secreta, incluyendo este deber, cualquier divulgación de la información, no sólo a terceros sino 
+también a cualquier persona no autorizada en virtud del presente encargo; (ii) adoptar todas las 
+medidas necesarias tendentes a evitar que dicha información pueda ser conocida por terceros no 
+autorizados por el titular de la misma. En este sentido, la Universidad protegerá la Información 
+Confidencial de SIGMA y ésta protegerá la Información Confidencial de la Universidad, utilizando 
+los mismos medios de protección que utilizan para proteger su propia Información Confidencial y 
+nunca medios inferiores a los razonablemente exigibles en atención a la naturaleza de la 
+información y al estado de la técnica; (iii) No utilizar la Información Confidencial, directa o 
+indirectamente, para ningún fin ajeno al cumplimiento del presente encargo; (iv) Restringir el acceso 
+a la Información Confidencial sólo a aquellos empleados, propios o subcontratados, que deban 
+conocerla con motivo de la ejecución del encargo; (v) No reproducir o copiar la Información 
+Confidencial a menos que sea imprescindible para dar cumplimiento a lo establecido en el presente 
+encargo o se obtenga el consentimiento previo y escrito de la entidad a la que pertenezca.  
+Código Seguro De Verificación xXI20oJFTlPTSRdgk08hjg==Estado Data e hora
+Asinado Por Reitor  - Julio Ernesto Abalde Alonso Asinado 13/10/2022 10:36:53
+Observacións Páxina 6/53
+Url De Verificación https://sede.udc.gal/services/validation/xXI20oJFTlPTSRdgk08hjg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+                                                                                                                 
+                      
+Página 7 de 9 
+ 
+ 
+ 
+En el supuesto de que una autoridad judicial o administrativa requiriera dar Información 
+Confidencial, la entidad que reciba el requerimiento lo pondrá previamente en conocimiento de la 
+entidad a la cual haga referencia dicha Información Confidencial y restringirá la divulgación de la 
+misma tanto como el requerimiento le permita. 
+ 
+ 
+Decimoprimero: 
+ 
+El encargo deberá realizarse por SIGMA, pudiendo contratar con terceros la ejecución de 
+prestaciones parciales, siempre que éstas no excedan de un 50% de la cuantía del encargo. 
+ 
+Dichos contratos quedarán sometidos a la LCSP, en los términos que sean procedentes de acuerdo 
+con la naturaleza de SIGMA y el tipo y valor estimado de los mismos, aplicando en todo caso las 
+normas contenidas en dicha Ley. 
+ 
+ 
+Decimosegundo: 
+ 
+SIGMA responderá de los daños causados por dolo, culpa o negligencia derivados de su actuación 
+frente a las Partes o a terceros, sin ninguna limitación derivada del importe correspondiente al precio 
+de los servicios efectivamente abonado por la Universidad a SIGMA en el momento en que se 
+produjo la causa que motivó la indemnización. A tales efectos, SIGMA tiene suscrita una póliza de 
+seguro de responsabilidad civil que presta cobertura a los riesgos derivados de la actividad objeto 
+del encargo. Los subcontratistas y proveedores de SIGMA quedarán obligados sólo ante ésta, que 
+asumirá, por tanto, la total responsabilidad de la ejecución del encargo.  
+ 
+Las Partes no serán responsables, en ningún caso, de daños indirectos, imprevistos, especiales o 
+accidentales sufridos por cualquiera de las Partes o por un tercero, incluso si la otra Parte o cualquier 
+otra persona ha sido advertida de la posibilidad de tales daños. En consecuencia, será obligación 
+de la Universidad y no de SIGMA, la realización de copias de respaldo con la periodicidad suficiente, 
+así como la instalación de medidas de seguridad y la obtención de licencias e implantación de 
+programas de antivirus, firewall, o cualquier otro que pudiera ser necesario para mantener la 
+integridad, confidencialidad y seguridad de los datos y sistemas de la Universidad.  
+ 
+SIGMA no será responsable frente a la Universidad, entre otros supuestos, de los siguientes (i) en 
+caso de que la Plataforma SIGMA no se utilice de acuerdo con la documentación proporcionada a 
+la Universidad por SIGMA; (ii) en caso de que el fallo sea provocado por manipulaciones de la 
+Plataforma SIGMA no autorizadas previamente por SIGMA o por software de terceros. 
+ 
+ 
+Decimotercero: 
+ 
+La presente Resolución será publicada en los Perfiles del Contratante de la Universidad y de 
+SIGMA. 
+ 
+ 
+Decimocuarto: 
+ 
+El presente encargo desplegará su eficacia desde el día de su notificación a SIGMA  y la vigencia 
+estará supeditada a la duración de la prestación prevista en el anexo I.  
+Código Seguro De Verificación xXI20oJFTlPTSRdgk08hjg==Estado Data e hora
+Asinado Por Reitor  - Julio Ernesto Abalde Alonso Asinado 13/10/2022 10:36:53
+Observacións Páxina 7/53
+Url De Verificación https://sede.udc.gal/services/validation/xXI20oJFTlPTSRdgk08hjg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+                                                                                                                 
+                      
+Página 8 de 9 
+ 
+ 
+Su vigencia inicial se podrá prorrogar, mediante Resolución expresa, siempre que continúen 
+dándose las razones que justifican la necesidad de formalización del encargo. En todo caso, las 
+prórrogas quedarán supeditadas a la existencia de consignación presupuestaria suficiente y 
+adecuada en los presupuestos generales de la Universidad de las correspondientes anualidades. 
+ 
+Del mismo modo, con anterioridad a la fecha de terminación del plazo inicialmente fijado o de 
+cualquiera de sus prórrogas, la Universidad podrá acordar modificaciones s obre el contenido del 
+presente encargo, que se incorporarán como anexo y pasarán a formar parte del mismo. 
+ 
+ 
+Decimoquinto: 
+ 
+La Universidad podrá resolver anticipadamente el encargo, mediando preaviso a SIGMA con una 
+antelación mínima de un mes, en los siguientes supuestos: 
+• Incumplimiento de la presente Resolución. 
+• Incumplimiento de las condiciones aprobadas por la Universidad. 
+ 
+En cualquiera de estos supuestos se procederá a realizar la oportuna liquidación del encargo, 
+reconociéndose a SIGMA el derecho a la compensación tarifaria por las actuaciones efectivamente 
+ejecutadas. 
+ 
+ 
+Decimosexto: 
+ 
+El presente encargo tiene naturaleza administrativa, rigiéndose su interpretación y desarrollo por el 
+ordenamiento jurídico-administrativo, y siendo de aplicación los principios de la LCSP para resolver 
+las dudas que pudieran suscitarse en su cumplimiento. 
+ 
+ 
+Decimoséptimo: 
+ 
+El Proyecto objeto del presente encargo se enmarca en las líneas de actuación 1 y 4 definidas en 
+el anexo II del RD 641/2021, siendo un proyecto propio de la Universidad financiado mediante 
+fondos del Plan de Recuperación, Transformación y Resiliencia. 
+ 
+SIGMA aplicará en la ejecución del Proyecto, en todo caso, las normas contenidas que le sean de  
+aplicación de acuerdo con el RD  641/2021 y las disposiciones que lo desarrollen, entre ellas, la  
+Orden HFP/1030/2021, de 29 de septiembre, por la que se configura el sistema de gestión del Plan 
+de Recuperación, Transformación y Resiliencia, así como cualquier otra norma que desarrolle, 
+complemente o sustituya las anteriores y que esté en vigor en el momento de celebrarse los  
+contratos.  
+ 
+Así pues, en su condición de beneficiaria de ayudas financiadas con recursos provenientes del Plan 
+de Recuperación, Transformación y Resiliencia –PRTR- (Fondo europeo NextGenerationEU) que 
+participa como ente instrumental, en el desarrollo de actuaciones necesarias para la consecución 
+de los objetivos definidos en la ayuda, se compromete a la prestación del servicio con los estándares 
+más exigentes en relación con el cumplimiento de las normas jurídicas, éticas y morales, adoptando 
+Código Seguro De Verificación xXI20oJFTlPTSRdgk08hjg==Estado Data e hora
+Asinado Por Reitor  - Julio Ernesto Abalde Alonso Asinado 13/10/2022 10:36:53
+Observacións Páxina 8/53
+Url De Verificación https://sede.udc.gal/services/validation/xXI20oJFTlPTSRdgk08hjg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+                                                                                                                 
+                      
+Página 9 de 9 
+ 
+las medidas necesarias para prevenir y detectar el fraude, la corrupción y los conflictos de interés, 
+comunicando si procede a las autoridades que proceda los incumplimientos observados. 
+ 
+SIGMA está actualmente trabajando en la evaluación de los riesgos de fraude, corrupción o conflicto 
+de interés, en base a las recomendaciones de la Oficina Antifrau de Catalunya. Una vez adoptadas 
+las medidas derivadas de la evaluación SIGMA cumplirá respecto de proyectos PRTR las exigencias 
+en cuanto a la evaluación de los riesgos del fraude y tendrá a disposición del poder adjudicador las 
+DACIS cumplimentadas. 
+ 
+SIGMA se compromete a hacer constar en los contratos que celebre para ejecutar el Proyecto, en 
+su caso, la obligación de aportación de la información relativa al titular real del beneficiario final de 
+los fondos en la forma prevista en el artículo 10 de la Orden HFP/1031/2021, de 29 de septiembre. 
+ 
+SIGMA se compromete a hacer constar en los contratos que celebre para ejecutar el Proyecto, en 
+su caso, la sujeción a los controles de la Comisión Europea, la Oficina de Lucha Antifraude, el  
+Tribunal de Cuentas Europeo y la Fiscalía Europea y el derecho de estos órganos al acceso a la  
+información sobre el encargo y/o el convenio del cual trae causa. 
+ 
+SIGMA se compromete a hacer constar en los contratos que celebre para ejecutar el Proyecto, en  
+su caso, las normas sobre conservación de la documentación, de acuerdo con lo dispuesto en el  
+artículo 132 del Reglamento Financiero. 
+ 
+SIGMA se compromete a cumplir las exigencias derivadas de los compromisos en materi a de  
+comunicación, encabezamientos y logos que se contienen en el artículo 9 de la Orden  
+HFP/1030/2021, de 29 de septiembre. En concreto, se ajustará a los condicionantes propios de la  
+Ayuda (Fondos Unidigital). Así, entre otras, cumplirá las condiciones específicas de la propia 
+convocatoria en materia de comunicación (logos, factura indicando a líneas de acción…), plazos de 
+duración, aprovechamiento por otras universidades públicas, etc. 
+ 
+ 
+Atendido el contenido del PRTR, SIGMA, AIE se compromete a respetar los principios de economía 
+circular y evitar impactos negativos significativos en el medio ambiente («DNSH» por sus siglas en 
+inglés «do no significando harm») en la ejecución de las actuaciones llevadas a cabo en el marco 
+de este Plan, y manifiesta que no incurre en doble financiación y que, si procede, no le consta riesgo 
+de incompatibilidad con el régimen de ayudas de Estado. 
+ 
+ 
+Firmado de forma digital 
+ 
+El rector  
+Julio E. Abalde Alonso 
+ 
+ 
+ 
+ 
+Código Seguro De Verificación xXI20oJFTlPTSRdgk08hjg==Estado Data e hora
+Asinado Por Reitor  - Julio Ernesto Abalde Alonso Asinado 13/10/2022 10:36:53
+Observacións Páxina 9/53
+Url De Verificación https://sede.udc.gal/services/validation/xXI20oJFTlPTSRdgk08hjg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).

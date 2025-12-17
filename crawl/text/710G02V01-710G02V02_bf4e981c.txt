@@ -1,0 +1,59 @@
+TÁBOA DE EQUIVALENCIAS  
+GRAO EN INFORMACIÓN E DOCUMENTACIÓN 710G02VO1 AO 710G02V02 
+710G02V01 Grao en Información e Documentación 
+BOE 26 de abril de 2010 
+710G02V02 Grao en Información e Documentación 
+BOE 19 de setembro de 2016 
+Código Materias plano antigo Código Materias plano novo 
+001 Introducción á Antropoloxía Socio-Cultural 071 Antropoloxía Socio-Cultural 
+002 Introducción á Historia 002 Introducción á Historia 
+004 Informática Aplicada 004 Informática Aplicada 
+005 Fundamentos de Teoría e Xestión da Información 073 Xestión da Información: Fundamentos e Teoría 
+006 Sistema do Coñecemento: Filosofía, Ciencia e Tecnoloxía 006 Sistema do Coñecemento: Filosofía, Ciencia e Tecnoloxía 
+007 Socioloxía 007 Socioloxía 
+008 Xestión de Empresas e Institucións Culturais 008 Xestión de Empresas e de Institucións Culturais 
+011 Documentación Xeral 011 Documentación Xeral 
+012 Biblioteconomía 012 Biblioteconomía 
+013 Análise Documental 013 Análise Documental 
+014 Bibliografía e Fontes de Información 014 Bibliografía e Fontes de Información 
+015 Informática Documental 015 Informática Documental 
+016 Análise Documental de Contido 016 Análise Documental de Contido 
+017 Arquivística 017 Arquivística 
+018 Estatística 018 Estatística 
+019 Catalogación Descritiva de Documentos Especiais 019 Catalogación Descritiva de Documentos Especiais 
+020 Aspectos Xurídicos de Acceso á Información 020 Aspectos Xurídicos de Acceso á Información 
+021 Planificación e Xestión de Unidades de Información 021 Planificación e Xestión de Unidades de Información 
+022 Catalogación Formal de Documentos Electrónicos 022 Catalogación Formal de Documentos Electrónicos 
+023 Xestión de Documentos Administrativos 023 Xestión de Documentos Administrativos 
+024 Fontes de Información Especializadas 024 Fontes de Información Especializadas 
+025 Bases de Datos Documentais 025 Bases de Datos Documentais 
+026 Linguaxes de Indización Terminolóxicas 026 Linguaxes de Indización Terminolóxicas 
+027 Xestión da Colección 027 Xestión da Colección 
+028 Linguaxes de Clasificación Alfanuméricas 028 Linguaxes de Clasificación Alfanuméricas 
+029 Xestión da Calidade nas Organizacións Documentais 029 Xestión de Calidade nas Organizacións Documentais 
+030 Estudos de Usuarios 030 Estudos de Usuarios 
+031 Natureza e Evolución das Unidades de Información 031 Natureza e Evolución das Unidades de Información 
+032 Arquivos Municipais 032 Arquivos Municipais 
+033 Políticas de Información 033 Políticas de Información 
+034 Administración de Arquivos Históricos 034 Administración de Arquivos Históricos 
+035 Arquivos de Empresas 051 Arquivos de Empresa 
+036 Bibliotecas Dixitais 036 Bibliotecas Dixitais 
+037 Fontes de Información en Ciencia e Tecnoloxía 037 Fontes de Información en Ciencia e Tecnoloxía 
+038 Prevención e Conservación Documental 038 Prevención e Conservación Documental 
+039 Deseño de Recursos Informativos en web 039 Deseño de Recursos Informativos en web 
+040 Recuperación e Avaliación da Información Electrónica 040 Recuperación e Avaliación da Información Electrónica 
+041 Técnicas Documentais Aplicadas á Investigación Científica 041 Técnicas Documentais Aplicadas á Investigación Científica 
+042 Promoción de Servizos en Unidades de Información 042 Promoción de Servizos en Unidades de Información 
+043 Documentación en Medios de Comunicación 043 Documentación en Medios de Comunicación 
+003 Xeografía Humana 
+NON TEN EQUIVALENCIA 
+009 Inglés Aplicado 
+010 Literatura Española 
+044 Prácticum (Prácticas Externas) 
+045 Traballo Fin de Grao 
+NON TEN EQUIVALENCIA 
+018 Literatura Galega 
+045 Traballo Fin de Grao 
+052 Prácticas Externas (Prácticum) (12 créditos) 
+072 Introducción á Ética 
+074 Técnicas Historiográficas 

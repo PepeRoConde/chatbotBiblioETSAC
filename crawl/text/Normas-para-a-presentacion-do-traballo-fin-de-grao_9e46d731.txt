@@ -1,0 +1,79 @@
+1 
+ UDC. Servizo de Biblioteca. Sección de automatización e proceso técnico | 21/02/2017 
+Normas para a presentación dos traballos fin de grao en versión 
+dixital 
+ 
+O traballo fin de grao (TFG) en versión dixital corresponderase exactamente coa copia entregada en 
+papel.   
+ 
+Soporte e formato 
+ 
+O soporte físico será CD ou DVD. O disco estará identificado con letra de imprenta. Os datos que deben 
+constar tanto no disco como na carátula son: Autor / Título do TFG / Director ou titor / Ano. 
+Os documentos presentaranse en formato PDF, PDF/A ou outros formatos abertos.  
+Os arquivos PDF poderán incluír ligazóns de hipertexto e información multimedia.  
+Os arquivos PDF non estarán protexidos. 
+O traballo presentarase nun único arquivo, sempre que non exceda os 100 MB . Se o tamaño do 
+documento fose maior, p oderase partir en varios arquivos de menor tamaño. Empregaranse tantos 
+arquivos como foren necesarios, inserindo en cada un deles a portada.  
+ 
+Identificación 
+ 
+Nome dos arquivos que conteñen o documento principal 
+ 
+Sexa, por exemplo, o TFG defendido en 2016 por Xosé Manuel Pérez López.  
+Se o documento principal do TFG en formato electrónico constara dun só arquivo, este chamarase:  
+ 
+PerezLopez_XoseManuel_TFG_2016.pdf  
+ 
+En cambio, se o documento principal do TFG en formato electrónico estiver formado por tres ar quivos, 
+estes chamaranse: 
+ 
+PerezLopez_XoseManuel_ TFG_2016_01de3.pdf 
+PerezLopez_XoseManuel_ TFG_2016_02de3.pdf 
+PerezLopez_XoseManuel_ TFG_2016_03de3.pdf 
+ 
+Non deben utilizarse nin espazos nin acentos nin a ñ no nome dos arquivos, co fin de asegurar a 
+compatibilidade con todos os navegadores. 
+ 
+Poderase engadir algunha aclaración adicional no nome do documento principal cando as características 
+do TFG así o precisen.  Por exemplo: 
+ 
+PerezLopez_XoseManuel_ TFG_2016_Memoria_01de3.pdf 
+ 
+Nome doutros arquivos 
+ 
+No caso de arquivos adicionais fora do documento pri ncipal: anexos ou arquivos doutro tipos (imaxes, 
+programas de ordenador, información multimedia…) en formatos coñecidos (TIFF, JPG, MPF…) deberase 
+seguir a mesma pauta aínda que haberá que engadir algún dato no nome para distinguilos do 
+documento principal así como a extensión propia do arquivo. 
+Así, o arquivo dun vídeo en formato MPG ( o cuarto dun total de sete) podería chamarse: 
+ 
+PerezLopez_XoseManuel_TFG_2016_Video_04de7.mpg 
+ 
+ 
+
+2 
+ UDC. Servizo de Biblioteca. Sección de automatización e proceso técnico | 21/02/2017 
+A numeración destes arquivos é correlativa á dos arquivos do documento principal: 
+  
+PerezLopez_XoseManuel_TFG_2016_01de4.pdf 
+PerezLopez_XoseManuel_TFG_2016_02de4.pdf 
+PerezLopez_XoseManuel_TFG_2016_Anexo_03de4.pdf 
+PerezLopez_XoseManuel_TFG_2016_Video_04de4.mpg 
+ 
+Poderanse definir hipervínculos para acceder a estes contidos desde os arquivos PDF que forman o 
+documento principal do traballo fin de grao. 
+ 
+Cando existan varios arquivos adicionais  do mesmo tipo  (varios vídeos, varios anexos en pdf...) convén 
+agrupalos nun único. No caso  de que non sexa posible podería  crearse un arquivo comprimido que os 
+agrupe. Por exemplo: 
+ 
+ 
+PerezLopez_XoseManuel_TFG_2016_ 01de3  
+PerezLopez_XoseManuel _TFG_2016_Anexos_02de3 [exemplo de arquivo comprimido que contén tres anexos]: 
+Anexo1_Viabilidad 
+Anexo2_Guion  
+Anexo3_Orzamento  
+PerezLopez_XoseManuel _TFG_2016_Videoxogo_03de3  
+ 

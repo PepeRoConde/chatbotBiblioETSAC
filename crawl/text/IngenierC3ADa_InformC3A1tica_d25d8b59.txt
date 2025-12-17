@@ -1,0 +1,116 @@
+Portada
+Portal de la comunidad
+Actualidad
+Cambios recientes
+Páginas nuevas
+Página aleatoria
+Ayuda
+Notificar un error
+Páginas especiales
+Donaciones
+Crear una cuenta
+Acceder
+Donaciones
+Crear una cuenta
+Acceder
+Contenidos
+Inicio
+1 Áreas de competencia profesional
+2 Ingeniero informático profesional Alternar subsección Ingeniero informático profesional 2.1 Código Ético Profesional del Ingeniero Informático 2.2 Responsabilidad Profesional del Ingeniero Informático
+2.1 Código Ético Profesional del Ingeniero Informático
+2.2 Responsabilidad Profesional del Ingeniero Informático
+3 Véase también
+4 Referencias
+Ingeniería informática
+Deutsch
+English
+Euskara
+Artículo
+Discusión
+Leer
+Editar
+Ver historial
+Leer
+Editar
+Ver historial
+Lo que enlaza aquí
+Cambios en enlazadas
+Subir archivo
+Enlace permanente
+Información de la página
+Citar esta página
+Obtener URL acortado
+Descargar código QR
+Crear un libro
+Descargar como PDF
+Versión para imprimir
+Elemento de Wikidata
+La ingeniería informática es la rama de la ingeniería que aplica los fundamentos de la ciencia de la computación , la ingeniería en computadores , la ingeniería de sistemas de información , la ingeniería de software y la ingeniería de redes y comunicaciones , para el desarrollo de todo tipo de software, hardware computacional y comunicaciones.
+En los últimos años, a medida que la mayoría de las industrias se ven cada vez más permeadas por la evolución de las nuevas tecnologías, el internet, la automatización y la digitalización constantes esta ingeniería toma cada vez más relevancia. Esto es así al punto de que en la mayoría de las universidades de ingeniería los estudiantes de carreras relacionadas con los sistemas y a la informática muchas veces superan en número a los del resto de las ingenierías juntos.
+A su vez, a medida que el mundo cada vez se vuelve más dependiente de las aplicaciones de software, y con los futuros avances en materia de inteligencia artificial (como el aprendizaje automático ), y distintas tecnologías se espera que los desarrollos de esta profesión así como su número de participantes en el área laboral aumenten exponencialmente.
+Sin embargo, hay problemas que esta disciplina todavía enfrenta como la alta tasa de deserción temprana en las carreras debido a la dificultad de sus estudiantes para aprender a programar, o debido a que muchos consiguen trabajos como programadores antes de terminar los estudios.
+Áreas de competencia profesional
+Los conocimientos para ejercer de Ingeniero en computación engloban un extenso número de áreas teóricas dentro de la Ciencia Aplicada denominada Informática que le confieren las siguientes capacidades profesionales:
+Conocimientos de Teoría de la información y Telecomunicaciones para calcular y diseñar los modelos y redes de comunicación de la información por cauces seguros y legales que permitan su control y auditoría acordes a necesidades de seguridad y disponibilidad.
+Conocimientos de Teoría de autómatas y Teoría de diseño de algoritmos y lenguajes formales para diseñar las soluciones idóneas de automatización en el procesamiento de la información.
+Conocimientos de ingeniería del software para evaluar las mejores técnicas de diseño, construcción y mantenimiento de software , sujetos a cálculos de restricciones de calidad , tiempo, coste, etc.
+Conocimientos de inteligencia artificial o ingeniería del conocimiento como el reconocimiento de patrones o las redes neuronales para calcular y diseñar sistemas de producción de conocimiento como ventaja competitiva industrial en el manejo de la información.
+Conocimientos de Electrónica para calcular y diseñar interfaces de comunicación y control entre computadores y diversos dispositivos mecánicos y eléctricos, tales como sistemas de adquisición de datos , instrumentación virtual , control de robots , sistemas de iluminación u otros.
+Conocimientos de Organización industrial y empresarial , para la planificación, dirección y control de proyectos informáticos y la dirección departamentos de TIC .
+Conocimientos hardware para analizar y diseñar soluciones en el ámbito de la arquitectura de microprocesadores.
+Ingeniero informático profesional
+El Ingeniero informático profesional es aquella persona con titulación universitaria superior que está capacitada para ejercer la ingeniería en la rama de la Informática . [ 1 ] ​ El ingeniero informático posee habilidades y conocimientos especializados en el diseño, desarrollo, implementación y mantenimiento de sistemas informáticos . Además tiene la capacidad de trabajar en multitud de campos como el desarrollo de software, ciberseguridad , inteligencia artificial , redes de comunicación y auditoría informática . Asimismo debe poseer conocimientos de programación , sistemas operativos , bases de datos , redes y otros en función de la formación del informático.
+La ACM (Association for Computing Machinery) junto con la IEEE Computer Society y la Association for Information Systems (AIS), proporciona pautas y recomendaciones para el plan de estudios de la ingeniería informática en su informe Computer Engineering Curricula 2016 [ 2 ] ​ . La ACM se ha esforzado por adaptar las recomendaciones curriculares de la tecnología informática de acuerdo a su rápido avance. Mientras que el campo de la informática siga evolucionando y surjan nuevas disciplinas relacionadas, se actualizarán los informes del plan de estudios existentes y se redactarán informes adicionales para las nuevas disciplinas informáticas. Además del informe de Ingeniería Informática, la ACM ha realizado informes para planes de estudios de Ciberseguridad , Ciencia de Datos e Ingeniería de Software .
+Código Ético Profesional del Ingeniero Informático
+El propósito principal de los códigos de conducta profesional es promover públicamente la imagen de la profesión mediante la especificación del código y cumplimiento del comportamiento ético esperado de sus miembros. Para que los códigos de conducta profesional sean eficaces debe instituir un sistema de cumplimiento, de informes, de procedimientos de audiencia, de sanciones y apelaciones. En cualquier profesión, la responsabilidad profesional va siempre más allá de las obligaciones establecidas por la legislación vigente en cada momento.  El Consejo General de Colegios Profesionales ( CCII )  ha redactado el Código ético y deontológico de la Ingeniería Informática [ 3 ] ​ para velar por la ética en el entorno profesional, además de, impulsar el uso ético de la informática y sus incesantes innovaciones para promover el progreso de la sociedad de la información y el conocimiento y su contribución al interés general. Este código ético consta de un total de 31 artículos entre los cuales encontramos:
+Artículo 1. Corresponde a la Ingeniería en Informática velar por los intereses sociales generales y constitucionalmente protegidos, en cuanto puedan relacionarse con las actividades y funciones profesionales que le son propias, con arreglo a lo establecido legal y estatutariamente.
+Artículo 18. El Ingeniero en Informática, antes de aceptar un encargo, fijará el alcance del trabajo profesional a realizar y la naturaleza de la prestación que haya de llevar a cabo, así como el cálculo aproximado o en su defecto el método convenido para determinar la remuneración a percibir, formalizando a tal efecto y presentando al cliente la nota-encargo o presupuesto.
+Artículo 29 . Los colegiados que ocupen cargos directivos no solo están obligados a ajustar su conducta y decisiones a las normas estatutarias y éticas - deontológicas, sino a dar ejemplo en todas sus actuaciones al resto de la colegiación y a promover el interés común de CCII y de la profesión.
+Artículo 31. La publicidad , especialmente la realizada a través de los medios de comunicación , ha de ser digna, leal y veraz y con absoluto respeto a la dignidad de las personas.
+Responsabilidad Profesional del Ingeniero Informático
+La responsabilidad profesional del ingeniero informático, según la ACM , se refiere a la obligación ética y moral de los ingenieros informáticos de cumplir con los estándares profesionales establecidos en su campo de trabajo. Esto implica mantener altos niveles de competencia, integridad y respeto por la privacidad , así como cumplir con las leyes y regulaciones aplicables. Al adoptar estos principios y directrices, los ingenieros informáticos pueden ayudar a garantizar la calidad , seguridad y fiabilidad de los sistemas y servicios que desarrollan y mantener la confianza del público en su profesión.
+La ACM ha establecido un Código de Ética y Conducta Profesional [ 4 ] ​ que define los principios éticos y las responsabilidades de los ingenieros informáticos. Estos principios incluyen  la responsabilidad de mantener y mejorar continuamente sus habilidades y conocimientos para garantizar que puedan desempeñarse de manera efectiva en su campo de trabajo. La integridad también es fundamental, el ingeniero informático debe ser honesto en sus decisiones y debe evitar cualquier actividad que comprometa la integridad de su profesión y la de la información . Además, los ingenieros informáticos deben respetar la privacidad y los derechos de las personas y organizaciones con las que trabajan garantizando así la privacidad y la seguridad de la información profesional. Por último, los ingenieros informáticos deben cumplir con todas las leyes y regulaciones aplicables a su trabajo, incluidas las leyes de propiedad intelectual , las leyes de privacidad y seguridad de la información y las leyes de derechos de autor .
+Véase también
+Portal:Ingeniería . Contenido relacionado con Ingeniería .
+Bioinformática
+Computación
+Informática
+Informática médica
+Ingeniería de sistemas
+Ingeniería de software
+Ingeniería en computación
+Ingeniería industrial
+Ingeniería de telecomunicaciones
+Referencias
+↑ ASALE, RAE -. «Diccionario de la lengua española» - Edición del Tricentenario informática | Diccionario de la lengua española https://dle.rae.es/inform%C3%A1tico%7Ctítulo=informático, informática | Diccionario de la lengua española |url= sin título ( ayuda ) . Consultado el 1 de marzo de 2023 .
+↑ «Curricula Recommendations» . www.acm.org (en inglés) . Consultado el 1 de marzo de 2023 .
+↑ «Código Ético y Deontológico de la Ingeniería Informática» . Consejo de Colegios de Ingeniería Informática . Consultado el 1 de marzo de 2023 .
+↑ «The ACM Code of Ethics arose from the experiences, values and aspirations of computing professionals around the world, and captures the conscience of the profession. It affirms an obligation of computing professionals to use their skills for the benefit of society.» . www.acm.org (en inglés) . Consultado el 12 de marzo de 2023 .
+Proyectos Wikimedia
+Datos: Q2843902
+Identificadores
+NKC : ph127260
+Datos: Q2843902
+Informática aplicada
+Ingeniería
+Wikipedia:Páginas con referencias sin título y con URL
+Wikipedia:Artículos que necesitan referencias
+Wikipedia:Referenciar (aún sin clasificar)
+Esta página se editó por última vez el 25 jun 2025 a las 21:02.
+El texto está disponible bajo la Licencia Creative Commons Atribución-CompartirIgual 4.0 ; pueden aplicarse cláusulas adicionales. Al usar este sitio aceptas nuestros términos de uso y nuestra política de privacidad . Wikipedia® es una marca registrada de la Fundación Wikimedia , una organización sin ánimo de lucro.
+Política de privacidad
+Acerca de Wikipedia
+Limitación de responsabilidad
+Contactos para cuestiones legales y de seguridad
+Código de conducta
+Desarrolladores
+Estadísticas
+Declaración de cookies
+Versión para móviles
+Ingeniería informática
+
+Áreas del saber | Ciencias de la computación , Ingeniería en computadores , ingeniería de software , Ingeniería de sistemas de información , Ingeniería en conectividad y redes , Matemáticas , Física .
+Campo de aplicación | Desarrollo de Software , Desarrollo Web , Telecomunicaciones , Inteligencia Artificial .
+[ editar datos en Wikidata ]
+ | Este artículo o sección necesita referencias que aparezcan en una publicación acreditada . Busca fuentes: «Ingeniería informática» – noticias · libros · académico · imágenes Este aviso fue puesto el 1 de octubre de 2012.
+Control de autoridades | Proyectos Wikimedia Datos: Q2843902 Identificadores NKC : ph127260
