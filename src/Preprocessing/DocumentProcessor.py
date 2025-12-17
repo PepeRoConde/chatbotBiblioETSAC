@@ -17,7 +17,7 @@ from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader, Text
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from LocalEmbeddings import LocalEmbeddings
-from CleanHTMLLoader import CleanHTMLLoader
+from .CleanHTMLLoader import CleanHTMLLoader
 
 
 class DocumentProcessor:

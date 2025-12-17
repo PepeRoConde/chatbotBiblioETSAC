@@ -12,9 +12,9 @@ from dotenv import load_dotenv
 
 
 from LLMManager import LLMManager
-from DocumentProcessor import DocumentProcessor
+from Preprocessing.DocumentProcessor import DocumentProcessor
 from RAGSystem.RAGSystem import RAGSystem
-from portada import titulo_ascii
+from utils.portada import titulo_ascii
 
 def main():
     """Main function to run the Mistral RAG system."""

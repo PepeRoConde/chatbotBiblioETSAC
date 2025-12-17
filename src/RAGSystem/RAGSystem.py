@@ -7,17 +7,15 @@ from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-
-
-from cost_tracker import CostTracker
-from claude_cost_callback import ClaudeCostCallback
-
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 from langchain_classic.chains import create_retrieval_chain
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+
+from .cost.cost_tracker import CostTracker
+from .cost.claude_cost_callback import ClaudeCostCallback
 
 from .system_prompt import retrieval_prompt, no_retrieval_prompt, few_shot_classification_prompt
 from .HybridRetriever import HybridRetriever
@@ -155,27 +153,6 @@ class RAGSystem:
             if self.use_query_optimization:
                 self.log(f"Query model: {type(self.llm_query).__name__}", "info")
                 self.log(f"Answer model: {type(self.llm).__name__}", "info")
-    
-    def _calculate_cost(self, model_name: str, input_tokens: int, output_tokens: int) -> float:
-        """Calculate cost for a model call.
-        
-        Args:
-            model_name: Name of the model used
-            input_tokens: Number of input tokens
-            output_tokens: Number of output tokens
-            
-        Returns:
-            Cost in dollars
-        """
-        if model_name not in self.pricing:
-            # Default pricing if model not found
-            return 0.0
-        
-        prices = self.pricing[model_name]
-        input_cost = (input_tokens / 1_000_000) * prices['input']
-        output_cost = (output_tokens / 1_000_000) * prices['output']
-        
-        return input_cost + output_cost
     
     def _get_model_name(self, llm) -> str:
         """Extract model name from LLM object.

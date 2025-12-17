@@ -16,11 +16,8 @@ from typing import Set, List, Dict, Any, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
 
-from pruebas_ocr_tabla.image2table import image_table2text
- 
-
-# Import our CleanHTMLLoader
-from CleanHTMLLoader import CleanHTMLLoader
+from preprocessing.image2table import image_table2text
+from preprocessing.CleanHTMLLoader import CleanHTMLLoader
 
 # PDF parsing imports
 try:
