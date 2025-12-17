@@ -5,6 +5,7 @@ Métricas: Recall, MRR, Precision, Faithfulness (LLM as judge)
 import sys
 import json
 import time
+import os
 from pathlib import Path
 from typing import List, Dict, Any, Tuple
 from dataclasses import dataclass, asdict
@@ -18,8 +19,39 @@ from rich.progress import Progress, SpinnerColumn, TextColumn
 # Añadir src al path
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from RAGSystem import RAGSystem
+from RAGSystem.RAGSystem import RAGSystem
 from LLMManager import LLMManager
+
+
+class OpenAIJudge:
+    """Cliente directo de OpenAI para evaluación."""
+    
+    def __init__(self, api_key: str, model: str = "gpt-4o-mini"):
+        self.api_key = api_key
+        self.model = model
+        
+        try:
+            from openai import OpenAI
+            self.client = OpenAI(api_key=api_key)
+            print(f"OpenAI Judge initialized with model: {model}")
+        except ImportError:
+            raise ImportError("OpenAI library not installed. Run: pip install openai")
+    
+    def invoke(self, prompt: str) -> Any:
+        """Simula la interfaz de LangChain para compatibilidad."""
+        response = self.client.chat.completions.create(
+            model=self.model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+            max_tokens=512
+        )
+        
+        # Crear objeto compatible con LangChain
+        class Response:
+            def __init__(self, content):
+                self.content = content
+        
+        return Response(response.choices[0].message.content)
 
 
 @dataclass
@@ -40,8 +72,10 @@ class GenerationMetrics:
     question: str
     generated_answer: str
     expected_answers: List[str]
-    faithfulness_score: float  # 0-1, evaluado por LLM
+    faithfulness_score: float
     faithfulness_explanation: str
+    answer_relevance_score: float
+    answer_relevance_explanation: str 
 
 
 @dataclass
@@ -117,78 +151,142 @@ class RAGEvaluator:
         )
     
     def evaluate_faithfulness(
+            self,
+            question: str,
+            answer: str,
+            contexts: List[str],
+            max_retries: int = 3
+        ) -> Tuple[float, str]:
+            """
+            Evalúa la fidelidad de la respuesta usando LLM as judge con lógica de NLI.
+            Retorna score (0-1) y explicación detallada.
+            """
+            # Función interna para limpiar cada chunk y ahorrar tokens
+            def clean_context(text: str) -> str:
+                return " ".join(text.split())
+
+            # Unimos TODO el contexto que el generador tuvo disponible, limpiando cada parte
+            context_text = "\n\n---\n\n".join([clean_context(c) for c in contexts])
+            
+            prompt = f"""Instrucciones: Evalúa la fidelidad (Faithfulness) de la respuesta basándote EXCLUSIVAMENTE en el contexto proporcionado.
+            
+            CONTEXTO:
+            {context_text}
+            
+            PREGUNTA: {question}
+            
+            RESPUESTA A EVALUAR:
+            {answer}
+            
+            Tarea de evaluación:
+            1. Divide la respuesta proporcionada en afirmaciones (claims) individuales y atómicas.
+            2. Para cada afirmación, verifica si el contexto la respalda directamente.
+            3. El score final es: (afirmaciones respaldadas / total de afirmaciones).
+            
+            Reglas estrictas:
+            - Si la respuesta contiene información que es verdadera en el mundo real pero NO aparece en el contexto, esa afirmación NO está respaldada.
+            - Si la respuesta dice "No lo sé" o similar porque la información no está en el contexto, y efectivamente no está, el score debe ser 1.0.
+            - Debes entender tanto el gallego como el español perfectamente y no penalizar respuestas en uno u otro idioma.
+            
+            Responde ÚNICAMENTE con un JSON en este formato exacto:
+            {{
+                "score": <0.0 a 1.0>,
+                "claims_count": <int>,
+                "supported_claims": <int>,
+                "explanation": "<explicación breve de qué afirmaciones fallaron y por qué>"
+            }}
+            """
+            
+            for attempt in range(max_retries):
+                try:
+                    response = self.llm_judge.invoke(prompt)
+                    
+                    # Extraer contenido del objeto de respuesta
+                    response_text = response.content if hasattr(response, 'content') else str(response)
+                    
+                    # Buscar el bloque JSON mediante regex
+                    import re
+                    json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+                    
+                    if json_match:
+                        result = json.loads(json_match.group())
+                        
+                        # Extraemos los datos del JSON
+                        score = float(result.get('score', 0.0))
+                        claims = result.get('claims_count', 0)
+                        supported = result.get('supported_claims', 0)
+                        explanation = result.get('explanation', 'Sin explicación')
+                        
+                        # Formateamos una explicación técnica que incluye el conteo de claims
+                        full_explanation = f"[{supported}/{claims} claims] {explanation}"
+                        
+                        return score, full_explanation
+                    
+                except Exception as e:
+                    if attempt == max_retries - 1:
+                        return 0.0, f"Error crítico en evaluación: {str(e)}"
+                    time.sleep(1)
+                    
+            return 0.0, "Fallo en el parseo del juicio del LLM tras varios intentos"
+    
+    def evaluate_answer_relevance(
         self,
         question: str,
         answer: str,
-        contexts: List[str],
-        max_retries: int = 2
+        max_retries: int = 3
     ) -> Tuple[float, str]:
         """
-        Evalúa la fidelidad de la respuesta usando LLM as judge.
-        Retorna score (0-1) y explicación.
+        Evalúa si la respuesta es pertinente y resuelve la duda planteada.
+        No juzga la veracidad (eso es Faithfulness), sino la relevancia.
         """
-        # Concatenar contextos
-        context_text = "\n\n---\n\n".join(contexts[:3])  # Usar solo los 3 primeros
         
-        prompt = f"""Evalúa si la siguiente respuesta es fiel al contexto proporcionado.
+        prompt = f"""Instrucciones: Evalúa la relevancia de la respuesta respecto a la pregunta planteada.
+        Debes entender tanto el gallego como el español perfectamente y no penalizar respuestas en uno u otro idioma.
+        
+        PREGUNTA: {question}
+        
+        RESPUESTA A EVALUAR:
+        {answer}
+        
+        Tarea de evaluación:
+        1. ¿La respuesta aborda directamente todos los puntos de la pregunta?
+        2. ¿La respuesta es concisa y evita información irrelevante que no se pidió?
+        3. ¿El tono y el formato son adecuados para la consulta?
 
-CONTEXTO:
-{context_text}
+        Criterios de Score:
+        - 1.0: La respuesta resuelve perfectamente la duda de forma directa.
+        - 0.7: Resuelve la duda pero incluye mucha paja o información no solicitada.
+        - 0.3: Aborda el tema pero no responde a la duda específica.
+        - 0.0: La respuesta es irrelevante, ignora la pregunta o es un mensaje de error genérico.
 
-PREGUNTA: {question}
-
-RESPUESTA: {answer}
-
-Debes evaluar:
-1. ¿La respuesta se basa únicamente en información del contexto?
-2. ¿Hay invenciones o información no presente en el contexto?
-3. ¿La respuesta es precisa según el contexto?
-
-Responde ÚNICAMENTE con un JSON en este formato exacto:
-{{
-    "score": <número entre 0 y 1>,
-    "explanation": "<breve explicación>"
-}}
-
-Donde:
-- score=1.0: Totalmente fiel al contexto
-- score=0.5: Parcialmente fiel
-- score=0.0: Inventado o incorrecto
-"""
+        Responde ÚNICAMENTE con un JSON en este formato exacto:
+        {{
+            "score": <0.0 a 1.0>,
+            "explanation": "<explicación breve de por qué la respuesta es o no relevante>"
+        }}
+        """
         
         for attempt in range(max_retries):
             try:
                 response = self.llm_judge.invoke(prompt)
+                response_text = response.content if hasattr(response, 'content') else str(response)
                 
-                # Extraer contenido
-                if hasattr(response, 'content'):
-                    response_text = response.content
-                else:
-                    response_text = str(response)
-                
-                # Parsear JSON
-                # Buscar el JSON en la respuesta
                 import re
-                json_match = re.search(r'\{[^}]+\}', response_text, re.DOTALL)
+                json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+                
                 if json_match:
                     result = json.loads(json_match.group())
-                    score = float(result.get('score', 0.5))
+                    score = float(result.get('score', 0.0))
                     explanation = result.get('explanation', 'Sin explicación')
-                    return score, explanation
-                else:
-                    # Fallback: intentar parsear directamente
-                    result = json.loads(response_text)
-                    score = float(result.get('score', 0.5))
-                    explanation = result.get('explanation', 'Sin explicación')
-                    return score, explanation
                     
+                    return score, explanation
+                
             except Exception as e:
                 if attempt == max_retries - 1:
-                    # Último intento fallido
-                    return 0.5, f"Error evaluando faithfulness: {e}"
+                    return 0.0, f"Error en relevancia: {str(e)}"
                 time.sleep(1)
-        
-        return 0.5, "No se pudo evaluar"
+                
+        return 0.0, "Fallo en el juicio de relevancia"
     
     def evaluate_question(
         self,
@@ -241,13 +339,21 @@ Donde:
             answer=answer,
             contexts=retrieved_contexts
         )
+
+        # 5. Evaluar relevancia
+        relevance_score, relevance_explanation = self.evaluate_answer_relevance(
+            question=question,
+            answer=answer
+        )
         
         generation_metrics = GenerationMetrics(
             question=question,
             generated_answer=answer,
             expected_answers=expected_answers,
             faithfulness_score=faithfulness_score,
-            faithfulness_explanation=faithfulness_explanation
+            faithfulness_explanation=faithfulness_explanation,
+            answer_relevance_score=relevance_score,
+            answer_relevance_explanation=relevance_explanation
         )
         
         return QuestionEvaluation(
@@ -262,7 +368,8 @@ Donde:
         dataset: List[Dict[str, Any]],
         k: int = 10,
         save_results: bool = True,
-        output_dir: str = "validation/results"
+        output_dir: str = "validation/results",
+        config_name: str = ""
     ) -> Dict[str, Any]:
         """Evalúa todo el dataset."""
         
@@ -300,6 +407,9 @@ Donde:
                 self.console.print(f"  Precision: {evaluation.retrieval.precision:.2f}")
                 self.console.print(f"  MRR: {evaluation.retrieval.mrr:.2f}")
                 self.console.print(f"  Faithfulness: {evaluation.generation.faithfulness_score:.2f}")
+                self.console.print(f"    Explicación: {evaluation.generation.faithfulness_explanation}")
+                self.console.print(f"  Relevance: {evaluation.generation.answer_relevance_score:.2f}")
+                self.console.print(f"    Explicación: {evaluation.generation.answer_relevance_explanation}")
                 
                 progress.update(task, advance=1)
         
@@ -308,7 +418,7 @@ Donde:
         
         # Guardar resultados si es necesario
         if save_results:
-            self._save_results(results, aggregated_metrics, output_dir)
+            self._save_results(results, aggregated_metrics, output_dir, config_name)
         
         # Mostrar tabla resumen
         self._print_summary_table(aggregated_metrics)
@@ -327,6 +437,7 @@ Donde:
         avg_precision = sum(r.retrieval.precision for r in results) / total
         avg_mrr = sum(r.retrieval.mrr for r in results) / total
         avg_faithfulness = sum(r.generation.faithfulness_score for r in results) / total
+        avg_relevance = sum(r.generation.answer_relevance_score for r in results) / total
         
         # Calcular F1
         if avg_precision + avg_recall > 0:
@@ -346,6 +457,7 @@ Donde:
             'avg_precision': avg_precision,
             'avg_mrr': avg_mrr,
             'avg_faithfulness': avg_faithfulness,
+            'avg_relevance': avg_relevance,
             'f1_score': f1_score,
             **recalls_at_k,
             'total_questions': total
@@ -355,14 +467,18 @@ Donde:
         self,
         results: List[QuestionEvaluation],
         aggregated: Dict[str, float],
-        output_dir: str
+        output_dir: str,
+        config_name: str = ""
     ):
-        """Guarda resultados en archivos."""
+        """Guarda resultados en archivos con nombre descriptivo."""
         output_path = Path(output_dir)
         output_path.mkdir(parents=True, exist_ok=True)
         
+        # Suffix para archivos
+        suffix = f"_{config_name}" if config_name else ""
+        
         # Guardar resultados individuales en JSON
-        individual_path = output_path / "individual_results.json"
+        individual_path = output_path / f"individual_results{suffix}.json"
         with open(individual_path, 'w', encoding='utf-8') as f:
             json_results = []
             for r in results:
@@ -374,7 +490,7 @@ Donde:
             json.dump(json_results, f, indent=2, ensure_ascii=False)
         
         # Guardar métricas agregadas
-        metrics_path = output_path / "aggregated_metrics.json"
+        metrics_path = output_path / f"aggregated_metrics{suffix}.json"
         with open(metrics_path, 'w', encoding='utf-8') as f:
             json.dump(aggregated, f, indent=2, ensure_ascii=False)
         
@@ -388,11 +504,12 @@ Donde:
                 'mrr': r.retrieval.mrr,
                 'rank_first_relevant': r.retrieval.rank_first_relevant,
                 'faithfulness': r.generation.faithfulness_score,
+                'relevance': r.generation.answer_relevance_score,
                 'answer': r.generation.generated_answer[:100] + '...'
             })
         
         df = pd.DataFrame(csv_data)
-        csv_path = output_path / "results.csv"
+        csv_path = output_path / f"results{suffix}.csv"
         df.to_csv(csv_path, index=False, encoding='utf-8')
         
         self.console.print(f"\n[green]✓ Resultados guardados en:[/green]")
@@ -455,6 +572,11 @@ Donde:
             f"{metrics['avg_faithfulness']:.3f}",
             "Fidelidad al contexto (LLM judge)"
         )
+        table.add_row(
+            "Relevance promedio",
+            f"{metrics['avg_relevance']:.3f}",
+            "Pertinencia de la respuesta (LLM judge)"
+        )
         
         table.add_row("", "", "", style="dim")
         table.add_row(
@@ -496,16 +618,24 @@ def main():
     )
     
     parser.add_argument('--text_folder', type=str, default='validation/validation_state/text')
+    parser.add_argument('--state_dir', type=str, default='validation/validation_state')
     # Sistema RAG
-    parser.add_argument('--vector_store', type=str, default='validation/validation_vectorstore')  # Usar vectorstore principal
+    parser.add_argument('--vector_store', type=str, default='validation/validation_vectorstore')
     parser.add_argument('--k', type=int, default=10, help='Documentos a recuperar')
     parser.add_argument('--threshold', type=float, default=0.7)
-    parser.add_argument('--tfidf_mode', type=str, default='tfidf')
+    parser.add_argument('--tfidf_mode', type=str, default='tfidf', 
+                        choices=['tfidf', 'hybrid', 'rerank'], 
+                        help='Modo de TF-IDF: tfidf (solo TFIDF), hybrid (FAISS+TFIDF), rerank (FAISS reranked)')
     parser.add_argument('--tfidf_weight', type=float, default=0.3)
+    parser.add_argument('--chunk_size', type=int, default=500, help='Tamaño de chunks')
+    parser.add_argument('--use_tfidf', action='store_true', default=True, help='Usar TF-IDF')
+    parser.add_argument('--no_tfidf', action='store_false', dest='use_tfidf', help='No usar TF-IDF')
     
     # LLM
-    parser.add_argument('--provider', type=str, default='claude')
-    parser.add_argument('--model', type=str, default='claude-3-5-haiku-20241022')
+    parser.add_argument('--provider', type=str, default='claude', help='Provider para generación de respuestas')
+    parser.add_argument('--model', type=str, default='claude-3-5-haiku-20241022', help='Modelo para generación')
+    parser.add_argument('--judge_provider', type=str, default='openai', help='Provider para evaluación (openai o claude)')
+    parser.add_argument('--judge_model', type=str, default='gpt-4o-mini', help='Modelo para evaluación')
     parser.add_argument('--language', type=str, default='galician')
     
     # Output
@@ -517,6 +647,12 @@ def main():
     )
     
     args = parser.parse_args()
+    
+    # Calcular overlap automáticamente (10% del chunk_size hacia delante y atrás = 20% total)
+    chunk_overlap = int(args.chunk_size * 0.2)
+    
+    # Crear nombre de configuración para archivos
+    config_name = f"{args.tfidf_mode}_chunk{args.chunk_size}"
     
     console = Console()
     
@@ -539,7 +675,25 @@ def main():
     llm_manager = LLMManager(provider=args.provider, model_name=args.model)
     llm = llm_manager.llm
     
-    console.print(f"[green]✓ LLMs inicializados (Query: Haiku, Answer: {args.model})[/green]")
+    # Modelo para evaluación (judge)
+    if args.judge_provider == 'openai':
+        openai_key = os.environ.get('OPENAI_API_KEY')
+        if not openai_key:
+            raise ValueError("OPENAI_API_KEY no encontrada en .env")
+        llm_judge = OpenAIJudge(api_key=openai_key, model=args.judge_model)
+    else:
+        llm_judge_manager = LLMManager(provider=args.judge_provider, model_name=args.judge_model)
+        llm_judge = llm_judge_manager.llm
+    
+    console.print(f"[green]✓ LLMs inicializados:[/green]")
+    console.print(f"  - Query optimization: Haiku")
+    console.print(f"  - Answer generation: {args.model}")
+    console.print(f"  - Evaluation (judge): {args.judge_provider}/{args.judge_model}")
+    console.print(f"[yellow]Configuración:[/yellow]")
+    console.print(f"  - Chunk size: {args.chunk_size}")
+    console.print(f"  - Chunk overlap: {chunk_overlap} (20% del chunk_size)")
+    console.print(f"  - TF-IDF mode: {args.tfidf_mode}")
+    console.print(f"  - Use TF-IDF: {args.use_tfidf}")
 
 
     # Embeddings y TF-IDF autocontenidos
@@ -550,6 +704,7 @@ def main():
 
     tfidf_dir = Path(args.vector_store)
     text_folder = Path(args.text_folder)
+    state_dir = Path(args.state_dir)
     embeddings = LocalEmbeddings()
 
     # Si no existe el vectorstore o los archivos de TF-IDF, construye todo
@@ -560,8 +715,8 @@ def main():
         processor = DocumentProcessor(
             docs_folder='validation/crawled_validation',  # Usar datos de validación
             embedding_model_name='sentence-transformers/all-MiniLM-L6-v2',
-            chunk_size=500,
-            chunk_overlap=100,
+            chunk_size=args.chunk_size,
+            chunk_overlap=chunk_overlap,
             verbose=True,
             cache_dir='validation/.doc_cache',
             prefix_mode='source',
@@ -605,6 +760,7 @@ def main():
         vectorstore=vectorstore,
         k=args.k,
         threshold=args.threshold,
+        state_dir=state_dir,
         search_type='mmr',
         language=args.language,
         llm=llm,
@@ -613,7 +769,7 @@ def main():
         temperature=0.1,
         max_tokens=512,
         max_history_length=10,
-        use_tfidf=True,
+        use_tfidf=args.use_tfidf,
         tfidf_mode=args.tfidf_mode,
         tfidf_weight=args.tfidf_weight,
         tfidf_threshold=0.1,
@@ -626,7 +782,7 @@ def main():
     # Crear evaluador
     evaluator = RAGEvaluator(
         rag_system=rag,
-        llm_judge=llm,
+        llm_judge=llm_judge,  # Usar GPT u otro modelo para evaluación
         console=console
     )
     
@@ -637,7 +793,8 @@ def main():
         dataset=dataset,
         k=args.k,
         save_results=True,
-        output_dir=args.output_dir
+        output_dir=args.output_dir,
+        config_name=config_name
     )
     
     console.print(f"\n[bold green]✓ Evaluación completada[/bold green]")

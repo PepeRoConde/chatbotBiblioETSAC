@@ -72,6 +72,7 @@ class RAGSystem:
         self.vectorstore = vectorstore
         self.language = language
         self.k = k
+        self.state_dir = state_dir
         self.threshold = threshold
         self.search_type = search_type
         self.max_history_length = max_history_length

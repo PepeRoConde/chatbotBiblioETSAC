@@ -37,10 +37,10 @@ try:
     from PIL import Image
     import pytesseract
 
-    if sys.platform.startswith("win"):
-        pytesseract.pytesseract.tesseract_cmd = (
-            r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-        )
+    # if sys.platform.startswith("win"):
+    #     pytesseract.pytesseract.tesseract_cmd = (
+    #         r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    #     )
 
     OCR_AVAILABLE = True
 

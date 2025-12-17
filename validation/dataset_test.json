@@ -45,8 +45,8 @@
         "gold_docs": ["630g02v01_3d9b1a3f.txt"]
     },
     {
-        "question": "Cómo puedo convalidar créditos",
-        "answers": [""],
+        "question": "Cuánto créditos tengo por equipos federados propios de la UDC",
+        "answers": ["1,5 créditos ECTS por curso académico"],
         "gold_docs": ["document_cd41648a.txt"]
     },
     {
@@ -65,8 +65,8 @@
         "gold_docs": ["document_5958ed71.txt"]
     },
     {
-        "question": "Criterios para el reconocimiento de créditos",
-        "answers": [""],
+        "question": "Cuántos créditos son los cursos de formación deportiva",
+        "answers": ["1,5 créditos ECTS cada 30 horas de formación "],
         "gold_docs": ["document_cd41648a.txt"]
     },
     {
