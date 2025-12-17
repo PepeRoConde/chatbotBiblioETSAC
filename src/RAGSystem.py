@@ -343,82 +343,130 @@ class RAGSystem:
                 self.log(f"Query model: {type(self.llm_query).__name__}", "info")
                 self.log(f"Answer model: {type(self.llm).__name__}", "info")
     
-    def _generate_search_query(self, user_question: str, history_text: str) -> str:
-        """Generate optimized search query using llm_query (typically Haiku).
+    def _should_retrieve_documents(self, user_question: str, history_text: str) -> tuple[bool, str]:
+        """Determina si es necesario buscar en documentos y genera query si procede.
         
         Args:
-            user_question: Original user question
-            history_text: Formatted conversation history
+            user_question: Pregunta del usuario
+            history_text: Historial formateado
             
         Returns:
-            Optimized search query
+            Tuple (should_retrieve, optimized_query)
+            - should_retrieve: True si necesita buscar en docs, False si no
+            - optimized_query: Query optimizada si should_retrieve=True, sino cadena vacía
         """
         templates = {
-            "english": """You are an expert in information retrieval. 
-The user asked: {question}
+            "english": """You are a university assistant analyzing if a student's question requires searching in university documents (regulations, guides, academic procedures, course information, etc.).
+
+Student asked: {question}
 
 Recent conversation history:
 {history}
 
-Your task: Generate an optimized search query (maximum 15 words) that captures the user's intent.
-Include relevant keywords. If the question refers to previous conversation, incorporate that context.
-Output ONLY the search query, nothing else.
+Analyze if this question needs information from university documents or can be answered from:
+1. General knowledge or common courtesy responses
+2. Previous conversation context
+3. Greetings, thanks, clarifications about previous answers
 
-Optimized query:""",
-            "spanish": """Eres un experto en recuperación de información.
-El usuario preguntó: {question}
+If NO retrieval needed (greetings, thanks, clarifications), respond: NO_RETRIEVAL
+If retrieval IS needed (academic info, regulations, procedures), respond with an optimized search query (max 15 words).
+
+Examples:
+- "Hello" -> NO_RETRIEVAL
+- "Thanks for the info" -> NO_RETRIEVAL
+- "Can you repeat that?" -> NO_RETRIEVAL
+- "I don't understand the previous answer" -> NO_RETRIEVAL
+- "What are the enrollment deadlines?" -> enrollment deadlines registration periods
+- "How do I apply for a scholarship?" -> scholarship application process requirements
+- "What about the exam schedule?" -> exam schedule dates calendar
+
+Your response:""",
+            
+            "spanish": """Eres un asistente universitario analizando si la pregunta de un estudiante requiere buscar en documentos de la universidad (normativas, guías, procedimientos académicos, información de cursos, etc.).
+
+El estudiante preguntó: {question}
 
 Historial reciente:
 {history}
 
-Tu tarea: Genera una query de búsqueda optimizada (máximo 15 palabras) que capture la intención del usuario.
-Incluye keywords relevantes. Si la pregunta hace referencia a la conversación previa, incorpora ese contexto.
-Responde SOLO con la query optimizada, nada más.
+Analiza si esta pregunta necesita información de documentos universitarios o puede responderse con:
+1. Conocimiento general o respuestas de cortesía
+2. Contexto de la conversación previa
+3. Saludos, agradecimientos, aclaraciones sobre respuestas previas
 
-Query optimizada:""",
-            "galician": """Es un experto en recuperación de información.
-O usuario preguntou: {question}
+Si NO necesita búsqueda (saludos, agradecimientos, aclaraciones), responde: NO_RETRIEVAL
+Si SÍ necesita búsqueda (info académica, normativas, procedimientos), responde con una query optimizada (máx 15 palabras).
+
+Ejemplos:
+- "Hola" -> NO_RETRIEVAL
+- "Gracias por la información" -> NO_RETRIEVAL
+- "¿Puedes repetir eso?" -> NO_RETRIEVAL
+- "No entiendo la respuesta anterior" -> NO_RETRIEVAL
+- "¿Cuáles son los plazos de matrícula?" -> plazos matrícula inscripción periodos
+- "¿Cómo solicito una beca?" -> proceso solicitud beca requisitos
+- "¿Y el calendario de exámenes?" -> calendario exámenes fechas convocatorias
+
+Tu respuesta:""",
+            
+            "galician": """Es un asistente universitario analizando se a pregunta dun estudante require buscar en documentos da universidade (normativas, guías, procedementos académicos, información de cursos, etc.).
+
+O estudante preguntou: {question}
 
 Historial recente:
 {history}
 
-A túa tarefa: Xera unha query de busca optimizada (máximo 15 palabras) que capture a intención do usuario.
-Inclúe keywords relevantes. Se a pregunta fai referencia á conversa previa, incorpora ese contexto.
-Responde SOAMENTE coa query optimizada, nada máis.
+Analiza se esta pregunta necesita información de documentos universitarios ou pode responderse con:
+1. Coñecemento xeral ou respostas de cortesía
+2. Contexto da conversa previa
+3. Saúdos, agradecementos, aclaracións sobre respostas previas
 
-Query optimizada:"""
+Se NON necesita busca (saúdos, agradecementos, aclaracións), responde: NO_RETRIEVAL
+Se SI necesita busca (info académica, normativas, procedementos), responde cunha query optimizada (máx 15 palabras).
+
+Exemplos:
+- "Ola" -> NO_RETRIEVAL
+- "Grazas pola información" -> NO_RETRIEVAL
+- "Podes repetir iso?" -> NO_RETRIEVAL
+- "Non entendo a resposta anterior" -> NO_RETRIEVAL
+- "Cales son os prazos de matrícula?" -> prazos matrícula inscrición períodos
+- "Como solicito unha bolsa?" -> proceso solicitude bolsa requisitos
+- "E o calendario de exames?" -> calendario exames datas convocatorias
+
+A túa resposta:"""
         }
         
         template = templates.get(self.language.lower(), templates["english"])
         query_prompt = ChatPromptTemplate.from_template(template)
         
-        # Use the query-specific LLM (Haiku)
         chain = query_prompt | self.llm_query | StrOutputParser()
         
         try:
-            optimized_query = chain.invoke({
+            response = chain.invoke({
                 "question": user_question,
                 "history": history_text if history_text else "No previous conversation."
             })
             
-            # Clean up the response (remove any extra text)
-            optimized_query = optimized_query.strip()
+            response = response.strip()
             
-            # Remove common prefixes if model added them
+            # Detectar si el modelo decidió NO hacer retrieval
+            if "NO_RETRIEVAL" in response.upper():
+                return False, ""
+            
+            # Limpiar prefijos comunes
             prefixes_to_remove = [
                 "Query optimizada:", "Optimized query:", "Query:", 
-                "Search query:", "Búsqueda:", "Busca:"
+                "Search query:", "Búsqueda:", "Busca:", "Respuesta:"
             ]
             for prefix in prefixes_to_remove:
-                if optimized_query.lower().startswith(prefix.lower()):
-                    optimized_query = optimized_query[len(prefix):].strip()
+                if response.lower().startswith(prefix.lower()):
+                    response = response[len(prefix):].strip()
             
-            return optimized_query
+            return True, response
             
         except Exception as e:
-            self.log(f"Error generating optimized query: {e}", "error")
-            # Fallback to original question
-            return user_question
+            self.log(f"Error en análisis de necesidad de búsqueda: {e}", "error")
+            # En caso de error, por seguridad hacemos retrieval
+            return True, user_question
     
     def _setup_tfidf(self) -> None:
         """Setup TF-IDF reranker by fitting on all documents in vectorstore."""
@@ -604,7 +652,7 @@ Resposta:"""
         return answer_only.strip()
     
     def query(self, question: str, use_history: bool = True) -> Tuple[str, List[Document]]:
-        """Query the RAG system with optional query optimization.
+        """Query the RAG system with intelligent retrieval decision.
         
         Args:
             question: User's original question
@@ -618,49 +666,88 @@ Resposta:"""
         if use_history:
             history_text = self._format_history(max_turns=5)
         
-        # STEP 1: Generate optimized search query (using Haiku)
-        if self.use_query_optimization:
-            search_query = self._generate_search_query(question, history_text)
-            
-            if self.verbose:
-                self.log(f"📝 Original question: {question}", "info")
-                self.log(f"🔍 Optimized query: {search_query}", "success")
-        else:
-            search_query = question
-        
-        # STEP 2: Invoke the RAG chain with optimized query (Sonnet generates final answer)
-        result = self.rag_chain.invoke({
-            "input": search_query,  # Use optimized query for retrieval
-            "history": history_text
-        })
-        
-        answer = result.get("answer", "No answer found")
-        source_docs = result.get("context", [])
-        
-        # Apply TF-IDF reranking if enabled and mode is "rerank" or "filter"
-        if self.use_tfidf and self.tfidf_mode in ["rerank", "filter"] and source_docs:
-            original_count = len(source_docs)
-            source_docs = self._apply_tfidf_reranking(search_query, source_docs)
-            
-            if self.verbose and self.tfidf_mode == "filter":
-                self.log(f"TF-IDF filtering: {original_count} -> {len(source_docs)} documents", "info")
-        
-        # Add TF-IDF scores to document metadata for debugging
-        if self.use_tfidf and self.tfidf_reranker and source_docs:
-            scored_docs = self.tfidf_reranker.rerank(search_query, source_docs, top_k=None)
-            for doc, score in scored_docs:
-                doc.metadata['tfidf_score'] = float(score)
-        
-        if not source_docs:
-            no_info_messages = {
-                "galician": "Non atopei información relevante nos documentos para responder a esa pregunta.",
-                "spanish": "No encontré información relevante en los documentos para responder a esa pregunta.",
-                "english": "I couldn't find relevant information in the documents to answer that question."
-            }
-            answer = no_info_messages.get(self.language.lower(), no_info_messages["english"])
+        # STEP 1: Decide if we need to retrieve documents
+        should_retrieve, search_query = self._should_retrieve_documents(question, history_text)
         
         if self.verbose:
-            self.log(f"Retrieved {len(source_docs)} documents for the query", "info")
+            self.log(f"📝 Pregunta: {question}", "info")
+            if should_retrieve:
+                self.log(f"🔍 Query optimizada: {search_query}", "success")
+            else:
+                self.log(f"💬 Sin búsqueda en docs (respuesta directa)", "warning")
+        
+        # STEP 2: Generate answer
+        if not should_retrieve:
+            # Respuesta directa sin buscar en documentos
+            direct_prompt_templates = {
+                "english": """Answer the following question directly. Use conversation history if relevant.
+
+{history}
+
+Question: {input}
+
+Answer:""",
+                "spanish": """Responde directamente a la siguiente pregunta. Usa el historial si es relevante.
+
+{history}
+
+Pregunta: {input}
+
+Respuesta:""",
+                "galician": """Responde directamente á seguinte pregunta en galego (NON en portugués). Usa o historial se é relevante.
+
+{history}
+
+Pregunta: {input}
+
+Resposta:"""
+            }
+            
+            template = direct_prompt_templates.get(self.language.lower(), direct_prompt_templates["english"])
+            direct_prompt = ChatPromptTemplate.from_template(template)
+            direct_chain = direct_prompt | self.llm | StrOutputParser()
+            
+            answer = direct_chain.invoke({
+                "input": question,
+                "history": history_text
+            })
+            
+            source_docs = []  # No hay documentos fuente
+            
+        else:
+            # Búsqueda normal con retrieval
+            result = self.rag_chain.invoke({
+                "input": search_query,
+                "history": history_text
+            })
+            
+            answer = result.get("answer", "No answer found")
+            source_docs = result.get("context", [])
+            
+            # Apply TF-IDF reranking if enabled
+            if self.use_tfidf and self.tfidf_mode in ["rerank", "filter"] and source_docs:
+                original_count = len(source_docs)
+                source_docs = self._apply_tfidf_reranking(search_query, source_docs)
+                
+                if self.verbose and self.tfidf_mode == "filter":
+                    self.log(f"Filtrado TF-IDF: {original_count} -> {len(source_docs)} docs", "info")
+            
+            # Add TF-IDF scores
+            if self.use_tfidf and self.tfidf_reranker and source_docs:
+                scored_docs = self.tfidf_reranker.rerank(search_query, source_docs, top_k=None)
+                for doc, score in scored_docs:
+                    doc.metadata['tfidf_score'] = float(score)
+            
+            if not source_docs:
+                no_info_messages = {
+                    "galician": "Non atopei información relevante nos documentos.",
+                    "spanish": "No encontré información relevante en los documentos.",
+                    "english": "I couldn't find relevant information in the documents."
+                }
+                answer = no_info_messages.get(self.language.lower(), no_info_messages["english"])
+        
+        if self.verbose:
+            self.log(f"📄 Documentos usados: {len(source_docs)}", "info")
         
         clean_answer = self.extract_answer_only(answer)
         
