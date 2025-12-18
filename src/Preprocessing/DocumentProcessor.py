@@ -15,9 +15,9 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import PyPDFLoader, BSHTMLLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from src.LocalEmbeddings import LocalEmbeddings
-from .CleanHTMLLoader import CleanHTMLLoader
-from .BM25 import BM25
+from LocalEmbeddings import LocalEmbeddings
+from Preprocessing.CleanHTMLLoader import CleanHTMLLoader
+from Preprocessing.BM25 import BM25
 
 
 class DocumentProcessor:

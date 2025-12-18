@@ -11,6 +11,10 @@ import pickle
 import argparse
 from dotenv import load_dotenv
 from pathlib import Path
+
+# Add src directory to path
+src_dir = Path(__file__).parent.parent
+sys.path.insert(0, str(src_dir))
 from typing import List, Dict, Any, Tuple
 from dataclasses import dataclass, asdict
 
@@ -21,10 +25,10 @@ from rich.panel import Panel
 from rich.progress import Progress, SpinnerColumn, TextColumn
 from langchain_community.vectorstores import FAISS
 
-from src.rag.RAGSystem import RAGSystem
-from src.LLMManager import LLMManager
-from src.LocalEmbeddings import LocalEmbeddings
-from src.preprocessing.DocumentProcessor import DocumentProcessor
+from rag.RAGSystem import RAGSystem
+from LLMManager import LLMManager
+from LocalEmbeddings import LocalEmbeddings
+from Preprocessing.DocumentProcessor import DocumentProcessor
 
 
 class OpenAIJudge:
@@ -765,13 +769,12 @@ def main():
         temperature=0.1,
         max_tokens=512,
         max_history_length=10,
-        use_tfidf=args.use_tfidf,
-        tfidf_mode=args.tfidf_mode,
-        tfidf_weight=args.tfidf_weight,
-        tfidf_threshold=0.1,
-        tfidf_vectorizer=tfidf_vectorizer,
-        tfidf_matrix=tfidf_matrix,
-        tfidf_documents=tfidf_documents
+        use_bm25=args.use_tfidf,  # Mapear use_tfidf -> use_bm25
+        bm25_mode=args.tfidf_mode,  # Mapear tfidf_mode -> bm25_mode
+        bm25_weight=args.tfidf_weight,  # Mapear tfidf_weight -> bm25_weight
+        bm25_threshold=0.1,
+        bm25_index=None,  # Se crea internamente
+        bm25_documents=None  # Se obtienen del vectorstore
     )
     console.print(f"[green]✓ RAG inicializado[/green]")
     
