@@ -15,3 +15,5 @@ analisis:
     - palabras unicas vocabulario
     - ocr (imagen o tabla) vs humanas
     - palabra con una ocurrencia 
+
+quitar archivos commit anterior

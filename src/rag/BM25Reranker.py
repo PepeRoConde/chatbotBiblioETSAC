@@ -1,32 +1,28 @@
 from typing import List, Dict, Tuple, Optional, Union, Any
-from sklearn.feature_extraction.text import TfidfVectorizer
+import csv
 from langchain_core.documents import Document
-from sklearn.metrics.pairwise import cosine_similarity
-class TFIDFReranker:
-    """TF-IDF based reranker for document relevance scoring."""
+
+class BM25Reranker:
+    """BM25 based reranker for document relevance scoring."""
     
-    def __init__(self, max_features: int = 5000, ngram_range: Tuple[int, int] = (1, 2), 
-                 stopwords_file: str = 'top_words.csv'):
-        """Initialize TF-IDF reranker.
+    def __init__(self, b=0.75, k1=1.6, stopwords_file: str = None):
+        """Initialize BM25 reranker.
         
         Args:
-            max_features: Maximum number of features for TF-IDF
-            ngram_range: Range of n-grams to consider (unigrams and bigrams by default)
-            stopwords_file: Path to CSV file with stopwords
+            b: BM25 parameter for length normalization (default: 0.75)
+            k1: BM25 parameter for term frequency saturation (default: 1.6)
+            stopwords_file: Optional path to CSV file with stopwords
         """
-        # Load stopwords from CSV
-        stopwords = self.load_stopwords_from_csv(stopwords_file)
+        from src.preprocessing.BM25 import BM25
         
-        self.vectorizer = TfidfVectorizer(
-            max_features=max_features,
-            ngram_range=ngram_range,
-            stop_words=stopwords if stopwords else None,
-            lowercase=True,
-            token_pattern=r'\b\w+\b'
-        )
-        self.doc_vectors = None
+        self.bm25 = BM25(b=b, k1=k1)
         self.documents = []
-        self.fitted = False 
+        self.fitted = False
+        
+        # Load stopwords if provided
+        self.stopwords = []
+        if stopwords_file:
+            self.stopwords = self.load_stopwords_from_csv(stopwords_file)
 
     @staticmethod
     def load_stopwords_from_csv(csv_file: str) -> list:
@@ -51,18 +47,18 @@ class TFIDFReranker:
         return stopwords
 
     def fit(self, documents: List[Document]) -> None:
-        """Fit the TF-IDF vectorizer on a corpus of documents.
+        """Fit the BM25 index on a corpus of documents.
         
         Args:
             documents: List of LangChain Document objects
         """
         self.documents = documents
         texts = [doc.page_content for doc in documents]
-        self.doc_vectors = self.vectorizer.fit_transform(texts)
+        self.bm25.fit(texts)
         self.fitted = True
     
     def rerank(self, query: str, documents: List[Document], top_k: int = None) -> List[Tuple[Document, float]]:
-        """Rerank documents based on TF-IDF similarity to query.
+        """Rerank documents based on BM25 similarity to query.
         
         Args:
             query: Query string
@@ -75,16 +71,18 @@ class TFIDFReranker:
         if not documents:
             return []
         
-        # Transform query and documents
-        query_vector = self.vectorizer.transform([query])
-        doc_texts = [doc.page_content for doc in documents]
-        doc_vectors = self.vectorizer.transform(doc_texts)
+        if not self.fitted:
+            # Fit on the fly if not already fitted
+            texts = [doc.page_content for doc in documents]
+            self.bm25.fit(texts)
+            self.fitted = True
         
-        # Calculate cosine similarities
-        similarities = cosine_similarity(query_vector, doc_vectors)[0]
+        # Get BM25 scores
+        doc_texts = [doc.page_content for doc in documents]
+        scores = self.bm25.transform(query, doc_texts)
         
         # Create (document, score) pairs and sort
-        doc_scores = list(zip(documents, similarities))
+        doc_scores = list(zip(documents, scores))
         doc_scores.sort(key=lambda x: x[1], reverse=True)
         
         if top_k is not None:
@@ -93,26 +91,16 @@ class TFIDFReranker:
         return doc_scores
     
     def get_top_keywords(self, document: Document, top_n: int = 10) -> List[Tuple[str, float]]:
-        """Extract top TF-IDF keywords from a document.
+        """Extract top keywords from a document (placeholder - BM25 doesn't have direct keyword extraction).
         
         Args:
             document: Document to analyze
             top_n: Number of top keywords to return
             
         Returns:
-            List of (keyword, score) tuples
+            List of (keyword, score) tuples (empty for now)
         """
-        if not self.fitted:
-            raise ValueError("Vectorizer must be fitted before extracting keywords")
-        
-        doc_vector = self.vectorizer.transform([document.page_content])
-        feature_names = self.vectorizer.get_feature_names_out()
-        
-        # Get TF-IDF scores for this document
-        scores = doc_vector.toarray()[0]
-        
-        # Get top N features
-        top_indices = scores.argsort()[-top_n:][::-1]
-        top_keywords = [(feature_names[i], scores[i]) for i in top_indices if scores[i] > 0]
-        
-        return top_keywords
+        # BM25 doesn't have direct keyword extraction like TF-IDF
+        # This is a placeholder that returns empty list
+        return []
+

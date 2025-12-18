@@ -4,8 +4,6 @@ import os
 import json
 import numpy as np
 from datetime import datetime
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
 
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
@@ -19,11 +17,11 @@ from .cost.claude_cost_callback import ClaudeCostCallback
 
 from .system_prompt import retrieval_prompt, no_retrieval_prompt, few_shot_classification_prompt
 from .HybridRetriever import HybridRetriever
-from .TFIDFRetriever import TFIDFRetriever
-from .TFIDFReranker import TFIDFReranker
+from .BM25Retriever import BM25Retriever
+from .BM25Reranker import BM25Reranker
 
 class RAGSystem:
-    """RAG system with TF-IDF integration and query optimization."""
+    """RAG system with BM25 integration and query optimization."""
     
     def __init__(
         self, 
@@ -39,14 +37,13 @@ class RAGSystem:
         temperature: float = 0.1,
         max_tokens: int = 512,
         max_history_length: int = 10,
-        use_tfidf: bool = True,
-        tfidf_mode: str = "rerank",
-        tfidf_weight: float = 0.3,
-        tfidf_threshold: float = 0.1,
-        tfidf_vectorizer: Optional[Any] = None,
-        tfidf_matrix: Optional[Any] = None,
-        tfidf_documents: Optional[List] = None,
-        tfidf_score_factor = 100,
+        use_bm25: bool = True,
+        bm25_mode: str = "rerank",
+        bm25_weight: float = 0.3,
+        bm25_threshold: float = 0.1,
+        bm25_index: Optional[Any] = None,
+        bm25_documents: Optional[List] = None,
+        bm25_score_factor = 100,
         use_query_optimization: bool = True,  
     ):
         """Initialize the RAG system with query optimization support.
@@ -61,10 +58,13 @@ class RAGSystem:
             language: Language for prompt template
             provider: LLM provider ('mistral' or 'claude')
             max_history_length: Maximum number of conversation turns to keep
-            use_tfidf: Whether to use TF-IDF enhancement
-            tfidf_mode: How to use TF-IDF ("rerank", "hybrid", or "filter")
-            tfidf_weight: Weight for TF-IDF in hybrid mode (0-1)
-            tfidf_threshold: Minimum TF-IDF score for filtering
+            use_bm25: Whether to use BM25 enhancement
+            bm25_mode: How to use BM25 ("rerank", "hybrid", or "filter")
+            bm25_weight: Weight for BM25 in hybrid mode (0-1)
+            bm25_threshold: Minimum BM25 score for filtering
+            bm25_index: BM25 index object
+            bm25_documents: List of documents for BM25
+            bm25_score_factor: Score factor for BM25 in hybrid mode
             use_query_optimization: Enable two-stage query optimization (Haiku + Sonnet)
         """
         self.vectorstore = vectorstore
@@ -74,13 +74,12 @@ class RAGSystem:
         self.threshold = threshold
         self.search_type = search_type
         self.max_history_length = max_history_length
-        self.use_tfidf = use_tfidf
-        self.tfidf_mode = tfidf_mode
-        self.tfidf_threshold = tfidf_threshold
-        self.tfidf_vectorizer = tfidf_vectorizer
-        self.tfidf_matrix = tfidf_matrix
-        self.tfidf_documents = tfidf_documents
-        self.tfidf_score_factor = tfidf_score_factor
+        self.use_bm25 = use_bm25
+        self.bm25_mode = bm25_mode
+        self.bm25_threshold = bm25_threshold
+        self.bm25_index = bm25_index
+        self.bm25_documents = bm25_documents
+        self.bm25_score_factor = bm25_score_factor
         self.use_query_optimization = use_query_optimization
         
         # Conversation history
@@ -116,23 +115,27 @@ class RAGSystem:
         self.llm = llm  # Main LLM for answers (Sonnet)
         self.llm_query = llm_query if llm_query else llm  # Query optimization LLM (Haiku or same as main)
         
-        # TF-IDF setup
-        self.tfidf_reranker = None
-        if self.use_tfidf:
-            self._setup_tfidf()
+        # BM25 setup
+        self.bm25_reranker = None
+        if self.use_bm25:
+            self._setup_bm25()
         
         # Create the retriever (base or hybrid)
-        if self.use_tfidf and self.tfidf_mode == "hybrid":
-            if tfidf_vectorizer is None or tfidf_matrix is None or tfidf_documents is None:
-                raise ValueError("TF-IDF components required for hybrid mode")
-            tfidf_retriever = TFIDFRetriever(tfidf_vectorizer, tfidf_matrix, tfidf_documents, k=self.k)
-            self.retriever = HybridRetriever(vectorstore=self.vectorstore, tfidf_retriever=tfidf_retriever, k=self.k, verbose=self.verbose, tfidf_score_factor=self.tfidf_score_factor)
-        elif self.use_tfidf and self.tfidf_mode == "tfidf":
-            if tfidf_vectorizer is None or tfidf_matrix is None or tfidf_documents is None:
-                raise ValueError("TF-IDF components required for tfidf mode")
-            self.retriever = TFIDFRetriever(tfidf_vectorizer, tfidf_matrix, tfidf_documents, k=self.k)
-        elif self.use_tfidf and self.tfidf_mode == "rerank":
-            self.retriever = self._create_hybrid_retriever(tfidf_weight)
+        if self.use_bm25 and self.bm25_mode == "hybrid":
+            if bm25_index is None or bm25_documents is None:
+                raise ValueError("BM25 components required for hybrid mode")
+            bm25_retriever = BM25Retriever(bm25_index, bm25_documents, k=self.k)
+            self.retriever = HybridRetriever(vectorstore=self.vectorstore, bm25_retriever=bm25_retriever, k=self.k, verbose=self.verbose, bm25_score_factor=self.bm25_score_factor)
+        elif self.use_bm25 and self.bm25_mode == "bm25":
+            if bm25_index is None or bm25_documents is None:
+                raise ValueError("BM25 components required for bm25 mode")
+            self.retriever = BM25Retriever(bm25_index, bm25_documents, k=self.k)
+        elif self.use_bm25 and self.bm25_mode == "rerank":
+            # For rerank mode, use base vector retriever and apply BM25 reranking later
+            self.retriever = self.vectorstore.as_retriever(
+                search_kwargs={"k": self.k * 2, "score_threshold": self.threshold},
+                search_type=self.search_type
+            )
         else:
             self.retriever = self.vectorstore.as_retriever(
                 search_kwargs={"k": self.k, "score_threshold": self.threshold},
@@ -146,9 +149,9 @@ class RAGSystem:
         self._create_rag_chain()
         
         if self.verbose:
-            tfidf_status = f" with TF-IDF ({self.tfidf_mode} mode)" if self.use_tfidf else ""
+            bm25_status = f" with BM25 ({self.bm25_mode} mode)" if self.use_bm25 else ""
             query_opt_status = " + Query Optimization (Haiku→Sonnet)" if self.use_query_optimization else ""
-            self.log(f"RAG system initialized{tfidf_status}{query_opt_status} with {provider.upper()}", "success")
+            self.log(f"RAG system initialized{bm25_status}{query_opt_status} with {provider.upper()}", "success")
             self.log(f"Language: {language}", "info")
             if self.use_query_optimization:
                 self.log(f"Query model: {type(self.llm_query).__name__}", "info")
@@ -240,10 +243,10 @@ class RAGSystem:
             return True, user_question
 
     
-    def _setup_tfidf(self) -> None:
-        """Setup TF-IDF reranker by fitting on all documents in vectorstore."""
+    def _setup_bm25(self) -> None:
+        """Setup BM25 reranker by fitting on all documents in vectorstore."""
         if self.verbose:
-            self.log("Initializing TF-IDF reranker...", "info")
+            self.log("Initializing BM25 reranker...", "info")
         
         # Get all documents from vectorstore
         try:
@@ -256,33 +259,23 @@ class RAGSystem:
                 all_docs = temp_retriever.get_relevant_documents("*")
             
             if all_docs:
-                self.tfidf_reranker = TFIDFReranker(max_features=5000, ngram_range=(1, 2), stopwords_file=self.state_dir + '/' + 'top_words.csv')
-                self.tfidf_reranker.fit(all_docs)
+                stopwords_file = None
+                top_words_path = self.state_dir + '/' + 'top_words.csv'
+                if os.path.exists(top_words_path):
+                    stopwords_file = top_words_path
+                self.bm25_reranker = BM25Reranker(b=0.75, k1=1.6, stopwords_file=stopwords_file)
+                self.bm25_reranker.fit(all_docs)
                 
                 if self.verbose:
-                    self.log(f"TF-IDF fitted on {len(all_docs)} documents", "success")
+                    self.log(f"BM25 fitted on {len(all_docs)} documents", "success")
             else:
-                self.log("Warning: Could not load documents for TF-IDF", "warning")
-                self.use_tfidf = False
+                self.log("Warning: Could not load documents for BM25", "warning")
+                self.use_bm25 = False
                 
         except Exception as e:
-            self.log(f"Error setting up TF-IDF: {e}", "error")
-            self.use_tfidf = False
+            self.log(f"Error setting up BM25: {e}", "error")
+            self.use_bm25 = False
     
-    def _create_hybrid_retriever(self, tfidf_weight: float) -> HybridRetriever:
-        """Create a hybrid retriever combining vector and TF-IDF."""
-        base_retriever = self.vectorstore.as_retriever(
-            search_kwargs={"k": self.k * 2, "score_threshold": self.threshold},  
-            search_type=self.search_type
-        )
-        
-        return HybridRetriever(
-            vector_retriever=base_retriever,
-            tfidf_reranker=self.tfidf_reranker,
-            vector_weight=1.0 - tfidf_weight,
-            tfidf_weight=tfidf_weight,
-            verbose=self.verbose
-        )
     
     def log(self, message: str, level: str = "info") -> None:
         """Log a message with appropriate styling."""
@@ -344,8 +337,8 @@ class RAGSystem:
             combine_docs_chain=document_chain
         )
     
-    def _apply_tfidf_reranking(self, query: str, documents: List[Document]) -> List[Document]:
-        """Apply TF-IDF reranking to retrieved documents.
+    def _apply_bm25_reranking(self, query: str, documents: List[Document]) -> List[Document]:
+        """Apply BM25 reranking to retrieved documents.
         
         Args:
             query: Original query
@@ -354,18 +347,18 @@ class RAGSystem:
         Returns:
             Reranked list of documents
         """
-        if not self.use_tfidf or not self.tfidf_reranker or not documents:
+        if not self.use_bm25 or not self.bm25_reranker or not documents:
             return documents
         
-        if self.tfidf_mode == "rerank":
-            # Pure reranking: sort by TF-IDF scores
-            reranked = self.tfidf_reranker.rerank(query, documents, top_k=len(documents))
+        if self.bm25_mode == "rerank":
+            # Pure reranking: sort by BM25 scores
+            reranked = self.bm25_reranker.rerank(query, documents, top_k=len(documents))
             return [doc for doc, score in reranked]
         
-        elif self.tfidf_mode == "filter":
+        elif self.bm25_mode == "filter":
             # Filtering: remove documents below threshold
-            scored_docs = self.tfidf_reranker.rerank(query, documents, top_k=None)
-            filtered = [(doc, score) for doc, score in scored_docs if score >= self.tfidf_threshold]
+            scored_docs = self.bm25_reranker.rerank(query, documents, top_k=None)
+            filtered = [(doc, score) for doc, score in scored_docs if score >= self.bm25_threshold]
             return [doc for doc, score in filtered]
         
         return documents
@@ -466,28 +459,28 @@ class RAGSystem:
             source_docs = result.get("context", [])
             used_retrieval = True
 
-            # Optional TF-IDF post-processing
-            if self.use_tfidf and self.tfidf_mode in ("rerank", "filter") and source_docs:
+            # Optional BM25 post-processing
+            if self.use_bm25 and self.bm25_mode in ("rerank", "filter") and source_docs:
                 original_count = len(source_docs)
-                source_docs = self._apply_tfidf_reranking(
+                source_docs = self._apply_bm25_reranking(
                     search_query,
                     source_docs
                 )
 
-                if self.verbose and self.tfidf_mode == "filter":
+                if self.verbose and self.bm25_mode == "filter":
                     self.log(
-                        f"Filtrado TF-IDF: {original_count} -> {len(source_docs)} docs",
+                        f"Filtrado BM25: {original_count} -> {len(source_docs)} docs",
                         "info"
                     )
 
-            if self.use_tfidf and self.tfidf_reranker and source_docs:
-                scored_docs = self.tfidf_reranker.rerank(
+            if self.use_bm25 and self.bm25_reranker and source_docs:
+                scored_docs = self.bm25_reranker.rerank(
                     search_query,
                     source_docs,
                     top_k=None
                 )
                 for doc, score in scored_docs:
-                    doc.metadata["tfidf_score"] = float(score)
+                    doc.metadata["bm25_score"] = float(score)
 
             if not source_docs:
                 no_info_messages = {
@@ -532,19 +525,19 @@ class RAGSystem:
 
     
     def get_document_keywords(self, document: Document, top_n: int = 10) -> List[Tuple[str, float]]:
-        """Extract top TF-IDF keywords from a document.
+        """Extract top keywords from a document (placeholder for BM25).
         
         Args:
             document: Document to analyze
             top_n: Number of keywords to return
             
         Returns:
-            List of (keyword, score) tuples
+            List of (keyword, score) tuples (empty for BM25)
         """
-        if not self.use_tfidf or not self.tfidf_reranker:
+        if not self.use_bm25 or not self.bm25_reranker:
             return []
         
-        return self.tfidf_reranker.get_top_keywords(document, top_n)
+        return self.bm25_reranker.get_top_keywords(document, top_n)
     
     # ========== History Management Methods  ==========
     

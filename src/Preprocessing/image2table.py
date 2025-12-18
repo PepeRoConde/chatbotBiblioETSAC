@@ -36,7 +36,7 @@ def image_table2text(IMAGE_PATH):
     text = '' 
     
     for i, table in enumerate(tables):
-        text += f"\n=== Table {i+1} ===\n"
+        text += f"\n=== Taboa {i+1} ===\n"
         
         df = table.df
         

@@ -11,10 +11,10 @@ from rich.progress import Progress, SpinnerColumn, TextColumn
 from dotenv import load_dotenv
 
 
-from LLMManager import LLMManager
-from Preprocessing.DocumentProcessor import DocumentProcessor
-from RAGSystem.RAGSystem import RAGSystem
-from utils.portada import titulo_ascii
+from .LLMManager import LLMManager
+from .preprocessing.DocumentProcessor import DocumentProcessor
+from .rag.RAGSystem import RAGSystem
+from .utils.portada import titulo_ascii
 
 def main():
     """Main function to run the Mistral RAG system."""
@@ -39,12 +39,12 @@ def main():
     parser.add_argument('--threshold', type=float, default=0.7, help='Similarity threshold for filtering')
     parser.add_argument('--search_type', type=str, default='mmr', help='Search type: similarity or mmr')
     
-    # TF-IDF
-    parser.add_argument('--use_tfidf', action='store_true', default=True, help='Use TF-IDF enhancement')
-    parser.add_argument('--tfidf_mode', type=str, default='hybrid', help='TF-IDF mode: rerank, hybrid, tfidf, or filter')
-    parser.add_argument('--tfidf_weight', type=float, default=0.5, help='TF-IDF weight in hybrid mode (0.0-1.0)')
-    parser.add_argument('--tfidf_threshold', type=float, default=0.1, help='Minimum TF-IDF score for filter mode')
-    parser.add_argument('--tfidf_score_factor', type=int, default=45, help='The bigger, the more presence of tfidf retrieved docs, if 0 none, default 45')
+    # BM25
+    parser.add_argument('--use_bm25', action='store_true', default=True, help='Use BM25 enhancement')
+    parser.add_argument('--bm25_mode', type=str, default='hybrid', help='BM25 mode: rerank, hybrid, bm25, or filter')
+    parser.add_argument('--bm25_weight', type=float, default=0.5, help='BM25 weight in hybrid mode (0.0-1.0)')
+    parser.add_argument('--bm25_threshold', type=float, default=0.1, help='Minimum BM25 score for filter mode')
+    parser.add_argument('--bm25_score_factor', type=int, default=45, help='The bigger, the more presence of bm25 retrieved docs, if 0 none, default 45')
     
     # LLM Provider
     parser.add_argument('--provider', type=str, default='claude', help='LLM provider: mistral or claude')
@@ -229,19 +229,18 @@ def main():
             'temperature': args.temperature,
             'max_tokens': args.max_tokens,
             'max_history_length': args.max_history_length,
-            'use_tfidf': args.use_tfidf,
-            'tfidf_mode': args.tfidf_mode,
-            'tfidf_weight': args.tfidf_weight,
-            'tfidf_threshold': args.tfidf_threshold,
-            'tfidf_score_factor': args.tfidf_score_factor
+            'use_bm25': args.use_bm25,
+            'bm25_mode': args.bm25_mode,
+            'bm25_weight': args.bm25_weight,
+            'bm25_threshold': args.bm25_threshold,
+            'bm25_score_factor': args.bm25_score_factor
         }
         
-        # Add TF-IDF components if needed
-        if args.tfidf_mode == "hybrid" or args.tfidf_mode == "tfidf":
+        # Add BM25 components if needed
+        if args.bm25_mode == "hybrid" or args.bm25_mode == "bm25":
             rag_params.update({
-                'tfidf_vectorizer': processor.tfidf_vectorizer,
-                'tfidf_matrix': processor.tfidf_matrix,
-                'tfidf_documents': processor.tfidf_documents
+                'bm25_index': processor.bm25_index,
+                'bm25_documents': processor.bm25_documents
             })
         
         rag = RAGSystem(**rag_params)
@@ -361,7 +360,7 @@ def main():
                     # Get relevance scores and method from metadata
                     relevance_score = doc.metadata.get('relevance_score', None)
                     vector_score = doc.metadata.get('vector_score', None)
-                    tfidf_score_meta = doc.metadata.get('tfidf_score', None)
+                    bm25_score_meta = doc.metadata.get('bm25_score', None)
                     retrieval_method = doc.metadata.get('retrieval_method', 'unknown')
                     
                     # Format score information
@@ -371,21 +370,21 @@ def main():
                     
                     if retrieval_method == 'hybrid':
                         method_emoji = "🔄"
-                        method_text = "[bold magenta]Hybrid[/bold magenta] (Vector + TF-IDF)"
+                        method_text = "[bold magenta]Hybrid[/bold magenta] (Vector + BM25)"
                         if vector_score is not None:
                             score_info.append(f"[cyan]Vector: {vector_score:.4f}[/cyan]")
-                        if tfidf_score_meta is not None:
-                            score_info.append(f"[yellow]TF-IDF: {tfidf_score_meta:.4f}[/yellow]")
+                        if bm25_score_meta is not None:
+                            score_info.append(f"[yellow]BM25: {bm25_score_meta:.4f}[/yellow]")
                     elif retrieval_method == 'vector':
                         method_emoji = "🎯"
                         method_text = "[bold cyan]Vector[/bold cyan]"
                         if vector_score is not None:
                             score_info.append(f"[cyan]Vector: {vector_score:.4f}[/cyan]")
-                    elif retrieval_method == 'tfidf':
+                    elif retrieval_method == 'bm25':
                         method_emoji = "📊"
-                        method_text = "[bold yellow]TF-IDF[/bold yellow]"
-                        if tfidf_score_meta is not None:
-                            score_info.append(f"[yellow]TF-IDF: {tfidf_score_meta:.4f}[/yellow]")
+                        method_text = "[bold yellow]BM25[/bold yellow]"
+                        if bm25_score_meta is not None:
+                            score_info.append(f"[yellow]BM25: {bm25_score_meta:.4f}[/yellow]")
                     else:
                         method_emoji = "❓"
                         method_text = "[dim]Unknown[/dim]"
@@ -414,7 +413,7 @@ def main():
                     console.print(Panel(
                         content,
                         title=title,
-                        border_style="blue" if retrieval_method == "vector" else "yellow" if retrieval_method == "tfidf" else "magenta",
+                        border_style="blue" if retrieval_method == "vector" else "yellow" if retrieval_method == "bm25" else "magenta",
                         padding=(1, 2)
                     ))
 
