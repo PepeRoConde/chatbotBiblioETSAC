@@ -296,9 +296,9 @@ def main():
     
     # LLM
     parser.add_argument('--provider', type=str, default='claude')
-    parser.add_argument('--model', type=str, default='claude-3-5-haiku-20241022')
+    parser.add_argument('--model', type=str, default='claude-sonnet-4-5-20250929')
     parser.add_argument('--judge_provider', type=str, default='openai')
-    parser.add_argument('--judge_model', type=str, default='gpt-4o-mini')
+    parser.add_argument('--judge_model', type=str, default='gpt-5.2-2025-12-11')
     parser.add_argument('--language', type=str, default='galician')
     
     # Output
