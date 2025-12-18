@@ -96,7 +96,7 @@ function analyze_content_dates(; solo_sin_lastmod=false)
         size=(800, 500)
     )
     
-    add_value_labels!(p, 1:length(y_vals), y_vals)
+    #add_value_labels!(p, 1:length(y_vals), y_vals)
     
     filename = solo_sin_lastmod ? "histograma_datas_sen_lastmod.png" : "histograma_datas.png"
     save_plot(p, filename)
