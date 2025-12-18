@@ -1,0 +1,41 @@
+    Lengua Y Sociedad de la información 
+Workshop 
+ Spanish Learner Corpus Research 
+organized by Group LyS  
+14h July 2015 
+Facultade de Filoloxía, Salón de Grados 
+Universidade da Coruña 
+Programme  
+Morning Session 
+ 
+9:45-10:00  Welcome and Introduction (Margarita Alonso Ramos) 
+    
+10:00 -10:45  Yukio Tono (Tokio University of Foreign Studies) 
+    The Significance of Learner Corpus Research 
+ 
+11:00-11:30  Leonardo Campillos (UAM & LIMSI) 
+   PoS tagging a Spanish Oral Learner Corpus – Criteria,   
+   procedure, and a sample analysis 
+ 
+11:30-12:00  Coffee Break  
+12:00-12:45   Dale Koike (University of Texas at Austin):   
+   Spanish Proficiency Training Website: An Open-source, Online  
+   Resource for Corpus Linguistics 
+13:00-13:30   Kris Buyse (University of Leuven):  
+   The Aprescrilov corpus, or broadening the horizon of Spanish  
+   language learning in Flanders 
+13:30-15:00  Lunch  
+Afternoon Session 
+ 
+15:00-15:30  Cristóbal Lozano (Universidad de Granada) 
+   Pragmatic principles in anaphora resolution at the syntax-discourse  
+   interface: advanced English learners of Spanish in the CEDEL2  
+   corpus  
+ 
+15:45-16:30   Ignacio Palacios (Universidade de Santiago de Compostela) 
+    Learner Spanish on Computer. The CAES Project 
+ 
+16:45-17:15  Coffee Break  
+17:15-18.00 Round table: The contribution of learner corpora to research on 
+Spanish as a foreign language learning: evaluation and future 
+directions 

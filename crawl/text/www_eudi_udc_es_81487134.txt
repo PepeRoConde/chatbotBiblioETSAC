@@ -912,9 +912,6 @@ ACTROS PROCABIN
 --- OCR de imagen: CARTEL_PRESENTACION_EUDI_2023_2024_peque_3a7fdc4d.jpeg ---
 2023-24 PRESENTACION ery
 
---- OCR de imagen: octubresaludable2022_49b73c02.jpeg ---
-UDeSaudlable
-
 --- OCR de imagen: QUE_E_COMO_ALIMENTARSE_ANTES_DUN_EXAME_9d27466d.jpeg ---
 QUE E COMO
 ALIMENTARSE ANTES
@@ -927,12 +924,12 @@ aE
 
 wm
 
+--- OCR de imagen: octubresaludable2022_49b73c02.jpeg ---
+UDeSaudlable
+
 --- OCR de imagen: cartel_cursoOctubre_2022_4x3_9b447dc5.jpeg ---
 INGENIERIA y DISENO
 Disefio Paramétrico con Solidworks
-
---- OCR de imagen: inicio2021_peque_44e4ef0d.jpeg ---
-2021/22 PRESENTACION POR GRUPOS
 
 --- OCR de imagen: presentacion_2223_pq_b2dceaf5.jpeg ---
 PRESENTACION z 2022/2023
@@ -942,6 +939,9 @@ EuDI =
 ee Martes 6 septiombre
 wae D208
 nudiorteslesg, “Rabe
+
+--- OCR de imagen: inicio2021_peque_44e4ef0d.jpeg ---
+2021/22 PRESENTACION POR GRUPOS
 
 --- OCR de imagen: CARTEL_PRESENTACION_EUDI_2020_21_PQ_80ed17b9.jpeg ---
 PRESENTACION POR GRUPOS
@@ -971,11 +971,6 @@ proyectos conceptuales
 INGENIERIA CON DISENO
 Disefio Paramétrico con Solidworks
 
---- OCR de imagen: inicio2019PQ_939516ff.jpeg ---
-i| @) Martes
-b.. if 10 septiembre
-‘Audi id
-
 --- OCR de imagen: PAPIROFLEXIA_ABANCA_DOC_20191104-WA0004_PQ_1c6cb3a8.jpeg ---
 ‘AASH-PRACTICA FUIRA DEL AULA CON VISITA GUIADA Y TALLER:
 
@@ -989,6 +984,16 @@ ede hadi ei dao pre id oe daar
 
 EUDI, Scr sMfundacién /ABANCA
 
+--- OCR de imagen: inicio2019PQ_939516ff.jpeg ---
+i| @) Martes
+b.. if 10 septiembre
+‘Audi id
+
+--- OCR de imagen: EXAMENESJULIO19_06169556.jpeg ---
+SSS} uwwersioave oa conuna
+
+——
+
 --- OCR de imagen: SEAT_Mayo_PQ_5660b891.jpeg ---
 PROYECTO FIN DE CARRERA
 
@@ -997,11 +1002,6 @@ SEAT METONOS, CONCEPOS ¥ PROYECTOS
 “ goonico vizaucz poe
 
 ANTONIO ALCOCER
-
---- OCR de imagen: EXAMENESJULIO19_06169556.jpeg ---
-SSS} uwwersioave oa conuna
-
-——
 
 --- OCR de imagen: CARTEL_PEPE_BARROpeque_d9c5deec.jpeg ---
 mais que ver
@@ -1060,6 +1060,12 @@ jo y Renderizado en Autom
 
 2017-2018
 
+--- OCR de imagen: seminario_SEAT_Oct_17_pq_5e23a0f1.jpeg ---
+an snanine Ys wurvos unouass DeLisi
+Pana ta auTomocion @
+
+rites Bags le nad)
+
 --- OCR de imagen: CARTEL_PODOLOGIA_PQ_276e1a6f.jpeg ---
 PODOLOGIA Y DISENO INDUSTRIAL
 Proyecto: Complementos de Moda CALZADOS LOSAL
@@ -1067,32 +1073,18 @@ Proyecto: Complementos de Moda CALZADOS LOSAL
 SS -44 $4 diy 4
 as vias
 
---- OCR de imagen: seminario_SEAT_Oct_17_pq_5e23a0f1.jpeg ---
-an snanine Ys wurvos unouass DeLisi
-Pana ta auTomocion @
-
-rites Bags le nad)
-
 --- OCR de imagen: seminario_losal_pq_c778b4df.jpeg ---
 DISENO Y PRODUCTO
 El Calzad le Moda = Disefio, materiales y
 procesos de realizacion
 
---- OCR de imagen: semiario_tipografía_pq_e9b0d89d.jpeg ---
-INTRODUCCION A LA TIPOGRAFIA
-La ipogratia es del Ss0to
-
 --- OCR de imagen: seminario_sargadelos_oct_2017_pq_a3e68984.jpeg ---
 @ SARGADELOS
 ssecance HISTORIA Y DISENO ACTUAL
 
---- OCR de imagen: inicio2017p_b51c5049.jpeg ---
-£10% o1quiondos | 5
-woot
-sojmnsysorpay op say
-
-2017/18
-PRESENTACION.
+--- OCR de imagen: semiario_tipografía_pq_e9b0d89d.jpeg ---
+INTRODUCCION A LA TIPOGRAFIA
+La ipogratia es del Ss0to
 
 --- OCR de imagen: carteles_ON_17_PQ_a9b68746.jpeg ---
 SB varesswoe on comin Se
@@ -1103,6 +1095,18 @@ DESERO PARAMETRICO DESERAR EN cHaPA
 BASICO CON SOLIDWORKS | METALICA CON SOLIDWORKS
 
 ~cOei Ge elt
+
+--- OCR de imagen: inicio2017p_b51c5049.jpeg ---
+£10% o1quiondos | 5
+woot
+sojmnsysorpay op say
+
+2017/18
+PRESENTACION.
+
+--- OCR de imagen: cartel_sentaesente_91dd2339.jpeg ---
+“XENTE!! SENTA E SENTE”
+Sintes rol,
 
 --- OCR de imagen: cartel_verano_17_8fb78080.jpeg ---
 Ss UNIVERSIDADE DA CORUNA
@@ -1117,10 +1121,6 @@ LEE Some
 ‘nioos 1 PUauco ex
 
 eup!, Dace <= Receune B
-
---- OCR de imagen: cartel_sentaesente_91dd2339.jpeg ---
-“XENTE!! SENTA E SENTE”
-Sintes rol,
 
 --- OCR de imagen: carteles_Feb_Mar_17_e91e9dd3.jpeg ---
 ——— Queanem
@@ -1186,48 +1186,43 @@ CADICAMICAE
 ie. =
 
 --- OCR de imagen: cursos_Marzo_Abril_16_d728187a.jpeg ---
-owner oncom Semnwwietencont
+Serwsecconcone Deemnmmerenconen
 AVANZANATUA AVANZA NA TUA
 FORMACION FORMACION
 
-ES ae
-
-4LETOA
+DESERO PARAMETRIC
+[AVANZADO CON SOLIDWORKS:
 
 --- OCR de imagen: cursos_Feb_Mar_2016_d4b468f9.jpeg ---
-SE unwversinade oa conuta
+SSE UNersivAde DA conuAiA
 
-JAVANZA NA TUA FORMACION
-Cursos CAD/CAM |FEBREIRO: 2016 |
+AVANZA NA TUA FORMACION
+Cursos CADICAM FEBREIRO-MARZO 2016
 
-DESEO PARAMETRICO MEDIO
-“|= CON SOLIDWORKS
+DESENO PARAMETRICO MEDIO
+CON SOLIDWORKS.
 
-‘TECNOLOXIAS de PROTOTIPADO 34
+‘TECNOLOXIAS de PROTOTIPADO 3d
+e reall
+
 tomsible
+
+DESENO 2D E PLANIMETRIAS
+DE FABRICACION CON AutoCAD
 
 RENDER e ANIMACION
 con 3D MAX V-RAY
 
-=} wnnersonoe oa comuha
+= wnnersonve oa comuha
 
 AVANZA NA TUA
-FORMACION.
+FORMACION
 
 i. 2015-2016
-CAD/CAM/CAE
+CAD/CAM/ CAE
 
-‘\avTo0esK BSsounwoes
-uot, 2 oo sm ome O
-
---- OCR de imagen: CARTEL_EUDI_2016_peque_5ecddc7d.jpeg ---
-7-09-2015
-Lunes -12:00 h.
-
-2015/16
-hia
-
-SSE weer conn
+‘\avToDEsK Bsourwoees
+e001, 2D oo = om O
 
 --- OCR de imagen: cartel_SWB_Nov_15_5e4bfede.jpeg ---
 SSE Unwversioane oa conunA
@@ -1241,6 +1236,15 @@ BASICO CON SOLIDWORKS
 
 Aavrovesk seuss
 nupt “yg Pscoccau A nn ©
+
+--- OCR de imagen: CARTEL_EUDI_2016_peque_5ecddc7d.jpeg ---
+7-09-2015
+Lunes -12:00 h.
+
+2015/16
+hia
+
+SSE weer conn
 
 --- OCR de imagen: planing_cursos15_16_228c7501.jpeg ---
 =} vnversve os conv
@@ -1319,17 +1323,6 @@ CURSO-OBRADOIRO
 DESENAR EN SOLIDWORKS e IMPRESION 3d
 Do desefio dixital a realidade tanxible
 
---- OCR de imagen: cartel_diseno_parametrico_II_noviembre_2014_2bfcd1bb.jpeg ---
-ZS saliaWorks
-
-ro)
-So
-nN
-st
-=
-=
-nN
-
 --- OCR de imagen: planing_semestre_1_2015_57d27e7d.jpeg ---
 SSE vuoersonreonconsm —_ BS SoiaWorks
 e Impresion 3d
@@ -1341,6 +1334,17 @@ PRIMER SEMESTRE 2015 ass tes ese
 
 fupt,
 
+--- OCR de imagen: cartel_diseno_parametrico_II_noviembre_2014_2bfcd1bb.jpeg ---
+ZS saliaWorks
+
+ro)
+So
+nN
+st
+=
+=
+nN
+
 --- OCR de imagen: ALVARO2014p_1dc3c2ff.jpeg ---
 PROYECTO FIN DE CARRERA
 
@@ -1348,6 +1352,16 @@ PACKAGE Y CONCEPTOS CONSTRUCTIVOS E
 HISTORICOS EN AUTOMOCION.
 
 a a
+
+--- OCR de imagen: cartel_disenar_superficies_automocion_noviembre_20_c13f0e8b.jpeg ---
+PS ssoliaorks
+
+0
+So
+N
+t
+So
+a
 
 --- OCR de imagen: cartel_DP_1_octubre2014_497a0342.jpeg ---
 Ds soliaWorks
@@ -1359,15 +1373,13 @@ x
 Ss
 S
 
---- OCR de imagen: cartel_disenar_superficies_automocion_noviembre_20_c13f0e8b.jpeg ---
-PS ssoliaorks
+--- OCR de imagen: SALVADOR2014peque_2713d1b8.jpeg ---
+SEMINARIO 2013-14
 
-0
-So
-N
-t
-So
-a
+© Soyo PLANTEAMIENTO, ESTRUCTURACION Y
+‘isiaheasiscom REAMIZACION DE MODELOS ESPECIALES.
+
+@ PDB
 
 --- OCR de imagen: PlaningSW2014-15_1a3ddd8e.jpeg ---
 7
@@ -1383,14 +1395,6 @@ VERAN 2014 D- Solid i lorks
 
 PLANING DeriImivo CURSOS NON REGRADOS
 
---- OCR de imagen: SALVADOR2014peque_2713d1b8.jpeg ---
-SEMINARIO 2013-14
-
-© Soyo PLANTEAMIENTO, ESTRUCTURACION Y
-‘isiaheasiscom REAMIZACION DE MODELOS ESPECIALES.
-
-@ PDB
-
 --- OCR de imagen: Chapa_80b6bb86.jpeg ---
 2.
 DS SolidWorks
@@ -1402,6 +1406,12 @@ Q
 z
 5
 2
+
+--- OCR de imagen: EduardoGarcia_b54c73d9.jpeg ---
+eupt, ZS
+
+road Bede Espa
+Fm UD Sle Crt
 
 --- OCR de imagen: estructuras_d3792851.jpeg ---
 ae
@@ -1418,11 +1428,10 @@ z
 --- OCR de imagen: decathlon_peque_e2175d19.jpeg ---
 CHARLA COLOQUIO PZeiilet
 
---- OCR de imagen: EduardoGarcia_b54c73d9.jpeg ---
-eupt, ZS
+--- OCR de imagen: seminario2d3d1_7e346d6a.jpeg ---
+T ievton @ KeyShot
 
-road Bede Espa
-Fm UD Sle Crt
+2l y 28 /Mowo/ 2014
 
 --- OCR de imagen: TELEVES-GSERTELpeque_509fd987.jpeg ---
 eee eee
@@ -1439,18 +1448,10 @@ i
 &
 *
 
---- OCR de imagen: seminario2d3d1_7e346d6a.jpeg ---
-T ievton @ KeyShot
-
-2l y 28 /Mowo/ 2014
-
 --- OCR de imagen: CartelparametricoIII_2f220a76.jpeg ---
 DS solidWorks
 
 2013 - 2014
-
---- OCR de imagen: cartelAplicacionesInformaticas_1_d4c7474b.jpeg ---
-Febrero- Marzo 2013
 
 --- OCR de imagen: CartelpresentacionAbril_a63a35d2.jpeg ---
 2 °
@@ -1463,6 +1464,9 @@ jae MUL
 bo ty
 
 PRESEN’
+
+--- OCR de imagen: cartelAplicacionesInformaticas_1_d4c7474b.jpeg ---
+Febrero- Marzo 2013
 
 --- OCR de imagen: SupyMoldes_F14_5bb607e4.jpeg ---
 z= .
@@ -1492,6 +1496,13 @@ DS SolidWorks
 
 PRESENTACION CON SOLIDWORKS
 
+--- OCR de imagen: DP1peque_0fac42e4.jpeg ---
+DS SolidWorks
+
+2.
+
+vlLOz - €L0Z
+
 --- OCR de imagen: sup_auto_peque_dcdcffe6.jpeg ---
 2 .
 DS SolidWorks
@@ -1506,13 +1517,6 @@ nN
 at @--0
 
 AUTOMOCION
-
---- OCR de imagen: DP1peque_0fac42e4.jpeg ---
-DS SolidWorks
-
-2.
-
-vlLOz - €L0Z
 
 --- OCR de imagen: solid2013142_99fbbb44.jpeg ---
 Zz 3
@@ -1567,14 +1571,14 @@ Ge)
 =
 nN
 
---- OCR de imagen: erasmus3_c82d601f.jpeg ---
-ERASMUS e BILATERAL
-
 --- OCR de imagen: BioGrafica_peque_06d1fd22.jpeg ---
 BIO — GRAFICA =:
 
 Hora: 12.00h - 14.00h
 Lugar: Aula de Creacién
+
+--- OCR de imagen: erasmus3_c82d601f.jpeg ---
+ERASMUS e BILATERAL
 
 --- OCR de imagen: sorteo_peque_2d2b11c7.jpeg ---
 frutoos
@@ -1628,6 +1632,17 @@ tana
 
 PROYECTO FIN DE CARRERA Eu},
 
+--- OCR de imagen: SALVADOR2012p_f5e3bfc9.jpeg ---
+PROYECTO FIN DE CARRERA
+LA ELECTROMOVILIDAD COMO CONCEPTO DE
+AUTOMOCION. EI nuevo tenguaie mot
+lgre-care= 2011 / 2012
+
+PLANTEAMIENTO, ESTRUCTURACION Y
+REALIZACION DE MODELOS ESPECIALES.
+
+@ & pawvard
+
 --- OCR de imagen: electromovilidad_Jesus_228b3b17.jpeg ---
 PROYECTO FIN DE CARRERA
 
@@ -1639,17 +1654,6 @@ Eominaria de: Tecleas do Renderizedo eplicads ot
 Proyecto SEAT ECAR: 2012,
 
 es
-
---- OCR de imagen: SALVADOR2012p_f5e3bfc9.jpeg ---
-PROYECTO FIN DE CARRERA
-LA ELECTROMOVILIDAD COMO CONCEPTO DE
-AUTOMOCION. EI nuevo tenguaie mot
-lgre-care= 2011 / 2012
-
-PLANTEAMIENTO, ESTRUCTURACION Y
-REALIZACION DE MODELOS ESPECIALES.
-
-@ & pawvard
 
 --- OCR de imagen: gorka_dfa1f6f2.jpeg ---
 Sabateagoren Bi” cone Manaae a

@@ -1,0 +1,801 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MEDIDAS PREVENTIVAS NOS CENTROS 
+DA UDC CARA UNHA NOVA 
+NORMALIDADE TRAS A ALERTA 
+SANITARIA POLA COVID-19  
+ 
+MARZO 2022 
+REV 0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Este documento está en revisión permanente e pode verse modificado en función da evolución 
+dos feitos e da nova información de que se di spoña respecto da COVID-19, así como das 
+instrucións que se reciban das autoridades competentes. 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 1/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+ 
+Índice 
+1.  INTRODUCIÓN ........................................................................................................................... 1 
+2.  RESPONSABLE COVID-19 ......................................................................................................... 1 
+3.  MEDIDAS PREVENTIVAS PARA DESENVOLVER ........................................................................ 1 
+3.1  ANTES DE IR AO CENTRO ................................................................................................... 2 
+3.2 CAPACIDADE MÁXIMA DOS CENTROS ................................................................................ 3 
+3.3 Distancia de seguridade interpersoal. ................................................................................... 3 
+3.4 Obrigatoriedade do uso de máscaras .................................................................................... 3 
+3.5 Excepcións a obriga do uso da máscara ............................................................................... 4 
+4.  Realización de actos e reunións laborais, institucionais, académicos ou profesionais, congresos 
+e outros eventos. ....................................................................................................................... 4 
+5.  ACTIVIDADES DEPORTIVAS ...................................................................................................... 5 
+6.  COORDINACIÓN DE ACTIVIDADES EMPRESARIAIS ................................................................... 7 
+7.  XESTIÓNS DE CASOS ................................................................................................................ 7 
+7.1  Xestión de residuos dos casos de COVID-19 .................................................................... 7 
+8  NORMATIVA E REFERENCIAS BIBLIOGRÁFICAS ....................................................................... 8 
+9  ANEXOS .................................................................................................................................... 9 
+Anexo 1. Sinais de entrada e saída ............................................................................................ 9 
+Anexo 2. Sinais para indicar a dirección de circulación ............................................................. 9 
+Anexo 3. Sinais para os postos de atención ao publico ........................................................... 10 
+Anexo 4. Carteis para os aseos ............................................................................................... 11 
+Anexo 5. Cartel para os ascensores ........................................................................................ 12 
+Anexo 6. Carteis informativos para a entrada dos edificios ..................................................... 13 
+Anexo 7. Carteis de capacidade de edificios e de espazos ...................................................... 14 
+Anexo 8. Cartel para o uso de xel hidroalcohólico ................................................................... 15 
+Anexo 9. Técnica para unha correcta hixiene das mans .......................................................... 16 
+Anexo 10. Uso correcto de máscaras e luvas .......................................................................... 17 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 2/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+ 
+RESUMO DAS REVISIÓNS 
+ 
+NÚMERO DATA MOTIVO 
+0 Marzo de 2022 Edición inicial 
+   
+   
+   
+   
+ 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 3/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+ 
+1. INTRODUCIÓN 
+Atendendo a evolución da situación epidemiolóxica e sanitaria na Comunidade Autónoma de Galicia, 
+á evidencia da transmisión por aerosois do SARS-CoV-2, á elevada taxa de vacinación e a caída da 
+incidencia tras a última variante, fai necesario actualizar as medidas fronte á COVID-19 nos centros 
+da Universidade da Coruña (UDC), co obxecto de garantir a maior seguridade neste ámbito.  
+O obxecto deste documento é manter as condic ións dos lugares de tr aballo e das medidas 
+preventivas e de pr otección perso al necesarias fronte á pro pagación da COVID-19 para o 
+desenvolvemento das activi dades dos centros da UDC  de acordo coas re comendacións das 
+autoridades, que seguen vixentes. 
+a) Instrucións do 1 de xullo de 2021, da Secretaría Xeral de Universidades, de previsión de medidas 
+de adaptación das universidades do Sistema Universitario de Galicia para o curso 2021/22. 
+b) Medidas de prevención, hixiene e promoció n da saúde fronte á COVID-19 para centros 
+universitarios no curso 2021/22, do  Ministerio de Sanidade e do Ministerio de Universidades, 
+aprobadas pola Comisión de Saúde Pública o 16/07/2021. 
+c) Orde do 22 de outubro de 2021 pola que se establecen medidas de prevención específicas como 
+consecuencia da evolución da situación epidem iolóxica derivada da COVI D-19 na Comunidade 
+Autónoma de Galicia e, as súas posteriores modificacións. 
+2. RESPONSABLE COVID-19 
+Na UDC o máximo responsable é o reitor, quen, xunto co equipo de goberno, xestiona as medidas 
+que cumpra tomar fronte á COVID-19 e faise cargo de todas as actuacións que se desenvolven na 
+UDC, tanto docentes como sanitarias. 
+En todos os  centros da UDC segue a haber unha persoa responsable das medidas adoptadas fronte 
+á COVID no edificio, quen, entre outras funcións, é a canle de comunicación do centro co reitor e co 
+equipo de goberno da UDC ante calquera trámite de urxencia que deba realizarse por mor da COVID-
+19.Tamén é a persoa responsable de adoptar as medidas oportunas no centro ante a aparición dun 
+posible positivo, así como de organizar os recu rsos humanos e materiais con que conte para o 
+desenvolvemento da actividade do centro dentro de parámetros de normalidade. 
+En materia preventiva e sanitaria, cóntase co asesoramento do Servizo de Prevención de Riscos 
+Laborais da UDC. 
+No caso de se declarar un gromo, seguirase o que indiquen as autoridades académicas e sanitarias 
+en cada instante. 
+ 
+3. MEDIDAS PREVENTIVAS  
+Sen prexuízo do cumprimento da normativa de prevención de riscos laborais e da normativa laboral, 
+as persoas responsables dos centros  axudarán a manter as acci óns necesarias para cumprir as 
+medidas de hixiene e prevención actuais. 
+Como puntos xerais importantes respecto á COVID-19 están os seguintes: 
+a) Deberanse actualizar os diferentes carteis (de capacidade máxima e uso de aseos) dos espazos 
+do centro cando corresponda segundo os anexos deste documento (na actualidade os centros 
+teñen un 100 % de capacidade dos espazos salvo nos establecementos de hostalería e 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 4/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+2 
+restauración, nos que a ocupación máxima para o uso dos aseos, vestiarios, probadores, salas 
+de lactación ou similares de clientes, visit antes ou usuarios será dunha persoa para espazos 
+de ata 4 m 2, salvo naqueles supostos de persoas que poi dan precisar asistencia; nese caso 
+tamén se permitirá a utilización por parte do seu acompañante. Para aseos de máis de 4 m 2 
+que conten con máis dunha cabina ou urinario, a ocupación máxima será do 50 % do número 
+de cabinas e urinarios que teña a estancia, e deberá manterse durante o seu uso a distancia 
+de seguridade interpersoal. Deberá reforzarse a limpeza e desinfección dos referidos espazos 
+garantindo sempre o seu estado de salubridade e hixiene). 
+b) Existirán información e sinalización naqueles lugares en que for necesario para o cumprimento 
+das medidas de prevención (ver anexos). 
+c) O uso da máscara é obrigatorio segundo o indicado neste documento. 
+d) Recoméndase que os espazos estean ventiladas antes do seu uso. Abriranse as xanelas durante 
+o tempo necesario para permitir a renovación do aire (mínimo durante 30 min ao inicio e ao remate 
+de cada xornada, así como de forma frecuente durante esta). Evitaranse as correntes de aire. 
+Cando o uso dos diferentes espazos sexa continuo ou supere os 60 min deberase garantir unha 
+ventilación mínima de 10 min cada hora. No ca so da utilización de sistemas de ventilación 
+mecánica, deberá aumentarse a subministració n de aire fresco e limitarase ao mínimo 
+indispensable a función de recirculación do aire interior. 
+e) Recomendase que existan kits de desinfección co fin de fom entar que os us uarios manteñan 
+desinfectados os obxectos e as superficies que empreguen ou compartan (mesa de traballo ou 
+de estudo, teléfono, material de oficina, material deportivo etc). 
+f) Asegurarase a subministración de material de uso hixiénico-preventivo mentres funcione o centro 
+e repoñerase cando for necesario.  
+g) Recomendase graduar a entrada e saída nos diferentes espazos para evitar aglomeracións. 
+h) Todas as persoas que integran a comunidade universitaria deberán seguir adoptando as medidas 
+necesarias para evitar xerar riscos de propagación da COVID-19, así como a propia exposición 
+aos devanditos riscos (deber de cautela e protección). 
+i) Recoméndase manter nas portas principais un cubo do lixo, con tampa e a poder ser accionado 
+mediante pedal, para poder tirar os refugallos da etiqueta respiratoria (máscaras e luvas). 
+j) Recoméndase manter na zona próxima aos accesos un dispensador de xel hidroalcohólico para 
+a desinfección das mans. Será visible e estará sinalizado. Comprobarase o seu contido ao longo 
+da xornada e reporase no caso de esgotarse. 
+k) Recoméndase que todo o persoal que acceda ao centro use o xe l hidroalcohólico ou lave as 
+mans con auga e xabón durante 40-60 s. 
+3.1  ANTES DE IR AO CENTRO 
+Todas as persoas que experimenten algún dos síntomas máis comúns compatibles coa COVID-19, 
+tales como febre, calafríos, tose, sensación de falta de aire, diminución do olfacto e do gusto, dor de 
+gorxa, dores musculares, dor de cabeza, debilidade xeral, diarrea ou vómitos, deberá permanecer 
+no seu domicilio e comunicalo ao seu servizo sani tario o antes posible. Igualmente, se existen 
+conviventes no domicilio, deberá evitar o contacto con eles e, se é posible, usar un cuarto de forma 
+exclusiva ata recibir instrucións do seu servizo sanitario. 
+Os membros da comunidade universitaria (PAS, PDI, persoal investigador ou estudantado) deberán 
+ter en conta as seguintes recomendacións: 
+As persoas que sexan positiva por infección activa (test de antíxenos, PCR etc) ou sexa contacto 
+estreito dun positivo seguiran o  Novo protocolo de comunicación, corentena e seguimento dos casos 
+na UDC. 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 5/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+3 
+3.2 CAPACIDADE MÁXIMA DOS CENTROS 
+Na data de redacción deste documento, como norma xeral, a capacidade máxima do centro e dos 
+seus diferentes espazos é do 100% da súa capacidade.  
+A organización da circulación de persoas e a distribución de espazos deberá procurar a posibilidade 
+de manter a distancia de seguridade interpersoal mínima de 1,5 metros. 
+Na porta de acceso aos distinto s espazos manterase o cartel coa indica ción da súa capacidade 
+máxima. 
+Será obrigatorio que todos os us uarios dos espazos interiores leven sempre máscara, salvo as 
+excepcións indicadas neste documento. Esta obrigatoriedade está sinalizada co cartel 
+correspondente. 
+Nos espazos de hostalaría e restauración, aplic arase tamén o que establece a Orde do 14 de 
+setembro de 2021 pola que se aproba o novo Plan de hostalaría segura da Comunidade Autónoma 
+de Galicia, nomeadamente no relativo á distribució n de espazos, ocupacións, mobiliario e outros 
+elementos de seguridade. 
+3.3 Distancia de seguridade interpersoal. 
+Na data de redacción deste documento a capacidade máxima en situación de pandemia dos espazos 
+interiores do centro (aulas, laboratorios, bibliotecas etc) é do 100% da capacidade máxima permitida.  
+Na organización das distintas actividades (estar de pé, en movemento etc) deberanse adoptar as 
+medidas necesarias para garantir a distancia interpersoal mínima de 1,5 metros. 
+3.4 Obrigatoriedade do uso de máscaras 
+É obrigatorio o uso da máscara hixiénica (recoméndase que sexa reutilizable, co fin de protexer o 
+medio ambiente) en todos os espazos pechados do centro, durante a permanencia nel, para todas 
+as persoas que accedan ao seu interior, de acordo coas recomendacións das autoridades sanitarias 
+e a normativa vixente. Insístese na necesidade da súa correcta utilización. Esta información está 
+visible nas zonas de entrada dos edificios. 
+Deberá dárselle un uso axeitado á máscara, é dicir, esta deberá cubrir desde o tabique nasal ata o 
+queixo, ambos extremos incluídos. Ademais, a máscara que se empregue non deberá estar provista 
+de válvula exhalatoria, agás nos usos profesionais para os cales este tipo de máscara poida estar 
+recomendada. 
+É obrigatorio o uso da máscara, para as persoas de 6 ou máis anos, nas seguintes condicións: 
+1. Cando estean en espazos pechados de uso público ou que se encontren abertos ao público . 
+2. Nos eventos multitudinarios que teñen lugar en espazos ao aire libre, cando os asistentes estean 
+de pé. Se están sentados, será obrigatorio cando non se poida manter 1,5 metros de distancia 
+entre persoas, salvo grupos de conviventes. 
+3. Nos medios de transporte aéreo, marítimo, en autobús e por ferrocarril, incluídas as estacións de 
+viaxeiros e as súas plataformas, así como nos transportes públicos e privados complementarios 
+de viaxeiros en vehículos de ata 9 prazas, incluído o condutor. Nos espazos pechados de buques 
+e embarcacións, cando non se po ida manter a distancia de segu ridade de 1,5 metros, salvo 
+grupos de conviventes. 
+Na realización de adestramentos e na celebración de competicións en espazos pechados dentro da 
+actividade deportiva federada de competencia autonómica aplicarase, respecto do uso da máscara, 
+o recollido especificamente no protocolo das federacións deportivas respectivas. 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 6/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+4 
+Nas actividades no ámbito laboral desenvolvidas en espazos comúns ou de uso colectivo pechados 
+ou en calquera outra dependencia en que estean varios traballadores/as ou traballadores/as e/ou 
+clientes é obrigatorio o uso da máscara. 
+3.5 Excepcións a obriga do uso da máscara 
+a) Cando estean en espazos abertos ao público ou que se encontren abertos ao público. 
+b) Cando se trate de persoas que presenten algún tipo de enfermidade ou dificultade respiratoria 
+que se poida ver agravada polo uso da máscara ou que, pola súa situación de discapacidade ou 
+dependencia, non dispoñan de autonomía para quitar a máscara, ou ben presenten alteracións 
+de conduta que fagan inviable a súa utilización.  
+c) Nos vehículos de turismo, cando todas as persoas ocupantes convivan no mesmo domicilio. 
+d) No interior dos establecementos  de hostalaría e restauración , por parte dos clientes do 
+establecemento exclusivamente nos momentos estritamente necesarios de comer ou beber. 
+e) No interior dos cuartos de establecementos de aloxamento turístico e outros espazos similares, 
+cando unicamente se encontren neles persoas que se aloxen no cuarto. 
+f) En supostos de forza maior ou situación de nece sidade ou cando, pola propia natureza das 
+actividades, o uso da máscara resulte incompatible, conforme as indicacións das autoridades 
+sanitarias. 
+Atendendo á recomendación do Pleno extraordinario do Consello Interterritorial do Sistema Nacional 
+de Saúde do 7 de febreiro de 2022 e do Subcomité Clínico da Consellería de Sanidade, recoméndase 
+o uso da máscara na vía pública e en espazos ao aire libre cando existan aglomeracións de persoas 
+nun espazo limitado, especialmente para a poboación de máis idade ou inmunocomprometida e máis 
+vulnerable, así como para os nenos e nenas mentres non teñan a pauta completa de vacinación. 
+Entenderase  que  hai  aglomeracións  de  persoas  cando  se  produza  unha  reunión  numerosa  e 
+desordenada  de  persoas  na  cal,  ademais,  non  sexa  posible  garantir  a  distancia  de  seguridade 
+entre  non conviventes,  como,  entre  outros  supostos,  nas  entradas  e  saídas  de  centros  de 
+traballo,  educativos,  sociais  ou  comerciais,  rúas  máis  concorridas  ou  manifestacións. 
+Tampouco será obrigatorio, aínda que si recomendable, o emprego da máscara en locais de uso 
+individual e en ausencia doutras persoas. 
+4. Realización de actos e re unións laborais, instit ucionais, académicos ou 
+profesionais, congresos e outros eventos. 
+Segundo a normativa vixente, a realización de actos e reunións laborais, institucionais, académicos, 
+profesionais, sindicais, de representación de traballadores e administrativos, actividades en centros 
+universitarios, educativos, de formación e ocup acionais, congresos e ou tros eventos poderá 
+desenvolverse co 100 % da capacidade permitida, sempre que o público asistente permaneza 
+sentado. 
+En feiras, congresos e actos profesionais permitirase o desprazamento dos asistentes nos espazos 
+de exposición cunha capacidade limitada ao 75 %. 
+Permítese a realización de cócteis e actos de recepción con aperitivo e público de pé que, no 
+momento de retirada da máscara para o consumo,  deben respectar a distancia interpersoal de 
+seguridade entre persoas non co nviventes. Os grupos de persoas de pé po derán ser de ata 10 
+persoas no interior e 20 na terraza. 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 7/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+5 
+En todo caso, deberán establecerse as medidas necesarias para manter a distancia de seguridade 
+interpersoal segundo e o uso de máscara de acordo co establecido neste documento. 
+5. ACTIVIDADES DEPORTIVAS 
+Actividade deportiva 
+A realización da actividade física e deportiva NON FEDERADA axustarase ás seguintes regras: 
+a) A práctica da actividade física e deportiva non federada poderase realizar ao aire libre ou en 
+instalacións deportivas ao aire libre, sen que sexa precisa a utilización de máscara, de 
+acordo co disposto neste docuemnto. 
+b) A práctica da actividade física e deportiva non federada poderá realizarse de forma individual 
+ou colectiva, en instalacións e en centros deportivos pechados, coa utilización da máscara. 
+Deberanse establecer as medidas necesarias para procurar a distancia de seguridade interpersoal 
+durante o desenvolvemento da actividade. 
+Tamén se permite o uso deportivo das piscinas ao aire libre ou cubertas. 
+Deberán realizarse tarefas de ventilación nas instalacións cubertas durante un mínimo de 30 
+minutos ao inicio e ao remate de cada xornada,  así como de forma frecuente durante esta e, 
+obrigatoriamente, ao remate de cada clase ou actividade de grupo. 
+No caso da utilización de sistemas de ventilación mecánica, deberá aumentarse a subministración 
+de aire fresco e limitarase ao mínimo indispensable a función de recirculación do aire interior. 
+O uso de duchas e lavapés ao aire libre limitaras e a unha persoa por dispositivo, sempre que se 
+poida manter a distancia de seguridade inter persoal, agás no caso de menores ou persoas que 
+precisen asistencia, que poderán contar co seu acompañante. 
+Respecto do uso de vestiarios e aseos nas instalacións, poderase utilizar o 100 %. 
+A práctica da actividade deportiva FEDERADA de ámbito autonómico, adestramentos e 
+competicións axustarase aos correspondentes protocolos Fisicovid-Dxtgalego aprobados. 
+No ámbito das competicións deportivas oficiais de ámbito estatal que se realicen na Comunidade 
+Autónoma de Galicia, serán de aplicación as seguintes medidas: 
+a) Os equipos e deportistas galegos  que participen nas ditas compet icións deberán realizar os 
+adestramentos e a competición en grupos de composición estable. 
+b) A totalidade dos membros da expedición  dos equipos e deportistas procedente doutras 
+comunidades autónomas que se despracen á Comunidade Autónoma de Galicia para participaren 
+nas ditas competicións deberán comunicar, cunha antelación mínima de 24 horas, ás autoridades 
+sanitarias autonómicas a relación das persoas integrantes da expedición trasladada a Galicia, a 
+data e a hora de chegada á Comunidade Autónoma galega e o lugar de aloxamento. 
+As medidas previstas deben entenderse dentro do necesario respecto ás competencias das 
+autoridades deportivas e sanitarias estatais, polo que serán aplicables sempre que resulten 
+compatibles coas adoptadas polas ditas autoridades e mentres non existan medidas obrigatorias 
+dimanantes delas que ofrezan un nivel de protección equivalente ou similar. 
+Celebración de competiciones deportivas con público 
+Segundo a normativa vixente, as competicións deportivas con público,  poderán celebrarse 
+cunha ocupación do 100 %, sempre que o público asistente permaneza sentado e se garantan as 
+medidas establecidas para garantir a distancia interpersoal mínima de 1,5 metros. 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 8/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+6 
+As actividades en cines, teatros, auditorios e espazos similares, e en establecementos destinados 
+a espectáculos públicos e actividades recreativas, poderanse desenvolver co 100 % da 
+capacidade máxima permitida. En todo caso, deberán  establecerse as medidas necesarias para 
+procurar manter a distancia de seguridade interpersoal establecidas neste documento. 
+Deberán realizarse tarefas de ventilación nas instalacións cubertas por espazo de, polo menos, 30 
+minutos ao comezo e ao final de cada xornada,  así como de forma frecuente durante esta e 
+obrigatoriamente ao finalizar c ada actividade. No caso da utilización de sistemas de ventilación 
+mecánica, deberá aumentarse a subministració n de aire fresco e limitarase ao mínimo 
+indispensable a función de recirculación do aire interior. 
+Deberá existir un rexistro de asistentes ao evento, que deberá ser custodiado durante o mes 
+seguinte coa información de contacto, dispoñible para as autoridades sanitarias e cumprindo coas 
+normas de protección de datos de carácter persoal. 
+Deberán intensificarse as medi das de limpeza e desinfección das instalacións con produtos 
+debidamente autorizados e rexistrados. 
+Os espectáculos musicais/artísticos ao aire libre poderán desenvolverse co 100 % da ocupación 
+máxima permitida. En todo caso, sen prexuízo do indicado, resultarán de aplicación as medidas 
+sanitarias previstas nos protocolos publicados no seguinte enderezo electrónico: 
+https://coronavirus.sergas.gal/Contidos/Espectaculos-musicais-aire-libre 
+Campus deportivo, campamentos deportivos ou outras actividades análogas 
+A celebración de eventos deportivos recollidos no artigo 22 da Lei 3/2012, do 2 de abril, do deporte 
+de Galicia, poderase desenvolver cunha ocupac ión máxima do 100 %, sempre que o público 
+asistente permaneza sentado e se garantan as medidas establecidas neste documento. 
+En todo caso, deberanse establecer as medidas nec esarias para procurar manter a distancia de 
+seguridade interpersoal nas instalacións, de acordo co establecido neste documento. 
+Deberán realizarse tarefas de ventilación nas instalacións cubertas por espazo de, polo menos, 30 
+minutos ao comezo e ao final de cada xornada, así como de forma frec uente durante esta e, 
+obrigatoriamente, ao finalizar c ada actividade. No caso da utilización de sistemas de ventilación 
+mecánica, deberá aumentarse a subministració n de aire fresco e limitarase ao mínimo 
+indispensable a función de recirculación do aire interior. 
+Deberán intensificarse as medi das de limpeza e desinfección das instalacións con produtos 
+debidamente autorizados e rexistrados. 
+Piscinas 
+As piscinas ao aire libre ou cubertas de uso recreativo poderán dispor do 100 % da súa 
+capacidade, tanto no relativo ao acceso como durante a propia práctica deportiva ou recreativa. 
+Habilitaranse sistemas de acceso que eviten a aglomeración de persoas e que cumpran coas 
+medidas de seguridade e protección sanitaria. 
+A situación dos obxectos persoais, toallas, hamacas e elementos similares nas zonas de estadía 
+das piscinas levarase a cabo de forma que se poida manter a distancia de seguridade interpersoal 
+con respecto a outros usuarios.  
+O uso de máscaras rexerase polo establecido neste documento. 
+Respecto do uso de vestiarios e aseos en todas as instalacións, poderase utilizar o 100 %. 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 9/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+7 
+6. COORDINACIÓN DE ACTIVIDADES EMPRESARIAIS 
+Debe continuar a coordinación das actividades empresariais relativas á existencia da COVID-19 coas 
+empresas que presten servizos nos centros, ou ben teñan en aluguer ou cedido calquera espazo. 
+Propiciarase o intercambio de información en canto ás normas de prevención da infección por 
+coronavirus, de xeito similar a como se realiza habitualmente para o traballo cotián, isto é, dun lado, 
+proporcionaranse as normas ex istentes no centro para o control da COVID-19; e, do outro, 
+recolleranse das contratas as normas que vaian aplicar os seus propios traballadores. 
+7. XESTIÓNS DE CASOS 
+As persoas que experimenten algún dos síntomas máis comúns compatibles coa COVID-19, tales 
+como febre, calafríos, tose, sensación de falta de aire, diminución do olfacto e do gusto, dor de gorxa, 
+dores musculares, dor de cabeza, debilidade xeral, diarrea ou vómitos deberá permanecer no seu 
+domicilio e comunicalo ao seu servizo sanitario o antes posible. 
+Igualmente, se existen conviventes no domicilio, deberá evitar o contacto con eles e, se é posible, 
+usar un cuarto de forma exclusiva ata recibir instrucións do seu servizo sanitario. 
+Non poderán acceder ao centro aquelas persoas con síntomas compatibles coa COVID-19, nin as 
+persoas que sexan positiva por infección acti va (test de antíxenos, PCR etc) e seguirán o Novo 
+protocolo de comunicación, corenetena e seguimento de casos na UDC. 
+As persoas que sexan consideradas caso sospeitoso ou probable de infección polo virus SARSCoV-
+2, por teren infección respirator ia aguda grave con cadro clínico ou radiolóxico compatible coa 
+COVID-19, ou que estean pendentes dos resultados de probas diagnósticas por este motivo, as que 
+sexan consideradas como caso confirmado con infección activa e as consideradas contacto estreito 
+dun caso sospeitoso, probable  ou confirmado deberán seguir as condicións de illamento ou 
+corentena que lles sexan indicadas desde os dispositivos asistenciais ou de saúde pública, sen poder 
+abandonar o seu domicilio ou lugar de illamento ou corentena en ningún caso, salvo autorización 
+expresa do servizo sanitario por causas debidamente xustificadas. 
+ 
+7.1 Xestión de residuos dos casos de COVID-19 
+Segundo as recomendación s do Ministerio de Sanidade, os re siduos do persoal afectado pola 
+COVID-19, incluído o material desbotable (luvas, panos, máscaras), cómpre eliminalos nunha bolsa 
+de plástico (bolsa 1) nun cubo do lixo disposto no LOCAL COVID, preferiblemente con tampa e 
+pedal. 
+Esta bolsa de plástico (bolsa 1) debe pecharse adecuadamente e ser introducida nunha segunda 
+bolsa do lixo (bolsa 2), á beira da saída do cuarto, onde ademais se depositarán as luvas e a 
+máscara utilizadas polo persoal da limpeza. A segunda bolsa pecharase adecuadamente antes de 
+saír da estancia.  
+A bolsa 2, cos residuos anteriores, depositarase nunha terceira bolsa do lixo (bolsa 3) co resto dos 
+residuos de tipo doméstico (fracc ión resto) que poida haber. A bolsa 3  tamén se pechará 
+adecuadamente.  
+Inmediatamente despois realizarase unha completa hixiene das mans, con auga e xabón, durante 
+polo menos 40-60 s.  
+A bolsa 3 depositarase exclusivamente no colector establecido. Está terminantemente prohibido 
+depositala nos colectores de recollida separada de calquera das fraccións (orgánica, envases, papel, 
+vidro ou téxtil) ou abandonala na contorna.  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 10/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+8 
+8 NORMATIVA E REFERENCIAS BIBLIOGRÁFICAS 
+Real  Decreto  115/2022,  de  8  de  febreiro,  polo  que  se  modifica  a obrigatoriedade  do  uso  da  
+máscara  durante  a  situación  de  crisis  sanitaria ocasionada pola COVID-19. 
+Orde do 22 de outubro de 2021 pola que se establ ecen medidas de prevención específicas como 
+consecuencia da evolución da situación epidem iolóxica derivada da COVI D-19 na Comunidade 
+Autónoma de Galicia e as súas posteriores modificacións. 
+Orde do 14 de setembro de 2021 pola que se apr oba o novo Plan de hostalaría segura da 
+Comunidade Autónoma de Galicia e as súas posteriores modificacións. 
+Novo  protocolo  de  comunicación,  corentena  e  seguimento dos casos  na UDC. 
+Recomendacións de protección fronte á COVID-19. Dirección Xera l de Saúde Públic a. Xunta de 
+Galicia. 
+Instrucións do 1 de xullo de 2021 da Secretaría Xeral de Universidades, de previsión de medidas de 
+adaptación das universidades do Sistema universitario de Galicia para o curso 2021/2022. 
+Medidas de prevención, hixiene e promoción da saúde fronte á COVID-19 para centros universitarios 
+no curso 2021/22 do Ministerio de Sanidade e do Minist erio de Universidade s, aprobadas pola 
+Comisión de Saúde Pública o 16/07/2021 
+Medidas de prevención e hixiene fronte á Covid-19 para os centros da Universidade da Coruña para 
+o Curso 2021/2022. SPRL-UDC xullo 2021. 
+Guía de boas prácticas en centros de traballo para previr os contaxios da COVID-19. Ministerio de 
+Sanidade. 
+Bo uso dos equipos de protección individual en persoal esencial non sanitario. Dirección Xeral de 
+Saúde Pública. Xunta de Galicia. 
+ 
+  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 11/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+9 
+ANEXOS 
+Anexo 1. Sinais de entrada e saída 
+  
+ 
+ 
+ 
+ 
+Anexo 2. Sinais para indicar a dirección de circulación 
+ 
+ 
+ 
+ 
+ 
+  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 12/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+10 
+Anexo 3. Sinais para os postos de atención ao publico 
+ 
+ 
+ 
+ 
+ 
+  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 13/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+11 
+Anexo 4. Carteis para os aseos  
+ 
+ 
+ 
+ 
+ 
+  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 14/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+12 
+Anexo 5. Cartel para os ascensores 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 15/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+13 
+Anexo 6. Carteis informativos para a entrada dos edificios 
+ 
+ 
+ 
+ 
+  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 16/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+14 
+Anexo 7. Carteis de capacidade de edificios e de espazos 
+CAPACIDADE DO EDIFICIO 
+ 
+ 
+ 
+CAPACIDADE DE LOCAIS (AULAS, ASEOS, SALAS DE REUNIÓNS, BIBLIOTECAS, 
+CAFETARÍAS...) 
+ 
+ 
+  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 17/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+15 
+Anexo 8. Cartel para o uso de xel hidroalcohólico  
+Colocaranse carteis sobre o uso de xel hidroalcohólico nos dispensadores existentes, con 
+esta información: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 18/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+16 
+Anexo 9. Técnica para unha correcta hixiene das mans 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 19/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+17 
+ 
+Anexo 10. Uso correcto de máscaras e luvas 
+O uso inadecuado das máscaras pode contribuír ao s eu desabastecemento naquelas situacións 
+en que estean indicadas, amais de crear unha falsa sensación de seguridade que pode facer que 
+se descoiden outras medidas esenciais, como a hixiene das mans. 
+Para un manexo correcto da máscara, cando é necesaria, cómpre seguir estes pasos: 
+ Antes de poñer a máscara, lava ou desinfecta as mans. 
+ Axusta a máscara para que non haxa espazos entre a túa cara e a máscara. 
+ EVITA TOCAR a máscara mentres a usas, e se o fas, lava ou desinfecta as mans. 
+ Cambia a máscara cando estea húmida, e non reutilices as dun só uso. 
+ Quita a máscara por detrás, NON toques a par te de diante, desbótaa nun recipiente pechado 
+e lava as mans. 
+ 
+Como usar correctamente as máscaras e as luvas? 
+Para colocar as luvas e a máscara hai que seguir esta orde e lavar sempre as mans antes 
+de poñelas (tamén cando se retire cada unha das proteccións): 
+1. Lavar as mans. 
+2. Poñer as luvas. 
+3. Poñer a máscara. 
+ 
+ 
+Como poñer unha máscara? 
+MÁSCARAS CIRÚRXICAS 
+Asegúrate de que o lado correcto queda contra a cara (habitualmente é de cor branca). 
+Coloca ben as bandas, segundo o modelo: ben por detrás das orellas ou ben a banda 
+superior pola parte da cabeza e a inferior pola parte de atrás do pescozo.  
+ 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 20/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+18 
+Asegúrate de que cobre boca e o nariz e de que non hai espazos entre a cara e a máscara 
+ 
+Cambia de máscara cirúrxica tan axiña como estea húmida e non reutilices as máscaras 
+dun só uso. 
+Evita tocar a máscara mentres a usas. Se o f as, lava as mans cun desinfectante a base 
+de alcohol ou con auga e xabón. 
+Para retirala, faino por detrás, collendo as gomas/cintas con coidado. NON toques a parte 
+dianteira. 
+Finalmente, volve lavar as mans 
+  
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 21/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+19 
+ 
+Como poñer unha máscara? 
+MÁSCARAS FFP2 SEN VÁLVULA DE EXHALACIÓN 
+ 
+ 
+ 
+Como quitar correctamente as luvas e a máscara? 
+1. Retirar as luvas 
+    
+Belisca a primeira 
+luva polo exterior. 
+Retira a primeira luva 
+sen tocar a parte 
+interior. 
+Retira a luva na súa 
+totalidade 
+Recolle a luva coa 
+outra man. 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 22/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+ 
+ 
+ 
+20 
+   
+Retira a segunda luva inserindo uns 
+dedos por debaixo do pulso. 
+Tira da luva ata que saia do 
+revés, sen tocar a súa parte 
+exterior. 
+Desbota as dúas luvas na 
+bolsa da papeleira. 
+2. Lavar as mans 
+3. Retirar a máscara e refugala adecuadamente (nunha bolsa que se pechará ben) 
+ 
+4. Lavar as mans 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Código Seguro De Verificación V1qdPWQ3DtqUOFduPEuAKg==Estado Data e hora
+Asinado Por XERENTE  - Ramón Alberto Del Valle López Asinado 08/04/2022 09:12:55
+Observacións Páxina 23/23
+Url De Verificación https://sede.udc.gal/services/validation/V1qdPWQ3DtqUOFduPEuAKg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).

@@ -1,0 +1,155 @@
+gl
+es
+en
+gl
+es
+en
+UDC
+Facultade de Filoloxía Facultade de Filoloxía A Facultade Graos Mestrados Doutoramento Investigación Calidade International Students Contacto
+Facultade de Filoloxía
+A Facultade
+Graos
+Mestrados
+Doutoramento
+Investigación
+Calidade
+International Students
+Contacto
+Mestrados Mestrados Máster en Ensino de Español como Lingua Estranxeira Mestrado en Estudos Ingleses Mestrado en Lingüística Aplicada Mestrado en Literatura
+Mestrados
+Máster en Ensino de Español como Lingua Estranxeira
+Mestrado en Estudos Ingleses
+Mestrado en Lingüística Aplicada
+Mestrado en Literatura
+Máster en Ensino de Español como Lingua Estranxeira Máster en Ensino de Español como Lingua Estranxeira Curso 2025/2026
+Máster en Ensino de Español como Lingua Estranxeira
+Curso 2025/2026
+Máster en Ensino de Español como Lingua Estranxeira
+>>
+Curso 2025/2026
+Facultade de Filoloxía
+A Facultade | Graos | Mestrados | Doutoramento | Investigación | Calidade | International Students
+Máster en Ensino de Español como Lingua Estranxeira ou Segunda Lingua
+Plataformas de docencia
+1  Plataformas de acceso y herramientas de comunicación
+2  Credenciales de acceso
+3  Uso de las plataformas en cada asignatura
+4  Pautas generales para acceso a las plataformas de cada universidad
+5  Asistencia técnica
+6  Requisitos técnicos (equipo, aplicaciones, conexión)
+7  Activación de los servicios
+1  Plataformas de docencia y herramientas de comunicación
+La docencia virtual de cada asignatura se llevará a cabo a través de las plataformas de docencia y de las herramientas de comunicación de la universidad encargada de la asignatura.
+Campus Virtual (USC), UDC on line (UDC) y Moovi (UVigo)
+Son las plataformas en las que se ofrece acceso a todos los contenidos y materiales de cada materia: presentaciones teóricas, bibliografía, vídeos, ejercicios, enlaces a páginas web de interés, etc.
+MS Teams (USC y UDC) y Campus Remoto (UVigo)
+Son las plataformas que se utilizarán para la impartición de las sesiones no presenciales síncronas, tutorías, defensa del Trabajo Fin de Máster, etc.
+^
+2   Credenciales de acceso
+a) Cada estudiante dispondrá de credenciales de usuario (claves de identificación y contraseña) de las tres universidades para acceder a las herramientas.
+b) Las herramientas corporativas de cada universidad funcionan de forma independiente respecto de las otras dos; por tanto, el alumnado tendrá tres credenciales de usuario distintas, una para cada una de las univesidades.
+c) De acuerdo con lo indicado en b), para acceder a las herramientas manejadas en el desarrollo de la docencia de las asignaturas, el alumnado debe emplear los puntos de acceso y el nombre de usuario/a y la clave de cada universidad, según lo indicado en el apartado « 3 Uso de plataformas en cada asignatura ».
+d) Será necesario activar las plataformas en cada universidad, conforme se indica en el apartado « 7 Activación de los servicios ».
+^
+3   Uso de las plataformas en cada asignatura
+M1. Enfoques metodológicos en el aprendizaje y la enseñanza de segundas lenguas UVigo : Moovi y Campus Remoto
+M2. La gramática y su enseñanza en español LE/L2 USC : Campus Virtual y MS Teams
+M3. El léxico y su enseñanza en español LE/L2 UDC : UDC online y MS Teams
+M4. La pragmática y la sociolingüística en la enseñanza de segundas lenguas UDC : UDC online y MS Teams
+M5. Planificación, gestión y evaluación del proceso de enseñanza y aprendizaje de segundas lengua s USC : Campus Virtual y MS Teams
+M6. Desarrollo de materiales para la enseñanza de español LE/L2 UVigo : Moovi y Campus Remoto
+M7. Las actividades comunicativas de la lengua: comprensión, expresión, interacción y mediación USC : Campus Virtual y MS Teams
+M8. El aprendizaje de español LE/L2 basado en datos de corpus USC : Campus Virtual y MS Teams
+M9. Contextos de enseñanza de español LE/L2 UVigo : Moovi y Campus Remoto
+M10. Las variedades del español y su enseñanza en español LE/L2 UDC : UDC online y MS Teams
+M11. Enseñanza del español con fines específicos UDC : UDC online y MS Teams
+M12. Enseñanza de lengua española a signantes UVigo : Moovi y Campus Remoto
+Prácticas externas USC : Campus Virtual y MS Teams UDC : UDC online y MS Teams UVigo : Moovi y Campus Remoto
+Trabajo fin de máster USC : Campus Virtual y MS Teams UDC : UDC online y MS Teams UVigo : Moovi y Campus Remoto
+^
+4  Pautas generales para acceder a las plataformas de cada universidad
+Univ. de Santiago de Compostela (USC)
+Campus Virtual
+Acceso: http://cv.usc.es Deberás emplear el correo electrónico y la contraseña de la USC. Ayuda: https://www.usc.gal/gl/campusvirtual
+MS Teams
+Acceso: http://nube.usc.gal Entra con tu correo electrónico y clave de la USC. Entre otras aplicaciones, podrás acceder a Teams, en donde encontrarás los espacios y equipos de las asignaturas. También podrías instalar la aplicación en tu propio equipo.
+Univ. da Coruña (UDC)
+UDC online
+Acceso: http://udconline.udc.gal
+MS Teams
+Acceso: https://m365.cloud.microsoft/apps/ Entra con tu correo electrónico y clave de la UDC. Tendrás acceso a Teams, entre otras aplicaciones. También puedes instalar la aplicación en tu equipo.
+Univ. de Vigo (UVigo)
+Moovie
+Acceso: https://moovi.uvigo.gal/login/index.php
+Ayuda: https://moovi.uvigo.gal/mod/page/view.php?id=4
+Campus Remoto
+Acceso: https://campusremotouvigo.gal/
+Para acceder a las salas o despachos remotos del profesorado, cada docente te proporcionará un enlace y una contraseña. Una vez que pinches en el enlace, aparece una pantalla en la que tienes que poner tu nombre y la contraseña (en la parte donde se indica «acceso estudantado»). Se accede así al espacio en el que estarán disponibles los vídeos de las sesiones asíncronas. Desde ahí se accede a la sala de videoconferencia. Una vez que accedas, tendrás que escoger si te conectas con auriculares o con micrófono; para poder hablar, debes escoger micrófono y, a continuación, esperar a que el docente te dé acceso a la sala.
+^
+5  Asistencia técnica
+Para cualquier problema técnico debe contactarse con el servicio de cada universidad.
+Univ. de Santiago de Compostela (USC):
+Centro de Atención a Usuarios/as (CAU) del área TIC: https://www.usc.gal/es/node/43584
+Universidade da Coruña (UDC)
+Portal de incidencias (Axuda TIC) : https://axudatic.udc.gal
+Primeros pasos en la UDC: https://axudatic.udc.gal/display/CSU/Primeiros+pasos+na+UDC
+Universidade de Vigo (UVigo)
+Información: https://www.uvigo.gal/es/universidad/servicios-informaticos
+Centro de Atención al Usuario (CAU): cau@uvigo.gal
+Soporte Moovi: soporte.moovi@uvigo.gal
+^
+6  Requisitos técnicos (equipo, aplicaciones, conexión)
+Equipo necesario
+Ordenador o tableta con capacidad reproducir sonido (altavoces o auriculares) y de captarlo (micrófono incorporado al equipo, a auriculares o a cámara web)
+Equipo recomendable
+Cámara web (si no está incorporada al equipo). Nunca será obligatorio usarla.
+Auriculares
+Aplicaciones
+Navegador actualizado
+Recomendado: Teams de escritorio (descargable desde la plataforma de la USC o de la UDC)
+Conexión
+Estable
+Mínimo recomendable: 4 Mbps
+Conexión no medida (datos ilimitados o muy amplios)
+^
+7  Activación de los servicios (primera conexión)
+Univ. de Santiago de Compostela (USC)
+Activación de la Secretaría Virtual: https://matricula.usc.es/LoginX/Login.asp
+Univ. da Coruña (UDC)
+Activación conjunta de todos los servicios de la UDC: http://servizos.udc.es/activacion .
+Univ. de Vigo (UVigo)
+Moovie
+Primer acceso: https://moovi.uvigo.gal/login/forgot_password.php
+Campus Remoto
+Registro: https://campusremotouvigo.gal/register
+^
+Máster en Ensino de Español como Lingua Estranxeira
+>>
+Curso 2025/2026
+Universidade da Coruña
+Localización
+Directorio telefónico
+Suxestións
+Contacto coa cidadanía
+Mapa web
+Aviso legal
+Política de cookies
+Portal de transparencia
+Identidade corporativa
+Oficina de Igualdade de Xénero
+Perfil de contratante
+Secretaría virtual estudantes
+Portal de Novas
+Canle interna de información
+Biblioteca universitaria
+Instagram
+YouTube
+Linkedin
+Calendarios
+App Store
+Google Play
+RSS
+ | Plataforma | Herramienta de comunicación síncrona
+Univ. de Santiago de Compostela | Campus Virtual | MS Teams
+Univ. da Coruña | UDC online | MS Teams
+Univ. de Vigo | Moovi | Campus Remoto

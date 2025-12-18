@@ -1,0 +1,2876 @@
+gl
+es
+en
+gl
+es
+en
+UDC
+ETS de Náutica e Máquinas ETS de Náutica e Máquinas Oferta Académica Estudantes Mobilidade Calidade GreenCampus Cursos e Certificados Mariña Mercante Escola Servizos Investigación e Transferencia Foro Riazor
+ETS de Náutica e Máquinas
+Oferta Académica
+Estudantes
+Mobilidade
+Calidade
+GreenCampus
+Cursos e Certificados
+Mariña Mercante
+Escola
+Servizos
+Investigación e Transferencia
+Foro Riazor
+Mobilidade Mobilidade Mobilidade Internacional (ERASMUS) Mobilidade Nacional (SICUE) Mobilidade Profesorado Oficinas Relacións Internacionais
+Mobilidade
+Mobilidade Internacional (ERASMUS)
+Mobilidade Nacional (SICUE)
+Mobilidade Profesorado
+Oficinas Relacións Internacionais
+Mobilidade
+>>
+Mobilidade Internacional (ERASMUS)
+Mobilidade Nacional (SICUE)
+Mobilidade Profesorado
+Oficinas Relacións Internacionais
+Movilidad Nacional (SICUE)
+O Sistema de Intercambio entre Centros Universitarios Españois (SICUE) é un programa de mobilidade para estudantes que desexen realizar un curso académico noutra universidade española coa que teña convenio a Escola Técnica Superior de Náutica e Máquinas da Universidade da Coruña. Dende hai varios anos este programa de intercambio non dá dereito a ningunha axuda económica, xa que as bolsas SÉNECA foron suprimidas, polo que os estudantes deberán custear a estancia polos seus propios medios ou buscando outras fontes de financiamento. O programa SICUE, xestionado pola Vicerrectoría de Estudantes, convócase anualmente – normalmente no mes de febreiro – para quen desexe acceder ao programa de intercambio no seguinte curso académico.
+Ignacio Arias Fernández
+Coordinador SICUE da ETSNM
+Destinos nacionais cos que existe convenio de intercambio:
+Para a titulación do Grao en Máquinas Navais :
+Destino
+Duración
+Nº prazas
+Universidad de Cádiz (Campus de Puerto Real)
+Anual
+5
+Universidad de La Laguna
+Anual
+5
+Universidad de Oviedo (Gijón)
+Anual
+5
+Universitat Politécnica de Catalunya (Barcelona)
+Anual
+5
+Para a titulación do Grao en Náutica e Transporte Marítimo :
+Destino
+Duración
+Nº prazas
+Universidad de Cádiz (Campus de Puerto Real)
+Anual
+5
+Universidad de La Laguna
+Anual
+5
+Universidad de Oviedo (Gijón)
+Anual
+5
+Universitat Politécnica de Catalunya (Barcelona)
+Anual
+5
+Cadros de equivalencias SICUE
+Cadro equivalencias Grao en Máquinas Navais
+Cadro equivalencias GMN A Coruña - Cádiz
+A CORUÑA
+CÁDIZ
+Cód.
+Asignaturas
+ECTS
+Cód.
+Asignaturas
+ECTS
+001
+Matemáticas I
+6
+3001
+Cálculo
+6
+3002
+Álgebra y Geometría
+6
+006
+Matemáticas II
+6
+3001
+Cálculo
+6
+3002
+Álgebra y Geometría
+6
+007
+Expresión Gráfica
+6
+3009
+Expresión Gráfica
+6
+003
+Física I
+6
+3005
+Física I: Mecánica y Termodinámica
+6
+3006
+Física II: Electromagnetismo y Ondas
+6
+008
+Física II
+6
+3005
+Física I: Mecánica y Termodinámica
+6
+3006
+Física II: Electromagnetismo y Ondas
+6
+004
+Informática
+6
+3008
+Informática
+6
+012
+Inglés Técnico Marítimo
+6
+3010
+Inglés Marítimo
+6
+002
+Química
+6
+3007
+Química
+6
+018
+Construcción Naval y Estabilidad del Buque
+6
+3012
+Construcción Naval y Teoría del Buque I
+6
+013
+Mecánica y Resistencia de los Materiales
+6
+3023
+Mecánica y Resistencia de Materiales
+6
+029
+Tecnología Mecánica e Mecanismos
+9
+3022
+Tecnología Mecánica y Montajes
+6
+015
+Electrotecnia y Máquinas Eléctricas del Buque
+6
+3011
+Electrotecnia y Tecnología Electrónica I
+6
+3021
+Electrotecnia y Tecnología Electrónica II
+6
+014
+Termodinámica y Termotecnia
+6
+3019
+Termodinámica y Mecánica de Fluidos
+6
+010
+Formación Sanitaria y Marítima
+6
+3014
+Formación Marítima y Sanitaria Básicas
+6
+009
+Ciencia e Ingeniería de Materiales
+6
+3020
+Ciencia y Tecnología de los Materiales
+6
+016
+Electrónica y Sistemas de Control
+6
+3027
+Sistemas de Regulación y Control
+6
+019
+Seguridad Marítima y Contaminación
+6
+3013
+Seguridad Marítima
+6
+3015
+Formación Marítima Avanzada
+6
+011
+Métodos Numéricos y Estadísticos
+6
+3003
+Ampliación de Matemáticas
+6
+028
+Motores de Combustión Interna
+9
+3024
+Motores de Combustión Interna
+9
+021
+Turbinas de Vapor y Gas
+6
+3028
+Termod. Aplicada y Turbom. Térmicas
+9
+022
+Transferencia de Calor y Generadores de Vapor
+6
+3027
+Generadores de Vapor
+6
+027
+Sistemas Auxiliares del Buque
+6
+3016
+Sistemas del Buque
+6
+020
+Buques Tanque y de Pasaje
+6
+3018
+Buques Especiales I
+6
+3018
+Buques Especiales II
+6
+026
+Gestión del Mantenimiento del Buque
+6
+3029
+Mantenimiento y Oficina Técnica
+6
+059
+Trabajo Fin de Grado
+12
+3035
+Proyecto Fin de Grado
+12
+044
+Prácticas Externas
+9
+3034
+Prácticas Externas
+18
+PDF
+Cadro equivalencias GMN A Coruña - Barcelona
+A CORUÑA
+BARCELONA
+Cód.
+Asignaturas
+ECTS
+Cód.
+Asignaturas
+ECTS
+001
+Matemáticas I
+6
+632
+Fundamentos de Matemáticas I
+6
+007
+Expresión Gráfica
+6
+634
+Expresión Gráfica
+6
+003
+Física I
+6
+633
+Física
+9
+008
+Física II
+6
+004
+Informática
+6
+635
+Informática
+6
+012
+Inglés Técnico Marítimo
+6
+638
+Inglés Técnico Marítimo
+6
+006
+Matemáticas II
+6
+636
+Fundamentos de Matemáticas II
+6
+002
+Química
+6
+607
+Química
+6
+005
+Empresa y Derecho Marítimo
+6
+606
+Gestión Empresarial y Organización de Empr.
+6
+651
+Legislación Marítima
+3
+018
+Construcción Naval y Estabilidad del Buque
+6
+646
+Construcción Naval
+6
+644
+Teoría del Buque
+6
+013
+Mecánica y Resistencia de los Materiales
+6
+637
+Mecánica y Resistencia de los Materiales
+9
+029
+Tecnología Mecánica e Mecanismos
+9
+642
+Tecnología Mecánica
+6
+015
+Electrotecnia y Máquinas Eléctricas del Buque
+6
+641
+Electricidad y Electrotecnia
+6
+014
+Termodinámica y Termotecnia
+6
+640
+Termodinámica Aplicada y Termotecnia
+6
+019
+Seguridad Marítima y Contaminación
+6
+612
+Medicina Marítima
+3
+009
+Ciencia e Ingeniería de Materiales
+6
+643
+Ciencia y Tecnología de los Materiales
+6
+016
+Electrónica y Sistemas de Control
+6
+650
+Control y Regulación Automática
+6
+647
+Electrónica Naval
+6
+017
+Mecánica de Fluidos
+6
+645
+Mecánica de Fluidos
+6
+019
+Seguridad Marítima y Contaminación
+6
+648
+Seguridad y Protección Marítimas
+6
+649
+Prevención de la Contam. y Sostenibilidad
+6
+011
+Métodos Numéricos y Estadísticos
+6
+639
+Métodos Matemáticos para la Ingeniería
+9
+028
+Motores de Combustión Interna
+9
+655
+Motores de Combustión Interna
+9
+021
+Turbinas de Vapor y Gas
+6
+654
+Turbomáquinas Marinas y Generad. de Vapor
+9
+022
+Transferencia de Calor y Generadores de Vapor
+6
+027
+Sistemas Auxiliares del Buque
+6
+652
+Propulsores
+4.5
+656
+Operación y Manten. de Máq. y Sist. Marinos
+6
+024
+Técnicas de Frío Aplicadas al Buque
+6
+653
+Instalaciones Frigoríficas y de Climatización
+4.5
+020
+Buques Tanque y de Pasaje
+6
+657
+Transportes Especiales
+4.5
+026
+Gestión del Mantenimiento del Buque
+6
+659
+Inspección y Ensayos No Destructivos
+4.5
+658
+Instalaciones y Mantenimiento
+4.5
+059
+Trabajo Fin de Grado
+12
+662
+Trabajo de Fin de Grado
+12
+044
+Prácticas Externas
+9
+661
+Prácticas Externas
+30
+PDF
+Cadro equivalencias GMN A Coruña - Tenerife
+A CORUÑA
+TENERIFE
+Cód.
+Asignaturas
+ECTS
+Cód.
+Asignaturas
+ECTS
+001
+Matemáticas I
+6
+1002
+Fundamentos Matemáticos aplicados a la Ing.
+9
+007
+Expresión Gráfica
+6
+1201
+Expresión Gráfica
+6
+003
+Física I
+6
+1001
+Fundamentos Físicos aplicados a la Ing.
+12
+008
+Física II
+6
+004
+Informática
+6
+2101
+Fundamentos y aplicaciones informáticas
+6
+002
+Química
+6
+1003
+Fundamentos Químicos aplicados al Buque
+9
+005
+Empresa y Derecho Marítimo
+6
+1101
+Legislación y reglamentación Marítima
+6
+2202
+Empresa
+6
+018
+Construcción Naval y Estabilidad del Buque
+6
+1004
+Fundamentos de Constr. Naval y Teoría del Buque
+9
+013
+Mecánica y Resistencia de Materiales
+6
+2104
+Resistencia de Materiales en máquinas y estructuras navales
+6
+029
+Tecnología Mecánica y Mecanismos
+9
+3003
+Tecnología mecánica y procesos de fabricación
+12
+015
+Electrotecnia y Máquinas Eléctricas del Buque
+6
+3202
+Máquinas e instalaciones eléctricas del buque
+6
+2102
+Electrotecnia y electrónica
+6
+014
+Termodinámica y Termotecnia
+6
+2204
+Termodinámica y Mecánica de fluidos
+6
+010
+Formación Sanitaria y Marítima
+6
+2103
+Medicina Marítima
+6
+015
+Electrónica y Sistemas de Control
+6
+2203
+Fundamentos de equipos automáticos del buque
+6
+019
+Seguridad Marítima y Contaminación
+6
+2001
+Seg. marít., contraincendios y superv. en la mar
+12
+028
+Motores de Combustión Interna
+9
+3002
+Motores de Combustión Interna
+12
+021
+Turbinas de Vapor y Gas
+6
+3001
+Máquinas e instalaciones de vapor
+12
+022
+Transferencia de Calor y Generadores de Vapor
+6
+024
+Técnicas de Frío Aplicadas al Buque
+6
+3101
+Frío y climatización industrial
+6
+042
+Automatización de Instalaciones del Buque
+6
+3102
+Regulación y control de máquinas navales
+6
+026
+Gestión del Mantenimiento del Buque
+6
+4201
+Mantenimiento y reparación de instalaciones marít.
+6
+030
+Máquinas Térmicas Marinas
+6
+1005
+Sistemas Auxiliares del Buque
+9
+012
+Inglés Técnico Marítimo
+6
+3201
+Terminología Internacional en Ingeniería Marítima
+6
+2201
+Inglés técnico marítimo
+6
+059
+Trabajo Fin de Grado
+12
+4202
+Trabajo fin de grado en Ingeniería Marina
+12
+044
+Prácticas Externas en Buque
+9
+4101
+Prácticas profesionales obligatorias en inst. energética marítimas
+24
+PDF
+Cadro equivalencias GMN A Coruña - Gijón
+A CORUÑA
+Gijón
+Cód.
+Asignaturas
+ECTS
+Cód.
+Asignaturas
+ECTS
+001
+Matemáticas I
+6
+1-001
+Álgebra lineal
+6
+1-002
+Cálculo
+6
+006
+Matemáticas II
+6
+1-001
+Álgebra lineal
+6
+1-002
+Cálculo
+6
+007
+Expresión Gráfica
+6
+1-008
+Expresión Gráfica
+6
+003
+Física I
+6
+1-005
+Mecánica y Termodinámica
+6
+1-007
+Ondas y Electromagnetismo
+6
+008
+Física II
+6
+1-005
+Mecánica y Termodinámica
+6
+1-007
+Ondas y Electromagnetismo
+6
+004
+Informática
+6
+1-004
+Fundamentos de Informática
+6
+012
+Inglés Técnico Marítimo
+6
+1-006
+Inglés Marítimo
+6
+002
+Química
+6
+1-009
+Química
+6
+005
+Empresa y Derecho Marítimo
+6
+1-003
+Empresa
+6
+2-003
+Derecho de la Navegación I
+6
+018
+Constr. Naval y Estabilidad del Buque
+6
+2-002
+Construcción Naval y Teoría del Buque
+9
+013
+Mecánica y Resistencia de Materiales
+6
+3-006
+Teoría de Máq. Nav. y Mec . de Sólidos
+9
+029
+Tecnología Mecánica y Mecanismos
+9
+3-005
+Tecnol. Mec. Naval y Cienc. de los Mater.
+9
+015
+Electrotecnia y Máquinas Eléctricas del Buque
+6
+3-001
+Electrotecnia y Electrónica de Potencia
+6
+2-004
+Electrotecnia y Electrónica
+9
+014
+Termodinámica y Termotecnia
+6
+3-007
+Ter. Aplicada y Mecánica de Fluidos
+9
+017
+Mecánica de Fluidos
+6
+010
+Formación Sanitaria y Marítima
+6
+1-010
+Formación Náutica y Sanitaria Marítima
+6
+015
+Electrónica y Sistemas de Control
+6
+2-005
+Electr.y Automáticas aplicada al Buque
+6
+019
+Seguridad Marítima y Contaminación
+6
+2-007
+Seguridad del Buque
+6
+2-006
+Seguridad Marítima
+6
+011
+Métodos Numéricos y Estadísticos
+6
+2-001
+Ampliación de Matemáticas
+6
+028
+Motores de Combustión Interna
+9
+3-003
+Mot. Térmicos Alternativos Marinos I
+6
+4-002
+Mot. Térmicos Alternativos Marinos II
+6
+021
+Turbinas de Vapor y Gas
+6
+3-008
+Turbomáquinas Marinas
+6
+022
+Transf. de Calor y Generadores de Vapor
+6
+3-002
+Generadores de Vapor Navales
+9
+027
+Sistemas Auxiliares del Buque
+6
+2-008
+Sist. Princip., Aux. y Prop. del buque
+6
+042
+Automatización de Instalaciones del Buque
+6
+3-004
+Regulación, Control e Instrumentación de Máquinas y Sistemas Marinos
+6
+020
+Buques Tanque y de Pasaje
+6
+2-009
+Transportes en Buques Tanques
+6
+026
+Gestión del Mantenimiento del Buque
+6
+4-001
+Mant. de los Sistemas del Buque
+6
+040
+Eficiencia Energética del Buque
+6
+4-008
+Sistemas del Buque: Instalaciones Marítimas, Auditorías y Optimización
+6
+PDF
+Cadro equivalencias Grao en Náutica e Transporte Marítimo
+Cadro equivalencias GNTM A Coruña - Cádiz
+A CORUÑA
+CÁDIZ
+Cód.
+Asignaturas
+ECTS
+Cód.
+Asignaturas
+ECTS
+101
+Matemáticas I
+6
+001
+Cálculo
+6
+002
+Álgebra y Geometría
+6
+102
+Expresión Gráfica
+6
+009
+Expresión Gráfica
+6
+103
+Física
+6
+005
+Física I: Mecánica y Termodinámica
+6
+006
+Física II: Electromagnetismo y Ondas
+6
+104
+Higiene Naval y Riesgos Laborales
+6
+029
+Medicina Marít. y PRL a bordo
+6
+106
+Matemáticas II
+6
+003
+Ampliación de Matemáticas
+6
+105
+Construcción Naval
+6
+012
+Constr. Naval y Teoría del Buque I
+6
+030
+Constr. Naval y Teoría del Buque II
+6
+107
+Química
+6
+007
+Química
+6
+175
+Inglés
+6
+010
+Inglés Marítimo
+6
+110
+Informática
+6
+008
+Informática
+6
+202
+Navegación I
+6
+019
+Navegación I
+6
+204
+Sist. energéticos e auxiliares do buque
+6
+016
+Sistemas del Buque
+6
+275
+Inglés Técnico Marítimo
+6
+031
+Inglés Náutico II
+6
+206
+Electricidad y Electrónica
+6
+011
+Electro. y Tecnología Electrónica I
+6
+207
+Manobra I
+6
+022
+Maniobra I
+6
+208
+Teoría del Buque I
+6
+012
+Constr.Naval y Teoría del Buque I
+6
+030
+Constr. Naval y Teoría del Buque II
+6
+211
+Seguridad Marítima
+6
+013
+Seguridad Marítima
+6
+304
+Contaminación Marina y Atmosférica
+6
+015
+Formación Marítima Avanzada
+6
+277
+Navegación Astronómica
+6
+020
+Navegación II
+6
+301
+Estiba
+6
+026
+Estiba
+6
+302
+Meteorología y Oceanografía
+6
+025
+Meteorología
+6
+375
+Reglamento para Prevenir Abordajes
+en el Mar y Análisis de Accidentes
+6
+024
+Reglamentos y Señales
+6
+305
+Derecho Marítimo I
+6
+028
+Derecho Marítimo
+6
+306
+Navegación II
+6
+021
+Navegación III
+6
+307
+Radiocomunicaciones Marítimas
+6
+027
+Comunicaciones Marítimas
+6
+311
+Sist. de navegación y comunicación
+6
+027
+Comunicaciones Marítimas
+6
+308
+Buques Tanque
+6
+017
+Buques Especiales I
+6
+018
+Buques Especiales II
+6
+309
+Maniobra II
+6
+023
+Maniobra II
+6
+376
+ISM & BRM &ISPS
+6
+013
+Seguridad Marítima
+6
+404
+Teoría del Buque II
+6
+012
+Const. Naval y Teoría del Buque I
+6
+030
+Const. Naval y Teoría del Buque II
+6
+485
+Trabajo Fin de Grado
+12
+Práct externas y proyecto fin de grado
+54
+476
+Prácticas
+9
+486
+Trabajo Fin de Grado
+12
+Prácticas externas y proyecto fin de grado
+54
+414
+Prácticas
+9
+PDF
+Cadro equivalencias GNTM A Coruña - Barcelona
+A CORUÑA
+BARCELONA
+Cód.
+Asignaturas
+ECTS
+Cód.
+Asignaturas
+ECTS
+101
+Matemáticas I
+6
+600
+Fundamentos de Matemáticas I
+6
+605
+Fundamentos de Matemáticas II
+6
+106
+Matemáticas II
+6
+600
+Fundamentos de Matemáticas I
+6
+605
+Fundamentos de Matemáticas II
+6
+102
+Expresión Gráfica
+6
+602
+Expresión Gráfica
+6
+103
+Física
+6
+601
+Física
+9
+104
+Higiene Naval y Riesgos Laborales
+6
+612
+Medicina Marítima
+3
+627
+Prevención de Riesgos Laborales Marítimos
+4.5
+105
+Construcción Naval
+6
+614
+Construcción Naval
+6
+107
+Química
+6
+607
+Química
+6
+109
+Empresa y Derecho
+6
+604
+Legislación Marítima
+3
+606
+Gestión Empresarial y Organización de Empresas
+6
+110
+Informática
+6
+603
+Informática
+6
+201
+Economía Marítima
+6
+6 09
+Economía Marítima, Gestión Naviera y de Recursos Humanos a Bordo
+6
+202
+Navegación I
+6
+610
+Navegación Costera
+6
+175
+Inglés
+6
+608
+Inglés Técnico Marítimo
+6
+206
+Electricidad y Electrónica
+6
+611
+Electricidad y Electrónica Naval
+6
+208
+Teoría del Buque I
+6
+615
+Teoría del Buque
+6
+275
+Inglés Técnico Marítimo
+6
+613
+Inglés Técnico para la Navegación
+9
+211
+Seguridad Marítima
+6
+620
+Seguridad y Protección Marítimas
+6
+277
+Navegación Astronómica
+6
+623
+Navegación Astronómica
+6
+301
+Estiba
+6
+618
+Estiba
+12
+302
+Meteorología y Oceanografía
+6
+629
+Meteorología y Oceanografía Náuticas
+7.5
+304
+Contaminación Marina y Atmosférica
+6
+621
+Prevención de la Contaminación y Sostenibilidad
+6
+306
+Navegación II
+6
+626
+Derrotas y Compases
+4.5
+402
+Simulación Náutica
+6
+617
+Sistemas Electrónicos de Ayuda a la Navegación
+7.5
+307
+Radiocomunicaciones Marítimas.
+6
+624
+Radiocomunicaciones
+6
+309
+Maniobra II
+6
+625
+Maniobra y Reglamentos
+9
+308
+Buques Tanque
+6
+628
+Transportes Especiales
+4.5
+404
+Teoría del Buque II
+6
+619
+Teoría del Buque y Construcción Naval
+9
+485
+Trabajo Fin de Grado
+12
+631
+Trabajo de Fin de Grado
+12
+476
+Prácticas
+9
+630
+Prácticas Externas
+30
+486
+Trabajo Fin de Grado
+12
+631
+Trabajo de Fin de Grado
+12
+414
+Prácticas
+9
+630
+Prácticas Externas
+30
+PDF
+Cadro equivalencias GNTM A Coruña - Tenerife
+A CORUÑA
+TENERIFE
+Cód.
+Asignaturas
+ECTS
+Cód.
+Asignaturas
+ECTS
+101
+Matemáticas I
+6
+1002
+Fundamentos matemáticos aplicados a la Ing.
+9
+102
+Expresión Gráfica
+6
+1201
+Expresión Gráfica
+6
+103
+Física
+6
+1001
+Fundamentos físicos aplicados a la Ing.
+12
+104
+Higiene Naval y Riesg . Laborales
+6
+2103
+Medicina Marítima
+6
+105
+Construcción Naval
+6
+1004
+Fund.de Constr. Naval y Teoría del Buque
+9
+107
+Química
+6
+1003
+Fundamentos Químicos aplicados a la Ing.
+9
+109
+Empresa y Derecho
+6
+2202
+Empresa
+6
+110
+Informática
+6
+2101
+Fundamentos y aplicaciones informáticas
+6
+202
+Navegación I
+6
+2104
+Navegación costera
+6
+204
+Sist . Energ . y Auxiliares del Buque
+6
+1005
+Sistemas Auxiliares del Buque
+9
+175
+Inglés
+6
+2201
+Inglés Técnico Marítimo
+6
+206
+Electricidad y Electrónica
+6
+2102
+Electrotecnia y electrónica
+6
+207
+Maniobra I
+6
+3104
+Maniobra y Estiba
+9
+208
+Teoría del Buque I
+6
+1004
+Fund . de Constr. Naval y Teoría del Buque
+9
+275
+Inglés Técnico Marítimo
+6
+4201
+Inglés normalizado O.M.I.
+6
+211
+Seguridad Marítima
+6
+2001
+Seg . Marít ., contrainc . y superviv . en la mar
+12
+4101
+Seguridad y Contaminación Marítima
+6
+277
+Navegación Astronómica
+6
+3101
+Navegación astronómica
+6
+301
+Estiba
+6
+3104
+Maniobra y Estiba
+9
+304
+Contaminación Marina y Atmosférica
+6
+2001
+Seg . Marít ., contrainc.s y superviv . en la mar
+12
+4101
+Seguridad y Contaminación Marítima
+6
+302
+Meteorología y Oceanografía
+6
+3103
+Meteorología
+9
+305
+Derecho Marítimo I
+6
+1101
+Legislación y reglamentación marítima
+6
+306
+Navegación II
+6
+3102
+Navegación radioelectrónica
+6
+311
+Sistemas de Navegación y Comunicaciones
+6
+3102
+Navegación radioelectrónica
+6
+3204
+Prácticas profesionales de Radiocomunicaciones
+6
+307
+Radiocomunicaciones Marítimas.
+6
+0902
+Sistema de radiocomunicaciones (SMSSM)
+6
+314
+Inspecciones Marítimas
+6
+0901
+Inspecciones técnicas de averías
+6
+403
+Derecho Marítimo II
+6
+0904
+Cont. Inter.s marít . y res.civil por daños
+6
+404
+Teoría do Buque II
+6
+3203
+Práct . prof. de Constr. Naval y t. del buque
+6
+515
+Inglés Comercial Marítimo
+6
+4201
+Inglés Normalizado O.M.I.
+6
+486 485
+Trabajo Fin de Grado
+12
+4202
+Proyecto Fin de Grado en Ingeniería Náutica y Transporte Marítimo
+12
+476
+414
+Prácticas
+9
+3201
+Práct . profesionales de nav.astronómica
+6
+3202
+Práct . profesionales de transportes marít . esp .
+6
+3203
+Práct . Prof.. de constr. naval y teo . del buque
+6
+3204
+Práct . profesionales de radiocomunicaciones
+6
+3205
+Práct . Prof. de ampl . de nav . astronom .
+6
+4102
+Práct . profesionales de naveg . radioelectrónica
+6
+4103
+Práct . profesionales de naveg . meteorológica
+9
+4104
+Práct . profesionales de maniobra y estiba
+9
+PDF
+Cadro equivalencias GNTM A Coruña - Gijón
+A CORUÑA
+GIJÓN
+Cód.
+Asignaturas
+ECTS
+Cód.
+Asignaturas
+ECTS
+101
+Matemáticas I
+6
+1-001
+Álgebra lineal
+6
+1-002
+Cálculo
+6
+102
+Expresión Gráfica
+6
+1-006
+Expresión Gráfica
+6
+103
+Física
+6
+1-003
+Mecánica y Termodinámica
+6
+1-004
+Ondas y Electromagnetismo
+6
+104
+Higiene Naval y Riesgos Laborales
+6
+1-010
+Formación náutica y sanitaria marítima
+6
+105
+Construcción Naval
+6
+2-002
+Construcción Naval y Teoría del Buque
+9
+208
+Teoría del buque I
+6
+106
+Matemáticas II
+6
+2-001
+Ampliación de Matemáticas
+6
+107
+Química
+6
+1-005
+Química
+6
+109
+Empresa y Derecho
+6
+1-007
+Empresa
+6
+110
+Informática
+6
+1-008
+Fundamentos de informática
+6
+201
+Economía Marítima
+6
+3-003
+Economía Marítima
+6
+202
+Navegación I
+6
+3-006
+Navegación costera
+6
+204
+Sist . Energ . y Auxiliares del Buque
+6
+2-008
+Sistemas principales, aux . y propulsores del buque
+6
+175
+Inglés
+6
+1-009
+Inglés marítimo
+6
+206
+Electricidad y Electrónica
+6
+2-004
+Electrotecnia y Electrónica
+9
+207
+Maniobra I
+6
+3-008
+Maniobra, Reglamentos y Señales
+9
+375
+Reglamento para Prevenir Abordajes en el Mar y Análisis de Accidentes
+6
+275
+Inglés Técnico Marítimo
+6
+3-005
+Inglés Náutico
+6
+211
+Seguridad Marítima
+6
+2-006
+Seguridad Marítima
+6
+277
+Navegación Astronómica
+6
+3-007
+Navegación Astronómica
+6
+3-010
+Navegación Marítima
+6
+4-002
+Navegación Radioelectrónica
+9
+301
+Estiba
+6
+3-004
+Estiba
+6
+302
+Meteorología y Oceanografía
+6
+4-008
+Navegación oceánica
+6
+305
+Derecho Marítimo I
+6
+2-003
+Derecho de la Navegación I
+6
+306
+Navegación II
+6
+3-007
+Navegación Astronómica
+6
+3-010
+Navegación Marítima
+6
+4-002
+Navegación Radioelectrónica
+9
+307
+Radiocomunicaciones Marítimas.
+6
+4-009
+Sistema Mundial de socorro y Seguridad Marítima
+6
+308
+Buques Tanque
+6
+2-009
+Transportes en Buques Tanque
+6
+402
+Simulación Náutica
+6
+3-007
+Navegación Astronómica
+6
+3-010
+Navegación Marítima
+6
+4-002
+Navegación Radioelectrónica
+9
+403
+Derecho Marítimo II
+6
+3-002
+Derecho de la Navegación II
+6
+404
+Teoría del Buque II
+6
+3-001
+Ampliación Teoría del Buque
+9
+PDF
+Cadro equivalencias Grao en Tecnoloxías Mariñas
+Cadro equivalencias GTM A Coruña - Cádiz
+A CORUÑA
+CÁDIZ
+151
+Matemáticas I
+6
+3001
+Cálculo
+6
+3002
+Álgebra y Geometría
+6
+156
+Matemáticas II
+6
+3001
+Cálculo
+6
+3002
+Álgebra y Geometría
+6
+152
+Expresión Gráfica
+6
+3009
+Expresión Gráfica
+6
+153
+Física I
+6
+3005
+Física I: Mecánica y Termodinámica
+6
+3006
+Física II: Electromagnetismo y Ondas
+6
+158
+Física II
+6
+3005
+Física I: Mecánica y Termodinámica
+6
+3006
+Física II: Electromagnetismo y Ondas
+6
+154
+Informática
+6
+3008
+Informática
+6
+155
+Inglés
+6
+3010
+Inglés Marítimo
+6
+157
+Química
+6
+3007
+Química
+6
+160
+Construcción Naval y Teoría del Buque
+6
+3012
+Construcción Naval y Teoría del Buque I
+6
+251
+Mecánica y Resistencia de los Materiales
+6
+3023
+Mecánica y Resistencia de Materiales
+6
+252
+Tecnología Mecánica e Mecanismos
+6
+3022
+Tecnología Mecánica y Montajes
+6
+253
+Electrotecnia. Máq . Eléctricas y Sist . Eléc . del Buque
+6
+3011
+Electrotecnia y Tecnología Electrónica I
+6
+3021
+Electrotecnia y Tecnología Electrónica II
+6
+254
+Termodinámica y Termotecnia
+6
+3019
+Termodinámica y Mecánica de Fluidos
+6
+255
+Higiene Naval y Riesgos Laborales
+6
+3014
+Formación Marítima y Sanitaria Básicas
+6
+256
+Ciencia y Tecnología de los Materiales
+6
+3020
+Ciencia y Tecnología de los Materiales
+6
+257
+Fundamentos de Regulación y Control
+6
+3027
+Sistemas de Regulación y Control
+6
+259
+Seguridad Marítima y Contaminación
+6
+3013
+Seguridad Marítima
+6
+3015
+Formación Marítima Avanzada
+6
+260
+Matemática III
+6
+3003
+Ampliación de Matemáticas
+6
+351
+Motores de Combustión Interna
+6
+3024
+Motores de Combustión Interna
+9
+352
+Turbinas de Vapor y Gas
+6
+3028
+Termod . Aplicada y Turbom . Térmicas
+9
+353
+Transferencia de Calor y Generadores de Vapor
+6
+3027
+Generadores de Vapor
+6
+354
+Instalaciones Marítimas y Propulsores
+6
+3016
+Sistemas del Buque
+6
+356
+Electrónica. Sistemas Electrónicos del Buque
+6
+3011
+Electrotecnia y Tecnología Electrónica I
+6
+3021
+Electrotecnia y Tecnología Electrónica II
+6
+358
+Transportes Especiales y Mercancías Peligrosas
+6
+3018
+Buques Especiales I
+6
+3018
+Buques Especiales II
+6
+360
+Sistemas de Gestión del Mantenimiento
+6
+3029
+Mantenimiento y Oficina Técnica
+6
+455
+Trabajo Fin de Grado
+12
+3035
+Proyecto Fin de Grado
+12
+454
+Prácticas Externas
+24
+3034
+Prácticas Externas
+18
+PDF
+Cadro equivalencias GTM A Coruña - Barcelona
+A CORUÑA
+BARCELONA
+151
+Matemáticas I
+6
+632
+Fundamentos de Matemáticas I
+6
+152
+Expresión Gráfica
+6
+634
+Expresión Gráfica
+6
+153
+Física I
+6
+633
+Física
+9
+158
+Física II
+6
+154
+Informática
+6
+635
+Informática
+6
+155
+Inglés
+6
+638
+Inglés Técnico Marítimo
+6
+156
+Matemáticas II
+6
+636
+Fundamentos de Matemáticas II
+6
+157
+Química
+6
+607
+Química
+6
+159
+Empresa y Derecho
+6
+606
+Gestión Empresarial y Organización de Empr .
+6
+651
+Legislación Marítima
+3
+160
+Construcción Naval y Teoría del Buque
+6
+646
+Construcción Naval
+6
+644
+Teoría del Buque
+6
+251
+Mecánica y Resistencia de los Materiales
+6
+637
+Mecánica y Resistencia de los Materiales
+9
+252
+Tecnología Mecánica e Mecanismos
+6
+642
+Tecnología Mecánica
+6
+253
+Electrotecnia, Máq . Eléctr . y Sist . Eléctr . del Buque
+6
+641
+Electricidad y Electrotecnia
+6
+254
+Termodinámica y Termotecnia
+6
+640
+Termodinámica Aplicada y Termotecnia
+6
+255
+Higiene Naval y Riesgos Laborales
+6
+612
+Medicina Marítima
+3
+256
+Ciencia y Tecnología de los Materiales
+6
+643
+Ciencia y Tecnología de los Materiales
+6
+257
+Fundamentos de Regulación y Control
+6
+650
+Control y Regulación Automática
+6
+258
+Mecánica de Fluidos
+6
+645
+Mecánica de Fluidos
+6
+259
+Seguridad Marítima y Contaminación
+6
+648
+Seguridad y Protección Marítimas
+6
+649
+Prevención de la Contam . y Sostenibilidad
+6
+260
+Matemática III
+6
+639
+Métodos Matemáticos para la Ingeniería
+9
+351
+Motores de Combustión Interna
+6
+655
+Motores de Combustión Interna
+9
+352
+Turbinas de Vapor y Gas
+6
+654
+Turbomáquinas Marinas y Generad. de Vapor
+9
+353
+Transferencia de Calor y Generadores de Vapor
+6
+354
+Instalaciones Marítimas y Propulsores
+6
+652
+Propulsores
+4.5
+656
+Operación y Manten . de Máq . y Sist . Marinos
+6
+355
+Técnicas de Frío y Aire Acondicionado
+6
+653
+Instalaciones Frigoríficas y de Climatización
+4.5
+356
+Electrónica. Sistemas Electrónicos del Buque
+6
+647
+Electrónica Naval
+6
+358
+Transportes Especiales y Mercancías Peligrosas
+6
+657
+Transportes Especiales
+4.5
+360
+Sistemas de Gestión del Mantenimiento
+6
+659
+Inspección y Ensayos No Destructivos
+4.5
+658
+Instalaciones y Mantenimiento
+4.5
+455
+Trabajo Fin de Grado
+12
+Trabajo de Fin de Grado
+12
+454
+Prácticas Externas
+24
+661
+Prácticas Externas
+30
+PDF
+Cadro equivalencias GTM A Coruña - Tenerife
+A CORUÑA
+TENERIFE
+151
+Matemáticas I
+6
+1002
+Fundamentos Matemáticos aplicados a la Ing.
+9
+152
+Expresión Gráfica
+6
+1201
+Expresión Gráfica
+6
+153
+Física I
+6
+1001
+Fundamentos Físicos aplicados a la Ing.
+12
+158
+Física II
+6
+154
+Informática
+6
+2101
+Fundamentos y aplicaciones informáticas
+6
+155
+Inglés
+6
+2201
+Inglés técnico marítimo
+6
+157
+Química
+6
+1003
+Fundamentos Químicos aplicados al Buque
+9
+159
+Empresa y Derecho
+6
+1101
+Legislación y reglamentación Marítima
+6
+2202
+Empresa
+6
+160
+Construcción Naval y Teoría del Buque
+6
+1004
+Fundamentos de Constr. Naval y Teoría del Buque
+9
+251
+Mecánica y Resistencia de los Materiales
+6
+2104
+Resistencia de Materiales en máquinas y estructuras navales
+6
+252
+Tecnología Mecánica e Mecanismos
+6
+3003
+Tecnología mecánica y procesos de fabricación
+12
+253
+Electrotecnia, Máq . Eléctr . y Sist . Eléctr . del Buque
+6
+3202
+Máquinas e instalaciones eléctricas del buque
+6
+254
+Termodinámica y Termotecnia
+6
+2204
+Termodinámica y Mecánica de fluidos
+6
+255
+Higiene Naval y Riesgos Laborales
+6
+2103
+Medicina Marítima
+6
+257
+Fundamentos de Regulación y Control
+6
+2203
+Fundamentos de equipos automáticos del buque
+6
+259
+Seguridad Marítima y Contaminación
+6
+2001
+Seg . marít ., contraincendios y superv . en la mar
+12
+351
+Motores de Combustión Interna
+6
+3002
+Motores de Combustión Interna
+12
+352
+Turbinas de Vapor y Gas
+6
+3001
+Máquinas e instalaciones de vapor
+12
+353
+Transferencia de Calor y Generadores de Vapor
+6
+355
+Técnicas de Frío y Aire Acondicionado
+6
+3101
+Frío y climatización industrial
+6
+356
+Electrónica. Sistemas Electrónicos del Buque
+6
+2102
+Electrotecnia y electrónica
+6
+357
+Automatización de Instalaciones Marítimas
+6
+3102
+Regulación y control de máquinas navales
+6
+360
+Sistemas de Gestión del Mantenimiento
+6
+Mantenimiento y reparación de instalaciones marít .
+6
+361
+Máquinas Térmicas Marinas
+6
+1005
+Sistemas Auxiliares del Buque
+9
+551
+Inglés Técnico Marítimo
+6
+3201
+Terminología Internacional en Ingeniería Marítima
+6
+455
+Trabajo Fin de Grado
+12
+4201
+Trabajo fin de grado en Ingeniería Marina
+12
+454
+Prácticas Externas
+24
+4101
+Prácticas profesionales obligatorias en inst. energética marítimas
+24
+PDF
+Cadro equivalencias GTM A Coruña - Gijón
+A CORUÑA
+Gijón
+151
+Matemáticas I
+6
+1-001
+Álgebra lineal
+6
+1-002
+Cálculo
+6
+156
+Matemáticas II
+6
+1-001
+Álgebra lineal
+6
+1-002
+Cálculo
+6
+152
+Expresión Gráfica
+6
+1-008
+Expresión Gráfica
+6
+153
+Física I
+6
+1-005
+Mecánica y Termodinámica
+6
+1-007
+Ondas y Electromagnetismo
+6
+158
+Física II
+6
+1-005
+Mecánica y Termodinámica
+6
+1-007
+Ondas y Electromagnetismo
+6
+154
+Informática
+6
+1-004
+Fundamentos de Informática
+6
+155
+Inglés
+6
+1-006
+Inglés Marítimo
+6
+157
+Química
+6
+1-009
+Química
+6
+159
+Empresa y Derecho
+6
+1-003
+Empresa
+6
+2-003
+Der e cho de la Navegación I
+6
+160
+Construcción Naval y Teoría del Buque
+6
+2-002
+Construcción Naval y Teoría del Buque
+9
+251
+Mecánica y Resistencia de los Materiales
+6
+3-006
+Teoría de Máq . Nav . y Mecánica de Sólidos
+9
+252
+Tecnología Mecánica e Mecanismos
+6
+3-005
+Tecnol . Mec . Naval y Ciencia de los Mater.
+9
+253
+Electrotecnia, Máq . Eléctr . y Sist . Eléctr . del Buque
+6
+3-001
+Electrotecnia y Electrónica de Potencia
+6
+254
+Termodinámica y Termotecnia
+6
+3-007
+Termodin . Aplicada y Mecánica de Fluidos
+9
+258
+Mecánica de Fluidos
+6
+255
+Higiene Naval y Riesgos Laborales
+6
+1-010
+Formación Náutica y Sanitaria Marítima
+6
+257
+Fundamentos de Regulación y Control
+6
+2-005
+Electrónica y Automáticas aplicada al Buque
+6
+259
+Seguridad Marítima y Contaminación
+6
+2-007
+Seguridad del Buque
+6
+2-006
+Seguridad Marítima
+6
+260
+Matemática III
+6
+2-001
+Ampliación de Matemáticas
+6
+351
+Motores de Combustión Interna
+6
+3-003
+Motores Térmicos Alternativos Marinos I
+6
+4-002
+Motores Térmicos Alternativos Marinos II
+6
+352
+Turbinas de Vapor y Gas
+6
+3-008
+Turbomáquinas Marinas
+6
+353
+Transferencia de Calor y Generadores de Vapor
+6
+3-002
+Generadores de Vapor Navales
+9
+354
+Instalaciones Marítimas y Propulsores
+6
+2-008
+Sist . Princip ., Aux . y Propulsores del buque
+6
+356
+Electrónica. Sistemas Electrónicos del Buque
+6
+2-004
+Electrotecnia y Electrónica
+9
+357
+Automatización de Instalaciones Marítimas
+6
+3-004
+Regulación, Control e Instrumentación de Máquinas y Sistemas Marinos
+6
+358
+Transportes Especiales y Mercancías Peligrosas
+6
+2-009
+Transportes en Buques Tanques
+6
+360
+Sistemas de Gestión del Mantenimiento
+6
+4-001
+Mantenimiento de los Sistemas del Buque
+6
+453
+Técnicas Energéticas Aplicadas al Buque
+6
+4-008
+Sistemas del Buque: Instalaciones Marítimas, Auditorías y Optimización
+6
+PDF
+SICUE
+Toda a información relativa a convocatorias anteriores, modelos e formularios, prazos, así como a información actualizada das novas convocatorias e da súa resolución, provisional e definitiva, pode ser consultada na web da UDC, no apartado de Estudantado > programas de intercambio > SICUE. Accesible directamente no seguinte enlace:
+Mobilidade
+>>
+Mobilidade Internacional (ERASMUS)
+Mobilidade Nacional (SICUE)
+Mobilidade Profesorado
+Oficinas Relacións Internacionais
+Universidade da Coruña
+Localización
+Directorio telefónico
+Suxestións
+Contacto coa cidadanía
+Mapa web
+Aviso legal
+Política de cookies
+Portal de transparencia
+Identidade corporativa
+Oficina de Igualdade de Xénero
+Perfil de contratante
+Secretaría virtual estudantes
+Portal de Novas
+Canle interna de información
+Biblioteca universitaria
+Instagram
+YouTube
+Linkedin
+Calendarios
+App Store
+Google Play
+RSS
+Destino | Duración | Nº prazas
+Universidad de Cádiz (Campus de Puerto Real) | Anual | 5
+Universidad de La Laguna | Anual | 5
+Universidad de Oviedo (Gijón) | Anual | 5
+Universitat Politécnica de Catalunya (Barcelona) | Anual | 5
+Destino | Duración | Nº prazas
+Universidad de Cádiz (Campus de Puerto Real) | Anual | 5
+Universidad de La Laguna | Anual | 5
+Universidad de Oviedo (Gijón) | Anual | 5
+Universitat Politécnica de Catalunya (Barcelona) | Anual | 5
+A CORUÑA | CÁDIZ
+Cód. | Asignaturas | ECTS | Cód. | Asignaturas | ECTS
+001 | Matemáticas I | 6 | 3001 | Cálculo | 6
+3002 | Álgebra y Geometría | 6
+006 | Matemáticas II | 6 | 3001 | Cálculo | 6
+3002 | Álgebra y Geometría | 6
+007 | Expresión Gráfica | 6 | 3009 | Expresión Gráfica | 6
+003 | Física I | 6 | 3005 | Física I: Mecánica y Termodinámica | 6
+3006 | Física II: Electromagnetismo y Ondas | 6
+008 | Física II | 6 | 3005 | Física I: Mecánica y Termodinámica | 6
+3006 | Física II: Electromagnetismo y Ondas | 6
+004 | Informática | 6 | 3008 | Informática | 6
+012 | Inglés Técnico Marítimo | 6 | 3010 | Inglés Marítimo | 6
+002 | Química | 6 | 3007 | Química | 6
+018 | Construcción Naval y Estabilidad del Buque | 6 | 3012 | Construcción Naval y Teoría del Buque I | 6
+013 | Mecánica y Resistencia de los Materiales | 6 | 3023 | Mecánica y Resistencia de Materiales | 6
+029 | Tecnología Mecánica e Mecanismos | 9 | 3022 | Tecnología Mecánica y Montajes | 6
+015 | Electrotecnia y Máquinas Eléctricas del Buque | 6 | 3011 | Electrotecnia y Tecnología Electrónica I | 6
+3021 | Electrotecnia y Tecnología Electrónica II | 6
+014 | Termodinámica y Termotecnia | 6 | 3019 | Termodinámica y Mecánica de Fluidos | 6
+010 | Formación Sanitaria y Marítima | 6 | 3014 | Formación Marítima y Sanitaria Básicas | 6
+009 | Ciencia e Ingeniería de Materiales | 6 | 3020 | Ciencia y Tecnología de los Materiales | 6
+016 | Electrónica y Sistemas de Control | 6 | 3027 | Sistemas de Regulación y Control | 6
+019 | Seguridad Marítima y Contaminación | 6 | 3013 | Seguridad Marítima | 6
+3015 | Formación Marítima Avanzada | 6
+011 | Métodos Numéricos y Estadísticos | 6 | 3003 | Ampliación de Matemáticas | 6
+028 | Motores de Combustión Interna | 9 | 3024 | Motores de Combustión Interna | 9
+021 | Turbinas de Vapor y Gas | 6 | 3028 | Termod. Aplicada y Turbom. Térmicas | 9
+022 | Transferencia de Calor y Generadores de Vapor | 6 | 3027 | Generadores de Vapor | 6
+027 | Sistemas Auxiliares del Buque | 6 | 3016 | Sistemas del Buque | 6
+020 | Buques Tanque y de Pasaje | 6 | 3018 | Buques Especiales I | 6
+3018 | Buques Especiales II | 6
+026 | Gestión del Mantenimiento del Buque | 6 | 3029 | Mantenimiento y Oficina Técnica | 6
+059 | Trabajo Fin de Grado | 12 | 3035 | Proyecto Fin de Grado | 12
+044 | Prácticas Externas | 9 | 3034 | Prácticas Externas | 18
+A CORUÑA | BARCELONA
+Cód. | Asignaturas | ECTS | Cód. | Asignaturas | ECTS
+001 | Matemáticas I | 6 | 632 | Fundamentos de Matemáticas I | 6
+007 | Expresión Gráfica | 6 | 634 | Expresión Gráfica | 6
+003 | Física I | 6 | 633 | Física | 9
+008 | Física II | 6
+004 | Informática | 6 | 635 | Informática | 6
+012 | Inglés Técnico Marítimo | 6 | 638 | Inglés Técnico Marítimo | 6
+006 | Matemáticas II | 6 | 636 | Fundamentos de Matemáticas II | 6
+002 | Química | 6 | 607 | Química | 6
+005 | Empresa y Derecho Marítimo | 6 | 606 | Gestión Empresarial y Organización de Empr. | 6
+651 | Legislación Marítima | 3
+018 | Construcción Naval y Estabilidad del Buque | 6 | 646 | Construcción Naval | 6
+644 | Teoría del Buque | 6
+013 | Mecánica y Resistencia de los Materiales | 6 | 637 | Mecánica y Resistencia de los Materiales | 9
+029 | Tecnología Mecánica e Mecanismos | 9 | 642 | Tecnología Mecánica | 6
+015 | Electrotecnia y Máquinas Eléctricas del Buque | 6 | 641 | Electricidad y Electrotecnia | 6
+014 | Termodinámica y Termotecnia | 6 | 640 | Termodinámica Aplicada y Termotecnia | 6
+019 | Seguridad Marítima y Contaminación | 6 | 612 | Medicina Marítima | 3
+009 | Ciencia e Ingeniería de Materiales | 6 | 643 | Ciencia y Tecnología de los Materiales | 6
+016 | Electrónica y Sistemas de Control | 6 | 650 | Control y Regulación Automática | 6
+647 | Electrónica Naval | 6
+017 | Mecánica de Fluidos | 6 | 645 | Mecánica de Fluidos | 6
+019 | Seguridad Marítima y Contaminación | 6 | 648 | Seguridad y Protección Marítimas | 6
+649 | Prevención de la Contam. y Sostenibilidad | 6
+011 | Métodos Numéricos y Estadísticos | 6 | 639 | Métodos Matemáticos para la Ingeniería | 9
+028 | Motores de Combustión Interna | 9 | 655 | Motores de Combustión Interna | 9
+021 | Turbinas de Vapor y Gas | 6 | 654 | Turbomáquinas Marinas y Generad. de Vapor | 9
+022 | Transferencia de Calor y Generadores de Vapor | 6
+027 | Sistemas Auxiliares del Buque | 6 | 652 | Propulsores | 4.5
+656 | Operación y Manten. de Máq. y Sist. Marinos | 6
+024 | Técnicas de Frío Aplicadas al Buque | 6 | 653 | Instalaciones Frigoríficas y de Climatización | 4.5
+020 | Buques Tanque y de Pasaje | 6 | 657 | Transportes Especiales | 4.5
+026 | Gestión del Mantenimiento del Buque | 6 | 659 | Inspección y Ensayos No Destructivos | 4.5
+658 | Instalaciones y Mantenimiento | 4.5
+059 | Trabajo Fin de Grado | 12 | 662 | Trabajo de Fin de Grado | 12
+044 | Prácticas Externas | 9 | 661 | Prácticas Externas | 30
+A CORUÑA | TENERIFE
+Cód. | Asignaturas | ECTS | Cód. | Asignaturas | ECTS
+001 | Matemáticas I | 6 | 1002 | Fundamentos Matemáticos aplicados a la Ing. | 9
+007 | Expresión Gráfica | 6 | 1201 | Expresión Gráfica | 6
+003 | Física I | 6 | 1001 | Fundamentos Físicos aplicados a la Ing. | 12
+008 | Física II | 6
+004 | Informática | 6 | 2101 | Fundamentos y aplicaciones informáticas | 6
+002 | Química | 6 | 1003 | Fundamentos Químicos aplicados al Buque | 9
+005 | Empresa y Derecho Marítimo | 6 | 1101 | Legislación y reglamentación Marítima | 6
+2202 | Empresa | 6
+018 | Construcción Naval y Estabilidad del Buque | 6 | 1004 | Fundamentos de Constr. Naval y Teoría del Buque | 9
+013 | Mecánica y Resistencia de Materiales | 6 | 2104 | Resistencia de Materiales en máquinas y estructuras navales | 6
+029 | Tecnología Mecánica y Mecanismos | 9 | 3003 | Tecnología mecánica y procesos de fabricación | 12
+015 | Electrotecnia y Máquinas Eléctricas del Buque | 6 | 3202 | Máquinas e instalaciones eléctricas del buque | 6
+2102 | Electrotecnia y electrónica | 6
+014 | Termodinámica y Termotecnia | 6 | 2204 | Termodinámica y Mecánica de fluidos | 6
+010 | Formación Sanitaria y Marítima | 6 | 2103 | Medicina Marítima | 6
+015 | Electrónica y Sistemas de Control | 6 | 2203 | Fundamentos de equipos automáticos del buque | 6
+019 | Seguridad Marítima y Contaminación | 6 | 2001 | Seg. marít., contraincendios y superv. en la mar | 12
+028 | Motores de Combustión Interna | 9 | 3002 | Motores de Combustión Interna | 12
+021 | Turbinas de Vapor y Gas | 6 | 3001 | Máquinas e instalaciones de vapor | 12
+022 | Transferencia de Calor y Generadores de Vapor | 6
+024 | Técnicas de Frío Aplicadas al Buque | 6 | 3101 | Frío y climatización industrial | 6
+042 | Automatización de Instalaciones del Buque | 6 | 3102 | Regulación y control de máquinas navales | 6
+026 | Gestión del Mantenimiento del Buque | 6 | 4201 | Mantenimiento y reparación de instalaciones marít. | 6
+030 | Máquinas Térmicas Marinas | 6 | 1005 | Sistemas Auxiliares del Buque | 9
+012 | Inglés Técnico Marítimo | 6 | 3201 | Terminología Internacional en Ingeniería Marítima | 6
+2201 | Inglés técnico marítimo | 6
+059 | Trabajo Fin de Grado | 12 | 4202 | Trabajo fin de grado en Ingeniería Marina | 12
+044 | Prácticas Externas en Buque | 9 | 4101 | Prácticas profesionales obligatorias en inst. energética marítimas | 24
+A CORUÑA | Gijón
+Cód. | Asignaturas | ECTS | Cód. | Asignaturas | ECTS
+001 | Matemáticas I | 6 | 1-001 | Álgebra lineal | 6
+1-002 | Cálculo | 6
+006 | Matemáticas II | 6 | 1-001 | Álgebra lineal | 6
+1-002 | Cálculo | 6
+007 | Expresión Gráfica | 6 | 1-008 | Expresión Gráfica | 6
+003 | Física I | 6 | 1-005 | Mecánica y Termodinámica | 6
+1-007 | Ondas y Electromagnetismo | 6
+008 | Física II | 6 | 1-005 | Mecánica y Termodinámica | 6
+1-007 | Ondas y Electromagnetismo | 6
+004 | Informática | 6 | 1-004 | Fundamentos de Informática | 6
+012 | Inglés Técnico Marítimo | 6 | 1-006 | Inglés Marítimo | 6
+002 | Química | 6 | 1-009 | Química | 6
+005 | Empresa y Derecho Marítimo | 6 | 1-003 | Empresa | 6
+2-003 | Derecho de la Navegación I | 6
+018 | Constr. Naval y Estabilidad del Buque | 6 | 2-002 | Construcción Naval y Teoría del Buque | 9
+013 | Mecánica y Resistencia de Materiales | 6 | 3-006 | Teoría de Máq. Nav. y Mec . de Sólidos | 9
+029 | Tecnología Mecánica y Mecanismos | 9 | 3-005 | Tecnol. Mec. Naval y Cienc. de los Mater. | 9
+015 | Electrotecnia y Máquinas Eléctricas del Buque | 6 | 3-001 | Electrotecnia y Electrónica de Potencia | 6
+2-004 | Electrotecnia y Electrónica | 9
+014 | Termodinámica y Termotecnia | 6 | 3-007 | Ter. Aplicada y Mecánica de Fluidos | 9
+017 | Mecánica de Fluidos | 6
+010 | Formación Sanitaria y Marítima | 6 | 1-010 | Formación Náutica y Sanitaria Marítima | 6
+015 | Electrónica y Sistemas de Control | 6 | 2-005 | Electr.y Automáticas aplicada al Buque | 6
+019 | Seguridad Marítima y Contaminación | 6 | 2-007 | Seguridad del Buque | 6
+2-006 | Seguridad Marítima | 6
+011 | Métodos Numéricos y Estadísticos | 6 | 2-001 | Ampliación de Matemáticas | 6
+028 | Motores de Combustión Interna | 9 | 3-003 | Mot. Térmicos Alternativos Marinos I | 6
+4-002 | Mot. Térmicos Alternativos Marinos II | 6
+021 | Turbinas de Vapor y Gas | 6 | 3-008 | Turbomáquinas Marinas | 6
+022 | Transf. de Calor y Generadores de Vapor | 6 | 3-002 | Generadores de Vapor Navales | 9
+027 | Sistemas Auxiliares del Buque | 6 | 2-008 | Sist. Princip., Aux. y Prop. del buque | 6
+042 | Automatización de Instalaciones del Buque | 6 | 3-004 | Regulación, Control e Instrumentación de Máquinas y Sistemas Marinos | 6
+020 | Buques Tanque y de Pasaje | 6 | 2-009 | Transportes en Buques Tanques | 6
+026 | Gestión del Mantenimiento del Buque | 6 | 4-001 | Mant. de los Sistemas del Buque | 6
+040 | Eficiencia Energética del Buque | 6 | 4-008 | Sistemas del Buque: Instalaciones Marítimas, Auditorías y Optimización | 6
+A CORUÑA | CÁDIZ
+Cód. | Asignaturas | ECTS | Cód. | Asignaturas | ECTS
+101 | Matemáticas I | 6 | 001 | Cálculo | 6
+002 | Álgebra y Geometría | 6
+102 | Expresión Gráfica | 6 | 009 | Expresión Gráfica | 6
+103 | Física | 6 | 005 | Física I: Mecánica y Termodinámica | 6
+006 | Física II: Electromagnetismo y Ondas | 6
+104 | Higiene Naval y Riesgos Laborales | 6 | 029 | Medicina Marít. y PRL a bordo | 6
+106 | Matemáticas II | 6 | 003 | Ampliación de Matemáticas | 6
+105 | Construcción Naval | 6 | 012 | Constr. Naval y Teoría del Buque I | 6
+030 | Constr. Naval y Teoría del Buque II | 6
+107 | Química | 6 | 007 | Química | 6
+175 | Inglés | 6 | 010 | Inglés Marítimo | 6
+110 | Informática | 6 | 008 | Informática | 6
+202 | Navegación I | 6 | 019 | Navegación I | 6
+204 | Sist. energéticos e auxiliares do buque | 6 | 016 | Sistemas del Buque | 6
+275 | Inglés Técnico Marítimo | 6 | 031 | Inglés Náutico II | 6
+206 | Electricidad y Electrónica | 6 | 011 | Electro. y Tecnología Electrónica I | 6
+207 | Manobra I | 6 | 022 | Maniobra I | 6
+208 | Teoría del Buque I | 6 | 012 | Constr.Naval y Teoría del Buque I | 6
+030 | Constr. Naval y Teoría del Buque II | 6
+211 | Seguridad Marítima | 6 | 013 | Seguridad Marítima | 6
+304 | Contaminación Marina y Atmosférica | 6 | 015 | Formación Marítima Avanzada | 6
+277 | Navegación Astronómica | 6 | 020 | Navegación II | 6
+301 | Estiba | 6 | 026 | Estiba | 6
+302 | Meteorología y Oceanografía | 6 | 025 | Meteorología | 6
+375 | Reglamento para Prevenir Abordajes en el Mar y Análisis de Accidentes | 6 | 024 | Reglamentos y Señales | 6
+305 | Derecho Marítimo I | 6 | 028 | Derecho Marítimo | 6
+306 | Navegación II | 6 | 021 | Navegación III | 6
+307 | Radiocomunicaciones Marítimas | 6 | 027 | Comunicaciones Marítimas | 6
+311 | Sist. de navegación y comunicación | 6 | 027 | Comunicaciones Marítimas | 6
+308 | Buques Tanque | 6 | 017 | Buques Especiales I | 6
+018 | Buques Especiales II | 6
+309 | Maniobra II | 6 | 023 | Maniobra II | 6
+376 | ISM & BRM &ISPS | 6 | 013 | Seguridad Marítima | 6
+404 | Teoría del Buque II | 6 | 012 | Const. Naval y Teoría del Buque I | 6
+030 | Const. Naval y Teoría del Buque II | 6
+485 | Trabajo Fin de Grado | 12 |  | Práct externas y proyecto fin de grado | 54
+476 | Prácticas | 9
+486 | Trabajo Fin de Grado | 12 |  | Prácticas externas y proyecto fin de grado | 54
+414 | Prácticas | 9
+A CORUÑA | BARCELONA
+Cód. | Asignaturas | ECTS | Cód. | Asignaturas | ECTS
+101 | Matemáticas I | 6 | 600 | Fundamentos de Matemáticas I | 6
+605 | Fundamentos de Matemáticas II | 6
+106 | Matemáticas II | 6 | 600 | Fundamentos de Matemáticas I | 6
+605 | Fundamentos de Matemáticas II | 6
+102 | Expresión Gráfica | 6 | 602 | Expresión Gráfica | 6
+103 | Física | 6 | 601 | Física | 9
+104 | Higiene Naval y Riesgos Laborales | 6 | 612 | Medicina Marítima | 3
+627 | Prevención de Riesgos Laborales Marítimos | 4.5
+105 | Construcción Naval | 6 | 614 | Construcción Naval | 6
+107 | Química | 6 | 607 | Química | 6
+109 | Empresa y Derecho | 6 | 604 | Legislación Marítima | 3
+606 | Gestión Empresarial y Organización de Empresas | 6
+110 | Informática | 6 | 603 | Informática | 6
+201 | Economía Marítima | 6 | 6 09 | Economía Marítima, Gestión Naviera y de Recursos Humanos a Bordo | 6
+202 | Navegación I | 6 | 610 | Navegación Costera | 6
+175 | Inglés | 6 | 608 | Inglés Técnico Marítimo | 6
+206 | Electricidad y Electrónica | 6 | 611 | Electricidad y Electrónica Naval | 6
+208 | Teoría del Buque I | 6 | 615 | Teoría del Buque | 6
+275 | Inglés Técnico Marítimo | 6 | 613 | Inglés Técnico para la Navegación | 9
+211 | Seguridad Marítima | 6 | 620 | Seguridad y Protección Marítimas | 6
+277 | Navegación Astronómica | 6 | 623 | Navegación Astronómica | 6
+301 | Estiba | 6 | 618 | Estiba | 12
+302 | Meteorología y Oceanografía | 6 | 629 | Meteorología y Oceanografía Náuticas | 7.5
+304 | Contaminación Marina y Atmosférica | 6 | 621 | Prevención de la Contaminación y Sostenibilidad | 6
+306 | Navegación II | 6 | 626 | Derrotas y Compases | 4.5
+402 | Simulación Náutica | 6 | 617 | Sistemas Electrónicos de Ayuda a la Navegación | 7.5
+307 | Radiocomunicaciones Marítimas. | 6 | 624 | Radiocomunicaciones | 6
+309 | Maniobra II | 6 | 625 | Maniobra y Reglamentos | 9
+308 | Buques Tanque | 6 | 628 | Transportes Especiales | 4.5
+404 | Teoría del Buque II | 6 | 619 | Teoría del Buque y Construcción Naval | 9
+485 | Trabajo Fin de Grado | 12 | 631 | Trabajo de Fin de Grado | 12
+476 | Prácticas | 9 | 630 | Prácticas Externas | 30
+486 | Trabajo Fin de Grado | 12 | 631 | Trabajo de Fin de Grado | 12
+414 | Prácticas | 9 | 630 | Prácticas Externas | 30
+ |  |  |  |  |  | 
+A CORUÑA | TENERIFE
+Cód. | Asignaturas | ECTS | Cód. | Asignaturas | ECTS
+101 | Matemáticas I | 6 | 1002 | Fundamentos matemáticos aplicados a la Ing. | 9
+102 | Expresión Gráfica | 6 | 1201 | Expresión Gráfica | 6
+103 | Física | 6 | 1001 | Fundamentos físicos aplicados a la Ing. | 12
+104 | Higiene Naval y Riesg . Laborales | 6 | 2103 | Medicina Marítima | 6
+105 | Construcción Naval | 6 | 1004 | Fund.de Constr. Naval y Teoría del Buque | 9
+107 | Química | 6 | 1003 | Fundamentos Químicos aplicados a la Ing. | 9
+109 | Empresa y Derecho | 6 | 2202 | Empresa | 6
+110 | Informática | 6 | 2101 | Fundamentos y aplicaciones informáticas | 6
+202 | Navegación I | 6 | 2104 | Navegación costera | 6
+204 | Sist . Energ . y Auxiliares del Buque | 6 | 1005 | Sistemas Auxiliares del Buque | 9
+175 | Inglés | 6 | 2201 | Inglés Técnico Marítimo | 6
+206 | Electricidad y Electrónica | 6 | 2102 | Electrotecnia y electrónica | 6
+207 | Maniobra I | 6 | 3104 | Maniobra y Estiba | 9
+208 | Teoría del Buque I | 6 | 1004 | Fund . de Constr. Naval y Teoría del Buque | 9
+275 | Inglés Técnico Marítimo | 6 | 4201 | Inglés normalizado O.M.I. | 6
+211 | Seguridad Marítima | 6 | 2001 | Seg . Marít ., contrainc . y superviv . en la mar | 12
+4101 | Seguridad y Contaminación Marítima | 6
+277 | Navegación Astronómica | 6 | 3101 | Navegación astronómica | 6
+301 | Estiba | 6 | 3104 | Maniobra y Estiba | 9
+304 | Contaminación Marina y Atmosférica | 6 | 2001 | Seg . Marít ., contrainc.s y superviv . en la mar | 12
+4101 | Seguridad y Contaminación Marítima | 6
+302 | Meteorología y Oceanografía | 6 | 3103 | Meteorología | 9
+305 | Derecho Marítimo I | 6 | 1101 | Legislación y reglamentación marítima | 6
+306 | Navegación II | 6 | 3102 | Navegación radioelectrónica | 6
+311 | Sistemas de Navegación y Comunicaciones | 6 | 3102 | Navegación radioelectrónica | 6
+3204 | Prácticas profesionales de Radiocomunicaciones | 6
+307 | Radiocomunicaciones Marítimas. | 6 | 0902 | Sistema de radiocomunicaciones (SMSSM) | 6
+314 | Inspecciones Marítimas | 6 | 0901 | Inspecciones técnicas de averías | 6
+403 | Derecho Marítimo II | 6 | 0904 | Cont. Inter.s marít . y res.civil por daños | 6
+404 | Teoría do Buque II | 6 | 3203 | Práct . prof. de Constr. Naval y t. del buque | 6
+515 | Inglés Comercial Marítimo | 6 | 4201 | Inglés Normalizado O.M.I. | 6
+486 485 | Trabajo Fin de Grado | 12 | 4202 | Proyecto Fin de Grado en Ingeniería Náutica y Transporte Marítimo | 12
+476 414 | Prácticas | 9 | 3201 | Práct . profesionales de nav.astronómica | 6
+3202 | Práct . profesionales de transportes marít . esp . | 6
+3203 | Práct . Prof.. de constr. naval y teo . del buque | 6
+3204 | Práct . profesionales de radiocomunicaciones | 6
+3205 | Práct . Prof. de ampl . de nav . astronom . | 6
+4102 | Práct . profesionales de naveg . radioelectrónica | 6
+4103 | Práct . profesionales de naveg . meteorológica | 9
+4104 | Práct . profesionales de maniobra y estiba | 9
+A CORUÑA | GIJÓN
+Cód. | Asignaturas | ECTS | Cód. | Asignaturas | ECTS
+101 | Matemáticas I | 6 | 1-001 | Álgebra lineal | 6
+1-002 | Cálculo | 6
+102 | Expresión Gráfica | 6 | 1-006 | Expresión Gráfica | 6
+103 | Física | 6 | 1-003 | Mecánica y Termodinámica | 6
+1-004 | Ondas y Electromagnetismo | 6
+104 | Higiene Naval y Riesgos Laborales | 6 | 1-010 | Formación náutica y sanitaria marítima | 6
+105 | Construcción Naval | 6 | 2-002 | Construcción Naval y Teoría del Buque | 9
+208 | Teoría del buque I | 6
+106 | Matemáticas II | 6 | 2-001 | Ampliación de Matemáticas | 6
+107 | Química | 6 | 1-005 | Química | 6
+109 | Empresa y Derecho | 6 | 1-007 | Empresa | 6
+110 | Informática | 6 | 1-008 | Fundamentos de informática | 6
+201 | Economía Marítima | 6 | 3-003 | Economía Marítima | 6
+202 | Navegación I | 6 | 3-006 | Navegación costera | 6
+204 | Sist . Energ . y Auxiliares del Buque | 6 | 2-008 | Sistemas principales, aux . y propulsores del buque | 6
+175 | Inglés | 6 | 1-009 | Inglés marítimo | 6
+206 | Electricidad y Electrónica | 6 | 2-004 | Electrotecnia y Electrónica | 9
+207 | Maniobra I | 6 | 3-008 | Maniobra, Reglamentos y Señales | 9
+375 | Reglamento para Prevenir Abordajes en el Mar y Análisis de Accidentes | 6
+275 | Inglés Técnico Marítimo | 6 | 3-005 | Inglés Náutico | 6
+211 | Seguridad Marítima | 6 | 2-006 | Seguridad Marítima | 6
+277 | Navegación Astronómica | 6 | 3-007 | Navegación Astronómica | 6
+3-010 | Navegación Marítima | 6
+4-002 | Navegación Radioelectrónica | 9
+301 | Estiba | 6 | 3-004 | Estiba | 6
+302 | Meteorología y Oceanografía | 6 | 4-008 | Navegación oceánica | 6
+305 | Derecho Marítimo I | 6 | 2-003 | Derecho de la Navegación I | 6
+306 | Navegación II | 6 | 3-007 | Navegación Astronómica | 6
+3-010 | Navegación Marítima | 6
+4-002 | Navegación Radioelectrónica | 9
+307 | Radiocomunicaciones Marítimas. | 6 | 4-009 | Sistema Mundial de socorro y Seguridad Marítima | 6
+308 | Buques Tanque | 6 | 2-009 | Transportes en Buques Tanque | 6
+402 | Simulación Náutica | 6 | 3-007 | Navegación Astronómica | 6
+3-010 | Navegación Marítima | 6
+4-002 | Navegación Radioelectrónica | 9
+403 | Derecho Marítimo II | 6 | 3-002 | Derecho de la Navegación II | 6
+404 | Teoría del Buque II | 6 | 3-001 | Ampliación Teoría del Buque | 9
+A CORUÑA | CÁDIZ
+151 | Matemáticas I | 6 | 3001 | Cálculo | 6
+3002 | Álgebra y Geometría | 6
+156 | Matemáticas II | 6 | 3001 | Cálculo | 6
+3002 | Álgebra y Geometría | 6
+152 | Expresión Gráfica | 6 | 3009 | Expresión Gráfica | 6
+153 | Física I | 6 | 3005 | Física I: Mecánica y Termodinámica | 6
+3006 | Física II: Electromagnetismo y Ondas | 6
+158 | Física II | 6 | 3005 | Física I: Mecánica y Termodinámica | 6
+3006 | Física II: Electromagnetismo y Ondas | 6
+154 | Informática | 6 | 3008 | Informática | 6
+155 | Inglés | 6 | 3010 | Inglés Marítimo | 6
+157 | Química | 6 | 3007 | Química | 6
+160 | Construcción Naval y Teoría del Buque | 6 | 3012 | Construcción Naval y Teoría del Buque I | 6
+251 | Mecánica y Resistencia de los Materiales | 6 | 3023 | Mecánica y Resistencia de Materiales | 6
+252 | Tecnología Mecánica e Mecanismos | 6 | 3022 | Tecnología Mecánica y Montajes | 6
+253 | Electrotecnia. Máq . Eléctricas y Sist . Eléc . del Buque | 6 | 3011 | Electrotecnia y Tecnología Electrónica I | 6
+3021 | Electrotecnia y Tecnología Electrónica II | 6
+254 | Termodinámica y Termotecnia | 6 | 3019 | Termodinámica y Mecánica de Fluidos | 6
+255 | Higiene Naval y Riesgos Laborales | 6 | 3014 | Formación Marítima y Sanitaria Básicas | 6
+256 | Ciencia y Tecnología de los Materiales | 6 | 3020 | Ciencia y Tecnología de los Materiales | 6
+257 | Fundamentos de Regulación y Control | 6 | 3027 | Sistemas de Regulación y Control | 6
+259 | Seguridad Marítima y Contaminación | 6 | 3013 | Seguridad Marítima | 6
+3015 | Formación Marítima Avanzada | 6
+260 | Matemática III | 6 | 3003 | Ampliación de Matemáticas | 6
+351 | Motores de Combustión Interna | 6 | 3024 | Motores de Combustión Interna | 9
+352 | Turbinas de Vapor y Gas | 6 | 3028 | Termod . Aplicada y Turbom . Térmicas | 9
+353 | Transferencia de Calor y Generadores de Vapor | 6 | 3027 | Generadores de Vapor | 6
+354 | Instalaciones Marítimas y Propulsores | 6 | 3016 | Sistemas del Buque | 6
+356 | Electrónica. Sistemas Electrónicos del Buque | 6 | 3011 | Electrotecnia y Tecnología Electrónica I | 6
+3021 | Electrotecnia y Tecnología Electrónica II | 6
+358 | Transportes Especiales y Mercancías Peligrosas | 6 | 3018 | Buques Especiales I | 6
+3018 | Buques Especiales II | 6
+360 | Sistemas de Gestión del Mantenimiento | 6 | 3029 | Mantenimiento y Oficina Técnica | 6
+455 | Trabajo Fin de Grado | 12 | 3035 | Proyecto Fin de Grado | 12
+454 | Prácticas Externas | 24 | 3034 | Prácticas Externas | 18
+A CORUÑA | BARCELONA
+151 | Matemáticas I | 6 | 632 | Fundamentos de Matemáticas I | 6
+152 | Expresión Gráfica | 6 | 634 | Expresión Gráfica | 6
+153 | Física I | 6 | 633 | Física | 9
+158 | Física II | 6
+154 | Informática | 6 | 635 | Informática | 6
+155 | Inglés | 6 | 638 | Inglés Técnico Marítimo | 6
+156 | Matemáticas II | 6 | 636 | Fundamentos de Matemáticas II | 6
+157 | Química | 6 | 607 | Química | 6
+159 | Empresa y Derecho | 6 | 606 | Gestión Empresarial y Organización de Empr . | 6
+651 | Legislación Marítima | 3
+160 | Construcción Naval y Teoría del Buque | 6 | 646 | Construcción Naval | 6
+644 | Teoría del Buque | 6
+251 | Mecánica y Resistencia de los Materiales | 6 | 637 | Mecánica y Resistencia de los Materiales | 9
+252 | Tecnología Mecánica e Mecanismos | 6 | 642 | Tecnología Mecánica | 6
+253 | Electrotecnia, Máq . Eléctr . y Sist . Eléctr . del Buque | 6 | 641 | Electricidad y Electrotecnia | 6
+254 | Termodinámica y Termotecnia | 6 | 640 | Termodinámica Aplicada y Termotecnia | 6
+255 | Higiene Naval y Riesgos Laborales | 6 | 612 | Medicina Marítima | 3
+256 | Ciencia y Tecnología de los Materiales | 6 | 643 | Ciencia y Tecnología de los Materiales | 6
+257 | Fundamentos de Regulación y Control | 6 | 650 | Control y Regulación Automática | 6
+258 | Mecánica de Fluidos | 6 | 645 | Mecánica de Fluidos | 6
+259 | Seguridad Marítima y Contaminación | 6 | 648 | Seguridad y Protección Marítimas | 6
+649 | Prevención de la Contam . y Sostenibilidad | 6
+260 | Matemática III | 6 | 639 | Métodos Matemáticos para la Ingeniería | 9
+351 | Motores de Combustión Interna | 6 | 655 | Motores de Combustión Interna | 9
+352 | Turbinas de Vapor y Gas | 6 | 654 | Turbomáquinas Marinas y Generad. de Vapor | 9
+353 | Transferencia de Calor y Generadores de Vapor | 6
+354 | Instalaciones Marítimas y Propulsores | 6 | 652 | Propulsores | 4.5
+656 | Operación y Manten . de Máq . y Sist . Marinos | 6
+355 | Técnicas de Frío y Aire Acondicionado | 6 | 653 | Instalaciones Frigoríficas y de Climatización | 4.5
+356 | Electrónica. Sistemas Electrónicos del Buque | 6 | 647 | Electrónica Naval | 6
+358 | Transportes Especiales y Mercancías Peligrosas | 6 | 657 | Transportes Especiales | 4.5
+360 | Sistemas de Gestión del Mantenimiento | 6 | 659 | Inspección y Ensayos No Destructivos | 4.5
+658 | Instalaciones y Mantenimiento | 4.5
+455 | Trabajo Fin de Grado | 12 |  | Trabajo de Fin de Grado | 12
+454 | Prácticas Externas | 24 | 661 | Prácticas Externas | 30
+A CORUÑA | TENERIFE
+151 | Matemáticas I | 6 | 1002 | Fundamentos Matemáticos aplicados a la Ing. | 9
+152 | Expresión Gráfica | 6 | 1201 | Expresión Gráfica | 6
+153 | Física I | 6 | 1001 | Fundamentos Físicos aplicados a la Ing. | 12
+158 | Física II | 6
+154 | Informática | 6 | 2101 | Fundamentos y aplicaciones informáticas | 6
+155 | Inglés | 6 | 2201 | Inglés técnico marítimo | 6
+157 | Química | 6 | 1003 | Fundamentos Químicos aplicados al Buque | 9
+159 | Empresa y Derecho | 6 | 1101 | Legislación y reglamentación Marítima | 6
+2202 | Empresa | 6
+160 | Construcción Naval y Teoría del Buque | 6 | 1004 | Fundamentos de Constr. Naval y Teoría del Buque | 9
+251 | Mecánica y Resistencia de los Materiales | 6 | 2104 | Resistencia de Materiales en máquinas y estructuras navales | 6
+252 | Tecnología Mecánica e Mecanismos | 6 | 3003 | Tecnología mecánica y procesos de fabricación | 12
+253 | Electrotecnia, Máq . Eléctr . y Sist . Eléctr . del Buque | 6 | 3202 | Máquinas e instalaciones eléctricas del buque | 6
+254 | Termodinámica y Termotecnia | 6 | 2204 | Termodinámica y Mecánica de fluidos | 6
+255 | Higiene Naval y Riesgos Laborales | 6 | 2103 | Medicina Marítima | 6
+257 | Fundamentos de Regulación y Control | 6 | 2203 | Fundamentos de equipos automáticos del buque | 6
+259 | Seguridad Marítima y Contaminación | 6 | 2001 | Seg . marít ., contraincendios y superv . en la mar | 12
+351 | Motores de Combustión Interna | 6 | 3002 | Motores de Combustión Interna | 12
+352 | Turbinas de Vapor y Gas | 6 | 3001 | Máquinas e instalaciones de vapor | 12
+353 | Transferencia de Calor y Generadores de Vapor | 6
+355 | Técnicas de Frío y Aire Acondicionado | 6 | 3101 | Frío y climatización industrial | 6
+356 | Electrónica. Sistemas Electrónicos del Buque | 6 | 2102 | Electrotecnia y electrónica | 6
+357 | Automatización de Instalaciones Marítimas | 6 | 3102 | Regulación y control de máquinas navales | 6
+360 | Sistemas de Gestión del Mantenimiento | 6 |  | Mantenimiento y reparación de instalaciones marít . | 6
+361 | Máquinas Térmicas Marinas | 6 | 1005 | Sistemas Auxiliares del Buque | 9
+551 | Inglés Técnico Marítimo | 6 | 3201 | Terminología Internacional en Ingeniería Marítima | 6
+455 | Trabajo Fin de Grado | 12 | 4201 | Trabajo fin de grado en Ingeniería Marina | 12
+454 | Prácticas Externas | 24 | 4101 | Prácticas profesionales obligatorias en inst. energética marítimas | 24
+A CORUÑA | Gijón
+151 | Matemáticas I | 6 | 1-001 | Álgebra lineal | 6
+1-002 | Cálculo | 6
+156 | Matemáticas II | 6 | 1-001 | Álgebra lineal | 6
+1-002 | Cálculo | 6
+152 | Expresión Gráfica | 6 | 1-008 | Expresión Gráfica | 6
+153 | Física I | 6 | 1-005 | Mecánica y Termodinámica | 6
+1-007 | Ondas y Electromagnetismo | 6
+158 | Física II | 6 | 1-005 | Mecánica y Termodinámica | 6
+1-007 | Ondas y Electromagnetismo | 6
+154 | Informática | 6 | 1-004 | Fundamentos de Informática | 6
+155 | Inglés | 6 | 1-006 | Inglés Marítimo | 6
+157 | Química | 6 | 1-009 | Química | 6
+159 | Empresa y Derecho | 6 | 1-003 | Empresa | 6
+2-003 | Der e cho de la Navegación I | 6
+160 | Construcción Naval y Teoría del Buque | 6 | 2-002 | Construcción Naval y Teoría del Buque | 9
+251 | Mecánica y Resistencia de los Materiales | 6 | 3-006 | Teoría de Máq . Nav . y Mecánica de Sólidos | 9
+252 | Tecnología Mecánica e Mecanismos | 6 | 3-005 | Tecnol . Mec . Naval y Ciencia de los Mater. | 9
+253 | Electrotecnia, Máq . Eléctr . y Sist . Eléctr . del Buque | 6 | 3-001 | Electrotecnia y Electrónica de Potencia | 6
+254 | Termodinámica y Termotecnia | 6 | 3-007 | Termodin . Aplicada y Mecánica de Fluidos | 9
+258 | Mecánica de Fluidos | 6
+255 | Higiene Naval y Riesgos Laborales | 6 | 1-010 | Formación Náutica y Sanitaria Marítima | 6
+257 | Fundamentos de Regulación y Control | 6 | 2-005 | Electrónica y Automáticas aplicada al Buque | 6
+259 | Seguridad Marítima y Contaminación | 6 | 2-007 | Seguridad del Buque | 6
+2-006 | Seguridad Marítima | 6
+260 | Matemática III | 6 | 2-001 | Ampliación de Matemáticas | 6
+351 | Motores de Combustión Interna | 6 | 3-003 | Motores Térmicos Alternativos Marinos I | 6
+4-002 | Motores Térmicos Alternativos Marinos II | 6
+352 | Turbinas de Vapor y Gas | 6 | 3-008 | Turbomáquinas Marinas | 6
+353 | Transferencia de Calor y Generadores de Vapor | 6 | 3-002 | Generadores de Vapor Navales | 9
+354 | Instalaciones Marítimas y Propulsores | 6 | 2-008 | Sist . Princip ., Aux . y Propulsores del buque | 6
+356 | Electrónica. Sistemas Electrónicos del Buque | 6 | 2-004 | Electrotecnia y Electrónica | 9
+357 | Automatización de Instalaciones Marítimas | 6 | 3-004 | Regulación, Control e Instrumentación de Máquinas y Sistemas Marinos | 6
+358 | Transportes Especiales y Mercancías Peligrosas | 6 | 2-009 | Transportes en Buques Tanques | 6
+360 | Sistemas de Gestión del Mantenimiento | 6 | 4-001 | Mantenimiento de los Sistemas del Buque | 6
+453 | Técnicas Energéticas Aplicadas al Buque | 6 | 4-008 | Sistemas del Buque: Instalaciones Marítimas, Auditorías y Optimización | 6
+
+--- OCR de imagen: SICUE_mapa.png_2063069239_61d96508.png ---
+Cy E.S. de la Marina Civil de Gijon
+Universidad de Oviedo
+
+ica de Barcelona
+Politécnica ‘
+
+Esc. Polit. Sup. a
+La Laguna

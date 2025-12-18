@@ -1,0 +1,162 @@
+ 
+ 
+D06-P03. SATISFACCIÓN 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+1  
+ 
+D06-P03. Satisfacción 
+ 
+ 
+ 
+ ÓRGANO FECHA 
+ELABORADO Unidad Técnica de Calidad 26/04/2018 
+CONTEXTUALIZADO Comisión de Garantía de 
+Calidad  14/12/2022 
+REVISADO Unidad Técnica de Calidad 15/12/2022 
+APROBADO Junta de Centro 21/12/2022 
+ 
+ 
+RESUMEN DE REVISIONES 
+EDICIÓN FECHA MODIFICACIONES 
+B00 07/01/2008 Edición inicial 
+B01 15/05/2014 Modificación da versión inicial B00 á normativa actual 
+ 
+ 
+ 
+  
+
+ 
+ 
+D06-P03. SATISFACCIÓN 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+2  
+ 
+DENOMINACIÓN  D06-P03. SATISFACCIÓN 
+OBJETO  Establecer la sistemática para garantizar que se recoge la satisfacción, 
+expectativas y necesidades  de los grupos de interés y que sus opiniones 
+(resultados) se utilizan para la mejora de la organización del centro y del 
+desarrollo de los títulos que se imparten en él. 
+DEFINICIONES  No cuenta con definiciones asociadas. 
+RESPONSABLES  Equipo Directivo (ED) 
+Junta de Centro (JC) 
+Persona Responsable de Calidad (PRC) 
+Comisión de Garantía de Calidad (CGC) 
+Comisión Académica del Título (CAT) 
+Coordinador/a del Título (CT) 
+Unidad Técnica de Calidad (UTC) 
+Comisión de Formación y Asesoramiento (CFA) 
+Servicio de Informática y Comunicaciones (SIC) 
+DOCUMENTACIÓN  Ver anexo V del Manual 
+DESARROLLO  Satisfacción con el título 
+La UTC elabora una propuesta de encuestas de satisfacción de los grupos 
+de interés con el título y del protocolo de aplicación y se la remite a la PRC. 
+Esta se la envía a los/as CT pa ra su análisis por las CAT. Una vez 
+analizadas, el/la CT remite las propuestas de mejora , de ser el caso, a la 
+PRC para su análisis conjunto a nivel de centro por la CGC y establecimiento 
+de propuesta de mejora.  
+La PRC remite a la UTC dichas propuestas de mejora para su es tudio e 
+inclusión, de ser el caso,  en la propuesta de encuestas de satisfacción de 
+los grupos de interés y del protocolo de aplicación. 
+Posteriormente la UTC, remite a la PRC las encuestas de satisfacción de los 
+grupos de interés, definitivas y el protocol o de aplicación de estas para su 
+publicación en la página web del centro 
+(https://euat.udc.es/index.php/calidad/indicadores).  
+Anualmente, en base a dicho protocolo, la UTC  y el PRC organizan la 
+aplicación de las encuestas de satisfacción de los grupos de interés.  
+Una vez aplicadas, la UTC procesa los datos y los incorpora a la aplicación 
+informática e informa, por correo electrónico, a la PRC de su disponibilidad, 
+quien se lo comunica a los/as CT. 
+
+ 
+ 
+D06-P03. SATISFACCIÓN 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+3  
+El/la CT revisa los datos del título que coordina y si detecta algún error se lo 
+comunica a la UTC para su subsanación. 
+Satisfacción del alumnado con la docencia  
+La CFA elabora las encuestas de satisfacción del alumnado con la docencia, 
+que forman parte del programa AVALIEMOS de la UDC,  y el técnico 
+responsable del SIC las activa cada curso académico, a la finalización de 
+cada cuatrimestre, en la plataforma de encuestas de la UDC . Finalizado el 
+plazo y reali zado el tratamiento de los datos, publica los resultados en la 
+página web de la UDC 
+(https://www.udc.es/gl/transparencia/resultados/indicesatisfaccion/) y la UTC 
+realiza las gestiones oportunas para que se incorporen a la aplicación 
+informática.  
+Anualmente, la CAT analiza los resultados obtenidos y establece las acciones 
+de mejora necesarias, de ser el caso. Posteriormente, se las envía a la CGC 
+para su análisis conjunto a nivel de centro, que remite al ED para su 
+aprobación por la JC. 
+En caso de que se establezcan acciones de mejora relativas a las encuestas 
+de satisfacción a los grupos de interés o al protocolo de aplicaci ón de 
+encuestas, la PRC se las remite a la UTC para su estudio e incorporación, de 
+ser el caso. 
+  
+
+ 
+ 
+D06-P03. SATISFACCIÓN 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+4  
+ 
+EVIDENCIAS RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+ D06-P03-E01. Actas CAT 
+CGC 
+JC 
+Cuando se reúne la 
+comisión 
+Aplicación 
+informática 
+ D06-P03-E02. Protocolo de aplicación 
+de encuestas  
+UTC 
+CAT 
+CGC 
+Cada curso 
+académico 
+Aplicación 
+informática 
+ D06-P03-E03. Encuestas satisfacción 
+con el título a los grupos interés 
+UTC 
+CAT 
+CGC 
+Cada curso 
+académico 
+Web del 
+centro 
+ D06-P03-E04. Encuestas de 
+satisfacción del alumnado con la 
+docencia (AVALIEMOS) 
+CFA Cada curso 
+académico 
+Web 
+institucional 
+ D06-P03-E05. Acciones de mejora CAT/CGC Cada vez que se 
+abra/revise una 
+acción de mejora 
+Aplicación 
+informática 
+ INDICADORES RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+D06-P03-I01. Satisfacción de los 
+grupos de interés con el título 
+(porcentaje de participación y 
+resultados)  
+UTC Cada curso académico Aplicación 
+informática 
+D06-P03-I02. Satisfacción del alumnado 
+con la docencia (AVALIEMOS)  
+(porcentaje de particip ación y 
+resultados)  
+SIC Cada curso académico Aplicación 
+informática 
+ 

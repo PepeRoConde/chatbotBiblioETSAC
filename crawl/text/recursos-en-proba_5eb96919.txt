@@ -71,3 +71,6 @@ Calendarios
 App Store
 Google Play
 RSS
+
+--- OCR de imagen: umbrella-logo_2d226baa.svgxml ---
+Error checking image: cannot identify image file 'crawl\\crawled_data\\images\\umbrella-logo_2d226baa.svgxml'

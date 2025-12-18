@@ -1,0 +1,254 @@
+  
+ 
+Xerencia 
+  
+Resolución conxunta da Xerencia e da Vicerreitoría de Economía e Planificación 
+Estratéxica pola que se publican os criterios de codificación do financiamento alleo 
+na clasificación orgánica de ingresos e gastos da UDC. 
+A Universidade da Coruña (en diante UDC)  recibe, xestiona e xustifica axudas 
+procedentes da Unión Europea e das administracións públicas estatal, autonómica e 
+local. Para o seguimento destas axudas mantén un sistema de contabilidade separada 
+asignando un código contable orgánico específico para cada financiamento alleo 
+concedido, na clasificación de ingresos e gastos.  
+A raíz da publicación no Real Decreto-lei 36/2020, de 30 de decembro, de medidas 
+urxentes para a modernización da Administración Pública e  para a execución do Plan 
+de Recuperación, Transformación e  Resiliencia (PRTR) e das Ordes HFP/1030/2021, 
+de 29 de setembro e HFP/1031/2021, de 29 de setembro, a UDC considera necesario 
+publicar unha norma onde se recollan os criterios de codificación que se veñen utilizando 
+para o financiamento alleo, dando cumprimento a obriga de manter un sistema separado 
+de contabilidade, cun  código contable específico e individualizado para cada 
+financiamento. Neste código orgánico se recollen todas as operacións vinculadas a cada 
+concesión, tanto no orzamento de ingresos como en gastos. Is to permite contar cunha 
+pista de auditoría apropiada en relación con todos os ingresos e gastos vinculados a 
+cada resolución de axuda e/ou financiamento alleo concedido. Por outra parte, tamén 
+proporciona información necesaria para o tratamento dos gasto s e ingresos na 
+contabilidade analítica. 
+Os criterios de codificación se establecen  a nivel de orgánica, para todos os gastos 
+correspondentes a financiamento alleo.  
+A clasificación orgánica do orzamento de ingresos e gastos está formada por dez díxitos. 
+O rexistro contable efectúase no sistema contable da UDC, Universitas XXI-Económico 
+(en diante UXXI-Ec.), cos seguintes criterios: 
+Primeiro.- Centro de gasto  
+4 díxitos para o código do Centro de Gasto 
+O detalle de centros de gasto e o que corresponde as diferentes unidades orgánicas 
+que xestionan gastos con cargo ao orzamento da UDC. 
+  
+Código Seguro De Verificación 5OqqSJnG/+vzrkeZiRB8fA==Estado Data e hora
+Asinado Por Vicerr. de Economía e Planificación Estratéxica  - Domingo Javier Calvo DopicoAsinado 23/12/2021 13:44:02
+XERENTE  - Ramón Alberto Del Valle López Asinado 23/12/2021 13:36:55
+Observacións Páxina 1/6
+Url De Verificación https://sede.udc.gal/services/validation/5OqqSJnG/+vzrkeZiRB8fA==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+  
+ 
+Xerencia 
+ 
+Segundo.- Actividade 
+Quinto díxito  para indicar a actividade, conforme co seguinte detalle: 
+• 2 proxecto 
+• 3 infraestrutura  
+• 4 convenio 
+• 5 programa de recursos humanos (RRHH). 
+• 6 contratos artigo 83 da Lei Orgánica 6/2001, de 21 de decembro, de 
+Universidades  (LOU) 
+• Letra “E” indicativa do programa europeo Erasmus 
+Terceiro.- Financiamento 
+Sexto díxito para indicar a entidade financiadora, conforme co detalle que se indica: 
+• 0 Financiamento do exterior (alleo á UE) 
+• 1 Administración Xeral do Estado (Ministerios con competencias en economía e 
+en educación) 
+• 2 Outros Ministerios 
+• 3 organismos autónomos e outros entes públicos (inclúe as universidades) 
+• 4 Xunta de Galicia 
+• 5 Universidade da Coruña (UDC). Dotacións procedentes de recursos liberados 
+dispoñibles de proxectos (RLDs) 
+• 6 Administración Local 
+• 7 empresas 
+• 8 Unión Europea (UE) 
+• 9 Fundacións, colexios profesionais, ONGs, grupos parlamentarios 
+Na descrición da orgánica constará a referencia de cada axuda, investigador principal 
+(en diante IP) e os códigos identificativos requiridos para cada concesión 
+Todas as convocatorias, licitacións, convenios e o resto de instrumentos xurídicos, que 
+se desenvolvan no ámbito da UDC con financiamento europeo, estatal, autonómico e/ou 
+local adecuaranse as medidas de publicidade e as condicións establecidas para cada 
+resolución de concesión.  
+Código Seguro De Verificación 5OqqSJnG/+vzrkeZiRB8fA==Estado Data e hora
+Asinado Por Vicerr. de Economía e Planificación Estratéxica  - Domingo Javier Calvo DopicoAsinado 23/12/2021 13:44:02
+XERENTE  - Ramón Alberto Del Valle López Asinado 23/12/2021 13:36:55
+Observacións Páxina 2/6
+Url De Verificación https://sede.udc.gal/services/validation/5OqqSJnG/+vzrkeZiRB8fA==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+  
+ 
+Xerencia 
+ 
+Cuarto.- Proxectos en execución do Plan de Recuperación, Transformación e 
+Resiliencia (PRTR), financiados con fondos europeos procedentes do 
+Instrumento Europeo de Recuperación («Next Generation EU») 
+Sétimo e oitavo díxito: 
+No sétimo e oitavo díxito da orgánica levan  as letras “ NG”, indicativo de («Next 
+Generation EU»). Todas as axudas financiadas con estes  fondos levarán estas letras 
+no lugar indicado e serán exclusivas para as actuacións  con este financiamento. Non 
+poderá repetirse esta combinación. A hora da codificación se dará prioridade a esta 
+nomenclatura. 
+Noveno e décimo díxito: 
+Os dous últimos díxitos da orgánica indican a número de orde na UDC de cada  proxecto 
+«Next Generation EU», en función do número de proxectos xestionados na Universidade 
+con este financiamento e de alta no sistema contable Universitas XXI-Ec.  
+Na descrición da orgánica constará a referencia de cada axuda, IP, o código que 
+corresponda da Base de Datos Nacional de Subvencións (BDNS) , o número de 
+compoñente e de investimento,  conforme co establecido no Plan de Recuperación, 
+Transformación e Resiliencia (PRTR) e os códigos identificativos requiridos para cada 
+concesión 
+A execucións destas axudas adecuarase ao establecido nas Ordes HFP/1030/2021, de 
+29 de setembro e HFP/1031/2021, de 29 de setembro e nas normas que se diten no 
+ámbito do PRTR e para a execución dos fondos do  Instrumento Europeo de 
+Recuperación. 
+Todas as convocatorias, licitacións, convenios e o resto de instrumentos xurídicos, que 
+se desenvolvan neste ámbito, deberán adecuaranse as medidas de publicidade e as 
+condicións establecidas para estes fondos.  
+As convocatorias de axudas que realice a UDC financiadas con fondos «Next 
+Generation EU» deberán publicarse na BDNS , conforme co establecido na Lei 9/2007, 
+de 13 de xuño, de subvencións de Galicia, na Lei 38/2003 do 17 de novembro xeral de 
+subvencións e no Real Decreto-lei 36/2020, de 30 de decembro, polo que se aproban  
+Código Seguro De Verificación 5OqqSJnG/+vzrkeZiRB8fA==Estado Data e hora
+Asinado Por Vicerr. de Economía e Planificación Estratéxica  - Domingo Javier Calvo DopicoAsinado 23/12/2021 13:44:02
+XERENTE  - Ramón Alberto Del Valle López Asinado 23/12/2021 13:36:55
+Observacións Páxina 3/6
+Url De Verificación https://sede.udc.gal/services/validation/5OqqSJnG/+vzrkeZiRB8fA==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+  
+ 
+Xerencia 
+ 
+as medidas urxentes para a modernización da Administración Pública  para a execución 
+do Plan de Recuperación, Transformación e Resiliencia e ordes que o desenvolven. 
+Quinto.- Programa de mobilidade da Unión Europea Erasmus 
+Na descrición da orgánica constarán  os códigos identificativos requiridos para cada 
+concesión 
+• 5º díxito corresponde coa letra “E” de Erasmus. 
+• 6º díxito fai referencia ao tipo de proxecto (“3”- proxecto KA103 ou “7”- proxecto 
+KA107) 
+• 7º e 8º indican o ano de inicio (dous díxitos) e 9º e 10º o ano do fin do proxecto 
+(dous díxitos) 
+Sexto.- Infraestruturas 
+Neste apartado se recolle a codificación para as infraestruturas en execución. A partir 
+de 01/01/2022 as novas concesións de axudas para infraestruturas identificaranse cos 
+códigos que correspondan en función do financiador , conforme co establecido no 
+apartado terceiro desta resolución 
+• 4º primeiros díxitos para o código do Centro de Gasto 
+• 5º díxito fai referencia a actuación de infraestrutura (3 infraestrutura). 
+• 6º díxito a procedencia do financiamento (1 estatal, 4 autonómica, etc). 
+• 7º y 8º díxito o ano de concesión. 
+• 9º e 10º díxitos son aleatorios en función da apertura da orgánica. 
+En UXXI-Ec o campo descritivo da aplicación indicará a referencia do proxecto/axuda, 
+financiamento recibido e investigador principal. 
+Sétimo.- Alta de aplicacións en Universitas XXI-Ec. 
+Os criterios establecidos nos apartados anteriores utilizaranse para rexistrar en UXXI-
+Ec., cada resolución de axuda obtida a UDC. Este c ódigo orgánico único, vinculase 
+exclusivamente a un financiamento concreto. Neste código se agruparán todas as 
+operacións contables da axuda.  
+Código Seguro De Verificación 5OqqSJnG/+vzrkeZiRB8fA==Estado Data e hora
+Asinado Por Vicerr. de Economía e Planificación Estratéxica  - Domingo Javier Calvo DopicoAsinado 23/12/2021 13:44:02
+XERENTE  - Ramón Alberto Del Valle López Asinado 23/12/2021 13:36:55
+Observacións Páxina 4/6
+Url De Verificación https://sede.udc.gal/services/validation/5OqqSJnG/+vzrkeZiRB8fA==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+  
+ 
+Xerencia 
+ 
+A documentación soporte que corresponde a cada expediente de gasto se arquivará 
+electrónicamente no repositorio documental electrónico (RDOC) de UXXI-Ec . A esta 
+documentación poderá accederse mediante consulta de cada documento contable.  
+Deste xeito se garante que todas as actuacións realizadas no marco dunha axuda 
+concedida contan cunha unha pista de auditoría axeitada que permite facer o 
+seguimento dos gastos e dos ingresos que corresponden a cada financiamento e como 
+información necesaria para a contabilidade analítica. Con respecto as licitacións a UDC 
+utiliza o sistema de licitación electrónica da Xunta de Galicia ( SILEX). A codificación 
+para o seguimento contable é a que corresponde a esta resolución.    
+O resto das convocatorias de axudas publicadas pola UDC adecuaranse tamén ao 
+establecido nesta materia pola Lei 9/2007, de 13 de xuño, de subvencións de Galicia e 
+a Lei 38/2003 do 17 de novembro xeral de subvencións. 
+Oitavo.- Vixencia 
+A codificación establecida para infraestruturas manterase unicamente para as 
+infraestruturas en execución. As novas concesións de infraestruturas , dende o 
+01/01/2022, identificaranse co díxito que corresponda en función da entidade 
+financiadora (apartado terceiro desta resolución). 
+A codificación dos proxectos con financiamento do exterior, alleos a UE e de artigos 83 
+da LOU iniciarase o 01/01/2022.  
+Disposición final 
+No anexo que se incorpora se detallan os criterios recollidos nesta resolución. 
+Esta resolución publicarase no Taboleiro da Sede Electrónica da UDC e entrará en vigor 
+o día seguinte da súa publicación.  
+Na data da sinatura dixital 
+  
+Código Seguro De Verificación 5OqqSJnG/+vzrkeZiRB8fA==Estado Data e hora
+Asinado Por Vicerr. de Economía e Planificación Estratéxica  - Domingo Javier Calvo DopicoAsinado 23/12/2021 13:44:02
+XERENTE  - Ramón Alberto Del Valle López Asinado 23/12/2021 13:36:55
+Observacións Páxina 5/6
+Url De Verificación https://sede.udc.gal/services/validation/5OqqSJnG/+vzrkeZiRB8fA==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+  
+ 
+Xerencia 
+ 
+ANEXO 
+ 
+ 
+ 
+ 
+CODIFICACIÓN  FINANCIAMENTO AFECTADO 
+UXXI ORGÁNICA: XX.XX.5º.6º.XX.XX 
+DÍXITO 5º DÍXITO 6º 
+2 PROXECTOS 0 FINANCIAMENTO DO EXTERIOR (ALLEO A UE) 
+3 INFRAESTRUCTURAS 1 ADMINISTRACIÓN XERAL DO ESTADO (ministerios con competencias 
+en economía e en educación) 
+4 CONVENIOS 2 OUTROS MINISTERIOS 
+5 PROGRAMAS RECURSOS HUMANOS 3 OOAA e OUTROS ENTES PÚBLICOS (UNIVERSIDADES) 
+6 CONTRATOS ART. 83 DA LOU 4 XUNTA DE GALICIA 
+E PROGRAMA EUROPEO ERASMUS 5 UNIVERSIDADE DA CORUÑA (UDC) 
+  6 ADMINISTRACIÓN LOCAL (DIPUTACIÓNS, CONCELLOS) 
+  7 EMPRESAS 
+  8 ÚNION EUROPEA 
+  
+9 FUNDACIÓNS, COLEXIOS PROFESIONAIS, ONGs, GRUPOS 
+PARLAMENTARIOS 
+CODIFICACIÓN  FINANCIAMENTO AFECTADO «Next Generation EU» 
+UXXI ORGÁNICA: XX.XX.28.NG.XX 
+NG PROXECTOS 
+7º e 8º díxito da orgánica 
+Codificación dos proxectos que se desenvolvan en 
+execución do Plan de Recuperación, Transformación e 
+Resilencia (PRTR), financiado con fondos do Instrumento 
+Europeo de Recuperación («Next Generation EU») 
+9º e 10º díxito da orgánica 
+Indican a número de orde na UDC de cada proxecto "Next 
+Generation EU", en función do número de proxectos 
+xestionados con este financiamento e de alta no sistema 
+UXXI-Ec 
+CODIFICACIÓN  FINANCIAMENTO AFECTADO «ERASMUS» 
+UXXI ORGÁNICA: XX.XX.E.tipo proxecto.ano inicio.ano fin 
+ERASMUS PROXECTOS 
+5º díxito da orgánica letra "E" 
+6º díxito da orgánica tipo de proxecto: “3”- proxecto KA103 ou “7”- proxecto KA107 
+7º e 10º díxito da 
+orgánica 
+Os catro últimos díxitos da orgánica indican con dúas cifras o ano 
+de inicio e outras dous cifras o ano de fin 
+Código Seguro De Verificación 5OqqSJnG/+vzrkeZiRB8fA==Estado Data e hora
+Asinado Por Vicerr. de Economía e Planificación Estratéxica  - Domingo Javier Calvo DopicoAsinado 23/12/2021 13:44:02
+XERENTE  - Ramón Alberto Del Valle López Asinado 23/12/2021 13:36:55
+Observacións Páxina 6/6
+Url De Verificación https://sede.udc.gal/services/validation/5OqqSJnG/+vzrkeZiRB8fA==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).

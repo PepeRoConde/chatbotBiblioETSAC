@@ -98,3 +98,6 @@ Calendarios
 App Store
 Google Play
 RSS
+
+--- OCR de imagen: estatistica.png_2063069239_1962be21.png ---
+Error checking image: cannot identify image file 'crawl\\crawled_data\\images\\estatistica.png_2063069239_1962be21.png'

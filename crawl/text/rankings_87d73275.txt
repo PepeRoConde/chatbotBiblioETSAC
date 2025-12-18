@@ -182,11 +182,6 @@ RSS
 
 b.
 
---- OCR de imagen: QS.png_2143138273_c2eec287.png ---
-WORLD
-UNIVERSITY
-——= RANKINGS
-
 --- OCR de imagen: QSsubject.jpg_1736750183_cc76c549.jpeg ---
 WORLD
 UNIVERSITY
@@ -209,13 +204,13 @@ UNIVERSITY
 RANKINGS
 EUROPE
 
---- OCR de imagen: THE.png_1636647778_dd4c7c20.png ---
-Lae
-WORLD RANKING
-
 --- OCR de imagen: THE-SUBJECTS.png_1636647778_b5cc044a.png ---
 Lae
 SUBJECTS RANKING
+
+--- OCR de imagen: THE.png_1636647778_dd4c7c20.png ---
+Lae
+WORLD RANKING
 
 --- OCR de imagen: THE-IMPACT.png_1636647778_09323930.png ---
 Lae
@@ -239,6 +234,7 @@ Academic Performance
 
 --- OCR de imagen: Webometrics.png_606386168_2dd3f4aa.png ---
 RANKING WEB
+
 DE UNIVERSIDADES
 
 --- OCR de imagen: URAP_Field.png_153409157_a692c200.png ---
@@ -247,7 +243,7 @@ Academic Performance
 Field Based
 
 --- OCR de imagen: SIR.png_836969480_7d527f36.png ---
-m SCIMAGO.
+SCIMAGO.
 INSTITUTIONS RANKINGS,
 
 --- OCR de imagen: natureindex.png_1805372515_f8a38148.png ---
@@ -266,10 +262,6 @@ Aly ranking»
 
 Universidades sostenibles
 
---- OCR de imagen: RankingCyD.png_2025312009_83aea010.png ---
-, GY
-Wii ranking
-
 --- OCR de imagen: reserarch.png_7710953_4dc9cee8.png ---
 Research.com
 
@@ -279,15 +271,3 @@ Universidades
 Espafiolas
 Insercién
 Laboral
-
---- OCR de imagen: dyntra.png_1505022883_4c6a7988.png ---
-OYNTRA
-
-DYNAMICTRANSPARENCYINDEX
-
---- OCR de imagen: U-Ranking.png_1252963251_c9e845e0.png ---
-=
-Ranking
-
-Universidades
-Espafiolas

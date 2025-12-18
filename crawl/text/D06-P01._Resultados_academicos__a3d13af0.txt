@@ -1,0 +1,131 @@
+ 
+ 
+D06-P01. RESULTADOS ACADÉMICOS 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+1  
+ 
+D06-P01. Resultados académicos  
+ 
+ 
+ 
+ 
+ ÓRGANO FECHA 
+ELABORADO Unidad Técnica de Calidad 26/04/2018 
+CONTEXTUALIZADO Comisión de Garantía de 
+Calidad  14/12/2022 
+REVISADO Unidad Técnica de Calidad 15/12/2022 
+APROBADO Junta de Centro 21/12/2022 
+ 
+ 
+RESUMEN DE REVISIONES 
+EDICIÓN FECHA MODIFICACIONES 
+B00 07/01/2008 Edición inicial 
+B01 12/12/2014 Modificación da versión inicial B00 á normativa actual 
+ 
+ 
+  
+
+ 
+ 
+D06-P01. RESULTADOS ACADÉMICOS 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+2  
+ 
+DENOMINACIÓN  D06-P01. RESULTADOS ACADÉMICOS   
+OBJETO  Establecer la sistemática para analizar los resultados académicos con el fin 
+de garantizar que se utilizan para la mejora continua de los t ítulos oficiales 
+que se imparten en el centro. 
+DEFINICIONES  No cuenta con definiciones asociadas 
+RESPONSABLES  Junta de Centro (JC) 
+Comisión de Garantía de Calidad (CGC) 
+Persona Responsable de Calidad (PRC)  
+Comisión Académica del Título (CAT) 
+Coordinador/a del Título (CT) 
+Administración del centro 
+Unidad Técnica de Calidad (UTC) 
+Servicio de Informática y Comunicaciones (SIC) 
+DOCUMENTACIÓN  Ver anexo V del Manual 
+DESARROLLO  El/la CT es la persona responsable de recopilar y revisar la información 
+sobre los resultados académicos. Estos están disponibles en las 
+aplicaciones informáticas Xestat, Xescampus y SGC, cuyo mantenimiento 
+depende del SIC y de la UTC.  Una vez recopilados y comprobada su 
+fiabilidad se los remite a la CAT 
+En cuanto a los de inserción laboral de las personas egresadas de los títulos 
+del centro los elaboran y publican la ACSUG y el Observatorio Ocupacional 
+de la UDC.  En caso de observar que la periodicidad de los estudios de 
+inserción laboral no es la adecuada, la CAT puede proponer acciones 
+encaminadas a la obtención de información necesaria para realizar un 
+seguimiento de los resultados de inserción laboral, tales como la elaboración 
+y realización de encuestas propias a las personas egresadas. 
+La CAT los analiza, comparándolos con los recogidos en la memoria vigente 
+del título, y establece las acciones de mejora oportunas, de ser el caso.  
+Posteriormente, se las envía a la CGC para su análisis conjunto a nivel de 
+centro, que remite al ED para su aprobación por la JC. 
+En cuanto a la adquisición de los resultados de aprendizaje:  
+1. El PDI analiza, en base, a los criterios de evaluación, si el alumnado ha 
+adquirido las competencias establecidas. 
+2. Anualmente, la CGC realiza un seguim iento anual de los resultados 
+alcanzados en cada una de las asignaturas de los títulos que se imparten 
+en el centro con el fin de analizar cómo evoluciona el pr oceso de 
+evaluación de los resultados de aprendizaje y establece acciones de 
+
+ 
+ 
+D06-P01. RESULTADOS ACADÉMICOS 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+3  
+mejora cuando la tasa de éxito de la asignatura sea inferior al 40%, 
+superior al 95% o si la diferencia entre las calificaciones más altas y más 
+bajas del alumnado aprobado no exceda en dos puntos; cuando la tasa 
+de alumnado no presentado supere el 30%  o cuando la tasa de éxito y 
+de evaluación se alejen de la media del título en un 20% en ambos 
+sentidos. 
+ 
+  
+ EVIDENCIAS RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+ D06-P01-E01. Actas CAT 
+CGC 
+JC 
+Cada vez que se reúne  Aplicación 
+informática 
+ D06-P01-E02. Listado de trabajos fin 
+de grado/máster defendidos (título, 
+tutor/a y calificación) 
+CT Cada curso académico Aplicación 
+informática 
+ D06-P01-E03. Adquisición de 
+resultados de aprendizaje 
+PDI 
+CGC 
+Cada curso académico Aplicación 
+informática 
+ D06-P01-E04. Acciones de mejora CAT 
+CGC 
+Cada vez que se 
+abra/revise una acción 
+de mejora 
+Aplicación 
+informática 
+ 
+ INDICADORES RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+ D06-P01-I01. Resultados académicos 
+(título/centro/rama/universidad) SIC  Cada curso académico Aplicación 
+informática 
+ D06-P01-I02. Indicadores de inserción 
+laboral 
+CAT Cada curso 
+académico 
+Aplicación 
+informática 
+ 
+D06-P01-I03. Indicadores del SIIU CAT Cada curso 
+académico 
+Aplicación 
+informática 
+ 

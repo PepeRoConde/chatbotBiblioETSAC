@@ -1,0 +1,185 @@
+Semana Dias M T M T M T M T M T M T M T M T M M M e T T T T
+S1 26-30 xan 4 FA2 (4S) S1
+S2 2-6 feb 5 BBM (5S) XEN (3S) XEN (3S) EDA FA2 (4S) F2 ACal EDif S2
+S3 9-13 feb 5 EDif BBM (5S) XEN (3S) XEN (3S) EDA FA2 (4S) F2 ACal EDif S3
+S4 16-20 feb 3 MAP (3S) MAP (3S) FV2 (3S) FV2 (3S) BBM (5S) XEN (3S) XEN (3S) ECO2  (5S) AFFM (5S) F2 XFIS XFIS XP (5S) EDif BBM (5S) S4
+S5 23-27 feb 5 MAP (3S) MAP (3S) FV2 (3S) FV2 (3S) BQEst BBM (5S) XEN (3S) XEN (3S) ECO2  (5S) AFFM (5S) F2 XFIS XFIS / XEO XP (5S) EDif BBM (5S) S5
+S6 2-6 marzo 5 MAP (3S) MAP (3S) FV2 (3S) FV2 (3S) BQEst BioQ XEN (3S) XEN (3S) ECO2  (5S) AFFM (5S) FIS (1S) FIS (1S) XEO XP (5S) S6
+S7 9-13 marzo 5 MAP (3S) MAP (3S) FV2 (3S) FV2 (3S) BQEst BioQ XEN (3S) XEN (3S) ECO2  (5S) AFFM (5S) FIS (1S) FIS (1S) XEO CeS XP (5S) S7
+S8 16-20 marzo 4 MAP (3S) MAP (3S) FV2 (3S) FV2 (3S) BQEst BioQ HIS (1S) HIS (1S) FA2 (4S) FIS (1S) FIS (1S) XEO CeS ACal S8
+S9 23-27 marzo 5 FBio RPCA BQI (1S) BQI (1S) HIS (1S) HIS (1S) FA2 (4S) FIS (1S) FIS (1S) XEO ACal XP (5S) XFIS SCF S9
+Semana Santa
+S10 6-10 abril 4 FBio RPCA BQI (1S) BQI (1S) HIS (1S) HIS (1S) ECO2  (5S) FA2 (4S) Pol CeS EDif XFIS S10
+S11 13-17 abril 5 FBio OM (2S) OM (2S) BQI (1S) BQI (1S) HIS (1S) HIS (1S) ECO2  (5S) ZOO2  (2S) ZOO2  (2S) Pol ECO2  (5S) S11
+S12 20-24 abril 5 FBio* MBA OM (2S) OM (2S) BID FAN (4S) ZOO2  (2S) ZOO2  (2S) Pol CeS ECO2  (5S) S12
+S13 27 abril-1 maio 4 MBA OM (2S) OM (2S) BID FAN (4S) ZOO2  (2S) ZOO2  (2S) Pol CAv ECO2  (5S) XeoB S13
+S14 4-8 maio 5 MBA OM (2S) OM (2S) FAN (4S) ZOO2  (2S) ZOO2  (2S) Pol CAv CeS /ACal EDif SCF S14
+S15 11-15 maio 5 S15
+Observacións
+BQ1 (1S) FV2 (3S) FAN (4S) AFFM (5S)
+FIS (1S) MAP (3S) ECO2  (5S) BID
+HIS (1S) OM (2S) BBM (5S) MBA
+XFIS XEN (3S) FA2 (4S) RPCA
+ZOO2  (2S) XP (5S) EDA
+CALENDARIO PRÁCTICAS 2º CUADRIMESTRE CURSO 2025/2026
+(Aprobado por Xunta de Facultade o 18 de xullo de 2025)
+GRAO BIOLOXÍA
+L 10
+(andar 1)L8 LA1i LA1e
+Grao en Bioloxía
+Laboratorio L1 L4 L5 L 9
+(andar 2) Outras aulas e Aulas Inf. 
+*20 de abril (mañá) FBio
+4º curso
+Física
+Histoloxía
+Xeografía Física
+BIOQUÍMICA I
+1º curso
+Xenética Fisioloxía Animal II RESPOSTA DAS PLANTAS EN CONDICIÓNS 
+ADVERSAS
+Fisiología Vegetal II
+2º curso
+Edafoloxía
+Microbiología Aplicada y Control 
+Microbiológico ECOLOGÍA 2 - POBLACIONES Y COMUNIDADES Bioloxía do desenvolvemento
+Organografia microscopica Bioquímica e Bioloxía Molecular MICROBIOLOXÍA E BIOTECNOLOXÍA AMBIENTAL 3º curso
+Adaptacións Funcionais da Fauna ao MedioBotánica Sistemática: Fanerogamia
+Zooloxía II Xenética de Poboacions e Evolución
+
+Semana Dias M T M T M T M T M T M T M T M T M T M T MMMM
+S1 26-30 xan 4 TCN2 EQF (3S) EQF (3S) TCN2 FInf NnF S1
+S2 2-6 feb 5 BBM (5S) TCN2 EQF (3S) EQF (3S) TCN2/NnF* QO2 (2S) F2 FInf ACal EDif NnF S2
+S3 9-13 feb 5 EDif QEC QX3
+(1S) BBM (5S) QA2 (2S) TCN2 EQF (3S) EQF (3S) NnF QO2 (2S) F2 ACal EDif S3
+S4 16-20 feb 3 MAP (3S) MAP (3S) QEC QX3
+(1S) BBM (5S) QA2 (2S) TCN2 EQF (3S) EQF (3S) NnF QO2 (2S) F2 XFIS XFIS Acal / FInf XP (5S) EDif S4
+S5 23-27 feb 5 MAP (3S) MAP (3S) QEC QX3
+(1S) BQEst BBM (5S) QA2 (2S) TCN2 EQF (3S) EQF (3S) TCN2 SPNano QO2 (2S) F2 XFIS XFIS / XEO FInf XP (5S) EDif S5
+S6 2-6 marzo 5 MAP (3S) MAP (3S) QEC QX3
+(1S) BQEst BioQ QA2 (2S) CiCa EQF (3S) EQF (3S) TCN2 SPNano QO2 (2S) FIS (1S) FIS (1S) XEO XP (5S) S6
+S7 9-13 marzo 5 MAP (3S) MAP (3S) CeS BQEst BioQ QA2 (2S) CiCa EQF (3S) QF2 (2S) TCN2 SPNano QO2 (2S) FIS (1S) FIS (1S) XEO FInf CeS XP (5S) S7
+S8 16-20 marzo 4 MAP (3S) MAP (3S) QSMol / CeS* BQEst BioQ MAeC CiCa EQF (3S) QF2 (2S) TCN2 SPNano FIS (1S) FIS (1S) XEO FInf CeS ACal S8
+S9 23-27 marzo 5 FBio CeS BQI (1S) BQI (1S) CiCa QX2
+(1S) EQF (3S) QF2 (2S) NnFar SPNano QI4 (4S) FIS (1S) FIS (1S) XEO FNnEs ACal XP (5S) NnF S9
+Semana Santa
+S10 6-10 abril 4 FBio BQI (1S) BQI (1S) QA2 (2S) QX2
+(1S) EQF (3S) QF2 (2S) QSMol / NnF SPNano QI4 (4S) Pol FNnEs CeS EDif NnF S10
+S11 13-17 abril 5 FBio BQI (1S) BQI (1S) QA2 (2S) QX2
+(1S) QSMol QF2 (2S) NnF SPNano QI4 (4S) Pol FInf S11
+S12 20-24 abril 5 FBio* MBA QA2 (2S) QX2
+(1S) QSMol LabA NnF SPNano QI4 (4S) Pol FInf CeS S12
+S13 27 abril-1 maio 4 MBA NnAl QA2 (2S) QX2
+(1S) LabA SPNano QI4 (4S) Pol CAv FInf S13
+S14 4-8 maio 5 MBA NnAl QA2 (2S) TecQ QX2
+(1S) LabA QMed Pol CAv FInf CeS /ACal EDif CAv S14
+S15 11-15 maio 5 QMed S15
+Observacións
+CeS BQEst CiCa NnF
+QEC SPNano QSMol FNnEs
+ACal EDif Pol CAv
+FInf FBio NnFar
+TCN2 NnIA
+Ecuaciones Diferenciales
+Fundamentos de biotecnoloxía
+Laboratorio L1 L3 L5 LA2i L 9
+(andar 2)
+L 10
+(andar 1)L6 LA2e
+Cristalografía avanzada
+Nanotecnología en farmacia
+Nanotecnología en la industria alimentaria
+Ampliación de cálculo Polímeros
+Fundamentos de informática
+3º curso
+Química: Equilibrio e Cambio
+Técnicas de caracterización de nanomateriais 2
+Cristalografía e Simetría
+1º curso
+2º curso
+Cinética e catálisis
+4º curso
+*20 de abril (mañá) FBio *5 e 6 de febreiro (mañá) NnF
+(Aprobado por Xunta de Facultade o 18 de xullo 2025)
+CALENDARIO PRÁCTICAS 2º CUADRIMESTRE CURSO 2025/2026
+GRAO NANOCIENCIA e NANOTECNOLOXÍA
+LA3 LA4 Outras aulas e Aulas Inf. 
+Química SupramolecularSintese e Preparación de Nanomateriais
+Bioquímica Estructural
+Grao en Nanociencia e Nanotecnoloxía
+Nanofabricación
+Física en la nanoescala
+
+Semana Dias M T M T M T M T M T M T M T M T M T M T M T
+S1 26-30 xan 4 TCN2 EQF (3S) EQF (3S) EQO (4S) EQO (4S) S1
+S2 2-6 feb 5 BBM (5S) LQ2 (2S) TCN2 EQF (3S) EQF (3S) EQO (4S) EQO (4S) QO2 (2S) F2 S2
+S3 9-13 feb 5 QX3
+(1S) QEC QX3
+(1S) BBM (5S) QA2 (2S) LQ2 (2S) TCN2 EQF (3S) EQF (3S) EQO (4S) EQO (4S) QO2 (2S) F2 S3
+S4 16-20 feb 3 QX3
+(1S) QEC QX3
+(1S) BBM (5S) QA2 (2S) LQ2 (2S) TCN2 EQF (3S) EQF (3S) EQO (4S) EQO (4S) QO2 (2S) F2 XFIS XFIS S4
+S5 23-27 feb 5 QX3
+(1S) QEC QX3
+(1S) BQEst BBM (5S) QA2 (2S) LQ2 (2S) TCN2 EQF (3S) EQF (3S) EQO (4S) EQO (4S) SPNano QO2 (2S) F2 XFIS XFIS / XEO S5
+S6 2-6 marzo 5 QX3
+(1S) QEC QX3
+(1S) BQEst BioQ QA2 (2S) LQ2 (2S) CiCa EQF (3S) EQF (3S) EQO (4S) EQO (4S) SPNano QO2 (2S) FIS (1S) FIS (1S) XEO S6
+S7 9-13 marzo 5 QI2
+(3S) CeS BQEst BioQ QA2 (2S) LQ2 (2S) CiCa EQF (3S) QF2 (2S) EQO (4S) EQO (4S) SPNano QO2 (2S) FIS (1S) FIS (1S) XEO S7
+S8 16-20 marzo 4 QI2
+(3S) QSMol / CeS* BQEst BioQ MAeC LQ2 (2S) CiCa EQF (3S) QF2 (2S) EQO (4S) SPNano FIS (1S) FIS (1S) XEO S8
+S9 23-27 marzo 5 QI2
+(3S) CeS BQI (1S) BQI (1S) QAI2 (4S) CiCa QX2
+(1S) EQF (3S) QF2 (2S) EQO (4S) SPNano QI4 (4S) FIS (1S) FIS (1S) XEO S9
+Semana Santa
+S10 6-10 abril 4 QI2
+(3S) BQI (1S) BQI (1S) QA2 (2S) QAI2 (4S) QX2
+(1S) EQF (3S) QF2 (2S) EQO (4S) LQ2 (2S) SPNano QI4 (4S) Pol S10
+S11 13-17 abril 5 QI2
+(3S) BQI (1S) BQI (1S) QA2 (2S) QAI2 (4S) QX2
+(1S) QSMol QF2 (2S) LQ2 (2S) SPNano QI4 (4S) Pol S11
+S12 20-24 abril 5 QI2
+(3S) QA2 (2S) QAI2 (4S) QX2
+(1S) QSMol LabA LQ2 (2S) SPNano QI4 (4S) Pol S12
+S13 27 abril-1 maio 4 QI2
+(3S) NnAl QA2 (2S) QAI2 (4S) QX2
+(1S) LabA LQ2 (2S) SPNano QI4 (4S) Pol CAv S13
+S14 4-8 maio 5 NnAl QA2 (2S) TecQ QX2
+(1S) LabA LQ2 (2S) QMed Pol CAv S14
+S15 11-15 maio 5 QMed S15
+Observacións
+F2 QA2 (2S) BioQ LabA
+QX2
+(1S)
+QI2
+(3S) EQF (3S) MAeC
+QX3
+(1S)
+QF2
+(2S) EQO (4S) TecQ
+XEO QO2 (2S) QAI2 (4S) QMed
+LQ2 (2S) QI4 (4S)
+CALENDARIO PRÁCTICAS 2º CUADRIMESTRE CURSO 2025/2026
+GRAO QUÍMICA
+Grao en Química
+Química Analítica 2
+2º curso
+Bioquímica e Química Biolóxica
+3º curso
+Laboautomatización
+4º curso
+Laboratorio L2 L3 L5 L 9
+(andar 2)
+L 10
+(andar 1)L6 L7 LA2e LA2i Lab Inv QO LA4
+(Aprobado por Xunta de Facultade o 18 de xullo de 2025)
+Química Xeral 2
+QUÍMICA XERAL 3
+Xeoloxía do Grao en Química
+Físca 2
+1º curso
+Química Inorgánica 2 EXPERIMENTACIÓN EN QUÍMICA FÍSICA Medioambiente y calidad
+Química Física 2 Experimentación en Química Orgánica Tecnoloxía Química
+Química Orgánica 2 Química Analítica Instrumental 2 Química Médica
+Laboratorio de Química 2 Química Inorgánica 4

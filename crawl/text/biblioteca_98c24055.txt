@@ -95,11 +95,6 @@ App Store
 Google Play
 RSS
 
---- OCR de imagen: guia-slider.png_2063069294_cc21d776.png ---
-Seruizo de Biblioteca
-
-Guia para o novo alumnado
-
 --- OCR de imagen: RUC_ES.png_2063069294_e2bebea1.png ---
 RUC, el Repositorio de la UDC
 
@@ -112,6 +107,11 @@ UNIVERSIDADE DA CORUNA
 
 Portaldela |
 Investigacion
+
+--- OCR de imagen: guia-slider.png_2063069294_cc21d776.png ---
+Seruizo de Biblioteca
+
+Guia para o novo alumnado
 
 --- OCR de imagen: dialnet.png_47880848_49fe40f6.png ---
 BD Dialnet p“

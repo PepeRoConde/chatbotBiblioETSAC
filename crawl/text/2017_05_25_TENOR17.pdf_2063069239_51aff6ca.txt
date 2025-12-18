@@ -1,0 +1,155 @@
+http://tenor2017.tenor-conference.org 
+24-26 May
+A Coruña,
+ Spain
+UNIVERSITY OF A CORUÑA 
+
+
+Wednesday 24 May 2017
+Loc: Faculty of Philology. University of 
+A Coruña 
+Workshops 
+0900 Hacking, extending and wrapping 
+Mike Solomon 
+1215 The Guido language and engine 
+Dominique Fober, Mike Solomon 
+1630 Totalitarian scoring 
+Benedict Carey, Ryan Ross 
+Thursday 25 May 2017
+Loc: Paranymph Hall of the Rectorate 
+of the University of A Coruña 
+0900   Registration 
+0945   Introduction 
+Session 1: MUSIC TRANSCRIPTION  
+Chair: Jean Bresson  
+1000   Macaque. A tool for spectral processing 
+and transcription 
+George Hajdu 
+1030   A machine learning framework for the 
+categorization of elements in images of 
+musical documents 
+Jorge Calvo-Zaragoza, Gabriel 
+Vigliesoni, Ichiro Fujinaga 
+1100   A web Interface for the analysis and 
+performance of aleatory music notation 
+Adriano Baratè, Luca A. Ludovico 
+1130 Coffe break  
+Session 2: GRAPHIC NOTATION  
+Chair: Jérémy Garcia  
+1145   The 3-D score 
+David Kim-Boyle 
+1215   An architectural approach to 3D spatial 
+drum notation 
+Jeremy J. Ham 
+1245   A CAP for graphic scores. Graphic 
+notation and performance 
+Benny Sluchin, Mikhail Malt 
+1315 Lunch 
+Session 3: VISUALISATION AND 
+ANALYSIS  
+Chair: Ichiro Fujinaga 
+1430   How can music visualisation techniques 
+reveal different perspectives on musical 
+structure? 
+Samuel J. Hunt, Tom Mitchell, Chris Nash 
+1500   Melody retrieval and composer 
+attribution using sequence alignment on 
+RISM incipits 
+Jelmer van Nuss, Geert-Jan Giezeman, 
+Frans Wiering 
+1530   Formalizing quality rules on music 
+notation. An ontology-based approach 
+Samira Cherfi, Fayçal Hamdi, Philippe 
+Rigaux, Virginie Thion, Nicolas Travers 
+1600 Coffe break 
+Session 4: VOICE  
+Chair: Mike Solomon  
+1630  SMARTVOX. A web-based distributed 
+media player as notation tool for choral 
+practices 
+Jonathan Bell, Benjamin Matuszewski 
+Concert 1 
+1700  Invited composer: Persiles avista Roma 
+Tomas Marco, Alfredo Garcia, Florian 
+Vlashi 
+1715  Notated control as composed liveness in 
+works for digitally extended voice 
+Kristina Warren 
+1745  V oice prints 
+Helena Palma, Alfredo Garcia, Florian 
+Vlashi 
+
+1800 “Des pas sur l’invisible”. The octave 
+space and the self-multiplication process 
+Silvia Teles, Adrian Pais 
+1830 Terraformation 
+Shafer, Florian Vlashi 
+1845   Homage to Cervantes 
+Richard Hoadley 
+1930   Dinner 
+Friday 26 May 2017
+Loc: Paranymph Hall of the Rectorate 
+of the University of A Coruña  
+Session 5: INTERACTION  
+Chair: Georg Hajdu  
+1000   Performer action modeling in real-time 
+notation 
+Seth Shafer 
+Session 6: MUSIC  
+Chair: Dominique Fober  
+1030   Timed sequences: A framework for 
+computer-aided composition with 
+temporal structures 
+Jérémie Garcia, Dimitri Bouche, Jean 
+Bresson 
+1100   The house harmonic filler: Interactive 
+exploration of chord sequences by means 
+of an intuitive representation 
+Angel Faraldo, Perfecto Herrera, Sergi 
+Jordà 
+1130   Generating equivalent rhythmic 
+notations based on rhythm tree languages 
+Florent Jacquemard, Adrien Ycart, 
+Masahiko Sakai 
+1200 Coffe break 
+1215 Keynote: Digitization of Historical 
+Music Archives: Preserving the Pasta, 
+Embracing the Future. 
+Luca Andrea Ludovico 
+1300 Lunch 
+1515 TENOR 2018 
+1530 Are scores maps? A cartographic 
+response to goodman 
+Daniel Miller 
+Session 7: COLLABORATION  
+Chair: Richard Hoadley 
+1600   Vexations of ephemerality 
+Sandeep Bhagwati 
+1630   A hierarchic diff algorith for 
+collaborative music document editing 
+Christopher Antila, Jeffrey Treviño, 
+Gabriel Weaver 
+1700  Establishing connectivity between the 
+existing networked music notation 
+packages Quintet.net, Decibel Score 
+Player and MaxScore 
+Stuart James, Cat Hope, Lindsay Vickery, 
+Aaron Wyatt, Ben Carey, Xiao Fu, George 
+Hajdu 
+1730 Coffe break 
+Concert 2 
+1745 Framework: Silence / Loop  
+Mads Nielsen 
+1800 Plurality Spring  
+Paul Turowski 
+1815 Collaborative work of participants in the 
+workshop 
+Totalitarian Scoring Workshop
+
+Información e inscricións :  
+Secretaria de TENOR 2017 
+correo-e: congreso.tenor2017@udc.es 
+Facultade de Filoloxía. Campus da Zapateira. 
+Rúa Lisboa, 7. 15008 A Coruña 
+Tel +34.981167000, ext 1844, 4763 
+GPS: N 43.32594, W 8.40742

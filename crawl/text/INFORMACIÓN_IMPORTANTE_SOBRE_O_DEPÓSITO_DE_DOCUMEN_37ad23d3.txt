@@ -1,0 +1,49 @@
+INFORMACIÓN IMPORTANTE SOBRE O DEPÓSITO DE DOCUMENTOS NO RUC, 
+COMO PODEN SER OS TFG E TFM. 
+ 
+1. Sinatura electrónica e visibilidade de datos persoais 
+Dende o Servizo de Biblioteca nos indican que, logo de consulta co Servizo de Asesoría Xurídica, os TFG e TFM nos que figuran datos 
+persoais e, tendo en conta a lexislación de protección de datos , non poden facerse públicos e, polo tanto, non poden subirse ao 
+RUC cando aparece neles o seguinte: 
+• DNI: nalgúns casos figuran na portada, noutros casos nas páxinas iniciais. Tamén pode aparecer este dato nalgunha parte 
+do documento, incluso sen ter sinatura electrónica ou de outro  tipo. 
+• Sinatura (manual ou rúbrica): tamén é un dato persoal protexido e non pode aparecer no traballo. 
+En relación a sinatura electrónica, a que non podería aparecer é a sinatura electrónica a título persoal, xa que nela aparecen datos 
+de DNI. E, segundo indican, estes documentos non se poden manipular eliminando ou ocultando o número do  DNI. 
+A solución é que se asinen sempre a través do Portafirmas, pois neste caso pódese ocultar a firma, que é o que estamos a facer. 
+Por todo isto, no futuro próximo, modificarase a normativa de TFG, para indicar que nos traballos non poden aparecer datos 
+persoais de ningún tipo: rúbrica, DNI; así como a necesidade de que a firma dos TFG/TFM sexa sempre a través do Portafirmas e 
+non a firma a título persoal. Se non se cumpre este requisito relativo á protección de datos, lamentablemente non poderemos 
+subir os TFG ao RUC polo que a súa difusión e visibilidade verase afectada. 
+ 
+Outros documentos visibles na nosa Web 
+Os documentos que teñan que ser publicados na nosa Web con información relevante para os nosos estudantes (exemplo: Anexo 
+1b ou Plan Formativo do TFG), teñen que ser asinados sen amosar o DNI. Pódese asinar igualmente por AutoFirma con DNI oculto, 
+tal e como se explica neste documento ou neste curto vídeo explicativo. 
+ 
+Asinantes externos (alleos a UDC que no poden asinar mediante Portafirmas) 
+Os asinantes alleos poden utilizar AutoFirma con DNI oculto, para todos os documentos que teñan visibilidade na Web ou que vaian 
+a ser subidos ao RUC. 
+As sinaturas electrónicas mediante Adobe tamén poden ser configuradas para que non amosen o DNI, pero a configuración 
+depende de cada versión de Adobe dos usuarios (xeralmente esta configuración está en Edición/Prefer encias/firmas). 
+ 
+2. Autorización para subir un traballo ao RUC 
+Ata o momento, salvo que o autor, ou os directores, ou o propio tribunal, especificase expresamente o contrario, os TFGs e TF Ms 
+defendidos eran subidos ao RUC polo persoal da biblioteca. 
+Agora será ao revés, polo tanto, SERÁ NECESARIO autorizar o depósito do traballo, tanto por parte dos autores como dos 
+directores, sobre todo se o traballo foi realizado baixo a dirección dun director externo (en empresa, ou organismo).  
+Na Web de ciencias, no apartado de TFG, xa están tódolos documentos novos dispoñibles : 
+Modelos de Solicitude 
+Autorización de depósito no RUC 
+Solicitude de non depósito no RUC (directores) 
+Solicitude de non depósito no RUC (tribunal) 
+Solicitude de retitada no RUC (estudante) 
+ 
+Se así o estiman oportuno, os coordinadores de máster poden facer uso destes mesmos documentos, ou modificalos 
+segundo sexa conveniente. 
+ 
+Un saúdo 
+Ligazóns de interese na UDC: 
+Protección de datos 
+Política de privacidade 
+Uso de certificados electrónicos (aspectos técnicos) 

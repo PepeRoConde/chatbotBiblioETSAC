@@ -59,16 +59,11 @@ Google Play
 RSS
 
 --- OCR de imagen: Simbolo_logo_BN.png_2063069239_d30a11b6.png ---
-——)
-—— UNIVERSIDADE DA CORUNA
-
---- OCR de imagen: Simbolo_logo_cor.png_2063069239_6e5048c7.png ---
-eo
-SS UNIVERSIDADE DA CORUNA
+SF — UNIVERSIDADE DA CORUNA
 
 --- OCR de imagen: Simbolo_logo_in.gif_2063069239_92c29631.gif ---
 — =
 => UNIVERSIDADE DA CORUNA
 
---- OCR de imagen: logo_cor.png_2063069239_e25625e0.png ---
-UNIVERSIDADE DA CORUNA
+--- OCR de imagen: Simbolo_logo_cor.png_2063069239_6e5048c7.png ---
+See UNIVERSIDADE DA CORUNA

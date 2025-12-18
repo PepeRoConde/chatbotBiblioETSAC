@@ -158,14 +158,6 @@ PA
 
 Facultad de Humanidades y Documentaci6n
 
---- OCR de imagen: día_do_libro_6f4d2fa7.png ---
-DIA DO LIBRO
-
-23 ABRIL
-
-“= XUNTA
-¢) DE GALICIA
-
 --- OCR de imagen: medioambientee_525de4c8.png ---
 ASI PODES
 AXUDAR
@@ -174,6 +166,14 @@ AXUDAR
 
 2) XUNTA
 = Facultade Humanidades e Documentaci6n 36 DEGALICIA
+
+--- OCR de imagen: día_do_libro_6f4d2fa7.png ---
+DIA DO LIBRO
+
+23 ABRIL
+
+“= XUNTA
+¢) DE GALICIA
 
 --- OCR de imagen: Folleto_de_Tutor_Repaso_con_Foto_Niños_en_la_Escue_7ed09cc4.jpeg ---
 =

@@ -1,0 +1,774 @@
+SISTEMA DE GARANTÍA DE CALIDAD 
+ 
+D01-P02-E08 
+ 
+ 
+ 
+ 
+ 
+1 
+ 
+Plan anual de mejoras 
+ Curso: 2025/26 
+Código Año Dimens. 
+Proceso Denominación Ámbito 
+aplicación Responsable Estado 
+DOC_OP6-23-1 2023 D03-P02 Elaboración del reglamento de prácticas externas GCCAFD 
+Coord. Prácticas 
+Externas y VD 
+Calidad 
+C 
+DOC_OP10-24-1 2024 D03-P02 Estímulo del empleo de metodologías de docencia-aprendizaje colaborativa. GCCAFD 
+MUAFDS 
+VD Org. Acad. 
+Dirección Dpto. A-R 
+DOC_OP2-25-1 2025 D03-P02 Incremento del nº de reuniones periódicas de curso y de módulo (a raíz de la modificación del grado) GCCAFD Coord. Grado A 
+DOC_OP3-25-1 2025 D04-P01 Refuerzo de la información a los posibles interesados sobre los cursos de formación del CUFIE GCCAFD Coord. Grado A 
+DOC_OP3-25-2 2025 D04-P01 Difusión del programa Docentia desde el centro Títulos 
+FCCDEF Coord. Títulos A 
+DOC_OP4-25-1 2025 D03-P03 Anticipación de la captación y formación de mentores GCCAFD Coord PAT A 
+DOC_OP6-25-1 2025 D03-P05 Mejora de la calidad de la oferta de centros de prácticas externas GCCAFD VD Prácticas 
+Externas A 
+DOC_OP8-25-1 2025 D03-P01 Invitar al alumnado de la Facultad a: "Journal Club" del alumnado de doctorado/ jornadas experiencias del 
+alumnado de máster/doctorado 
+GCCAFD 
+MUAFDS 
+Coord Grado,  
+Máster y Doctorado A 
+DOC_OP10-25-1 2025 D04-P01 Fomento de grupos de innovación docente (GID) como medio de proyección y difusión (transferencia) de las 
+actividades de innovación educativa de la Facultad. 
+GCCAFD 
+MUAFDS 
+VD Org. Acad. 
+Dirección Dpto. A 
+DOC_OP15-25-1 2025 D03-P03 Realización de jornadas de orientación profesional (mesas redondas/panel de expertos) GCCAFD 
+MUAFDS VD Orient. Estudiant. A 
+RS_OP5-25-1 2025 D03-P03 Refuerzo de la información al alumnado sobre los cursos de formación del CUFIE que faciliten el desarrollo de 
+la competencia de aprender a aprender (técnicas de estudio, Moodle) GCCAFD Coord. PAT 
+VD Digitalización A 
+RS_OP5-25-2 2025 D03-P03 Gestionar con el Centro de Lenguas de la UDC la impartición de cursos en la propia Facultad GCCAFD 
+MUAFDS  
+Coord. PAT 
+VD Serv. Estudiant. A 
+
+SISTEMA DE GARANTÍA DE CALIDAD 
+ 
+D01-P02-E08 
+ 
+ 
+ 
+ 
+ 
+2 
+ 
+Plan anual de mejoras 
+ Curso: 2025/26 
+Código Año Dimens. 
+Proceso Denominación Ámbito 
+aplicación Responsable Estado 
+RS_OP6-25-1 2025 D03-P03 Elaboración de proyectos de vida activa y deportiva (PVAD) o experiencias de fomento de la actividad física 
+deportiva en adolescente en el contexto formal o no formal. GCCAFD VD Prácticas 
+Externas A 
+INT_OP5-25-1 2025 D03-P04 
+D04-P01 
+Realización de charlas de los responsables de la ORI en la Facultad y de PDI Y PTGAS que han realizado 
+alguna movilidad FCCDEF VD RRII A 
+INT_OP7-25-1 2025 
+D03-P04 
+D04-P01 
+D03-P03 
+Apoyo al concepto de "English Friendly" (asignaturas o cursos de impartición principalmente en español o 
+gallego, adaptados al estudiantado internacional que habla inglés) facilitando la integración de estudiantes 
+Erasmus e internacionales 
+FCCDEF VD RRII A 
+ECO_OP4-25-1 2025 D05-P01 Reactivación de las acciones correspondientes al objetivo operativo ECO-OP4 FCCDEF VD Infraestructuras A 
+ECO_OP5-25-1 2025 D04-P01 Reactivación de la Comisión Green Campus FCCDEF Presidente Comisión 
+Green Campus A 
+ 
+DOC: Área de Docencia 
+RS: Área de Responsabilidad Social y Sostenibilidad 
+INT: Área de Internacionalización 
+ECO: Área de financiamiento y uso eficiente de los recursos 
+A: Abierta; A-R: Abierta con revisión; C: Cerrada 
+ 
+ 
+ 
+ 
+ 
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP6-23-1/C 
+Curso académico (en que se genera) 2022/23  
+Fecha Mayo 2023 
+Denominación de la propuesta Elaboración del reglamento de prácticas externas 
+Punto débil detectado No se dispone de una normativa estable aprobada por la Junta de Centro  
+Proceso/s afectados Prácticas Externas 
+Oportunidad de mejora 
+Disponer de un documento de referencia para la elaboración de la guía 
+docente e informar a los centros de prácticas que van a establecer un convenio 
+de prácticas. 
+Ámbito de aplicación Grado en CCAFD 
+Responsable da su aplicación Coordinador de prácticas externas y Responsable de Calidad 
+Objetivos Mejorar los vínculos entre los profesionales y nuestra Facultad para asegurar 
+una formación relevante y útil 
+Actuaciones a desarrollar 
+Desarrollo de un documento consensuado atendiendo fundamentalmente, al 
+programa de la materia de Prácticum, actualizado en cada curso; y a la última 
+versión del reglamento de Prácticas Académicas Externas del Estudiantado de 
+la UDC (03-11-2022) 
+Período de ejecución A lo largo del curso 2023/24 
+Recursos/presupuesto No se requiere 
+Responsable del seguimiento y fecha VD de prácticas externas – julio 2024 
+Indicadores de ejecución  Reglamento aprobando en Junta de Facultad. 
+Evidencias documentales de la implantación Listado de centros de prácticas ofertados en el curso 2026/27 
+Observaciones 
+Resolución Rectoral con fecha del 19-03-2024 referido al alumnado que realice prácticas externas para su obligatoria inclusión 
+en el Sistema de la Seguridad Social. 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial) Parcial 
+Responsable de la revisión y fecha Coordinador de prácticas externas (julio 2024) 
+Resultados obtenidos  Desarrollo del borrador sin completar todos los apartados 
+Grado de satisfacción Medio 
+Acciones correctoras a desarrollar Finalización del trabajo para su revisión por el resto del equipo de gobierno. 
+ 
+  
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP6-23-1/C 
+Revisión/Valoración (2) 
+Nivel de cumplimiento (total o parcial) Total 
+Responsable de la revisión y fecha Coordinador de prácticas externas (julio 2025) 
+Resultados obtenidos  Reglamento de Prácticas Académicas Externas (aprob. en Junta de Facultad 20 
+de mayo de 2025) 
+Grado de satisfacción Total 
+Acciones correctoras a desarrollar Ninguna. – Acción de mejora cerrada en mayo de 2025. 
+ 
+  
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP10-24-1/A-Rev 
+Curso académico (en que se genera) 2023/2024 
+Fecha julio 2024 
+Denominación de la propuesta Estímulo del empleo de metodologías de docencia-aprendizaje colaborativa. 
+Punto débil detectado Desproporción entre el empleo de la metodología de docencia-aprendizaje 
+colaborativa en las materias del grado y su implicación en la evaluación 
+Proceso/s afectados D03-P02: Planificación y desarrollo de las enseñanzas 
+Oportunidad de mejora Emplear la metodología colaborativa y darle mayor relevancia en la evaluación 
+competencial del alumnado. 
+Ámbito de aplicación Grado en CCAFD y Máster en Actividad Física, Deporte y Salud 
+Responsable da su aplicación VD de Organización Académica y Dirección de Departamento 
+Objetivos Consolidar la modificación sustancial del título de grado con sus nuevas 
+asignaturas 
+Actuaciones a desarrollar Informar al PDI sobre los cursos del CUFIE específicamente relacionados con 
+esta metodología y la evaluación de competencias. 
+Período de ejecución A partir del curso 2024/25 
+Recursos/presupuesto No se requiere 
+Responsable del seguimiento y fecha VD de Organización Académica – junio 2025 
+Indicadores de ejecución  Porcentaje de materias del grado con metodología de aprendizaje colaborativo 
+Evidencias documentales de la implantación Metodología contemplada en las guías docentes. 
+Observaciones 
+Del total de materias en el plan a extinguir, la metodología de aprendizaje colaborativo aparece contemplada en la guía 
+docente de 14 materias (30.4% del total); en el proceso de evaluación este número se reduce a 5 (10.9% del total); 
+desglosándose de la forma siguiente: 6.3% en materias que incluyen habilidades deportivas (1 asignatura); 22.2% en materias 
+con intervención práctica físico-corporal (2 asignaturas); 9.5% en materias sin práctica deportiva o físico-corporal) 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial) Parcial 
+Responsable de la revisión y fecha VD de Organización Académica - junio 2025 
+Resultados obtenidos  Sigue sin incorporarse como elemento evaluativo 
+Grado de satisfacción Medio 
+Acciones correctoras a desarrollar 
+En las jornadas de los ciclos de conferencias del curso 2025-26, invitar a un 
+ponente con evidente experiencia en metodología colaborativa.  
+Organización y desarrollo de un seminario/taller interno sobre metodología 
+colaborativa y evaluación de la misma tras dicha jornada. 
+ 
+  
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP2-25-1/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Abril 2025 
+Denominación de la propuesta Incremento del nº de reuniones periódicas de curso y de módulo (a raíz de la 
+modificación del grado) 
+Punto débil detectado Dificultades para la elaboración de las guías docentes en cuanto a la 
+posibilidad de solapamiento de contenidos entre materias 
+Proceso/s afectados D03-P02: Planificación y desarrollo de la enseñanza 
+Oportunidad de mejora Evitar problemas en la implementación de las nuevas materias del grado y la 
+posibilidad de mejorar las metodologías empleadas 
+Ámbito de aplicación Grado en Ciencias de la Actividad Física y el Deporte 
+Responsable da su aplicación Coordinador de grado y coordinadores de módulos 
+Objetivos Mejorar los mecanismos de coordinación docente entre asignaturas 
+Actuaciones a desarrollar Revisión de contenidos, metodologías y evaluación 
+Período de ejecución Inicio en julio de 2025 hasta finalizar implantación completa del grado 
+modificado en julio de 2027 
+Recursos/presupuesto No requiere 
+Responsable del seguimiento y fecha Coordinador de grado 
+Indicadores de ejecución  Nº de problemas detectados en las guías docentes (coord. módulo/rep. 
+Alumnado) 
+Evidencias documentales de la implantación Actas de reuniones 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+ 
+ 
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP3-25-1/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Febrero 2025 
+Denominación de la propuesta Refuerzo de la información a los posibles interesados sobre los cursos de 
+formación del CUFIE 
+Punto débil detectado Reducción progresiva del PDI que realiza cursos de formación 
+Proceso/s afectados D04-P01: Gestión del personal académico y de apoyo a la docencia 
+Oportunidad de mejora 
+Facilitar información al PDI de los nuevos cursos que ofrece el CUFIE 
+resaltando aquellos que pueden tener mayor interés para la docencia en 
+nuestros títulos (metodologías activas, instrumentos de evaluación continua…) 
+Ámbito de aplicación Grado en Ciencias de la Actividad Física y el Deporte 
+Responsable da su aplicación Coordinador de Grado 
+Objetivos Mejorar la formación continua y la innovación docente en el profesorado 
+Actuaciones a desarrollar Envío de correo electrónico a los interesados indicando los cursos de interés 
+seleccionados 
+Período de ejecución A partir del curso 2025/26 
+Recursos/presupuesto No requiere 
+Responsable del seguimiento y fecha Coordinador del Grado – julio 2026 
+Indicadores de ejecución  % de PDI que participa en los cursos de formación 
+Evidencias documentales de la implantación SGC (Seguimiento) 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+ 
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP3-25-2/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Mayo 2025 
+Denominación de la propuesta Difusión del programa Docentia desde el centro 
+Punto débil detectado Estancamiento del porcentaje de PDI del centro presentado a evaluación 
+Proceso/s afectados D04-P01: Gestión del personal académico y de apoyo a la docencia 
+Oportunidad de mejora Facilitar información al PDI de las posibilidades y ventajas del programa 
+Docentia  
+Ámbito de aplicación Títulos impartidos en la Facultad 
+Responsable da su aplicación Coordinadores de los títulos 
+Objetivos Mejorar la formación continua y la innovación docente en el profesorado 
+Actuaciones a desarrollar Reunión informativa tras el inicio de la convocatoria 
+Período de ejecución A partir del curso 2025/26 
+Recursos/presupuesto No requiere 
+Responsable del seguimiento y fecha Coordinador del Grado – julio 2027 
+Indicadores de ejecución  Nº de PDI que participa en la convocatoria 
+Evidencias documentales de la implantación SGC (Seguimiento) 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+  
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP4-25-1/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Enero 2025 
+Denominación de la propuesta Anticipación de la captación y formación de mentores  
+Punto débil detectado La organización del plan de mentoría una vez iniciado el curso no facilita la 
+mejor experiencia de acompañamiento a quien lo necesita 
+Proceso/s afectados D03-P03: Apoyo al alumnado 
+Oportunidad de mejora Iniciar el nuevo curso académico con el grupo de mentores interesados para 
+que puedan intervenir desde el primer día en la semana de acogida. 
+Ámbito de aplicación Grado en Ciencias de la Actividad Física y el Deporte 
+Responsable da su aplicación Coordinador del Plan de Acción Tutorial y VD de Orientación al Estudiantado 
+Objetivos 
+Reforzar el acompañamiento/seguimiento del estudiantado durante su etapa 
+formativa a través del PAT, facilitando al alumnado de nuevo ingreso un 
+mentor desde el primer momento de contacto con la vida universitaria  
+Actuaciones a desarrollar Aplicación del formulario de inscripción y sesión de formación 
+Período de ejecución Julio de 2025 
+Recursos/presupuesto No requiere 
+Responsable del seguimiento y fecha Coordinador del Plan de Acción Tutorial – diciembre 2025 
+Indicadores de ejecución  Nº de mentores disponibles en la primera semana del curso 
+Evidencias documentales de la implantación Memoria anual del Plan de Acción Tutorial 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+ 
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP6-25-1/A 
+Curso académico (en que se genera) 2024/25  
+Fecha Mayo 2025 
+Denominación de la propuesta Mejora de la calidad de la oferta de centros de prácticas externas 
+Punto débil detectado Aunque tenemos un nº muy elevado de centros y en su mayoría son de gran 
+calidad, es cierto que algunos centros no muestran el mismo nivel. 
+Proceso/s afectados D03-P05: Prácticas Externas 
+Oportunidad de mejora La aplicación conllevaría una calidad superior y, por tanto, una mejora en la 
+formación del alumnado 
+Ámbito de aplicación Grado en CCAFD 
+Responsable da su aplicación VD de prácticas externas, personal de apoyo a la materia de Practicum y 
+Responsable de Calidad 
+Objetivos Mejorar los vínculos entre los profesionales y nuestra Facultad para asegurar 
+una formación relevante y útil 
+Actuaciones a desarrollar 
+Adopción de medidas que faciliten el ajuste de las capacidades, habilidades 
+específicas y atributos que los alumnos perciben para desarrollar sus futuros 
+trabajos con las demandas de los empleadores (valoración a través de la 
+memoria final del TFG y de prácticas externas) - Elaboración de rúbrica 
+Período de ejecución A lo largo del curso 2025/26 
+Recursos/presupuesto No se requiere 
+Responsable del seguimiento y fecha VD de prácticas externas – julio-septiembre 2026 
+Indicadores de ejecución  Nº de centros ofertados/Nº de centros posibles 
+Evidencias documentales de la implantación Listado de centros de prácticas ofertados en el curso 2026/27 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+ 
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP8-25-1/A 
+Curso académico (en que se genera) 2024/25  
+Fecha Mayo 2025 
+Denominación de la propuesta Invitar al alumnado de la Facultad a: "Journal Club" del alumnado de 
+doctorado/ jornadas experiencias del alumnado de máster/doctorado 
+Punto débil detectado Desconocimiento de la actividad investigadora y de las posibilidades de realizar 
+estudios de postgrado en la propia Facultad 
+Proceso/s afectados D03-P01: Captación, selección, admisión y perfil de ingreso 
+Oportunidad de mejora Informar sobre la actividad de los grupos de investigación del centro 
+Ámbito de aplicación Grado en CCAFD y Máster en Actividad Física, Deporte y Salud 
+Responsable da su aplicación Coordinadores de Grado, Máster y Doctorado 
+Objetivos Mantener el interés del alumnado por cursar los estudios de grado, máster y 
+doctorado 
+Actuaciones a desarrollar 
+Enviar mensaje a través de los equipos de MSTeam de PAT, Instragram y Web 
+sobre los temas y fechas de exposición de los trabajos parciales de 
+investigación, durante el proceso de elaboración de las tesis doctorales; para 
+ello, notificar al Responsable de Calidad y a VD de digitalización la información 
+oportuna 
+Período de ejecución A lo largo del curso 2025/26 
+Recursos/presupuesto Acceso al equipo de MS Teams del PAT 
+Responsable del seguimiento y fecha Coordinador del Programa de Doctorado – septiembre de 2026 
+Indicadores de ejecución  nº de invitaciones a actividades 
+nº de alumnos/as asistentes por invitación 
+Evidencias documentales de la implantación 
+Publicación en equipo de MSTeams de PAT, Instagram y Web 
+Listadado de asistentes proporcionada por la grabación de la reunión a través 
+del equipo MSTeams del Journal Club 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+ 
+  
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP10-24-1/A-Rev 
+Curso académico (en que se genera) 2023/2024 
+Fecha julio 2024 
+Denominación de la propuesta Estímulo del empleo de metodologías de docencia-aprendizaje colaborativa. 
+Punto débil detectado Desproporción entre el empleo de la metodología de docencia-aprendizaje 
+colaborativa en las materias del grado y su implicación en la evaluación 
+Proceso/s afectados D03-P02: Planificación y desarrollo de las enseñanzas 
+Oportunidad de mejora Emplear la metodología colaborativa y darle mayor relevancia en la evaluación 
+competencial del alumnado. 
+Ámbito de aplicación Grado en CCAFD y Máster en Actividad Física, Deporte y Salud 
+Responsable da su aplicación VD de Organización Académica y Dirección de Departamento 
+Objetivos Consolidar la modificación sustancial del título de grado con sus nuevas 
+asignaturas 
+Actuaciones a desarrollar Informar al PDI sobre los cursos del CUFIE específicamente relacionados con 
+esta metodología y la evaluación de competencias. 
+Período de ejecución A partir del curso 2024/25 
+Recursos/presupuesto No se requiere 
+Responsable del seguimiento y fecha VD de Organización Académica – junio 2025 
+Indicadores de ejecución  Porcentaje de materias del grado con metodología de aprendizaje colaborativo 
+Evidencias documentales de la implantación Metodología contemplada en las guías docentes. 
+Observaciones 
+Del total de materias en el plan a extinguir, la metodología de aprendizaje colaborativo aparece contemplada en la guía 
+docente de 14 materias (30.4% del total); en el proceso de evaluación este número se reduce a 5 (10.9% del total); 
+desglosándose de la forma siguiente: 6.3% en materias que incluyen habilidades deportivas (1 asignatura); 22.2% en materias 
+con intervención práctica físico-corporal (2 asignaturas); 9.5% en materias sin práctica deportiva o físico-corporal) 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial) Parcial 
+Responsable de la revisión y fecha VD de Organización Académica - junio 2025 
+Resultados obtenidos  Sigue sin incorporarse como elemento evaluativo 
+Grado de satisfacción Medio 
+Acciones correctoras a desarrollar 
+En las jornadas de los ciclos de conferencias del curso 2025-26, invitar a un 
+ponente con evidente experiencia en metodología colaborativa.  
+Organización y desarrollo de un seminario/taller interno sobre metodología 
+colaborativa y evaluación de la misma tras dicha jornada. 
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP10-25-1/A 
+Curso académico (en que se genera) 2024/2025 
+Fecha Mayo 2025 
+Denominación de la propuesta 
+Fomento de grupos de innovación docente (GID) como medio de proyección y 
+difusión (transferencia) de las actividades de innovación educativa de la 
+Facultad. 
+Punto débil detectado Inexistencia de grupos de innovación docente en el centro. 
+Proceso/s afectados D04-P01: Gestión del personal académico y de apoyo a la docencia 
+Oportunidad de mejora 
+Promover la participación del profesorado en acciones de innovación 
+educativa y fomentar el trabajo colaborativo e interdisciplinar mediante 
+asociación estable de grupos de profesores 
+Ámbito de aplicación Grado en CCAFD y Máster en Actividad Física, Deporte y Salud 
+Responsable da su aplicación VD de Organización Académica y Dirección de Departamento 
+Objetivos Consolidar la modificación sustancial del título de grado con sus nuevas 
+asignaturas 
+Actuaciones a desarrollar 
+- A partir de la organización y desarrollo de un seminario/taller interno sobre 
+metodología colaborativa y evaluación, tratar de constituir con los 
+participantes un grupo de innovación docente. 
+- Informar, alentar y coordinar reuniones iniciales para que surja la posibilidad 
+de asociación; a través de la coordinación de curso y módulos. 
+Período de ejecución A lo largo del curso 2025/26 
+Recursos/presupuesto No se requiere 
+Responsable del seguimiento y fecha VD de Organización Académica 
+Indicadores de ejecución  Nº de grupos de innovación docente 
+Evidencias documentales de la implantación Actas de reuniones  
+Listado emitido por el CUFIE 
+Observaciones 
+Solo un PDI participa en Grupos de innovación Docente (participación en MOOC, durante los cursos 21-22, 22-23 y 23-24) pero 
+el grupo pertenece a otra Facultad. 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+ 
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ 
+ACCIÓN DE MEJORA: DOC_OP15-25-1/A 
+Curso académico (en que se genera) 2024/2025 
+Fecha Abril 2025 
+Denominación de la propuesta Realización de jornadas de orientación profesional (mesas redondas/panel de 
+expertos) 
+Punto débil detectado Falta de orientación específica relacionada con nuestro campo profesional 
+Proceso/s afectados D03-P03: Apoyo al alumnado 
+Oportunidad de mejora 
+Mejora de la incorporación al mundo laboral a través de un mejor 
+conocimiento de la realidad que permita al alumnado una mejor orientación 
+de su currículo 
+Ámbito de aplicación Grado en CCAFD y Máster en Actividad Física, Deporte y Salud 
+Responsable da su aplicación VD Orientación al Estudiantado 
+Objetivos Promover encuentros con profesionales en ejercicio (egresados/as) 
+Actuaciones a desarrollar 
+- Contacto con egresados, tutores profesionales de prácticas externas de 
+nuestro alumnado. 
+- Preparación de mesas redondas/panel de expertos de dos ámbitos 
+profesionales por curso académico. 
+- Certificación de asistencia. 
+Período de ejecución A partir de 2025/26 en los meses de marzo-abril 
+Recursos/presupuesto Gastos de desplazamientos 
+Responsable del seguimiento y fecha VD de Orientación al Estudiantado, Prácticas Externas. – jul 2026 
+Indicadores de ejecución  Nº de particantes por actividad 
+Evidencias documentales de la implantación Programa y memoria de actividades 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+  
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: RS_OP5-25-1/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Junio 2025 
+Denominación de la propuesta 
+Refuerzo de la información al alumnado sobre los cursos de formación del 
+CUFIE que faciliten el desarrollo de la competencia de aprender a aprender 
+(técnicas de estudio, Moodle) 
+Punto débil detectado Poco alumnado del grado aprovecha el servicio ofrecido por la UDC a través 
+del CUFIE (tutorías del PAT) 
+Proceso/s afectados D03-P03: Apoyo al alumnado 
+Oportunidad de mejora Facilitar información al alumnado de los cursos que ofrece el CUFIE resaltando 
+aquellos que pueden tener mayor interés. 
+Ámbito de aplicación Grado en Ciencias de la Actividad Física y el Deporte 
+Responsable da su aplicación Coordinador del PAT, VD Digitalización y responsable página web 
+Objetivos 
+Favorecer la adquisición de competencias trasversales fruto de aprendizajes no 
+formales:  c. aprender a aprender, c. lingüísticas, manejo de fuentes de 
+información. 
+Actuaciones a desarrollar 
+Consulta y selección de los cursos del CUFIE de mayor interés 
+Información de los cursos a través de los tutores del PAT, Instagram y en la 
+web de la Facultad en el apartado de PAT. 
+Período de ejecución A partir del curso 2025/26 
+Recursos/presupuesto No requiere 
+Responsable del seguimiento y fecha Coordinador del PAT – julio 2026 
+Indicadores de ejecución  Nº de alumnado que participa en los cursos de formación 
+Nº de anuncios realizados 
+Evidencias documentales de la implantación Memoria anual del PAT 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+ 
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: RS_OP5-25-2/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Junio 2025 
+Denominación de la propuesta Gestionar con el Centro de Lenguas de la UDC la impartición de cursos en la 
+propia Facultad 
+Punto débil detectado Aproximadamente, el 40% del alumnado de nuevo ingreso no cuenta con 
+certificación alguna del idioma de inglés; en el caso del francés, es el 90%. 
+Proceso/s afectados D03-P03: Apoyo al alumnado 
+Oportunidad de mejora 
+Facilitar la posibilidad de obtener titulación de idiomas, necesaria para el 
+acceso a los estudios del Máster de Educación y para la movilidad 
+internacional dado que nuestro alumnado dispone de deficientes conexiones 
+con el Campus de Elviña para asistir a los cursos presenciales en la facultad 
+donde se desarrollan. 
+Ámbito de aplicación Grado en Ciencias de la Actividad Física y el Deporte y Máster en AFDS 
+Responsable da su aplicación Vicedecano de Relaciones Internacionales 
+Objetivos 
+Favorecer la adquisición de competencias trasversales fruto de aprendizajes no 
+formales:  c. aprender a aprender, c. lingüísticas, manejo de fuentes de 
+información. 
+Actuaciones a desarrollar 
+Consulta del alumnado interesado en realizar cursos de idiomas en la propia 
+Facultad. 
+Negociación con el Centro de Lenguas ofreciendo la instalación. 
+Período de ejecución A partir del curso 2025/26 
+Recursos/presupuesto No requiere 
+Responsable del seguimiento y fecha VD de RR.II. – abril 2026 
+Indicadores de ejecución  Nº de alumnado interesado en participar en cursos en la Facultad 
+Resultado de la negociación 
+Evidencias documentales de la implantación Acuerdo/convenio con el Centro de Lenguas. 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: INT_OP5-25-1/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Junio 2025 
+Denominación de la propuesta Realización de charlas de los responsables de la ORI en la Facultad y de PDI Y 
+PTGAS que han realizado alguna movilidad 
+Punto débil detectado Reducida movilidad internacional del PDI (periodo 22-25 – promedio 2.1%) 
+Proceso/s afectados D03-P04: Movilidad/ D04-P01: Gestión personal académico y de apoyo a la docencia 
+Oportunidad de mejora Aumentar la participación en la movilidad internacional del PDI 
+Ámbito de aplicación FCCDEF 
+Responsable da su aplicación VD RR.II. 
+Objetivos Mejorar la participación en la movilidad del profesorado 
+Actuaciones a desarrollar 
+Organizar una mesa redonda, convocando previamente a los participantes 
+para orientar la intervención hacia las ventajas y virtudes de la movilidad; así 
+como en los aspectos relacionados con el proceso de solicitud e inicio de 
+acciones tras la concesión de la estancia. 
+Período de ejecución A partir del curso 2025/26 
+Recursos/presupuesto No requiere 
+Responsable del seguimiento y fecha VD RRII julio 2026 
+Indicadores de ejecución  Nº de participantes en las charlas y nº de PDI que realiza movilidad. 
+Evidencias documentales de la implantación Informe de estancia de la ORI. 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+  
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: INT_OP7-25-1/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Junio 2025 
+Denominación de la propuesta 
+Apoyo al concepto de "English Friendly" (asignaturas o cursos de impartición 
+principalmente en español o gallego, adaptados al estudiantado internacional 
+que habla inglés) facilitando la integración de estudiantes Erasmus e 
+internacionales. 
+Punto débil detectado Reducida movilidad internacional del PDI (periodo 22-25 – 2.1%) 
+Proceso/s afectados D03-P04: Movilidad/ D04-P01: Gestión del personal académico y de apoyo a la 
+docencia/ D03-P03: Planificación y desarrollo de las enseñanzas 
+Oportunidad de mejora Aumentar la participación en la movilidad internacional del PDI 
+Ámbito de aplicación FCCDEF 
+Responsable da su aplicación VD RR.II. 
+Objetivos Favorecer una inclusión real en la vida del centro para todo aquel que llega a 
+nuestra facultad 
+Actuaciones a desarrollar 
+Informar al profesorado del concepto de English Friendly: el PDI puede 
+comunicarse en inglés si es necesario; se permite entregar trabajos y realizar 
+exámenes en inglés; se ofrece apoyo lingüístico para facilitar la comprensión 
+del contenido; a menudo se proporcionan materiales complementarios en 
+inglés. 
+Determinar el PDI interesado en ofertar materias “English Friendly” 
+Publicar y comunicar a la UDC las materias ofertadas. 
+Desarrollo de la docencia bajo el concepto “English Friendly” en materias con 
+alumnado de movilidad internacional. 
+Período de ejecución A partir del curso 2026/27 
+Recursos/presupuesto No requiere 
+Responsable del seguimiento y fecha VD RRII julio 2026 
+Indicadores de ejecución  Nº de materias ofertadas y nº alumnado matriculado en las materias Eng. Fr. 
+Evidencias documentales de la implantación Guía docente 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+  
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: ECO_OP4-25-1/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Junio 2025 
+Denominación de la propuesta Reactivación de las acciones correspondientes al objetivo operativo ECO-OP4 
+Punto débil detectado No cumplimentación de las acciones planteadas 
+Proceso/s afectados D05-P01: Gestión de los recursos materiales y de la prestación de servicios 
+Oportunidad de mejora Reciclaje de residuos y de la salubridad de los espacios exteriores 
+Ámbito de aplicación Facultad de CCDEF 
+Responsable da su aplicación VD Infraestructuras 
+Objetivos Mejorar la recogida selectiva de residuos y el procedimiento de reciclaje 
+Actuaciones a desarrollar 
+Reclamar a la UDC que asuma los compromisos adoptados en el programa 
+Green Campus a través de la Oficina de Medio Ambiente (OMA) pactados con 
+el anterior equipo de gobierno de la Facultad. 
+Período de ejecución A partir del curso 2025/26 
+Recursos/presupuesto Los establecidos por la OMA 
+Responsable del seguimiento y fecha VD Infraestructuras – junio 2026 
+Indicadores de ejecución  Ejecución de obras 
+Puntos de compostaje 
+Evidencias documentales de la implantación Informe de las actuaciones realizadas 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+ 
+ 
+
+SISTEMA DE GARANTÍA INTERNA DE CALIDAD 
+FACULTADE DE CIENCIAS DO DEPORTE E A EDUCACIÓN FÍSICA 
+ 
+ 
+ACCIÓN DE MEJORA: ECO_OP5-25-1/A 
+Curso académico (en que se genera) 2024/25 
+Fecha Junio 2025 
+Denominación de la propuesta D04-P01: Reactivación de la Comisión Green Campus 
+Punto débil detectado No cumplimentación de las acciones planteadas 
+Proceso/s afectados Dificultades en la movilidad del alumnado 
+Oportunidad de mejora Aprovechamiento de los recursos existentes basados en el transporte público y 
+el privado y de los medios ofrecidos por la UDC. 
+Ámbito de aplicación Facultad de CCDEF 
+Responsable da su aplicación Apoyo al alumnado y gestión de los recursos materiales y de la prestación de 
+servicios 
+Objetivos Mejorar la movilidad sostenible de los miembros de la Facultad 
+Actuaciones a desarrollar Constitución de la nueva Comisión Green Campus y reactivación de sus 
+funciones 
+Período de ejecución A partir del curso 2025/26 
+Recursos/presupuesto Cartelería 
+Responsable del seguimiento y fecha Presidente de la Comisión Green Campus – julio de 2026 
+Indicadores de ejecución  Nº de reuniones de la comisión  
+Nº de acciones desarrolladas 
+Evidencias documentales de la implantación Actas de la Comisión Green Campus 
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o parcial)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+ 
+ 

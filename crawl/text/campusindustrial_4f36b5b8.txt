@@ -83,6 +83,8 @@ gl
 es
 en
 
---- OCR de imagen: EXTENDIDO_greencampusferrol_40b2f1f9.png ---
-WA ERS
-GREEN CAMPUS FERROL
+--- OCR de imagen: Logo-CIF_2d5e3688.svgxml ---
+Error checking image: cannot identify image file 'crawl\\crawled_data\\images\\Logo-CIF_2d5e3688.svgxml'
+
+--- OCR de imagen: play_13f36936.svgxml ---
+Error checking image: cannot identify image file 'crawl\\crawled_data\\images\\play_13f36936.svgxml'

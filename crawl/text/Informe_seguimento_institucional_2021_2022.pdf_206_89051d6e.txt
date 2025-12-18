@@ -1,0 +1,262 @@
+ANÁLISE DE RESULTADOS DO SGIC FACULTADE DE FILOLOXÍA
+Evidencia de:    
+Centro   
+PM01-Anexo02. Informe de análise de resultados do SGIC
+Centro: FACULTADE DE FILOLOXÍA
+Curso académico    
+2021-2022   
+1. Análise dos datos. Información de entrada
+1.1. Revisión da política de calidade e dos obxectivos de calidade do centro    
+Antes de que conclúa cada curso académico, a Comisión de Estratexia e Calidade revisa o grao de cumprimento de cada
+obxectivo de calidade proposto e decide se é dado por atinxido, se se mantén ou se debe ser modificado. Igualmente, actualiza a
+política de calidade do centro para o curso seguinte.
+Toda esta información é actualizada na sección de Calidade da páxina web do Centro
+https://www.udc.es/gl/filo/calidade/politica_obxectivos/
+En documento anexo adxúntase a Acta da CEC de 21-07-2022, onde foi revisado o grao de cumprimento dos obxectivos do
+curso 2021-2022 e aprobado o documento relativo a 2022-2023
+1.2. Os resultados do seguimento e cumprimento dos obxectivos da calidade do centro    
+O grao de cumprimento dos obxectivos de calidade do centro foi, en liñas xerais, alto, segundo se desprende da análise contida
+no procedemento PE01-Anexo 03. Especialmente relevantes foron as actuacións no apartado de infraestruturas e servizos, onde
+se completaron as tarefas de acondicionamento de espazos do Centro para a integración das titulacións de Turismo, se renovou
+o sistema de iluminación da Aula Magna, se efectuaron actualizacións de software e hardware nas aulas e se elaborou e aplicou
+unha programación de horarios e de distribución de espazos que permitiu unha dinámica docente maioritariamente presencial, no
+marco do plano de prevención e e hixiene fronte a COVID-19. Asimesmo procurouse difundir entre o estudantado os recursos
+alternativos á desaparición do servizo de reprografía do Centro, que é un dos motivos de queixa máis recorrente entre alumnos e
+PDI.
+En canto á dinámica docente en xeral, no curso 2021-2022 ofertouse por vez primeira a materia de Alemán como opción para
+Idioma Moderno. Tamén aumentaron significativamente as taxas de mobilidade saínte no sector de estudantado e se acadaron
+os obxectivos previstos en materia de orientación e apoio ao estudantado (procedementos PC05 Anexo 04: PAT, e PA04 Anexo
+05: Informe anual sobre incidencias)      
+1.3. Resultados e seguimento da inserción laboral    
+No curso 2021-2022  publicouse únicamente un estudo sobre inserción laboral por parte da ACSUG: EIL 1415, realizada durante
+xaneiro-marzo de 2021 á poboación titulada no sistema universitario galego (en graos u diplomaturas, non en mestrados) durante
+o curso académico 2014-2015.
+A mostra afecta a un 56,39 % da poboación total: no caso da UDC: a 1528 titulados dun total de 2646. Non se diferencias
+resultados nin por títulos nin por ramas de coñecemento.
+Resultados xerais:
+- buscou emprego relacionado coa titulación: 79,28%; de entre estos, atopou emprego o 80.45%, tardando unha media de 8,77
+meses.
+- traballa no momento de realización da enquisa: 87,02 %, maioritariamente en Galicia: 77,35%, no resto de España: 19,53&; no
+resto do mundo: 3,12%. Entre os que non traballan actualmente, o 83,85% sí traballou nalgún momento desde a data de remate
+dos seus estudos.
+- salario neto mensual medio de 1518.26 euros.
+- desenvolve funcións de nivel universitario: 81,72%; funcións específicas da titulación cursada: 80,11%.
+- tipo de contrato: por conta allea: 90,16%; de entre estes: contrato indefinido: 57,05%; eventual: 23,84%; en prácticas: 1,61%;
+bolsa: 1,18%; outros: 6,39%; sen contrato: 0,09%.
+- Continúan estudos no momento de realización da enquisa: 15,31%: en estudos de mestrado: 47,34%; en estudos de
+doutoramento: 32,68%
+- Preparan oposicións no momento de realización da enquisa: 27,26%
+PM01-ANEXO02 filoloxiasec 01/12/2022 10:08:06 1/6
+
+ANÁLISE DE RESULTADOS DO SGIC FACULTADE DE FILOLOXÍA
+- Competencias requeridas: capacidade para a aprendizaxe: 4,68%; capacidade para resolver problemas: 4,61%; motivación:
+4,56%; adaptabilidade: 4,52%; comunicación oral/escrita: 4,51%.
+- Satisfacción co itinerario académico: volvería cursar estudos universitarios: 87,36%; volvería cursar a mesma titulación: 79,98%;
+volvería cursar a mesma titulación na mesma Universidade: 89,53%.
+Conclusións: a situación xeral descrita polo estudo da ACSUG resulta bastante satisfactoria, en canto a resultados de
+empregabilidade e grao de satisfacción cos estudos seguidos, mais ten difícil aplicación para a avaliación dos titulos ofrecidos na
+Facultade de Filoloxía da UDC, dado que o estudo non discrimina universidades, ramas de coñecemento nin títulos concretos;
+tampouco ten aplicación aos estudos de mestrado, senón únicamente aos de grao.
+Porén, ten interese comprobar como entre as competencias máis valoradas para a empregabilidade se encontran precisamente a
+comunicación oral e escrita e o coñecemento de idiomas extranxeiros, ambas as dúas directamente relacionadas cos títulos
+ofertados na Facultade de Filoloxía.
+Con obxecto de procurar recursos de información suplementarios, levouse a cabo unha revisión e actualización da base de datos
+de egresados, na idea de efectuar enquéritos específicos entre estes sobre a súa situación laboral, mais as restricións en política
+de protección de datos impediron, polo momento, efectuar estas enquisas.   
+1.4. Seguimento das accións previstas en revisións anteriores do SGIC    
+O último documento de referencia é a resposta da ACSUG, de 28 de xullo de 2020, ao Autoinforme de Seguimento da
+Renovación da Certificación do SGC do Centro, aprobado pola Comisión de estratexia e calidade con data de 29 de xuño de
+2020.
+Das dúas accións do plano de melloras que se mantiñan abertas: a) posta en funcionamento da nova aplicación
+informática; b) presenza de representantes do alumnado na Comisión de Estratexia e Calidade, déronse pasos para acadar a
+primeira, mais o deseño e implementación da nova aplicación aínda no está completado no momento de redacción deste informe
+(decembro 2022). Por outra parte, o deseño desta aplicación está adaptado á nova estrutura do SGIC, cuxa adaptación ao
+Centro aínda non foi aprobada pola Xunta de Facultade nin o será até que o Centro renove a súa acreditación institucional do
+Centro, renovación prevista para maio de 2023.
+Canto a segunda, a CEC contou coa participación regular da representación estudiantil elixida en XF de 20 de maio de 2021. A
+fins do curso 2021-2022 o estudante graduouse, de xeito que desde inicios do curso 2022-2023 a CEC non conta con
+representación no sector do estudantado.    
+1.5. Información relativa á satisfacción dos grupos de interese, ás queixas ou reclamacións, así como ás súas
+necesidades e expectativas    
+Os resultados das enquisas de satisfacción efectuadas a estudantes (procedementos PA03 Anexo 02 e PA03 Anexo 03) reflicten
+un certo descenso do grao de satisfacción entre os estudantes de primeiro curso e unha mellora entre os de terceiro curso. As
+variacións respecto de curso anteriores poden ter a ver co feito de que a participación en 2021-2022 foi sensiblemente superior,
+mais tamén (para o caso dos resultados en terceiro curso) co incremento dos esforzos por ofrecer aos estudantes accións de
+orientación e apoio.  Son salientabeis tamén os parabéns para os servizo de biblioteca e de cafetaría, así como a alta valoración
+do persoal de apoio en xeral.
+Porén, continúan a ser frecuentes algunhas queixas ás que é difícil dar satisfacción, como as relativas á pouca especialización do
+curriculo académico durante os dous primeiros anos e á desaparición do Servizo de reprografía do Centro.
+En cambio, hai marxe para actuar sobre outras reivindicacións, como son as relativas á planificación da carga de traballo, a
+flexibilidade na programación das sesións de titoría e atendemento, a coordinación entre o profesorado ou (novidades no
+presente curso) o control do plaxio, a necesidade de incrementar a oferta de prazas de prácticas laborais, a atención a
+estudantes con problemas psicolóxicos ou familiares.
+Para unha valoración máis detallada, véxase o informe anual de satisfacción, expectativas e necesidades (PA03 Anexo 03) e o
+informe anual sobre preguntas, queixas, parabéns e suxestións (PA04-Anexo 05)   
+1.6. Grao de satisfacción e motivación do personal    
+Entre o PDI, os niveis de satisfacción son elevados e están na media dos cursos anteriores, mala algunhas queixas relativas ao
+crecente aumento da carga de traballo docente, investigador e administrativo, e á súa irregular distribución entre o profesorado.
+Tamén se constata certa insatisfacción perante  o nivel de formación e de motivación dos estudantes de novo ingreso nalgunhas
+titulacións de grao.
+Unha circunstancia que cómpre mencionar é o alto número de xubilacións que se veñen producindo non últimos tres cursos entre
+o PDI: 2019-20; 2020-21 e 2021-22, o que está a provocar que en varias áreas o persoal sexa escaso (co conseguinte
+incremento da carga de traballo, non só docente senón tamén administrativo) e que aumente significativamente a porcentaxe de
+PDI con contratos de sustitución ou de formación.
+Ao persoal de apoio non lle correspondía facer enquisas no curso presente. Porén, se debe ter presente que a fins do curso
+PM01-ANEXO02 filoloxiasec 01/12/2022 10:08:06 2/6
+
+ANÁLISE DE RESULTADOS DO SGIC FACULTADE DE FILOLOXÍA
+2021-2022 tivo lugar unha renovación importante do persoal de apoio, particulamente  o adscrito á Administración do Centro, con
+motivo dun concurso de traslados. Este feito adoita comportar lixeiros contratempos temporais, en tanto que o novo persoal leva
+a cabo o imprescindible proceso de adaptación á dinámica de cada Centro e posto de traballo.    
+2. Resultados
+2.1. Accións para a mellora do servizo en relación coas necesidades e expectativas dos grupos de interese    
+Con data de 16-12-2022 a Comisión de Estratexia e Calidade debateu e aprobou o Plan de mellora do Centro correspondente ao
+curso 2021-2022 (véxase o documento anexo: Plan de mellora do Centro), en que se detallan as accións de mellora fechadas, en
+proceso de seguimento ou novamente aprobadas durante o presente curso académico para a súa execución en 2022-2023.
+A dinámica do curso 2021-2022, aínda parcialmente condicionada polas medidas restritivas impostas pola alerta sanitaria e pola
+integración no Centro das titulacións de Turismo, explica que unha grande parte das accións de mellora respondesen á
+necesidade de adaptarse á nova situación, e se concentrasen na dimensión de Infraestruturas materiais e servizos, como tamén
+na planificación das ensinanzas.
+As accións de mellora programadas a fins do curso 2021-2022 para a súa execución en 2022-2023 teñen como obxectivos
+xerais: a) completar as actuacións en materia de infraestruturas e servizos desenvolvidas en 2020-2021; b) recuperar estándares
+de 'normalidade' nun contexto xa non condicionado pola situación sociosanitaria de pandemia.
+Exponse a continuación un resumo das accións de mellora fechadas, en seguimento ou novamente programadas.
+1. Accións de mellora que se fechan en 2021-2022
+1.1 Planificación das ensinanzas:
+- Ofertar a opción de alemán en idioma moderno (de 30/05/2019)
+- Incrementar a participación de docentes conviados por telemática, especialmente nos mestrados (documento de política e
+obxectivos de calidade para 2021-2002, aprobado en CEC de 12/07/2021)
+1.2 Recursos materiais e servizos
+- Equipación da Aula Magna para a docencia presencial ordinaria (Documento de política e obxectivos de calidade para o curso
+2020-2021, aprobado en CEC de 28/07/2020)
+- Adaptación de espazos, e adquisición de mobiliario e de equipamento informático para a integración no Centro das titulación de
+Turismo, co correspondente profesorado (Documento de política e obxectivos de calidade para o curso 2020-2021, aprobado en
+CEC de 28/07/2020).
+- Mellorar a eficiencia do equipamento informático das aulas e do Salón de Graos (documento de política e obxectivos de
+calidade para 2021-2002, aprobado en CEC de 12/07/2021)
+- Procurar solucións alternativas á desaparición do Servizo de Reprografía nas dependencias do Centro (documento de política e
+obxectivos de calidade para 2021-2002, aprobado en CEC de 12/07/2021)
+1.3 Resultados
+- Incrementar os índices de mobilidade saínte en todos os programas, con particular atención ao programa SICUE. (documento
+de política e obxectivos de calidade para 2021-2022, aprobado en CEC de 12/07/2021)
+2. Accións de mellora abertas en proceso de seguimento
+2.1 Análise de resultados
+- Creación dunha base de datos de egresados da Facultade (CEC de 22-09-2017)
+- Efectuar un seguimento dos expedientes de traslado de matrícula a outras universidades ou a outras titulacións da UDC (CEC
+de 12/07/2021)
+2.2 Atención e apoio ao estudantado
+- Mellorar a satifacción do estudantado coas accións de orientación / atención (de 30/05/2019)
+2.3 Mobilidade
+- Actualización do convenio coa University of South Wales para o adaptar ao Brexit (de 08/02/2021)
+- Sinatura dun convenio de dupla titulación para o mestrado MLCD coa Universidade Ateneum de Polonia (30/05/2019)
+En sesión de 16-12-2022 a Comisión acordou manter estas accións de mellora, mais unificándoas e reformulándoas nos
+seguintes termos: explorar a formalización de novos convenios de intercambio con universidades europeas para os títulos de
+grao e para o mestrado MLCD.
+PM01-ANEXO02 filoloxiasec 01/12/2022 10:08:06 3/6
+
+ANÁLISE DE RESULTADOS DO SGIC FACULTADE DE FILOLOXÍA
+2.4 Prácticas externas
+- Incremento da oferta de prácticas extracurriculares para as titulacións de grao e o mestrado MLCD (CEC de 12/07/2021)
+2.5 Infraestruturas e servizos
+- Incrementar a eficiencia na adquisición, custodia e dispoñibilidade pública de recursos bibliográficos (documento de política e
+obxectivos de calidade para 2021-2002, aprobado en CEC de 12/07/2021)
+2.6 Información pública
+- Revisión e mellora do sistema de información pública relativa ao Centro e as súas titulacións (documento de política e
+obxectivos de calidade para 2021-2002, aprobado en CEC de 12/07/2021).
+3. Accións de mellora novamente programadas para a súa execución en 2022-2023
+3.1 Atención e apoio ao estudantado
+- elaboración e aprobación, se proceder, dun cambio de modelo no proxecto de PAT, que se aplicaría no curso 2023-2024.
+3.2 Infraestruturas e servizos
+-elaboración e aprobación,se proceder, dunha normativa para a distribución e asignación de gabinetes ao profesorado e outros
+colectivos.
+3.3 Planificación das ensinanzas
+-elaboración e aprobación, se proceder, dun regulamento de prácticas externas.
+2.2. Necesidades de recursos    
+En 2021-2022 leváronse a cabo as accións de mellora programadas que afectan aos seguintes recursos:
+- Equipación da Aula Magna para a docencia presencial ordinaria: a fins do curso 2020-2021 a Aula Magna aínda tiña pendente
+completar o seu acondicionamento mediante a instalación dun novo sistema de iluminación. Esta reforma tivo lugar ao longo do
+curso 2021-2022.
+- Adaptación de espazos, e adquisición de mobiliario e de equipamento informático para a integración no Centro das titulación de
+Turismo, co correspondente profesorado: en 2021-2022 completouse a asignación de espazos e a dotación de mobiliario e de
+equipamento informático para a Facultade de Turismo, coa habilitación das correspondentes dependencias administrativas
+(gabinete de Decanato, gabinete de administración). Tamén se levou a cabo a reforma de dous espazos destinados a aulas con
+obxecto de fusionalos nun so de maior capacidade: esta nova aula (2.9/2.10), na programación de 2022-2023, será utilizada
+fundamentalmente pola tiulación de Turismo.
+- Mellorar a eficiencia do equipamento informático das aulas e do Salón de Graos: o curso 2022-2023 iniciouse coa revisión e
+actualización plena da equipación informática das aulas.
+As necesidades que se estiman máis urxentes para o curso 2022-2023 afectan máis aos recursos humanos que aos materiais.
+Como se indica no informe anual de satisfacción, é importante reforzar as plantillas tanto de PDI (políticas de contratación e
+promoción) como de personal de apoio (tanto administrativo como técnico).    
+2.3. Suxestións para a mellora e incorporación na planificación estratéxica do centro    
+No periodo 2021-2022 a Comisión de estratexia e calidade non propuxo novas suxestións para a adaptación ao Centro do
+próximo Plano Estratéxico da UDC (2021-2026), aínda pendente de elaboración e aprobación.   
+2.4. Necesidades de efectuar cambios no SGIC. Avaliación das oportunidades de mellora e necesidade de efectuar
+cambios na xestión do sistema    
+Ao longo do curso 2021-2022, a Unidade Técnica de Calidade, en coordinación cos responsábeis de Calidade dos Centros,
+traballou no deseño dunha nova versión do manual para o Seguimento Institucional dos títulos e centros da UDC, que irá
+asociada a unha nova aplicación informática. O novo sistema simplifica os diferentes procedementos e actualiza os protocolos
+para adaptalos ás recentes reformas lexislativas.
+Con data de 21-09-2021 a UTC envía aos Centros un borrador da nova versión do manual do SGIC.
+Con data de 22-11-2021 celebrouse unha sesión formativa cos responsábeis de calidade dos Centros sobre a nova aplicación
+informática.
+Con data de 7-06-2022 a UTC envía aos Centros unha nova versión do manual do SGIC.
+PM01-ANEXO02 filoloxiasec 01/12/2022 10:08:06 4/6
+
+ANÁLISE DE RESULTADOS DO SGIC FACULTADE DE FILOLOXÍA
+Con data de 14-06-2022 o Centro enviou á UTC unha revisión do documento marco aprobada pola da CEC do Centro, con
+observacións e suxestións sobre a redacción remitida incialmente pola UTC (véxase documento anexo)
+Con data de 6-09-2022 a UTC envía un novo borrador do manual do documento marco do SGC para a súa adaptación ao
+Centro.
+Con data de 22-07-2022, ás 9.30 celebrouse unha reunión informativa entre o persoal da UTC e os responsábeis de Calidade
+dos Cebtros, para dar conta dos últimos cambios introducidos no documento marco.
+Con data de 6-09-2022, a UTC remite o último borrador do manual do SGIC para que a CEC elabore unha proposta de
+adaptación ao Centro.
+Con data de 24-10-2022, a CEC aproba a adaptación do documento marco do SGC ao Centro.
+A revisión por parte da UTC desta proposta de adaptación e a aprobación final do documento por parte da Xunta de Facultade
+quedan aprazados até a finalización da reacreditación institucional do Centro, prevista para maio de 2023.
+En calquera caso, sería desexable aplicar o novo modelo do SGIC, xunto coa ferramente informática correspondente, ao
+seguimento do presente curso 2022-2023.   
+3. Conclusións. Adecuación e eficacia do SGIC
+3.1 Conclusións. Adecuación e eficacia do SGIC    
+Recollidas nos seguintes documentos, adxuntados en documentos anexos:
+- Autoinforme de seguimento da renovación da certificación do SGC do Centro
+- Programa Fides-Audit: Seguimiento del plan de mejoras certificación de la implantación del SGC
+- Consideraciones al seguimiento del Plan de mejoras Certificación de la implantación del Sistema de Garantía de Calidad de la
+Facultad de Filología de la UDC del 28/07/2020 (ver anexo)   
+4. Observacións
+4.1. Observacións    
+Foi revisada e actualizada a información pública das titulacións publicada na páxina web do Centro, nas webs das titulacións
+(cando existen) e no portal de Estudos da UDC.    
+ 
+Data: 
+ 
+ 
+Asdo.
+Presidente da Comisión de Garantía de Calidade
+Outros anexos   
+ 
+Acta_CEC_22.07.21.report.pdf
+ 
+Autoinforme de seguimento da certificacio?n da implantacio?n do SGC.pdf
+ 
+Consideraciones informe seguimento certificación do sistema.docx
+ 
+Filoloxía_Revisión do documento marco para o SGC (14_06_2022).pdf
+ 
+IS SGC-Filología-UDC 2020.pdf
+ 
+Informe Preguntas, queixas, suxestións.pdf
+ 
+Informe anual de satisfacción_2021_2022.docx
+PM01-ANEXO02 filoloxiasec 01/12/2022 10:08:06 5/6
+
+ANÁLISE DE RESULTADOS DO SGIC FACULTADE DE FILOLOXÍA
+ 
+ Informe de inserción laboral_resultados_no_sug_eil1415_informe.pdf
+ 
+PE01-ANEXO03.pdf
+ 
+PE01-ANEXO03_2022-2023.pdf
+ 
+Plan de mellora do Centro 2021_2022.pdf
+PM01-ANEXO02 filoloxiasec 01/12/2022 10:08:06 6/6

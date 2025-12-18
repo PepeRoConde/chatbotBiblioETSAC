@@ -1,0 +1,258 @@
+Guía Reserva Espazos Facultade Economía e Empresa Curso 2015-16 
+ 
+O procedemento descrito só se aplica para reservas das aulas: 2.8, 2.9, 2.10, 2.11., e 
+tamén para as aulas de informática  0.1, 0.2,  2 e 4 . O resto de espazo s, fora do horario 
+de docencia de clase establ ecido para os diferentes grupos e uso para exames, 
+xestionáranse na conserxería do centro. 
+ 
+Recomendacións Xerais   
+• Rógase seguir o procedemento exposto aínda que a aplicación informática permita o 
+uso doutras variantes respecto das aquí sinaladas.  
+• É moi importante cancelar as  reservas que non vaian ser efectivas para ampliar as 
+posibilidades de reserva do resto de compañeiros. 
+• Recoméndase empregar navegadores de internet como Google-Chrome ou  Mozilla-
+Firefox. No caso do navegador Internet Explorer, é recomendable empregar versións 
+actualizadas do mesmo. 
+ 
+PROCEDEMENTO 
+ 
+O acceso á aplicación faise a través da intranet co uso das credenciais da UDC (usuario 
+e contrasinal). 
+ 
+Paso 1 
+ 
+Na pantalla de intranet accedérase á aplicación espazos e horarios udc 
+ 
+ 
+ 1
+
+ 
+ 
+ 
+Paso 2 
+ 
+Selecciónase procura de espazos 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2
+
+ 
+ 
+Paso 3 
+ 
+Na nova pantalla, en Centro selecciónase  Facultade de Economía e Empresa e 
+prémese Buscar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3
+
+ 
+ 
+Paso 4 
+Visualízase a lista de espazos. Na parte inferior podemos desprazarnos ás páxinas nas 
+que figuran o resto de espazos. 
+ 
+ 
+ 
+ 4
+
+ 
+ 
+Paso 5 
+ 
+Supoñamos que queremos reservar a aula 2.10. Selecciónase a Dispoñibilidade dese 
+espazo.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5
+
+ 
+ 
+ 
+Paso 6  
+ 
+Seleccionamos Solicitar reserva 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 6
+
+ 
+ 
+ 
+Aparece a seguinte pantalla 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 7
+
+ 
+ 
+ 
+ 
+Paso 7-1 
+ 
+No cadro superior da nova pantalla sel eccionamos no apartado de tipo de reserva 
+Docencia (1). Despois seleccionamos a titulación (2) nun despregabl e, xusto a dereita 
+de docencia. En Tipo de docencia, seleccionamos o que proceda, por exemplo, 
+Docencia interactiva/seminarios (3). No mesmo cadro temos que asegurarnos de ter 
+seleccionada a opción de reserva Puntual (4). 
+A continuación, de xeito obrigatorio, escribimos no cadro de texto Comentario  o nome 
+do profesor que realiza a reserva e o curso e asignatura correspondente (5). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 8
+
+Paso 7-2 
+ 
+Na mesma pantalla, rematada a anterior s ecuencia, na parte s uperior da táboa de 
+horarios seleccionamos a semana, mes e ano (6). Posteriormente nas celas da propia 
+táboa escollemos as horas que nos interesen. Para iso haberá que premer nunha cela da 
+táboa (cada unha de hora e media, tendo en conta que a hora que figura en cada fila é de 
+inicio) e definir o rango (7). Por exemplo, na figura resérvase a franxa de 11:30 a 14:30. 
+Finalmente na mesma páxina prémese Gardar para finalizar o procedemento (8). 
+ 
+ 
+ 
+De xeito automático, na parte superior da páxina de Dispoñibilidade, o programa 
+sinalará que a operación foi realizada con éxito.  
+ 
+No caso de que falte algo por completar, o programa sinalará na páxina de Solicitar 
+reserva a información necesaria para que poida ser gardada a reserva no sistema 
+ 9
+
+Cancelación de reserva 
+ 
+Si se desexa cancelar unha reserva, vaise as miñas opcións e selecciónase reservas de 
+espazos. A continuación, na reserva que corresponda, seleccionar cancelar  
+ 
+ 
+ 
+O sistema solicita confirmación da cancelación, polo que temos que premer Aceptar 
+ 
+ 
+ 
+ 
+ 
+ 
+ 10
+
+Outra opción de cancelación,  é ir á táboa de horar ios do espazo, vendo a súa 
+Dispoñibilidade, e na data e celas que corresponda n eliminar a reserva, premendo en x. 
+A continuación o sistema pedirá que se confirme a cancelación. 
+ 
+ 
+ 
+ 
+Reserva fora do horario 
+ 
+Si se desexa reservar fora do horario de (8:30 a 14:30) e de (15:30 a 21:30), por 
+exemplo de 14:30 a 15:30, é posible facelo no cadro de solicitude de reserva coa opción 
+Evento, reserva Puntual e tecleando en Comentario o nome do profesor  que realiza a 
+reserva e o curso e asignatura  correspondente. Na táboa de horario sinalaríamos a hora 
+que nos interesa. Para iso ó premer na cela horaria que nos interesa desprégase un cadro 
+de diálogo para definir a selección. Finalmente, prememos Gardar 
+ 
+ 
+ 11

@@ -1,0 +1,77 @@
+APLICACIONES PARA LA FIRMA ELECTRÓNICA DE DOCUMENTOS ADMINISTRATIVOS 
+ 
+En virtud del  artículo 22.2 del Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y 
+funcionamiento del sector público por medios electrónicos, cada Administración Pública determinará los sistemas de firma 
+electrónica que debe utili zar su personal. Estos sistemas podrán identificar de forma conjunta al titular del puesto de trabajo o 
+cargo y a la Administración u órgano en la que presta sus servicios.  
+Para la firma electrónica con certificado de empleado público de documentos pdf en el marco de un procedimiento administrativo 
+la Universidad recomienda utilizar exclusivamente las siguientes aplicaciones por ajustarse con la legislación vigente en mat eria 
+de Administración Electrónica:  
+➢ AutoFirm@ (versión v1.6.5): Aplicación de firma  electrónica desarrollada por el Ministerio de Hacienda y Administraciones 
+Públicas.  
+➢ Port@firmas: Gestor centralizado para la firma electrónica de documentos.  
+Ventajas del uso de estas aplicaciones  
+• Se ajusta a la normativa de aplicación en materia d e Administración Electrónica (Reglamento (UE) 910/2014, relativo a la 
+identificación electrónica y los servicios de confianza para las transacciones electrónicas en el mercado interior y a la Ley  6/2020, 
+de 11 de noviembre, reguladora de determinados aspec tos de los servicios electrónicos de confianza de las Administraciones 
+Públicas) así como al Esquema Nacional de Interoperabilidad (ENI) y al Esquema Nacional de Seguridad (ENS).  
+• Mayor seguridad e integridad de los documentos firmados. El contenido del documento electrónico firmado electrónicamente 
+no puede ser alterado o manipulado, por lo que se garantiza tanto la autenticación del mismo como la identidad del firmante. 
+Para ello, se puede validar el documento y la firma electrónica en: https://valide.r edsara.es/.  
+• Se pude configurar y personalizar el texto de la firma electrónica de manera que no aparezca visible en el documento el dato del 
+DNI/NIE del firmante.  
+ 
+APLICACIONES NO RECOMENDADAS PARA LA FIRMA ELECTRÓNICA  
+En ningún caso se aconseja el us o de aplicaciones privadas para la firma electrónica de documentos administrativos, tales como, 
+Adobe Acrobat Reader, Nitro Pro, DocuSign, SignNow, ClickSign o SignEasy.  
+ 
+COMO CONFIGURAR AutoFirm@ PARA QUE NO SEA VISIBLE EL DATO DEL DNI DEL EMPLEADO PUBLICO FIRMANTE  
+ 
+Comprobar que la versión de AutoFirma es v1.6.5 o posterior (si dudas, ponte el contacto con cau@udc.es) 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+En la siguiente ventana “propiedades de la firma visible PDF” se podrán establecer las preferencias y configuración de la firma.  El 
+campo “configuración de firma” se puede modificar para introducir el texto deseado de la firma.  
+ 
+Para que no aparezca visible el dato del DNI/NIE del empleado público en la firma electrónica hay que cambiar el texto 
+$$SUBJECTCN$$ que aparece en la ventana indicada por una de las siguientes opciones:  
+ 
+ 
+ 
+
+
+ 
+Opción 1º Sustituir $$SUBJECTCN$$ por el NOMBRE APELLIDO APELLIDO (en mayúsculas)  
+El texto que resultará visible en el documento será “Firmado por XOANA PEREIRA MACEIRAS el día 08/06/2021 
+con un certificado emitido por AC XXXX”  
+Opción 2º Sustituir $$SUBJECTCN$$ por el CARGO/EMPLEO  
+El texto que resultará visible en el documento será “ Firmado por VICEDECANA DE ZZZ el día 08/06/2021 con un 
+certificado emitido por AC XXX”  
+Opción 3º Sustituir $$SUBJECTCN$$ por el CARGO/EMPLEO de la $$ORGANIZATION$$  
+El texto que resultará visible en el documento será “Firmado por VICEDECANA DE ZZZ de la UNIVERSIDAD DE A 
+CORUÑA el día 08/06/2021 con un certificado emitido por AC XXX”  
+Opción 4º Sustituir $$SUBJECTCN$$ por el NOMBRE Y APELLIDOS en calidad de CARGO/EMPLEO de la 
+$$ORGANIZATION$$  
+El texto que resultará visible en el documento será “ Firmado por XOANA PEREIRA MACEIRAS  en calidad de 
+VICEDECANA DE ZZZ  de la UNIVERSIDAD DE A CORUÑA el día 08/06/2021 con un certificado emitido por AC 
+XXX”  
+ 
+Es importante que comprobemos que hemos marcado la casilla para recordar la configuración de la firma de manera que se guarde 
+automáticamente nuestras preferencias para los próximos documentos.  
+ 
+ 
+ 
+El documento firmado tendría el siguiente aspecto: 
+ 
+ 
+ 
+OBSERVACIONES:  
+Para cualquier incidencia o consulta técnica sobre cómo instalar AutoFirm@ se puede poner en contacto con cau@udc.es  
+ 
+ 

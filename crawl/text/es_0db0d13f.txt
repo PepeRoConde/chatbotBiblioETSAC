@@ -79,22 +79,9 @@ App Store
 Google Play
 RSS
 
---- OCR de imagen: LogoCampusIndustrial.png_1652729157_21c9ba84.png ---
-=
-
-CAMPUSINDUSTRIAL
-
 --- OCR de imagen: RePo-SUDOE-presentacion-en-el-CITIC.jpg_172838513_7364e27c.jpeg ---
 ee BA @ oil
 eeae
 
---- OCR de imagen: emerge.png_1652729157_d808933a.png ---
-emerge
-
-EUROPEAN UNIVERSITY
-ALLIANCE
-
---- OCR de imagen: UNISF.png_1652729157_7359e336.png ---
-UNISF
-
-UNIVERSIDADE SEM FRONTEIRAS
+--- OCR de imagen: LogoCampusIndustrial.png_1652729157_21c9ba84.png ---
+CAMPUSINDUSTRIAL

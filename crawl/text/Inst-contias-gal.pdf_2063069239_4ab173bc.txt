@@ -1,0 +1,131 @@
+Vicerreitoría de Investigación e Transferencia 
+ 
+ 
+ 
+Instrución da Vicerreitoría de Investigació n e Transferencia para aclarar a aplicación 
+das contías dos custos indirectos para diferentes subvencións 
+ 
+O obxectivo desta instrución é aclarar o cálcul o dos custos indirectos das diferentes 
+subvencións e axudas concedidas á Universidade da Coruña. 
+ 
+Primeiro. Caso xeral 
+A norma xeral que regula a aplicación dos custos indirectos é que se respectará a porcentaxe 
+que indique a entidade financiadora na convocatoria. 
+ 
+Segundo. Casos específicos 
+Caso 1. Proxectos estatais, axudas da Xunta de Galicia para consolidación de grupos de 
+referencia competitiva e potencial crecemento. 
+Custos indirectos que se aplicarán: 25 % (Ministerio de Ci encia, Innovación e 
+Universidades), 21 % (Xunta de Galicia), segundo se indique na correspondente 
+convocatoria, aplicando a fórmula como se amosa no exemplo. 
+Exemplo: se calculamos os custos indirectos do 21 % partindo do total concedido, a 
+fórmula sería dividir o total concedido entre 1,21 (non multiplicalo por 21 %) 
+Total concedido: 48 400 €  48 400 /1,21 = 40 000 €  
+                                            Custos directos:   40 000 € 
+                                                Custos indirectos:  8 400 € (21 % de 40 000 €) 
+ 
+Caso 2. Axudas económicas individuais, mediadas  por convenios con fundacións, tras un 
+proceso de concorrencia competitiva en que a convocatoria non recoll e custos indirectos 
+para a institución. 
+Custos indirectos que se aplicarán: 0 % 
+ 
+Caso 3. Axudas económicas individuais ou a e quipos de investigación, mediadas por 
+convenios con fundacións, tras un proceso de concorrencia competitiva en que a 
+convocatoria si recolle custos indirect os para a institución, pero non se fixa unha 
+determinada porcentaxe. 
+Custos indirectos que se aplicarán: 15 %. O cálculo neste caso faise de forma directa, é 
+dicir, calculando o 15 % do total concedido, tal como se amosa no exemplo. 
+Exemplo: a un/ha investigador/a concédenlle unha bolsa para un proxecto por 35 000 €. 
+Total concedido: 35 000 €   15 % de 35 000 = 5.250 € 
+  Custos directos:  29 750 € 
+                                                 Custos indirectos: 5 250 € (15 % de 35 000 €) 
+Código Seguro De Verificación HsB1dILjJ+SXryREXk5dQg==Estado Data e hora
+Asinado Por Vicerr. de Investigación e Transferencia  - Jerónimo Puertas Agudo Asinado 16/01/2025 08:27:16
+Observacións Páxina 1/3
+Url De Verificación https://sede.udc.gal/services/validation/HsB1dILjJ+SXryREXk5dQg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+Vicerreitoría de Investigación e Transferencia 
+ 
+ 
+ 
+Caso 4. Proxectos Horizon Europe e outros internacionais 
+Custos indirectos que se aplicarán: os que estableza a convocatoria.  
+Un proxecto típico do programa Horizon Europe ten uns custos indirectos do 25 % do total 
+dos custos directos, tanto no sistema actual cost  como no modelo lump sum . No caso de 
+convocatorias de I+D internacionais onde os cu stos indirectos sexan elixibles, pero a 
+convocatoria non indique a porcentaxe aplicab le, establecerase unha  taxa de custos 
+indirectos equivalente ao 25 % sobre os gastos directos. 
+ 
+Caso 5. Contratación de servizos científico s, tecnolóxicos, artís ticos, humanísticos ou 
+docentes (artigo 60 da Lei orgánica do sistema universitario) 
+Aplicarase o indicado no artigo 16 do Regulamento para a contratación de servizos 
+científicos, tecnolóxicos, artísticos, humanís ticos ou docentes (artigo 60 da Lei orgánica do 
+sistema universitario), aprobado polo Co nsello Social o 29 de maio de 2024. 
+(https://www.xunta.gal/dog/Publicados/2024/20240620/AnuncioG2017-110624-
+0002_gl.html) 
+ 
+Este artigo indica que os custos de xestión e retorno á UDC non serán inferiores ao 15 % do 
+orzamento previo á aplicación dos ditos custos  (IVE excluído). No ca so de contratos que 
+impliquen custos importantes para a instituc ión, a porcentaxe poderase ver incrementada. O 
+cálculo de tal cantidade, na redacción do co ntrato ou figura xurídic a equivalente, pódese 
+facer das dúas maneiras seguintes, tal como se  mostra no exemplo. O resultado de ambos os 
+cálculos é practicamente equivalente, polo que se aplicará un método ou o outro de forma 
+indistinta. As entidades de xestión poden optar por usar un ou ambos. 
+Exemplo:  
+a) O 13 % do orzamento total do contrato, que inclúe os custos de  xestión. Por exemplo, 
+se o orzamento total é 100 €, 13 € son os custos  de xestión e 87 € destínanse ao resto de 
+gastos de execución. 
+b) O 15 % da base do orzamento sen considerar  os custos de xestión, que se engadirán 
+para xerar o orzamento total. Por exemplo, se os gastos de execución  sen considerar os 
+custos de xestión son 87 €, aplicaráselle o 15  % a esta cantidade (13 €) para obter o 
+orzamento total sen IVE (100 €). 
+No caso das entidades de xestión delegada, esta s realizarán a liquidación e o ingreso como 
+mínimo do 8 % do orzamento total, IVE excluído, que xestionen a favor da UDC. Cando se 
+trate de contratos formalizados por PDI dos  recollidos no número 3 do artigo 8 do dito 
+regulamento, se o orzamento de custos ex cede dun modo desproporcionado o traballo do 
+PDI, minorarase a porcentaxe de custos de xestión e retorno á UDC. A Vicerreitoría de 
+Investigación e Transferencia determinará a mingua corresponde nte para o sector afectado, 
+por instancia do propio sector e logo da análise da desproporción que a xustifica. 
+Código Seguro De Verificación HsB1dILjJ+SXryREXk5dQg==Estado Data e hora
+Asinado Por Vicerr. de Investigación e Transferencia  - Jerónimo Puertas Agudo Asinado 16/01/2025 08:27:16
+Observacións Páxina 2/3
+Url De Verificación https://sede.udc.gal/services/validation/HsB1dILjJ+SXryREXk5dQg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).
+
+
+Vicerreitoría de Investigación e Transferencia 
+ 
+ 
+ 
+ 
+Caso 6. Convenios de I+D e cátedras institucionais 
+No caso dos convenios de I+D es tableceranse nestes os custos indirectos que se aplicarán, 
+aínda que como norma xeral nos convenios que  permitan pagos a persoal propio establécese 
+un 15 % do orzamento total do convenio. Outros convenios sen fins lucrativos poden ten 
+outros custos indirectos menores, cun mínimo por gasto de xestión que é o 5%. 
+ 
+No caso das cátedras e aulas institucionais aplicarase o Regulamento para a creación e 
+xestión das cátedras e aulas institucionais da Universidade da Coruña, aprobado no Consello 
+de Goberno do 28 de febreiro de 2013 
+(https://www.udc.es/export/sites/udc/goberno/_galeria_down/vit/catedras/Regulamento_crea
+cion_Catedras.pdf_2063069239.pdf), cuxo artigo 7.6. indica que os gastos xerados para a 
+Universidade da Coruña (dedicación do persoal,  uso de espazos e dos servizos, xestións na 
+OTC antiga OTRI, material funxi ble etc.) polo normal desenvolvemento das actividades da 
+cátedra ou aula serán satisfeitos con cargo ao convenio polo que se formalice a súa creación. 
+Con carácter ordinario, estes custos xerais serán imputados á achega da institución nunha 
+porcentaxe fixa do 15 %. Excepcionalmente, se así o acordan as partes, estes custos poderán 
+ser imputados tras a avaliación dos gastos presentados e xustificados pola UDC e unha vez 
+que os aprobe a comisión de seguimento da cát edra, sen que o importe total destes gastos 
+poida ser inferior ao 7 % da dotación económica da aula ou cátedra. 
+ 
+Terceiro. Outros casos 
+No caso de que a natureza da subvención ou achega económica non estea recollida nesta 
+instrución ou nunha das diferentes normativas que lle sexan de apli cación, resolverá a 
+Vicerreitoría de Investigación e Transferencia. 
+Código Seguro De Verificación HsB1dILjJ+SXryREXk5dQg==Estado Data e hora
+Asinado Por Vicerr. de Investigación e Transferencia  - Jerónimo Puertas Agudo Asinado 16/01/2025 08:27:16
+Observacións Páxina 3/3
+Url De Verificación https://sede.udc.gal/services/validation/HsB1dILjJ+SXryREXk5dQg==
+Normativa Este informe ten o carácter de copia electrónica auténtica con validez e eficacia administrativa de ORIGINAL (art. 27 Lei 39/2015).

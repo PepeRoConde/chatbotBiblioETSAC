@@ -1,0 +1,162 @@
+Formulario de busca
+Español
+Galego
+English
+A FIC Presentación Estructura e organización Órganos de Goberno Comisións Delegación e Asociacións Departamentos Normativa
+Presentación
+Estructura e organización Órganos de Goberno Comisións
+Órganos de Goberno
+Comisións
+Delegación e Asociacións
+Departamentos
+Normativa
+Estudos Información Xeral Calendarios Titorías Plano de Acción Titorial (PAT) Mobilidade Procedementos Administrativos Grao en Enxeñaría Informática (GEI) Portal de Estudos Acceso e Admisións Horarios e Exames Plan de estudos Docencia en inglés Prácticas en Empresa Traballo Fin de Grao Orientación Curso Ponte Contacto Grao en Ciencia e Enxeñaría de Datos (GCED) Portal de Estudos Por qué o GCED? Acceso e Admisións Horarios e Exames Plan de Estudos Prácticas en empresa Traballo Fin de Grao Orientación Contacto Grao en Intelixencia Artificial (GIA) Portal de estudos Acceso e Admisións Horarios e Exames Plan de estudos Prácticas en Empresa Traballo Fin de Grao Orientación Contacto Simultaneidade GEI + GCED Máster Universitario en Enxeñaría Informática (MUEI) Outros Mestrados Programas de Doutoramento
+Información Xeral Calendarios Titorías Plano de Acción Titorial (PAT) Mobilidade Procedementos Administrativos
+Calendarios
+Titorías
+Plano de Acción Titorial (PAT)
+Mobilidade
+Procedementos Administrativos
+Grao en Enxeñaría Informática (GEI) Portal de Estudos Acceso e Admisións Horarios e Exames Plan de estudos Docencia en inglés Prácticas en Empresa Traballo Fin de Grao Orientación Curso Ponte Contacto
+Portal de Estudos
+Acceso e Admisións
+Horarios e Exames
+Plan de estudos
+Docencia en inglés
+Prácticas en Empresa
+Traballo Fin de Grao
+Orientación
+Curso Ponte
+Contacto
+Grao en Ciencia e Enxeñaría de Datos (GCED) Portal de Estudos Por qué o GCED? Acceso e Admisións Horarios e Exames Plan de Estudos Prácticas en empresa Traballo Fin de Grao Orientación Contacto
+Portal de Estudos
+Por qué o GCED?
+Acceso e Admisións
+Horarios e Exames
+Plan de Estudos
+Prácticas en empresa
+Traballo Fin de Grao
+Orientación
+Contacto
+Grao en Intelixencia Artificial (GIA) Portal de estudos Acceso e Admisións Horarios e Exames Plan de estudos Prácticas en Empresa Traballo Fin de Grao Orientación Contacto
+Portal de estudos
+Acceso e Admisións
+Horarios e Exames
+Plan de estudos
+Prácticas en Empresa
+Traballo Fin de Grao
+Orientación
+Contacto
+Simultaneidade GEI + GCED
+Máster Universitario en Enxeñaría Informática (MUEI)
+Outros Mestrados
+Programas de Doutoramento
+Calidade SGIC Política de Calidade Memorias e Informes Seguimento Enquisas Atención ao usuario Outros enlaces de interese
+SGIC
+Política de Calidade
+Memorias e Informes
+Seguimento
+Enquisas
+Atención ao usuario
+Outros enlaces de interese
+Servizos Secretaría Información administrativa Estudos de grao Estudos de mestrado Trámites en secretaría Horario Biblioteca Cafetería Conserxería Instalacións Aulas Laboratorios Salas Especiais
+Secretaría Información administrativa Estudos de grao Estudos de mestrado Trámites en secretaría Horario
+Información administrativa Estudos de grao Estudos de mestrado Trámites en secretaría
+Estudos de grao
+Estudos de mestrado
+Trámites en secretaría
+Horario
+Biblioteca
+Cafetería
+Conserxería
+Instalacións Aulas Laboratorios Salas Especiais
+Aulas
+Laboratorios
+Salas Especiais
+International
++ FIC Coñécenos Onde estamos Historia Estudar na FIC Premio TFG Feira de Empresas Emprendedores FIC-Sociedade CÁTEDRA ALDABA CÁTEDRA CICAS CÁTEDRA NTT DATA CÁTEDRA R IDEFIC Historia do club Quen somos?
+Coñécenos Onde estamos Historia
+Onde estamos
+Historia
+Estudar na FIC
+Premio TFG
+Feira de Empresas
+Emprendedores
+FIC-Sociedade
+CÁTEDRA ALDABA
+CÁTEDRA CICAS
+CÁTEDRA NTT DATA
+CÁTEDRA R
+IDEFIC Historia do club Quen somos?
+Historia do club
+Quen somos?
+Novas / Emprego
+.
+.
+Plan de estudos
+Vostede está aquí
+Información xeral
+Folleto informativo do título
+O título no portal " estudos " da UDC
+Guías docentes
+Información de seguimento do título
+Memoria de verificacion
+Plan de estudos
+A continuación podes ver as asignaturas que forman cada curso:
+PRIMEIRO CURSO Álxebra Adquisición e procesamento do sinal Cálculo e análisis numérico Estatística Programación I Lóxica Introducción aos Computadores Programación II Matemática Discreta Xestión de organizacións
+Álxebra
+Adquisición e procesamento do sinal
+Cálculo e análisis numérico
+Estatística
+Programación I
+Lóxica
+Introducción aos Computadores
+Programación II
+Matemática Discreta
+Xestión de organizacións
+SEGUNDO CURSO Algoritmos Algoritmos básicos da inteligencia artificial Enxeñaría de software Fundamentos da aprendizaxe automática Bases de datos Computación concurrente, paralela e distribuida Optimización matemática Autómatas e linguaxes formais Redes Representación do coñecemento e razoamento
+Algoritmos
+Algoritmos básicos da inteligencia artificial
+Enxeñaría de software
+Fundamentos da aprendizaxe automática
+Bases de datos
+Computación concurrente, paralela e distribuida
+Optimización matemática
+Autómatas e linguaxes formais
+Redes
+Representación do coñecemento e razoamento
+TERCEIR CURSO Modelos avanzados da aprendizaxe automática I Fundamentos de Robótica Intelixente Principios de Visión por Computador Fundamentos de Procesamento da Linguaxe Natural Aprendizaxe Profundo Modelos avanzados da aprendizaxe automática II Recuperación de información e minería web Visión por Computador Aplicada Sistemas baseados en coñecemento Sistemas Multiaxente
+Modelos avanzados da aprendizaxe automática I
+Fundamentos de Robótica Intelixente
+Principios de Visión por Computador
+Fundamentos de Procesamento da Linguaxe Natural
+Aprendizaxe Profundo
+Modelos avanzados da aprendizaxe automática II
+Recuperación de información e minería web
+Visión por Computador Aplicada
+Sistemas baseados en coñecemento
+Sistemas Multiaxente
+CUARTO CURSO Optativas (deben elexirse 3): Modelado baseado en axentes Sistemas de Recomendación Interacción Intelixente Fogar, Edificios e Cidades Intelixentes Ciberseguridade e Protección da Información Banca e Finanzas Bioinformática e Mediciña Vehículos Autónomos Intelixencia Artificial a Gran Escala Técnicas avanzadas de procesamento da linguaxe natural Robótica Intelixente Aplicada Seguridade, lexislación e ética de sistemas intelixentes Ferramentas de Desenvolvemento e Despriegue Almacenamento, preprocesado e análise avanzado de datos Prácticas Externas Traballo de Fin de Grao
+Optativas (deben elexirse 3): Modelado baseado en axentes Sistemas de Recomendación Interacción Intelixente Fogar, Edificios e Cidades Intelixentes Ciberseguridade e Protección da Información Banca e Finanzas Bioinformática e Mediciña Vehículos Autónomos Intelixencia Artificial a Gran Escala
+Modelado baseado en axentes
+Sistemas de Recomendación
+Interacción Intelixente
+Fogar, Edificios e Cidades Intelixentes
+Ciberseguridade e Protección da Información
+Banca e Finanzas
+Bioinformática e Mediciña
+Vehículos Autónomos
+Intelixencia Artificial a Gran Escala
+Técnicas avanzadas de procesamento da linguaxe natural
+Robótica Intelixente Aplicada
+Seguridade, lexislación e ética de sistemas intelixentes
+Ferramentas de Desenvolvemento e Despriegue
+Almacenamento, preprocesado e análise avanzado de datos
+Prácticas Externas
+Traballo de Fin de Grao
+Facultade de Informática da Coruña
+Facebook
+Twitter
+Youtube
+Rss
+Telegram

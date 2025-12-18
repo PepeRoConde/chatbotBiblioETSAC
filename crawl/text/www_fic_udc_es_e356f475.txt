@@ -178,14 +178,6 @@ UNIVERSITY OF POTSDAM, GERMANY
 “A General Framework for Preferences
 in Answer Set Programming”
 
---- OCR de imagen: facultad-informatica-coruna_33d19733.jpeg ---
-FS le
-
-=<
-S44 a
-
-|
-
 --- OCR de imagen: techday_altia_post_linkedin_galego_7f7a5459.png ---
 ° TECH WORKSHOP :
 DAY ¢ Presencial altia
@@ -199,12 +191,18 @@ Universidade da Corufta
 Facultade de Informatica da Coruna (FIC)
 Aula31
 
+--- OCR de imagen: facultad-informatica-coruna_33d19733.jpeg ---
+FS le
+
+=<
+S44 a
+
+|
+
 --- OCR de imagen: euro_inf_bachelor_blanco_4e712e2f.png ---
 Bachelor
 
 awarded by
 
 --- OCR de imagen: euro_inf_master_blanco_7db9daad.png ---
-Master
-
 awarded by

@@ -1,0 +1,1378 @@
+Identificador : 325778171
+1 / 29
+IMPRESO SOLICITUD PARA VERIFICACIÓN DE TÍTULOS OFICIALES
+1. DATOS DE LA UNIVERSIDAD, CENTRO Y TÍTULO QUE PRESENTA LA SOLICITUD
+De conformidad con el Real Decreto Real Decreto 99/2011, de 28 de enero, por el que se regulan los Programas de Doctorado Oficiales
+UNIVERSIDAD SOLICITANTE CENTRO CÓDIGO CENTRO
+Universidad de A Coruña Escuela Técnica Superior de Náutica y
+Máquinas (CORUÑA (A))
+15019888
+Escuela Universitaria Politécnica (FERROL)15026935
+NIVEL DENOMINACIÓN CORTA
+Doctorado Energía y Propulsión Marina
+DENOMINACIÓN ESPECÍFICA
+Programa de Doctorado en Energía y Propulsión Marina por la Universidad de A Coruña y la Universidad de Salamanca
+NIVEL MECES
+CONJUNTO CONVENIO
+Nacional Convenio nacional
+UNIVERSIDADES PARTICIPANTES CENTRO CÓDIGO CENTRO
+Universidad de Salamanca Facultad de Biología (SALAMANCA) 37008606
+SOLICITANTE
+NOMBRE Y APELLIDOS CARGO
+José A. Orosa García Director del Departamento de Energía y Propulsión Marina
+Tipo Documento Número Documento
+NIF 46899537F
+REPRESENTANTE LEGAL
+NOMBRE Y APELLIDOS CARGO
+José Luis Armesto Barbeito Rector
+Tipo Documento Número Documento
+NIF 32375144E
+RESPONSABLE DEL PROGRAMA DE DOCTORADO
+NOMBRE Y APELLIDOS CARGO
+Ramón Ferreiro García Coordinador Grupo de Investigación
+Tipo Documento Número Documento
+NIF 76278924E
+2. DIRECCIÓN A EFECTOS DE NOTIFICACIÓN
+A los efectos de la práctica de la NOTIFICACIÓN de todos los procedimientos relativos a la presente solicitud, las comunicaciones se dirigirán a la dirección que figure
+en el presente apartado.
+DOMICILIO CÓDIGO POSTAL MUNICIPIO TELÉFONO
+C/ Maestranza nº 9, A Coruña 15001 Coruña (A) 689447609
+E-MAIL PROVINCIA FAX
+reitor@udc.es A Coruña 981167011
+csv: 205012262260055623293272
+
+Identificador : 325778171
+2 / 29
+3. PROTECCIÓN DE DATOS PERSONALES
+De acuerdo con lo previsto en la Ley Orgánica 5/1999 de 13 de diciembre, de Protección de Datos de Carácter Personal, se informa que los datos solicitados en este
+impreso son necesarios para la tramitación de la solicitud y podrán ser objeto de tratamiento automatizado. La responsabilidad del fichero automatizado corresponde
+al Consejo de Universidades. Los solicitantes, como cedentes de los datos podrán ejercer ante el Consejo de Universidades los derechos de información, acceso,
+rectificación y cancelación a los que se refiere el Título III de la citada Ley 5-1999, sin perjuicio de lo dispuesto en otra normativa que ampare los derechos como
+cedentes de los datos de carácter personal.
+El solicitante declara conocer los términos de la convocatoria y se compromete a cumplir los requisitos de la misma, consintiendo expresamente la notificación por
+medios telemáticos a los efectos de lo dispuesto en el artículo 59 de la 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del
+Procedimiento Administrativo Común, en su versión dada por la Ley 4/1999 de 13 de enero.
+En: A Coruña, a ___ de _____________ de ____
+Firma: Representante legal de la Universidad
+csv: 205012262260055623293272
+
+Identificador : 325778171
+3 / 29
+1. DESCRIPCIÓN DEL TÍTULO
+1.1. DATOS BÁSICOS
+NIVEL DENOMINACIÓN ESPECIFICA CONJUNTO CONVENIO CONV.
+ADJUNTO
+Doctorado Programa de Doctorado en Energía y Propulsión
+Marina por la Universidad de A Coruña y la
+Universidad de Salamanca
+Nacional Convenio nacional Ver anexos.
+Apartado 1.
+ISCED 1 ISCED 2
+Electricidad y energía Electrónica y automática
+AGENCIA EVALUADORA UNIVERSIDAD SOLICITANTE
+Axencia para a Calidade do Sistema Universitario de Galicia (ACSUG)Universidad de A Coruña
+1.2 CONTEXTO
+CIRCUNSTANCIAS QUE RODEAN AL PROGRAMA DE DOCTORADO
+Tradicionalmente, la E.T.S. de Náutica y Máquinas y la Escuela Universitaria Politécnica de Ferrol vienen realizando
+investigaciónes de los campos afines a la Ingeniería Energética incluyendo los Estudios de Tercer Ciclo conducentes
+al título de Doctor. De esta tradición docente e investigadora se han obtenido resultados relevantes tal y como se re-
+fleja en las patentes recogidas en la siguiente dirección web:
+http://www.oepm.es
+En la misma línea, cabe destacar el nivel cualitativo de las publicaciones en los diversos campos relacionados con la
+Ingeniería Energética. El programa está orientado a la consecución de capacidades investigadoras de cara a la rea-
+lización de Tesis Doctorales. Dicho programa lleva implícito la formación científica compensada con la técnica para
+conseguir las capacidades necesarias para realizar Tesis de aplicación real en el campo de la Ingeniería Energética
+y desarrollar métodos, procedimientos, equipos o sistemas, así como las tecnologías emergentes de interés en la in-
+dustria, haciendo más competitivo el sector productivo naval e industrial en general.
+Los principales objetivos de este Programa de Doctorado se pueden resumir en las siguientes líneas principales:
+ 
+1) Promover la formación de nuevos investigadores en el campo de la Ingeniería Energética con el fin de potenciar la
+calidad de la investigación de los grupos que trabajan en este campo y la especialización de los futuros investigado-
+res.
+ 
+2) Promover, mediante la movilidad interuniversitaria, el intercambio y el conocimiento mutuo de los grupos de inves-
+tigación tanto a nivel de profesores como de estudiantes de doctorado. De esta forma se intenta que la formación de
+los futuros investigadores esté a cargo de profesores de reconocido prestigio en cada uno de los campos de la espe-
+cialidad, aprovechando mejor sus capacidades formativas.
+ 
+3) Promover la formación de profesionales y tecnólogos del campo de la Ingeniería Energética con el fin de favorecer
+su permanente puesta al día sobre la vanguardia científica y la rápida evolución en este campo y sus aplicaciones.
+ 
+4) Promover las habilidades en transferencia de tecnología y fomentar la interacción de los jóvenes titulados con las
+principales empresas del sector.
+ 
+5) Promover el conocimiento de la actividad científica internacional en el campo de la Ingeniería Energética.
+ 
+6) Fomentar y favorecer las colaboraciones científicas y las relaciones humanas de alumnos y profesores de distintas
+universidades y comunidades autónomas, con el fin de asegurar que los integrantes futuros de los grupos de investi-
+gación en Ingeniería Energética mantengan el impulso de la colaboración y la potenciación mutua.
+csv: 205012262260055623293272
+
+Identificador : 325778171
+4 / 29
+ 
+7) Transmitir el potencial de la Ciencia y Tecnología para ser protagonista del progreso social, el acceso universal a
+los recursos, y aspectos específicos de las acciones de intervención en Igualdad Social y de Género, y Derechos Hu-
+manos
+ 
+Los objetivos generales de este Programa de Doctorado son, fundamental y específicamente, la formación avanzada
+previo conocimiento del estado del arte, orientada a alcanzar la excelencia académico-profesional para desenvolver
+tareas de análisis y síntesis de problemas teórico-prácticos de la ingeniería de cara a la adquisición de la capacidad
+de innovar e implementar métodos, técnicas y tecnologías emergentes más eficientes relacionadas con la energética.
+Por lo tanto, el objetivo general del programa es, en primer lugar, el fomento de la creatividad y la investigación en te-
+mas de interés científico y tecnológico del ámbito de la Ingeniería y, en segundo lugar, proporcionar la capacidad pa-
+ra detectar necesidades de mejora, para proponer y resolver los procesos de mejora y fomentando el uso de las tec-
+nologías emergentes.
+El objetivo formativo es el correspondiente a un tercer ciclo en Ingeniería. Este objetivo va claramente orientado a
+conseguir investigadores con capacidad para desarrollar métodos y procedimientos para ganar competitividad en la
+industria.
+Por otra parte, el programa de doctorado propuesto está en clara concordancia con los objetivos de desarrollo de la investigación tan-
+to de la Universidad de Salamanca como la de Coruña al diseñarse un nuevos programa basado en las afinidades científicas tanto te-
+máticas como interdisciplinares de los grupos de investigación de la Universidad de Salamanca  y Coruña que demuestran una clara
+experiencia investigadora reconocida.
+Con el objeto de satisfacer las condiciones exigidas para cumplir tales objetivos se hace necesario la realización de
+un ejercicio de Prospectiva Científico-Tecnológica en el ámbito de la Ingeniería Energética. Se trata, por lo tanto, de
+identificar las tecnologías emergentes más prometedoras a largo plazo susceptibles de favorecer la mejora científi-
+co-tecnológica en el ámbito de la Ingeniería Energética, las cuales, sin excluir otras de interés, se resumen en los dos
+dominios siguientes:
+· Sistemas energéticos
+· Automática y control
+Para conseguir los mencionados conocimientos hubo que habilitar y demostrar sólidas competencias en las áreas de
+mecánica, materiales, termotecnia, transferencia de fluidos, instalaciones eléctricas, electrónicas y automatización.
+A este programa de doctorado se le han incorporado nuevos investigadores en el área de la energética y automática
+procedentes de diversas universisades del territorio español, tal y como se refleja a continuación:
+ 
+Universidad 1  Departamento de Enerxía e Propulsión Mariña (UDC)
+Universidad 2  Departamento de Informática y Automática (U Salamanca)
+Universidad 3  Instituto Politécnico de Portalegre-Departamento de Tecnologia e Design (Portugal)
+Universidades invitadas
+Universidad 4 Department of Systems and Computer Networks, University of Technology (Poland)
+Universidad 5  Departamento de Máquinas y Motores Térmicos (UCA)
+Universidad 6 Departamento de Explotación y Prospección de Minas (U de Oviedo)
+Universidad 7 Department of Industrial Electronics. Universidade do Minho (Portugal)
+Universidad 8  Departamento de Ingeniería Eléctrica y de Sistemas y Automática (U León)
+Universidad 9 Departamento de Ingeniería Civil - Área de Lenguajes y Sistemas Informáticos (U Burgos).
+Para finalizar, este programa de doctorado ha obtenido, tomando como resultados de partida los índices del programa de doctorado
+en Ingeniería Marítima, las correspondientes estimaciones reflejadas en el ANEXO IV.
+LISTADO DE UNIVERSIDADES
+CÓDIGO UNIVERSIDAD
+037 Universidad de A Coruña
+014 Universidad de Salamanca
+csv: 205012262260055623293272
+
+Identificador : 325778171
+5 / 29
+1.3. Universidad de A Coruña
+1.3.1. CENTROS EN LOS QUE SE IMPARTE
+LISTADO DE CENTROS
+CÓDIGO CENTRO
+15019888 Escuela Técnica Superior de Náutica y Máquinas (CORUÑA (A))
+15026935 Escuela Universitaria Politécnica (FERROL)
+1.3.2. Escuela Técnica Superior de Náutica y Máquinas (CORUÑA (A))
+1.3.2.1. Datos asociados al centro
+PLAZAS DE NUEVO INGRESO OFERTADAS
+PRIMER AÑO IMPLANTACIÓN SEGUNDO AÑO IMPLANTACIÓN
+6 6
+NORMAS DE PERMANENCIA
+http://www.udc.es/ensino/doutoramento/normativa/
+LENGUAS DEL PROGRAMA
+CASTELLANO CATALÁN EUSKERA
+Si No No
+GALLEGO VALENCIANO INGLÉS
+Si No Si
+FRANCÉS ALEMÁN PORTUGUÉS
+No No Si
+ITALIANO OTRAS
+No No
+1.3.2. Escuela Universitaria Politécnica (FERROL)
+1.3.2.1. Datos asociados al centro
+PLAZAS DE NUEVO INGRESO OFERTADAS
+PRIMER AÑO IMPLANTACIÓN SEGUNDO AÑO IMPLANTACIÓN
+4 4
+NORMAS DE PERMANENCIA
+http://www.udc.es/ensino/doutoramento/normativa/
+LENGUAS DEL PROGRAMA
+CASTELLANO CATALÁN EUSKERA
+Si No No
+GALLEGO VALENCIANO INGLÉS
+Si No Si
+FRANCÉS ALEMÁN PORTUGUÉS
+No No Si
+ITALIANO OTRAS
+No No
+1.3. Universidad de Salamanca
+1.3.1. CENTROS EN LOS QUE SE IMPARTE
+LISTADO DE CENTROS
+CÓDIGO CENTRO
+37008606 Facultad de Biología (SALAMANCA)
+1.3.2. Facultad de Biología (SALAMANCA)
+1.3.2.1. Datos asociados al centro
+PLAZAS DE NUEVO INGRESO OFERTADAS
+csv: 205012262260055623293272
+
+Identificador : 325778171
+6 / 29
+PRIMER AÑO IMPLANTACIÓN SEGUNDO AÑO IMPLANTACIÓN
+4 4
+NORMAS DE PERMANENCIA
+http://www.usal.es/webusal/usal_normativa_repositorio
+LENGUAS DEL PROGRAMA
+CASTELLANO CATALÁN EUSKERA
+Si No No
+GALLEGO VALENCIANO INGLÉS
+Si No Si
+FRANCÉS ALEMÁN PORTUGUÉS
+No No Si
+ITALIANO OTRAS
+No No
+1.4 COLABORACIONES
+LISTADO DE COLABORACIONES CON CONVENIO
+CÓDIGO INSTITUCIÓN DESCRIPCIÓN NATUR.
+INSTIT
+1 INEGA Realización de proyectos de investigación en el ámbito de las
+energías y de la eficiencia energética. Promoción y formación
+sobre las mismas.
+Público
+2 ENDESA Realización de proyectos de investigación en el ámbito de las
+energías y de la eficiencia energética. Promoción y formación
+sobre las mismas.
+Privado
+3 TUIMIL ELECTRICIDAD Realización de proyectos de investigación en el área de las
+energías
+Privado
+4 ILUMINA ENERXÍA ALTERNATIVA Realización de proyectos de investigación en el área de las
+energías y la propulsión marina
+Privado
+5 PUERTOS DEL ESTADO Realización de proyectos de investigación en el área de las
+energías y la propulsión marina
+Público
+6 GEFICO-GALOPIN Realización de proyectos de investigación en el área de las
+energías y la propulsión marina
+Privado
+7 GEFICO ENTERPRISE Realización de proyectos de investigación en el área de las
+energías y la propulsión marina
+Privado
+CONVENIOS DE COLABORACIÓN
+Ver anexos. Apartado 2
+OTRAS COLABORACIONES
+Diferentes instituciones han respaldado durante los últimos años este programa de doctorado por medio de conve-
+nios. Entre otras cabe destacar:
+ENERGIA
+Como principal organismo destinado al estudio de la energética en el ámbito autonómico, el INEGA es un colabora-
+dor fundamental a la hora de desarrollar unos estudios de doctorado en energética. Al igual que como se ha venido
+realizando en los últimos años en nuestros estudios de master de Ingeniería Marítima, el INEGA ha participado en la
+formación de estudiantes de diversas maneras;
+1. En primer lugar, diversos miembros del INEGA han sido docentes, evaluadores y asesores en materias impartidas en el pro-
+pio master dándole a este un carácter mucho más aplicado y actual.
+1. Por otra parte, durante los últimos años se han realizado conferencias co-organizadas entre el Departamento de Energía, la
+ETSNyM y el INEGA.
+csv: 205012262260055623293272
+
+Identificador : 325778171
+7 / 29
+1. Para finalizar, el INEGA ha autorizado y encabezado diversas visitas técnicas de estudiantes de master a sus diversas Instala-
+ciones energéticas enriqueciendo así la formación de nuestros estudiantes.
+ 
+En los últimos años el INEGA ha dado un paso más hacia la excelencia investigadora realizando convenios con ins-
+tituciones como el Departamento de Energía de la UDC para el desarrollo de actividades investigadoras en sus di-
+versas instalaciones experimentales. Este es el caso, por ejemplo, del parque eólico de SOTAVENTO, que ha sido
+el origen de tesis doctorales y publicaciones científicas. Para finalizar, en la actualidad se ha plasmado esta colabo-
+ración que se ha venido realizando en los últimos años por medio de la consolidación de convenios de investigación
+dentro del marco de un futuro programa de doctorado y, en particular, para el desarrollo de las diversas actividades
+formativas comentadas en la sección 4 de esta memoria.
+Muchas otras instituciones relacionadas con la energética a nivel nacional, como ENDESA, ILUMINA ENERXÍA AL-
+TERNATIVA y TUIMIL ELECTRICIDAD han colaborado con nuestros estudios en los últimos años por medio de vis-
+tas y conferencias.
+ 
+PROPULSIÓN MARINA
+En los últimos años los estudiantes de Ingeniería Marina e Ingeniería Industrial han realizado visitas y prácticas en
+empresas terrestres y marítimas donde han asentado los principios teóricos obtenidos en las aulas. Claro ejemplo de
+ello han sido organismos como, PUERTOS DEL ESTADO, GALOPIN Y GEFICO ENTERPRISE entre otras. Muchas
+de ellas han participado en la formación de estudiantes no sólo mediante visitas sino también en la presentación de
+conferencias y cursos en la propia ETSNyM. Al igual que en el ámbito de la energética también se han realizado di-
+versos convenios de colaboración con dichas entidades con nuestros estudios de doctorado de la UDC.
+ 
+REDES INTERNACIONALES
+A nivel Investigador, los investigadores que forman parte de este programa de doctorado pertenecen a redes tecnoló-
+gicas de difusión del conocimiento, como es el caso de TECNOPEIXE. Dicha red nos ha permitido la puesta en con-
+tacto con instituciones universitarias nacionales e internacionales, como es el caso del CAMPUS DEL MAR, y con
+empresas de los diversos sectores con necesidades tecnológicas. Además, ha servido de asesor en el desarrollo de
+convenios y la solicitud de proyectos.
+Por otra parte, los miembros de los diversos grupos de investigación de este programa pertenecen a sociedades internacionales y co-
+mités científicos del mayor prestigio a nivel internacional. Este es el caso del IEEE, MIRLAB, KES Internacional y Automar, en-
+tre otros. Además, forman parte de los comités editoriales de revistas científicas como es el caso del JMR (Journal of Maritime Re-
+search) y en la organización de congresos nacionales e internacionales del ámbito de la energía (IEEE Conference) y propulsión Ma-
+rina (Internacional Conference on Maritime Transport) entre otros.
+2. COMPETENCIAS
+2.1 COMPETENCIAS BÁSICAS Y GENERALES
+BÁSICAS
+CB11 - Comprensión sistemática de un campo de estudio y dominio de las habilidades y métodos de investigación relacionados con
+dicho campo.
+CB12 - Capacidad de concebir, diseñar o crear, poner en práctica y adoptar un proceso sustancial de investigación o creación.
+CB13 - Capacidad para contribuir a la ampliación de las fronteras del conocimiento a través de una investigación original.
+CB14 - Capacidad de realizar un análisis crítico y de evaluación y síntesis de ideas nuevas y complejas.
+CB15 - Capacidad de comunicación con la comunidad académica y científica y con la sociedad en general acerca de sus ámbitos de
+conocimiento en los modos e idiomas de uso habitual en su comunidad científica internacional.
+CB16 - Capacidad de fomentar, en contextos académicos y profesionales, el avance científico, tecnológico, social, artístico o
+cultural dentro de una sociedad basada en el conocimiento.
+CAPACIDADES Y DESTREZAS PERSONALES
+CA01 - Desenvolverse en contextos en los que hay poca información específica.
+CA02 - Encontrar las preguntas claves que hay que responder para resolver un problema complejo.
+CA03 - Diseñar, crear, desarrollar y emprender proyectos novedosos e innovadores en su ámbito de conocimiento.
+CA04 - Trabajar tanto en equipo como de manera autónoma en un contexto internacional o multidisciplinar.
+CA05 - Integrar conocimientos, enfrentarse a la complejidad y formular juicios con información limitada.
+csv: 205012262260055623293272
+
+Identificador : 325778171
+8 / 29
+CA06 - La crítica y defensa intelectual de soluciones.
+OTRAS COMPETENCIAS
+CG1 - Desarrollo de las capacidades comprensivas, de análisis y síntesis.
+CG2 - Desarrollo de las capacidades para plantear y resolver problemas complejos aplicando los conocimientos adquiridos.
+CG3 - Desarrollo de capacidades para aplicar conocimientos a entornos nuevos, para formular y resolver nuevas preguntas, para
+plantear y contrastar nuevas hipótesis.
+CG4 - Desarrollo de capacidades de trabajo en equipo.
+CG5 - Desarrollo de la habilidad de elaboración, presentación y defensa de trabajos científicos integrando conocimientos.
+CG6 - Desarrollo de las capacidades de reflexión sobre implicaciones de la gestión sobre el desarrollo sostenible.
+CG7 - Desarrollo de habilidades para la divulgación de ideas en contextos académicos o no especializados.
+CG8 - Desarrollo de habilidades en el manejo, tratamiento y desarrollo de herramientas analíticas complejas, en particular
+matemáticas, estadísticas e informáticas.
+CE1 - Adquisición de habilidades en el análisis y resolución de problemas complejos en el ámbito de la ingeniería energética,
+térmica, eléctrica, electrónica y automática en instalaciones navales, industriales y en edificios.
+CE2 - Adquisición de habilidades en el análisis y resolución de problemas en el ámbito de la modelización de sistemas complejos y
+su posterior optimización.
+CT1 - Capacidad para la redacción y exposición de resultados científicos.
+CT2 - Capacidad para la dirección y ejecución de proyectos de investigación y transferencia tecnológica en el campo de la
+energética.
+CT3 - Desarrollo de habilidades de transferencia de conocimiento usando diferentes herramientas o soportes de presentación y
+difusión.
+3. ACCESO Y ADMISIÓN DE ESTUDIANTES
+3.1 SISTEMAS DE INFORMACIÓN PREVIO
+Como sistemas de información previa a la matriculación, la propia UDC lleva a cabo una difusión pública institucio-
+nal de todo lo relativo a los Programas de Doctorado. También difunde periódicamente a través de la Web (http://
+www.udc.es/estudos/es/), prensa diaria.
+En este sentido, el SAPE participa en la información previa a la matriculación y desarrolla diversas actividades rela-
+cionadas con los estudios de master y doctorado. Por una parte muestra en su Web  información sobre los estudios
+de master y doctorados y sobre las bolsas de estudio existentes ( http://www.udc.es/sape/index_sape.htm).
+Por otra parte, el SAPE también atiende las demandas de información sobre la oferta de los grados, de los másteres
+y  doctorados y participa en Ferias Internacionales especializadas en masteres y doctorados.
+Para finalizar, la Oficina de Relaciones Internacionales se encargará del envío de información al alumnado que ha
+manifestado interés en recibir información en torno a plazos de preinscripción, matrícula y bolsas de estudio.
+Además, la E.T.S. de Náutica y Máquinas tiene medios para llevar a cabo acciones de difusión pública. Entre ellos
+está su propia Web (www.nauticaymaquinas.es-com), el Programa Anual de Visitas a Organismos, Instituciones o
+empresas, entre los cuales se puede incluir los Colegios y Asociaciones Profesionales, etc.
+El procedimiento de acogida y orientación de nuevos doctorandos, tras finalizar el período de matricula, se nombra-
+rán tutores para cada uno de los nuevos matriculados.
+También habrá otras medidas puestas en práctica por este Centro, el alumno cuenta con el apoyo del Servicio de
+Asesoramiento y Promoción del Estudiante de la Universidad de A Coruña, para aquellas necesidades que exceden
+el alcance de la oferta propia del Centro.
+La información relacionada con este periodo será comunicada a los estudiantes de master, y se hará una presenta-
+ción de las actividades de cada grupo.
+La difusión de las líneas de investigación también se realizará a través de la página Web del departamento propo-
+nente y a través de las páginas Web, específicas de cada grupo de investigación participante.
+La tutela del alumno será a cargo del director de tesis y/o del coordinador del programa.
+3.2 REQUISITOS DE ACCESO Y CRITERIOS DE ADMISIÓN
+csv: 205012262260055623293272
+
+Identificador : 325778171
+9 / 29
+Los requisitos de acceso a este programa de doctorado se basan en el RD 1393/2007, modificado por el RD
+861/2010, la normativa General de la UDC y el Reglamento de doctorado de las tres universidades del SUG en sus
+artículos 15 al 19 y 23.
+Serán requisitos de acceso al Programa de Doctorado en Energía y Propulsión Marina los siguientes:
+ 
+1. Estar en posesión de los títulos oficiales españoles de Grado, o equivalente, y de Master Universitario del ámbito
+tecnológico o con contenidos afines a la Energía y Propulsión Marina.
+ 
+2. Asimismo podrán acceder quien se encuentren en alguno de los siguientes supuestos:
+a. Estar en posesión de un título universitario oficial español, o de otro país integrante del Espacio Europeo de
+Educación Superior, que habilite para el acceso a Master de acuerdo con el establecido en el artículo 16 del R.D.
+1393/2007 y superar un mínimo de 300 créditos ECTS en el conjunto de estudios universitarios oficiales, de los que,
+por lo menos 60, habrán de ser de nivel de Master tecnológico relacionado con la Ingeniería Energética.
+b. Estar en posesión de un título obtenido conforme a sistemas educativos extranjeros, sin necesidad de su homolo-
+gación, previa comprobación por la universidad de que este acredita un nivel de formación equivalente a la del título
+oficial español de Master Universitario en Ingeniería Marítima  de la UDC y que faculta en el país expedidor del título
+para el acceso a estudios de doctorado.
+c. Estar en posesión de otro título español de Doctor obtenido conforme las anteriores ordenaciones universitarias.
+ 
+3. Los doctorandos que hubieran iniciado su programa de doctorado en el ámbito tecnológico conforme las anterio-
+res ordenaciones universitarias, previa admisión de acuerdo con el establecido en el Reglamento de doctorado de las
+tres universidades del SUG.
+ 
+4. Podrán acceder a los estudios de doctorado los Licenciados, Arquitectos o Ingenieros que estuvieran en posesión
+del Diploma de Estudios Avanzados obtenido dentro del ámbito tecnológico y de acuerdo con el dispuesto en el Real
+Decreto 778/1998, de 30 de abril, o alcanzaran la suficiencia investigadora regulada en el Real Decreto 185/1985, de
+23 de enero.
+ 
+5. Podrán acceder a los estudios de doctorado los Licenciados, Arquitectos o Ingenieros que estuvieran en posesión
+de un título de master oficial conforme al Real Decreto 56/2005 o del Real Decreto 1393/2007, modificado por el Real
+Decreto 861/2010 o hayan superado 60 ECTS de estudios de Master oficial del ámbito tecnológico o con contenidos
+afines a la Energía y Propulsión Marina.
+ 
+6. También podrán acceder los Diplomados, Ingenieros Técnicos o Arquitectos Técnicos que acrediten haber supera-
+do 300 créditos ECTS en el conjunto de estudios universitarios oficiales, de los que, por lo menos 60, habrán de ser
+de nivel de Master del ámbito tecnológico o con contenidos afines a la Energía y Propulsión Marina.
+En particular, el perfil de ingreso recomendado tendrá una serie de competencias adquiridas previamente como son:
+1. Regular, controlar, diagnosticar y supervisar sistemas, procesos y máquinas para la toma de decisiones en con-
+ducción y operación.
+2. Capacidad para realizartareas de análisis y síntesis de problemas teórico-prácticos mediante fundamentos físi-
+co-matemático.
+3. Capacidad para detectar necesidades de mejora en sistemas energéticos
+4. Utilizar las herramientas básicas de las tecnologías de la información y las comunicaciones (TIC).
+Dichas competencias están recogidas por diversos estudios de Master oficial de ámbito tecnológico, como es el caso
+del Master en Ingeniería Marina e Ingeniería Marítima definidos en las tablas siguientes:
+ 
+Título Master en Ingeniería Marítima
+Centro ETS Náutica y Máquinas
+Coordinador Enrique Juan García-Bustelo García
+csv: 205012262260055623293272
+
+Identificador : 325778171
+10 / 29
+URL www.nauticaymaquinas.es  http://www.udc.es/dep/enerxiaepropulsion/
+Título Master en Ingeniería Marina
+Centro ETS Náutica y Máquinas
+Coordinador José Carbia Carril
+URL www.nauticaymaquinas.es  http://www.udc.es/dep/enerxiaepropulsion/
+ 
+Tabla 3.2.1. Ejemplos de estudios de Master del ámbito tecnológico.
+ 
+Finalmente, no se establecen complementos de formación siendo el único requisito el proceder de Master del ámbito
+tecnológico o con contenidos afines a la Energía y Propulsión Marina
+Los criterios de admisión en el programa de doctorado en Energía y Propulsión Marina son los siguientes:
+1.- Titulación
+2.- Expediente Académico
+3.- Currículum Vitae.
+4.- Entrevista personal
+Dentro del Currículum Viate para el acceso a este programa de doctorado se recomienda un nivel de inglés y portu-
+gués equiparable al B1 del Marco Común Europeo de Referencia sobre Conocimiento de Lenguas demostrando una
+clara capacidad  para escribir textos sencillos y bien enlazados.
+Además, el procedimiento de admisión será conforme a las indicaciones del Reglamento de doctorado de las tres
+universidades gallegas. En particular, se pueden distinguir tres fases:
+1. Los estudiantes que reúnan los requisitos de acceso y admisión podrán solicitar la admisión a un programa de
+doctorado, para lo cuál se establecerá un plazo de preinscripción.
+2. Finalizado este plazo, la Comisión Académica realizará la propuesta de alumnos admitidos, con su correspondien-
+te lista de espera, de acuerdo con los criterios de selección establecidos en el programa.
+3. Los aspirantes no admitidos podrán presentar una reclamación en el plazo y forma establecidos en la correspon-
+diente convocatoria de matrícula.
+ 
+Los doctorandos, tras ser admitidos en el programa de doctorado deberán matricularse, de ser el caso, de las activi-
+dades formativas determinados por la Comisión Académica del Programa de Doctorado (CAPD) y, anualmente, po-
+nerlo en concepto de tutela académica del doctorado, tras la evaluación positiva de la CAPD.
+La matrícula de tutela académica otorga al doctorando el derecho a la tutoría académica, a la utilización de los recur-
+sos necesarios para el desarrollo de su trabajo y a la plenitud de derechos previstos por la normativa para los estu-
+diantes de doctorado.
+Dicha matrícula, a pesar de ser un programa de doctorado conjunto con otras universidades, se realizará en la uni-
+versidad Coordinadora (UDC) de acuerdo con los medios que se dispongan para tal efecto.
+El doctorando podrá matricularse a tiempo completo o a tiempo parcial de acuerdo con las indicaciones del Regla-
+mento de doctorado de la UDC.
+De acuerdo con el Reglamento de doctorado de la UDC, la universidad, a propuesta de cada CAPD, podrá estable-
+cer del total de estudiantes matriculados en el programa, un porcentaje máximo de doctorandos matriculados a tiem-
+po parcial. En este caso, la Comisión Académica del programa de doctorado en Energía y Propulsión Marina ha con-
+siderado adecuado un máximo del 100% de estudiantes realizando sus estudios a tiempo parcial. El motivo de este
+elevado porcentaje está relacionado con una inserción laboral muy elevada de sus estudiantes en puestos de trabajo
+de donde el contacto con tutores y directores de tesis se ve restringido a periodos de tiempo limitados. Este es el ca-
+so de los marinos, instalaciones petrolíferas y profesiones relacionadas
+csv: 205012262260055623293272
+
+Identificador : 325778171
+11 / 29
+La CAPD se pronunciará sobre si procede acceder al solicitado por el doctorando, de acuerdo con la normativa de la
+universidad. Las actividades desenvueltas por el doctorando durante la baja temporal no podrán incluirse en el docu-
+mento de actividades y los períodos de baja temporal en el programa no computarán en el plazo de desarrollo de la
+tesis.
+Por otra parte, también se creará una comisión delegada encargada de la evaluación y convalidación de los estudios realizados por
+estudiantes procedentes de los programas de doctorado existentes como es el caso del Campus del Mar y el actual programa de doc-
+torado en ingeniería Marítima, entre otros.
+Por otra parte, los estudiantes con necesidades educativas específicas derivadas de la discapacidad contarán en el proceso de admi-
+sión con un asesor académico nombrado por la Comisión Académica. La Comisión Académica del Programa analizará de forma
+particular los casos de los alumnos con necesidades educativas especiales derivadas de discapacidad a fin de adaptar el programa
+formativo para garantizar la adquisición de las competencias propias del nivel de doctorado. La Comisión Académica recibirá un in-
+forme del asesor y cursará la correspondiente propuesta a la Escuela de Doctorado para identificar los servicios de apoyo y asesora-
+miento necesarios que evaluarán la necesidad de posibles adaptaciones curriculares, itinerarios o estudios alternativos.
+3.3 ESTUDIANTES
+El Título está vinculado a uno o varios títulos previos
+Títulos previos:
+UNIVERSIDAD TÍTULO
+Universidad de A Coruña Programa Oficial de Doctorado en Ingeniería Marítima (RD
+1393/2007)
+Universidad de Salamanca Programa Oficial de Doctorado en Informática y Automática (RD
+1393/2007)
+Últimos Cursos:
+CURSO Nº Total estudiantes Nº Total estudiantes que provengan de otros paises
+Año 1 1.0 0.0
+Año 2 24.0 0.0
+Año 3 2.0 0.0
+Año 4 3.0 0.0
+Año 5 0.0 0.0
+No existen datos
+3.4 COMPLEMENTOS DE FORMACIÓN
+No se consideran necesarios complementos de formación para los estudiantes procedentes de los estudios de Mas-
+ter definidos en el perfil de ingreso recomendado. Aquellos estudantes de doctorado que no procedan de estudios de
+master recomendados tendrán que realizar los correspondientes complementod de formación por medio de las activi-
+dades formativas definidas en este programa de doctorado.
+4. ACTIVIDADES FORMATIVAS
+4.1 ACTIVIDADES FORMATIVAS
+ACTIVIDAD: Ciclos de Conferencias en Energía y Propulsión Marina
+4.1.1 DATOS BÁSICOS Nº DE HORAS 60
+DESCRIPCIÓN
+1. Ciclos de Conferencias en Energía y Propulsión Marina
+Número de horas 60 horas
+Planificación Dos semanas
+Lenguas empleadas Español, Gallego, Portugués, Inglés
+Detalles
+Tal y como se ha mencionado anteriormente, en los últimos años se han realizado ciclos de conferencias dentro de la temática de la Energía y Propulsión Marina en colaboración con las principales instituciones colaboradoras.
+Estos cursos serán de carácter obligatorio para los alumnos que no procedan de los estudios de Master recomendado y el sistema de control de las ac-
+tividades formativas se centrará en cuestiones tipo test y tareas a realizar a través de la Web del propio programa de doctorado.
+Resultados del aprendizaje
+Los principales resultados del aprendizaje de esta actividad están relacionados con las competencias (CB11, CB15, CB16, CAO5, CAO6, CG5, CG6 Y CT1) de la sección 2 de esta memoria.
+4.1.2 PROCEDIMIENTO DE CONTROL
+El procedimiento de control consistirá en un control de asistencia y la realización de pruebas objetivas sobre los contenidos de la actividad formativa.
+csv: 205012262260055623293272
+
+Identificador : 325778171
+12 / 29
+4.1.3 ACTUACIONES DE MOVILIDAD
+La movilidad se fomentará por medio del desarrollo de videos y video conferencias. El seguimiento y control de esta actividad se centrará en cuestiones tipo test y en ta-
+reas a realizar a través de la Web del propio programa de doctorado. De esta manera, se prestará atención a las necesidades de los estudiantes con dedicación a tiempo par-
+cial.
+Por otra parte, los grupos de investigación fomentarán por medio de recursos propios, como pueden ser los proyectos y contratos de investigación, la movilidad de docto-
+randos hacia los otros centros de impartición del doctorado de forma que se fomente el intercambio de conocimiento y contacto entre investigadores del mismo programa
+de doctorado.
+ACTIVIDAD: Cursos: Método científico y herramientas para la investigación
+4.1.1 DATOS BÁSICOS Nº DE HORAS 180
+DESCRIPCIÓN
+2. Cursos: Método científico y herramientas para la investigación
+Número de horas 180 horas
+Planificación Duración de dos semanas cada curso
+Lenguas empleadas Español, Gallego, Portugués, Inglés
+Detalles y planificación de la misma
+Se pretende introducir al alumnado en las principales actividades investigadoras tales como redacción de textos científicos y el empleo de las herramientas necesarias para el desarrollo de cada tipo de investigación. La propues-
+ta inicial de curso será: -Introducción a la investigación -Termodinámica aplicada con EES -Análisis energético y exergético de instalaciones térmicas -Técnicas de Mantenimiento Industrial -Técnicas de Optimización y Con-
+trol de Sistemas en la Industria -Herramientas y Técnicas Emergentes para Control
+Estos cursos serán de carácter obligatorio para los alumnos que no procedan de los estudios de Master recomendado.
+Resultados del aprendizaje
+Los principales resultados del aprendizaje de esta actividad están relacionados con las competencias (CB14, CAO2, CAO4, CAO3, CG2, CE1, CE2, CT2, CT3) de la sección 2 de esta memoria.
+4.1.2 PROCEDIMIENTO DE CONTROL
+El procedimiento de control consistirá en un control de asistencia y la realización de pruebas objetivas sobre los contenidos de la actividad formativa. El seguimiento y
+control de esta actividad se centrará en cuestiones tipo test y en tareas a realizar a través de la Web del propio programa de doctorado. De esta manera, se prestará aten-
+ción a las necesidades de los estudiantes con dedicación a tiempo parcial.
+4.1.3 ACTUACIONES DE MOVILIDAD
+Dichos cursos se impartirán todos los años para que el alumno tenga varias oportunidades para asistir. Además, se han redactado libros de auto aprendizaje por parte del
+Departamento de Energía y P.M.
+ACTIVIDAD: Visitas técnicas a instalaciones reales
+4.1.1 DATOS BÁSICOS Nº DE HORAS 180
+DESCRIPCIÓN
+ 
+3. Visitas técnicas a instalaciones reales
+Número de horas 180 horas
+Planificación Diaria con una duración máxima de 10 horas cada visita.
+Lenguas empleadas Español, Gallego, Portugués, Inglés
+Detalles y planificación de la misma
+Se pretende enseñar al alumno la problemáticas actual en el ámbito de la energética por medio de la visita a instalaciones reales y su puesta en contacto con técnicos del sector.
+Estos cursos serán de carácter obligatorio para los alumnos que no procedan de los estudios de Master recomendado.
+Resultados del aprendizaje
+Los principales resultados del aprendizaje de esta actividad están relacionados con las competencias (CB12, CB13, CAO1, CG3, CG8) de la sección 2 de esta memoria.
+4.1.2 PROCEDIMIENTO DE CONTROL
+El procedimiento de control consistirá en un control de asistencia y la realización de pruebas objetivas sobre los contenidos de la actividad formativa. En particular, segui-
+miento y control de esta actividad se centrará en cuestiones tipo test y en tareas a realizar a través de la Web del propio programa de doctorado. De esta manera, se presta-
+rá atención a las necesidades de los estudiantes con dedicación a tiempo parcial.
+4.1.3 ACTUACIONES DE MOVILIDAD
+Dichas visitas se realizarán todos los años para que el alumno tenga varias oportunidades para asistir.
+ACTIVIDAD: Defensa del proyecto de tesis
+4.1.1 DATOS BÁSICOS Nº DE HORAS 10
+DESCRIPCIÓN
+4. Defensa del proyecto de tesis  
+Número de horas 10 horas
+Planificación El alumno realizará la defensa en el tiempo y forma establecido en la normativa correspondiente, con el segui-
+miento establecido por la Comisión Académica
+Lenguas empleadas Español, Gallego, Portugués, Inglés
+4.1.2 PROCEDIMIENTO DE CONTROL
+csv: 205012262260055623293272
+
+Identificador : 325778171
+13 / 29
+Se evaluará de acuerdo con la normativa correspondiente
+4.1.3 ACTUACIONES DE MOVILIDAD
+Existirán diversas fechas de lectura para facilitar la movilidad de los doctorandos.
+5. ORGANIZACIÓN DEL PROGRAMA
+5.1 SUPERVISIÓN DE TESIS
+De acuerdo con el Sistema de Garantía de Calidad de los programas de doctorado de la Universidad de A Coruña y Salamanca, la universidad se compromete a tener ac-
+tualizada la normativa sobre presentación y lectura de tesis doctorales. También garantiza la existencia de una guía de buenas prácticas para la dirección de tesis doctora-
+les. Dicha guía, será particularizada al programa de doctorado por parte de la Comisión de Garantía de dicho programa.
+Entre las actividades previstas para fomentar la dirección de tesis doctorales se contemplan las siguientes:
+-Conferencia/mesa redonda, con la participación de investigadores con experiencia en direcciónd e tesis de calidad, tanto en el ámbito nacional como internacional. En es-
+ta se abordarán diferentes cuestiones relacionadas con los aspectos de gestión administrativa y académica que conlleva dirigir una tesis doctoral.
+-Relación de actividades previstas que fomenten la supervisión múltiple en casos justificados académicamente (co-direcciónd e tesis por parte de un director experimenta-
+do y director novel, co-tutela de tesis interdisciplinares, colaboraciónm internacioanl, etc.)
+-Para fomentar la supervisión múltiple se realizarán sesiones a lo largo del curso académico en la que los investigadores pertenecientes a las distintas líneas de investiga-
+ción pondrán en común el desarrollo de sus investigaciones con el fin de establecer sinergías que permitan la acolaboración en la dirección de tesis doctorales.
+-El programa de doctorado contará, siempre que sea posible, con expertos internacionales en las comisiones de seguimiento, informes previos y tribunales de tesis.
+Además, se fomentará la codirección de tesis, director experimentado y un director novel, por medio de la asignación de un carácter preferente en pro-
+cesos tales como la asignación de ayudas por parte de los grupos de investigación para desplazamientos de doctorandos.”
+5.2 SEGUIMIENTO DEL DOCTORANDO
+El programa de doctorado en Energía y Propulsión Marina se estructura, de acuerdo con las indicaciones del Reglamento de doctorado del SUG, en la
+comisión académica siguiente:
+Responsable (Coordinador/a) y Comisión Académica del Programa de Doctorado:
+1. Coordinador
+2. Secretario
+3. Vocal 1
+4. Vocal 2
+5. Vocal 3
+6. Vocal 4
+7. Vocal 5
+8. Vocal 6
+Por otra parte, el presidente de la comisión de seguimiento será el coordinador del programa de doctorado. Además, en dicha comisión participará un
+representante de PAS y dos alumnos del programa de doctorado.
+De acuerdo con el reglamento de doctorado de las tres universidades del Sistema Universitario de Galicia (SUG), la admisión definitiva de un doctoran-
+do en un Programa de Doctorado lleva la asignación de un Tutor designado por la Comisión Académica. Se tratará de un profesor asignado al progra-
+ma con vinculación permanente con la universidad y/o entidad colaboradora en el programa de doctorado.
+ Nombramiento del tutor:
+Con carácter general, el Tutor tendrá como labores:
+1. Velar por la interacción del doctorando con la Comisión Académica y, conjuntamente, con el Director de Tesis.
+2. Velar por la adecuación a las líneas del Programa con la formación y la actividad investigadora del doctorando.
+3. Orientar al doctorando en las actividades docentes y de investigación del programa.
+La comisión académica, oído el doctorando, podrá modificar el nombramiento del Tutor en cualquier momento del período de realización del doctorado,
+siempre que concurran razones justificadas.
+En cuanto a los directores de tesis, en el plazo máximo de tres meses desde su matriculación, la Comisión Académica asignará un director de tesis de
+acuerdo con una propuesta inicial por parte del doctorando en función de sus líneas de investigación. El director de Tesis será el máximo responsable
+de la coherencia e idoneidad de las actividades de formación, del impacto y novedad en su campo de la temática de la tesis doctoral y de la guía en la
+planificación y su adecuación, en su caso, a los de otros proyectos y actividades donde se inscriba el doctorando.
+ Nombramiento del director de tesis:
+Podrá ser director de la tesis cualquier doctor español o extranjero, con experiencia acreditada investigadora, con independencia de la universidad,
+centro o institución en que preste sus servicios. Por acreditada experiencia investigadora se entiende el cumplimiento de alguno de los siguientes requi-
+sitos:
+1. Haber reconocido por lo menos un sexenio de actividad investigadora.
+2. Ser, en los últimos 6 años, investigadora o investigador principal de un proyecto de investigación financiado mediante convocatoria pública (exclu-
+yendo los proyectos de convocatorias propias de la universidad).
+3. Acreditar la autoría o coautoría, en los últimos seis años, de por lo menos 3 publicaciones en revistas incluidas en el Journal Citation Reports.
+4. Acreditar la autoría o coautoría de una patente.
+5. Haber dirigido una tesis doctoral en los últimos cinco años con la calificación de Sobresaliente Cum Laude o Apto Cum Laude que diera lugar, por lo
+menos, a una publicación en revistas indexadas en el ISI-JCR o alguna contribución relevante en su campo científico.
+csv: 205012262260055623293272
+
+Identificador : 325778171
+14 / 29
+ Para finalizar, la evaluación realizada por la correspondiente comisión académica para la asignación del tutor y dirección de tesis del doctorando ten-
+drá presente la evaluación del currículum del tutor y/o director de tesis en relación al tema sobre el que se pretende dirigir la misma.
+Cuando el Director de Tesis asignado sea un profesor con vinculación permanente a la universidad, podrá ser el Tutor del doctorando.
+Por otra parte, la comisión académica, oído el doctorando, podrá modificar el nombramiento del Director de Tesis en cualquier momento del período de
+realización del doctorado, siempre que concurran razones justificadas.
+La tesis podrá ser codirigida cuando concurran razones de índole académico o cuando la interdisciplinariedad temática o los programas desarrollados
+en colaboración nacional o internacional así lo justifiquen. En todo caso la codirección deberá ser previamente autorizada por la Comisión Académica.
+Dicha autorización podrá ser revocada con posterioridad si a juicio de la Comisión Académica la codirección no beneficia el desarrollo de la Tesis.
+Comité internacional de investigadores:
+La primera evaluación del contenido y originalidad de la tesis será realizada por revisores internos y externos relacionados con las líneas de investiga-
+ción que se tratan en el programa. Esto ofrecerá la opción de ser evaluados y asesorados por expertos de prestigio a nivel internacional, como es el ca-
+so del comité editorial del Internacional Journal of Energy Science (IJES) o el Journal of Maritime Research (JMR).
+Bajo esta descripción, cada proyecto de tesis y el propio resultado final, experimentarán una revisión por pares tal y como sucede con los artículos
+científicos. Además, este comité supervisará y pondrá en contacto a los estudiantes con diferentes universidades e instituciones de todo el mundo so-
+bre temas energéticos.
+Por otra parte, el grupo de investigación de Energía y Propulsión Marina forma parte de redes tecnológicas como Tecnopeixe. Dicha red servirá de vali-
+dación de los estudios de doctorado y conexión con redes internacionales  y nacionales como el Campus del Mar.
+Documento de actividades personalizado:
+Una vez matriculado en el Programa, se materializará para cada doctorando el documento de actividades personalizado a efectos del registro indivi-
+dualizado. En él se inscribirán todas las actividades de interés para el desarrollo del doctorando según lo que establezca la unidad responsable del pro-
+grama y será evaluado anualmente por la Comisión Académica responsable del Programa de doctorado.
+Antes de seis meses a contar desde la matrícula el doctorando elaborará un Plan de Investigación que incluirá la metodología que empleará y los ob-
+jetivos que se han de alcanzar, así como los medios y la planificación temporal para conseguirlo. El plan deberá ser presentado y avalado con el infor-
+me del director/res y del tutor y deberá ser aprobado por un comité Internacional de investigadores y la propia Comisión Académica del Programa. Este
+plan se podrá mejorar y detallar en el proceso de evaluación anual contando con el aval del tutor y el director.
+Anualmente la Comisión Académica del Programa evaluará el Plan de investigación y el documento de actividades y dispondrá para realizar la evalua-
+ción de los informes que a tal efecto deberán emitir el tutor y el director. La evaluación positiva será requisito indispensable para continuar en el Progra-
+ma. En el caso de evaluación negativa, que será debidamente motivada, el doctorando deberá ser evaluado en el plazo de seis meses, para esto ela-
+borará un Plan de investigación. En el supuesto de producirse una evaluación negativa, el doctorando causará baja definitiva en el Programa.
+Las funciones de supervisión, tutela y seguimiento de los doctorandos se reflejarán en un compromiso de supervisión. Dicho compromiso será firma-
+do por una representación específica designada por la universidad, el tutor y el doctorando, en un plazo máximo de un mes a contar desde la fecha de
+matrícula, incorporándose la firma del director en el momento de su designación. Este Compromiso de supervisión se incorporará al Documento de Ac-
+tividades del Doctorando en el momento de su firma por todos los implicados.
+En el Compromiso de supervisión se especificará la relación académica entre el doctorando y la Universidad, sus derechos y deberes, incluyendo los
+posibles derechos de propiedad intelectual y/o industrial derivados de la investigación, así como la aceptación del procedimiento de resolución de con-
+flictos y la duración del incluso. Se incluirán también los deberes del tutor del doctorando y de su director de tesis.
+ 
+Descripción del procedimiento para la valoración anual del Plan de investigación y el documento de actividades del doctorando
+La comisión Académica valorará anualmente el Plan de investigación de acuerdo con los siguientes indicadores:
+1. Resultados obtenidos por el doctorando durante dicho período investigador reflejados por medio de las publicaciones científicas en revistas y con-
+gresos nacionales e internacionales.
+En particular, se valorará el nivel de participación del doctorando en el desarrollo de artículos científicos por medio del número de autores y de su posi-
+ción relativa dentro de la lista de autores de cada artículo. Además, se valorará su participación en congresos prestando especial interés al grado de in-
+ternacionalidad y participación en el mismo a modo de poster o presentación oral.
+2. Participación en proyectos de investigación, ciclos de conferencias, visitas y reuniones con investigadores.
+3. Participación en la organización de actividades científicas como cursos, seminarios, congresos.
+También serán considerados otros indicadores que demuestren el nivel alcanzado por el investigador durante el período de evaluación.
+5.3 NORMATIVA PARA LA PRESENTACIÓN Y LECTURA DE TESIS DOCTORALES
+Tal y como se ha reflejado en la guía de buenas prácticas para la dirección de la tesis, los requisitos que el alumno o alumna debe cumplir para poder
+defender la tesis doctoral son los siguientes:
+ 
+1. Haber superado el proyecto de tesis de doctorado.
+2. Disponer de evaluación positiva de todos los planes anuales de investigación
+csv: 205012262260055623293272
+
+Identificador : 325778171
+15 / 29
+3. Tener el visto bueno de la comisión de seguimiento
+4. Será necesario aportar al menos una publicación científica dentro del ámbito de la tesis.
+ 
+Una vez que el doctorando ha cumplido estos requisitos se inciará el procedimiento de autorización de lectura de acuerdo con el artículo 34 del Regla-
+mento de estudios de doctorado del SUG. En particular, se nombrará el tribunal de evaluación, artículo 36, y se procederá a su defensa y cualificación,
+artículos 37, 38 y 40 del Reglamento de estudios de doctorado del SUG.
+Además, el alumno ha de cumplir con las indicaciones de los artículos 33 a 41 del reglamento de doctorado de la UDC
+(http://www.udc.es/export/sites/udc/_galeria_down/ensino/doutoramento/normativa/REGULAMENTO_ESTUDOS_DOUTORAMENTO.pdf)
+En particular, se prestará especial atención a las indicaciones para el procedimiento de autorización de la tesis para su defensa tal y como se refleja en
+el artículo 34 de dicho reglamento.
+Por otra parte, en el caso de existir tesis en régimen de cotutela, la comisión académica de este programa de doctorado seguirá las indicaciones del reglamento de estudios
+de doctorado del SUG en sus artículos 42 y 43.
+6. RECURSOS HUMANOS
+6.1 LÍNEAS Y EQUIPOS DE INVESTIGACIÓN
+Líneas de investigación:
+NÚMERO LÍNEA DE INVESTIGACIÓN
+1 Técnicas Energéticas. Energías renovables
+2 Máquinas térmicas
+3 Técnicas de frío y aire acondicionado
+4 Ciencia e Ingeniería de Materiales
+5 Gestión y Control de la Calidad y Mantenimiento
+6 Análisis de la calidad del suministro de la energía eléctrica.
+7 Gestión eficiente de la energía eléctrica en sistemas eléctricos de
+potencia, industriales y residenciales.
+8 Estudio de los sistemas eléctricos en base a las modernas teorías
+de la potencia eléctrica.
+9 Meteorología y Oceanografía.
+10 Maniobra de buques y Reglamento de Abordajes. Navegación
+Marítima. Cartografía. Historia de la Navegación e
+instrumentación Náutica
+11 Gestión e Administración Marítima. Seguridad y Contaminación
+Marítima
+12 Mejora, optimización, desarrollo y control de sistemas en
+industria, edificación y medioambiente
+13 Aplicaciones inteligentes a problemas industriales y
+medioambientales.
+14 Optimización, supervisión y control de procesos con diseño de
+experimentos y con técnicas inteligentes
+15 Aprendizaje máquina y minería de datos para clasificación, fusión
+de información y reconocimiento de patrones
+Equipos de investigación:
+Ver documento SICedu en anexos. Apartado 6.1.
+Descripción de los equipos de investigación y profesores, detallando la internacionalización del programa:
+Diversos grupos de investigación en temas relacionados con la energética forman parte de este programa de doctorado. En particular, cabe destacar el
+grupo de investigación en Energía y Propulsión Marina, perteneciente a la propia UDC, cuyo nombre al igual que el del propio departamento responsa-
+ble, ha dado origen a la denominación de este programa de doctorado.  Los diferentes grupos de investigación participantes en este programa de doc-
+torado han obtenido una serie de resultados que son un claro indicativo de su idoneidad para este programa de doctorado. A continuación se muestra
+los investigadores participantes (Tabla 6.1.1), líneas de investigación del programa (Tablas 6.1.2-6.1.4), la relación de las 10 tesis doctorales más sig-
+nificativas en los últimos 5 años (Tabla 6.1.5), los proyectos activos en los que participan los investigadores (Tabla 6.1.6) y el listado de las contribucio-
+nes científicas más relevantes de los profesores participantes en el programa (Tabla 6.1.7).
+csv: 205012262260055623293272
+
+Identificador : 325778171
+16 / 29
+6.2 MECANISMOS DE CÓMPUTO DE LA LABOR DE AUTORIZACIÓN Y DIRECCIÓN DE TESIS
+Mecanismos de cómputo de la labor de autorización y dirección de tesis:
+La labor de tutorización será tenida en cuenta dentro del Plan de Acción Tutorial (PAT) de la Universidade da Coruña. En particular a todo profesor tutor del PAT se le
+certificará su participación en el programa para los efectos oportunos: complementos autonómicos, quinquenios docentes, etc.
+El PAT de la UDC es un programa de atención tutorial que tiene como objetivo mejorar la calidad formativa de las tutorías con el fin de contribuir a una mejora en los
+procesos de enseñanza-aprendizaje. La función principal del PAT es la de ofrecer al estudiantado una persona de referencia que lo oriente en su desarrollo académico du-
+rante su estancia universitaria.
+Entre las tareas de un profesor tutor dentro del PAT se encuentran las siguientes:
+a. Colaborar en la mejora de los procesos de enseñanza-aprendizaje.
+b. Aconsejar sobre itinerarios formativos de las titulaciones.
+c. Estimular el rendimiento y la participación del estudiante en las actividades relacionadas con su formación.
+d. Orientar en la metodología de estudio y de técnicas de trabajo intelectual.
+e. Estimular el gusto por el aprendizaje.
+f. Orientar al alumno en su proyecto profesional.
+g. Hacerle referencia al alumnado de aquellos servicios de la Universidad que puedan ayudar mejor en aquellas situaciones específicas que el tutor/a no pueda afrontar.
+h. Identificar las limitaciones en cuanto a servicios, espacios para el estudio, organización académica del centro, etc., que pudiesen interferir en el proceso de enseñan-
+za-aprendizaje.
+i. Reflexionar sobre la actividad que el profesor/tutor realiza, lo que le permita identificar los puntos fuertes y débiles y canalizar sus inquietudes a través del PAT, para
+que la Universidad ponga a su disposición el servicio de formación y asesoramiento que le permita mejorar la calidad de su acción tutorial.
+Por último, cabe decir que la UDC tiene un mecanismo de cómputo de la labor de dirección de tesis doctorales que es aprobado cada curso acadé-
+mico por el Consejo de Gobierno de la
+Universidad. El método de cómputo, que estará en vigor durante el curso académico 2013-2014,
+computa con 10 horas de reducción docente por cada tesis dirigida  que haya sido defendida en la 
+UDC desde el  1 de Octubre  de 2010,  contemplándose un máximo de 20 horas de reducción por 
+profesor en este apartado.
+7. RECURSOS MATERIALES Y SERVICIOS
+Se dispone de laboratorios con dotación adecuada a la consecución de los objetivos marcados en el programa de doctorado. Se dispone, además, de
+una biblioteca ubicada en el propio Centro, y con amplia dotación de medios bibliográficos, entre ellos revistas de investigación en el ámbito de la In-
+geniería Energética y acceso a las principales revistas electrónicas y bases de datos adquiridas por la UDC y el resto de bibliotecas pertenecientes al
+consorcio de bibliotecas universitarias de Galicia.
+Por otra parte, Se dispone además para su utilización de los recursos de los organismos y entidades colaboradoras. En este sentido, el Departamento
+de Energía y Porpulsión Marina, como miembro de la plataforma tecnológica Tecnopeixe, http://www.tecnopeixe.org/, permitirá el acceso a los alum-
+nos de este programa de doctorado a una serie de servicios ofrecidos por ésta tales como el acceso a bases de datos entre otros.
+A continuación se muestran los laboratorios existentes en la UDC:
+ 
+Laboratorios de la Escuela Técnica Sueprior de Náutica y Máquinas:
+- Laboratorio de Física.
+- Laboratorio de Química.
+- Laboratorio de Electricidad y Electrotécnia
+- Laboratorio de Electrónica
+- Laboratorio de Automática e Instrumentación Industrial
+- Laboratorio de Ensayos No Destructivos
+- Laboratorio de Metrología
+- Laboratorio de Materiales
+- Laboratorio de Informática
+- Laboratorio de Máquinas Térmicas
+- Laboratorio de Técnicas de frío
+- Laboratorio de HVAC
+- Laboratorio-Taller de Máquinas Herramientas
+- Simuladores de Maniobra y Navegación
+- Simulador de GMDSS
+- Simulador de Máquinas
+csv: 205012262260055623293272
+
+Identificador : 325778171
+17 / 29
+- Laboratorio de Energía Eólica
+  Planetario
+ 
+Laboratorios de la EUP
+- CAD1
+- CAD2
+- CAD3
+- Lab. Automatismos y Sistemas
+- Lab. Automatización
+- Lab. Electricidad
+- Lab. Electrónica I
+- Lab. Electrónica II
+- Lab. Electrónica Industrial
+- Lab. Informática
+- Lab.  Procesos Fabricación
+- Lab. Fibra
+- Lab. Frio
+- Lab. Sistemas Eléctricos de Potencia
+- Lab. Motores Térmicos
+- Lab. Hidráulica y Neumática
+- Lab. Mecánica y Soldadura
+- Lab. Circuitos
+- Lab. Radiación Ambiental (LRA)
+ 
+A continuación se muestran los laboratorios existentes en la Universidad de Salamanca:
+-Laboratorio BISTE - Bioinformatica, sistemas inteligentes, tecnologia educativa
+A continuación se muestran los laboratorios existentes en el Instituto Politécnico de Portalegre (Portugal)
+-Laboratorio de energías renovables
+Previsión para la obtención de recursos externos que sirvan de apoyo a los doctorandos en su formación.
+En primer lugar, los diversos convenios con instituciones relacionadas con la energía y las transformaciones energéticas participarán por medio de se-
+minarios, visitas técnicas y cualquier otro medio de transferencia de conocimiento a la formación de los estudiantes de doctorado. En particular, las em-
+presas permitirán alcanzar una mayor comprensión de la problemática actual de las actividades en instalaciones energéticas y la necesidad de innova-
+ción para mejorar dichos procesos.
+A la vez, pondrán en contacto a empresas y doctorandos, lo que potenciará posteriormente su inserción laboral.
+Por otra parte, el Departamento responsable de este programa de doctorado desarrollará una página Web destinada al acceso por parte de profesores
+y alumnos sobre los diversos contenidos del programa de doctorado. Esta medida permitirá una mejor coordinación de las actividades de tutela y su-
+pervisión de los diferentes doctorandos.
+Además, bajo el compromiso de la Escuela Técnica Superior de Náutica y Máquinas, el programa de doctorado dispondrá de la opción de video confe-
+rencias para la impartición de cursos y seminarios. Esta herramienta permitirá  un mayor contacto entre doctorandos y profesores del programa de doc-
+torado.
+Por otra parte, el grupo de investigación Energía y propulsión Marina forma parte de redes tecnológicas como Tecnopeixe. Dicha red sirve de valida-
+ción de los estudios de doctorado y conexión con redes internacionales y nacionales como el Campus del Mar.
+csv: 205012262260055623293272
+
+Identificador : 325778171
+18 / 29
+Finalmente, los investigadores que forman parte de este programa de doctorado forman parte de sociedades de investigación como el IEEE lo que per-
+mitirá al alumnado el acceso a bases de datos específicas de temas energéticos.
+Además, el profesorado de este programa de doctorado forma parte de redes científicas internacionales como Machina Intelligence Research Labs
+(MIRLAB http://www.mirlabs.net/),  KES Internacional ( http://www.kesinternational.org/) y Automar ( http://www.ceautomatica.es/)
+Para finalizar, existen diversas bolsas de viaje para la asistenica a congresos y estancias en el extranjero que se convocan todos los años tanto por
+parte de las propias universidades participantes, convocatorias autonómica, convocatorias nacionales y convocatorias europeas, tal y como se refleja
+en la Web del Vicerrectorado de Investigación de la UDC y (
+http://www.udc.es/goberno/equipo_reitoral/vice_investigacion_e_transferencia/convocatorias/)
+y Salamanca ( http://campus.usal.es/~becas/).
+8. REVISIÓN, MEJORA Y RESULTADOS DEL PROGRAMA
+8.1 SISTEMA DE GARANTÍA DE CALIDAD Y ESTIMACIÓN DE VALORES CUANTITATIVOS
+SISTEMA DE GARANTÍA DE CALIDAD
+De acuerdo con el sistema de garantía de calidad de los programas de doctorado de la universidad de A Coruña y Salamanca, el SGC se fundamentará
+en la recogida de información sobre los aspectos clave del desarrollo de dichos programas para proceder a un análisis reflexivo del que se extraerán las
+conclusiones oportunas dirigidas, en todo caso, a la solución de posibles desviaciones y al aporte de propuestas de mejora. Dicho análisis es la piedra
+angular del sistema y es, por tanto, esencial que se refleje de forma conveniente en las diferentes actas de la Comisión de Garantía de la Calidad del
+programa. De esta manera, las actas evidenciarán el funcionamiento de los programas de doctorado en todos sus ámbitos.
+Los programas de doctorado se desarrollarán de acuerdo a una planificación previa atendiendo a la Memoria elaborada para su verificación, los resul-
+tados de ese desarrollo conforman la información de entrada que deberá analizar la Comisión de Garantía de Calidad del doctorado de acuerdo a lo ex-
+presado en el párrafo anterior.
+Por otra parte, se desarrollará una página Web destinada al acceso por parte de profesores y alumnos sobre los diversos contenidos del programa de
+doctorado. Esta medida permitirá la coordinación entre las universidades participantes, una mejor coordinación de las actividades de tutela y la supervi-
+sión de los diferentes doctorandos.
+Además, bajo el compromiso de la Escuela Técnica Superior de Náutica y Máquinas, el programa de doctorado dispondrá de la opción de video confe-
+rencias para la impartición de cursos y seminarios. Esta herramienta permitirá  un mayor contacto entre doctorandos y profesores del programa de doc-
+torado al difundir información sobre el programa, su desarrollo y sus resultados.
+Por otra parte, el grupo de investigación Energía y propulsión Marina forma parte de redes tecnológicas como Tecnopeixe. Dicha red sirve de validación
+de los estudios de doctorado y conexión con redes internacionales y nacionales como el Campus del Mar.
+ 
+Gestión del Sistema de Garantía de Calidad (SGC):
+La gestión del SGC constará de un coordinador (CCD), que será el mismo que el coordinador del programa de doctorado, y una comisión de garantía
+de calidad. Esta comisión de garantía de calidad del programa de doctorado (CGCD) estará formada por la propia comisión académica del programa
+con la posible participación de otros agentes implicados en el programa de doctorado: profesorado, doctorandos, responsables académicos, personal
+de apoyo y otros agentes externos.
+Funciones del Sistema de Garantía de Calidad (SGC):
+La función de la CGCD será analizar los resultados obtenidos por el sistema de garantía de calidad y elaborar las propuestas de actuación, su segui-
+miento tras haber informado a la Comisión de Garantía de la Calidad del Centro y dejando constancia de dicho análisis en el acta correspondiente. Para
+realizar dicho análisis del programa de doctorado se emplearán las estimaciones reflejadas en esta memoria de los índices reflejados en el Anexo II:
+1.- Satisfacción de los colectivos implicados
+2.- Desarrollo del programa de doctorado
+3.- Programas de movilidad
+4.- Seguimiento de egresados-inserción laboral
+5.- Resultados del programa de doctorado
+6.- Seguimiento de la memoria
+ 
+Dentro de la información a analizar cabe destacar la satisfacción de los distintos agentes implicados en el programa de doctorado. Para ello, se elabora-
+rá un plan de recogida de opiniones cada cinco años, de acuerdo con el ANEXO I.
+ANEXO I: PLAN DE RECOGIDA DE OPINIÓN
+ 
+Quién (Responsable de
+llevar a cabo la actividad)
+¿A quién? (Grupo de In-
+terés)
+¿Qué?  (Sobre que pre-
+guntamos)
+¿Cuándo?  (Fechas, pe-
+riodicidad…)
+¿Cómo?  (Método: en-
+cuesta, grupo focal,
+reunión informal, etc.)
+     
+csv: 205012262260055623293272
+
+Identificador : 325778171
+19 / 29
+     
+     
+     
+     
+TASA DE GRADUACIÓN % TASA DE ABANDONO %
+38,9 27,6
+TASA DE EFICIENCIA %
+100
+TASA VALOR %
+No existen datos
+JUSTIFICACIÓN DE LOS INDICADORES PROPUESTOS
+INDICADORES DATO (5 años anteriores) ESTIMACIÓN (6 años siguientes) Punto de la Memoria al que corresponde
+Tesis producidas 10 10 8.3
+Tasa de éxito (3 y 4 años) 3 años 16,7% 4 años 20,8 % 3 años 32,0% 4 años 40,0 % 3.3
+Tasa de abandono 27,6% 33,1 % 5.3
+Tasa de graduación 38,9% 46,7% 3.3 y 5.3
+Tasa de eficiencia 100,0% 100,0% 3.3 y 5.3
+Calidad de las tesis Sobresaliente cum laude Sobresaliente cum laude 6.1
+Contribuciones resultantes JCR 44 JCR 44 6.1 y 8.3
+Número de proyectos de investigación ac-
+tivos en temas relacionados con las líneas
+de investigación del programa
+3 5 6.1
+Número de contribuciones científicas del
+personal que participa en el programa
+JCR 44 JCR 44 8.3
+Empleabilidad  90%  90% 6.1
+Porcentaje de doctorandos que consigue
+ayudas para contratos post-doctorales
+10% 10% 6.1
+Nº total de estudiantes que se matricularán 10 10 8.3
+Nº total de estudiantes previsto de otros
+países
+0 5 8.3
+Justificación de las estimaciones realizadas: Debido a la incorporación de investigadores de elevado prestigio de países como Portugal y Polonia consideramos adecuado esti-
+mar un valor inicial de 5 estudiantes procedentes de estos países, como mínimo. Ello está relacionado con el hecho de que las facultades portuguesas poseen investigadores pe-
+ro no tienen un programa de doctorado propio por lo que les ha resultado de gran interés esta propuesta. Por otra parte, la calidad del programa de doctorado es claramente su-
+perior al existente (Ingeniería Marítima) debido al aumento de los requisitos a la hora de lectura de tesis, supervisión por parte de tribunales externos…. Por todo ello, se con-
+sidera adecuado una estimación de tasa de éxito y graduación de casi el doble al existente. En particular si consideramos que el alumno debe realizar la lectura de la tesis en
+períodos de tres años y no en períodos más dilatados de tiempo, tal y como se estaba realizando en hasta el momento. De la misma manera, y debido a los estrictos requisitos
+de este nuevo programa de doctorado, consideramos que la tasa de abandono puede llegar a incrementarse. En cuanto al número de proyectos de investigación y publicaciones
+JCR cabe espera un aumento exponencial en los próximos años como consecuencia del trabajo sinergético obtenido de la unión de nuestra experiencia a la hora de elaborar pu-
+blicaciones indexadas y la experiencia del resto de grupos de investigación a la hora de obtener proyectos.  Gracias a estos mismos proyectos consideramos adecuado el supo-
+ner un aumento del número de estudiantes que obtengan más contratos post-doctorales.
+ 
+ 
+ 
+ 
+8.2 PROCEDIMIENTO GENERAL PARA VALORAR EL PROCESO Y LOS RESULTADOS
+De acuerdo con el sistema de garantía de la calidad de los programas de doctorado de la Universidad de A Coruña
+(Guía para su implantación y para la revisión, mejora y resultados del programa de doctorado), en su apartado 4.4
+se muestra el seguimiento de doctores egresados en función de los datos obtenidos de las tablas reflejadas en el
+ANEXO II y III.
+Los principales indicadores utilizados para la evaluación de este programa de doctorado han sido seleccionados en
+base a las indicaciones del sistema de garantía de calidad de los programas de doctorado de las universidades par-
+ticipantes. De esta manera, nos encontramos con el número de tesis producidas y su evolución a lo largo del tiempo
+csv: 205012262260055623293272
+
+Identificador : 325778171
+20 / 29
+como el parámetro inicial a considerar a la hora de evaluar el estado de este programa de doctorado, véase la tabla
+8.1.2. A pesar de ello, dicho indicador debe ser interpretado bajo la consideración del resto de indicadores propues-
+tos como son la tasa de abandono, la calidad de las tesis y sus resultados obtenidos definidos por medio del número
+y calidad de artículos y de proyectos de investigación obtenidos a partir de esas tesis.
+ 
+Programa 2008/
+2009
+2009/
+2010
+2010/
+2011
+2011/
+2012
+Total
+(UDC) Enxeña-
+ría Marí-
+tima
+1 4 9 16 30
+(UDC) Enerxía
+de Pro-
+pulsión e
+Navega-
+ción Ma-
+rítima
+10 10 15 13 48
+(UDC) Ciencia
+e Enxe-
+ñería de
+Materiais
+estrutu-
+rais
+1 1 1 1 4
+(UDC) Enxeña-
+ría de
+Mate-
+riais e do
+Transpor-
+te Maríti-
+mo
+1 --- --- --- 1
+(U Sala-
+manca)
+Doctora-
+do en In-
+formática
+y Auto-
+mática
+4 14 17 21 56
+Tabla 8.1.2. Evolución a lo largo del tiempo del número de tesis leídas en cada uno de los programas de doctorado
+anteriores.
+La obtención de estos resultados será realizado por el Observatorio Ocupacional de la UDC quién facilitará anual-
+mente al Vicerrectorado de Investigación los datos relativos a los programas de doctorado de la UDC
+Hasta los tres años siguientes a la lectura de la tesis doctoral, se realizará el seguimiento de los doctores egresados
+para conocer su inserción laboral. Se realizará a los tres años de la fecha de lectura, para conocer su situación labo-
+ral, la consecución de becas u otro tipo de ayudas así como la satisfacción con el programa realizado.
+En el caso de que los doctores egresados que hayan quedado vinculados a la Universidad de A Coruña, se les de-
+mandará que reporten información anual.
+La satisfacción con la formación recibida, información sobre la inserción laboral de los egresados, así como el porcentaje de estu-
+diantes que consiguen ayudas para contratos postdoctorales y cualquier otra información que se considere relevante será analizada
+cuidadosamente por la CGCD para extraer las conclusiones oportunas y emprender las acciones de mejora que considere convenien-
+tes. De todo ello quedará constancia en el acta correspondiente.
+ANEXO I: PLAN DE RECOGIDA DE OPINIÓN
+ 
+Quién (Responsa-
+ble de llevar a ca-
+bo la actividad)
+¿A quién? (Grupo
+de Interés)
+¿Qué?  (Sobre que
+preguntamos)
+¿Cuándo?  (Fe-
+chas, periodici-
+dad…)
+¿Cómo?  (Método:
+encuesta, grupo
+focal, reunión in-
+formal, etc.)
+     
+     
+     
+csv: 205012262260055623293272
+
+Identificador : 325778171
+21 / 29
+     
+     
+ANEXO II Revisión – Seguimiento
+ 
+ACTIVIDAD ¿CUÁNDO SE HA REALIZADO?  (Fe-
+cha acta CGCD en que se analiza)
+¿GENERA ACCIÓN DE MEJORA?  (in-
+dicar dónde queda registrada: acta o
+plan anual de mejora)
+Comprobar que la identificación del
+coordinador y de la comisión de garan-
+tía de calidad están en la página Web
+  
+SATISFACCIÓN DE LOS COLECTIVOS IMPLICADOS
+Elaborar y aprobar en CGCD el plan de
+recogida de opiniones
+  
+Analizar los resultados de la satisfac-
+ción de los grupos de interés (docto-
+randos, personal académico y de admi-
+nistración y servicios, etc.)
+  
+DESARROLLO DEL PROGRAMA DE DOCTORADO
+Comprobar que se ha realizado la pla-
+nificación y organización de las activi-
+dades formativas
+  
+Realizar el seguimiento trimestral de
+las actividades formativas de los docto-
+randos
+  
+Comprobar que la guía de buenas
+prácticas para la dirección de tesis doc-
+torales está actualizada, que se asigna
+tutor y director de tesis según lo previs-
+to
+  
+Revisar la ficha del doctorando: control
+del documento de actividades de cada
+doctorado y valoración del plan de in-
+vestigación
+  
+Revisar la participación de expertos in-
+ternacionales
+  
+PROGRAMAS DE MOVILIDAD
+Realizar la planificación de las activida-
+des de movilidad
+  
+Realizar la selección de los doctoran-
+dos participantes y el seguimiento de
+su actividad
+  
+Analizar los resultados del programa
+de movilidad
+  
+SEGUIMIENTO DE EGRESADOS – INSERCIÓN LABORAL
+Analizar, comparando con previsiones,
+la situación laboral de los doctorandos
+a partir del estudio de inserción laboral
+realizado por el COIE
+  
+Analizar la satisfacción de los egresa-
+dos con la formación recibida
+  
+Analizar, comparando con previsiones,
+el porcentaje de alumnos que obtienen
+ayudas postdoctorales
+  
+OTROS RESULTADOS DEL PROGRAMA DE DOCTORADO
+csv: 205012262260055623293272
+
+Identificador : 325778171
+22 / 29
+Analizar, comparando con estimacio-
+nes, los resultados del programa de
+doctorado (tesis producidas, tasas de
+éxito en la realización de las mismas,
+la calidad de las tesis y contribuciones
+resultantes)
+  
+Analizar, comparando con estimacio-
+nes, el número de estudiantes de nue-
+vo ingreso (total y los procedentes de
+otros países)
+  
+SEGUIMIENTO DE LA MEMORIA
+Analizar, que se está cumpliendo con
+lo que se reflejó en la Memoria (recur-
+sos humanos y materiales, planifica-
+ción del programa, etc.)
+  
+Analizar: perfil de ingreso, proyectos de
+investigación activos, recursos materia-
+les, contribuciones científicas y actuali-
+zación de la base de datos)
+  
+PUBLICACIÓN DE INFORMACIÓN EN WEB
+Comprobar que todo el contenido de
+la web es el adecuado y está actualiza-
+do, incluyendo la información necesaria
+para el próximo doctorando y para el
+doctorando actual
+  
+REVISIÓN DEL CUMPLIMIENTO DEL SGC
+Realizar el seguimiento de las acciones
+de mejora descritas en el anterior plan
+de mejora
+  
+Elaborar el plan anual de mejora del
+programa de doctorado
+  
+Comprobar que todas las actas de la
+CGPD figuran en Web
+  
+PROGRAMAS INTERUNIVERSITARIOS
+Si la UMU es la coordinadora, analizar
+cómo se están desarrollando los pro-
+gramas en el resto de universidades
+participantes, comprobando que se dis-
+pone de la información necesaria y que
+las páginas Web están actualizadas
+  
+Si la UMU no es la coordinadora, apor-
+tar a la universidad coordinadora infor-
+mación del desarrollo y resultados del
+programa y de los enlaces Web en los
+que se incluye la información necesaria
+  
+8.3 DATOS RELATIVOS A LOS RESULTADOS DE LOS ÚLTIMOS 5 AÑOS Y PREVISIÓN DE RESULTADOS DEL PROGRAMA
+TASA DE ÉXITO (3 AÑOS)% TASA DE ÉXITO (4 AÑOS)%
+16,7 20,8
+TASA VALOR %
+No existen datos
+DATOS RELATIVOS A LOS RESULTADOS DE LOS ÚLTIMOS 5 AÑOS Y PREVISIÓN DE RESULTADOS DEL PROGRAMA
+ANEXO IV. Datos y estimaciones relativos al programa de doctorado.
+ 
+INDICADORES DATO (5 años anteriores) ESTIMACIÓN (6 años siguientes) Punto de la Memoria al que corresponde
+Tesis producidas 10 10 8.3
+csv: 205012262260055623293272
+
+Identificador : 325778171
+23 / 29
+Tasa de éxito (3 y 4 años) 3 años 16,7% 4 años 20,8 % 3 años 32,0% 4 años 40,0 % 3.3
+Tasa de abandono 27,6% 33,1 % 5.3
+Tasa de graduación 38,9% 46,7% 3.3 y 5.3
+Tasa de eficiencia 100,0% 100,0% 3.3 y 5.3
+Calidad de las tesis Sobresaliente cum laude Sobresaliente cum laude 6.1
+Contribuciones resultantes JCR 24 JCR 24 6.1 y 8.3
+Número de proyectos de investigación ac-
+tivos en temas relacionados con las líneas
+de investigación del programa
+3 5 6.1
+Número de contribuciones científicas del
+personal que participa en el programa
+JCR 24 JCR 24 8.3
+Empleabilidad  90 90 6.1
+Porcentaje de doctorandos que consigue
+ayudas para contratos post-doctorales
+10 10 6.1
+Nº total de estudiantes que se matricularán 10 10 8.3
+Nº total de estudiantes previsto de otros
+países
+0 5 8.3
+Justificación del porcentaje de graduación:
+Un análisis en profundidad del aparentemente reducido porcentaje de alumnos que se han graduado en el progra-
+ma de doctorado radica en la parte eminentemente profesional de la titulación donde, en la mayoría de los casos, los
+doctorandos se encuentras trabajando de forma simultánea al desarrollo de su tesis. Por este motivo, el tiempo nece-
+sario ha sido superior a lo que cabe esperar.
+A pesar de ello, este mayor período de tiempo para el desarrollo de la tesis no implica necesariamente una menor
+calidad del doctorado dado que en la mayoría de los casos, el doctorando se encuentra trabajando en temas directa-
+mente relacionados con la temática de la tesis, lo que sirve de refuerzo y actualización de la misma.
+Como medida preventiva para aumentar el porcentaje de tesis leídas cabe esperar un aumento del número de docto-
+randos que inicien estudios de tercer ciclo  con dedicación a tiempo completo y, con ello, el tiempo necesario para el
+desarrollo de la tesis así como el porcentaje de tesis terminadas aumente en los próximos años. En este sentido, se
+están realizando una serie de contratos de investigación con las empresas colaboradoras con convenio que permiti-
+rán subvencionar parte de los gastos de este plan de estudio, como pueden ser las visitas técnicas y conferencias.
+Gracias a estos ocntratos y perspectivas de futuro, cabe esperar que un mínimo de un 10% de los doctorando conse-
+guirán ayudas para contratos post-doctorales. Por otra parte, y siguiendo en la misma línea, cabe esperar un mínimo
+de un 20% de estudiantes consigan un puesto de trabajo durante los tres años posteriores a la lectura de su tesis.
+Justificación de las estimaciones realizadas:
+Debido a la incorporación de investigadores de elevado prestigio de países como Portugal y Polonia consideramos adecuado estimar
+un valor inicial de 5 estudiantes procedentes de estos países, como mínimo. Ello está relacionado con el hecho de que las facultades
+portuguesas poseen investigadores pero no tienen un programa de doctorado propio por lo que les ha resultado de gran interés esta
+propuesta. Por otra parte, la calidad del programa de doctorado es claramente superior al existente (Ingeniería Marítima) debido al
+aumento de los requisitos a la hora de lectura de tesis, supervisión por parte de tribunales externo. Por todo ello, se considera ade-
+cuado una estimación de tasa de éxito y graduación de casi el doble al existente. En particular si consideramos que el alumno debe
+realizar la lectura de la tesis en períodos de tres años y no en períodos más dilatados de tiempo, tal y como se estaba realizando hasta
+el momento. De la misma manera, y debido a los estrictos requisitos de este nuevo programa de doctorado, consideramos que la tasa
+de abandono puede llegar a incrementarse. En cuanto al número de proyectos de investigación y publicaciones JCR cabe esperar un
+aumento exponencial en los próximos años como consecuencia del trabajo sinergético obtenido de la unión de nuestra experiencia
+a la hora de elaborar publicaciones indexadas y la experiencia del resto de grupos de investigación a la hora de obtener proyectos. 
+Gracias a estos mismos proyectos consideramos adecuado el suponer un aumento del número de estudiantes que obtengan más con-
+tratos post-doctorales.
+Por otra parte, el programa de doctorado en Informática y Automática ha reflejado la siguiente evolución en el número de tesis doc-
+torales finalizadas.
+Programa 2008/ 2009 2009/ 2010 2010/ 2011 2011/ 2012 Total
+(U Salamanca) Doctorado en Informá-
+tica y Automática
+4 14 17 21 56
+En función de los datos obtenidos se han calculado los correspondientes índices:
+ 
+INDICADORES DATO (5 años anteriores) ESTIMACIÓN (6 años siguientes) Punto de la Memoria al que corresponde
+Tesis producidas 17 10 8.3
+Tasa de éxito (3 y 4 años) 3 años 50,3% 4 años 40,5 % 3 años 50.3% 4 años 40,5 % 3.3
+csv: 205012262260055623293272
+
+Identificador : 325778171
+24 / 29
+Tasa de abandono 20,0% 20,0 % 5.3
+Tasa de graduación 80,0% 80,0% 3.3 y 5.3
+Tasa de eficiencia 100,0% 100,0% 3.3 y 5.3
+Calidad de las tesis Sobresaliente cum laude Sobresaliente cum laude 6.1
+Contribuciones resultantes JCR 30 JCR 30 6.1 y 8.3
+Número de proyectos de investigación ac-
+tivos en temas relacionados con las líneas
+de investigación del programa
+3 2 6.1
+Número de contribuciones científicas del
+personal que participa en el programa
+JCR 30 JCR 30 8.3
+Empleabilidad 90 90 6.1
+Porcentaje de doctorandos que consigue
+ayudas para contratos post-doctorales
+5 5 6.1
+Nº total de estudiantes que se matricularán12 10 8.3
+Nº total de estudiantes previsto de otros
+países
+0 5 8.3
+ 
+Justificación de las estimaciones realizadas:
+El análisis de los indicadores del programa de doctorado en Informática y automática de la universidad de Salamanca se ha realizado
+en función de los datos relativos a los investigadores  de dicho programa que se incorporan a este nuevo programa de doctorado. De
+esta manera, y dado el gran prestigio y producción científica de los investigadores incorporados, dichos indicadores han sido eleva-
+dos. A pesar de ello, cabe esperar una cierta reducción en el número de tesis leídas y artículos publicados como consecuencia del in-
+cremento en la calidad de los mismos gracias a la participación de investigadores de otras universidades.
+Para finalizar, cabe recordar una mayor participación de investigadores procedentes del programa de doctorado en
+Energía y Propulsión Marina  de la universidad coordinadora, por lo que sus índices pueden ser considerados como
+los principales indicadores de la evolución de esta nueva propuesta. Por otra parte, la incorporación de investigado-
+res de tan elevada calidad sólo puedo mejorar los resultados obtenidos y propuestos para el futuro  en la tabla de da-
+tos y estimaciones de este Anexo IV.
+9. PERSONAS ASOCIADAS A LA SOLICITUD
+9.1 RESPONSABLE DEL PROGRAMA DE DOCTORADO
+NIF NOMBRE PRIMER APELLIDO SEGUNDO APELLIDO
+76278924E Ramón Ferreiro García
+DOMICILIO CÓDIGO POSTAL PROVINCIA MUNICIPIO
+ETSNyM c/ Paseo de Ronda 5115011 A Coruña Coruña (A)
+EMAIL MÓVIL FAX CARGO
+ferreiro@udc.es 9811670004205 981167100 Coordinador Grupo de
+Investigación
+9.2 REPRESENTANTE LEGAL
+NIF NOMBRE PRIMER APELLIDO SEGUNDO APELLIDO
+32375144E José Luis Armesto Barbeito
+DOMICILIO CÓDIGO POSTAL PROVINCIA MUNICIPIO
+C/ Maestranza nº 9, A Coruña15001 A Coruña Coruña (A)
+EMAIL MÓVIL FAX CARGO
+reitor@udc.es 689447609 981167011 Rector
+9.3 SOLICITANTE
+NIF NOMBRE PRIMER APELLIDO SEGUNDO APELLIDO
+46899537F José A. Orosa García
+DOMICILIO CÓDIGO POSTAL PROVINCIA MUNICIPIO
+C/ Paseo de Ronda 51 15011 A Coruña Coruña (A)
+csv: 205012262260055623293272
+
+Identificador : 325778171
+25 / 29
+EMAIL MÓVIL FAX CARGO
+jaorosa@udc.es 9811670004320 981167100 Director del Departamento de
+Energía y Propulsión Marina
+csv: 205012262260055623293272
+
+Identificador : 325778171
+26 / 29
+ANEXOS : APARTADO 1
+Nombre :salamanca.pdf
+HASH SHA1 : UnZeWxIgJ7CopJhJt9vmQ8sOYpE=
+Código CSV :97044484852089477743701
+salamanca.pdf
+csv: 205012262260055623293272
+
+Identificador : 325778171
+27 / 29
+ANEXOS : APARTADO 1.4
+Nombre :9 convenios comprimidos y bien.pdf
+HASH SHA1 : 2l9IvXlxmBisjbSReBQgUHTBRC0=
+Código CSV :103931124991046345730522
+9 convenios comprimidos y bien.pdf
+csv: 205012262260055623293272
+
+Identificador : 325778171
+28 / 29
+ANEXOS : APARTADO 6.1
+Nombre :Tabla recursos humanos revision 2.3.pdf
+HASH SHA1 : 27/aeXKA8nx4KNoXAuCmxQmZSzY=
+Código CSV :103931138594895820516348
+Tabla recursos humanos revision 2.3.pdf
+csv: 205012262260055623293272
+
+Identificador : 325778171
+29 / 29
+csv: 205012262260055623293272

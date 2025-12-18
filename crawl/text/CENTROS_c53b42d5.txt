@@ -213,6 +213,18 @@ Universidade de Sie Paulo—Brasil
 
 Ram Pe
 
+--- OCR de imagen: CAMPUS20OZA20CORUC391A20A3_010c61d2.png ---
+eresa que seesgote
+
+“CAMPUS DE OZA”
+Facultade de Fisioterapia
+UNIDADE MOBIL NAENTRADA DO CAMPUS
+artes, 25 de ovtubro
+(00:20 2 14:20 & 15:20 a21:00 horas
+
+Méreores, 26 de outubro
+45:20 221.00 horas
+
 --- OCR de imagen: CARTEL_d6c3ebb1.jpeg ---
 CcteoRa une
 
@@ -229,25 +241,6 @@ Universidad Carios i
 46:30h. Salén de Actos,
 Facultade de Fisioterapla,
 Retransmision en streaming
-
---- OCR de imagen: CAMPUS20OZA20CORUC391A20A3_010c61d2.png ---
-eresa que seesgote
-
-“CAMPUS DE OZA”
-Facultade de Fisioterapia
-UNIDADE MOBIL NAENTRADA DO CAMPUS
-artes, 25 de ovtubro
-(00:20 2 14:20 & 15:20 a21:00 horas
-
-Méreores, 26 de outubro
-45:20 221.00 horas
-
---- OCR de imagen: cartel_avaliacion_20-21_2C.png_2063069239_3514efe2.png ---
-2020-21: |! de
-
-) alioeiébn [Deere
-todas as materias contra en Www.ude.es/ovaliemos
-todas as titulaciéns
 
 --- OCR de imagen: 120NEURO202022_3a233bb3.png ---
 IL JORNADAS DE FISIOTERAPIA Y SALUD
@@ -276,6 +269,13 @@ Peres con pris carabralprenee 2
 ‘Hn Wossrteds
 
 ‘aN Chara ha ots Ferg at
+
+--- OCR de imagen: cartel_avaliacion_20-21_2C.png_2063069239_3514efe2.png ---
+2020-21: |! de
+
+) alioeiébn [Deere
+todas as materias contra en Www.ude.es/ovaliemos
+todas as titulaciéns
 
 --- OCR de imagen: Captura2_4da46fb8.jpeg ---
 ‘Que debes saber do nave coronavirus?

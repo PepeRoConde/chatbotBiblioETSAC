@@ -32,13 +32,6 @@ Calidade e Normativa
 GL
 ES
 
---- OCR de imagen: cartel_RS_1-722x1024_b52d0d66.png ---
-Wi
-Pe
-wea
-
-IN
-
 --- OCR de imagen: cartel_RS_2_f39c43ca.png ---
 % id
 ISA secoegeal ia i Fess
@@ -100,3 +93,10 @@ ALANAANLALL YA
 AS
 
 a ch
+
+--- OCR de imagen: cartel_RS_1-722x1024_b52d0d66.png ---
+Wi
+Pe
+wea
+
+IN

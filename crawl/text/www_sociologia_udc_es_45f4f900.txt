@@ -91,26 +91,7 @@ GL
 ES
 
 --- OCR de imagen: logo_FS_9740997f.png ---
-= Facultade de Socioloxia_
-==> UNIVERSIDADE DA CORUNA
-
---- OCR de imagen: logo_FS_9740997f.png ---
-= Facultade de Socioloxia_
-==> UNIVERSIDADE DA CORUNA
-
---- OCR de imagen: logo_FS_9740997f.png ---
-= Facultade de Socioloxia_
-==> UNIVERSIDADE DA CORUNA
-
---- OCR de imagen: naturezas_hibridas_II_RRSS_cuadrado-560x420_1176844f.png ---
-Il OBRADOIRO DE
-
-HaEUCBcaS
-Hibridas
-
-OS LIMITES ECOLOXICOS DO URBANO
-
-4/10/2019
+Error checking image: cannot identify image file 'crawl\\crawled_data\\images\\logo_FS_9740997f.png'
 
 --- OCR de imagen: cartel_novos_retos-560x420_d696a23a.png ---
 iw viv
@@ -139,6 +120,16 @@ Humboldt University of Berlin.
 11:00 CONFERENCIA SANTIAGO CIRUJEDA
 
 12:30 CONFERENCIA TERESA TORNS
+
+--- OCR de imagen: naturezas_hibridas_II_RRSS_cuadrado-560x420_1176844f.png ---
+Il OBRADOIRO DE
+
+HaEUCBcaS
+Hibridas
+
+OS LIMITES ECOLOXICOS DO URBANO
+
+4/10/2019
 
 --- OCR de imagen: construindo_espazo-560x420_18fdcba5.png ---
 Contextos Universitarios Transformadores:

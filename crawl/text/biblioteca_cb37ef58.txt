@@ -94,15 +94,15 @@ App Store
 Google Play
 RSS
 
---- OCR de imagen: guia-slider.png_2063069299_814b4b2a.png ---
-Seruizo de Biblioteca
-
-Guia para o novo alumnado
-
 --- OCR de imagen: RUC_EN.png_2063069299_291adc16.png ---
 RUC, the UDC Repository
 
 Giue
+
+--- OCR de imagen: guia-slider.png_2063069299_814b4b2a.png ---
+Seruizo de Biblioteca
+
+Guia para o novo alumnado
 
 --- OCR de imagen: Portal-da-Investigacion_EN.png_2063069299_8e3366bf.png ---
 RESEARCH PORTAL OF THE

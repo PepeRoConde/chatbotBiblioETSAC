@@ -1,0 +1,1287 @@
+LOGOTIPO DO CENTRO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PLAN DE PREVENCIÓN E HIXIENE 
+FRONTE Á COVID-19 DA  
+FACULTADE DE DEREITO  
+DA UNIVERSIDADE DA CORUÑA  
+PARA O CURSO 2021/22 
+ 
+AGOSTO 2021 
+REV 0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Este documento está en revisión permanente e pode verse modificado en función da evolución 
+dos feitos e da nova información de que se di spoña respecto da COVID-19, así como das 
+instrucións que se reciban das autoridades competentes. 
+
+LOGOTIPO DO CENTRO 
+ 
+ 
+ 
+Índice 
+1. INTRODUCIÓN .............................................................................................................................. ......... 4 
+2. CENTRO .............................................................................................................................. ................... 4 
+3. RESPONSABLE COVID-19 .................................................................................................................... 5 
+4. MEDIDAS PARA DESENVOLVER ......................................................................................................... 6 
+4.1. ANTES DE IR AO CENTRO ........................................................................................................... 6 
+4.2. ACCESO E DESPRAZAMENTO NO CENTRO .............................................................................. 7 
+4.2.1. Entrada e saída ................................................................................................................... 7 
+4.2.2. Corredores .......................................................................................................................... 9 
+4.2.3. Ascensores ......................................................................................................................... 9 
+4.2.4. Aseos .................................................................................................................................. 9 
+4.2.5. Vestiarios e duchas .......................................................................................................... 10 
+4.2.6. Máquinas expendedoras.................................................................................................. 10 
+4.3. ESPAZOS DE TRABALLO ................................................................................................................ 10 
+4.3.1. Atención ao publico .............................................................................................................. 10 
+4.3.2. Espazos de uso común non docente .................................................................................. 11 
+4.3.3. Espazos comparti dos por varios traballadores da UDC .................................................. 11 
+4.3.4. Aulas ....................................................................................................................................... 12 
+4.3.5. Laboratorios e talleres ............................................................... ¡Error! Marcador no definido. 
+4.3.6. Prácticas de campo ............................................................................................................... 12 
+4.3.7. Reunións, titorías, xornadas e congresos, prácticas externas e intercambios ............ 13 
+4.3.8. Bibl iotecas .............................................................................................................................. 15 
+4.3.9. Cafetarías ................................................................................................................................ 17 
+4.3.10. Reprografía .................................................................................. ¡Error! Marcador no definido. 
+4.3.11. Coordinación de actividades empresariais ........................................................................ 17 
+4.4. LIMPEZA E VENTILACIÓN ................................................................................................................ 17 
+4.5. XESTIÓNS DE CASOS ...................................................................................................................... 18 
+4.5.1. Procedemento de actuación ................................................................................................ 19 
+4.5.2. Limpeza de locais con persoal afectado pola COVID-19 .................................................. 19 
+4.5.3. Xestión de r esiduos dos casos de COVID-19 .................................................................... 20 
+4.6. XESTIÓN DE RESIDUOS NO CENTRO DE TRABALLO ................................................................ 20 
+5. NORMATIVA E REFERENCIAS BIBLIOGRÁFICAS ............................................................................ 21
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6. ANEXOS ............................................................................................................................................... 23 
+Anexo 1. Sinais de entrada e saída ................................................................................................... 23 
+Anexo 2. Sinais para indicar a dirección de circulación ................................................................. 23 
+Anexo 3. Sinais para os postos de atención ao publico ................................................................. 24 
+Anexo 4. Carteis para os aseos ......................................................................................................... 25 
+Anexo 5. Cartel para os ascensores .................................................................................................. 26 
+Anexo 6. Carteis informativos para a entrada dos edificios ........................................................... 26 
+Anexo 7. Carteis de capacidade de edificios e de espazos ............................................................ 27 
+Anexo 8. Cartel para o uso de xel hidroalcohólico .......................................................................... 28 
+Anexo 9. Técnica para unha correcta hixiene das mans ................................................................. 29 
+Anexo 10. Uso correcto de máscaras e luvas .................................................................................. 30 
+Anexo 11. Lista de comprobación da implementación do protocolo ............................................. 34 
+ 
+ 
+ 
+RESUMO DAS REVISIÓNS 
+ 
+NÚMERO DATA MOTIVO 
+0 Agosto de 2021 Edición inicial 
+   
+   
+   
+   
+ 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+4 
+1. INTRODUCIÓN 
+A evidencia da transmisión por aerosois do SARS- CoV-2, o feito de que a vacinación entre a 
+poboación máis nova aínda se estea a iniciar e a presenza de novas va riantes, algunhas cunha 
+posible maior transmisibilidade e xa predominantes na nosa contorna, fan necesario manter medidas 
+fronte á COVID-19 nos centros da Universidade da Coruña (UDC) para o curso 2021/22, co obxecto 
+de garantir a maior seguridade neste ámbito. As devanditas medidas deberán ser adaptadas aos 
+posibles escenarios que poidan darse no contexto pandémico nos próximos meses. 
+Débese destacar que estas instrucións nacen coa vocación de servir de transición entre a situación 
+de presencialidade adaptada durante o curso 2020/ 21 e a situación de normalidade adaptada 
+que se prevé para o curso 2021/22. 
+Estando próximo o inicio do curso 2021/22, cómpre establecer uns requisitos mínimos que garantan 
+a calidade dos servizos desenvolvidos, docentes e non docentes, no seu transcurso, así como definir 
+unha serie de medidas de prevención e control que lle dean confianza e seguridade á comunidade 
+universitaria. 
+O obxecto deste documento é determinar as condi cións dos lugares de tr aballo e das medidas 
+preventivas e de pr otección perso al necesarias fronte á pro pagación da COVID-19 para o 
+desenvolvemento das actividades da Facultade de Dereito de cara ao inicio do curso académico 
+2021/22, de acordo coas recomendacións das autoridades no momento da súa redacción: 
+a) Instrucións do 1 de xullo de 2021, da Secretaría Xeral de Universidades, de previsión de medidas 
+de adaptación das universidades do Sistema Universitario de Galicia para o curso 2021/22 
+b) Medidas de prevención, hixiene e promoció n da saúde fronte á COVID-19 para centros 
+universitarios no curso 2021/22, do  Ministerio de Sanidade e do Ministerio de Universidades, 
+aprobadas pola Comisión de Saúde Pública o 16/07/2021 
+O curso universitario 2021/22 prevé un escenario de seguridade adaptada que, segundo como se 
+evolucione na nova normalidade, pode conducirnos a un escenar io alternativo. Descártase 
+considerar un escenario de confinamento. 
+a) Escenario 1: NORMALIDADE ADAPTADA 
+b) Escenario 2: ALTERNATIVO 
+Cada escenario activarase en función das normas para previr o contaxio da COVID-19 que sexan 
+adoptadas polas autoridades estatais ou autonómicas competentes na materia. Xa que logo, este 
+documento está en revisión per manente en función da informac ión emitida polos organismos 
+competentes e formúlase atendendo aos seguintes principios: 
+a) O respecto do carácter presencial da docencia na UDC. 
+b) A flexibilidade necesaria para adaptar a activida de universitaria aos di ferentes escenarios, á 
+busca de fórmulas abondo dúctiles para atender ás diferenzas entre as titulacións que se imparten. 
+c) A responsabilidade, tanto cole ctiva como individual, de todos  os axentes que conforman a 
+comunidade universitaria. 
+Este documento será accesible a toda a comunidade universitaria a través da web da UDC. 
+2. CENTRO  
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+5 
+ 
+Denominación: Facultade de Dereito 
+Enderezo: Campus de Elviña s/n 
+Localidade: A Coruña 
+Provincia: A Coruña 
+Código postal: 15071 
+Teléfono: 881011500 
+Enderezo electrónico: decanato.dereito@udc.es 
+Capacidade máxima do edificio 
+Por superficie: 1463 persoas 
+Por uso: 2900 persoas 
+Covid-19 (75%) 2175 persoas 
+ 
+3. RESPONSABLE COVID-19 
+Na UDC o máximo responsable é o reitor, quen, xunto co equipo de goberno, xestionará as medidas 
+que cumpra tomar fronte á COVID-19 e se fará cargo de todas as actuacións que se desenvolvan 
+na UDC, tanto docentes como sanitarias. 
+A persoa responsable das medidas que se tomen fron te á COVID no edificio da Facultade de 
+Dereito é o Decano, quen, entre outras funcións, será a canle de comunicación do centro co reitor 
+e co equipo de goberno da UDC ante calquera trámite de urxencia que deba realizarse por mor da 
+COVID-19.Tamén será a persoa responsable de adoptar as medidas oportunas no centro ante a 
+aparición dun posible positivo, así como de organizar os recursos humanos e materiais con que conte 
+para o desenvolvemento da actividade do centro dentro de parámetros de normalidade. 
+En materia preventiva e sanitaria, contarase co asesoramento do Servizo de Prevención de Riscos 
+Laborais da UDC. 
+No caso de se declarar un gromo, seguiras e o sinalado neste docume nto e o procedemento de 
+actuación do documento de Boas prácticas nos centros de traballo para a prevención de contaxios 
+da COVID-19, xunto coa Resolución reitoral sobre medidas e liñas de actuación en materia de 
+prevención de riscos laborais fronte á COVID-19 e a reincorporación presencial do persoal, amais 
+das súas posteriores revisións. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+4. MEDIDAS PARA DESENVOLVER 
+Sen prexuízo do cumprimento da normativa de prevención de riscos laborais e da normativa laboral, 
+as persoas responsables dos centros adoptarán as accións necesarias para cumprir as medidas de 
+hixiene e prevención no tocante ao persoal traballador. 
+O centro facilitará á comunidade universitaria  información e formació n sobre as medidas de 
+prevención que deben tomarse (hixiene das mans, distancia interpersoal de polo menos 1,5 m, uso 
+correcto da máscara cando se precise, hixiene respiratoria etc.) a través da páxina web da UDC, da 
+súa propia páxina web e das súas redes sociais (véxanse os carteis informativos nos anexos deste 
+documento). 
+Como puntos xerais importantes respecto á COVID-19 cabe salientarmos os seguintes: 
+a) Existirán información e sinalización naqueles lugares en que for necesario para o cumprimento 
+das medidas de prevención. 
+b) Asegurarase a subministración de material de uso hixiénico-preventivo mentres funcione o centro 
+e repoñerase cando for necesario.  
+c) Proverase o persoal dun equipo de protección persoal adecuado para a r ealización das súas 
+funcións. 
+d) Todas as persoas que integran a comunidade universita ria deberán adoptar as medidas 
+necesarias para evitar xerar riscos de propagación da COVID-19, así como a propia exposición aos 
+devanditos riscos (deber de cautela e protección). 
+4.1. ANTES DE IR AO CENTRO 
+Os membros da comunidade universitaria (PAS, PDI, persoal investigador ou estudantado) deberán 
+ter en conta as seguintes recomendacións: 
+a) Calquera persoa que experimente algún dos síntomas máis comúns compatibles coa COVID-19, 
+tales como febre, calafríos, tose, sensación de falta de aire, diminución do olfacto e do gusto, dor de 
+gorxa, dores musculares, dor de cabeza, debilidade xeral, diarrea ou vómitos, deberá non acudir ao 
+centro, permanecer no seu domicilio e contactar co teléfono 900 400 116 ou co seu centro de saúde 
+para que lle indiquen como actuar o máis axiña posible. Nesta ligazón pode atoparse o Decálogo de 
+como actuar no caso de ter síntomas de padecer a COVID-19. 
+b) Igualmente, se existen conviventes no domicilio, deberá evitar o contacto  con eles e, de ser 
+posible, usar un cuarto de forma exclusiva ata recibir instrucións do seu servizo sanitario. 
+c) De estar en contacto estreito cun caso sospei toso ou probable (conviventes, familiares ou 
+persoas que estivesen no mesmo lugar que un caso mentres es te presentaba síntomas a unha 
+distancia menor de 1,5 m durante un tempo de polo me nos 15 min) ou de compartir espazo sen 
+gardar a distancia interpersoal cun caso confir mado (persoa afectada pola COVID-19), deberán 
+seguirse as condicións de illamento ou corentena que indiquen os dispositivos asistenciais ou de 
+saúde pública, sen poder abandonar o domicilio ou lugar de illamento ou corentena en ningún caso, 
+salvo autorización expresa do servizo sanitario por causas debidamente xustificadas. Tampouco se 
+deberá acudir ao centro de traballo ou de estudo, incluso en ausencia de síntomas, polo período que 
+establezan as autoridades sanitarias. Durante ese tempo cumpri rá realizar un seguimento por se 
+aparecesen síntomas da enfermidade. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+7 
+No caso de xa ter a pauta completa de vacinación ou de padecer COVID-19 nos últimos seis meses, 
+o protocolo da UDC indica que se debe solicitar o teletraballo a través do portal do persoal e quedar 
+en corentena ata ter un test negativo ou transcorrer dez días, co fin de limitar a posible transmisión 
+do coronavirus na UDC. 
+d) As persoas vulnerables á CO VID-19 (por exemplo, persoa s con hipertensión arterial, 
+enfermidades cardiovasculares, diabetes, doenzas pulmonares cr ónicas, cancro ou 
+inmunodepresión) poderán volver ao traballo sempre que a súa condición clínica estea controlada e 
+o permita. Manterán as medidas de protección de forma rigorosa. 
+Importante: cómpre que os membros da comunidade universitaria comuniquen de forma urxente á 
+persoa responsable da súa área, titor/a, xefe/a etc. a situación en que se atopen, co fin de avaliar os 
+posibles contactos no centro e adoptar as medidas de protección adecuadas, de ser o caso. Tamén 
+deben comunicala a través do correo electrónico habilitado para tal fin, info.covid@udc.gal. 
+4.2. ACCESO E DESPRAZAMENTO NO CENTRO 
+Ao centro poden acceder os membros da comunidade universitaria (PAS, PDI, persoal investigador 
+ou alumnado). Tamén se permitirá o acceso de acompañantes no caso daquelas persoas que os 
+necesiten. Tales acompañantes deberán cumprir as normas de prevención  xerais e manter a 
+distancia física de 1,5 m respecto ao resto de persoas que se atopen no centro. 
+Débese prestar especial atención ao alumna do con diversidade fu ncional ou necesidades 
+específicas de apoio educativo, xa que pode precisar certas adaptacións, como acompañantes de 
+apoio e medios materiais, axudas técnicas etc., que se facilitarán cos criterios de prevención que se 
+establecen neste documento. 
+As persoas alleas á co munidade universitaria deberán info rmar do seu acceso ao persoal de 
+conserxaría, co fin de que lles dean as instrucións necesarias, de ser o caso. 
+4.2.1. Entrada e saída 
+No acceso ao centro existirá un cartel informativo que indicará a capacidade máxima xeral do edificio 
+e a súa capacidade máxima no contexto da pandemia, en función da normativa. 
+As entradas e saídas estarán di ferenciadas e rotuladas cos sinais de entrada ou saída nun lugar 
+visible. 
+Lémbrase a prohibición de fumar no interior dos edificios da UDC e no exterior na zona de acceso 
+ao edificio se non se garante unha separación de 1,5 m respecto do resto das persoas en todo 
+momento. 
+O acceso ao edificio da Facultade de Dereito rea lizarase pola porta principal (andar baixo). O 
+persoal autorizado (PDI da Facultade de Dereito)  poderá tamén acceder ao edificio pola porta 
+traseira (3.º andar) coa súa chave. 
+A saída do edificio da Facultade de Dereito realizar ase pola porta principal (andar baixo) e polo 
+porta traseira con peche de seguridade e barra de apertura interior (andar 3.º).  
+ 
+As escaleiras de subida serán as escaleiras situadas na parte dianteira do edificio, tanto á 
+esquerda como á dereita 
+As escaleiras de baixada serán as situadas na parte traseira do edificio, tanto á esquerda como á 
+dereita, e a escaleira central. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+8 
+As escaleiras dianteiras e traseiras entre o 2.º andar e o 3.º andar ter án dobre dirección e serán 
+de subida e baixada. 
+ 
+É obrigatorio o uso da máscara hixiénica (recoméndase que sexa reutilizable, co fin de protexer o 
+medio ambiente) en todos os espazos do centro, durante a permanencia nel, para todas as persoas 
+que accedan ao seu interior, de acordo coas recomendacións das autor idades sanitarias e a 
+normativa vixente. Insístese na necesidade da súa correcta utilización, e en que ta l uso non debe 
+ser óbice para garantir a distancia interpersoal de 1,5 m. Esta información estará visible nun cartel 
+na zona de entrada ao edificio. 
+Deberá dárselle un uso axeitado á máscara, é dicir, esta deberá cubrir desde o tabique nasal ata o 
+queixo, ambos extremos incluídos. Ademais, a máscara que se empregue non deberá estar provista 
+de válvula exhalatoria, agás nos usos profesionais para os cales este tipo de máscara poida estar 
+recomendada. 
+A obriga do uso da máscara non será aplicable nos seguintes supostos:  
+a) Persoas que presenten algún tipo  de enfermidade ou dificultade respiratoria que poida verse 
+agravada polo uso da máscara.  
+b) Persoas en que o uso da másc ara resulte contraindicado por motivos de saúde debidamente 
+xustificados.  
+c) Persoas en situación de discapacidade ou dependencia que non dispoñan de autonomía para 
+quitar a máscara. 
+d) Persoas que presenten alteracións da conduta que fagan inviable a súa utilización.  
+e) Desenvolvemento de actividades que, pola propia natureza, resulten incompatibles co uso da 
+máscara.  
+f) No caso particular do consumo de tabaco ou de cigarros electrónicos, alimentos e bebidas na vía 
+pública ou en espazos ao aire libre, só se poderá exceptuar as persoas da obriga do uso da máscara, 
+e exclusivamente durante o indicado consumo, sempre que efectúen unha parada e se sitúen fóra 
+dos lugares habituais de circulación dos viand antes, de tal xeito que, tendo en conta a posible 
+concorrencia de persoas e as dimensións do lu gar, poida garantirse o mantemento, en todo 
+momento, da distancia de 2 m con outras persoas. 
+Tampouco será obrigatorio, aínda que si recomendable, o emprego da máscara en locais de uso 
+individual e en ausencia doutras persoas. 
+Nas portas principais existirá un cubo do lixo, con tampa e a poder ser accionado mediante pedal, 
+para poder tirar os refugallos da etiqueta respiratoria (máscaras e luvas). 
+Na zona próxima aos accesos existirá un dispensador de xel hidroalcohólico para a desinfección das 
+mans. Será visible e estará sinalizado. Comprobarase o seu contido ao longo da xornada e reporase 
+no caso de esgotarse. 
+Recoméndase que todo o persoal que acceda ao centro use o xel hidroalcohólico ou lave as mans 
+con auga e xabón durante 40-60 s. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+9 
+4.2.2. Corredores 
+Co fin de garantir a separación de 1,5 m nos desprazamentos polo centro, colocouse a 
+correspondente sinalización horizontal que indica as direccións e os sentidos de circulación. 
+Nos corredores, escaleiras etc. de máis de 1,5 m de ancho, o senti do da circulación é dobre, coa 
+característica de que sempre se circulará o máis  preto posible da dereita. Nos corredores ou 
+escaleiras cun ancho inferior a 1,5 m o sentido da circulación é único, polo que se crearán circuítos 
+para acceder ás diferentes zonas e abandonalas. 
+Haberá tamén sinais coa indicación de manter a distancia de seguridade e de que se respecte o 
+sentido da circulación en todos os corredores. 
+En todos os corredores existirá xel hidroalcohólico para a hixienización e desinfección das mans. 
+4.2.3. Ascensores 
+Os ascensores terán unha sinalización que indicará o seguinte: 
+a) Uso non recomendado. Só en caso necesario. 
+b) Prioridade absoluta de uso para aquelas persoas con mobilidade reducida e embarazadas. 
+c) Ocupación máxima dunha persoa, salvo que for posible garantir a separación de polo menos 1,5 
+m entre elas, ou no caso daquelas persoas que poidan precisar asistencia, que poderán empregar 
+o ascensor con quen as acompañe. 
+4.2.4. Aseos 
+Os aseos de menos de 4 m2 só serán utilizados por unha persoa, salvo no suposto daquelas persoas 
+que poidan precisar asistencia, caso en que se permitirá que entren con quen as acompañe. 
+Cando a superficie do aseo sexa maior de 4 m2, a súa ocupación máxima poderá ser do 100% se 
+son cabinas individuais, e do 50% se non as son. 
+Deberá reforzarse a limpeza e a de sinfección dos referidos espazos, de tal xeito que se garanta 
+sempre o seu estado de salubridade e hixiene. Nas portas dos locais atópase unha folla de rexistro 
+das limpezas en que se apunta como mínimo a hora e a persoa que efectuou as devanditas tarefas. 
+Nas portas dos aseos colocouse tamén información de interese para o seu uso correcto: 
+a) Normativa de uso. 
+b) Aforo do local. 
+c) Obriga de manter as fiestras pechadas. 
+d) Necesidade de baixar a tampa do váter antes da descarga da  cisterna para evitar a posible 
+xeración de aerosois que poidan conter o virus. 
+En cada aseo tense á disposición dos usuarios carteis informativos sobre como lavar as mans de 
+forma correcta.  
+Os aseos dispoñen de auga, xabón e papel para o secado de mans. Naqueles aseos en que existen 
+secadores de mans, os devanditos aparellos estarán fóra de uso para evitar a posible transmisión 
+do virus polos aerosois que poden xerar. 
+Disporase de papeleiras para depositar panos e calquera outro material desbotable, que se deberán 
+limpar de forma frecuente, polo menos unha vez ao día (segundo a súa utilización).  
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+10 
+4.2.5. Vestiarios e duchas 
+O uso da máscara será obrigatorio salvo no momento de se duchar e secar. 
+Débese manter a distancia de seguridade de 1,5 m entre os usuarios dos vestiarios e as duchas en 
+todo momento, para evitar, na medida do posible, a coincidencia de persoas, especialmente cando 
+se produzan cambios de quenda.  
+Os vestiarios e as zonas de ducha poderán usarse cunha ocupación de ata o 50% da capacidade 
+máxima permitida. O uso das duchas limitarase a unha persoa por dispositivo, sempre que se poida 
+manter a distancia de seguridade interpersoal, agás de se tratar de menores ou persoas que precisen 
+asistencia, que poderán contar coa axuda de quen os acompañe. 
+Se existen cabinas, estas poderanse utilizar ata o 100% da capacidade máxima permitida. 
+4.2.6. Máquinas expendedoras 
+O seu uso está autorizado. Seguiranse as seguintes recomendacións: 
+a) Uso individual. 
+b) Sinalizarase no chan a distancia de seguridade. 
+c) Evitaranse as aglomeracións diante das máquinas. 
+d) Para accionar os botóns recoméndase empregar un obxecto ou a man non dominante. 
+e) Ao remate do seu uso, as persoas usuarias lavarán as mans con auga e xabón ou utilizarán xel 
+hidroalcohólico. 
+f) O/a titular das máquinas asegurarase do cu mprimento das medidas adecuadas de hixiene e 
+desinfección destas, así como informará os usuarios do seu correcto uso mediante a instalación de 
+cartelaría informativa. 
+g) Deberase dispor de papeleiras onde depositar panos e calquera outro material desbotable. 
+Haberá que limpalas de forma frecuente, polo menos unha vez ao día. 
+4.3. ESPAZOS DE TRABALLO 
+4.3.1. Atención ao publico 
+As zonas de atención ao público existentes na Facultade de Dereito son: 
+a) Conserxaría 
+b) Administración 
+c) Biblioteca 
+d) UADI 
+e) Decanato 
+f) Cafetaría 
+ 
+Nestes lugares, durante todo o proceso de atención, a distancia entre o persoal da UDC e o público 
+será de polo menos 1 m cando se conte con el ementos de protección ou barreira (por exemplo, 
+biombos ou anteparos), ou de polo menos 1,5 m sen estes elem entos. Colocáronse biombos nos 
+postos onde non se puido garantir a distancia de seguridade de 1,5 m. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+11 
+O centro ten en lugares vi sibles carteis informativos  sobre a necesidade de ma nter a distancia 
+interpersoal e de agardar nunha determinada posición («Por favor, espere aquí») para regular a 
+espera nos espazos de atención ao público. 
+A atención presencial ao público non terá li mitacións sempre que se garantan as medidas de 
+seguridade e se cumpra a normativa vixente, aí nda que se fomentará a r ealización de xestións 
+telemáticas e se priorizarán os envíos por correo, as mensaxes electrónicas e o contacto telefónico 
+e en liña. Recoméndase, en función das características o servizo, o uso do sistema de cita previa 
+para a atención presencial. 
+A conserxaría dispón de máscaras de protección para as persoas usuarias que as precisen no caso 
+de rotura, esquecemento etc. da propia. Nas súas proximidades haberá un cubo do lixo con tampa 
+e, a ser posible, accionado mediante pedal. 
+No caso de aparecer un posible caso de COVID-19, a conserxarí a conta cun termómetro dixital 
+infravermello para a toma da temperatura da persoa afectada, así como de máscaras cirúrxicas para 
+subministrarlle ao posible caso e máscaras FFP2 para a persoa do centro que o acompañe ata o 
+local de corentena mentres os servizos sanitarios non indican como proceder. 
+4.3.2. Espazos de uso común non docente 
+Considéranse espazos destas ca racterísticas principalmente os salóns de actos e as salas de 
+reunións. 
+Todos os espazos de uso comú n contan cunha sinalización na entrada en que figura a súa 
+capacidade máxima en situación de pandemia, así como indicacións de cales son os asentos que 
+poden ser ocupados, co fin de garantir a distancia de seguridade. 
+Na Facultade de Dereito os locais que se consideran de uso común son o Salón de Actos, o Salón 
+de Graos, a Sala de Profesores e a Sala de Vistas. 
+O uso destes locais realizarase con reserva pr evia e de tal xeito que se garantan as seguintes 
+condicións: 
+a) O respecto da capacidade máxima en situación de pandemia. 
+Na data de redacción deste documento a capacida de máxima en situación de pandemia destes 
+locais é do 50% da capacidade máxima xeral. Deberase garantir sempre unha separación mínima 
+de 1,2 m entre usuarios en todas as direccións se as cadeiras non están fixas. Se as cadeiras están 
+fixas, empregaranse unha si outra non de forma alternativa en todas as direccións. 
+b) O cumprimento da separación entre as persoas asistentes. 
+c) A ventilación antes e despois do seu uso. 
+d) A limpeza e desinfección antes e despois do seu uso. 
+e) A existencia de xel hidroalcohólico na zona. 
+4.3.3. Espazos compartidos por varios traballadores da UDC 
+Considéranse espazos compartidos por máis dun/dunha traballador/a os seguintes: 
+a) Despachos e locais usados por máis dun/dunha traballador/a á vez. 
+b) Locais usados por máis dun/dunha traballador/a en distintos horarios (a quendas). 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+12 
+En todos os locais de uso compartido garantirase que a separación entre as persoas sentadas nos 
+seus postos sexa de 1,5 m. No caso de que non exista esa separación, reorganizarase o espazo e 
+instalaranse anteparos e/ou biombos. 
+Cando os postos sexan utilizados en quendas por distintos traballadores garantirase a súa limpeza 
+e desinfección entre o us o dunha e doutra persoa.  No caso de que se compartan o teléfono, o 
+ordenador etc.), contarase cun pequeno equipo para a desinfección deses obxectos. 
+No acceso, a circulación etc. por estes locais será obrigatorio o uso da máscara aínda que se garanta 
+a separación entre persoas de 1,5 m. Só se poderá retirar cando se estea en locais de uso individual 
+e non haxa outras persoas presentes, ou nos puntos indicados no apartado 4.2.1. 
+4.3.4. Aulas 
+Na porta de acceso ás aulas colocarase un cartel coa indicación da súa capacidade máxima tendo 
+en conta o cumprimento da normativa vixente en cada momento. 
+Na data de redacción deste documento a capacidade máxima das aulas é do 50% da súa capacidade 
+máxima xeral, e sempre se deber á garantir unha separación mínima de 1,2 m entre usuarios en 
+todas as direccións se as cadeiras non están fixas. Se as cadeiras están fixas, empregaranse unha 
+si outra non de forma alternativa en todas as direccións. 
+Será obrigatorio que todo o profesorado e todo o alumnado leven sempre máscara, salvo as persoas 
+indicadas no apartado 4.2.1 que o acrediten cando se lles solicite . Esta obrigatoriedade estará 
+sinalizada por medio dun cartel na porta da aula. 
+Na porta da aula indicarase a forma de acceder e saír, os lugares que poden ser ocupados polo 
+alumnado garantindo a separación establecida e a orde de ocupación. 
+Ao acceder ás aulas ou abandonalas haberá que utilizar xel hidroalcohólico ou lavar as mans con 
+auga e xabón como mínimo durante 40-60 s. 
+Non se compartirán obxectos perso ais nin bolígrafos, lapis, papel,  calculadoras etc. A roupa, os 
+bolsos, as mochilas etc. colocaranse debaixo da cadeira.  
+Recoméndase que o alumnado ocupe as aulas polo maior espazo de tempo posible e que sexan os 
+docentes os que cambien de aula. Garantirase que os docentes teñan á súa disposición material 
+para a desinfección dos materiais compartidos nas aulas. 
+Recoméndase que as aulas estean ventiladas antes do seu uso. Abriranse as xanelas durante o 
+tempo necesario para permitir a renovación do aire (mínimo durante 10-15 min ao inicio e ao final da 
+xornada e sempre que for posible entre clases). Evitaranse as correntes de aire. 
+Cando o uso da aula sexa continuo ou supere os 60 min deberase garantir unha ventilación mínima 
+de 10 min cada hora. 
+Con todo, é preferible empregar aulas espello ou docencia telemática simultánea, co fin de evitar 
+concentracións moi elevadas de estudantes nas aulas. 
+Restrinxiranse as saídas e entradas das aulas ás imprescindibles e faranse por quendas. 
+Para evitar aglomeracións, aconséllase graduar o acceso e as saídas, tanto do edificio como das 
+aulas.  
+4.3.5. Prácticas de campo  
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+13 
+Con antelación ao inicio da práctica, cada docente in formará o alumnado das instrucións de 
+seguridade fronte á COVID-19 que deba cumprir, entre as cales figurarán as seguintes: 
+a) Respectar a distancia interpersoal, como mínimo de 1,5 m, e ut ilizar máscara sempre que for 
+posible. 
+b) Todos os participantes levarán unha máscara de reposto por se a que están a usar rompe, se 
+estraga ou a perden. 
+c) Todos os participantes levarán xel hidroalcohólico para a limpeza e desinfección das mans. 
+d) No exterior o uso da máscara non será obrigatorio se se garante a distancia interpersoal de 1,5 m 
+entre os participantes, aínda que si é recomendable. 
+Canto ao emprego de autobuses ou vehículos pa ra a realización das prácticas de campo, 
+respectaranse as instrucións da persoa que os conduza, así como as seguintes indicacións:  
+a) Uso obrigatorio da máscara para as persoas usuarias e para o/a condutor/a.  
+b) No interior dos vehículos, procurarase non sacar o móbil nin calquera outro obxecto cuxo uso 
+resulte innecesario, para evitar contaminalo.  
+c) Procurarase tocar o menos posible as portas, as fiestras, os asentos etc.  
+d) Antes e despois da viaxe, lavaranse as mans con xel hidroalcohólico ou auga e xabón tan axiña 
+como se poida.  
+4.3.6. Reunións, titorías, xornadas e congresos, prácticas externas e intercambios 
+As reunións terán lugar preferentemente, e semp re que for posible, de maneira non presencial 
+(mediante, por exemplo, vide oconferencia). De cumprir que sexan presenciais, gardaranse 
+estritamente as medidas de prevención e utilizarase máscara.  
+Nas titorías evitarase, na medida do posible, a afluencia de estudantes nas salas ou despachos de 
+pequeno volume. Aconséllase evitar a atención directa no despacho e manter as titorías de forma 
+non presencial (mediante, por exemplo, videoconferencia, correo electrónico etc.).  
+Os congresos, encontros, conferencias e demais eventos que poidan orga nizarse no ámbito da 
+investigación científica e técnic a, o desenvolvemento e a inno vación, realizaranse segundo a 
+lexislación vixente. 
+a) Reunións, titorías, prácticas externas e intercambios 
+Segundo a Orde do 25 de xuño de 2021, pola que se establecen medidas de prevención específicas 
+como consecuencia da evoluc ión da situación epidemioló xica derivada da COVID-19 na 
+Comunidade Autónoma de Galicia, e as súas posteriores modificacións, os actos e reunións laborais, 
+institucionais, académicos, profesionais, si ndicais, de representación de traballadores e 
+administrativos, amais das actividades en centro s universitarios, educativos, de formación e 
+ocupacional, poderanse realizar sen superar o 75% da capacidade permitida, sempre que o público 
+asistente permaneza sentado, cun límite máximo de cincocentas persoas para lugares pechados e 
+de mil persoas se se trata de actividades ao aire libre. 
+En todo caso, deberán establecerse as medidas necesarias para manter a distancia de seguridade 
+interpersoal e o uso de máscara de acordo co establecido neste plan. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+14 
+Os límites sinalados, con todo, poderán ampliarse logo de autorización da Dirección Xeral de Saúde 
+Pública, atendendo ás concretas medidas organizativas e de seguridade propostas e aos riscos de 
+contaxio. Neste caso, cumprirá solicitude dos titulares, promotores ou organizadores das actividades, 
+públicos ou privados, que deberá ir acompañada dun plan de prevención de contaxios de acordo cos 
+criterios sinalados no documento de Recomendacións para eventos e actividades multitudinarias no 
+contexto da nova normalidade pola COVID-19 en España, elaborado polo Centro de Coordinación 
+de Alertas e Emerxencias Sanitarias da Dirección Xeral de Saúde Pública, Calidade e Innovación, 
+do Ministerio de Sanidade, ou aqueloutros que o desenvolvan, modifiquen ou substitúan. 
+b) Xornadas, congresos e eventos con público 
+Segundo a Orde do 25 de xuño de 2021, pola que se establecen medidas de prevención específicas 
+como consecuencia da evoluc ión da situación epidemioló xica derivada da COVID-19 na 
+Comunidade Autónoma de Galicia, e as súas posteriores modificacións, as competicións deportivas 
+con público e as actividades en cines, teatros, auditorios, congresos e outros eventos e espazos 
+similares, así como en recintos ao aire libre e noutros locais e establ ecementos destinados a 
+espectáculos públicos e actividades recreativas  poderán desenvolverse sen superar o 75% da 
+capacidade permitida, sempre que o público asistente permaneza sentado e cun límite máximo de 
+cincocentas persoas para lugares pechados e de mil persoas se se trata de actividades ao aire libre. 
+En todo caso, deberán establecerse as medidas necesarias para manter a distancia de seguridade 
+interpersoal de acordo co est ablecido no punto 1.3 da devandita orde. O uso da máscara será 
+obrigatorio nos termos previstos no número 1.4 do anexo I desta orde. 
+Co fin de evitar aglomeracións, a distribución das persoas asistentes nos asentos será homoxénea 
+e haberá unha planificaci ón axeitada para controlar os acce sos e o fluxo de circulación. Debe 
+preverse a apertura de todas as portas dispoñibles con antelación abonda. 
+Terán que establecerse as medidas necesarias para manter a distancia de seguridade interpersoal 
+no resto das instalacións ou, se isto non é posible, a utilización de medidas alternativas de protección 
+física. 
+O uso da máscara será obrigatorio en todo momento, mesmo no caso de que se manteña a distancia 
+de seguridade interpersoal nos termos previstos nas medidas hixiénico-sanitarias. 
+Nas butacas ou os asentos preasignados, as persoas asistentes non poderán quitar a máscara. 
+Deberán realizarse tarefas de ventilación nas inst alacións cubertas, por espazo de, polo menos, 
+30 min ao comezo e ao final de cada xornada, así como de fo rma frecuente durante esta e 
+obrigatoriamente ao finalizar cada actividade. No caso do emprego de sistemas de ventilación 
+mecánica, deberá aumentarse a subministración de aire fresco e non se poderá utilizar a función de 
+recirculación do aire interior. 
+Terá que existir un rexistro de asistentes ao evento, o cal cumprirá custodiar durante o mes seguinte, 
+coa súa información de contacto, di spoñible para as autoridades sanitarias. Na súa elaboración 
+respectaranse as normas de protección de datos de carácter persoal. 
+Deberán intensificarse as medi das de limpeza e desinfección da s instalacións con produtos 
+debidamente autorizados e rexistrados. 
+No caso dos congresos, encontros, eventos e actos similares, se as persoas asistentes non van 
+permanecer sentadas en todo momento, solicitarase a autorización da Dirección Xeral de Saúde 
+Pública. Na devandita solicitude recolleranse o tipo de evento e as datas  en que terá lugar, as 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+15 
+actividades que se van levar a cabo e as medidas concretas organizativas e de seguridade propostas 
+para os riscos de contaxio. 
+En todo caso, nas actividades en que se pret enda superar as capacid ades máximas previstas 
+conforme cada nivel de restricións, a Direcció n Xeral de Saúde Pública,  logo de solicitude dos 
+titulares ou promotores da actividade, disporá a realización dunha avaliación do risco para outorgar 
+a autorización, de acordo co disposto nas Recomendacións para eventos e actividades 
+multitudinarias no contexto da nova normalidade pola COVID-19 en España, adoptadas na Comisión 
+de Saúde Pública do Consello Interterritorial do Sistema Nacional de Saúde. O prazo para avaliar o 
+risco será de dez días, sen prexuízo dunha revisión de oficio posterior, se a situación epidemiolóxica 
+así o esixe. 
+Durante a realización de práctica s académicas externas seguiran se as medidas de prevención 
+establecidas polas entidades colaboradoras, tales como empresas, institucións e entidades públicas 
+e privadas.  
+Os intercambios internacionais terán lugar segundo a lexislación vixente. 
+4.3.7. Bibliotecas 
+No acceso colocarase un cartel informativo sobre a capacidade da(s) sala(s), as recomendacións 
+para o uso das instalacións, o mantemento da dist ancia física, o uso de máscaras, o lavado das 
+mans etc. 
+Cómpre dispor de dispensadores de xel hidroalcohólico para traballadores e usuarios, á entrada da 
+biblioteca e nos mostradores. 
+a) Postos de traballo 
+‒ Garantirase o mantemento da distancia de seguridade de 1,5 m. Cando isto non for posible, 
+deberán colocarse anteparos ou biombos, ou ben establecerse quendas. 
+‒ Recoméndase que cada traballador/a dispoña de equipamento e material propio. No caso de 
+ser compartido, garantirase a súa limpeza entre  quendas. Se o uso é compartido na mesma 
+quenda, dotarase o persoal dun pequeno equipo de desinfección. 
+b) Mostradores de préstamo 
+‒ Contarán con anteparos de separación sempre  que non se poidan ga rantir os 1,5 m de 
+separación entre traballadores e usuarios. 
+‒ Sinalizarase o chan cunha liña de espera que non debe ser tras pasada ata que a cada 
+usuario/a lle toque a súa quenda. 
+‒ Procederase a desinfectar a zona do mostrador utilizada para iso despois de cada préstamo 
+ou devolución. 
+c) Andeis 
+Evitar o contacto directo dos usuarios cos andeis onde se atopen os libros e as revistas. 
+d) Equipamento de uso público 
+Os medios tecnolóxicos de uso público poderán empregarse sempre que despois de cada utilización 
+os elementos se desinfecten, o cal será indicado. Contarase cun pequeno equipo de desinfección. 
+e) Organización do persoal 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+16 
+Recoméndase que na zona de préstamo, as salas e os depósitos só se atope unha persoa por zona 
+de estantes. De non ser posible, manterase a debida distancia entre elas. 
+A prestación do servizo realizarase respectando os seguintes criterios: 
+a) Xeral 
+Para acceder será obrigatorio levar máscara e lavar as mans con xel hidroalcohólico á entrada, así 
+como respectar a distancia de seguridade e a capacidade máxima do local. 
+Nas bibliotecas, os arquivos, os museos e as  salas de exposicións, os monumentos e outros 
+equipamentos culturais, tanto de titularidade pública como privada, as actividades presenciais 
+poderán atinxir o 75% da capacidade máxima permitida. 
+Este límite de ocupación será aplicable tamén ás actividades cu lturais que se efectúen nestes 
+espazos, cun máximo de ata vinte persoas nas actividades de grupos, sexan ou non conviventes, 
+excluído o/a monitor/a ou guía. Cumprirá establecer as medidas necesarias para procurar a distancia 
+de seguridade interpersoal durante o desenvolvemento da activida de, agás no caso de persoas 
+conviventes. 
+Recoméndase servirse da cita previa, a encarga e/ ou a reserva na presta ción dos servizos para 
+evitar aglomeracións. 
+b) Consulta en sala 
+Os usuarios deberán identificarse cando cheguen á biblioteca e informar da súa saída. 
+As obras serán solicitadas polos usuarios e proporcionadas polo persoal da biblioteca. Unha vez 
+consultadas, depositaranse nun lugar apartado durante polo menos 24 h. 
+Sinalizaranse os postos de lectura habilitados , en que se garantirá a existencia de 1,5 m de 
+distanciamento entre os usuarios. Nunca haberá unha per soa usuaria fronte a outra (sempre se 
+situarán en diagonal) e esta distribución será a que nos dea a capacidade máxima da sala. 
+Sempre que for posible, eliminarase o posto de lectura que non se vaia utilizar mediante a supresión 
+da cadeira, para evitar así a súa posible infección. 
+As persoas responsables da biblioteca establecerán un sistema que asegure que un posto ocupado 
+durante a xornada por unha persoa usuaria non poida ser empregado por outra ata que se proceda 
+á súa limpeza e desinfección. 
+c) Servizo de préstamo e devolución 
+Sempre que for posible, priorizarase o préstamo do exemplar electrónico fronte ao exemplar impreso. 
+Tanto o préstamo como a devolución de exemplares terán lugar en condicións que salvagarden a 
+seguridade do persoal e os usuarios. 
+De o permitiren as instalacións e de contar con persoal, habilitarase un mostrador para o préstamo 
+e outro para as devolucións. 
+d) Préstamo interbibliotecario 
+O préstamo e a devolución dos libros na biblioteca correspondente farase con cita previa. 
+Aos libros e outros materiais impresos que estiveren en préstamo, unha vez devoltos, aplicaráselles 
+un período de corentena de 24 h, de modo que quedarán deposi tados nunha zona específica da 
+biblioteca habilitada para este fin. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+17 
+4.3.8. Cafetarías 
+Recoméndase que o protocolo sexa común para todas as cafetarías. Deberá cumprir a Orde do 25 
+de febreiro de 2021, pola que se establecen as actuacións necesarias para a posta en marcha do 
+Plan de hostalaría segura da Comunidade Autónoma de Galicia, e súas posteriores modificacións. 
+Haberá que entregarlles unha copia deste protocolo aos responsables do centro para que a inclúan 
+no documento xeral do centro. 
+Deberase proceder á limpeza e desinfección frecuente de calquera tipo de dispositivo, así como das 
+cadeiras, mesas ou calq uera outro mobiliario ou superficie de contacto que empreguen distintos 
+usuarios. 
+No acceso colocarase un cartel que informará da capacidade, as recomendacións para o uso das 
+instalacións, o mantemento da distancia física, o uso de máscaras, o lavado das mans etc. 
+4.3.9. Coordinación de actividades empresariais 
+Será necesario coordinar as actividades empresar iais relativas á existenc ia da COVID-19 coas 
+empresas que presten servizos nos centros, ou ben teñan en aluguer ou cedido calquera espazo. 
+Propiciarase o intercambio de información cant o ás normas de prevención da infección por 
+coronavirus, de xeito similar a como se realiza habitualmente para o traballo cotián, isto é, dun lado, 
+proporcionaranse as normas ex istentes no centro para o control da COVID-19; e, do outro, 
+recolleranse das contratas as normas que vaian aplicar os seus propios traballadores. 
+ 
+4.4. LIMPEZA E VENTILACIÓN 
+Cada centro disporá dun protocolo de limpeza, desinfección e ventilación, que responderá ás súas 
+características e ás intensidades de uso dos espazos e dispositivos con que conta.  
+O centro debe manter un aprovisionamento sufici ente do material de limpeza preciso para poder 
+acometer as tarefas de hixienizac ión reforzada a diario. Entre outros materiais, lixivia e produtos 
+autorizados polo Ministerio de Sanidade para desinfectar. 
+Deberán intensificarse as medi das de limpeza e desinfección da s instalacións con produtos 
+debidamente autorizados e rexistrados.  
+A empresa que fai a limpeza e desinfección, Salgado, é a encargada do baleirado das papeleiras. 
+O centro elaborou un protocolo de limpeza cos seguintes principios: 
+a) Prestarase especial atención ás zonas de uso común e ás superficies de contacto máis frecuente 
+(pomos das portas, mesas, portas, pasamáns, teléfonos, equipos informáticos etc.). 
+b) Realizarase cando menos unha limpeza ao día de todas as zonas de uso común. 
+c) No caso dos aseos, limparanse un mínimo de tres veces diarias. 
+d) Nos postos de traballo compartidos por máis dunha persoa, a limpeza e a desinfección do posto 
+efectuaranse logo de finalizar cada uso ou a quenda, ou ben ao seu inicio. 
+e) Todos os postos compartidos ao longo da xornada por máis dunha persoa contarán cun pequeno 
+equipo de desinfección de uso do persoal, co fi n de fomentar que os propios usuarios manteñan 
+desinfectados os obxectos e as superficies que empreguen. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+18 
+f) Os deterxentes habituais son suficientes, aínda que tamén se pode considerar a incorporación 
+de lixivia ou outros produtos desinfectantes  ás rutinas de limpeza, sempre en condicións de 
+seguridade. 
+g) Débese revisar o funcionament o dos dispensadores de xabón, xel desi nfectante, papel 
+desbotable etc. polo menos diariamente. Procederase a reparar ou substituír aqueles que presenten 
+avarías. Recoméndase dispoñer dun rexistro destas accións. Tamén se debe vixiar o funcionamento 
+e a limpeza de sanitarios e billas de aseos. 
+h) Débese asegurar unha correcta protección do persoal encargado da limpeza. Todas as tarefas 
+de limpeza deben realizarse con máscara e luvas dun só uso. Para as tarefas de limpeza, é 
+aconsellable utilizar de luvas de vinilo/ acrilonitrilo. No caso de empregar luvas de látex, recoméndase 
+facelo sobre unha luva de algodón. O uso de luvas non é recomendable de forma xeral, mais si nas 
+tarefas de limpeza.  
+i) Unha vez finalizada a limpeza, e tras retirar luvas e máscara, é necesario que o persoal de 
+limpeza realice unha completa hixiene das mans, con auga e xabón durante, polo menos, 40-60 s.  
+j) Instalarase nos locais, nun luga r visible para as persoas usua rias, un control de limpezas e 
+desinfeccións, en que se indicarán o día e hora en que se fixo a limpeza e os datos da persoa que a 
+efectuou. 
+Respecto da ventilación, recoméndase unha ventilación periódica das instalacións. Como mínimo, 
+de forma diaria e por espazo de 10-15 min ao inicio e ao final da xornada, ademais de entre clases, 
+sempre que for posible. Recoméndase ventilar as aulas e os espazos ocupados entre quendas de 
+clases e de traballo, saídas de reunións etc. 
+A ventilación dos espazos pechados en que se leven a cabo actividades físicas e deportivas ten que 
+verse tamén reforzada. Cumprirá levar a cabo tarefas de ventilación nas instalacións cubertas por 
+espazo de polo menos 30 min ao inicio e final de cada xornada, durante esta e obrigatoriamente ao 
+finalizar cada clase ou actividade de grupo. De se utilizar sistemas de ventilación mecánica, terá que 
+aumentarse a subministración de aire fresco e non poderá usarse a función de recirculación do aire 
+interior. 
+Os despachos, as salas de reunións e similares poderán ventilarse cando non estean ocupados. 
+Aconséllase manter a temperatura do centro entre 23 e 26 ºC. 
+É recomendable reforzar a limpeza dos filtros de aire e aumentar o nivel de ventilación dos sistemas 
+de climatización para renovar o aire de maneira máis habitual. 
+4.5. XESTIÓNS DE CASOS 
+Calquera persoa que experimente algún dos síntomas máis comúns compatibles coa COVID-19, 
+tales como febre, calafríos, tose, sensación de falta de aire, diminución do olfacto e do gusto, dor de 
+gorxa, dores musculares, dor de cabeza, debilidade xeral, diarrea ou vómitos deberá permanecer 
+no seu domicilio e comunicalo ao seu servizo sanitario o antes posible. 
+Igualmente, se existen conviventes no domicilio, deberá evitar o contacto con eles e, se é posible, 
+usar un cuarto de forma exclusiva ata recibir instrucións do seu servizo sanitario. 
+Non poderán acceder ao centro aquelas persoas con síntomas compatibles coa COVID-19  nin 
+aquelas ás cales se lles diagnosticase a enfermidade e que non finalizasen o período de illamento 
+requirido, nin aqueloutras que se encontren en período de corentena domiciliaria por contacto estreito 
+con algunha persoa con síntomas ou diagnosticada da COVID-19.  
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+19 
+Medidas específicas para casos e contactos estreitos: 
+As persoas que sexan consideradas caso sospeitoso ou probable de infección polo virus SARS-CoV-
+2, por teren infección respirator ia aguda grave con cadro clínico ou radiolóxico compatible coa 
+COVID-19, ou que estean pendentes dos resultados de probas diagnósticas por este motivo, así 
+como as que sexan consideradas caso confirmado con infección activa e as consideradas contacto 
+estreito dun caso sospeitoso, probable ou confirmado, deberán cumprir as condicións de illamento 
+ou corentena que lles sexan indicadas desde os dispositivos asistenciais ou de saúde pública. Non 
+poderán abandonar o seu domicilio ou lugar de illamento ou co rentena en ning ún caso, salvo 
+autorización expresa do servizo sanitario por causas debidamente xustificadas. 
+Establecerase un procedemento de actuación para a eventualidade de que PAS, PDI, PCP, 
+alumnado ou calquera persoa presente no centro teña síntomas compatibles coa COVID-19. 
+4.5.1. Procedemento de actuación 
+O procedemento de actuación consiste en seguir estes pasos: 
+a) Contactar co número de atención sobre a COVI D-19 da Xunta de Galicia (900 400 116) ou 
+urxencias do Sergas (061), co fin de comunicar a posible existencia dun caso e recibir as indicacións 
+oportunas. 
+b) No caso de percibir que a persoa que comeza a ter síntomas está nunha situación de gravidade 
+ou ten dificultade para respirar, avisarase ao 112. 
+c) Avisarase a persoa que sexa responsable COVI D-19 do centro para xestionar o posible caso 
+(Decano) 
+d) Facilitaráselle á persoa con síntomas unha má scara cirúrxica, ment res que a persoa que a 
+acompañará recibirá unha máscara de tipo FFP2 (recollerase na conserxaría ou no local COVID-19, 
+segundo proceder). 
+e) Tomaráselle a temperatura á persoa con síntom as cun termómetro infravermello que estará 
+dispoñible no centro. 
+f) Trasladarase a persoa con síntomas ao local habilitado para o seu illamento. Recoméndase que 
+esta sala conte cun cubo do lixo con tampa, e a ser posible accionado mediante pedal, e ventilación 
+natural. Na Facultade de Dereito o local loca lizase no andar baixo na zona dos locais das 
+asociacións de estudantes e conta cun cartel que indica “LOCAL COVID”.e conta cun cartel que 
+indica «LOCAL COVID». 
+g) É necesario illar o contedor onde se depositen os panos ou outros produtos que poidan usarse. 
+Esa bolsa do lixo deberá ser extraída e colocada nunha segunda bolsa do lixo, con peche, para o 
+seu depósito na fracción resto. 
+h) No traslado evitarase o contacto desta persoa con síntomas con outras persoas do centro. 
+i) De confirmarse o caso ou ter dúbidas, deberase  limpar e desinfectar a sala inmediatamente,  
+e proceder logo a ventilala. 
+j) Recompilaranse os datos de todas as persoas que estivesen en contacto co posible positivo, co 
+fin de que, no caso de se  confirmar o positivo, se adopten as  medidas oportunas para limitar os 
+posibles contaxios. 
+4.5.2. Limpeza de locais con persoal afectado pola COVID-19 
+a) A limpeza farase con luvas de nitrilo dun só uso e máscara FFP2 sen válvula de exhalación. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+20 
+b) Tanto con anterioridade á limpeza como durante esta, procurarase que o local estea ventilado. 
+c) A limpeza iniciarase desde a parte máis afastada da porta de entrada cara a esta.  
+d) Limparase primeiramente con auga e xabón as superficies de contacto frecuente.  
+e) Utilizaranse desinfectantes para a limpeza dos po mos das portas, as super ficies do baño, as 
+mesas, os mandos a distancia, os interruptores, as  billas do baño, os ino doros, os teléfonos, os 
+teclados etc. 
+f) Recoméndase o emprego de papel ou material téxtil desbotable con desinfectante para a limpeza 
+das superficies, e de toalliñas con desinfectante para os obxectos. 
+g) O material utilizado que sexa desbotable introducirase nun colector de residuos con tampa e a 
+etiquetaxe coas advertencias precisas, de ser o caso.  
+h) Unha vez finalizada a limpeza, quitaranse as luvas e a máscara e depositaranse nunha bolsa que 
+se pechará adecuadamente e se desbotará co resto dos residuos. 
+i) Realizarase unha completa hixiene das mans, con auga e xabón, polo menos durante 40-60 s.  
+j) A roupa da persoa que limpe deberá introducirse nunha bolsa que se pechará. Despois lavarase 
+cun deterxente de roupa normal nun programa cunha temperatura de polo menos 60 ºC. 
+k) É aconsellable que o persoal que realice a limpeza dos cuartos ocupados polo persoal afectado 
+pola COVID-19 se duche no centro  de traballo antes de abandonalo,  de ser posible, co fin de 
+minimizar o risco de trasladar o virus a outras localizacións. 
+l) O persoal de limpeza recibirá a formación adecuada para a limpeza destas áreas e para o uso 
+do equipo de protección individual adecuado e necesario para acceder a elas. 
+4.5.3. Xestión de residuos dos casos de COVID-19 
+Segundo as recomendación s do Ministerio de Sanidade, os re siduos do persoal afectado pola 
+COVID-19, incluído o material desbotable (luvas, panos, máscaras), cómpre eliminalos nunha bolsa 
+de plástico (bolsa 1) nun cubo do lixo disposto no LOCAL COVID, preferiblemente con tampa e 
+pedal. 
+Esta bolsa de plástico (bolsa 1) debe pecharse adecuadamente e ser introducida nunha segunda 
+bolsa do lixo (bolsa 2), á beira da saída do cuarto, onde ademais se depositarán as luvas e a 
+máscara utilizadas polo persoal da limpeza. A segunda bolsa pecharase adecuadamente antes de 
+saír da estancia.  
+A bolsa 2, cos residuos anteriores, depositarase nunha terceira bolsa do lixo (bolsa 3) co resto dos 
+residuos de tipo doméstico (fracc ión resto) que poida haber. A bolsa 3  tamén se pechará 
+adecuadamente.  
+Inmediatamente despois realizarase unha completa hixiene das mans, con auga e xabón, durante 
+polo menos 40-60 s.  
+A bolsa 3 depositarase exclusivamente no colector establecido. Está terminantemente prohibido 
+depositala nos colectores de recollida separada de calquera das fraccións (orgánica, envases, papel, 
+vidro ou téxtil) ou abandonala na contorna.  
+4.6. XESTIÓN DE RESIDUOS NO CENTRO DE TRABALLO 
+A xestión dos residuos ordinarios continuará a facerse da forma habitual, respectando os protocolos 
+de separación de residuos. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+21 
+Recoméndase que os panos desbotables que o persoal empregue para secar as mans ou cumprir a 
+etiqueta respiratoria sexan refugados en papeleiras ou contedores protexidos con tampa e, se é 
+posible, accionados por pedal.  
+Todo material de hixiene persoal (máscaras, luvas etc.) debe depositarse na fracción resto, isto é, a 
+agrupación de residuos de orixe doméstica q ue se obtén unha vez efectuadas as recollidas 
+separadas. 
+No caso de que calquera traballador/a presente síntomas compatibles coa COVID-19 mentres se 
+atopa no seu posto de traballo, será preciso il lar o contedor onde depositase panos ou outros 
+produtos usados. Esa bolsa do lixo deberá ser extraída e colocada nunha segunda bolsa do lixo, con 
+peche, para o seu depósito na fracción resto. 
+5. NORMATIVA E REFERENCIAS BIBLIOGRÁFICAS 
+DECRETO 77/2021, do 7 de maio, polo que se declara a perda de efectos a partir das 00.00 do 9 de 
+maio de 2021 das medidas adoptadas pola Presidencia da Xunta de Galici a na condición de 
+autoridade competente delegada no  marco do disposto polo Real  decreto 926/20 20, do 25 de 
+outubro, polo que se declara o estado de alarma para conter a propagación de infeccións causadas 
+polo SARS-CoV-2 no ámbito da Comunidade Autónoma de Galicia. 
+ORDE do 25 de xuño de 2021, pola  que se establecen medidas de prevención específicas como 
+consecuencia da evolución da situación epidem iolóxica derivada da COVI D-19 na Comunidade 
+Autónoma de Galicia e as súas posteriores modificacións. 
+Recomendacións de protección fronte á COVID-19. Dirección Xera l de Saúde Públic a. Xunta de 
+Galicia. 
+Instrucións do 1 de xullo de 2021 da Secretaría Xeral de Universidades, de previsión de medidas de 
+adaptación das universidades do Sistema universitario de Galicia para o curso 2021/2022. 
+Medidas de prevención, hixiene e promoción da saúde fronte á COVID-19 para centros universitarios 
+no curso 2021/22 do Ministerio de Sanidade e do Minist erio de Universidade s, aprobadas pola 
+Comisión de Saúde Pública o 16/07/2021 
+Proposta de medidas preventivas para adoptar co mo consecuencia da pa ndemia de COVID-19 
+durante o curso 2021/22 da CRUE, publicada o 21/07/2021. 
+Medidas de prevención e hixiene fronte á Covid-19 para os centros da Universidade da Coruña para 
+o Curso 2021/2022. SPRL-UDC xullo 2021. 
+Estratexia de detección precoz, vixilancia e control da COVID-19 do Ministerio de Sanidade, 
+actualizada con data do 23 de xullo de 2021. 
+Guía de boas prácticas en centros de traballo para previr os contaxios da COVID-19. Ministerio de 
+Sanidade. 
+Guía de recomendacións preventivas de saúde laboral ante o coronavirus. Xunta de Galicia. 
+Recomendacións de protección fronte á COVID-19. Dirección Xera l de Saúde Públic a. Xunta de 
+Galicia. 
+Bo uso dos equipos de protección individual en persoal esencial non sanitario. Dirección Xeral de 
+Saúde Pública. Xunta de Galicia. 
+Hixiene das mans. Salud Madrid. 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+22 
+Uso adecuado das luvas sanitarias. Departamento de Saúde. Goberno Vasco. 
+Plan de actuación para a reincorporación á actividade post-covid-19. Sector oficinas e asimilados. 
+Quirón Prevención. 
+ 
+ 
+ 
+ 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+23 
+6. ANEXOS 
+Anexo 1. Sinais de entrada e saída 
+  
+Anexo 2. Sinais para indicar a dirección de circulación 
+ 
+ 
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+24 
+Anexo 3. Sinais para os postos de atención ao publico 
+ 
+ 
+ 
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+25 
+Anexo 4. Carteis para os aseos 
+ 
+ 
+ 
+ 
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+26 
+Anexo 5. Cartel para os ascensores 
+ 
+Anexo 6. Carteis informativos para a entrada dos edificios 
+ 
+ 
+ 
+ 
+ 
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+27 
+Anexo 7. Carteis de capacidade de edificios e de espazos 
+CAPACIDADE DO EDIFICIO 
+ 
+CAPACIDADE DE LOCAIS (AULAS, ASEOS, SALAS DE REUNIÓNS, BIBLIOTECAS, 
+CAFETARÍAS...) 
+ 
+ 
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+28 
+Anexo 8. Cartel para o uso de xel hidroalcohólico  
+Colocaranse carteis sobre o uso de xel hidroalcohólico nos dispensadores existentes, con 
+esta información: 
+ 
+ 
+ 
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+29 
+Anexo 9. Técnica para unha correcta hixiene das mans 
+ 
+ 
+ 
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+30 
+Anexo 10. Uso correcto de máscaras e luvas 
+O uso inadecuado das máscaras pode contribuír ao s eu desabastecemento naquelas situacións 
+en que estean indicadas, amais de crear unha falsa sensación de seguridade que pode facer que 
+se descoiden outras medidas esenciais, como a hixiene das mans. 
+Para un manexo correcto da máscara, cando é necesaria, cómpre seguir estes pasos: 
+ Antes de poñer a máscara, lava ou desinfecta as mans. 
+ Axusta a máscara para que non haxa espazos entre a túa cara e a máscara. 
+ EVITA TOCAR a máscara mentres a usas, e se o fas, lava ou desinfecta as mans. 
+ Cambia a máscara cando estea húmida, e non reutilices as dun só uso. 
+ Quita a máscara por detrás, NON toques a pa rte de diante, desbótaa nun recipiente pechado 
+e lava as mans. 
+ 
+Como usar correctamente as máscaras e as luvas? 
+Para colocar as luvas e a máscara hai que seguir esta orde e lavar sempre as mans antes 
+de poñelas (tamén cando se retire cada unha das proteccións): 
+1. Lavar as mans. 
+2. Poñer as luvas. 
+3. Poñer a máscara. 
+ 
+ 
+ 
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+31 
+ 
+Como poñer unha máscara? 
+MÁSCARAS CIRÚRXICAS 
+Asegúrate de que o lado correcto queda contra a cara (habitualmente é de cor branca). 
+Coloca ben as bandas, segundo o modelo: ben por detrás das orellas ou ben a banda 
+superior pola parte da cabeza e a inferior pola parte de atrás do pescozo.  
+ 
+Asegúrate de que cobre boca e o nariz e de que non hai espazos entre a cara e a máscara 
+ 
+Cambia de máscara cirúrxica tan axiña como estea húmida e non reutilices as máscaras 
+dun só uso. 
+Evita tocar a máscara mentres a usas. Se o f as, lava as mans cun desinfectante a base 
+de alcohol ou con auga e xabón. 
+Para retirala, faino por detrás, collendo as gomas/cintas con coidado. NON toques a parte 
+dianteira. 
+Finalmente, volve lavar as mans 
+  
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+32 
+ 
+Como poñer unha máscara? 
+MÁSCARAS FFP2 SEN VÁLVULA DE EXHALACIÓN 
+ 
+ 
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+33 
+ 
+Como quitar correctamente as luvas e a máscara? 
+1. Retirar as luvas 
+    
+Belisca a primeira 
+luva polo exterior. 
+Retira a primeira luva 
+sen tocar a parte 
+interior. 
+Retira a luva na súa 
+totalidade 
+Recolle a luva coa 
+outra man. 
+   
+Retira a segunda luva inserindo uns 
+dedos por debaixo do pulso. 
+Tira da luva ata que saia do 
+revés, sen tocar a súa parte 
+exterior. 
+Desbota as dúas luvas na 
+bolsa da papeleira. 
+2. Lavar as mans 
+3. Retirar a máscara e refugala adecuadamente (nunha bolsa que se pechará ben) 
+ 
+4. Lavar as mans 
+ 
+ 
+
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+34 
+Anexo 11. Lista de comprobación da implementación do protocolo 
+ SI NON NP 
+1. Conta o centro con responsable COVID?    
+2. Mantense a distancia social entre as persoas en todos os espazos 
+do centro (aulas, laboratorios, seminarios, sala de reunións, 
+despachos...)? 
+   
+3. Hai información dispoñible (carteis) sobre a capacidade máxima do 
+centro e dos distintos espazos que ten (aulas, biblioteca, sala de 
+reunións...)? 
+   
+4. Hai algún control das persoas que acceden ao edificio para non 
+superar a súa capacidade máxima?    
+5. Habilitáronse portas de saída e entrada diferenciadas cos seus 
+sinais correspondentes?    
+6. Ordenáronse as entradas e saídas do edificio (centro, aulas, sala de 
+reunións...) cumprindo a distancia de seguridade interpersoal de 
+polo menos 1,5 m? A circulación das persoas no interior do centro 
+está organizada para cumprir con ese requisito? 
+   
+7. Reestruturáronse os distintos espazos do centro (aulas, 
+laboratorios, sala de xuntas...) para cumprir co requisito da distancia 
+interpersoal de seguridade e colocouse información da capacidade 
+máxima permitida nos diferentes espazos? 
+   
+8. Organizáronse os itinerarios de corredores, aulas, escaleiras e 
+outros espazos do centro, con indicación da circulación para evitar 
+as aglomeracións e os cruzamentos entre persoas? 
+   
+9. Os ascensores do centro están sinalizados para un uso limitado?    
+10. Realizáronse accións para diminuír a concorrencia de persoas en 
+todos os espazos do centro?    
+11. Tomáronse as medidas de prevención/protección necesarias nos 
+lugares de atención ao publico?     
+12. Sinalizáronse tales medidas con carteis informativos e adhesivos no 
+chan?    
+13. Contan todos os aseos do centro con dispensadores de xabón e 
+papel para o secado de mans, ou no seu defecto con xel 
+hidroalcohólico? Contan coas súas instrucións de uso? 
+   
+14. Hai información dispoñible sobre o uso obrigatorio de máscaras 
+hixiénicas?    
+15. Hai información dispoñible sobre a hixiene correcta das mans,  
+a etiqueta respiratoria e o uso de luvas?    
+
+Facultade de Dereito 
+ 
+ 
+ 
+ 
+ 
+ 
+35 
+ SI NON NP 
+16. O centro dispón dun procedemento de actuación no caso de que 
+algunha persoa presente nel teña síntomas compatibles coa  
+COVID-19?  
+   
+17. O centro dispón dun local para illar unha persoa no caso de 
+presentar síntomas da COVID-19?    
+18. O centro dispón dun protocolo de limpeza e ventilación que siga as 
+recomendacións do Ministerio de Sanidade?    
+19. O centro conta coa formación e información necesarias para o 
+cumprimento das medidas preventivas?    
+20. Asegúrase que todas as persoas traballadoras teñan 
+permanentemente á súa disposición no lugar de traballo auga e 
+xabón, ou xeles hidroalcohólicos, para a limpeza das mans, 
+ademais de desinfectantes con actividade virucida autorizados e 
+rexistrados polo Ministerio de Sanidade para a desinfección do 
+material de uso habitual? 
+   
+21. O centro ten asegurado que o persoal dispón de equipos de 
+protección adecuados ao nivel de risco cando non poida garantirse 
+a distancia interpersoal de seguridade? 
+   
+22. Colocáronse dispensadores de xel hidroalcohólico no centro e están 
+sinalizados?    
+23. O centro dispón de material de limpeza suficiente para acometer as 
+tarefas de hixienización reforzada?    
+ 

@@ -1,0 +1,889 @@
+Facultade de Economía e Empresa
+Plan Operativo Anual (POA) 2025
+Cadro de mando
+Área estratéxica 01: Docencia e aprendizaxe
+Área estratéxica 02: Investigación e transferencia
+Área estratéxica 03: Financiamento e uso eficiente dos recursos
+Área estratéxica 04: Internacionalización
+Área estratéxica 05: Responsabilidade social e sustentabilidade
+
+OBXECTIVOS ESTRATÉXICOS OBXECTIVOS OPERATIVOS PROGRAMAS RESPONSABLES INDICADORES EVOLUCIÓN PREVISTA DO INDICADOR E AVALIACIÓN Valor referencia (ano 2021 ou curso 
+2021/22 en  función da natureza do 
+indicador)
+Meta 
+2025
+P1_Doc.- Intensificación da colaboración co ensino medio e superior 
+non universitario a través do desenvolvemento de foros e encontros co 
+persoal orientador, profesorado e estudantado destes niveis educativos 
+(ej. xornadas de portas abertas, charlas de divulgación científica, visitas 
+a centros de secundaria, concursos e premios).
+Vic. de Estudantes e 
+Comunicación
+Accións de 
+colaboracións co ensino 
+medio e superior non 
+universitario
+Manter ou incrementar o número de accións de colaboración 
+co ensino medio e superior non universitario. (Avaliación por 
+curso académico) (1=Si; 0=Non)
+3 1
+P2_Doc.- Impulso de convenios de dobre titulación con universidades 
+de prestixio.
+Vic. de 
+Internacionalización e 
+Mobilidade
+Convenios de dobre 
+titulación
+Asinar un convenio de dobre titulación con unha universidade 
+de prestixio. Avaliaciación ao final de 2026) (1=Si; 0=Non)
+0
+P6_Doc.- Intensificación da oferta de formación en formato aberto para 
+compartir coñecemento e abrir a universidade á sociedade (por 
+exemplo, MOOC de carácter divulgativo ou deseñado como "Curso 0" 
+ou "Curso de nivelación").
+Decanato Formación en formato 
+aberto
+Incrementar o número de iniciativas de formación en formato 
+aberto. (Avaliaciación ao final de 2026) (1=Si; 0=Non)
+2
+PN1_Doc.- Reforzo da continuidade na oferta de prazas de novo ingreso 
+nos estudos de grao. 
+Decanato Oferta de prazas de 
+novo ingreso
+Manter a oferta de prazas de novo ingreso nas titulacións do 
+centro. (Avaliación por curso académico) (1=Si; 0=Non)
+ADE (180): 184
+ECO(90): 99
+EMP (90):102
+ADE+D (60):62
+EMP+TUR (25):31
+1
+PN2_Doc.- Captación de novo estudantado de mestrado. Coords. Mestrado Evolución do número de 
+novo estudantado 
+mestrado
+Incrementar o número de novo estudantado de mestrado 
+nun 5%. (Avaliación media dos tres últimos cursos 2023/24 a 
+2025/26) (1=Si; 0=Non)
+MUDAE (30): 22 
+MBF (30): 28 
+MUCSAC (30): 28 
+MiE (15):7
+PN3_Doc.- Impulso a transición de estudantado dos graos da FEE ós 
+mestrados da FEE.
+Coords. Graos Transición do 
+estudantado de grado a 
+mestrado 
+Manter as taxas de transición do estudando de grado a 
+mestrado nos valores de referencia actuais (Avaliación media 
+dos tres últimos cursos 2023/24 a 2025/26) (1=Si; 0=Non)
+ADE: 11,76  (SUE: 19,33)                            
+ECO: 22,22 (SUE: 31,94)                             
+EMP: 6,15 (SUE: 9,23)                                   
+EMP+TUR:5,88 (SUE: 14,71)                        
+P8_Doc.- Reforzo do acompañamento/seguimento do estudantado 
+durante a súa etapa formativa a través do PAT e a través de programas 
+de mentoría nas diferentes titulacións.
+PAT Tutores (T) y mentores 
+(M)
+Conseguir que todos os grupos de primeiro curso conten con 
+un tutor por grupo e acadar alomenos un mentor en cada 
+primeiro curso das titulacións. (Avaliación por curso 
+académico) (1=Si; 0=Non)
+ADE:  12 T|2 M                                                
+ADE+D: 7 T|5 M                                      
+ECO: 11 T|3 M                                         
+EMP:  10 T|2 M                                        
+EMP+TUR: 6 T|1 M                                        
+1
+P9_Doc.- Desenvolvemento dunha estratexia global eficaz para 
+combater o abandono dos estudos nalgunhas titulacións.
+Coords. Graos Taxa de abandono Reducir a taxa de abandono dos valores de referencia actuais 
+acercándoos aos valores fixados en cada unha das memorias 
+de verificación de títulos (20%). (Avaliación ao final do curso  
+académico 2025/26) (1=Si; 0=Non)
+ADE: TA1=22; TA2=9,50; TA3=4
+EMP: TA1=35,19; TA2=6,48; TA3=4,63
+ECO: TA1=23,23; TA2=14,14; TA3=2,02
+EMP+TUR: TA1=18,75; TA2=6,25; 
+TA3=3,13
+PN4_Doc.- Desenvolvemento dunha estratexia global eficaz para reducir 
+a taxa de cambio a algún outro título universitario nalgunhas titulacións.
+Coords. Graos Taxa de cambio Non superar os valores marcados no PEUDC: 15% tras o 1º 
+curso, 10% tras o 2º curso e 5% tras o 3º curso. (Avaliación ao 
+final do curso 25/26) (1=Si; 0=Non)
+ADE: TC1=12,5; TC2=3; TC3=1
+EMP: TC1=12,96; TC2=3,7; TC3=0,93
+ECO: TC1=11,11; TC2=2,02; TC3=1,01
+EMP+TUR: TC1=12,50; TC2=3,13; 
+TC3=3,13
+ÁREA ESTRATÉXICA 01. DOCENCIA E APRENDIZAXE
+DOC_OE1: IMPULSAR A CAPTACIÓN E 
+A RETENCIÓN DE TALENTO
+DOC_OP1 Deseñar e implantar políticas 
+de captación e retención de estudantado
+DOC_OP2 Deseñar e implantar políticas 
+de fidelización do estudantado
+X1A0T 
+
+OBXECTIVOS ESTRATÉXICOS OBXECTIVOS OPERATIVOS PROGRAMAS RESPONSABLES INDICADORES EVOLUCIÓN PREVISTA DO INDICADOR E AVALIACIÓN Valor referencia (ano 2021 ou curso 
+2021/22 en  función da natureza do 
+indicador)
+Meta 
+2025
+P12_Doc.- Promoción da formación específica en competencias dixitais 
+docentes. 
+Vic. de Calidade Competencias dixitais 
+docentes do 
+profesorado
+Aumento dun 5% a porcentaxe de profesorado formado en 
+competencias dixitais relacionadas coa docencia. (Avaliación 
+ao final do curso 2025/26) (1=Si; 0=Non)
+36
+P15_Doc.- Impulso dos grupos de innovación docente. Vic. de Calidade Grupos de Innovación 
+Docente (GID)
+Incrementar o número de GID. (Avaliación ao final do curso 
+2025/26) (1=Si; 0=Non)
+42 (18  Empresa y 24 Economia)
+P16_Doc.- Promoción dos proxectos de innovación docente. Vic. de Calidade Proxectos de innovación 
+docente
+Conseguir 1 proxecto de innovación docente no que participe 
+a FEE -a meta da UDC son 10- (Avaliación ao final do curso 
+2025/26) (1=Si; 0=Non)
+0
+P18_Doc.- Estímulo do programa Docentia para garantir a calidade do 
+profesorado e favorecer o seu desenvolvemento e recoñecemento.
+Vic. de Calidade Programa Docentia Aumentar a porcentaxe de profesorado avaliado no programa 
+Docentia. (Avaliación por curso académico) (1=Si; 0=Non)
+46 1
+P19_Doc.- Impulso da acreditación institucional do centro. Vic. de Calidade Certificación da 
+acreditación 
+institucional
+Renovación da acreditación institucional do centro (Avaliación  
+ en 2025, validez 5 anos unha vez conseguida) (1=Si; 0=Non) 
+1 1
+PN5_Doc.- Consolidación das taxas de idoneidade das titulacións (ref. 
+ano 2021; cohorte de entrada 2018/19).
+Vic. de Calidade Taxa de idoneidade Manter a porcentaxe de estudantado de grao que finaliza a 
+titulación no tempo teórico previsto no plano de estudos ou 
+antes do tempo previsto. (Avaliación ao final do curso 
+académico 2025/26) (1= Si; 0=Non)
+ADE: 17,31
+EMP: 14,46
+ECO: 24,36
+MUDAE: 90
+MUCSAC:  66,67
+MUBF:  52,38
+MIE: 60
+PN6_Doc.- Impulso das taxas de graduación do estudantado de grao. Vic. de Calidade Taxa de graduación  
+graos
+Conseguir unhas taxas de graduación do 30% en ADE -a sua 
+taxa vese penalizada por o dobre grado-, 40% en Economía e 
+35% Empresariais -tamén se ve penalizada, pero en menor 
+intensidade que a de ADE-. (Avaliación ao final do curso 
+2025/26) (1= Si; 0=Non) 
+ADE: 25,41
+EMP: 34,13
+ECO: 36,08      
+PN7_Doc.- Mellora das taxas de graduación daqueles mestrados cuxos 
+valores están por debaixo do 75%.
+Vic. de Calidade Taxa de graduación 
+mestrados
+Conseguir que o 75 % do estudantado de mestrado finalice no 
+tempo teórico previsto no plan de estudos ou, como mínimo, 
+conseguir superar os valores de inicio. (Avaliación ao final do 
+curso 25/26) (1=Si; 0=Non)
+MUDAE: 95,45
+MBF: 67,86
+MUCSAC: 71,43
+MiE: 71,43
+PN8_Doc.- Promoción do recoñecemento de grao de excelencia. Coords. Graos Grao de excelencia Conseguir un grao de excelencia dentro do período 2024-26) 
+(Avaliación ao final do curso 25/26) (1=Si; 0=Non)
+Non existe convocatoria graos de 
+excelencia (1ª convocatoria no curso 
+2023/24)
+PN9_Doc.- Promoción do recoñecemento de mestrado de excelencia. Coords. Mestrados Mestrado de excelencia Conseguir un mestrado de excelencia no período 2024-26 (A 
+UDC establece como obxectivo 6  no período 2022-26). 
+(Avaliación ao final do curso 25/26) (1=Si; 0=Non)
+0
+PN10_Doc.- Promoción da participación do PDI e do PTXAS nos plans de 
+formación da UDC e en actividades de formación específicas. 
+Vic. de Calidade Plans de formación Incremenar a porcentaxe de PDI e de PTXAS que participan en 
+plans de formación. (Avaliación ao final do curso 2025/26) 
+(1=Si, 0=Non)
+ADE: 37,30
+ECO: 36,90
+EMP: 36,36
+Mie:36,84
+MBF: 26,09
+MUDAE: 35,0
+MUCSAC: 17,65
+Media Global PDI: 35,33
+Media PTXAS: 59,09
+PN11_Doc.- Promoción da participación do PDI e do PTXAS en 
+programas de mobilidade.
+Vic. de 
+Internacionalización e 
+Mobilidade
+Programas de 
+mobilidade
+Incrementar a porcentaxe de PDI e de PTXAS que participan 
+en programas de mobilidade. (Avaliación ao final do curso 
+2025/26) (1=Si, 0=Non)
+Media PDI: 3,4
+Media PTXAS: 3,85
+DOC_OP4 Potenciar e promover os 
+procesos de calidade
+DOC_OP3 Potenciar a innovación no 
+ámbito docente
+DOC_OE2: IMPULSAR E FORTALECER A 
+CALIDADE NOS PROCESOS DE ENSINO 
+E APRENDIZAXE
+ÁREA ESTRATÉXICA 01. DOCENCIA E APRENDIZAXE
+X1A0T 
+
+OBXECTIVOS ESTRATÉXICOS OBXECTIVOS OPERATIVOS PROGRAMAS RESPONSABLES INDICADORES EVOLUCIÓN PREVISTA DO INDICADOR E AVALIACIÓN Valor referencia (ano 2021 ou curso 
+2021/22 en  función da natureza do 
+indicador)
+Meta 
+2025
+P23_Doc.- Creación de nova/s titulación/s que dean cobertura a novos 
+sectores estratéxicos da contorna ou a novas demandas sociais.
+Vic. de Organización 
+Académica
+Novas titulacións Crear alomenos unha nova titulación dentro do período 2024-
+26. (Avaliación ao final do curso 2025/26) (1=Si; 0=Non)
+0
+P24_Doc.- Impulso do debate e a reflexión acerca da actualización e 
+mellora dos plans de estudos das titulacións do centro. 
+CAD e XF Propostas de mellora Número de propostas de mellora (conseguir alomenos unha 
+proposta de actualización por cada un dos títulos de grao) 
+Avaliación ao final do curso 2025/26) (1=Si; 0=Non)
+0
+P28_Doc.- Reforzo da aprendizaxe-servizo (ApS). Vic. de Organización 
+Académica
+Proxectos ApS Incrementar o número de proxectos novos de ApS. 
+(Avaliación ao final do curso 25/26) (1=Si; 0=Non)
+5
+P29_Doc.- Reforzo das dobres titulacións e o  grao aberto do centro. Vic. de Organización 
+Académica
+Dobres titulacións e 
+graos abertos
+Manter o número de dobres titulacións e o grao aberto. 
+(Avaliación ao final do curso 2025/26) (1=si; 0=Non)
+2 dobres tit. e 1 grao aberto
+PN12_Doc.- Incoporación de microcredenciais como formación 
+transversal ou continua nos títulos
+Vic. de Organización 
+Académica
+Microcedenciais Desenvolver alomenos un curso en modalidade 
+microcredencial (Avaliación ao final do curso 2025/26) (1=si; 
+0=Non)
+Non existe unha formalización e 
+regulación do concepto de 
+"microcredencial" (LOSU)
+P35_Doc.- Fomento das cátedras, os convenios e os programas de 
+colaboración coas empresas da contorna.
+Vic. de Prácticas e 
+Empregabilidade
+Cátedras de empresa Manter o número de cátedras de empresa. (Avaliación ao 
+final do curso 2025/26) (1=si; 0=Non)
+4
+P36_Doc.- Orientación dos TFG e TFM a resolver necesidades e casos 
+prácticos en empresas e institucións.
+Vic. de Organización 
+Académica
+TFG´s e TFM´s con 
+orientación práctica
+Conseguir que alomenos 1 TFG e 1 TFM estén orientados a 
+resolver necesidades e casos prácticos en empresas e 
+institucións. (Avaliación por curso académico) (1=Si; 0=Non)
+0 1
+P40_Doc.- Promoción/reforzo dentro dos títulos ou dos centros á 
+organización de seminarios para estudantes impartidos por 
+profesionais externos.
+Vic. de Prácticas e 
+Empregabilidade
+Seminarios impartidos 
+por profesionais 
+externos
+Manter ou incrementar o número de seminarios para 
+estudantes impartidos por profesionais externos. (Avaliación 
+por curso académico) (1=Si; 0=Non)
+33 1
+P41_Doc.- Impulso da realización de visitas de estudantes a entidades 
+(empresas, sector público, centros de emprendemento, etc.) para 
+achegar ao alumnado o funcionamento da actividade profesional.
+Vic. de Prácticas e 
+Empregabilidade
+Visitas a 
+empresas/institucións
+Manter ou incrementar o número de visitas de estudantes a 
+empresas ou institucións públicas.  (Avaliación por curso 
+académico) (1=Si; 0=Non)
+4 1
+P45_Doc.- Promoción de actividades de formación e información sobre 
+emprendemento.
+Vic. de Prácticas e 
+Empregabilidade
+Actividades de 
+formación e 
+informacion sobre 
+emprendemento
+Manter ou incrementar as actividades de formación ou 
+información sobre emprendemento (Avaliación por curso 
+académico) (1=Si; 0=Non)
+2 1
+P49_Doc.- Axuda/impulso á participación do estudantado en 
+programas, proxectos e concursos de fomento do emprendemento, 
+resolución de retos etc.
+Vic. de Prácticas e 
+Empregabilidade
+Participación de 
+estudantes en 
+proxectos/concursos de 
+fomento 
+emprendemento/resoluc
+ión de retos
+Incrementar a participación do estudantado en 
+proxectos/concursos de emprendemento e resolución de 
+retos. (Avaliación por curso académico) (1=Si; 0=Non)
+25 1
+PN13_Doc.- Impulso da empregabilidade dos graos e mestrados. Vic. de Prácticas e 
+Empregabilidade
+Taxa de inserción laboral Conseguir un incremento do 3% no período 2024-26 do grao 
+de empregabilidade nas nosas titulacions. (Avaliación ao final 
+no curso 2025/26) (1=Si; 0=Non)
+ADE: 69,7
+EMP: 78
+ECO: 71,7
+MESTRADOS (global): 87,6
+ÁREA ESTRATÉXICA 01. DOCENCIA E APRENDIZAXE
+DOC_OE3: CONSTRUIR UNHA OFERTA 
+FORMATIVA INNOVADORA QUE 
+RESPONDA ÁS DEMANDAS E AOS 
+RETOS SOCIAS DA NOSA CONTORNA
+DOC_OP5 Potenciar e implementar un 
+modelo integral de formación continua
+DOC_OE4: POTENCIAR UNHA 
+FORMACIÓN ORIENTADA Á INSERCIÓN 
+LABORAL E PROMOVER O 
+EMPRENDEMENTO PARA OS 
+EGRESADOS/AS
+DOC_OP6 Reforzar os vínculos entre a 
+FEE e o contorno empresarial
+DOC_OP7 Incorporar a cultura do 
+emprendemento e a carreira profesional 
+en todas as fases do proceso formativo 
+xunto co apoio á inserción laboral
+X1A0T 
+
+OBXECTIVOS ESTRATÉXICOS OBXECTIVOS OPERATIVOS PROGRAMAS RESPONSABLES INDICADORES EVOLUCIÓN PREVISTA DO INDICADOR E AVALIACIÓN Valor referencia (ano 2021 ou curso 
+2021/22 en  función da natureza do 
+indicador)
+Meta 
+2025
+PN1_Inv.- Consolidación do número de grupos de investigación do 
+centro.
+Coords. Grupos de 
+Investigación
+Nº grupos de investiga-
+ción  (con sede na FEE) 
+con axudas vixente
+Manter o número de grupos e estruturas grupais de 
+investigación activos (Avaliación ao final de 2026). (1=si; 
+0=Non)
+8
+PN2_Inv.-Comunicación e divulgacion dos sexenios de investigación 
+(web centro).
+Vic. de Estudantes e 
+Comunicación
+Relación entre sexenios 
+conseguidos e sexenios 
+potenciais 
+Mellorar nun 1% en 2024 e nun 3% en 2026. (Avaliación ao 
+final de 2024 e 2026 respectivamente) (1=Si; 0=Non)
+51,89
+PN3_Inv.- Comunicación e divulgación de publicacións científicas nas 
+bases de datos WoS (web centro).
+Vic. de Estudantes e 
+Comunicación
+Producción científica Mellorar nun 2,5% no ano 2026 o nº de documentos 
+publicados nas bases de datos WoS. Avaliación ao final de 
+2026) (1=Si; 0=Non)
+62
+PN4_Inv.- Comunicación e divulgación da defensa de teses doutorais 
+(web centro).
+Vic. de Estudantes e 
+Comunicación
+Teses defendidas Que a media do período 2024-26 supere o valor de 
+referencia. (Avaliación ao final de 2026)(1=Si; 0=Non)
+6
+P13_Inv.- Fomento de encontros de persoal investigador con grupos 
+estranxeiros.
+Vic. de 
+Internacionalización e 
+Mobilidade
+Encontros de persoal 
+investigador con grupos 
+estranxeiros
+Manter ou incrementar o número de reunións, xornadas, etc. 
+de persoal investigador con grupos estranxeiros. (Avaliación  
+por curso académico) (1=Si; 0=Non)
+1 1
+PN5_Inv.- Comunicación y divulgación do número de teses defendidas 
+con mención internacional (web centro).
+Vic. de Estudantes e 
+Comunicación
+Teses defendidas con 
+mención internacional 
+Que a media de teses defendidas con mención internacional 
+no período 2024-26 supere o valor de referencia. (Avaliación 
+ao final de 2026) (1=Si; 0=Non)
+1
+PN6_Inv.- Participación do PDI en reunións científicas  internacionais.  Vic. de 
+Internacionalización e 
+Mobilidade
+Reunións científicas 
+internacionais
+Manter ou incrementar a participación en xornadas ou 
+congresos científicos de carácter internacional. (Avaliación  
+por curso académico) (1=Si; 0=Non)
+115 1
+PN7_Inv.- Incremento da realización de estadías de investigación do PDI 
+no extranxeiro.
+Vic. de 
+Internacionalización e 
+Mobilidade
+Estadías investigación 
+internacionais de máis a 
+1 mes de duración
+Manter ou incrementar o número de estadías de 
+investigación no estranxeiro. (Avaliación por curso 
+académico) (1=Si; 0=Non)
+6 1
+PN8_Inv.- Actualización do catálogo de fondos bibliográficos. Vic. de Economía, 
+Infraestructuras e 
+Sostenibilidade
+Novos fondos 
+bibliográficos
+Manter ou incrementar a media de adquisicións de novos 
+fondos bibliográficos para o período 2024-26. (Avaliación ao 
+final do 2026)(1=si; 0= Non)
+449 
+PN9_Inv.- Reforzo das bases de datos estatísticas de economía e 
+empresa. 
+Vic. de Economía, 
+Infraestructuras e 
+Sostenibilidade
+Bases de datos Manter o número de bases de datos disponibles de economía 
+e empresa. (Avaliación ao final do 2026)(1=si; 0= Non)
+8
+PN10_Inv.- Impulso a captación de fondos públicos ou privados dos 
+grupos de investigación do centro (proxectos de I+D+i/axudas para a 
+consolidación e estruturación das unidades e grupos de investigación 
+do centro -Xunta de Galicia; outros).
+Coords. Grupos de 
+Investigación
+Volume de ingreso dos 
+grupos de investigación
+Incrementar nun 3% a media de ingresos públicos ou privados 
+no período 2024-26  (Avaliación ao final de 2026) (1=Si; 
+0=Non)
+105623
+P29_Inv.- Organización de eventos FEE-empresa por sectores. Vic. de Prácticas e 
+Empregabilidade
+Número de eventos FEE-
+empresa por sectores
+Organizar alomenos un evento FEE-empresa por sectores en 
+cada curso académico. (Avaliación por curso académico) 
+(1=Si; 0=Non)
+0 1
+P34_Inv.- Impulso aos doutoramentos industriais para favorecer a 
+conexión empresa-universidade.
+CAPD Teses industriais Acadar alomenos unha tese industrial defendida duranto o 
+período 2024-26. (Avaliación ao final de 2026) (1=Si; 0=Non)
+0
+PN11_Inv.- Desenvolvemento de contratos de I+D/consultoría con 
+empresas/institucións/entidades sociais (art. 60, antigo art.83).
+Vic. de Prácticas e 
+Empregabilidade
+Contratos de I+D e 
+consultoria 
+Incrementar o volume de contratos por actividades de 
+investigación e consultoría nun 5% no período 2024-26; 
+avaliación ao final de 2026) (1=Si; 0=Non)
+207000
+INV_OE5: MELLORAR OS PROCESOS DE 
+SELECCIÓN, PROMOCIÓN E 
+CONSOLIDACIÓN DO PERSOAL 
+DOCENTE E INVESTIGADOR NA 
+INSTITUCIÓN, FAVORECENDO O 
+DESENVOLVEMENTO DA SÚA 
+CARREIRA INVESTIGADORA
+INV_OP12 Mellorar a captación de 
+investigadores predoutorais e 
+posdoutorais aliñando os 
+procedementos coas directrices do logo 
+europeo HRS4R
+PN12_Inv.- Impulso a captación de investigadores predoutorais a través 
+de bolsas FPU/FPI.
+Coords. Grupos de 
+Investigación
+Número de bolseiros 
+FPU/FPI
+Conseguir alomenos 1 investigador predoutoral FPU/FPI 
+durante o período 2024-26. (Avaliación ao final de 2026) 
+(1=Si; 0=Non)
+0
+ÁREA ESTRATÉXICA 02. INVESTIGACIÓN E TRANSFERENCIA
+INV_OE4: DEFINIR E IMPLANTAR UN 
+ECOSISTEMA DINAMIZADOR DA 
+ACTIVIDADE INVESTIGADORA E DA 
+TRANSFERENCIA, E INCREMENTAR A 
+COLABORACIÓN COAS EMPRESAS DA 
+CONTORNA
+INV_OP10 Intensificar a relación con 
+institucións, empresas e entidades sociais
+INV_OP5 Incrementar a 
+internacionalización da investigación
+INV_OP4 Apoiar e promover a 
+visibilidade, a divulgación científica e o 
+impacto da investigación do centro
+INV_OE2: IMPULSAR UNHA 
+INVESTIGACIÓN DE CALIDADE QUE 
+POTENCIE A INTERNACIONALIZACIÓN, 
+A MULTIDISCIPLINARIEDADE E O 
+LIDERADO DAS UNIDADES, 
+AGRUPACIÓNS, INSTITUTOS E CENTROS
+INV_OP6 Potenciar as plataformas e os 
+recursos de apoio á investigación e 
+contribuir á mellora destas
+X2A0T 
+
+OBXECTIVOS ESTRATÉXICOS OBXECTIVOS OPERATIVOS PROGRAMAS RESPONSABLES INDICADORES EVOLUCIÓN PREVISTA DO INDICADOR E AVALIACIÓN Valor referencia (ano 2021 ou curso 
+2021/22 en  función da natureza do 
+indicador)
+Meta 
+2025
+ECO_OE1: MELLORAR O RENDEMENTO 
+ECONÓMICO-FINANCEIRO E CONTROL 
+DO GASTO
+ECO_OP1 Optimizar e controlar a xestión 
+económica e financeira da FEE 
+mellorando a distribución e 
+intensificando o uso dos recursos
+PN1_Eco.- Control da execución dos orzamentos do centro. Vic. de Economía e 
+Infraestruturas e 
+Sostibilidade
+Grado de execución 
+orzamentaria do gasto 
+Superar cada ano o nivel mínimo de execución no orzamento 
+do gasto do 80%. (Avaliación ao final de  cada ano) (1=Si; 
+0=Non)
+93,00 1
+PN2_Eco.- Microactuacións conducentes á reducción no consumo de 
+auga.
+Vic. de Economía e 
+Infraestruturas e 
+Sostibilidade
+Consumo anual auga Reducir o consumo de auga. (Avaliación ao final do ano) (1=Si; 
+0=Non)
+nd 1
+PN3_Eco.- Microactuacións conducentes á reducción no consumo de 
+luz.
+Vic. de Economía e 
+Infraestruturas e 
+Sostibilidade
+Consumo anual luz Reducir o consumo de luz. (Avaliación ao final do ano) (1=Si; 
+0=Non)
+nd 1
+ECO_OP3 Mellorar, concienciar e 
+modernizar infraestructuras orientadas á 
+mellora da eficiencia enerxética e a 
+sustentabilidade ambiental
+ECO_OE3: MELLORAR O AFORRO 
+ECONÓMICO OU ENERXÉTICO, 
+AVANZAR EN PROGRAMAS DE 
+EFICIENCIA ENERXÉTICA E RENOVAR 
+AS INSTALACIÓNS DE CLIMATIZACIÓN, 
+MOBILIARIO E EQUIPAMENTO DE 
+ACORDO CON CRITERIOS DE VIDA ÚTIL
+ÁREA ESTRATÉXICA 03. FINANCIACIÓN E USO EFICIENTE DOS RECURSOS
+X3A0T 
+
+OBXECTIVOS ESTRATÉXICOS OBXECTIVOS OPERATIVOS PROGRAMAS RESPONSABLES INDICADORES EVOLUCIÓN PREVISTA DO INDICADOR E AVALIACIÓN Valor referencia (ano 2021 ou curso 
+2021/22 en  función da natureza do 
+indicador)
+Meta 
+2025
+INT_OP1 Reforzar a cooperación 
+internacional en materia de 
+recoñecemento, mobilidade, calidade e 
+promoción comercial da FEE 
+P7_Int.- Acción dirixida ao fomento da participación de profesorado 
+estranxeiro no ensino regulado.
+ORI y Vic. de 
+Internacionalización e 
+Mobilidade
+Profesorado extranxeiro Mantener o número de docentes e persoal investigador con 
+actividades docente e investigadora con nacionalidade 
+estranxeira ao final de 2026. (Avaliación ao final de 2026) 
+(1=Si; 0=Non)
+3
+P15_Int.- Implantación de oferta estable de materias nos graos 
+bilingües.
+Coords. Graos Materias en inglés Manter ou incrementar o número de materias ofrecidas en 
+inglés nos plans de estudos bilingües. (Avaliación ao final do 
+curso 2025/26) (1=si; 0=Non)
+20 ADE | 20 Economía
+P18_Int.- Incentivar a participación nos cursos EMI (“English as a 
+Medium of Instruction”).
+ORI e Vic. de 
+Internacionalización e 
+Mobilidade
+Participación do PDI en 
+cursos EMI
+Incrementar  o número de PDIs avaliados positivamente en 
+EMI. (Avaliación ao final do curso 2025/26) (1=Si; 0=Non)
+24
+P20_Int.- Avaliación dos programas de docencia en inglés que xa están 
+implantados, cara a consecución da máxima calidade docente.
+Vic. de Calidade Satisfacción do 
+alumnado (programa 
+Avaliemos, pregunta 
+satisfacción global co 
+título)
+Acadar un 4 sobre 7 nas puntuacións de avaliemos. 
+(Avaliación por curso académico) (1=si; 0=Non)
+nd 1
+PN1_Int.- Impulso activo a ocupación de prazas de mobilidade 
+internacional.
+ORI e Vic. de 
+Internacionalización e 
+Mobilidade
+Prazas ocupadas de 
+mobilidade sobre as 
+ofertadas
+Acadar polo menos un 50% na porcentaxe de ocupación das 
+prazas ofertadas en mobilidade internacional. (Avaliación ao 
+final de 2026) (1=Si, 0=Non)
+44,00
+PN2_Int.- Financiamento para a mobilidade internacional do 
+estudantado e profesorado.
+Vic. de 
+Internacionalización e 
+Mobilidade e Cátedra de 
+Internacionalización Luis 
+Fernández Somoza
+Bolsas de axuda Incrementar o número de bolsas de axuda para estudantes e 
+profesorado. (Avaliación ao final de 2026) (1=Si, 0=Non
+4
+P38_Int.- Xornadas de difusión sobre accións de programas 
+internacionais de mobilidade
+ORI e Vic. de 
+Internacionalización e 
+Mobilidade
+Xornadas de difusión 
+programa internacionais
+Manter o número de xornadas de difusión das accións 
+relacionadas cos programas internacionais de mobilidade 
+(Avaliación por curso académico) (1=Si; 0=Non)
+2 1
+PN3_Int.- Impulso a publicacións científicas en colaboración 
+internacional.
+Vic. de 
+Internacionalización e 
+Mobilidade
+Publicacións en 
+colaboración 
+internacional
+Mellorar nun 3% o número de publicacións ao final de 2026 
+asinadas con, polo menos, unha institución estranxeira. 
+(Avaliación ao final de 2026) (1=Si; 0=Non)
+25
+INT_OP6 Promover a imaxe de marca da 
+FEE e as accións de comunicación de cara 
+ao exterior
+P46_Int.- Optimización dos contidos da páxina web. Decanato e Vic. de 
+Internacionalización e 
+Mobilidade
+Actualización dos 
+contidos da web 
+relacionados coa 
+internacionalización
+Manter actualizados os contidos da web do centro 
+relacionados coa internacionalización (Avaliación por curso 
+académico) (1=Si; 0=Non)
+1 1
+ÁREA ESTRATÉXICA 04. INTERNACIONALIZACIÓN 
+INT_OE4: POTENCIAR A PROXECCIÓN E 
+A PRESENZA INTERNACIONAL DA FEE
+INT_OE1: POTENCIAR UN AMBIENTE 
+UNIVERSITARIO INTERNACIONAL
+INT_OP2 Consolidar e potenciar os 
+programas formativos e a oferta docente 
+internacional
+INT_OP5 Promover a participación en 
+redes, proxectos e programas 
+internacinoais educativos, de innovación 
+e de investigación
+INT_OP3 Intensificar e promover a 
+mobilidade con servicios de apoio e unha 
+oferta atractiva de formación e prácticas
+INT_OE2: CONSEGUIR UNHA 
+MOBILIDADE INTERNACIONAL 
+CRECENTE DE TODA A COMUNIDADE 
+UNIVERSITARIA
+X4A0T 
+
+OBXECTIVOS ESTRATÉXICOS OBXECTIVOS OPERATIVOS PROGRAMAS RESPONSABLES INDICADORES EVOLUCIÓN PREVISTA DO INDICADOR E AVALIACIÓN Valor referencia (ano 2021 ou curso 
+2021/22 en  función da natureza do 
+indicador)
+Meta 
+2025
+P4_ RS.- Impulso de actividades culturais e artísticas Vic. de Estudantes e 
+Comunicación 
+Número de acccións Realizar alomenos unha nova acción cultural ou artística. 
+(Avaliación por curso académico) (1=Si; 0=Non)
+1 1
+P10_RS.- Desenvolvemento de formación básica en vida saudable e 
+desenvolvemento sustentable con perspectiva inclusiva e de xénero 
+Coords.US, GC, OIX Formación básica en 
+vida saudable e 
+desenvolvemento 
+sustentable con 
+perspectiva de xénero
+Manter ou aumentar o número de actividades de formación 
+básica en vida saudable e desenvolvemento sustentable con 
+perspectiva de xénero. (Avaliación por curso académico) 
+(1=Si;0=Non)
+2 1
+P12_ RS.- Formación en competencias de lingua galega para o persoal 
+da facultade, de cara á súa normalización real. 
+Decanato Formación PDI e PTXAS 
+en lingua galega
+Aumentar a % de PDI e % de PTXAS que participan en plans de 
+formación de lingua galega. (Avaliación ao final do curso 
+25/26) (1=Si; 0=Non)
+0
+P13_ RS.- Impulso da docencia en lingua galega. Decanato Normalización da lingua 
+galega
+Aumentar a porcentaxe de PDI con docencia en galego. 
+(Avaliación ao final do curso 25/26) (1=Si; 0=Non)
+ADE 13/128=10,1%
+ECO 6/78=7,7%
+EMP 6/92=6,5%
+P27_ RS.- Consolidación e dinamización dos plans ambientais de centro, 
+de acordo con modelos do programa Green Campus.
+Coord. GC Acreditación positiva do 
+GC
+Renovar a acreditación GC do centro. (Avaliación en 2026) 
+(1=Si; 0=Non)
+1
+P31_ RS.- Avance na recollida separada de calidade de todas as 
+fraccións de residuos asimilables a urbanos.
+Coord. GC Número de accións Realizar alomenos unha nova acción para a recollida separada 
+de residuos. (Avaliación por curso académico) (1=Si; 0=Non)
+5 1
+P32_ RS.- Reforzo do modelo de compostaxe e aproveitamento in situ 
+dos biorresiduos.
+Coord. GC Compostaxe Consolidar o modelo de compostaxe e aproveitamento dos 
+residuos. (Avaliación por curso académico) (1=Si; 0=Non)
+1 1
+P38_ RS.- Impulso de medidas de sustentabilidade no deseño e o uso do 
+espazo público e nos modos de mobilidade.
+Coord. GC Número de accións Realizar alomenos unha nova acción relacionadas coa 
+sustentabilidade no deseño, uso de espazos públicos e modos 
+de mobilidade. (Avaliación por curso académico) (1=Si; 0=Non)
+3 1
+P40_ RS.- Implementación de actuacións encamiñadas á sensibilización 
+da comunidade universitaria.
+Coords.US, GC, OIX, ADI Número de accións Realizar alomenos unha nova acción de sensibilizacion. 
+(Avaliación por curso académico) (1=Si; 0=Non)
+2 1
+P55_RS.- Fortalecemento das estratexias de comunicación e 
+concienciación en promoción de saúde, prevención de enfermidade e 
+desenvolvemento sustentable.
+Coords.US, GC, OIX, ADI Número de accións Realizar alomenos unha nova acción de concienciación en 
+promoción de saúde, prevención de enfermidade e 
+desenvolvemento sustentable. (Avaliación por curso 
+académico) (1=si;0=Non)
+1 1
+P60_RS.- Impulso e potenciación do mes Outubro UDC Saudable. Coord.US Número de accións Realizar alomenos unha nova acción no marco do "Outubro 
+UDC saudable". (Avaliación por curso académico) (1=Si; 
+0=N0n)
+1 1
+RS_OP8 Potenciar as colaboracións, os 
+programas e os servizos á comunidade 
+universitaria que permitan mellorar a 
+súa calidade de vida
+PN1_RS.- Implantación de redes sociais no centro Vic. de Estudantes e 
+Comunicación 
+RRSS Crear alomenos unha RRSS no centro (Avaliación en 2026) 
+(1=Si; 0=Non)
+0
+RS_OP9 Reforzar, promover, difundir e  
+concienciar nunha cultura de igualdade 
+entre homes e mulleres 
+P89_RS.- Visibilidade ás achegas das mulleres, con especial interese nos 
+ámbitos de coñecemento nos que están infrarrepresentadas.
+Coord.OIX Número de accións Realizar alomenos unha nova acción de visibilización. 
+(Avaliación por curso académico) (1=Si; 0=Non)
+1 1
+RS_OP11 Impulsar mecanismos de acción 
+e control de violencia de xénero e acoso
+PN2_RS.- Promoción dunha cultura de rexeitamento as condutas 
+machistas e de violencia de xénero e acoso.
+Coord.OIX Número de accións Realizar alomenos unha nova acción de promoción. 
+(Avaliación por curso académico) (1=Si; 0=Non)
+1 1
+RS_OE5: INCENTIVAR E FOMENTAR 
+UNHA CULTURA DE NON 
+DISCRIMINACIÓN
+RS_OP13 Avanzar en medidas que 
+impulsen a cultura do respecto e de 
+compromiso compartido 
+P130_RS.- Desenvolvemento de accións para xerar unha cultura de 
+respecto ante as diferentes diversidades sociais.
+Coords.US, GC, OIX, ADI Número de accións Realizar alomenos unha nova acción de desenvolvemento. 
+(Avaliación por curso académico) (1=Si; 0=Non)
+1 1
+ÁREA ESTRATÉXICA 05. RESPONSABILIDADE SOCIAL E SUSTENTABILIDADE
+RS_OP1 Promover o compromiso da 
+comunidade universitaria co progreso 
+social
+RS_OP5 Impulsar medios de mobilidade 
+sustentable que faciliten a accesibilidade 
+combinando o impacto ambiental
+RS_OP2 Contribuír á dinamización da 
+cultura galega e do seu patrimonio
+RS_OE4: UNHA UNIVERSIDADE 
+FEMINISTA LIBRE DE VIOLENCIAS DE 
+XÉNERO
+RS_OE2: UNHA UNIVERSIDADE 
+RESPONSABLE DO SEU IMPACTO 
+AMBIENTAL
+RS_OP4 Abordar medidas de mellora de 
+eficiencia e aforro enerxético, e de 
+promoción das enerxías renovables
+RS_OE3: UNHA UNIVERSIDADE QUE 
+PROMOVE HÁBITOS, RUTINAS E 
+ESTILOS DE VIDA SAUDABLE, EN 
+ESPECIAL A ATENCIÓN 
+BIOPSICOSOCIAL E A XESTIÓN 
+PROACTIVA E PREVENTIVA DA 
+VIXILANCIA DA SAÚDE CON 
+ESTRATEXIAS DIRIXIDAS A TODA A 
+COMUNIDADE UNIVERSITARIA 
+(ESTUDANTADO, PAS, PDI, PEC)
+RS_OE1: UNHA UNIVERSIDADE CON 
+IDENTIDADE PROPIA QUE IMPULSA O 
+CAMBIO SOCIAL, A CULTURA E A 
+LINGUA GALEGAS ASÍ COMO A 
+CONTRIBUCIÓN Á PAZ E Á 
+SOLIDARIEDADE ENTRE OS POBOS 
+PARA UNHA CIDADANÍA GLOBAL
+RS_OP7 Promover iniciativas que fagan 
+contribuír a unha vida saudable da 
+comunidade universitaria
+X5A0T 

@@ -1,0 +1,2636 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Informe GUESSS 
+Universidade da Coruña 2021 
+ 
+Los estudiantes de la UDC ante el 
+emprendimiento 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+
+ 
+ 
+Equipo investigador 
+ 
+Francisco José León-Medina, director del Observatorio Ocupacional de la UDC 
+ 
+Con la colaboración de: María Ortega, estudiante en prácticas del Grado en Sociología 
+de la UDC 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+El proyecto GUESSS-España cuenta con el patrocinio de  
+ 
+ 
+ 
+ 
+Con la colaboración de: 
+   
+ 
+ 
+
+
+ 
+ 
+Contenido 
+Introducción ...................................................................................................................... 1 
+El proyecto GUESSS España y el espíritu emprendedor de la Universidad ................ 1 
+Introducción al Informe GUESSS UDC 2021 .............................................................. 2 
+Dos aclaraciones previas sobre el “emprendimiento” y su importancia ....................... 2 
+Informe ejecutivo .............................................................................................................. 4 
+Metodología ...................................................................................................................... 6 
+Resultados ......................................................................................................................... 7 
+Intenciones de elección de carrera emprendedora de los estudiantes de la UDC ......... 7 
+Espíritu y habilidades emprendedoras de los estudiantes de la UDC ......................... 11 
+La actividad emprendedora de los estudiantes de la UDC ......................................... 14 
+La UDC y el emprendimiento: evaluación de los estudiantes .................................... 15 
+Recomendaciones ........................................................................................................... 22 
+Anexo Estadístico ........................................................................................................... 24 
+Índice de Figuras ......................................................................................................... 47 
+Índice de Tablas .......................................................................................................... 47 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+1 
+ 
+Introducción 
+El proyecto GUESSS España y el espíritu emprendedor de la Universidad 
+El proyecto internacional GUESSS de investigación colaborativa es el más importante 
+del mundo en el ámbito del fenómeno emprendedor en las universidades. Esta relevancia 
+le viene dada por su alcance territorial que abarca a más de cincuenta países, por su 
+capacidad para involucrar a una extensa red de más de 3.000 universidades, por su sólido 
+planteamiento conceptual respaldado por los conocimientos más recientes en la materia 
+y, en el caso de España, por el compromiso de una red amplia red de investigadores de la 
+práctica totalidad de las universidades.  
+Sus principales objetivos son impulsar el conocimiento de las intencionalidades y 
+actividades emprendedoras de los estudiantes universitarios, investigar sus causas e 
+influencia del contexto universitario y  de la formación, y emitir recomendaciones que 
+logren un emprendimiento de más alto rendimiento. No obstante, dos efectos estratégicos 
+subyacen en sus resultados: la movilización y el interés suscitado en los universitarios por 
+la materia; y, la generación  de una amplísima base de datos nacional e internacional de 
+gran valor para la toma de decisiones de las autoridades académicas y responsables 
+institucionales que permite profundizar en muchos de los aspectos esbozados en los 
+informes que GUESSS emite.  
+El proyecto ha logrado una movilización de los estudiantes sin precedentes. La 
+participación en España, la mayor de todo el mundo, ha superado los 98.000 estudiantes, 
+una muestra del interés y curiosidad de nuestros jóvenes que rompe algunos tópicos. La 
+relevante participación de la Universidad de Zaragoza con más de 2.500 estudiantes es 
+un buen ejemplo.  
+Este logro no hubiese sido posible sin el trabajo de las más de 120 personas, entre 
+investigadores, responsables y equipos de las unidades de emprendimiento  de las 
+universidades públicas y privadas que se han involucrados en el reto de expandir la cultura 
+emprendedora a través de GUESSS. En esa tarea, tenemos que agradecer el apoyo 
+recibido a nivel nacional por SANFI, la CRUE y el Alto Comisionado para España Nación 
+Emprendedora. GUESSS España es un proyecto que se inscribe en las actividades del 
+Observatorio del Emprendimiento de España (RED GEM) y que, consecuentemente, 
+recibe el apoyo de su sólida estructura territorial y el respaldo estratégico de ENISA.   
+Como coordinador del proyecto en España es una gran satisfacción la presentación de los 
+informes de las distintas universidades. En el caso de la Universidad de La Coruña es 
+resaltable el alto grado de participación que ha tenido, superando los 1.500 estu diantes 
+que contestaron a la encuesta enviada. Por ello, es justo felicitar al delegado del proyecto 
+Francisco José León -Medina, director del Observatorio Ocupacional de dicha 
+universidad, y a su predecesor, Paolo Rungo, por el logro obtenido y por el buen  trabajo 
+realizado junto con María Ortega, coautora del presente informe. Mi enhorabuena y la de 
+todos los compañeros de equipo del GUESSS España a los tres.  
+ 
+José Ruiz Navarro 
+Catedrático Emérito de Organización de Empresas por la Universidad de Cádiz 
+Coordinador del Observatorio GUESSS en España 
+https://guesss-spain.com/ 
+jose.ruiznavarro@uca.es 
+https://es.linkedin.com/in/joseruiznavarro 
+
+ 
+ 
+2 
+ 
+Introducción al Informe GUESSS UDC 2021 
+El GUESSS (Global Entrepreneurial Spirit Student Survey) es un proyecto dedicado al 
+análisis del emprendimiento universitario en el que participan 3000 universidades de 58 
+países distintos. Es, sin duda, la iniciativa de análisis del emprendimiento universitario 
+más importante del mundo. Este proyecto se ha llevado a cabo por una red internacional 
+de universidades coordinada por el profesor Philipp Sieger  y Lea Raemy , de la 
+Universidad de Berna. En su sección española, el proyecto cuenta con el patrocinio de 
+SANFI (Santander Financial Institute), la cobertura del Observatorio del Emprendimiento 
+de España y ENISA, y el apoyo de la Conferencia de Rectores de Universidades 
+Españolas (CRUE), el Alto Comisionado para España Nación Emprendedora y del 
+presidente del Consejo Económico y Social de España. En Espa ña, GUESSS está  
+coordinado por el profesor José Ruiz Navarro y un equipo de la Universidad de Cádiz 
+(UCA) compuesto por José Manuel Sánchez Vázquez, Juan Pablo Diánez González, 
+Carmen Camelo Ordaz y Noelia Franco Leal. 
+Puede encontrarse más información sob re GUESSS en su página web 
+(https://www.guesssurvey.org/) y en la web de la sección española ( https://guesss-
+spain.com/). 
+La Global Entrepreneurial Spirit Student Survey nos ofrece la posibilidad de explotar 
+datos específicos de cada una de las universidades participantes. Por ello, en este informe 
+se ofrece un análisis de la submuestra de estudiantes de la Universidade da Coruña 
+(n=1552). Esto nos permitirá elaborar un diagnóstico de la situación que nos indique cuál 
+es el espíritu e mprendedor del estudiantado de la UDC , su actividad y propósitos 
+emprendedores, la valoración de sus propias habilidades para el emprendimiento y, 
+finalmente, su evaluación de la UDC como centro de formación para el emprendimiento. 
+Este conocimiento debe s er un elemento clave en la reflexión y el diseño de líneas de 
+actuación en relación a la formación de nuestro alumnado. 
+Dos aclaraciones previas sobre el “emprendimiento” y su importancia 
+Quizá sea necesario comenzar con sendas aclaraciones sobre el objeto de estudio y sobre 
+las razones por las que lo abordamos. 
+Sobre el emprendimiento y los emprendedores . Emprender significa acometer una 
+obra, un negocio o un empeño. De un tiempo a esta parte, sin embargo, la literatura 
+empresarial ha restringido el término “emprendedor” para hacer referencia 
+exclusivamente a aquellos que crean su propia empresa , y el término “emprender” para 
+hacer referencia  a la actividad de crearla y dirigirla. La restricción d el concepto de 
+emprendimiento a uno de sus subtipos dificulta la percepción de que existen innumerables 
+otras formas de ser emprendedor en la vida personal y profesional. Sin embargo, 
+asumimos aquí de manera pragmática el término para hacer referencia  a la actividad 
+consistente en la creación y dirección de empresas. 
+Por qué estudiar el espíritu emprendedor del alumnado. El proyecto GUESSS está 
+ofreciendo una información muy valiosa que permite identificar puntos de mejora en la 
+construcción de espacios de formación que hagan posible el emprendimiento. Los 
+beneficiarios de esta información tan valiosa, como por ejemplo las universidades, han 
+de saber interpretar el valor de esos datos. ¿Debe una institución que puntúa por debajo 
+de la media en intención emprendedora de sus estudiantes tratar de mejorar su posición?, 
+¿es positivo de manera intrínseca que “muchos” estudiantes deseen orientar su actividad 
+profesional en esa dirección? La respuesta seguramente es “no necesariamente” a las dos 
+preguntas. La proble mática puede repensarse del siguiente modo: ¿requieren las 
+
+ 
+ 
+3 
+ 
+administraciones públicas de profesionales bien formados, con vocación de servicio 
+público y dotados de herramientas eficaces para la gestión pública? Difícilmente podemos 
+contestar que no. ¿Debe e ntonces la universidad tener como prioridad la formación y el 
+estímulo de la vocación de servicio público y la formación en habilidades para la gestión 
+de lo público como una de sus prioridades? Seguramente podría elaborarse un ranking 
+del grado en que las  universidades incentivan en sus alumnos la vocación de servicio 
+público. El problema es que cuanto mejor puntuásemos en este ranking, peor 
+puntuaríamos en el ranking de incentivación del emprendimiento. Y lo mismo ocurre con 
+cualquier otro objetivo profes ional legítimo, como la voluntad de formar parte de los 
+profesionales que colaboran con un proyecto multinacional o la voluntad de contribuir 
+con el propio trabajo a la fortaleza del tercer sector.  
+Probablemente, la misión de la universidad debe ser la de establecer los mecanismos para 
+que cada estudiante pueda desplegar su carrera profesional de manera eficaz donde mejor 
+le parezca. ¿Es deseable tener un 30% de estudiantes con vocación emprendedora en lugar 
+de un 29%? ¿Es mejor tener un 20% de estudiantes con vocación de servicio público en 
+lugar de un 19%? Probablemente, un porcentaje muy alejado de la media podría constituir 
+una señal de aviso de algo que merece la pena revisar, pero no existen mot ivos para 
+pensar, en ninguno de los dos casos, que más es mejor (o que menos es mejor). Nuestra 
+sociedad y nuestr a economía se resentirían si el porcentaje, en cualquiera de los casos, 
+fuese excesivamente alto (o excesivamente bajo), porque los profesionales que fuesen en 
+una dirección no irían en otra s y el funcionamiento de nuestra economía requiere 
+profesionales de todos los tipos. Y como no existe criterio de parada en la idea de que “un 
+1% más es mejor ”, no hay criterio para determinar si el porcentaje  observado de 
+estudiantes con vocación emprendedora es muy bueno, bueno, malo o muy malo.  
+Por tanto, n o se persigue, con la información descriptiva de este informe, evaluar la 
+situación para diseñar mejores modos de incentivar el emprendimiento, sino evaluar la 
+situación para diseñar un mejor entorno y formación para aquellos que deciden escoger 
+una carrera emprendedora, dotándoles del estímulo, las competencias y los conocimientos 
+que esta opción requiere. Este es el verdadero reto de la universidad: proporcionar a cada 
+estudiante las hard skills y las soft skills necesarias para convertirse en un profesional 
+exitoso, eficaz, productivo, creativo, etcétera. La universidad, por tanto, ha de poner los 
+medios para que quien quiera emprender tenga los conocimi entos y habilidades 
+necesarios, igual que ha de hacer con aquellos que quieran orientar su labo r profesional 
+en cualquier otra dirección. 
+En esa línea, el estudio persigue conocer la realidad de nuestros estudiantes en lo referido 
+al grado de difusión de l as intenciones emprendedoras, no tanto para tomar medidas en 
+relación a tal grado de difusión, sino como prerrequisito diagnóstico que nos permita 
+autoconocernos para mejorar. No es lo mismo tener en nuestras aulas un 10% de 
+estudiantes con intenciones  emprendedoras que tener un 30%. Por ello , el informe 
+prestará una atención especial al modo en que los estudiantes con inquietudes 
+emprendedoras valoran el grado en que el clima y los estudios cursados en la UDC son 
+propicios a ese emprendimiento. 
+En definiti va, se trata de conocer a nuestros estudiantes y, más particularmente, de 
+averiguar cómo evalúan aquellos que quieren emprender las herramientas que les 
+ofrecemos para hacerlo. 
+
+ 
+ 
+4 
+ 
+Informe ejecutivo 
+A continuación, se presentan los principales indicadores y puntos clave del Informe 
+GUESSS de la Universidade A Coruña. 
+ 
+❖ Sobre la encuesta: 
+▪ Se realizó una encuesta online entre el 1 de marzo y el 15 de mayo de 2021. 
+▪ La muestra es de 1552 estudiantes de la UDC. 
+ 
+❖ Intenciones de carrera emprendedora: 
+▪ Un 11.2% de nuestros estudiantes manifiestan su intención de iniciar una carrera 
+profesional emprendedora nada más acabar sus estudios . Un 20.4% tiene 
+intención de crear su propia empresa en el margen de 5 años posterior a la 
+finalización de sus estudios . La diferencia de los dos porcentajes se explica 
+fundamentalmente por un grupo amplio de estudiantes que planea la creación de 
+su empresa tras un periodo de trabajo por cuenta ajena. 
+▪ Existe una diferencia significativa en las intenciones emprendedoras de hombres 
+y mujeres. Al imaginar la actividad profesional cinco años después del fin de los 
+estudios, el 27.4% de los hombres se imagina dirigiendo s u propia empresa, 
+mientras solo el 15.8% de las mujeres lo hace . La distancia entre ellos, además, 
+crece cuando pasan de imaginarse su actividad profesional a acabar los estudios a 
+imaginar esa actividad cinco años después (la distancia entre ellos pasa de  6.6 a 
+11.6 puntos). 
+▪ En línea con lo que ocurre a nivel de España, las  Ciencias son el ámbito de 
+estudios es donde la carrera emprendedora es menos escogida , y la Ingeniería y 
+Arquitectura, el ámbito en el que es más escogida. 
+▪ El patrón consistente en posponer el inicio de la carrera emprendedora unos años 
+tras el fin de los estudios es especialmente practicado en Ingeniería y Arquitectura. 
+▪ Las intenciones emprendedoras están po r debajo de lo esperado en las Ciencias 
+Sociales, una rama en la que se cursan estudios especialmente proclives a este tipo 
+de carreras profesionales. 
+ 
+❖ El espíritu emprendedor 
+▪ El Índice de Espíritu Emprendedor, que mide el espíritu emprendedor de nuestros 
+estudiantes en una escala 1-7, tiene una media de 3.57. 
+▪ Se observan en este índi ce las mismas diferencias por sexo y por rama de 
+conocimiento que se observaban en las intenciones emprendedoras. 
+▪ Destaca el caso de las Artes y Humanidades, donde de manera llamativa las altas 
+intenciones emprendedoras resultan de un menor espíritu emprendedor. 
+ 
+❖ La evaluación de las competencias para el emprendimiento. 
+▪ El Índice de Competencias para el Emprendimiento, que recoge la autoevaluación 
+de las habilidades o capacidades para  el emprendimiento de nuestro alumnado, 
+tiene una media de 4.25, un resultado por encima del punto medio de la escala, lo 
+que resulta especialmente positivo, pues sólo una quinta parte de los miembros de 
+la muestra tienen intenciones emprendedoras. 
+
+ 
+ 
+5 
+ 
+▪ Ingeniería y Arquitectura es la rama de conocimiento con mayor espíritu 
+emprendedor y también aquella en las que los estudiantes autoevalúan sus 
+capacidades emprendedoras como mejores. 
+▪ El caso de las Ciencias de la Salud exige una reflexión: tiene un espíritu 
+emprendedor por encima de  la media, unas intenciones de elección de carrera 
+emprendedora prácticamente idénticas a la media y una valoración de 
+competencias para el emprendimiento por debajo de la media. 
+ 
+❖ Emprendedores nacientes y activos en la UDC 
+▪ Emprendedores nacientes: un 16.5% de nuestros estudiantes declara estar tratando 
+de montar tu propio negocio. 
+▪ Emprendedores activos: un 5.6% de nuestros estudiantes ya gestiona o dirige su 
+propia empresa. 
+▪ La proporción de emprendedores nacientes versus emprendedores activos se sitúa 
+en la UDC en 2.9, un valor prácticamente idéntico al observado a nivel nacional 
+(un 3.0). 
+ 
+❖ Valoración del clima favorable al entendimiento en la UDC 
+▪ La puntuación media del índice que mide la valoración del clima favorable el 
+emprendimiento en la UDC está por debajo del punto medio de la escala, lo que 
+podría tomarse como una indicación de que existe todavía un margen de mejora 
+en nuestra labor de presentar la carrera emprendedora a los estudiantes como una 
+carrera atractiva. 
+▪ La evaluación del clima favorable al emprendimiento es considerablemente 
+uniforme entre los dos sexos y las distintas ramas de conocimiento. 
+▪ No existen diferencias significativas en la valoración del clima favorable al 
+emprendimiento entre aquellos que pretenden emprender y aquellos que escogen 
+otro tipo de carrera profesional. 
+ 
+❖ Valoración de la orientación global al emprendimiento de los estudios realizados. 
+▪ La media del índice que media esta cuestión  se encuentra por debajo del punto 
+medio de la escala, lo que entra dentro de lo esperable, pues en este índice se 
+evalúa el grado en que asignaturas o cursos de contenido, propósitos y contextos 
+formativos muy distintos contribuyen a un propósito muy específico. 
+▪ No existen diferencias en esta valoración entre aquellos con intenciones de 
+emprendimiento cinco años después de finalizar sus estudios y los que escogen 
+cualquier otra carrera profesional. 
+ 
+❖ Sobre la educación financiera: 
+▪ Existe una obvia consideración de la educación financiera como algo necesario e 
+importante, sin que haya diferencias importantes entre los sexos o las ramas de 
+conocimiento. 
+▪ La valoración de la suficiencia y adecuación de la educación financiera recibida 
+es generalmente negativa. 
+▪ Las mujeres, y el alumnado  de la rama de las Ciencias de la Salud, son 
+especialmente críticos con la suficiencia y adecuación de la educación financiera 
+recibida. 
+
+ 
+ 
+6 
+ 
+Metodología 
+75 de las 82 universidades españolas participan en el proyecto GUESSS, incluida la UDC. 
+En la edición de 2021, contestaron a esta encuesta más de 258.000 estudiantes  de 58 
+países, 98.226 de los cuales pertenecían a universidades españolas.  
+El trabajo de campo y la explotación de la información en España ha sido dirigido por el 
+profesor José Ruiz Navarro y su equipo de investigadores de la Universidad de Cádiz.  
+Las encuestas se realizaron a través de los delegados y responsables institucionales de 
+cada una de las universidades, que recibieron un link para la realización online de l 
+cuestionario y lo difundieron entre los estudiantes de sus respectivas universidades entre 
+el 1 de marzo y el 15 de mayo de 2021.  
+En el caso de la Universidade da Coruña, respondieron a la encuesta 1552 alumnos . No 
+se trata de una muestra aleatoria simple, y siempre es posible concebir la existencia de un 
+sesgo de autoselección, pero dándole tratamiento de muestra aleatoria simple 
+obtendríamos un margen de error del 2.37% para un nivel de confianza del 95%. 
+ 
+ 
+ 
+
+ 
+ 
+7 
+ 
+Resultados 
+Intenciones de elección de carrera emprendedora de los estudiantes de la UDC 
+En la encuesta GUESSS se pregunta a los alumnos qué carrera profesional pretenden 
+perseguir justo después de sus estudios y, en una segunda pregunta, qué carrera 
+profesional pretenden perseguir 5 años después de la finalización de sus estudios. Esto 
+nos pe rmite captar sus planes para dos momentos de tiempo distintos. Como puede 
+comprobarse en la Figura 1, un 11.2% de nuestros estudiantes manifiestan su intención 
+de iniciar una carrera profesional emprendedora nada más acabar sus estudios. El alluvial 
+plot de esta figura nos permite, además, analizar cómo conciben los estudiantes la 
+dinámica de su proyecto profesional con un horizonte de 5 años tras la finalización de sus 
+estudios. Para muchos, el proyecto emprendedor requiere de un paso previo por otras 
+experiencias profesionales, especialmente el trabajo por cuenta ajena. El 20 .4% de 
+estudiantes que tienen intención de crear su propia empresa en ese margen de 5 años 
+posterior a la finalización de sus estudios está compuesto, fundamentalmente, por dos 
+grupos: quienes ya pretenden emprender al acabar los estudios y quienes planean la 
+creación de su empresa tras un periodo de trabajo por cuenta ajena. Sería interesante 
+profundizar en los motivos de estos planes postergados del segundo grupo. Inicialmente, 
+podríamos pensar que, o bien se entiende como un periodo de reflexión, planificación, 
+preparación y maduración del negocio, o bien como una etapa previa que permita el 
+crecimiento de conocimientos sobre un sector determinado o sobre habilidades 
+emprendedoras de las que se carecen (o ambas posibilidades). De manera destacable, no 
+existen diferencias estadísticamente significativas en el Índice de Competencias 
+Emprendedoras (un índice que se presentará más adelante y que mide la autoevaluación 
+de competencias emprendedoras) entre aquellos que pretenden comenzar su carrera 
+emprendedora al acabar sus estudios y los que lo planean como algo que será una realidad 
+en el margen d e cinco años posteriores ( t(189)=1.3064,p=0.193), de manera que la 
+hipótesis del trabajo por cuenta ajena como periodo de formación para el emprendimiento 
+parece menos sólida, aunque sigue siendo altamente plausible que se conciba este periodo 
+también como  un periodo de crecimiento de experiencia profesional en general , un 
+crecimiento que puede aumentar las probabilidades de éxito del emprendimiento 
+posterior. 
+
+ 
+ 
+8 
+ 
+FIGURA 1: INTENCIONES DE ELECCIÓN DE CARRERA PROFESIONAL DE LOS 
+ESTUDIANTES DE LA UDC  AL FINALIZAR SUS ESTUDIOS Y CINCO AÑOS 
+DESPUÉS 
+ 
+Nota: Pueden consultarse los datos desagregados correspondientes a este gráfico en la Tabla 2 del Anexo. 
+ 
+ 
+En línea con todos los estudios sobre emprendimiento, las intenciones de elección de 
+carrera emprendedora son muy diferentes según el sexo de los estudiantes, mostrando los 
+hombres una mayor intención emprendedora (ver Figura 2). Además, las diferencias entre 
+hombres y mujeres en su selección de carrera tras los estudios se amplían cuando se 
+imagina el futuro cinco años después: en este punto, el 27.4% de los hombres se imagina 
+dirigiendo su propia empresa, mientras solo el 15.8% de las mujeres lo hace, es decir, los 
+hombres están a 11.6 puntos de distancia, cuando tras los estudios la distancia era de 6.6 
+puntos.  
+Aunque los datos descriptivos no nos permiten sondear una  explicación, una hipótesis 
+causal plausible apuntaría al mecanismo de las preferencias adaptativas: no se trataría 
+tanto de que las mujeres no desearan emprender, sino de que la creencia en las especiales 
+dificultades futuras que deberán enfrentar como mu jeres convierten ese proyecto en 
+menos factible, más costoso o menos atractivo, de manera que las preferencias se 
+reelaboran para adaptarlas al conjunto de oportunidad, reduciendo así la disonancia 
+cognitiva que se produce cuando se desea algo que se con cibe fuera del alcance.  Sin 
+embargo, tampoco debe descartarse el impacto sobre los planes de emprendimient o que 
+puede tener el hecho de que, como veremos más adelante, las mujeres se autoperciben 
+como con menos competencias para el emprendimiento y se muestran más críticas con la 
+suficiencia y la adecuación de la educación financiera recibida en sus estudios. 
+
+
+ 
+ 
+9 
+ 
+FIGURA 2: INTENCIONES DE ELECCIÓN DE CARRERA PROFESIONAL DE LOS 
+ESTUDIANTES DE LA UDC AL FINALIZAR SUS ESTUDIOS Y CINCO AÑOS 
+DESPUÉS, SEGÚN SEXO 
+ 
+Nota: Los datos desagregados correspondientes a este gráfico pueden consultarse en la Tabla 3 y Tabla 4 del Anexo. 
+ 
+ 
+Las intenciones de elección de carrera son también muy diferentes  según el ámbito de 
+estudios (ver Figura 3). El ámbito de las Ciencias es donde la carrera emprendedora es 
+menos escogida, una tendencia que se muestra también a nivel nacional y que, por tanto, 
+no indica ningún problema específico en los estudios de esta rama en la UDC.  
+El ámbito con mayor frecuencia de esta elección es el de la Ingeniería y Arquitectura, tal 
+como ocurre también a nivel nacional,  probablemente por las características propias del 
+perfil profesional y por la mayoría de hombres en est as disciplinas. Resulta destacable, 
+además, que Ingeniería y Arquitectura es el ámbito en el que la diferencia entre las 
+intenciones emprendedoras al acabar los estudios y cinco años después es más grande, de 
+manera que se observa que el patrón anteriormente comentando de posponer el inicio de 
+la carrera emprendedora unos años es especialmente practicado en este ámbito de 
+estudios. 
+Resulta un tanto sorprendente que la intención de escoger una car rera emprendedora no 
+sea más alta en la rama de las Ciencias Sociales, una rama en la que se cursan estudios 
+especialmente proclives a  carreras profesionales emprendedoras, como Ciencias 
+Empresariales, Administración y Dirección de Empresas, Economía , Derecho o 
+Relaciones Laborales y Recursos Humanos. Podría ser interesante sondear con más 
+profundidad las razones de este dato, que se encuentra por debajo del esperado si tomamos 
+como referencia el dato observado a nivel nacional. 
+
+
+ 
+ 
+10 
+ 
+FIGURA 3: INTENCIONES DE ELECCIÓN DE CARRERA PROFESIONAL DE LOS 
+ESTUDIANTES DE LA UDC AL FINALIZAR SUS ESTUDIOS Y CINCO AÑOS 
+DESPUÉS, SEGÚN ÁMBITO DE ESTUDIOS 
+ 
+Nota: Los datos desagregados correspondientes a este gráfico puede consultarse en la Tabla 5 y Tabla 6 del Anexo. 
+ 
+ 
+Tal como se expuso en la introducción, la frecuencia de las intenciones emprendedoras 
+en sí misma, y su comparación con esas intenciones en otros contextos es poco ú til en 
+general, pues no existen motivos para considerar un porcentaje inferior como menos 
+deseable ni uno superior como más deseable. De hecho, según los datos globales de 
+GUESSS, los países que están en las 10 primeras posiciones del ranking de intencione s 
+emprendedoras de sus estudiantes son Nigeria, Indonesia, Ecuador, República 
+Dominicana, México, Colombia, Marruecos, Nepal, Bolivia y Ucrania. Es decir, no 
+parece que este indicador per se se asocie con un mejor dinamismo empresarial y riqueza 
+colectiva. 
+En cualquier caso, se ofrece también en la Figura 4 una comparativa de las intenciones 
+de elección de ca rrera emprendedora entre la Universidade da Coruña y el conjunto de 
+estudiantes de universidades españolas y la Unión Europea.  La UDC se encuentra 
+ligeramente por debajo del conjunto de España (aunque la diferencia está dentro de los 
+márgenes de error) y la UE en intenciones emprendedoras, pero el valor de este dato deba 
+relativizarse: según los datos globales de GUESSS, la puntuación de la UDC es superior 
+a la que muestran los estudiantes japoneses, alemanes o suizos, por ejemplo, y también 
+es superior a l a puntuación del conjunto de estudiantes gallegos.  El dato, en lugar de 
+utilizarse para posicionar  a la entidad en un ranking, debe servirnos para conocer la 
+realidad de nuestras aulas. El profesorado de la UDC debe tener en consideración que 
+alrededor de 2 de cada 10 alumnos en las aulas se imagina dirigiendo su propia empresa 
+unos años después de acabar la carrera , siendo ese porcentaje significativamente mayor 
+en algunas ramas de conocimiento, tal como muestra la Figura 3. 
+
+
+ 
+ 
+11 
+ 
+FIGURA 4: INTENCIONES DE ELECCIÓN DE CARRERA PROFESIONAL AL 
+FINALIZAR ESTUDIOS Y CINCO AÑOS DESPUÉS, COMPARATIVA DE LA UDC 
+CON LOS ESTUDIANTES DEL CONJUNTO DE ESPAÑA Y LA UE 
+ 
+Nota: Los datos correspondientes a este gráfico pueden consultarse en la Tabla 2 y en el Informe GUESSS España 
+((https://guesss-spain.com/) 
+ 
+ 
+Espíritu y habilidades emprendedoras de los estudiantes de la UDC 
+Una manera alternativa de conocer las intenciones emprendedoras de los estudiantes es 
+conocer el grado en que está n determinados a crear su propia empresa. Para ello, se ha 
+diseñado el Índice de Espíritu Emprendedor (IEE) un índice elaborado a partir de la media 
+aritmética de las respuestas de cada estudiante a una serie de 11 ítems en los que debían 
+mostrar su acuerdo o desacuerdo, en una escala 1-7, con una serie de afirmaciones sobre 
+sus intenciones emprendedoras. Es un índice con una alta consistencia interna (Alpha de 
+Cronbach=0.94). Los ítems que lo componen son los siguientes:  
+1) Estoy dispuesto a hacer cualquier cosa para ser empresario. 
+2) Mi objetivo profesional es convertirme en empresario. 
+3) Haré todo lo posible para crear y dirigir mi propia empresa. 
+4) Estoy decidido a crear un negocio en el futuro. 
+5) He pensado muy seriamente en crear un negocio. 
+6) Tengo la firma intención de crear un negocio algún día. 
+7) Ser empresario me supone más ventajas que desventajas. 
+8) La carrera de empresario me resulta atractiva. 
+9) Si tuviera la oportunidad y los recursos, me convertiría en empresario. 
+10) Ser empresario me reportaría grandes satisfacciones. 
+11) Entre varias opciones, preferiría ser empresario. 
+ 
+
+
+ 
+ 
+12 
+ 
+FIGURA 5: ÍNDICE DE ESPÍRITU EMPRENDEDOR (IEE) EN LA UDC 
+ 
+Nota: Los datos desagregados de las respuestas a cada uno de los ítems que componen el IEE pueden consultarse en la 
+Tabla 7, Tabla 8 y Tabla 9 del Anexo 
+ 
+ 
+Como se puede observar en  la Figura 5, la media del espíritu emprendedor de los 
+estudiantes de la UDC, medida con el IEE en una escala 1-7, es de 3.57, observándose las 
+mismas diferencias según sexo y ámbito de estudios que observábamos en la Figura 2 y 
+la Figura 3, aunque en Arte y Humanidades podríamos esperar un mayor IEE dadas las 
+intenciones de elección de carrera emprendedora mostradas.  Esto podría deberse , entre 
+otros motivos, a que en esta rama de conocimiento el autoempleo aparezca más 
+frecuentemente como una opción viable (o más viable que otras) y no tanto como una 
+opción intrínsecamente deseable.  
+El menor espíritu emprendedor de las mujeres puede considerarse como una evidencia en 
+favor de la explicación  de las diferencias en intención emprendedora  basada en el 
+mecanismo de las preferencias adaptativas expuesto más arriba.  La expectativa de 
+dificultades específicas para las mu jeres podría implicar una reelaboración del orden de 
+preferencias en el que una opción inicialmente deseada, como el emprendimiento, se 
+pasase a concebir como menos atractiva o deseable, con el fin de reducir la disona ncia 
+cognitiva que res ultaría de in vertir tiempo y esperanzas en un  proyecto que se concibe 
+como con pocas posibilidades de éxito.  
+Junto con la voluntad emprendedora, un segundo ingrediente necesario para escoger esta 
+carrera profesional es la capacidad y los conocimientos. Para captar cómo e valúan los 
+estudiantes de la UDC sus propias competencias en materia de emprendimiento se ha 
+construido el Índice de Competencias para el Emprendimiento (ICE), un índice elaborado 
+a partir de la media aritmética de las respuestas de cada estudiante a una serie de 7 ítems 
+en los que debían autoevaluar, en una escala 1 -7, sus habilidades o capacidades para 
+distintas actividades necesarias para el emprendimiento  en el momento actual . El ICE 
+
+
+ 
+ 
+13 
+ 
+posee una alta consistencia interna (Alpha de Cronbach=0.9 2) y está compuesto por los 
+siguientes ítems:  
+1) Identificar nuevas oportunidades de negocio  
+2) Crear nuevos productos y servicios  
+3) Gestionar la innovación dentro de una empresa  
+4) Ser líder y comunicador  
+5) Crear una red profesional  
+6) Comercializar una nueva idea o desarrollo  
+7) Gestionar con éxito una empresa  
+ 
+ 
+FIGURA 6: ÍNDICE DE COMPETENCIAS PARA EL EMPRENDIMIENTO (ICE) EN 
+LA UDC 
+ 
+Nota: Los datos desagregados correspondientes a este gráfico pueden consultarse en la Tabla 10, Tabla 11 y Tabla 12 
+del Anexo. 
+ 
+ 
+La media del ICE es de 4.25 en escala 1-7, por tanto, está por encima del punto medio de 
+la escala, lo que resulta especialmente positivo, pues sólo una quinta parte de los 
+miembros de la muestra tienen intenciones emprendedoras.  
+Resulta muy positivo, además,  que la rama de conocimiento con mayor espíritu 
+emprendedor (la Ingeniería y Arquitectura) sea también aquella en las que los estudiantes 
+autoevalúan sus capacidades emprendedoras como mejores . Sin embargo, el caso de las 
+Ciencias de la Salud exige alguna reflexión y probablemente algún trabajo diagnóstico en 
+mayor profundidad, pues es un a rama de conocimiento con un Índice de Espíritu 
+Emprendedor por encima de la media de la UDC, con unas intenciones de elección de 
+carrera emprendedora prácticamente idénticas a la media y con un Índice de 
+
+
+ 
+ 
+14 
+ 
+Competencias Emp rendedoras por debajo de la media. En otras palabras: existe una 
+voluntad que después no se concreta en proyectos de futuro (o al menos no tanto como 
+en otros ámbitos), lo que en parte puede resultar de una falta de confianza en las propias 
+capacidades para el emprendimiento (tal como muestra el bajo ICE) y, en parte, de la 
+existencia de una mayoría de mujeres en el ámbito. 
+La actividad emprendedora de los estudiantes de la UDC 
+Distinguimos aquí entre “emprendedores nacientes” y “emprendedores activos”. En el 
+marco del proyecto GUESSS, se d efinen como “emprendedores nacientes” a aquellos 
+estudiantes que afirman estar en el proceso de creación de una empresa. En concreto, el 
+ítem de la encuesta es “¿Actualmente estás tratando de montar tu propio negocio o 
+intentando trabajar por cuenta propia?”. Se clasifican como “emprendedores activos” a 
+aquellos estudiantes que afirman estar ya dirigiendo su propia empresa. El ítem de la 
+encuesta que nos permite esta clasificación es “¿Actualmente ya gestionas o diriges tu 
+propia empresa o estás trabajando por cuenta propia?”. 
+ 
+FIGURA 7: EMPRENDEDORES NACIENTES EN LA UDC 
+ 
+Nota: Los datos correspondientes a esta gráfica pueden consultarse en la Tabla 13 y Tabla 14. 
+
+
+ 
+ 
+15 
+ 
+FIGURA 8: EMPRENDEDORES ACTIVOS EN LA UDC 
+ 
+Nota: Los datos correspondientes a esta gráfica pueden consultarse en la Tabla 15 y Tabla 16. 
+ 
+ 
+Como puede observarse en la Figura 7, un 16.5% de nuestros estudiantes declara estar 
+tratando de montar su propio negocio o intentando trabajar por cuenta propia, un 
+porcentaje muy similar al porcentaje de emprendedores nacientes que encontramos a 
+nivel nacional1 (un 18.9%). La tasa de emprendimiento activo de la UDC es de 5.6, un 
+valor ligeramente inferior  a la tasa nacional (6.3) y la tasa de la UE27 (6.5) 2. Como 
+consecuencia, la proporción de emprendedores nacientes versus emprendedores activos 
+se sitúa en la UDC en 2.9, un valor prácticamente idéntico al observado a nivel nacional 
+(un 3.0).  
+Tanto entre los emprendedores nacientes como en tre los activos observamos el mismo 
+patrón de diferencias por sexo, con los hombre s mostrando mayor actividad 
+emprendedora que las mujeres, y el mismo patrón según ámbito de estudios, con las Artes 
+y Humanidades y la Inge niería y Arquitectura como los ámbitos con mayor actividad 
+emprendedora. Ambos patrones siguen en la línea de lo observado en relación al espíritu 
+emprendedor y las intenciones de elección de carrera emprendedora. 
+La UDC y el emprendimiento: evaluación de los estudiantes 
+En esta sección se presentan los resultados referidos al modo en que los estudiantes 
+evalúan el clima emprendedor y la orientación al emprendimiento de la formación que se 
+les ofrece en nuestra institución. En la línea de lo planteado en la introducción, resulta de 
+ 
+1 Ruiz-Navarro, J.; Diánez -González, J.P.; Franco -Leal, N.; Sánchez -Vázquez, J.M.; Camelo -Ordaz, C. 
+(2021). Informe GUESSS España 2021. El espíritu emprendedor de los estudiantes universitarios . ISBN: 
+978-84-09-37178-5, p.23 
+2 Ibid. p.24. 
+
+
+ 
+ 
+16 
+ 
+especial interés para la UDC conocer  cómo realizan esta evaluación aquellos que 
+muestran intenciones y espíritu emprendedor, y no tanto cómo lo hacen aquellos que 
+escogen otro tipo de carrera profesional, pues en última instancia lo que debe 
+preocuparnos como institución académica es si dotamos a cada tipo de estudiante con 
+aquello que necesita para el desarrollo profesional que libremente escoja. 
+La evaluación del clima favorable al emprendimiento se ha medido mediante un índice 
+que resulta de obtener la media de las respuestas de cada estudiante a una serie de 3 ítems 
+en los que debían evaluar, en una escala 1 -7, distintos aspectos del ambiente qu e han 
+encontrado en la UDC durante sus estudios. Es un índice con una alta consistencia interna 
+(Alpha de Cronbach=0.91). Los ítems que lo componen son los siguientes:  
+1. El ambiente de mi universidad me inspira a desarrollar ideas para nuevos 
+negocios. 
+2. En mi universidad existe un clima favorable para convertirse en empresario. 
+3. En mi universidad se anima a los estudiantes a realizar actividades empresariales. 
+ 
+ 
+FIGURA 9: EVALUACIÓN DEL CLIMA FAVORABLE AL EMPRENDIMIENTO EN 
+LA UDC SEGÚN SEXO Y ÁMBITO DE ESTUDIOS 
+ 
+Nota: Los datos correspondientes a este gráfico pueden consultarse en la Tabla 17, Tabla 18 y Tabla 19 del Anexo. 
+ 
+ 
+Como puede observarse, la evaluación del clima favorable al emprendimiento es 
+considerablemente uniforme a lo largo de las distintas categorías que empleamos (sexo y 
+ámbito de estudios). Es decir, no hay ningún sexo o ámbito de estudios que se aleje de la 
+media, lo que podría haber constituido una señal de un posible punto de intervención para 
+la mejora. En cualquier caso, la puntuación media está por debajo de l punto medio de la 
+escala, lo que podría tomarse como una indicación de que existe todavía un margen de 
+
+
+ 
+ 
+17 
+ 
+mejora en la labor de presentar la carre ra emprendedora a los estudiantes como una 
+carrera atractiva. 
+En principio, podríamos esperar que aquellos que tienen intenciones de elección de 
+carrera emprendedora fuesen más críticos en su evaluación del clima emprendedor de la 
+institución en la que estudian, pues su nivel de exigencia respecto de lo que obtienen en 
+esta cuestión en particular es lógicamente más elevando. Sin embargo, como se puede 
+observar en la Figura 10, no existen diferencias importantes entre aquellos que pretenden 
+emprender y aquellos que escogen otro tipo de carrera profesional, aunque entre aquellos 
+que pretenden emprender al finalizar sus estudios la evaluación sea lógicamente algo más 
+negativa. 
+ 
+FIGURA 10: EVALUACIÓN DEL CLIMA FAVORABLE AL EMPRENDIMIENTO 
+EN LA UDC  SEGÚN INTENCIONES DE ELECCIÓN DE CARRERA 
+PROFESIONAL 
+ 
+Nota: Los datos correspondientes a este gráfico pueden consultarse en la Tabla 20 y Tabla 21 del Anexo. 
+ 
+ 
+Otro tipo de evaluación realizada por los estudiantes es la refer ida al grado en que los 
+cursos o asignaturas cursadas les han ayudado a desarrollar las habilidades necesarias 
+para el emprendimiento. En concreto, se preguntó a los estudiantes cómo evaluaban, en 
+una escala 1-7, el grado en que los cursos realizados mejoraron sus capacidades prácticas 
+de gestión para empezar un negocio, su comprensión de las actitudes, valores y 
+motivaciones de los emprendedores,  de las acciones necesarias para emprender un 
+negocio, su habilidad para generar redes y su habilidad para identificar oportunidades. La 
+Figura 11 indica que, en todos estos ítems, la media se encuentra por debajo del punto 
+medio de la escala, lo que entra dentro de lo espera do, pues con estos ítems se evalúan 
+asignaturas o cursos de contenido, propósitos y contextos formativos muy distintos, y tal 
+
+
+ 
+ 
+18 
+ 
+valoración se realiza  en función de un tipo de  aportaciones muy específicas  y no 
+necesariamente siempre presentes, lo que no puede sino  generar puntuaciones bajas. No 
+interesa, por tanto, la puntuación en sí misma, sino t ratar de identificar si aquellos con 
+intenciones emprendedoras realizan una evaluación significativamente distinta a la 
+realizada por el resto de estudiantes , pues se ha de insistir en que lo fundamental es que 
+quienes quieren obtener estas habilidades las obtengan. Como se puede ver en la Figura 
+12, la distribución de las respuestas a todos los ítems es idéntica para los que muestran 
+intenciones de emprendimiento cinco años después de finalizar sus estudios y los que 
+escogen cualquier otra carrera profesional. Aunque el nivel de exigencia sea seguramente 
+mayor entre el grupo con intenciones emprendedoras, su valoración no es distinta de la 
+que realizan los demás estudiantes. Esto no significa que no exista campo para la mejora: 
+el reto consistiría en obtener mejores puntuaciones en estas evaluaciones  precisamente 
+entre aquellos que tienen niveles de exigencia más altos y, por tanto, una predisposición 
+a evaluaciones más severas, fundamentalmente porque son quienes más interés tienen en 
+obtener este tipo de aportaciones de su formación universitaria. 
+ 
+FIGURA 11: VALORACIÓN DE LA ORIENTACI ÓN GLOBAL AL 
+EMPRENDIMIENTO DE LOS ESTUDIOS REALIZADOS 
+ 
+Nota: Los datos correspondientes a este gráfico pueden consultarse en la Tabla 22 del Anexo. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+19 
+ 
+FIGURA 12: VALORACIÓN DE LA ORIENTACIÓN GLOBAL AL 
+EMPRENDIMIENTO DE LOS ESTUDIOS REALIZADOS SEGÚN INTENCIONES 
+DE CARRERA PROFESIONAL CINCO AÑOS DESPUÉS DE FINALIZAR LOS 
+ESTUDIOS 
+ 
+Nota: Los datos correspondientes a este gráfico pueden consultarse en la Tabla 25 del Anexo.  
+ 
+ 
+Un aspecto de especial importanc ia en la obtención de capacidades y conocimientos 
+necesarios para la carrera emprendedora es la educación financiera. Para conocer las 
+evaluaciones de los estudiantes en este terreno se han elaborado dos índices, el Índice de 
+Valoración de la Importancia de la Educación Financiera (IEF) y el Índice de Valoración 
+de la Educación Financiera Recibida (IEFR). 
+El Índice de Valoración de la Importancia de la Educación Financiera (IEF) está 
+elaborado a partir de la media aritmética de las respuestas de cada estudiante a 4 ítems en 
+los que debían evaluar, en una escala 1-7, distintos aspectos en relación a la importancia 
+de recibir educación financiera. Es un índice con una alta consisten cia interna (Alpha de 
+Cronbach=0.87). Los ítems que lo componen son los siguientes:  
+1. Considero que recibir educación financiera es necesario. 
+2. Considero que recibir educación financiera podría mejorar mi bienestar, aumentar 
+mi seguridad y proporcionarme una buena calidad de vida. 
+3. Considero importante mejorar mi educación financiera para gestionar mis 
+finanzas personales. 
+4. Estoy interesado en aumentar mi educación financiera. 
+
+
+ 
+ 
+20 
+ 
+FIGURA 13: ÍNDICE DE VALORACIÓN DE LA IMPORTANCIA DE LA 
+EDUCACIÓN FINANCIERA (IEF), SEGÚN SEXO Y ÁMBITO DE ESTUDIOS 
+ 
+Nota: Los datos correspondientes a este gráfico pueden consultarse en la Tabla 26, Tabla 27 y Tabla 28 del Anexo. 
+ 
+ 
+Existe una obvia consideración de la educación financiera como algo necesario e 
+importante, sin que haya diferencias importantes entre los sexos o las ramas de 
+conocimiento. Ahora bien, resulta llamativo que en Arte y Humanidades exista una menor 
+tendencia a considerarlo así, especialmente si se contempla que, a pesar de tener un IEE 
+por debajo de la media, tienen una frecuencia relativa de emprendedores nacientes y 
+activos por encima de la media. Podría, por  tanto, resultar interesante incidir en los 
+estudios de esta rama en la importancia de la educación financiera, dadas las perspectivas 
+de empleo a las que se enfrentarán los estudiantes al finalizar sus estudios. 
+Dada la consideración general de la educaci ón financiera como muy importante, resulta 
+relevante capturar cómo evalúan los estudiantes la calidad de la formación financiera 
+recibida (aunque no podamos saber si con esta valoración hacen referencia a la educación 
+financiera recibida en la UDC o en el conjunto de sus años de formación) . Para ello, se 
+ha elaborado un Índice de Valoración de la Educación Financiera Recibida (IEFR). Este 
+índice resulta de obtener la media aritmética de las respuestas de cada estudiante a 2 ítems 
+en los que debían evaluar, respectivamente, la suficiencia y la adecuación de la educación 
+financiera recibida. La consistencia interna del índice es muy alta (Alpha de 
+Cronbach=0.93). Los dos ítems que lo componen son los siguientes:  
+1. Considero que he recibido suficiente educación financiera 
+2. Considero que he recibido una educación financiera adecuada 
+ 
+
+
+ 
+ 
+21 
+ 
+FIGURA 14: ÍNDICE DE VALORACIÓN DE LA EDUCACIÓN FINANCIERA 
+RECIBIDA (IEFR), POR SEXO Y ÁMBITO DE ESTUDIOS 
+ 
+Nota: Los datos correspondientes a este gráfico pueden consultarse en la Tabla 29, Tabla 30 y Tabla 31 del Anexo. 
+ 
+ 
+El IEFR presenta un panorama fundamentalmente críti co con la educación financiera 
+recibida, con medias siempre por debajo del punto medio de la escala. Existen, además, 
+diferencias según sexo y ramas de conocimiento. Resulta destacable que las mujeres sean 
+más críticas con la educación financiera recibida, lo que en parte podría ayudar a explicar 
+su peor autoevaluación de competencias para el emprendimiento (ver Figura 6) y, en 
+parte, su menor predisposición a la carrera emprendedora. 
+En lo referido a los ámbitos de conocimiento, d e nuevo el campo de las Ciencias de la 
+Salud merece un comentario específico. La evaluación negativa de la educación 
+financiera recibida puede ser uno de los componentes que ayuden a explicar el menor 
+Índice de Competencias para el Emprendimiento observado en esta rama (ver Figura 6) 
+y, por tanto, ayudar a explicar por qué el nivel de emprendimiento entre estos estudiantes 
+está en la media mientras su espíritu emprendedor está por encima de la media. 
+Cabe señalar que no existe correlación estadística entre el Índice de Valoración de la 
+Importancia de la Educación Financiera (IEF) y el Índice de Valoración de la Educación 
+Financiera Recibida (IEFR) (correlación=−0.0025). Es decir, aquellos que tienen una 
+tendencia a considerar como muy importante la educación financiera no se muestran más 
+o menos críticos con la educación financiera recibida que aquellos que no la consideran 
+tan importante. 
+ 
+ 
+
+
+ 
+ 
+22 
+ 
+Recomendaciones 
+ 
+❖ La UDC podría incrementar sus esfuerzos diagnósticos para conocer mejor la 
+realidad del espíritu emprendedor de su alumnado, así como sus demandas. En ese 
+sentido, podría resultar interesante mejorar nuestro conocimiento sobre aspectos 
+como los siguientes: 
+✓ Los planes postergados . ¿Por qué la gran mayoría de los estudiantes con 
+intenciones emprendedoras conciben un prim er periodo de trabajo por cuenta 
+ajena? ¿Por qué esta voluntad de postergar la creación de la propia empresa en 
+más alta en ramas como la Ingeniería y Arquitectura? ¿La postergación resulta de 
+carencias que se pretende resolver en un periodo previo a la cr eación de la 
+empresa? En la medida en que fuese así, la  universidad podría emplear el 
+conocimiento obtenido al responder estas preguntas para diseñar intervenciones 
+orientadas a fortalecer formaciones y experiencias que redujesen la postergación 
+del emprendimiento. 
+✓ Las diferencias entre hombres y mujeres. ¿Cuáles son las razones que explican las 
+menores intenciones emprendedoras y espíritu emprendedor de las mujeres? ¿por 
+qué son las mujeres más severas en la autoevaluación de sus competencias para el 
+emprendimiento y más críticas con la educación financiera recibida?  La 
+universidad podría emplear el conocimiento obtenido al responder estas preguntas 
+para elaborar planes de acción que persigan remover las posibles barreras que 
+dificultan su acceso al emprendimiento. 
+✓ Las diferencias según rama de conocimiento . ¿Por qué las intenciones 
+emprendedoras son (comparativamente) bajas en las Ciencias Sociales, cuando en 
+esta rama se  cursan estudios especialmente proclives a carreras profesionales 
+emprendedoras? ¿Qué circunstancias explican que el alto espíritu emprendedor de 
+los estudiantes de las Ciencias de la Salud venga acompañado de unas intenciones 
+emprendedoras en la media y una evaluación de competencias para el 
+emprendimiento por debajo de ella? ¿Qué expl ica la combinación altas 
+intenciones al emprendimiento y bajo espíritu emprendedor de los estudiantes de 
+Arte y Humanidades? La universidad podría emplear el conocimiento obtenido al 
+responder estas preguntas para diseñar intervenciones en algunas ramas de  
+conocimiento con el objetivo de corregir posibles dificultades específicas que 
+reducen el espíritu, las intenciones o las competencias emprendedoras. 
+ 
+❖ La UDC podría orientar esfuerzos a reforzar la percepción de esta universidad como 
+una institución proclive al emprendimiento. Esto podría implicar medidas como: 
+✓ Tomar en consideración que el emprendimiento no ocurre necesariamente tras los 
+estudios. La UDC tiene un considerable número de estudiantes que dirigen o están 
+activamente diseñando la creación de s u propia empresa. La universidad podría 
+diseñar acciones orientadas específicamente a ofrecer apoyo y asesoría a estos 
+estudiantes. 
+✓ Elaborar un plan para identificar y reformar las materias y cursos en los que resulta 
+pertinente mejorar la orientación al e mprendimiento, poniendo un mayor énfasis 
+en la generación de las habilidades y conocimientos necesarios para la creación y 
+dirección de empresas. 
+
+ 
+ 
+23 
+ 
+✓ Mantener, reforzar, impulsar y ampliar el catálogo de materias y cursos optativos 
+específicamente orientados a l emprendimiento que puedan satisfacer las 
+necesidades formativas de aquellos que pretenden escoger esta trayectoria 
+profesional. 
+✓ Los alumnos valoran como muy importante la educación financiera, pero son 
+críticos respecto de la suficiencia y adecuación de la que reciben. Esto podría 
+resolverse con medidas como la oferta de cursos o asignaturas optativas orientadas 
+a ofrecer al estudiantado los conocimientos y herramientas necesarios para el 
+análisis y gestión de las finanzas. Estas medidas podrían tener en cuenta los 
+ámbitos donde la carencia de educación financiera resulta más destacada, como 
+las Ciencias de la Salud, así como acompañarse con otras que incidieran en la 
+importancia de este tipo de educación, especialmente en ámbitos de estudios como 
+las Artes y humanidades, donde se considera como baja. 
+✓ Mantener y reforzar el apoyo que la UDC ofrece al estudiantado con intenciones 
+emprendedoras y, especialmente, los programas de fomento del emprendimiento, 
+como por ejemplo, el prog rama Explorer, así como el servicio de asesoramiento 
+integral para la creación de una empresa y las distintas informaciones disponibles 
+en la web de autoempleo de la UDC.  En esa misma línea podrían facilitarse la 
+creación de espacios y eventos de encuentro recurrente entre alumnos co n 
+intención emprendedora, con el objetivo del intercambio de ideas y experiencias, 
+el apoyo mutuo, la identificación de demandas compartidas, etc. 
+✓ Reforzar la firma de convenios para la realización de prácticas con pequeñas y 
+medianas empresas que pudieran  servir para acercar la experiencia real del 
+emprendimiento a los estudiantes con esta vocación profesional. 
+ 
+❖ El profesorado de la UDC ha de tener presente la realidad de los planes profesionales 
+de futuro de sus estudiantes en el diseño de sus intervencio nes pedagógicas. Esto 
+implica: 
+✓ Ser consciente del hecho de que alrededor de un 20% de ellos tiene intención de 
+iniciar una carrera emprendedora. 
+✓ Presentar al alumnado la opción de la carrera emprendedora como una alternativa 
+a considerar en lo referido a s u futuro profesional , ofreciendo, con la ayuda de 
+profesionales, un panorama realista sobre  las ventajas y desventajas del 
+autoempleo que permita una elección informada de carrera profesional. 
+ 
+ 
+
+ 
+ 
+24 
+ 
+Anexo Estadístico 
+ 
+TABLA 1: UNIVERSIDADES PARTICIPANTES EN GUESSS ESPAÑA 2021 Y SUS 
+DELEGADOS 
+UNIVERSIDADES (POR 
+ORDEN ALFABÉTICO) CCAA DELEGADOS GUESSS ESPAÑA 2021 
+Universidad de Almería Andalucía Carlos Cano Guillén 
+Universidad de Cádiz Andalucía José Manuel Sánchez Vázquez; Carmen Camelo 
+Ordaz ; Juan Pablo Diánez González; Noelia 
+Franco Leal 
+Universidad de Córdoba Andalucía Rafael Linares Burgos y María Amalia Trillo 
+Holgado 
+Universidad de Granada Andalucía María del Mar Fuentes 
+Universidad de Huelva Andalucía Francisco Barba 
+Universidad de Jaén Andalucía Lucas Cañas Lozano y José García Vico 
+Universidad de Málaga Andalucía Rafael Ventura Fernández e Isabel María Abad 
+Guerrero 
+Universidad de Sevilla Andalucía Francisco Liñán y María de los Ángeles Revilla 
+Camacho 
+Universidad Internacional de 
+Andalucía 
+Andalucía Maria Luisa Palma y Victor Jesús García 
+Morales 
+Universidad Loyola de 
+Andalucía 
+Andalucía Mercedes Pérez Millán y Emilio J. Morales 
+Fernández 
+Universidad Pablo de Olavide Andalucía Elena Sousa Ginel 
+Universidad de Zaragoza Aragón Lucio Fuentelsaz y Consuelo González 
+Universidad de Oviedo Asturias Jesús Ángel del Brío González y Susana 
+Menéndez Requejo 
+Universidad de La Laguna Canarias Francisco García -Rodríguez; Inés Ruiz de la 
+Rosa; Desiderio Gutiérrez y Esperanza Gil 
+Universidad de Las Palmas de 
+Gran Canaria 
+Canarias Mª del Pino Medina y Rosa María Batista 
+Universidad Europea de 
+Canarias 
+Canarias Sara Patricia Torre García 
+Universidad de Cantabria Cantabria Paula San Martín Espina y Estefanía Palazuelos 
+Cobo 
+Universidad Europea del 
+Atlántico 
+Cantabria Inna Alexeeva Alexeev 
+Universidad Católica Santa 
+Teresa Jesús de Ávila 
+Castilla y León Javier Jorge Vázquez 
+Universidad de Burgos Castilla y León Juan Bautista Delgado  García, Celia Díaz 
+Portugal y Virginia Blanco Mazagatos 
+Universidad de León Castilla y León Nuría González Álvarez y Mariano Nieto 
+Antolín 
+Universidad de Salamanca Castilla y León José Carlos Sánchez 
+Universidad de Valladolid Castilla y León Natalia Martín Cruz 
+Universidad Europea Miguel de 
+Cervantes 
+Castilla y León Juan Vicente García Manjón 
+Universidad de Castilla -La 
+Mancha 
+Castilla-La 
+Mancha 
+Juan José Jiménez 
+
+ 
+ 
+25 
+ 
+Universidad Autónoma de 
+Barcelona 
+Cataluña David Urbano y Sebastián Aparicio Rincón 
+Universidad de Barcelona Cataluña Jaume Valls, Esteher Hormiga, Liz Arroyo, 
+Claudio Cruz Casares 
+Universidad de Gerona Cataluña Laura Vall-llosera Casanovas 
+Universidad de Lleida Cataluña José Manuel Alonso Martínez 
+Universidad de Vic Cataluña Elisenda Tarrats 
+Universidad Internacional de 
+Cataluña 
+Cataluña Jasmina Berbegal Mirabent (hasta julio de 2021); 
+Ioannis Pierrakis y Nina Magomedova 
+Universidad Oberta de Cataluña Cataluña Joan Torrent-Sellens 
+Universidad Politécnica de 
+Cataluña 
+Cataluña Jordi Olivella 
+Universidad Rovira i Virgili Cataluña Mercedes Teruel Carrizosa 
+Universitat Abat Oliba CEU Cataluña Carmen Ruiz Viñals y María Teresa Signes 
+Universitat Pompeu Fabra Cataluña Fátima Vidal 
+Universitat Ramón Llull (La 
+Salle Campus Barcelona) 
+Cataluña Paul Fox 
+EAE Business School Cataluña Marcelo Leporati; Alfonso Jesús Torres 
+EOI C. de Madrid Miguel Sánchez Galindo 
+Universidad a distancia de 
+Madrid 
+C. de Madrid Ana Landeta 
+Universidad Alfonso X El Sabio C. de Madrid Cristina Peláez 
+Universidad Autónoma de 
+Madrid 
+C. de Madrid Miguel Angoitia Grijalba 
+Universidad Camilo José Cela C. de Madrid Stéfano Visintín 
+Universidad Carlos III de Madrid C. de Madrid Virginia Hernández y Belén Usero 
+Universidad CEU San Pablo C. de Madrid Carmen Sebrango y María Losana Montes 
+Universidad Complutense de 
+Madrid 
+C. de Madrid Ester Cubo y Paloma Bel 
+Universidad de Alcalá C. de Madrid Fernando Javier Crecente Romero 
+Universidad Europea de Madrid C. de Madrid Sara Patricia Torre García 
+Universidad Francisco de Vitoria C. de Madrid Caridad Maylin y Ramón Fernández de Caleya 
+Universidad Nacional de 
+Educación a Distancia 
+C. de Madrid Ana María Lisbona Banuelos  y Noelia Córdoba 
+Benítez 
+Universidad Politécnica de 
+Madrid 
+C. de Madrid Claudio Feijoo, Jimena Blázquez, Carmen 
+Avilés 
+Universidad Pontificia Comillas C. de Madrid Mª Paz Gil Segura 
+Universidad Rey Juan Carlos C. de Madrid Concepción de la Fuente Cabrero y Pilar Laguna 
+Sánchez 
+Universidad Cardenal Herrera -
+CEU 
+C. Valenciana Cristina Ventura Esteban 
+Universidad Católica de 
+Valencia San Vicente Mártir 
+C. Valenciana Clara Gieure Sastre 
+Universidad de Alicante C. Valenciana Susana de Juana Espinosa y Jorge Valdés Conca 
+Universidad de Valencia C. Valenciana Lorenzo Revuelto 
+Universidad Europea de 
+Valencia 
+C. Valenciana Sara Torre 
+Universidad Internacional de 
+Valencia VIU 
+C. Valenciana Diana Seguí Mas 
+Universidad Jaime I C. Valenciana María Ripollés y Laura Martínez Perís 
+Universidad Miguel Hernández 
+de Elche 
+C. Valenciana José María Gómez Gras, Marina Estrada de la 
+Cruz 
+
+ 
+ 
+26 
+ 
+Universidad Politécnica de 
+Valencia 
+C. Valenciana Elies Seguí Mas 
+Universidad de Extremadura Extremadura Antonio Fernández Portillo y Ricardo Hernández 
+Mogollón 
+Universidad de La Coruña Galicia Paolo Rungo 
+Universidad de Santiago de 
+Compostela 
+Galicia Isabel Neira Gómez y Loreto Fernández 
+Universidad de Vigo Galicia Ana Gueimonde Canto y Mª  Isabel Diéguez 
+Castrillón 
+Universidad de las Islas Baleares Islas Baleares Julio Batle Lorente 
+Universidad de La Rioja La Rioja Idana Salazar Terreros 
+Universidad Internacional de la 
+Rioja 
+La Rioja Manuel Peiró 
+Universidad Pública de Navarra Navarra Ignacio Contín; Martín Larraz; Paula Anzola 
+Universidad de Deusto País Vasco Garbiñe Henry Moreno 
+Universidad de Mondragón País Vasco Aitor Lizarza; Nerea González; Mónika Tkacz 
+Universidad del País Vasco País Vasco Noemí Peña y María Saiz 
+Universidad Católica San 
+Antonio 
+Región de 
+Murcia 
+Cesar Nicolás Martínez y Rocío Arteaga 
+Sánchez 
+Universidad de Murcia Región de 
+Murcia 
+Alicia Rubio y Ester Gras Gil 
+ 
+
+ 
+ 
+27 
+ 
+TABLA 2: INTENCIONES DE ELECCIÓN DE CARRERA PROFESIONAL DE LOS ESTUDIANTES DE LA UDC AL FINALIZAR SUS 
+ESTUDIOS Y CINCO AÑOS DESPUÉS 
+  Trayectoria profesional 5 años después  
+Trayectoria 
+profesional a seguir 
+después de los estudios 
+  
+Empleado 
+pequeña 
+empresa 
+Empleado 
+empresa 
+mediana 
+Empleado 
+gran 
+empresa 
+Empleado 
+org. sin 
+ánimo de 
+lucro 
+Empleado 
+académico 
+Empleado 
+ad. pública 
+Empresario 
+fundador 
+Empresario 
+sucesor 
+familiar 
+Empresario 
+sucesor otra 
+empresa 
+Otros/No sé 
+todavía Total 
+Empleado 
+pequeña 
+empresa 
+n 37 10 19 2 6 22 33 1 0 4 134 
+% fil 27.6% 7.5% 14.2% 1.5% 4.5% 16.4% 24.6% .7% 0.0% 3.0% 100.0% 
+% col 56.1% 8.7% 6.6% 7.4% 2.7% 6.3% 10.4% 5.9% 0.0% 2.7% 8.6% 
+Empleado 
+empresa 
+mediana 
+n 5 45 64 1 7 12 43 1 1 7 186 
+% fil 2.7% 24.2% 34.4% .5% 3.8% 6.5% 23.1% .5% .5% 3.8% 100.0% 
+% col 7.6% 39.1% 22.3% 3.7% 3.2% 3.4% 13.6% 5.9% 25.0% 4.7% 12.0% 
+Empleado 
+gran empresa 
+n 2 17 162 0 5 12 54 2 1 16 271 
+% fil .7% 6.3% 59.8% 0.0% 1.8% 4.4% 19.9% .7% .4% 5.9% 100.0% 
+% col 3.0% 14.8% 56.4% 0.0% 2.3% 3.4% 17.0% 11.8% 25.0% 10.7% 17.5% 
+Empleado 
+org. sin 
+ánimo lucro 
+n 1 3 1 19 2 3 2 0 0 3 34 
+% fil 2.9% 8.8% 2.9% 55.9% 5.9% 8.8% 5.9% 0.0% 0.0% 8.8% 100.0% 
+% col 1.5% 2.6% .3% 70.4% .9% .9% .6% 0.0% 0.0% 2.0% 2.2% 
+Empleado 
+académico 
+n 4 6 4 2 175 24 15 0 0 3 233 
+% fil 1.7% 2.6% 1.7% .9% 75.1% 10.3% 6.4% 0.0% 0.0% 1.3% 100.0% 
+% col 6.1% 5.2% 1.4% 7.4% 79.5% 6.9% 4.7% 0.0% 0.0% 2.0% 15.0% 
+Empleado ad. 
+pública 
+n 1 3 6 1 9 254 13 1 0 5 293 
+% fil .3% 1.0% 2.0% .3% 3.1% 86.7% 4.4% .3% 0.0% 1.7% 100.0% 
+% col 1.5% 2.6% 2.1% 3.7% 4.1% 72.8% 4.1% 5.9% 0.0% 3.3% 18.9% 
+Empresario 
+fundador 
+n 4 12 9 0 6 5 130 2 0 6 174 
+% fil 2.3% 6.9% 5.2% 0.0% 3.4% 2.9% 74.7% 1.1% 0.0% 3.4% 100.0% 
+% col 6.1% 10.4% 3.1% 0.0% 2.7% 1.4% 41.0% 11.8% 0.0% 4.0% 11.2% 
+Empresario 
+sucesor 
+familiar 
+n 0 0 0 0 0 0 2 10 0 0 12 
+% fil 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 16.7% 83.3% 0.0% 0.0% 100.0% 
+% col 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% .6% 58.8% 0.0% 0.0% .8% 
+Empresario 
+sucesor otra 
+emp. 
+n 0 0 0 0 0 0 0 0 1 0 1 
+% fil 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 100.0% 0.0% 100.0% 
+% col 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 25.0% 0.0% .1% 
+Otros/No sé 
+todavía 
+n 12 19 22 2 10 17 25 0 1 106 214 
+% fil 5.6% 8.9% 10.3% .9% 4.7% 7.9% 11.7% 0.0% .5% 49.5% 100.0% 
+% col 18.2% 16.5% 7.7% 7.4% 4.5% 4.9% 7.9% 0.0% 25.0% 70.7% 13.8% 
+Total 
+n 66 115 287 27 220 349 317 17 4 150 1552 
+% fil 4.3% 7.4% 18.5% 1.7% 14.2% 22.5% 20.4% 1.1% .3% 9.7% 100.0% 
+% col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+En todas las tablas, %fil = porcentaje de fila y % col = porcentaje de columna 
+
+ 
+ 
+28 
+ 
+TABLA 3: INTENCIONES DE ELECCIÓN DE CARRERA PROFESIONAL DE LOS 
+ESTUDIANTES DE LA UDC AL FINALIZAR SUS ESTUDIOS SEGÚN SEXO 
+  Hombre Mujer Otros Total 
+Empleado pequeña 
+empresa 
+n 47 87 0 134 
+% col 7.9% 9.2% 0.0% 8.6% 
+Empleado empresa 
+mediana 
+n 76 108 1 185 
+% col 12.8% 11.4% 11.1% 11.9% 
+Empleado gran 
+empresa 
+n 120 149 2 271 
+% col 20.3% 15.7% 22.2% 17.5% 
+Empleado org. sin 
+ánimo de lucro 
+n 6 28 0 34 
+% col 1.0% 3.0% 0.0% 2.2% 
+Empleado académico n 85 147 1 233 
+% col 14.4% 15.5% 11.1% 15.0% 
+Empleado ad. 
+pública 
+n 71 221 0 292 
+% col 12.0% 23.3% 0.0% 18.8% 
+Empresario 
+fundador 
+n 90 82 2 174 
+% col 15.2% 8.6% 22.2% 11.2% 
+Empresario sucesor 
+familiar 
+n 6 6 0 12 
+% col 1.0% .6% 0.0% .8% 
+Empresario sucesor 
+otra empresa 
+n 1 0 0 1 
+% col .2% 0.0% 0.0% .1% 
+Otros/No sé todavía n 90 121 3 214 
+% col 15.2% 12.8% 33.3% 13.8% 
+Total n 592 949 9 1550 
+% col 100.0% 100.0% 100.0% 100.0% 
+ 
+  
+
+ 
+ 
+29 
+ 
+TABLA 4: INTENCIONES DE ELECCIÓN DE CARRERA PROFESIONAL DE LOS 
+ESTUDIANTES DE LA UDC CINCO AÑOS DESPUÉS DE ACABAR SUS 
+ESTUDIOS SEGÚN SEXO 
+  
+Hombre Mujer Otros Total 
+Empleado pequeña 
+empresa 
+n 24 42 0 66 
+% col 4.1% 4.4% 0.0% 4.3% 
+Empleado empresa 
+mediana 
+n 46 67 1 114 
+% col 7.8% 7.1% 11.1% 7.4% 
+Empleado gran 
+empresa 
+n 120 165 2 287 
+% col 20.3% 17.4% 22.2% 18.5% 
+Empleado org. sin 
+ánimo de lucro 
+n 4 23 0 27 
+% col .7% 2.4% 0.0% 1.7% 
+Empleado académico n 78 142 0 220 
+% col 13.2% 15.0% 0.0% 14.2% 
+Empleado 
+administración pública 
+n 88 261 0 349 
+% col 14.9% 27.5% 0.0% 22.5% 
+Empresario fundador n 162 150 4 316 
+% col 27.4% 15.8% 44.4% 20.4% 
+Empresario sucesor 
+familiar 
+n 7 10 0 17 
+% col 1.2% 1.1% 0.0% 1.1% 
+Empresario sucesor 
+otra empresa 
+n 2 1 1 4 
+% col .3% .1% 11.1% .3% 
+Otros/No sé todavía n 61 88 1 150 
+% col 10.3% 9.3% 11.1% 9.7% 
+Total n 592 949 9 1550 
+% col 100.0% 100.0% 100.0% 100.0% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ 
+ 
+30 
+ 
+TABLA 5: INTENCIONES DE ELECCIÓN DE CARRERA PROFESIONAL DE LOS 
+ESTUDIANTES DE LA UDC AL FINALIZAR SUS ESTUDIOS SEGÚN ÁMBITO DE 
+ESTUDIO 
+ 
+  Arte y 
+Hum. 
+Ciencias Ciencias 
+de la 
+Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. 
+Total 
+Empleado pequeña 
+empresa 
+n 15 6 23 37 39 120 
+% col 13.0% 5.4% 13.1% 5.5% 9.9% 8.2% 
+Empleado empresa 
+mediana 
+n 14 13 8 65 77 177 
+% col 12.2% 11.7% 4.5% 9.7% 19.5% 12.1% 
+Empleado gran 
+empresa 
+n 11 14 11 106 112 254 
+% col 9.6% 12.6% 6.3% 15.9% 28.4% 17.4% 
+Empleado org. sin 
+ánimo de lucro 
+n 2 3 5 18 5 33 
+% col 1.7% 2.7% 2.8% 2.7% 1.3% 2.3% 
+Empleado 
+académico 
+n 27 26 20 119 28 220 
+% col 23.5% 23.4% 11.4% 17.8% 7.1% 15.0% 
+Empleado ad. 
+pública 
+n 20 16 59 172 19 286 
+% col 17.4% 14.4% 33.5% 25.8% 4.8% 19.5% 
+Empresario 
+fundador 
+n 10 6 27 70 47 160 
+% col 8.7% 5.4% 15.3% 10.5% 11.9% 10.9% 
+Empresario sucesor 
+familiar 
+n 0 0 0 6 4 10 
+% col 0.0% 0.0% 0.0% .9% 1.0% .7% 
+Empresario sucesor 
+otra empresa 
+n 0 0 0 1 0 1 
+% col 0.0% 0.0% 0.0% .1% 0.0% .1% 
+Otros/No sé todavía n 16 27 23 73 63 202 
+% col 13.9% 24.3% 13.1% 10.9% 16.0% 13.8% 
+Total 
+n 115 111 176 667 394 1463 
+% col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+Nota: Los 89 casos correspondientes a “Otros” ámbitos de estudios no se han procesado. 
+ 
+  
+
+ 
+ 
+31 
+ 
+TABLA 6: INTENCIONES DE ELECCIÓN DE CARRERA PROFESIONAL DE LOS 
+ESTUDIANTES DE LA UDC CINCO AÑOS DESPUÉS DE ACABAR SUS 
+ESTUDIOS SEGÚN ÁMBITO DE ESTUDIOS 
+ 
+  Arte y 
+Hum. 
+Ciencias Ciencias 
+de la 
+Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. 
+Total 
+Empleado pequeña 
+empresa 
+n 5 3 10 15 23 56 
+% col 4.3% 2.7% 5.7% 2.2% 5.8% 3.8% 
+Empleado empresa 
+mediana 
+n 5 9 8 44 45 111 
+% col 4.3% 8.1% 4.5% 6.6% 11.4% 7.6% 
+Empleado gran 
+empresa 
+n 15 20 11 104 122 272 
+% col 13.0% 18.0% 6.3% 15.6% 31.0% 18.6% 
+Empleado org. sin 
+ánimo de lucro 
+n 4 2 3 15 2 26 
+% col 3.5% 1.8% 1.7% 2.2% .5% 1.8% 
+Empleado 
+académico 
+n 23 27 15 114 28 207 
+% col 20.0% 24.3% 8.5% 17.1% 7.1% 14.1% 
+Empleado ad. 
+pública 
+n 31 18 74 191 27 341 
+% col 27.0% 16.2% 42.0% 28.6% 6.9% 23.3% 
+Empresario 
+fundador 
+n 18 9 36 117 112 292 
+% col 15.7% 8.1% 20.5% 17.5% 28.4% 20.0% 
+Empresario 
+sucesor familiar 
+n 1 0 1 9 4 15 
+% col .9% 0.0% .6% 1.3% 1.0% 1.0% 
+Empresario 
+sucesor otra 
+empresa 
+n 0 0 0 3 0 3 
+% col 0.0% 0.0% 0.0% .4% 0.0% .2% 
+Otros/No sé todavía n 13 23 18 55 31 140 
+% col 11.3% 20.7% 10.2% 8.2% 7.9% 9.6% 
+Total n 115 111 176 667 394 1463 
+% col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+Nota: Los 89 casos correspondientes a “Otros” ámbitos de estudios no se han procesado. 
+  
+
+ 
+ 
+32 
+ 
+TABLA 7: NIVEL DE ACUERDO CON LOS ÍTEMS QUE FORMAN EL ÍNDICE DE 
+ESPÍRITU EMPRENDEDOR 
+ 
+  1 2 3 4 5 6 7 Total NC Total 
+Estoy dispuesto a 
+hacer cualquier 
+cosa para ser 
+empresario 
+n 243 213 212 254 197 92 54 1265 287 1552 
+% 
+fil 19.2% 16.8% 16.8% 20.1% 15.6% 7.3% 4.3% 100.0   
+Mi objetivo 
+profesional es 
+convertirme en 
+empresario 
+n 281 233 189 182 161 111 106 1263 289 1552 
+% 
+fil 22.2% 18.4% 15.0% 14.4% 12.7% 8.8% 8.4% 100.0   
+Haré todo lo 
+posible para crear 
+y dirigir mi propia 
+empresa 
+n 290 243 176 187 163 112 92 1263 289 1552 
+% 
+fil 23.0% 19.2% 13.9% 14.8% 12.9% 8.9% 7.3% 100.0   
+Estoy decidido a 
+crear un negocio 
+en el futuro 
+n 315 237 179 188 150 101 88 1258 294 1552 
+% 
+fil 25.0% 18.8% 14.2% 14.9% 11.9% 8.0% 7.0% 100.0   
+He pensado muy 
+seriamente en 
+crear un negocio 
+n 340 208 154 172 182 105 100 1261 291 1552 
+% 
+fil 27.0% 16.5% 12.2% 13.6% 14.4% 8.3% 7.9% 100.0   
+ Tengo la firme 
+intención de crear 
+un negocio algún 
+día 
+n 340 228 177 167 143 94 111 1260 292 1552 
+% 
+fil 27.0% 18.1% 14.0% 13.3% 11.3% 7.5% 8.8% 100.0   
+Ser empresario me 
+supone más 
+ventajas que 
+desventajas 
+n 184 179 226 314 169 120 72 1264 288 1552 
+% 
+fil 14.6% 14.2% 17.9% 24.8% 13.4% 9.5% 5.7% 100.0   
+La carrera de 
+empresario me 
+resulta atractiva 
+n 202 205 170 183 233 159 111 1263 289 1552 
+% 
+fil 16.0% 16.2% 13.5% 14.5% 18.4% 12.6% 8.8% 100.0   
+Si tuviera la 
+oportunidad y los 
+recursos. me 
+convertiría en 
+empresario 
+n 131 113 122 190 241 226 240 1263 289 1552 
+% 
+fil 10.4% 8.9% 9.7% 15.0% 19.1% 17.9% 19.0% 100.0   
+Ser empresario me 
+reportaría grandes 
+satisfacciones 
+n 184 145 151 222 205 202 154 1263 289 1552 
+% 
+fil 14.6% 11.5% 12.0% 17.6% 16.2% 16.0% 12.2% 100.0   
+Entre varias 
+opciones. 
+preferiría ser 
+empresario 
+n 244 203 178 222 183 126 105 1261 291 1552 
+% 
+fil 19.3% 16.1% 14.1% 17.6% 14.5% 10.0% 8.3% 100.0   
+ 
+ 
+  
+
+ 
+ 
+33 
+ 
+TABLA 8: MEDIAS DEL NIVEL DE ACUERDO CON LOS ÍTEMS QUE 
+COMPONEN EL ÍNDICE DE ESPÍRITU EMPRENDEDOR, POR SEXO (ESCALA 1-
+7) 
+    Hombre Mujer 
+Estoy dispuesto a hacer cualquier cosa para 
+ser empresario 
+Media 3.42 3.31 
+n 442 813 
+Mi objetivo profesional es convertirme en 
+empresario 
+Media 3.58 3.24 
+n 442 811 
+Haré todo lo posible para crear y dirigir mi 
+propia empresa 
+Media 3.48 3.21 
+n 441 812 
+Estoy decidido a crear un negocio en el 
+futuro 
+Media 3.53 3.05 
+n 439 809 
+He pensado muy seriamente en crear un 
+negocio 
+Media 3.52 3.15 
+n 440 811 
+Tengo la firme intención de crear un negocio 
+algún día. 
+Media 3.54 3.03 
+n 440 810 
+Ser empresario me supone más ventajas que 
+desventajas 
+Media 3.74 3.51 
+n 442 812 
+La carrera de empresario me resulta 
+atractiva 
+Media 3.97 3.64 
+n 442 811 
+Si tuviera la oportunidad y los recursos, me 
+convertiría en empresario 
+Media 4.69 4.45 
+n 442 811 
+Ser empresario me reportaría grandes 
+satisfacciones 
+Media 4.26 3.95 
+n 442 811 
+Entre varias opciones, preferiría ser 
+empresario 
+Media 3.80 3.41 
+n 441 810 
+ 
+  
+
+ 
+ 
+34 
+ 
+TABLA 9: MEDIAS DEL NIVEL DE ACUERDO CON LOS ÍTEMS QUE 
+COMPONEN EL ÍNDICE DE ESPÍRITU EMPRENDEDOR, POR ÁMBITO DE 
+ESTUDIOS (ESCALA 1-7) 
+    Arte y 
+Hum. Ciencias 
+Ciencias 
+de la 
+Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. 
+Estoy dispuesto a 
+hacer cualquier cosa 
+para ser empresario 
+Media 2.98 3.29 3.47 3.38 3.23 
+n 90 94 156 544 306 
+Mi objetivo 
+profesional es 
+convertirme en 
+empresario 
+Media 2.89 3.11 3.56 3.24 3.57 
+n 90 94 155 541 307 
+Haré todo lo posible 
+para crear y dirigir 
+mi propia empresa 
+Media 2.70 3.05 3.53 3.21 3.51 
+n 90 94 154 543 306 
+Estoy decidido a crear 
+un negocio en el 
+futuro 
+Media 2.63 3.00 3.34 3.10 3.51 
+n 88 94 155 539 306 
+He pensado muy 
+seriamente en crear 
+un negocio 
+Media 2.52 3.10 3.44 3.23 3.45 
+n 88 94 155 542 306 
+Tengo la firme 
+intención de crear un 
+negocio algún día. 
+Media 2.53 2.85 3.35 3.15 3.45 
+n 88 94 155 541 306 
+Ser empresario me 
+supone más ventajas 
+que desventajas 
+Media 3.29 3.54 3.80 3.52 3.66 
+n 90 94 154 544 306 
+La carrera de 
+empresario me resulta 
+atractiva 
+Media 3.13 3.46 3.90 3.70 3.97 
+n 90 94 154 542 307 
+Si tuviera la 
+oportunidad y los 
+recursos, me 
+convertiría en 
+empresario 
+Media 4.10 4.45 4.57 4.44 4.70 
+n 90 94 154 542 307 
+Ser empresario me 
+reportaría grandes 
+satisfacciones 
+Media 3.62 3.67 4.06 4.06 4.22 
+n 90 94 154 542 307 
+Entre varias opciones, 
+preferiría ser 
+empresario 
+Media 3.09 3.17 3.61 3.48 3.79 
+n 90 93 154 541 307 
+  
+
+ 
+ 
+35 
+ 
+TABLA 10: NIVEL DE ACUERDO CON LOS ÍTEMS QUE COMPONEN EL ÍNDICE 
+DE COMPETENCIAS PARA EL EMPRENDIMIENTO 
+ 
+  1 2 3 4 5 6 7 Total 
+vál. NC Total 
+Identificar nuevas 
+oportunidades de 
+negocio 
+n 95 141 218 294 290 154 71 1263 289 1552 
+% fil 7.5% 11.2% 17.3% 23.3% 23.0% 12.2% 5.6% 100.0   
+Crear nuevos 
+productos y 
+servicios 
+n 98 139 212 284 288 158 81 1260 292 1552 
+% fil 7.8% 11.0% 16.8% 22.5% 22.9% 12.5% 6.4% 100.0   
+Gestionar la 
+innovación dentro 
+de una empresa 
+n 93 145 175 256 285 211 95 1260 292 1552 
+% fil 7.4% 11.5% 13.9% 20.3% 22.6% 16.7% 7.5% 100.0   
+Ser líder y 
+comunicador 
+n 64 77 133 203 274 284 226 1261 291 1552 
+% fil 5.1% 6.1% 10.5% 16.1% 21.7% 22.5% 17.9% 100.0   
+Crear una red 
+profesional 
+n 98 113 182 278 296 193 100 1260 292 1552 
+% fil 7.8% 9.0% 14.4% 22.1% 23.5% 15.3% 7.9% 100.0   
+Comercializar una 
+nueva idea o 
+desarrollo 
+n 106 134 175 259 307 179 101 1261 291 1552 
+% fil 8.4% 10.6% 13.9% 20.5% 24.3% 14.2% 8.0% 100.0   
+Gestionar con 
+éxito una empresa 
+n 103 122 152 305 279 182 117 1260 292 1552 
+% fil 8.2% 9.7% 12.1% 24.2% 22.1% 14.4% 9.3% 100.0   
+ 
+ 
+TABLA 11: MEDIAS DE LA AUTOEVALUACIÓN DEL NIVEL COMPETENCIAS 
+PARA EL EMPRENDIMIENTO (ÍTEMS QUE COMPONEN EL ÍNDICE DE 
+COMPETENCIAS PARA EL EMPRENDIMIENTO), POR SEXO (ESCALA 1-7) 
+    Hombre Mujer Otro 
+Identificar nuevas 
+oportunidades de negocio 
+Media 4.20 3.92 4.50 
+n 442 811 8 
+Crear nuevos productos y 
+servicios 
+Media 4.21 3.96 4.50 
+n 441 809 8 
+Gestionar la innovación 
+dentro de una empresa 
+Media 4.30 4.14 4.00 
+n 441 809 8 
+Ser líder y comunicador Media 4.85 4.81 4.38 
+n 442 809 8 
+Crear una red profesional Media 4.35 4.16 3.63 
+n 442 808 8 
+Comercializar una nueva 
+idea o desarrollo 
+Media 4.28 4.11 3.63 
+n 442 809 8 
+Gestionar con éxito una 
+empresa 
+Media 4.30 4.19 3.63 
+n 442 808 8 
+   
+
+ 
+ 
+36 
+ 
+TABLA 12: MEDIAS DE LA AUTOEVALUACIÓN DEL NIVEL COMPETENCIAS 
+PARA EL EMPRENDIMIENTO (ÍTEMS QUE COMPONEN EL ÍNDICE DE 
+COMPETENCIAS PARA EL EMPRENDIMIENTO), POR ÁMBITO DE ESTUDIOS 
+(ESCALA 1-7) 
+    Arte y 
+Hum. Ciencias Ciencias de 
+la Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. 
+Identificar nuevas 
+oportunidades de 
+negocio 
+Media 3.82 3.66 3.83 4.09 4.16 
+n 89 93 156 543 307 
+Crear nuevos 
+productos y 
+servicios 
+Media 3.90 3.66 3.80 4.00 4.37 
+n 88 93 155 542 307 
+Gestionar la 
+innovación dentro 
+de una empresa 
+Media 3.84 4.14 3.68 4.20 4.50 
+n 89 93 155 542 306 
+Ser líder y 
+comunicador 
+Media 4.56 4.67 4.59 4.93 4.90 
+n 89 93 155 542 307 
+Crear una red 
+profesional 
+Media 3.80 4.04 4.07 4.26 4.32 
+n 88 93 155 542 307 
+Comercializar 
+una nueva idea o 
+desarrollo 
+Media 3.91 3.96 3.72 4.21 4.35 
+n 89 93 155 542 307 
+Gestionar con 
+éxito una empresa 
+Media 3,76 3,77 4,01 4,35 4,32 
+n 89 92 155 542 307 
+Nota: Los 89 casos correspondientes a “Otros” ámbitos de estudios no se han procesado. 
+ 
+TABLA 13: EMPRENDEDORES NACIENTES EN LA UDC, SEGÚN SEXO 
+Emprendedor 
+naciente 
+  Hombre Mujer Otro Total 
+No  n 456 829 9 1294 
+% col 77.0% 87.4% 100.0% 83.5% 
+Sí n 136 120 0 256 
+% col 23.0% 12.6% 0.0% 16.5% 
+Total n 592 949 9 1550 
+% col 100.0% 100.0% 100.0% 100.0% 
+ 
+  
+
+ 
+ 
+37 
+ 
+TABLA 14: EMPRENDEDORES NACIENTES EN LA UDC, SEGÚN ÁMBITO DE 
+ESTUDIOS 
+Emprendedor 
+naciente 
+  
+Arte y 
+Hum. Ciencias Ciencias de 
+la Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. Total 
+No n 94 94 158 558 314 1218 
+% col 81.7% 84.7% 89.8% 83.7% 79.7% 83.3% 
+Sí n 21 17 18 109 80 245 
+% col 18.3% 15.3% 10.2% 16.3% 20.3% 16.7% 
+Total n 115 111 176 667 394 1463 
+% col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+Nota: Los 89 casos correspondientes a “Otros” ámbitos de estudios no se han procesado. 
+ 
+ 
+TABLA 15: EMPRENDEDORES ACTIVOS EN LA UDC, SEGÚN SEXO 
+Emprendedor activo 
+  Hombre Mujer Otro Total 
+No n 547 908 8 1463 
+% col 92.4% 95.7% 88.9% 94.4% 
+Sí n 45 41 1 87 
+% col 7.6% 4.3% 11.1% 5.6% 
+Total n 592 949 9 1550 
+% col 100.0% 100.0% 100.0% 100.0% 
+ 
+ 
+TABLA 16: EMPRENDEDORES ACTIVO S EN LA UDC, SEGÚN ÁMBTO DE 
+ESTUDIO 
+ Emprendedor 
+activo 
+Arte y 
+Hum. Ciencias Ciencias de 
+la Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. Total 
+No n 104 107 170 631 368 1380 
+% col 90.4% 96.4% 96.6% 94.6% 93.4% 94,3% 
+Sí n 11 4 6 36 26 83 
+% col 9.6% 3.6% 3.4% 5.4% 6.6% 5,7% 
+Total n 115 111 176 667 394 1463 
+% col 100.0% 100.0% 100.0% 100.0% 100.0% 100,0% 
+Nota: Los 89 casos correspondientes a “Otros” ámbitos de estudios no se han procesado. 
+ 
+  
+
+ 
+ 
+38 
+ 
+TABLA 17: NIVEL DE ACUERDO CON LOS ÍTEMS QUE FORMAN EL ÍNDICE 
+DE VALORACIÓN DEL CLIMA FAVORABLE AL EMPRENDIMIENTO 
+ 
+  1 2 3 4 5 6 7 Total NC Total 
+El ambiente 
+de mi 
+universidad 
+me inspira a 
+desarrollar 
+ideas para 
+nuevos 
+negocios 
+n 232 275 266 336 235 126 80 1550 2 1552 
+% 
+fil 15.0% 17.7% 17.2% 21.7% 15.2% 8.1% 5.2% 100.0%   
+En mi 
+universidad 
+existe un 
+clima 
+favorable 
+para 
+convertirse en 
+empresario 
+n 259 268 286 341 191 131 70 1546 6 1552 
+% 
+fil 16.8% 17.3% 18.5% 22.1% 12.4% 8.5% 4.5% 100.0%   
+En mi 
+universidad 
+se anima a los 
+estudiantes a 
+realizar 
+actividades 
+empresariales 
+n 238 235 249 286 238 180 117 1543 9 1552 
+% 
+fil 15.4% 15.2% 16.1% 18.5% 15.4% 11.7% 7.6% 100.0%   
+ 
+ 
+ 
+TABLA 18: MEDIA DEL ACUERDO CON LOS ÍTEMS QUE FORMAN EL ÍNDICE 
+DE VALORACIÓN DEL CLIMA FAVORABLE AL EMPRENDIMIENTO, POR 
+SEXO (ESCALA 1-7) 
+    Hombre Mujer Otro 
+El ambiente de mi universidad 
+me inspira a desarrollar ideas 
+para nuevos negocios 
+Media 3.43 3.53 4.11 
+n 591 948 9 
+En mi universidad existe un 
+clima favorable para 
+convertirse en empresario 
+Media 3.39 3.40 3.33 
+n 590 945 9 
+En mi universidad se anima a 
+los estudiantes a realizar 
+actividades empresariales 
+Media 3.55 3.77 4.44 
+n 590 942 9 
+ 
+
+ 
+ 
+39 
+ 
+TABLA 19: MEDIA DEL ACUERDO CON LOS ÍTEMS QUE FORMAN EL ÍNDICE 
+DE VALORACIÓN DEL CLIMA FAVORABLE AL EMPRENDIMIENTO, POR 
+ÁMBITO DE CONOCMIMIENTO (ESCALA 1-7) 
+    Arte y 
+Hum. Ciencias 
+Ciencias 
+de la 
+Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. 
+El ambiente de mi 
+universidad me inspira a 
+desarrollar ideas para 
+nuevos negocios 
+Media 3.32 3.50 3.66 3.53 3.47 
+n 115 110 176 666 394 
+En mi universidad existe 
+un clima favorable para 
+convertirse en empresario 
+Media 3.39 3.25 3.43 3.49 3.34 
+n 114 110 176 663 394 
+En mi universidad se 
+anima a los estudiantes a 
+realizar actividades 
+empresariales 
+Media 3.80 3.67 3.74 3.78 3.58 
+n 114 109 176 662 393 
+ 
+ 
+TABLA 20: NIVEL DE ACUERDO CON LOS ÍTEMS QUE FORMAN EL ÍNDICE 
+DE VALORACIÓN DEL CLIMA FAVORABLE AL EMPRENDIMIENTO , SEGÚN 
+INTENCIONES DE CARRERA PROFESIONAL AL ACABAR LOS ESTUDIOS 
+  
+  1 2 3 4 5 6 7 Total 
+El ambiente 
+de mi 
+universidad 
+me inspira a 
+desarrollar 
+ideas para 
+nuevos 
+negocios 
+Empren- 
+dedor 
+  
+n 33 30 30 45 15 15 5 173 
+% 
+col 14.2% 10.9% 11.3% 13.4% 6.4% 11.9% 6.3% 11.2% 
+Otros 
+  
+n 199 245 236 291 220 111 75 1377 
+% 
+col 85.8% 89.1% 88.7% 86.6% 93.6% 88.1% 93.8% 88.8% 
+Total 
+n 232 275 266 336 235 126 80 1550 
+% 
+col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+En mi 
+universidad 
+existe un 
+clima 
+favorable 
+para 
+convertirse 
+en 
+empresario 
+Empren- 
+dedor 
+  
+n 36 33 34 38 13 15 5 174 
+% 
+col 13.9% 12.3% 11.9% 11.1% 6.8% 11.5% 7.1% 11.3% 
+Otros 
+  
+n 223 235 252 303 178 116 65 1372 
+% 
+col 86.1% 87.7% 88.1% 88.9% 93.2% 88.5% 92.9% 88.7% 
+Total 
+n 259 268 286 341 191 131 70 1546 
+% 
+col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+En mi 
+universidad 
+se anima a los 
+estudiantes a 
+realizar 
+actividades 
+empresariales 
+Empren- 
+dedor 
+  
+n 37 28 37 30 15 12 15 174 
+% 
+col 15.5% 11.9% 14.9% 10.5% 6.3% 6.7% 12.8% 11.3% 
+Otros 
+  
+n 201 207 212 256 223 168 102 1369 
+% 
+col 84.5% 88.1% 85.1% 89.5% 93.7% 93.3% 87.2% 88.7% 
+Total 
+n 238 235 249 286 238 180 117 1543 
+% 
+col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+ 
+
+ 
+ 
+40 
+ 
+ 
+TABLA 21: NIVEL DE ACUERDO CON LOS ÍTEMS QUE FORMAN EL ÍNDICE 
+DE VALORACIÓN DEL CLIMA FAVORABLE AL EMPRENDIMIENTO , SEGÚN 
+INTENCIONES DE CARRERA PROFESIONAL 5 AÑOS DESPUÉS DE ACABAR 
+LOS ESTUDIOS 
+  
+  1 2 3 4 5 6 7 Total 
+El ambiente 
+de mi 
+universidad 
+me inspira a 
+desarrollar 
+ideas para 
+nuevos 
+negocios 
+  
+  
+  
+Empren- 
+dedor 
+  
+n 55 48 48 70 45 33 17 316 
+% 
+col 23.7% 17.5% 18.0% 20.8% 19.1% 26.2% 21.3% 20.4% 
+Otros 
+  
+n 177 227 218 266 190 93 63 1234 
+% 
+col 76.3% 82.5% 82.0% 79.2% 80.9% 73.8% 78.8% 79.6% 
+Total 
+  
+n 232 275 266 336 235 126 80 1550 
+% 
+col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+En mi 
+universidad 
+existe un 
+clima 
+favorable 
+para 
+convertirse 
+en 
+empresario 
+  
+  
+  
+Empren- 
+dedor 
+  
+n 58 52 60 67 39 28 13 317 
+% 
+col 22.4% 19.4% 21.0% 19.6% 20.4% 21.4% 18.6% 20.5% 
+Otros 
+  
+n 201 216 226 274 152 103 57 1229 
+% 
+col 77.6% 80.6% 79.0% 80.4% 79.6% 78.6% 81.4% 79.5% 
+Total 
+  
+n 259 268 286 341 191 131 70 1546 
+% 
+col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+En mi 
+universidad 
+se anima a los 
+estudiantes a 
+realizar 
+actividades 
+empresariales 
+  
+  
+  
+Empren- 
+dedor 
+  
+n 56 46 63 53 38 35 26 317 
+% 
+col 23.5% 19.6% 25.3% 18.5% 16.0% 19.4% 22.2% 20.5% 
+Otros 
+  
+n 182 189 186 233 200 145 91 1226 
+% 
+col 76.5% 80.4% 74.7% 81.5% 84.0% 80.6% 77.8% 79.5% 
+Total 
+  
+n 238 235 249 286 238 180 117 1543 
+% 
+col 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 100.0% 
+ 
+  
+
+ 
+ 
+41 
+ 
+TABLA 22: VALORACIÓN DE LA ORIENTACIÓN GLOBAL AL 
+EMPRENDIMIENTO DE LOS ESTUDIOS REALIZADOS 
+Los cursos y 
+ofertas a las 
+que asistí… 
+  1 2 3 4 5 6 7 Tot. NC Tot. 
+...aumentaron mi 
+comprensión de 
+las actitudes , 
+valores y 
+motivaciones de 
+los empresarios 
+n 205 236 269 304 273 164 99 1550 2 1552 
+% 
+fil 13.2% 15.2% 17.4% 19.6% 17.6% 10.6% 6.4% 100.0   
+...aumentaron mi 
+comprensión de 
+las acciones que 
+alguien tiene que 
+realizar para 
+poner en marcha 
+un negocio 
+n 334 265 229 256 243 136 80 1543 9 1552 
+% 
+fil 21.6% 17.2% 14.8% 16.6% 15.7% 8.8% 5.2% 100.0   
+...mejoraron mis 
+habilidades 
+prácticas de 
+gestión para 
+poner en marcha 
+un negocio 
+n 353 296 232 245 223 133 61 1543 9 1552 
+% 
+fil 22.9% 19.2% 15.0% 15.9% 14.5% 8.6% 4.0% 100.0   
+...mejoraron mi 
+capacidad para 
+desarrollar redes 
+n 301 273 252 290 232 121 70 1539 13 1552 
+% 
+fil 19.6% 17.7% 16.4% 18.8% 15.1% 7.9% 4.5% 100.0   
+...mejoraron mi 
+capacidad para 
+identificar una 
+oportunidad 
+n 308 260 255 265 242 134 68 1532 20 1552 
+% 
+fil 20.1% 17.0% 16.6% 17.3% 15.8% 8.7% 4.4% 100.0   
+ 
+ 
+TABLA 23: MEDIA DE LA VALORACIÓN DE LA ORIENTACIÓN GLOBAL AL 
+EMPRENDIMIENTO DE LOS ESTUDIOS REALIZADOS, POR SEXO 
+Los cursos y ofertas a los que 
+asistí… 
+  
+Hombre Mujer Otro 
+...aumentaron mi comprensión de las 
+actitudes, valores y motivaciones de los 
+empresarios 
+Media 3.69 3.70 4.78 
+n 591 948 9 
+...aumentaron mi comprensión de las 
+acciones que alguien tiene que realizar 
+para poner en marcha un negocio 
+Media 3.44 3.29 3.44 
+n 590 942 9 
+...mejoraron mis habilidades prácticas 
+de gestión para poner en marcha un 
+negocio 
+Media 3.35 3.13 2.89 
+n 589 943 9 
+...mejoraron mi capacidad para 
+desarrollar redes 
+Media 3.43 3.28 3.67 
+n 587 941 9 
+...mejoraron mi capacidad para 
+identificar una oportunidad 
+Media 3.49 3.27 3.89 
+n 581 940 9 
+
+ 
+ 
+42 
+ 
+ 
+TABLA 24: MEDIA DE LA VALORACIÓN DE LA ORIENTACIÓN GLOBAL AL 
+EMPRENDIMIENTO DE LOS ESTUDIOS REALIZADOS, POR ÁMBITO DE 
+ESTUDIO 
+ Los cursos y 
+ofertas a los que 
+asistí… 
+  Arte y 
+Hum. Ciencias 
+Ciencias 
+de la 
+Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. 
+...aumentaron mi 
+comprensión de 
+las actitudes, 
+valores y 
+motivaciones de  
+los empresarios 
+Media 3.63 3.77 3.52 3.78 3.72 
+n 115 111 176 666 393 
+...aumentaron mi 
+comprensión de 
+las acciones que 
+alguien tiene que 
+realizar para 
+poner en marcha 
+un negocio 
+Media 2.89 3.06 2.96 3.54 3.49 
+n 114 111 175 661 393 
+...mejoraron mis 
+habilidades 
+prácticas de 
+gestión para 
+poner en marcha 
+un negocio 
+Media 2.66 2.90 2.82 3.49 3.27 
+n 115 111 174 662 392 
+...mejoraron mi 
+capacidad para 
+desarrollar redes 
+Media 3.09 3.40 3.05 3.47 3.31 
+n 114 110 174 663 389 
+...mejoraron mi 
+capacidad para 
+identificar una 
+oportunidad 
+Media 3.02 3.25 2.92 3.54 3.44 
+n 115 110 174 658 388 
+ 
+ 
+
+ 
+ 
+43 
+ 
+ 
+TABLA 25: VALORACIÓN DE LA ORIENTACIÓN GLOBAL AL EMPRENDIMIENTO DE LOS ESTUDIOS REALIZADOS, SEGÚN 
+NTENCIONES DE CARRERA PROFESIONAL CINCO AÑOS DESPUÉS DE ACABAR LOS ESTUDIOS 
+Los cursos y ofertas a los que asistí...  1 2 3 4 5 6 7 Total NC Total 
+…aumentaron mi comprensión 
+de las actitudes, valores y 
+motivaciones de los 
+empresarios 
+Emprendedor n 45 42 57 61 54 32 26 317   
+% fil 14.2% 13.2% 18.0% 19.2% 17.0% 10.1% 8.2% 100.0   
+Otros n 160 194 212 243 219 132 73 1233 2 1235 
+% fil 13.0% 15.7% 17.2% 19.7% 17.8% 10.7% 5.9% 100.0   
+…aumentaron mi comprensión 
+de las acciones que alguien 
+tiene que realizar para poner 
+en marcha un negocio 
+Emprendedor n 64 54 46 48 55 31 19 317   
+% fil 20.2% 17.0% 14.5% 15.1% 17.4% 9.8% 6.0% 100.0   
+Otros n 270 211 183 208 188 105 61 1226 9 1235 
+% fil 22.0% 17.2% 14.9% 17.0% 15.3% 8.6% 5.0% 100.0   
+mejoraron mis habilidades 
+prácticas de gestión para poner 
+en marcha un negocio 
+Emprendedor n 72 55 52 54 43 29 12 317   
+% fil 22.7% 17.4% 16.4% 17.0% 13.6% 9.1% 3.8% 100.0   
+Otros n 281 241 180 191 180 104 49 1226 9 1235 
+% fil 22.9% 19.7% 14.7% 15.6% 14.7% 8.5% 4.0% 100.0   
+mejoraron mi capacidad para 
+desarrollar redes 
+Emprendedor n 69 61 49 56 42 21 18 316 1 317 
+% fil 21.8% 19.3% 15.5% 17.7% 13.3% 6.6% 5.7% 100.0   
+Otros n 232 212 203 234 190 100 52 1223 12 1235 
+% fil 19.0% 17.3% 16.6% 19.1% 15.5% 8.2% 4.3% 100.0   
+mejoraron mi capacidad para 
+identificar una oportunidad 
+Emprendedor n 57 54 54 56 54 22 15 312 5 317 
+% fil 18.3% 17.3% 17.3% 17.9% 17.3% 7.1% 4.8% 100.0   
+Otros n 251 206 201 209 188 112 53 1220 15 1235 
+% fil 20.6% 16.9% 16.5% 17.1% 15.4% 9.2% 4.3% 100.0   
+ 
+
+ 
+ 
+44 
+ 
+ 
+TABLA 26: NIVEL DE ACUERDO CON LOS ÍTEMS QUE FORMAN EL ÍNDICE 
+DE VALORACIÓN DE LA EDUACIÓN FINANCIERA (IEF) 
+  1 2 3 4 5 6 7 Tot. NC Tot. 
+Considero que 
+recibir 
+educación 
+financiera es 
+necesario 
+n 9 19 40 115 256 351 759 1549 3 1552 
+% 
+fil .6% 1.2% 2.6% 7.4% 16.5% 22.7% 49.0% 100.0   
+Considero que 
+recibir 
+educación 
+financiera 
+podría mejorar 
+mi bienestar, 
+aumentar mi 
+seguridad y 
+proporcionarm
+e una buena 
+calidad de vida 
+n 23 25 50 158 315 372 604 1547 5 1552 
+% 
+fil 1.5% 1.6% 3.2% 10.2% 20.4% 24.0% 39.0% 100.0   
+Considero 
+importante 
+mejorar mi 
+educación 
+financiera para 
+gestionar mis 
+finanzas 
+personales 
+n 25 37 68 153 292 382 591 1548 4 1552 
+% 
+fil 1.6% 2.4% 4.4% 9.9% 18.9% 24.7% 38.2% 100.0   
+Estoy 
+interesado en 
+aumentar mi 
+educación 
+financiera 
+n 31 49 94 199 311 365 500 1549 3 1552 
+% 
+fil 2.0% 3.2% 6.1% 12.8% 20.1% 23.6% 32.3% 100.0   
+ 
+ 
+ 
+  
+
+ 
+ 
+45 
+ 
+TABLA 27: MEDIA DE LA VALORACIÓN DE LOS ÍTEMS QUE FORMAN EL 
+ÍNDICE DE VALORACIÓN DE LA EDUACIÓN FINANCIERA (IEF), SEGÚN SEXO 
+    Hombre Mujer Otro 
+Considero que recibir 
+educación financiera es 
+necesario 
+Media 5.98 6.05 5.89 
+n 591 947 9 
+Considero que recibir 
+educación financiera podría 
+mejorar mi bienestar, 
+aumentar mi seguridad y 
+proporcionarme una buena 
+calidad de vida 
+Media 5.79 5.72 5.44 
+n 590 946 9 
+Considero importante mejorar 
+mi educación financiera para 
+gestionar mis finanzas 
+personales 
+Media 5.63 5.73 5.22 
+n 591 946 9 
+Estoy interesado en aumentar 
+mi educación financiera 
+Media 5.53 5.41 5.56 
+n 590 948 9 
+ 
+ 
+ 
+ 
+TABLA 28: MEDIA DE LA VALORACIÓN DE LOS ÍTEMS QUE FORMAN EL 
+ÍNDICE DE VALORACIÓN DE LA EDUACIÓN FINANCIERA (IEF), SEGÚN 
+ÁMBITO DE ESTUDIO 
+    Arte y 
+Hum. Ciencias 
+Ciencias 
+de la 
+Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. 
+Considero que recibir 
+educación financiera 
+es necesario 
+Media 5.70 5.86 5.93 6.13 6.05 
+n 115 111 176 664 394 
+Considero que recibir 
+educación financiera 
+podría mejorar mi 
+bienestar, aumentar 
+mi seguridad y 
+proporcionarme una 
+buena calidad de vida 
+Media 5.28 5.68 5.68 5.82 5.82 
+n 115 111 174 664 394 
+Considero importante 
+mejorar mi educación 
+financiera para 
+gestionar mis finanzas 
+personales 
+Media 5.56 5.71 5.70 5.75 5.67 
+n 115 111 176 663 394 
+Estoy interesado en 
+aumentar mi 
+educación financiera 
+Media 4.97 5.52 5.35 5.49 5.60 
+n 115 111 176 665 393 
+ 
+ 
+ 
+
+ 
+ 
+46 
+ 
+ 
+TABLA 29: NIVEL DE ACUERDO CON LOS ÍTEMS QUE FORMAN EL ÍNDICE 
+DE VALORACIÓN DE LA EDUACIÓN FINANCIERA RECIBIDA (IEFR) 
+Considero 
+que he 
+recibido… 
+  
+1 2 3 4 5 6 7 Tot. NC Tot. 
+…suficiente 
+educación 
+financiera 
+n 353 341 310 253 154 77 60 1548 4 1552 
+% 
+fil 22,8% 22,0% 20,0% 16,3% 9,9% 5,0% 3,9% 100,0   
+…una 
+educación 
+financiera 
+adecuada 
+n 350 333 267 256 173 106 63 1548 4 1552 
+% 
+fil 22,6% 21,5% 17,2% 16,5% 11,2% 6,8% 4,1% 100,0   
+ 
+ 
+TABLA 30: MEDIA DE LA VALORACIÓN DE LOS ÍTEMS QUE FORMAN EL 
+ÍNDICE DE VALORACIÓN DE LA EDUACIÓN FINANCIERA RECIBIDA (IEFR), 
+SEGÚN SEXO 
+Considero que he recibido…   Hombre Mujer Otro 
+...suficiente educación 
+financiera 
+Media 3.17 2.88 2.89 
+n 590 947 9 
+...una educación financiera 
+adecuada 
+Media 3.29 2.96 3.11 
+n 590 947 9 
+ 
+ 
+TABLA 31: MEDIA DE LA VALORACIÓN DE LOS ÍTEMS QUE FORMAN EL 
+ÍNDICE DE VALORACIÓN DE LA EDUACIÓN FINANCIERA RECIBIDA (IEFR), 
+SEGÚN ÁMBITO DE ESTUDIO 
+Considero 
+que he 
+recibido… 
+  Arte y 
+Hum. Ciencias 
+Ciencias 
+de la 
+Salud 
+CCSS y 
+jurídicas 
+Ingen. y 
+Arquit. 
+...suficiente 
+educación 
+financiera 
+Media 2.53 2.58 2.42 3.35 2.95 
+n 115 111 175 664 394 
+…una 
+educación 
+financiera 
+adecuada 
+Media 2.68 2.74 2.52 3.42 3.04 
+n 115 111 175 664 394 
+ 
+ 
+ 
+ 
+
+ 
+ 
+47 
+ 
+Índice de Figuras 
+Figura 1: Intenciones de elección de carrera profesional de los estudiantes de la UDC al 
+finalizar sus estudios y cinco años después ..................................................... 8 
+Figura 2: Intenciones de elección de carrera profesional de los es tudiantes de la UDC al 
+finalizar sus estudios y cinco años después, según sexo .................................. 9 
+Figura 3: Intenciones de elección de carrera profesional de los estudiantes de la UDC al 
+finalizar sus estudios y cinco años después, según ámbito de estudios ......... 10 
+Figura 4: Intenciones de elección de carrera profesional al finalizar estudios y cinco años 
+después, comparativa de la UDC con los estudiantes del conjunto de España y 
+la UE .............................................................................................................. 11 
+Figura 5: Índice de Espíritu Emprendedor (IEE) en la udc ............................................ 12 
+Figura 6: Índice de Competencias para el Emprendimiento (ICE) en la UDC .............. 13 
+Figura 7: Emprendedores nacientes en la UDC.............................................................. 14 
+Figura 8: Emprendedores activos en la UDC ................................................................. 15 
+Figura 9: Evaluación del clima favorable al emprendimiento en la  udc según sexo y 
+ámbito de estudios .......................................................................................... 16 
+Figura 10: Evaluación del clima favorable al emprendimiento en la udc según intenciones 
+de elección de carrera profesional .................................................................. 17 
+Figura 11: Valoración de la orientación global al emprendimiento de los estudios 
+realizados ....................................................................................................... 18 
+Figura 12: Valoración de la orientación global al emprendimiento de los estudios 
+realizados según intenciones de carrera profesional cinco años después de 
+finalizar los estudios ...................................................................................... 19 
+Figura 13: Índice de valoración de la importancia de la educación financiera (IEF), según 
+sexo y ámbito de estudios .............................................................................. 20 
+Figura 14: Índice de Valoración de la Educación Financiera Recibida (IEFR), por sexo y 
+ámbito de estudios .......................................................................................................... 21 
+ 
+ 
+Índice de Tablas 
+Tabla 1: Universidades participantes en Guesss España 2021 y sus delegados ............. 24 
+Tabla 2: Intenciones de elección de carrera profesional de los estudiantes de la UDC al 
+finalizar sus estudios y cinco años después ................................................. 27 
+Tabla 3: Intenciones de elec ción de carrera profesional de los estudiantes de la UDC al 
+finalizar sus estudios según sexo ................................................................. 28 
+Tabla 4: Intenciones de elección de carrera profesional de los estudiantes de la UDC cinco 
+años después de acabar sus estudios según sexo ......................................... 29 
+Tabla 5: Intenciones de elección de carrera profesional de los estudiantes de la UDC al 
+finalizar sus estudios según ámbito de estudio ............................................ 30 
+Tabla 6: Intenciones de elección de carrera profesional de los estudiantes de la UDC cinco 
+años después de acabar sus estudios según ámbito de estudios................... 31 
+Tabla 7: Nivel de acuerdo con los ítems que forman el Índice de Espíritu Emprendedor
+ ..................................................................................................................... 32 
+Tabla 8: Medias del nivel de acuerdo con los ítems que componen el Índice de Espíritu 
+Emprendedor, por sexo (escala 1-7) ............................................................ 33 
+Tabla 9: Medias del nivel de acuerdo con los ítems que componen el Índice de Espíritu 
+Emprendedor, por ámbito de estudios (escala 1-7) ..................................... 34 
+
+ 
+ 
+48 
+ 
+Tabla 10: NIvel de acuerdo con los ítems que componen el Índice de competencias para 
+el emprendimiento ....................................................................................... 35 
+Tabla 11: Medias de la autoevaluación del nivel competencias para el emprendimiento 
+(ítems que componen el Índice de Competencias para el Emprendimiento), 
+por sexo (escala 1-7) .................................................................................... 35 
+Tabla 12: Medias de la autoevaluación del nivel competencias para el emprendimiento 
+(ítems que componen el Índice de Competencias para el Emprendimiento), 
+por ámbito de estudios (escala 1-7) ............................................................. 36 
+Tabla 13: Emprendedores nacientes en la udc, según sexo ............................................ 36 
+Tabla 14: Emprendedores nacientes en la udc, según ámbito de estudios ..................... 37 
+Tabla 15: Emprendedores activos en la UDC, según sexo ............................................. 37 
+Tabla 16: Emprendedores activos en la UDC, según ámbto de estudio ......................... 37 
+Tabla 17: Nivel de acuerdo con los ítems que forman el Índice de valoración del clima 
+favorable al emprendimiento ....................................................................... 38 
+Tabla 18: Media del acuerdo con los ítems qu e forman el Índice de valoración del clima 
+favorable al emprendimiento, por sexo (escala 1-7) .................................... 38 
+Tabla 19: Media del acuerdo con los ítems que forman el Índice de valoración del clima 
+favorable al emprendimiento, por ámbito de conocmimiento (escala 1-7) . 39 
+Tabla 20: Nivel de acuerdo con los ítems que forman el Índice de valoración del clima 
+favorable al emprendimiento, según intenciones  de carrera profesional al 
+acabar los estudios ....................................................................................... 39 
+Tabla 21: Nivel de  acuerdo con los ítems que forman el Índice de valoración del clima 
+favorable al emprendimiento, según intenciones de carrera profesional 5 años 
+después de acabar los estudios ..................................................................... 40 
+Tabla 22: Valoración de la orientación global al emprendimiento de los estudios 
+realizados ..................................................................................................... 41 
+Tabla 23: Media de la valoración de la orientación global al emprendimiento de los 
+estudios realizados, por sexo ....................................................................... 41 
+Tabla 24: Media de la valoración d e la orientación global al emprendimiento de los 
+estudios realizados, por ámbito de estudio .................................................. 42 
+Tabla 25: Valoración de la orientación global al emprendimiento de los estudios 
+realizados, según ntenciones de carrera profesional cinco años después de 
+acabar los estudios ....................................................................................... 43 
+Tabla 26: Nivel de acuerdo con los ítems que forman el Índice de Valoración de la 
+Eduación Financiera (IEF) ........................................................................... 44 
+Tabla 27: Media de la valoración de los ítems que forman el Índi ce de Valoración de la 
+Eduación Financiera (IEF), según sexo ....................................................... 45 
+Tabla 28: Media de la valoración de los ítems que forman el Índice de Valoración de la 
+Eduación Financiera (IEF), según ámbito de estudio .................................. 45 
+Tabla 29: Nivel de acuerdo con los ítems que forman el Índice de Valoración de la 
+Eduación Financiera Recibida (IEFR) ......................................................... 46 
+Tabla 30: Media de la valoración de los ítems que forman el Índice de Valoración de la 
+Eduación Financiera Recibida (IEFR), según sexo ..................................... 46 
+Tabla 31: Media de la valoración de los ítems que form an el Índice de Valoración de la 
+Eduación Financiera Recibida (IEFR), según ámbito de estudio ................ 46 
+ 

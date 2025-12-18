@@ -1,0 +1,164 @@
+ 
+ 
+D06-P02. GESTIÓN DE INCIDENCIAS (S-Q-R-F) 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+1  
+      
+D06-P02. Gestión de incidencias (S-Q-P-F)  
+ 
+ 
+ ÓRGANO FECHA 
+ELABORADO Unidad Técnica de Calidad 26/04/2018 
+CONTEXTUALIZADO Comisión de Garantía de 
+Calidad  14/12/2022 
+REVISADO Unidad Técnica de Calidad 15/12/2022 
+APROBADO Junta de Centro 21/12/2022 
+ 
+ 
+ 
+RESUMEN DE REVISIONES 
+EDICIÓN FECHA MODIFICACIONES 
+B00 07/01/2008 Edición inicial 
+B01 15/05/2014 
+Adecuación a normativa actual. Anexos incorporando CGCC 
+como órgano de análisis y propuestas de mejora. 
+ 
+ 
+ 
+  
+
+ 
+ 
+D06-P02. GESTIÓN DE INCIDENCIAS (S-Q-R-F) 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+2  
+DENOMINACIÓN  D06-P02. GESTIÓN DE INCIDENCIAS (S-Q-P-F) 
+OBJETO  Establecer la sistemática para g arantizar que se atienden las sugerencias, 
+quejas, preguntas y felicitaciones recibidas en relación con el  centro y/o a los 
+títulos oficiales que imparte, por cualquiera de los medios que disponga la UDC. 
+DEFINICIONES  Felicitación: manifestación de la satisfacción y reconocimiento respecto al 
+buen funcionamiento del centro y/o títulos. 
+Sugerencia: insinuar cambios para la revisión y mejora de cualquier actividad 
+del centro y/o títulos. 
+Queja: expresión documentada a través de la que se manifiesta disconformidad 
+con un hecho o situación relativo al centro y/o títulos. 
+RESPONSABLES  Junta de Centro (JC) 
+Equipo Directivo (ED) 
+Comisión de Garantía de Calidad (CGC)  
+Comisión Académica del Título (CAT) 
+Persona Responsable de Calidad (PRC) 
+Coordinador/a del título (CT) 
+Unidad Técnica de Calidad (UTC) 
+DOCUMENTACIÓN  Ver anexo V del Manual 
+DESARROLLO  A través del buzón de sugerencias de la UDC 
+(https://forms.office.com/r/VFuk241CYZ) formulario electrónico que es accesible 
+desde la página web de la UDC (https://www.udc.gal/), las personas usuarias o 
+cualquier otra persona afectada puede enviar sugerencias, quejas, preguntas y 
+felicitaciones dirigidas al centro y/o a los títulos, las recibe la UTC y se las remite 
+al ED por correo electrónico. También es posible realizar este trámite empleando 
+el formulario publicado en la web de la E.U. de Arquitectura Técnica 
+(https://euat.udc.es/index.php/impresos) y enviándolo por correo electrónico al 
+PRC, secretaria de dirección, sede electrónica de la universidad o entregándolo 
+personalmente en el centro.  
+El PRC recibe, a través del correo electrónico , entrega directa, reuniones del 
+PAT, etc., las incidencias ( sugerencias, quejas, preguntas y felicitaciones ) y 
+envía una copia al ED para su conocimiento, a la vez que incorpora dicha 
+incidencia en la aplicación informática para su registro.  
+El ED , identifica quién (persona/servicio) debe atender la incidencia y se la 
+envía. Si se trata de una felicitación el proceso finaliza aquí. Si se trata de una 
+pregunta, la persona/servicio que la recibe, le da respuesta y le remite una copia 
+al ED.  
+
+ 
+ 
+D06-P02. GESTIÓN DE INCIDENCIAS (S-Q-R-F) 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+3  
+Si se trata de una sugerencia o queja  que requiera respuesta , la persona o 
+servicio indicado la analiza y elabora un informe, que remite al ED  en el plazo 
+indicado en la solicitud enviada por el ED. 
+Una vez recibido el informe, el ED, en el plazo máximo de 30 días hábiles (salvo 
+que la normativa de aplicación indique lo contrario), elabora una respuesta que 
+comunica a la persona interesada, si ha sido solicitada y si dicha persona se ha 
+identificado. Para la elaboración de dicha respuesta, el ED solicita el apoyo de 
+la CGC, y si lo considera necesario, de la CAT o del departamento. En caso de 
+disconformidad, la persona interesada puede solicitar en el plazo de 30 días 
+hábiles la revisión de la respuesta recibida. 
+El ED envía la documentación relativa a la incidencia al PRC, si se trata de una 
+incidencia de centro  o al CT  correspondiente, si se trata de una incidencia de 
+título, que haya recibido inicialmente la incidencia, para que la incorpore en la 
+aplicación informática. 
+El/la CT elabora anualmente un informe de las incidencias recibidas relativas 
+al título que coordina, en el que incorpora también las incidencias que se haya 
+recibido de otras instancias, como Servicios centrales, valedor/a universitario, 
+etc. La CAT analiza di cho informe y establece las acciones de mejora 
+necesarias, de ser el caso, que remite a la PRC. 
+La PRC elabora anualmente un informe en el que figuran todas las incidencias 
+relativas al centro, incluyendo las que se han recibido a través de otras 
+instancias, tales como Servicios centrales, valedor/a universitario o de cualquier 
+otra que tenga constancia y las acciones de mejora establecidas por las CAT de 
+los títulos que se imparten en el centro y se lo remite a la CGC. 
+La CGC analiza dicho informe y elabora las acciones de mejora necesarias a 
+nivel de centro, de ser el caso, que envía al ED para su aprobación por la JC. 
+  
+
+ 
+ 
+D06-P02. GESTIÓN DE INCIDENCIAS (S-Q-R-F) 
+E.U. ARQUITECTURA TÉCNICA 
+UNIVERSIDADE DA CORUÑA 
+ 
+4  
+   
+ EVIDENCIAS RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+ D06-P02-E01. Actas CAT 
+CGC 
+JC 
+Cada vez que se 
+reúne  
+Aplicación 
+informática 
+ D06-P02-E02. Sugerencias, quejas, 
+preguntas y felicitaciones 
+CT 
+PRC Cuando proceda Aplicación 
+informática 
+ D06-P02-E03. Informe de la persona, 
+órgano o servicio implicado 
+Persona, órgano o 
+servicio implicado Cuando proceda Aplicación 
+informática 
+ D06-P02-E04. Respuesta a las 
+sugerencias, quejas y preguntas  
+ED 
+CAT 
+CGC 
+Cuando proceda 
+Aplicación 
+informática 
+ D06-P02-E05. Acciones de mejora  CAT 
+CGC 
+Cada vez que se 
+abra/revise una 
+acción de mejora 
+Aplicación 
+informática 
+ INDICADORES RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+D06-P02-I01. Número de sugerencias, 
+quejas, preguntas y felicitaciones por 
+curso académico dirigidas al Centro y/o 
+al título 
+CT 
+PRC 
+ 
+Cada curso 
+académico 
+Aplicación 
+informática 
+ 
