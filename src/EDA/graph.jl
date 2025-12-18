@@ -88,31 +88,22 @@ function shorten_url(url, max_len=50)
         return "None"
     end
     
-    m = match(r"https?://([^/]+)(.*)", url)
-    if isnothing(m)
-        return url[1:min(max_len, length(url))]
+    # Simplemente truncar de forma segura
+    if textwidth(url) <= max_len
+        return url
     end
     
-    domain = m.captures[1]
-    path = m.captures[2]
-    
-    if startswith(domain, "www.")
-        domain = domain[5:end]
-    end
-    
-    full = domain * path
-    
-    if length(full) > max_len
-        remaining = max_len - length(domain) - 3
-        if remaining > 10
-            return domain * "..." * path[max(1, end-remaining+1):end]
-        else
-            return "..." * path[max(1, end-max_len+1):end]
+    truncated = ""
+    for c in url
+        if textwidth(truncated * c) > max_len - 3
+            return truncated * "..."
         end
+        truncated *= c
     end
     
-    return full
+    return truncated
 end
+
 
 function visualize_graph(g, node_types, idx_to_url, output_file="crawler_graph.png"; 
                         layout_type="spring", silent=false)
