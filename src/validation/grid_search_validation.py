@@ -51,12 +51,14 @@ def evaluate_single_config(
     )
     
     if rag is None:
+        print(f'⚠️  RAG initialization failed for chunk_size={chunk_size}, bm25_weight={bm25_weight}')
         return {
             'avg_recall': 0.0,
             'avg_precision': 0.0,
             'avg_mrr': 0.0,
             'avg_faithfulness': 0.0,
             'avg_relevance': 0.0,
+            'f1_score': 0.0,
             'total_queries': len(dataset),
             'evaluated_queries': 0,
             'bm25_weight': bm25_weight,
@@ -79,7 +81,7 @@ def evaluate_single_config(
     )
     
     # Extraer métricas agregadas
-    metrics = results['aggregated_metrics']
+    metrics = results['aggregated_metrics'].copy()
     metrics['bm25_weight'] = bm25_weight
     metrics['chunk_size'] = chunk_size
     metrics['evaluated_queries'] = metrics.pop('total_questions')
@@ -93,11 +95,18 @@ def run_grid_search(
     bm25_weights: list,
     chunk_sizes: list,
     base_config: dict,
-    llm_judge
+    llm_judge,
+    max_questions: int = None
 ) -> pd.DataFrame:
     """Ejecuta grid search con barra de progreso."""
     
     dataset = load_dataset(dataset_path)
+    
+    # Limitar dataset si se especifica
+    if max_questions is not None and max_questions < len(dataset):
+        dataset = dataset[:max_questions]
+        print(f"📊 Dataset limitado a {max_questions} preguntas")
+    
     results = []
     
     # Crear todas las combinaciones
@@ -209,7 +218,7 @@ def create_heatmaps(df: pd.DataFrame, output_path: Path):
     )
     
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
-    print(f"\n✓ Heatmaps guardados en: {output_path}")
+    print(f"\n✅ Heatmaps guardados en: {output_path}")
     plt.close()
 
 
@@ -256,6 +265,13 @@ def main():
         default='validation/dataset_test.json'
     )
     
+    parser.add_argument(
+        '--questions', '-q',
+        type=int,
+        default=None,
+        help='Limit dataset to first N questions (default: use all questions)'
+    )
+    
     # Grid search parameters
     parser.add_argument(
         '--bm25_weights', 
@@ -271,10 +287,8 @@ def main():
     )
     
     # Base configuration
-    parser.add_argument('--text_folder', type=str, 
-                       default='validation/validation_state/text')
-    parser.add_argument('--state_dir', type=str, 
-                       default='validation/validation_state')
+    parser.add_argument('--text_folder', type=str, default='validation/validation_state/text')
+    parser.add_argument('--state_dir', type=str, default='validation/validation_state')
     parser.add_argument('--k', type=int, default=10)
     parser.add_argument('--threshold', type=float, default=0.7)
     parser.add_argument('--bm25_mode', type=str, default='hybrid',
@@ -312,7 +326,7 @@ def main():
         judge_provider=args.judge_provider,
         judge_model=args.judge_model
     )
-    print("✓ LLMs inicializados")
+    print("✅ LLMs inicializados")
     
     # Configuración base
     base_config = {
@@ -334,13 +348,14 @@ def main():
         bm25_weights=bm25_weights,
         chunk_sizes=chunk_sizes,
         base_config=base_config,
-        llm_judge=llm_judge
+        llm_judge=llm_judge,
+        max_questions=args.questions
     )
     
     # Guardar resultados
     results_path = output_dir / args.output_file
     df.to_csv(results_path, index=False)
-    print(f"\n✓ Resultados guardados en: {results_path}")
+    print(f"\n✅ Resultados guardados en: {results_path}")
     
     # Crear heatmaps
     plot_path = output_dir / args.plot_file

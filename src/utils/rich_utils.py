@@ -26,3 +26,4 @@ def get_verbose() -> bool:
     except (AttributeError, NameError):
         return False
 
+
