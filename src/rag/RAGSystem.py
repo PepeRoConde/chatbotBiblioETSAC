@@ -70,7 +70,7 @@ class RAGSystem:
         self.vectorstore = vectorstore
         self.language = language
         self.k = k
-        self.state_dir = state_dir
+        self.state_dir = str(state_dir)  # Ensure it's a string
         self.threshold = threshold
         self.search_type = search_type
         self.max_history_length = max_history_length
@@ -201,7 +201,7 @@ class RAGSystem:
             
             if all_docs:
                 stopwords_file = None
-                top_words_path = self.state_dir + '/' + 'top_words.csv'
+                top_words_path = os.path.join(self.state_dir, 'top_words.csv')
                 if os.path.exists(top_words_path):
                     stopwords_file = top_words_path
                 self.bm25_reranker = BM25Reranker(b=0.75, k1=1.6, stopwords_file=stopwords_file)
