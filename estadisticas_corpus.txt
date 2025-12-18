@@ -1,0 +1,8 @@
+ESTADÍSTICAS DEL CORPUS
+==================================================
+
+Total de caracteres: 75,088,461
+Total de palabras: 10,164,265
+Tamaño del vocabulario: 73,640
+Palabras con una sola ocurrencia: 15,889
+Porcentaje de hapax legomena: 21.58%

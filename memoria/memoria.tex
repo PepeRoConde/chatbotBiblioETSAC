@@ -304,7 +304,7 @@ En canto ás imaxes, aplícase OCR a todas as presentes en cada documento e
 decídese se gardar o texto extraído ou non segundo se presenta máis dun mínimo
 de caracteres. Todo este proceso realízase ao final de crawlear cada páxina, os
 arquivos de imaxe vanse engadindo a unha pila, e esta é procesada cando xa
-extraéronse as hiperreferencias a outras páxinas e os documentos PDF.
+extraéronse as hiperreferencias a outras páxinas e os documentos PDF. 
 
 Para acelerar o proceso de \textit{crawling} aplicáronse técnicas de
 programación concurrente. É posible establecer un número de traballadores aos
@@ -313,38 +313,58 @@ xeito, é posible ter múltiples crawlers simultáneamente navegando a rede da
 universidade. Para non xerar problemas de lectura/escritura nos ficheiros onde
 se escriben os metadatos ou o rexistro de páxinas visitadas, implementáronse
 \textit{locks}, deste xeito dous \textit{crawlers} non podrán escribir á vez nun
-mesmo documento.
+mesmo documento. Implementar esta técnica foi de gran utilidade, pois a
+navegación e descarga de páxinas web vai fancéndose máis lenta segundo o tempo
+de \textit{crawling}, pois é mais difícil atopar páxinas relevantes non
+visitadas, no apéndice~\ref{fig:crawlerRun} pódense consultar gráficas acerca
+dun crawleo que o confirman.
 
 \section{Análise dos datos obtidos mediante o \textit{Crawler}} Tras un facer un
 \textit{crawl} sobre as  \textit{homepages} das facultades e escolas da UDC,
-obtiveronse un total de 3377 documentos, dos cales 2212 son páxinas
-\textit{HTML} e 1165 son documentos \textit{PDF}. 
+obtiveronse un total de 4966 documentos, dos cales 2668 son páxinas
+\textit{HTML} e 2298 son documentos \textit{PDF} (véxase~\ref{fig:file_types_distribution}).
 
 Debido a que esta práctica está tan enlazada coas técnicas de Recuperación da
 Información clásicas, pareceu interesante realizar unha análise máis exploratoria
 típica no sector. En concreto estudar a distribución das palabras do vocabulario
 e lonxitude dos documentos: 
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imaxes/analisis_documentos.png}
-    \caption{Gráficos de distribución de lonxitude de documentos e frecuencia de termos}
-    \label{figEDA}
-\end{figure}
+\begin{table}[h]
+\centering
+\caption{Estadísticas del corpus}
+\label{tab:corpus_stats}
+\begin{tabular}{lr}
+\hline
+\textbf{Métrica} & \textbf{Valor} \\
+\hline
+Arquivos procesados & 4.966 \\
+Total de caracteres & 75.088.461 \\
+Total de palabras & 10.164.265 \\
+Tamaño del vocabulario & 73.640 \\
+Palabras únicas (hapax legomena) & 15.889 \\
+\hline
+\end{tabular}
+\end{table}
+
+Atopamos que o \textit{corpus} obtido alcanza os 10 millóns de palabras, cun
+vocabulario de 73.640 palabras ([\ref{tab:corpus_stats}]). Chama a atención o
+elevado número de \textit{hapax legomena}, estas son aquelas palabras cunha
+única instancia na colección completa, un 20\% do vocabulario pertence a esta
+clase, o cal pode dar a pensar que unha gran cantidade de elas son faltas de
+ortografía (xa sexan debidas ao erro humano de quen as escribiu ou na técnica de
+OCR). 
+
+Se ben podería ser así, un estudo posterior mostra o contrario, sen embargo, só
+230 de tales palabras son faltas ortográficas, e 30 delas foron xeradas polo OCR.
+
+O fenómeno de que unha porcentaxe tan elevada do vocabulario teña tan pouco uso
+non é exclusivo deste corpus, senón que é unha propiedade universal dos idiomas
+naturais descrita pola lei de Zipf. Esta lei establece que a frecuencia dunha
+palabra é inversamente proporcional ao seu rango na distribución de frecuencias.
+En outras palabras, un pequeno número de palabras moi frecuentes coexiste cunha
+longa cola de palabras raras, como se pode apreciar na Figura~\ref{figzipf} e~\ref{figEDA}.
 
 
-Deste xeito pódese observar na figura~\ref{figEDA} mostra tanto a distribución
-das lonxitudes de cada documento (medida en caracteres), nótese cómo é que
-asemellan haber gran cantidade de documentos moi curtos, tal feito non é de
-extrañar pois existen moitas páxinas web cun contido moi limitado que só mostra
-unha serie de links ou documentos para descargar, de feito, existen ata URLs coa
-única finalidade de mostrar unha ou varias imaxes, en tal caso a lonxitude da
-mesma será de 0 (se é que tales imaxes non con texto extraíble por OCR), neste
-crawleo atopáronse 115 páxinas sen caracteres.
-
-En canto á distribución de frecuencia de termos, é claro que cumple a lei de
-Zipf, pos asemella á mesma distribución que adquiren as gráficas de frecuencia
-de palabras do vocabulario en calquera outra corpus e lingua.
 
 \begin{figure}[H]
     \centering
@@ -353,18 +373,37 @@ de palabras do vocabulario en calquera outra corpus e lingua.
     \label{figZipf}
 \end{figure}
 
-Na realidade tal propiedade non é de estrañar, pois esta lei cúmplese ata en
-linguas sintéticas [\cite{martinez2016zipf}] e móstrase máis a modo de
-curiosidade.
+Ademais, cúmprese o principio de Pareto: aproximadamente o 20\% das palabras
+mais frecuentes do vocabulario cobren o (aproximadamente) 80\% das ocorrencias
+totais, mentres que para alcanzar o 80\% das ocorrencias só se necesita o 80\%
+do vocabulario (Figura~\ref{figEDA}). No caso deste corpus este principio e
+aínda máis esaxerado e estremo, chegaríamos a ese 80\% só co 2.1\% do
+vocabulario, e se o extenderamos ao 20\% o \textit{coverage} sería dun 97.5\%.
 
-En canto á propia distribución de termos no corpus, as 20 palabras máis comúns
-(véxase apéndice~\ref{tab:top20}) parecen perfectamente comprensibles, o único
-suceso destacable é a presenza de UDC como número 20, mais está perfectamente
-xustificado debido a que repítese múltiples veces na gran maioría de documentos
-oficiais. Tamén están dispoñobles no apéndice~\ref{tab:bottom20} as 20 palabras
-menos frecuentes, onde parece haber palabras sen sentido (posiblemente á raíz de
-erros de OCR) facendo un análise para determinar se a fonte de tales palabras é
-unha imaxe ou un documento de texto, 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imaxes/analisis_corpus.png}
+    \caption{Gráficos de distribución de lonxitude de documentos e frecuencia de termos}
+    \label{figEDA}
+\end{figure}
+
+
+A distribución das lonxitudes dos documentos (Figura~\ref{figEDA}, esquerda) 
+revela unha gran cantidade de documentos moi curtos. A mediana sitúase en 4200
+caracteres, mentres que a media alcanza os 15121 caracteres, o que indica unha 
+distribución asimétrica con presenza de documentos extensos que elevan a media. 
+Esta heteroxeneidade na lonxitude non é de extrañar pois existen moitas páxinas 
+web cun contido moi limitado que só mostran unha serie de ligazóns ou documentos 
+para descargar. De feito, algunhas URLs teñen a única finalidade de mostrar unha 
+ou varias imaxes sen texto asociado. No presente \textit{crawleo} atopáronse 115 
+páxinas completamente baleiras (0 caracteres), ben por conter unicamente imaxes 
+sen texto extraíble por OCR, ben por tratarse de páxinas de redirección ou navegación 
+pura.
+
+
+
+
+
 
 
 
@@ -495,7 +534,9 @@ e \cite{adobe_hybrid_2024}.
 \printbibliography
 \appendix
 
-\chapter{Lista completa de \textit{keywords}}
+\chapter{Máis información acerca do \textit{crawler}}
+
+\section{\textit{Keywords} utilizadas polo crawler}
 \label{app:keywords}
 
 A continuación móstrase o conxunto completo de palabras clave utilizadas
@@ -659,7 +700,7 @@ polo \textit{crawler} para determinar a relevancia das páxinas:
     \item unidade
 \end{itemize}
 \end{multicols}
-\chapter{Saída OCR da táboa de exemplo}
+\section{Saída OCR da táboa de exemplo}
 \label{app:OCR}
 \begin{tcolorbox}[
     title=Texto OCR,
@@ -731,7 +772,26 @@ que sea autorizada por la Biblioteca Universitaria
 
 \end{spacing}
 \end{tcolorbox}
-\chapter{Análise de frecuencias léxicas}
+
+\section{Progresión de páxinas \textit{retrieveadas} ao longo do crawleo}
+\label{fig:crawling}
+\begin{figure}
+  \centering
+    \includegraphics[width=0.9\textwidth]{imaxes/crawl_speed.png}
+    \caption{Progresión da eficiencia do \textit{crawler} ao longo do tempo}
+    \label{fig:crawlerRun}
+\end{figure}
+
+\chapter{Análise do Corpus}
+
+\section{Distribución de tipos de ficheiros}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{imaxes/formatos_documentos.png}
+    \caption{Distribución de tipos de ficheiros no corpus}
+    \label{fig:file_types_distribution}
+\end{figure}
 
 \section{Palabras máis frecuentes}
 
@@ -801,4 +861,77 @@ que sea autorizada por la Biblioteca Universitaria
 \label{tab:bottom20}
 \end{table}
 
+\section{Resultados validación RAGsystem}
+\subsection{\textit{Heatmaps} de varias métricas}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imaxes/heatmaps/metricas_heatmaps.png}
+    \caption{Heatmaps das métricas de validación}
+    \label{fig:heatmap_metrics}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imaxes/heatmaps/metricas_combinadas_heatmap.png}
+    \caption{Heatmap combinado de todas las métricas normalizadas}
+    \label{fig:heatmap_combined}
+\end{figure}
+
+\subsection{\textit{Surface plots} de varias métricas}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imaxes/heatmaps/surface_plots.png}
+    \caption{Surface plots de Faithfulness y Relevance}
+    \label{fig:surface_plots}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{imaxes/heatmaps/surface_plots_contour.png}
+    \caption{Surface plots con contornos de Faithfulness y Relevance}
+    \label{fig:surface_plots_contour}
+\end{figure}
+
+
+\subsection{Comparación de métricas para diferentes valores de perso de BM25 co mellor \textit{chunk size} (2048)}
+\begin{table}[h]
+\centering
+\begin{minipage}{0.45\textwidth}
+\centering
+\caption{Faithfulness según BM25 Weight (Chunk Size = 2048)}
+\label{tab:faithfulness_2048}
+\begin{tabular}{cc}
+\hline
+\textbf{BM25 Weight} & \textbf{Faithfulness} \\
+\hline
+0.0 & 0.985 \\
+0.2 & 1.000 \\
+0.4 & 0.970 \\
+0.8 & 0.963 \\
+1.2 & 0.963 \\
+1.6 & 0.968 \\
+\hline
+\end{tabular}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\centering
+\caption{Relevance según BM25 Weight (Chunk Size = 2048)}
+\label{tab:relevance_2048}
+\begin{tabular}{cc}
+\hline
+\textbf{BM25 Weight} & \textbf{Relevance} \\
+\hline
+0.0 & 0.612 \\
+0.2 & 0.628 \\
+0.4 & 0.656 \\
+0.8 & 0.868 \\
+1.2 & 0.896 \\
+1.6 & 0.884 \\
+\hline
+\end{tabular}
+\end{minipage}
+\end{table}
 \end{document}
