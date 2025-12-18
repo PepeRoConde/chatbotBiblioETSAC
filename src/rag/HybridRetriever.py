@@ -7,15 +7,17 @@ class HybridRetriever(BaseRetriever):
     bm25_retriever: Any
     k: int = 4
     verbose: bool = False
-    bm25_score_factor: int = 100
+    bm25_weight: float = 0.5
+    vector_weight: float = 0.5
 
-    def __init__(self, vectorstore, bm25_retriever, k=4, verbose=False, bm25_score_factor=100):
+    def __init__(self, vectorstore, bm25_retriever, k=4, verbose=False, bm25_weight=0.5):
         super().__init__(vectorstore=vectorstore, bm25_retriever=bm25_retriever, k=k, verbose=verbose)
         self.vectorstore = vectorstore
         self.bm25_retriever = bm25_retriever
         self.k = k
         self.verbose = verbose
-        self.bm25_score_factor = bm25_score_factor
+        self.bm25_weight = bm25_weight
+        self.vector_weight = 1.0 - bm25_weight
 
     def _get_relevant_documents(self, query: str, *, run_manager) -> List[Document]:
         # Get from vector store with scores
@@ -23,40 +25,69 @@ class HybridRetriever(BaseRetriever):
         # Get from BM25 with scores
         bm25_docs_scores = self.bm25_retriever.get_relevant_documents_with_scores(query, self.k*2)
         
+        # Normalize scores to [0, 1] range for proper weighted combination
+        if vector_docs_scores:
+            max_vector_score = max(score for _, score in vector_docs_scores) if vector_docs_scores else 1.0
+            min_vector_score = min(score for _, score in vector_docs_scores) if vector_docs_scores else 0.0
+            vector_range = max_vector_score - min_vector_score if max_vector_score != min_vector_score else 1.0
+        else:
+            vector_range = 1.0
+        
+        if bm25_docs_scores:
+            max_bm25_score = max(score for _, score in bm25_docs_scores) if bm25_docs_scores else 1.0
+            min_bm25_score = min(score for _, score in bm25_docs_scores) if bm25_docs_scores else 0.0
+            bm25_range = max_bm25_score - min_bm25_score if max_bm25_score != min_bm25_score else 1.0
+        else:
+            bm25_range = 1.0
+        
         # Track which retriever found each document
         doc_to_info = {}
         
         # Add vector documents
         for doc, score in vector_docs_scores:
             key = id(doc)
+            # Normalize vector score
+            normalized_vector = (score - min_vector_score) / vector_range if vector_range > 0 else 0.0
             if key not in doc_to_info:
                 doc_to_info[key] = {
                     'doc': doc,
-                    'score': score,
                     'vector_score': score,
                     'bm25_score': None,
+                    'normalized_vector': normalized_vector,
+                    'normalized_bm25': 0.0,
                     'retrieval_method': 'vector'
                 }
+            else:
+                doc_to_info[key]['normalized_vector'] = normalized_vector
+                doc_to_info[key]['vector_score'] = score
         
         # Add BM25 documents
         for doc, score in bm25_docs_scores:
             key = id(doc)
+            # Normalize BM25 score
+            normalized_bm25 = (score - min_bm25_score) / bm25_range if bm25_range > 0 else 0.0
             if key not in doc_to_info:
                 doc_to_info[key] = {
                     'doc': doc,
-                    'score': score * self.bm25_score_factor,
                     'vector_score': None,
                     'bm25_score': score,
+                    'normalized_vector': 0.0,
+                    'normalized_bm25': normalized_bm25,
                     'retrieval_method': 'bm25'
                 }
             else:
                 # Document found by both methods
-                existing_score = doc_to_info[key]['score']
                 doc_to_info[key]['bm25_score'] = score
-                doc_to_info[key]['score'] = max(existing_score, score * self.bm25_score_factor)
+                doc_to_info[key]['normalized_bm25'] = normalized_bm25
                 doc_to_info[key]['retrieval_method'] = 'hybrid'
         
-        # Sort by score descending
+        # Calculate combined scores using weighted combination
+        for key, info in doc_to_info.items():
+            combined_score = (self.vector_weight * info['normalized_vector'] + 
+                            self.bm25_weight * info['normalized_bm25'])
+            info['score'] = combined_score
+        
+        # Sort by combined score descending
         ranked = sorted(doc_to_info.values(), key=lambda x: x['score'], reverse=True)
         
         # Add metadata to documents

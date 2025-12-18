@@ -15,10 +15,12 @@ from langchain_classic.chains.combine_documents import create_stuff_documents_ch
 from .cost.cost_tracker import CostTracker
 from .cost.claude_cost_callback import ClaudeCostCallback
 
-from .system_prompt import retrieval_prompt, no_retrieval_prompt, few_shot_classification_prompt
+from .system_prompt import retrieval_prompt, no_retrieval_prompt
 from .HybridRetriever import HybridRetriever
 from .BM25Retriever import BM25Retriever
 from .BM25Reranker import BM25Reranker
+from .query_optimizer import QueryOptimizer
+from .conversation_history import ConversationHistory
 
 class RAGSystem:
     """RAG system with BM25 integration and query optimization."""
@@ -43,7 +45,6 @@ class RAGSystem:
         bm25_threshold: float = 0.1,
         bm25_index: Optional[Any] = None,
         bm25_documents: Optional[List] = None,
-        bm25_score_factor = 100,
         use_query_optimization: bool = True,  
     ):
         """Initialize the RAG system with query optimization support.
@@ -64,7 +65,6 @@ class RAGSystem:
             bm25_threshold: Minimum BM25 score for filtering
             bm25_index: BM25 index object
             bm25_documents: List of documents for BM25
-            bm25_score_factor: Score factor for BM25 in hybrid mode
             use_query_optimization: Enable two-stage query optimization (Haiku + Sonnet)
         """
         self.vectorstore = vectorstore
@@ -79,11 +79,13 @@ class RAGSystem:
         self.bm25_threshold = bm25_threshold
         self.bm25_index = bm25_index
         self.bm25_documents = bm25_documents
-        self.bm25_score_factor = bm25_score_factor
+        self.bm25_weight = bm25_weight
         self.use_query_optimization = use_query_optimization
         
-        # Conversation history
-        self.conversation_history: List[Dict[str, str]] = []
+        # Console setup (must be before component initialization)
+        from src.utils.rich_utils import get_console, get_verbose
+        self.console = get_console()
+        self.verbose = get_verbose()
         
         # Cost tracking
         self.total_cost = 0.0
@@ -102,18 +104,25 @@ class RAGSystem:
         }
 
         self.cost_tracker = CostTracker(self.pricing)
-        # Console setup
-        try:
-            self.console = __builtins__.rich_console
-            self.verbose = __builtins__.verbose_mode
-        except (AttributeError, NameError):
-            from rich.console import Console
-            self.console = Console()
-            self.verbose = True
+        
+        # Initialize component managers
+        self.conversation_history = ConversationHistory(
+            max_history_length=max_history_length,
+            language=language,
+            verbose=self.verbose
+        )
         
         # LLM setup
         self.llm = llm  # Main LLM for answers (Sonnet)
         self.llm_query = llm_query if llm_query else llm  # Query optimization LLM (Haiku or same as main)
+        
+        # Query optimizer
+        self.query_optimizer = QueryOptimizer(
+            llm_query=self.llm_query,
+            cost_tracker=self.cost_tracker,
+            language=language,
+            verbose=self.verbose
+        ) if self.use_query_optimization else None
         
         # BM25 setup
         self.bm25_reranker = None
@@ -125,7 +134,7 @@ class RAGSystem:
             if bm25_index is None or bm25_documents is None:
                 raise ValueError("BM25 components required for hybrid mode")
             bm25_retriever = BM25Retriever(bm25_index, bm25_documents, k=self.k)
-            self.retriever = HybridRetriever(vectorstore=self.vectorstore, bm25_retriever=bm25_retriever, k=self.k, verbose=self.verbose, bm25_score_factor=self.bm25_score_factor)
+            self.retriever = HybridRetriever(vectorstore=self.vectorstore, bm25_retriever=bm25_retriever, k=self.k, verbose=self.verbose, bm25_weight=self.bm25_weight)
         elif self.use_bm25 and self.bm25_mode == "bm25":
             if bm25_index is None or bm25_documents is None:
                 raise ValueError("BM25 components required for bm25 mode")
@@ -173,74 +182,6 @@ class RAGSystem:
         else:
             return 'unknown'
     
-    def _should_retrieve_documents(
-        self,
-        user_question: str,
-        history_text: str
-    ) -> tuple[bool, str]:
-        """
-        Determina si es necesario buscar en documentos y genera una query optimizada.
-
-        Returns:
-            (should_retrieve, optimized_query)
-        """
-
-
-        template = few_shot_classification_prompt.get(self.language.lower(), few_shot_classification_prompt["english"])
-        query_prompt = ChatPromptTemplate.from_template(template)
-
-        callback = ClaudeCostCallback(
-            stage="query_decision",
-            model=self._get_model_name(self.llm_query),
-            cost_tracker=self.cost_tracker,
-        )
-
-        chain = query_prompt | self.llm_query | StrOutputParser()
-
-        try:
-            response = chain.invoke(
-                {
-                    "question": user_question,
-                    "history": history_text or "No previous conversation.",
-                },
-                config={"callbacks": [callback]},
-            )
-
-            response = response.strip()
-
-            # Decisión explícita de NO retrieval
-            if response.upper().startswith("NO_RETRIEVAL"):
-                return False, ""
-
-            # Limpieza de prefijos comunes
-            prefixes = (
-                "query optimizada:",
-                "optimized query:",
-                "query:",
-                "search query:",
-                "búsqueda:",
-                "busca:",
-                "respuesta:",
-            )
-
-            for prefix in prefixes:
-                if response.lower().startswith(prefix):
-                    response = response[len(prefix):].strip()
-                    break
-
-            # Seguridad extra: limitar longitud
-            response_words = response.split()
-            optimized_query = " ".join(response_words[:15])
-
-            return True, optimized_query
-
-        except Exception as e:
-            self.log(
-                f"Error en análisis de necesidad de búsqueda: {e}",
-                "error"
-            )
-            # Fail-safe: mejor buscar que no buscar
-            return True, user_question
 
     
     def _setup_bm25(self) -> None:
@@ -287,43 +228,6 @@ class RAGSystem:
         template = retrieval_prompt.get(self.language.lower(), retrieval_prompt["english"])
         return ChatPromptTemplate.from_template(template)
     
-    def _format_history(self, max_turns: int = 5) -> str:
-        """Format conversation history for inclusion in prompt."""
-        if not self.conversation_history:
-            return ""
-        
-        recent_history = self.conversation_history[-max_turns:]
-        
-        if self.language.lower() == "galician":
-            user_label, assistant_label, header = "Usuario", "Asistente", "Historial da conversación:"
-        elif self.language.lower() == "spanish":
-            user_label, assistant_label, header = "Usuario", "Asistente", "Historial de la conversación:"
-        else:
-            user_label, assistant_label, header = "User", "Assistant", "Conversation history:"
-        
-        history_lines = [header]
-        for interaction in recent_history:
-            answer = interaction['answer']
-            if len(answer) > 300:
-                answer = answer[:300] + "..."
-            history_lines.append(f"{user_label}: {interaction['question']}")
-            history_lines.append(f"{assistant_label}: {answer}\n")
-        
-        return "\n".join(history_lines)
-    
-    def _add_to_history(self, question: str, answer: str) -> None:
-        """Add interaction to conversation history."""
-        self.conversation_history.append({
-            'question': question,
-            'answer': answer,
-            'timestamp': datetime.now().isoformat()
-        })
-        
-        if len(self.conversation_history) > self.max_history_length:
-            self.conversation_history = self.conversation_history[-self.max_history_length:]
-        
-        if self.verbose:
-            self.log(f"Historial actualizado: {len(self.conversation_history)} interaccións", "info")
     
     def _create_rag_chain(self) -> None:
         """Create the RAG chain using LangChain 1.0 API."""
@@ -390,15 +294,18 @@ class RAGSystem:
         # -----------------------------
         history_text = ""
         if use_history:
-            history_text = self._format_history(max_turns=5)
+            history_text = self.conversation_history.format_history(max_turns=5)
 
         # -----------------------------
         # 2. Decide whether to retrieve (Haiku)
         # -----------------------------
-        should_retrieve, search_query = self._should_retrieve_documents(
-            question,
-            history_text
-        )
+        if self.query_optimizer:
+            should_retrieve, search_query = self.query_optimizer.should_retrieve_documents(
+                question,
+                history_text
+            )
+        else:
+            should_retrieve, search_query = True, question
 
         if self.verbose:
             self.log(f"📝 Pregunta: {question}", "info")
@@ -499,7 +406,7 @@ class RAGSystem:
         clean_answer = self.extract_answer_only(answer)
 
         if use_history:
-            self._add_to_history(question, clean_answer)
+            self.conversation_history.add_interaction(question, clean_answer)
 
         cost_summary = self.cost_tracker.summary()
 
@@ -595,71 +502,24 @@ class RAGSystem:
     
     def clear_history(self) -> None:
         """Clear conversation history."""
-        self.conversation_history = []
-        if self.verbose:
-            self.log("Historial de conversación limpo", "success")
+        self.conversation_history.clear()
     
     def get_history(self) -> List[Dict[str, str]]:
         """Get conversation history."""
-        return self.conversation_history.copy()
+        return self.conversation_history.get_history()
     
     def get_history_summary(self) -> str:
         """Get conversation history summary."""
-        if not self.conversation_history:
-            return "Non hai historial de conversación" if self.language == "galician" else "No conversation history"
-        
-        summary_lines = []
-        for i, interaction in enumerate(self.conversation_history, 1):
-            summary_lines.append(f"\n--- Interacción {i} ---")
-            summary_lines.append(f"Pregunta: {interaction['question']}")
-            summary_lines.append(f"Resposta: {interaction['answer'][:150]}...")
-            if 'timestamp' in interaction:
-                summary_lines.append(f"Hora: {interaction['timestamp']}")
-        
-        return "\n".join(summary_lines)
+        return self.conversation_history.get_history_summary()
     
     def save_history(self, filepath: str = "conversation_history.json") -> None:
         """Save conversation history to JSON."""
-        try:
-            with open(filepath, 'w', encoding='utf-8') as f:
-                json.dump(self.conversation_history, f, ensure_ascii=False, indent=2)
-            if self.verbose:
-                self.log(f"Historial gardado en {filepath}", "success")
-        except Exception as e:
-            self.log(f"Error gardando historial: {e}", "error")
+        self.conversation_history.save_history(filepath)
     
     def load_history(self, filepath: str = "conversation_history.json") -> None:
         """Load conversation history from JSON."""
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                self.conversation_history = json.load(f)
-            if self.verbose:
-                self.log(f"Historial cargado desde {filepath} ({len(self.conversation_history)} interaccións)", "success")
-        except FileNotFoundError:
-            if self.verbose:
-                self.log(f"Non se atopou o arquivo {filepath}", "warning")
-            self.conversation_history = []
-        except Exception as e:
-            self.log(f"Error cargando historial: {e}", "error")
-            self.conversation_history = []
+        self.conversation_history.load_history(filepath)
     
     def export_history_markdown(self, filepath: str = "conversation_history.md") -> None:
         """Export conversation history to Markdown."""
-        if not self.conversation_history:
-            self.log("Non hai historial para exportar", "warning")
-            return
-        
-        try:
-            with open(filepath, 'w', encoding='utf-8') as f:
-                f.write("# Historial de Conversación\n\n")
-                for i, interaction in enumerate(self.conversation_history, 1):
-                    f.write(f"## Interacción {i}\n\n")
-                    if 'timestamp' in interaction:
-                        f.write(f"**Hora:** {interaction['timestamp']}\n\n")
-                    f.write(f"**Pregunta:** {interaction['question']}\n\n")
-                    f.write(f"**Resposta:**\n\n{interaction['answer']}\n\n")
-                    f.write("---\n\n")
-            if self.verbose:
-                self.log(f"Historial exportado a {filepath}", "success")
-        except Exception as e:
-            self.log(f"Error exportando historial: {e}", "error")
+        self.conversation_history.export_history_markdown(filepath)
