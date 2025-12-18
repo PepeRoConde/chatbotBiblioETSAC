@@ -14,7 +14,7 @@
 \usepackage{float}
 \usepackage{multicol}
 \tcbuselibrary{breakable}
-\usepackage[style=authoryear,backend=bibtex]{biblatex}  % o style=apa, ieee, etc.
+\usepackage[style=ieee,backend=bibtex]{biblatex}  % o style=apa, ieee, etc.
 \addbibresource{referencias.bib}
 
 \makeatletter
@@ -485,11 +485,105 @@ e \cite{adobe_hybrid_2024}.
 
 \chapter{Instalación e uso}
 
-\chapter{Resultados}
-\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{R}}{}esults presentation here.
 
-\chapter{Conclusions}
-\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{H}}{}ola castro
+
+
+
+\chapter{Validación e resultados}
+% \lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{R}}{}esults presentation here.
+\section{Validación do sistema RAG}
+
+\subsection{Complexidade da validación}
+A validación dun sistema Retrieval-Augmented Generation (RAG) é intrinsecamente complexa debido á súa natureza híbrida, xa que combina dous subsistemas conceptualmente distintos pero fortemente acoplados: o módulo de \textit{retrieval}, encargado de seleccionar a información relevante, e o módulo de \textit{generation}, responsable de producir a resposta final condicionada polo contexto recuperado. Avaliar correctamente un sistema RAG implica analizar de forma separada e conxunta ambos compoñentes, así como a súa interacción, incrementando notablemente a dificultade do proceso de validación \cite{rag_eval_survey_2024}.
+
+Ademais, unha avaliación rigorosa require a disposición de conxuntos de datos anotados e métricas específicas para cada etapa do pipeline. A literatura sinala que a definición de \textit{ground truth} fiable —cun conxunto completo de documentos relevantes e respostas correctas— é custosa en tempo e recursos, e que as métricas existentes poden verse afectadas pola variabilidade na anotación humana \cite{rag_eval_survey_2024,llm_judge_eval_2024}.
+
+\subsection{Conxunto de validación}
+Para realizar unha avaliación práctica e reproducible dentro das limitacións do proxecto, construíuse un conxunto de validación reducido composto por \textbf{25 preguntas}. Cada pregunta está asociada a unha resposta esperada e ao documento concreto do corpus onde se atopa a información necesaria para resolvela. Na maioría dos casos, a información relevante localízase de forma explícita nun único documento.
+
+É importante destacar que esta avaliación realízase sobre un \textbf{corpus reducido e controlado de documentos}. Este corpus representa só unha fracción do conxunto total de documentos que o sistema RAG manexará nun contexto real, onde se espera que haxa moitos máis documentos, algúns dos cales poderían recuperarse sen ser necesarios para responder a consulta concreta. Traballar cun corpus acotado permite, con todo, illar variables e analizar de forma precisa o comportamento do sistema. En particular, pódese estudar o impacto de parámetros como estratexias de recuperación, métricas de similitude, tamaño de chunk ou número de documentos recuperados, aspectos relevantes no deseño práctico de sistemas RAG \cite{rag_required_abilities_2023}.
+
+
+Esta aproximación debe considerarse \textbf{subestimada e conservadora}, xa que en escenarios reais poderían existir múltiples documentos relevantes por consulta non cubertos neste estudo. As métricas obtidas non buscan medir o rendemento absoluto do sistema en produción, senón servir como base experimental para estudar o impacto relativo das distintas decisións de deseño do RAG.
+
+\subsection{Evaluación do módulo de \textit{retrieval}}
+O módulo de recuperación avalíase de forma independente mediante métricas clásicas de \textit{Information Retrieval}, adaptadas ao contexto dun sistema RAG:
+
+\begin{itemize}
+    \item \textbf{Recall@10}: proporción de documentos relevantes que aparecen entre los 10 primeros resultados recuperados. Calculase como a fracción de documentos relevantes presentes no top-10 do ranking. Aínda que presentamos principalmente o \textbf{recall fraccional}, convén aclarar que neste conxunto de validación cada pregunta adoita ter un único documento relevante. Polo tanto, nesta situación o recall fraccional é practicamente equivalente ao \textbf{recall binario}, que indica se polo menos un documento relevante aparece entre os top-10. Esta métrica reflicte a capacidade do sistema de garantir que a información esencial chega ao modelo xerativo.
+    \item \textbf{MRR (Mean Reciprocal Rank)}: penaliza a aparición tardía do primeiro documento relevante no ranking. Calculase como o recíproco da posición do primeiro documento relevante atopado (1 se é o primeiro, 0.5 se é o segundo, etc.). Esta métrica reflicte a rapidez coa que o sistema proporciona información útil ao LLM.
+    \item \textbf{Precision@10}: proporción de \textit{chunks} recuperados que pertencen a documentos relevantes dentro dos 10 primeiros resultados. Avalía a capacidade do sistema para minimizar a recuperación de información irrelevante, especialmente crítico en corpus grandes ou ruidosos. Esta métrica é a nivel de chunk, reflectindo o nivel de “ruído” que chega ao LLM.
+\end{itemize}
+
+No noso sistema, o \textbf{recall e o MRR calcúlase a nivel de documento}, considerando cada documento como unha unidade discreta de relevancia. Isto simplifica a avaliación e garante que se mida a efectividade do sistema en levar información esencial ao modelo xerativo, independentemente de como os documentos estean fragmentados en chunks para a súa utilización polo LLM. 
+
+Pola súa banda, a \textbf{precision} calcúlase a nivel de chunk, como proporción de fragments pertencentes a documentos relevantes entre os recuperados. Este enfoque mixto (recall a nivel documento, precision a nivel chunk) proporciona unha visión útil para o desempeño do sistema RAG: asegura que a información clave está dispoñible para o LLM, ao mesmo tempo que avalía a calidade do material recuperado.
+
+\subsection{Evaluación da xeración}
+A avaliación do módulo de xeración céntrase en dúas dimensións complementarias:
+
+\begin{itemize}
+    \item \textbf{Answer Relevance}: mide se a resposta aborda correctamente a pregunta e evita información irrelevante. Esta métrica non xulga a veracidade, só a pertinencia.
+    \item \textbf{Answer Faithfulness}: avalía se as afirmacións contidas na resposta están efectivamente respaldadas polo contexto recuperado polo módulo de \textit{retrieval}, detectando posibles alucinacións ou información non soportada.
+\end{itemize}
+
+\subsubsection{Mecanismo de avaliación: \textit{LLM-as-judge}}
+Para automatizar a avaliación empregouse un modelo de linguaxe avanzado (\textbf{GPT-5.2}) como avaliador (\textit{LLM-as-judge}), garantindo capacidade suficiente para xulgar de forma coherente e consistente as respostas do xerador \cite{llm_judge_eval_2024}. Este enfoque permite unha avaliación máis detallada que as métricas clásicas, incorporando aspectos de completitude, coherencia e consistencia co contexto.
+
+\paragraph{Faithfulness}
+O LLM analiza cada resposta dividíndoa en afirmacións atómicas e comproba se cada unha está efectivamente respaldada polo contexto recuperado. O score final, entre 0 e 1, representa a proporción de afirmacións verificadas. Ademais, xérase unha explicación detallada que identifica que afirmacións fallaron e por que, permitindo unha maior transparencia na avaliación e a detección de posibles alucinacións ou inclusión de información externa ao contexto.
+
+\paragraph{Relevance}
+A relevancia mide se a resposta aborda todos os puntos da pregunta de forma concisa e útil, evitando información irrelevante ou redundante. Tamén retorna un score entre 0 e 1 e unha explicación que describe posibles omisións ou exceso de información.
+
+\paragraph{Beneficios do enfoque}
+
+O uso de \textit{LLM-as-judge} permite:
+\begin{itemize}
+    \item Avaliar fidelidade e pertinencia de respostas en linguaxe natural de forma consistente e reproducible.
+    \item Detectar matices de completitude, coherencia e relevancia que métricas de IR tradicionais non capturan.
+    \item Reducir a dependencia do etiquetado humano para a avaliación detallada de respostas.
+\end{itemize}
+
+\subsection{Consideracións sobre o corpus reducido}
+O estudo realizouse sobre un \textbf{corpus reducido e controlado de documentos}. Isto permite illar variables e analizar o impacto de parámetros como: as estratexias de recuperación (TF-IDF, híbridas, reranking) ou o tamaño de chunk e superposición
+
+En escenarios de produción, con moitos máis documentos dispoñibles, é altamente probable que o sistema recupere unha maior cantidade de documentos irrelevantes, o que afectará especialmente á \textbf{precision@10}. O estudo realizado neste corpus reducido proporciona unha visión inicial sobre a capacidade do RAG para filtrar información relevante en presenza de ruído documental, e serve como base experimental para estudar o impacto relativo das decisións de deseño.
+
+\subsection{Limitacións}
+O conxunto reducido introduce certas limitacións que afectan a toda a validación:
+\begin{itemize}
+    \item Non reflicte a heteroxeneidade nin a escala real do corpus.
+    \item Subrepresenta casos que requiren integración multi-documento.
+    \item Posibles omisións no etiquetado humano.
+    \item As métricas non son directamente extrapolables a produción.
+\end{itemize}
+
+A avaliación proposta proporciona unha visión relativa do impacto das decisións
+de deseño do RAG, e non debe interpretarse como unha medida directa do seu
+rendemento absoluto en escenarios de produción \cite{rag_eval_survey_2024}.
+
+
+\chapter{Conclusions e traballos futuros}
+
+\section{Extensións da validación}
+A avaliación presentada neste traballo céntrase en métricas clásicas de recuperación e en criterios básicos de calidade da xeración, o cal resulta adecuado para un estudo controlado cun conxunto de validación construído manualmente. Esta elección responde a unha decisión metodolóxica orientada a garantir reproducibilidade, trazabilidade e consistencia na avaliación, máis que a unha limitación conceptual do enfoque.
+
+A literatura recente sinala que o comportamento dun sistema RAG en escenarios reais depende tamén dun conxunto de capacidades máis avanzadas (\textit{required abilities}), cuxa avaliación resulta máis complexa e require condicións experimentais específicas, como datasets deseñados ad hoc e un maior volume de anotación humana \cite{rag_eval_survey_2024}.
+
+Como liña de traballo futuro, resulta recomendable ampliar a validación cara á avaliación destas capacidades, entre as que se inclúen:
+\begin{itemize}
+    \item \textbf{Noise robustness}: capacidade de xestionar documentos ruidosos semanticamente relacionados coa pregunta pero sen información útil para a resposta.
+    \item \textbf{Negative rejection}: habilidade do sistema para recoñecer contextos insuficientes e evitar a xeración de respostas especulativas.
+    \item \textbf{Information integration}: capacidade para combinar información procedente de múltiples documentos relevantes en preguntas complexas.
+    \item \textbf{Counterfactual robustness}: aptitude para detectar e ignorar información incorrecta ou contraditoria presente nos documentos recuperados.
+\end{itemize}
+
+A incorporación destas dimensións permitiría unha avaliación máis completa do sistema RAG, pero implicaría a ampliación do conxunto de validación actual ou a creación de novos datasets específicos, así como un maior investimento en anotación humana e deseño experimental. Estas extensións constitúen, por tanto, unha continuidade natural deste traballo,
+orientada a aproximar a avaliación ás condicións reais de uso e a analizar o
+comportamento do sistema en escenarios máis complexos e variados \cite{rag_required_abilities_2023}.
+
+
 
 
 \printbibliography
