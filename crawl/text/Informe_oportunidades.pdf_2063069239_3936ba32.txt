@@ -1,0 +1,1193 @@
+ 
+Oportunidades de contratación laboral de 
+graduadas e graduados universitarios  
+na área metropolitana  
+da Coruña e na comarca de Ferrol 
+ 
+Paolo Rungo 
+José Ángel Felpeto Lamas 
+Edward Velo Fuentes  
+ 
+  
+
+2 
+ 
+  
+
+3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Paolo Rungo, José Ángel Felpeto Lamas, Edward Velo Fuentes 
+Observatorio Ocupacional – Universidade da Coruña 
+Decembro de 2020  
+
+4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Agradecementos. Agradécense o apoio e a dispoñibilidade do Observatorio das Ocupacións do 
+Servizo Público de Emprego Estatal da Coruña. O uso e a interpretación dos datos deste informe 
+son responsabilidade dos seus autores.  
+
+5 
+ 
+Contenido 
+ 
+1. Introdución ............................................................................................................................ 8 
+2. Obxectivos do estudo ............................................................................................................ 9 
+3. Fontes de datos e clasificacións utilizadas .......................................................................... 10 
+4. A contratación de graduadas e graduados universitarios ................................................... 13 
+4.1 Distribución das persoas ocupadas nas distintas actividades económicas ................... 17 
+4.2 As ocupacións dos graduados e das graduadas ............................................................ 19 
+5. A relación entre as contratacións e o número de egresados e egresadas da Universidade 
+da Coruña ................................................................................................................................ 29 
+6. Conclusións.......................................................................................................................... 36 
+Referencias bibliográficas ................................................................................................... 39 
+Anexo. Ámbitos de estudo ...................................................................................................... 40 
+ 
+  
+
+6 
+ 
+Táboas 
+ 
+Táboa 1. Graduadas e graduados contratados na área de influencia, por rama de coñecemento 
+e xénero....................................................................................................................................... 14 
+Táboa 2. Número de graduadas e graduados contratados na área de influencia, por ámbito de 
+estudo e xénero. ......................................................................................................................... 15 
+Táboa 3. Actividades económicas máis frecuentes (divisións CNAE-09), por xénero. Número de 
+persoas contratadas na área de influencia e porcentaxe sobre o total por xénero. .................. 19 
+Táboa 4. Distribución de graduadas e graduados contratados na área de influencia, por grupos 
+principais de ocupacións e rama de coñecemento. .................................................................... 21 
+Táboa 5. Ocupacións con maior número de persoas contratadas (grupos primarios CNO-11), 
+por ramas de coñecemento. Número de persoas contratadas na área de influencia en cada 
+rama e porcentaxe sobre o total. ................................................................................................ 26 
+Táboa 6. Ocupacións con máis persoas contratadas na rama de Artes e Humanidades por 
+ámbito de estudo. Número de persoas contratadas na área de influencia e porcentaxe sobre o 
+total. ............................................................................................................................................ 27 
+Táboa 7. Ocupacións con máis persoas contratadas na rama de Ciencias por ámbito de estudo. 
+Número de persoas contratadas na área de influencia e porcentaxe sobre o total. ................. 27 
+Táboa 8. Ocupacións con máis persoas contratadas na rama de Ciencias da Saúde por ámbito 
+de estudo. Número de persoas contratadas na área de influencia e porcentaxe sobre o total. 27 
+Táboa 9. Ocupacións con máis persoas contratadas na rama de Ciencias Sociais e Xurídicas por 
+ámbito de estudo. Número de persoas contratadas na área de influencia e porcentaxe sobre o 
+total. ............................................................................................................................................ 28 
+Táboa 10. Ocupacións con máis persoas contratadas na rama de Enxeñaría e Arquitectura por 
+ámbito de estudo. Número de persoas contratadas na área de influencia e porcentaxe sobre o 
+total. ............................................................................................................................................ 28 
+Táboa 11. Ocupacións con máis graduadas e graduados contratados, por xénero. Número de 
+persoas contratadas na área de influencia e porcentaxe con respecto ao total. ....................... 29 
+Táboa 12. Número de egresados e egresadas da Universidade da Coruña con menos de 30 
+anos de idade, por xénero e rama de coñecemento. Curso 2018/19. ....................................... 31 
+Táboa 13. Configuración por graos dos ámbitos da rama de Artes e Humanidades. ................. 40 
+Táboa 14. Configuración por graos dos ámbitos da rama de Ciencias. ...................................... 41 
+Táboa 15. Configuración por graos dos ámbitos de Ciencias da Saúde. ..................................... 42 
+Táboa 16. Configuración por graos dos ámbitos de Ciencias Sociais e Xurídicas. ...................... 43 
+
+7 
+ 
+Táboa 17. Configuración por graos dos ámbitos de Enxeñaría e Arquitectura. ......................... 44 
+ 
+ 
+Figuras 
+ 
+Figura 1. Distribución das graduadas e dos graduados contratados na área de influencia, por 
+rama de coñecemento. ............................................................................................................... 14 
+Figura 2. Distribución do número de graduadas e graduados contratados na área de influencia, 
+por xénero e rama de coñecemento. .......................................................................................... 16 
+Figura 3. Primeiras dez actividades económicas (divisións CNAE-09) con máis graduadas e 
+graduados contratados na área de influencia............................................................................. 18 
+Figura 4. Distribución das graduadas e os graduados contratados na área de influencia por 
+grupos principais de actividades económicas. ............................................................................ 20 
+Figura 5. Porcentaxe de graduadas e graduados contratados na área de influencia nos grandes 
+grupos ocupacionais CNO-11 1 e 2, e no grupo de ocupacións elementais. .............................. 23 
+Figura 6. Porcentaxe de graduadas e graduados contratados na área de influencia nos grandes 
+grupos ocupacionais 1 e 2, e no grupo de ocupacións elementais, por ámbito de estudo. ....... 24 
+Figura 7. Cociente de persoas contratadas na área de influencia/persoas egresadas, por rama 
+de coñecemento. ........................................................................................................................ 31 
+Figura 8. Cociente persoas contratadas na área de influencia nos grupos ocupacionais 1 e 2 / 
+persoas egresadas, por rama de coñecemento. ......................................................................... 33 
+Figura 9. Cociente persoas contratadas na área de influencia/persoas egresadas, por ámbito de 
+estudo.......................................................................................................................................... 34 
+Figura 10. Cociente persoas contratadas na área de influencia nos grupos ocupacionais 1 e 2 / 
+persoas egresadas, por ámbito de estudo. ................................................................................. 35 
+ 
+ 
+  
+
+8 
+ 
+1. Introdución 
+ 
+O último informe do Observatorio Ocupacional da Universidade da Coruña (Observatorio 
+Ocupacional – UDC, 2019) destaca a baixa taxa de paro de graduadas e graduados 
+universitarios/as despois de tres anos e medio da finalización dos seus estudos. A taxa media 
+estimada de paro desta poboación é igual ao 5,8 %, cun mínimo de 4,1 % na rama de Enxeñaría 
+e Arquitectura. Estes datos refírense á ocupación de graduadas e graduados da Universidade da 
+Coruña, independentemente do lugar en que desempeñen a súa actividade profesional. No 
+mesmo informe obsérvase que ao redor do 79 % das egresadas e dos egresados traballan en 
+Galicia, mentres que o 18 % o fai no resto de España e o outro 3 %, no estranxeiro. Os datos de 
+inserción laboral, por tanto, revelan que os graduados e as graduadas da Universidade da Coruña 
+conseguen atopar emprego con relativa facilidade, pero que unha porcentaxe relevante deste 
+colectivo encontra oportunidades laborais fóra da área de influencia da mesma universidade. 
+De media, só o 62 % do total de egresadas e egresados que traballan desempeña a súa 
+actividade profesional na provincia da Coruña. Estes datos non son de seu preocupantes, na 
+medida en que os graduados e as graduadas conseguen os seus obxectivos profesionais no lugar 
+e nas empresas onde desexan traballar. Con todo, pon en evidencia a escaseza de oportunidades 
+nas áreas de influencia directa da Universidade da Coruña. 
+ 
+Este informe pretende analizar as oportunidades de emprego que o tecido produtivo da Coruña 
+e Ferrol lles ofrece ás graduadas e aos graduados universitarios, mediante o estudo das 
+características e condicións de contratación privada. Unha contorna que está caracterizada por 
+microempresas non é especialmente favorable desde o punto de vista da contratación de 
+persoas con altos niveis educativos, e podería inducir un incremento da sobrecualificación, é 
+dicir, o exceso de cualificacións con respecto ás necesarias para o posto de traballo ou a 
+actividade profesional que unha persoa desempeña. Esta situación resulta especialmente 
+relevante cando a maioría das persoas prefiren traballar na cidade ou provincia onde realizaron 
+os seus estudos e, posiblemente, onde naceron e creceron. Desde este punto de vista, este 
+informe analiza as oportunidades laborais que teñen as graduadas e os graduados universitarios 
+nunhas áreas xeográficas moi concretas: a área metropolitana da Coruña e a comarca de Ferrol. 
+Por tanto, non se trata da totalidade das oportunidades de contratación do estudantado da 
+Universidade da Coruña, senón das oportunidades de que poden gozar as persoas que, por 
+decisión propia ou por outras circunstancias, tentan desempeñar a súa actividade profesional 
+na área. 
+
+9 
+ 
+ 
+Co fin de estudar as oportunidades laborais de graduados e graduadas, analizáronse os rexistros 
+de contratación do Servizo Público de Emprego Estatal (SEPE). Os datos que figuran neste 
+rexistro permiten coñecer, para cada persoa contratada, algunhas características persoais e os 
+aspectos máis relevantes da súa ocupación. En particular, para os efectos deste informe, foi 
+posible agrupar as persoas contratadas por ámbitos de estudo. Así mesmo, os rexistros 
+conteñen, para cada persoa contratada, información acerca da actividade económica en que se 
+enmarca a ocupación, así como o detalle da ocupación que a persoa desempeña. Desta forma, 
+este estudo ofrece información acerca das características ocupacionais das persoas contratadas 
+na área xeográfica considerada, desagregadas a nivel de rama de coñecemento e ámbito de 
+estudo.  
+ 
+Os rexistros de contratación do Servizo Público de Emprego inclúen os contratos de empresas 
+privadas e os contratos laborais da Administración pública. Por tanto, entre as súas limitacións, 
+atópase a exclusión da función pública. Esta é unha limitación que é necesario ter sempre en 
+conta para a interpretación correcta dos datos. Neste informe preséntase unha fotografía das 
+posibilidades de contratación laboral privada na área estudada. No caso dalgunhas titulacións 
+como, por exemplo, Ciencias da Educación ou Dereito, esta limitación é especialmente 
+relevante. Con todo, é necesario entender que case todas as titulacións ofrecen a función 
+pública como unha posible saída laboral. Neste sentido, os datos deste informe non pretenden 
+estudar a inserción laboral de graduadas e graduados universitarios, senón os traballos 
+dispoñibles para esta poboación, en particular no sector privado. 
+ 
+ 
+2. Obxectivos do estudo 
+ 
+Este estudo ofrece unha panorámica das contratacións de graduadas e graduados universitarios 
+con menos de trinta anos de idade nas áreas da Coruña e Ferrol. En particular, estúdanse as 
+características das contratacións segundo a titulación da persoa contratada, o sector de 
+actividade económica e a ocupación. Para iso, utilízanse os rexistros oficiais de persoas 
+contratadas durante o ano 2019 do Servizo Público de Emprego Estatal. O obxectivo é ofrecer 
+unha aproximación ás oportunidades de emprego no mercado laboral local. Nun contexto, onde 
+a maior parte dos graduados e das graduadas da Universidade da Coruña quedan nesta provincia 
+a traballar (Observatorio Ocupacional – UDC, 2019) resulta relevante ofrecer información 
+
+10 
+ 
+actualizada sobre as oportunidades dispoñibles. Ademais, o estudo das contratacións permite 
+aproximar a capacidade do tecido empresarial local de absorber os egresados e as egresadas da 
+Universidade da Coruña. 
+ 
+Este informe, pola natureza e as limitacións da base de datos utilizada, non pode ofrecer unha 
+valoración global das oportunidades de emprego das graduadas e dos graduados da 
+Universidade da Coruña. En particular, o ámbito xeográfico é moi limitado. Por tanto, o estudo 
+só permite aproximar as oportunidades iniciais que teñen as persoas cun título universitario que 
+pretenden traballar nestas áreas. 
+ 
+Este estudo tampouco permite realizar unha ordenación das titulacións ou dos ámbitos de 
+estudo que nel se inclúen, ou unha valoración da empregabilidade de graduados e graduadas. 
+Outros factores externos, como as características das empresas da contorna, teñen un impacto 
+crítico nas oportunidades locais de emprego. Así mesmo, aínda que moitos graduados e moitas 
+graduadas non conseguen quedar a traballar na Coruña e Ferrol, un 80 % das persoas que 
+estudaron na UDC desempeñan a súa actividade profesional en Galicia (Observatorio 
+Ocupacional – UDC, 2019). 
+ 
+ 
+3. Fontes de datos e clasificacións utilizadas 
+ 
+Este estudo analiza as características ocupacionais das graduadas e dos graduados contratados 
+durante o ano 2019 nas dúas áreas xeográficas de influencia directa da Universidade da Coruña: 
+a área metropolitana da Coruña e a comarca de Ferrol. En particular, están incluídas as persoas 
+contratadas nos seguintes municipios: A Coruña, Abegondo, Arteixo, Bergondo, Cambre, Carral, 
+Culleredo, Oleiros, e Sada para a área metropolitana da Coruña, e, para a comarca de Ferrol, 
+Ares, As Somozas, Cedeira, Fene, Ferrol, Moeche, Mugardos, Narón, Neda, San Sadurniño e 
+Valdoviño. A área alberga máis de 50 000 unidades locais de empresas (50 321 no ano 2018, 
+último ano dispoñible; IGE, 2019), a maior parte delas (ao redor do 80 %) na área metropolitana 
+da Coruña. Sen considerar o sector primario nin a Administración pública, a gran maioría das 
+unidades locais corresponden a empresas con menos de 3 asalariados (80 %), e menos do 6 % a 
+empresas con 10 ou máis empregados. Na área residen 555 880 persoas, aproximadamente 
+245 000 no municipio da Coruña, e 66 000 no de Ferrol (INE, 2020). 
+ 
+
+11 
+ 
+O estudo utiliza datos dos rexistros oficiais do Servicio Público de Emprego Estatal, postos a 
+disposición polo Observatorio das Ocupacións do mesmo servizo da Coruña. Ademais, utilízanse 
+os rexistros de egresados e egresadas da propia Universidade da Coruña. A continuación, 
+detállanse as fontes de datos, así como as clasificacións de actividades e ocupacións que se 
+utilizan ao longo deste informe. 
+ 
+ 
+Graduadas e graduados contratados 
+ 
+Un graduado ou unha graduada contratada é unha persoa contratada que declarou posuír un 
+título de estudo de grao universitario e cuxo contrato foi procesado estatisticamente polo 
+Servizo Público de Emprego Estatal. Todas as empresas que contraten traballadores ou 
+traballadoras están obrigadas a remitir unha copia do contrato aos servizos públicos de 
+emprego. Neste informe utilízanse datos deste rexistro. Consideráronse as persoas contratadas 
+nas áreas xeográficas descritas anteriormente (área metropolitana da Coruña e comarca de 
+Ferrol) durante o ano 2019 e de menos de trinta anos de idade. A consideración deste grupo de 
+idade responde a dúas consideracións. En primeiro lugar, preténdese estudar a transición ao 
+mercado laboral das persoas cun título de estudo universitario. Aínda que é certo e hai que 
+considerar que a idade media de finalización dos estudos varía segundo a titulación, para moitas 
+persoas contratadas que se consideran neste informe trátase das primeiras ocupacións e do 
+comezo das súas carreiras profesionais. Este condición é crítica para a interpretación dos 
+resultados, posto que, en moitos casos, a transición ao mercado laboral se realiza mediante 
+ocupacións de menos prestixio e que requiren menores competencias específicas da profesión. 
+Segundo, o corte de idade permite centrarnos nas titulacións de grao e evita a necesidade de 
+establecer equivalencias entre títulos de plans de estudo antigos (licenciaturas, diplomaturas, 
+enxeñarías e Arquitectura) e os máis recentes títulos de grao. 
+ 
+As graduadas e os graduados contratados nas áreas de influencia da Universidade da Coruña 
+poden proceder doutras zonas xeográficas ou estudar noutras universidades. É dicir, son 
+obxecto deste estudo todas as persoas graduadas que foron contratadas na área, 
+independentemente da súa procedencia e da universidade onde conseguiron o seu título. 
+ 
+Os rexistros dispoñibles no Servizo Público de Emprego Estatal permiten caracterizar as persoas 
+contratadas de acordo co seu xénero, idade, título académico, actividade principal da empresa 
+
+12 
+ 
+contratante e ocupación. Con respecto á titulación académica, o rexistro inclúe a denominación 
+específica do título de grao alcanzado. Dadas as distintas procedencias das persoas contratadas, 
+esta circunstancia implica a existencia de denominacións distintas para títulos substancialmente 
+equivalentes. Por tanto, procedeuse a agrupar os títulos en distintos niveis, que constitúen a 
+base da análise que se presenta neste informe. O primeiro nivel de agregación é o ámbito de 
+estudo. Identificáronse 25 ámbitos de estudo distintos. Para a súa definición utilizouse como 
+base a división por ámbitos utilizada nos últimos informes da Fundación CyD (Fundación CyD 
+2017, 2018) que, á súa vez, se basean no consenso e a experiencia das universidades. Os títulos 
+de grao que se consideraron para compor os ámbitos non son todos os títulos do sistema 
+universitario español, senón só aqueles para os cales se rexistra, polo menos, unha persoa 
+contratada na nosa base de datos. Por outra banda, debido ao moi reducido número de persoas 
+contratadas nalgunhas titulacións e ámbitos, agrupáronse algúns destes, sempre que 
+pertencesen á mesma rama de coñecemento. En particular, a análise a nivel de ámbito de 
+estudo só se levou a cabo para aqueles con máis de vinte persoas contratadas na base de datos 
+de contratacións. No Anexo preséntase todos os títulos considerados en cada ámbito de estudo. 
+Todos os ámbitos de estudo e, polo tanto, as titulacións que os compoñen, se agruparon 
+segundo a rama de coñecemento a que pertencen. Por tanto, no estudo analízase tamén a 
+contratación para este nivel de agregación.  
+ 
+Finalmente, na segunda parte do estudo faise referencia ás graduadas e aos graduados da 
+Universidade da Coruña. Os datos corresponden ao número de egresados e egresadas do curso 
+académico 2018/19 con menos de 30 anos de idade, por titulación e rama de estudo. Esta 
+información obtívose a partir dos rexistros oficiais da mesma universidade. 
+ 
+ 
+Actividades económicas e ocupacións 
+ 
+Con respecto ás actividades económicas, neste informe utilízase a Clasificación Nacional de 
+Actividades Económicas (CNAE-2009). As actividades correspóndense co nivel de «división», e 
+identifícanse cun código numérico de dúas cifras. Toda a información relacionada con esta 
+clasificación está dispoñible na páxina web do Instituto Nacional de Estatística (INE, 2008). 
+ 
+Con respecto ás ocupacións, utilízase a Clasificación Nacional de Ocupacións (CNO-11). En canto 
+á súa estrutura, a CNO-11 divídese en catro niveles principais: inclúe 10 grandes grupos, 62 
+subgrupos principais, 170 subgrupos e 502 grupos primarios. Neste informe utilízanse estas 
+
+13 
+ 
+divisións e, en particular, os grupos primarios como máximo nivel de desagregación. A 
+observación dos grupos primarios permite analizar as ocupacións específicas das persoas 
+contratadas cun título de estudo universitario. 
+ 
+A CNO-11 desenvolveuse para que sexa compatible coa Clasificación Internacional Uniforme de 
+Ocupacións (CIUO-08) e herda dela dous conceptos principais: emprego e competencia. Por 
+emprego enténdese o conxunto de «tarefas e labores desempeñados por unha persoa, ou que 
+se prevé que esta desempeñe» no seu posto de traballo. Un «conxunto de empregos cuxas 
+principais tarefas e labores se caracterizan por un alto grao de similitude» constitúe unha 
+ocupación. Para os efectos deste estudo, é importante destacar que os conceptos de emprego 
+e ocupación se definen en termos de tarefas realizadas, e non de titulación requirida. Por outra 
+banda, o nivel de competencias é «unha medida da complexidade e diversidade de tarefas e 
+labores propios dunha ocupación». Por tanto, titulación e ocupación son dúas características 
+distintas. Como destaca o mesmo Instituto Nacional de Estatística (2012), a estrutura da CNO-
+11 está definida polos niveis educativos e non polas titulacións. Así mesmo, a pesar da 
+necesidade de dispor de datos comparables a nivel internacional, non existe unha 
+correspondencia directa e biunívoca entre os grandes grupos da clasificación e os niveis 
+educativos. Para máis información recoméndase consultar a Introdución á CNO-11 do Instituto 
+Nacional de Estatística (2012). 
+ 
+4. A contratación de graduadas e graduados universitarios 
+ 
+ 
+Durante o ano 2019, na área xeográfica estudada, contratáronse 1199 graduadas e 439 
+graduados universitarios (Táboa 1). Como se pode observar na Figura 1, a maior parte das 
+graduadas e dos graduados contratados posúen un título da rama de Ciencias Sociais e Xurídicas 
+(62,88 %). As outras áreas acumulan unha porcentaxe inferior de persoas contratadas: Ciencias 
+da Saúde (12,45 %), Enxeñaría e Arquitectura (10,93 %), Arte e Humanidades (7,20 %), e Ciencias 
+(6,53 %). A distribución observada non reflicte con exactitude a distribución de egresados e 
+egresadas da Universidade da Coruña. En primeiro lugar, as persoas contratadas cun título 
+universitario poden estudar noutra universidade. En segundo lugar, o número de persoas 
+contratadas depende da demanda local de emprego. Por tanto, a distribución que se observa na 
+Figura 1 describe a estrutura do tecido produtivo local e non a repartición por áreas do 
+estudantado da Universidade da Coruña. 
+
+14 
+ 
+ 
+ 
+Táboa 1. Graduadas e graduados contratados na área de influencia, por rama de coñecemento e xénero. 
+ 
+ 
+ 
+ 
+Figura 1. Distribución das graduadas e dos graduados contratados na área de influencia, por rama de 
+coñecemento. 
+ 
+As ramas de coñecemento poden incluír titulacións que preparan para perfís ocupacionais moi 
+distintos. Por tanto, é interesante considerar outro nivel de desagregación: o ámbito de estudo. 
+O Anexo presenta a composición dos 25 ámbitos de estudos considerados e a Táboa 2 o número 
+de persoas contratadas por ámbito e xénero. É importante facer referencia a esta táboa para a 
+62.88%
+12.45% 10.93%
+7.20% 6.53%
+0%
+20%
+40%
+60%
+Ciencias Sociais eXurídicas Ciencias da Saúde Enxeñaría eArquitectura Artes e Humanidades Ciencias
+
+15 
+ 
+interpretación correcta dos resultados que se presentan nesta sección, xa que o número de 
+persoas contratadas nalgúns ámbitos é moi reducido.  
+ 
+ 
+Táboa 2. Número de graduadas e graduados contratados na área de influencia, por ámbito de estudo e xénero. 
+ 
+
+16 
+ 
+A distribución do número de persoas contratadas na área de influencia por ramas de 
+coñecementos varía en función do xénero (Figura 2). O 66,3 % das mulleres contratadas posúe 
+un título da rama de Ciencias Sociais e Xurídicas, seguido por un 12,9 % de mulleres cun título 
+de Ciencias da Saúde. A maioría dos homes contratados tamén posúe un título de Ciencias 
+Sociais e Xurídicas, pero nunha porcentaxe menor (53,5 %); con todo, a segunda rama con máis 
+homes contratados é a de Enxeñaría e Arquitectura (22,6 %). En comparación, a porcentaxe de 
+mulleres contratadas cun título de Enxeñaría e Arquitectura foi do 6,7 %. 
+ 
+Estas distribucións non reflicten por completo a realidade da Universidade da Coruña. En 
+particular, durante o curso 2018/19, a porcentaxe de mulleres graduadas en Ciencias Sociais e 
+Xurídicas foi do 53,3 %, en Ciencias da Saúde do 21,2 %, e en Enxeñaría e Arquitectura do 13,8 %. 
+ 
+ 
+ 
+ 
+Figura 2. Distribución do número de graduadas e graduados contratados na área de influencia, por xénero e rama 
+de coñecemento. 
+ 
+ 
+ 
+ 
+66.3%
+53.5%
+12.9%
+22.6%
+7.3%6.8%6.7%
+11.2%
+6.8%5.9%
+0%
+20%
+40%
+60%
+Mulleres Homes
+Ciencias da Saúde
+Enxeñaría e Arquitectura
+Ciencias Sociais e Xurídicas
+Ciencias
+Artes e Humanidades
+
+17 
+ 
+4.1 Distribución das persoas ocupadas nas distintas actividades económicas 
+ 
+A Figura 3 representa as primeiras dez actividades económicas co maior número de graduadas 
+e graduados ocupados na área de influencia menores de trinta anos. En total, estas actividades 
+acumulan o 62,15 % das graduadas e os graduados contratados durante o ano 2019. Destacan 
+por número de persoas contratadas as dúas primeiras actividades, que se reparten de forma 
+case equitativa o 26 % de todas as persoas contratadas. Estas actividades son o comercio ao 
+retallo, seguida moi de preto da educación.  
+ 
+A distribución por actividades económicas presenta marcados rumbos de xénero. Así, mentres 
+que as mulleres contratadas para o comercio ao retallo representan o 15,35 % de todas as 
+mulleres contratadas, o 7,29 % dos homes foron contratados para esta actividade económica. 
+Obsérvase unha distribución parecida no caso da actividade económica «educación» (mulleres: 
+15,01 %; homes: 7,29 %). 
+ 
+En xeral, os empregos das mulleres están moito máis concentrados en poucas actividades 
+económicas. A Táboa 3 presenta, por xénero, as primeiras actividades económicas con máis 
+persoas contratadas na área de influencia. No caso das mulleres, estas actividades (comercio ao 
+retallo; educación; actividades administrativas de oficina e outras actividades auxiliares ás 
+empresas; actividades deportivas, recreativas e de entretemento; e actividades sanitarias, que 
+teñen o mesmo número de contratadas que os servizos de comidas e bebidas) acumulan o 
+46,95 % de todas as mulleres contratadas. Con todo, as primeiras cinco actividades por número 
+de homes graduados (comercio ao retallo; educación; actividades deportivas, recreativas e de 
+entretemento; actividades sanitarias; e, co mesmo número de contratados, servizos técnicos de 
+arquitectura e enxeñaría, e programación, consultoría e outras actividades relacionadas coa 
+informática) acumulan o 33,71 % de todos os egresados contratados. Estes datos indican que os 
+homes dispoñen, na área de influencia, dun abanico máis amplo de posibles saídas laborais, que 
+está directamente relacionado cunha menor concentración de estudantes de xénero masculino 
+en titulacións concretas. 
+ 
+
+18 
+ 
+ 
+Figura 3. Primeiras dez actividades económicas (divisións CNAE-09) con máis graduadas e graduados contratados 
+na área de influencia. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+216
+212
+100
+95
+86
+69
+65
+65
+60
+50
+Actividadescinematográficas, devídeo e de programasde televisión,gravación de son eedición musical
+Servizos técnicosde arquitectura eenxeñaría; ensaios eanálises técnicas
+Actividades deservizos sociais senaloxamento
+Asistencia enestablecementosresidenciais
+Servizos de comidase bebidas
+Actividadessanitarias
+Actividadesadministrativasde oficina eoutras actividadesauxiliares ásempresas
+Actividadesdeportivas,recreativas e deentretemento
+Educación
+Comercio a retallo,salvo de vehículosde motor emotocicletas
+0 50 100 150 200
+
+19 
+ 
+Táboa 3. Actividades económicas máis frecuentes (divisións CNAE-09), por xénero. Número de persoas 
+contratadas na área de influencia e porcentaxe sobre o total por xénero. 
+ 
+4.2 As ocupacións dos graduados e das graduadas 
+ 
+As graduadas e os graduados contratados no sector privado ou na Administración pública, 
+mediante contratos laborais, desempeñan ocupacións moi distintas. A Figura 4 presenta a 
+distribución das persoas contratadas por grupos principais de ocupacións. Como é de esperar 
+tanto polo escaso número de empregos dispoñibles como pola idade dos graduados e as 
+graduadas que se inclúen no estudo, só o 0.12 % das persoas foron contratadas como directoras 
+ou xerentes. Hai que observar que, aínda que non hai unha correspondencia directa entre 
+ocupacións e titulacións, as primeiras ocupacións na CNO-11 (Figura 4) requiren competencias 
+e niveis educativos superiores para o seu desempeño. Neste sentido, hai que destacar que, 
+aproximadamente, o 54 % das persoas contratadas están empregadas como técnicos/as e 
+profesionais de distintos ámbitos e categorías ou, de forma residual, como directoras e xerentes. 
+Ademais, outro 16 % ten un emprego de oficina, sen ou con tarefas de atención ao público.  
+ 
+Por outra banda, hai que sinalar que o 14 % das persoas contratadas están ocupadas como 
+traballadoras dos servizos de restauración e comercio. Finalmente, hai un 7,2 % de persoas 
+
+20 
+ 
+contratadas nas chamadas «ocupacións elementais». Por tanto, aproximadamente 2 de cada 10 
+persoas contratadas desempeñan ocupacións que requiren niveis educativos claramente 
+inferiores aos alcanzados, mentres que, no outro extremo da xerarquía ocupacional, 5 de cada 
+10 persoas ocupadas gozan de empregos que requiren niveis educativos superiores. Entre estes 
+dous grupos atópanse ocupacións de máis difícil clasificación segundo a titulación requirida, e 
+que é necesario valorar tendo en conta as competencias requiridas en cada emprego.  
+ 
+ 
+ 
+ 
+Figura 4. Distribución das graduadas e os graduados contratados na área de influencia por grupos principais de 
+actividades económicas. 
+ 
+ 
+ 
+0.12%18.74%17.77%17.77%8.97%7.81%13.74%4.88%1.10%0.06%1.04%0.61%0.18%3.60%3.60%Peóns da agricultura, pesca,construción, industriasmanufactureiras e transportesTraballadores non cualificadosen servizos (salvotransportes)Condutores e operadores demaquinaria móbilOperadores de instalacións emaquinaria fixas, e montadoresTraballadores cualificados dasindustrias manufactureiras,salvo operadores deinstalacións e máquinasTraballadores cualificadosno sector agrícola, gandeiro,forestal e pesqueiroTraballadores dos servizos deprotección e seguranzaTraballadores dos servizos desaúde e o coidado de persoasTraballadores dos servizos derestauración e comercioEmpregados de oficina queatenden o públicoEmpregados de oficina que nonatenden o públicoTécnicos; profesionais deapoioOutros técnicos e profesionaiscientíficos e intelectuaisTécnicos e profesionaiscientíficos e intelectuais dasaúde e do ensinoDirectores e xerentes
+0.0% 5.0% 10.0% 15.0% 20.0%
+
+21 
+ 
+Táboa 4. Distribución de graduadas e graduados contratados na área de influencia, por grupos principais de 
+ocupacións e rama de coñecemento. 
+ 
+ 
+A distribución por grupos principais de ocupacións varía de acordo coa rama de coñecemento 
+dos estudos da persoa contratada (Táboa 4). En Arte e Humanidades, as persoas contratadas 
+concéntranse nos grupos de técnicos e profesionais científicos da saúde e do ensino (28,81 %), 
+traballadores dos servizos de restauración e comercio (18,64 %), técnicos e profesionais de 
+apoio (17,80 %), e outros técnicos e profesionais de apoio (10,17 %). 
+ 
+Con respecto á rama de Ciencias, a ocupación máis frecuente é a dos traballadores e 
+traballadoras dos servizos de restauración e comercio (19,63 %). Con todo, os grupos de técnicos 
+e profesionais científicos, e de técnicos e profesionais de apoio, acumulan en conxunto o 
+43,92 % das persoas contratadas con estudos nesta rama. 
+ 
+Os graduados e as graduadas da rama de Ciencias da Saúde son os que máis se concentran nun 
+único grupo ocupacional, o de técnicos e profesionais científicos e intelectuais da saúde e do 
+ensino (76,96 %). En contraste, a rama de Ciencias Sociais e Xurídicas é a que presenta unha 
+maior dispersión entre grupos ocupacionais. Ademais dunha gran porcentaxe de empregados 
+nos grupos ocupacionais de técnicos e profesionais científicos, ou técnicos de apoio (45,34 %), 
+é a rama con maior porcentaxe de empregados e empregadas de oficina (22,42 %). Destaca 
+
+22 
+ 
+tamén nesta rama a porcentaxe de traballadores e traballadoras dos servizos de restauración e 
+comercio (15,34 %). 
+ 
+Finalmente, na rama de Enxeñaría e Arquitectura, as persoas contratadas concéntranse 
+maiormente nos grupos de técnicos e profesionais científicos ou intelectuais (46,93 %), e 
+profesionais e técnicos de apoio (27,93 %). 
+ 
+Na Figura 5 agrúpanse os datos da Táboa 4 para comparar a porcentaxe de persoas contratadas 
+na área de influencia nos grandes grupos ocupacionais 1 e 2 (directores e xerentes; técnicos e 
+profesionais científicos e intelectuais da saúde e o ensino; outros técnicos e profesionais 
+científicos e intelectuais) e a porcentaxe de persoas contratadas en ocupacións elementais 
+(traballadores non cualificados en servizos; peóns). Os grupos 1 e 2 inclúen ocupacións e 
+empregos que requiren os máximos niveis educativos, aínda que, como xa se mencionou, non 
+hai unha correspondencia directa coas titulacións. É dicir, algunhas ocupacións de grupos 
+distintos do 1 e o 2 requiren en España unha titulación universitaria. Por tanto, os datos que se 
+presentan na Táboa 3 ofrecen unha visión máis completa da distribución entre grupos 
+ocupacionais, que hai que ter sempre en conta para unha correcta interpretación dos datos. Con 
+todo, as ocupacións elementais están asociadas a un nivel de estudos e a un perfil de 
+competencias inadecuado para un graduado ou unha graduada.  
+ 
+Como se pode observar na Figura 5, as persoas contratadas na área de influencia con titulacións 
+en Ciencias da Saúde son as que, ao mesmo tempo, están ocupadas en maior porcentaxe nos 
+Grupos 1 e 2 (80,39 %), e menos nas ocupacións elementais (1,96 %). A rama de Ciencias é a que 
+presenta unha maior porcentaxe de persoas contratadas nas ocupacións elementais (11,22 %). 
+Con todo, é a rama de Ciencias Sociais e Xurídicas a que presenta a menor porcentaxe de persoas 
+contratadas nos grupos 1 e 2 (26,8 %). Cabe lembrar que, nesta rama, hai unha porcentaxe 
+relevante de contratados e contratadas nos grupos inmediatamente inferiores, os relacionados 
+cos empregos de oficina (Táboa 3). Na mesma situación atópase a rama de Enxeñaría e 
+Arquitectura que, a pesar de ter unha porcentaxe moi baixa de persoas contratadas para 
+ocupacións elementais (2,79 %), non alcanza a rama de Ciencias da Saúde en canto á porcentaxe 
+de persoas contratadas en ocupacións dos grupos 1 e 2 (46,93 %). A rama de Artes e 
+Humanidades atópase nunha posición intermedia. A porcentaxe de persoas contratadas nos 
+grupos ocupacionais 1 e 2 achégase ao 40 %, mentres que as persoas contratas en ocupacións 
+elementais representan pouco menos do 10 %. 
+ 
+
+23 
+ 
+ 
+Figura 5. Porcentaxe de graduadas e graduados contratados na área de influencia nos grandes grupos 
+ocupacionais CNO-11 1 e 2, e no grupo de ocupacións elementais. 
+ 
+ 
+Os datos non reflicten a totalidade das posibilidades ocupacionais dos graduados e das 
+graduadas de cada rama de coñecemento. Os datos utilizados refírense ao número de persoas 
+de menos de trinta anos de idade contratadas na área metropolitana da Coruña e na comarca 
+de Ferrol. A Táboa 4 e a Figura 5 pódense interpretar, por tanto, como a descrición dos empregos 
+dispoñibles nestas áreas xeográficas, por ramas de coñecemento. A distribución por grupos 
+ocupacionais de cada área podería cambiar substancialmente se se observasen o total de 
+graduadas e graduados contratados en toda España, ou en España e no estranxeiro. 
+ 
+ 
+ 
+Ciencias Sociais e XurídicasCienciasArtes e HumanidadesEnxeñaría e ArquitecturaCiencias da Saúde
+0% 20% 40% 60%Grupos 1 e 2Ocupaciónselementais
+
+24 
+ 
+ 
+Figura 6. Porcentaxe de graduadas e graduados contratados na área de influencia nos grandes grupos 
+ocupacionais 1 e 2, e no grupo de ocupacións elementais, por ámbito de estudo. 
+ 
+ 
+Na Figura 6 compáranse a porcentaxe de persoas contratadas nos grupos 1 e 2, e o grupo de 
+ocupacións elementais da CNAE-09, en cada ámbito de estudo. Con respecto á porcentaxe de 
+persoas contratadas nos grupos 1 e 2, destacan Enfermaría (95,92 %), Fisioterapia (94,29 %) e 
+Outras Ciencias da Saúde (81,82 %). En todos os demais ámbitos, a porcentaxe de graduadas e 
+graduados contratados nos grupos 1 e 2 é inferior ao 80 %. Hai seis ámbitos cunha porcentaxe 
+inferior ao 20 % de persoas contratadas nos grupos 1 e 2: Socioloxía, Relacións Laborais, ADE, 
+Ciencias da Actividade Física e do Deporte e, por último, Economía. Con respecto á porcentaxe 
+de persoas contratadas en ocupacións elementais, este é igual a cero en Fisioterapia, Terapia 
+Ocupacional, Enxeñaría Mecánica, Enxeñaría Eléctrica e Outras Ciencias (que inclúe, entre 
+outros, os graos en Ciencias Ambientais, Física, ou Matemáticas; véxase o Anexo). 
+12.70%28.57%18.06%11.43%25.71%6.25%30.26%95.92%60.78%56.52%21.88%63.64%46.03%94.29%30.00%61.54%48.57%81.82%37.25%47.14%46.51%14.71%18.18%64.00%54.76%8.47%7.14%16.67%5.71%5.71%3.12%9.21%2.04%3.92%3.12%7.94%13.33%3.85%4.55%3.92%1.43%11.63%16.18%13.64%2.38%Grupos 1 e 2 Ocupacións elementais
+0%25%50%75%100%0%25%50%75%100%EconomíaCiencias da Actividade Físicae do DeporteADERelacións LaboraisCienciasSocioloxíaEnxeñaría IndustrialDereitoArtesHumanidadesEducaciónOutras Enxeñarías eArquitecturasFiloloxíaPsicoloxíaPeriodismoOutras CienciasTraballo SocialEnxeñaría EléctricaEnxeñaría CivilLogopediaEnxeñaría MecánicaTerapia OcupacionalOutras Ciencias da SaúdeFisioterapiaEnfermaría
+
+25 
+ 
+ 
+Unha vez máis, hai que destacar que estamos a observar datos de graduadas e graduados 
+contratados con menos de trinta anos de idade. O seguimento da evolución das contratacións 
+por grupo de idade permitiranos observar se, como esperamos, o desenvolvemento da carreira 
+profesional determina unha saída progresiva das ocupacións elementais cara ás ocupacións que 
+requiren maiores niveis educativos. Ademais, é importante observar que en cada titulación e, 
+por tanto, cada ámbito de estudo, a idade de finalización dos estudos pode ser distinta. Aínda 
+que a implantación dos graos reduciu estas diferenzas, este matiz pode afectar ás implicacións 
+dos resultados que aquí se presentan. 
+ 
+Os grupos ocupacionais primarios da CNO-11 ofrecen unha visión máis detallada dos perfís das 
+graduadas e os graduados contratados na Coruña e Ferrol. A Táboa 5 presenta as cinco 
+ocupacións con maior número de persoas contratadas na área de influencia en 2019, por rama 
+de coñecemento dos seus estudos1. Por rama, as ocupacións máis frecuentes son: profesores de 
+ensino non regulado de idiomas (Artes e Humanidades), vendedores en tendas e almacéns 
+(Ciencias), enfermeiros non especializados (Ciencias da Saúde), monitores de actividades 
+recreativas e de lecer (Ciencias Sociais e Xurídicas), e arquitectos técnicos e técnicos urbanistas 
+(Enxeñaría e Arquitectura). 
+ 
+As ramas de coñecemento presentan niveis moi distintos de concentración ocupacional, medida 
+como a porcentaxe de persoas contratadas no primeiros cinco grupos primarios da CNO-11. 
+Ciencias da Saúde é a rama con maior concentración ocupacional (64,8 %), seguida de Artes e 
+Humanidades (50 %). De feito, case o 20 % das persoas contratadas con estudos de Ciencias da 
+Saúde están empregadas como enfermeiras ou enfermeiros non especializados. As outras ramas 
+presentan niveis de concentración ocupacional máis baixos e similares entre eles: Ciencias 
+Sociais e Xurídicas, 35,14 %; Ciencias, 31,77 %; e Enxeñaría e Arquitectura, 27,93 %. 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+1 As Táboas da 5 á 11 presentan datos relativos ás ocupacións con maior número de persoas contratadas 
+na área de influencia. Por tanto, non representan unha listaxe exhaustiva de todas as ocupacións con 
+persoas contratadas en cada rama ou ámbito de estudo. 
+
+26 
+ 
+Táboa 5. Ocupacións con maior número de persoas contratadas (grupos primarios CNO-11), por ramas de 
+coñecemento. Número de persoas contratadas na área de influencia en cada rama e porcentaxe sobre o total. 
+ 
+ 
+ 
+ 
+ 
+
+27 
+ 
+Táboa 6. Ocupacións con máis persoas contratadas na rama de Artes e Humanidades por ámbito de estudo. 
+Número de persoas contratadas na área de influencia e porcentaxe sobre o total. 
+ 
+ 
+As Táboas da 7 á 10 presentan as ocupacións máis frecuentes de cada rama de coñecemento 
+por ámbito de estudo. Os datos que se ofrecen nestas táboas resultan interesantes, pero é 
+necesario interpretalos con coidado. A este nivel de desagregación, o número de persoas 
+contratadas en cada ocupación pode ser moi reducido e, por tanto, variable de ano en ano. 
+ 
+ 
+Táboa 7. Ocupacións con máis persoas contratadas na rama de Ciencias por ámbito de estudo. Número de 
+persoas contratadas na área de influencia e porcentaxe sobre o total. 
+ 
+ 
+ 
+Táboa 8. Ocupacións con máis persoas contratadas na rama de Ciencias da Saúde por ámbito de estudo. Número 
+de persoas contratadas na área de influencia e porcentaxe sobre o total. 
+ 
+ 
+ 
+
+28 
+ 
+Táboa 9. Ocupacións con máis persoas contratadas na rama de Ciencias Sociais e Xurídicas por ámbito de estudo. 
+Número de persoas contratadas na área de influencia e porcentaxe sobre o total. 
+ 
+ 
+ 
+Táboa 10. Ocupacións con máis persoas contratadas na rama de Enxeñaría e Arquitectura por ámbito de estudo. 
+Número de persoas contratadas na área de influencia e porcentaxe sobre o total. 
+ 
+ 
+
+29 
+ 
+Táboa 11. Ocupacións con máis graduadas e graduados contratados, por xénero. Número de persoas contratadas 
+na área de influencia e porcentaxe con respecto ao total. 
+ 
+ 
+ 
+A Táboa 11 presenta as ocupacións máis frecuentes de homes e mulleres, independentemente 
+da rama de coñecemento dos seus estudos. Mulleres e homes de menos de trinta anos 
+comparten as primeiras dúas ocupacións máis frecuentes: monitores de actividades recreativas 
+e de lecer, e vendedores en tendes e almacéns. As mulleres representan o 19,35 % de todas as 
+contratadas cunha concentración moi superior á situación dos homes (10,25 %) nestas dúas 
+ocupacións. Tamén hai outras profesións compartidas, as relacionadas cos empregos de oficina 
+e o grupo de profesionais do traballo e a educación social. 
+ 
+ 
+5. A relación entre as contratacións e o número de egresados e 
+egresadas da Universidade da Coruña 
+ 
+No ano 2019, nas áreas xeográficas consideradas, contratáronse 1638 graduadas e graduados 
+universitarios con menos de 30 anos de idade. Estas contratacións representan, en certa 
+medida, as oportunidades laborais (fóra da función pública) a disposición de graduados e 
+graduadas de calquera universidade. Con todo, ao se tratar de postos de traballo nas áreas da 
+Coruña e Ferrol, constitúen as oportunidades máis próximas e directas para o estudantado da 
+Universidade da Coruña. Neste sentido, representan unha parte das oportunidades de emprego 
+que os egresados e as egresadas da Universidade da Coruña teñen a disposición na súa contorna 
+xeográfica máis próxima. Cabe por tanto preguntarse acerca da relación entre oportunidades 
+existentes e oferta de traballo titulado na área. 
+
+30 
+ 
+ 
+Neste apartado compáranse o número de persoas contratadas, por rama e ámbito, e o número 
+de egresados da Universidade da Coruña no curso académico 2018/19. O cociente persoas 
+contratadas/persoas egresadas pretende aproximar a capacidade de absorción de graduados e 
+graduadas que ten o sector privado local (e a Administración pública cando actúa no mercado 
+mediante contratación laboral). Como xa mencionamos, non todas as persoas contratadas 
+estudaron na Universidade da Coruña, unha circunstancia que pode afectar especialmente a 
+certos ámbitos de estudo que inclúen titulacións que non se imparten nesta universidade. De 
+feito, nestas ramas de coñecemento, o número de persoas contratadas pode superar o número 
+de egresados e egresadas da UDC2. Con todo, podemos afirmar que, se se contratou un 
+graduado ou unha graduada na Coruña ou Ferrol, aínda que non estudase na UDC, si temos 
+evidencia da existencia dunha oportunidade laboral que, en principio, podería gozar un 
+egresado ou egresada da UDC. Neste sentido, un número de persoas contratadas na área de 
+influencia superior ao número de graduados ou graduadas da UDC indica a existencia de maiores 
+oportunidades laborais. A Táboa 12 presenta o número de graduados e graduadas da UDC con 
+menos de 30 anos de idade, por rama de coñecemento e xénero, no curso 2018/19.  
+ 
+Por definición, o cociente persoas contratadas/egresadas pode ser maior, igual ou menor que 
+un. Cando o cociente é superior a un, o número de persoas contratadas no sector privado ou na 
+Administración pública con contratos laborais é superior ao número de graduados ou graduadas 
+na UDC. Este exceso pódese explicar pola contratación de graduados ou graduadas doutras 
+universidades, ou pola contratación de persoas graduadas en cursos precedentes. De todos os 
+xeitos, un cociente superior a un indica unha elevada dispoñibilidade relativa de oportunidades 
+laborais nos sectores considerados. Un cociente menor que un sinala a existencia dun exceso de 
+egresados ou egresadas da UDC con respecto ás persoas contratadas na área de influencia de 
+calquera universidade, é dicir, a medida utilizada de oportunidades dispoñibles. Finalmente, un 
+cociente igual a un indica que o número de persoas contratadas en 2019 é igual ao número de 
+graduados e graduadas neste período e rama de coñecemento. Con todo, esta igualdade non 
+implica necesariamente unha situación de equilibrio. Algúns graduados ou algunhas graduadas 
+de cursos anteriores poderían aínda estar a buscar emprego, por exemplo. Ademais, os datos 
+dispoñibles non permiten ter en conta o acceso á función pública, que afecta especialmente a 
+algúns estudos e a algúns empregos. Por tanto, a medida utilizada é un indicador aproximado 
+ 
+2 En calquera caso, en todos os ámbitos estudados hai, como mínimo, unha titulación da UDC con 
+graduados ou graduadas no curso académico considerado. 
+
+31 
+ 
+de exceso ou escaseza relativos de oportunidades laborais para graduadas e graduados 
+universitarios. Canto maior é a medida, maiores as oportunidades de emprego no sector 
+privado.  
+ 
+ 
+Táboa 12. Número de egresados e egresadas da Universidade da Coruña con menos de 30 anos de idade, por 
+xénero e rama de coñecemento. Curso 2018/19. 
+ 
+ 
+ 
+Figura 7. Cociente de persoas contratadas na área de influencia/persoas egresadas, por rama de coñecemento. 
+ 
+A Figura 7 pon en evidencia que a rama con maior exceso relativo de oportunidades de emprego 
+é a de Artes e Humanidades. É dicir , nesta rama, o número de persoas contratadas nun ano é 
+superior ao número de persoas graduadas na UDC no curso 2018/19. No outro extremo atópase 
+a rama de Enxeñaría e Arquitectura, cun cociente persoas contratadas/persoas egresadas que 
+0.00.51.01.52.0
+Artes e Humanidades Ciencias Ciencias Sociais eXurídicasCiencias da Saúde Enxeñaría eArquitectura
+
+32 
+ 
+se aproxima a 0,4 e que indica a escaseza relativa de oportunidades de emprego para egresados 
+e egresadas das titulacións da rama  
+ 
+O último informe de inserción laboral do Observatorio Ocupacional – UDC (Observatorio 
+Ocupacional – UDC, 2019), en que se presentan datos relativos á mobilidade ocupacional de 
+graduados e graduadas da UDC, indica que o 83 % das graduadas e dos graduados empregados 
+con estudos de Artes e Humanidades desempeñan a súa actividade na provincia da Coruña; esta 
+porcentaxe baixa ao 51 % no caso de Enxeñaría e Arquitectura. Nas outras áreas, a porcentaxe 
+de graduados ou graduadas que, despois de tres anos e medio desde a finalización dos seus 
+estudos, traballan na provincia da Coruña é a que segue: Ciencias, 61 %; Ciencias da Saúde, 63 %; 
+Ciencias Sociais e Xurídicas, 67 %. Estes datos son coherentes coa estimación de oportunidades 
+laborais que se presentan na Figura 7. Por unha banda, o tecido produtivo local demanda unha 
+certa cantidade de traballo; polo outro, a Universidade da Coruña forma estudantes nas distintas 
+ramas de coñecemento. Por tanto, a escaseza relativa de oportunidades laborais pode xurdir a 
+raíz do desaxuste entre oferta e demanda. Os datos relativos á rama de Enxeñaría e Arquitectura 
+evidencian a escaseza de oportunidades no mercado laboral local, posto que as taxas de 
+inserción laboral fóra da área xeográfica considerada son moi elevadas.  
+ 
+Como se observou nas seccións precedentes, estar empregado ou empregada non implica 
+necesariamente ter un traballo que require altos niveis educativos. A Figura 8 presenta o 
+cociente entre persoas contratadas nos grupos 1 e 2 e as persoas egresadas. En todos os casos, 
+o cociente, que é inferior a un, evidencia a escaseza de oportunidades de emprego máis 
+cualificado. Ademais, a ordenación por ramas é parecida á observada na Figura 7. Aínda que se 
+trate de persoas de menos de trinta anos e, por tanto, con ocupacións que reflicten os primeiros 
+anos das carreiras profesionais, o tecido empresarial da Coruña e Ferrol demostra unha escasa 
+capacidade de absorción de titulados en ocupacións que requiran niveis educativos 
+universitarios. Este resultado contrasta coa satisfacción xeral dos graduados e graduadas da UDC 
+con respecto ás súas oportunidades laborais, oportunidades que, en gran medida, atopan fóra 
+das áreas da Coruña e Ferrol (Observatorio Ocupacional – UDC, 2019). 
+ 
+
+33 
+ 
+ 
+Figura 8. Cociente persoas contratadas na área de influencia nos grupos ocupacionais 1 e 2 / persoas egresadas, 
+por rama de coñecemento. 
+ 
+Con respecto ao cociente persoas contratadas/egresadas por ámbitos de estudo (Figura 9), 
+obsérvase certa variabilidade entre ámbitos da mesma rama. Hai seis ámbitos cun cociente 
+superior ou igual a 1, é dicir, con exceso relativo de oportunidades de emprego: Filoloxía, 
+Humanidades, Educación, Relacións Laborais, Terapia Ocupacional, e Xornalismo. No outro 
+extremo, hai cinco ámbitos cun cociente inferior a 0,5, é dicir, para os cales se observa unha 
+escaseza relativa de oportunidades laborais no sector privado (Enfermaría, Dereito, Enxeñaría 
+Mecánica, outras Enxeñarías e Arquitecturas, e Ciencias da Actividade Física e do Deporte). 
+Como é evidente, nalgúns ámbitos pesa especialmente a exclusión da función pública como 
+posible saída laboral. Estes valores son aínda máis baixos se se limita a análise ás persoas 
+contratadas nos grupos 1 e 2 da CNAE-09 (Figura 10). Neste caso, só hai dous ámbitos con exceso 
+relativo de oportunidades laborais: Filoloxía e Humanidades. Ademais, hai nove ámbitos cun 
+cociente inferior a 0,25.  
+ 
+ 
+ 
+0.00
+0.25
+0.50
+0.75
+1.00
+Artes e Humanidades Ciencias da Saúde Ciencias Ciencias Sociais eXurídicas Enxeñaría eArquitectura
+
+34 
+ 
+ 
+ 
+ 
+ 
+Figura 9. Cociente persoas contratadas na área de influencia/persoas egresadas, por ámbito de estudo. 
+ 
+ 
+ 
+ 
+Ciencias daActividade Física eo DeporteOutras Enxeñarías eArquitecturasEnxeñaría MecánicaDereitoEnfermaríaEnxeñaría IndustrialSocioloxíaEconomíaFisioterapiaLogopediaEnxeñaría EléctricaEnxeñaría CivilADECienciasPeriodismoTerapia OcupacionalRelacións LaboraisEducaciónHumanidadesFiloloxía
+0 1 2 3
+
+35 
+ 
+ 
+Figura 10. Cociente persoas contratadas na área de influencia nos grupos ocupacionais 1 e 2 / persoas egresadas, 
+por ámbito de estudo. 
+ 
+En xeral obsérvase, tamén a nivel de ámbito, que as áreas xeográficas consideradas ofrecen 
+oportunidades limitadas de emprego a graduadas e graduados universitarios. A estrutura do 
+tecido produtivo da área metropolitana da Coruña e da comarca de Ferrol determina unha 
+incorporación inicial ao mercado laboral en ocupacións que requiren niveis de estudo máis 
+baixos. Os informes futuros sobre a contratación de graduadas e graduados terán que analizar 
+se esta circunstancia é só temporal ou se unha incorporación en niveis ocupacionais máis baixos 
+dificulta o progreso posterior na carreira profesional. 
+ 
+ 
+Ciencias daActividade Física edo DeporteEconomíaADESocioloxíaDereitoEnxeñaría IndustrialOutras Enxeñarías eArquitecturasCienciasRelacións LaboraisEnxeñaría MecánicaEnxeñaría EléctricaLogopediaEnxeñaría CivilEnfermaríaEducaciónPeriodismoFisioterapiaTerapia OcupacionalHumanidadesFiloloxía
+0.0 0.5 1.0 1.5
+
+36 
+ 
+6. Conclusións 
+ 
+Este informe pretende ofrecer unha panorámica das oportunidades de contratación para 
+graduadas e graduados universitarios na área metropolitana da Coruña e a comarca de Ferrol 
+durante o ano 2019. En particular, analízanse os rexistros de contratación do Servizo Público de 
+Emprego, que inclúe os contratos das empresas privadas e os contratos laborais da 
+Administración pública. Debido ao uso desta fonte de datos, os datos que se presentan neste 
+informe non permiten estudar a inserción laboral dunha universidade ou dunhas titulacións 
+concretas, senón que se refiren ao abanico de oportunidades laborais, maiormente no sector 
+privado, a disposición da poboación estudada. 
+ 
+A continuación, resúmense as conclusións principais. 
+ 
+- Durante o ano 2019, na área xeográfica estudada, contratáronse 1638 graduadas e 
+graduados universitarios menores de 30 anos, de calquera universidade. A maior parte 
+destas persoas posúen un título da rama de Ciencias Sociais e Xurídicas (62,88 %). 
+ 
+- O 50 % das persoas contratadas con titulación universitaria na área metropolitana da 
+Coruña e na comarca de Ferrol concéntranse en sete actividades económicas: comercio ao 
+retallo; educación; actividades deportivas, recreativas e de lecer; actividades 
+administrativas de oficina; actividades sanitarias; servizos de comida e bebida; asistencia en 
+establecementos residenciais. 
+ 
+- Destacan por número de persoas contratadas as dúas primeiras actividades económicas, 
+que se reparten de forma case equitativa o 26 % de todas as graduadas e os graduados 
+contratados no período. Estas actividades son o comercio ao retallo e o ensino. 
+ 
+- A distribución por actividades económicas presenta marcados rumbos de xénero. As 
+mulleres contratadas para o comercio ao retallo representan o 15,35 % de todas as mulleres 
+contratadas; o 7,29 % dos homes foron contratados para esta actividade económica. En 
+xeral, os empregos das mulleres están moito máis concentrados en poucas actividades 
+económicas. 
+ 
+
+37 
+ 
+- Aproximadamente o 54 % das persoas contratadas na área de influencia con titulación 
+universitaria están empregadas como técnicos e profesionais de distintos ámbitos e 
+categorías ou, de forma residual, como directores e xerentes. Ademais, outro 16 % ten un 
+emprego de oficina, sen ou con tarefas de atención ao público. 
+ 
+- O 14 % das persoas contratadas con titulación universitaria están ocupadas como 
+traballadores ou traballadoras dos servizos de restauración e comercio. O 7,2 % das 
+graduadas e graduados contratados desempeñan «ocupacións elementais», é dicir, son 
+traballadoras e traballadores non cualificados en servizos, e peóns de agricultura, pesca, 
+construción, industria manufactureira e transporte.  
+ 
+- Na rama de Ciencias da Saúde obsérvase o maior número de oportunidades laborais. As 
+persoas contratadas con titulacións de Ciencias da Saúde son as que, ao mesmo tempo, 
+están ocupadas en maior porcentaxe nos grupos ocupacionais 1 e 2 (directores e xerentes; 
+técnicos e profesionais científicos e intelectuais da saúde e o ensino; outros técnicos e 
+profesionais científicos e intelectuais –80,4 %–), e menos nas ocupacións elementais 
+(traballadores non cualificados en servizos; peóns –1,96 %–). 
+ 
+- A rama de Ciencias Sociais e Xurídicas é a que presenta a menor porcentaxe de persoas 
+contratadas nos grupos 1 e 2 (26,8 %). 
+ 
+- A rama de Enxeñaría e Arquitectura, a pesar de ter unha porcentaxe moi baixa de persoas 
+contratadas para ocupacións elementais (2,79 %), non alcanza a rama de Ciencias da Saúde 
+en canto á porcentaxe de persoas contratadas en ocupacións dos grupos 1 e 2 (46,93 %). 
+ 
+- A rama de Artes e Humanidades atópase nunha posición intermedia con respecto ás demais. 
+A porcentaxe de persoas contratadas nos grupos ocupacionais 1 e 2 achégase ao 40 %, 
+mentres que as persoas contratas en ocupacións elementais representan pouco menos do 
+10 %. 
+ 
+- Por rama de coñecemento, as ocupacións máis frecuentes (sector privado e contratación 
+laboral da Administración pública) son: profesores de ensino non regulado de idiomas (Artes 
+e Humanidades), vendedores en tendas e almacéns (Ciencias), enfermeiros non 
+especializados (Ciencias da Saúde), monitores de actividades recreativas e de lecer (Ciencias 
+Sociais e Xurídicas), e arquitectos técnicos e técnicos urbanistas (Enxeñaría e Arquitectura). 
+
+38 
+ 
+ 
+- Con respecto á porcentaxe de persoas contratadas na Coruña a Ferrol nos grupos 1 e 2 por 
+ámbitos de estudo, destacan Enfermaría (95,92 %), Fisioterapia (94,29 %) e Outras Ciencias 
+da Saúde (81,82 %). En todos os demais ámbitos, a porcentaxe de graduadas e graduados 
+contratados nos grupos 1 e 2 é inferior ao 80 %. Hai seis ámbitos cunha porcentaxe inferior 
+ao 20 % de persoas contratadas nos grupos 1 e 2: Socioloxía, Relacións Laborais, ADE, 
+Ciencias da Actividade Física e do Deporte, e Economía (6,25 %). 
+ 
+- Nos ámbitos de Fisioterapia, Terapia Ocupacional, Enxeñaría Mecánica, Enxeñaría Eléctrica 
+e Outras Ciencias non se observa ningunha persoa contratada en ocupacións elementais. 
+ 
+- A observación da relación entre persoas contratadas e persoas egresadas con menos de 
+trinta anos de idade permite concluír que o tecido empresarial da Coruña e Ferrol ten unha 
+escasa capacidade de absorción de titulados en ocupacións que requiran niveis educativos 
+universitarios. Este estudo non permite determinar se esta circunstancia está limitada á 
+inserción laboral dos graduados e graduadas máis novos, ou se o progreso da carreira 
+profesional está asociado á transición cara a ocupacións que requiren niveis educativos 
+superiores. Os próximos estudos terán que aclarar esta cuestión. 
+ 
+- A fonte de datos utilizada implica a existencia de importantes limitacións que afectan ao 
+alcance das conclusións deste estudo. Os rexistros públicos utilizados refírense unicamente 
+a unha área xeográfica concreta e só inclúen os contratos para os cales existe obrigación de 
+rexistro. En particular, a función pública está excluída da análise. Esta circunstancia é 
+especialmente relevante para algunhas áreas e titulacións, onde a Administración pública 
+representa un xacemento relevante de emprego. Por tanto, os datos ofrecidos han de se 
+interpretar principalmente como oportunidades laborais no sector privado e na área da 
+Coruña e Ferrol. Neste sentido, os próximos estudos deberán ampliar o seu alcance ao longo 
+de dúas dimensións. Primeiro, ter en conta todas as oportunidades de emprego existentes 
+na Administración pública. Segundo, ampliar o estudo a toda Galicia. A consideración dunha 
+área xeográfica máis ampla, onde desenvolven a súa actividade profesional a gran maioría 
+dos egresados e das egresadas da Comunidade, permitirá un estudo máis certeiro do axuste 
+entre oferta e demanda de emprego. 
+ 
+  
+
+39 
+ 
+Referencias bibliográficas 
+ 
+Fundación CYD (2017). Informe CYD. Barcelona: Fundación Conocimiento y Desarrollo. [Data da última 
+consulta: 9/12/2020] https://www.fundacioncyd.org/publicaciones-cyd/informe-cyd-2017/ 
+Fundación CYD (2018). Informe CYD. Barcelona: Fundación Conocimiento y Desarrollo. [Data da última 
+consulta: 9/12/2020] https://www.fundacioncyd.org/publicaciones-cyd/informe-cyd-2018/ 
+IGE – Instituto Galego de Estatística (2019). Directorio de empresas e unidades locais [Data da última 
+consulta: 9/12/2020]. Recuperado de https://www.ige.eu/web/mostrar_actividade_estatistica.jsp? 
+idioma=gl&codigo=0307006001  
+INE – Instituto Nacional de Estadística (2008). Introducción a la CNAE-2009 [Data da última consulta: 
+9/12/2020]. Recuperado de: https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C& 
+cid=1254736177032&menu=ultiDatos&idp=1254735976614 
+INE – Instituto Nacional de Estadística (2012). Introducción a la CON-11 [Data da última consulta: 
+9/12/2020]. Recuperado de: https://www.ine.es/daco/daco42/clasificaciones/Introduccion_CNO11 
+.V02.pdf 
+INE – Instituto Nacional de Estadística (2020). Cifras oficiales de población de los municipios españoles 
+[Data da última consulta: 9/12/2020]. Recuperado de: https://www.ine.es/jaxiT3/Datos.htm?t= 
+2868#!tabs-tabla 
+Observatorio Ocupacional – UDC (2019). Inserción laboral e características do emprego dos egresados e 
+das egresadas da Universidade da Coruña. Titulacións de grao, cohorte 2014-2015 [Data da última 
+consulta: 9/12/2020]. A Coruña: Observatorio Ocupacional – UDC. Recuperado de: 
+https://www.udc.es/export/sites/udc/observatorioocupacional/_galeria_down/Insercion-laboral-
+00001/Insercion_cohorte20142015_galego.pdf_2063069239.pdf 
+ 
+ 
+ 
+  
+
+40 
+ 
+Anexo. Ámbitos de estudo 
+ 
+Preséntase a continuación a composición de todos os ámbitos de estudo por rama de 
+coñecemento. En cada ámbito inclúense só os títulos de graos para os cales se rexistra, polo 
+menos, unha persoa contratada na área xeográfica considerada, durante o ano 2019. É dicir, non 
+se inclúen todos os graos e as denominacións de graos do sistema universitario español, por ser 
+innecesarias para os efectos deste estudo.  
+ 
+ 
+Táboa 13. Configuración por graos dos ámbitos da rama de Artes e Humanidades. 
+ 
+ 
+ 
+  
+
+41 
+ 
+Táboa 14. Configuración por graos dos ámbitos da rama de Ciencias. 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+42 
+ 
+Táboa 15. Configuración por graos dos ámbitos de Ciencias da Saúde. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+43 
+ 
+Táboa 16. Configuración por graos dos ámbitos de Ciencias Sociais e Xurídicas. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+44 
+ 
+Táboa 17. Configuración por graos dos ámbitos de Enxeñaría e Arquitectura. 
+ 
+ 
+ 
+ 
+ 

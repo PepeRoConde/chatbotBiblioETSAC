@@ -1,0 +1,182 @@
+ 
+ 
+D01-P02. GESTIÓN, REVISIÓN Y MEJORA DEL SGC 
+E. U. ARQUITECTURA TÉCNICA  
+UNIVERSIDADE DA CORUÑA 
+ 
+1  
+ 
+D01-P02. Gestión, revisión y mejora del SGC 
+ 
+ 
+ 
+ 
+ 
+ ÓRGANO FECHA 
+ELABORADO Unidad Técnica de Calidad 26/04/2018 
+CONTEXTUALIZADO Comisión de Garantía de 
+Calidad  14/12/2022 
+REVISADO Unidad Técnica de Calidad 15/12/2022 
+APROBADO Junta de Centro 21/12/2022 
+ 
+ 
+RESUMEN DE REVISIONES 
+EDICIÓN FECHA MODIFICACIONES 
+B00 07/02/2008 Edición inicial 
+B01 15/05/2014 Modificación de la B00 inicial 
+ 
+ 
+  
+
+ 
+ 
+D01-P02. GESTIÓN, REVISIÓN Y MEJORA DEL SGC 
+E. U. ARQUITECTURA TÉCNICA  
+UNIVERSIDADE DA CORUÑA 
+ 
+2  
+ 
+DENOMINACIÓN D01-P02. GESTIÓN, REVISIÓN Y MEJORA DEL SGC 
+OBJETO Establecer la sistemática para definir, implantar, revisar, mejorar y 
+mantener actualizado el SGC. 
+DEFINICIONES Contextualizar: adaptar la documentación del SGC marco al centro.  
+Cuadro de mando: conjunto de indicadores del SGC alineados con los 
+objetivos de calidad el centro. 
+Plan anual de mejoras del centro: conjunto de las acciones de mejora 
+elaboradas en cada proceso, anualmente. 
+Informe anual del centro: informe anual de análisis y mejora del SGC y el 
+plan anual de mejoras del centro. 
+Auditoría interna: revisión documental y/o visita al centro de un equipo 
+auditor. 
+RESPONSABLES Vicerrectorado con Competencias en Materia de Títulos (VCMT) 
+Junta de Centro (JC) 
+Equipo Directivo (ED) 
+Comisión de Garantía de Calidad (CGC)  
+Unidad Técnica de Calidad (UTC) 
+Equipo de auditoría (EA) 
+DOCUMENTACIÓN Ver anexo V del Manual 
+DESARROLLO Definir 
+La UTC elabora el documento marco del SGC y se lo envía al ED para que 
+la CGC lo contextualice, posteriormente es revisado por la UTC que se l o 
+remite, de nuevo, al ED  para su aprobación por la JC.  Una vez aprobado 
+se publica en la web del centro (https://euat.udc.es/). 
+Implantar 
+La implantación del SGC se realiza siguiendo lo recogido en el manual y en 
+el desarrollo de los procesos. Es responsabilidad del ED con el apoyo de la 
+CGC. 
+Revisar y mejorar 
+Anualmente, la CGC, teniendo en cuenta las recomendaciones de mejora 
+establecidas por la ACSUG en sus diferentes informes, las debilidades y/o 
+oportunidades de mejora detectadas, la revisión del cuadro de mando, las 
+acciones de mejora establecidas en cada proceso y los cambios que se 
+produzcan en la normativa vigente, revisa si el SGC se está implantando 
+adecuadamente y se mantiene de manera eficaz y eficiente y elabora el 
+
+ 
+ 
+D01-P02. GESTIÓN, REVISIÓN Y MEJORA DEL SGC 
+E. U. ARQUITECTURA TÉCNICA  
+UNIVERSIDADE DA CORUÑA 
+ 
+3  
+informe anual del centro.  
+De acuerdo con l os criterios y directrices para el a seguramiento d e la 
+calidad en el Espacio Europeo de Educación Superior (European Standard 
+Guidelines), las universidades deben dotarse de un procedimiento 
+documentado y controlado que regule y sistematice la realización de 
+auditorías internas con carácter periódico al SGC implantado. 
+Para llevar a cabo esto, anualmente, el VCMT aprueba el plan anual de 
+auditorías internas, por propuesta de la UTC en el que se incluyen las 
+correspondientes a l os centros que quieran obtener la Acreditación 
+Institucional o que tengan que renovarla en el curso siguiente. 
+Este plan se publica en la web de la UTC y se envía a los centros implicados 
+para su conocimiento. 
+Se realiza la auditoría interna para evaluar el cumplimiento y el grado de 
+implantación y mantenimiento del SGC conforme con los requisitos de la 
+UDC y de la ACSUG.  
+Para ello, la UTC, garantizando la objetividad e imparcialidad del proceso, 
+constituye un EA, compuesto por personas, de la UDC y/o de fuera de la 
+misma, con formación y experiencia en la evaluación e implantación de 
+SGC. Este, tras analizar las evidencias/indicadores  y el informe anual del 
+centro, elabora el informe de auditoría del centro que remite  a la UTC y al 
+ED. El ED se lo envía a la CGC para que  implemente, de ser el caso, las 
+mejoras oportunas. 
+Actualizar 
+En caso de que se considere oportuno realizar 
+actualizaciones/modificaciones y/o elaborar procesos nuevos, la CGC las 
+lleva a cabo y, posteriormente, el ED remite la documentación actualizada 
+a la UTC para su revisión. Una vez revisada se la envía al ED para su 
+aprobación por la JC.  
+En caso de actualizaciones/modificaciones, en el resumen de revisiones 
+del documento, se incluye la nueva edición y la motivación de la 
+modificación.  
+Cada vez que se actualiza la documentación del SGC y/o se elaboran 
+procesos nuevos, se retira la documentación obsoleta de la web del centro 
+y se publica la nueva,  tal como se establece en el D07 -P01. Información 
+pública. El ED garantiza que la documentación del SGC se mantiene 
+actualizada y está disponible para todos los grupos de interés. 
+La documentación obsoleta se conserva, durante seis  años, en la 
+aplicación informática. Cualquier documento del SGC entra en vigor en el 
+momento de su aprobación por la JC. 
+ 
+ 
+
+ 
+ 
+D01-P02. GESTIÓN, REVISIÓN Y MEJORA DEL SGC 
+E. U. ARQUITECTURA TÉCNICA  
+UNIVERSIDADE DA CORUÑA 
+ 
+4  
+EVIDENCIAS RESPONSABLES TEMPORALIZACIÓN LUGAR 
+D01-P02-E01. Actas 
+JC 
+CGC 
+Cada vez que se 
+reúne la comisión Aplicación informática 
+D01-P02-E02. Manual 
+y Procesos del SGC 
+ 
+CGC 
+Cada vez que se 
+realice una 
+modificación del 
+SGC 
+Web del centro 
+Aplicación informática 
+D01-P02-E03. Informes 
+de evaluación externa 
+(diseño, certificación de 
+la implantación y 
+seguimiento). 
+ACSUG 
+Cada vez que se 
+realice un proceso 
+de evaluación del 
+SGC 
+Web del centro 
+Aplicación informática 
+D01-P02-E04. Cuadro 
+de mando CGC Anualmente Aplicación informática 
+D01-P02-E05. Listado 
+de evidencias de la 
+implantación del SGC 
+CGC Anualmente Aplicación informática 
+D01-P02-E06. Informe 
+anual del centro CGC Anualmente Aplicación informática 
+D01-P02-E07. Informe 
+de auditoría del centro EA Anualmente Aplicación informática 
+D01-P02-E08. 
+Acciones de mejora CGC 
+Cada vez que se 
+abra/revise una 
+acción de mejora 
+Aplicación informática 
+D01-P02-E09. Plan 
+anual de mejoras CGC Anualmente Aplicación informática 
+INDICADORES RESPONSABLES TEMPORALIZACIÓN LUGAR 
+D01-P02-I01. 
+Porcentaje de acciones 
+de mejora ejecutadas 
+CGC Anualmente Aplicación informática 
+ 

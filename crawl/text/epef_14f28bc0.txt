@@ -86,15 +86,12 @@ App Store
 Google Play
 RSS
 
---- OCR de imagen: LogoCampusIndustrial.png_1291095327_2eece845.png ---
-& caMPusINDUSTRIAL
+--- OCR de imagen: Igualdade.png_1364880012_18faf367.png ---
+4 Igualdade de Xénero
 
 --- OCR de imagen: LogoGreenCampus.png_1208666323_ddea1d87.png ---
 GREEN CAMPUS
 Ferrol - UDC ==
-
---- OCR de imagen: Igualdade.png_1364880012_18faf367.png ---
-4 Igualdade de Xénero
 
 --- OCR de imagen: LogoEPEF.jpg_2063069239_31ec0a08.jpeg ---
 epeft

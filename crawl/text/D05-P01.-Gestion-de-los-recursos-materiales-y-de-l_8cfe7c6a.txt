@@ -1,0 +1,136 @@
+ 
+ 
+D05-P01. GESTIÓN DE LOS RECURSOS MATERIALES Y DE LA 
+PRESTACIÓN DE SERVICIOS 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+UNIVERSIDADE DA CORUÑA 
+ 
+1  
+D05-P01. Gestión de los recursos materiales y de la prestación de servicios 
+ 
+ ÓRGANO FECHA 
+ELABORADO Unidad Técnica de Calidad 28/04/2018 
+CONTEXTUALIZADO Comisión de Garantía de 
+Calidad  08/03/2023 
+REVISADO Unidad Técnica de Calidad 12/04/2023 
+APROBADO Junta de Centro 21/04/2023 
+ 
+ 
+RESUMEN DE REVISIONES 
+EDICIÓN FECHA MODIFICACIONES 
+00 18/04/08 Edición inicial de los PA06 y PA07 
+01 17/11/08 Incorporación de las propuestas de mejora de la 
+Comisión de Evaluación en los PA06 y PA07 
+02 20/07/09 1er Revisión del procedimiento PA06 y PA07 para 
+su adaptación a la ETSNM 
+03 06/06/13 2da Revisión del procedimiento PA06 y PA07 para 
+su adaptación a la ETSNM 
+04 21/04/2023 Revisión y actualización del SGC por cambios 
+normativos 
+ 
+ 
+  
+
+ 
+ 
+D05-P01. GESTIÓN DE LOS RECURSOS MATERIALES Y DE LA 
+PRESTACIÓN DE SERVICIOS 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+UNIVERSIDADE DA CORUÑA 
+ 
+2  
+DENOMINACIÓN  D05-P01. GESTIÓN DE LOS RECURSOS MATERIALES Y DE LA 
+PRESTACIÓN DE SERVICIOS 
+OBJETO  Establecer la sistemática para garantizar la adecuada gestión de los recursos 
+materiales utilizados en los títulos oficiales que se imparten en el centro y la 
+adecuada prestación de los servicios existentes. 
+DEFINICIONES  No cuenta con definiciones asociadas 
+RESPONSABLES  Vicerrectorado responsable de infraestructura (VRI) 
+Junta de Centro (JC) 
+Comisión de Garantía de calidad (CGC) 
+Comisión Académica (CA) 
+Equipo Directivo (ED) 
+Persona del centro con competencias en infraestructuras y servicios (PCI) 
+Persona Responsable de Calidad (PRC) 
+Coordinador/a del título (CT) 
+Personal de Apoyo de la Biblioteca 
+DOCUMENTACIÓN  Ver anexo V del Manual 
+DESARROLLO  Anualmente, la CA, con el fin de garantizar que se dispone de los recursos 
+materiales y servicios necesarios para el adecuado desarrollo del título, 
+revisa la suficiencia, la adecuación y el correcto funcionamiento de los 
+recursos materiales y servicios;  lo compara con lo recogido en la memoria 
+vigente del título; analiza las necesidades  existentes y establece las 
+acciones de mejora, de ser el caso. Posteriormente, se lo envía a la  CGC 
+para su análisis conjunto a nivel de centro, que remite al ED para su 
+aprobación por la JC. 
+Así mismo, durante el desarrollo del curso académico, todos los grupos de 
+interés comunican al ED para su gestión todas las necesidades que detecten, 
+de ser el caso. 
+Títulos con modalidad semipresencial y/o a distancia 
+De forma concreta, en estos títulos se revisa la suficiencia y adecuación de 
+los materiales tanto didácticos como tecnológicos que se están empleando en 
+el título, comparándolo con lo recogido en la memoria vigente. 
+Fondos bibliográficos 
+Antes del comienzo de cada curso académico, el personal de la biblioteca del 
+centro revisa que, al menos, la bibliografía básica , incluida en las guías 
+
+ 
+ 
+D05-P01. GESTIÓN DE LOS RECURSOS MATERIALES Y DE LA 
+PRESTACIÓN DE SERVICIOS 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+UNIVERSIDADE DA CORUÑA 
+ 
+3  
+docentes de las asignaturas, está disponible. 
+Gestión de las necesidades detectadas 
+De acuerdo con la normativa vigente, el ED, a través del PCI, gestiona las 
+necesidades de recursos materiales y servicios o se las comunica al VRI para 
+que proceda a su tramitación.  
+Una vez recibido el material y/o realizado el servicio, la persona o servicio 
+responsable del centro, comprueba que es acorde con la solicitud inicial y lo 
+dispone para su uso. 
+En caso de detectar una incidencia o mal f uncionamiento de algún recurso, 
+durante el desarrollo del curso académico, se comunicará a la PCI para que 
+proceda a su solución. 
+La evaluación de los recursos materiales y servicios, así como la gestión 
+académica y administrativa se realiza a través de cu estionarios de 
+satisfacción, de acuerdo con lo que se establece en el D06-P03. Satisfacción. 
+El ED garantiza, en cumplimiento de la legislación vigente, la accesibilidad 
+universal y los medios de seguridad y salud en el aprendizaje 
+ 
+ EVIDENCIAS RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+ D05-P01-E01. Actas CA 
+CGC 
+JC 
+Cada vez que se reúne  Aplicación 
+informática 
+ D05-P01-E02. Información sobre 
+los recursos materiales y servicios 
+relacionados con el título 
+CA 
+CGC Cada curso académico Aplicación 
+informática 
+ D05-P01-E03. Fondos 
+bibliográficos y otros recursos 
+documentales relacionados con el 
+título 
+Personal de la 
+Biblioteca  
+CGC 
+Cada curso académico Aplicación 
+informática 
+ D05-P01-E04. Materiales 
+didácticos y/o tecnológicos que 
+permitan el aprendizaje a distancia 
+CA 
+Cada curso académico Aplicación 
+informática 
+ D05-P01-E05. Acciones de mejora CA 
+CGC 
+Cada vez que se 
+abra/revise una acción 
+de mejora 
+Aplicación 
+informática 
+ 

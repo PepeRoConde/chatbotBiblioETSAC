@@ -90,25 +90,6 @@ Calidade e Normativa
 GL
 ES
 
---- OCR de imagen: cartel_novos_retos-560x420_a65065a8.png ---
-iw viv
-
-metodoloxias
-
-Mesa redonda
-Salén de graos Facultade de Socioloxia
-
-Incerverien:
-
-Sara Lafuente Funes
-‘Goethe- Universiti Frankfurt am Main, Institut fur Soxiologle.
-
-Adolfo Estalella
-Universidad Complutense de Madrid, Facultad de Ciencias Poltcasy Sociologia
-
-‘Tomas Sanchez-Criado
-Humboldt University of Berlin.
-
 --- OCR de imagen: naturezas_hibridas_II_RRSS_cuadrado-560x420_a3499dfb.png ---
 Il OBRADOIRO DE
 
@@ -127,6 +108,25 @@ OS LIMITES ECOLOXICOS DO URBANO
 11:00 CONFERENCIA SANTIAGO CIRUJEDA
 
 12:30 CONFERENCIA TERESA TORNS
+
+--- OCR de imagen: cartel_novos_retos-560x420_a65065a8.png ---
+iw viv
+
+metodoloxias
+
+Mesa redonda
+Salén de graos Facultade de Socioloxia
+
+Incerverien:
+
+Sara Lafuente Funes
+‘Goethe- Universiti Frankfurt am Main, Institut fur Soxiologle.
+
+Adolfo Estalella
+Universidad Complutense de Madrid, Facultad de Ciencias Poltcasy Sociologia
+
+‘Tomas Sanchez-Criado
+Humboldt University of Berlin.
 
 --- OCR de imagen: construindo_espazo-560x420_47f87a9b.png ---
 Contextos Universitarios Transformadores:

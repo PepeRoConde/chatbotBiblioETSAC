@@ -44,8 +44,8 @@ Contraseña
 UNIVERSIDADE DA CORUAA
 
 --- OCR de imagen: logo_uiicf1_39a211e0.png ---
-U | IC UNIDAD DE INVESTIGACION EN
-INTERVENCION Y CUIDADO FAMILIAR
+U | IC F UNIDAD DE |NVESTIGACION EN
+INTERVENCION Y CUIDADO FAMILIAI
 
 --- OCR de imagen: ENCUENTRO-SALUD-MENTAL-Y-PROTECCION-A-LA-INFANCIA_dd19d583.jpeg ---
 / 29 DE OCTUBRE DE 2021
@@ -59,10 +59,10 @@ INFANCIA
 
 ORGANIZA
 
-Oe, interfam@ude.es
-a
+Oe, inveifarm@udees
+SO
 
-UILCF
+UIICF
 
 UNIDAD DE
 INVESTIGACION EN
@@ -70,7 +70,7 @@ INTERVENCION Y
 
 CUIDADO FAMILIAR
 
-SS unwersipave da corusia
+SSS unwersipave da conus
 
 COLABORAN
 
@@ -78,12 +78,13 @@ AVALIACION E TRATAMENTO TERAPEUTICO DE
 MENORES EN SITUACION DE RISCO OU.
 DESAMPARO.
 
--/ XUNTA DE GALICIA
-a és CONSELLERIA DE POLITICA
+XUNTA DE GALICIA
+se CONSELLERIA DE POLITICA
 SOCIAL
-Direccién Xeral de Familia Infancia
- Dinamizacién Demogratica
+
+Direccién Xeral de Familia, Infancia
+ Dinamizacién Demografica
 
 Master en Intervencién y Cuidado Familiar
 
-SS unwersioave DA corUNA
+SSS unwersioave Da coruNA

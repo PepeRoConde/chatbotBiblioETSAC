@@ -1,0 +1,536 @@
+ 
+ 
+ 
+ 
+ 
+PROGRAMA FIDES-AUDIT 
+ 
+ 
+INFORME DE SEGUIMIENTO DE LA 
+IMPLANTACIÓN DEL SISTEMA DE GARANTÍA 
+DE CALIDAD 
+ 
+ 
+ 
+FACULTAD DE ECONOMÍA Y EMPRESA 
+UNIVERSIDAD DE A CORUÑA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+03/06/2015 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Página 2 de 13  
+ 
+DATOS DEL CENTRO AUDITADO 
+UNIVERSIDAD UNIVERSIDAD DE A CORUÑA 
+CENTRO FACULTAD DE ECONOMÍA Y EMPRESA 
+ALCANCE DE LA 
+AUDITORÍA (especificar 
+cualquier posible exclusión) 
+Todas las titulaciones oficiales que se imparten en el centro 
+REPRESENTANTE DE LA 
+INSTITUCIÓN 
+AUDITADA 
+NOMBRE Estefanía Mourelle Espasandín 
+CARGO Vicedecana de Calidad 
+TELÉFONO 981 167 000 Ext. 2432 
+CORREO 
+ELECTRÓNICO emourelle@udc.es 
+ 
+ 
+ 
+DATOS DEL EQUIPO AUDITOR 
+PRESIDENTE Antonio López Cabanes Institución Universidad de Murcia 
+PROFESIONAL/AUDITORA María Vilas Breijo Institución  
+ESTUDIANTE Javier Puga Alonso Institución Universidad de Vigo 
+SECRETARIA Mª Paula Ríos de Deus Institución ACSUG 
+FECHA AUDITORÍA 
+EXTERNA 11/07/2013 
+REVISIÓN DOCUMENTAL Marzo 2015 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Página 3 de 13  
+ 
+1. ANTECEDENTES 
+ 
+• El SGC de la Facultad obtuvo el informe favorable , de ACSUG, de  la certificación de su 
+implantación (30/07/2013). Dicho informe contiene dos no conformidades menores y 
+una serie de debilidades y oportunidades para la mejora detectadas en el SGC. El 
+propio informe de certificación recoge las actuaciones que para la sol ución de las no 
+conformidades remitió la Facultad de Economía y Empresa. 
+ 
+• La Facultad elabora un autoinforme de seguimiento (01/09/2014), donde indica  que 
+con carácter general se va a realizar: 
+ 
+o Una revisión de la documentación del SGC con el fin de elimi nar formatos 
+que no aporten información relevante del título, agrupar procedimientos, 
+etc. 
+ 
+o Adaptar el proceso de elaboración o actualización del Plan Estratégico del 
+Centro para adecuarlo al del conjunto de la Universidad. 
+ 
+o Encuestas de satisfacción para los diferentes colectivos. 
+ 
+Con detalle se indican dos acciones de mejora relativas a las no conformidades del 
+informe de certificación: 
+ 
+o Una primera, previsto su cierre para septiembre de 2014, para obtener 
+información de los oferentes de prácticas en emp resas, elaborar los 
+formularios sobre inserción laboral y evaluación de los primeros 
+resultados, constituir la Asociación de Antiguos Estudiantes de la Facultad 
+y pedir al Observatorio Ocupacional de la UDC los datos relativos a la 
+situación laboral de los egresados en el Máster. 
+ 
+o Y una segunda, para implantar el que ha aportado el Vicerrectorado de 
+Títulos, Calidad y Nuevas Tecnologías, cuya resolución se considera 
+cerrada. 
+ 
+• ACSUG elabora un informe ( 07/10/2014) sobre el autoinforme de seguimiento anterior  
+en el que indica por un lado, que no se evidencia que se haya elaborado ningún tipo de 
+análisis de la inserción laboral de los egresados de las titulaciones de máster y por otro, 
+que aunque se ha modificado el procedimiento de “Gestión de preguntas, reclamaciones 
+
+ 
+ 
+ 
+ Página 4 de 13  
+ 
+y sugerencias” no se puede dar por cerrada la no conformidad en tanto no se verifique 
+que el procedimiento modificado se apliqua  de forma correcta. Asimismo indica que el 
+plan de acciones de mejora debe recoger no solo cómo se atiende a las no 
+conformidades del informe de certificación sino también a las debilidades y 
+oportunidades de mejora indicados en dicho informe así como al resultado de la 
+aplicación sistemática del SGC. Continúa el informe indicando que se considera 
+oportuno realizar (en 201 5) una revisión documental del SGC del Centro a través de la 
+aplicación informática. 
+ 
+• La Facultad elabora un informe ( 08/01/2015) en el que recoge las mejoras realizadas 
+tras el informe de auditoría externa, incluyendo los cambios en la documentación del 
+SGC y las mejoras propuestas por el Centro tras la implantación del SGC, adjuntando 
+los planes de mejora aprobados. 
+ 
+2. REVISIÓN DOCUMENTAL DEL SGC 
+ 
+2.1. INFORMACIÓN PÚBLICA 
+ 
+Es necesario publicar en la web la Política y objetivos de calidad del centro , que debe estar 
+firmada y actualizada, la mostrada en la herramienta del Sistema de Garantía de Calidad tiene 
+fecha de 2010. 
+ 
+2.2. APLICACIÓN INFORMÁTICA 
+ 
+La plataforma informática cuenta con dos carpetas principales EVIDENCIAS e INFORMES. 
+Atendiendo al objetivo de revisar el SGC se entiende que es en la de EVIDENCIAS a la que hay 
+que revisar. 
+ 
+En el apartado de EVIDENCIAS se encuentran tres carpetas: PROCEDIMIENTOS, DOCUMENTOS 
+y ANEXOS. La de PROCEDIMIENTOS contiene dos propuestas de PA05  “Gestión de personal 
+académico y d e administración y servicios”  y PE02 rev. “Política de personal académico y de 
+administración y servicios de la UDC ” para completar. Se entiende que la de DOCUMENTOS  se 
+refiere a los documentos que conforman el SGC y la de ANEXOS contiene las evidencias o 
+registros de la implantación y aplicación del mismo.  
+ 
+La carpeta DOCUMENTOS contiene una gran cantidad de información difícil de entender, podría 
+mejorarse su estructura . Por ejemplo, contiene  dos documentos: “ SGIC_manual_FEE_sin 
+procedimientos_rev.2014” y “SGIC_procedimientos_FEE_rev.2014” y posteriormente varias 
+carpetas con procedimientos (clave, estratégicos, de apoyo y de medición), además de otra 
+con los procedimientos obsoletos. 
+
+ 
+ 
+ 
+ Página 5 de 13  
+ 
+• MANUAL 
+  
+Revisando el documento denominado “ SGIC_manual_FEE_sin procedi mientos_rev.2014” se 
+constata que se trata de la edición 1 de 30/04/2013, ya considerad o en la visita de auditoría , 
+por lo que se entiende que no se ha revisado. 
+ 
+El mapa de procesos (Anexo 1.1) no coincide con el índice de procedimientos que se incluye en  
+el índice del Manual. Por ejemplo en el mapa hay un PE03  “Diseño de la oferta formativa de la 
+UDC”  y un PA08 “Expedición de títulos oficiales” que no están en el índice.  
+ 
+Valorar la posibilidad de eliminar el Anexo 3.1 “Lista de comprobación para analiz ar el 
+seguimiento de la implantación del SGIC” ya que no se han encontrado evidencias de su 
+aplicación. 
+ 
+En el Anexo 4.1 figura la política y objetivos generales del Centro, firmados por el Decano en 
+mayo de 2013, que también podría eliminarse e incorporarse como evidencia de la revisión 
+indicada en PE01  “Establecimiento, revisión y actualización de la política y los objetivos de 
+calidad”. 
+  
+• PROCEDIMIENTOS 
+ 
+- PC01. Oferta formativa de la UDC que se elabora en el centro , de 30/04/ 2013 
+con 1 anexo (Modelo de ac ta). Valorar la eliminación de este anexo, puesto que la 
+aplicación informática ya “obliga” a rellenar las actas de un determinado modo. Últimos 
+documentos: varias actas de centro de 2014 y dos del Grado en Administración y 
+Dirección de Empresas (03/10/2012 y 26/12/2014), del resto de los títulos que se 
+imparten en el centro no se aportan evidencias. 
+ 
+• PC02. Revisión y mejora de los títulos oficiales , de 30/04/ 2013, con dos anexos 
+(acta e Informe de Seguimiento).  Última acta de los grados de 2013. Están mal 
+numerados, no hay Anexo 01, el Anexo 02 son los informes y el Anexo 03 las actas. No 
+hay evidencias del Anexo 02 en 2014. Hay actas de la CGC de 2014 (la última subida el 
+04/01/2015) con aprobación de Planes de Mejora. 
+ 
+• PC03. Perfiles de ingreso/egreso y c aptación de estudiantes , de 30/04/ 2013, 
+con 6 anexos (acta y cinco documentos más). Ultima act ualización de 04/06/2013. 
+Datos de oferta y demanda de los grados del curso 20 13/2014 (no de todos los títulos) 
+y de los másteres del curso 20 14/2015. Listado de nuevo alumnado del curso 
+
+ 
+ 
+ 
+ Página 6 de 13  
+ 
+2013/2014 (sin valorar). Si se tienen datos de oferta se podrían tener datos de nuevos 
+alumnos también del curso 20 14/2015. Perfil de ingreso del curso 20 13/2014 revisado 
+en los títulos de máster. Se recomienda revisar el procedimiento porque quizás no hace 
+falta recoger evidencias del perfil de ingreso si no se cambia, solo evidenciar que se 
+revisa (acta). Perfil de  egreso del curso 2013/2014 en másteres. Ídem que con el perfil 
+de ingreso. Sobre el Plan de captación , la ú ltima evidencia subida es de l 26/12/2014, 
+con el plan de captación del curso 2013/2014 en PDF. 
+ 
+• PC04. Selección, admisión y matriculación de estudiantes , de 30/04/ 2013, con 
+tres anexos (acta y dos documentos más ). Última acta de centro subida el 04/03/2015  
+y de Junta de Facultad el 13/02/2015 con la aprobación de accesos a las titulaciones. El 
+procedimiento indica que el registro de actas es de la Comisión de Admisión y Selección 
+de los títulos de máster universitario, no de la Junta de Facultad.  Sobre pruebas 
+especiales de admisión, el último documento está subido el 15/12/2014 del Máster de 
+Contabilidad (no hay evidencias del resto de los títulos), que indica que no hay pruebas 
+especiales y que resolverá la Comisión que la Facultad designe. Valorar la utilidad de 
+este registro. De políticas de admisión hay documentos subidos el 25/02/2014 para los 
+grados y el Máster de Banca y Finanzas y el 22/12/ 2014 para los másteres de 
+Contabilidad Superior y Auditoría de Cuentas, Dirección y Administración de Empresas . 
+Indican cómo hacer la información y orientación, no la política de admisión. 
+ 
+• PC05. Orientación a estudiantes , de 30/04/ 2013, con cinco anexos (acta y cuatro 
+documentos más). Última acta de Centro subida el 04/01/2015. Es de la reunión de la 
+CGC de 25/06/2014, con acciones de orientación para el curso 2014/2015. De 
+indicadores, última acta subida de 2013, con resultados del curso 2012/2013.  Sobre el 
+programa de orientación, el último documento se sube el 15/12/ 2014, es de Centro y 
+contiene las acciones programadas p ara el curso 2014/2015 (no hay evidencias del 
+resto de los títulos de máster).  Sobre el PAT, el último documento se sube el 
+15/12/2014 con el PAT para el curso 2014/2015. 
+ 
+• PC06. Planificación y desarrollo de la enseñanza , de 30/04/2013, con dos anexos 
+(acta y otro documento más, además PDA, POD, Guías). Última acta de Centro subida 
+el 04/03/2015 de la reunión de Junta de Facultad de 13/02/2015.  Se sube un 
+documento el 04/03/15 que es el acta de la Comisión Académico Docente (no se sabe 
+de qué fecha), en la que se tratan diversas actuaciones de planificación. Se incluye 
+también con fecha 04/03/2015, la composición de la Comisión académica del Título. 
+ 
+
+ 
+ 
+ 
+ Página 7 de 13  
+ 
+• PC07. Evaluación del aprendizaje , de 30/04/ 2013, con cuatro anexos (acta y tres 
+documentos más).  Última acta,  de Centro, subida el 04/01/ 2015 de la reunión de la 
+CGC de 25/06/ 2014, que no incluye ningún aspecto relacionado con el procedimiento. 
+En el Anexo 02 el último documento es de 04/03/ 2015 para el Grado en Ciencias 
+Empresariales. Este documento se denomina relación de indicadores pero recoge los 
+valores de las reclamaciones del curso 2014/2015. En el Anexo 03 no se aportan 
+evidencias. 
+ 
+• PC08. Movilidad del estudiantado, de 30/04/ 2013, con cuatro anexos (acta y tres 
+documentos más). Última acta subida en 2011.  Del Anexo 02, los últimos documentos 
+para tres grados son del 26/11/2014, con datos de estudiantes que salen o quieren 
+salir en el curso 2013/2014. No hay evidencias de los títulos de máster que se imparten 
+en el centro. Sobre el Anexo 03, el documento de  centro subido el 29/12/2014 contiene 
+información sobre las acciones programadas para el curso 2014/2015, sin indicar quién 
+elabora el documento y se trata de acciones generales que no hacen referencia a título. 
+ 
+• PC09. Prácticas externas, de 30/04/ 2013, 7 anexos (acta y seis documentos más).  
+Última acta de 20/02/2014 subida de Centro de la reunión de la Comisión Académico -
+Docente celebrada el 19/09/2013. En el Anexo 02 el último documento subido es de 
+02/12/2014, sobre los estudiantes que hacen prácticas en  el curso 2013/2014 , por 
+título. Del Anexo 03, el úl timo documento subido es de  04/06/2013 con la relación de 
+tutores de l curso 201 2/2013 (una sola profesora con 130 estudiantes) . Revisar si es 
+correcto que es tutora y no coordinadora de prácticas y actual izar o eliminar. Del Anexo 
+04 el ú ltimo documento de centro subido es de 29/12/2014, con la relación de las 
+instituciones que participan en los programas de prácticas para el curso 20 13/2014. Del 
+Anexo 05, el último documento subido es de 29/12/2014 del G rado en Ciencias 
+Empresariales del curso 2013/2014 que indica que tres alumnas presentaron una 
+reclamación sobre la selección de alumnos para prácticas. Del Anexo 06, el último 
+documento de Centro subido es de 07/01/2015 con el plan de prácticas para el cur so 
+2013/2014 ( PDF). Se trata de la normativa, no es un plan.  Del Anexo 07 no hay 
+evidencias. 
+ 
+• PC10. Orientación profesional, de 30/04/2013, tres anexos (acta y dos documentos 
+más). Última acta subida de 04/06/2013. El plan de orientación (30/05/2013) es de l 
+curso 2012/2013. El seguimiento del plan de orientación (31/05/2013) corresponde al 
+curso 2012/2013. 
+ 
+
+ 
+ 
+ 
+ Página 8 de 13  
+ 
+• PC11. Resultados académicos , de 30/04/ 2013, cinco anexos (acta y cuatro 
+documentos m ás). Anexo A01: Último documento subido el 29/12/ 2014, de Centro. 
+Acta de la CGC de 26/11/ 2014. Anexo 02: Los últimos documentos (uno para cada 
+título) se suben el 18/11/ 2014, con las tasas académicas de 2009/ 2010 a 20 13/2014. 
+Anexo 03: De 23/11/ 2014 comparaciones por título. A nexo 04: De 30/12/ 2014 por 
+título. Informe anual del curso 2013/2014. Anexo 05: sin evidencias. 
+ 
+• PC12. Información pública , de 30/04/ 2013, dos anexos (acta y listado de 
+información pública). Anexo 01: Última acta subida el 04/11/ 2013 de Junta de Facultad 
+de 24/07/2013. En el orden del día no figura na da relacionado con el procedimiento. 
+Anexo 02 sin evidencias. 
+ 
+• PC13. Inserción laboral, de 30/04/ 2013, tres anexos (acta y dos documentos más).  
+Anexo 01: Último documento de 19/10/ 2014, de centro. Acta del grupo promotor de la 
+Asociación de Antiguos Estudi antes de la Facultad de 30/05/ 2014. Anexo 02: sin 
+evidencias. Anexo 03: documento de 31/05/2013 de Centro. 
+ 
+• PC14. Objetivos del plan de estudios , de 30/04/ 2013, tres anexos (acta y dos 
+documentos más). Anexo 01: sin evidencias. Anexo 0 2: Últimos documentos  de 
+25/02/2014 (faltan dos  títulos de máster) con objetivos del título para el curso 
+2013/2014. No se analiza el cumplimiento. Anexo 03 : Últimos documentos de dos 
+títulos de máster de 15/12/2014 con competencias para el curso 2013/2014. Valorar la 
+posibilidad de eliminar el procedimiento. 
+ 
+• PE01. Establecimiento, revisión y actualización de la política y los objetivos de 
+calidad, de 30/04/2013, tres anexos (acta y dos  documentos más). Los objetivos de 
+calidad se despliegan anualmente en objetivos concretos. En 6.2 no indica cómo , ni 
+quién, ni cuándo revisan la política de calidad, que es el objetivo del proceso. Anexo 01: 
+Último documento de centro subido el 04/03/ 2015. Acta de la JF. En el orden del día no 
+aparece nada relacionado con el procedimiento.  Anexo 02: Último documento subido de 
+04/03/2015 de Centro, relativo a las f unciones de la CGC para el curso 20 14/2015. 
+Anexo 03: Últ imo documento subido de 29/12/2014, relativo a los o bjetivos de la 
+facultad para el curso 20 14/2015, con indicadores, responsable s, etc. No se evidencia 
+el análisis del su cumplimiento. 
+ 
+• PE02. Política de personal académico y de administración y servicios de la 
+UDC. Sin evidencias. 
+ 
+
+ 
+ 
+ 
+ Página 9 de 13  
+ 
+• PE03. Elaboración y revisión del plan estratégico de los centros de la UDC , de 
+28/10/2014. Cuatro ane xos: acta, plan estratégico, cuadro de mando y cuadro 
+operativo (sin evidencia).  Los objetivos ¿han de coincidir con los del PE01  
+“Establecimiento, revisión y actualización de la política y los objetivos de calidad”?, si la 
+respuesta es “SÍ” algo sobra. No aparecía reflejado en el mapa de procesos . Anexo 01: 
+Último documento subido de 04/03/ 2015 de Centro, a cta de Comisión de Elaboración 
+del Plan Estratégico de 13/01/ 2015 que aprueba el documento . Anexo 02: Plan 
+Estratégico de la  Facultad 2014 -2020. Anexo 0 3: Último documento subido el 
+02/06/2013 de Centro. Anexo 04: Sin evidencias 
+ 
+• PA01. Gestión de los documentos y las evidencias , de 30/04/2013, 7 anexos (acta 
+y seis documentos más) . Anexo 01: Último  documento subido el 29/12/ 2014, de 
+Centro, a cta de la CGC  de 28/10/ 2014. Anexo 02: Último documento subido de 
+23/06/2013 con documentos en vigor  (se podría eliminar, los documentos en vigor son 
+los que ya aparecen en la aplicación). Anexo 03: sin evidencias. Anexo 04: Último 
+documento subido en 2011 ( actualizar o, si no es adecuado , valorar la posibilidad de 
+eliminarlo). Anexo 05: Último documento subido de 23/06/2013 con cuatro documentos 
+de ACSUG de 2012 (valorar la utilidad).  
+ 
+• PA02. Suspensión de un título , de 30/04/2013, acta y comunicación suspensión . 
+Anexo 01: Último documento subido de 20/02/2014 de Comisión Académico Docente de 
+19/09/2013, en el orden del día no hay ningún tema relativo al procedimiento 
+(suspensión de títulos).  Anexo 02: último documento subido de 01/11/2013 con 
+comunicado del Decano del Centro sobre la suspensión de un máster. 
+ 
+• PA03. Satisfacción, expectativas y necesidades , de 28/10/2014, nueve anexos 
+(acta, fichas, informes y encuestas) . Anexo 01: Último documento subido el 
+04/06/2013 de la reunión de la CGC de 26/10/ 2012. A nexo 02: últ imo documento 
+subido el 30/08/ 2014 para cada título.  Aporta resultados de encuestas de de 
+satisfacción del curso 20 13/2014 de estudiantes, personal académico y un ítem del 
+PAS. Incorporar encuestas a egresados y empleadores. Anexo 03: Último documento 
+subido de 03/01/ 2015 para cada título. Informe de l curso 20 13/2014 sobre las 
+encuestas de satisfacción. Faltan los anexos del 04 al 09 , según se establece en el 
+índice del procedimiento. 
+ 
+• PA04. Gestión de incidencias, reclamaciones y sugerencias, de 03/09/2014, cinco 
+anexos (acta y 4 documentos más). El ED recibe y resuelve. Únicamente comunica a la 
+CGC para su análisis y establecimiento de propuestas de  mejora, pero quien resuelve 
+
+ 
+ 
+ 
+ Página 10 de 13  
+ 
+las sugerencias, quejas o reclamaciones no es la CGC , por tanto ¿qué propuesta 
+propone? ¿sobre el procedimiento, sobre el título?  Anexo 01: Último documento subido 
+de 03/01/2015, del Grado en Administración y Dirección de Empresas. Se trata del a cta 
+de su Comisión Académico -Docente de 02/06/ 2014. A nexo 02: Último documento 
+subido de 2 6/02/2015 de l Grado en Administración y Dirección de Empresas  y del 
+Centro con hojas de incidencias rellenas . Anexo 03 Último documento subido de 
+05/12/2014 con respuesta a una incidencia desde un departamento . Anexo 04: Último 
+documento subido de 26/02/2015 del Grado en Administración y Dirección de Empresas 
+con respuesta a reclamante . Anexo 05: Último documento subido de 04/01/ 2015 con 
+informes del curso 20 13/2014 y anteriores de Centro. Hay también un informe del 
+Máster de C ontabilidad Superior y Auditor ía de Cuentas del curso 20 14/2015 (aun no 
+ha terminado el curso) y del Grado en Administración y Dirección de Empresas  del 
+curso 2013/2014. Valorar la posibilidad de realizar un informe de centro, segmentando 
+por titulación, y no elaborar uno por titulación. 
+ 
+• PA05. Gestión de personal académico y de administración y servicios , de 
+30/04/2013, cuatro anexos . Anexo 01: sin evidencias. Anexo 02: Último documento 
+subido de 09/11/ 2014 por título , t abla de profesores por categoría del curso 
+2013/2014. Anexo 03: Último documento subido de 08/11/2014 de centro, con tabla de 
+quinquenios y sexenios del curso  2013/2014. Se debe segmentar por título. Anexo 04: 
+Último documento subido de  31/12/2014 con número de PAS del curso 20 13/2014 
+(categorías, etc.). Anexo 05: sin evidencias. 
+ 
+• PA06. Gestión de los recursos materiales , de 30/04/2013, cuatro anexos (acta y 
+tres documentos más). Los únicos recursos materiales de los que se aportan datos es 
+de la Biblioteca, el E quipo Directivo los valora y establece necesidades, la CGC no 
+analiza. Anexo 01: último documento subido de 29/10/2014, reunión de la Comisión 
+permanente de 03/10/2014, como solo incluye el tema sobre cuentas de gasto , parece 
+que no tiene relación con el procedimiento. Anexo 0 2: sin evidencias. Anexo 03: Último 
+documento subido de 2012 (fondos bibliográficos). No está claro el significado de “X” 
+cuando se pone el curso , mejor poner la fecha con número. Anexo 04: último 
+documento subido de 14/10/2012, tabla con infraestructura. 
+ 
+• PA07. Gestión de la prestación de los  servicios, de 30/04/2013, dos anexos . Sin 
+evidencias. 
+ 
+• PA08. Expedición de títulos oficiales , de 30/04/2013, sin anexos. Contin úa 
+poniendo 10 años de registro de los expedientes. 
+
+ 
+ 
+ 
+ Página 11 de 13  
+ 
+• PM01. Medición, análisis y mejora: análisis de resultados , de 30/04/2013, acta e 
+informe de resultados . Anexo 01: Sin evidencias. Anexo 02: Último documento subido 
+de 04/06/2013, relativo al curso 2011/2012. 
+ 
+3. RECOMENDACIONES PARA LA MEJORA 
+ 
+PA04. Gestión de incidencias, reclamaciones y sugerencias . Atendiendo a las evidencias 
+aportadas en la aplicación informática no se puede cerrar la no conformidad pues no consta 
+que se elabore informe final ni que se informe a la CGC de las preguntas, quejas, sugerencias 
+y felicitaciones recibidas. 
+El procedimiento ha sido modificado ( última edición de 03/09/2014) . Dicha modificación 
+consistió en incluir a la CGC como órgano de análisis de las incidencias y establecimiento de 
+acciones de mejora en su caso. Se debe evidenciar que la CGC haya llegado a actuar, tal como 
+se indica en el PA04 “Gestión de incidencias, reclamaciones y sugerencias”. 
+ 
+PC13. Inserción laboral . Tiene su 2ª edición en vigor (30/04/ 2013). Se indica que tanto 
+ACSUG como el Observatorio Ocupacional de la UDC realizan estudios sistemáticos de 
+inserción laboral que el Centro analiza (ED y CGC) con acciones de mejora de las titulaciones, 
+si procede. De las titulaciones que se imparten actualmente en la Facultad de Economía, el 
+Máster en Banca y Finanzas se verifica con fecha 20/07/2009 y se implanta en el curso 
+2009/2010 (los otros títulos empezaron posteriormente) por lo que hace ya varios años que 
+tiene egresados de los que se debía conocer su situación laboral y no se evidencia que se haya 
+puesto en marcha ningún mecanismo. En tanto ese mecanismo o la recepción de información 
+de otros organismos no se produzca , se puede recurrir a la recién creada Asociación de 
+Antiguos Alumnos, a los Colegios Profesionales afectados o a los empleadores que colaboran 
+con la Facultad, por ejemplo en las prácticas, para obtener información utilizable  en el análisis 
+de esta situación laboral, además de la posibilidad de recurrir a obtenerla de los propios 
+egresados. 
+ 
+PM01. Medición, análisis y mejora: análisis de resultados.  Ed. 01 de 30/04/2013, se 
+indica en portada que se actualiza el procedimiento y  anexos. En su punto 6 trata la revisión 
+anual de los indicadores del SGC para establecer acciones de mejora si procede y elaborar un 
+Informe de Resultados del SGC que se ha de aprobar por la Junta de Centro que ha de 
+registrarse y archivarse. En la aplicación, los Anexos del PM01 están vacíos. 
+ 
+En el conjunto de procedimientos clave sigue apareciendo, entre otros, el PC14  “Objetivos del 
+plan de estudios”, que en el informe de certificación, se sugería su eliminación o inclusión en el 
+PC02 “Revisión y mejora de los títulos oficiales ”. Igual ocurre con el PC07 “Evaluación del 
+
+ 
+ 
+ 
+ Página 12 de 13  
+ 
+aprendizaje”, que se sugería su inclusión  en el PA04 “Gestión de incidencias, reclamaciones y 
+sugerencias”. 
+ 
+En consecuencia , se sugiere se considere lo indicado en el informe de certifi cación y que se 
+revise la documentación del SGC conforme se va aplicando: 
+ 
+- Simplificar todo aquello que no aporta valor para la gestión del título y del centro, ni 
+facilita el seguimiento, la modificación o la acreditación de cada título.  
+ 
+- Analizar si merece la pena que existan formatos en los procedimientos, cuando se va a 
+utilizar la aplicación cuyos formatos no siempre coinciden, pero que la aplicación obliga 
+a utilizar. 
+ 
+- Aportar información y evidencias sobre todo el SGC, haciendo un análisis documental se 
+comprueba que sigue habiendo bastantes anexos/evidencias sin cubrir y otros que 
+pueden considerarse innecesarios. 
+ 
+- En el caso de los recursos humanos y materiales se debe revisar la coherencia con lo 
+apuntado en la memoria de cada título y si siguen siendo adecuados y suficientes para 
+el desarrollo de las diversas titulaciones. 
+ 
+- Adaptar el anexo 05 “Ficha para la definición de indicadores” del PC11 “Resultados 
+académicos”. Las fichas del cálculo de los indicadores deben estar definidas de forma 
+que se incorporen los siguientes elementos. 
+ 
+Código  
+Fecha de 
+actualización 
+ 
+Denominación  
+Descripción  
+Justificación  
+Forma de cálculo  
+Características 
+Periodicidad  
+Fuente de información  
+Histórico  
+Forma de representación  
+Nivel de agregación / 
+desagregación 
+ 
+Ejemplo  
+Especificaciones  
+Interpretación  
+
+ 
+ 
+ 
+ Página 13 de 13  
+ 
+ 
+Santiago de Compostela, 3 de junio de 2015 
+ 
+DIRECTOR ACSUG 
+SECRETARIO CGIACA 
+ 
+ 
+José Eduardo López Pereira 

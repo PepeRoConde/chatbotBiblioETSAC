@@ -95,15 +95,15 @@ App Store
 Google Play
 RSS
 
---- OCR de imagen: guia-slider.png_2063069239_2f6bcbb2.png ---
-Seruizo de Biblioteca
-
-Guia para o novo alumnado
-
 --- OCR de imagen: RUC_GL.png_2063069239_ff1c2940.png ---
 RUC, o Repositorio da UDC
 
 Giue
+
+--- OCR de imagen: guia-slider.png_2063069239_2f6bcbb2.png ---
+Seruizo de Biblioteca
+
+Guia para o novo alumnado
 
 --- OCR de imagen: Portal-da-Investigacion_GL.png_2063069239_ba8554de.png ---
 PORTAL DA INVESTIGACION DA
@@ -113,9 +113,9 @@ UNIVERSIDADE DA CORUNA
 Portalda
 Investigacion
 
+--- OCR de imagen: dialnet.png_47880793_d3f67784.png ---
+BD Dialnet p“
+
 --- OCR de imagen: rebiun.png_2127908317_8e11581b.png ---
 Red de Bibliotecas
 REBIUN.
-
---- OCR de imagen: dialnet.png_47880793_d3f67784.png ---
-BD Dialnet p“

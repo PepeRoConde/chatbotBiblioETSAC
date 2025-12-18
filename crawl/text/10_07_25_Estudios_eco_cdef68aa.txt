@@ -1,0 +1,33 @@
+Facultade de Economía e Empresa 
+ 
+ 
+ 
+  
+Bachelor’s Degree in Economics   
+    
+Subjects taught in English   
+    
+Code Subject 
+Course 
+group Term 
+611G01001 Principles of Microeconomics 1B T1 
+611G01003 Sociology 1B T1 
+611G01004 Financial Operations Analysis 1B T1 
+611G01005 Principles of Macroeconomics 1B T2 
+611G01006 Statistics I 1B T2 
+611G01008 Business Economics: Management and Organisation 1B T2 
+611G01011 The World Economy 2AI T1 
+611G01012  Microeconomics and Markets 2AI T1 
+611G01013 Economic Policy 2AI T1 
+611G01017  Macroeconomics 2AI T2 
+611G01019  Statistical Methods and Introduction to Econometrics 2AI T2 
+611G01020 Accounting 2AI T2 
+611G01021 Principles of Public Finance 3AI T1 
+611G01023  Microeconomic Theory 3AI T1 
+611G01024  Monetary Policy and Financial Systems 3AI T1 
+611G01026  Public Finance 3AI T2 
+611G01028  Macroeconomics: Growth and Dynamics 3AI T2 
+611G01032 Economic Analysis of Organisations 4AI T1 
+611G01033 European Industrial Organisation 4AI T1 
+611G01034 Finance 4AI T1 
+ 

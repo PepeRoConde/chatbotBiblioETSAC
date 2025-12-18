@@ -1,0 +1,47 @@
+Recomendacións para a elaboración da copia en pdf do TFG 
+Algúns dos traballos fin de grao vanse publicar no repositiorio institucional da UDC (RUC) 
+http://ruc.udc.es/dspace/, para facilitar o acceso e a recuperación do TFG é conveniente ter en 
+conta os seguintes aspectos: 
+1. O TFG en versión dixital corresponderase fidedignamente coa copia entregada para a sua 
+defensa. 
+2. O soporte/documento estará identificado con letra de imprenta. Os datos que deben 
+constar, como mínimo, son: autor/título do TFG/director‐tutor/ano. 
+3. Os documentos presentaranse en formato PDF/A ou outros formatos abertos. Os 
+arquivos PDF poderán incluír ligazóns de hipertexto e información multimedia. 
+4. Os arquivos PDF non estarán protexidos. 
+5. Empregaranse tantos arquivos como foren necesarios. 
+6. O nome dos arquivos que conteñen o documento principal levarán o nome do autor, a 
+abreviatura TFG e o ano. Non deben utilizarse no nome dos arquivos nin espazos, nin 
+acentos, nin o ñ, cedilla, etc. co fin de asegurar a compatibilidade con todos os 
+navegadores. 
+Exemplo: un TFG defendido en 2011 por José Manuel Pérez López o documento principal 
+chamarase: 
+PerezLopez_JoseManuel_TFG_2011.pdf 
+Se o documento principal estiver formado por tres arquivos, estes chamaranse asi: 
+PerezLopez_JoseManuel_TFG_2011_01de3.pdf 
+PerezLopez_JoseManuel_TFG_2011_02de3.pdf 
+PerezLopez_JoseManuel_TFG_2011_03de3.pdf 
+7. Outros arquivos: 
+Poderán achegar arquivos doutros tipos (imaxes, programas de ordenador, información 
+multimedia, etc) en foramtos coñecidos (TIFF, JPG, MPG, MP…) 
+Nese caso, e para favorecer a súa identificación, o nome dos arquivos adicionais seguirá 
+unha pauta similar á dos que conteñen o documento principal. Por exemplo, o arquivo 
+que conten un vídeo en formato MPG (o cuarto dun total de sete) no TFG de José Manuel 
+Pérez López podería chamarse: 
+PerezLopez_JoseManuel_TFG_Video_4de4.mpg 
+Polo tanto oa autor poderá indicar o tipo de arquivo que envía e a extensión propia deste 
+arquivo, pero cando son varios arquivos a numeración mantense a do conxunto: 
+PerezLopez_JoseManuel_TFG_2011_01de4.pdf 
+PerezLopez_JoseManuel_TFG_2011_02de4.pdf 
+PerezLopez_JoseManuel_TFG_2011_03de4.pdf 
+PerezLopez_JoseManuel_TFG_Video_4de4.mpg 
+Poderán definir hipervínculos para acceder a estes contidos desde os arquivos PDF que 
+forman o documento principal do TFG. 
+8. Tamén pódense engadir metadatos. O procedemento para engadir metadatos faise 
+cando creamos o pdf. Para isto podemos empregar software libre como PDFCreator 
+dispoñible en http://sourceforge.net/projects/pdfcreator/ 
+Unha vez instalado, abrimos o ficheiro de Word ou de libre office imos a: 
+Arquivo ‐> Imprimir ‐> Seleccionar impresora “PDFCreator” e Aceptar 
+Aparece unha ventana que temos que cubrir, por exemplo: 
+
+ 

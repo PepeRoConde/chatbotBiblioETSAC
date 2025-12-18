@@ -240,10 +240,6 @@ OIA DE LA MUJER
 Espajiola de
 AEF Fisioterapeutas
 
---- OCR de imagen: gnit_d2a5865b.png ---
-Note
-CONCII -ATIVAS
-
 --- OCR de imagen: CAMPUS20DE20OZA20SANGUE_f68fb428.png ---
 Non esperes a que se esgote
 
@@ -259,6 +255,10 @@ Mercores, 25 de outubro
 
 Xoves, 26 de outubro
 15:30 a 21:00
+
+--- OCR de imagen: gnit_d2a5865b.png ---
+Note
+CONCII -ATIVAS
 
 --- OCR de imagen: Punto20e20seguido20-20Fac.20Fisioterapia20UD_89bc9367.png ---
 FACULTADE DE FISIOTERAPIA

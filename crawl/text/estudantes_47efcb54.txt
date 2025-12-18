@@ -72,11 +72,6 @@ App Store
 Google Play
 RSS
 
---- OCR de imagen: horarios.jpg_393180436_ebae86d2.jpeg ---
-HORARIOS
-
-Oo X se
-
 --- OCR de imagen: examenes.jpg_393180436_621c0e20.jpeg ---
 Ceaser eee
 
@@ -87,3 +82,8 @@ Wor Tue Wed
 Thu
 
 rr
+
+--- OCR de imagen: horarios.jpg_393180436_ebae86d2.jpeg ---
+HORARIOS
+
+Oo X se

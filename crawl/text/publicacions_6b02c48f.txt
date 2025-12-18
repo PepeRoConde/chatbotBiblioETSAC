@@ -87,6 +87,16 @@ App Store
 Google Play
 RSS
 
+--- OCR de imagen: cabecera-acceso-abierto.jpg_2063069239_7784b8ef.jpeg ---
+Publicacions
+en aberto =~
+
+universitario internacional
+
+~ SJ
+
+clica aqui para acceder D>
+
 --- OCR de imagen: cabecera_catalogo.jpg_2063069239_5429c6ce.jpeg ---
 ,
 todos os nosos libros
@@ -98,16 +108,6 @@ clica aqui para acceder w=
 
 ~ SJ
 — —
-
---- OCR de imagen: cabecera-acceso-abierto.jpg_2063069239_7784b8ef.jpeg ---
-Publicacions
-en aberto =~
-
-universitario internacional
-
-~ SJ
-
-clica aqui para acceder D>
 
 --- OCR de imagen: revistas_cabecera.jpg_2063069239_c078edaf.jpeg ---
 Revistas oe SE
@@ -242,30 +242,24 @@ universitario internacional
 
 clica aqui para acceder D>
 
+--- OCR de imagen: twitter.png_2063069239_72ab2608.png ---
+v
+
+twitter
+
 --- OCR de imagen: revistas_cabecera.jpg_964752156_e4f76f69.jpeg ---
 Revistas ——
 cientificas
 en aberto
 
---- OCR de imagen: twitter.png_2063069239_72ab2608.png ---
-vy
-
-twitter
-
 --- OCR de imagen: logo2_CROSSREF.png_556340938_d4f5b9cc.png ---
-S Crossref
-
---- OCR de imagen: logo_biblioteca_udc.png_556340938_a574719e.png ---
-E= biblioteca upc
+34 Crossref
 
 --- OCR de imagen: logo_UNELIBROS.png_556340938_68fa9519.png ---
 urre libros
 
---- OCR de imagen: logo_cedro.png_556340938_1286b50c.png ---
-ae
-Cepro
-
-conto sensor oF oerEeH0s RePROGIMsICDS
+--- OCR de imagen: logo_biblioteca_udc.png_556340938_a574719e.png ---
+E= biblioteca upc
 
 --- OCR de imagen: Logotipo_Dialnet_PLUS_4.jpg_556340938_825e32bd.jpeg ---
 © Dialnet p™

@@ -182,11 +182,6 @@ RSS
 
 b.
 
---- OCR de imagen: QS.png_2143138218_70719841.png ---
-WORLD
-UNIVERSITY
-——= RANKINGS
-
 --- OCR de imagen: QSsubject.jpg_1736750238_21865382.jpeg ---
 WORLD
 UNIVERSITY
@@ -217,13 +212,13 @@ WORLD RANKING
 Lae
 SUBJECTS RANKING
 
---- OCR de imagen: THE_Inter_Sci_log.png_1132795837_c810f605.png ---
-Interdisciplinary
-Science Rankings
-
 --- OCR de imagen: THE-IMPACT.png_1636647723_ba4e5324.png ---
 Lae
 IMPACT RANKING
+
+--- OCR de imagen: THE_Inter_Sci_log.png_1132795837_c810f605.png ---
+Interdisciplinary
+Science Rankings
 
 --- OCR de imagen: cwts.png_1869470062_07a33ee4.png ---
 Ve
@@ -237,17 +232,18 @@ Leiden Ranking
 University Ranking by
 Academic Performance
 
+--- OCR de imagen: Webometrics.png_606386113_a626297f.png ---
+RANKING WEB
+
+DE UNIVERSIDADES
+
 --- OCR de imagen: URAP_Field.png_153409212_88fad00c.png ---
 University Ranking by
 Academic Performance
 Field Based
 
---- OCR de imagen: Webometrics.png_606386113_a626297f.png ---
-RANKING WEB
-DE UNIVERSIDADES
-
 --- OCR de imagen: SIR.png_836969535_c2bc4be8.png ---
-m SCIMAGO.
+SCIMAGO.
 INSTITUTIONS RANKINGS,
 
 --- OCR de imagen: natureindex.png_1805372570_c0cdd6a4.png ---
@@ -260,10 +256,6 @@ UNIVERSITIES
 
 SUBJECT RANKING
 
---- OCR de imagen: RankingCyD.png_2025311954_1f52b3d8.png ---
-, GY
-Wii ranking
-
 --- OCR de imagen: CyD_univ_sostenibles.png_1919327434_ce0b849a.png ---
 cy
 Aly ranking»
@@ -273,21 +265,9 @@ Universidades sostenibles
 --- OCR de imagen: reserarch.png_7711008_f0d3df1c.png ---
 Research.com
 
---- OCR de imagen: U-Ranking.png_1252963196_8ac594ae.png ---
-=
-Ranking
-
-Universidades
-Espafiolas
-
 --- OCR de imagen: U-ranking_IL.png_1406998995_25cc1f15.png ---
 Ranking
 Universidades
 Espafiolas
 Insercién
 Laboral
-
---- OCR de imagen: dyntra.png_1505022938_6c5e60f8.png ---
-OYNTRA
-
-DYNAMICTRANSPARENCYINDEX

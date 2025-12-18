@@ -151,10 +151,6 @@ Youtube
 Rss
 Telegram
 
---- OCR de imagen: altiaexperience_bebffdf7.png ---
-Itia
-XPERIENC
-
 --- OCR de imagen: captura_de_pantalla_2025-04-11_a_las_16.50.53_e18a9668.png ---
 CONFERENCIA
 
@@ -177,6 +173,10 @@ O7 abril © 15:30h © Universidade da Corufia
 
 Facute de ntratic da Coruta FIC)
 ‘ula 3
+
+--- OCR de imagen: altiaexperience_bebffdf7.png ---
+Itia
+XPERIENC
 
 --- OCR de imagen: possible_imagen_gal3_adb54099.png ---
 ©) possible

@@ -44,13 +44,6 @@ Instituciones y Mercados
 
 Grupo de investigacién
 
---- OCR de imagen: get_logo_2d04480b.jpeg ---
-get @
-
-GRUPO DE ESTUDIOS
-| Tenmrroniaces
-G-000661
-
 --- OCR de imagen: lapso_logo_57b13f3c.jpeg ---
 LAPSO
 
@@ -58,3 +51,10 @@ LABORATORIO DE ANALISIS ¥
 PROSPECTIVA SOCIOPOLITICA
 
 E000485
+
+--- OCR de imagen: get_logo_2d04480b.jpeg ---
+get @
+
+GRUPO DE ESTUDIOS
+| Tenmrroniaces
+G-000661

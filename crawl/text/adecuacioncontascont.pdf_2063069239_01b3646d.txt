@@ -1,0 +1,574 @@
+ 
+ 
+1 
+ 
+RESOLUCIÓN DE ADECUACIÓN DAS CONTAS CONTABLES DE INVENTARIO A OS 
+CRITERIOS DAS RESOLUCIÓNS DO 17/7/2017 E DO 3/1/2018 
+ 
+A Lei orgánica 6/2001, do 21 de decembro , de universidades establece que as universidades 
+terán autonomía para a administración dos seus b ens. O artigo 109 dos Estatutos da UDC 
+dispón que constitúe o patrimonio da Universidade o conxunto dos seus bens, dereitos e 
+deberes. A UDC asume a titularidade dos bens estatais de dominio público que estean afectos 
+ao cumprimento das súas función s e a daqueles bens que no futuro lle foren destinados polo 
+Estado e a comunidade autónoma de Galicia para o cumprimento das súas funcións.  
+Incorpóranse ao patrimonio da Universidade as doazóns e o material inventariable e bibliográfico 
+adquirido con cargo a fondos de investigación, excepto aquel que por convenio deba adscribirse 
+a outras entidades. 
+A Universidade manterá actualizado o inventario do seu patrimonio, baixo a responsabilidade do 
+xerente.   
+Unha vez publicadas a Resolución conxunta da Xerencia e da Vi cerreitoría de Economía, 
+Infraestruturas e Sustentabilidade do 17/7/2017, pola que se define a clasificación económica 
+dos gastos dos capítulos II ao VI da UDC e se establecen os criterios que se seguirán para a 
+súa imputación e a Resolución do 3/1/2018, p ola que se establecen as equivalencias de 
+aplicacións orzamentarias ao orzamento de 2018, os novos conceptos  económicos e a 
+codificación do financiamento alleo finalista, faise necesario adecuar aos novos criterios 
+algunhas das contas contables do inventario da UDC.  
+ 
+En vista do que antecede e conforme as atribucións recollidas no artigo 3 da RR do 12 de 
+xaneiro de 2016, na que se establecen as competencias da Xerencia, 
+ 
+RESOLVO: 
+ 
+1. Que as contas e subcontas contables (P XCP 2010. Orde EHA/1037/2010, do 13 de abril) 
+son as que se recollen no Anexo I.  
+ 
+2. Que a  asociación entre as contas e subcontas contables e os subc onceptos económicos 
+creados en aplicación das resolucións do 17/7/2017 e do 3/1/2018 se detalla no Anexo II.  
+ 
+3. Actualizar o apartado 2.1 - Material inventariable da Instrución do 3/2006, Instrucións para a 
+xestión do inventario. Anexo III. 
+ 
+4. Capítulo VI do orzamento de gastos “Investimentos reais” 
+ 
+- Económica 610.00 - Investimentos en terreos 
+ Imputaranse as melloras en soares e terreos da UDC. Conta con table 210 – Terreos 
+e bens naturais. 
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA== Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 1/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ 
+ 
+2 
+ 
+Con cargo ás económicas do artigo 62 “Investimento asociado ao funcionamento operativo 
+dos servizos”, financiaranse exclusivamente os proxectos de investimento novo.  
+ 
+- Económica 622.00 - Edificios e outras construcións 
+ Construción de novos edificios, obra nova. 
+ As grandes reparacións, que afecten a elementos estruturais do edificio, supoñan un 
+incremento da produtividade, o rendemento, a eficiencia ou alongamento da vida útil.  
+ Imputaranse ao capítulo VI e a conta contable de inventario 2.1.1”Construcións” 
+ 
+- Económica 630 - Investimento de reposición asociado ao funci onamento operativo dos 
+servizos 
+ 
+Con car go ás económicas do artigo 63  “Investimento de reposición asociado ao 
+funcionamento operativo dos servizos”, imputara nse os proxectos de investimento 
+reposición, nos termos recollidos na Resolución do 17/7/2017. 
+ 
+Exceptúanse do criterio de imputación establecido para as económicas 622 e 630: 
+ Os gastos en instalacións, que se imputarán á económica 623.  
+ Os gastos de repar ación, mantemento e conservación de edificios en xeral, calquera 
+que for o seu destino. Abranguen gastos de reparacións de albanelaría, pintura, 
+carpintaría e cristalaría, así como os gastos correspondentes aos materiais 
+empregados nas referidas reparacións, que se imputarán ao subconcepto 212.00 
+ 
+No caso da imputación de expedientes de gasto as económicas 622 e 632, o  Servizo de 
+Arquitectura, Urbanismo e Equipamentos, poderá determinar o criterio que corresponda 
+aplicar para cada caso. 
+ 
+5. Financiamento finalista 
+ 
+A imputación dos expedientes de gasto financiados con achegas externas adecuarase ás 
+condicións que estableza a normativa reguladora. En caso de ser necesario , o responsable 
+do gasto ou o responsable da súa xustificación acreditarán a procedencia da imputación do 
+expediente de gasto.  
+ 
+6. Instalacións técnicas e outras instalacións 
+  
+Tal e como se recolle na Resolución do 17/7/2017, que define a clasificación económica dos 
+gastos dos capítulos II ao VI do orzamento da UDC, ent éndese por instalación as un idades 
+complexas de uso especializado que comprenden: edificacións, maquinaria, material, pezas 
+ou elementos, incluídos os sistemas informáticos que, malia pola súa natureza seren 
+separables, están ligados dun xeito definitivo para o seu funcionamento.   
+As melloras e novas instalacións nos edificios imputaranse á económica 623.00 
+“Instalacións”. A súa alta en inventario debe asociarse á conta contable 2.1.5 “Instalacións 
+técnicas e outras instalacións”. Subconta: 2.1.5.1 
+Ao concepto 623.04 imputaranse aquelas actu acións relacionadas con medidas de 
+eficiencia enerxética e coa utilización de enerxías renovables, cun menor impacto ambiental. 
+A súa alta en inventario debe asociarse á conta contable 2.1.5 “Instalacións técnicas e 
+outras instalacións”. Subconta: 2.1.5.2 
+Todas es tas adquisic ións deben ter carácter inventariable, conforme os criterios 
+establecidos na Resolución do 17/7/2017. A vida útil que corresponda en cada caso é a que 
+se recolle nas táboas de inventario.   
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA== Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 2/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ 
+ 
+3 
+ 
+ 
+7. Adquisición de maquinaría e utensilios 
+ 
+Agruparanse en función da súa natureza de acordo cos criterios establecidos na Resolución 
+do 17/7/2017. Caso de ser necesario e co fin de poder coñecer o importe unitario de cada 
+adquisición será necesario solicitar ao provedor que detalle na factura o valor de cada un  
+dos elementos independentes que se adquiran. 
+a. Maquinaria. Adquisición das máquinas con que se faga a extracción, a elaboración 
+ou o tratamento dos produtos que se empregan para a prestación de servizos que 
+son necesarios para o desenvolvemento de actividades produtivas da UDC. 
+Inclúense aqueles elementos de transporte interno que se destinan ao traslado de 
+persoal, materiais ou mercadorías dentro da propia UDC, en talleres etc. sen saír ao 
+exterior. 
+Imputaranse á económica 623.01. Alta en inventario, conta contable 2.1.4 
+“Maquinaría e utensilios”. Subconta: 2.1.4.1 
+ 
+b. Utensilios. Compra de utensilios ou ferramentas que se poidan empregar de xeito 
+autónomo ou xunto con maquinaria, incluídos os moldes ou modelos. 
+Imputaranse á económica 623.02. Alta en inventario, conta contable 2.1.4 
+“Maquinaria e utensilios”. Subconta: 2.1.4.2 
+ 
+c. Equipamento científico e de laboratorio. 
+Imputarase á económica 623.03. Alta en inventario, conta contable 2.1.4 “Maquinaría 
+e utensilios”. Subconta: 2.1.4.3 
+En caso de ser necesario o in vestigador responsable da adquisición proporcionará a 
+información necesaria para a alta en inventario do ben. 
+O instrumental de laboratorio procederá a inventariarse cando reúna as condicións 
+establecidas na normativa de inventario.   
+ 
+Todas estas adquisic ións deben ter carácter inventariable, conforme cos criterios 
+establecidos na Resolución do 17/7/2017. A vida útil que corresponda en cada caso e a que 
+se recolle nas táboas de inventario. 
+ 
+8. Adquisición de sóftware 
+ 
+Financiarase con cargo ao capítulo II do orzamento de gastos “Gastos correntes en bens e 
+servizos” 
+ 
+- Económica 209.01 - Licenzas de sóftware 
+ O dereito de uso de licenzas de sóftware inferior a un exercicio económico 
+ O dereito de uso de licenzas de sóftware adquiridas por renovación anual 
+  
+- Económica 216 -  Equipos para procesamento da información 
+ Gastos derivados do mantemento ou actualización das aplicacións informáticas 
+ 
+- Económica 220.02 - Material informático non inventariable 
+ A adquisición de paquetes estándar de sóftware 
+ A compra de sóftware inferior a 300,00 € 
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA== Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 3/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ 
+ 
+4 
+ 
+ 
+Financiarase con cargo ao capítulo VI do orzamento de gastos “Investimentos reais” 
+ 
+- Económica: 640.07 - Licenzas de s óftware. Alta en inventario, c onta contable 2 .0.6 
+“Aplicacións informáticas” 
+ A adquisición en propiedade de aplicacións informáticas por un importe igual ou 
+superior a 300,00 € (amortización por conta contable)  
+ O dereito de uso de aplicacións informáticas superior a un exercicio económico e 
+cuxo valor total sexa igual ou s uperior a 300,00 € (efectuarase a amortización 
+manual, polos anos de uso da licenza) 
+ 
+9. Melloras 
+ 
+Os elementos dun aparato, utensilio ou equipo xa inventariado, que se adquiran para 
+mellorar o seu funcionamento ou alongar a súa vida útil, rexistraranse no inventario como 
+“mellora” do equipo, utensilio ou a parato que corresponda. Procederase ao seu inventario 
+sempre que reúna os criterios da normativa de inventario (vida útil superior a un exercicio 
+económico e custo igual ou superior a 300,00) 
+ 
+10. Modificación das normas de inventario 
+ 
+Esta resolución modifica a Instrución do 3/2006 para a xestión do inventario da Universidade 
+da Coruña do 2/8/2006.  
+ 
+11. Disposicións da Xerencia 
+ 
+No ámbito das súas competencias, a Xerencia poderá ditar as instrucións que correspondan 
+para o desenvolvemento e execución desta resolución. 
+ 
+12. Publicación 
+ 
+Esta resolución publicarase no Taboleiro Electrónico Oficial (TEO) da UDC 
+ 
+A presente resolución entrará en vigor o día da súa publicación. Pola necesidade de adecuar as 
+normas de inventario aos criterios de imputación económica recollidos n a Resolución do 
+17/7/2017, esta resolución terá efectos do 1/1/2018.  
+Os expedientes de gasto que no exercicio 2018 foran fiscalizados/contabilizados por RR do 
+31/5/2018 asociaranse á conta contable de inventario que corresponda conforme cos criterios  
+establecidos nesta resolución. 
+ 
+A Coruña, 19  de decembro de 2018 
+O xerente 
+ 
+Ramón del Valle López 
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA== Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 4/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ANEXO I
+200 Investimento en investigación
+201 Investimento en desenvolvemento
+203 Propiedade industrial e intelectual
+206 Aplicacións informáticas
+2.0.6.1 Adquisición de software  
+207 Investimento sobre activos utilizados en réxime de arrendamento ou cedidos
+209 Outro inmobilizado intanxible
+210 Terreos e bens naturais
+2.1.0.1  Terreos
+211 Construcións
+2.1.1.1 Edificios
+2.1.1.2 Instalacións deportivas
+2.1.1.3 Edificios de servizos
+212 Infraestruturas
+213 Bens do patrimonio histórico 
+214 Maquinaria e utensilios
+2.1.4.1 Maquinaria 
+2.1.4.2 Utensilios
+2.1.4.3 Equipamento científico e de laboratorio 
+215 Instalacións técnicas e outras instalacións
+2.1.5.1 Instalacións
+2.1.5.2 Equipamento para o plan de eficiencia enerxética
+216 Moblaxe
+2.1.6.1 Equipamento xeral
+       2.1.6.1.001 Máquinas de oficina
+       2.1.6.1.004 Electrodomésticos
+       2.1.6.1.005 Material deportivo
+       2.1.6.1.999 Outro equipamento xeral
+2.1.6.2 Moblaxe
+      2.1.6.2.001 Mesas 
+      2.1.6.2.002 Cadeiras 
+      2.1.6.2.003 Armarios 
+      2.1.6.2.004 Téxtil 
+      2.1.6.2.999 Outro mobiliario
+217 Equipos para procesos de información
+2.1.7.1 Unidades centrais
+2.1.7.2 Periféricos
+2.1.7.3 Equipos de luz, son e audiovisuais
+2.1.7.4 Telefonía
+2.1.7.9 Outros equipos para procesos de información
+218 Elementos de transporte
+2.1.8.1 Furgoneta
+2.1.8.2 Turismo
+2.1.8.3 Embarcacións
+2.1.8.4 Outros elementos de transporte
+219 Outro inmobilizado material
+2.1.9.1 Fondos bibliográficos. Libros
+Contas e subcontas contables (PXCP 2010)  
+20  Inmobilizacións intanxibles 
+21  Inmobilizacións materiais 
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA==Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 5/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ANEXO II
+206
+2.0.6.1 Adquisición de sóftware 640.07 Licenzas de sóftware
+210
+2.1.0.1 Terreos 610.00 Investimento en terreos
+211
+2.1.1.1 Edificios 622.00 Edificios e outras construcións
+2.1.1.2 Instalacións deportivas 622.00 Edificios e outras construcións
+2.1.1.3 Edificios de servizos 622.00 Edificios e outras construcións
+214
+2.1.4.1 Maquinaria 623.01 Maquinaria
+2.1.4.2 Utensilios 623.02 Utensilios
+2.1.4.3 Equipamento científico e de laboratorio 623.03 Equipamento científico e de laboratorio
+215
+2.1.5.1 Instalacións 623.00 Instalacións
+2.1.5.2 Equipamento para o plan de eficiencia enerxética 623.04 Actuacións do plan de eficiencia enerxética 
+216
+2.1.6.1 Equipamento xeral 625.00 Mobiliario e avíos 
+2.1.6.2 Moblaxe 625.00 Mobiliario e avíos 
+217
+2.1.7.1 Unidades centrais 626.00 Sistemas para procesos de información 
+2.1.7.2 Periféricos 626.00 Sistemas para procesos de información 
+2.1.7.3 Equipos de luz, son e audiovisuais 626.00 Sistemas para procesos de información 
+2.1.7.4 Telefonía 626.00 Sistemas para procesos de información 
+2.1.7.9 Outros equipos para procesos de información 626.00 Sistemas para procesos de información 
+218
+2.1.8.1 Furgoneta 624.00 Elementos de transporte
+2.1.8.2 Turismo 624.00 Elementos de transporte
+2.1.8.3 Embarcacións 624.00 Elementos de transporte
+2.1.8.4 Outros elementos de transporte 624.00 Elementos de transporte
+219
+2.19.1 Fondos bibliográficos. Libros 628.00 Adquisición de fondos bibliográficos e documentais
+Equipos para procesos de información
+Elementos de transporte
+Outro inmobilizado material
+Terreos e bens naturais
+Construcións
+Maquinaria e utensilios
+Instalacións técnicas e outras instalacións
+Moblaxe
+SUBCONCEPTOS ECONÓMICOSCONTAS E SUBCONTAS CONTABLES
+Inmobilizacións intanxibles 
+Inmobilizacións materiais 
+Aplicacións informáticas
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA==Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 6/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ 
+1 
+ 
+ 
+ANEXO III 
+ 
+ 
+Actualización do apartado 2.1 –  Material inventariable da Instrución 3/2006 para a 
+xestión de inventario 
+ 
+BENS MOBLES INVENTARIABLES 
+ 
+ 
+Os bens mobles de natureza inventariable adquiriranse con cargo ao Capítulo VI  
+“Investimentos reais” 
+ 
+Será inventariable aquel ben moble non funxible, que cumpra os dous requisitos que se 
+indican: 
+ 
+• Que a súa vida útil sexa superior a un exercicio económico. 
+• Que o seu custo de adquisición sexa igual o u superior a 300,00 € (incluídos impostos, 
+transportes, seguros e gastos de instalación). 
+    
+Non obstante, con independencia do seu valor, incluiranse en inventario os segui ntes bens  
+mobles:            
+            
+1. Moblaxe 
+•  Mesas 
+•  Cadeiras 
+•  Caixóns 
+•  Armarios/estantes non encaixados 
+•  Arquivadores 
+ 
+Conta contable Subconcepto económico 
+2.1.6 625.00 
+ 
+ 
+2. Electrodomésticos 
+•  Fornos 
+•  Microondas 
+•  Frigoríficos 
+ 
+Para uso xeral Para uso en laboratorios 
+Conta contable Subconcepto económico Conta contable Subconcepto económico 
+2.1.6 625.00 2.1.4.3 623.03 
+ 
+ 
+ 
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA==Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 7/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ 
+2 
+ 
+ 
+ 
+3. Material deportivo 
+•  Canastras de baloncesto 
+•  Porterías 
+•  Escadas para xuíces 
+•  Postes de voleibol, tenis e bádminton 
+•  Rocódromo de escalada 
+•  Saltómetros de altura, pértega 
+•  Marcadores electrónicos 
+•  Material de atletismo (obstáculos, tacos de saída, marcadores) 
+•  Máquinas de musculación e de cardio 
+•  Mesas de tenis de mesa 
+•  Bicicletas 
+•  Colchonetas de gran volume 
+•  Embarcacións 
+•  Táboas de paddle surf e windsurf 
+•  Kayaks 
+•  Podio 
+•  Padiolas 
+•  Pulsómetro 
+•  Toldos 
+ 
+ 
+ 
+Conta contable Subconcepto económico 
+2.1.6.1.005 625.00 
+ 
+ 
+ 
+ 
+  
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA==Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 8/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ 
+3 
+ 
+ 
+ 
+4. Equipos para procesos de información 
+•  Ordenadores de sobremesa (o seu valor incluirá o prezo do rato e do teclado) 
+•  Ordenadores portátiles 
+•  Monitores 
+•  Escáner 
+•  Lectores ópticos 
+•  Impresoras 
+•  Equipos multifunción (copia, impresión, escaneamento e fax) 
+•  Tabletas 
+•  Proxectores 
+•  Televisores 
+•  Cámaras de vídeo e fotográficas 
+•  Equipos de reprodución de audio e vídeo 
+•  Equipos de videoconferencia 
+ 
+ 
+Conta contable Subconcepto económico 
+2.1.7 626.00 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA==Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 9/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ 
+4 
+ 
+ 
+ 
+BENS MOBLES NON INVENTARIABLES 
+ 
+    
+Os bens mobles non susceptibles de ser inventariados , ben por non alcanzar en a contía 
+mínima inventariable ben por non cumprir en os demais requisitos, serán adquiridos con cargo 
+ao Capítulo II “Gastos correntes en bens e servizos”. 
+ 
+A adquisición de material de uso funxible, para efectuar probas ou ensaios especializados, non 
+será inventariable, independentemente do seu custo. Nest e caso deberá constar no expediente 
+de gasto un informe do/a  responsable da partida que acredite o carácter funxible da/s 
+subministración/s. 
+ 
+ 
+Subconcepto económico: 220.02 – Material informático non inventariable 
+•  Adaptadores, cargadores, alimentadores 
+•  Altofalantes 
+•  Auriculares 
+•  Baterías portátiles ou internas 
+•  Discos duros (internos ou externos) 
+•  Placa base 
+•  Memoria RAM 
+•  Tarxetas de son, vídeo e gráficas 
+•  Tarxetas de memoria 
+•  Conversor 
+•  Conectores 
+•  Fonte de alimentación interna 
+•  Ventiladores 
+•  Memoria USB 
+•  Lectores de tarxeta 
+•  Fundas de tableta 
+•  Elementos de gravación (CD, DVD...) 
+•  Maletín do portátil 
+•  Micrófonos 
+•  Rato 
+•  SAI 
+•  Teclado 
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA==Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 10/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ 
+5 
+ 
+•  Cámara web 
+•  Encamiñador 
+ 
+ 
+ 
+Subconcepto económico: 221.08 – Material deportivo e cultural 
+•  Balóns 
+•  Colchoneta de espuma 
+•  Redes 
+•  Bandeirola de córner 
+•  Rede gaiola de lanzamentos 
+•  Material de escalada (arneses, cordas, mosquetóns, descendedores, cascos) 
+•  Pesos libres (barras, discos, pesas, kettlebell) 
+•  Gomas 
+•  Bosus 
+•  Cordas, obstáculos, escadas de coordinación 
+•  TRX 
+•  Baloneiras 
+•  Fitball 
+•  Steps 
+•  Bombas de aire 
+•  Equipacións deportivas de xogo 
+ 
+Subconcepto económico: 221.13 – Pequeno equipamento non inventariable 
+  
+•  Material de oficina:  grampadoras, destrutoras, tesoiras, papeleiras, lámpadas, 
+percheiros, taboleiros, carros movibles de carpetas colgantes, calculadoras de peto, 
+pequenas etiquetadoras tipo Dymo e, en xeral, o material de oficina pequeno e común.  
+•  Material de laboratorio: de vidro (probetas, matraces...) e incluso pequenas montaxes 
+construídas a partir de compoñentes soltos para realizar prácticas. En calquera caso, 
+non é inventariable o material desbotable independentemente do seu prezo. 
+•  Material de reposto de máquinas, instalacións e equipos: cables de instalaci ón eléctrica, 
+enchufes, caixas de distribución, tomas de voz e datos, farois, lámpadas. 
+•  Instrumentos pequenos de uso sanitario  
+•  As ferramentas de uso individual: desaparafusadores, alacates, martelo e semellantes 
+•  Alfombras, cortinas, persianas e similares 
+•  Lámpadas fixas de teito ou de parede 
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA==Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 11/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==
+
+
+ 
+6 
+ 
+•  Outros elementos como radiadores, secadores de man, testos exteriores, ventiladores, 
+micrófonos, encerados e semellantes. 
+ 
+ 
+   
+ 
+Adquisicións de bens mobles non susceptibles de seren inventariados, financiados con 
+cargo ao artigo 64 “Gastos en investimentos de carácter inmaterial”, para proxectos, 
+convenios, contratos e fondos de investigación.  
+ 
+A adquisición de elementos non inventariables que se detallan no apartado “Bens mobles non 
+inventariables”, imputaranse á económica que corresponda do artigo 64.    
+Código Seguro De Verificación eCYSFKu7UClkiBJ31+qGGA==Estado Data e hora
+Asinado Por Xerente  Ramón Alberto Del Valle López Asinado 20/12/2018 10:23:27
+Observacións Páxina 12/12
+Url De Verificación https://sede.udc.gal/services/validation/eCYSFKu7UClkiBJ31+qGGA==

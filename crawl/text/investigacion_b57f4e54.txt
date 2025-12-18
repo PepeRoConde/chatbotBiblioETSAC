@@ -58,13 +58,13 @@ App Store
 Google Play
 RSS
 
---- OCR de imagen: rotur.jpg_465627666_ed041caf.jpeg ---
-TUR
-
-Revista de Ocio y Turismo
-
 --- OCR de imagen: GidTUR.jpg_465627666_eadc9d7c.jpeg ---
 ~~ SA
 >
 
 GilDBTur
+
+--- OCR de imagen: rotur.jpg_465627666_ed041caf.jpeg ---
+TUR
+
+Revista de Ocio y Turismo

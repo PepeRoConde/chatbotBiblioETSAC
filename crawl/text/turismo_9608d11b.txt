@@ -80,19 +80,18 @@ RSS
 =e. R
 Sze UNIVERSIDADE DA CORUNA
 
---- OCR de imagen: oix_udc.png_586547881_b1b1b4b4.png ---
-OIX
-
-Oficina para a Igualdade de Xénero
-
---- OCR de imagen: mobilidade.jpg_2094099690_9afea677.jpeg ---
-eae eee
-a | tte ene
+--- OCR de imagen: LogoCampusSustenta.png_75754649_f3e3f310.png ---
+9 Campus
+Sustentabilidade
 
 --- OCR de imagen: campus_innova.png_150520866_a6a18cfa.png ---
 C2
 CAMPUS
 INNOVA
+
+--- OCR de imagen: mobilidade.jpg_2094099690_9afea677.jpeg ---
+eae eee
+a | tte ene
 
 --- OCR de imagen: udc-saudable.jpg_75754649_c89bf4f2.jpeg ---
 UDC paliGanse
@@ -101,7 +100,3 @@ UNIVERSIDADE DA CORUNA
 
 --- OCR de imagen: OMA_udc.jpg_586547881_dfdbda0f.jpeg ---
 Oficina de Medio Ambiente UDC
-
---- OCR de imagen: LogoCampusSustenta.png_75754649_f3e3f310.png ---
-y] Campus
-Sustentabilidade

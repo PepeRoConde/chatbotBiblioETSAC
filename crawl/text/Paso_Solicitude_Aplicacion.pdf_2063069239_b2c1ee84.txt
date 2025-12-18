@@ -1,0 +1,108 @@
+1 
+ 
+REXISTRO E SOLICITUDE NA APLICACIÓN 
+ 
+O acceso á aplicación faise a través do enderezo web https://www.qdsug.es/docentia/udc/ 
+ 
+ 
+A. PROFESORADO QUE ACCEDE POR 1ª VEZ Á APLICACIÓN 
+ 
+ 
+1. REXISTRO NA APLICACIÓN  
+ 
+Antes de cubrir a s úa solicitude ten que se rexistrar. Para iso, unha vez  que acceda, debe 
+premer en “Rexistro solicitantes” 
+ 
+ 
+ 
+ 
+ 
+Deseguido, aparécelle o seguinte formulario: 
+ 
+ 
+ 
+
+
+2 
+ 
+Debe introducir introduc ir o seu DNI  (sen puntos , sen guións, sen espazos e co a letra 
+maiúscula) e o enderezo de correo electrónico  (o que lle asignaron en 
+https://servizos.udc.es) e recibirá unha mensaxe coa súa clave de acceso á aplicación (esta 
+será a que ten que utilizar sempre ao longo de todo o proceso).  
+A mensaxe remítese desde un enderezo externo á UDC ( info@qdsug.es), polo que adoita 
+entrar na bandexa de correo non desexado. 
+ 
+ 
+2. ACCESO Á SOLICITUDE 
+ 
+ 
+ 
+ 
+Para poder acceder á solicitude terá que se autenticar indicando: 
+ 
+USUARIO: vai ser sempre o seu DNI  (sen puntos , sen guións, sen espazos  e coa  letra 
+maiúscula)  
+CLAVE: a que recibiu a través do correo electrónico 
+ROL: solicitante 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+3 
+ 
+B. PROFESORADO QUE FOI AVALIADO EN CONVOCATORIAS ANTERIORES  
+  
+1. ACCESO Á SOLICITUDE 
+ 
+Este profesorado xa está rexistrado na aplicación e para acceder á solicitude terá que se 
+autenticar indicando: 
+ 
+USUARIO: vai ser sempre o seu DNI (sen puntos , sen guións, sen espazos  e coa  letra 
+maiúscula)  
+CLAVE: a que utilizou na última convocatoria en que foi avaliado/a. 
+ROL: solicitante 
+ 
+En caso de que non lembre a clave, debe premer en “Lembrar clave” 
+ 
+ 
+ 
+ 
+ 
+Deseguido, aparécelle o seguinte formulario: 
+ 
+
+
+4 
+ 
+ 
+ 
+ 
+Debe introducir o seu usuario  (DNI sen puntos, sen guións, sen espaz os e co a letra 
+maiúscula) e o rol (solicitante) e, no seu correo electrónico, recibirá unha mensaxe coa clave 
+de acceso á aplicación (esta será a que ten que utilizar sempre ao longo de todo o proceso).  
+A mensaxe remítese desde un  enderezo externo á UDC ( info@qdsug.es) polo que adoita 
+entrar directamente na bandexa de correo non desexado. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,1148 @@
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA  
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS  
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+ 
+MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ ÓRGANO FECHA 
+ELABORADO Unidad Técnica de Calidad 28/04/2018 
+CONTEXTUALIZADO Comisión de Garantía de 
+Calidad  08/03/2023 
+REVISADO Unidad Técnica de Calidad 12/04/2023 
+APROBADO Junta de Centro 21/04/2023 
+ 
+ 
+ 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+2 
+ 
+ 
+ 
+RESUMEN DE REVISIONES 
+EDICIÓN FECHA MODIFICACIONES 
+00 18/04/2008 Edición inicial 
+01 17/11/2008 Incorporación de las propuestas de mejora de la 
+Comisión de Evaluación 
+02 20/07/2009 Adaptación a la ETSNM 
+03 06/06/2013 2da Adaptación a la ETSNM 
+04 21/04/2023 Revisión y actualización del SGC por cambios 
+normativos 
+ 
+ 
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+3  
+ÍNDICE 
+1. Presentación del centro ................................ ................................ ................................ ............... 4 
+2. Sistema de Garantía de Calidad................................ ................................ ................................ ... 4 
+3. Alcance ................................ ................................ ................................ ................................ .......... 5 
+4. Estructura para la calidad. Responsabilidades ................................ ................................ .......... 5 
+4.1. Nivel de universidad ................................ ................................ ................................ ................. 6 
+4.2. Nivel de centro ................................ ................................ ................................ ......................... 6 
+4.3. Nivel de título ................................ ................................ ................................ ........................... 7 
+5. Documentación ................................ ................................ ................................ ............................. 7 
+6. Grupos de interés. Participación y rendición de cuentas ................................ ........................ 10 
+Anexos ................................ ................................ ................................ ................................ ............ 12 
+Anexo I. Relación de evidencias e indicadores ................................ ................................ ............ 12 
+Anexo II. Definición de los indicadores................................ ................................ ......................... 17 
+Anexo III. Plantilla de acta ................................ ................................ ................................ .............. 21 
+Anexo IV. Plantilla de acción de mejora ................................ ................................ ........................ 22 
+Anexo V. Normativa y documentación de referencia ................................ ................................ ... 23 
+ 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+4  
+1. Presentación del centro 
+ 
+La Escuela Técnica Superior de Náutica y Máquinas (ETSNM) de la Universidad de A Coruña (UDC) 
+tiene como objetivo principal  la formación de profesionales altamente cualificados, proporcionando 
+una sólida formación cultural, científica y tecnológica con el fin de adquirir los conocimientos teóricos 
+y prácticos del ámbito marítimo y también del industrial, administrativo e investigador. 
+Su funcionamiento está determinado por el Reglamento de Régimen Interno (RRI) que está publicado 
+en la web (https://udc.es/nauticaemaquinas/escola/normativa/). 
+ 
+El órgano de gobierno es la Junta de centro (JC) y su órgano ejecutivo en materia de calidad es la 
+Comisión de Garantía de Calidad (CGC). La composición de la JC está recogida en los Estatutos de 
+la UDC y la de la CGC está recogida en una Resolución del vicerrectorado de oferta académica e 
+innovación docente comunicada en noviembre de 2017, por la que se actualiza la composición de la 
+Comisión de Garantía de Calidad (CGC) de los Sistemas de Garantía Interna de Calidad ( SGC) de 
+los centros de la UDC. La composición de ambas también está recogida en el RRI y publicada en la 
+web y https://udc.es/nauticaemaquinas/escola/organos-goberno/. 
+ 
+2. Sistema de Garantía de Calidad 
+ 
+El SGC de la ETSNM es la base para el desarrollo del ciclo de vida (verificación-seguimiento-
+modificación-acreditación-extinción: VSMAE) de los títulos que imparte , facilita su gestión y mejora 
+continua, así como los procesos de evaluación externa. 
+ 
+El SGC está constituido por procesos clasificados en dimensiones a los que aplica el ciclo de mejora 
+continua, de forma individual y en su conjunto: planificar, hacer, verificar y actuar (PHVA). Todas las 
+actividades se planifican (P); se desarrollan según lo planificado o con las actualizaciones que surjan, 
+dejando constancia de éstas (H); se comprueba el éxito obtenido en dichas actividades ( V); y se 
+plantea su continuidad por medio de las correspondientes acciones de mejora derivadas del análisis 
+anterior (A). 
+ 
+ Planificar conlleva establecer el objetivo que se quiere alcanzar, las acciones a desarrollar, 
+sus responsables, los recursos necesarios, el seguimiento de dichas acciones, los 
+indicadores, etc. 
+ Hacer implica implementar las acciones previamente planificadas. 
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+5  
+ Verificar supone recoger evidencias de lo realizado, tanto de los indicadores marcados en la 
+planificación como la opinión (satisfacción) de los responsables de la ejecución de las 
+diferentes acciones para evaluar lo realizado, valorar si se ha cumplido lo previsto, analizando 
+las causas de lo que no haya salido de forma correcta. 
+ Actuar es analizar la información de cada proceso y realizar la propuesta de actuación para 
+el próximo curso. 
+ 
+El objetivo principal que se persigue con la aplicación del ciclo de mejora continua es realizar una 
+gestión eficaz de las actividades desarrolladas y mostrar los resultados para rendir cuentas a la 
+sociedad. En la página web de la ETSNM (https://udc.es/nauticaemaquinas/) y en la página web 
+institucional (portal de estudios de la UDC) (https://estudos.udc.es/es) se aporta información 
+actualizada de cada título. Además, en la página web de l Centro , en el apartado de calidad 
+(https://udc.es/nauticaemaquinas/calidade/), se incluye la última versión del SGC y de la política y 
+los objetivos de calidad.  
+ 
+La gestión del SGC se hace a través de una aplicación informática (https://calidade.udc.gal/) en la 
+que se clasifican los procesos a nivel de centro y de título, con diferentes niveles de acceso según 
+del perfil que se trate (UTC, equipo directivo, responsable de calidad  de centro, coordinación de 
+título y personal de administración).  
+ 
+3. Alcance 
+ 
+El SGC alcanza a todos los títulos oficiales de grado y máster que se imparten en el Centro.  
+En los títulos interuniversitarios, en que la responsable administrativa es otra Universidad, las 
+personas responsables de la coordinación en la UDC deben mantener actualizada la información 
+pública e incorporar al SGC las evidencias/indicadores que permiten la rendición de cuentas del 
+título. 
+ 
+4. Estructura para la calidad. Responsabilidades 
+ 
+La estructura para la calidad, con las responsabilidades respectivas, se establece en tres niveles: 
+ 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+6  
+4.1. Nivel de universidad 
+ Equipo Rectoral (ER). Apoyar la implantación, la revisión y la actualización del SGC en todos 
+los centros de la UDC. 
+ Consejo de Gobierno (CG). Aprobar la documentación marco del SGC. 
+ Unidad Técnica de Calidad (UTC). Elaborar la documentación marco del SGC de los centros 
+de la UDC, remitírsela al ER para su aprobación por el CG. Revisar la documentación del SGC 
+contextualizada por cada centro. Dar apoyo técnico en la gestión del SGC y en el ciclo de vida 
+de los títulos (VSMAE).  
+ 
+4.2. Nivel de centro  
+La estructura para la calidad está publicada en la web del centro 
+(https://udc.es/nauticaemaquinas/escola/organos -goberno/).  
+ 
+ Junta de centro  (JC). Aprobar la documentación del SGC y sus 
+actualizaciones/modificaciones, los informes relativos al SGC y al ciclo de vida de los títulos 
+que marque la normativa vigente , el plan de mejora del centro  y la política y los objetivos 
+estratégicos de calidad y los objetivos operativos anuales.  
+ Equipo Directivo (ED). Implantar, revisar y actualizar el SGC. Elaborar, revisar y actualizar la 
+política, los objetivos estratégicos de calidad y los objetivos operativos anuales. 
+ Comisión de Garantía de Calidad (CGC) . Revisar y analizar la documentación del SGC  y 
+la información relativa a las evidencias e indicadores de los procesos y establecer las 
+acciones de mejora correspondientes. 
+ Persona Responsable de calidad (PRC). Gestionar los procesos de centro para su posterior 
+análisis por la CGC. Revisar la información relativa a las evidencias e indicadores de los 
+procesos de los títulos. Revisar y actualizar la información pública del apartado de calidad de 
+la web del centro. 
+ Comisión Académica (CA) . Revisar y analizar la informac ión relativa a las evidencias e 
+indicadores de los procesos de  los títulos que se imparten en la ETSNM  y establecer las 
+acciones de mejora correspondientes. Proponer a la CGC mejoras relativas al SGC. 
+ 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+7  
+4.3. Nivel de título 
+ Coordinador/a de título (CT). Gestionar los procesos del título para su posterior análisis por 
+la CA. Revisar y actualizar la información pública del título. 
+ 
+De todas las reuniones se dejará constancia, en el acta correspondiente, de los acuerdos tomados 
+(anexo III) y del lugar de su archivo. 
+ 
+5. Documentación  
+ 
+En el año 2015 se creó un grupo de trabajo formado por las personas responsables de calidad de los 
+centros de la UDC que tenían certificada la implantación del SGC y de la UTC para actualizar y mejorar 
+la documentación del SGC en base a:  
+ 
+ La experiencia acumulada desde el año 2008 por los centr os de la U DC en el diseño y la 
+implantación de sus SGC. 
+ Las recomendaciones que las distintas comisiones de evaluación han contemplado en los 
+informes de certificación del diseño y sobre todo de la implantación de los SGC de los centros 
+de la UDC. 
+ Las guías elaboradas por la Agencia para la Calidad del Sistema Universitario de Galicia 
+(ACSUG): Programa FIDES -AUDIT (para diseño y certificación del SGC) y l as 
+correspondientes a la s diferentes evaluaciones externas (verificación, seguimiento, 
+modificación y renovación de la acreditación  de títulos ), de modo que garantiza su 
+cumplimiento. 
+ Los Estándares Europeos de Garantía de la Calidad en las Instituciones de Educación Superior 
+(ESG, 2015). 
+ 
+En el primer trimestre de 2018, la UTC remite al ER la documentación marco del SGC para su revisión 
+que fue aprobada por el CG del 26/04/2018.  
+ 
+La documentación está basada en los criterios de: 
+ 
+ Sencillez y eficacia 
+ Cumplimiento de las indicaciones de la ACSUG. 
+ No repetir la información en los diferentes procesos y el manual. 
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+8  
+ No documentar lo que ya está establecido por normativa europea, estatal, autonómica, de la 
+Universidad y guías de la ACSUG. 
+ Incluir las evidencias e indicadores en la aplicación informática. 
+ 
+La documentación del SGC está compuesta por el manual y los procesos. El manual incluye: la 
+relación de evidencias e indicadores de cada uno de los procesos del SGC , la definición de los 
+indicadores, la plantilla del acta, la plantilla de acción de mejora y la normativa y documentación de 
+referencia que afecta al SGC del centro. Los 14 procesos dan respuesta a los estándares de calidad, 
+a las directrices del Programa FIDES-AUDIT y a los criterios de seguimiento y acreditación de los 
+títulos oficiales de la ACSUG (Figura 1). 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+9  
+Figura 1. Mapa de procesos 
+ 
+ 
+  
+D07. GESTIÓN DE LA INFORMACIÓN
+D07-P01. Información pública
+D06. RESULTADOS
+D06-P01. Resultados académicos D06-P02. Gestión de incidencias (S-Q-P-F) D06-P03. Satisfacción
+D05. RECURSOS MATERIALES Y SERVICIOS
+D05-P01. Gestión de los recursos materiales y de la prestación de servicios
+D04. RECURSOS HUMANOS
+D04-P01. Gestión del personal académico y de apoyo a la docencia
+D03. ENSEÑANZA-APRENDIZAJE Y APOYO AL ALUMNADO
+D03-P01. Captación, 
+selección, admisión y 
+perfil de ingreso
+D03-P02. Planificación y 
+desarrollo de las 
+enseñanzas
+D03-P03. Apoyo al 
+alumnado D03-P04. Movilidad D03-P05. Prácticas 
+externas
+D02. DISEÑO, REVISION Y MEJORA DE LOS PROGRAMAS FORMATIVOS
+D02-P01. Diseño, seguimiento, modificación, acreditación y extinción de títulos oficiales
+D01. POLÍTICA Y OBJETIVOS DE CALIDAD
+D01-P01. Política y objetivos de calidad D01-P02. Gestión, revisión y mejora del SGC
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+10  
+Los procesos cuentan con una portada en la que se incluye  el cuadro de firmas y de resumen de 
+revisiones. En las siguientes páginas se despliegan los siguientes contenidos: 
+ 
+ Objeto. Se describen los propósitos fundamentales y los contenidos generales que se 
+desarrollan en el documento. 
+ Definiciones. Se incluye, si procede, una lista de las palabras o conceptos que precisen una 
+definición para su correcto uso o interpretación. 
+ Responsables. Se indican los órganos unipersonales o colegiados, los servicios, etc. que 
+tienen responsabilidades asignadas en cada uno de los procesos. 
+ Documentación. Se incluye como anexo V a este Manual  la relación de la normativa y 
+documentación de referencia que afecta a cada proceso. 
+ Desarrollo. Se describen de forma clara las actividades, acompañadas de l os responsables 
+de su consecución y relacionadas entre sí.  
+ Evidencias/indicadores. Se identifican las evidencias y/o indicadores que genera la ejecución 
+del proceso.  
+ 
+La codificación de la documentación es la siguiente: 
+ 
+ Dimensiones (DXX). D: dimensión. XX: ordinal simple. 
+ Procesos (DXX.PXX). D: dimensión. P: proceso. XX: ordinal simple. 
+ Evidencias (DXX.PXX.EXX). D: dimensión. P: proceso. E: evidencia. XX: ordinal simple. 
+ Indicadores (DXX.PXX.IXX). D: dimensión. P: proceso. I: indicador. XX: ordinal simple. 
+ 
+6. Grupos de interés. Participación y rendición de cuentas 
+ 
+La participación de los grupos de interés se relaciona en la Tabla 1, indicando los procesos en los que 
+participan, el modo de participación y la rendición de cuentas. 
+ 
+ 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+11  
+Tabla 1. Participación de los grupos de interés. 
+ 
+ 
+Grupo de 
+interés 
+ 
+Procesos 
+ 
+Modo  
+ 
+Rendición de cuentas 
+ 
+Alumnado 
+D01-P01, D01-P02  
+D02-P01 
+D03-P01, D03-P02, D03-P03, 
+D03-P04, D03-P05 
+D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01 
+ Órganos de representación 
+ Encuestas de satisfacción 
+ Preguntas, felicitaciones, 
+sugerencias y quejas 
+Órganos de representación 
+Páginas Web 
+Personal 
+Docente e 
+Investigador 
+D01-P01, D01-P02  
+D02-P01 
+D03-P01, D03-P02, D03-P03, 
+D03-P04, D03-P05 
+D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01 
+Personal de 
+apoyo 
+D01-P01, D01-P02  
+D02-P01 
+D03-P01, D03-P02, D03-P03, 
+D03-P04, D03-P05 
+D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01 
+Egresados/as 
+D01-P01 
+D02-P01 
+D06-P01, D06-P02, D06-P03, 
+D07-P01  Invitación a reuniones de los 
+órganos de representación 
+ Encuestas de satisfacción 
+ Preguntas, felicitaciones, 
+sugerencias y quejas Empleadores/as 
+D01-P01, D01-P02  
+D02-P01 
+D03-P01, D03-P02, D03-P03, 
+D03-P04, D03-P05 
+D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01 
+Sociedad en 
+general 
+D01-P01, D01-P02  
+D07-P01  Preguntas, felicitaciones, 
+sugerencias y quejas Páginas Web 
+ 
+ 
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+12  
+Anexos 
+Anexo I. Relación de evidencias e indicadores  
+EVIDENCIAS     
+D01-P01 POLÍTICA Y OBJETIVOS DE CALIDAD    
+D01-P01-E01. Actas    
+D01-P01-E02. Política y objetivos estratégicos de calidad    
+D01-P01-E03. Objetivos operativos anuales    
+D01-P01-E04. Acciones de mejora    
+D01-P02 GESTIÓN, REVISION Y MEJORA DEL SGC    
+D01-P02-E01. Actas    
+D01-P02-E02. Manual y procesos del SGC    
+D01-P02-E03. Informes de evaluación externa (diseño, certificación de la implantación y seguimiento) 
+D01-P02-E04. Cuadro de mando    
+D01-P02-E05. Listado de evidencias de la implantación del SGC 
+D01-P02-E06. Informe anual del centro    
+D01-P02-E07. Informe de auditoría del centro    
+D01-P02-E08. Acciones de mejora    
+D01-P02-E09. Plan anual de mejoras    
+D02-P01 DISEÑO, SEGUIMIENTO, MODIFICACIÓN, ACREDITACIÓN Y EXTINCIÓN DE LOS TÍTULOS 
+OFICIALES  
+D02-P01-E01. Actas     
+D02-P01-E02. Expediente de verificación/modificación del título 
+D02-P01-E03. Memorias vigentes de los títulos del centro    
+D02-P01.E04. Autoinformes de seguimiento anual/renovación acreditación del título/centro 
+D02-P01-E05. Informes finales de verificación/seguimiento/renovación acreditación del título/centro 
+D02-P01.E06. Expediente de extinción/supresión del título    
+D02-P01.E07. Acciones de mejora    
+D03-P01 CAPTACIÓN, SELECCIÓN, ADMISIÓN Y PERFIL DE INGRESO  
+D03-P01-E01. Actas    
+D03-P01-E02. Perfil real de ingreso    
+D03-P01-E03. Plan de captación     
+D03-P01-E04. Lista provisional de solicitudes admitidas y excluidas, y lista de espera 
+D03-P01-E05. Reclamaciones a la lista provisional    
+D03-P01-E06. Lista definitiva de solicitudes admitidas y excluidas. 
+D03-P01-E07. Acciones de mejora    
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+13  
+EVIDENCIAS 
+D03-P02 PLANIFICACIÓN Y DESARROLLO DE LAS ENSEÑANZAS 
+D03-P02-E01. Actas    
+D03-P02-E02. Plan Docente Anual (PDA)    
+D03-P02-E03. Plan de Organización Docente (POD)    
+D03-P02-E04. Guías docentes    
+D03-P02-E05. Horarios, aulas y calendari o académico  del 
+centro/título 
+   
+D03-P02-E06. Reglamento interno para el desarrollo y evaluación de los TFG/TFM 
+D03-P02-E07. Listado de estudiantes que han solicitado reconocimiento de créditos  
+D03-P02-E08. Informes sobre el reconocimiento de créditos  
+D03-P02-E09. Acciones de mejora    
+D03-P03 APOYO AL ALUMNADO    
+D03-P03-E01. Actas    
+D03-P03-E02. PAAE del centro 
+D03-P03-E03. Acciones de mejora    
+D03-P04 MOVILIDAD    
+D03-P04-E01. Actas    
+D03-P04-E02. Listado de centros/universidades con convenio de movilidad 
+D03-P04-E03.Convenios de colaboración en vigor    
+D03-P04-E04. Relación de actividades para fomentar la participación del alumnado 
+D03-P04-E05. Acciones de mejora    
+D03-P05 PRÁCTICAS EXTERNAS    
+D03-P05-E01. Actas    
+D03-P05-E02. Listado de centros/entidades para la realización de prácticas externas 
+D03-P05-E03. Convenios en vigor con las entidades donde se realizan prácticas externas  
+D03-P05-E04. Distribución del alumnado por centro de prácticas obligatorias  
+D03-P05-E05. Distribución del alumnado por centro de prácticas no obligatorias  
+D03-P05-E06. Acciones de mejora    
+D04-P01 GESTIÓN DEL PERSONAL ACADÉMICO Y DE APOYO A LA DOCENCIA  
+D04-P01-E01. Actas    
+D04-P01-E02. CV profesorado externo    
+D04-P01-E03. Acciones de mejora    
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+14  
+EVIDENCIAS 
+D05-P01 GESTIÓN DE LOS RECURSOS MATERIALES Y DE LA PRESTACIÓN DE SERVICIOS 
+D05-P01-E01. Actas    
+D05-P01-E02. Información sobre los recursos materiales y servicios relacionados con el título  
+D05-P01-E03. Fondos bibliográficos y otros recursos documentales relacionados con el título  
+D05-P01-E04. Materiales didácticos y/o tecnológicos que permitan el aprendizaje a distancia  
+D05-P01-E05. Acciones de mejora    
+D06-P01 RESULTADOS ACADÉMICOS    
+D06-P01-E01. Actas    
+D06-P01-E02. Listado de trabajos fin de grado/máster (título, tutor/a y calificación). 
+D06-P01-E03. Adquisición de resultados de aprendizaje    
+D06-P01-E04. Acciones de mejora    
+D06-P02 GESTIÓN DE INCIDENCIAS (S-Q-P-F)    
+D06-P02-E01. Actas    
+D06-P02-E02. Sugerencias, quejas, preguntas y felicitaciones 
+D06-P02-E03. Informe de la persona, órgano o servicio implicado 
+D06-P02-E04. Respuesta a las sugerencias, quejas y preguntas 
+D06-P02-E05. Acciones de mejora    
+D06-P03 SATISFACCIÓN    
+D06-P03-E01. Actas    
+D06-P03-E02. Protocolo de aplicación de encuestas    
+D06-P03-E03. Encuestas satisfacción con el título a los 
+grupos interés 
+   
+D06-P03-E04. Encuestas de satisfacción del alumnado con 
+la docencia (AVALIEMOS) 
+   
+D06-P03-E05. Acciones de mejora    
+D07-P01 INFORMACIÓN PÚBLICA    
+D07-P01-E01. Actas    
+D07-P01-E02. Páginas web del título, centro y Universidad con información actualizada y coherente  
+D07-P01-E03. Acciones de mejora    
+ 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+15  
+INDICADORES    
+D01-P01 POLÍTICA Y OBJETIVOS DE CALIDAD    
+D01-P01-I01. Porcentaje de objetivos operativos anuales alcanzados 
+D01-P02 GESTIÓN, REVISION Y MEJORA DEL SGC    
+D01-P02-I01. Grado de acciones de mejora ejecutadas 
+D03-P01 CAPTACIÓN, SELECCIÓN, ADMISIÓN Y PERFIL DE INGRESO  
+D03-P01-I01. Número total de alumnado de nuevo ingreso en el título 
+D03-P01-I02. En caso de máster, número de alumnado de nuevo ingreso y título de procedencia  
+D03-P01-I03. Relación de oferta/demanda de plazas de nuevo ingreso 
+D03-P01-I04. Relación de matrícula de nuevo ingreso/oferta de plazas de nuevo ingreso 
+D03-P02 PLANIFICACIÓN Y DESARROLLO DE LAS ENSEÑANZAS 
+D03-P02-I01. Número total de alumnado matriculado 
+D03-P02-I02. Media de alumnado por grupo de docencia    
+D03-P02-I03. Porcentaje de asignaturas con reclamaciones en los criterios de evaluación 
+D03-P03 APOYO AL ALUMNADO    
+D03-P03-I01. Porcentaje de acciones de atención al alumnado realizadas  
+D03-P03-I02. Número total de alumnado que participa en las acciones de atención realizadas 
+D03-P04 MOVILIDAD    
+D03-P04-I01. Número total de alumnado saliente y entrante por tipo de programa de movilidad 
+D03-P04-I02. Relación entre el número total de alumnado saliente que solicita participar y el número total de 
+plazas ofertadas, por tipo de programa de movilidad 
+D03-P04-I03. Relación entre el número total de alumnado saliente y el número total de alumnado matriculado 
+en el título 
+D03-P05 PRÁCTICAS EXTERNAS    
+D03-P05-I01. Porcentaje de alumnado que participa en las prácticas no obligatorias 
+D03-P05-I02. Porcentaje de alumnado que participa en las prácticas obligatorias 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+16  
+INDICADORES    
+D04-P01 GESTIÓN DEL PERSONAL ACADÉMICO Y DE APOYO A LA DOCENCIA  
+D04-P01-I01. Número de PDI del título por categoría 
+D04-P01-I02. Numero de quinquenios y sexenios del PDI del título por categoría  
+D04-P01-I03. Participación del PDI del título en planes de formación de la UDC y en actividades formativas 
+específicas 
+D04-P01-I04. PDI del título evaluado por el programa DOCENTIA y resultados obtenidos   
+D04-P01-I05. Número de PAS del centro por categoría 
+D04-P01-I06. Porcentaje de participación del PAS del centro en planes de formación de la Universidad y 
+en actividades formativas específicas  
+D04-P01-I07. Número total de PDI del título/PAS del centro que participa en los programas de movilidad 
+(entrante y saliente), por tipo de programa 
+D04-P01-I08. Porcentaje de PDI del título que participa en los programas de movilidad 
+D04-P01-I09. Porcentaje de PAS del centro que participa en los programas de movilidad  
+D06-P01 RESULTADOS ACADÉMICOS    
+D06-P01-I01. Resultados académicos de los títulos (titulo/centro/rama/universidad)  
+D06-P01-I02. Indicadores de inserción laboral    
+D06-P01-I03. Indicadores del SIIU    
+D06-P02 GESTIÓN DE INCIDENCIAS (S-Q-P-F)    
+D06-P02-I01. Número de preguntas, felicitaciones, sugerencias y quejas dirigidas al centro y/o al título 
+D06-P03 SATISFACCIÓN     
+D06-P03-I01. Satisfacción de los grupos de interés con el título (porcentaje de participación y resultados) 
+D06-P03-I02. Satisfacción del alumnado con la docencia (AVALIEMOS) (porcentaje de participación y 
+resultados) 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+17  
+Anexo II. Definición de los indicadores 
+INDICADORES DEFINICIÓN 
+D01-P01-I01. Porcentaje de objetivos operativos 
+anuales alcanzados 
+Relación porcentual entre el número de objetivos 
+operativos anuales alcanzados y el número de 
+objetivos operativos anuales propuestos 
+D01-P02-I01. Porcentaje de acciones de mejora 
+ejecutadas 
+Relación porcentual entre el número de acciones 
+ejecutadas y el número de acciones propuestas 
+D03-P01-I01. Número total de alumnado de nuevo 
+ingreso 
+Número total de alumnado que se matricula por primera 
+vez en el título, por curso académico 
+D03-P01-I02. En caso de máster, número total de 
+alumnado de nuevo ingreso y título de procedencia 
+Número total de alumnado que se matricula por primera 
+vez en el título de máster por título de procedencia  y 
+curso académico 
+D03-P01-I03. Relación demanda de plazas de nuevo 
+ingreso en primera opción/oferta de plazas 
+Relación porcentual entre el número de estudiantes 
+preinscriptos en primera opción y el número total de 
+plazas ofertadas por el título, por curso académico. 
+D03-P01-I04. Relación de matrícula de nuevo 
+ingreso/oferta de plazas de nuevo ingreso  
+Relación porcentual entre el número de total de 
+alumnado de nuevo ingreso matriculado en el título y el 
+número de plazas ofertadas por el título, por curso 
+académico 
+D03-P02-I01. Número total de alumnado matriculado  Número total de estudiantes que se matriculan en el 
+título, por curso académico 
+D03-P02-I02. Media de alumnado por grupo de 
+docencia  
+Relación entre el número de alumnos matriculados en 
+cada materia del título y el número de grupos en teoría 
+y práctica, por curso académico 
+D03-P02-I03. Porcentaje de asignaturas con 
+reclamaciones en los criterios de evaluación 
+Relación porcentual entre las asignaturas con 
+reclamaciones en los criterios de evaluación  y el 
+número total de asignaturas, por curso académico 
+D03-P03-I01. Porcentaje de acciones de atención al 
+alumnado realizadas 
+Relación porcentual entre el número de acciones de 
+atención al alumnado realizadas y el número de 
+acciones totales programadas, por curso académico 
+D03-P03-I02. Número total de alumnado que participa 
+en las acciones de atención realizadas 
+Número total de alumnado que participa en las acciones 
+de atención realizadas, por curso académico 
+D03-P04-I01. Número total de alumnado saliente y 
+entrante por tipo de programa de movilidad 
+Número total de alumnado (saliente) del título que 
+participó en cada uno de los programas de movilidad, 
+por curso académico 
+Número total de alumnado (entrante) del título que 
+participó en cada uno de los programas de movilidad, 
+por curso académico 
+D03-P04-I02. Relación entre el número total de 
+alumnado (saliente) que solicita participar y el número 
+total de plazas ofertadas, por tipo de programa de 
+movilidad 
+Relación porcentual entre el número total de alumnado 
+matriculado en el título que solicita participar en cada 
+uno de los programas movilidad y el número total de 
+plazas que se ofertan en cada uno de esos programas, 
+por curso académico 
+D03-P04-I03. Relación entre el número total de 
+alumnado (saliente) y el total del alumnado matriculado 
+en el título  
+Relación porcentual entre el número total de alumnado 
+matriculado que participa en cada uno de los 
+programas movilidad y el número total de alumnado 
+matriculado en el título, por curso académico 
+D03-P05-I01. Porcentaje de alumnado que participa 
+en las prácticas no obligatorias 
+Relación porcentual entre el número de alumnado 
+matriculado en el título que participa en el programa de 
+prácticas no obligatorias y el número total de alumnado 
+matriculado en el título que puede participar, por curso 
+académico 
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+18  
+INDICADORES DEFINICIÓN 
+D03-P05-I02. Porcentaje de alumnado que participa 
+en las prácticas obligatorias 
+Relación porcentual entre el número de alumnado 
+matriculado en el título que participa en el programa de 
+prácticas obligatorias y el número total de alumnado 
+matriculado en el título que puede participar, por curso 
+académico 
+D04-P01-I01. Número de PDI del título por categoría Número total de PDI del título por categoría y curso 
+académico 
+D04-P01-I02. Numero de quinquenios y sexenios del 
+PDI del título por categoría 
+Número total de quinquenios y sexenios del total del 
+PDI del título por categoría y curso académico 
+D04-P01-I03. Participación del PDI del título en planes 
+de formación de la UDC y en actividades formativas 
+específicas  
+Relación porcentual entre el número de PDI del título 
+que solicitó participar en planes de formación de la 
+UDC y el número total de PDI del título, por curso 
+académico 
+Relación porcentual entre el número de PDI del título 
+que participa en planes de formación de la UDC  y el 
+número total de PDI del título, por curso académico 
+D04-P01-I04. PDI del título evaluado por el programa 
+DOCENTIA y resultados obtenidos   
+Relación porcentual entre el número de PDI del título 
+que fue evaluado por el programa DOCENTIA y el 
+número total de PDI del título, por curso académico 
+Relación porcentual entre el número de PDI del título 
+que fue evaluado por el programa Docentia y el número 
+de PDI del título que obtuvo una evaluación positiva, 
+por curso académico 
+Relación porcentual entre el número de PDI del título 
+que fue evaluado por el programa Docentia y el número 
+de PDI del título que obtuvo la máxima valoración (Muy 
+favorable o Desempeño excelente), por curso 
+académico 
+D04-P01-I05. Número de PAS del centro por categoría Número total de PAS del centro por categoría y curso 
+académico 
+D04-P01-I06. Porcentaje de participación del PAS del 
+centro en planes de formación de la Universidad y en 
+actividades formativas específicas. 
+Relación porcentual entre el número de PAS del centro 
+que participa en planes de formación de la Universidad 
+y en actividades formativas específicas y el número de 
+PAS del centro 
+D04-P01-I07. Número de PDI del título/PAS del centro 
+que participa en los programas de movilidad (entrante y 
+saliente), por tipo de programa 
+Número total de PDI (saliente) del título que realiz ó 
+movilidad por tipo de programa y por curso académico 
+Número total de PDI (entrante) del título que realiz ó 
+movilidad por tipo de programa y por curso académico 
+Número total de PAS (saliente) del centro que realizó 
+movilidad por tipo de programa y por curso académico 
+Número total de P AS (entrante) del centro que realiz ó 
+movilidad por tipo de programa y por curso académico 
+D04-P01-I08. Porcentaje de PDI del título que participa 
+en los programas de movilidad  
+Relación porcentual entre el total del PDI del título que 
+participa en cada uno de los programas movilidad y el 
+número total del PDI del título, por curso académico 
+D04-P01-I09. Porcentaje de PAS del centro que 
+participa en los programas de movilidad  
+Relación porcentual del PAS del centro que participa 
+en cada uno de los programas movilidad y el número 
+total de PAS del centro, por curso académico 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+19  
+INDICADORES DEFINICIÓN 
+D06-P01-I01. Resultados académicos de los títulos 
+(titulo/centro/rama/universidad) 
+Tasa de abandono del título : Relación porcentual 
+entre los estudiantes de una cohorte de entrada C 
+matriculados en el título T en la Universidad U en el 
+curso académico X, q ue no se matricularon en dicho 
+título T en los cursos X+1 y X+2, y el número total de 
+estudiantes de tal cohorte de entrada C que accedieron 
+al mencionado título T el curso académico X. 
+Tasa de eficiencia del título : Relación porcentual 
+entre el número tot al de créditos en los que debieron 
+haberse matriculado los estudiantes graduados de una 
+cohorte de graduación G para superar un título T en 
+una Universidad U y el total de créditos en los que 
+efectivamente se han matriculado los estudiantes 
+graduados de una cohorte de graduación G en un título 
+T en una Universidad U. 
+Tasa de rendimiento del título y asignatura: Para un 
+curso académico X, r elación porcentual entre el 
+número de créditos ordinarios superados en el título T 
+en la Universidad U y el número total de créditos 
+ordinarios matriculados en el título T en la Universidad 
+U. 
+Tasa de éxito del título y asignatura : Relación 
+porcentual entre el número de créditos superados por 
+los alumnos matriculados en un título en un curso 
+académico X entre el número de créditos presentados 
+a examen por el total de los alumnos matriculados en 
+el título en ese curso académico X 
+Tasa de evaluación del títul o y asignatura 
+(distinguir entre alumnado a tiempo completo y a 
+tiempo parcial): Relación porcentual entre el número 
+de créditos presentados a examen por los estudiantes 
+en un curso académico X y el número total de créditos 
+matriculados en ese curso académ ico X (los créditos 
+reconocidos y transferidos no están incluidos dentro de 
+los créditos matriculados). 
+Tasa de graduación : Relación porcentual entre los 
+estudiantes de una cohorte de entrada C que superan, 
+en el tiempo previsto más un año, los créditos 
+conducentes a un título T en una Universidad U y el 
+total de los estudiantes de nuevo ingreso de la misma 
+cohorte C en dicho título T en la Universidad U. 
+Duración media de los estudios : Media del tiempo 
+que un estudiante utiliza para graduarse en un título.  
+Expresa la duración real para que los estudiantes 
+finalicen el título. 
+D06-P01-I02. Indicadores de inserción laboral Observatorio ocupacional UDC 
+  
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+20  
+INDICADORES DEFINICIÓN 
+D06-P01-I03. Indicadores del Sistema Integrado de 
+Información Universitaria (SIIU) 
+Tasa de rendimiento S UE, Comunidad Autónoma, 
+Universidad: Relación porcentual entre el número de 
+créditos superados por los estudiantes matriculados en 
+un curso académico y el número total de créditos 
+matriculados en dicho curso académico. 
+Tasa de éxito SUE, CA Un iversidad: Relación 
+porcentual entre el número de créditos superados por 
+los estudiantes matriculados en un curso y el número 
+total de créditos presentados a examen en dicho curso 
+académico.   
+Tasa de evaluación SUE, CA Universidad : Relación 
+porcentual entre el número de créditos presentados a 
+examen por los estudiantes en un curso académico y 
+el número total de créditos matriculados en dicho curso 
+académico. 
+Tasa de abandono SUE, CA, Universidad : 
+Porcentaje de estudiantes de una cohorte de nuevo 
+ingreso del curso X, que no se matricula en ningún título 
+universitario durante dos cursos seguidos ni se ha 
+titulado. 
+Tasa de graduación SUE, CA, Universidad : 
+Porcentaje de estudiantes que finalizan el título en el 
+tiempo teórico previsto en el plan de estudios o a ntes 
+del tiempo previsto.  
+Duración media de los estudios SUE, CA, 
+Universidad: Mide el número medio de años que 
+tardan los estudiantes en graduarse.  
+Tasa de eficiencia SUE, CA, Universidad : Relación 
+porcentual entre el número total de créditos que ha 
+superado un estudiante a lo largo del título en el que ha 
+sido egresado y el número total de créditos en los que 
+se ha matriculado 
+D06-P02-I01. Número de preguntas, felicitaciones, 
+sugerencias y quejas dirigidas al Centro y/o al título 
+Número de preguntas, felicitaciones, sugerencias y 
+quejas recibidas en el centro por curso académico, 
+diferenciadas por centro y/o título al que se dirigen 
+D06-P03-I01. Satisfacción de los grupos de interés con 
+el título (porcentaje de participación y resultados) 
+Relación porcentual entre el número de encuestas 
+cumplimentadas y el número de personas que 
+componen cada grupo de interés objeto de análisis.  
+En el caso de los empleadores se calcula sobre el total 
+de encuestas entregadas. 
+En el caso de las personas tituladas se calcula sobre el 
+número total de personas tituladas que han realizado el 
+depósito del título en el curso objeto de análisis.  
+Nivel de satisfacción de los grupos de interés objeto de 
+análisis con el título (media, desviación típica, mediana 
+y moda) 
+D06-P03-I02. Satisfacción del alumnado con la 
+docencia (AVALIEMOS) (porcentaje de participación y 
+resultados)  
+Relación porcentual entre el número de encuestas 
+cumplimentadas por el alumnado y el número de 
+alumnado matriculado por materia y curso académico. 
+Nivel de satisfacción del alumnado con la docencia 
+recibida (media) 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+21  
+Anexo III. Plantilla de acta  
+Reunión de: 
+Fecha: 
+Lugar: 
+Hora de Inicio: 
+Hora de finalización: 
+Convocados/as:  Asistentes: 
+Orden del día: 
+Acuerdos adoptados:  
+Presidente/a: 
+ 
+ 
+ 
+Fdo.: 
+FECH
+A: 
+Secretario/a: 
+ 
+ 
+ 
+Fdo.: 
+FECH
+A: 
+Acta completa archivada en:  
+ 
+  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+22  
+Anexo IV. Plantilla de acción de mejora 
+ACCIÓN DE MEJORA N.º …. 
+Denominación  
+Fecha  
+Punto débil detectado  
+Ámbito de aplicación  
+Responsable de su aplicación  
+Objetivos  
+Actuaciones a desarrollar  
+Curso académico  
+Período de ejecución  
+Recursos/presupuesto  
+Responsable del seguimiento y 
+fecha  
+Indicadores de ejecución   
+Evidencias documentales de la 
+implantación  
+Observaciones 
+ 
+Revisión/Valoración 
+Nivel de cumplimiento (total o 
+parcial o propuesta)  
+Responsable de la revisión y fecha  
+Resultados obtenidos   
+Grado de satisfacción  
+Acciones correctoras a desarrollar  
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+23  
+Anexo V. Normativa y documentación de referencia 
+ÁMBITO EUROPEO 
+Estándares y criterios para la garantía de la calidad en el 
+Espacio Europeo de Educación Superior (2015) 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D05-P01, D06-P01, D06-P02, 
+D06-P03, D07-P01. 
+Convenio internacional sobre normas de  formación, titulación y 
+guardia para la gente de mar  (STCW) 1978, y  enmiendas de 
+Manila de 2010 
+Manual SGC, D01 -P01, D01-P02, D02-
+P01, D03-P01, D03-P02, D03-P03, D03-
+P04, D03-P05, D04-P01, D05-P01, D06-
+P01, D06-P02, D06-P03, D07-P01 
+ÁMBITO ESTATAL 
+Ley orgánica 6/2001, del 21 de diciembre, de universidades 
+(texto consolidado) 
+D02-P01, D03-P01, D03-P02, D03-P03, 
+D03-P04, D03-P05, D04-P01, D05-P01, 
+D06-P01, D07-P01. 
+Ley 14/2011, del 1 de junio, de la ciencia, la tecnología y la 
+innovación D03-P04, D04-P01, D05-P01, D07-P01. 
+Real decreto 1509/2008, del 12 de septiembre, por el que se 
+regula el registro de universidades, centros y títulos D02-P01 
+Real decreto 1791/2010, del 30 de diciembre, por el que se 
+aprueba el Estatuto del estudiante universitario 
+ 
+D02-P01, D03-P01, D03-P02, D03-P03, 
+D03-P04, D04-P01, D05-P01, D06-P01, 
+D07-P01. 
+Real decreto 967/2014, de 21 de noviembre por el que se 
+establecen los requisitos y el procedimiento para la 
+homologación y declaración de equivalencia a titulación y a nivel 
+académico universitario oficial y para la convalidación de 
+estudios extranjeros de educación superior, y el procedimiento 
+para determinar la correspondencia a los niveles del marco 
+español de cualificaciones para la educación superior de los 
+títulos oficiales de Arquitecto, Ingeniero, Licenciado, Arquitecto 
+Técnico, Ingeniero Técnico y Diplomado. 
+D03-P01, D03-P02 
+Real Decreto 640/2021, de 27 de julio, de creación, 
+reconocimiento y autorización de universidades y centros 
+universitarios y acreditación insti tucional de centros 
+universitarios 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01. 
+Real Decreto 822/2021, de 28 de septiembre, por el que 
+establece la organización de las enseñanzas universitarias y del 
+procedimiento de aseguramiento de su calidad 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01. 
+Resolución de 3 de marzo de 2022, de la Secretaría General de 
+Universidades, por la que se dictan instrucciones sobre el 
+procedimiento para la acreditación institucional de centros de 
+universidades públicas y privadas, y se publica el Protocolo para 
+la certificación de sistemas internos de garan tía de calidad de 
+los centros universitarios y el Protocolo para el procedimiento de 
+evaluación de la renovación de la acreditación institucional de 
+centros universitarios, aprobados por la Conferencia General de 
+Política Universitaria. 
+Manual, D02-P01 
+Orden FOM/1415/2003, de 23 de mayo, por la que se regula el 
+sistema de calidad y las auditorías externas exigidas en la 
+formación y expedición de títulos para el ejercicio de profesiones 
+marítimas 
+Manual SGC, D01-P01, D01-P02, D02-
+P01, D03-P01, D03-P02, D03-P03, 
+D03-P04, D03-P05, D04-P01, D05-P01, 
+D06-P01, D06-P02, D06-P03, D07-P01 
+Real Decreto 269/2022, de 12 de abril de 2022, por el que se 
+regulan los títulos profesionales y de competencia de la Marina 
+Manual SGC, D01-P01, D01-P02, D02-
+P01, D03-P01, D03-P02, D03-P03, 
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+24  
+Mercante D03-P04, D03-P05, D04-P01, D05-P01, 
+D06-P01, D06-P02, D06-P03, D07-P01 
+Resolución de 20 de enero de 2016, de la Secretaría General 
+de Universidades, por la que se publica el Acuerdo del Consejo 
+de Universidades que establece rec omendaciones para la 
+propuesta por las universidades de memorias de solicitud de 
+títulos oficiales en los ámbitos de la Náutica y Transporte 
+Marítimo, las Tecnologías Marinas, la Electrotecnia Mar ina y la 
+Radioelectrónica Naval 
+Manual SGC, D01-P01, D01-P02, D02-
+P01, D03-P01, D03-P02, D03-P03, 
+D03-P04, D03-P05, D04-P01, D05-P01, 
+D06-P01, D06-P02, D06-P03, D07-P01 
+Orden FOM/2296/2002, de 4 de septiembre, por la que se 
+regulan los programas de formación de los títulos profesionales 
+de Marineros de Puente y de Máquinas de la Marina Mercante, 
+y de Patrón Portuario, así como los certificados de especialidad 
+acreditativos de la competencia profesional 
+Manual SGC, D01-P01, D01-P02, D02-
+P01, D03-P01, D03-P02, D03-P03, 
+D03-P04, D03-P05, D04-P01, D05-P01, 
+D06-P01, D06-P02, D06-P03, D07-P01 
+ÁMBITO AUTONÓMICO 
+Ley 6/2013, del 13 de junio, del Sistema Universitario de Galicia 
+D02-P01, D03-P01, D03-P02, D03-P03, 
+D03-P04, D04-P01, D05-P01, D06-P01, 
+D07-P01. 
+Decreto 222/2011, del 2 de diciembre, por el que se regulan las 
+enseñanzas universitarias oficiales en el ámbito de la 
+Comunidad Autónoma de Galicia 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+D05-P01, D06-P01, D07-P01. 
+Decreto 161/2015, del 5 de noviembre, que modifica el Decreto 
+222/2011, del 2 de diciembre, por el que se regulan las 
+enseñanzas universitarias oficiales en el ámbito de la 
+Comunidad Autónoma de Galicia 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+D05-P01, D06-P01, D07-P01. 
+Orden del 20 de marzo de  2012 por la que se desarrolla el 
+Decreto 222/2011 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+D05-P01, D06-P01, D07-P01. 
+Orden del 6 de junio de 2012  que modifica la Orden del 20 de 
+marzo de 2012, que desarrolla el Decreto 222/2011, del 2 de 
+diciembre, por el que se regulan las enseñanzas universitarias 
+oficiales en el ámbito de la Comunidad Autónoma de Galicia 
+D02-P01 
+Instrucciones de la Consell aría de Cultura, Educació n e 
+Ordenación Universitaria, relativas a la aplicación de la 
+reglamentación contenida en el Decreto 222/2011 y en la Orden 
+del 20 de marzo de 2012, sobre enseñanzas universitarias 
+oficiales en el SUG 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+D05-P01, D06-P01, D07-P01. 
+Instrucciones del 18 de junio de 2014 de la Secretaría Xeral de 
+Universidades, sobre el procedimiento de renovación de la 
+acreditación de titulaciones universitarias oficiales de grado, 
+máster y doctorado 
+D02-P01 
+Instrucciones de 12 de febrero de 2015 de la Secretaría Xeral 
+de Universidades sobre la aplicación de determinados 
+preceptos del Decreto 222/2011, del 2 de diciembre, a los títulos 
+universitarios oficiales con validez en todo el territorio nacional 
+que se impartan en el SUG 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+D05-P01, D06-P01, D07-P01. 
+Guía para el diseño de los Sistemas de Garantía de Calidad 
+Manual, D01 -P01, D01-P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01. 
+Guía para la certificación de la implantación de los Sistemas de 
+Garantía de Calidad 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01. 
+
+ MANUAL DEL SISTEMA DE GARANTÍA DE CALIDAD DE LA 
+ESCUELA TÉCNICA SUPERIOR DE NÁUTICA Y MÁQUINAS 
+DE LA UNIVERSIDADE DA CORUÑA 
+ 
+25  
+Guía para la evaluación previa a la verificación de los títulos de 
+grado y máster D02-P01 
+Guía para el seguimiento y la acreditación de los títulos de grado 
+y máster 
+Manual, D01-P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01. 
+Procedimiento para la solicitud de Modificaciones de los títulos 
+de grado y máster D02-P01 
+Real Decreto 592/2014, do 11 de julio, por el que se regulan las 
+prácticas académicas externas de los estudiantes universitarios D04-P01 
+ÁMBITO UDC/CENTROS 
+Estatutos de la Universidade da Coruña. Versión reformada 
+(Decreto 101/2004, del 13 de mayo y decreto 194/2007 del 11 
+de octubre) 
+Manual SGC, D01 -P01, D01-P02, D02-
+P01, D03-P01, D03-P02, D03-P03, D03-
+P04, D03-P05, D04-P01, D05-P01, D06-
+P01, D06-P02, D06-P03, D07-P01. 
+Plan estratégico de la UDC en vigor D01-P01, D01-P02 
+Manual para la evaluación de la actividad docente del 
+profesorado de la UDC. Programa Docentia D04-P01 
+Procedimiento de preinscripción y matrícula en los másteres 
+universitarios D03-P01 
+Normativa de Gestión Académica de la UDC D03-P02 
+Normativa que regula los estudios semipresenciales y a 
+distancia D03-P02 
+Norma que regula el régimen de dedicación al est udio y la 
+permanencia y la progresión de los estudiantes de grado y de 
+master universitario en la UDC 
+D03-P02 
+Normativa reguladora de la matrícula y la defensa del trabajo fin 
+de grado y del trabajo fin de master D03-P02 
+Reglamento TFG/TFM interno de la ETSNM en vigor D03-P02 
+Normas de evaluación, revisión y reclamación de las 
+calificaciones de los estudios de grado y master universitario D03-P02, D06-P01 
+Plan de formación de especialidad profesional de la ETSNM D03-P02 
+Reglamento de prácticas académicas externas del estudiantado 
+de la UDC D03-P05 
+Plan de prácticas académicas externas para los estudios de 
+grado impartidos en la ETSNM D03-P05 
+  

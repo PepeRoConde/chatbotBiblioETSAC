@@ -1,0 +1,83 @@
+UDC. Servizo de Biblioteca. Sección de automatización e proceso técnico | 21/02/2017 
+1 
+ 
+Normas para a presentación dos traballos fin de mestrado en 
+versión dixital 
+ 
+O traballo fin de mestrado (TFM) en versión dixit al correspondera se exactamente coa copia entregada 
+en papel.   
+ 
+Soporte e formato 
+ 
+O soporte físico será CD ou DVD. 
+O disco estará identificado con letra de imprenta. Os datos que deben constar tanto no disco como na 
+carátula son: Autor / Título do TFM / Director ou titor / Ano. 
+Os documentos presentaranse en formato PDF, PDF/A ou outros formatos abertos.  
+Os arquivos PDF poderán incluír ligazóns de hipertexto e información multimedia.  
+Os arquivos PDF non estarán protexidos. 
+O traballo presentarase nun único arquivo, sempre que non exceda os 100 MB . Se o tamaño do 
+documento fose maior, poderase partir en varios arquivos de menor tamaño. E mpregaranse tantos  
+arquivos como foren necesarios, inserindo en cada un deles a portada.  
+ 
+Identificación 
+ 
+Nome dos arquivos que conteñen o documento principal 
+ 
+Sexa, por exemplo, o TFM defendido en 2016 por Xosé Manuel Pérez López. 
+Se o documento principal do TFM en formato electrónico constara dun só arquivo, este chamarase: 
+ 
+PerezLopez_XoseManuel_TFM_2016.pdf 
+ 
+En cambio, se o documento principal do TFM en formato electrónico  estiver formado por tres arquivos, 
+estes chamaranse: 
+ 
+PerezLopez_XoseManuel_ TFM_2016_01de3.pdf 
+PerezLopez_XoseManuel_ TFM_2016_02de3.pdf 
+PerezLopez_XoseManuel_ TFM_2016_03de3.pdf 
+ 
+Non deben utilizarse nin espazos nin acentos nin a ñ no nome dos arquivos , co fin de asegurar a 
+compatibilidade con todos os navegadores. 
+ 
+Poderase engadir algunha aclaración adicional no nome  do documento principal cando as características 
+do TFM así o precisen.  Por exemplo: 
+ 
+ PerezLopez_XoseManuel_ TFM_2016_Memoria_01de3.pdf 
+ 
+ 
+ 
+Nome doutros arquivos 
+ 
+No caso de arquivos adicionais fora do documento principal: anexos ou arquivos doutro tipos (imaxes, 
+programas de ordenador, información multimedia…) en formatos coñecidos (TIFF, JPG, MPF…) deberase 
+seguir a mesma pauta aínda que haberá que engadir algún dato no nome para distinguilos do 
+documento principal así como a extensión propia do arquivo. 
+ 
+Así, o arquivo dun vídeo en formato MPG ( o cuarto dun total de sete) podería chamarse:  
+ 
+PerezLopez_XoseManuel_TFM_2016_Video_04de7.mpg 
+ 
+
+UDC. Servizo de Biblioteca. Sección de automatización e proceso técnico | 21/02/2017 
+2 
+ 
+A numeración destes arquivos é correlativa á dos arquivos do documento principal: 
+  
+PerezLopez_XoseManuel_TFM_2016_01de4.pdf 
+PerezLopez_XoseManuel_TFM_2016_02de4.pdf 
+PerezLopez_XoseManuel_TFM_2016_Anexo_03de4.pdf 
+PerezLopez_XoseManuel_TFM_2016_Video_04de4.mpg 
+ 
+Poderanse definir hipervínculos  para acceder a estes contidos desde os arquivos PDF  que forman o 
+documento principal do traballo fin de mestrado. 
+ 
+Cando existan varios arquivos adicionais do mesmo tipo (varios vídeos, varios anexos en pdf...) convén 
+agrupalos nun único. No caso de que non sexa posible podería crearse un arquivo comprimido que os 
+agrupe. Por exemplo: 
+ 
+PerezLopez_XoseManuel_TFM_2016_ 01de3  
+PerezLopez_XoseManuel _TFM_2016_Anexos_02de3 [exemplo de arquivo comprimido que contén tres anexos]: 
+Anexo1_Viabilidad 
+Anexo2_Guion  
+Anexo3_Orzamento  
+PerezLopez_XoseManuel _TFG_2016_Videoxogo_03de3  
+ 

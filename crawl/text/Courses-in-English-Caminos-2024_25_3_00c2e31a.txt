@@ -1,0 +1,36 @@
+Escola Técnica Superior de Enxeñeiros de Camiños, Canais e Portos 
+Dirección 
+  
+Courses in English 2024/25 
+ 
+Some further courses could be taught in Spanish but ‘English Friendly’, please address the Erasmus coordinator at pvellando@udc.es 
+ 
+Grado en Tecnologías de la Ingeniería Civil 
+ 
+CODE YEAR SEM SUBJECT ECTS 
+632G02004 1 1 Applied Physics I 6 
+632G02001 1 1  Infinitesimal Calculus I 6 
+632G02002 1 2 Infinitesimal Calculus II 6 
+632G02007 1 1 Linear Algebra I 6 
+632G02008 1 2 Linear Algebra II 6 
+632G02009 1 1 Construction Materials I 6 
+632G02010 1 2 Construction Materials II 6 
+632G02017 2 1+2 Differential Equations  9 
+632G02014 2 2 Mechanics 6 
+632G02013 2 1+2 Calculus of Probabilities and Statistics 9 
+632G02015 2 1 Fundamentals of Computational Mechanics 6 
+632G02023 3 1 Numerical Methods 6 
+632G02019 3 1 Geotechnology I 6 
+632G02020 3 2 Geotechnology II 6 
+ 
+Máster Ingeniero de Caminos, Canales y Puertos 
+ 
+CODE YEAR SEM SUBJECT ECTS 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+  

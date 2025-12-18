@@ -135,12 +135,10 @@ Youtube
 Rss
 Telegram
 
---- OCR de imagen: euro_inf_master_blanco_8310f134.png ---
-Master
-
-awarded by
-
 --- OCR de imagen: euro_inf_bachelor_blanco_f9fc1881.png ---
 Bachelor
 
+awarded by
+
+--- OCR de imagen: euro_inf_master_blanco_8310f134.png ---
 awarded by

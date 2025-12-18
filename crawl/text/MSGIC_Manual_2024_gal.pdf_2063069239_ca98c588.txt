@@ -1,0 +1,4146 @@
+D01-P01. POLÍTICA E OBXECTIVOS DE CALIDADE  
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+           
+ 
+ 
+ 
+D01-P01. Política e obxectivos de calidade 
+ 
+ 
+ 
+ ÓRGANO FECHA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do manual 
+do SGC 
+ 
+ 
+ 
+18/07/2008 
+19/07/2013 
+26/08/2014 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión do procedemento P03 
+Revisión e actualización do SGC por cambios 
+normativos 
+ 
+ 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+ 
+ 
+ 
+  
+1  
+
+D01-P01. POLÍTICA E OBXECTIVOS DE CALIDADE  
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+           
+ 
+ 
+DENOMINACIÓN D01-P01. POLÍTICA E OBXECTIVOS DE CALIDADE 
+OBXECTO 
+Establecer a sistemática para definir, desp regar, revisar e manter 
+actualizados a política e obx ectivos estratéxicos de calidade e os 
+obxectivos operativos anuais. 
+DEFINICIÓNS 
+Política de calidade : intencións globais e orientación da Facultade 
+relativas á calidade. 
+Obxectivos estratéxicos de calidade: son metas, retos que se definen a 
+partir da planificación estratéxica da UDC e da política de calidade da 
+Facultade. 
+Obxectivos operativ os anuai s: son accións  que se definen e revisan 
+anualmente para despregar os obxectivos estratéxicos de calidade.  
+RESPONSABLES 
+Xunta de Centro (XC) 
+Comisión de Estratexia e Garantía de Calidade (CEC)  
+Equipo Directivo (ED) 
+DOCUMENTACIÓN Véxase Anexo V do Manual  
+DESENVOLVE-
+MENTO 
+Cada vez que hai  unha renovación do ED da Facultade, de acordo cos 
+Estatutos da UDC cada c atro años, este elabora unha nova proposta de 
+política e de obx ectivos estratéxicos de calidade en consonancia co Plan 
+Estratéxico da UDC en vigor e cos obx ectivos e prioridades do ED. Unha 
+vez elaborada, o ED a remite á XC para a súa aprobación. 
+Ademais, cando xurden cambios importantes na polític a universitaria que 
+afectan á Facultade ou cando se apro ba unha nova edición do Plan 
+Estratéxico da UDC, o ED os analiza e revisa e los remite á XC para a súa 
+aprobación.  
+A CEC define e p ropón os obx ectivos operativos anuais para a 
+consecución dos obx ectivos estratéxicos e los remite ao ED para a súa 
+aprobación pola XC. Estes obx ectivos deben  estar definidos de f orma 
+concreta, ser alcanzables e medibles. Cada obxectivo ha de indicar as 
+accións que se leven a cabo, os /as responsables, a temporalización e os 
+indicadores de éxito. 
+Anualmente, a C EC revisa  e analiza a consecución dos obxectivos 
+operativos anuais; para isto valora o seu grao de cumprimento e establece 
+as accións de mellora correspondentes cando no se cumprisen segundo o 
+previsto.  
+A política e os obx ectivos estratéxicos de calidade , actualizados , están 
+publicados (Facultade de Filoloxía (udc.es)), tal como se establece no D07-
+P01. Información pública.   
+ 
+ 
+2  
+
+D01-P01. POLÍTICA E OBXECTIVOS DE CALIDADE  
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+           
+ 
+ 
+EVIDENCIAS RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+D01-P01-E01. Actas 
+XC 
+CEC 
+Cada vez que se reúne  Aplicación 
+informática 
+D01-P01-E02. Política e 
+obxectivos estratéxicos de 
+calidade 
+ED 
+Cando xurden cambios 
+segundo o recollido no 
+desenvolvemento do 
+proceso 
+Web do Centro 
+Aplicación 
+informática 
+D01-P01-E03. Obxectivos 
+operativos anuais 
+CEC 
+ 
+Anualmente Aplicación 
+informática 
+D01-P01-E04. Accións de 
+mellora CEC 
+Cada vez que se 
+abra/revise unha acción de 
+mellora 
+Aplicación 
+informática 
+INDICADORES RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+D01-P01-I01. Porcentaxe de 
+obxectivos operativos anuais 
+alcanzados 
+CEC Anualmente Aplicación 
+informática 
+ 
+3  
+
+D01-P02. XESTIÓN, REVISIÓN E MELLORA DO SGC 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+D01-P02. Xestión, revisión e mellora do SGC 
+ 
+ 
+ 
+ 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+ 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1  
+
+D01-P02. XESTIÓN, REVISIÓN E MELLORA DO SGC 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+DENOMINACIÓN D01-P02. XESTIÓN, REVISIÓN E MELLORA DO SGC 
+OBXECTO Establecer a sistemática para definir, implantar, revisar, mellorar e manter 
+actualizado o SGC. 
+DEFINICIÓNS Contextualizar: adaptar a documentación do SGC marco ao Centro.  
+Cadro de mando: conxunto de indicadores d o SGC alineados cos 
+obxectivos de calidade do Centro. 
+Plan anual de melloras d o C entro: conxunto das accións de mell ora 
+elaboradas en cada proceso, anualmente. 
+Informe anual do Centro: informe anual de análise e mellora do SGC e o 
+plan anual de melloras do Centro. 
+Auditoría interna: revisión documental e /ou visita ao Centro d un equipo 
+auditor. 
+RESPONSABLES Vicerreitoría con Competencias en Materia de Títulos (VCMT) 
+Xunta de Centro (JC) 
+Equipo Directivo (ED) 
+Comisión de Estratexia e Garantía de Calidade (CEC)  
+Unidade Técnica de Calidade (UTC) 
+Equipo de auditoría (EA) 
+DOCUMENTACIÓN Véxase anexo V do Manual 
+DESENVOLVE-
+MENTO 
+Definir 
+A UTC elabora o documento marco do SGC e  o envía ao ED para que a 
+CEC o contextualice; posteriormente é revisado pola UTC, que o remite de 
+novo ao ED para a súa aprobación pola XC. Unha vez aprobado, publícase 
+na web do Centro (Facultade de Filoloxía (udc.es)). 
+Implantar 
+A implantación do SGC realízase SGC seguindo o recollido no manual e no 
+desenvolvemento dos procesos. É responsabilidade do ED co apoi o da 
+CEC. 
+Revisar e mellorar 
+Anualmente, a C EC, tendo en c onta as recomendacións de mell ora 
+establecidas pola ACSUG nos seus diferentes informes, as debilidades 
+e/ou oportunidades de mellora detectadas, a revisión do cadro de mando, 
+as accións de mellora establecidas en cada proceso e os cambios que se 
+producisen na normativa vix ente, revisa se o  SGC se está a implantar 
+adecuadamente e se se mantén de maneira eficaz e eficiente e elabora o 
+informe anual do Centro.  
+2  
+
+D01-P02. XESTIÓN, REVISIÓN E MELLORA DO SGC 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+De acordo cos criterios e directrices para a garantía da calidade no Espazo 
+Europeo de Educación Superior (European Standard Guidelines), as 
+universidades deben dotarse dun procedemento documentado e controlado 
+que regule e sistematice a realización de auditorías internas con carácter 
+periódico ao SGC implantado. 
+Para levar a cabo i sto, anualmente, a  VCMT aproba o plan anual de 
+auditorías internas, por proposta  da UTC en que se inclúen as 
+correspondentes aos Centros que queiran obter ou renovar a certificación 
+da implantación do SGC ou renovar a acreditación institucional. 
+Este plan publícase na web da UTC e envíase aos Centros implicados para 
+o seu coñecemento. 
+Realízase a auditoría interna para avaliar o cumprim ento e o grao de 
+implantación e mantemento do SGC conforme cos requisitos da UDC e da 
+ACSUG.  
+Para isto, a UTC, garantindo a obxectividade e imparcialidade do proceso, 
+constitúe un E A, composto por persoas, da UDC e/ou de fora da mesma,  
+con formación e experiencia na avaliación e implantación do SGC. Este, tras 
+analizar as evidencias/indicadores e o informe anual do Centro, elabora o 
+informe de auditoría do Centro, que remite á UTC e ao ED. O ED o envía á 
+CEC para que implemente, de ser o caso, as melloras oportunas. 
+Actualizar 
+En caso de que se considere oportuno realizar actualización s 
+/modificacións e/ou elaborar procesos novos, a C EC as leva a cabo e, 
+posteriormente, o ED remite a documentación actualizada á UTC para a 
+súa revisión. Unha vez revisada, a envía ao ED para a súa aprobación pola 
+XC.  
+En caso de actualizacións/modificacións, no resumo de revisións do 
+documento, inclúese a nova edición e a motivación da modificación.  
+Cada vez que se actualiza a documentación do SGC e/o u se elaboran 
+procesos novos, retírase a documentación obsoleta da we b do Centro e  
+publícase a nova, tal como se establece no D07-P01. Información pública. 
+O ED garante que a documentación do SGC se mantén actualizada e está 
+dispoñible para todos os grupos de interese. 
+A documentación obsoleta consérva se durante seis años na  aplicación 
+informática. Calquera documento do SGC entra en vigor no momento da 
+súa aprobación pola XC. 
+ 
+ 
+EVIDENCIAS RESPONSABLES TEMPORALIZACIÓN LUGAR 
+D01-P02-E01. Actas XC Cada vez que se 
+reúne  Aplicación informática 
+3  
+
+D01-P02. XESTIÓN, REVISIÓN E MELLORA DO SGC 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+CEC 
+D01-P02-E02. Manual 
+e Procesos do SGC 
+ 
+CEC 
+Cada vez que se 
+realice unha 
+modificación do 
+SGC 
+Web do Centro 
+Aplicación informática 
+D01-P02-E03. Informes 
+de avaliación externa 
+(deseño, certificación 
+da implantación e 
+seguimento). 
+ACSUG 
+Cada vez que se 
+realice un proceso 
+de avaliación do 
+SGC 
+Web do Centro 
+Aplicación informática 
+D01-P02-E04. Cadro 
+de mando CEC Anualmente Aplicación informática 
+D01-P02-E05. Listaxe 
+de evidencias da 
+implantación do SGC 
+CEC Anualmente Aplicación informática 
+D01-P02-E06. Informe 
+anual do Centro CEC Anualmente Aplicación informática 
+D01-P02-E07. Informe 
+de auditoría do Centro EA 
+Antes de 
+obter/renovar a 
+certificación da 
+implantación do 
+SGC ou renovar a 
+acreditación 
+institucional  
+Aplicación informática 
+D01-P02-E08. Accións 
+de mellora CEC 
+Cada vez que se 
+abra/revise unha 
+acción de mellora 
+Aplicación informática 
+D01-P02-E09. Plan 
+anual de melloras CEC Anualmente Aplicación informática 
+INDICADORES RESPONSABLES TEMPORALIZACIÓN LUGAR 
+D01-P02-I01. 
+Porcentaxe de accións 
+de mellora executadas 
+CEC Anualmente Aplicación informática 
+ 
+4  
+
+D02-P01. DESEÑO, SEGUIMENTO, MODIFICACIÓN, 
+ACREDITACIÓN E EXTINCIÓN DOS TÍTULOS OFICIAIS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+D02-P01. Deseño, seguimento, modificación, acreditación e extinción dos 
+títulos oficiais 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por 
+cambios normativos 
+ 
+ 
+ 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+Os títulos de mestrado interuniversitarios 
+contan con Comisións Académicas de 
+Titulación propias, que asumen as 
+responsabilidades previstas no documento 
+marco. Para os restantes títulos de grao e 
+de mestrado é preferible que actúe unha 
+única instancia: a Comisión de Organización 
+Académica (COA), onde están 
+representados os CT de todos os títulos 
+impartidos no Centro. 
+ 
+1  
+
+
+D02-P01. DESEÑO, SEGUIMENTO, MODIFICACIÓN, 
+ACREDITACIÓN E EXTINCIÓN DOS TÍTULOS OFICIAIS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DENOMINACIÓN D02-P01. DESEÑO, SEGUIMENTO, MODIFICACIÓN, ACREDITACIÓN E 
+EXTINCIÓN DOS TÍTULOS OFICIAIS 
+OBXECTO 
+Establecer a sistemática para deseñar, aprobar, realizar o seguimento, 
+modificar, renovar a acreditación e extinguir os títulos oficiais, coa fin de 
+manter actualizada a oferta dos títulos do Centro. 
+DEFINICIÓNS 
+Memoria vixente do título: memoria verificada e actualizada dun título.  
+Universidade responsable administrativa: en caso de títulos inter -
+universitarios, é a Universidade encargada da xestión administrativa do 
+título. 
+RESPONSABLES 
+Consello de Ministros  
+Ministerio con competencias en materia de títulos (MCMT) 
+Consello de Universidades (CU) 
+Departamento competente en materia de universidades da Xunta de 
+Galicia (DCMUXG) 
+Axencia para a Calidade do Sistema Universitario de Galicia (ACSUG) 
+Consello Social (CS) 
+Consello de Gobierno (CG) 
+Comisión de Plan de Estudos (CPE) 
+Equipo Reitoral (ER) 
+Vicerreitoría con Competencias en Materia de Títulos (VCMT) 
+Xunta de Centro (JC) 
+Equipo Directivo (ED)  
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión Redactora do título (CR) 
+Comisión de Organización Académica (COA) 
+Comisión Académica do Título (CAT) 
+Persoa responsable de calidade (PRC) 
+Coordinador do Título (CT) 
+  DOCUMENTACIÓN Véxase anexo V do Manual 
+2  
+
+
+D02-P01. DESEÑO, SEGUIMENTO, MODIFICACIÓN, 
+ACREDITACIÓN E EXTINCIÓN DOS TÍTULOS OFICIAIS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+DESENVOLVE-
+MENTO 
+1. Deseño/modificación e aprobación 
+O deseño dun novo título (nova propo sta) pode xurdir por iniciativa da UDC, 
+en base á súa estratexia institucional, polas necesidades e expectativas dos 
+grupos de interese (a través de consultas internas e externas), pola contorna 
+socioeconómica ou por un ou varios Centros. 
+A modificación dun título implantado xurde polas necesidades de mellora 
+detectadas no proceso de seguimento anual/renovación da acreditación , ou 
+como resposta aos informes correspondentes emitidos pola ACSUG.  
+1.1. Nova propuesta e modificación sustancial dun título 
+Anualmente, a VCMT elabora o Calendario de novas propostas o u 
+modificacións sustanciais dos títulos, que aproba o CG e que establece o 
+procedemento e os prazos a seguir. 
+No caso d unha nova propuesta de título, a XC aproba a declaración de 
+intencións, que inclúe a composición d a CR da memoria de verificación do 
+título, que o ED remite á VCMT para a súa análise.   
+Se a resposta da VCMT é favorable, a CR elabora a memoria de verificación, 
+a memoria xustificativa e económica do título, que o ED remite á VCMT para 
+a súa análise. 
+No caso de modificación sustancial un título, a COA/CAT modifica a memoria 
+vixente do título, incorporando os ca mbios necesarios, elabora a memoria 
+xustificativa e económica das modificacións que propón e a remite ao ED para 
+que a CEC la analice, elabore un informe favorable, preceptivo e vinculante e 
+a aprobe. Unha vez aprobada, o ED a remite á VCMT para a súa análise. 
+Unha vez analizada, a VCMT el abora un informe técnico sobre a nova 
+proposta/modificación sustancial e o remite ao ED. 
+Se o informe propón modificacións, a CR/ COA/CAT realizan os cambios e 
+remiten a documen tación modificada da no va propuesta/modificación  
+sustancial ao ED para a súa aprobación pola XC.  
+Unha vez aprobada, o ED a remite á VCMT para que se inicie a súa exposición 
+pública e se abra un período de alegacións ante a XC. A VCMT é responsable 
+da difu sión da exposición pública da memoria e do prazo de alegacións á 
+mesma entre toda a comunidade universitaria.  
+Unha vez que conclúe o prazo de alegacións, o ED remite á CR/COA/CAT as 
+alegacións recibidas, para a súa consideración e posible incorporación na 
+memoria de verificación e memoria xustificativa e económica, se fose o caso. 
+A CR/COA/CAT elabora un informe de resposta ás alegacións recibidas e 
+realiza os cambios oportunos na memoria de verificación e na memoria 
+xustificativa e económica. Os informes de resposta e as novas memorias 
+remítense ao ED para a súa aprobación en XC. Unha vez aprobadas, o ED 
+3  
+
+
+D02-P01. DESEÑO, SEGUIMENTO, MODIFICACIÓN, 
+ACREDITACIÓN E EXTINCIÓN DOS TÍTULOS OFICIAIS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+as remite á VCMT e dá resposta á s personas interesadas que enviaron as 
+alegacións.  
+A VCMT revisa e analiza a memoria de verificación/modificación sustancial 
+recibida e a remite á CPE para o seu pronunciamento e informe. O informe da 
+CPE é remitido ao CG xunto coa documentación da nova propo sta / 
+modificación sustancial para a súa aprobación. Tras a apr obación da nova 
+proposta / modificación sustancial , esta é enviada ao CS para a súa  
+aprobación.  
+Unha vez aprobada, a  VCMT a envía á DCMUXG, que e mitirá un informe 
+previo sobre a necesidade e viabilidade académica e social da implantación / 
+modificación sustancial do título. Se este informe previo é favorable, a VCMT 
+o remite ao CU x unto coa memoria do plan de estudos, que o ED incorpora 
+na sede electrónica do MCMT e solicita a súa verificación.  
+No caso dunha proposta de título interuniversitario, o ED e a CR seguen os 
+procedementos establecidos en todas as universidades participantes, se ben, 
+só a universidade responsable administrativa é a encargada de incorporar a 
+memoria na sede electrónica do MCMT.  
+No caso d unha nova propuesta de título interuniversit ario, é ademais 
+necesario elaborar e  firmar un convenio de colaboración entre as 
+universidades participantes para o desenvolvemento do título conxunto. A  
+universidade responsable administrativa é a encargada de propor a redacción 
+inicial do  convenio. S e a UDC é a responsable administrativa, a VCMT 
+proporciona ao ED do centro que vai impartir o título o  modelo de convenio 
+para que o cubra. La oficina de convenios da UDC revisa o texto definitivo. 
+A ACSUG elabora o  informe provisional de verificación / modificación 
+sustancial e o remite á VCMT. O devandito informe pode ser favorable ou 
+condicionado á realización de melloras. Neste último caso, a CR/ COA/CAT, 
+no prazo establecido pola ACSUG, analiza e leva a cabo as melloras 
+propostas, se así o considera. 
+A VCMT remite as devanditas alegacións ou melloras á ACSUG que, tras a 
+súa análise, emite o informe final de verificación / modificación sustancial. 
+A ACSUG remite este informe a o CU, DCMUXG e ao  MCMT para  a súa 
+aprobación no Consello de Ministros, en que se declara o carácter oficial do 
+título e a súa inscripción no RUCT. 
+A VCMT actualiza na páxina web institucional o catálogo de títulos.  
+A memoria vi xente do título e o informe final de verificación/modificación 
+sustancial publícanse na páxina web do Cent ro. O Centro debe garantir que 
+esta información está accesible e actualizada conforme ao  D07-P01. 
+Información pública. 
+ 
+4  
+
+
+D02-P01. DESEÑO, SEGUIMENTO, MODIFICACIÓN, 
+ACREDITACIÓN E EXTINCIÓN DOS TÍTULOS OFICIAIS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+1.2. Modificación non substancial  dun título 
+Anualmente, a VCMT elabora os Calendarios para a tramitación de 
+modificacións non substanciais en Centros no acreditados institucionalmente 
+e en Centros acreditados institucionalmente,  que apr oba o CG e que 
+establece o procedemento e os prazos a seguir. 
+A COA/CAT elabora a proposta de modificación e a remite á CEC para a súa 
+análise e elaboración dun informe favorable, preceptivo e vinculante. Se o 
+informe é favorable, o ED remite a propuesta á VCMT. 
+A VCMT revisa e analiza a proposta de modificación e a remite á CPE para o 
+seu pronunciamento e informe. O informe da CPE é remitido ao CG xunto coa 
+proposta de modificación para a súa aprobación.  
+Unha vez aprobada, a COA/CAT incorpora, na aplicación do MCMT, as 
+modificacións na memoria do título.  
+2. Seguimiento e renovación da acreditación 
+Anualmente, a UTC, segundo os prazos propostos pola ACSUG, planifica os 
+procesos de seguimento e renovación da acreditación e o comunica ás PRC. 
+Anualmente, a COA/CAT realiza un informe, de ac ordo co as pautas 
+establecidas po la UTC, en que analiza o cumprimento do establecido na 
+memoria vixente do título e establece as accións de mell ora oportunas, e o 
+remite á CEC para a súa revisión e análise.  
+A CEC, tendo en conta o informe realizado pola COA/CAT, elabora un informe 
+de seguimento anual ou renovación da acreditación institucional, seguindo o 
+modelo establecido pola ACSUG, onde se dá conta do grao de implantación 
+do SGC e dos títulos oficiais que se imparten no C entro, e establece as 
+accións de mellora oportunas. A CEC remite este informe ao ED para a súa 
+aprobación pola X C. Un ha vez aprobado, a PRC i ncorpora esta 
+documentación na aplicación informática da ACSUG.  
+A VCMT solicita, na aplicación do MCMT, a renovación da acreditación de 
+títulos e de centros, cando corresponde. 
+Nos tít ulos interuniversitarios en que a responsable administrativa é unha 
+universidad distinta á UDC, o/a CT da UDC enviará á devandita universidade 
+a documentación solicitada.  
+ 
+3. Extinción 
+En caso de que se ac orde a extinción/supresión dun título por algunha das 
+causas recollidas na normativa vixente, a UDC no n admite a matrícula de 
+estudantes de novo ingreso, mais garante os dereitos adquiridos polo  
+5  
+
+
+D02-P01. DESEÑO, SEGUIMENTO, MODIFICACIÓN, 
+ACREDITACIÓN E EXTINCIÓN DOS TÍTULOS OFICIAIS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+estudantado xa matriculado de acordo coa súa normativa. 
+A tal fin, a COA/CAT propón ao ED, para a súa aprobación en XC, as medidas 
+que garantan o adecuado desenvolvemento das ensinanzas que iniciasen os 
+seus estudantes até o seu egreso, entre as que estarán: 
+• Non admitir matrículas de novo ingreso a partir do curso de inicio da 
+súa extinción. 
+• Elaborar e publicar o cronograma ou plan de extinción, e, se fose o  
+caso, o procedem ento de adaptación dos estudos a extinguir a un 
+novo plan de estudos. 
+• Garantir o dereito de avaliación aos estudantes, conforme ao 
+establecido na normativa da UDC. 
+Enténdese que estas medidas son de especial interese  e deben ser 
+publicadas. O Centro garante que e sta información está accesible e 
+actualizada conforme a D7-P01. Información Pública. 
+ 
+EVIDENCIAS RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+D02-P01.E01. Actas 
+CR 
+JC 
+CG 
+CS 
+CEC 
+CAT 
+COA 
+Cada vez que se reúne  
+Aplicación 
+informática 
+D02-P01.E02. Expediente 
+de verificación/modificación 
+do título 
+ED 
+Sempre dispoñible a 
+versión vixente  
+Aplicación 
+informática 
+D02-P01.E03. Memorias 
+vixentes dos títulos do 
+Centro 
+ED 
+Sempre dispoñible a 
+versión vixente  
+Aplicación 
+informática 
+D02-P01.E04. Autoinformes 
+de seguimento 
+anual/renovación 
+acreditación institucional 
+CEC Cada curso académico  
+Aplicación 
+informática 
+D02-P01.E05. Informes 
+finais de 
+ACSUG Cada vez que se produza  
+Aplicación 
+informática 
+6  
+
+
+D02-P01. DESEÑO, SEGUIMENTO, MODIFICACIÓN, 
+ACREDITACIÓN E EXTINCIÓN DOS TÍTULOS OFICIAIS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+verificación/seguimento/ 
+renovación acreditación 
+institucional 
+D02-P01.E06. Expediente de 
+extinción/supresión do título 
+ED Cada vez que se produza  SOA 
+D02-P01.E07. Accións de 
+mellora 
+CAT 
+COA 
+Cada vez que se 
+abra/revise unha acción 
+de mellora  
+Aplicación 
+informática 
+ 
+7  
+
+
+D03-P01. CAPTACIÓN, SELECCIÓN, ADMISIÓN E PERFIL 
+DE INGRESO 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+    
+D03-P01. Captación, selección, admisión e perfil de ingreso 
+ 
+ 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Junta de Centro 05/04/2024 
+ 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+Polas mesmas razóns expostas no procedemento 
+D02-P01, as CAT responsabilízanse da xestión 
+dos títulos de mestrado interuniversitario, e a COA 
+dos títulos de grao e do mestrado MLCD. As 
+tarefas de compilación de datos para os 
+indicadores son asumidas directamente polos/as 
+coordinadores/as das respectivas titulacións (CT). 
+ 
+ 
+ 
+ 
+ 
+ 
+1  
+
+
+D03-P01. CAPTACIÓN, SELECCIÓN, ADMISIÓN E PERFIL 
+DE INGRESO 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+DENOMINACIÓN D03-P01. CAPTACIÓN, SELECCIÓN, ADMISIÓN E PERFIL DE INGRESO 
+OBXECTO Establecer a sistemática para elaborar, aprobar, desenvolver e actualizar o 
+plan de captación, seleccionar e admitir o estudantado e definir o perfil real 
+de ingreso. 
+DEFINICIÓNS Perfil de ingreso: descrición das características desexables do estudantado 
+de novo ingreso en termos de coñecementos, habilidades e actitudes 
+favorables para cursar e concluír con éxito os estudos. 
+Perfil real de ingreso : descrición das características reais do  estudantado 
+matriculado por prime ira vez no título, en termos de coñecementos, 
+habilidades e actitudes. 
+Plan de captación : conxunto de actividades destinadas a dar a coñecer o 
+centro e os títulos que oferta ao potencial alumnado 
+Oferta: número de prazas de novo ingreso que ofrece a universidade para cada 
+un dos títulos. 
+Demanda: é o  número total de preinscritos ou  solicitantes en cada un d os 
+títulos. 
+RESPONSABLES Comisión Interuniversitaria Galega (CIUG) 
+Consello de Goberno (CG) 
+Vicerreitoría con competencias en materia de títulos (VCMT) 
+Servizo de Estudantes (SE) 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión Académica do Título (CAT) 
+Comisión de Organización Académica (COA) 
+Coordinador/a de Título (CT) 
+Equipo Directivo (ED) 
+Xunta de Centro (JC) 
+DOCUMENTACIÓN Véxase Anexo V do Manual  
+DESENVOLVE-
+MENTO 
+Perfil de ingreso e plan de captación 
+A memoria vixente de cada título oficial que se oferta no centro define o perfil 
+de ingreso que se supón debe ter o alumnado que accede a él. O/ a CT 
+mantén público e actualizado este perfil de ingreso para información do  
+potencial alumnado. 
+A CEC, una vez  que o alumnado de novo ingreso realizou a matrícula, 
+analiza a súa formación previa e elabora o perfil real de ingreso, que revisa 
+e actualiza anualmente. 
+2  
+
+
+D03-P01. CAPTACIÓN, SELECCIÓN, ADMISIÓN E PERFIL 
+DE INGRESO 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+Anualmente, a CAT no caso dos títulos de mestrado interuniversitario, ou a 
+COA nos restantes títulos, tendo en conta o perfil de ingreso e tras analizar 
+os datos de oferta, demanda e a eficacia das accións de captación do 
+alumnado levadas a cabo ese curso, identifica as necesidades de promoción 
+do título e elabora as accións de captación para o curso seguinte. 
+As devanditas accións deben estar definidas de forma concreta e ser 
+alcanzables e medibles. Cando menos, cada acción debe indicar as persoas 
+que son responsables, a temporización e os indicadores/metas que 
+axudarán á súa posterior revisión. 
+A CAT ou, no seu caso, a COA remiten a información correspondente á  
+oferta, demanda, perfil real de ingreso e as accións de captación, xunto coas 
+accións de mellora oportunas, de ser o caso, á CEC para a súa análise  
+conxunto a nivel de centro.  
+A CEC revisa e analiza a información recibida d as CAT / COA e elabora o 
+plan de captación do C entro, que remite ao ED para a súa aprobación en 
+XC.  
+ Selección e admisión 
+A selección e admisión de estudantes dos títulos de grao as realiza 
+externamente a CIUG. 
+No caso dos títulos de mestrado, anualmente, a  VCMT elabora o 
+procedemento de preinscrición e matrícula, que se aproba en CG. Cada 
+curso académico, o alumnado realiza a preinscrición a través do formulario 
+da web da UDC e envía a documentación esixida ao SE. 
+En base ao establecido na memoria de verificación do título, a CAT/COA 
+aplica os criterios de baremación e ordenación dos expedientes para a 
+admisión do alumnado, emite un informe sobre a adecuación académica dos 
+estudos cursados polo alumnado e informa sobre a posibilidade de admisión 
+aos estudos do mestrado correspondente. Este informe o remite ao SE. 
+O SE publica a listaxe provisoria de solicitudes admitidas e excluidas. En 
+caso de disconformidad e, o alumnado presenta unha reclamación no  SE 
+para a súa revisión pola CAT /COA. Posteriormente, o SE publica a listaxe 
+definitiva de solicitudes admitidas e excluidas.  
+ 
+ 
+EVIDENCIAS RESPONSABLES TEMPORIZACIÓN LUGAR 
+D03-P01-E01. Actas 
+CAT 
+COA 
+CEC 
+JC 
+Cada vez que se 
+reúne  
+Aplicación 
+informática 
+3  
+
+
+D03-P01. CAPTACIÓN, SELECCIÓN, ADMISIÓN E PERFIL 
+DE INGRESO 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+D03-P01-E02. Perfil real de ingreso CEC Cada curso 
+académico 
+Aplicación 
+informática 
+D03-P01-E03. Plan de captación  
+CAT 
+COA 
+CEC 
+Cada curso 
+académico 
+Aplicación 
+informática 
+D03-P01-E04. Listaxe provisoria de 
+solicitudes admitidas e excluidas, e 
+listaxe de agarda 
+CAT/COA 
+SE 
+Con cada nova 
+resolución Web do SE  
+D03-P01-E05. Reclamacións á listaxe 
+provisoria 
+CAT/COA 
+SE 
+Con cada nueva 
+resolución SE 
+D03-P01-E06. Listaxe definitiva de 
+solicitudes admitidas e excluidas 
+CAT/COA 
+SE 
+Con cada nova 
+resolución 
+Web do SE 
+D03-P01-E07. Accións de mellora 
+CAT 
+COA 
+CEC 
+Cada vez que se 
+abra/revise unha acción 
+de mellora 
+Aplicación 
+informática 
+INDICADORES RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D03-P01-I01. Número total de 
+alumnado de novo ingreso do título  CT 
+ 
+Cada curso académico 
+ 
+Aplicación 
+informática 
+D03-P01-I02. En caso de mestrado, 
+número total de alumnado de novo 
+ingreso e título de procedencia 
+CT 
+ 
+Cada curso académico 
+ 
+Aplicación 
+informática 
+D03-P01-I03. Relación de 
+oferta/demanda de prazas de novo 
+ingreso 
+CT Cada curso académico Aplicación 
+informática 
+D03-P01-I04. Relación de matrícula de 
+novo ingreso/oferta de prazas de novo 
+ingreso 
+CT Cada curso académico Aplicación 
+informática 
+ 
+4  
+
+
+D03-P02. PLANIFICACIÓN E DESENVOLVEMENTO  
+DAS ENSINANZAS 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+D03-P02. Planificación e desenvolvemento das ensinanzas 
+ 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación 
+domanual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+ 
+ 
+Adaptación ao 
+Centro dodocumento 
+marco e manual do 
+SGC 
+05/04/2024 
+ 
+Dado que os tres títulos de grao que oferta o 
+Centro teñen dous anos comúns e que se ofertan 
+tres programas de simultaneidade entre estes 
+graos, moitos aspectos da planificación e 
+coordinación das ensinanzas (por exemplo, o 
+regulamento para a elaboración e defensa de 
+TFG/ TFM, ou o procedemento de 
+recoñecemento de créditos) son xestionados por 
+un órgano común, que é a Comisión de 
+Organización Académica (COA), onde están 
+representados/as os/as CT de grao e de 
+mestrado. Pola súa parte, as tarefas de 
+compilación de datos e de análise dos mesmos a 
+nivel de titulación son compartidas polos/as CT e 
+pola COA /CAT, antes de seren revisados e 
+centralizados na CEC. 
+1  
+
+D03-P02. PLANIFICACIÓN E DESENVOLVEMENTO  
+DAS ENSINANZAS 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+ 
+DENOMINACIÓN  D03-P02. PLANIFICACIÓN E DESENVOLVEMENTO DAS 
+ENSINANZAS 
+OBXECTO  
+Establecer a sistemática para garantir que os títulos oficiais que se imparten 
+no Centro se desenvolven segun do o acordado nas memorias vixentes dos 
+títulos que imparte e que o alumnado alcanza as competencias de finidas en 
+cada un destes. 
+DEFINICIÓNS  No conta con definicións asociadas 
+RESPONSABLES  
+Consello de Gobierno (CG) 
+Vicerreitoría con competencias en materia de profesorado (VCMP) 
+Vicerreitoría con competencias en materia de títulos (VCMT) 
+Xunta de Centro (JC) 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión Académica do Título (CAT) 
+Equipo Directivo (ED) 
+Consello de Departamento (CD) 
+Coordinador/a de Título (CT) 
+Coordinador/a de materia (CM) 
+Comisión de Organización Académica (COA) 
+Administración do centro 
+DOCUMENTACIÓN  Véxase Anexo V del Manual 
+DESENVOLVE-
+MENTO  
+Anualmente, segundo a normativa vixente da UDC, o ED, en base ás 
+necesidades docentes e seguindo as  instrucións da  VCMP, elabora a 
+proposta de Plan Docente Anual (PDA), que inclúe o tamaño dos grupos de 
+docencia (expositiva e interactiva, de prácticas, etc.) para a súa aprobación 
+pola X C. Un ha vez aprobada,  a remite á VCMP, para  a súa revisión e 
+aceptación. A VCMP comunica a PDA aos departamentos implicados na 
+docencia para que elaboren o Plan de Organización Docente (POD). 
+O CD elabora e aproba o POD no prazo e forma que determine a VCMP, para 
+o que contará co apoio da Administración do Centro. 
+Antes do inicio do curso académico, cumprindo o calendario académico da 
+UDC que anualmente elabora a VCMT e aprueba o CG, os/as CM elaboran 
+as guías docentes das materias, tendo en consideración as instrucións da 
+VCMT e o recollido na memoria vixente do título. 
+Os/as CT revisan que as g uías docentes est ean completas, públicas e 
+2  
+
+D03-P02. PLANIFICACIÓN E DESENVOLVEMENTO  
+DAS ENSINANZAS 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+actualizadas. Finalmente, o CD primeiro e a XC despois, aproban as guías 
+docentes. 
+Antes do inicio de cada curso académico, o ED, tendo en conta o calendario 
+académico da UDC, elabora o calendario académico para ese centro, onde 
+se indican os perí odos lectivos, así como os perí odos de a valiación para o  
+curso académico.  
+As CAT no caso dos mestrados interuniversitarios, o u a COA no dos 
+restantes títulos, tendo en conta o calendario académico do Centro, elabora 
+o calendario académico do título, onde figuran, entre outras, as dat as que 
+marcan o desenvolvemento das prácticas  externas (D03-P05. Prácticas 
+Externas), a mobilidad e do alumnado (D03-P04. Mobilidad e), e o  
+desenvolvemento e avaliación dos Traball os de Fin de Grao (TFG) e 
+Traballos de Fin de Mestrado (TFM). O ED remite os calendarios académicos 
+do Centro e dos títulos á XC para a súa aprobación. 
+Antes do inicio de cada curso académico, o ED co apoio dos/as CT, elabora 
+os horarios e a asignación de espazos docentes para os títulos e o calendario 
+de exames, que remite á XC para a súa aprobación.  
+As CAT (títulos de mestrado interuniversitario) ou a COA (restantes títulos) 
+propoñen os mecanis mos de coordinación horizontal e vertical que son 
+necesarios no título, e, en caso de títulos interuniversitarios, os mecanismos 
+de coordinación entre todos os centros/ universidades que o imparten. Así 
+mesmo, revisan an ualmente estes meca nismos de coordinación, propondo 
+as accións de mellora oportunas, de ser o caso. 
+O/la CM é responsable de que o desenvolvemento da ensinanza na materia 
+cumpra cos compromisos adquiridos na guía docente. En caso de encontrar 
+algunha incidencia durante o desenvolvemento do curso, o comunicará ao/á 
+CT, para dar lle resposta. O/ a C T informa de todas as incidencias 
+relacionadas co desenvolvemento das ensinanzas, así como a respuesta a 
+estas, á CEC. 
+A COA elabora o regulamento interno para o desenvolvemento e avaliación 
+dos TFG/TFM, que remite ao ED para a súa aprobación en X C. O/a CT é 
+responsable de que o desenvolvemento e avaliación dos TFG/TFM cumpra 
+co establecido no regulamento, e debe informar á CAT / COA de calquera 
+desviación que se produza no establecido, que resolverá en función da 
+incidencia. 
+A COA é responsable de elaborar os informes relativos ás solicitudes de 
+recoñecemento de créditos do alumnado, segundo a normativa vixente, así 
+como de resolver as reclamacións do alumnado aos criterios de avaliación, 
+de ser o caso. 
+No remate de cada curso académico , as CT/COA analizan o cumprimento 
+das actividades de planificación e  desenvolvemento da ensinanza e d as 
+3  
+
+D03-P02. PLANIFICACIÓN E DESENVOLVEMENTO  
+DAS ENSINANZAS 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+reclamacións do alumnado aos criterios de avaliación que se recibisen , 
+propondo as accións de mell ora para o curso académico seguinte, se 
+proceder.  
+A CEC revisa e analiza a información recibida d os/as CT para a súa análise 
+conxunto a nivel de centro e a remite ao ED para a súa aprobación pola XC. 
+  
+EVIDENCIAS RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+D03-P02-E01. Actas   
+CG 
+COA 
+CEC 
+CAT 
+CD 
+XC 
+Cada vez que se reúne  
+Aplicación 
+informática 
+D03-P02-E02. Plan Docente Anual 
+(PDA) 
+XC 
+Antes do inicio do curso 
+académico 
+Aplicación 
+informática 
+D03-P02-E03. Plan de 
+Organización Docente (POD) 
+CD 
+Antes do inicio do curso 
+académico 
+Aplicación 
+informática 
+D03-P02-E04. Guías docentes 
+CT 
+CD 
+XC 
+ 
+Antes do inicio do curso 
+académico 
+Web 
+institucional 
+D03-P02-E05. Horarios, aulas e 
+calendario académico do 
+centro/título 
+ED 
+ 
+Antes do inicio do curso 
+académico 
+Web centro 
+D03-P02-E06. Regulamento interno 
+para o desenvolvemento e 
+avaliación dos TFG/TFM 
+COA 
+Antes do inicio do curso 
+académico 
+Web centro 
+D03-P02-E07. Listaxe de 
+estudantes que solicitaron 
+recoñecemento de créditos 
+COA Cada curso académico 
+Aplicación 
+informática 
+D03-P02-E08. Informes sobre o 
+recoñecemento de créditos  
+COA 
+ 
+Cada curso académico  
+Aplicación 
+informática 
+ 
+4  
+
+D03-P02. PLANIFICACIÓN E DESENVOLVEMENTO  
+DAS ENSINANZAS 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+D03-P02-E09. Accións de mellora  
+CAT 
+COA 
+CEC 
+ 
+Cada vez que se 
+abra/revise unha 
+acción de mellora 
+Aplicación 
+informática  
+INDICADORES RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D03-P02-I01. Número total de 
+alumnado matriculado 
+CT 
+ 
+Cada curso académico 
+Aplicación  
+Informática 
+D03-P02-I02. Media de alumnado 
+por grupo de docencia 
+CT 
+Cada curso académico 
+Aplicación  
+Informática 
+D03-P02-I03. Porcentaxe de 
+materias con reclamacións nos 
+criterios de avaliación 
+CT 
+Cada curso académico 
+Aplicación  
+Informática 
+ 
+5  
+
+D03-P03. APOIO AO ALUMNADO 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+D03-P03. Apoio ao alumnado 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+No mesmo sentido en que se expuxo en 
+procedementos anteriores, a planificación e a 
+xestión dos mecanismos de apoio ao estudantado 
+repártense entre as CAT (títulos de mestrado 
+interuniversitario) e a COA (restantes títulos)  
+ 
+ 
+ 
+ 
+ 
+  
+1  
+
+D03-P03. APOIO AO ALUMNADO 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+DENOMINACIÓN D03-P03. APOIO AO ALUMNADO 
+OBXECTO Establecer a sistemática para garanti r a acollida, a atención e a orientación 
+académica e profesional do alumnado dos títulos oficiai s durante a súa 
+formación académica. 
+DEFINICIÓNS Plan de accións de atención ao estudante (PAAE). Conxunto de accións de 
+apoio/atención ao alumnado que se desenvolven no  centro (xornadas de 
+acollida no centro, plan de acción ti torial, actividades de orientación 
+profesional, accións de difusión da información sobre os serviz os de 
+orientación ao estudante, etc.)  
+RESPONSABLES Equipo Directivo (ED) 
+Xunta de Centro (JC) 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión Académica do Título (CAT) 
+Comisión de Organización Académica (COA) 
+DOCUMENTACIÓN Véxase anexo V do Manual 
+DESENVOLVE-
+MENTO 
+Antes do inicio de cada curso académico, as CAT / COA revisan e analizan os 
+resultados das accións de atención ao alumnado programadas o curso 
+anterior e establece novas accións para o  curso académico actual, de ser o 
+caso.  
+Todas as accións deben estar definidas de forma concreta e ser alcanzables 
+e medibles. Cada acción debe  indicar, polo menos, os responsables da 
+mesma, a temporización e os indicadores/metas que axudarán á súa posterior 
+revisión. 
+As CAT/COA as remite á CEC, xunto coas accións de mellora oportunas, de 
+ser o caso, para a súa análise conjunta a nivel de centro.  
+A CEC revisa e analiza a información recibida da s CAT / COA  e elabora o  
+PAAE do centro, que remite ao ED para a súa aprobación en XC. 
+ 
+EVIDENCIAS RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D03-P03-E01. Actas   CAT 
+COA 
+CEC 
+XC  
+Cada vez que se reúna  Aplicación 
+informática 
+D03-P03-E02. PAAE do centro CAT 
+COA 
+CEC 
+Cada curso académico Web do 
+centro 
+2  
+
+D03-P03. APOIO AO ALUMNADO 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+D03-P03-E03. Accións de mellora  CAT 
+COA 
+CEC 
+Cada vez que se 
+abra/revise unha acción 
+de mellora 
+Aplicación 
+informática  
+INDICADORES RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D03-P03-I01. Porcentaxe de accións 
+de atención ao alumnado realizadas CAT 
+CEC 
+Cada curso académico 
+Aplicación 
+informática  
+D03-P03-I02. Número total de 
+alumnado que participa nas accións de 
+atención realizadas 
+CAT 
+CEC 
+Cada curso académico 
+Aplicación 
+informática  
+ 
+3  
+
+D03-P04. MOBILIDADE 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+D03-P04. Mobilidade 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+A Facultade de Filoloxía conta cun vicedecanato de 
+relacións internacionais (VRRII) e cunha comisión 
+delegada da Xunta de Facultade: a Comisión de 
+relacións internacionais (CCRI), encargada de 
+xestionar os programas de mobilidade, incluidas as 
+accións de promoción. Pola súa parte, a Comisión 
+de estratexia e garantía de calidade, da que forman 
+parte os/as CT é o órgano responsable de analizar 
+os resultados a nivel de centro e establecer as 
+oportunas accións de mellora. Para isto conta co 
+apoio do/a vicedecano/a de relacións 
+internacionais. 
+ 
+ 
+ 
+1  
+
+D03-P04. MOBILIDADE 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DENOMINACIÓN D03-P04. MOBILIDADE 
+OBXECTO 
+Establecer a sistemática para garantir a xestión e revisión dos programas 
+de mobilidad e nacional e internacional, contemplando as estadías do 
+alumnado do centro (saínte) e  as do alumnado de outras universidades 
+(entrante) 
+DEFINICIÓNS 
+Convenio de mo bilidade: marco xurídico entre as institución s 
+participantes no programa de mob ilidade, en que se establecen as 
+condicións da devandita mobilidade. 
+Programa de mobilidade: programa de intercambio académico que ten 
+por finalidade  promover e fomentar a mobilidad e do alumnado entre 
+diferentes universidades. 
+Alumnado entrante: estadías do alumnado de outras universidades no 
+centro. 
+Alumnado saínte: estadías do alumnado do centro en outras 
+universidades. 
+RESPONSABLES 
+Reitor 
+Vicerreitoría con Competencias en Materia de Internacionalización 
+(VCMI) 
+Equipo Directivo (ED) 
+Xunta de Centro (JC) 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión de Relacións Internacionais (CRRII) 
+   Vicedecano/a de Relacións Internacionais (VRRII) 
+Oficina de Relacións Internacionais (ORI) 
+Oficina de Convenios da UDC 
+DOCUMENTACIÓN Véxase anexo V do Manual 
+DESENVOLVE-
+MENTO 
+O alumnado interesado solicita la mobilidade. Unha vez seleccionado por 
+parte da CRRII e aceptada a bolsa de mobilidade, o/a VRRII do centro, co 
+apoio da ORI, xestiona a documentación que debe presentar na 
+universidade de destino e resolve calquer a incidencia que poida 
+presentarse. Estas incidencias, en caso de se produciren, son t idas en 
+conta para a mellora dos programas de mobilidade. 
+2  
+
+D03-P04. MOBILIDADE 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+ 
+Finalizada la estadía, o alumnado participante ve recoñecidas, de acordo 
+coa normativa en vigo r, as materias cursadas segun do a avaliación 
+realizada na universidad e receptora e o contrato académico autorizado 
+polo centro. 
+O centro pode recibir alumnado procedente de outras universidades. Os 
+convenios de mobilidade establéceos o VCMI, a través da ORI. A 
+orientación e información a ese alumnado lévase a cabo entre o VRRII e 
+a ORI. O/a VRII  é o encargado de solucionar calquer a incidencia que 
+xurda durante a súa estadía no centro. Estas incidencias, en caso de se 
+produciren, son tidas en conta para a mellora dos programas de 
+mobilidade. 
+Ao longo do curso académico, `pódense asinar acordos ou convenios con 
+universidades nacionais e internacionais a proposta do ED, en 
+coordinación coa CRII . Para isto o/a VRRII supervisa a súa redacción, 
+seguindo os modelos que proporciona a ORI, e os remite á Oficina de 
+Convenios da UDC para a súa sinatura polo Reitor. 
+Anualmente, o/a VRRII remite á CEC os resultados das accións de 
+fomento da mobilidade programadas. Esta os revisa, analiza e establece 
+novas accións de mellora para o curso académico seguinte, de sero caso. 
+Posteriormente, remite un informe ao ED para a súa aprobación en XC. 
+ 
+EVIDENCIAS RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D03-P04-E01. Actas  CRRII 
+CEC 
+XC 
+Cada vez que se 
+reúne  
+Aplicación 
+informática 
+D03-P04-E02. Listaxe de 
+centros/universidades con convenio de 
+mobilidade  
+VRRII Cada curso académico Aplicación 
+informática 
+D03-P04-E03. Convenios de 
+colaboración en vigor 
+Oficina de Convenios Permanente Web 
+institucional 
+D03-P04-E04. Relación de actividades 
+para fomentar a participación do 
+alumnado 
+VRRII 
+CRRII 
+Cada curso 
+académico 
+Aplicación 
+informática  
+D03-P04-E5. Accións de mellora  CEC Cada vez que se 
+abra/revise unha 
+acción de mellora 
+Aplicación 
+informática  
+3  
+
+D03-P04. MOBILIDADE 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+INDICADORES RESPONSABLES  TEMPORALIZACIÓN LUGAR 
+D03-P04-I01. Número total de 
+alumnado saínte e entrante por tipo de 
+programa de mobilidade 
+VRRII Cada curso 
+académico 
+Aplicación 
+informática 
+D03-P04-I02. Relación entre o número 
+total de alumnado saínte que solicita 
+participar e o número total de prazas 
+ofertadas, por tipo de programa de 
+mobilidade 
+VRRII Cada curso 
+académico 
+Aplicación 
+informática 
+D03-P04-I03. Relación entre o número 
+total de alumnado saínte e o número 
+total de alumnado matriculado no título 
+VRRII Cada curso 
+académico 
+Aplicación 
+informática 
+ 
+4  
+
+D03-P05. PRÁCTICAS EXTERNAS 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+D03-P05. Prácticas Externas 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+As prácticas que se ofertan no Centro son de dous 
+tipos: curriculares (mestrados en Lingüística 
+Aplicada e en Estudos Ingleses Avanzados), e 
+extracurriculares (titulacións de grao e mestrado en 
+Literatura, Cultura e Diversidade). A xestión das 
+prácticas curriculares  é responsabilidad das 
+respectivas CAT, pero para a xestión dos 
+programas de prácticas extracurriculares o Centro 
+conta cun responsable de prácticas 
+extracurriculares (RPE) e cunha comisión de 
+prácticas extracurriculares (CPE). 
+ 
+ 
+ 
+ 
+ 
+ 
+1  
+
+D03-P05. PRÁCTICAS EXTERNAS 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+DENOMINACIÓN  D03-P05. PRACTICAS EXTERNAS 
+OBXECTO  Establecer a sistemática que permita planificar, avaliar e revisar as prácticas 
+externas que se configuran como actividades académicas. 
+DEFINICIÓNS  Non conta con definiciáns asociadas 
+RESPONSABLES  Xunta de Centro (JC) 
+Equipo Directivo (ED) 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión Académica do Título (CAT) 
+Comisión de organización académica (COA) 
+Coordinador/a de título (CT) 
+Responsable de prácticas de grao (RPE) 
+Comisión de prácticas de grao (CPE) 
+DOCUMENTACIÓN  Véxase Anexo V del Manual  
+DESENVOLVE- 
+MENTO 
+ O/a CT, en coordinación co RPE, analiza as necesidades e tramita convenios 
+por iniciativa propia o u a petición dos grupos de interes e (profesorado, 
+estudantado, empr egadores). A formalización de convenios co s centros é  
+imprescindible para a realización das prácticas. 
+A planificación e o desenvolvemento das prácticas externas realízase conforme 
+ao establecido na normativa vixente da UDC e ao recollido na memoria vixente 
+do título. 
+A CAT nos títulos de mestrado interuniversitario e a CPE nos restantes, ao inicio 
+da implantación d un título, elaboran e aprueban o documento que describe a 
+planificación, desenvolvemento e avaliación das prácticas externas, que revisa 
+anualmente e que é público na web do centro (Prácticas (udc.es)). 
+Anualmente, a CAT ou, no seu caso, o RPE e a CPE revisan os convenios en 
+vigor coas entidades onde se realizan as prácticas externas, analizan  as 
+incidencias relacionadas co desenvolvemento das prácticas externas e  o grao 
+de satisfacción , tanto do alumnado como d os/as titores/as académicos e 
+profesionais, e establecen novas accións, de ser o  caso. Posteriormente, as 
+envía á CEC para a súa análise conxunta a nivel de centro, que remite ao ED 
+para a súa aprobación pola XC. 
+ 
+EVIDENCIAS RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D03-P05-E01. Actas   CEC 
+CAT Cada vez que se Aplicación 
+2  
+
+D03-P05. PRÁCTICAS EXTERNAS 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+CPE 
+JC 
+reúne la comisión informática 
+D03-P05-E02. Listaxe de 
+centros/entidades para a realización 
+de prácticas externas 
+CAT 
+RPE 
+ 
+Cada curso académico 
+ 
+Aplicación 
+informática 
+ 
+D03-P05-E03. Convenios en vigor 
+coas entidades onde se realizan 
+prácticas externas 
+CAT 
+RPE 
+Cada curso académico Aplicación 
+informática 
+D03-P05-E04. Distribución do 
+alumnado por centro de prácticas 
+obrigatorias 
+CAT 
+ 
+Cada curso académico Aplicación 
+informática 
+D03-P05-E05. Distribución do 
+alumnado por centro de prácticas non 
+obrigatorias 
+RPE Cada curso académico Aplicación 
+informática 
+D03-P05-E06. Accións de mellora  CEC 
+CAT 
+RPE 
+Cada vez que se 
+abra/revise unha 
+acción de mellora 
+Aplicación 
+informática  
+INDICADORES RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D03-P05-I01. Porcentaxe de alumnado 
+que participa nas prácticas non 
+obrigatorias 
+CT 
+RPE Cada curso académico Aplicación 
+informática 
+D03-P05-I02. Porcentaxe de alumnado 
+que participa nas prácticas 
+obrigatorias 
+CT 
+ Cada curso académico Aplicación 
+informática 
+ 
+3  
+
+D04-P01. XESTIÓN DO PERSOAL ACADÉMICO E DE 
+APOIO Á DOCENCIA  
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+D04-P01. Xestión do persoal académico e de apoio á docencia 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade 24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+ 
+   
+1  
+
+D04-P01. XESTIÓN DO PERSOAL ACADÉMICO E DE 
+APOIO Á DOCENCIA  
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+A oferta académica do Centro (tres graos cos dous 
+primeiros anos comúns; tres programas de 
+simultaneidade entre estes graos; tres títulos de 
+mestrado con contidos de carácter transversal) 
+obriga a efectuar unha xestión do PDI máis a nivel 
+de centro que a nivel de título. De feito, existe 
+tamén un único departamento responsable da 
+organización do POD de todos os títulos. Por outra 
+parte, os títulos da área de coñecemento de 
+Humanidades no adoitan contar con persoal de 
+apoio á docencia (sí, en cambio, á investigación), 
+fóra, claro está, do persoal de biblioteca ou de 
+administración, mais estes tamén desempeñan as 
+súas funcións máis a nivel de centro que de 
+titulación.  Por estas razóns, proponse asignar a 
+responsabilidade de análise e planificación das 
+accións de mellora á Comisión de organización 
+académica e á Comisión de estratexia e garantía 
+de calidade. 
+ 
+ 
+ 
+DENOMINACIÓN  D04-P01. XESTIÓN DO PERSOAL ACADÉMICO E DE APOIO Á 
+DOCENCIA 
+OBXECTO  Establecer a sistemática para garantir  a adecuación e suficiencia do 
+persoal académico (persoal docente e investigador) e do persoal de apoio 
+(persoal de administración e servizos, técnicos de laboratorio, etc.) á 
+docencia. 
+DEFINICIÓNS  Convenio de mobilidade: marco xurídico entre as institucións participantes 
+no programa de mobilidade, en  que se establecen as condicións de  
+mobilidade. 
+Programa de mobilidade: programa de intercambio que ten por finalidade 
+promover e fomentar a mobilidade do persoal académico e de apo io á 
+docencia entre diferentes universidades. 
+Persoal académico e de apoyo á docencia entrante: estadías do persoal 
+académico e de apoio á docencia de outras universidades no centro. 
+Persoal académico e de apoyo á docencia saínte: estadías do persoal 
+académico e de apoio á docencia do centro noutras universidades. 
+RESPONSABLES  Xerencia da UDC 
+Vicerreitoría con Competencias en materia de Profesorado (VCMP) 
+2  
+
+D04-P01. XESTIÓN DO PERSOAL ACADÉMICO E DE 
+APOIO Á DOCENCIA  
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+Vicerreitoría con competencias en materia de Internacionalización (VCMI) 
+Equipo Directivo (ED) 
+Xunta de Centro (JC) 
+Consello de Departamento (CD): dos departamentos implicados na 
+docencia 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión Académica doTítulo (CAT) 
+Comisión de Organización Académica (COA) 
+Persoa responsable de calidade (PRC) 
+Coordinador/a de Título (CT) 
+Vicedecano/a de relacións internacionais do centro (VRRII) 
+Oficina de Relacións Internacionais (ORI) 
+Centro Universitario de Formación e Innovación Educativa (CUFIE) 
+Comisión de Formación da Universidad (CFU) 
+Unidade Técnica de Calidade (UTC) 
+Servizos Informáticos e de Comunicación (SIC) 
+DOCUMENTACIÓN  Véxase Anexo V del Manual 
+DESENVOLVE-
+MENTO 
+ PERSOAL DOCENTE E INVESTIGADOR (PDI) 
+Anualmente, a CAT nos títulos de mestrado interuniversitario ou a COA para 
+os restantes títulos , coa  fin de garanti r que dispón dp PDI necesario e  
+adecuado para o correcto desenvolvemento do título, compara o recollido 
+na memoria vixente coa relación de PDI (POD), e establece as accións de 
+mellora oportunas, de ser o caso, que remite á CEC para a análise conxunta 
+a nivel de centro. Posteriormente, as envía ao ED para a súa aprobación 
+pola XC. Estas accións de mellora son tidas en conta para a elaboración da 
+proposta de PDA e POD do curso seguinte, tal como se establece no  D03-
+P02: Planificación e desenvolvemento das ensinanzas. 
+Así m esmo, durante o curso académico os CD comunican á VCMP as 
+necesidades sobrevidas de PDI para a súa tramitación, de ser o caso. 
+ 
+AVALIACIÓN DA ACTIVIDADE DOCENTE DO PDI 
+Anualmente, a UDC publica un ha convocatoria para a valiar a actividad e 
+docente d o profesorado a través do  Programa Docentia  
+https://www.udc.es/gl/utc/ferramentas_calidade/docentia/ cuxa xestión é  
+3  
+
+D04-P01. XESTIÓN DO PERSOAL ACADÉMICO E DE 
+APOIO Á DOCENCIA  
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+responsabilidade da UTC.  
+A CEC, no curso seguinte a aquel en que o/a docente foi avaliado/a, elabora 
+un informe sobre a execución das acción s de  mellora que o Comité de 
+Avaliación Docente propuxera ao profesorado que obti vo a valoración de 
+avaliación condicionada, de acordo co establecido na normativa vixente. 
+FORMACIÓN PDI 
+A formación do PDI está asignada ao  CUFIE, que elabora anualmente o 
+Plan de Formación para o PDI, que atende ás necesidades detectadas a 
+través de a avaliación da actividade docente do profesorado (Programa 
+Docentia) e de a súa enquisa de autoavaliación.  
+Se a CAT / COA ou a CEC detectan a necesidade de formación específica 
+que non queda cuberta co devandito plan, o comunica ao ED, que a remite 
+ao CUFIE para que valore a súa incorporación ao Plan de F ormación. 
+Ademais, o PDI ten a posibilidad e de solicitar a participación en accións 
+formativas externas á UDC, como cursos, congresos e seminarios. 
+PERSOAL DE APOIO Á DOCENCIA ( Persoal de Administración e 
+Servizos-PAS) 
+Ao longo del curso académico, o  ED comunicará á Xerencia da UDC as 
+necesidades sobrevidas e desaxustes que se produzan. 
+FORMACIÓN DO PAS 
+Anualmente, a través da página web https://www.udc.es/es/pas/formacion/,   
+a CFU oferta ao PAS formación dirixida á súa capacitación profesional e 
+adaptación ás innovacións tecnolóxicas, co obxectivo de promover a mellora 
+constante d a calidade do servizo. Esta acción inclúe a posibilidad e de 
+solicitar a participación en accións formativas externas á UDC, como cursos, 
+congresos e seminarios: 
+https://www.udc.es/es/pas/formacion/xestion-de-solicitudes/solicitar-
+formacion-externa/. 
+Se a CAT / COA, a CEC, o ED ou o propio PAS do centro detectan unha 
+necesidade de formación específica que non quede cuberta coa devandita  
+oferta, o ED o comunica á Xerencia da UDC para que valore a súa  
+incorporación no Plan de Formación do curso académico seguinte, de ser o 
+caso. 
+ 
+ 
+MOBILIDADE DO PDI E DO PAS 
+O PDI dos títulos e o PAS do centro po den realizar estadías no utras 
+4  
+
+D04-P01. XESTIÓN DO PERSOAL ACADÉMICO E DE 
+APOIO Á DOCENCIA  
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+universidades españolas ou estranxeiras. A VCMI, a través da ORI, xestiona 
+as convocatorias de mobilidade. As s úas páginas web publican 
+periódicamente convocatorias de mobilidade que describen os 
+procedementos a seguir para a solicitud e e selección das persoas 
+interesadas.  
+Unha vez que as persoas interesadas foron seleccionadas e aceptaron a 
+bolsa de mobilidade, a ORI xestiona a documentación que se debe 
+presentar na universidade de destino e resolve cualquer a incidencia que 
+poida presentarse.  
+O centro po de recibir PDI/P AS procedentes de o utras universidades  
+segundo os convenios de mobilidade establecidos polo VCMI  a través da 
+ORI. O/a VRRII será o/a encargado/a de solucionar calquera incidencia que 
+poida presentarse durante a súa estadía no centro.  
+As incidencias, en caso de se produciren, s erán t idas en conta  pola 
+CEC/ORI para a mellora dos programas de mobilidade do curso seguinte. 
+Anualmente, a UTC e o/a VRRII remiten ao/á CT os datos relativos ao PDI 
+dos títulos que se imparten no centro que foron avaliados polo programa 
+DOCENTIA e os resultados obtidos; os relativos á participación do PDI do 
+título nos planes de formación da UDC; os datos relativos á participación do 
+PAS do centro en plans de formación d a Universidade e os datos de 
+mobilidade do PDI dos títulos e do PAS do centro respectivamente, para que 
+os envíe  á CEC para unha  análise conxunta  a nivel de centro . 
+Posteriormente, esta envía a análise ao ED para a súa aprobación por XC. 
+EVIDENCIAS RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D04-P01-E01. Actas  CAT 
+COA 
+CEC 
+JC 
+CD 
+Cando se reúne 
+Aplicación 
+informática 
+D04-P01-E02. CV profesorado 
+externo 
+CAT 
+COA 
+Cada curso académico Aplicación 
+informática 
+D04-P01-E03. Accións de mellora CAT 
+COA 
+CEC 
+Cada vez que se 
+abra/revise unha acción 
+de mellora Aplicación 
+informática 
+5  
+
+D04-P01. XESTIÓN DO PERSOAL ACADÉMICO E DE 
+APOIO Á DOCENCIA  
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+INDICADORES RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D04-P01-I01. Número de PDI do 
+título por categoría 
+SIC Cada curso académico Aplicación 
+informática 
+D04-P01-I02. Numero de 
+quinquenios e sexenios do PDI do 
+título por categoría 
+SIC Cada curso académico Aplicación 
+informática 
+D04-P01-I03. Participación do PDI 
+do título en plans de formación da 
+UDC  en actividades formativas 
+específicas  
+CUFIE 
+UTC 
+Cada curso académico Aplicación 
+informática 
+D04-P01-I04. PDI do título 
+avaliado polo programa 
+DOCENTIA e resultados obtidos  
+UTC Cada curso académico Aplicación 
+informática 
+D04-P01-I05. Número de PAS do 
+centro por categoría 
+SIC Cada curso académico Aplicación 
+informática 
+D04-P01-I06. Porcentaxe de 
+participación do PAS do centro en 
+plans de formación da UDC e en 
+actividades formativas especificas  
+CFU 
+UTC 
+Cada curso académico Aplicación 
+informática 
+D04-P01-I07. Número total de PDI 
+do título/PAS do centro que 
+participa nos programas de 
+mobilidade (entrante e saínte), por 
+tipo de programa 
+VRRII Cada curso académico Aplicación 
+informática 
+D04-P01-I08. Porcentaxe de PDI 
+do título que participa en 
+programas de mobilidade 
+VRRII Cada curso académico Aplicación 
+informática 
+D04-P01-I09. Porcentaxe de PAS 
+do centro que participa en 
+programas de mobilidade  
+VRRII Cada curso académico Aplicación 
+informática 
+6  
+
+D05-P01. XESTIÓN DOS RECURSOS MATERIAIS E DA 
+PRESTACIÓN DE SERVIZOS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+ 
+D05-P01. Xestión dos recursos materiais e da prestación de servizos 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+Polas mesmas razóns expostas no documento 
+D04-P01, é preferible enfocar a cuestión dos 
+recursos materiais a nivel de Centro que a nivel de 
+títulos, especialmente porque a Facultade de 
+Filoloxía conta cun vicedecanato de infraestruturas 
+e con dúas comisións delegadas da XC 
+encargadas respectivamente da planificación de 
+infraestruturas (Comisión de Infraestruturas e 
+Servizos) e da xestión de materiais bibliográficos 
+(Comisión de Biblioteca) 
+ 
+ 
+ 
+ 
+ 
+1  
+
+D05-P01. XESTIÓN DOS RECURSOS MATERIAIS E DA 
+PRESTACIÓN DE SERVIZOS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DENOMINACIÓN   D05-P01. XESTIÓN DOS RECURSOS MATERIAIS E DA PRESTACIÓN 
+DE SERVIZOS 
+OBXECTO  Establecer a sistemática para garantir  a adecuada xestión dos recursos 
+materiais utilizados nos títulos oficiai s que se imparten no centro e  a 
+adecuada prestación dos servizos existentes. 
+DEFINICIÓNS  Non conta con definicións asociadas 
+RESPONSABLES  Vicerrectoría responsable de infraestruturas (VRI) 
+Xunta de Centro (JC) 
+Comisión de Estratexia e Garantía de calidade (CEC) 
+Comisión de Infraestruturas e Servizos (CII)  
+Equipo Directivo (ED) 
+Vicedecano/a de infraestruturas e servizos (VII) 
+Coordinador/a do título (CT) 
+Comisión de Biblioteca (CB) 
+Persoal de Apoio da Biblioteca 
+DOCUMENTACIÓN  Véxase anexo V do Manual 
+DESENVOLVE-
+MENTO 
+ Anualmente, a CEC, en coordinación cos/ as CT, coa fin de garantir que se 
+dispón dos recursos materiais e servizos necesarios para o  adecuado 
+desenvolvemento das titulacións ofertadas no Centro, revisa a suficiencia, a 
+adecuación e o correcto funcionamento dos recursos materiais e servizos,  
+o compara co recollido na memoria vixente do  título, analiza as necesidades 
+existentes e define as accións de mellora, de ser o caso. Posteriormente,  
+envía un informe ao ED para a súa aprobación pola XC. 
+Porén, en calqu era momento pódese identificar unha necesidade, que será 
+comunicada ao ED. Todas as necesidades detectadas, tanto no proceso de 
+revisión dos CT/CII/CB como en calquera momento polos grupos de interese, 
+serán analizadas e xestionadas polo ED. 
+Títulos con modalidade semipresencial e/ou a distancia 
+De forma concreta, nestes títulos reví sase a suficiencia e adecuación dos 
+materiais tanto didácticos como tecnolóxicos que se están a utilizar no título, 
+comparándoos co previsto na memoria vixente. 
+ 
+2  
+
+D05-P01. XESTIÓN DOS RECURSOS MATERIAIS E DA 
+PRESTACIÓN DE SERVIZOS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+Fondos bibliográficos 
+Antes do inicio de cada curso académico, o persoal de la biblioteca do centro 
+revisa que, polo menos, a bibliografía básica, incluida nas guías docentes das 
+materias, estea dispoñible. 
+Xestión das necesidades detectadas 
+De ac ordo coa normativa vi xente, o ED, a través do  VII, xestiona as  
+necesidades de recursos materiais e servizos ou as comunica ao/á VRI para 
+que proceda a súa tramitación.  
+Unha vez recibido o material e /ou realizado o servizo, a persoa ou servizo 
+responsable do centro, comproba que é acorde co a solicitud e inicial e o 
+dispón para o seu uso. 
+En caso de detectar un ha incidencia o u mal funcionamento dalgún recurso 
+durante o desenvolvemento do  curso académico, será comunicado ao/á VII 
+para que proceda á súa solución. 
+A avaliación dos recursos materiais e servizos, así como a xestión académica 
+e administrativa realízase a través de cuestionarios de satisfacción, de acordo 
+co que se establece no D06-P03. Satisfacción. 
+O ED garant e, en cumprimento da lexislación vixente, a accesibilidad e 
+universal e os medios de seguridade e saúde na aprendizaxe. 
+ EVIDENCIAS RESPONSABLES  TEMPORIZACIÓN LUGAR 
+ D05-P01-E01. Actas CII 
+CB 
+CEC 
+JC 
+Cada vez que se reúne  Aplicación 
+informática 
+ D05-P01-E02. Información sobre 
+os recursos materiais e servizos 
+relacionados co título 
+VII 
+CEC 
+CT 
+Cada curso académico Aplicación 
+informática 
+ D05-P01-E03. Fondos 
+bibliográficos e outros recursos 
+documentais relacionados co título 
+Persoal da Biblioteca  
+CEC Cada curso académico Aplicación 
+informática 
+ D05-P01-E04. Materiais didácticos 
+e/ou tecnolóxicos que permitan a 
+aprendizaxe a distancia 
+ 
+VII 
+ 
+Cada curso académico Aplicación 
+informática 
+3  
+
+D05-P01. XESTIÓN DOS RECURSOS MATERIAIS E DA 
+PRESTACIÓN DE SERVIZOS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+ D05-P01-E05. Accións de mellora CT 
+CEC 
+Cada vez que se 
+abra/revise unha 
+acción de mellora 
+Aplicación 
+informática 
+ 
+4  
+
+D06-P01. RESULTADOS ACADÉMICOS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+D06-P01. Resultados académicos  
+ 
+ 
+ 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do manual 
+do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao Centro 
+do documento marco 
+e manual do SGC 
+05/04/2024 
+ 
+Neste procedemento a compilación, análise de 
+datos e programación de accións de mellora 
+son resposabilidade das CAT no caso dos 
+mestrados interuniversitarios, e dos CT e a 
+CEC no dos restantes títulos. Con carácter 
+xeral, a PRC asumirá a recollida de indicadores 
+sobre inserción laboral e SIIU. 
+ 
+ 
+ 
+ 
+ 
+1  
+
+D06-P01. RESULTADOS ACADÉMICOS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+DENOMINACIÓN  D06-P01. RESULTADOS ACADÉMICOS   
+OBXECTO  Establecer a sistemática para analizar os resultados académicos coa fin de 
+garantir que se utilizan para a mell ora continua dos títulos oficiais que se 
+imparten no centro. 
+DEFINICIÓNS  Non conta con definicións asociadas 
+RESPONSABLES  Xunta de Centro (JC) 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión Académica do Título (CAT) 
+Comisión de Organización Académica (COA) 
+Coordinador/a do Título (CT) 
+Unidade Técnica de Calidade (UTC) 
+Persoa responsable de calidade (PRC) 
+Servizos de Informática e Comunicacións (SIC) 
+DOCUMENTACIÓN  Véxase anexo V del Manual 
+DESARROLLO  O/a CT, co apoio da PRC, é a instancia responsable de recopilar e revisar a 
+información sobre os resultados académicos. Estes están dispoñibles nas 
+aplicacións informáticas Xestat, Xescampus , Sigma  e SGC, cuxo 
+mantemento depende do SIC e da UTC. 
+En canto aos resultados de inserción laboral das persoas egresadas dos 
+títulos do  centro, os elaboran e publican a ACSUG e  o Observatorio 
+Ocupacional da UDC.  En caso de observar que a periodicidade dos estudos 
+de inserción laboral no n é a adecuada, a C EC pode propor accións 
+encamiñadas á obtención de información necesaria para realizar un 
+seguimento dos resultados de inserción laboral, tales como a elaboración e 
+realización de enquisas propias ás persoas egresadas.  
+Unha vez recopilada a información sobre resultados académicos  e 
+comprobada a súa fiabilidade, o/a CT a remite á CAT, no caso dos títulos de 
+mestardo interuniversitario, ou á COA, nos restantes. 
+A CAT / COA analiza os datos, comparándoos co s previstos na memoria 
+vixente do título, e establece as accións de mellora oportunas, de ser o caso.  
+Posteriormente, os envía á CEC para a súa análise conxunta a nivel de 
+centro, que a CEC remite ao ED para a súa aprobación por XC. 
+En canto á adquisición dos resultados de aprendizaxe:  
+1. O PDI analiza, segundo os  criterios de avaliación, se o alumnado 
+adquiriu as competencias establecidas. 
+2. Anualmente, a C EC realiza un seguim ento anual dos resultados 
+2  
+
+D06-P01. RESULTADOS ACADÉMICOS 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+alcanzados en cada un ha das materias dos títulos que se imparten no 
+centro con obxecto de analizar como evoluciona o proceso de avaliación 
+dos resultados de aprendizaxe e establece accións de mellora cando a 
+taxa de éxito da materia sexa inferior ao 40%, superior ao 95% ou se a 
+diferencia entre as cualificacións máis altas e máis baixas do alumnado 
+aprobado non exceda en dous puntos; cando a tax a de alumnado no n 
+presentado supere o 30% ou cando a taxa de éxito e de avaliación se 
+afasten da media do título nun 20% en ambos os sentidos. 
+  
+ EVIDENCIAS RESPONSABLES  TEMPORIZACIÓN LUGAR 
+ D06-P01-E01. Actas CAT 
+COA 
+CEC 
+JC 
+Cada vez que se reúne  Aplicación 
+informática 
+ D06-P01-E02. Listaxe de trabajos fin 
+de grao/mestrado defendidos (título, 
+titor/a e cualificación) 
+CT Cada curso académico Aplicación 
+informática 
+ D06-P01-E03. Adquisición de 
+resultados de aprendizaxe 
+PDI 
+CEC 
+Cada curso académico Aplicación 
+informática 
+ D06-P01-E04. Accións de mellora CAT 
+COA 
+CEC 
+Cada vez que se 
+abra/revise unha 
+acción de mellora 
+Aplicación 
+informática 
+ 
+ INDICADORES RESPONSABLES  TEMPORIZACIÓN LUGAR 
+ D06-P01-I01. Resultados académicos 
+(título/centro/área/universidade) SIC  Cada curso académico Aplicación 
+informática 
+ 
+D06-P01-I02. Indicadores de inserción 
+laboral 
+ACSUG 
+Observatorio 
+Ocupacional 
+PRC 
+Cada curso 
+académico 
+Aplicación 
+informática 
+ 
+D06-P01-I03. Indicadores do SIIU 
+Ministerio de 
+Universidades 
+PRC 
+Cada curso 
+académico 
+Aplicación 
+informática 
+ 
+3  
+
+D06-P02. XESTIÓN DE INCIDENCIAS (S-Q- P-F) 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+D06-P02. Xestión de incidencias (S-Q-P-F)  
+ 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN FECHA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+26/09/2014 
+08/03/2024 
+ 
+ 
+ 
+ 
+Revisión e actualización 
+Revisión procedemento PA 04 
+Revisión e actualización por cambios normativos 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+As únicas modificaciones que se propoñen ao texto 
+do documento marco refírense a: a) o responsable 
+de incorporar a documentación á aplicación, que 
+será sempre a PRC; b) os responsables da 
+evidencia D06-P02-E04, onde entendemos que 
+debe ser o ED, co apoio das CAT ou da COA, 
+quen, no seu caso, dea resposta ás preguntas, 
+suxestións e queixas recibidas. c) Será a PRC 
+quen elabore un informe integrado de incidencias a 
+nivel de centro, e a CEC a que programe as 
+oportunas accións de mellora. 
+ 
+ 
+ 
+ 
+1  
+
+D06-P02. XESTIÓN DE INCIDENCIAS (S-Q- P-F) 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+DENOMINACIÓN  D06-P02. XESTIÓN DE INCIDENCIAS (S-Q-P-F) 
+OBXECTO  Establecer a sistemática para g arantir que se atenden as suxestións, queixas, 
+preguntas e parabéns recibidos en relación co centro e/ou os títulos oficiais que 
+imparte, por calquera dos medios de que dispón a UDC. 
+DEFINICIÓNS  Parabén: manifestación da satisfacción e recoñecemento respecto ao bon 
+funcionamento do centro e/ou títulos. 
+Suxestión: insinuar cambios para a revisión e mellora de calquera actividade do 
+centro e/ou títulos. 
+Queixa: expresión documentada pola que se manif esta disconformidade cun 
+feito ou situación relativo ao centro e/ou títulos. 
+RESPONSABLES  Xunta de Centro (JC) 
+Equipo Directivo (ED) 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión de organización académica (COA)  
+Comisión Académica do Título (CAT) 
+Persoa Responsable de Calidade (PRC) 
+Unidade Técnica de Calidade (UTC) 
+DOCUMENTACIÓN  Véxase anexo V del Manual 
+DESENVOLVE-
+MENTO 
+ A través da caixa de suxestións da UDC (https://forms.office.com/r/VFuk241CYZ), 
+formulario electrónico que é accesible desde as páginas web da UDC 
+(https://www.udc.gal/) e da Facultade   (Facultade de Filoloxía (udc.es) ), as 
+persoas usuarias o u calquera outra persoa afectada po de enviar suxestión s, 
+queixas, preguntas e parabéns dirixidos ao centro e /ou aos títulos. A UTC as 
+recibe e as remite ao ED por correo electrónico. 
+A PRC recibe, a través da web do centro, caixa de suxestións do centro, entrega 
+directa, reunións do PAT, etc., as incidencias, e envía unha copia ao ED para o 
+seu coñecemento, á vez que incorpora a incidencia na aplicación informática 
+para o seu rexistro.  
+O ED identifica qué persoa/servixo debe atender a incidencia e l le a envía. Se 
+se trata dun  parabén o proceso finaliza aquí. Se se trata dun ha pregunta, a 
+persona/servizo que a recibe lle dá respuesta e remite unha copia ao ED.  
+Se se trata du nha suxestión ou queixa que requira resposta , a persona o u 
+servizo indicado a analiza e  elabora un informe, q ue remite ao  ED no prazo 
+indicado na solicitude enviada polo ED. 
+Unha vez recibido o informe, o ED, nun prazo máximo de 30 días hábiles (agás 
+2  
+
+D06-P02. XESTIÓN DE INCIDENCIAS (S-Q- P-F) 
+FACULTADE DE FILOLOXÍA 
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+que a normativa de aplicación indique o contrario), elabora unha resposta, que 
+comunica á perso a interesada, se  foi solicitada e se a devandita perso a se 
+identificara. Para a elaboración de desta resposta, o  ED pode solicitar o apoio, 
+se o considera necesario, das CAT ou da COA. En caso de disconformidade, a 
+persoa interesada po de solic itar no prazo de 30 días hábiles a revisión d a 
+resposta recibida. 
+O ED envía a documentación relativa á incidencia á PRC, para que a incorpore 
+na aplicación informática. 
+A PRC elabora anualmente un informe en que figuran todas as incidencias 
+relativas ao centro e aos títulos, incluíndo as que se recibiron a través doutras 
+instancias, tales como Servizos centrais, valedor/a universitario ou de calquera 
+outra de que teña constancia.  
+A CEC analiza o devandito informe e elabora as accións de mellora necesarias 
+a nivel de centro  e de título, de ser o  caso, que envía ao ED para a súa  
+aprobación pola XC. 
+ EVIDENCIAS RESPONSABLES  TEMPORIZACIÓN LUGAR 
+ D06-P02-E01. Actas CAT 
+CEC 
+JC 
+Cada vez que se 
+reúne  
+Aplicación 
+informática 
+ D06-P02-E02. Suxestión s, queixas, 
+preguntas e parabéns 
+PRC Cando proceda Aplicación 
+informática 
+ D06-P02-E03. Informe da persona, 
+órgano ou servizo implicado 
+Persoa, órgano ou 
+servizo implicado Cando proceda Aplicación 
+informática 
+ D06-P02-E04. Resposta ás 
+suxestións, queixas e preguntas  
+ED 
+CAT 
+COA 
+Cando proceda 
+Aplicación 
+informática 
+ D06-P02-E05. Accións de mellora  
+CEC 
+Cada vez que se 
+abra/revise unha 
+acción de mellora 
+ 
+ 
+Aplicación 
+informática 
+ INDICADORES RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D06-P02-I01. Número de suxestións, 
+queixas, preguntas e felicitacións por 
+curso académico dirixidas ao Centro 
+e/ou título 
+PRC 
+ 
+Cada curso 
+académico 
+Aplicación 
+informática 
+ 
+3  
+
+D06-P03. SATISFACCIÓN 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+D06-P03. Satisfacción 
+ 
+ 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+10/10/2014 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+A análise dos resultados das enquisas de 
+satisfacción será efectuado polas CAT (mestrados 
+interuniversitarios) / COA (restantes títulos) a nivel 
+de título, e pola CEC a nivel de centro. Esta última 
+elaborará un plan integral de mellora do Centro a 
+partir das propostas das CAT / COA. 
+ 
+ 
+ 
+ 
+1  
+
+D06-P03. SATISFACCIÓN 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+ 
+DENOMINACIÓN  D06-P03. SATISFACCIÓN 
+OBXECTO  Establecer a sistemática para garantir que se recolle a satisfacción , 
+expectativas e necesidades dos grupos de interese e que as súas opinións 
+(resultados) se utilizan para a mell ora da organización do centro e do 
+desenvolvemento dos títulos que se imparten nel. 
+DEFINICIÓNS  Non conta con definicións asociadas. 
+RESPONSABLES  Equipo Directivo (ED) 
+Xunta de Centro (JC) 
+Persona Responsable de Calidade (PRC) 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión Académica do Título (CAT) 
+Comisión de Organización Académica (COA) 
+Coordinador/a do Título (CT) 
+Unidade Técnica de Calidade (UTC) 
+Persoa coordinadora de avaliación docente (PCED) 
+Servizo de Informática e Comunicacións (SIC) 
+DOCUMENTACIÓN  Véxase anexo V del Manual 
+DESENVOLVE-
+MENTO 
+ Satisfacción co título 
+A UTC elabora unha proposta de enquisas de satisfacción  dos grupos de 
+interese co título e de protocolo de aplicación, e a remite á PRC. Esta a envía 
+ás CAT / COA para a súa análise. Un ha vez analizadas, estas instancias 
+remiten as propostas de mellora, de ser o caso, á  PRC para a súa análise 
+conxunto a nivel de centro pola CEC e a súa incorporación ao plan de mellora 
+integrado do Centro.  
+A PRC remite á UTC est as propostas de mell ora para o seu estudo e 
+inclusión, de ser o caso, na proposta de enquisas de satisfacción dos grupos 
+de interees e do protocolo de aplicación. 
+Posteriormente, a UTC remite á PRC as enquisas de satisfacción dos grupos 
+de interese definitivas e máis  o protocolo de aplicación destas para a súa 
+publicación na páxina web do centro 
+(https://www.udc.es/es/filo/calidade/enquisas_de_satisfaccion/) 
+Anualmente, segundo o devandito protocolo, a UTC e a PRC organizan a 
+aplicación das enquisas de satisfacción dos grupos de interese.  
+2  
+
+D06-P03. SATISFACCIÓN 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+Unha vez aplicadas, a UTC procesa os datos e os incorpora á  aplicación 
+informática e informa, por correo electrónico, á PRC da súa dispoñibilidade, 
+quen o comunica aos/ás CT. 
+O/a CT revisa os datos do  título que coordina e, se detecta algún erro, o 
+comunica á UTC para a súa subsanación. 
+Satisfacción do alumnado coa docencia  
+A PCED, en colaboración coa UTC, elabora as enquisas de satisfacción do 
+alumnado co a docencia , que forman parte do programa AVALIEMOS da 
+UDC, e as activa cada curso académico, á finalización de cada cuadrimestre, 
+na plataforma de enquisas d a UDC.  Finalizado o prazo e realizado o 
+tratamento dos datos, publica os resultados na páxina web da UDC: 
+(https://www.udc.es/gl/transparencia/resultados/indicesatisfaccion/). A UTC 
+realiza as xestións oportunas para que se incorporen á aplicación informática.  
+Anualmente, a CAT / COA analiza os resultados obtidos e  establece as 
+accións de mellora necesarias, de ser o caso. Posteriormente, as envía á CEC 
+para a súa análise conxunta a nivel de centro, que remite ao ED para a súa 
+aprobación pola XC. 
+En caso de que se establezan accións de mellora relativas ás enquisas de 
+satisfacción a os g rupos de intere se ou ao protocolo de aplicación de 
+enquisas, a PRC as remite á UTC para o seu estudo e incorporación, de ser 
+o caso. 
+ 
+EVIDENCIAS RESPONSABLES  TEMPORIZACIÓN LUGAR 
+ D06-P03-E01. Actas CAT 
+COA 
+CEC 
+JC 
+Cando se reúne a 
+comisión 
+Aplicación 
+informática 
+ D06-P03-E02. Protocolo de aplicación 
+de enquisas  
+UTC 
+CEC 
+Cada curso 
+académico 
+Aplicación 
+informática 
+ D06-P03-E03. Enquistas de 
+satisfacción co título aos grupos de 
+interese 
+UTC 
+CEC 
+Cada curso 
+académico 
+Web del 
+centro 
+ D06-P03-E04. Enquisas de 
+satisfacción do alumnado coa docencia 
+(AVALIEMOS) 
+PCED Cada curso 
+académico 
+Web 
+institucional 
+3  
+
+D06-P03. SATISFACCIÓN 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ D06-P03-E05. Accións de mellora CAT/COA 
+CEC 
+Cada vez que se 
+abra/revise unha 
+acción de mellora 
+Aplicación 
+informática 
+ INDICADORES RESPONSABLES  TEMPORIZACIÓN LUGAR 
+D06-P03-I01. Satisfacción dos grupos 
+de interese co título (porcentaxe de 
+participación e resultados)  
+UTC Cada curso académico Aplicación 
+informática 
+D06-P03-I02. Satisfacción do alumnado 
+coa docencia (AVALIEMOS) 
+(porcentaxe de participación e 
+resultados)  
+CED Cada curso académico Aplicación 
+informática 
+ 
+4  
+
+D06-P03. SATISFACCIÓN 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+ 
+D06-P03-E02. PROTOCOLO DE APLICACIÓN DE ENQUISAS 
+ 
+GRUPO DE 
+INTERESE 
+PROCESO 
+ASOCIADO 
+PERIOCIDADE 
+DIFUSIÓN 
+FORMATO DE 
+RESPOSTA 
+Alumnado D03-P01 
+D03-P02 
+D03-P03 
+D03-P04 
+D03-P05 
+D04-P01 
+D05-P01 
+D06-P02 
+D06-P03 
+D07-P01 
+Anual  
+(marzo-abril) 
+Correo electrónico 
+Papel ou dixital 
+Persoal 
+docente e 
+investigador 
+Anual  
+(xullo) 
+Plataforma de 
+enquisas UDC 
+Titulados/as D02-P01 
+D03-P01 
+D03-P02 
+D03-P03 
+D03-P04 
+D03-P05 
+D04-P01 
+D05-P01 
+D06-P02 
+D06-P03 
+ 
+Ao 
+solicitar/recoller o 
+título 
+Presencial ou 
+correo electrónico 
+Papel ou dixital 
+ 
+ 
+Persoal de 
+apoio 
+D03-P04 
+D04-P01 
+D05-P01 
+D06-P02 
+D06-P03 
+D07-P01 
+Bienal 
+(marzo-abril) 
+Correo electrónico 
+Papel ou dixital 
+ 
+ 
+Empregadores D02-P01 
+D03-P01 
+D03-P02 
+D03-P05 
+D06-P01 
+D06-P03 
+Anual 
+(xullo) 
+Correo electrónico 
+Reunións e/ou 
+dixital 
+ 
+ 
+
+D07-P01. INFORMACIÓN PÚBLICA 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+D07-P01. Información pública 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do manual 
+do SGC 
+ 
+18/07/2008 
+19/07/2013 
+98/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao Centro 
+do documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+As CAT dos mestrados que contan con medios 
+de información pública propios son as 
+responsables da revisión e mejora desta. Pola 
+súa parte, a CEC supervisa a actualización e 
+mellora da información sobre todos os títulos 
+(graos y mestrados) que ofrecen as páxinas 
+web do Centro ou da UDC. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+1  
+
+D07-P01. INFORMACIÓN PÚBLICA 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+DENOMINACIÓN  D07-P01. INFORMACIÓN PÚBLICA 
+OBXECTO  Establecer a sistemática para garantir que a información relevante do centro 
+e dos títulos oficiais é pública, de fácil acceso e  está permanentemente 
+actualizada. 
+DEFINICIÓNS  Non conta con definicións asociadas 
+RESPONSABLES  Vicerreitoría con Competencias en Materia de Títulos (VCMT) 
+Xunta de Centro (JC) 
+Equipo Directivo (ED) 
+Comisión de Estratexia e Garantía de Calidade (CEC) 
+Comisión Académica do Título (CAT) 
+Coordinador/a do Título (CT) 
+DOCUMENTACIÓN  Véxase anexo V del manual 
+DESENVOLVE-
+MENTO 
+ O medio de difusión principal do  centro é a súa  páxina web (Facultade de 
+Filoloxía (udc.es) ). Os medios de difusión da información dos títulos son, 
+como mínimo,  a web do centro e o portal de estudos da UDC  
+(https://www.udc.es/gl/ensino/). 
+Ademais das páxinas web indicadas, o centro realiza difusión a través de 
+outros canles como : correo electrónico, pantallas de información no centro, 
+paneis de anuncios, listaxes de distribución e redes sociais.  
+A CEC propón cal é a información mínima que se debe publicar tanto a nivel 
+de centro como a nivel de cada un dos títulos que se imparten no centro.  
+O ED é responsable de que a información relevante do centro, incluida aquela 
+relativa aos títulos que imparte, sexa pública, de fácil acceso e estea 
+actualizada en todos os medios de difusión utilizados. Para isto contará co 
+apoio e a colaboración da CEC e do/da CT.  
+Se o título é de nova implantación, antes do período de preinscrición, a VCMT 
+o activa no portal de estudos  da UDC, e  o CT completa a información 
+necesaria neste portal de acordo co lo establecido na memoria vixente do  
+título. 
+Malia que a actualización da información é  continua, anualmente, antes do 
+período de preinscrición nos títulos, o/a CT supervisa que a información xeral 
+relevante do título estea publicada na páxina web do título (se a houber), na 
+páxina web do centro, na páxina web institucional (portal de estudos da UDC), 
+que estea actualizada, e que sexa de fácil acceso para todos os grupos de 
+interese. Tamén comproba que a información que se achega n as diferentes 
+2  
+
+D07-P01. INFORMACIÓN PÚBLICA 
+FACULTADE DE FILOLOXÍA  
+UNIVERSIDADE DA CORUÑA 
+ 
+ 
+ 
+páxinas web é coincidente. 
+Da mesma maneira, ainda que  a actualización da información é  continua, 
+anualmente o ED revisa a información pública do centro. 
+A comunicación aos grupos de interese relativa á dispoñibilidad e e 
+actualización da información nas webs a realiza o ED ou o/a CT, en nome da 
+CAT, a través do correo electrónico.  
+Anualmente, as CAT / COA analizan a eficacia da información pública dos  
+títulos de mestrado que ofrecen os sus propios medios, en particular, as súas 
+páxinas web e, de ser o caso, establecen as accións de mellora, que remiten 
+á CEC. 
+Anualmente, a CEC analiza a eficacia da información pública, tanto a nivel de 
+títulos como de centro, que se transmite por medio da páxina web do Centro 
+ou das páxinas da UDC (portal Estudos etc), e establece as acc ións de 
+mellora, de ser o caso, que envía ao ED para a súa aprobación por XC. 
+ EVIDENCIAS RESPONSABLES  TEMPORIZACIÓN LUGAR 
+ D07-P01-E01. Actas CAT 
+COA 
+CEC 
+JC 
+Cada vez que se reúne  Aplicación 
+informática 
+ D07-P01-E02. Páxinas web do título, 
+centro e universidade con información 
+actualizada e coherente 
+ 
+CT 
+ED 
+ 
+       Permanente 
+ Web centro 
+Web 
+institucional  
+Web propia do 
+título  
+ D07-P01-E03. Accións de mellora CAT 
+COA 
+CEC 
+Cada vez que se 
+abra/revise unha acción 
+de mellora 
+Aplicación 
+informática 
+ 
+3  
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+ 
+ 
+ 
+ 
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE DA 
+FACULTADE DE FILOLOXÍA DA UNIVERSIDADE DA 
+CORUÑA 
+ 
+ 
+ 
+ ÓRGANO DATA 
+ELABORADO Unidade Técnica de Calidade 26/04/2018 
+CONTEXTUALIZADO Comisión de Estratexia e 
+Garantía de Calidade  24/10/2022 
+REVISADO Unidade Técnica de Calidade 08/03/2024 
+APROBADO Xunta de Centro 05/04/2024 
+ 
+ 
+ 
+  
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+ 
+ 
+RESUMO DE REVISIÓNS 
+EDICIÓN DATA MODIFICACIÓNS 
+Aprobación do 
+manual do SGC 
+ 
+18/07/2008 
+19/07/2013 
+08/03/2024 
+ 
+ 
+Revisión e actualización 
+Revisión e actualización do SGC por cambios 
+normativos 
+Adaptación ao 
+Centro do 
+documento marco e 
+manual do SGC 
+05/04/2024 
+ 
+ 
+No cadro de responsabilidades, incorpóranse as 
+comisións delegadas da Xunta de Facultade 
+directamente implicadas no seguimento dos títulos e 
+do Centro: COA, CRII, CB, CII. 
+ 
+ 
+2 
+ 
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+ÍNDICE 
+1. Presentación do Centro .................................................................................................................. 4 
+2. Sistema de Garantía de Calidade ................................................................................................... 4 
+3. Alcance ........................................................................................................................................... 5 
+4. Estrutura para a calidade. Responsabilidades ................................................................................ 5 
+4.1. Nivel de universidade ............................................................................................................... 5 
+4.2. Nivel de centro ......................................................................................................................... 6 
+4.3. Nivel de título ........................................................................................................................... 7 
+5. Documentación ............................................................................................................................... 7 
+6. Grupos de interese. Participación e rendemento de contas .......................................................... 10 
+Anexos ............................................................................................................................................. 12 
+Anexo I. Relación de evidencias e indicadores ................................................................................. 12 
+Anexo II. Definición dos indicadores .................................................................................................  17 
+Anexo III. Modelo de acta ................................................................................................................. 21 
+Anexo IV. Modelo de acción de mellora ............................................................................................  22 
+Anexo V. Normativa e documentación de referencia ........................................................................ 23 
+ 
+  
+3  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+1. Presentación do Centro 
+ 
+A Facultade de Filoloxía da Universidade da Coruña (UDC) ten como obxectivo principal a xeración, 
+xestión e difusión da cultura e do coñecem ento científico, tecnolóxico e profesional a través do 
+desenvolvemento da investigación e da  docencia en todas aquelas  disciplinas relacionadas cos 
+estudos lingüísticos, literarios e culturais dos ámbitos hispánico, inglés, galego e portugués.  
+O se u funcionamento está determinado polo Regulamento de Réxime Interno da Facultade de 
+Filoloxía, (RRI) que está publicado na web (Facultade de Filoloxía (udc.es)).  
+ 
+O órgano de goberno é a Xunta de centro (XC) e o su órgano executivo en materia de calidade é a 
+Comisión de Estratexia e Garantía de Calidade (CEC). A composición de ambos  os órganos está 
+recollida no Regulamento de Réxime Interno da Facultade de Filoloxía, (RRI), e publicada na web 
+(Facultade de Filoloxía (udc.es) / Facultade de Filoloxía (udc.es)). 
+ 
+2. Sistema de Garantía de Calidade 
+ 
+O Sistema de Garantía de Calidade (SGC) da Facultade de Filoloxía é a base para o 
+desenvolvemento do  ciclo de vida (verificación -seguimento-modificación-acreditación-extinción: 
+VSMAE) dos títulos que imparte, facilita a súa xestión e mellora continua, así como os procesos de 
+avaliación externa. 
+ 
+O SGC está constituido por procesos clasificados en  dimensións, aos que aplica o ciclo de mell ora 
+continua, de forma individual e no seu conxunto: planificar, facer, verificar e actuar (PHVA). Todas as 
+actividades planifícanse (P); desenvólvense segundo o planificado ou coas actualizacións que  se 
+produzan, deixando constancia destas (H); compróbase o éxito obtido nas devanditas  actividades 
+(V); e plantéxase a súa continuidade por medio das correspondentes accións de mellora derivadas 
+da análise anterior (A). 
+ 
+• Planificar supón establecer o obxectivo que se quere alcanzar, as accións que se van 
+desenvolver, os  responsables, os recursos necesarios, o  seguimento destas accións, os 
+indicadores, etc. 
+• Facer supón implementar as accións previamente planificadas. 
+• Verificar supón recoller evidencias do realizado, tanto dos indicadores sinalados na 
+planificación como a opinión (satisfacción) dos responsables da execución das diferentes 
+4  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+accións para avaliar oo realizado, valorar se se cumpriu o previsto, analizando as causas do 
+que non resultase de forma correcta. 
+• Actuar é analizar a información de cada proceso e  realizar a proposta de actuación para o 
+próximo curso. 
+O obxectivo principal que se persegue coa aplicación do  ciclo de mellora continua é  realizar unha 
+xestión eficaz das actividades desenvolvidas e mostrar os resultados para render contas á sociedade. 
+Na páxina web da Facultade de Filoloxía (Facultade de Filoloxía (udc.es) ) e na páx ina web 
+institucional: portal de estudos da UDC (https://estudos.udc.es/) achégase información actualizada 
+de cada título. Ademais, na páxina web do Centro, no apartado de calidade (Facultade de Filoloxía 
+(udc.es)), inclúese a última versión do SGC e da política e obxectivos de calidade.  
+ 
+A xestión do SGC faise a través dun ha aplicación informática ( https://calidade.udc.gal) en que se 
+clasifican os procesos a nivel de centro e de título, con diferentes niveis de acceso segundo o perfil 
+de que se trate (UTC, equipo directivo, responsable de calidade do centro, coordinación do título e 
+persoal de administración).  
+ 
+3. Alcance  
+ 
+O SGC alcanza todos os títulos oficiais de grao e de mestrado que se imparten no Centro.  
+Nos títulos interuniversitarios, en que a responsable administrativa é outra Universidade, as persoas 
+responsables da coor dinación na UDC deben manter actualizada a información pública e 
+incorporar ao SGC as evidencias/indicadores que permiten a rendemento de contas do título. 
+ 
+4. Estrutura para a calidade. Responsabilidades 
+ 
+A estrutura para a calidade, coas responsabilidades respectivas, establécese en tres niveis: 
+ 
+4.1. Nivel de universidade 
+• Equipo Reitoral (ER). Apoiar a implantación, a revisión e a actualización do SGC en todos os 
+centros da UDC. 
+• Consello de Goberno (CG). Aprobar a documentación marco do SGC. 
+• Unidade Técnica de Calidade (UTC). Elaborar a documentación marco do SGC dos centros 
+da UDC, remitila ao ER para a súa aprobación polo CG. Revisar a documentación do SGC 
+contextualizada por cada centro. Dar apoio técnico na xestión do SGC e no ciclo de vida dos 
+5  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+títulos (VSMAE).  
+4.2. Nivel de centro  
+A estrutura para a calidade está publicada na web do centro (Facultade de Filoloxía (udc.es))  
+• Xunta de centro (JC). Aprobar a documentación do SGC e as súas actualizacións 
+/modificacións, os informes relativos ao SGC e ao ciclo de vida dos títulos que marque a 
+normativa vixente, o plan de mellora do centro e a política e os obxectivos estratéxicos de 
+calidade e os obxectivos operativos anuais.  
+• Equipo Directivo (ED). Implantar, revisar e actualizar o SGC. Elaborar, revisar e actualizar a 
+política e os obxectivos estratéxicos de calidade. 
+• Comisión de estratexia e de garantía de calidade (CEC). Revisar e analizar a  
+documentación do SGC e a información relativa ás evidencias e indicadores dos procesos e 
+establecer as accións de mellora correspond entes. Elaborar, revisar e actualizar os 
+obxectivos operativos anuais. 
+• Persoa r esponsable de calidade (PRC). Xestionar os procesos de centro  para a súa 
+posterior análise pola C EC. Revisar a información relativa ás evidencias e indicadores dos 
+procesos dos títulos. Revisar e actualizar a información pública do apartado de calidade da 
+web do centro. 
+• Comisión de Organización Académica (COA). Analizar a información relativa ás evidencias 
+e indicadores dos procesos de títulos non  interuniversitarios e establecer as accións de 
+mellora correspondentes. Xestionar os procesos relativos a recoñecemento de créditos e  
+transferencias. Analizar as sit uacións irregulares que se produzan na vida académica d a 
+Facultade. Organizar, supervisar e inf ormar as actividades docentes, así como coordinar e 
+supervisar o desenvolvemento dos contidos mínimos das materias impartidas.  
+• Comisión de Infraestruturas e Servizos (CII): Propor a distribución da partida orzamentaria 
+para equipam ento docente do Centro. Propor a dotación de medios para cubrir as  
+necesidades de administración e serviz os. Distribuir e controlar os espaz os  dedicados a 
+investigación, docencia e administración. Solicitar ás instancias oportunas a dotación dos 
+medios necesarios para o correcto desempeño das funcións que ten asignadas. 
+• Comisión de Biblioteca (CB): Xestionar os fondos da partida orzamentaria anual destinada 
+a recursos bibliográficos ou do utras fuentes (prox ectos de investigación etc). Supervisar o 
+funcionamento da biblioteca e propor aquelas melloras que afecten ao servizo e atención ao 
+usuario. 
+• Comisión de Relacións Internacionai s (CRRII): Desempeñar as funcións encomendadas no 
+artigo 2.7 do Regulamento da Universidade da Coruña sobre mobilidade internacional de estudantes: 
+6  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Adxudicación de prazas en programas de mobilidad e, revisión de convenios bilaterais de mobilidad e, 
+propor accións de mellora nos mecanismos de promoción e apoio as estudantes de mobilidad e.  
+• Comisión de prácticas extracurriculares (CPE) : resolución das convocatorias anuai s de 
+oferta de prácticas extracurriculares. Prospección e revisión de convenios para a realización 
+de prácticas.  
+ 
+4.3. Nivel de título  
+ 
+• Comisión Académica do  título (CAT) . Analizar a información relativa ás evidencias e 
+indicadores dos procesos e establecer as accións de mellora correspondientes no caso dos 
+títulos interuniversitarios. Propor á CEC melloras relativas ao SGC. 
+• Coordinador/a de título (CT). Xestionar os procesos do título para a súa posterior anál ise 
+pola CAT. Revisar e actualizar a información pública do título. 
+ 
+De todas as reunións deixarase constancia, na acta correspondente, dos acordos tomados (anexo III) 
+y do lugar de arquivo. 
+ 
+5. Documentación  
+ 
+En 2015 creouse un grupo de traballo formado polas persoas responsables de calidade dos centros 
+da UDC que tiñan certificada a implantación do SGC e da U TC para actualizar e mellorar a 
+documentación do SGC en base a:  
+ 
+• A experiencia acumulada desde o ano 2008 polos centros da UDC no deseño e a implantación 
+dos seus SGC. 
+• As recomendacións que as distintas comisións de avaliación contemplaron nos informes de 
+certificación do deseño e, sobre todo, da implantación dos SGC dos centros da UDC. 
+• As guías elaboradas pola Axencia para a Calidade do Sistema Universitario de Galicia 
+(ACSUG): Programa FIDES-AUDIT (para deseño e certificación do SGC) e as correspondentes 
+ás diferentes avali aciones externas (verificación, seguimento, modificación e renovación da 
+acreditación de títulos), de modo que garantiza o seu cumprimento. 
+• Os Está ndares Europeos de Garantía da Calidade nas Institucións de Educación Superior 
+(ESG, 2015). 
+ 
+7  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+No primeiro trimestre de 2018, a UTC remit iu ao ER a documentación marco do SGC para a súa  
+revisión, que foi aprobada polo CG de 26/04/2018.  
+Posteriormente, a UTC, en colaboración cos centros, adaptou a documentación marco do SGC ao 
+Real Decreto 640/2021, de 27 de xullo, de creación, recoñecemento e autorización de universidades 
+e centros universitarios, e  acreditación institucional de centros universitarios , e ao Real Decreto 
+822/2021, de 28 de setembro, polo que se establece a organización das ens inanzas universitarias e 
+do procedemento de aseguranza da súa calidade. 
+Finalmente, a documentación marco do SGC foi remitida aos centros para a súa contextualización en 
+06/09/2022. 
+ 
+A documentación está baseada nos seguintes criterios: 
+ 
+• Sinxeleza e eficacia 
+• Cumprimento das indicacións da ACSUG. 
+• Non repetir a información nos diferentes procesos e no manual. 
+• Non documentar o que x a está establecido por normativa europea, estatal, autonómica, da 
+Universidade e guías da ACSUG. 
+• Incluir as evidencias e indicadores na aplicación informática. 
+ 
+A documentación do SGC está composta polo manual e os procesos. O manual inclúe: a relación 
+de evidencias e indicadores de cada un dos procesos do SGC, a definición dos indicadores, o modelo 
+de acta, o modelo de acción de mellora e a normativa e documentación de referencia que afecta ao 
+SGC do Centro. O catorce procesos dan respuesta aos estándares de calidade, ás directrices do 
+Programa FIDES-AUDIT e aos criterios de seguimento e acreditación dos títulos oficiais da ACSUG 
+(Figura 1). 
+Figura 1. Mapa de procesos 
+8  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+ 
+ 
+  
+D07. XESTIÓN DA INFORMACIÓN
+D07-P01. Información pública
+D06. RESULTADOS
+D06-P01. Resultados académicos D06-P02. Xestión de incidencias (S-Q-P-F) D06-P03. Satisfacción
+D05. RECURSOS MATERIAIS E SERVIZOS
+D05-P01. Xestión dos recursos materiais e da prestación de servizos
+D04. RECURSOS HUMANOS
+D04-P01. Xestión do persoal académico e de apoio á docencia
+D03. ENSINO-APRENDIZAXE E APOIO AO ALUMNADO
+D03-P01. Captación, 
+selección, admisión e 
+perfil de ingreso
+D03-P02. Planificación e 
+desenvolvemento das 
+ensinanzas
+D03-P03. Apoio ao 
+alumnado D03-P04. Mobilidade D03-P05. Prácticas 
+externas
+D02. DESEÑO, REVISIÓN E MELLORA DOS PROGRAMAS FORMATIVOS
+D02-P01. Deseño, seguimento, modificación, acreditación e extinción de títulos oficiais
+D01. POLÍTICA E OBXECTIVOS DE CALIDADE
+D01-P01. Política e obxectivos de calidade D01-P02. Xestión, revisión e mellora do SGC
+9  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Os procesos contan c unha portada en que se inclúe o cadro de sinaturas e o resumo de revisión s. 
+Nas seguintes páxinas despréganse os seguintes contidos: 
+ 
+• Obxecto. Descríbense os propósitos fundamentais e os contidos xerais que se desenvolv en 
+no documento. 
+• Definicións. Inclúese, se proceder, unha listaxe das palabras ou conceptos que precisen unha 
+definición para o seu correcto uso ou interpretación. 
+• Responsables. Indícanse os órganos unipersonais ou colexiados, os servizos, etc. que teñen 
+responsabilidades asignadas en cada un dos procesos. 
+• Documentación. Inclúese como anexo V a este Manual  a relación da normativa e 
+documentación de referencia que afecta a cada proceso. 
+• Desenvolvemento. Descríbense de forma clara as actividades, acompañadas do s 
+responsables da súa consecución e relacionadas entre sí.  
+• Evidencias/indicadores. Identifícanse as evidencias e/ou indicadores que xera a execución 
+do proceso.  
+ 
+A codificación da documentación é a seguinte: 
+ 
+• Dimensións (DXX). D: dimensión. XX: ordinal simple. 
+• Procesos (DXX.PXX). D: dimensión. P: proceso. XX: ordinal simple. 
+• Evidencias (DXX.PXX.EXX). D: dimensión. P: proceso. E: evidencia. XX: ordinal simple. 
+• Indicadores (DXX.PXX.IXX). D: dimensión. P: proceso. I: indicador. XX: ordinal simple. 
+ 
+6. Grupos de interese. Participación e rendemento de contas 
+ 
+A participación dos grupos de interese relaciónase na Táboa 1, que indica os procesos en que 
+participan, o modo de participación e o rendemento de contas. 
+ 
+ 
+ 
+ 
+  
+10  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Tabla 1. Participación dos grupos de interese. 
+ 
+ 
+Grupo de 
+interese 
+ 
+Procesos 
+ 
+Modo  
+ 
+Rendemento de 
+contas 
+ 
+Alumnado 
+D01-P01, D01-P02  
+D02-P01 
+D03-P01, D03-P02, D03-
+P03, D03-P04, D03-P05 
+D04-P01, D05-P01, D06-
+P01, D06-P02, D06-P03, 
+D07-P01 
+• Órganos de representación   
+• Enquisas de satisfacción 
+• Preguntas, parabéns, 
+suxestións e queixas 
+ 
+Órganos de representación 
+Páxinas Web 
+ 
+Persoal Docente e 
+Investigador 
+D01-P01, D01-P02  
+D02-P01 
+D03-P01, D03-P02, D03-
+P03, D03-P04, D03-P05 
+D04-P01, D05-P01, D06-
+P01, D06-P02, D06-P03, 
+D07-P01 
+Persoal de apoio 
+D01-P01, D01-P02  
+D02-P01 
+D03-P01, D03-P02, D03-
+P03, D03-P04, D03-P05 
+D04-P01, D05 -P01, D06 -
+P01, D06 -P02, D06 -P03, 
+D07-P01 
+Egresados/as 
+D01-P01 
+D02-P01 
+D06-P01, D06-P02, D06-
+P03, D07-P01 • Invitación a reunións dos 
+órganos de representación  
+• Enquisas de satisfacción 
+• Preguntas, parabéns, 
+suxestións e queixas 
+ Empregadores/as 
+D01-P01, D01-P02  
+D02-P01 
+D03-P01, D03-P02, D03-
+P03, D03-P04, D03-P05 
+D04-P01, D05-P01, D06-
+P01, D06-P02, D06-P03, 
+D07-P01 
+Sociedade en 
+xeral 
+D01-P01, D01-P02  
+D07-P01 
+D02-P01, D06-P02 
+• Preguntas, parabéns, 
+suxestións e queixas 
+ 
+Páxinas Web 
+ 
+ 
+11  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Anexos 
+Anexo I. Relación de evidencias e indicadores  
+EVIDENCIAS     
+D01-P01 POLÍTICA E OBXECTIVOS DE CALIDADE    
+D01-P01-E01. Actas    
+D01-P01-E02. Política e obxectivos estratéxicos de calidade    
+D01-P01-E03. Obxectivos operativos anuais    
+D01-P01-E04. Accións de mellora    
+D01-P02 XESTIÓN, REVISION E MELLORA DO SGC    
+D01-P02-E01. Actas    
+D01-P02-E02. Manual e procesos do SGC    
+D01-P02-E03. Informes de avaliación externa (deseño, certificación da implantación e seguimento) 
+D01-P02-E04. Cadro de mando    
+D01-P02-E05. Listaxe de evidencias da implantación do SGC 
+D01-P02-E06. Informe anual do Centro    
+D01-P02-E07. Informe de auditoría do Centro    
+D01-P02-E08. Accións de mellora    
+D01-P02-E09. Plan anual de melloras    
+D02-P01 DESEÑO, SEGUIM ENTO, MODIFICACIÓN, ACREDITACIÓN E EXTINCIÓN D OS TÍTULOS 
+OFICIAIS  
+D02-P01-E01. Actas     
+D02-P01-E02. Expediente de verificación/modificación do título 
+D02-P01-E03. Memorias vixentes dos títulos do Centro    
+D02-P01.E04. Autoinformes de seguimento anual/renovación da acreditación institucional 
+D02-P01-E05. Informes finais de verificación/seguimento/renovación da acreditación institucional 
+D02-P01.E06. Expediente de extinción/supresión do título    
+D02-P01.E07. Accións de mellora    
+D03-P01 CAPTACIÓN, SELECCIÓN, ADMISIÓN E PERFIL DE INGRESO 
+D03-P01-E01. Actas    
+D03-P01-E02. Perfil real de ingreso    
+D03-P01-E03. Plan de captación     
+D03-P01-E04. Listaxe provisional de solicitudes admitidas e excluidas, e listaxe de agarda 
+D03-P01-E05. Reclamacións á listaxe provisional    
+D03-P01-E06. Listaxe definitiva de solicitudes admitidas e excluidas. 
+D03-P01-E07. Accións de mellora    
+12  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+EVIDENCIAS 
+D03-P02 PLANIFICACIÓN E DESENVOLVEMENTO DAS ENSIN ANZAS 
+D03-P02-E01. Actas    
+D03-P02-E02. Plan Docente Anual (PDA)    
+D03-P02-E03. Plan de Organización Docente (POD)    
+D03-P02-E04. Guías docentes    
+D03-P02-E05. Horarios, aulas e calendario académico  do 
+Centro/título 
+   
+D03-P02-E06. Regulamento interno para o desenvolvemento e avaliación dos TFG/TFM 
+D03-P02-E07. Listaxe de estudantes que solicitaron recoñecemento de créditos 
+D03-P02-E08. Informes sobre o recoñecemento de créditos  
+D03-P02-E09. Accións de mellora    
+D03-P03 APOIO AO ALUMNADO    
+D03-P03-E01. Actas    
+D03-P03-E02. PAAE do Centro 
+D03-P03-E03. Accións de mellora    
+D03-P04 MOBILIDADE    
+D03-P04-E01. Actas    
+D03-P04-E02. Listaxe de centros/universidades con convenio de mobilidade 
+D03-P04-E03.Convenios de colaboración en vigor    
+D03-P04-E04. Relación de actividades para fomentar a participación do alumnado 
+D03-P04-E05. Accións de mellora    
+D03-P05 PRÁCTICAS EXTERNAS    
+D03-P05-E01. Actas    
+D03-P05-E02. Listaxe de centros/entidades para a realización de prácticas externas 
+D03-P05-E03. Convenios en vigor coas entidades onde se realizan prácticas externas 
+D03-P05-E04. Distribución do alumnado por Centro de prácticas obrigatorias 
+D03-P05-E05. Distribución do alumnado por Centro de prácticas no obrigatorias 
+D03-P05-E06. Accións de mellora    
+D04-P01 XESTIÓN DO PERSONAL ACADÉMICO E DE APOIO Á DOCENCIA 
+D04-P01-E01. Actas    
+D04-P01-E02. CV profesorado externo    
+D04-P01-E03. Accións de mellora    
+  
+13  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+EVIDENCIAS 
+D05-P01 XESTIÓN DOS RECURSOS MATERIAIS E DA PRESTACIÓN DE SERVIZOS 
+D05-P01-E01. Actas    
+D05-P01-E02. Información sobre os recursos materiais e servizos relacionados co  título 
+D05-P01-E03. Fondos bibliográficos e outros recursos documentais relacionados co título 
+D05-P01-E04. Materiais didácticos e/ou tecnolóxicos que permitan a aprendizaje a distancia 
+D05-P01-E05. Accións de mellora    
+D06-P01 RESULTADOS ACADÉMICOS    
+D06-P01-E01. Actas    
+D06-P01-E02. Listaxe de traballos fin de grao/mestrado (título, titor/a e calificación). 
+D06-P01-E03. Adquisición de resultados de aprendizaxe    
+D06-P01-E04. Accións de mellora    
+D06-P02 GESTIÓN DE INCIDENCIAS (S-Q-P-F)    
+D06-P02-E01. Actas    
+D06-P02-E02. Suxestións, queixas, preguntas e parabéns 
+D06-P02-E03. Informe da persoa, órgano ou servizo implicado 
+D06-P02-E04. Resposta ás suxestións, queixas e preguntas 
+D06-P02-E05. Accións de mellora    
+D06-P03 SATISFACCIÓN    
+D06-P03-E01. Actas    
+D06-P03-E02. Protocolo de aplicación de enquisas    
+D06-P03-E03. Enquisas de satisfacción co título aos grupos  
+de interese 
+   
+D06-P03-E04. En quisas de satisfacción do alumnado co a 
+docencia (AVALIEMOS) 
+   
+D06-P03-E05. Accións de mellora    
+D07-P01 INFORMACIÓN PÚBLICA    
+D07-P01-E01. Actas    
+D07-P01-E02. Páxinas web do título, Centro e Universidad con información actualizada e coherente  
+D07-P01-E03. Accións de mellora    
+ 
+  
+14  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+INDICADORES    
+D01-P01 POLÍTICA E OBXECTIVOS DE CALIDADE    
+D01-P01-I01. Porcentaxe de obxectivos operativos anuais alcanzados 
+D01-P02 XESTIÓN, REVISIÓN E MELLORA DO SGC    
+D01-P02-I01. Porcentaxe de accións de mellora executadas 
+D03-P01 CAPTACIÓN, SELECCIÓN, ADMISIÓN E PERFIL DE INGRESO 
+D03-P01-I01. Número total de alumnado de novo ingreso no título 
+D03-P01-I02. En caso de mestrado, número de alumnado de novo ingreso e título de procedencia  
+D03-P01-I03. Relación de oferta/demanda de prazas de novo ingreso 
+D03-P01-I04. Relación de matrícula de novo ingreso/oferta de prazas de novo ingreso 
+D03-P02 PLANIFICACIÓN E DESENVOLVEMENTO DAS ENSINANZAS 
+D03-P02-I01. Número total de alumnado matriculado 
+D03-P02-I02. Media de alumnado por grupo de docencia    
+D03-P02-I03. Porcentaxe de materias con reclamacións nos criterios de avaliación 
+D03-P03 APOIO AO ALUMNADO    
+D03-P03-I01. Porcentaxe de accións de atención ao alumnado realizadas  
+D03-P03-I02. Número total de alumnado que participa nas accións de atención realizadas 
+D03-P04 MOBILIDADE    
+D03-P04-I01. Número total de alumnado saínte e entrante por tipo de programa de mobilidade 
+D03-P04-I02. Relación entre o número total de alumnado saínte que solicita participar e o número total de 
+prazas ofertadas, por tipo de programa de mobilidade 
+D03-P04-I03. Relación entre o número total de alumnado saínte e o número total de alumnado matriculado 
+no título 
+D03-P05 PRÁCTICAS EXTERNAS    
+D03-P05-I01. Porcentaxe de alumnado que participa nas prácticas non obrigatorias 
+D03-P05-I02. Porcentaxe de alumnado que participa nas prácticas obrigatorias 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+15  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+INDICADORES    
+D04-P01 XESTIÓN DO PERSOAL ACADÉMICO E DE APOIO Á DOCENCIA 
+D04-P01-I01. Número de PDI do título por categoría 
+D04-P01-I02. Numero de quinquenios e sexenios do PDI do título por categoría 
+D04-P01-I03. Participación d o PDI do título en plans de formación da UDC e  en actividades formativas 
+específicas 
+D04-P01-I04. PDI do título avaliado polo programa DOCENTIA e resultados obtidos   
+D04-P01-I05. Número de PAS do Centro por categoría 
+D04-P01-I06. Porcentaxe de participación do PAS do Centro en plan s de formación da Universidade e en 
+actividades formativas específicas  
+D04-P01-I07. Número total de PDI do título/PAS do Centro que participa nos programas de mob ilidade 
+(entrante e saínte), por tipo de programa 
+D04-P01-I08. Porcentaxe de PDI do título que participa nos programas de mobilidade 
+D04-P01-I09. Porcentaxe de PAS do Centro que participa nos programas de mobilidade  
+D06-P01 RESULTADOS ACADÉMICOS    
+D06-P01-I01. Resultados académicos dos títulos (titulo/centro/rama/universidade) 
+D06-P01-I02. Indicadores de inserción laboral    
+D06-P01-I03. Indicadores do SIIU    
+D06-P02 XESTIÓN DE INCIDENCIAS (S-Q-P-F)    
+D06-P02-I01. Número de preguntas, parabéns, suxestións e queixas dirixidas ao Centro e/ou título 
+D06-P03 SATISFACCIÓN     
+D06-P03-I01. Satisfacción dos grupos de interese co título (porcentaxe de participación e resultados) 
+D06-P03-I02. Satisfacción do alumnado co a docencia (AVALIEMOS) (porcentaxe de participación e  
+resultados) 
+  
+16  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Anexo II. Definición dos indicadores 
+INDICADORES DEFINICIÓN 
+D01-P01-I01. Porcentaxe de obxectivos operativos 
+anuais alcanzados 
+Relación porcentual entre o número de obxectivos 
+operativos anuai s alcanzados e o número de 
+obxectivos operativos anuais propostos 
+D01-P02-I01. Porcentaxe de accións de mellora 
+executadas 
+Relación porcentual entre o número de accións 
+executadas e o número de accións propostas 
+D03-P01-I01. Número total de alumnado de novo 
+ingreso 
+Número total de alumnado que se matricula por 
+primeira vez no título, por curso académico 
+D03-P01-I02. En caso de mestrado, número total de 
+alumnado de novo ingreso e título de procedencia 
+Número total de alumnado que se matricula por 
+primeira vez no título de mestrado por título de 
+procedencia e curso académico 
+D03-P01-I03. Relación: demanda de prazas de novo 
+ingreso en primeira opción/oferta de prazas 
+Relación porcentual entre o número de estudantes 
+preinscritos en prime ira opción e o número total de 
+prazas ofertadas no título, por curso académico. 
+D03-P01-I04. Relación: matrícula de novo 
+ingreso/oferta de prazas de novo ingreso  
+Relación porcentual entre o número total de alumnado 
+de novo ingreso matriculado no título e o número de 
+prazas ofertadas no título, por curso académico 
+D03-P02-I01. Número total de alumnado matriculado  Número total de estudantes que se matriculan no título, 
+por curso académico 
+D03-P02-I02. Media de alumnado por grupo de 
+docencia  
+Relación entre o número de alumnos matriculados en 
+cada materia do título e o número de grupos en teoría 
+e práctica, por curso académico 
+D03-P02-I03. Porcentaxe de asignaturas con 
+reclamacións nos criterios de avaliación 
+Relación porcentual entre as materias con 
+reclamacións nos criterios de avali ación e o  número 
+total de materias, por curso académico 
+D03-P03-I01. Porcentaxe de accións de atención ao 
+alumnado realizadas 
+Relación porcentual entre o número de accións de 
+atención ao alumnado realizadas e o número de accións 
+totais programadas, por curso académico 
+D03-P03-I02. Número total de alumnado que participa 
+nas accións de atención realizadas 
+Número total de alumnado que participa nas accións de 
+atención realizadas, por curso académico 
+D03-P04-I01. Número total de alumnado saínte e 
+entrante por tipo de programa de mobilidade 
+Número total de alumnado (sa ínte) d o título que 
+participou en cada un dos programas de mob ilidade, 
+por curso académico 
+Número total de alumnado (entrante) d o título que 
+participou en cada un dos programas de mob ilidade, 
+por curso académico 
+D03-P04-I02. Relación entre o número total de 
+alumnado (saínte) que solicita participar e o número 
+total de prazas ofertadas, por tipo de programa de 
+mobilidade 
+Relación porcentual entre onúmero total de alumnado 
+matriculado no título que solicita participar en cada un 
+dos programas mobilidade e o número total de prazas 
+que se ofertan en cada un dos programas , por curso 
+académico 
+D03-P04-I03. Relación entre o número total de 
+alumnado (saínte) e o total do alumnado matriculado no 
+título  
+Relación porcentual entre o número total de alumnado 
+matriculado que participa en cada un dos programas de 
+mobilidade e o número total de alumnado matriculado 
+no título, por curso académico 
+D03-P05-I01. Porcentaxe de alumnado que participa 
+nas prácticas non obrigatorias 
+Relación porcentual entre o número de alumnado 
+matriculado no título que participa no programa de 
+prácticas non obrigatorias e o número total de 
+alumnado matriculado no título que pode participar, por 
+curso académico 
+D03-P05-I02. Porcentaxe de alumnado que participa Relación porcentual entre o número de alumnado 
+17  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+INDICADORES DEFINICIÓN 
+nas prácticas obligatorias matriculado no título que participa no programa de 
+prácticas obr igatorias e o número total de alumnado 
+matriculado no título que p ode participar, por curso 
+académico 
+D04-P01-I01. Número de PDI do título por categoría Número total de PDI d o título por categoría e curso 
+académico 
+D04-P01-I02. Numero de quinquenios e sexenios do 
+PDI do título por categoría 
+Número total de quinquenios e sexenios do total do PDI 
+do título por categoría e curso académico 
+D04-P01-I03. Participación do PDI do título en plans de 
+formación da UDC e  en actividades form ativas 
+específicas  
+Relación porcentual entre o número de PDI d o título 
+que solicitou participar en plans de formación da UDC 
+e o número total de PDI do título, por curso académico 
+Relación porcentual entre o número de PDI d o título 
+que participa en plans de formación d a UDC  e o 
+número total de PDI do título, por curso académico 
+D04-P01-I04. PDI d o título avaliado polo programa 
+DOCENTIA e resultados obtidos   
+Relación porcentual entre o número de PDI d o título 
+que foi avaliado polo programa DOCENTIA e o número 
+total de PDI do título, por curso académico 
+Relación porcentual entre o número de PDI do título 
+que fue avaliado polo programa Docentia e o número 
+de PDI do título que obtivo unha avaliación positiva, por 
+curso académico 
+Relación porcentual entre o número de PDI d o título 
+que foi avaliado polo programa Docentia e o número de 
+PDI do título que obtivo a máxima valoración (Moi 
+favorable ou  Desempeño excelente), por curso 
+académico 
+D04-P01-I05. Número de PAS do Centro por categoría Número total de PAS d o centro por categoría e curso 
+académico 
+D04-P01-I06. Porcentaxe de participación do  PAS d o 
+Centro en plans de formación da Universidad e e en 
+actividades formativas específicas. 
+Relación porcentual entre o número de PAS do Centro 
+que participa en plans de formación da Universidade e  
+en actividades formativas específicas e  o número de 
+PAS do Centro 
+D04-P01-I07. Número de PDI do título/PAS do Centro 
+que participa nos programas de mobilidade (entrante e 
+saínte), por tipo de programa 
+Número total de PDI (sa ínte) d o título que realiz ou 
+accións de mobilidade por tipo de programa e por curso 
+académico 
+Número total de PDI (entrante) d o título que realiz ou 
+accións de mobilidade por tipo de programa e por curso 
+académico 
+Número total de PAS (sa ínte) do Centro que realizou  
+accións de mobilidade por tipo de programa e por curso 
+académico 
+Número total de PAS (entrante) del centro que realizou 
+accións de mobilidade por tipo de programa e por curso 
+académico 
+D04-P01-I08. Porcentaxe de PDI do título que participa 
+nos programas de mobilidade  
+Relación porcentual entre o total do PDI do  título que 
+participa en cada un dos programas mobilidad e e o 
+número total do PDI del título, por curso académico 
+D04-P01-I09. Porcentaxe de PAS do Centro que 
+participa nos programas de mobilidade  
+Relación porcentual do PAS do Centro que participa en 
+cada un dos programas mobilidade e o número total de 
+PAS do Centro, por curso académico 
+  
+18  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+INDICADORES DEFINICIÓN 
+D06-P01-I01. Resultados académicos de los títulos 
+(titulo/centro/rama/universidad) 
+Tasa de abandono del título : Relación porcentual 
+entre los estudiantes de una cohorte de entrada C 
+matriculados en el título T  en la Universidad U en el 
+curso académico X, que no se matricularon en dicho 
+título T en los cur sos X+1 y X+2, y el número total de 
+estudiantes de tal cohorte de entrada C que accedieron 
+al mencionado título T el curso académico X. 
+Tasa de eficiencia del título : Relación porcentual 
+entre el número total de créditos en los que debieron 
+haberse matriculado los estudiantes graduados de una 
+cohorte de graduación G para superar un título T  en 
+una Universidad U y el total de créditos en los que 
+efectivamente se han matriculado los estudiantes 
+graduados de una cohorte de graduación G en un título 
+T en una Universidad U. 
+Tasa de rendimiento del título y asignatura: Para un 
+curso académico X, relación porcentual entre el 
+número de créditos ordinarios superados en el título T 
+en la Universidad U y el número total de créditos 
+ordinarios matriculados en el título T en la Universidad 
+U. 
+Tasa de éxito del título y asignatura : Relación 
+porcentual entre el número de créditos superados por 
+los alumnos matriculados en un título en un curso 
+académico X entre el número de créditos presentados 
+a examen por el total de los alumnos matriculados en 
+el título en ese curso académico X 
+Tasa de evaluación del título y asignatura 
+(distinguir entre alumnado a tiempo completo y a 
+tiempo parcial): Relación porcentual entre el número 
+de créditos presentados a examen por los estudiantes 
+en un curso académico X y el número total de créditos 
+matriculados en ese curso académico X (los créditos 
+reconocidos y transferidos no están incluidos dentro de 
+los créditos matriculados). 
+Tasa de graduación : Relación porcentual entre los 
+estudiantes de una cohorte de entrada C que superan, 
+en el tiempo previsto más un año, los créditos 
+conducentes a un título T en una Universidad U y el 
+total de los estudiantes de nuevo ingreso de la misma 
+cohorte C en dicho título T en la Universidad U. 
+Duración media de  los estudios : Media del tiempo 
+que un estudiante utiliza para graduarse en un título. 
+Expresa la duración real para que los estudiantes 
+finalicen el título. 
+D06-P01-I02. Indicadores de inserción laboral Observatorio ocupacional UDC 
+  
+  
+19  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+INDICADORES DEFINICIÓN 
+D06-P01-I03. Indicadores do Sistema Integrado de 
+Información Universitaria (SIIU) 
+Taxa de rendemento SUE, Comunidade Autónoma, 
+Universidade: Relación porcentual entre o número de 
+créditos superados polos estudantes matriculados nun 
+curso académico e o número total de créditos 
+matriculados nese curso académico. 
+Taxa de éxito SUE, CA Universidad e: Relación 
+porcentual entre o número de créditos superados polos 
+estudantes matriculados nun curso e o número total de 
+créditos presentados a exame nese curso académico.   
+Taxa de avaliación SUE, CA Universidade: Relación 
+porcentual entre o  número de créditos presentados a 
+exame polos estudantes nun curso académico e  o 
+número total de créditos matriculados nese curso 
+académico. 
+Taxa de abandono SUE, CA, Universidad e: 
+Porcentaxe de estudantes dunh a cohorte de no vo 
+ingreso do  curso X, que non  se matricula en ningún 
+título universitario durante dous cursos seguidos nin se 
+titulou. 
+Taxa de graduación SUE, CA, Universidad e: 
+Porcentaxe de estudantes que finalizan o título no 
+tempo teórico previsto no plan de estudos ou  antes do 
+tempo previsto.  
+Duración media dos estud os SUE, CA, 
+Universidade: Mide o número medio de a nos que 
+tardan os estudantes en graduarse.  
+Taxa de eficiencia SUE, CA, Universidade: Relación 
+porcentual entre o  número total de créditos que 
+superou un estud ante ao  longo do título en que é 
+egresado e o número total de créditos en que se 
+matriculou 
+D06-P02-I01. Número de preguntas, parabéns, 
+suxestións e queixas dirixidas ao Centro e/ou título 
+Número de preguntas, parabéns, suxestións e queixas 
+recibidas no C entro por curs o académico, 
+diferenciadas por Centro e/ou título ao que se dirixen 
+D06-P03-I01. Satisfacción dos grupos de interes e co  
+título (porcentaxe de participación e resultados) 
+Relación porcentual entre o número de en quisas 
+realizadas e o número de persoas que integran cada 
+grupo de interese obxecto de análise.  
+No caso dos empr egadores calcúlase sobre o total de 
+enquisas entregadas. 
+No caso das persoas tituladas cal cúlase sobre o  
+número total de persoas tituladas que han realizaron o 
+depósito do título no curso obxeeto de análise.  
+Nivel de satisfacción dos grupos de interese obxecto de 
+análise co título (media, desviación típica, mediana e  
+moda) 
+D06-P03-I02. Satisfacción do alumnado coa docencia 
+(AVALIEMOS) ( porcentaxe de participación e 
+resultados)  
+Relación porcentual entre o número de en quisas 
+realizadas polo alumnado e o número de al umnado 
+matriculado por materia e curso académico. 
+Nivel de satisfacción do  alumnado ca a docencia 
+recibida (media) 
+  
+20  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Anexo III. Modelo de acta  
+Reunión de: 
+Data: 
+Lugar: 
+Hora de Inicio: 
+Hora de finalización: 
+Convocados/as:  Asistentes: 
+Orde do día: 
+Acordos adoptados:  
+Presidente/a: 
+ 
+ 
+ 
+Fdo.: 
+ 
+Secretario/a: 
+ 
+ 
+ 
+Fdo.: 
+ 
+Acta completa arquivada en:  
+ 
+  
+21  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Anexo IV. Modelo de acción de mellora 
+ACCIÓN DE MELLORA N.º ….  
+Data:  
+Denominación   
+Punto débil detectado  
+Oportunidade de mellora  
+Ámbito de aplicación  
+Responsable da súa aplicación  
+Obxectivos  
+Actuacións a desenvolver  
+Período de execución  
+Recursos/orzamento  
+Responsable do seguimento e data  
+Indicadores de execución   
+Evidencias documenta is d a 
+implantación 
+ 
+Observacións 
+ 
+Revisión/Valoración 
+Nivel de cump rimento (total o u 
+parcial) 
+ 
+Responsable da revisión e data  
+Resultados obtidos   
+Grao de satisfacción  
+Accións correctoras a desenvolver  
+22  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Anexo V. Normativa e documentación de referencia 
+ÁMBITO EUROPEO 
+Estándares e criterios para a garantía da calidade no Espazo 
+Europeo de Educación Superior (2015) 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01. 
+ÁMBITO ESTATAL 
+Lei orgánica 2/2023, de 22 de marzo, do Sistema Universitario  
+Manual, D01 -P01, D01 -P02, D02-P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D07-P01. 
+Lei 14/2011, de  1 de xuño, da Ciencia, a Tecnolo xía e a 
+Innovación. Lei 17/2022 de 5 de setembro pola que se modifica 
+a Lei  14/2011, de 1 de xuño, da Ciencia, a Tecnolox ía e a 
+Innovación. 
+D03-P04, D04-P01, D07-P01. 
+Real decreto 1509/2008, de 12 de setembro, polo que se regula 
+o rexistro de universidades, centros e títulos D02-P01 
+Real decreto 1791/2010, de 30 decembro, polo que se aproba o 
+Estatuto do Estudante Universitario 
+ 
+D02-P01, D03-P01, D03-P02, D03-P03, 
+D03-P04, D04-P01, D05-P01, D06-P01, 
+D07-P01. 
+Decreto 889/2022, de 18 de outubro, polo que se establecen as 
+condicións e os procedem entos de homologación, de 
+declaración de equivalencia e de convalidación de ensinanzas 
+universitarias de sistemas educativos estranxeiros e polo que se 
+regula o procedemento para establecer a correspondencia a 
+nivel do Marco Español de Cualificacións para a Educación 
+Superior dos  títulos universitarios oficiais pertencentes a 
+ordenacións académicas anteriores. 
+D03-P01, D03-P02 
+Real Decreto 640/2021, de 27 de xullo, de creación, 
+recoñecemento e autorización de universidades e centros 
+universitarios e  acreditación institucional de centros 
+universitarios. 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01. 
+Real Decreto 822/2021, de 28 de setembro, que establece a 
+organización das ensinanzas universitarias e o procedemento 
+de seguranza da súa calidade. 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05,  D04-P0, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01. 
+Real Decreto 592/2014, d e 11 de xullo, polo que se regulan as 
+prácticas académicas externas dos estudiantes universitarios. 
+D04-P01 
+Resolución de 3 de marzo de 2022, d a Secretaría xeral de 
+Universidades, pola que se dictan instru cións sobre o 
+procedemento para a acreditación institucional de c entros de 
+universidades públicas e privadas, e se publica o Protocolo para 
+a certificación de sistemas internos de garantía de calidade dos 
+centros universitarios e o Protocolo para o procedemento de 
+avaliación da renovación da acreditación institucional de centros 
+universitarios, aprobados pola  Conferencia Xeral de Política 
+Universitaria. 
+Manual, D01- P01, D01- P02, D02-P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D07-P01. 
+ÁMBITO AUTONÓMICO 
+Lei 6/2013, de 13 de xuño, do Sistema Universitario de Galicia 
+D02-P01, D03-P01, D03-P02, D03-P03, 
+D03-P04, D04-P01, D05-P01, D06-P01, 
+D07-P01. 
+Decreto 222/2011, de 2 de decembro, polo que se regulan as 
+ensinanzas universitarias oficiais no ámbito d a Comunidad e 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+23  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Autónoma de Galicia D05-P01, D06-P01, D07-P01. 
+Decreto 161/2015, de 5 de nov embro, que modifica o Decreto 
+222/2011, de 2 de decembro, polo que se regulan as ensinanzas 
+universitarias oficiais no ámbito da Comunidade  Autónoma de 
+Galicia 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+D05-P01, D06-P01, D07-P01. 
+Orde de 20 de marzo de 2012 que desenvolve o Decreto 
+222/2011 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+D05-P01, D06-P01, D07-P01. 
+Orde de 6 de xuño de 2012, que modifica a Orde de 20 de marzo 
+de 2012, que des envolve o Decreto 222/2011, de 2 de 
+decembro, polo que se regulan as ensinanzas universitarias 
+oficiais no ámbito da Comunidade Autónoma de Galicia 
+D02-P01 
+Instrucións da Consellería de Cultura, Educación e Ordenación 
+Universitaria, relativas á aplicación da regulamentación 
+contenida no Decreto 222/2011 e na Orde de 20 de marzo de 
+2012, sobre ensinanzas universitarias oficiais no SUG 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+D05-P01, D06-P01, D07-P01. 
+Instrucións de 18 de xuño de 2014 d a Secretaría Xeral de 
+Universidades, sobre o procedemento de renovación da 
+acreditación de titulacións universitarias oficiai s de grao, 
+mestrado e doctorado 
+D02-P01 
+Instrucións de 12 de febre iro de 2015 d a Secretarí a Xeral de 
+Universidades sobre a aplicación de determinados preceptos do 
+Decreto 222/2011, de 2 de decembro, ao s títulos universitarios 
+oficiais con validez en todo o territorio nacional que se impartan 
+no SUG 
+D01-P01, D01-P02, D02-P01, D03-P01, 
+D03-P02, D03-P03, D03-P04, D04-P01, 
+D05-P01, D06-P01, D07-P01. 
+Guía para o deseño dos Sistemas de Garantía de Calidade 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01 
+Guía para a certificación da implantación d os Sistemas de 
+Garantía de Calidade 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01 
+Guía para a avaliación previa á  verificación dos títulos de gra o 
+e mestrado D02-P01 
+Guía para o seguimento e a acreditación dos títulos de gra o e 
+mestrado 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04- P01, D05 -P01 D06- P01, 
+D06-P02, D06-P03, D07-P01. 
+Procedemento para a solicitude de modificacións dos títulos de 
+grao e mestrado D02-P01 
+ÁMBITO UDC/CENTROS 
+Estatutos da Universidade da Coruña. Versión reformada 
+(Decreto 101/2004, de 13 de maio e decreto 194/2007 de 11 de 
+outubro) 
+Manual, D01 -P01, D01 -P02, D02 -P01, 
+D03-P01, D03-P02, D03-P03, D03-P04, 
+D03-P05, D04-P01, D05-P01, D06-P01, 
+D06-P02, D06-P03, D07-P01 
+Plan estratéxico da UDC en vigor D01-P01, D01-P02 
+Adaptación ao Centro do Plan estratéxico da UDC en vigor D01-P01, D01-P02 
+Manual para a avaliación da actividade docente do profesorado 
+da UDC. Programa Docentia D04-P01 
+Procedemento de preinscripción e matrícula n os mestrados 
+universitarios D03-P01 
+Normativa de Xestión Académica da UDC D03-P02 
+Normativa que regula os estudos semipresenciais e a distancia D03-P02 
+24  
+
+
+  
+MANUAL DO SISTEMA DE GARANTÍA DE CALIDADE 
+DA FACULTADE DE FILOLOXÍA DA UNIVERSIDADE 
+DA CORUÑA 
+ 
+Norma que regula o réxime de dedicación ao estudo e a 
+permanencia e a progr esión dos estudantes de gra o e de 
+mestrado universitario na UDC 
+D03-P02 
+Procedemento de elaboración do POD (2022/2023) 
+Procedimiento de elaboración do PDA (2023/2024) D03-P02 
+Normativa reguladora da matrícula e a defensa do traballo fin de 
+grao e do traballo fin de mestrado D03-P02 
+Normas de avaliación, revisión e reclamación das cualificacións 
+dos estudos de grao e mestrado universitario D03-P02, D06-P01 
+Normativa do Plan de acción titorial da UDC D03-P03 
+Procedemento para a tramitación de modificacións sustanciai s 
+e non sustanciais dos plans de estudo de gra o e mestrado de 
+30 de marzo de 2023 
+D02-P01 
+Regulamento de prácticas académicas externas do estudantado 
+da UDC D03-P05 
+Normativa de prácticas académicas extracurriculares externas 
+dos Graos en Español, en Galego e Portugués e en Inglés e do 
+Mestrado en Literatura, Cultura e Diversidade 
+D03-P05 
+Regulamento d a Universidade da Coruña sobre mob ilidade 
+internacional de estudantes D03-P04 
+ 
+25  

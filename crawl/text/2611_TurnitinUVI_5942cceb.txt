@@ -1,0 +1,805 @@
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+ 1
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Axenda
+• Antiplaxio e Turnitin
+• Alcance Contratación
+• Que é o Informe de Orixinalidade?
+• Estrutura Funcional
+• Procesos
+• Crear conta administrador (Facultade)
+2
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+ 3
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+¿Qué é plaxio?
+• Paxio:
+– “Apropiación fraudulenta dunha obra allea, normalmente artística 
+ou literaria.” (RAG)
+– “Acción y efecto de plagiar” (RAE)
+• Plaxiar:
+– “Copiar [unha obra allea, literaria ou artística, ou parte dela] e 
+presentala como propia.” (RAG)
+– “Copiar en lo sustancial obras ajenas, dándolas como propias.” 
+(RAE)
+4
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Ferramentas de Antiplaxio
+Software gratuito
+•C o p y L e a k s
+• Crosscheck
+• Dupli Checker
+• Google Scholar
+•P a p e rR a t e r
+• Plagiarisma
+• Plagium
+•Q u e t e x t
+• Viper
+• TinEye
+Software de pago
+• Antiplagiarism• Compilatio
+•C o p y s c a p e
+• Ephorus (Turnitin)
+• iThenticate
+• Plagiarism Detect
+• Plagium
+• Plagius
+• Turnitin
+5
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Ferramentas de pago
+Requiren estar rexistrado
+Permiten revisións de múltiples documentos de xeito diario
+Pagar por uso
+•Pagar en función do número de licenzas requiridas para PDI, PAS e/ou estudantes que utilizarán a plataforma.
+Dereitosde propiedade
+•Residen no autor do traballo.
+Fontes
+•Millóns de bases de datos públicas,  propias ou comerciais. Múltiples idiomas.
+Plataformas de Tele ensinanza
+•Poden integrarse con plataformas como Moodle, Blackboard, canvas, etc. 
+6
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Turnitin
+É un servizo baseado 
+na nube
+•É comercial e foi creado pola empresa iParadgms
+•Desenvolto por estudantes da Universidade de Berkeley
+Líder internacional en 
+prevención de 
+plaxio(1)
+•61 mil millóns de páxinas webindexadas
+•640 millóns de traballos estudianties•160 millóns publicacións e artigos•Mais de 15 mil institucións
+Líder na xeración de 
+comentarios 
+construtivos
+Facts
+•+ 30 millóns de 
+estudantes
+•15 Institucións
+•150 países
+7
+(1) Fonte: turnitin.com/es/
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Turnitin nas Universidades
+• Universidades Españolas
+– UniversidadCarlos III, Complutense de Madrid y Politécnica de 
+Madrid
+– Universidadde la Laguna
+– Universidad de Granada, Jaeny Sevilla
+– Universidad Loyola
+– UniversidadLeon
+– UniversidadPompeuFabra
+• Outras universidades
+– “UniversityofCalifornia, Los Angeles”, “UniversityofCalifornia,   
+Berkeley”, UniversityofBoston, UniversityofColorado, Carnegie
+MellonUniversity, ColumbiaUniversity, UniversityofOxford, UniversityofCambridge
+8
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+ 9
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Alcance Contratación
+• Firmado
+– 14 de Marzo do 2017
+• Vixencia
+– 36 meses
+• Institucións
+– Cixug e Turnitin
+• Licencias
+– 2017: 4.000 (1000 x universidade e Cixug)
+– 2018: 6.000 (2000 x universidade)
+– 2019: 7.500 (2500 x universidade)
+• Actividade
+– Traballos de Fin de Grao, Fin de Mestrado e Doutoramentos
+10
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+ 11
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Exemplo dun Informe de Orixinalidade
+Documento revisado Coincidencia
+Porcentaxe de
+Coincidencia
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Exemplo dun Informe de Orixinalidade
+• Video
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+ 14
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Roles principais
+• Administrador Consorcio
+• Administrador Universidade
+• Administrador Facultade
+• Profesorado
+• Alumnado
+15
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Estrutura, Administradores
+16
+FacultadesUniversidadesConsorcio
+Cixug
+UDC
+Facultade 1
+Facultade n
+USC
+Facultade 1
+Facultade n
+UVI
+Facultade 1
+Facultade n
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Estructura, Exemplo
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Estrutura, Facultades
+Facultade
+Profes. 1 Clases Ejercicios
+Profes. 2 Clases Ejercicios
+Profes. 3 Clases Ejercicios
+.
+Profes. n Clases Ejercicios
+18
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+ 19
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Procesos
+• Xestión Universidades
+• Xestión Facultades
+• Xestión Profesorado
+• Xestión contas Profesorado
+• Xestión Clases
+• Xestión Exercicios
+• Xestión documentos
+• Xestión de estatísticas
+20
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Proceso: Xestión Contrato e Universidades
+• Xestionar relación con provedor
+– Administrar o contrato
+– Administrar as licenzas contratadas
+– Xestionar dispoñibilidade da plataforma
+• Xestionar Universidades
+– Xestionar contas Administradores de Universidades
+– Dar soporte
+– Identificar documentación e formación para a comunidade
+– Identificar oportunidade de melloras nos procesos de validación
+– Propiciar o uso da plataforma nas universidades
+– Revisar estatísticas de uso consolidada
+21
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Procesos
+• Xestión Contracto
+• Xestión Facultades
+• Xestión Profesorado
+• Xestión contas Profesorado
+• Xestión Clases
+• Xestión Exercicios
+• Xestión documentos
+• Xestión de estatísticas
+22
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Proceso: Xestión Universidades
+• Xestionar relación co Consorcio
+– Administrar as licenzas contratadas
+• Xestión Facultades
+– Xestionar contas Administradores Facultades
+– Dar soporte
+– Propagar documentación e formación para a comunidade
+– Identificar oportunidade de melloras nos procesos de validación
+– Propiciar o uso da plataforma nas facultades
+– Revisar estatísticas de uso na universidade
+23
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Procesos
+• Xestión Contracto
+• Xestión Universidades
+• Xestión Profesorado
+• Xestión contas Profesorado
+• Xestión Clases
+• Xestión Exercicios
+• Xestión documentos
+• Xestión de estatísticas
+24
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+ 25
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Crear conta dende páxina principal
+26
+Admin.
+Universidade
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Crear conta dende páxina principal
+27
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Correo Electrónico, Administrador Facultade
+28
+Admin
+Facultade
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Ingreso plataforma
+29
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Config. Conta, Confirmación datos básicos
+30
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Config. Conta, Confirmación conta
+31
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Config. Cuenta, Correo para creación de contrasinal
+32
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Config. Conta, Crear contrasinal
+33
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Confirmación de creación de conta
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Acordo de uso
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Admin. Facultade: Crear conta
+• Confirmación de creación de conta
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Procesos
+• Xestión Contracto
+• Xestión Universidades
+• Xestión Facultades
+• Xestión Clases
+• Xestión Exercicios
+• Xestión documentos
+• Xestión de estatísticas
+37
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+Documentos
+Exercicios
+Clases
+Instrutores/as
+Administradores/as
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Pantalla principal do Administrador
+Admin
+Facultade
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Agregar un/ha intrutor/a
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Proporcionar datos
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Pantalla principal administrador, novoprofesorado
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Correo recibo polo/a instrutor/a
+Instrutor/a
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Páxinaprincipal Turnitin
+http://turnitin.com/es/home
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Inicio de sesión en Turnitin
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Cambio contrasinal e pregunta secreta
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Páxinaprincipal do/a instrutor/a
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Pantalla principal administrador, novoprofesorado
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Procesos
+• Xestión Contracto
+• Xestión Universidades
+• Xestión Facultades
+• Xestión Profesorado
+• Xestión Contas Profesorado
+• Xestión Clases
+• Xestión Exercicios
+• Xestión documentos
+• Xestión de estatísticas
+51
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Cambio Contrasinal
+• Inicio de sesión. Cambio de Contrasinal
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Cambio Contrasinal
+• Inicialización Contrasinal
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Cambio contrasinal
+• Mensaxeinicio procedementocambio contrasinal
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Cambio contrasinal
+• Correo, Inicialización contrasinal
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Cambio contrasinal
+• Cambio contrasinal
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Cambio contrasinal
+• Inicio sesión con nova contrasinal
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Profesorado: Crear conta
+• Páxinaprincipal do/a instrutor/a
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Procesos
+• Xestión Contracto
+• Xestión Universidades
+• Xestión Facultades
+• Xestión Profesorado
+• Xestión Contas Profesorado
+• Xestión ContrasinalProfesorado 
+• Xestión Exercicios
+• Xestión documentos
+• Xestión de estatísticas
+59
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases
+Documentos
+Exercicios
+Clases
+Instrutores/as
+Administradores/as
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases: Crear clase
+• Engadir clase
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases: Crear clase
+• Tipo de clase (Normalmente “Estándar”)
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases: Crear clase
+• Nomes clases, estandarización
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases: Crear clase
+• Nome da clase, clave e tipo de materia
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases: Crear clase
+• Nivel do alumnado
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases: Crear clase
+• Data de inicio e fin da clase
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases: Crear clase
+• Número de clase e clave de inscrición
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases: Crear clase
+• Clase creada, Estandarizar o nome
+Nomenormalizado: UVI, SXEP, EEI, TFM, 2017
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Procesos
+• Xestión Contracto
+• Xestión Universidades
+• Xestión Facultades
+• Xestión Profesorado
+• Xestión Contas Profesorado
+• Xestión ContrasinalProfesorado 
+• Xestión Clases
+• Xestión documentos
+• Xestión de estatísticas
+70
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Clases
+Documentos
+Exercicios
+Clases
+Instrutores/as
+Administradores/as
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Exercicios: Crear exercicio
+• Seleccionar a clase
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Exercicios: Crear exercicio
+• Agregar exercicio
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Exercicios: Crear exercicio
+• Datos básicos
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Exercicios: Crear exercicio
+• Datos adicionais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Exercicios: Crear exercicio
+• Exerciciocreado. Cambio de nomeda clase
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Procesos
+• Xestión Contracto
+• Xestión Universidades
+• Xestión Facultades
+• Xestión Profesorado
+• Xestión Contas Profesorado
+• Xestión ContrasinalProfesorado 
+• Xestión Clases
+• Xestión Exercicios
+• Xestión de estatísticas
+78
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión documentos
+Documentos
+Exercicios
+Clases
+Instrutores/as
+Administradores/as
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Entrar no exercicioe ver accións
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Subir arquivo
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Datos do arquivoa evaluar
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Datos do arquivoa evaluar. Cont. 
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Subir documento
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Subir documento
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Confirmación de documento subido
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Confirmación de documento subido
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Lista de documentos subidos
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Subir documentos
+• Confirmación de documento subido
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Revisar documento subido
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Instruciónsiniciais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Instruciónsiniciais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Instruciónsiniciais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Instruciónsiniciais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Instruciónsiniciais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Instruciónsiniciais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Instruciónsiniciais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Instruciónsiniciais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria
+Xestión Documentos: Revisar documentos
+• Instruciónsiniciais
+
+
+Consorcio para o desenvolvemento de sistemas para a 
+Xestión Universitaria

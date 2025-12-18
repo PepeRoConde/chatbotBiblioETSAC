@@ -148,13 +148,3 @@ Zoomers | Obradoiros
 onde?
  recitace de aca
 / Sesfeon
-
---- OCR de imagen: portada_ES.png_2063069294_06e543f8.png ---
-r
-
-int
-a
-wD
-
-materias del primer cuatrimestre
-del 23 enero al 19 febrero
