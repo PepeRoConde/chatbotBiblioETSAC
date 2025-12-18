@@ -1,0 +1,35 @@
+question,recall,precision,mrr,rank_first_relevant,faithfulness,relevance,answer
+¿Quién es el rector de la universidad?,0.0,0.0,0.0,-1,1.0,0.3,"Baseándome no contexto proporcionado, non podo identificar o nome específico do actual reitor da Uni..."
+¿Quién encabeza el equipo rectoral?,1.0,1.0,1.0,1,1.0,0.3,"Baseándome no contexto proporcionado, podo informarlle sobre o equipo reitoral da Universidade da Co..."
+Cuál es el horario habitual del Edificio Xoana Capdevielle,1.0,1.0,1.0,1,0.875,1.0,"Segundo o contexto proporcionado, o horario habitual do edificio Xoana Capdevielle no campus da UDC ..."
+Cuántos ejemplares reune la biblioteca de Informática,0.0,0.0,0.0,-1,0.75,0.3,"Baseándome no contexto proporcionado, podo informar que:
+
+A biblioteca da UDC ofrece aproximadamente..."
+Cuántos libros hay en la biblioteca de la facultad de informática,0.0,0.0,0.0,-1,1.0,0.7,"Sentíndoo moito, pero non podo atopar no contexto proporcionado información sobre o número total de ..."
+Cuántos créditos tiene el grado en estudios de arquitectura,1.0,0.2,1.0,1,1.0,1.0,"Segundo o documento 630g02v01_3d9b1a3f.txt, o Grao en Estudos de Arquitectura ten un total de 300 cr..."
+Cuál es el horario de atención de la secretaría de la facultad de informática,1.0,0.4,1.0,1,1.0,1.0,O horario de atención ao público na Secretaría da Facultade de Informática é de 9:15h a 13:45h. Para...
+Cuál es el horario de la biblioteca de la facultad de sociología en días lectivos,1.0,0.4,1.0,1,1.0,1.0,"Segundo o documento de horarios, o horario da Biblioteca de Socioloxía e Ciencias da Comunicación du..."
+Cuánto dura el grado de arquitectura,1.0,0.2,1.0,1,1.0,0.7,"Segundo a información dispoñible no contexto, o Grao en Estudos de Arquitectura na Universidade da C..."
+Cuánto créditos tengo por equipos federados propios de la UDC,1.0,1.0,1.0,1,1.0,1.0,"Segundo a normativa académica da Universidade da Coruña (UDC), a participación en equipos federados ..."
+Cuánto tiempo tengo para modificar el contrato de estudios de movilidad,1.0,1.0,1.0,1,0.75,1.0,"Segundo a normativa da UDC, o contrato de estudos pode ser modificado:
+
+- Unha vez por semestre
+- Tr..."
+Quién se encarga de gestionar las becas y las ayudas a la movilidad,1.0,0.2,0.14285714285714285,7,1.0,1.0,"Baseándome no contexto proporcionado, podo informarlle sobre as becas de mobilidade internacional na..."
+Cuánto tiempo tengo para modificar mis asignaturas de erasmus,1.0,0.2,0.1111111111111111,9,1.0,1.0,"Baseándome no contexto proporcionado, podo informar o seguinte sobre a modificación de asignaturas E..."
+Cuántos créditos son los cursos de formación deportiva,1.0,0.8,1.0,1,0.75,0.7,"Segundo o documento, o estudantado pode obter recoñecemento académico de créditos polas seguintes ac..."
+Número de créditos mínimos para matrícula,1.0,0.8,1.0,1,1.0,1.0,"Segundo a normativa da Universidade da Coruña (UDC), os requisitos de créditos mínimos para matrícul..."
+Qué tipo de prácticas hay en la facultad de informática,1.0,0.4,1.0,1,1.0,1.0,"Na Facultade de Informática da Coruña (FIC), os estudantes de Grao en Enxeñaría Informática teñen dú..."
+Cuanto es la cantidad mínima de asignaturas en la que me puedo matricular si soy estudiante a tiempo completo,1.0,1.0,1.0,1,1.0,0.7,"Segundo o documento, para estudantes a tempo completo no primeiro curso, os requisitos de matrícula ..."
+Cuantos libros puedo llevarme de préstamo,1.0,1.0,1.0,1,1.0,0.3,"Baseándome no contexto proporcionado, non atopei información específica sobre o límite exacto de exe..."
+Cuantos días de préstamo me corresponden si soy estudiante de doctorado,1.0,1.0,1.0,1,1.0,0.3,"Baseándome no contexto proporcionado, non atopo información específica sobre os días de préstamo par..."
+Quien es el coordinador responsable de relaciones internacionales en la facultad de informática,1.0,0.2,1.0,1,0.5,1.0,"Segundo a información proporcionada, o coordinador de relacións internacionais da Facultade de Infor..."
+Cuantas plazas hay para el grado en Inteligencia Artificial,1.0,0.2,1.0,1,1.0,1.0,"Segundo a información proporcionada, o Grao en Intelixencia Artificial na Universidade da Coruña (Ca..."
+Que grados de ciencias de la salud hay en el campus de A Coruña,1.0,0.8,0.3333333333333333,3,0.75,0.7,"Baseándome no contexto proporcionado, os graos de Ciencias da Saúde ofertados pola Universidade da C..."
+Qué permite la tarjeta universitaria,1.0,0.6,0.2,5,1.0,1.0,"Segundo a información dispoñible, a tarxeta universitaria da UDC ten as seguintes características:
+
+..."
+Qué tengo que hacer para usar la tarjeta universitaria en digital,1.0,1.0,1.0,1,1.0,1.0,"Para obter a tarxeta universitaria dixital da UDC, os estudantes deben seguir estes pasos:
+
+1. Crear..."
+Cual es la fecha límite de firma de actas para TFG/TFM,1.0,0.4,1.0,1,1.0,0.7,"Segundo a normativa académica da UDC, a data límite para a firma e entrega de actas de Traballos Fin..."

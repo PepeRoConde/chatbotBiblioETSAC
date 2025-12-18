@@ -2,6 +2,7 @@ import os
 import sys
 import re
 import argparse
+import builtins
 from pathlib import Path
 from rich.console import Console
 from rich.panel import Panel
@@ -44,7 +45,6 @@ def main():
     parser.add_argument('--bm25_mode', type=str, default='hybrid', help='BM25 mode: rerank, hybrid, bm25, or filter')
     parser.add_argument('--bm25_weight', type=float, default=0.5, help='BM25 weight in hybrid mode (0.0-1.0)')
     parser.add_argument('--bm25_threshold', type=float, default=0.1, help='Minimum BM25 score for filter mode')
-    parser.add_argument('--bm25_score_factor', type=int, default=45, help='The bigger, the more presence of bm25 retrieved docs, if 0 none, default 45')
     
     # LLM Provider
     parser.add_argument('--provider', type=str, default='claude', help='LLM provider: mistral or claude')
@@ -63,6 +63,7 @@ def main():
     parser.add_argument('--cache_dir', type=str, default='.doc_cache', help='Directory for cache storage')
     parser.add_argument('--clear-cache', action='store_true', help='Clear all caches before starting')
     parser.add_argument('--verbose', action='store_true', help='Show detailed information')
+    parser.add_argument('--crop_chunks', action='store_true', help='Crop displayed chunks to 200 characters (default: show full chunks in verbose mode)')
     
     args = parser.parse_args() 
 
@@ -93,7 +94,6 @@ def main():
     )
     
     # Share the console and verbose setting globally
-    import builtins
     setattr(builtins, 'rich_console', console)
     setattr(builtins, 'verbose_mode', args.verbose)
     
@@ -232,8 +232,7 @@ def main():
             'use_bm25': args.use_bm25,
             'bm25_mode': args.bm25_mode,
             'bm25_weight': args.bm25_weight,
-            'bm25_threshold': args.bm25_threshold,
-            'bm25_score_factor': args.bm25_score_factor
+            'bm25_threshold': args.bm25_threshold
         }
         
         # Add BM25 components if needed
@@ -405,10 +404,18 @@ def main():
                             else:
                                 metadata += "[/dim]"
                         
-                        content = f"{metadata}\n\n{rest.strip()[:200]}..."
+                        # Show full chunks by default in verbose mode, crop only if --crop_chunks is specified
+                        chunk_text = rest.strip()
+                        if args.crop_chunks:
+                            chunk_text = chunk_text[:200] + "..."
+                        content = f"{metadata}\n\n{chunk_text}"
                     else:
                         title = f"{method_emoji} Texto {i+1} - {method_text}"
-                        content = f"{score_line}\n\n{text.strip()[:200]}..."
+                        # Show full chunks by default in verbose mode, crop only if --crop_chunks is specified
+                        chunk_text = text.strip()
+                        if args.crop_chunks:
+                            chunk_text = chunk_text[:200] + "..."
+                        content = f"{score_line}\n\n{chunk_text}"
                     
                     console.print(Panel(
                         content,

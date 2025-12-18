@@ -1,0 +1,12 @@
+{
+  "avg_recall": 0.58,
+  "avg_precision": 0.24,
+  "avg_mrr": 0.27644444444444444,
+  "avg_faithfulness": 0.96,
+  "avg_relevance": 0.612,
+  "f1_score": 0.33951219512195124,
+  "recall@1": 0.2,
+  "recall@5": 0.44,
+  "recall@10": 0.6,
+  "total_questions": 25
+}
