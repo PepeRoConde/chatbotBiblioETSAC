@@ -5,6 +5,8 @@
 \usepackage[margin=1in]{geometry}
 \usepackage[galician]{babel}
 \usepackage{csquotes}
+\usepackage{xltabular}  % Mejor para tablas largas con texto
+\usepackage{makecell} 
 
 \usepackage{array}
 \usepackage{booktabs}            % \toprule \midrule \bottomrule
@@ -13,6 +15,7 @@
 \usepackage{tcolorbox}
 \usepackage{float}
 \usepackage{multicol}
+\usepackage{enumitem}
 \tcbuselibrary{breakable}
 \usepackage[style=ieee,backend=bibtex]{biblatex}  % o style=apa, ieee, etc.
 \addbibresource{referencias.bib}
@@ -36,6 +39,23 @@
 \definecolor{techblue}{RGB}{0,51,102}
 \definecolor{rosa}{RGB}{196,45,137}
 \definecolor{lightgray}{RGB}{100,100,100}
+\definecolor{rosa1}{RGB}{181, 60, 135}
+\definecolor{rosa2}{RGB}{200, 80, 150}
+\definecolor{rosa3}{RGB}{220, 100, 165}
+\definecolor{rosa4}{RGB}{240, 130, 185}
+\definecolor{rosa5}{RGB}{255, 160, 205}
+
+\definecolor{rosaprincipal}{RGB}{181, 60, 135}
+
+% Estilo de tcolorbox único
+\tcbset{
+    testbox/.style={
+        colback=rosaprincipal!10,
+        colframe=rosaprincipal,
+        fonttitle=\bfseries
+    }
+}
+
 
 % Headers and footers
 \usepackage{fancyhdr}
@@ -363,10 +383,20 @@ Palabras únicas (hapax legomena) & 15.889 \\
 \end{tabular}
 \end{table}
 
-Atopáronse 10.164.265 palabras cun vocabulario de 73.640 termos, das cales 15.889 aparecen só unha vez (\textit{hapax legomena}), un 20\% do vocabulario. A maioría non son erros: só 230 son faltas ortográficas e 30 xeradas polo OCR. Este fenómeno de vocabulario de uso desigual segue a lei de Zipf, onde poucas palabras son moi frecuentes e moitas son raras, como se mostra nas Figuras~\ref{figZipf} e~\ref{figEDA}.  
+Atopáronse 10.164.265 palabras cun vocabulario de 73.640 termos, das cales
+15.889 aparecen só unha vez (\textit{hapax legomena}), un 20\% do vocabulario. A
+maioría non son erros: só 230 son faltas ortográficas e 30 xeradas polo OCR.
+Este fenómeno de vocabulario de uso desigual segue a lei de Zipf, onde poucas
+palabras son moi frecuentes e moitas son raras, como se mostra nas
+Figuras~\ref{figZipf} e~\ref{figEDA}\footnote{Para saber máis información sobre
+este curioso suceso recoméndase encarecidamente ver o vídeo de \textit{Vsauce}
+\cite{vsauce2015zipf} sobre o tema}.  
 
 
-Tamén se observa o principio de Pareto: aproximadamente o 20\% das palabras máis frecuentes representan arredor do 80\% das ocorrencias, aínda que neste corpus a relación é máis extrema: o 2,1\% do vocabulario alcanza o 80\% das ocorrencias e o 20\% cobre o 97,5\%.  
+Tamén se observa o principio de Pareto: aproximadamente o 20\% das palabras máis
+frecuentes representan arredor do 80\% das ocorrencias, aínda que neste corpus a
+relación é máis extrema: o 2,1\% do vocabulario alcanza o 80\% das ocorrencias e
+o 20\% cobre o 97,5\%.  
 
 \begin{figure}[H]
     \centering
@@ -382,7 +412,13 @@ Tamén se observa o principio de Pareto: aproximadamente o 20\% das palabras má
     \label{figEDA}
 \end{figure}
 
-A distribución das lonxitudes dos documentos (Figura~\ref{figEDA}, esquerda) mostra moitos documentos curtos: mediana de 4.200 caracteres e media de 15.121, indicando asimetría debido a documentos longos que elevan a media. Moitas páxinas web teñen contido limitado ou só mostran ligazóns ou imaxes. No \textit{crawleo} detectáronse 115 páxinas baleiras (0 caracteres), ben por conter só imaxes sen texto extraíble por OCR, ben por ser redireccións ou navegación pura.
+A distribución das lonxitudes dos documentos (Figura~\ref{figEDA}, esquerda)
+mostra moitos documentos curtos: mediana de 4.200 caracteres e media de 15.121,
+indicando asimetría debido a documentos longos que elevan a media. Moitas
+páxinas web teñen contido limitado ou só mostran ligazóns ou imaxes. No
+\textit{crawleo} detectáronse 115 páxinas baleiras (0 caracteres), ben por
+conter só imaxes sen texto extraíble por OCR, ben por ser redireccións ou
+navegación pura.
 
 
 
@@ -1091,53 +1127,26 @@ polo \textit{crawler} para determinar a relevancia das páxinas:
     width=\textwidth,  % Asegura que no se salga del ancho de página
     coltitle=black]
 \begin{spacing}{0.85}  % Reduce el interlineado ligeramente
-[Tipos de usuarios
-
-N? de documentos en préstamo
-
-Días de préstamo
-
-Renovaciones
-
-Reservas
-
-GRUPO 1
-
-Estudiantado de Grado de centros propios y adscritos
-
-Estudiantado de programa de movilidad (Erasmus, Sicue-Séneca)
-
-Estudiantado de doble Grado, de simultaneidad 10 10 días Indefinidas | Límite 10 docs.
-Estudiantado de grados interuniversitarios
-Estudiantado da Universidad Séntor
-GRUPO 2
-Estudiantado de MASTERES e posgrados propios, incluyendo los
-dela Fundación Universidade da Coruña . ,
-15 21 días Indefinidas | Límite 15 docs.
-Estudiantado de Trabajos de fin de grado.
-Personal de administración en servicio (PTGAS)
-GRUPO 3
-Estudiantado de Doctorado 35 30 días Indefinidas | Límite 35 does.
-Personal investigador visitante; visitant tant
-'ersonal investigador visitante: visitante senior] visitante 35 30 días indefinidas | Límite 38 docs
-predoctoral o postdactoral
-GRUPO 4
-Becarios/as de investigación Curso académico
-Personal contratado investigador (cada biblioteca podrá excluir
-35 de este tipo de préstamo Indefinidas | Límite 35 docs.
-documentos par razón de uso y
-disponibilidad)
-GRUPO 5
-PDI da UDC (incluyendo centros adscritos), de la Fundación UDC Curso académico
-Profesorado emérito, jubilado incentivado y honorario (cada biblioteca podrá excluir
-Profesorado visitante 100 de este tipo de préstamo Indefíridas | Límite 100 docs.
-Lectores/as documentos par razón de uso y
-disponibilidad)
-GRUPO 6
-Cual ! idad taria de la UDC
-cualquier persona ajena a la comunidad universitaria dela 6 10 días indefinidas | Límite 6 docs
-
-que sea autorizada por la Biblioteca Universitaria
+=== Taboa 1 ===
+fila 1: [de usuarios]-GRUPO 1 [de usuarios]-GRUPO 1 [de documentos en préstamo]-GRUPO 1 [Dias de préstamo]-GRUPO 1 [Renovaciones]-GRUPO 1 [Reservas]-GRUPO 1
+fila 2: [de usuarios]-de Grado de centros prapios adscritos [de usuarios]-de Grado de centros prapios adscritos [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
+fila 3: [de usuarios]-de programa de [de usuarios]-(Erasmus, Sicue-Séneca) [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
+fila 4: [de usuarios]-Estudiantada de doble Grado, de simultaneidad [de usuarios]-Estudiantada de doble Grado, de simultaneidad [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
+fila 5: [de usuarios]-Estudiantado de grados interuniversitarios [de usuarios]-Estudiantado de grados interuniversitarios [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
+fila 6: [de usuarios]-Estudiantada da Universidad Sénior [de usuarios]-Estudiantada da Universidad Sénior [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
+fila 7: [de usuarios]-Estudiantado de MASTERES posgrados propios, los dela Universidade da Corufia [de usuarios]-Estudiantado de MASTERES posgrados propios, los dela Universidade da Corufia [de documentos en préstamo]-15 [Dias de préstamo]-21 dias [Renovaciones]-Indefinidas [Reservas]-Limite 15 does,
+fila 8: [de usuarios]-Estudiantada de Trabajos de fin de grado [de usuarios]-Estudiantada de Trabajos de fin de grado [de documentos en préstamo]-15 [Dias de préstamo]-21 dias [Renovaciones]-Indefinidas [Reservas]-Limite 15 does,
+fila 9: [de usuarios]-Personal de administracion en servicio (PTGAS) [de usuarios]-Personal de administracion en servicio (PTGAS) [de documentos en préstamo]-15 [Dias de préstamo]-21 dias [Renovaciones]-Indefinidas [Reservas]-Limite 15 does,
+fila 10: [de usuarios]-Estudiantada de [de usuarios]-Estudiantada de [de documentos en préstamo]-35 [Dias de préstamo]-30 dias [Renovaciones]-Indefinidas [Reservas]-Limite 85 does,
+fila 11: [de usuarios]-Personal investigador visitante: visitante seniar/ visitante postdactoral [de usuarios]-Personal investigador visitante: visitante seniar/ visitante postdactoral [de documentos en préstamo]-35 [Dias de préstamo]-30 dias [Renovaciones]-Indefinidas [Reservas]-Limite 85 does,
+fila 12: [de usuarios]-de investigacion [de usuarios]-de investigacion [de documentos en préstamo]-35 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 85 does,
+fila 13: [de usuarios]-Personal contratada investigador [de usuarios]-Personal contratada investigador [de documentos en préstamo]-35 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 85 does,
+fila 14: [de usuarios]-GRUPOS [de usuarios]-GRUPOS [de documentos en préstamo]-GRUPOS [Dias de préstamo]-GRUPOS [Renovaciones]-GRUPOS [Reservas]-GRUPOS
+fila 15: [de usuarios]-PDI da UDC (incluyendo centros adscritas), de la Fundacion UDC [de usuarios]-PDI da UDC (incluyendo centros adscritas), de la Fundacion UDC [de documentos en préstamo]-100 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 100 does.
+fila 16: [de usuarios]-Profesorado jubilado incentivado honorario [de usuarios]-Profesorado jubilado incentivado honorario [de documentos en préstamo]-100 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 100 does.
+fila 17: [de usuarios]-Profesorado visitante [de usuarios]-Profesorado visitante [de documentos en préstamo]-100 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 100 does.
+fila 18: [de usuarios]-Lectores/as [de usuarios]-Lectores/as [de documentos en préstamo]-100 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 100 does.
+fila 19: [de usuarios]-Cualquier persona ajenaa la comunidad universitaria dela UDC que sea autorizada por la Biblioteca Universitaria [de usuarios]-Cualquier persona ajenaa la comunidad universitaria dela UDC que sea autorizada por la Biblioteca Universitaria [de documentos en préstamo]-None [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite does,
 
 
 \end{spacing}
@@ -1145,7 +1154,7 @@ que sea autorizada por la Biblioteca Universitaria
 
 \section{Progresión de páxinas \textit{retrieveadas} ao longo do crawleo}
 \label{fig:crawling}
-\begin{figure}
+\begin{figure}[h]
   \centering
     \includegraphics[width=0.9\textwidth]{imaxes/crawl_speed.png}
     \caption{Progresión da eficiencia do \textit{crawler} ao longo do tempo}
@@ -1230,6 +1239,236 @@ que sea autorizada por la Biblioteca Universitaria
 \caption{Top 20 palabras menos frecuentes no corpus}
 \label{tab:bottom20}
 \end{table}
+
+
+\chapter{Máis acerca da validación do RAGsystem}
+
+\section{Preguntas de validación}
+
+\begin{tcolorbox}[testbox,title={Pregunta \#1}]
+\textbf{Pregunta:} ¿Quién es el rector de la universidad?
+
+\textbf{Respuesta:} Ricardo Cao Abad
+
+\textbf{Documentos:} equipo\_reitoral\_2b7d8c43.txt
+\end{tcolorbox}
+
+% Pregunta 2
+\begin{tcolorbox}[testbox,title={Pregunta \#2}]
+\textbf{Pregunta:} ¿Quién encabeza el equipo rectoral?
+
+\textbf{Respuesta:} Ricardo Cao Abad
+
+\textbf{Documentos:} equipo\_reitoral\_2b7d8c43.txt
+\end{tcolorbox}
+
+% Pregunta 3
+\begin{tcolorbox}[testbox,title={Pregunta \#3}]
+\textbf{Pregunta:} Cuál es el horario habitual del Edificio Xoana Capdevielle
+
+\textbf{Respuesta:} De lunes a viernes: de las 8:15 h a las 21.45 h
+
+\textbf{Documentos:} horarios\_4e320c1a.txt
+\end{tcolorbox}
+
+% Pregunta 4
+\begin{tcolorbox}[testbox,title={Pregunta \#4}]
+\textbf{Pregunta:} Cuántos ejemplares reune la biblioteca de Informática
+
+\textbf{Respuesta:} 25.570 ejemplares
+
+\textbf{Documentos:} biblioteca-0\_5eff5a6a.txt
+\end{tcolorbox}
+
+% Pregunta 5
+\begin{tcolorbox}[testbox,title={Pregunta \#5}]
+\textbf{Pregunta:} Cuántos libros hay en la biblioteca de la facultad de informática
+
+\textbf{Respuesta:} 25.570 ejemplares
+
+\textbf{Documentos:} biblioteca-0\_5eff5a6a.txt
+\end{tcolorbox}
+
+% Pregunta 6
+\begin{tcolorbox}[testbox,title={Pregunta \#6}]
+\textbf{Pregunta:} Cuántos créditos tiene el grado en estudios de arquitectura
+
+\textbf{Respuesta:} 300 créditos
+
+\textbf{Documentos:} 630g02v01\_3d9b1a3f.txt
+\end{tcolorbox}
+
+% Pregunta 7
+\begin{tcolorbox}[testbox,title={Pregunta \#7}]
+\textbf{Pregunta:} Cuál es el horario de atención de la secretaría de la facultad de informática
+
+\textbf{Respuesta:} El horario de atención al público en la Secretaría de la Facultad de Informática será de 9:15h a 13:45h
+
+\textbf{Documentos:} horarios-de-atencion\_d6d236bf.txt
+\end{tcolorbox}
+
+% Pregunta 8
+\begin{tcolorbox}[testbox,title={Pregunta \#8}]
+\textbf{Pregunta:} Cuál es el horario de la biblioteca de la facultad de sociología en días lectivos
+
+\textbf{Respuesta:} Días lectivos: 8.30h - 21.30h, Junio, Julio y Septiembre (hasta comienzo de curso): 9.00h - 20.00h, Agosto, Navidad, Lunes de Carnaval, Semana Santa: 9.15h - 13.45h
+
+\textbf{Documentos:} horarios\_7642b102.txt
+\end{tcolorbox}
+
+% Pregunta 9
+\begin{tcolorbox}[testbox,title={Pregunta \#9}]
+\textbf{Pregunta:} Cuánto dura el grado de arquitectura
+
+\textbf{Respuesta:} 300 créditos (equivalente a 5 años)
+
+\textbf{Documentos:} 630g02v01\_3d9b1a3f.txt
+\end{tcolorbox}
+
+% Pregunta 10
+\begin{tcolorbox}[testbox,title={Pregunta \#10}]
+\textbf{Pregunta:} Cuánto créditos tengo por equipos federados propios de la UDC
+
+\textbf{Respuesta:} 1,5 créditos ECTS por curso académico
+
+\textbf{Documentos:} document\_cd41648a.txt
+\end{tcolorbox}
+
+% Pregunta 11
+\begin{tcolorbox}[testbox,title={Pregunta \#11}]
+\textbf{Pregunta:} Cuánto tiempo tengo para modificar el contrato de estudios de movilidad
+
+\textbf{Respuesta:} Plazo de un mes desde el inicio de las actividades académicas en la universidad de destino.
+
+\textbf{Documentos:} document\_5958ed71.txt
+\end{tcolorbox}
+
+% Pregunta 12
+\begin{tcolorbox}[testbox,title={Pregunta \#12}]
+\textbf{Pregunta:} Quién se encarga de gestionar las becas y las ayudas a la movilidad
+
+\textbf{Respuesta:} Oficina de Relaciones Internacionales (ORI) en lo que no sea responsabilidad de los centros
+
+\textbf{Documentos:} document\_5958ed71.txt
+\end{tcolorbox}
+
+% Pregunta 13
+\begin{tcolorbox}[testbox,title={Pregunta \#13}]
+\textbf{Pregunta:} Cuánto tiempo tengo para modificar mis asignaturas de erasmus
+
+\textbf{Respuesta:} Plazo de un mes desde el inicio de las actividades académicas en la universidad de destino.
+
+\textbf{Documentos:} document\_5958ed71.txt
+\end{tcolorbox}
+
+% Pregunta 14
+\begin{tcolorbox}[testbox,title={Pregunta \#14}]
+\textbf{Pregunta:} Cuántos créditos son los cursos de formación deportiva
+
+\textbf{Respuesta:} 1,5 créditos ECTS cada 30 horas de formación
+
+\textbf{Documentos:} document\_cd41648a.txt
+\end{tcolorbox}
+
+% Pregunta 15
+\begin{tcolorbox}[testbox,title={Pregunta \#15}]
+\textbf{Pregunta:} Número de créditos mínimos para matrícula
+
+\textbf{Respuesta:} Los estudiantes de primer curso, por primera vez, deberán superar en ese curso académico al menos 12 créditos, si la matrícula se efectuó en el régimen de dedicación a tiempo completo, y 6 créditos en el régimen de dedicación a tiempo parcial para poder tener la consideración de estudiante de continuación de estudios
+
+\textbf{Documentos:} dedicacion\_e.txt\_2063069294\_f7b3dfc2
+\end{tcolorbox}
+
+% Pregunta 16
+\begin{tcolorbox}[testbox,title={Pregunta \#16}]
+\textbf{Pregunta:} Qué tipo de prácticas hay en la facultad de informática
+
+\textbf{Respuesta:} Prácticas curriculares y extracurriculares
+
+\textbf{Documentos:} practicas-en-empresa\_a40b7284.txt
+\end{tcolorbox}
+
+% Pregunta 17
+\begin{tcolorbox}[testbox,title={Pregunta \#17}]
+\textbf{Pregunta:} Cuanto es la cantidad mínima de asignaturas en la que me puedo matricular si soy estudiante a tiempo completo
+
+\textbf{Respuesta:} Un número no inferior a 48 créditos
+
+\textbf{Documentos:} dedicacion\_e.txt\_2063069294\_f7b3dfc2.txt
+\end{tcolorbox}
+
+% Pregunta 18
+\begin{tcolorbox}[testbox,title={Pregunta \#18}]
+\textbf{Pregunta:} Cuantos libros puedo llevarme de préstamo
+
+\textbf{Respuesta:} Depende del grupo de usuario: Grupo 1 (estudiantes de grado): 10, Grupo 2 (estudiantes de máster, TFG, PAS): 15, Grupo 3 (estudiantes de doctorado, personal investigador): 35, PDI: 100
+
+\textbf{Documentos:} prestamo\_fb00e6da.txt
+\end{tcolorbox}
+
+% Pregunta 19
+\begin{tcolorbox}[testbox,title={Pregunta \#19}]
+\textbf{Pregunta:} Cuantos días de préstamo me corresponden si soy estudiante de doctorado
+
+\textbf{Respuesta:} 30 días
+
+\textbf{Documentos:} prestamo\_fb00e6da.txt
+\end{tcolorbox}
+
+% Pregunta 20
+\begin{tcolorbox}[testbox,title={Pregunta \#20}]
+\textbf{Pregunta:} Quien es el coordinador responsable de relaciones internacionales en la facultad de informática
+
+\textbf{Respuesta:} Diego Andrade
+
+\textbf{Documentos:} coordinadores-academicos\_867aace4.txt
+\end{tcolorbox}
+
+% Pregunta 21
+\begin{tcolorbox}[testbox,title={Pregunta \#21}]
+\textbf{Pregunta:} Cuantas plazas hay para el grado en Inteligencia Artificial
+
+\textbf{Respuesta:} 50
+
+\textbf{Documentos:} NotasCorte\_C\_2025\_Plazas.txt\_2063069294\_91ca9fd9.txt
+\end{tcolorbox}
+
+% Pregunta 22
+\begin{tcolorbox}[testbox,title={Pregunta \#22}]
+\textbf{Pregunta:} Que grados de ciencias de la salud hay en el campus de A Coruña
+
+\textbf{Respuesta:} Grado en Enfermería, Grado en Fisioterapia, Grado en Logopedia, Grado en Terapia Ocupacional
+
+\textbf{Documentos:} NotasCorte\_C\_2025\_Plazas.txt\_2063069294\_91ca9fd9.txt
+\end{tcolorbox}
+
+% Pregunta 23
+\begin{tcolorbox}[testbox,title={Pregunta \#23}]
+\textbf{Pregunta:} Qué permite la tarjeta universitaria
+
+\textbf{Respuesta:} La tarjeta universitaria es la credencial que permite la identificación de todos los integrantes de la comunidad universitaria, brinda acceso a múltiples servicios tecnológicos y constituye un avanzado sistema de información, gestión, acreditación, préstamo bibliotecario, acceso a recintos
+
+\textbf{Documentos:} tui\_7df940d2.txt
+\end{tcolorbox}
+
+% Pregunta 24
+\begin{tcolorbox}[testbox,title={Pregunta \#24}]
+\textbf{Pregunta:} Qué tengo que hacer para usar la tarjeta universitaria en digital
+
+\textbf{Respuesta:} Debes añadir o actualizar tu fotogtafía
+
+\textbf{Documentos:} tui\_7df940d2.txt, emision\_2feeeba7.txt
+\end{tcolorbox}
+
+% Pregunta 25
+\begin{tcolorbox}[testbox,title={Pregunta \#25}]
+\textbf{Pregunta:} Cual es la fecha límite de firma de actas para TFG/TFM
+
+\textbf{Respuesta:} 30 de septiembre de 2026
+
+\textbf{Documentos:} document\_9c5fad96.txt
+\end{tcolorbox}
+
 
 \section{Resultados validación RAGsystem}
 \subsection{\textit{Heatmaps} de varias métricas}
