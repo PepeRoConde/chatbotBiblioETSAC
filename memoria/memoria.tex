@@ -16,6 +16,7 @@
 \usepackage{tcolorbox}
 \usepackage{float}
 \usepackage{multicol}
+
 \tcbuselibrary{breakable}
 \usepackage[style=ieee,backend=bibtex]{biblatex}  % o style=apa, ieee, etc.
 \addbibresource{referencias.bib}
@@ -111,6 +112,22 @@
 
 % Hyperlinks
 \usepackage[colorlinks=true,linkcolor=rosa,citecolor=techblue,urlcolor=techblue]{hyperref}
+
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{terminalbg}{RGB}{255,255,255}
+
+
+\lstdefinestyle{terminal}{
+    backgroundcolor=\color{terminalbg},
+    basicstyle=\ttfamily\small\color{rosa},
+    frame=single,
+    breaklines=true,
+    showstringspaces=false,
+}
+
 
 
 \title{\scshape\Huge\color{rosa}Chatbot para a documentación e normativa da UDC}
@@ -399,24 +416,7 @@ Palabras únicas (hapax legomena) & 15.889 \\
 \end{tabular}
 \end{table}
 
-Atopáronse 10.164.265 palabras cun vocabulario de 73.640 termos, das cales 15.889 aparecen só unha vez (\textit{hapax legomena}), un 20\% do vocabulario. A maioría non son erros: só 230 son faltas ortográficas e 30 xeradas polo OCR. Este fenómeno de vocabulario de uso desigual segue a lei de Zipf, onde poucas palabras son moi frecuentes e moitas son raras, como se mostra nas Figuras~\ref{figZipf} e~\ref{figEDA}.  
-
-
-Tamén se observa o principio de Pareto: aproximadamente o 20\% das palabras máis frecuentes representan arredor do 80\% das ocorrencias, aínda que neste corpus a relación é máis extrema: o 2,1\% do vocabulario alcanza o 80\% das ocorrencias e o 20\% cobre o 97,5\%.  
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imaxes/zipf.png}
-    \caption{Frecuencia de termos en diversas linguas \cite{wikipedia_zipf}}
-    \label{figZipf}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imaxes/analisis_corpus.png}
-    \caption{Gráficos de distribución de lonxitude de documentos e frecuencia de termos}
-    \label{figEDA}
-\end{figure}
+Atopáronse 10.164.265 palabras cun vocabulario de 73.640 termos, das coles 15.889 aparecen só unha vez (\textit{hapax legomena}), un 20\% do vocabulario. A maioría non son erros: só 230 son faltas ortográficas e 30 xeradas polo OCR. Este fenómeno de vocabulario de uso desigual segue a lei de Zipf, onde poucas palabras son moi frecuentes e moitas son raras. Para unha análise máis detallada das distribucións de frecuencias e lonxitude de documentos, véxase o Apéndice~\ref{app:zipf_pareto}.
 
 A distribución das lonxitudes dos documentos (Figura~\ref{figEDA}, esquerda) mostra moitos documentos curtos: mediana de 4.200 caracteres e media de 15.121, indicando asimetría debido a documentos longos que elevan a media. Moitas páxinas web teñen contido limitado ou só mostran ligazóns ou imaxes. No \textit{crawleo} detectáronse 115 páxinas baleiras (0 caracteres), ben por conter só imaxes sen texto extraíble por OCR, ben por ser redireccións ou navegación pura.
 
@@ -601,26 +601,25 @@ de Claude Haiku e Sonnet implementa esta estratexia adaptándoa aos recursos e
 limitacións do noso entorno.
 
 
-\subsubsection{Xestión de vixencia dos documentos}
+\subsection{Xestión de vixencia dos documentos}
 Como xa foi mencionado anteriormente, o problema de tratar cun \textit{corpus}
-destas caracterísitcas é o averiguar se un documento dispoñible foi derrogado ou
+destas caracterísitcas é averiguar se un documento dispoñible foi derrogado ou
 non, é moi común que as páxinas que os manteñen non sexan borradas e sigan
-mostrándoo como se seguera tendo relevancia. Tal problemática non é única a esta
-aplicación enconcreto pois constité un dos grandes campos de investigacións dos
+mostrándoo como se seguise tendo relevancia. Tal problemática non é única a esta
+aplicación en concreto, pois supón un dos grandes campos de investigación dos
 \textit{Ragsystems}. 
 
 A solución proposta e implementada ten unha parte de extracción de información,
 é tarefa do \textit{crawler} asignar a cada documento retribuído unha data (o
 campo \textit{last\_modified} de cada URL), mais en caso de que tal dato non sexa
-accesible (o server da páxina non o mostra), a responsabilidade de otrogarlle
-unha data de vixencia aos documentos recae no LLM, isto conseguese engadindo a
-obriga de intentar sempre dar unha data de cada fonte de información ao
-\textit{prompt} inicial. 
+accesible (o server da páxina non o mostra), a responsabilidade de 
+xestionar a vixencia dos documentos recae no LLM, isto conseguese con enxeñaría de \texttt{prompts}, engadindo a
+obriga de intentar sempre dar unha data a partir do 
 
 Na práctica poderíase pensar que na maioría dos casos o llm non será capaz de
 atopar unha data no documento, máis facendo unha breve búsqueda sobre o
 \textit{corpus} as ocurrencias de datas son moi comúns, de feito un 67\% dos
-documentos que non dispoñel de \textit{last\_modified} teñen algunha data neles
+documentos que non dispoñen de \textit{last\_modified} teñen algunha data neles
 que o LLM analizará como válida (ou non).
 
 Deste xeito conséguese que o RAGsystem non só preste atención á vixencia das
@@ -658,6 +657,27 @@ AS ferramentas principais da que nosa implementación fai uso son as seguintes:
 
 
 \chapter{Instalación e uso}
+
+O sistema foi desenvolvido e probado en Python nas versións 3.12 a 3.14, garantindo
+compatibilidade con estas versións do intérprete. Para instalar e executar o chatbot,
+seguir os seguintes pasos:
+
+\begin{lstlisting}[style=terminal]
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements
+python -m src.crawl # Lanza o crawler e xera o corpus de documentos
+python -m src.main # Lanza o RAGSystem e construe a base de vectores
+\end{lstlisting}
+
+\textbf{Nota importante:} A primeira execución do sistema tardará un tempo considerable,
+xa que é necesario completar dous procesos intensivos: primeiro, o \textit{crawler}
+debe percorrer e descargar todos os documentos dos portais web da universidade; segundo,
+o sistema debe xerar e almacenar os \textit{embeddings} de todos os fragmentos de texto
+na base de vectores FAISS. Execucións posteriores serán significativamente máis rápidas,
+xa que o \textit{crawler} só actualizará documentos modificados e os \textit{embeddings}
+xa estarán dispoñibles na caché. Unha vez finalizado este proceso inicial, o chatbot
+estará listo para responder consultas de forma interactiva.
 
 
 
@@ -1282,11 +1302,30 @@ que sea autorizada por la Biblioteca Universitaria
 
 \section{Progresión de páxinas \textit{retrieveadas} ao longo do crawleo}
 \label{fig:crawling}
-\begin{figure}
+\begin{figure}[H]
   \centering
     \includegraphics[width=0.9\textwidth]{imaxes/crawl_speed.png}
     \caption{Progresión da eficiencia do \textit{crawler} ao longo do tempo}
     \label{fig:crawlerRun}
+\end{figure}
+
+\section{Lei de Zipf e Principio de Pareto no corpus}
+\label{app:zipf_pareto}
+
+Tamén se observa o principio de Pareto: aproximadamente o 20\% das palabras máis frecuentes representan arredor do 80\% das ocorrencias, aínda que neste corpus a relación é máis extrema: o 2,1\% do vocabulario alcanza o 80\% das ocorrencias e o 20\% cobre o 97,5\%.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imaxes/zipf.png}
+    \caption{Frecuencia de termos en diversas linguas \cite{wikipedia_zipf}}
+    \label{figZipf}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imaxes/analisis_corpus.png}
+    \caption{Gráficos de distribución de lonxitude de documentos e frecuencia de termos}
+    \label{figEDA}
 \end{figure}
 
 \chapter{Análise do Corpus}
@@ -1394,7 +1433,7 @@ repetir o texto do fragmento.
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.7\textwidth]{imaxes/histograma_datas.png}
-    \caption{}
+    \caption{Distribución de datas presentes no contido dos documentos sen \texttt{last\_modified}}
     \label{fig:tempohist}
 \end{figure}
 
@@ -1402,7 +1441,7 @@ repetir o texto do fragmento.
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.9\textwidth]{imaxes/temporal.jpeg}
-    \caption{}
+    \caption{Exemplo de saída TUI}
     \label{fig:temporal}
 \end{figure}
 
