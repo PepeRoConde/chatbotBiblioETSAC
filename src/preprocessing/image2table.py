@@ -65,3 +65,4 @@ def image_table2text(IMAGE_PATH):
 if __name__ == "__main__":
     result = image_table2text("memoria/imaxes/prestamos.png")
     print(result)
+
