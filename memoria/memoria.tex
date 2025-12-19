@@ -674,7 +674,7 @@ Retrieval}, adaptadas ao contexto dun sistema RAG:
     métrica é a nivel de chunk, reflectindo o nivel de “ruído” que chega ao LLM.
 \end{itemize}
 
-No noso sistema, o \textbf{recall e o MRR calcúlase a nivel de documento},
+No noso sistema, o \textbf{recall e o MRR} calcúlase a nivel de documento,
 considerando cada documento como unha unidade discreta de relevancia. Isto
 simplifica a avaliación e garante que se mida a efectividade do sistema en levar
 información esencial ao modelo xerativo, independentemente de como os documentos
@@ -835,6 +835,61 @@ rendemento absoluto en escenarios de produción \cite{rag_eval_survey_2024}.
 
 
 \chapter{Conclusions e traballos futuros}
+
+\section{Extensións arquitectónicas e metodolóxicas}
+
+Ademais da ampliación das dimensións de avaliación, existen varias liñas de
+mellora de arquitectura que poderían reforzar o rendemento e a robustez do
+sistema RAG analizado neste traballo. En particular, a literatura recente
+sinala que decisións relativas á segmentación do texto, ao reranking dos
+documentos recuperados e á selección dos conxuntos de avaliación teñen un
+impacto significativo na calidade final das respostas xeradas.
+
+Unha primeira extensión relevante sería a adopción dunha estratexia de
+\textit{small-to-big chunking}. Este enfoque consiste en empregar fragmentos
+de tamaño reducido durante a fase de recuperación, co obxectivo de maximizar
+a precisión e a discriminación semántica do retriever, e posteriormente
+expandir eses fragmentos a unidades de contexto máis amplas na fase de
+xeración. Deste modo, o modelo xerador dispón dun contexto máis rico e
+cohesionado, preservando ao mesmo tempo a relevancia local identificada na
+recuperación inicial. Estudos recentes sinalan que este tipo de estratexias
+axudan a mitigar a perda de contexto e melloran a coherencia factual das
+respostas, especialmente en tarefas de preguntas complexas \cite{wang2023chunking,wang-etal-2024-searching}.
+
+Outra liña de traballo futuro consiste na incorporación dunha fase explícita
+de \textit{reranking} baseada en modelos neuronais especializados, como
+TILDEv2. Este tipo de modelos combina sinais léxicos e semánticos para refinar
+a orde dos documentos recuperados, permitindo unha selección máis precisa do
+contexto máis informativo antes da xeración. A integración dun reranker deste
+tipo resulta especialmente relevante en escenarios con vocabulario técnico
+ou especializado, nos que a recuperación puramente semántica pode resultar
+insuficiente \cite{lin2022lexical}. Ademais, análises empíricas recentes mostran que a inclusión dunha etapa de
+reranking pode producir melloras consistentes en métricas de recuperación e
+na calidade percibida das respostas finais, mesmo cando se empregan
+retrievers competitivos de base \cite{wang-etal-2024-searching}. A avaliación comparativa entre unha pipeline
+sen reranking e outra que incorpore TILDEv2 permitiría cuantificar o impacto
+desta capa adicional sobre diferentes métricas.
+
+Finalmente, no ámbito da avaliación, unha extensión natural deste traballo
+sería o uso de datasets estandarizados de \textit{benchmarking}, en
+particular aqueles orientados a tarefas de \textit{fact checking} e
+\textit{reasoning}. Este tipo de conxuntos de datos permiten avaliar non só a
+corrección factual das respostas, senón tamén a capacidade do sistema para
+razoar sobre evidencias múltiples e detectar inconsistencias ou información
+incorrecta nos documentos recuperados. A súa incorporación facilitaría a
+comparación directa con outros sistemas RAG descritos na literatura e
+permitiría situar os resultados obtidos nun contexto máis amplo e
+representativo do estado da arte, seguindo recomendacións metodolóxicas
+recentes para a avaliación sistemática de arquitecturas RAG
+\cite{rag_eval_survey_2024,wang-etal-2024-searching}.
+
+En conxunto, estas liñas de traballo futuro apuntan cara a unha evolución do
+sistema avaliado tanto a nivel arquitectónico como metodolóxico, reforzando a
+súa robustez, capacidade de xeneralización e adecuación a escenarios reais de
+uso. A súa exploración constitúe unha continuidade natural deste estudo e
+abre a porta a avaliacións máis completas e comparables cos sistemas RAG
+actuais descritos na literatura científica
+\cite{rag_required_abilities_2023,lakshmanan2024rag}.
 
 \section{Extensións da validación}
 A avaliación presentada neste traballo céntrase en métricas clásicas de
