@@ -38,7 +38,7 @@ def main():
     # Retrieval
     parser.add_argument('--k', type=int, default=8, help='Number of documents to retrieve')
     parser.add_argument('--threshold', type=float, default=0.7, help='Similarity threshold for filtering')
-    parser.add_argument('--search_type', type=str, default='mmr', help='Search type: similarity or mmr')
+    parser.add_argument('--search_type', type=str, default='similarity', help='Search type: similarity or mmr')
     
     # BM25
     parser.add_argument('--use_bm25', action='store_true', default=True, help='Use BM25 enhancement')

@@ -5,11 +5,14 @@
 \usepackage[margin=1in]{geometry}
 \usepackage[galician]{babel}
 \usepackage{csquotes}
-
+\usepackage{xltabular}  % Mejor para tablas largas con texto
+\usepackage{makecell} 
+\usepackage{listings}
 \usepackage{array}
 \usepackage{booktabs}            % \toprule \midrule \bottomrule
 \usepackage{tabularx}   
 \usepackage{verbatim}
+\usepackage{fancyvrb}
 \usepackage{tcolorbox}
 \usepackage{float}
 \usepackage{multicol}
@@ -27,8 +30,8 @@
 \usepackage{microtype}
 
 % Decorative initials
-\input Eichenla.fd
-\newcommand*\initfamily{\usefont{U}{Eichenla}{xl}{n}}
+
+
 \usepackage{lettrine}
 
 % Colors
@@ -36,7 +39,40 @@
 \definecolor{techblue}{RGB}{0,51,102}
 \definecolor{rosa}{RGB}{196,45,137}
 \definecolor{lightgray}{RGB}{100,100,100}
+\definecolor{rosa1}{RGB}{181, 60, 135}
+\definecolor{rosa2}{RGB}{200, 80, 150}
+\definecolor{rosa3}{RGB}{220, 100, 165}
+\definecolor{rosa4}{RGB}{240, 130, 185}
 
+\definecolor{rosaprincipal}{RGB}{181, 60, 135}
+
+
+\usepackage{yfonts}
+\renewcommand*\initfamily[1]{{\color{rosa}\fontsize{70}{70}\selectfont\scalebox{2}{\textgoth{#1}}}}
+% Estilo de tcolorbox único
+\tcbset{
+    testbox/.style={
+        colback=rosaprincipal!10,
+        colframe=rosaprincipal,
+        fonttitle=\bfseries
+    }
+}
+
+\lstset{
+    basicstyle=\small\ttfamily,
+    breaklines=true,
+    breakatwhitespace=true,
+    columns=flexible,
+    keepspaces=true
+}
+\tcbset{
+    promptbox/.style={
+        colback=rosaprincipal!10,
+        colframe=rosaprincipal,
+        fonttitle=\bfseries,
+        breakable
+    }
+}
 % Headers and footers
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -531,7 +567,7 @@ xerar a resposta final.
 
 
 
-\section{Os modelos}
+\subsection{Os modelos}
 
 A elección dos modelos de linguaxe no sistema RAG realizouse atendendo a
 criterios de eficiencia, latencia e rendemento específico para cada tarefa do
@@ -565,7 +601,61 @@ de Claude Haiku e Sonnet implementa esta estratexia adaptándoa aos recursos e
 limitacións do noso entorno.
 
 
+\subsubsection{Xestión de vixencia dos documentos}
+Como xa foi mencionado anteriormente, o problema de tratar cun \textit{corpus}
+destas caracterísitcas é o averiguar se un documento dispoñible foi derrogado ou
+non, é moi común que as páxinas que os manteñen non sexan borradas e sigan
+mostrándoo como se seguera tendo relevancia. Tal problemática non é única a esta
+aplicación enconcreto pois constité un dos grandes campos de investigacións dos
+\textit{Ragsystems}. 
+
+A solución proposta e implementada ten unha parte de extracción de información,
+é tarefa do \textit{crawler} asignar a cada documento retribuído unha data (o
+campo \textit{last\_modified} de cada URL), mais en caso de que tal dato non sexa
+accesible (o server da páxina non o mostra), a responsabilidade de otrogarlle
+unha data de vixencia aos documentos recae no LLM, isto conseguese engadindo a
+obriga de intentar sempre dar unha data de cada fonte de información ao
+\textit{prompt} inicial. 
+
+Na práctica poderíase pensar que na maioría dos casos o llm non será capaz de
+atopar unha data no documento, máis facendo unha breve búsqueda sobre o
+\textit{corpus} as ocurrencias de datas son moi comúns, de feito un 67\% dos
+documentos que non dispoñel de \textit{last\_modified} teñen algunha data neles
+que o LLM analizará como válida (ou non).
+
+Deste xeito conséguese que o RAGsystem non só preste atención á vixencia das
+fontes que utiliza, senón que poderá dar información temporal das mesmas.
+
+No apéndice pódese apreciar unha consulta simple \ref{fig:temporal} ao sistema e cómo este é capaz
+de referir á data.
+
+
+
 \section{Ferramentas usadas}
+
+AS ferramentas principais da que nosa implementación fai uso son as seguintes:
+\begin{itemize}
+\item \textbf{LangChain} - Licenza: MIT~\cite{mit-license}
+\item \textbf{Anthropic Claude API} - Licenza: Propietaria
+\item \textbf{Mistral AI API} - Licenza: Propietaria
+\item \textbf{Sentence Transformers} - Licenza: Apache 2.0~\cite{apache-license}
+\item \textbf{FAISS} - Licenza: MIT
+\item \textbf{PyTorch} - Licenza: BSD-3-Clause~\cite{bsd-license}
+\item \textbf{Transformers (Hugging Face)} - Licenza: Apache 2.0
+\item \textbf{OpenCV} - Licenza: Apache 2.0
+\item \textbf{Tesseract OCR} - Licenza: Apache 2.0
+\item \textbf{Pandas} - Licenza: BSD-3-Clause
+\item \textbf{Scikit-learn} - Licenza: BSD-3-Clause
+\end{itemize}
+
+
+
+
+
+
+
+
+
 
 \chapter{Instalación e uso}
 
@@ -809,6 +899,45 @@ rendemento absoluto en escenarios de produción \cite{rag_eval_survey_2024}.
 
 
 \chapter{Conclusions e traballos futuros}
+
+
+\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{N}}{}este
+traballo desenvolveuse un \textit{chatbot} baseado en arquitectura RAG para asistir aos
+membros da comunidade universitaria da UDC na resolución de dúbidas sobre
+procesos burocráticos e documentación oficial. O sistema combina un
+\textit{crawler} especializado para a recolleción automática de documentación
+dispersa nos portais web da universidade cun sistema híbrido de recuperación que
+integra busca densa (FAISS) e dispersa (BM25), xerando respostas fundamentadas
+en fontes oficiais verificables mediante modelos de linguaxe.
+
+A arquitectura proposta demostrou ser efectiva. A experimentación sistemática
+revelou que no dominio da documentación administrativa universitaria, a
+recuperación dispersa xoga un papel especialmente relevante, obtendo un peso
+óptimo de 1.6 para BM25 e un tamaño de \textit{chunk} de 2048 \textit{tokens}. O
+desenvolvemento do \textit{crawler}, que incorpora técnicas de OCR para extraer
+texto de imaxes e táboas, permitiu construír un corpus de case 5.000 documentos
+con metadatos de trazabilidad e vixencia temporal. A validación experimental,
+mediante métricas clásicas de RI e avaliación con \textit{LLM-as-judge},
+confirmou a viabilidade da aproximación, aínda que os resultados non son
+directamente extrapolables a un escenario de produción de maior escala.
+
+Como traballos futuros, identifícanse varias liñas prioritarias: ampliar o
+conxunto de validación con casos máis complexos, implementar un sistema de
+actualización incremental do \textit{crawler}, explorar técnicas máis
+avanzadas de \textit{reranking} con modelos especializados, e desenvolver
+métodos de razoamento temporal explícito para discriminar entre normativas
+vixentes e obsoletas de forma máis robusta.
+
+En conclusión, este proxecto demostra que a aplicación de técnicas de RAG ao
+dominio da documentación burocrática universitaria é viable. A
+combinación de recuperación híbrida, modelos de linguaxe capaces e metadatos de
+trazabilidad proporciona unha base para facilitar o acceso á información
+administrativa, contribuíndo a simplificar a interacción dos usuarios coa
+burocracia universitaria e liberando tempo para tarefas de maior valor
+académico.
+
+
+
 
 \section{Extensións arquitectónicas e metodolóxicas}
 \label{sec:extensiones}
@@ -1071,6 +1200,15 @@ polo \textit{crawler} para determinar a relevancia das páxinas:
 \end{multicols}
 \section{Saída OCR da táboa de exemplo}
 \label{app:OCR}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.9\textwidth]{imaxes/tabla-ocr.drawio.png}
+    \caption{Funcionamento do OCR das Táboas. Para que sexa lexible para un LLM.}
+    \label{fig:ocrTable}
+\end{figure}
+
+
 \begin{tcolorbox}[
     title=Texto OCR,
     colback=rosa,
@@ -1229,6 +1367,524 @@ que sea autorizada por la Biblioteca Universitaria
 \caption{Top 20 palabras menos frecuentes no corpus}
 \label{tab:bottom20}
 \end{table}
+
+\chapter{Máis acerca da construción da base vectorial}
+\section{\textit{Prompt} utilizado para que un llm xere contextos de \textit{chunk}}
+\label{sec: prechunk}
+\begin{tcolorbox}[promptbox,title={Contextual Prompt - Galician},label=prompt:contextual:gl]
+\begin{Verbatim}[fontsize=\small]
+Escribe unha breve frase introdutoria (máx. 1-2 oracións) 
+que resuma o seguinte fragmento do documento e sirva como 
+contexto:
+
+---
+[Fragmento del documento (primeros 400 caracteres)]
+---
+
+Responde soamente coa frase introdutoria en galego, sen 
+repetir o texto do fragmento.
+\end{Verbatim}
+\end{tcolorbox}
+\chapter{Máis acerca da validación do RAGsystem}
+
+
+\section{Vixencia temporal}
+
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.7\textwidth]{imaxes/histograma_datas.png}
+    \caption{}
+    \label{fig:tempohist}
+\end{figure}
+
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.9\textwidth]{imaxes/temporal.jpeg}
+    \caption{}
+    \label{fig:temporal}
+\end{figure}
+
+
+
+
+
+\section{Preguntas de validación}
+
+\begin{tcolorbox}[testbox,title={Pregunta \#1}]
+\textbf{Pregunta:} ¿Quién es el rector de la universidad?
+
+\textbf{Respuesta:} Ricardo Cao Abad
+
+\textbf{Documentos:} equipo\_reitoral\_2b7d8c43.txt
+\end{tcolorbox}
+
+% Pregunta 2
+\begin{tcolorbox}[testbox,title={Pregunta \#2}]
+\textbf{Pregunta:} ¿Quién encabeza el equipo rectoral?
+
+\textbf{Respuesta:} Ricardo Cao Abad
+
+\textbf{Documentos:} equipo\_reitoral\_2b7d8c43.txt
+\end{tcolorbox}
+
+% Pregunta 3
+\begin{tcolorbox}[testbox,title={Pregunta \#3}]
+\textbf{Pregunta:} Cuál es el horario habitual del Edificio Xoana Capdevielle
+
+\textbf{Respuesta:} De lunes a viernes: de las 8:15 h a las 21.45 h
+
+\textbf{Documentos:} horarios\_4e320c1a.txt
+\end{tcolorbox}
+
+% Pregunta 4
+\begin{tcolorbox}[testbox,title={Pregunta \#4}]
+\textbf{Pregunta:} Cuántos ejemplares reune la biblioteca de Informática
+
+\textbf{Respuesta:} 25.570 ejemplares
+
+\textbf{Documentos:} biblioteca-0\_5eff5a6a.txt
+\end{tcolorbox}
+
+% Pregunta 5
+\begin{tcolorbox}[testbox,title={Pregunta \#5}]
+\textbf{Pregunta:} Cuántos libros hay en la biblioteca de la facultad de informática
+
+\textbf{Respuesta:} 25.570 ejemplares
+
+\textbf{Documentos:} biblioteca-0\_5eff5a6a.txt
+\end{tcolorbox}
+
+% Pregunta 6
+\begin{tcolorbox}[testbox,title={Pregunta \#6}]
+\textbf{Pregunta:} Cuántos créditos tiene el grado en estudios de arquitectura
+
+\textbf{Respuesta:} 300 créditos
+
+\textbf{Documentos:} 630g02v01\_3d9b1a3f.txt
+\end{tcolorbox}
+
+% Pregunta 7
+\begin{tcolorbox}[testbox,title={Pregunta \#7}]
+\textbf{Pregunta:} Cuál es el horario de atención de la secretaría de la facultad de informática
+
+\textbf{Respuesta:} El horario de atención al público en la Secretaría de la Facultad de Informática será de 9:15h a 13:45h
+
+\textbf{Documentos:} horarios-de-atencion\_d6d236bf.txt
+\end{tcolorbox}
+
+% Pregunta 8
+\begin{tcolorbox}[testbox,title={Pregunta \#8}]
+\textbf{Pregunta:} Cuál es el horario de la biblioteca de la facultad de sociología en días lectivos
+
+\textbf{Respuesta:} Días lectivos: 8.30h - 21.30h, Junio, Julio y Septiembre (hasta comienzo de curso): 9.00h - 20.00h, Agosto, Navidad, Lunes de Carnaval, Semana Santa: 9.15h - 13.45h
+
+\textbf{Documentos:} horarios\_7642b102.txt
+\end{tcolorbox}
+
+% Pregunta 9
+\begin{tcolorbox}[testbox,title={Pregunta \#9}]
+\textbf{Pregunta:} Cuánto dura el grado de arquitectura
+
+\textbf{Respuesta:} 300 créditos (equivalente a 5 años)
+
+\textbf{Documentos:} 630g02v01\_3d9b1a3f.txt
+\end{tcolorbox}
+
+% Pregunta 10
+\begin{tcolorbox}[testbox,title={Pregunta \#10}]
+\textbf{Pregunta:} Cuánto créditos tengo por equipos federados propios de la UDC
+
+\textbf{Respuesta:} 1,5 créditos ECTS por curso académico
+
+\textbf{Documentos:} document\_cd41648a.txt
+\end{tcolorbox}
+
+% Pregunta 11
+\begin{tcolorbox}[testbox,title={Pregunta \#11}]
+\textbf{Pregunta:} Cuánto tiempo tengo para modificar el contrato de estudios de movilidad
+
+\textbf{Respuesta:} Plazo de un mes desde el inicio de las actividades académicas en la universidad de destino.
+
+\textbf{Documentos:} document\_5958ed71.txt
+\end{tcolorbox}
+
+% Pregunta 12
+\begin{tcolorbox}[testbox,title={Pregunta \#12}]
+\textbf{Pregunta:} Quién se encarga de gestionar las becas y las ayudas a la movilidad
+
+\textbf{Respuesta:} Oficina de Relaciones Internacionales (ORI) en lo que no sea responsabilidad de los centros
+
+\textbf{Documentos:} document\_5958ed71.txt
+\end{tcolorbox}
+
+% Pregunta 13
+\begin{tcolorbox}[testbox,title={Pregunta \#13}]
+\textbf{Pregunta:} Cuánto tiempo tengo para modificar mis asignaturas de erasmus
+
+\textbf{Respuesta:} Plazo de un mes desde el inicio de las actividades académicas en la universidad de destino.
+
+\textbf{Documentos:} document\_5958ed71.txt
+\end{tcolorbox}
+
+% Pregunta 14
+\begin{tcolorbox}[testbox,title={Pregunta \#14}]
+\textbf{Pregunta:} Cuántos créditos son los cursos de formación deportiva
+
+\textbf{Respuesta:} 1,5 créditos ECTS cada 30 horas de formación
+
+\textbf{Documentos:} document\_cd41648a.txt
+\end{tcolorbox}
+
+% Pregunta 15
+\begin{tcolorbox}[testbox,title={Pregunta \#15}]
+\textbf{Pregunta:} Número de créditos mínimos para matrícula
+
+\textbf{Respuesta:} Los estudiantes de primer curso, por primera vez, deberán superar en ese curso académico al menos 12 créditos, si la matrícula se efectuó en el régimen de dedicación a tiempo completo, y 6 créditos en el régimen de dedicación a tiempo parcial para poder tener la consideración de estudiante de continuación de estudios
+
+\textbf{Documentos:} dedicacion\_e.txt\_2063069294\_f7b3dfc2
+\end{tcolorbox}
+
+% Pregunta 16
+\begin{tcolorbox}[testbox,title={Pregunta \#16}]
+\textbf{Pregunta:} Qué tipo de prácticas hay en la facultad de informática
+
+\textbf{Respuesta:} Prácticas curriculares y extracurriculares
+
+\textbf{Documentos:} practicas-en-empresa\_a40b7284.txt
+\end{tcolorbox}
+
+% Pregunta 17
+\begin{tcolorbox}[testbox,title={Pregunta \#17}]
+\textbf{Pregunta:} Cuanto es la cantidad mínima de asignaturas en la que me puedo matricular si soy estudiante a tiempo completo
+
+\textbf{Respuesta:} Un número no inferior a 48 créditos
+
+\textbf{Documentos:} dedicacion\_e.txt\_2063069294\_f7b3dfc2.txt
+\end{tcolorbox}
+
+% Pregunta 18
+\begin{tcolorbox}[testbox,title={Pregunta \#18}]
+\textbf{Pregunta:} Cuantos libros puedo llevarme de préstamo
+
+\textbf{Respuesta:} Depende del grupo de usuario: Grupo 1 (estudiantes de grado): 10, Grupo 2 (estudiantes de máster, TFG, PAS): 15, Grupo 3 (estudiantes de doctorado, personal investigador): 35, PDI: 100
+
+\textbf{Documentos:} prestamo\_fb00e6da.txt
+\end{tcolorbox}
+
+% Pregunta 19
+\begin{tcolorbox}[testbox,title={Pregunta \#19}]
+\textbf{Pregunta:} Cuantos días de préstamo me corresponden si soy estudiante de doctorado
+
+\textbf{Respuesta:} 30 días
+
+\textbf{Documentos:} prestamo\_fb00e6da.txt
+\end{tcolorbox}
+
+% Pregunta 20
+\begin{tcolorbox}[testbox,title={Pregunta \#20}]
+\textbf{Pregunta:} Quien es el coordinador responsable de relaciones internacionales en la facultad de informática
+
+\textbf{Respuesta:} Diego Andrade
+
+\textbf{Documentos:} coordinadores-academicos\_867aace4.txt
+\end{tcolorbox}
+
+% Pregunta 21
+\begin{tcolorbox}[testbox,title={Pregunta \#21}]
+\textbf{Pregunta:} Cuantas plazas hay para el grado en Inteligencia Artificial
+
+\textbf{Respuesta:} 50
+
+\textbf{Documentos:} NotasCorte\_C\_2025\_Plazas.txt\_2063069294\_91ca9fd9.txt
+\end{tcolorbox}
+
+% Pregunta 22
+\begin{tcolorbox}[testbox,title={Pregunta \#22}]
+\textbf{Pregunta:} Que grados de ciencias de la salud hay en el campus de A Coruña
+
+\textbf{Respuesta:} Grado en Enfermería, Grado en Fisioterapia, Grado en Logopedia, Grado en Terapia Ocupacional
+
+\textbf{Documentos:} NotasCorte\_C\_2025\_Plazas.txt\_2063069294\_91ca9fd9.txt
+\end{tcolorbox}
+
+% Pregunta 23
+\begin{tcolorbox}[testbox,title={Pregunta \#23}]
+\textbf{Pregunta:} Qué permite la tarjeta universitaria
+
+\textbf{Respuesta:} La tarjeta universitaria es la credencial que permite la identificación de todos los integrantes de la comunidad universitaria, brinda acceso a múltiples servicios tecnológicos y constituye un avanzado sistema de información, gestión, acreditación, préstamo bibliotecario, acceso a recintos
+
+\textbf{Documentos:} tui\_7df940d2.txt
+\end{tcolorbox}
+
+% Pregunta 24
+\begin{tcolorbox}[testbox,title={Pregunta \#24}]
+\textbf{Pregunta:} Qué tengo que hacer para usar la tarjeta universitaria en digital
+
+\textbf{Respuesta:} Debes añadir o actualizar tu fotogtafía
+
+\textbf{Documentos:} tui\_7df940d2.txt, emision\_2feeeba7.txt
+\end{tcolorbox}
+
+% Pregunta 25
+\begin{tcolorbox}[testbox,title={Pregunta \#25}]
+\textbf{Pregunta:} Cual es la fecha límite de firma de actas para TFG/TFM
+\textbf{Respuesta:} 30 de septiembre de 2026
+\textbf{Documentos:} document\_9c5fad96.txt
+
+
+\end{tcolorbox}
+
+\section{\textit{Prompts} utilizados para as diferentes chamadas aos modelos}
+\label{sec: prompts}
+\subsection{\textit{Prompts para o caso de resposta a partir de documentos recuperados}}
+
+\begin{tcolorbox}[promptbox,title={Retrieval Prompt - English},label=prompt:retrieval:en]
+\begin{Verbatim}[fontsize=\small]
+You're a RAG system of the University of A Coruña (UDC).
+Use the following context from documents and the conversation 
+history (if any) to answer the question.
+Be concise and extract important information from the text. 
+If the question refers to something mentioned earlier in the 
+conversation, use that information.
+If you don't know, politely say you don't know instead of 
+making up an answer.
+The answer should be pleasant and clear. Always check the 
+currency of the documents, each one will have a date within 
+its metadata, always try to use the latest information in 
+case of conflicts between sources. If a date isn't available, 
+try to infer it from the context.
+IMPORTANT: Always mention the date of the information you're 
+providing (e.g., "According to the document from September 
+2024..."). This helps users know how current the information is.
+
+Context from documents: {context}
+
+{history}
+
+Question: {input}
+
+Answer:
+\end{Verbatim}
+\end{tcolorbox}
+
+% Prompt Spanish
+\begin{tcolorbox}[promptbox,title={Retrieval Prompt - Spanish},label=prompt:retrieval:es]
+\begin{Verbatim}[fontsize=\small]
+Eres un sistema RAG de la Universidad de A Coruña (UDC).
+Usa el siguiente contexto de los documentos y el historial 
+de conversación (si existe) para responder a la pregunta.
+Sé conciso y extrae información importante del texto. Si la 
+pregunta hace referencia a algo mencionado anteriormente en 
+la conversación, usa esa información.
+Si no sabes, di educadamente que no sabes en lugar de 
+inventar una respuesta.
+La respuesta debe ser agradable y clara. Siempre verifica 
+la vigencia de los documentos, cada uno tendrá una fecha 
+en sus metadatos, intenta siempre usar la información más 
+reciente en caso de conflictos entre fuentes. Si no hay 
+fecha disponible, intenta inferirla del contexto.
+IMPORTANTE: Siempre menciona la fecha de la información que 
+proporcionas (ej: "Según el documento de septiembre de 
+2024..."). Esto ayuda a los usuarios a saber qué tan actual 
+es la información.
+
+Contexto de los documentos: {context}
+
+{history}
+
+Pregunta: {input}
+
+Respuesta:
+\end{Verbatim}
+\end{tcolorbox}
+
+% Prompt Galician
+\begin{tcolorbox}[promptbox,title={Retrieval Prompt - Galician},label=prompt:retrieval:gl]
+\begin{Verbatim}[fontsize=\small]
+Es un sistema RAG da Universidade da Coruña (UDC).
+Responde SEMPRE en galego e NUNCA en portugués.
+Usa o seguinte contexto dos documentos e o historial de 
+conversación (se existe) para responder á pregunta.
+Sé conciso e extrae información importante do texto. Se a 
+pregunta fai referencia a algo mencionado anteriormente na 
+conversación, usa esa información.
+Se non sabes, di educadamente que non o sabes en lugar de 
+inventar unha resposta.
+A resposta debe ser agradable e clara. Sempre verifica a 
+vixencia dos documentos, cada un terá unha data nos seus 
+metadatos, intenta sempre usar a información máis recente 
+en caso de conflitos entre fontes. Se non hai data 
+dispoñible, intenta inferila do contexto.
+IMPORTANTE: Sempre menciona a data da información que 
+proporcionas (ex: "Segundo o documento de setembro de 
+2024..."). Isto axuda aos usuarios a saber o actual que 
+é a información.
+
+Contexto dos documentos: {context}
+
+{history}
+
+Pregunta: {input}
+
+Resposta:
+\end{Verbatim}
+\end{tcolorbox}
+
+\newpage
+
+\subsection{\textit{Prompts} para a resposta sen recuperación}
+
+% No Retrieval English
+\begin{tcolorbox}[promptbox,title={No Retrieval Prompt - English},label=prompt:noretrieval:en]
+\begin{Verbatim}[fontsize=\small]
+Answer the following question directly. Use conversation 
+history if relevant.
+{history}
+Question: {input}
+Answer:
+\end{Verbatim}
+\end{tcolorbox}
+
+% No Retrieval Spanish
+\begin{tcolorbox}[promptbox,title={No Retrieval Prompt - Spanish},label=prompt:noretrieval:es]
+\begin{Verbatim}[fontsize=\small]
+Responde directamente a la siguiente pregunta. Usa el 
+historial si es relevante.
+{history}
+Pregunta: {input}
+Respuesta:
+\end{Verbatim}
+\end{tcolorbox}
+
+% No Retrieval Galician
+\begin{tcolorbox}[promptbox,title={No Retrieval Prompt - Galician},label=prompt:noretrieval:gl]
+\begin{Verbatim}[fontsize=\small]
+Responde directamente á seguinte pregunta en galego 
+(NON en portugués). Usa o historial se é relevante.
+{history}
+Pregunta: {input}
+Resposta:
+\end{Verbatim}
+\end{tcolorbox}
+
+\newpage
+
+\subsection{\textit{Prompts} para o modelo de clasificación e reescritura de \textit{query}}
+
+% Classification English
+\begin{tcolorbox}[promptbox,title={Classification Prompt - English},label=prompt:classification:en]
+\begin{Verbatim}[fontsize=\small]
+You are a university assistant analyzing if a student's 
+question requires searching in university documents 
+(regulations, guides, academic procedures, course 
+information, etc.).
+
+Student asked: {question}
+
+Recent conversation history:
+{history}
+
+Analyze if this question needs information from university 
+documents or can be answered from:
+1. General knowledge or common courtesy responses
+2. Previous conversation context
+3. Greetings, thanks, clarifications about previous answers
+
+If NO retrieval needed (greetings, thanks, clarifications), 
+respond: NO_RETRIEVAL
+If retrieval IS needed (academic info, regulations, 
+procedures), respond with an optimized search query 
+(max 15 words).
+
+Examples:
+- "Hello" -> NO_RETRIEVAL
+- "Thanks for the info" -> NO_RETRIEVAL
+- "Can you repeat that?" -> NO_RETRIEVAL
+- "What are the enrollment deadlines?" -> 
+  enrollment deadlines registration periods
+
+Your response:
+\end{Verbatim}
+\end{tcolorbox}
+
+% Classification Spanish
+\begin{tcolorbox}[promptbox,title={Classification Prompt - Spanish},label=prompt:classification:es]
+\begin{Verbatim}[fontsize=\small]
+Eres un asistente universitario analizando si la pregunta 
+de un estudiante requiere buscar en documentos de la 
+universidad (normativas, guías, procedimientos académicos, 
+información de cursos, etc.).
+
+El estudiante preguntó: {question}
+
+Historial reciente de conversación:
+{history}
+
+Analiza si esta pregunta necesita información de documentos 
+universitarios o puede responderse con:
+1. Conocimiento general o respuestas de cortesía
+2. Contexto de la conversación previa
+3. Saludos, agradecimientos, aclaraciones sobre respuestas 
+   anteriores
+
+Si NO necesita búsqueda (saludos, agradecimientos, 
+aclaraciones), responde: NO_RETRIEVAL
+Si SÍ necesita búsqueda (info académica, normativas, 
+procedimientos), responde con una query optimizada 
+(máx 15 palabras).
+
+Ejemplos:
+- "Hola" -> NO_RETRIEVAL
+- "Gracias por la información" -> NO_RETRIEVAL
+- "¿Puedes repetir eso?" -> NO_RETRIEVAL
+- "¿Cuáles son los plazos de matrícula?" -> 
+  plazos matrícula períodos inscripción
+
+Tu respuesta:
+\end{Verbatim}
+\end{tcolorbox}
+
+% Classification Galician
+\begin{tcolorbox}[promptbox,title={Classification Prompt - Galician},label=prompt:classification:gl]
+\begin{Verbatim}[fontsize=\small]
+Es un asistente universitario analizando se a pregunta dun 
+estudante require buscar en documentos da universidade 
+(normativas, guías, procedementos académicos, información 
+de cursos, etc.). Responde SEMPRE en galego e NUNCA en portugués.
+
+
+O estudante preguntou: {question}
+
+Historial recente de conversación:
+{history}
+
+Analiza se esta pregunta necesita información de documentos 
+universitarios ou pode responderse con:
+1. Coñecemento xeral ou respostas de cortesía
+2. Contexto da conversa previa
+3. Saúdos, agradecementos, aclaracións sobre respostas 
+   anteriores
+
+Se NON necesita busca (saúdos, agradecementos, aclaracións), 
+responde: NO_RETRIEVAL
+Se SI necesita busca (info académica, normativas, 
+procedementos), responde cunha query optimizada 
+(máx 15 palabras).
+
+Exemplos:
+- "Ola" -> NO_RETRIEVAL
+- "Grazas pola información" -> NO_RETRIEVAL
+- "Podes repetir iso?" -> NO_RETRIEVAL
+- "Cales son os prazos de matrícula?" -> 
+  prazos matrícula períodos inscrición
+
+A túa resposta:
+\end{Verbatim}
+\end{tcolorbox}
+
+
 
 \section{Resultados validación RAGsystem}
 \subsection{\textit{Heatmaps} de varias métricas}
