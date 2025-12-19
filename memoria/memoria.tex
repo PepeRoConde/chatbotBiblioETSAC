@@ -649,7 +649,7 @@ unha data de vixencia aos documentos recae no LLM, isto conseguese engadindo a
 obriga de intentar sempre dar unha data de cada fonte de información ao
 \textit{prompt} inicial. 
 
-Na práctica poderíase pensar que na maioría dos casos o llm non será capaz de
+Na práctica poderíase pensar que na maioría dos casos o LLM non será capaz de
 atopar unha data no documento, máis facendo unha breve búsqueda sobre o
 \textit{corpus} as ocurrencias de datas son moi comúns, de feito un 67\% dos
 documentos que non dispoñel de \textit{last\_modified} teñen algunha data neles
@@ -1288,7 +1288,7 @@ fila 19: [de usuarios]-Cualquier persona ajenaa la comunidad universitaria dela 
 \label{fig:crawling}
 \begin{figure}[h]
   \centering
-    \includegraphics[width=0.9\textwidth]{imaxes/crawl_speed.png}
+    \includegraphics[width=\textwidth]{imaxes/crawl_speed.png}
     \caption{Progresión da eficiencia do \textit{crawler} ao longo do tempo}
     \label{fig:crawlerRun}
 \end{figure}
@@ -1300,9 +1300,20 @@ fila 19: [de usuarios]-Cualquier persona ajenaa la comunidad universitaria dela 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{imaxes/formatos_documentos.png}
-    \caption{Distribución de tipos de ficheiros no corpus}
+    \caption{ ~Distribución de tipos de ficheiros no corpus. Observamos que, malia a web estar constituída por documentos HTML, está tan poboada de documentos de normativa en formato PDF que a razón e casi cinconta cinconta.}
     \label{fig:file_types_distribution}
 \end{figure}
+
+
+\section{Relevancia dos documentos}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{imaxes/numero_palabras_clave_documentos.png}
+    \caption{ ~Presencia de palabras chave nos documentos \emph{crawleados}. Pódese ver que o mecanismo implementado de descartar documentos sen palabras chave realmente supón unha gran poda na árbore da web da UDC.}
+    \label{fig:file_types_distribution}
+\end{figure}
+
 
 \section{Palabras máis frecuentes}
 
@@ -1373,7 +1384,7 @@ fila 19: [de usuarios]-Cualquier persona ajenaa la comunidad universitaria dela 
 \end{table}
 
 \chapter{Máis acerca da construción da base vectorial}
-\section{\textit{Prompt} utilizado para que un llm xere contextos de \textit{chunk}}
+\section{\textit{Prompt} utilizado para que un LLM xere contextos de \textit{chunk}}
 \label{sec: prechunk}
 \begin{tcolorbox}[promptbox,title={Contextual Prompt - Galician},label=prompt:contextual:gl]
 \begin{Verbatim}[fontsize=\small]
