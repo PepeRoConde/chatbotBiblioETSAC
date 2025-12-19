@@ -148,6 +148,7 @@ class CrawlerUDC:
         self.force_recrawl = force_recrawl
         self.download_images = download_images
         self.enable_ocr = enable_ocr and OCR_AVAILABLE
+        self.csv_path = self.state_dir / 'burocracia_stats.csv'
 
         self.file_map: Dict[str, str] = {}
 
@@ -420,10 +421,33 @@ class CrawlerUDC:
                     keywords = [line.strip() for line in f if line.strip()]
             except Exception:
                 pass
-
+    
         t = text.lower()
         u = url.lower()
-        return any(k in u or k in t for k in keywords)
+    
+        matched = [k for k in keywords if k in u or k in t]
+        matched_count = len(matched)
+        is_bureaucratic = matched_count > 0
+    
+        # ---- CSV logging (minimal & append-safe) ----
+        file_exists = os.path.isfile(self.csv_path)
+        with open(self.csv_path, 'a', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            if not file_exists:
+                writer.writerow([
+                    'url',
+                    'matched_keywords_count',
+                    'matched_keywords',
+                    'text_length_words'
+                ])
+            writer.writerow([
+                url,
+                matched_count,
+                ";".join(matched),
+                len(text.split())
+            ])
+    
+        return is_bureaucratic
 
     def generate_filename(self, url: str, extension: str) -> str:
         parsed = urlparse(url)
