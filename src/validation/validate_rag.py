@@ -5,7 +5,6 @@ Métricas: Recall, MRR, Precision, Faithfulness (LLM as judge)
 import argparse
 from pathlib import Path
 from dotenv import load_dotenv
-
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
