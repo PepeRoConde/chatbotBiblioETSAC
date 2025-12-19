@@ -16,7 +16,7 @@
 \usepackage{tcolorbox}
 \usepackage{float}
 \usepackage{multicol}
-\usepackage{enumitem}
+
 \tcbuselibrary{breakable}
 \usepackage[style=ieee,backend=bibtex]{biblatex}  % o style=apa, ieee, etc.
 \addbibresource{referencias.bib}
@@ -113,13 +113,38 @@
 % Hyperlinks
 \usepackage[colorlinks=true,linkcolor=rosa,citecolor=techblue,urlcolor=techblue]{hyperref}
 
-\title{\scshape\Huge\color{rosa}Chatbot para a documentación e normativa da UDC}
-\author{
-  Marcelo Ferreiro Sánchez\\
-  Marcos Grobas Martínez\\
-  José Romero Conde
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{terminalbg}{RGB}{255,255,255}
+
+
+\lstdefinestyle{terminal}{
+    backgroundcolor=\color{terminalbg},
+    basicstyle=\ttfamily\small\color{rosa},
+    frame=single,
+    breaklines=true,
+    showstringspaces=false,
 }
-\date{\today}
+
+
+
+\title{\scshape\Huge\color{rosa}Chatbot para a documentación e normativa da UDC}
+
+\author{
+Marcelo Ferreiro Sánchez \\ 
+\textit{Portavoz do grupo} \\
+\texttt{marcelo.fsanchez} -- \texttt{marcelo.fsanchez@udc.es}
+\and
+Marcos Grobas Martínez \\
+\texttt{marcos.grobas} -- \texttt{marcos.grobas@udc.es}
+\and
+José Romero Conde \\
+\texttt{j.rconde} -- \texttt{j.rconde@udc.es}
+}
+
+\date{}
 
 \begin{document}
 
@@ -236,7 +261,7 @@ Ademais, o volume total de información a recoller presenta un límite de tamañ
 
 Deste xeito, a solución proposta concíbese como un método sinxelo pero funcional,
 baseado nunha asignación de relevancia binaria (\emph{relevante} ou
-\emph{non relevante}) a partir de \textit{keywords}. A pesar da súa simplicidade,
+\emph{non relevante}) a partir de \textit{keywords}\footnote{Pódese vela presenza destas keywords, e por consiguiente o efecto de poda do sistema sobre a árbore da web no Apéndice \ref{app:relDoc}}. A pesar da súa simplicidade,
 este enfoque está estreitamente relacionado cos métodos pioneiros de
 \textit{focused crawling} \cite{Chakrabarti1999}, que sentaron as bases para a
 recuperación de información temática na web.
@@ -279,61 +304,39 @@ obxectivos establecidos.
 \end{figure}
 
 
-
 \subsubsection{Procesado de imaxes mediante OCR}
 O recoñecemento óptico de caracteres (OCR, polas súas siglas en inglés) é unha
 técnica que permite extraer texto a partir de imaxes dixitais. A súa aplicación
 máis habitual é a dixitalización de documentos físicos escaneados, mais tamén
 pode empregarse en calquera imaxe que conteña caracteres, como é o caso neste
-traballo. Para este fin, implementouse unha interface en \textit{Python} utilizando
-a librería \textit{pytesseract}, que actúa como envoltorio do motor OCR
-\texttt{Tesseract} \Cite{tesseract_ocr_github}, inicialmente creado por HP e actualmente mantido por Google.
+traballo. Para este fin, implementouse unha interface en \textit{Python}
+empregando a librería \textit{pytesseract}, que actúa como envoltorio do motor
+OCR \texttt{Tesseract} \cite{tesseract_ocr_github}, inicialmente creado por HP e
+actualmente mantido por Google.
 
-Procesar cada imaxe presente nun URL pode parecer custoso desde o punto de
-vista computacional; con todo, a extracción de texto mediante OCR resulta
-realmente rápida. Ademais, a maioría das imaxes son irrelevantes e de tamaño
-pequeno, polo que é posible procesar todas as imaxes dun documento sen
-incorrer en latencia significativa no sistema. Por exemplo, o tempo de procesado
-OCR na imaxe da táboa de préstamos [\ref{figprestamos}] foi de $0.6280$ segundos.
+Desde o punto de vista computacional, o procesado mediante OCR resulta asumible.
+A maioría das imaxes presentes nos documentos son pequenas e irrelevantes, polo
+que a súa análise non introduce unha latencia significativa no sistema. A modo
+ilustrativo, o procesado OCR dunha imaxe tabular real (Figura~\ref{figprestamos})
+presentou un tempo de execución de $0.6280$ segundos, o que confirma a
+viabilidade práctica desta aproximación.
 
-Unha vez demostrado que o procesado é rápido, cómpre avaliar a fidelidade do
-texto extraído respecto do contido orixinal da imaxe. Neste sentido, a táboa
-mencionada anteriormente serve como exemplo real de uso: o texto extraído en
-crú pódese consultar no Apéndice~\ref{app:OCR}. A pesar de que o texto extraído
-non se asemella directamente á táboa orixinal, isto non supón un problema para
-o sistema, pois o LLM é quen debe interpretalo e estruturalo adecuadamente. Un
-xeito práctico de verificar isto consiste en solicitarlle ao modelo que
-reconstrúa a táboa a partir da información OCR; este experimento realizouse
-empregando ChatGPT-5, e a táboa reconstruída demostrou que o modelo pode
-comprender e organizar a información de forma útil para o usuario.
+Durante o desenvolvemento do sistema observouse que unha parte relevante da
+información aparece en forma de táboas embebidas como imaxes. Nunha primeira
+aproximación, estas imaxes procesábanse mediante OCR xeral, obtendo un texto
+plano sen estrutura explícita. Porén, este enfoque presentaba unha limitación
+importante: ao fragmentar posteriormente o texto en \textit{chunks}, a
+estrutura lóxica da táboa perdíase, facendo que os fragmentos resultantes non
+contivesen contexto suficiente para unha interpretación correcta.
 
-\begin{table}[H]
-\centering
-\scriptsize
-\begin{tabular}{@{}p{0.18\textwidth} p{0.3\textwidth} ccc@{}}
-\toprule
-\textbf{Grupo} & \textbf{Tipo de usuarios} & \textbf{Nº docs} & \textbf{Días} & \textbf{Renov.} \\
-\midrule
-\textbf{1} & Estud. Grao (centros propios/adscritos), Mobilidade, Dobre Grao, Graos interuniv., Univ. Sénior & 10 & 10 días & Indef. (Lím. 10) \\
-\midrule
-\textbf{2} & Estud. másteres/posgraos propios (Fund. UDC), Estud. TFG, PTGAS & 15 & 21 días & Indef. (Lím. 15) \\
-\midrule
-\textbf{3} & Estud. Doutoramento, Inv. visitante/senior, Inv. predoc./posdoc & 35 & 30 días & Indef. (Lím. 35) \\
-\midrule
-\textbf{4} & Becarios inv., Pers. contr. inv. \textit{(Exclusión posible)} & 35 & Curso acad. & Indef. (Lím. 35) \\
-\midrule
-\textbf{5} & PDI UDC (inc. adscritos), Fund. UDC, Prof. emérito/xub./hon., Prof. visitante, Lectores \textit{(Exclusión posible)} & 100 & Curso acad. & Indef. (Lím. 100) \\
-\midrule
-\textbf{6} & Persoal externo á UDC, Pers. autoriz. Biblioteca & 6 & 10 días & Indef. (Lím. 6) \\
-\bottomrule
-\end{tabular}
-\caption{Táboa reconstruida mediante LLM (ChatGPT-5)}
-\end{table}
-
-Se ben existe certa información que o LLM obviou por ser incompleta, a
-información importante está presente, demostrando que os LLMs son capaces de
-reconstruir e interpretar a información extraída mediante OCR, incluso cando
-esté representada en formatos mais complexos como o é unha táboa. 
+Para mitigar este problema, adoptouse un enfoque de OCR en dúas modalidades.
+Por unha banda, incorpórase un OCR especializado na detección de estruturas
+tabulares, capaz de identificar filas, columnas e relacións internas. Por outra
+banda, mantense un OCR xeral para aquelas imaxes que non presentan unha
+estrutura tabular clara, como infografías ou imaxes con texto libre. Este deseño
+permite extraer información textual de forma robusta e adaptada á natureza de
+cada imaxe, preservando a estrutura cando esta existe e contribuíndo a eficiencia
+global do sistema.
 
 \subsection{Funcionamento interno do \textit{Crawler}}
 
@@ -413,42 +416,9 @@ Palabras únicas (hapax legomena) & 15.889 \\
 \end{tabular}
 \end{table}
 
-Atopáronse 10.164.265 palabras cun vocabulario de 73.640 termos, das cales
-15.889 aparecen só unha vez (\textit{hapax legomena}), un 20\% do vocabulario. A
-maioría non son erros: só 230 son faltas ortográficas e 30 xeradas polo OCR.
-Este fenómeno de vocabulario de uso desigual segue a lei de Zipf, onde poucas
-palabras son moi frecuentes e moitas son raras, como se mostra nas
-Figuras~\ref{figZipf} e~\ref{figEDA}\footnote{Para saber máis información sobre
-este curioso suceso recoméndase encarecidamente ver o vídeo de \textit{Vsauce}
-\cite{vsauce2015zipf} sobre o tema}.  
+Atopáronse 10.164.265 palabras cun vocabulario de 73.640 termos, das coles 15.889 aparecen só unha vez (\textit{hapax legomena}), un 20\% do vocabulario. A maioría non son erros: só 230 son faltas ortográficas e 30 xeradas polo OCR. Este fenómeno de vocabulario de uso desigual segue a lei de Zipf, onde poucas palabras son moi frecuentes e moitas son raras. Para unha análise máis detallada das distribucións de frecuencias e lonxitude de documentos, véxase o Apéndice~\ref{app:zipf_pareto}.
 
-
-Tamén se observa o principio de Pareto: aproximadamente o 20\% das palabras máis
-frecuentes representan arredor do 80\% das ocorrencias, aínda que neste corpus a
-relación é máis extrema: o 2,1\% do vocabulario alcanza o 80\% das ocorrencias e
-o 20\% cobre o 97,5\%.  
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imaxes/zipf.png}
-    \caption{Frecuencia de termos en diversas linguas \cite{wikipedia_zipf}}
-    \label{figZipf}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{imaxes/analisis_corpus.png}
-    \caption{Gráficos de distribución de lonxitude de documentos e frecuencia de termos}
-    \label{figEDA}
-\end{figure}
-
-A distribución das lonxitudes dos documentos (Figura~\ref{figEDA}, esquerda)
-mostra moitos documentos curtos: mediana de 4.200 caracteres e media de 15.121,
-indicando asimetría debido a documentos longos que elevan a media. Moitas
-páxinas web teñen contido limitado ou só mostran ligazóns ou imaxes. No
-\textit{crawleo} detectáronse 115 páxinas baleiras (0 caracteres), ben por
-conter só imaxes sen texto extraíble por OCR, ben por ser redireccións ou
-navegación pura.
+A distribución das lonxitudes dos documentos (Figura~\ref{figEDA}, esquerda) mostra moitos documentos curtos: mediana de 4.200 caracteres e media de 15.121, indicando asimetría debido a documentos longos que elevan a media. Moitas páxinas web teñen contido limitado ou só mostran ligazóns ou imaxes. No \textit{crawleo} detectáronse 115 páxinas baleiras (0 caracteres), ben por conter só imaxes sen texto extraíble por OCR, ben por ser redireccións ou navegación pura.
 
 
 
@@ -472,130 +442,128 @@ require recuperación de documentación. Cando é necesaria, a mesma consulta é
 tanto para a busca semántica como léxica.
 
 Para a recuperación, empregase un sistema \textit{híbrido} que combina busca
-densa (mediante embeddings semánticos e similitude coseno en FAISS) e busca
+densa (mediante embeddings semánticos e similitude euclidiana en FAISS) e busca
 léxica (usando BM25, unha evolución do TF-IDF). As puntuacións de ambos métodos
-fusiónanse con pesos determinados empiricamente,
-seleccionando os $k$ fragmentos de texto máis relevantes da base de documentos
-da universidade.
+fusiónanse con pesos determinados empiricamente, seleccionando os $k$ fragmentos
+de texto máis relevantes da base de documentos da universidade.
 
 Os documentos recuperados, xunto coa consulta orixinal e o historial de
 conversación (de lonxitude configurable), intégranse nun prompt estruturado.
 Este pasa a un modelo de linguaxe grande (Claude Sonnet) escollido pola súa
 capacidade de razoamento e, especialmente, pola súa efectividade na comunicación
-entre axentes e o seguimento de instrucións complexas
-\cite{claude-agents-2024}. O modelo xera así unha resposta precisa
-fundamentada na documentación oficial.
+entre axentes e o seguimento de instrucións complexas \cite{claude-agents-2024}.
+O modelo xera así unha resposta precisa fundamentada na documentación oficial.
 
-O sistema enriquece cada documento recuperado con metadatos que inclúen as súas
-procedencias (hipervínculos), datas (de actualización da páxina), puntuacións de
-relevancia tanto da busca densa como da léxica, garantindo total trazabilidade e
-permitindo a verificación das fontes utilizadas en cada resposta.
+O sistema enriquece cada documento recuperado coa procedencia da información, 
+procedencias (hipervínculos), permitindo a verificación das fontes utilizadas en cada resposta.
 
 \subsection{Construción da base de vectores}
 \cite{lewis2020retrieval} A base de vectores (\textit{vectorstore}) constrúese
 a partir dos documentos recollidos e previamente convertidos a texto plano
-(.txt) polo \textit{crawler}. Cada documento é fragmentado en varios
+(.txt) polo \textit{parse} do \textit{crawler}. Cada documento é fragmentado en varios
 \textit{chunks} de tamaño configurable, establecéndose tamén un \textit{overlap}
-que especifica cantos \textit{tokens} comparten os fragmentos consecutivos. A
+seleccionable que especifica cantos \textit{tokens} comparten os fragmentos consecutivos. A
 utilidade deste solapamento é impedir que referencias cruzadas ou ideas contidas
 nun texto queden cortadas arbitrariamente ao final dun \textit{chunk}, xa que
-nese caso o LLM non podería comprender o contexto completo.
+nese caso o LLM podería non comprender o contexto completo.
 
-Cada fragmento de texto (\textit{chunk}) xera, ademais do seu contido, un
-conxunto de metadatos que inclúen: o hipervínculo de orixe da páxina, a data da
-última actualización do documento orixinal (obtida durante o \textit{crawling})
-e outros campos auxiliares para a trazabilidade. Estes metadatos almacénanse
-xunto co vector resultante e son recuperados co texto durante a busca, o que
-permite ao sistema referenciar a fonte exacta e avaliar a vixencia da
-información.
+Antes da fragmentación, cada documento é enriquecido cun breve texto de contexto
+(\textit{pre-chunk}) que se antepón ao contido principal. Este texto inclúe
+información básica como o título do documento, o hipervínculo de orixe e a
+data da última modificación (nas bandeiras de execución do programa, este modo chámase \textcolor{gray}{\texttt{source}}). O seu obxectivo é proporcionar ao modelo un contexto
+mínimo e consistente sobre a procedencia do fragmento, mellorando a interpretación
+durante a xeración da resposta. Considerouse a posibilidade de xerar este contexto
+de forma máis elaborada mediante un LLM, mais debido ao gran volume de documentos
+e ao custo computacional asociado, optouse finalmente por unha solución máis
+sinxela e eficiente, aínda que o programa permite o seu uso.
 
-Para o almacenamento e indexación eficiente dos \textit{embeddings}, emprégase
+Para o almacenamento e indexación dos \textit{embeddings}, emprégase
 FAISS (\textit{Facebook AI Similarity Search}) \cite{johnson2019billion}, unha
-biblioteca optimizada para a busca de similaridade en espazos vectoriais de alta
-dimensionalidade. FAISS implementa algoritmos de busca aproximada de veciños
-máis próximos (ANN, \textit{Approximate Nearest Neighbors}), que permiten
-realizar consultas en millóns de vectores de forma eficiente. O proceso funciona
-do seguinte xeito: cada \textit{chunk} de texto convértese nun vector denso
-(\textit{embedding}) mediante un modelo de linguaxe especializado; estes
-vectores almacénanse, xunto cos seus metadatos, nunha estrutura de índice
-optimizada; e cando se realiza unha consulta, FAISS calcula rapidamente os
-vectores máis similares utilizando medidas de distancia como a similaridade
-coseno ou a distancia euclidiana~\cite{douze2024faiss}.
-
-
-
-
-
+biblioteca especializada na busca de similaridade en espazos vectoriais de alta
+dimensionalidade. No noso caso, o índice utilizado é de tipo \textit{IndexFlatL2},
+o que realiza unha busca exacta (brute-force) dos veciños máis próximos, calculando
+as distancias de forma determinista sen aproximacións. Cada \textit{chunk} de texto
+convértese nun vector denso (\textit{embedding}) mediante o modelo
+\textit{all-MiniLM-L6-v2} da familia Sentence-Transformers \cite{wang-etal-2024-searching}. Este modelo está baseado
+na arquitectura MiniLM, unha versión destilada e optimizada de BERT, e foi
+entrenado mediante a técnica Sentence-BERT para a xeración de embeddings semánticos.
+Estes vectores almacénanse, nunha estrutura de índice
+optimizada; e cando se realiza unha consulta, FAISS calcula os vectores máis similares
+utilizando medidas de distancia euclidiana~\cite{douze2024faiss}.
+Só se xeran novos \textit{embeddings} para aqueles documentos que o \textit{crawler}
+identifica como modificados, permitindo un reprocesado incremental eficiente.
+O índice FAISS pódese reconstruír totalmente de cada vez, un gasto
+computacional asumible que garante a consistencia da base de vectores.
 
 \subsection{O sistema de recuperación}
 
 O sistema polo que o RAG recibe os documentos relevantes para cada consulta
-recibe múltiples iteracións e cambios tras varias fases de testeo e
+recibe múltiples iteracións e cambios tras varias fases de probas e
 replanteamento teórico. Trátase dun compoñente clave do sistema e non ten unha
 solución trivial, pois é un área de investigación moi activa
-\cite{systematic_rag_2025}. Poderíase dicir que, aínda que a área de RI
-(Recuperación de Información) parecía estar algo estancada nos últimos anos
-debido aos bos resultados que alcanzaron os buscadores web, agora volve a verse
-moi activa grazas ao xurdimento dos sistemas RAG.
+\cite{systematic_rag_2025}.
 
-Inicialmente, o sistema empregou un método de recuperación baseado
-exclusivamente na similitude coseno sobre vectores FAISS. Porén, durante as
-primeiras probas comprobouse que esta aproximación podía non ofrecer os
-resultados esperados, xa que daba a mesma importancia a todas as palabras da
-consulta, sen ter en conta cal podería ser a palabra clave máis relevante. A
-maioría das consultas, especialmente aquelas de carácter burocrático, conteñen
-moitas palabras comúns e repetidas ao longo da colección de documentos (como
-\textit{proceso}, \textit{documento} ou \textit{normativa}), o que podía facer
-que o sistema recuperase documentos pouco relevantes.
+Primeiro de todo, explorouse unha aproximación baseada en métodos clásicos de
+recuperación léxica, en particular TF-IDF \cite{sparck_jones1972}. Este enfoque
+permitía identificar termos discriminativos dentro da colección e ofrecía unha
+interpretación directa das puntuacións obtidas. Porén, durante a experimentación
+observouse que TF-IDF presentaba puntuacións significativamente máis baixas en
+comparación coa recuperación densa baseada en FAISS, o que complicaba a súa combinación
+directa. Ademais, a súa sensibilidade a termos frecuentes obrigaba a introducir
+estratexias de normalización ou ponderación para poder fusionar puntuacións con
+FAISS.
 
-Como primeira mellora, implementouse MMR (Maximal Marginal Relevance) en lugar
-da similitude coseno. A idea subxacente era que, deste xeito, non se
-recuperarían documentos redundantes entre si, xa que se existisen varios
-documentos moi similares, a súa información adicional para a consulta sería
-limitada. Non obstante, durante a experimentación observouse que esta suposición
-non se cumpría no noso dominio. É moi común atopar diferentes documentos
-oficiais que repiten a mesma información, ou varias versións e revisións dun
-proceso en distintos documentos. Neses casos, o sistema tendía a devolver só un
-deles, perdéndose información relevante ou, incluso, indicando un proceso xa
-obsoleto, ao priorizar a diversidade fronte á exhaustividade
-\cite{carbonell1998mmr}. Esta problemática, relacionada coa vixencia temporal
-dos documentos, constitúe un dos maiores retos deste proxecto (e de calquera
-sistema RAG que manipule información cambiante ao longo do tempo
-\cite{grofsky2025freshness}) e será tratada con maior detalle máis adiante, xa
-que require modificacións en diversas partes do sistema.
+Estas limitacións motivaron a adopción de BM25, un modelo que mellora o TF-IDF
+para recuperación léxica, aplicando normalización por lonxitude de documento
+e saturación da frecuencia de termos, obtendo resultados máis robustos e compatibles
+coa recuperación densa \cite{robertson1995okapi}.
 
-Unha vez comprobado que o MMR non era axeitado para o noso dominio, retomouse o
-enfoque orixinal, pero buscando unha maneira de discriminar mellor entre os
-termos relevantes e irrelevantes da consulta. Para iso, decidiuse explorar
-métodos clásicos de recuperación, como o TF-IDF (Term Frequency – Inverse
-Document Frequency) \cite{sparck_jones1972}. A primeira aplicación consistiu
-en usalo para reordenar (\textit{reranking}) os documentos xa recuperados por
-FAISS. Con todo, axiña se observou que esta estratexia non ofrecía resultados
-óptimos, xa que simplemente cambiaba a orde dos documentos recuperados, sen
-engadir novos documentos relevantes que puidesen ser ignorados pola similitude
-coseno.
+Como experimento adicional, implementouse un \textit{reranker} básico baseado
+na identificación das 25 palabras máis frecuentes da colección, tratándoas como
+\textit{stopwords} dinámicas para penalizar documentos excesivamente xerais. Aínda
+que este enfoque mostrou resultados prometedores, non chegou a ser explotado
+en profundidade debido ao enfoque posto na evolución cara a \textit{TILDEv2} e
+ás limitacións temporais da práctica (véxase a Sección~\ref{sec:extensiones}
+para unha discusión sobre estratexias avanzadas de reranking).
 
-A solución final adoptada foi un sistema híbrido que combina as puntuacións da
-similitude coseno (recuperación densa) e do BM25 (unha mellora sobre o TF-IDF
-para recuperación léxica ou dispersa), mediante pesos configurables. Despois
-dunha avaliación da literatura, no inicio, estableceuse un balance de 50/50 entre
-ambos métodos, un enfoque común en sistemas RAG actuais
-\cite{regulatory_hybrid_2025}, \cite{adobe_hybrid_2024}, máis unha vez
-deseñado un \textit{pipeline} para realizar validación, optouse por usar tal
-experimento para determinar empíricamente o mellor valor de peso, ademáis do
-mellor \textit{chunk size}.
+Inicialmente, o sistema empregou un método de recuperación baseado exclusivamente
+en vectores FAISS mediante busca por similitude euclidiana \cite{langchainfaiss}. Porén, durante as primeiras probas
+comprobouse que esta aproximación podía non ofrecer os resultados esperados,
+xa que daba a mesma importancia a todas as palabras da consulta, sen ter en conta
+cal podería ser a palabra clave máis relevante. A maioría das consultas, especialmente
+aquelas de carácter burocrático, conteñen moitas palabras comúns e repetidas ao
+longo da colección de documentos, o que podía facer que o sistema recuperase documentos
+pouco relevantes.
+
+Como primeira mellora, experimentouse con MMR (Maximal Marginal Relevance), un
+algoritmo que busca documentos relevantes evitando redundancia entre eles. A idea
+subxacente era que, deste xeito, non se recuperarían documentos redundantes entre si,
+xa que se existisen varios documentos moi similares, a súa información adicional
+para a consulta sería limitada. Non obstante, durante a experimentación observouse
+que esta suposición non se cumpría no noso dominio. É moi común atopar diferentes
+documentos oficiais que repiten a mesma información, ou varias versións e revisións
+dun proceso en distintos documentos. Neses casos, o sistema tendía a devolver só
+un deles, perdéndose información relevante ou, incluso, indicando un proceso xa
+obsoleto, ao priorizar a diversidade fronte á exhaustividade \cite{carbonell1998mmr}.
+Esta problemática, relacionada coa vixencia temporal dos documentos, constitúe un
+dos maiores retos deste proxecto (e de calquera sistema RAG que manipule información
+cambiante ao longo do tempo \cite{grofsky2025freshness}) e será tratada con maior
+detalle máis adiante.
+
+Descartado MMR, como solución óptima (aínda que o programa permite o seu uso), a solución final adoptada consistiu en manter similitude euclidiana sobre vectores densos e incorporar BM25, co que xa se experimentara e investigara inicialmente, como
+compoñente léxico adicional á recuperación de FAISS, creando así un sistema
+híbrido que combina ambas estratexias mediante pesos configurables. Posteriormente axustáronse empiricamente xunto co mellor tamaño de
+\textit{chunk} mediante un \textit{pipeline} de validación (véxase a subsección sobre o uso do mecanismo de validación como avaliador para máis detalles sobre este proceso de optimización).
 
 Ademais, o fluxo de recuperación intégrase dentro dunha canle máis ampla de
-procesamento da consulta. Antes de realizar a búsqueda, lévasse a cabo unha
+procesamento da consulta. Antes de realizar a búsqueda, lévase a cabo unha
 \textit{clasificación da consulta} (mediante un LLM lixeiro, como Claude Haiku)
-para determinar se é necesario recuperar documentos. En caso afirmativo,
-aplícase un \textit{reescrito da consulta} (\textit{query rewriting}), co
-obxectivo de optimizar a súa formulación para a busca tanto no índice denso
-(FAISS) como no léxico (BM25). Os documentos recuperados por este sistema
-híbrido, xunto coa consulta orixinal, pásanlle finalmente a un modelo de
-linguaxe máis grande (como Claude Sonnet) para xerar a resposta final.
-
-
+para determinar se é necesario recuperar documentos. En caso afirmativo, aplícase
+un \textit{reescrito da consulta} (\textit{query rewriting}), co obxectivo de optimizar
+a súa formulación para a busca tanto no índice denso (FAISS) como no léxico (BM25).
+Os documentos recuperados por este sistema híbrido, xunto coa consulta orixinal,
+pásanlle finalmente a un modelo de linguaxe máis grande (como Claude Sonnet) para
+xerar a resposta final.
 
 
 
@@ -633,26 +601,25 @@ de Claude Haiku e Sonnet implementa esta estratexia adaptándoa aos recursos e
 limitacións do noso entorno.
 
 
-\subsubsection{Xestión de vixencia dos documentos}
+\subsection{Xestión de vixencia dos documentos}
 Como xa foi mencionado anteriormente, o problema de tratar cun \textit{corpus}
-destas caracterísitcas é o averiguar se un documento dispoñible foi derrogado ou
+destas caracterísitcas é averiguar se un documento dispoñible foi derrogado ou
 non, é moi común que as páxinas que os manteñen non sexan borradas e sigan
-mostrándoo como se seguera tendo relevancia. Tal problemática non é única a esta
-aplicación enconcreto pois constité un dos grandes campos de investigacións dos
+mostrándoo como se seguise tendo relevancia. Tal problemática non é única a esta
+aplicación en concreto, pois supón un dos grandes campos de investigación dos
 \textit{Ragsystems}. 
 
 A solución proposta e implementada ten unha parte de extracción de información,
 é tarefa do \textit{crawler} asignar a cada documento retribuído unha data (o
 campo \textit{last\_modified} de cada URL), mais en caso de que tal dato non sexa
-accesible (o server da páxina non o mostra), a responsabilidade de otrogarlle
-unha data de vixencia aos documentos recae no LLM, isto conseguese engadindo a
-obriga de intentar sempre dar unha data de cada fonte de información ao
-\textit{prompt} inicial. 
+accesible (o server da páxina non o mostra), a responsabilidade de 
+xestionar a vixencia dos documentos recae no LLM, isto conseguese con enxeñaría de \texttt{prompts}, engadindo a
+obriga de intentar sempre dar unha data a partir do 
 
 Na práctica poderíase pensar que na maioría dos casos o LLM non será capaz de
 atopar unha data no documento, máis facendo unha breve búsqueda sobre o
 \textit{corpus} as ocurrencias de datas son moi comúns, de feito un 67\% dos
-documentos que non dispoñel de \textit{last\_modified} teñen algunha data neles
+documentos que non dispoñen de \textit{last\_modified} teñen algunha data neles
 que o LLM analizará como válida (ou non).
 
 Deste xeito conséguese que o RAGsystem non só preste atención á vixencia das
@@ -690,6 +657,27 @@ AS ferramentas principais da que nosa implementación fai uso son as seguintes:
 
 
 \chapter{Instalación e uso}
+
+O sistema foi desenvolvido e probado en Python nas versións 3.12 a 3.14, garantindo
+compatibilidade con estas versións do intérprete. Para instalar e executar o chatbot,
+seguir os seguintes pasos:
+
+\begin{lstlisting}[style=terminal]
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements
+python -m src.crawl # Lanza o crawler e xera o corpus de documentos
+python -m src.main # Lanza o RAGSystem e construe a base de vectores
+\end{lstlisting}
+
+\textbf{Nota importante:} A primeira execución do sistema tardará un tempo considerable,
+xa que é necesario completar dous procesos intensivos: primeiro, o \textit{crawler}
+debe percorrer e descargar todos os documentos dos portais web da universidade; segundo,
+o sistema debe xerar e almacenar os \textit{embeddings} de todos os fragmentos de texto
+na base de vectores FAISS. Execucións posteriores serán significativamente máis rápidas,
+xa que o \textit{crawler} só actualizará documentos modificados e os \textit{embeddings}
+xa estarán dispoñibles na caché. Unha vez finalizado este proceso inicial, o chatbot
+estará listo para responder consultas de forma interactiva.
 
 
 
@@ -828,7 +816,7 @@ O uso de \textit{LLM-as-judge} permite:
 \end{itemize}
 
 
-\subsubsection{Uso do mecanismo de avaliación como métrica}
+\subsection{Uso do mecanismo de validación como avaliador}
 Anteriormente fíxose referencia a como empregariamos o \textit{pipeline} de
 avaliación para atopar un máximo no espacio de hiperparámetros do modelo, sendo
 estes o \textit{chunk size} e o peso entre a busca densa e a dispersa.
@@ -937,7 +925,7 @@ rendemento absoluto en escenarios de produción \cite{rag_eval_survey_2024}.
 traballo desenvolveuse un \textit{chatbot} baseado en arquitectura RAG para asistir aos
 membros da comunidade universitaria da UDC na resolución de dúbidas sobre
 procesos burocráticos e documentación oficial. O sistema combina un
-\textit{crawler} especializado para a recolleción automática de documentación
+\textit{crawler} especializado para a recolección automática de documentación
 dispersa nos portais web da universidade cun sistema híbrido de recuperación que
 integra busca densa (FAISS) e dispersa (BM25), xerando respostas fundamentadas
 en fontes oficiais verificables mediante modelos de linguaxe.
@@ -949,7 +937,7 @@ recuperación dispersa xoga un papel especialmente relevante, obtendo un peso
 desenvolvemento do \textit{crawler}, que incorpora técnicas de OCR para extraer
 texto de imaxes e táboas, permitiu construír un corpus de case 5.000 documentos
 con metadatos de trazabilidad e vixencia temporal. A validación experimental,
-mediante métricas clásicas de RI e avaliación con \textit{LLM-as-judge},
+mediante métricas clásicas de RI e avaliación da xeración con \textit{LLM-as-judge},
 confirmou a viabilidade da aproximación, aínda que os resultados non son
 directamente extrapolables a un escenario de produción de maior escala.
 
@@ -972,6 +960,7 @@ académico.
 
 
 \section{Extensións arquitectónicas e metodolóxicas}
+\label{sec:extensiones}
 
 Ademais da ampliación das dimensións de avaliación, existen varias liñas de
 mellora de arquitectura que poderían reforzar o rendemento e a robustez do
@@ -1259,26 +1248,53 @@ polo \textit{crawler} para determinar a relevancia das páxinas:
     width=\textwidth,  % Asegura que no se salga del ancho de página
     coltitle=black]
 \begin{spacing}{0.85}  % Reduce el interlineado ligeramente
-=== Taboa 1 ===
-fila 1: [de usuarios]-GRUPO 1 [de usuarios]-GRUPO 1 [de documentos en préstamo]-GRUPO 1 [Dias de préstamo]-GRUPO 1 [Renovaciones]-GRUPO 1 [Reservas]-GRUPO 1
-fila 2: [de usuarios]-de Grado de centros prapios adscritos [de usuarios]-de Grado de centros prapios adscritos [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
-fila 3: [de usuarios]-de programa de [de usuarios]-(Erasmus, Sicue-Séneca) [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
-fila 4: [de usuarios]-Estudiantada de doble Grado, de simultaneidad [de usuarios]-Estudiantada de doble Grado, de simultaneidad [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
-fila 5: [de usuarios]-Estudiantado de grados interuniversitarios [de usuarios]-Estudiantado de grados interuniversitarios [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
-fila 6: [de usuarios]-Estudiantada da Universidad Sénior [de usuarios]-Estudiantada da Universidad Sénior [de documentos en préstamo]-10 [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite 10 does,
-fila 7: [de usuarios]-Estudiantado de MASTERES posgrados propios, los dela Universidade da Corufia [de usuarios]-Estudiantado de MASTERES posgrados propios, los dela Universidade da Corufia [de documentos en préstamo]-15 [Dias de préstamo]-21 dias [Renovaciones]-Indefinidas [Reservas]-Limite 15 does,
-fila 8: [de usuarios]-Estudiantada de Trabajos de fin de grado [de usuarios]-Estudiantada de Trabajos de fin de grado [de documentos en préstamo]-15 [Dias de préstamo]-21 dias [Renovaciones]-Indefinidas [Reservas]-Limite 15 does,
-fila 9: [de usuarios]-Personal de administracion en servicio (PTGAS) [de usuarios]-Personal de administracion en servicio (PTGAS) [de documentos en préstamo]-15 [Dias de préstamo]-21 dias [Renovaciones]-Indefinidas [Reservas]-Limite 15 does,
-fila 10: [de usuarios]-Estudiantada de [de usuarios]-Estudiantada de [de documentos en préstamo]-35 [Dias de préstamo]-30 dias [Renovaciones]-Indefinidas [Reservas]-Limite 85 does,
-fila 11: [de usuarios]-Personal investigador visitante: visitante seniar/ visitante postdactoral [de usuarios]-Personal investigador visitante: visitante seniar/ visitante postdactoral [de documentos en préstamo]-35 [Dias de préstamo]-30 dias [Renovaciones]-Indefinidas [Reservas]-Limite 85 does,
-fila 12: [de usuarios]-de investigacion [de usuarios]-de investigacion [de documentos en préstamo]-35 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 85 does,
-fila 13: [de usuarios]-Personal contratada investigador [de usuarios]-Personal contratada investigador [de documentos en préstamo]-35 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 85 does,
-fila 14: [de usuarios]-GRUPOS [de usuarios]-GRUPOS [de documentos en préstamo]-GRUPOS [Dias de préstamo]-GRUPOS [Renovaciones]-GRUPOS [Reservas]-GRUPOS
-fila 15: [de usuarios]-PDI da UDC (incluyendo centros adscritas), de la Fundacion UDC [de usuarios]-PDI da UDC (incluyendo centros adscritas), de la Fundacion UDC [de documentos en préstamo]-100 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 100 does.
-fila 16: [de usuarios]-Profesorado jubilado incentivado honorario [de usuarios]-Profesorado jubilado incentivado honorario [de documentos en préstamo]-100 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 100 does.
-fila 17: [de usuarios]-Profesorado visitante [de usuarios]-Profesorado visitante [de documentos en préstamo]-100 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 100 does.
-fila 18: [de usuarios]-Lectores/as [de usuarios]-Lectores/as [de documentos en préstamo]-100 [Dias de préstamo]-Curso académico (cada biblioteca podré excluir de este tipo de préstamo por razén de uso y disponibilidad) [Renovaciones]-Indefinidas [Reservas]-Limite 100 does.
-fila 19: [de usuarios]-Cualquier persona ajenaa la comunidad universitaria dela UDC que sea autorizada por la Biblioteca Universitaria [de usuarios]-Cualquier persona ajenaa la comunidad universitaria dela UDC que sea autorizada por la Biblioteca Universitaria [de documentos en préstamo]-None [Dias de préstamo]-10 dias [Renovaciones]-Indefinidas [Reservas]-Limite does,
+[Tipos de usuarios
+
+N? de documentos en préstamo
+
+Días de préstamo
+
+Renovaciones
+
+Reservas
+
+GRUPO 1
+
+Estudiantado de Grado de centros propios y adscritos
+
+Estudiantado de programa de movilidad (Erasmus, Sicue-Séneca)
+
+Estudiantado de doble Grado, de simultaneidad 10 10 días Indefinidas | Límite 10 docs.
+Estudiantado de grados interuniversitarios
+Estudiantado da Universidad Séntor
+GRUPO 2
+Estudiantado de MASTERES e posgrados propios, incluyendo los
+dela Fundación Universidade da Coruña . ,
+15 21 días Indefinidas | Límite 15 docs.
+Estudiantado de Trabajos de fin de grado.
+Personal de administración en servicio (PTGAS)
+GRUPO 3
+Estudiantado de Doctorado 35 30 días Indefinidas | Límite 35 does.
+Personal investigador visitante; visitant tant
+'ersonal investigador visitante: visitante senior] visitante 35 30 días indefinidas | Límite 38 docs
+predoctoral o postdactoral
+GRUPO 4
+Becarios/as de investigación Curso académico
+Personal contratado investigador (cada biblioteca podrá excluir
+35 de este tipo de préstamo Indefinidas | Límite 35 docs.
+documentos par razón de uso y
+disponibilidad)
+GRUPO 5
+PDI da UDC (incluyendo centros adscritos), de la Fundación UDC Curso académico
+Profesorado emérito, jubilado incentivado y honorario (cada biblioteca podrá excluir
+Profesorado visitante 100 de este tipo de préstamo Indefíridas | Límite 100 docs.
+Lectores/as documentos par razón de uso y
+disponibilidad)
+GRUPO 6
+Cual ! idad taria de la UDC
+cualquier persona ajena a la comunidad universitaria dela 6 10 días indefinidas | Límite 6 docs
+
+que sea autorizada por la Biblioteca Universitaria
 
 
 \end{spacing}
@@ -1286,11 +1302,30 @@ fila 19: [de usuarios]-Cualquier persona ajenaa la comunidad universitaria dela 
 
 \section{Progresión de páxinas \textit{retrieveadas} ao longo do crawleo}
 \label{fig:crawling}
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
     \includegraphics[width=\textwidth]{imaxes/crawl_speed.png}
     \caption{Progresión da eficiencia do \textit{crawler} ao longo do tempo}
     \label{fig:crawlerRun}
+\end{figure}
+
+\section{Lei de Zipf e Principio de Pareto no corpus}
+\label{app:zipf_pareto}
+
+Tamén se observa o principio de Pareto: aproximadamente o 20\% das palabras máis frecuentes representan arredor do 80\% das ocorrencias, aínda que neste corpus a relación é máis extrema: o 2,1\% do vocabulario alcanza o 80\% das ocorrencias e o 20\% cobre o 97,5\%.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imaxes/zipf.png}
+    \caption{Frecuencia de termos en diversas linguas \cite{wikipedia_zipf}}
+    \label{figZipf}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{imaxes/analisis_corpus.png}
+    \caption{Gráficos de distribución de lonxitude de documentos e frecuencia de termos}
+    \label{figEDA}
 \end{figure}
 
 \chapter{Análise do Corpus}
@@ -1306,6 +1341,7 @@ fila 19: [de usuarios]-Cualquier persona ajenaa la comunidad universitaria dela 
 
 
 \section{Relevancia dos documentos}
+\label{app:relDoc}
 
 \begin{figure}[H]
     \centering
@@ -1427,7 +1463,7 @@ repetir o texto do fragmento.
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.7\textwidth]{imaxes/histograma_datas.png}
-    \caption{}
+    \caption{Distribución de datas presentes no contido dos documentos sen \texttt{last\_modified}}
     \label{fig:tempohist}
 \end{figure}
 
@@ -1435,7 +1471,7 @@ repetir o texto do fragmento.
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.9\textwidth]{imaxes/temporal.jpeg}
-    \caption{}
+    \caption{Exemplo de saída TUI}
     \label{fig:temporal}
 \end{figure}
 
