@@ -261,7 +261,7 @@ Ademais, o volume total de información a recoller presenta un límite de tamañ
 
 Deste xeito, a solución proposta concíbese como un método sinxelo pero funcional,
 baseado nunha asignación de relevancia binaria (\emph{relevante} ou
-\emph{non relevante}) a partir de \textit{keywords}. A pesar da súa simplicidade,
+\emph{non relevante}) a partir de \textit{keywords}\footnote{Pódese vela presenza destas keywords, e por consiguiente o efecto de poda do sistema sobre a árbore da web no Apéndice \ref{app:relDoc}}. A pesar da súa simplicidade,
 este enfoque está estreitamente relacionado cos métodos pioneiros de
 \textit{focused crawling} \cite{Chakrabarti1999}, que sentaron as bases para a
 recuperación de información temática na web.
@@ -616,7 +616,7 @@ accesible (o server da páxina non o mostra), a responsabilidade de
 xestionar a vixencia dos documentos recae no LLM, isto conseguese con enxeñaría de \texttt{prompts}, engadindo a
 obriga de intentar sempre dar unha data a partir do 
 
-Na práctica poderíase pensar que na maioría dos casos o llm non será capaz de
+Na práctica poderíase pensar que na maioría dos casos o LLM non será capaz de
 atopar unha data no documento, máis facendo unha breve búsqueda sobre o
 \textit{corpus} as ocurrencias de datas son moi comúns, de feito un 67\% dos
 documentos que non dispoñen de \textit{last\_modified} teñen algunha data neles
@@ -1304,7 +1304,7 @@ que sea autorizada por la Biblioteca Universitaria
 \label{fig:crawling}
 \begin{figure}[H]
   \centering
-    \includegraphics[width=0.9\textwidth]{imaxes/crawl_speed.png}
+    \includegraphics[width=\textwidth]{imaxes/crawl_speed.png}
     \caption{Progresión da eficiencia do \textit{crawler} ao longo do tempo}
     \label{fig:crawlerRun}
 \end{figure}
@@ -1335,9 +1335,21 @@ Tamén se observa o principio de Pareto: aproximadamente o 20\% das palabras má
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.6\textwidth]{imaxes/formatos_documentos.png}
-    \caption{Distribución de tipos de ficheiros no corpus}
+    \caption{ ~Distribución de tipos de ficheiros no corpus. Observamos que, malia a web estar constituída por documentos HTML, está tan poboada de documentos de normativa en formato PDF que a razón e casi cinconta cinconta.}
     \label{fig:file_types_distribution}
 \end{figure}
+
+
+\section{Relevancia dos documentos}
+\label{app:relDoc}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{imaxes/numero_palabras_clave_documentos.png}
+    \caption{ ~Presencia de palabras chave nos documentos \emph{crawleados}. Pódese ver que o mecanismo implementado de descartar documentos sen palabras chave realmente supón unha gran poda na árbore da web da UDC.}
+    \label{fig:file_types_distribution}
+\end{figure}
+
 
 \section{Palabras máis frecuentes}
 
@@ -1408,7 +1420,7 @@ Tamén se observa o principio de Pareto: aproximadamente o 20\% das palabras má
 \end{table}
 
 \chapter{Máis acerca da construción da base vectorial}
-\section{\textit{Prompt} utilizado para que un llm xere contextos de \textit{chunk}}
+\section{\textit{Prompt} utilizado para que un LLM xere contextos de \textit{chunk}}
 \label{sec: prechunk}
 \begin{tcolorbox}[promptbox,title={Contextual Prompt - Galician},label=prompt:contextual:gl]
 \begin{Verbatim}[fontsize=\small]
