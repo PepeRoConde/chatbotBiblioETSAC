@@ -16,6 +16,8 @@ local_vectorstore/*
 crawl/crawled_data/*
 corpora/*
 
+crawl/*
+
 # LaTeX
 *.swp
 *.aux
