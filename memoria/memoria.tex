@@ -284,7 +284,7 @@ reconstruiu foi a seguinte:
 Se ben existe certa información que o LLM obviou por ser incompleta, a
 información importante está presente, demostrando que os LLMs son capaces de
 reconstruir e interpretar a información extraída mediante OCR, incluso cando
-esté representada en formatos mais complexos como o é unha táboa.
+esté representada en formatos mais complexos como o é unha táboa. 
 
 \subsection{Funcionamento interno do \textit{Crawler}}
 
@@ -298,13 +298,24 @@ universitaria segundo a lista de \textit{keywords} antes exposta. Os recursos
 descargados almacénanse de forma organizada no sistema de ficheiros local,
 mentres que un sistema de metadatos rexistra información sobre cada recurso para
 optimizar futuras execucións, concretamente garda o \textit{etag} e a data de
-última modificación de cada páxina, ademáis da data de descarga. 
+última modificación de cada páxina, ademáis da data de descarga.
 
-En canto ás imaxes, aplícase OCR a todas as presentes en cada documento e
-decídese se gardar o texto extraído ou non segundo se presenta máis dun mínimo
-de caracteres. Todo este proceso realízase ao final de crawlear cada páxina, os
-arquivos de imaxe vanse engadindo a unha pila, e esta é procesada cando xa
-extraéronse as hiperreferencias a outras páxinas e os documentos PDF. 
+En canto ás imaxes, aplícase OCR a todas as presentes en cada documento. O
+proceso realízase en dúas fases consecutivas: primeiro procésase coa libraría
+\texttt{img2table} (deseñada para extraer texto de táboas en imaxes) e, se esta
+primeira fase non extrae un número mínimo de caracteres, entón aplícase un
+segundo OCR utilizando \texttt{pytesseract} de xeito estándar. O texto extraído
+por OCR intégrase directamente no contido textual da páxina á que pertence a
+imaxe: engádese ao ficheiro de texto correspondente cun \textit{header} que
+indica a súa orixe (\texttt{[TÁBOA OCR]} ou \texttt{[IMAXE OCR]}), permitindo
+así conservar tanto o texto HTML como o contido visual nun único documento
+estruturado.
+
+Decídese se gardar o texto extraído ou non segundo se presenta máis dun mínimo
+de caracteres definido. Todo este proceso realízase ao final de
+\textit{crawlear} cada páxina: os arquivos de imaxe vanse engadindo a unha pila,
+e esta é procesada unha vez xa se extraeron as hiperreferencias a outras páxinas
+e os documentos PDF.
 
 Para acelerar o proceso de \textit{crawling} aplicáronse técnicas de
 programación concurrente. É posible establecer un número de traballadores aos
@@ -312,11 +323,11 @@ cales se lles asignará unha URL como base desde onde iniciar o crawler, deste
 xeito, é posible ter múltiples crawlers simultáneamente navegando a rede da
 universidade. Para non xerar problemas de lectura/escritura nos ficheiros onde
 se escriben os metadatos ou o rexistro de páxinas visitadas, implementáronse
-\textit{locks}, deste xeito dous \textit{crawlers} non podrán escribir á vez nun
-mesmo documento. Implementar esta técnica foi de gran utilidade, pois a
-navegación e descarga de páxinas web vai fancéndose máis lenta segundo o tempo
-de \textit{crawling}, pois é mais difícil atopar páxinas relevantes non
-visitadas, no apéndice~\ref{fig:crawlerRun} pódense consultar gráficas acerca
+\textit{locks}, deste xeito dous \textit{crawlers} non poderán escribir á vez
+nun mesmo documento. Implementar esta técnica foi de gran utilidade, pois a
+navegación e descarga de páxinas web vai facéndose máis lenta segundo o tempo de
+\textit{crawling}, xa que é máis difícil atopar páxinas relevantes non
+visitadas; no apéndice~\ref{fig:crawlerRun} pódense consultar gráficas acerca
 dun crawleo que o confirman.
 
 \section{Análise dos datos obtidos mediante o \textit{Crawler}} Tras un facer un
@@ -411,47 +422,64 @@ pura.
 
 O sistema RAG (Retrieval-Augmented Generation) implementado constitúe o núcleo
 do chatbot, combinando técnicas de recuperación de información con modelos de
-linguaxe xerativos. O proceso de resposta a unha consulta desenvólvese en varias
-etapas: primeiro, a pregunta do usuario convértese nun vector mediante
-embeddings semánticos que capturan o seu significado; a continuación, este
-vector empregase para buscar no vectorstore os documentos máis relevantes
-mediante similitude coseno, recuperando os $k$ fragmentos de texto máis próximos
-semanticamente á consulta. Para mellorar a calidade da recuperación, o sistema
-incorpora un compoñente de reranking baseado en TF-IDF que permite reordenar os
-documentos recuperados segundo a súa relevancia léxica, ou ben combinarse de
-forma híbrida coas puntuacións vectoriais mediante pesos configurables. Unha vez
-identificados os fragmentos máis relevantes, estes incorpóranse como contexto
-nunha plantilla de prompt xunto co historial recente da conversación, permitindo
-que o modelo de linguaxe (Claude, ChatGPT ou calquera compatible con
-\textit{Langchain}) xere unha resposta fundamentada na documentación oficial da
-universidade. O sistema mantén un historial de conversación de lonxitude
-configurable que permite responder a preguntas que fan referencia a interaccións
-previas, dotando ao chatbot de capacidade contextual e conversacional. Ademais,
-cada documento recuperado enriquécese con metadatos que inclúen a súa puntuación
-de relevancia tanto vectorial como TF-IDF, facilitando a trazabilidad e
-verificación das fontes empregadas para xerar cada resposta.
+linguaxe xerativos. O proceso de resposta a unha consulta desenvólvese nun fluxo
+secuencial e optimizado:
 
+Inicialmente, a consulta do usuario pasa por un módulo de \textit{clasificación}
+realizado por un modelo de linguaxe lixeiro (Claude Haiku) para determinar se
+require recuperación de documentación. Cando é necesaria, a mesma consulta é
+\textit{reescrita} (\textit{query rewriting}) para mellorar a súa formulación
+tanto para a busca semántica como léxica.
 
-\subsection{Construcción da base de vectores}
-[\cite{lewis2020retrieval}] A base de vectores (vectorstore) constrúese a partir
-dos documentos recollidos e previamente convertidos a texto plano (.txt) polo
-\textit{crawler}. Cada documento é fragmentando despois en varios \textit
-{chunks} de tamano configurable, á vez que se establece un \textit{overlap} que
-especifica cantos tokens comparten os fragmentos consecutivos, súa utilidade é
-impedir que existan referencias cruzadas dentro dun texto non se vexan cortadas
-por terminarse o chunk, xa que nese caso o LLM non podería entender o contexto
-completo.  
+Para a recuperación, empregase un sistema \textit{híbrido} que combina busca
+densa (mediante embeddings semánticos e similitude coseno en FAISS) e busca
+léxica (usando BM25, unha evolución do TF-IDF). As puntuacións de ambos métodos
+fusiónanse con pesos determinados empiricamente,
+seleccionando os $k$ fragmentos de texto máis relevantes da base de documentos
+da universidade.
 
-Para o almacenamento e indexación eficiente dos embeddings, emprégase FAISS
-(\textit{Facebook AI Similarity Search})~[\cite{johnson2019billion}], unha
+Os documentos recuperados, xunto coa consulta orixinal e o historial de
+conversación (de lonxitude configurable), intégranse nun prompt estruturado.
+Este pasa a un modelo de linguaxe grande (Claude Sonnet) escollido pola súa
+capacidade de razoamento e, especialmente, pola súa efectividade na comunicación
+entre axentes e o seguimento de instrucións complexas
+[\cite{claude-agents-2024}]. O modelo xera así unha resposta precisa
+fundamentada na documentación oficial.
+
+O sistema enriquece cada documento recuperado con metadatos que inclúen as súas
+procedencias (hipervínculos), datas (de actualización da páxina), puntuacións de
+relevancia tanto da busca densa como da léxica, garantindo total trazabilidade e
+permitindo a verificación das fontes utilizadas en cada resposta.
+
+\subsection{Construción da base de vectores}
+[\cite{lewis2020retrieval}] A base de vectores (\textit{vectorstore}) constrúese
+a partir dos documentos recollidos e previamente convertidos a texto plano
+(.txt) polo \textit{crawler}. Cada documento é fragmentado en varios
+\textit{chunks} de tamaño configurable, establecéndose tamén un \textit{overlap}
+que especifica cantos \textit{tokens} comparten os fragmentos consecutivos. A
+utilidade deste solapamento é impedir que referencias cruzadas ou ideas contidas
+nun texto queden cortadas arbitrariamente ao final dun \textit{chunk}, xa que
+nese caso o LLM non podería comprender o contexto completo.
+
+Cada fragmento de texto (\textit{chunk}) xera, ademais do seu contido, un
+conxunto de metadatos que inclúen: o hipervínculo de orixe da páxina, a data da
+última actualización do documento orixinal (obtida durante o \textit{crawling})
+e outros campos auxiliares para a trazabilidade. Estes metadatos almacénanse
+xunto co vector resultante e son recuperados co texto durante a busca, o que
+permite ao sistema referenciar a fonte exacta e avaliar a vixencia da
+información.
+
+Para o almacenamento e indexación eficiente dos \textit{embeddings}, emprégase
+FAISS (\textit{Facebook AI Similarity Search})~[\cite{johnson2019billion}], unha
 biblioteca optimizada para a busca de similaridade en espazos vectoriais de alta
-dimensionalidade. FAISS implementa algoritmos de busca aproximada de veciños máis
-próximos (ANN, \textit{Approximate Nearest Neighbors}), que permiten realizar
-consultas en millóns de vectores de forma eficiente. O proceso funciona do
-seguinte xeito: cada chunk de texto convértese nun vector denso (embedding)
-mediante un modelo de linguaxe, estes vectores almacénanse nunha estrutura de
-índice optimizada, e cando se realiza unha consulta, FAISS calcula rapidamente
-os vectores máis similares utilizando medidas de distancia como a similaridade
+dimensionalidade. FAISS implementa algoritmos de busca aproximada de veciños
+máis próximos (ANN, \textit{Approximate Nearest Neighbors}), que permiten
+realizar consultas en millóns de vectores de forma eficiente. O proceso funciona
+do seguinte xeito: cada \textit{chunk} de texto convértese nun vector denso
+(\textit{embedding}) mediante un modelo de linguaxe especializado; estes
+vectores almacénanse, xunto cos seus metadatos, nunha estrutura de índice
+optimizada; e cando se realiza unha consulta, FAISS calcula rapidamente os
+vectores máis similares utilizando medidas de distancia como a similaridade
 coseno ou a distancia euclidiana~[\cite{douze2024faiss}].
 
 
@@ -459,60 +487,73 @@ coseno ou a distancia euclidiana~[\cite{douze2024faiss}].
 
 
 
-
-
 \subsection{O sistema de recuperación}
+
 O sistema polo que o RAG recibe os documentos relevantes para cada consulta
-recibiu múltiples iteraciones e cambios tras varias fases de testeo e
+recibe múltiples iteracións e cambios tras varias fases de testeo e
 replanteamento teórico. Trátase dun compoñente clave do sistema e non ten unha
 solución trivial, pois é un área de investigación moi activa
-[\cite{systematic_rag_2025}], poderíase dicir que se ben a área de IR parecía
-estar algo estancada nos últimos anos, debido aos bos resultados que alcanzaron
-os buscadores web, agora volve a verse moi activa grazas ao xurdimento dos
-RAGsystems.
+[\cite{systematic_rag_2025}]. Poderíase dicir que, aínda que a área de RI
+(Recuperación de Información) parecía estar algo estancada nos últimos anos
+debido aos bos resultados que alcanzaron os buscadores web, agora volve a verse
+moi activa grazas ao xurdimento dos sistemas RAG.
 
-Comezou empregando un sistema de recuperación baseado exclusivamente en
-similitude coseno de vectores FAISS. Mais tras comprobar que tal
-\textit{approach} podía non dar os resultados esperados, pois da a mesma
-importancia a todas as palabras da consulta, non ten en conta cal pode ser a
-palabra clave máis relevante. A maioría das consultas (especialmente
-burocráticas) van ter moitas palabras moi comúns e repetidas ao longo da
-colección de documentos (proceso, documento, normativa) que poden facer que o
-sistema recupere documentos pouco relevantes. 
+Inicialmente, o sistema empregou un método de recuperación baseado
+exclusivamente na similitude coseno sobre vectores FAISS. Porén, durante as
+primeiras probas comprobouse que esta aproximación podía non ofrecer os
+resultados esperados, xa que daba a mesma importancia a todas as palabras da
+consulta, sen ter en conta cal podería ser a palabra clave máis relevante. A
+maioría das consultas, especialmente aquelas de carácter burocrático, conteñen
+moitas palabras comúns e repetidas ao longo da colección de documentos (como
+\textit{proceso}, \textit{documento} ou \textit{normativa}), o que podía facer
+que o sistema recuperase documentos pouco relevantes.
 
-A primeira solución implementada foi aplicar MMR (Maximal Marginal Relevance) no
-canto da similaridade coseno. O fundamento detrás desta idea era que deste xeito
-non desenvolverianse documentos moi redundantes entre sí, xa que no caso de
-existir varios documentos moi relevantes entre sí, súa información útil para a
-consulta sería menor, mais durante a experimentación comprobouse que na
-realidade non se cumple tal suposición. 
+Como primeira mellora, implementouse MMR (Maximal Marginal Relevance) en lugar
+da similitude coseno. A idea subxacente era que, deste xeito, non se
+recuperarían documentos redundantes entre si, xa que se existisen varios
+documentos moi similares, a súa información adicional para a consulta sería
+limitada. Non obstante, durante a experimentación observouse que esta suposición
+non se cumpría no noso dominio. É moi común atopar diferentes documentos
+oficiais que repiten a mesma información, ou varias versións e revisións dun
+proceso en distintos documentos. Neses casos, o sistema tendía a devolver só un
+deles, perdéndose información relevante ou, incluso, indicando un proceso xa
+obsoleto, ao priorizar a diversidade fronte á exhaustividade
+[\cite{carbonell1998mmr}]. Esta problemática, relacionada coa vixencia temporal
+dos documentos, constitúe un dos maiores retos deste proxecto (e de calquera
+sistema RAG que manipule información cambiante ao longo do tempo
+[\cite{grofsky2025freshness}]) e será tratada con maior detalle máis adiante, xa
+que require modificacións en diversas partes do sistema.
 
-É moi común ver diferentes documentos oficiais que repiten a mesma información
-ou varias versións e revisións dun proceso en diferentes documentos. En tal caso
-é probable que o sistema devolva un só deles, perdéndose información relevante
-ou directamente indicando un proceso obsoleto, xa que prioriza diversidade ante
-exhaustuvudade [\cite{carbonell1998mmr}]. Por outra banda, esta problemática
-acerca da vixencia temporal dos documentos é unha das maiores problemáticas
-neste proxecto (e en calquera RAG que manexe información cambiante ao longo do
-tempo [\cite{grofsky2025freshness}]) e tratarase máis adiante, xa que require
-modificación en diversas partes do sistema. 
+Unha vez comprobado que o MMR non era axeitado para o noso dominio, retomouse o
+enfoque orixinal, pero buscando unha maneira de discriminar mellor entre os
+termos relevantes e irrelevantes da consulta. Para iso, decidiuse explorar
+métodos clásicos de recuperación, como o TF-IDF (Term Frequency – Inverse
+Document Frequency) [\cite{sparck_jones1972}]. A primeira aplicación consistiu
+en usalo para reordenar (\textit{reranking}) os documentos xa recuperados por
+FAISS. Con todo, axiña se observou que esta estratexia non ofrecía resultados
+óptimos, xa que simplemente cambiaba a orde dos documentos recuperados, sen
+engadir novos documentos relevantes que puidesen ser ignorados pola similitude
+coseno.
 
-Sabendo que o MMR mom é axeitado ao noso dominio, decidiuse volver cara o
-enfoque orixinal, pero esta buscando a maneira de discriminar mellor entre os
-términos relevantes e irrelevantes, existe un método que consegue estes
-resultados desde fai tempo, o TF-IDF (Term Frequency - Inverse Document
-Frequency) [\cite{sparck_jones1972}]. A forma de aplicalo inicialmente foi
-utilizalo para rerankear os documentos recuperados polo FAISS, é dicir, cos n
-documentos devoltos mediante a similaridade coseno, estes reordéanse segundo a
-ponderación tf-idf. Prontamente caeuse na conta de que deste xeito non obtense
-resultados demasiado óptimos pois simplemente cambia de orde os documentos
-retrieveados polo FAISS, mais non engade novos documentos que poidan ser
-relevantes e que a similaridade coseno obvia. Por iso, a solución final foi
-empregar un sistema híbrido, onde se combinan as puntuacións de similitude
-coseno e tf-idf mediante pesos configurables (50/50 no caso actual). Tal enfoque
-é moi común nos RAGsystems actuais como no caso de \cite{regulatory_hybrid_2025}
-e \cite{adobe_hybrid_2024}.
+A solución final adoptada foi un sistema híbrido que combina as puntuacións da
+similitude coseno (recuperación densa) e do BM25 (unha mellora sobre o TF-IDF
+para recuperación léxica ou dispersa), mediante pesos configurables. Despois
+dunha avaliación da literatura, no inicio, estableceuse un balance de 50/50 entre
+ambos métodos, un enfoque común en sistemas RAG actuais
+[\cite{regulatory_hybrid_2025}, \cite{adobe_hybrid_2024}], máis unha vez
+deseñado un \textit{pipeline} para realizar validación, optouse por usar tal
+experimento para determinar empíricamente o mellor valor de peso, ademáis do
+mellor \textit{chunk size}.
 
+Ademais, o fluxo de recuperación intégrase dentro dunha canle máis ampla de
+procesamento da consulta. Antes de realizar a búsqueda, lévasse a cabo unha
+\textit{clasificación da consulta} (mediante un LLM lixeiro, como Claude Haiku)
+para determinar se é necesario recuperar documentos. En caso afirmativo,
+aplícase un \textit{reescrito da consulta} (\textit{query rewriting}), co
+obxectivo de optimizar a súa formulación para a busca tanto no índice denso
+(FAISS) como no léxico (BM25). Os documentos recuperados por este sistema
+híbrido, xunto coa consulta orixinal, pásanlle finalmente a un modelo de
+linguaxe máis grande (como Claude Sonnet) para xerar a resposta final.
 
 
 
@@ -520,6 +561,36 @@ e \cite{adobe_hybrid_2024}.
 
 
 \section{Os modelos}
+
+A elección dos modelos de linguaxe no sistema RAG realizouse atendendo a
+criterios de eficiencia, latencia e rendemento específico para cada tarefa do
+fluxo. O sistema emprega de xeito estratéxico modelos de diferentes capacidades
+segundo a súa función dentro da arquitectura, optimizando así o balance entre
+precisión e tempo de resposta.
+
+Para as tarefas iniciais de procesamento da consulta (clasificación para
+determinar a necesidade de recuperación de documentos e reescritura
+(\textit{query rewriting}) para mellorar a formulación da busca) utilízase
+\textbf{Claude Haiku}. Este modelo, sendo o máis rápido e económico da familia
+Claude de Anthropic, é ideal para tarefas lixeiras de comprensión e
+transformación textual que non requiren razoamento profundo pero si baixa
+latencia.
+
+Para a fase central de xeración da resposta, empregase \textbf{Claude Sonnet}.
+Este modelo ofrece un equilibrio óptimo entre capacidades de razoamento,
+seguimento de instrucións complexas e eficiencia, sendo especialmente adecuado
+para sintetizar información de múltiples documentos e producir respostas
+coherentes, precisas e ben fundamentadas. A súa capacidade para traballar con
+\textit{prompts} estruturados que inclúen contexto recuperado, historial de
+conversación e instrucións específicas de formato resulta clave para a calidade
+final do sistema.
+
+Esta separación de responsabilidades (con modelos lixeiros para tarefas previas
+e un modelo máis capaz para a xeración final) segue unha práctica común en
+arquitecturas de sistemas RAG, onde se busca minimizar a latencia e o custo
+computacional sen comprometer a calidade das respostas
+[\cite{lakshmanan2024rag}, \cite{gao2023retrieval}].
+
 \section{Ferramentas usadas}
 
 \chapter{Instalación e uso}
@@ -533,47 +604,123 @@ e \cite{adobe_hybrid_2024}.
 \section{Validación do sistema RAG}
 
 \subsection{Complexidade da validación}
-A validación dun sistema Retrieval-Augmented Generation (RAG) é intrinsecamente complexa debido á súa natureza híbrida, xa que combina dous subsistemas conceptualmente distintos pero fortemente acoplados: o módulo de \textit{retrieval}, encargado de seleccionar a información relevante, e o módulo de \textit{generation}, responsable de producir a resposta final condicionada polo contexto recuperado. Avaliar correctamente un sistema RAG implica analizar de forma separada e conxunta ambos compoñentes, así como a súa interacción, incrementando notablemente a dificultade do proceso de validación \cite{rag_eval_survey_2024}.
+A validación dun sistema Retrieval-Augmented Generation (RAG) é intrinsecamente
+complexa debido á súa natureza híbrida, xa que combina dous subsistemas
+conceptualmente distintos pero fortemente acoplados: o módulo de
+\textit{retrieval}, encargado de seleccionar a información relevante, e o módulo
+de \textit{generation}, responsable de producir a resposta final condicionada
+polo contexto recuperado. Avaliar correctamente un sistema RAG implica analizar
+de forma separada e conxunta ambos compoñentes, así como a súa interacción,
+incrementando notablemente a dificultade do proceso de validación
+\cite{rag_eval_survey_2024}.
 
-Ademais, unha avaliación rigorosa require a disposición de conxuntos de datos anotados e métricas específicas para cada etapa do pipeline. A literatura sinala que a definición de \textit{ground truth} fiable —cun conxunto completo de documentos relevantes e respostas correctas— é custosa en tempo e recursos, e que as métricas existentes poden verse afectadas pola variabilidade na anotación humana \cite{rag_eval_survey_2024,llm_judge_eval_2024}.
+Ademais, unha avaliación rigorosa require a disposición de conxuntos de datos
+anotados e métricas específicas para cada etapa do pipeline. A literatura sinala
+que a definición de \textit{ground truth} fiable —cun conxunto completo de
+documentos relevantes e respostas correctas— é custosa en tempo e recursos, e
+que as métricas existentes poden verse afectadas pola variabilidade na anotación
+humana \cite{rag_eval_survey_2024,llm_judge_eval_2024}.
 
 \subsection{Conxunto de validación}
-Para realizar unha avaliación práctica e reproducible dentro das limitacións do proxecto, construíuse un conxunto de validación reducido composto por \textbf{25 preguntas}. Cada pregunta está asociada a unha resposta esperada e ao documento concreto do corpus onde se atopa a información necesaria para resolvela. Na maioría dos casos, a información relevante localízase de forma explícita nun único documento.
+Para realizar unha avaliación práctica e reproducible dentro das limitacións do
+proxecto, construíuse un conxunto de validación reducido composto por \textbf{25
+preguntas}. Cada pregunta está asociada a unha resposta esperada e ao documento
+concreto do corpus onde se atopa a información necesaria para resolvela. Na
+maioría dos casos, a información relevante localízase de forma explícita nun
+único documento.
 
-É importante destacar que esta avaliación realízase sobre un \textbf{corpus reducido e controlado de documentos}. Este corpus representa só unha fracción do conxunto total de documentos que o sistema RAG manexará nun contexto real, onde se espera que haxa moitos máis documentos, algúns dos cales poderían recuperarse sen ser necesarios para responder a consulta concreta. Traballar cun corpus acotado permite, con todo, illar variables e analizar de forma precisa o comportamento do sistema. En particular, pódese estudar o impacto de parámetros como estratexias de recuperación, métricas de similitude, tamaño de chunk ou número de documentos recuperados, aspectos relevantes no deseño práctico de sistemas RAG \cite{rag_required_abilities_2023}.
+É importante destacar que esta avaliación realízase sobre un \textbf{corpus
+reducido e controlado de documentos}. Este corpus representa só unha fracción do
+conxunto total de documentos que o sistema RAG manexará nun contexto real, onde
+se espera que haxa moitos máis documentos, algúns dos cales poderían recuperarse
+sen ser necesarios para responder a consulta concreta. Traballar cun corpus
+acotado permite, con todo, illar variables e analizar de forma precisa o
+comportamento do sistema. En particular, pódese estudar o impacto de parámetros
+como estratexias de recuperación, métricas de similitude, tamaño de chunk ou
+número de documentos recuperados, aspectos relevantes no deseño práctico de
+sistemas RAG \cite{rag_required_abilities_2023}.
 
 
-Esta aproximación debe considerarse \textbf{subestimada e conservadora}, xa que en escenarios reais poderían existir múltiples documentos relevantes por consulta non cubertos neste estudo. As métricas obtidas non buscan medir o rendemento absoluto do sistema en produción, senón servir como base experimental para estudar o impacto relativo das distintas decisións de deseño do RAG.
+Esta aproximación debe considerarse \textbf{subestimada e conservadora}, xa que
+en escenarios reais poderían existir múltiples documentos relevantes por
+consulta non cubertos neste estudo. As métricas obtidas non buscan medir o
+rendemento absoluto do sistema en produción, senón servir como base experimental
+para estudar o impacto relativo das distintas decisións de deseño do RAG.
 
-\subsection{Evaluación do módulo de \textit{retrieval}}
-O módulo de recuperación avalíase de forma independente mediante métricas clásicas de \textit{Information Retrieval}, adaptadas ao contexto dun sistema RAG:
+\subsection{Evaluación do módulo de \textit{retrieval}} O módulo de recuperación
+avalíase de forma independente mediante métricas clásicas de \textit{Information
+Retrieval}, adaptadas ao contexto dun sistema RAG:
 
 \begin{itemize}
-    \item \textbf{Recall@10}: proporción de documentos relevantes que aparecen entre los 10 primeros resultados recuperados. Calculase como a fracción de documentos relevantes presentes no top-10 do ranking. Aínda que presentamos principalmente o \textbf{recall fraccional}, convén aclarar que neste conxunto de validación cada pregunta adoita ter un único documento relevante. Polo tanto, nesta situación o recall fraccional é practicamente equivalente ao \textbf{recall binario}, que indica se polo menos un documento relevante aparece entre os top-10. Esta métrica reflicte a capacidade do sistema de garantir que a información esencial chega ao modelo xerativo.
-    \item \textbf{MRR (Mean Reciprocal Rank)}: penaliza a aparición tardía do primeiro documento relevante no ranking. Calculase como o recíproco da posición do primeiro documento relevante atopado (1 se é o primeiro, 0.5 se é o segundo, etc.). Esta métrica reflicte a rapidez coa que o sistema proporciona información útil ao LLM.
-    \item \textbf{Precision@10}: proporción de \textit{chunks} recuperados que pertencen a documentos relevantes dentro dos 10 primeiros resultados. Avalía a capacidade do sistema para minimizar a recuperación de información irrelevante, especialmente crítico en corpus grandes ou ruidosos. Esta métrica é a nivel de chunk, reflectindo o nivel de “ruído” que chega ao LLM.
+    \item \textbf{Recall@10}: proporción de documentos relevantes que aparecen
+    entre los 10 primeros resultados recuperados. Calculase como a fracción de
+    documentos relevantes presentes no top-10 do ranking. Aínda que presentamos
+    principalmente o \textbf{recall fraccional}, convén aclarar que neste
+    conxunto de validación cada pregunta adoita ter un único documento
+    relevante. Polo tanto, nesta situación o recall fraccional é practicamente
+    equivalente ao \textbf{recall binario}, que indica se polo menos un
+    documento relevante aparece entre os top-10. Esta métrica reflicte a
+    capacidade do sistema de garantir que a información esencial chega ao modelo
+    xerativo.
+    \item \textbf{MRR (Mean Reciprocal Rank)}: penaliza a aparición tardía do
+    primeiro documento relevante no ranking. Calculase como o recíproco da
+    posición do primeiro documento relevante atopado (1 se é o primeiro, 0.5 se
+    é o segundo, etc.). Esta métrica reflicte a rapidez coa que o sistema
+    proporciona información útil ao LLM.
+    \item \textbf{Precision@10}: proporción de \textit{chunks} recuperados que
+    pertencen a documentos relevantes dentro dos 10 primeiros resultados. Avalía
+    a capacidade do sistema para minimizar a recuperación de información
+    irrelevante, especialmente crítico en corpus grandes ou ruidosos. Esta
+    métrica é a nivel de chunk, reflectindo o nivel de “ruído” que chega ao LLM.
 \end{itemize}
 
-No noso sistema, o \textbf{recall e o MRR calcúlase a nivel de documento}, considerando cada documento como unha unidade discreta de relevancia. Isto simplifica a avaliación e garante que se mida a efectividade do sistema en levar información esencial ao modelo xerativo, independentemente de como os documentos estean fragmentados en chunks para a súa utilización polo LLM. 
+No noso sistema, o \textbf{recall e o MRR calcúlase a nivel de documento},
+considerando cada documento como unha unidade discreta de relevancia. Isto
+simplifica a avaliación e garante que se mida a efectividade do sistema en levar
+información esencial ao modelo xerativo, independentemente de como os documentos
+estean fragmentados en chunks para a súa utilización polo LLM. 
 
-Pola súa banda, a \textbf{precision} calcúlase a nivel de chunk, como proporción de fragments pertencentes a documentos relevantes entre os recuperados. Este enfoque mixto (recall a nivel documento, precision a nivel chunk) proporciona unha visión útil para o desempeño do sistema RAG: asegura que a información clave está dispoñible para o LLM, ao mesmo tempo que avalía a calidade do material recuperado.
+Pola súa banda, a \textbf{precision} calcúlase a nivel de chunk, como proporción
+de fragments pertencentes a documentos relevantes entre os recuperados. Este
+enfoque mixto (recall a nivel documento, precision a nivel chunk) proporciona
+unha visión útil para o desempeño do sistema RAG: asegura que a información
+clave está dispoñible para o LLM, ao mesmo tempo que avalía a calidade do
+material recuperado.
 
 \subsection{Evaluación da xeración}
 A avaliación do módulo de xeración céntrase en dúas dimensións complementarias:
 
 \begin{itemize}
-    \item \textbf{Answer Relevance}: mide se a resposta aborda correctamente a pregunta e evita información irrelevante. Esta métrica non xulga a veracidade, só a pertinencia.
-    \item \textbf{Answer Faithfulness}: avalía se as afirmacións contidas na resposta están efectivamente respaldadas polo contexto recuperado polo módulo de \textit{retrieval}, detectando posibles alucinacións ou información non soportada.
+    \item \textbf{Answer Relevance}: mide se a resposta aborda correctamente a
+    pregunta e evita información irrelevante. Esta métrica non xulga a
+    veracidade, só a pertinencia.
+    \item \textbf{Answer Faithfulness}: avalía se as afirmacións contidas na
+    resposta están efectivamente respaldadas polo contexto recuperado polo
+    módulo de \textit{retrieval}, detectando posibles alucinacións ou
+    información non soportada.
 \end{itemize}
 
-\subsubsection{Mecanismo de avaliación: \textit{LLM-as-judge}}
-Para automatizar a avaliación empregouse un modelo de linguaxe avanzado (\textbf{GPT-5.2}) como avaliador (\textit{LLM-as-judge}), garantindo capacidade suficiente para xulgar de forma coherente e consistente as respostas do xerador \cite{llm_judge_eval_2024}. Este enfoque permite unha avaliación máis detallada que as métricas clásicas, incorporando aspectos de completitude, coherencia e consistencia co contexto.
+\subsubsection{Mecanismo de avaliación: \textit{LLM-as-judge}} Para automatizar
+a avaliación empregouse un modelo de linguaxe avanzado (\textbf{GPT-5.2}) como
+avaliador (\textit{LLM-as-judge}), garantindo capacidade suficiente para xulgar
+de forma coherente e consistente as respostas do xerador
+\cite{llm_judge_eval_2024}. Este enfoque permite unha avaliación máis detallada
+que as métricas clásicas, incorporando aspectos de completitude, coherencia e
+consistencia co contexto.
 
 \paragraph{Faithfulness}
-O LLM analiza cada resposta dividíndoa en afirmacións atómicas e comproba se cada unha está efectivamente respaldada polo contexto recuperado. O score final, entre 0 e 1, representa a proporción de afirmacións verificadas. Ademais, xérase unha explicación detallada que identifica que afirmacións fallaron e por que, permitindo unha maior transparencia na avaliación e a detección de posibles alucinacións ou inclusión de información externa ao contexto.
+O LLM analiza cada resposta dividíndoa en afirmacións atómicas e comproba se
+cada unha está efectivamente respaldada polo contexto recuperado. O score final,
+entre 0 e 1, representa a proporción de afirmacións verificadas. Ademais, xérase
+unha explicación detallada que identifica que afirmacións fallaron e por que,
+permitindo unha maior transparencia na avaliación e a detección de posibles
+alucinacións ou inclusión de información externa ao contexto.
 
 \paragraph{Relevance}
-A relevancia mide se a resposta aborda todos os puntos da pregunta de forma concisa e útil, evitando información irrelevante ou redundante. Tamén retorna un score entre 0 e 1 e unha explicación que describe posibles omisións ou exceso de información.
+A relevancia mide se a resposta aborda todos os puntos da pregunta de forma
+concisa e útil, evitando información irrelevante ou redundante. Tamén retorna un
+score entre 0 e 1 e unha explicación que describe posibles omisións ou exceso de
+información.
 
 \paragraph{Beneficios do enfoque}
 
@@ -584,10 +731,94 @@ O uso de \textit{LLM-as-judge} permite:
     \item Reducir a dependencia do etiquetado humano para a avaliación detallada de respostas.
 \end{itemize}
 
-\subsection{Consideracións sobre o corpus reducido}
-O estudo realizouse sobre un \textbf{corpus reducido e controlado de documentos}. Isto permite illar variables e analizar o impacto de parámetros como: as estratexias de recuperación (TF-IDF, híbridas, reranking) ou o tamaño de chunk e superposición
 
-En escenarios de produción, con moitos máis documentos dispoñibles, é altamente probable que o sistema recupere unha maior cantidade de documentos irrelevantes, o que afectará especialmente á \textbf{precision@10}. O estudo realizado neste corpus reducido proporciona unha visión inicial sobre a capacidade do RAG para filtrar información relevante en presenza de ruído documental, e serve como base experimental para estudar o impacto relativo das decisións de deseño.
+\subsubsection{Uso do mecanismo de avaliación como métrica}
+Anteriormente fíxose referencia a como empregariamos o \textit{pipeline} de
+avaliación para atopar un máximo no espacio de hiperparámetros do modelo, sendo
+estes o \textit{chunk size} e o peso entre a busca densa e a dispersa.
+
+Tal experimentación requiriu dunha \textit{grid search} que mediu cinco métricas
+para cada combinación de valores: tres propias de Recuperación de Información
+(\textit{Recall}, \textit{Precision} e \textit{MRR}) e dúas propias da
+avaliación con \textit{LLM-as-judge} (\textit{Faithfulness} e
+\textit{Relevance}). Tras promediar os valores para cada pregunta, puidéronse
+construir \textit{heatmaps} para cada unha das medicións (ver
+Figura~\ref{fig:heatmap_metrics}).
+
+métricas para valores máis altos do peso asignado a BM25 (busca léxica) fronte á
+busca densa (FAISS). A puntuación final de cada documento no sistema híbrido 
+calcúlase mediante a combinación lineal:
+
+\begin{equation}
+Score_{final} = Score_{denso} + \alpha \cdot Score_{disperso}
+\label{eq:score_hibrido}
+\end{equation}
+
+
+
+onde $\alpha$ representa o peso relativo de BM25. Cando $\alpha > 1$, como no 
+valor óptimo de 1.6 atopado, a busca léxica ten maior influencia na selección 
+final. Isto indica que, para o dominio específico da documentación
+burocrática universitaria, a recuperación baseada en coincidencia de termos
+clave é especialmente efectiva. As consultas neste contexto adoitan incluír
+nomes propios de formularios, códigos de procedementos ou termos técnicos moi
+específicos, onde a recuperación léxica supera á semántica pura. Este fenómeno é
+consistente coa literatura que destaca a superioridade de BM25 en dominios con
+vocabulario especializado e baixa variación lexical [\cite{lin2022lexical}].
+Ademais, a natureza formal e estándar da linguaxe administrativa fai que os
+documentos relevantes compartan termos exactos coas consultas, situación onde os
+métodos de recuperación tradicional baseados en termos aínda ofrecen vantaxes
+sobre os enfoques puramente semánticos.
+
+Debido a que é necesario elixir un par de valores para os hiperparámetros,
+optouse por aqueles que maximizan a métrica de \textit{Relevance} obtida
+mediante \textit{LLM-as-judge}. Esta decisión baséase na premisa de que a
+relevancia percibida da resposta final é o criterio de calidade máis alineado
+coa experiencia do usuario final nun sistema de preguntas e respostas. Mentres
+que métricas tradicionais de RI como \textit{Precision} e \textit{Recall} miden
+a eficacia da recuperación de documentos, a \textit{Relevance} evalúa
+directamente se o contido xerado responde de maneira útil e adecuada á intención
+da consulta orixinal. Maximizar esta métrica prioriza que o sistema produza
+respostas substanciais e directamente aplicables, por riba doutras
+consideracións como a exhaustividade bruta (\textit{Recall}) ou a minimización
+de información irrelevante (\textit{Precision}) no contexto recuperado. Esta
+aproximación está avalada por investigacións recentes que suxiren que, en
+sistemas RAG interactivos, a relevancia da resposta xerada é o predictor máis
+forte da satisfacción do usuario [\cite{saad2024evaluating}].
+
+Polo tanto, tras facer un \textit{surface plot}
+(Figura~\ref{fig:surface_plots_contour}) da \textit{Relevance} (e tamén da
+\textit{Faithfulness}), optouse polo par de valores no seu cumio (que o
+maximizan), sendo este un peso de 1.6 para BM25 e un \textit{chunk size} de 2048
+\textit{tokens}. Tamén se realizou un \textit{heatmap} de todas estas métricas
+promediadas (Figura~\ref{fig:heatmap_combined}), onde o par de valores con
+mellor puntuación segue sendo o mesmo.
+
+Non é de estrañar que o \textit{chunk size} óptimo para este dominio sexa
+relativamente grande. A documentación burocrática e administrativa universitaria
+adoita estar estruturada en seccións longas e autocontidas (como procedementos
+completos, regulamentos ou guías), onde o contexto local é crucial para
+comprender requisitos, excepcións ou pasos interrelacionados. Fragmentos
+demasiado pequenos poden separar información conceptualmente unida, dificultando
+que o modelo de linguaxe xere respostas coherentes e exhaustivas. Este resultado
+é consistente coa literatura sobre recuperación en dominios técnicos e legais,
+onde se recomiendan tamaños de fragmento maiores para preservar a integridade
+semántica dos documentos [\cite{wang2023chunking}].
+
+
+
+\subsection{Consideracións sobre o corpus reducido}
+O estudo realizouse sobre un \textbf{corpus reducido e controlado de
+documentos}. Isto permite illar variables e analizar o impacto de parámetros
+como: as estratexias de recuperación (TF-IDF, híbridas, reranking) ou o tamaño
+de chunk e superposición
+
+En escenarios de produción, con moitos máis documentos dispoñibles, é altamente
+probable que o sistema recupere unha maior cantidade de documentos irrelevantes,
+o que afectará especialmente á \textbf{precision@10}. O estudo realizado neste
+corpus reducido proporciona unha visión inicial sobre a capacidade do RAG para
+filtrar información relevante en presenza de ruído documental, e serve como base
+experimental para estudar o impacto relativo das decisións de deseño.
 
 \subsection{Limitacións}
 O conxunto reducido introduce certas limitacións que afectan a toda a validación:
@@ -606,11 +837,21 @@ rendemento absoluto en escenarios de produción \cite{rag_eval_survey_2024}.
 \chapter{Conclusions e traballos futuros}
 
 \section{Extensións da validación}
-A avaliación presentada neste traballo céntrase en métricas clásicas de recuperación e en criterios básicos de calidade da xeración, o cal resulta adecuado para un estudo controlado cun conxunto de validación construído manualmente. Esta elección responde a unha decisión metodolóxica orientada a garantir reproducibilidade, trazabilidade e consistencia na avaliación, máis que a unha limitación conceptual do enfoque.
+A avaliación presentada neste traballo céntrase en métricas clásicas de
+recuperación e en criterios básicos de calidade da xeración, o cal resulta
+adecuado para un estudo controlado cun conxunto de validación construído
+manualmente. Esta elección responde a unha decisión metodolóxica orientada a
+garantir reproducibilidade, trazabilidade e consistencia na avaliación, máis que
+a unha limitación conceptual do enfoque.
 
-A literatura recente sinala que o comportamento dun sistema RAG en escenarios reais depende tamén dun conxunto de capacidades máis avanzadas (\textit{required abilities}), cuxa avaliación resulta máis complexa e require condicións experimentais específicas, como datasets deseñados ad hoc e un maior volume de anotación humana \cite{rag_eval_survey_2024}.
+A literatura recente sinala que o comportamento dun sistema RAG en escenarios
+reais depende tamén dun conxunto de capacidades máis avanzadas (\textit{required
+abilities}), cuxa avaliación resulta máis complexa e require condicións
+experimentais específicas, como datasets deseñados ad hoc e un maior volume de
+anotación humana \cite{rag_eval_survey_2024}.
 
-Como liña de traballo futuro, resulta recomendable ampliar a validación cara á avaliación destas capacidades, entre as que se inclúen:
+Como liña de traballo futuro, resulta recomendable ampliar a validación cara á
+avaliación destas capacidades, entre as que se inclúen:
 \begin{itemize}
     \item \textbf{Noise robustness}: capacidade de xestionar documentos ruidosos semanticamente relacionados coa pregunta pero sen información útil para a resposta.
     \item \textbf{Negative rejection}: habilidade do sistema para recoñecer contextos insuficientes e evitar a xeración de respostas especulativas.
@@ -618,9 +859,13 @@ Como liña de traballo futuro, resulta recomendable ampliar a validación cara �
     \item \textbf{Counterfactual robustness}: aptitude para detectar e ignorar información incorrecta ou contraditoria presente nos documentos recuperados.
 \end{itemize}
 
-A incorporación destas dimensións permitiría unha avaliación máis completa do sistema RAG, pero implicaría a ampliación do conxunto de validación actual ou a creación de novos datasets específicos, así como un maior investimento en anotación humana e deseño experimental. Estas extensións constitúen, por tanto, unha continuidade natural deste traballo,
-orientada a aproximar a avaliación ás condicións reais de uso e a analizar o
-comportamento do sistema en escenarios máis complexos e variados \cite{rag_required_abilities_2023}.
+A incorporación destas dimensións permitiría unha avaliación máis completa do
+sistema RAG, pero implicaría a ampliación do conxunto de validación actual ou a
+creación de novos datasets específicos, así como un maior investimento en
+anotación humana e deseño experimental. Estas extensións constitúen, por tanto,
+unha continuidade natural deste traballo, orientada a aproximar a avaliación ás
+condicións reais de uso e a analizar o comportamento do sistema en escenarios
+máis complexos e variados \cite{rag_required_abilities_2023}.
 
 
 
