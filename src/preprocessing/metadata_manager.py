@@ -5,6 +5,7 @@ import json
 import pickle
 import hashlib
 from datetime import datetime
+from src.utils.rich_utils import get_console
 
 
 class MetadataManager:
@@ -27,8 +28,6 @@ class MetadataManager:
         self.metadata_file = self.cache_dir / "processor_cache.json"
         self.file_metadata = self._load_file_metadata()
         
-        # Use centralized Rich console utility
-        from src.utils.rich_utils import get_console
         self.console = get_console()
     
     def _load_crawler_metadata(self) -> Dict[str, Any]:

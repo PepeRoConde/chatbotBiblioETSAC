@@ -47,7 +47,7 @@ def main():
     parser.add_argument('--bm25_threshold', type=float, default=0.1, help='Minimum BM25 score for filter mode')
     
     # LLM Provider
-    parser.add_argument('--provider', type=str, default='claude', help='LLM provider: mistral or claude')
+    parser.add_argument('--provider', type=str, default='anthropic', help='LLM provider: mistral or claude')
     parser.add_argument('--model', type=str, default='claude-sonnet-4-5', help='Model name for final answers')
     parser.add_argument('--query_model', type=str, default="claude-3-haiku-20240307", help='Model name for query optimization (defaults to same as --model)')
     parser.add_argument('--use_query_optimization',default = True, action='store_true', help='Enable query optimization (two-stage LLM)')
