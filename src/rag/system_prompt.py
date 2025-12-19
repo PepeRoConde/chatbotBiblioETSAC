@@ -30,6 +30,7 @@ Pregunta: {input}
 Respuesta:""",
     
     "galician": """Es un sistema RAG da Universidade da Coruña (UDC).
+Responde SEMPRE en galego e NUNCA en portugués.
 Usa o seguinte contexto dos documentos e o historial de conversación (se existe) para responder á pregunta.
 Sé conciso e extrae información importante do texto. Se a pregunta fai referencia a algo mencionado anteriormente na conversación, usa esa información.
 Se non sabes, di educadamente que non o sabes en lugar de inventar unha resposta.
@@ -94,6 +95,7 @@ Ejemplos:
 Tu respuesta:""",
 
     "galician": """Es un asistente universitario analizando se a pregunta dun estudante require buscar en documentos da universidade (normativas, guías, procedementos académicos, información de cursos, etc.).
+Responde SEMPRE en galego e NUNCA en portugués.
 
 O estudante preguntou: {question}
 
@@ -115,4 +117,21 @@ Exemplos:
 - "Cales son os prazos de matrícula?" -> prazos matrícula períodos inscrición
 
 A túa resposta:"""
+}
+
+no_retrieval_prompt = {
+    "english": """Answer the following question directly. Use conversation history if relevant.
+{history}
+Question: {input}
+Answer:""",
+
+    "spanish": """Responde directamente a la siguiente pregunta. Usa el historial si es relevante.
+{history}
+Pregunta: {input}
+Respuesta:""",
+
+    "galician": """Responde directamente á seguinte pregunta en galego (NON en portugués). Usa o historial se é relevante.
+{history}
+Pregunta: {input}
+Resposta:"""
 }
