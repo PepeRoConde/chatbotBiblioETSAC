@@ -76,13 +76,22 @@
 % Hyperlinks
 \usepackage[colorlinks=true,linkcolor=rosa,citecolor=techblue,urlcolor=techblue]{hyperref}
 
+
 \title{\scshape\Huge\color{rosa}Chatbot para a documentación e normativa da UDC}
+
 \author{
-  Marcelo Ferreiro Sánchez\\
-  Marcos Grobas Martínez\\
-  José Romero Conde
+Marcelo Ferreiro Sánchez \\ 
+\textit{Portavoz do grupo} \\
+\texttt{marcelo.fsanchez} -- \texttt{marcelo.fsanchez@udc.es}
+\and
+Marcos Grobas Martínez \\
+\texttt{marcos.grobas} -- \texttt{marcos.grobas@udc.es}
+\and
+José Romero Conde \\
+\texttt{j.rconde} -- \texttt{j.rconde@udc.es}
 }
-\date{\today}
+
+\date{}
 
 \begin{document}
 
@@ -242,61 +251,39 @@ obxectivos establecidos.
 \end{figure}
 
 
-
 \subsubsection{Procesado de imaxes mediante OCR}
 O recoñecemento óptico de caracteres (OCR, polas súas siglas en inglés) é unha
 técnica que permite extraer texto a partir de imaxes dixitais. A súa aplicación
 máis habitual é a dixitalización de documentos físicos escaneados, mais tamén
 pode empregarse en calquera imaxe que conteña caracteres, como é o caso neste
-traballo. Para este fin, implementouse unha interface en \textit{Python} utilizando
-a librería \textit{pytesseract}, que actúa como envoltorio do motor OCR
-\texttt{Tesseract} \Cite{tesseract_ocr_github}, inicialmente creado por HP e actualmente mantido por Google.
+traballo. Para este fin, implementouse unha interface en \textit{Python}
+empregando a librería \textit{pytesseract}, que actúa como envoltorio do motor
+OCR \texttt{Tesseract} \cite{tesseract_ocr_github}, inicialmente creado por HP e
+actualmente mantido por Google.
 
-Procesar cada imaxe presente nun URL pode parecer custoso desde o punto de
-vista computacional; con todo, a extracción de texto mediante OCR resulta
-realmente rápida. Ademais, a maioría das imaxes son irrelevantes e de tamaño
-pequeno, polo que é posible procesar todas as imaxes dun documento sen
-incorrer en latencia significativa no sistema. Por exemplo, o tempo de procesado
-OCR na imaxe da táboa de préstamos [\ref{figprestamos}] foi de $0.6280$ segundos.
+Desde o punto de vista computacional, o procesado mediante OCR resulta asumible.
+A maioría das imaxes presentes nos documentos son pequenas e irrelevantes, polo
+que a súa análise non introduce unha latencia significativa no sistema. A modo
+ilustrativo, o procesado OCR dunha imaxe tabular real (Figura~\ref{figprestamos})
+presentou un tempo de execución de $0.6280$ segundos, o que confirma a
+viabilidade práctica desta aproximación.
 
-Unha vez demostrado que o procesado é rápido, cómpre avaliar a fidelidade do
-texto extraído respecto do contido orixinal da imaxe. Neste sentido, a táboa
-mencionada anteriormente serve como exemplo real de uso: o texto extraído en
-crú pódese consultar no Apéndice~\ref{app:OCR}. A pesar de que o texto extraído
-non se asemella directamente á táboa orixinal, isto non supón un problema para
-o sistema, pois o LLM é quen debe interpretalo e estruturalo adecuadamente. Un
-xeito práctico de verificar isto consiste en solicitarlle ao modelo que
-reconstrúa a táboa a partir da información OCR; este experimento realizouse
-empregando ChatGPT-5, e a táboa reconstruída demostrou que o modelo pode
-comprender e organizar a información de forma útil para o usuario.
+Durante o desenvolvemento do sistema observouse que unha parte relevante da
+información aparece en forma de táboas embebidas como imaxes. Nunha primeira
+aproximación, estas imaxes procesábanse mediante OCR xeral, obtendo un texto
+plano sen estrutura explícita. Porén, este enfoque presentaba unha limitación
+importante: ao fragmentar posteriormente o texto en \textit{chunks}, a
+estrutura lóxica da táboa perdíase, facendo que os fragmentos resultantes non
+contivesen contexto suficiente para unha interpretación correcta.
 
-\begin{table}[H]
-\centering
-\scriptsize
-\begin{tabular}{@{}p{0.18\textwidth} p{0.3\textwidth} ccc@{}}
-\toprule
-\textbf{Grupo} & \textbf{Tipo de usuarios} & \textbf{Nº docs} & \textbf{Días} & \textbf{Renov.} \\
-\midrule
-\textbf{1} & Estud. Grao (centros propios/adscritos), Mobilidade, Dobre Grao, Graos interuniv., Univ. Sénior & 10 & 10 días & Indef. (Lím. 10) \\
-\midrule
-\textbf{2} & Estud. másteres/posgraos propios (Fund. UDC), Estud. TFG, PTGAS & 15 & 21 días & Indef. (Lím. 15) \\
-\midrule
-\textbf{3} & Estud. Doutoramento, Inv. visitante/senior, Inv. predoc./posdoc & 35 & 30 días & Indef. (Lím. 35) \\
-\midrule
-\textbf{4} & Becarios inv., Pers. contr. inv. \textit{(Exclusión posible)} & 35 & Curso acad. & Indef. (Lím. 35) \\
-\midrule
-\textbf{5} & PDI UDC (inc. adscritos), Fund. UDC, Prof. emérito/xub./hon., Prof. visitante, Lectores \textit{(Exclusión posible)} & 100 & Curso acad. & Indef. (Lím. 100) \\
-\midrule
-\textbf{6} & Persoal externo á UDC, Pers. autoriz. Biblioteca & 6 & 10 días & Indef. (Lím. 6) \\
-\bottomrule
-\end{tabular}
-\caption{Táboa reconstruida mediante LLM (ChatGPT-5)}
-\end{table}
-
-Se ben existe certa información que o LLM obviou por ser incompleta, a
-información importante está presente, demostrando que os LLMs son capaces de
-reconstruir e interpretar a información extraída mediante OCR, incluso cando
-esté representada en formatos mais complexos como o é unha táboa. 
+Para mitigar este problema, adoptouse un enfoque de OCR en dúas modalidades.
+Por unha banda, incorpórase un OCR especializado na detección de estruturas
+tabulares, capaz de identificar filas, columnas e relacións internas. Por outra
+banda, mantense un OCR xeral para aquelas imaxes que non presentan unha
+estrutura tabular clara, como infografías ou imaxes con texto libre. Este deseño
+permite extraer información textual de forma robusta e adaptada á natureza de
+cada imaxe, preservando a estrutura cando esta existe e contribuíndo a eficiencia
+global do sistema.
 
 \subsection{Funcionamento interno do \textit{Crawler}}
 
@@ -721,7 +708,7 @@ O uso de \textit{LLM-as-judge} permite:
 \end{itemize}
 
 
-\subsubsection{Uso do mecanismo de avaliación como métrica}
+\subsection{Uso do mecanismo de avaliación como métrica}
 Anteriormente fíxose referencia a como empregariamos o \textit{pipeline} de
 avaliación para atopar un máximo no espacio de hiperparámetros do modelo, sendo
 estes o \textit{chunk size} e o peso entre a busca densa e a dispersa.
