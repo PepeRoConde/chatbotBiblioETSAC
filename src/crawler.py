@@ -429,9 +429,10 @@ class CrawlerUDC:
         matched_count = len(matched)
         is_bureaucratic = matched_count > 0
     
-        # ---- CSV logging (minimal & append-safe) ----
         file_exists = os.path.isfile(self.csv_path)
+        print('hola')
         with open(self.csv_path, 'a', encoding='utf-8', newline='') as f:
+            print('adios')
             writer = csv.writer(f)
             if not file_exists:
                 writer.writerow([

@@ -2,8 +2,8 @@ import csv
 import matplotlib.pyplot as plt
 from collections import Counter
 
-CSV_PATH = "crawl/bureaucratic_stats.csv"
-OUTPUT_PATH = "numero_palabras_clave_documentos.png"
+CSV_PATH = "crawl/burocracia_stats.csv"
+OUTPUT_PATH = "memoria/imaxes/numero_palabras_clave_documentos.png"
 
 # Read CSV
 counts = []
@@ -69,7 +69,6 @@ ax.set_title(
 ax.legend(
     wedges,
     legend_labels,
-    title="Clasificación",
     loc="center left",
     bbox_to_anchor=(1, 0.5),
     fontsize=11,
