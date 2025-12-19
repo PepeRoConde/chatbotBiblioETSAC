@@ -193,7 +193,7 @@ linguaxe capaz de xerar respostas fundamentadas en contido externo e actualizado
 
 \section{A Arquitectura}
 De maneira xeral, o sistema componse de dúas partes funcionalmente diferenciadas
-pero fortemente interconectadas. Por unha banda, o sistema de \emph{crawling},
+pero fortemente interconectadas. Por unha banda, o sistema de \emph{crawling} \ref{fig:drawio},
 encargado de explorar e percorrer de forma automatizada os distintos portais e
 páxinas web da Universidade da Coruña (UDC), co fin de descargar e
 almacenar aqueles documentos que potencialmente conteñen información relevante.
@@ -1401,8 +1401,17 @@ repetir o texto do fragmento.
 \end{Verbatim}
 \end{tcolorbox}
 
+\chapter{Diagramas acerca da estrutura do RAGsystem}
 
-\chapter{Diagram de comunucación de axentes do \textit{RAG}}
+\section{Diagrama de fluxo do RAG}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.7\textwidth]{imaxes/crawler-processing.png}
+    \caption{Diagrama de fluxo do RAG UDC}
+    \label{fig:drawio}
+\end{figure}
+
+\section{Diagram de comunucación de axentes do \textit{RAG}}
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.7\textwidth]{imaxes/flujo.png}
