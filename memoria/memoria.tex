@@ -31,8 +31,8 @@
 \usepackage{microtype}
 
 % Decorative initials
-\input Eichenla.fd
-\newcommand*\initfamily{\usefont{U}{Eichenla}{xl}{n}}
+
+
 \usepackage{lettrine}
 
 % Colors
@@ -44,10 +44,12 @@
 \definecolor{rosa2}{RGB}{200, 80, 150}
 \definecolor{rosa3}{RGB}{220, 100, 165}
 \definecolor{rosa4}{RGB}{240, 130, 185}
-\definecolor{rosa5}{RGB}{255, 160, 205}
 
 \definecolor{rosaprincipal}{RGB}{181, 60, 135}
 
+
+\usepackage{yfonts}
+\renewcommand*\initfamily[1]{{\color{rosa}\fontsize{70}{70}\selectfont\scalebox{2}{\textgoth{#1}}}}
 % Estilo de tcolorbox único
 \tcbset{
     testbox/.style={
@@ -597,7 +599,7 @@ linguaxe máis grande (como Claude Sonnet) para xerar a resposta final.
 
 
 
-\section{Os modelos}
+\subsection{Os modelos}
 
 A elección dos modelos de linguaxe no sistema RAG realizouse atendendo a
 criterios de eficiencia, latencia e rendemento específico para cada tarefa do
@@ -629,6 +631,36 @@ computacional sen comprometer a calidade das respostas
 \cite{lakshmanan2024rag}, \cite{gao2023retrieval}. Neste proxecto, a elección
 de Claude Haiku e Sonnet implementa esta estratexia adaptándoa aos recursos e
 limitacións do noso entorno.
+
+
+\subsubsection{Xestión de vixencia dos documentos}
+Como xa foi mencionado anteriormente, o problema de tratar cun \textit{corpus}
+destas caracterísitcas é o averiguar se un documento dispoñible foi derrogado ou
+non, é moi común que as páxinas que os manteñen non sexan borradas e sigan
+mostrándoo como se seguera tendo relevancia. Tal problemática non é única a esta
+aplicación enconcreto pois constité un dos grandes campos de investigacións dos
+\textit{Ragsystems}. 
+
+A solución proposta e implementada ten unha parte de extracción de información,
+é tarefa do \textit{crawler} asignar a cada documento retribuído unha data (o
+campo \textit{last\_modified} de cada URL), mais en caso de que tal dato non sexa
+accesible (o server da páxina non o mostra), a responsabilidade de otrogarlle
+unha data de vixencia aos documentos recae no LLM, isto conseguese engadindo a
+obriga de intentar sempre dar unha data de cada fonte de información ao
+\textit{prompt} inicial. 
+
+Na práctica poderíase pensar que na maioría dos casos o llm non será capaz de
+atopar unha data no documento, máis facendo unha breve búsqueda sobre o
+\textit{corpus} as ocurrencias de datas son moi comúns, de feito un 67\% dos
+documentos que non dispoñel de \textit{last\_modified} teñen algunha data neles
+que o LLM analizará como válida (ou non).
+
+Deste xeito conséguese que o RAGsystem non só preste atención á vixencia das
+fontes que utiliza, senón que poderá dar información temporal das mesmas.
+
+No apéndice pódese apreciar unha consulta simple \ref{fig:temporal} ao sistema e cómo este é capaz
+de referir á data.
+
 
 
 \section{Ferramentas usadas}
@@ -899,6 +931,45 @@ rendemento absoluto en escenarios de produción \cite{rag_eval_survey_2024}.
 
 
 \chapter{Conclusions e traballos futuros}
+
+
+\lettrine[lines=3,lraise=0.1,findent=2pt,nindent=0em]{\initfamily{N}}{}este
+traballo desenvolveuse un \textit{chatbot} baseado en arquitectura RAG para asistir aos
+membros da comunidade universitaria da UDC na resolución de dúbidas sobre
+procesos burocráticos e documentación oficial. O sistema combina un
+\textit{crawler} especializado para a recolleción automática de documentación
+dispersa nos portais web da universidade cun sistema híbrido de recuperación que
+integra busca densa (FAISS) e dispersa (BM25), xerando respostas fundamentadas
+en fontes oficiais verificables mediante modelos de linguaxe.
+
+A arquitectura proposta demostrou ser efectiva. A experimentación sistemática
+revelou que no dominio da documentación administrativa universitaria, a
+recuperación dispersa xoga un papel especialmente relevante, obtendo un peso
+óptimo de 1.6 para BM25 e un tamaño de \textit{chunk} de 2048 \textit{tokens}. O
+desenvolvemento do \textit{crawler}, que incorpora técnicas de OCR para extraer
+texto de imaxes e táboas, permitiu construír un corpus de case 5.000 documentos
+con metadatos de trazabilidad e vixencia temporal. A validación experimental,
+mediante métricas clásicas de RI e avaliación con \textit{LLM-as-judge},
+confirmou a viabilidade da aproximación, aínda que os resultados non son
+directamente extrapolables a un escenario de produción de maior escala.
+
+Como traballos futuros, identifícanse varias liñas prioritarias: ampliar o
+conxunto de validación con casos máis complexos, implementar un sistema de
+actualización incremental do \textit{crawler}, explorar técnicas máis
+avanzadas de \textit{reranking} con modelos especializados, e desenvolver
+métodos de razoamento temporal explícito para discriminar entre normativas
+vixentes e obsoletas de forma máis robusta.
+
+En conclusión, este proxecto demostra que a aplicación de técnicas de RAG ao
+dominio da documentación burocrática universitaria é viable. A
+combinación de recuperación híbrida, modelos de linguaxe capaces e metadatos de
+trazabilidad proporciona unha base para facilitar o acceso á información
+administrativa, contribuíndo a simplificar a interacción dos usuarios coa
+burocracia universitaria e liberando tempo para tarefas de maior valor
+académico.
+
+
+
 
 \section{Extensións arquitectónicas e metodolóxicas}
 
@@ -1310,6 +1381,29 @@ repetir o texto do fragmento.
 \end{Verbatim}
 \end{tcolorbox}
 \chapter{Máis acerca da validación do RAGsystem}
+
+
+\section{Vixencia temporal}
+
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.7\textwidth]{imaxes/histograma_datas.png}
+    \caption{}
+    \label{fig:tempohist}
+\end{figure}
+
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.9\textwidth]{imaxes/temporal.jpeg}
+    \caption{}
+    \label{fig:temporal}
+\end{figure}
+
+
+
+
 
 \section{Preguntas de validación}
 
